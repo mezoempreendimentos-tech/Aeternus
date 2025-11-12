@@ -1,0 +1,988 @@
+- description: |-
+    Enormes árvores verdes estão por toda parte.  Um gigantesco portão
+    de madeira pode ser visto ao norte.
+  exits:
+    east:
+      target_vnum: '2070'
+    north:
+      target_vnum: '19002'
+    west:
+      target_vnum: '19033'
+  name: Entrada para a Floresta dos Elfos
+  vnum: '19001'
+- description: |-
+    O caminho segue diretamente por entre a floresta de norte a sul.  Você
+    se sente observado por alguém.  A leste você pode ver uma porta de madeira
+    em uma grande árvore e de cima, você vê uma corda pendendo da árvore.
+  exits:
+    east:
+      target_vnum: '19003'
+    north:
+      target_vnum: '19007'
+    south:
+      target_vnum: '19001'
+    up:
+      target_vnum: '19006'
+  name: O Caminho Vigiado pela Floresta
+  vnum: '19002'
+- description: |-
+    No canto nordeste deste pequenino aposento iluminado encontra-se uma grande
+    mesa redonda de pedra.  A leste e oeste você vê portas.
+  exits:
+    down:
+      target_vnum: '19005'
+    east:
+      target_vnum: '19004'
+    west:
+      target_vnum: '19002'
+  name: A Sala da Guarda
+  vnum: '19003'
+- description: |-
+    Este quarto aparentemente pertence ao chefe da guarda élfica.  Num canto
+    está uma cama grande e há uma porta a oeste.
+  exits:
+    west:
+      target_vnum: '19003'
+  name: O Dormitório do chefe da Guarda
+  vnum: '19004'
+- description: Neste porão úmido há alguma comida e outras coisas estocadas.
+  exits:
+    up:
+      target_vnum: '19003'
+  name: Porão
+  vnum: '19005'
+- description: |-
+    Você está parado em uma plataforma de madeira acima da entrada para a
+    floresta dos Elfos.  Daqui você pode avistar, ao longe, Midgaard.
+  exits:
+    down:
+      target_vnum: '19002'
+  name: Na Plataforma
+  vnum: '19006'
+- description: O caminho segue pela floresta de sul para norte.
+  exits:
+    north:
+      target_vnum: '19008'
+    south:
+      target_vnum: '19002'
+  name: O Caminho Vigiado pela Floresta
+  vnum: '19007'
+- description: |-
+    O caminho se divide em quatro caminhos, um para cada direção.  No
+    meio dessa encruzilhada está um gigantesco obelisco de pedra com algumas
+    runas nele.
+  exits:
+    north:
+      target_vnum: '19009'
+    south:
+      target_vnum: '19007'
+  name: Cruzamento de Caminhos
+  vnum: '19008'
+- description: |-
+    Para ambos os lados desse caminho há portas.  Sobre a porta oeste há
+    um sinal lhe avisando que esta deve ser uma loja de armas, e sobre a porta
+    leste há um sinal familiar indicando uma loja de armaduras.
+  exits:
+    east:
+      target_vnum: '19010'
+    north:
+      target_vnum: '19012'
+    south:
+      target_vnum: '19008'
+    west:
+      target_vnum: '19011'
+  name: "Um Belo Caminho pela Floresta Ã\x89lfica"
+  vnum: '19009'
+- description: Nas paredes desse grande aposento estão belas armaduras élficas expostas.
+  exits:
+    west:
+      target_vnum: '19009'
+  name: "A Loja de Armaduras Ã\x89lficas"
+  vnum: '19010'
+- description: |-
+    Sobre o Balcão e penduradas nas paredes, estão lindas armas de qualidade
+    élfica.
+  exits:
+    east:
+      target_vnum: '19009'
+  name: "A Loja de Armas Ã\x89lficas"
+  vnum: '19011'
+- description: |-
+    Para ambos os lados deste caminho há portas.  Sobre a porta a leste hé uma
+    tabuleta informando que esta deve ser uma loja de Magias, e sobre a porta oeste
+    uma tabuleta informando que se trata do armazém do Quintor.  O caminho segue
+    para o norte.
+  exits:
+    east:
+      target_vnum: '19014'
+    north:
+      target_vnum: '19015'
+    south:
+      target_vnum: '19009'
+    west:
+      target_vnum: '19013'
+  name: "Um Belo Caminho pela Floresta Ã\x89lfica"
+  vnum: '19012'
+- description: |-
+    Neste belo aposento você pode ver coisas de todos os tipos.  Tudo,
+    desde sacos até tochas pode ser visto nas prateleiras.
+  exits:
+    east:
+      target_vnum: '19012'
+  name: Armazém do Quintor
+  vnum: '19013'
+- description: |-
+    Assim que você entra nesta loja você sente um frio no estômago. Há alguma
+    coisa de errado aqui, ou será somente o poder de toda esta mágica encontrada
+    aqui?  Você se encontra cercado por objetos de todos os tamanhos e formas.
+  exits:
+    west:
+      target_vnum: '19012'
+  name: A loja de Magias
+  vnum: '19014'
+- description: |-
+    Para ambos os lados deste caminho estão portas.  Sobre a porta leste há
+    uma placa indicando se tratar da estalagem da vila, e para o norte você vê uma
+    grande casa de dois andares.
+  exits:
+    east:
+      target_vnum: '19016'
+    north:
+      target_vnum: '19017'
+    south:
+      target_vnum: '19012'
+    west:
+      target_vnum: '19034'
+  name: O Final do Belo Caminho
+  vnum: '19015'
+- description: |-
+    Você se encontra em frente ao bar da estalagem.  O bar propriamente dito
+    fica na parede norte, onde velhos escritos élficos, entalhes e símbolos a
+    cobrem.  Uma lareira foi construída na parede leste e pela porta da parede
+    oeste você vê o caminho por onde você veio.  Este lugar lhe faz sentir
+    realmente em casa.
+  exits:
+    up:
+      target_vnum: '19090'
+    west:
+      target_vnum: '19015'
+  name: A Estalagem da Esperança
+  vnum: '19016'
+- description: |-
+    Você está em uma grande ala com uma enorme escada para cima e portas para
+    leste e oeste.
+  exits:
+    east:
+      target_vnum: '19019'
+    south:
+      target_vnum: '19015'
+    up:
+      target_vnum: '19020'
+    west:
+      target_vnum: '19018'
+  name: Dentro da Bela Casa
+  vnum: '19017'
+- description: |-
+    Este quarto parece mais ser a sala da guarda e deve ser mesmo pois você pode
+    ver:
+  exits:
+    east:
+      target_vnum: '19017'
+  name: Sala da Guarda
+  vnum: '19018'
+- description: |-
+    Você está na sala de troféus do Rei.  Nas paredes você pode ver troféus
+    de caça e presentes de todos os tipos pendurados.
+  exits:
+    west:
+      target_vnum: '19017'
+  name: A Sala de Troféus do Rei Elfo
+  vnum: '19019'
+- description: |-
+    Você está subindo a escadaria principal da casa.  A escadaria continua
+    para cima e para baixo.
+  exits:
+    down:
+      target_vnum: '19017'
+    up:
+      target_vnum: '19021'
+  name: A Grande Escadaria
+  vnum: '19020'
+- description: |-
+    Você está em um corredor que leva para leste. Nas paredes norte e sul há
+    portas.
+  exits:
+    down:
+      target_vnum: '19020'
+    east:
+      target_vnum: '19022'
+    north:
+      target_vnum: '19023'
+    south:
+      target_vnum: '19024'
+  name: O Andar de Cima da Casa
+  vnum: '19021'
+- description: |-
+    Você está parado em um corredor com piso e teto de madeira.  Para o norte e
+    sul há portas e há ainda uma janela para leste.
+  exits:
+    east:
+      target_vnum: '19025'
+    north:
+      target_vnum: '19026'
+    south:
+      target_vnum: '19027'
+    west:
+      target_vnum: '19021'
+  name: O Corredor
+  vnum: '19022'
+- description: |-
+    Prateleiras de livros enfileiradas nas paredes dessa sala.  No centro você
+    vê uma pequena mesa com algumas  cadeiras.  As prateleiras estão cheias de
+    livros e pergaminhos.
+  exits:
+    south:
+      target_vnum: '19021'
+  name: A Biblioteca
+  vnum: '19023'
+- description: |-
+    Nesta sala você se sente confortavelmente aquecido pela lareira e
+    confortáveis cadeiras estão dispostas em frente a ela.  Você se sente bem
+    relaxado.  Porque não descansar por alguns instantes?
+  exits:
+    north:
+      target_vnum: '19021'
+  name: A Sala de Estar
+  vnum: '19024'
+- description: "NADA BOM!!! VOCÃ\x8A NÃ\x83O Ã\x89 UM PÃ\x81SSARO, VOCÃ\x8A AGORA\
+    \ VAI MORRER ESBORRACHADO\nNO CHÃ\x83O. REZE AOS DEUSES POR UMA ESPÃ\x81TULA!"
+  exits: {}
+  name: Caindo no Chão
+  vnum: '19025'
+- description: |-
+    Parece um dormitório de quartel com cerca de vinte camas.  Não há outra
+    saída a não ser para o sul.
+  exits:
+    north:
+      target_vnum: '19027'
+    south:
+      target_vnum: '19022'
+  name: Dormitório dos Guardas
+  vnum: '19026'
+- description: 'No meio dessa sala estão alguns equipamentos para treinamento e eles
+    são:'
+  exits:
+    north:
+      target_vnum: '19022'
+    south:
+      target_vnum: '19026'
+  name: A Sala de Treinamento
+  vnum: '19027'
+- description: |-
+    Você está na pequena alameda ligada à Rua Olmo: um caminho pavimentado
+    com grandes pedras azul-chumbo e rodeado por fileiras de altas árvores.
+    Mais adiante, você percebe que o caminho segue bifurcando-se em volta de
+    um jardim central e novamente se une em frente a um imponente portão.
+  exits:
+    south:
+      target_vnum: '2130'
+    west:
+      target_vnum: '3124'
+  name: Na Alameda Azul
+  vnum: '19028'
+- description: |-
+    Você está num dos dois caminhos da Alameda Azul que circundam o pequeno
+    jardim central.  O chão é inteiro pavimentado com pedras azul-chumbo
+    encaixadas perfeitamente umas nas outras.  Há um grande pilar de pedra entre
+    as árvores que ladeiam o caminho e um banco para repousar.
+    Mais a frente você avista um portão.
+  exits:
+    east:
+      target_vnum: '19031'
+  name: Na Alameda Azul
+  vnum: '19029'
+- description: |-
+    Você está num dos dois caminhos da Alameda Azul que circundam o pequeno
+    jardim central.  O chão é inteiro pavimentado com pedras azul-chumbo
+    Encaixadas perfeitamente umas nas outras.  Há um grande pilar de pedra
+    entre.As árvores que ladeiam o caminho e um banco para repousar.
+    Mais a frente você avista um portão.
+  exits:
+    east:
+      target_vnum: '19032'
+  name: Na Alameda Azul
+  vnum: '19030'
+- description: |-
+    Você está caminhando sobre as perfeitas pedras azul-chumbo que pavimentam
+    a Alameda Azul.  Um grande número de altas árvores rodeia o caminho
+    dando-lhe a impressão de estar no meio de uma floresta.  Mais à frente você
+    vê uma espécie de pátio que leva a um grande portão.
+  exits:
+    west:
+      target_vnum: '19029'
+  name: Na Alameda Azul
+  vnum: '19031'
+- description: |-
+    Você está caminhando sobre as perfeitas pedras azul-chumbo que pavimentam
+    a Alameda Azul.  Um grande número de altas árvores rodeia o caminho
+    dando-lhe a impressão de estar no meio de uma floresta.  Mais à frente você
+    vê uma espécie de pátio que leva a um grande portão.
+  exits:
+    west:
+      target_vnum: '19030'
+  name: Na Alameda Azul
+  vnum: '19032'
+- description: |-
+    Você está no centro de um pátio circular e amplo, mas que ainda permanece
+    protegido pelas altas árvores que ladeiam a alameda por toda sua extensão.
+    O chão continua pavimentado com as mesmas pedras de tom azul-chumbo que o
+    resto do caminho, mas subitamente interrompe exatamente abaixo de um grande
+    portão de ferro.  Além desse portão, à leste, você avista ainda outro
+    portão, só que parece ser de madeira.
+  exits:
+    east:
+      target_vnum: '19001'
+  name: Um Pátio na Alameda
+  vnum: '19033'
+- description: |-
+    Você está em uma espécie de caminho escondido por entre altos arbustos.
+    Talvez seja de propósito, talvez não, mas dificilmente alguém desatento
+    repararia nesse caminho.  A oeste você pode seguir por ele e descobrir o que
+    há além dessa barreira verde, ou voltar ao Final do Belo Caminho pelo leste.
+  exits:
+    east:
+      target_vnum: '19015'
+    west:
+      target_vnum: '19047'
+  name: O Caminho Oculto
+  vnum: '19034'
+- description: |-
+    Você está no grande jardim à frente das escadarias do Templo.  Diversas
+    flores forram o chão como um tapete e pequenos arbustos bem-cuidados
+    espalham-se harmoniosamente entre seu ouro, escarlate, anil e as outras
+    diversas cores.  Hábeis mãos élficas devem tratar com muito cuidado e
+    carinho desse pequeno paraíso.
+  exits:
+    north:
+      target_vnum: '19039'
+    south:
+      target_vnum: '19047'
+  name: O Jardim de um Templo
+  vnum: '19035'
+- description: |-
+    Você continua andando por essa espécie de corredor entre árvores
+    altíssimas, com uma rua de pedras irregulares passando bem ao centro.  A sul
+    você vê um caminho levando a duas altas árvores muito juntas, que
+    estranhamente parecem ser gêmeas.  A ruela continua a leste e oeste.
+  exits:
+    east:
+      target_vnum: '19047'
+    south:
+      target_vnum: '19040'
+    west:
+      target_vnum: '19038'
+  name: Uma Calma Ruela
+  vnum: '19036'
+- description: |-
+    Você está subindo pela escada de madeira presa ao tronco de uma grande
+    árvore.  A menos que você esteja vendo coisas, a Prefeitura realmente está
+    acima de sua cabeça.  Já o chão seguro está lá embaixo...
+  exits:
+    down:
+      target_vnum: '19086'
+    up:
+      target_vnum: '19048'
+  name: Na Escada
+  vnum: '19037'
+- description: |-
+    Você continua andando em um corredor entre altíssimas árvores, com uma
+    espécie de rua de pedras irregulares passando bem ao centro.  Você pode
+    caminhar para leste ou norte pela ruela.
+  exits:
+    east:
+      target_vnum: '19036'
+    west:
+      target_vnum: '19085'
+  name: Uma Calma Ruela
+  vnum: '19038'
+- description: |-
+    Você está subindo pelas imponentes escadarias que levam ao Templo da Lua
+    de Prata.  Os degraus são de pedra dura, de um branco gelado com veios
+    cinza-prateado.  Você pode continuar subindo as escadarias ou voltar para o
+    jardim do Templo, a sul.
+  exits:
+    south:
+      target_vnum: '19035'
+    up:
+      target_vnum: '19053'
+  name: As Escadarias do Templo
+  vnum: '19039'
+- description: |-
+    Você está bem embaixo de uma das duas árvores gêmeas.  Sua experiência
+    com as altas árvores da região leva-o a crer que no tronco dela você
+    encontrará algum tipo de escada para subir.  O que você encontrará lá em
+    cima?
+  exits:
+    north:
+      target_vnum: '19036'
+    up:
+      target_vnum: '19046'
+    west:
+      target_vnum: '19041'
+  name: "As Duas Ã\x81rvores"
+  vnum: '19040'
+- description: |-
+    Você está bem embaixo de uma das duas árvores gêmeas.  Sua experiência
+    com as altas árvores da região leva-o a crer que no tronco dela você
+    encontrará algum tipo de escada para subir.  O que você encontrará lá em
+    cima?
+  exits:
+    east:
+      target_vnum: '19040'
+    up:
+      target_vnum: '19055'
+  name: "As Duas Ã\x81rvores"
+  vnum: '19041'
+- description: |-
+    Você está andando sobre a ponte de madeira que liga as duas margens do
+    Riacho de Prata.
+  exits:
+    east:
+      target_vnum: '19045'
+    west:
+      target_vnum: '19050'
+  name: Sobre a Ponte
+  vnum: '19042'
+- description: |-
+    Você está andando pela calma ruela entre árvores, tendo todo o contato
+    com a natureza possível.  Isso inclui, é claro, borrachudos e pernilongos,
+    mas mesmo isso não interfere na beleza do lugar.  O caminho segue sul e
+    leste.
+  exits:
+    east:
+      target_vnum: '19044'
+    south:
+      target_vnum: '19085'
+  name: Uma Calma Ruela
+  vnum: '19043'
+- description: |-
+    Você continua andando em um corredor entre altíssimas árvores, com uma
+    espécie de rua de pedras irregulares passando bem ao centro.  A norte você
+    estará em frente à ponte e a oeste você volta pela ruela.
+  exits:
+    north:
+      target_vnum: '19045'
+    west:
+      target_vnum: '19043'
+  name: Uma Calma Ruela
+  vnum: '19044'
+- description: |-
+    Você está no fim da ruela entre árvores e em frente a uma ponte que
+    atravessa um límpido riacho.  Uma pequena placa em frente à ponte parece
+    indicar algo.  Você pode voltar, seguindo sul, subir na ponte, a oeste ou ir
+    a norte, em direção a uma grande árvore.
+  exits:
+    north:
+      target_vnum: '19051'
+    south:
+      target_vnum: '19044'
+    west:
+      target_vnum: '19042'
+  name: Em Frente à Ponte
+  vnum: '19045'
+- description: |-
+    Como você imaginou, uma escada conduz até o alto da árvore, passando por
+    entre seus vários galhos.  Pode ser um pouco difícil subir por ela, arriscar
+    ser arranhado ou atacado por algum animal, invadir a casa de algum elfo
+    mal-humorado ou ainda cair de cabeça no chão, mas talvez
+    valha a pena... Se não, você pode descer e pisar no chão seguro.
+  exits:
+    down:
+      target_vnum: '19040'
+    up:
+      target_vnum: '19056'
+  name: Na Escada Entrelaçada
+  vnum: '19046'
+- description: |-
+    Que lugar belo!  Você está em um corredor entre altíssimas árvores, com
+    uma espécie de rua de pedras irregulares passando bem ao centro.  Você
+    repara que abaixo na maior árvore, a sul, foi pregada uma grande placa.
+    Você pode seguir a sul, em direção à árvore, continuar na ruela indo a norte
+    ou oeste ou ainda voltar para o começo do caminho, a leste.
+  exits:
+    east:
+      target_vnum: '19034'
+    north:
+      target_vnum: '19035'
+    south:
+      target_vnum: '19086'
+    west:
+      target_vnum: '19036'
+  name: Uma Calma Ruela
+  vnum: '19047'
+- description: |-
+    Você está em uma espécie de casa construída ao redor do grosso tronco de
+    uma árvore.  Não há cantos, pois o recinto é circular.  Por todas as paredes
+    você vê prateleiras abarrotadas de livros, diplomas e mapas.  Em cima de uma
+    grande escrivaninha de carvalho, pilhas e mais pilhas de papéis foram
+    deixadas quase caindo umas sobre as outras, ocultando qualquer coisa que
+    esteja atrás delas.  A única saída segura daqui é descendo pela escada.
+  exits:
+    down:
+      target_vnum: '19037'
+  name: A Prefeitura
+  vnum: '19048'
+- description: |-
+    Você atravessou a ponte.  Daqui para frente, nada é certo.  Aqui tudo é
+    escuro, mas você tem a impressão de se encontrar em uma sombria e abafada
+    floresta.  A única saída é para oeste.
+  exits:
+    east:
+      target_vnum: '19042'
+    west:
+      target_vnum: '19062'
+  name: Do Outro Lado da Ponte
+  vnum: '19050'
+- description: |-
+    Você está sob a sombra de uma imensa e velha árvore quase às margens do
+    Riacho de Prata.  Olhando-a bem, você chega a conclusão de que muita
+    sabedoria está acumulada por baixo daquela grossa casca marrom-acinzentada e
+    que poderia aprender muito nesse lugar.  Você pode subir por uma escada ou
+    voltar em frente à ponte pelo sul.
+  exits:
+    south:
+      target_vnum: '19045'
+    up:
+      target_vnum: '19078'
+  name: "Sob a Ã\x81rvore"
+  vnum: '19051'
+- description: |-
+    Você subiu pela escada e agora se encontra bem no centro de uma casa
+    muito velha, tipicamente construída como as casas em árvores que os elfos da
+    região gostam de morar.  Por todos os lados você vê potes, tubos e todo tipo
+    de recipientes de vidro com as mais diversas substâncias.  Ao lado de uma
+    pesada estante, você vê um grande mapa.
+  exits:
+    down:
+      target_vnum: '19078'
+  name: "A Casa na Ã\x81rvore"
+  vnum: '19052'
+- description: |-
+    Você está subindo pelas imponentes escadarias que levam ao Templo da Lua
+    de Prata.  Os degraus são de pedra dura, de um branco gelado com veios
+    cinza-prateado.  Daqui você já avista a majestosa fachada do templo, que se
+    encontra mais acima.  Você pode voltar descendo os degraus.
+  exits:
+    down:
+      target_vnum: '19039'
+    up:
+      target_vnum: '19054'
+  name: As Escadarias do Templo
+  vnum: '19053'
+- description: |-
+    Finalmente você chegou ao Templo propriamente dito.  Grandes colunas
+    brancas sustentam o teto abobadado, onde na parte central encontra-se uma
+    das maiores pedras que você já viu.  Há um grande altar abaixo dessa pedra
+    e, rodeando-o, grandes castiçais de prata.  O Templo parece ser enorme e
+    muito interessante de se visitar, mas você sente que não avançará mais do
+    que até aqui.
+  exits:
+    down:
+      target_vnum: '19053'
+  name: O Templo da Lua de Prata
+  vnum: '19054'
+- description: |-
+    Como você imaginou, uma escada conduz até o alto da árvore, passando por
+    entre seus vários galhos.  Pode ser um pouco difícil subir por ela, arriscar
+    ser arranhado ou atacado por algum animal, invadir a casa de algum elfo
+    mau-humorado ou ainda cair de cabeça no chão, mas talvez valha a pena...  Se
+    não, você pode descer e pisar no chão seguro.
+  exits:
+    down:
+      target_vnum: '19041'
+    up:
+      target_vnum: '19057'
+  name: Na Escada Entrelaçada
+  vnum: '19055'
+- description: |-
+    Você continua subindo pela escada de cipós que leva ao topo da árvore.
+    Os galhos batem em sua cabeça sem piedade e o tronco parece querer esfolar
+    suas mãos...  Talvez seja apenas a árvore tentando expulsar um estranho.
+    Acima de você já é possível ver uma construção, mas se você não quiser
+    arriscar pode descer pela escada.
+  exits:
+    down:
+      target_vnum: '19056'
+    up:
+      target_vnum: '19058'
+  name: Na Escada Entrelaçada
+  vnum: '19056'
+- description: |-
+    Você continua subindo pela escada de cipós que leva ao topo da árvore.
+    Os galhos batem em sua cabeça sem piedade e o tronco parece querer esfolar
+    suas mãos...  Talvez seja apenas a árvore tentando expulsar um estranho.
+    Acima de você já é possível ver uma construção, mas se você não quiser
+    arriscar pode descer pela escada.
+  exits:
+    down:
+      target_vnum: '19055'
+    up:
+      target_vnum: '19059'
+  name: Na Escada Entrelaçada
+  vnum: '19057'
+- description: |-
+    Você está na varanda de uma simpática casinha de madeira construída em
+    volta do tronco de uma enorme árvore.  Aqui tudo é verde, o ar muito puro e
+    o som dos pássaros cantando parece estar mais perto e até mais melodioso.
+    Quase colada a casa você vê outra idêntica, mas na árvore ao lado.  Você
+    pode ir a oeste, na outra árvore, descer pela corda ou seguir sul, entrando
+    na casa.
+  exits:
+    down:
+      target_vnum: '19056'
+    south:
+      target_vnum: '19060'
+    west:
+      target_vnum: '19059'
+  name: Uma Casa Geminada
+  vnum: '19058'
+- description: |-
+    Você está na varanda de uma simpática casinha de madeira construída em
+    volta do tronco de uma enorme árvore.  Aqui tudo é verde, o ar muito puro e
+    o som dos pássaros cantando parece estar mais perto e até mais melodioso.
+    Quase colada a casa você vê outra idêntica, mas na árvore ao lado.  Você
+    pode ir a leste, na outra árvore, descer pela corda ou seguir sul, entrando
+    na casa.
+  exits:
+    down:
+      target_vnum: '19057'
+    east:
+      target_vnum: '19058'
+    south:
+      target_vnum: '19061'
+  name: Uma Casa Geminada
+  vnum: '19059'
+- description: |-
+    Você está em um amplo cômodo circular de paredes e teto de madeira.  O
+    chão é coberto por um tapete verde muito macio, lembrando musgo.  O tronco
+    da árvore passa intacto por dentro da casa seus galhos parecem dividi-la em
+    aposentos.  Os móveis são rústicos, mas muito bem talhados em madeira clara.
+    O que mais lhe chama a atenção é o enorme número de prateleiras abarrotadas
+    de livros que estão por todos os lados.  Indo a norte, você deixa a casa.
+  exits:
+    north:
+      target_vnum: '19058'
+  name: Dentro da Casa
+  vnum: '19060'
+- description: |-
+    Você está em um amplo cômodo circular de paredes e teto de madeira.  O
+    chão é coberto por um tapete verde muito macio, lembrando musgo.  O tronco
+    da árvore passa intacto por dentro da casa seus galhos parecem dividi-la em
+    aposentos.  Os móveis são rústicos, mas muito bem talhados em madeira
+    escura.  O que mais lhe chama a atenção é o enorme número de pergaminhos
+    espalhados por todos os lados.  Indo a norte, você deixa a casa.
+  exits:
+    north:
+      target_vnum: '19059'
+  name: Dentro da Casa
+  vnum: '19061'
+- description: |-
+    Você está caminhando no solo pegajoso dessa estranha floresta.
+    Dificilmente você enxerga algum feixe de luz, mas ainda é possível enxergar
+    a trilha a sua frente.
+  exits:
+    north:
+      target_vnum: '19063'
+    south:
+      target_vnum: '19065'
+    west:
+      target_vnum: '19064'
+  name: A Floresta dos Perdidos
+  vnum: '19062'
+- description: |-
+    Você está caminhando sem rumo pela trilha quase imperceptível da
+    floresta.  O ar aqui é pesado e úmido demais.  Você se sente constantemente
+    vigiado.  Há apenas duas saídas aqui: norte e leste.
+  exits:
+    east:
+      target_vnum: '19062'
+    north:
+      target_vnum: '19068'
+  name: A Floresta dos Perdidos
+  vnum: '19063'
+- description: |-
+    Você está caminhando sem saber para onde vai e de onde vem na trilha da
+    floresta.  O ar pesado e úmido demais parece transmitir, além de tudo, uma
+    hostilidade vinda de não se sabe onde.
+  exits:
+    east:
+      target_vnum: '19062'
+    north:
+      target_vnum: '19070'
+    south:
+      target_vnum: '19071'
+  name: A Floresta dos Perdidos
+  vnum: '19064'
+- description: |-
+    Você está caminhando sem saber para onde vai e de onde vem na trilha da
+    floresta.  O ar pesado e úmido demais parece transmitir, além de tudo, uma
+    hostilidade vinda de não se sabe onde.  Há apenas duas saídas aqui: norte e
+    sul.
+  exits:
+    north:
+      target_vnum: '19062'
+    south:
+      target_vnum: '19068'
+  name: A Floresta dos Perdidos
+  vnum: '19065'
+- description: |-
+    Você continua a caminhar pela trilha na floresta.  A luz parece cada vez
+    mais distante e você se arrepende por não ter prestado atenção ao aviso na
+    ponte.  Não há ruídos aqui, só o som de seus passos...
+  exits: {}
+  name: A Floresta dos Perdidos
+  vnum: '19066'
+- description: |-
+    Você está caminhando sem saber para onde vai e de onde vem na trilha da
+    floresta.  O ar pesado e úmido demais parece transmitir, além de tudo, uma
+    hostilidade vinda de não se sabe onde.  A escuridão parece esconder alguma
+    coisa tenebrosa...
+  exits: {}
+  name: A Floresta dos Perdidos
+  vnum: '19067'
+- description: |-
+    Você está caminhando pela Floresta dos Perdidos.  O nome é sugestivo
+    demais para lhe deixar menos apreensivo do que antes...  Você não vê quase
+    nada, mas sente muita coisa, e definitivamente, não é bem-vindo aqui...
+  exits:
+    east:
+      target_vnum: '19069'
+    north:
+      target_vnum: '19065'
+    south:
+      target_vnum: '19063'
+    west:
+      target_vnum: '19083'
+  name: A Floresta dos Perdidos
+  vnum: '19068'
+- description: |-
+    Você está caminhando pela Floresta dos Perdidos.  O nome é sugestivo
+    demais para lhe deixar menos apreensivo do que antes...  Você não vê quase
+    nada, mas sente muita coisa, e definitivamente, não é bem-vindo aqui...
+  exits:
+    east:
+      target_vnum: '19083'
+    west:
+      target_vnum: '19068'
+  name: A Floresta dos Perdidos
+  vnum: '19069'
+- description: |-
+    Você caminha (caminha não, tropeça) sem rumo na trilha dentro da
+    floresta.  As coisas parecem melhorar, pois alguns feixes de luz conseguem
+    ultrapassar a cobertura de árvores e iluminar um pouco o caminho.  Você pode
+    ir a oeste ou sul.
+  exits:
+    south:
+      target_vnum: '19064'
+    west:
+      target_vnum: '19072'
+  name: A Floresta dos Perdidos
+  vnum: '19070'
+- description: |-
+    Você está caminhando pela escura trilha na Floresta dos Perdidos.  O
+    trecho está um pouco menos difícil agora que alguns feixes de luz atravessam
+    a espessa cobertura de árvores e você consegue enxergar parte do caminho.
+    As saídas são oeste e norte.
+  exits:
+    north:
+      target_vnum: '19064'
+    west:
+      target_vnum: '19073'
+  name: A Floresta dos Perdidos
+  vnum: '19071'
+- description: |-
+    Você caminha pelo que supõe ser o mais feliz (!?) trecho da floresta.
+    Aqui, a luz consegue chegar mais intensamente e as árvores parecem menos
+    hostis.  Você pode seguir sul ou leste.
+  exits:
+    east:
+      target_vnum: '19070'
+    south:
+      target_vnum: '19074'
+  name: A Floresta dos Perdidos
+  vnum: '19072'
+- description: |-
+    Você caminha por um trecho da floresta mais amplamente iluminado.  Aqui o
+    ar é mais quente e menos opressivo, quase reconfortador.  As saídas são
+    norte e leste.
+  exits:
+    east:
+      target_vnum: '19071'
+    north:
+      target_vnum: '19074'
+  name: A Floresta dos Perdidos
+  vnum: '19073'
+- description: |-
+    Você está em frente a uma clareira na floresta.  A emoção é tanta que
+    seus olhos ficam marejados de lágrimas!  Você percebe que as árvores são
+    cinzentas, de galhos afiados e muito, muito velhas.  Talvez sejam elas que
+    sejam contra sua visita aqui...
+  exits:
+    east:
+      target_vnum: '19075'
+    north:
+      target_vnum: '19072'
+    south:
+      target_vnum: '19073'
+  name: A Floresta dos Perdidos
+  vnum: '19074'
+- description: |-
+    Você está em uma clareira dentro da floresta.  Tudo aqui é sombrio,
+    cinzento, como se um permanente entardecer atingisse o lugar.  Uma densa
+    neblina cobre tudo, permitindo que você veja apenas coisas muito próximas
+    como as ameaçadoras árvores do lugar.  Bem no centro, a leste, você vê um
+    grande vulto de onde se desprende alguma luminosidade.
+  exits:
+    east:
+      target_vnum: '19076'
+    west:
+      target_vnum: '19074'
+  name: A Clareira na Floresta
+  vnum: '19075'
+- description: |-
+    Você está em frente a uma imensa pedra retangular, bem no centro da
+    clareira.  A neblina parece hesitar em cobri-la, por isso sua visão daqui
+    parece muito mais clara.  Uma escada de pedra leva até o alto disso que
+    parece um altar, mas talvez você não queira subir...
+  exits:
+    up:
+      target_vnum: '19077'
+    west:
+      target_vnum: '19075'
+  name: Em Frente ao Altar
+  vnum: '19076'
+- description: |-
+    Você está pisando sobre a fria pedra do imenso altar bem no centro da
+    clareira.  Um estranho calafrio percorre seu corpo, e você parece ouvir
+    sussurros mandando-o embora daqui.  Um estranho clarão parece chamá-lo vindo
+    de mais além.  Cuidado, talvez algum ser sinistro esteja pensando que você é
+    uma espécie de animal a ser sacrificado nesse lugar...
+  exits:
+    down:
+      target_vnum: '19076'
+    east:
+      target_vnum: '19076'
+    north:
+      target_vnum: '19076'
+    up:
+      target_vnum: '19079'
+    west:
+      target_vnum: '19076'
+  name: Sobre Altar
+  vnum: '19077'
+- description: |-
+    Você está subindo pela escada presa à árvore.  Algumas folhas caem em sua
+    cabeça, dificultando sua subida.  Nos galhos mais afastados você vê vários
+    ninhos e, no tronco, um buraco onde se pode enfiar um braço inteiro.  Se
+    você continuar a subir, chegará em uma casa.
+  exits:
+    down:
+      target_vnum: '19051'
+    up:
+      target_vnum: '19052'
+  name: "Subindo na Ã\x81rvore"
+  vnum: '19078'
+- description: |-
+    Você não deveria ter ignorado tantos avisos...
+
+    Uma estranha luz incide sobre você, esquentando seu corpo, mais e mais...
+    ...você sente sua pele arder, até estar completamente em chamas!
+    A cada segundo as chamas consomem com mais fúria de seu corpo,
+    até que tudo o que resta sejam pequenas fagulhas, que logo se extinguirão...
+
+    ... @Rque pena, mas acho que você morreu@n....
+  exits: {}
+  name: O Centro do Altar
+  vnum: '19079'
+- description: |-
+    Você está caminhando no solo pegajoso dessa estranha floresta.
+    Dificilmente você enxerga algum feixe de luz, mas ainda é possível enxergar
+    a trilha a sua frente.
+  exits:
+    east:
+      target_vnum: '19081'
+    north:
+      target_vnum: '19073'
+    south:
+      target_vnum: '19072'
+  name: A Floresta dos Perdidos
+  vnum: '19080'
+- description: |-
+    Você está caminhando sem rumo pela trilha quase imperceptível da
+    floresta.  O ar aqui é pesado e úmido demais.  Você se sente constantemente
+    vigiado.  Há apenas duas saídas aqui: norte e sul.
+  exits:
+    north:
+      target_vnum: '19071'
+    south:
+      target_vnum: '19070'
+    west:
+      target_vnum: '19080'
+  name: A Floresta dos Perdidos
+  vnum: '19081'
+- description: |-
+    Você está caminhando sem rumo pela trilha quase imperceptível da
+    floresta.  O ar aqui é pesado e úmido demais.  Você se sente constantemente
+    vigiado.  Há apenas duas saídas aqui: noroeste e sudeste.
+  exits: {}
+  name: A Floresta dos Perdidos
+  vnum: '19082'
+- description: |-
+    Você está caminhando sem saber para onde vai e de onde vem na trilha da
+    floresta.  O ar pesado e úmido demais parece transmitir, além de tudo, uma
+    hostilidade vinda de não se sabe onde.
+  exits:
+    east:
+      target_vnum: '19068'
+    north:
+      target_vnum: '10700'
+    west:
+      target_vnum: '19069'
+  name: A Floresta dos Perdidos
+  vnum: '19083'
+- description: |-
+    Você continua a caminhar pela trilha na floresta.  A luz parece cada vez
+    mais distante e você se arrepende por não ter prestado atenção ao aviso na
+    ponte.  Não há ruídos aqui, só o som de seus passos...
+  exits: {}
+  name: A Floresta dos Perdidos
+  vnum: '19084'
+- description: |-
+    Você caminha sossegadamente pela ruela entre árvores, sentindo-se no
+    coração de uma floresta.  O caminho parece seguir norte e leste.
+  exits:
+    east:
+      target_vnum: '19038'
+    north:
+      target_vnum: '19043'
+  name: Uma Calma Ruela
+  vnum: '19085'
+- description: |-
+    Você está bem embaixo de uma enorme árvore, que parece se tornar mais e
+    mais imponente a medida que você a examina.  Uma grande placa de aviso foi
+    afixada no chão...  E parece ser bem importante.
+  exits:
+    north:
+      target_vnum: '19047'
+    up:
+      target_vnum: '19037'
+  name: "Embaixo da Grande Ã\x81rvore"
+  vnum: '19086'
+- description: |-
+    Você está na recepção.  Uma rampa o conduz à entrada.  Você vê uma placa
+    no balcão.
+  exits:
+    down:
+      target_vnum: '19016'
+  name: A Recepção da Estalagem da Esperança
+  vnum: '19090'

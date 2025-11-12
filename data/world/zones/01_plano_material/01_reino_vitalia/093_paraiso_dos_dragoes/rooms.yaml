@@ -1,0 +1,1235 @@
+- description: |-
+    Você está sob um imenso portal em frente a um gigantesco deserto.  A
+    paisagem deste lado do paraíso é totalmente diferente do outro lado, onde
+    havia uma floresta exuberante e lagos refrescantes.
+  exits:
+    north:
+      target_vnum: '9352'
+    south:
+      target_vnum: '9398'
+  name: O Portal para o Deserto dos Dragões
+  vnum: '9300'
+- description: |-
+    Você está no Paraíso dos Dragões.  Ao seu redor há uma densa e magnífica
+    floresta formada por árvores seculares e arbustos floridos.  Pássaros voam
+    entre as árvores e alguns esquilos olham para você como se quisessem dizer
+    algo.  Ao seu lado está um enorme monólito coberto por estranhas escrituras.
+    A sua frente, ao norte, a floresta continua.  Você percebe brilhos estranhos
+    vindo do seus lados oeste e leste.  Ao sul você observa um caminho sombrio
+    através da floresta densa.
+  exits:
+    east:
+      target_vnum: '9302'
+    north:
+      target_vnum: '9304'
+    west:
+      target_vnum: '9303'
+  name: A Entrada do Paraíso dos Dragões de Vitália
+  vnum: '9301'
+- description: |-
+    Você está cercado por árvores gigantes, que se entrelaçam através dos
+    seus galhos, unindo-se em um círculo.  Você observa no centro do círculo uma
+    fonte de luz azul muito forte e olha fixamente em sua direção, percebendo
+    que a fonte de luz na verdade é um magnífico ser.  Ao lado dele há uma
+    estranha tábua de madeira repleta de escrituras.  A oeste você percebe uma
+    enorme rocha.
+  exits:
+    west:
+      target_vnum: '9301'
+  name: A Fonte de Luz Azul
+  vnum: '9302'
+- description: |-
+    Você está cercado por árvores gigantes que, com seus enormes galhos
+    entrelaçando-se, unem-se em um grande e quase intransponível círculo.  No
+    centro da formação há uma fonte de luz branca muito forte que, olhando-se
+    atentamente, percebe-se ser nada mais nada menos uma magnífica criatura.  A
+    seu lado há uma tábua de madeira repleta de escrituras.  Olhando na direção
+    leste você vê uma enorme rocha.
+  exits:
+    east:
+      target_vnum: '9301'
+  name: A Fonte de Luz Branca
+  vnum: '9303'
+- description: |-
+    Você está numa interseção de trilhas.  Seus ouvidos são preenchidos por
+    uma linda melodia vinda do alto das árvores, onde pássaros nunca antes
+    vistos cantam com a plenos pulmões.  As trilhas partem nas direções norte,
+    oeste e leste.  Ao sul você percebe uma enorme rocha.
+  exits:
+    east:
+      target_vnum: '9305'
+    north:
+      target_vnum: '9325'
+    south:
+      target_vnum: '9301'
+    west:
+      target_vnum: '9316'
+  name: Uma Intersecção de Trilhas na Densa Floresta
+  vnum: '9304'
+- description: |-
+    Você está em uma trilha bastante escondida pelos grandes troncos e galhos
+    das árvores.  Nessa região a floresta começa a ficar mais fechada e o ar
+    começa a pesar.  Ao norte você consegue ver entre os galhos um desvio.  A
+    leste a trilha continua.
+  exits:
+    east:
+      target_vnum: '9306'
+    north:
+      target_vnum: '9310'
+    west:
+      target_vnum: '9304'
+  name: A Trilha Leste na Densa Floresta
+  vnum: '9305'
+- description: |-
+    Você com muito sufoco consegue passar entre troncos e galhos.  Seu
+    aguçado olfato detecta água por perto e, olhando atentamente, você nota
+    pequeninas pegadas no chão.  Ao mesmo tempo, você tem a estranha sensação de
+    que há alguém lhe observando.  A leste é possível ver um lago por entre os
+    galhos e troncos das árvores.  A oeste você avista uma trilha quase
+    imperceptível.
+  exits:
+    east:
+      target_vnum: '9307'
+    west:
+      target_vnum: '9305'
+  name: A Trilha Leste na Densa Floresta
+  vnum: '9306'
+- description: |-
+    Você está dentro do lago banhando-se em suas águas límpidas.  Ao mesmo
+    tempo que observa os peixes no fundo, você examina sua imagem refletida nas
+    águas.  Daqui também se pode escutar sons estranhos vindos principalmente do
+    norte: naquela direção fica a parte densa da floresta.  Desviando o olhar
+    para oeste, você observa uma trilha que passa entre os galhos e troncos das
+    magníficas árvores seculares.
+  exits:
+    down:
+      target_vnum: '9308'
+    north:
+      target_vnum: '9312'
+    west:
+      target_vnum: '9306'
+  name: "O Lago das Ã\x81guas Claras"
+  vnum: '9307'
+- description: |-
+    Você está no fundo do lago nadando ao lado dos peixes enquanto observa o
+    espetáculo produzido pelos raios solares encontrando a superfície das
+    águas.A seu redor você vê algumas algas e, estranhamente, um feixe de luz
+    vindo de uma gruta submersa.  Acima de você há a linda imagem das árvores
+    seculares vistas através das águas do lago.  Nadando em direção ao sul você
+    encontra a entrada da gruta submersa.
+  exits:
+    south:
+      target_vnum: '9309'
+    up:
+      target_vnum: '9307'
+  name: O Fundo do Lago
+  vnum: '9308'
+- description: |-
+    Você está dentro da grande gruta e se surpreende com a barreira d'água em
+    sua entrada, o que possibilita que seu interior seja habitável para seres
+    terrestres.  Ao seu redor há várias cestas cheias de peixes.  Nas paredes da
+    gruta você observa um grande número de pinturas de cores quentes e fortes.No
+    chão você encontra grandes escamas de bronze.  A barreira está exatamente ao
+    norte.
+  exits:
+    north:
+      target_vnum: '9308'
+  name: A Gruta Submersa
+  vnum: '9309'
+- description: |-
+    Você está na densa floresta, caminhando com dificuldade por entre os
+    galhos e troncos.  Olhando o chão com atenção você observa pequeninas
+    pegadas enquanto escuta estranhos sons e gargalhadas vindas do alto das
+    copas das árvores seculares.  A leste a trilha se finda; ao sul segue
+    estreita.
+  exits:
+    east:
+      target_vnum: '9311'
+    south:
+      target_vnum: '9305'
+  name: Um Desvio Norte
+  vnum: '9310'
+- description: |-
+    Você está na densa floresta, caminhando com dificuldade por entre os
+    galhos e troncos.  A leste você percebe a emissão de estranhas rajadas de
+    luz e pequenas explosões que brilham em diversas cores.  Vindas dessa mesma
+    direção você escuta gargalhadas com uma alegre melodia de fundo.  Há a oeste
+    um desvio na trilha.
+  exits:
+    east:
+      target_vnum: '9312'
+    west:
+      target_vnum: '9310'
+  name: O Final da Trilha
+  vnum: '9311'
+- description: |-
+    Você está na vila dos Dragões-Fadas.  Você sente a alegria dos
+    Dragões-Fadas, dos Duendes e das Fadas ao lhe olharem; observa as suas tocas
+    nos troncos das árvores.  Há uma grande festa pela sua chegada.  O enorme
+    grupo parece feliz com a sua presença e começa a brincar com você.  Ao olhar
+    para leste você observa que outro grupo grande de Dragões está brincando.
+    Para oeste pode-se ver o final da trilha por entre os galhos e troncos.  Ao
+    sul há um lago de águas claras.
+  exits:
+    east:
+      target_vnum: '9313'
+    south:
+      target_vnum: '9307'
+    west:
+      target_vnum: '9311'
+  name: A Vila dos Dragões-Fadas
+  vnum: '9312'
+- description: |-
+    Você está na Vila dos Dragões-Fadas. Por entre as árvores observa
+    as brincadeiras e as piadas dos habitantes da vila sobre você.  A leste
+    pode-se ver uma grande árvore dourada e a oeste a festa dos Dragões-Fadas.
+  exits:
+    east:
+      target_vnum: '9314'
+    west:
+      target_vnum: '9312'
+  name: Um Caminho Leste na Vila
+  vnum: '9313'
+- description: |-
+    Você está na vila dos Dragões-Fadas.  Você vê à sua frente uma grande
+    árvore dourada e em sua base existe um pequeno trono dourado.  A oeste há um
+    caminho que segue para a vila e ao sul você nota vários ninhos de
+    Dragões-Fadas.
+  exits:
+    south:
+      target_vnum: '9315'
+    west:
+      target_vnum: '9313'
+  name: A Grande árvore Dourada
+  vnum: '9314'
+- description: |-
+    Você está no ninho dos Dragões-Fadas.  Por todos os lados existem
+    centenas de ninhos e ovos de dragão.  Alguns ninhos estão sobre o solo,
+    outros estão nos galhos e troncos de árvores.  Ao norte você observa uma
+    grande árvore dourada.
+  exits:
+    north:
+      target_vnum: '9314'
+  name: Os Ninhos dos Dragões-Fada
+  vnum: '9315'
+- description: |-
+    Você está em uma trilha bastante estreita, coberta por grandes troncos e
+    galhos de árvores.  A floresta vai ficando cada vez mais fechada.  Ao norte
+    você consegue ver um desvio; seguindo para oeste, em meio às árvores, há uma
+    casa de madeira.  Existe uma intersecção a leste.
+  exits:
+    east:
+      target_vnum: '9304'
+    north:
+      target_vnum: '9318'
+    west:
+      target_vnum: '9317'
+  name: A Trilha Oeste na Densa Floresta
+  vnum: '9316'
+- description: "Você está dentro da casa de madeira.  Você observa uma estante de\
+    \ madeira\ncom vários livros, uma cama velha, um tapete forrando o chão e uma\
+    \ lareira\ncom restos de brasas da sua Ãºltima utilizaÃ§Ã£o.  Ã\x80 frente vocÃª\
+    \ vÃª uma mesa\ncom alguns papéis escritos numa linguagem ignorada por você. \
+    \ A leste você\nvê a porta da casa aberta e através dela a densa floresta."
+  exits:
+    east:
+      target_vnum: '9316'
+  name: A Casa de Madeira
+  vnum: '9317'
+- description: |-
+    Você está numa trilha da floresta menos densa.  Sua visibilidade melhorou
+    um pouco porém você ainda está cercado pelas árvores seculares.  Você
+    observa um grupo de pássaros nos galhos mais elevados das árvores cantando
+    uma melodia que o lembra canções pastoris.  A oeste a trilha segue na
+    floresta menos densa e ao sul a trilha segue na floresta espessa.
+  exits:
+    south:
+      target_vnum: '9316'
+    west:
+      target_vnum: '9319'
+  name: Um Desvio Norte
+  vnum: '9318'
+- description: |-
+    Você está numa trilha cercada por enormes árvores.  A oeste você observa
+    a continuação da trilha e a leste há um desvio.
+  exits:
+    east:
+      target_vnum: '9318'
+    west:
+      target_vnum: '9320'
+  name: Um Trilha Oeste na Floresta
+  vnum: '9319'
+- description: |-
+    Você está no final da trilha.  As árvores seculares continuam lhe
+    cercando ; em seus galhos esquilos pulam de um lado para o outro e pássaros
+    fazem seus ninhos.  Ao norte você observa um terreno em declive; a leste há
+    uma trilha e a oeste observa-se um campo aberto entre árvores.
+  exits:
+    east:
+      target_vnum: '9319'
+    north:
+      target_vnum: '9339'
+    west:
+      target_vnum: '9321'
+  name: O Final da Trilha Oeste
+  vnum: '9320'
+- description: |-
+    Você está num campo cercado por árvores, porém está aliviado por poder
+    descansar longe dos galhos, troncos e insetos da floresta.  A vegetação no
+    campo é rasteira e suave formando uma clareira e você por alguns momentos
+    pensa em passar a noite aqui.  Ao norte você observa a floresta e suas
+    gigantescas árvores, ao sul você percebe sons e gemidos.  Do oeste vem um
+    odor terrível de algo em decomposição e a leste você observa uma trilha
+    entre as árvores.
+  exits:
+    east:
+      target_vnum: '9320'
+    north:
+      target_vnum: '9322'
+    south:
+      target_vnum: '9324'
+    west:
+      target_vnum: '9323'
+  name: Um Campo Aberto no Coração da Floresta
+  vnum: '9321'
+- description: |-
+    Você está num recinto muito espaçoso cercado por árvores e coberto por
+    galhos e folhas.  Você observa várias pegadas enormes e algumas escamas pelo
+    chão.  Ao sul vê um campo aberto.
+  exits:
+    south:
+      target_vnum: '9321'
+  name: O Recinto do Ancião Verde
+  vnum: '9322'
+- description: |-
+    Você está cercado por carcaças e corpos em decomposição em meio às
+    árvores; o odor é terrível.  Você observa os restos putrefatos e os vários
+    ossos imaginando que ferocidade teria causado isso.  A leste vê um campo
+    aberto por entre os troncos e galhos.
+  exits:
+    east:
+      target_vnum: '9321'
+  name: As Carcaças
+  vnum: '9323'
+- description: |-
+    Você segue entre os troncos e galhos e vê um ninho com alguns filhotes de
+    dragão verde...  Por ironia do destino você lembra uma frase do seu mestre:
+    "Nunca fique entre um dragão verde e seus filhotes".  Um vento quente sopra
+    por trás de você...  Sente uma enorme dor e não consegue enxergar mais
+    nada...A não ser seu sangue escorrendo para dentro da garganta do velho
+    dragão verde.  Você está morto !  Com certeza os filhotes terão comida por
+    vários dias.
+  exits: {}
+  name: O Ninho
+  vnum: '9324'
+- description: |-
+    Você está entre os galhos e troncos das gigantes árvores seculares;
+    alguns pássaros e esquilos curiosos o seguem.  Ao norte a trilha continua e
+    ao sul você vê um entroncamento com trilhas partindo em todas as direções.
+  exits:
+    north:
+      target_vnum: '9326'
+    south:
+      target_vnum: '9304'
+  name: Um Trilha Norte
+  vnum: '9325'
+- description: |-
+    A trilha norte parece ter chegado ao fim; os pássaros e esquilos que
+    antes o seguiam de forma curiosa desapareceram.  As árvores seculares com
+    seus troncos enormes já lhe parecem familiares; ao norte você observa um
+    círculo formado por grandes rochas; ao sul há a trilha entre as árvores onde
+    os pássaros e esquilos lhe seguiam.  A leste percebe a base de uma grande
+    montanha e a oeste uma planície bastante estranha.
+  exits:
+    east:
+      target_vnum: '9327'
+    north:
+      target_vnum: '9335'
+    south:
+      target_vnum: '9325'
+    west:
+      target_vnum: '9333'
+  name: A Trilha Norte
+  vnum: '9326'
+- description: |-
+    Você está na base da montanha e observa sua formação perfeita sobre
+    rochas negras; e isto lhe faz pensar que deve ter sido mais uma obra dos
+    deuses de Vitália.  Você observa acima um caminho íngreme até o topo
+    congelado da magnífica montanha negra.  A oeste vê uma trilha na densa
+    floresta.
+  exits:
+    up:
+      target_vnum: '9328'
+    west:
+      target_vnum: '9326'
+  name: Na Base da Montanha da Coroa de Gelo
+  vnum: '9327'
+- description: |-
+    Deste ponto da montanha sua visão está encoberta pelas gigantescas
+    árvores seculares.  O caminho íngreme continua acima e abaixo você
+    observa a base da montanha.
+  exits:
+    down:
+      target_vnum: '9327'
+    up:
+      target_vnum: '9329'
+  name: "O Caminho Ã\x8Dngreme"
+  vnum: '9328'
+- description: |-
+    O Caminho fica mais perigoso a cada passo, porém a paisagem que começa a
+    surgir do paraíso dos dragões é magnífica; sua visão não está mais encoberta
+    pelas árvores.  Você observa a floresta do paraíso e suas gigantescas
+    árvores.  A leste você consegue identificar algumas rochas.  O caminho
+    íngreme continua até o topo; para baixo você desce a montanha negra.
+  exits:
+    down:
+      target_vnum: '9328'
+    up:
+      target_vnum: '9330'
+  name: "O Caminho Ã\x8Dngreme"
+  vnum: '9329'
+- description: |-
+    A cada metro o oxigênio fica mais escasso; você está chegando ao topo da
+    montanha da coroa de gelo e já sente o frio do grande cume nevado.  As
+    árvores seculares não parecem ser tão altas deste ponto na montanha.  Ao
+    norte observa uma entrada na parede negra da montanha; para cima vê o topo
+    congelado, para baixo um caminho íngreme.
+  exits:
+    down:
+      target_vnum: '9329'
+    north:
+      target_vnum: '9332'
+    up:
+      target_vnum: '9331'
+  name: "O Caminho Ã\x8Dngreme"
+  vnum: '9330'
+- description: |-
+    Você está finalmente no topo congelado da montanha.  O gelo circunda o
+    seu cimo formando uma magnífica coroa; ventos frios sopram de todos os lados
+    ; aqui realmente o gelo é rei.  O oxigênio é extremamente escasso e no chão
+    existem pegadas enormes; algo realmente grande passou por aqui.  Para baixo
+    você observa um longo e perigoso caminho até a base da montanha.
+  exits:
+    down:
+      target_vnum: '9330'
+  name: O Topo Congelado da Montanha
+  vnum: '9331'
+- description: |-
+    Você está dentro da gruta e sente o frio diminuir.  Há pinturas em todas
+    as paredes.  Você observa alguns ossos de pequenos animais no chão e ao seu
+    lado percebe o corpo congelado de um coelho; isto lhe faz pensar que essa
+    gruta pode ser a despensa de alguém.  Ao sul vê um caminho íngreme.
+  exits:
+    south:
+      target_vnum: '9330'
+  name: A Gruta da Montanha
+  vnum: '9332'
+- description: |-
+    Você está numa planície; rapidamente se percebe algo fora do comum: a
+    vegetação está toda queimada e ao olhar ao seu redor você não nota a
+    presença de nenhum pássaro ou qualquer outro animal; até o ar na planície é
+    estranho.Algumas nuvens negras se aproximam como se seguissem em sua
+    direção.  A leste você observa a floresta e uma trilha entre as árvores; a
+    oeste existe uma caverna sinistra.
+  exits:
+    east:
+      target_vnum: '9326'
+    west:
+      target_vnum: '9334'
+  name: Uma Planície Bastante Estranha
+  vnum: '9333'
+- description: "Você não acredita que está dentro desta caverna escura e misteriosa.\n\
+    Olha ao seu redor e observa teias de aranha nas paredes e no teto; a\nsensação\
+    \ é de que a caverna vai desabar sobre você.  Quando você começa a se\nacalmar\
+    \ ouve barulhos estranhos vindo do corredor norte.  A leste você\nobserva a planÃ­cie\
+    \ enigmÃ¡tica, o lugar para onde os medrosos sempre vÃ\x83o."
+  exits:
+    east:
+      target_vnum: '9333'
+    north:
+      target_vnum: '9384'
+  name: A Entrada da Caverna Fantasmagórica
+  vnum: '9334'
+- description: |-
+    Você está no santuário dos dragões, local sagrado e místico.  Ao seu
+    redor você observa quatro monólitos enormes que formam um círculo.  No chão
+    um círculo dourado demarca o local sagrado; no centro deste círculo dourado
+    você vê uma majestosa figura de um dragão desenhada no solo.  Você percebe
+    que nos monólitos existem escrituras sagradas.  Ao norte, leste e oeste você
+    observa várias cavernas e ao sul você vê uma trilha na floresta.
+  exits:
+    east:
+      target_vnum: '9338'
+    north:
+      target_vnum: '9337'
+    south:
+      target_vnum: '9326'
+    west:
+      target_vnum: '9336'
+  name: O Santuário dos Dragões
+  vnum: '9335'
+- description: |-
+    Você está na entrada da caverna; um vapor superaquecido sai de seu
+    interior constantemente.  O calor aqui é infernal; isto lhe deixa curioso em
+    saber a origem deste calor.  A leste você observa quatro enormes rochas e
+    para baixo existe uma passagem em chamas.
+  exits:
+    down:
+      target_vnum: '9387'
+    east:
+      target_vnum: '9335'
+  name: A Entrada da Caverna das Chamas
+  vnum: '9336'
+- description: |-
+    Você está na entrada da caverna; ao seu redor você percebe as rochas do
+    piso, paredes e do teto já gastas pelo tempo.  Há uma pequena escritura no
+    chão da caverna.  Ao norte você observa uma enorme porta negra e ao sul o
+    santuário dos dragões.
+  exits:
+    north:
+      target_vnum: '9383'
+    south:
+      target_vnum: '9335'
+  name: A Entrada da Caverna da Prisão
+  vnum: '9337'
+- description: |-
+    Você está na entrada da caverna; ao seu redor estão as reluzentes paredes
+    da caverna dourada, de requinte e apuro majestosos.  Ao norte você observa
+    uma câmara dourada e a oeste o santuário dos dragões.
+  exits:
+    north:
+      target_vnum: '9391'
+    west:
+      target_vnum: '9335'
+  name: A Entrada da Caverna Dourada
+  vnum: '9338'
+- description: |-
+    Você está em um terreno em declive; a floresta parece dar uma trégua e
+    encerrar-se aqui pois o terreno em declive é uma barreira para sua extensão.
+    Você sente um cheiro de flores vindo do topo e observa ao sul uma trilha na
+    floresta.
+  exits:
+    south:
+      target_vnum: '9320'
+    up:
+      target_vnum: '9340'
+  name: Um Terreno em Declive
+  vnum: '9339'
+- description: |-
+    Você está numa planície belíssima que mais parece uma magnífica pintura
+    dos talentosos pintores vitalianos.  Pode observar flores de todos os
+    tamanhos, matizes e fragrâncias; borboletas fazem uma linda coreografia ,
+    cheia de cores e brilhos.  Ao norte você observa a planície florida e a
+    linda dança das borboletas e ao sul um caminho para a floresta.
+  exits:
+    north:
+      target_vnum: '9341'
+    south:
+      target_vnum: '9339'
+  name: A Planície Florida
+  vnum: '9340'
+- description: |-
+    Você está na planície florida, entre flores e borboletas.  As Borboletas
+    pousam em você, trazendo-lhe a sensação de que a vida é uma grande d diva
+    dos Deuses e que merece ser respeitada e preservada.  Ao norte você vê a
+    continuação da planície e a oeste você observa uma velha casa de madeira.
+  exits:
+    north:
+      target_vnum: '9343'
+    west:
+      target_vnum: '9342'
+  name: A Planície Florida
+  vnum: '9341'
+- description: |-
+    Você está dentro da casa.  E para sua surpresa a casa que externamente
+    parecia ser velha e de madeira, na realidade é toda de ouro.  Você observa
+    ao seu redor e não encontra objetos e nem vestígios de que alguém mora aqui.
+    A casa não possui teto e tem dimensões que acomodariam um grande grupo de
+    aventureiros.  A leste você observa um campo florido.
+  exits:
+    east:
+      target_vnum: '9341'
+  name: A Casa Dourada
+  vnum: '9342'
+- description: |-
+    Você está num campo florido.  O aroma e a paisagem deste lugar são
+    maravilhosos.  A leste você observa um lago de águas estranhas, a oeste e ao
+    sul você vê um campo florido.
+  exits:
+    east:
+      target_vnum: '9344'
+    south:
+      target_vnum: '9341'
+    west:
+      target_vnum: '9346'
+  name: A Planície Florida
+  vnum: '9343'
+- description: |-
+    Você está dentro do lago e logo percebe que ele guarda algo misterioso.
+    Mas ao mesmo tempo tem a sensação de que o lago está lhe fazendo bem.  Você
+    observa seu próprio reflexo na superfície do lago e suas águas reluzem como
+    se estivessem vivas.  A oeste observa a planície florida e para baixo
+    enxerga seu reflexo.
+  exits:
+    down:
+      target_vnum: '9345'
+    west:
+      target_vnum: '9343'
+  name: O Lago Cintilante
+  vnum: '9344'
+- description: "Você está perplexo com a visão do fundo do lago: não existe nenhuma\
+    \ forma\nde vida ali fora vocÃª.  Ã\x80 frente hÃ¡ uma grande estÃ¡tua de ouro\
+    \ representando\num magnífico dragão.  Ao olhar para cima você nota que, na superfície,\
+    \ como\nque por mágica, surgem cenas de uma batalha."
+  exits:
+    up:
+      target_vnum: '9344'
+  name: O Fundo do Lago Cintilante
+  vnum: '9345'
+- description: |-
+    Você está entre as flores deste maravilhoso campo colorido.  Você observa
+    ao norte uma grande muralha branca e um enorme portão branco.  A leste você
+    vê a planície perfumada.
+  exits:
+    east:
+      target_vnum: '9343'
+    north:
+      target_vnum: '9347'
+  name: A Planície Florida
+  vnum: '9346'
+- description: |-
+    Você está na frente de um grande portão de ossos; nos dois lados do
+    portão você observa uma grande muralha branca de ossos.  Esta é sem sombra
+    de dúvidas a coisa mais sinistra que você já viu.  Em cima do portão existe
+    algumas escrituras.  Ao sul você vê o campo florido e a oeste você observa
+    um brilho azulado.
+  exits:
+    south:
+      target_vnum: '9346'
+    west:
+      target_vnum: '9348'
+  name: O Portão de Ossos
+  vnum: '9347'
+- description: "Você está no cemitério dos dragões; ao seu redor você observa vários\n\
+    ossos e carcaÃ§as de grandes e pequeninos dragÃµes.Ã\x80 frente , no centro do\n\
+    cemitério, você percebe uma imensa rede que possui um estranho brilho\nazulado.\
+    \  Você se aproxima da rede e vê um espírito preso a rede sendo\narremessado para\
+    \ a direção norte do cemitério.  Você sente um frio na coluna\nao presenciar esta\
+    \ cena.Ao norte e ao sul você observa algumas sepulturas; a\noeste você vê vários\
+    \ ossos empilhados e a leste você observa o portão do\ncemitério."
+  exits:
+    east:
+      target_vnum: '9347'
+    north:
+      target_vnum: '9351'
+    south:
+      target_vnum: '9349'
+    west:
+      target_vnum: '9350'
+  name: O Cemitério dos Dragões de Vitália
+  vnum: '9348'
+- description: |-
+    Você está entre várias sepulturas feitas de mármore branco e com detalhes
+    feitos em bronze.  Este local guarda os restos dos mais honrados e dignos
+    dragões.Aqui o silêncio é absoluto, a paz parece ter tomado conta de todo o
+    local.Ao norte você observa a rede das almas.
+  exits:
+    north:
+      target_vnum: '9348'
+  name: As Sepulturas Dignas de Honra
+  vnum: '9349'
+- description: |-
+    Você está num local cheio de ossos empilhados.  Você observa ossos por
+    todos os lados e de todos os tamanhos.  Nesta parte do cemitério você sente
+    algo sinistro; alguns ossos se movem por trás de você e é possível escutar
+    sons e gritos estranhos.  A leste você vê uma rede de almas.
+  exits:
+    east:
+      target_vnum: '9348'
+  name: O Salão dos Ossos
+  vnum: '9350'
+- description: |-
+    Você está entre várias sepulturas feitas de mármore negro e com detalhes
+    feitos em bronze.  Este local guarda os restos dos mais maléficos e
+    desonrados dragões.  Aqui o silêncio é absoluto e o abandono parece ter
+    tomado conta de todo o local.  As sepulturas estão cobertas de poeira e
+    sujeira.  Ao sul você observa a rede das almas.
+  exits:
+    south:
+      target_vnum: '9348'
+  name: As Sepulturas Negras
+  vnum: '9351'
+- description: |-
+    Você está no deserto causticante do paraíso dos dragões.  Ao contrário da
+    região sul do paraíso, aqui a terra é estéril e abutres sobrevoam o deserto
+    em busca de alguma carniça para devorarem.  Ao norte você observa o deserto
+    e sua seca mortal.  Ao sul você vê um imenso portal.
+  exits:
+    north:
+      target_vnum: '9353'
+    south:
+      target_vnum: '9300'
+  name: O Deserto dos Dragões
+  vnum: '9352'
+- description: |-
+    Você continua andando pelo deserto.A paisagem aqui é desoladora.  Ao
+    norte você observa alguns dromedários e ao sul o deserto continua.
+  exits:
+    north:
+      target_vnum: '9354'
+    south:
+      target_vnum: '9352'
+  name: O Deserto dos Dragões
+  vnum: '9353'
+- description: |-
+    Você continua andando pelo deserto.Você observa vários dromedários em
+    meio a areia escaldante do deserto.  A leste você observa uma enorme duna de
+    areia, a oeste e ao sul você vê a irradiação do calor brotando da areia.
+  exits:
+    east:
+      target_vnum: '9355'
+    south:
+      target_vnum: '9353'
+    west:
+      target_vnum: '9363'
+  name: O Deserto dos Dragões
+  vnum: '9354'
+- description: |-
+    Você está tentando se equilibrar no grande corpo íngreme da majestosa
+    duna de areia.  Para o alto e bem acima você observa o topo da duna de areia
+    e a oeste você vê vários dromedários.
+  exits:
+    up:
+      target_vnum: '9356'
+    west:
+      target_vnum: '9354'
+  name: A Magnífica Duna
+  vnum: '9355'
+- description: |-
+    Você está no ponto mais alto da duna; daqui é possível ver grande parte
+    do deserto dos dragões.A leste você observa um pequeno oásis e mais ao fundo
+    vários abutres sobrevoando o deserto.  Ao norte você vê a continuação do
+    grande deserto e para baixo você observa a base da duna.
+  exits:
+    down:
+      target_vnum: '9355'
+    east:
+      target_vnum: '9357'
+    north:
+      target_vnum: '9367'
+  name: O Topo da Duna
+  vnum: '9356'
+- description: |-
+    Você nem acredita no que está vendo.  Você acaba de encontrar um pequeno,
+    porém delicioso e agradável oásis em meio a este deserto seco e mortal.
+    Você pode observar ao redor muita vegetação e um pouco de água nas pequenas
+    poças ao longo das palmeiras que marcam e circundam o oásis.  A oeste você
+    observa o topo da duna e ao sul você vê a continuação do deserto.
+  exits:
+    south:
+      target_vnum: '9358'
+    west:
+      target_vnum: '9356'
+  name: O Pequeno Oásis
+  vnum: '9357'
+- description: |-
+    Você está caminhando no árido deserto dos dragões.  Você observa os
+    sinistros abutres sobrevoando o deserto.  A leste você observa o deserto
+    escaldante e ao norte você percebe um pequeno oásis.
+  exits:
+    east:
+      target_vnum: '9359'
+    north:
+      target_vnum: '9357'
+  name: O Deserto dos Dragões
+  vnum: '9358'
+- description: |-
+    Você está caminhando no árido deserto dos dragões.Ao sul você observa
+    vários abutres e sente um horrível odor vindo desta direção.A leste e a
+    oeste você vê o deserto escaldante.
+  exits:
+    east:
+      target_vnum: '9361'
+    south:
+      target_vnum: '9360'
+    west:
+      target_vnum: '9358'
+  name: O Deserto dos Dragões
+  vnum: '9359'
+- description: |-
+    Você está no deserto dos dragões; vê ao redor várias ossadas e corpos de
+    dromedários em decomposição.  O odor aqui é horrendo.  Em meio as ossadas e
+    corpos você vê vários abutres e insetos.  Ao norte você observa o deserto
+    dos dragões.
+  exits:
+    north:
+      target_vnum: '9359'
+  name: O Deserto dos Dragões
+  vnum: '9360'
+- description: |-
+    Você está caminhando no deserto dos dragões.  A oeste você observa o deserto
+    escaldante e a leste você observa uma enorme pedra.
+  exits:
+    east:
+      target_vnum: '9362'
+    west:
+      target_vnum: '9359'
+  name: O Deserto dos Dragões
+  vnum: '9361'
+- description: |-
+    Você está no deserto dos dragões.  Você observa ao redor a imensidão do
+    grande deserto e a frente uma pedra gigantesca.  Você a observa e nota
+    algumas pinturas ladeadas por uma enorme pegada e algumas escamas
+    azul-escuro.  A oeste você vê o deserto rido.
+  exits:
+    west:
+      target_vnum: '9361'
+  name: A Pedra Gigante
+  vnum: '9362'
+- description: |-
+    Você está caminhando pelo deserto do paraíso dos dragões de Vitália.  Ao
+    norte você observa uma estranha nuvem e a leste você percebe um grupo de
+    dromedários.
+  exits:
+    east:
+      target_vnum: '9354'
+    north:
+      target_vnum: '9364'
+  name: O Deserto dos Dragões
+  vnum: '9363'
+- description: |-
+    Você está sob uma imensa nuvem.  A única nuvem encontrada em todo o
+    deserto dos dragões.  Ao norte você observa um grande totem de pedra, ao sul
+    você observa o deserto dos dragões de Vitália.
+  exits:
+    north:
+      target_vnum: '9374'
+    south:
+      target_vnum: '9363'
+    up:
+      target_vnum: '9365'
+  name: A Misteriosa Nuvem
+  vnum: '9364'
+- description: |-
+    Você está na grande nuvem misteriosa.  Ao seu redor você observa as
+    formas naturais da superfície da nuvem, suaves e brancas.   Daqui você é capaz
+    de ver todo o deserto dos dragões ; ao sul você observa o grande portal do
+    deserto e ao norte um pântano sombrio.
+  exits:
+    down:
+      target_vnum: '9364'
+    up:
+      target_vnum: '9366'
+  name: A Fortaleza Aérea
+  vnum: '9365'
+- description: |-
+    Você está na fortaleza aérea do grande ancião prateado.  Sente uma
+    tranqüilidade e seu coração parece está sendo envolvido por um sentimento de
+    bondade e união.  Observa ao redor uma das paisagens mais bonitas já vistas
+    por você em toda Vitália.
+  exits:
+    down:
+      target_vnum: '9365'
+  name: O Recinto do Ancião Prateado
+  vnum: '9366'
+- description: |-
+    Você está caminhando no deserto do paraíso dos dragões de Vitália.   Em
+    torno a paisagem é desoladora.  Ao norte você observa o deserto dos dragões
+    e ao sul vê o topo da duna de areia.
+  exits:
+    north:
+      target_vnum: '9368'
+    south:
+      target_vnum: '9356'
+  name: O Deserto dos Dragões
+  vnum: '9367'
+- description: |-
+    Você está no deserto dos dragões e sente a solidão deste lugar; solidão
+    só quebrada pelos vôos dos abutres aguardando algum visitante do deserto
+    sucumbir e transformar-se em alimento.Ao norte e ao sul você observa o
+    solitário deserto.
+  exits:
+    north:
+      target_vnum: '9369'
+    south:
+      target_vnum: '9367'
+  name: O Deserto dos Dragões
+  vnum: '9368'
+- description: |-
+    Você está caminhando no deserto dos dragões de Vitália; você não observa
+    nada de estranho em torno, somente o vôo dos abutres.  Você encontra enormes
+    pegadas no chão seguindo na direção norte.   Ao sul você observa o solitário
+    deserto.
+  exits:
+    north:
+      target_vnum: '9370'
+    south:
+      target_vnum: '9368'
+  name: O Deserto dos Dragões
+  vnum: '9369'
+- description: |-
+    Você está caminhando no deserto dos dragões, quando observa algumas
+    grandes pegadas no solo.  Ao norte vislumbra alguns galhos e folhas, ao sul
+    e ao oeste o deserto.  A leste vê uma grande pedra.
+  exits:
+    east:
+      target_vnum: '9372'
+    north:
+      target_vnum: '9371'
+    south:
+      target_vnum: '9369'
+    west:
+      target_vnum: '9373'
+  name: O Deserto dos Dragões
+  vnum: '9370'
+- description: |-
+    Você está andando por um caminho coberto por galhos e folhas.  De repente
+    sente algo muito estranho.Uma sensação de estar andando sobre seu próprio
+    túmulo...   Você não sente seu pés no chão.....
+    ...você está caindo rapidamente.....
+    ....em direção........
+    ........em direção à boca do grande dragão ancião amarelo.
+    Você está morto!!!
+  exits: {}
+  name: Um Caminho Coberto por Galhos e Folhas
+  vnum: '9371'
+- description: "Você está no deserto dos dragões de Vitália; mais precisamente ao\
+    \ norte\ndo grande deserto.  Ao seu redor observa algumas escamas amarelas e marcas\n\
+    de sangue no chÃ£o.   Ã\x80 frente percebe uma pedra enorme.A oeste observa a\n\
+    desolação do deserto dos dragões."
+  exits:
+    west:
+      target_vnum: '9370'
+  name: Uma Pedra Gigante
+  vnum: '9372'
+- description: "Você está no deserto dos dragões e uma imagem parece quebrar a monotonia\n\
+    deste solitÃ¡rio deserto.  Ã\x80 frente vislumbra mais uma dos mistÃ©rios do\n\
+    paraíso dos dragões: a árvore do Fogo totalmente em chamas.  Seus galhos,\ntronco\
+    \ e folhas produzem um brilho amarelo intenso.  A leste você observa a\ndesolação\
+    \ do deserto dos dragões."
+  exits:
+    east:
+      target_vnum: '9370'
+  name: "A Ã\x81rvore do Fogo"
+  vnum: '9373'
+- description: "Você está num lugar de transição entre o deserto dos dragões e o pântano\n\
+    sombrio.  Ao redor observa algumas raízes vindas do pântano sombrio\nmisturadas\
+    \ Ã  areia do deserto.  Ã\x80 frente percebe a presenÃ§a de um grande\ntotem de\
+    \ pedra.  Ao norte vislumbra a escuridÃ\x83o do pÃ¢ntano e ao sul o\ndeserto dos\
+    \ dragões."
+  exits:
+    north:
+      target_vnum: '9375'
+    south:
+      target_vnum: '9364'
+  name: O Grande Totem de Pedra
+  vnum: '9374'
+- description: |-
+    Você está sobre as águas escuras do pântano sombrio do paraíso dos
+    dragões de Vitália.  Observa em torno os galhos e troncos retorcidos da
+    vegetação do pântano.O odor é horrível.  A oeste vê o pântano e ao sul um
+    totem de pedra.
+  exits:
+    south:
+      target_vnum: '9374'
+    west:
+      target_vnum: '9376'
+  name: O Pântano Sombrio
+  vnum: '9375'
+- description: |-
+    Você está sobre as águas escuras do pântano sombrio.  Ao redor observa os
+    galhos e troncos retorcidos da vegetação tétrica.Percebe algo se mexendo nas
+    águas escuras do pântano.  A leste e oeste vê o pântano escuro.
+  exits:
+    east:
+      target_vnum: '9375'
+    west:
+      target_vnum: '9377'
+  name: O Pântano Sombrio
+  vnum: '9376'
+- description: |-
+    Você está na parte mais escura do pântano.  Ao redor vê os galhos e
+    troncos retorcidos, e percebe algo a observá-lo entre eles.  Seu coração
+    dispara e o pânico toma conta do seu corpo.  Ao norte e a leste enxerga as
+    águas escuras do pântano nefando.
+  exits:
+    east:
+      target_vnum: '9376'
+    north:
+      target_vnum: '9378'
+  name: O Pântano Sombrio
+  vnum: '9377'
+- description: |-
+    Você está no pântano do paraíso dos dragões de Vitália em meio a sua
+    vegetação retorcida e macabra.  Ao norte vê bolhas surgindo das águas do
+    pântano.  Ao sul você observa a paisagem triste do pântano.
+  exits:
+    north:
+      target_vnum: '9379'
+    south:
+      target_vnum: '9377'
+  name: O Pântano Sombrio
+  vnum: '9378'
+- description: |-
+    Você está no pântano sombrio; à frente enxerga várias bolhas surgindo das
+    águas escuras deste lugar.  As bolhas estouram ao tocar os galhos e troncos
+    da vegetação macabra do pântano , exalando um gás verde escuro muito
+    estranho.  Ao norte vê uma imagem muito estranha: a mão de uma jovem mulher
+    surgindo das águas escuras do pântano.  A leste e ao sul mira a paisagem
+    fúnebre deste lugar e a oeste uma névoa se aproxima.
+  exits:
+    east:
+      target_vnum: '9380'
+    north:
+      target_vnum: '9382'
+    south:
+      target_vnum: '9378'
+    west:
+      target_vnum: '9381'
+  name: As águas Borbulhantes do Pântano
+  vnum: '9379'
+- description: |-
+    Você está entre os galhos e troncos retorcidos do pântano.   A oeste vê
+    várias bolhas surgindo das águas escuras do pântano.
+  exits:
+    west:
+      target_vnum: '9379'
+  name: O Pântano Sombrio
+  vnum: '9380'
+- description: |-
+    Você está no pântano envolvido pela misteriosa neblina que surgiu
+    subitamente.  Não consegue observar mais nada, nem mesmo os troncos
+    retorcidos visíveis em todo pântano.  Sente uma mudança brusca na
+    temperatura da água, antes quase congelada.  A leste enxerga várias bolhas
+    surgindo das águas do pântano.
+  exits:
+    east:
+      target_vnum: '9379'
+  name: A Neblina Misteriosa
+  vnum: '9381'
+- description: |-
+    Você atravessa o pântano entre os galhos e troncos retorcidos em direção a
+    bela e misteriosa mão que surgiu de suas águas. Ao aproximar-se dela sente algo
+    estranho em seu corpo, como se não o comandasse mais.
+    ...Você está diante da misteriosa mão...
+    ...a mão misteriosa estende-se em sua direção...
+    ...você estende sua mão e toca a mão misteriosa...
+    ...neste momento você volta a ter comando sobre seu corpo...
+    ...porém foi tarde demais...
+    ...você se transformou em mais uma vítima da alma desgarrada.
+    Você está morto ! E seu futuro ser  estar para sempre aprisionado neste
+    local tenebroso ao lado da alma desgarrada.
+  exits: {}
+  name: A Alma Desgarrada
+  vnum: '9382'
+- description: "Você está em outra dimensão e arrepender-se-á profundamente por ter\n\
+    entrado aqui.  Vê ao seu redor todos os tipos de peste da humanidade; todos\n\
+    os males estÃ£o presentes nesta sala.  Ã\x80 frente enxerga pessoas sendo\nqueimadas\
+    \ vivas, homens sendo desfigurados lentamente por doenças e crianças\npedindo\
+    \ socorro.  Ao sul há uma enorme porta negra."
+  exits:
+    south:
+      target_vnum: '9337'
+  name: Pestilência, a Dimensão do Terror
+  vnum: '9383'
+- description: |-
+    Você está numa passagem dentro da caverna; a quantidade de teias e
+    aranhas aumentou bastante, atrapalhando muito a sua visão.  Ao sul você
+    observa a entrada da caverna e a oeste por entre as teias de aranha vê uma
+    passagem em direção ao interior da caverna.
+  exits:
+    south:
+      target_vnum: '9334'
+    west:
+      target_vnum: '9385'
+  name: Uma Passagem na Caverna
+  vnum: '9384'
+- description: |-
+    Você está entre as teias e aranhas numa passagem na caverna.  Ao olha ao
+    seu redor você observa vários símbolos esculpidos nas paredes.  De repente
+    todas as aranhas fogem inexplicavelmente.  A leste observa o caminho de
+    volta e ao sul você observa algo se movendo; você se arrepia todo ao notar
+    um vulto lhe observando.
+  exits:
+    east:
+      target_vnum: '9384'
+    south:
+      target_vnum: '9386'
+  name: Uma Passagem na Caverna
+  vnum: '9385'
+- description: |-
+    Você está no fim da passagem da caverna; uma sensação de temor toma conta
+    do seu corpo; as paredes e o teto da caverna formam figuras humanas
+    expressando em suas faces a dor e o terror.  Você está paralisado, tonto,
+    congelado de medo !  As figuras humanas começam a produzir sons estranhos e
+    se movimentarem em sua direção.  Você olha para o chão tentando escapar
+    daquelas imagens aterrorizantes e observa o chão da câmara se transformar
+    num espelho a refletir-lo morto e sem os olhos.  No centro da câmara há uma
+    fonte e ao norte enxerga uma passagem na caverna.
+  exits:
+    north:
+      target_vnum: '9385'
+  name: A Origem da Fantasmagoria
+  vnum: '9386'
+- description: |-
+    Você está numa câmara em chamas; ao seu redor as labaredas de fogo sobem
+    até o teto distribuindo pela câmara toda sua energia em forma de calor.
+    Para cima você observa a entrada da caverna e para baixo você vê uma
+    passagem em chamas.
+  exits:
+    down:
+      target_vnum: '9388'
+    up:
+      target_vnum: '9336'
+  name: Uma Passagem em Chamas
+  vnum: '9387'
+- description: |-
+    Você está numa câmara em chamas; ao seu redor as labaredas de fogo sobem
+    até o teto distribuindo pela câmara toda sua energia em forma de calor.
+    Você ouve um enorme som ensurdecedor vindo do interior da caverna.  Para
+    cima observa uma câmara em chamas e para baixo vê uma passagem em direção ao
+    interior da caverna.
+  exits:
+    down:
+      target_vnum: '9389'
+    up:
+      target_vnum: '9387'
+  name: Uma Passagem em Chamas
+  vnum: '9388'
+- description: |-
+    Você está numa câmara em chamas; ao seu redor as labaredas de fogo sobem
+    até o teto distribuindo toda sua energia em forma de calor.  Você sente que
+    está muito próximo da origem de toda essa energia, pois o calor e as
+    labaredas estão insuportáveis.  Para cima você observa uma câmara em chamas
+    e para baixo você vê uma enorme esfera reluzente.
+  exits:
+    down:
+      target_vnum: '9390'
+    up:
+      target_vnum: '9388'
+  name: Uma Passagem em Chamas
+  vnum: '9389'
+- description: |-
+    Você está na origem de todo esse calor; ao seu redor você observa um
+    tesouro fabuloso, com muito ouro, jóias e pedras preciosas dos mais variados
+    tipos e tamanhos.  No centro da câmara há uma enorme esfera de fogo soltando
+    labaredas e espalhando chamas para todos os lados.  Você olha ao seu redor e
+    imagina quem guardaria tantas riquezas numa câmara tão grande como essa.
+    Para cima você observa uma câmara em chamas.
+  exits:
+    up:
+      target_vnum: '9389'
+  name: A Câmara dos Tesouros
+  vnum: '9390'
+- description: |-
+    Você está numa câmara da caverna; existem escrituras esculpidas por todas
+    as suas paredes douradas.  Ao norte, a leste e oeste vê passagens douradas.
+    Ao sul você observa a entrada da caverna.
+  exits:
+    east:
+      target_vnum: '9393'
+    north:
+      target_vnum: '9396'
+    south:
+      target_vnum: '9336'
+    west:
+      target_vnum: '9392'
+  name: Uma Câmara Dourada
+  vnum: '9391'
+- description: |-
+    Você está numa câmara da caverna; ao seu redor existem escrituras
+    esculpidas pelas paredes.  Ao norte e a leste pode ver passagens douradas.
+  exits:
+    east:
+      target_vnum: '9391'
+    north:
+      target_vnum: '9395'
+  name: Uma Câmara Dourada
+  vnum: '9392'
+- description: |-
+    Você está numa câmara da caverna; ao seu redor existem escrituras
+    esculpidas pelas paredes.  Ao norte e a leste pode ver passagens douradas.
+  exits:
+    east:
+      target_vnum: '9394'
+    north:
+      target_vnum: '9397'
+    west:
+      target_vnum: '9391'
+  name: Uma Câmara Dourada
+  vnum: '9393'
+- description: |-
+    Você está numa câmara da caverna; ao seu redor existem escrituras
+    esculpidas pelas paredes.  Ao norte e a leste pode ver passagens douradas.
+  exits:
+    north:
+      target_vnum: '9398'
+    west:
+      target_vnum: '9393'
+  name: Uma Câmara Dourada
+  vnum: '9394'
+- description: |-
+    Você está numa câmara da caverna; ao seu redor existem escrituras
+    esculpidas pelas paredes.  Ao norte e a leste pode ver passagens douradas.
+  exits:
+    east:
+      target_vnum: '9396'
+    south:
+      target_vnum: '9392'
+  name: Uma Câmara Dourada
+  vnum: '9395'
+- description: |-
+    Você está numa câmara da caverna; ao seu redor existem escrituras
+    esculpidas pelas paredes.  Ao norte e a leste pode ver passagens douradas.
+  exits:
+    east:
+      target_vnum: '9397'
+    south:
+      target_vnum: '9391'
+    west:
+      target_vnum: '9395'
+  name: Uma Câmara Dourada
+  vnum: '9396'
+- description: |-
+    Você está numa câmara da caverna; ao seu redor existem escrituras
+    esculpidas pelas paredes.  Ao norte e a leste pode ver passagens douradas.
+  exits:
+    east:
+      target_vnum: '9398'
+    south:
+      target_vnum: '9393'
+    west:
+      target_vnum: '9396'
+  name: Uma Câmara Dourada
+  vnum: '9397'
+- description: |-
+    Você está numa câmara da caverna; as paredes reluzentes refletem seu
+    corpo.  Você percebe uma pequena escritura esculpida no chão.  Ao sul e a
+    oeste vê passagens douradas.  A leste observa um pequeno ponto de brilho
+    intenso e vindo da direção norte vem um feixe de raios solares.
+  exits:
+    east:
+      target_vnum: '9399'
+    north:
+      target_vnum: '9300'
+    south:
+      target_vnum: '9394'
+    west:
+      target_vnum: '9397'
+  name: Uma Câmara Dourada
+  vnum: '9398'
+- description: |-
+    Você atravessa a câmara em direção ao brilho intenso e percebe que ele
+    vem de um jarro encostado na parede da câmara.  Não resiste a curiosidade de
+    saber o que há dentro do jarro e coloca sua mão dentro dele...  Sente uma
+    dor na mão e arremessa o jarro contra a parede...  A origem de todo esse
+    brilho era uma áspide de veneno mortal...  Você começa a tremer e debater-se
+    no chão...  Suas artérias retorcem-se como raízes secas no sol de um
+    deserto...  O Veneno tomou conta de todo seu corpo.......
+    ...
+    ..
+    .
+    Você está morto!
+  exits: {}
+  name: "A Ã\x81spide de NÃ©fis"
+  vnum: '9399'

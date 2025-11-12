@@ -1,0 +1,1040 @@
+- description: |-
+    A grama amarelada daqui foi bem pisoteada, em sua grande maioria pelo
+    trânsito constante de pedestres e rodas de carroças.  As pegadas seguem em
+    direção ao sul, para uma área aberta onde um número bastante grande de
+    pessoas se encontram.  Um pouco para o sul daqui, estão alguns vagões de
+    carroças parados à margem da estrada.
+  exits:
+    south:
+      target_vnum: '2301'
+    west:
+      target_vnum: '1107'
+  name: O Baixo Gramado
+  vnum: '2300'
+- description: |-
+    O caminho possui um trânsito razoavelmente grande por não ser uma
+    estrada, e o volume de tráfego que tomou esta direção, acabou transformando
+    este caminho, numa estrada transitável.  Ao leste há um vagão colorido com
+    um homem sentado dentro acenando para você.
+  exits:
+    east:
+      target_vnum: '2303'
+    north:
+      target_vnum: '2300'
+    south:
+      target_vnum: '2302'
+  name: O Baixo Gramado
+  vnum: '2301'
+- description: |-
+    Outro vagão está parado na estrada, do lado oeste.  O gramado foi tão
+    intensamente pisoteado que existem pedaços onde se pode ver o chão de terra
+    batida.  Bem ao sul, há uma enorme área, onde se existe um grande número de
+    exóticos homens e mulheres dançando, saltitando e brincando com as pessoas
+    que passam ali por perto.
+  exits:
+    north:
+      target_vnum: '2301'
+    south:
+      target_vnum: '2305'
+    west:
+      target_vnum: '2304'
+  name: Um Caminho Gramado Batido
+  vnum: '2302'
+- description: |-
+    O vagão colorido que está parado na lateral da estrada parece que já
+    viajou pelos lugares mais exóticos do mundo.  Pequenos sinos prateados foram
+    pendurados nas lonas da carroça, pelo lado de fora e conforme o vento bate,
+    eles batem delicadamente, como se entoassem uma suave melodia.
+  exits:
+    west:
+      target_vnum: '2301'
+  name: O Vagão do Tônico
+  vnum: '2303'
+- description: |-
+    Este vagão se parece exatamente com a visão selvagem e excitante que
+    envolve este lugar.  Foram pintadas em sua lona, paisagens que retratam
+    cachoeiras e pradarias rústicas, em cores berrantes e fortes.  Certamente
+    este é um vagão que chama a atenção de todos.
+  exits:
+    east:
+      target_vnum: '2302'
+  name: O Vagão Berrante
+  vnum: '2304'
+- description: |-
+    Um permanente festival acontece aqui, dia e noite sem parar.  Sempre que
+    uma caravana de ciganos ou uma companhia de artores parte surgem outros, no
+    lugar.  Um grande panorama de espetáculos e de maravilhas estão à sua
+    espera.
+  exits:
+    east:
+      target_vnum: '2306'
+    north:
+      target_vnum: '2302'
+    south:
+      target_vnum: '2309'
+    west:
+      target_vnum: '2307'
+  name: "Ã\x81rea do Festival"
+  vnum: '2305'
+- description: |-
+    Um povo sorridente toma conta desta grande área aberta onde todos os
+    tipos de homens e mulheres alegres se surpreendem e se deleitam diante dos
+    inúmeros espetáculos que acontecem o tempo todo.  Esta é a esquina do lado
+    nordeste da área - e a maioria das atividades estão mais para o sul e oeste.
+  exits:
+    south:
+      target_vnum: '2310'
+    west:
+      target_vnum: '2305'
+  name: "Ã\x81rea do Festival"
+  vnum: '2306'
+- description: |-
+    Este lugar era até bem recentemente, um simples campo aberto, destituído
+    de quqlquer beleza e igual a tantos outros campos comuns.  A grama amarelada
+    foi pisoteada por mil pés parece pedir um descanso.  Neste local pode-se ver
+    toda uma infinita gama das coisas mais curiosas e diferentes e
+    originais...em sua grande a maioria ao sul e leste.
+  exits:
+    east:
+      target_vnum: '2305'
+    south:
+      target_vnum: '2308'
+  name: "Ã\x81rea do Festival"
+  vnum: '2307'
+- description: |-
+    Uma fileira aberta através das árvores segue para o oeste e as maravilhas
+    que estão nesta área continuam naquela direção.
+  exits:
+    east:
+      target_vnum: '2309'
+    north:
+      target_vnum: '2307'
+    south:
+      target_vnum: '2311'
+    west:
+      target_vnum: '2335'
+  name: "Ã\x81rea do Festival"
+  vnum: '2308'
+- description: |-
+    Os sons das pessoas que andam sem parar por aqui junta-se aos gritos dos
+    inúmeros vendedores ambulantes que perambulam pela feira, bem como ao ruído
+    incessante dos artitas, que convidam as pessoas para assistirem aos seus
+    espetáculos, dando ao ambiente um ar de aventura e de espanto.  Os tipos
+    mais estranhos circulam por todas as direções e seria preciso ter muito mal
+    humor para não se divertir aqui.
+  exits:
+    east:
+      target_vnum: '2310'
+    north:
+      target_vnum: '2305'
+    south:
+      target_vnum: '2312'
+    west:
+      target_vnum: '2308'
+  name: "Ã\x81rea do Festival"
+  vnum: '2309'
+- description: |-
+    Uma grande área se abre para o leste e mais e mais atrações parecem se
+    aglutinar aqui.  Mais para o sul, algumas pessoas estão desempenhando seus
+    números.
+  exits:
+    east:
+      target_vnum: '2318'
+    north:
+      target_vnum: '2306'
+    south:
+      target_vnum: '2313'
+    west:
+      target_vnum: '2309'
+  name: "Ã\x81rea do Festival"
+  vnum: '2310'
+- description: |-
+    Aqui, a clareira chega até a extremidade da floresta, contudo, há uma
+    pequena trilha que segue através das árvores, indo para o oeste.
+  exits:
+    east:
+      target_vnum: '2312'
+    north:
+      target_vnum: '2308'
+    south:
+      target_vnum: '2314'
+    west:
+      target_vnum: '2345'
+  name: "Ã\x81rea do Festival"
+  vnum: '2311'
+- description: |-
+    Você se encontra exatamente no centro deste lugar cheio de alegria e
+    muita diversão.  As pessoas circulam por todos os lados, empurrando e dando
+    cotoveladas em todos.  Para qualquer lado que se olhe é possível ver algo
+    novo e maravilhoso.
+  exits:
+    east:
+      target_vnum: '2313'
+    north:
+      target_vnum: '2309'
+    south:
+      target_vnum: '2315'
+    west:
+      target_vnum: '2311'
+  name: "Ã\x81rea do Festival"
+  vnum: '2312'
+- description: |-
+    Com tantas pessoas passado por você, sem pressa, absolutamente entregues
+    à diversão, fica difícil ficar sem relaxar ou gastar um pouco de dinheiro
+    neste lugar.  Este lugar deve ser meio mágico, pois com tanta gente pisando
+    na grama, esta ainda consegue se manter viva sob os milhares de pés.
+  exits:
+    east:
+      target_vnum: '2317'
+    north:
+      target_vnum: '2310'
+    south:
+      target_vnum: '2316'
+    west:
+      target_vnum: '2312'
+  name: "Ã\x81rea do Festival"
+  vnum: '2313'
+- description: |-
+    Esta é o lado ocidental da clareira - a maioria dos transeuntes está indo
+    para o norte, sul e leste.  Realmente é surpreendente como tantas pessoas
+    podem passar por este lugar, todos eles de diferentes raças, tamanhos e
+    estatura e ainda assim, todos parecem estar pacíficamente entrosados- até
+    mesmo felizes por estarem juntos.
+  exits:
+    east:
+      target_vnum: '2315'
+    north:
+      target_vnum: '2311'
+    south:
+      target_vnum: '2349'
+  name: "Ã\x81rea do Festival"
+  vnum: '2314'
+- description: |-
+    Logo ao sul, há um pequeno palco onde um grupo de artistas está
+    representando algum tipo de sátira.  Para o norte, leste e oeste estão
+    muitas outras atrações.
+  exits:
+    east:
+      target_vnum: '2316'
+    north:
+      target_vnum: '2312'
+    south:
+      target_vnum: '2350'
+    west:
+      target_vnum: '2314'
+  name: "Ã\x81rea do Festival"
+  vnum: '2315'
+- description: |-
+    Este é o lado oriental da clareira.  A maior parte do movimento acontece
+    no leste e no norte.  Para o sul fica o final da clareira, onde um pequeno
+    caminho foi aberto, através dos bosques.
+  exits:
+    north:
+      target_vnum: '2313'
+    south:
+      target_vnum: '2351'
+    west:
+      target_vnum: '2315'
+  name: "Ã\x81rea do Festival"
+  vnum: '2316'
+- description: |-
+    Um grande pedaço da clareira segue para o leste, encontrando-se com outra
+    grande área aberta, onde mais jogos e atrações divertidas estão acontecendo.
+    Há vagõesde carroças estacionados ao lado do gramado, com pequenas
+    distâncias entre si.  Cada uma das carroças está mais cheia com mercadorias
+    exóticas, para serem vendidas aos transeuntes da feira.
+  exits:
+    east:
+      target_vnum: '2321'
+    north:
+      target_vnum: '2318'
+    west:
+      target_vnum: '2313'
+  name: Estrada
+  vnum: '2317'
+- description: |-
+    Uma grande área gramada do lado leste vai avançando até outra área
+    aberta, onde mais pessoas se juntam para assistir aos espetáculos e comprar
+    mercadorias.Vagões estão estacionados ao longo deste gramado, e você percebe
+    que há um estacionado bem ao norte de onde você está parado.
+  exits:
+    east:
+      target_vnum: '2320'
+    north:
+      target_vnum: '2319'
+    south:
+      target_vnum: '2317'
+    west:
+      target_vnum: '2310'
+  name: O Gramado do Leste
+  vnum: '2318'
+- description: |-
+    A grande carroça que está estacionada neste pequeno nicho entre o
+    arvoredo, está toda coberta por lonas coloridas e enfeitada por tapeçaciras
+    muito exóticas e bonitas.  Parece que os donos destes carroções competem
+    entre si para ver de quem é o mais extravagante.  Ao observar esta carroça,
+    você tem a nítida impressão de que o dono deste vagão ganha a vida vendendo
+    roupas e tecidos.
+  exits:
+    south:
+      target_vnum: '2318'
+  name: Carroção Colorido
+  vnum: '2319'
+- description: |-
+    E estas pessoas exóticas e tão coloridas continuam tentando vender suas
+    mercadorias aos transeuntes, enquqnto os artistas se exibem, mostrando seus
+    talentos a todos que queiram lhes dar algumas moedas.  Há uma grande
+    concentração de pessoas ao leste, assistindo a algum espetáculo ou jogando
+    qualquer tipo de jogo.
+  exits:
+    east:
+      target_vnum: '2323'
+    south:
+      target_vnum: '2321'
+    west:
+      target_vnum: '2318'
+  name: O Gramado do Leste
+  vnum: '2320'
+- description: |-
+    As pessoas vão andando e se empurram umas às outras, chegando mesmo a
+    darem algumas cotoveladas uns nos outros, sem contudo deixarem de se sentir
+    felizes e se divertindo muito.  Ao sul há um vagão muito colorido, onde
+    estão sendo vendidas uns adornos muito bonitos, muito parecidos com jóias.
+  exits:
+    east:
+      target_vnum: '2324'
+    north:
+      target_vnum: '2320'
+    south:
+      target_vnum: '2322'
+    west:
+      target_vnum: '2317'
+  name: O Gramado do Leste
+  vnum: '2321'
+- description: |-
+    O vagão está todo enfeitado com quadros de reis e rainhas, vestidos com
+    suas vestimentas reais e repletos de jóias.  Mais abaixo, estão alguns
+    quadros mostrando mãos cheias de anéis e pulseiras cintilantes, que chamam a
+    atenção dos fregueses que espiam fascinados através da janela do vagão.
+  exits:
+    north:
+      target_vnum: '2321'
+  name: O Vagão da Bijouteria
+  vnum: '2322'
+- description: |-
+    Ao leste há uma grande área aberta, onde foi construído um palco para que
+    os atores possam encenar suas peças que vão do mais profundo drama até a
+    mais espalhafatosa comédia.  Uma grande multidão aguarda ansiosa pelo início
+    do espetáculo.
+  exits:
+    east:
+      target_vnum: '2326'
+    south:
+      target_vnum: '2324'
+    west:
+      target_vnum: '2320'
+  name: O Gramado do Leste
+  vnum: '2323'
+- description: |-
+    Ao leste há uma grande clareira.  Não é tão grande quanto a área onde
+    ficam as principais atrações, mas serve bem ao propósito.  Um grande palco
+    foi montado no lado leste da clareira, onde peças satíricas e dramalhões
+    pesados vão sendo encenados para o deleite da platéia entusiasmada.
+  exits:
+    east:
+      target_vnum: '2327'
+    north:
+      target_vnum: '2323'
+    west:
+      target_vnum: '2321'
+  name: O Gramado do Leste
+  vnum: '2324'
+- description: |-
+    Há um palco a sudeste daqui, onde uma peça está sendo encenada para um
+    grande número de pessoas atentas e emocionadas.  Ao norte, há um restaurante
+    ao ar livre - você pode sentir o delicioso cheiro do tempero da comida
+    cigana, que enche o ar.
+  exits:
+    east:
+      target_vnum: '2373'
+    north:
+      target_vnum: '2331'
+    south:
+      target_vnum: '2326'
+  name: O Pátio
+  vnum: '2325'
+- description: |-
+    O palco que está no leste está em constante atividade.  Pode-se ver o
+    movimento constante de atores que entram e saem de cena.  Ao norte daqui, há
+    uma área onde muitas pessoas estão confortavelmente sentadas em coloridas
+    mesas de piquenique, degustando os pratos que foram comprados no pequeno
+    restaurante cigano.
+  exits:
+    north:
+      target_vnum: '2325'
+    south:
+      target_vnum: '2327'
+    west:
+      target_vnum: '2323'
+  name: O Pátio Cigano
+  vnum: '2326'
+- description: |-
+    O palco que está no leste está em constante atividade.  Pode-se ver o
+    movimento constante de atores que entram e saem de cena.  Para o sul, há uma
+    enorme barraca de lona, sob a qual, muitos homens estão em pé, enquanto
+    segurando firmes suas canecas de cerveja e ao mesmo tempo assistem à peça
+    que vai sendo exibida no palco.
+  exits:
+    north:
+      target_vnum: '2326'
+    south:
+      target_vnum: '2328'
+    west:
+      target_vnum: '2324'
+  name: O Pátio Cigano
+  vnum: '2327'
+- description: |-
+    Logo ali ao sul, está a Barraca de Cerveja Inglesa, onde um grande número
+    de pessoas - em sua grande maioria homens - está em pé, enquanto bebe sua
+    cerveja entre seus companheiros, desfrutando o dia de festa e alegrias.  O
+    palco principal fica ao nordeste, e ao leste há uma área lateral.
+  exits:
+    east:
+      target_vnum: '2372'
+    north:
+      target_vnum: '2327'
+    south:
+      target_vnum: '2329'
+  name: O Pátio Cigano
+  vnum: '2328'
+- description: |-
+    Homens estão em pé ali, se acotovelando uns aos outros, e enquanto bebem
+    suas cervejas, vão falando sobre tudo que eles têm vontade de falar.  O mais
+    importante de tudo isso é que eles estão todos bebendo a tão saborosa
+    cerveja inglesa que os ciganos sabem tão bem fabricar.  Em todo o caso - de
+    verdade - eles poderiam estar até discutindo sobre o sexo dos anjos que não
+    teria o menor problema, já que todos estão ali por um único motivo: tomar a
+    deliciosa cerveja.
+  exits:
+    east:
+      target_vnum: '2330'
+    north:
+      target_vnum: '2328'
+  name: Barraca de Cerveja Inglesa
+  vnum: '2329'
+- description: |-
+    Esta é uma carroça muito confortável e bastante colorida, que o cigano
+    que é dono da Barraca de Cerveja transformou na casa dele.  Sempre que a
+    feira termina ou se muda, ele simplesmente coloca os cavalos em marcha e
+    leva sua casa para um novo local onde ele possa novamente vender sua cerveja
+    inglesa.
+  exits:
+    west:
+      target_vnum: '2329'
+  name: Uma Carroça Cigana
+  vnum: '2330'
+- description: |-
+    Uma grande quantidade de mesinhas para piquenique foi colocada aqui, para
+    que as pessoas possam se sentar enquanto saboreiam a deliciosa comida que é
+    vendida neste pequeno e original restaurante.  O cheiro da comida é tão bom
+    que chega a dar água na boca daqueles que daqui se aproximam.
+  exits:
+    east:
+      target_vnum: '2332'
+    south:
+      target_vnum: '2325'
+  name: Vagão Restaurante
+  vnum: '2331'
+- description: |-
+    Esta é a casa dos atores ciganos.  Um grande número deles está amontoado
+    nos pequenos beliches que ficam dentro do vagão.  Eles fazem turnos,
+    revezando-se para que os que ficaram fora do conforto do vagão durante o
+    dia, possam descansar na parte de dentro, à noite.  Por que será que as
+    pessoas não podem ter um tipo de vida simples como este...  Quem pode
+    responder?
+  exits:
+    west:
+      target_vnum: '2331'
+  name: Vagão Cigano
+  vnum: '2332'
+- description: |-
+    Hum rum...Você se encontra exatamente no meio de um grande palco.  Por
+    favor, siga para baixo, indo para o norte ou para o sul, mas SAIA DESTE
+    PALCO AGORA MESMO!!
+  exits:
+    down:
+      target_vnum: '2373'
+    south:
+      target_vnum: '2334'
+  name: O Palco
+  vnum: '2333'
+- description: |-
+    Hum rum...Você se encontra exatamente no meio de um grande palco.  Por
+    favor, siga para baixo, indo para o norte ou para o sul, mas SAIA DESTE
+    PALCO AGORA MESMO!!
+  exits:
+    down:
+      target_vnum: '2372'
+    north:
+      target_vnum: '2333'
+  name: O Palco
+  vnum: '2334'
+- description: |-
+    A floresta se abre, dando passagem para mais uma grande área aberta a
+    oeste.  O mesmo tipo de felicidade e atmosfera festiva que toma conta de
+    todo que estão no leste, parece tomar conta também dos que estão no oeste.
+  exits:
+    east:
+      target_vnum: '2308'
+    west:
+      target_vnum: '2336'
+  name: O Caminho Gramado
+  vnum: '2335'
+- description: |-
+    Um grande campo aberto se estende a oeste, onde algumas estruturas foram
+    erguidas para serem usadas apenas enquanto a grande feira durar.  Esta área
+    é mais usada pelas famílias que estão visitando o festival, pois aqui
+    existem tanto atrações para adultos como para as crianças.
+  exits:
+    east:
+      target_vnum: '2335'
+    west:
+      target_vnum: '2337'
+  name: O Caminho Gramado
+  vnum: '2336'
+- description: |-
+    Um grande pavilhão se estende ao oeste, e o cheiro de vapor e de comida
+    grelhada chega abundante daquela direção.  Para o norte e sul, estão as
+    extensões deste grande pátio, onde todos os tipos de atividades estão
+    constantemente acontecendo.
+  exits:
+    east:
+      target_vnum: '2336'
+    north:
+      target_vnum: '2339'
+    south:
+      target_vnum: '2338'
+    west:
+      target_vnum: '2344'
+  name: Pátio Gramado
+  vnum: '2337'
+- description: |-
+    Ao sul, há uma fila de crianças esperando que o maquiador pinte suas
+    faces, transformando-os em pequeninos exemplares de animais
+    selvagens...lindinhos e graciosos.  Para o leste, há uma pequena área onde
+    uma mulher lê um grosso tomo, contando uma vibrante história para uma
+    multidão de crianças com olhos arregalados.
+  exits:
+    east:
+      target_vnum: '2377'
+    north:
+      target_vnum: '2337'
+    south:
+      target_vnum: '2343'
+  name: Pátio Gramado
+  vnum: '2338'
+- description: |-
+    Logo ao norte daqui, há um pequeno castelo feito de madeira, com
+    aproximadamente cinco pés de altura.  Suas paredes internas foram pintadas
+    com cores luminosas e vibrantes.  Lá dentro, marionetes e pequenos bonecos
+    dançam e saltam, para o deleite das crianças, que gritam de alegria,
+    sentadas que estão no chão do pequenino castelo.  Para o leste há uma área
+    pequena onde estão alguns animais raros, enjaulados para que possam ser
+    vistos pelo público de forma segura.
+  exits:
+    east:
+      target_vnum: '2341'
+    north:
+      target_vnum: '2340'
+    south:
+      target_vnum: '2337'
+  name: Pátio Gramado
+  vnum: '2339'
+- description: |-
+    Um pequeno castelo de madeira está aqui.  Foi pintado de forma tão
+    perfeita, que dá nítida impressão de ter sido feito com pedras e argamassa.
+    Uma grande janela se abre na parte de cima do pequeno castelo, dando lugar a
+    uma espécie de palco, onde pequenos bonecos, feitos de pano e de madeira,
+    são controlados por homens e mulheres, mestres na arte dos fantoches.  Os
+    pequenos marionetes cantam, dançam, brigam entre si, causando nas crianças
+    uma avalanche de barulhentas gargalhadas.
+  exits:
+    south:
+      target_vnum: '2339'
+  name: Espetáculo de Marionetes
+  vnum: '2340'
+- description: |-
+    Pequenas e grandes jaulas foram colocadas em círculo, aqui.  Cada uma com
+    um animal exótico e raro dentro.  Para o norte estão mais jaulas com
+    animais.
+  exits:
+    north:
+      target_vnum: '2342'
+    west:
+      target_vnum: '2339'
+  name: Exposição de Animais
+  vnum: '2341'
+- description: |-
+    Pequenos animais parecem gemer baixinho, enquanto outros rosnam ou até
+    mesmo dormem.  O lugar não cheira muito bem - a cada vez que você inspira o
+    ar, sente o odor fétido e forte.  Contudo, a beleza dos animais compensa o
+    sacrifício...  Bem, pelo menos, parece que compensa.
+  exits:
+    south:
+      target_vnum: '2341'
+  name: Exposição de Animais
+  vnum: '2342'
+- description: |-
+    Crianças fazem uma longa fila, para terem seus rostinhos cobertos com
+    pinturas que os transformam em monstrinhos assustadores, palhacinhos felizes
+    ou qualquer outro tipo de pintura engraçada.  Um após o outro, vão se
+    transformando e saem dali rindo alto, prontos para assustar as pessoas.
+  exits:
+    north:
+      target_vnum: '2338'
+  name: Pintura de Face
+  vnum: '2343'
+- description: |-
+    Não há nenhuma parede neste lugar, apenas quatro colunas que sustentam um
+    tipo de telhado rústico e bem precário.  Uma grelha para assar carnes e um
+    barril cheio com um suco delicioso, foram colocados no fundo do restaurante,
+    para atender os trabalhadores.  Este seria, certamente, um lugar relaxante
+    para se sentar, comer e descansar um tempo.
+  exits:
+    east:
+      target_vnum: '2337'
+  name: Restaurante ao Ar Livre
+  vnum: '2344'
+- description: |-
+    Pela aparência do chão, algum tipo de objeto com rodas grandes como as de
+    um vagão passou por aqui.  A grama está amassada, formando duas linhas
+    paralelas, que seguem em direção aos bosques do sul.  O caminho principal
+    que vão para o festival são os do leste.
+  exits:
+    east:
+      target_vnum: '2311'
+    south:
+      target_vnum: '2346'
+  name: O Caminho
+  vnum: '2345'
+- description: |-
+    O caminho sul segue diretamente em direção aos bosques.  Pequenas árvores
+    quebradas e arbustos amassados evidenciam que algum tipo de veículo grande e
+    pesado passou por aqui.  O caminho para voltar para a área principal fica ao
+    norte.
+  exits:
+    north:
+      target_vnum: '2345'
+    south:
+      target_vnum: '2347'
+  name: O Caminho
+  vnum: '2346'
+- description: |-
+    Parece que o fim deste caminho está próximo - bastante perto, na verdade.
+    Bem ao sul, há um vagão de cor parda, com uma lua crescente pintada bem no
+    centro da porta.  Nenhum som vem de dentro, as cortinas estão todas fechados
+    - pelo jeito, este carroção parece ter sido abandonado aqui por algum cigano
+    que está no festival e que decidiu que não quer mais isto aqui.
+  exits:
+    north:
+      target_vnum: '2346'
+    south:
+      target_vnum: '2348'
+  name: O Caminho
+  vnum: '2347'
+- description: |-
+    Se você apenas olhar para dentro deste pequeno quarto de vagão, pode
+    muito fácilmente achar que ele foi abandonado.  Tudo neste vagão é muito
+    velho e está meio apodrecido.  O cheiro daqui é forte o suficiente para
+    fazer com que a maioria das pessoas dêm a meia volta para trás.  E isso é
+    pouco.  Uma mesa pequena redonda foi colocado no centro do aposento, com uma
+    bola de cristal brilhante sobre ela.
+  exits:
+    north:
+      target_vnum: '2347'
+  name: O Vagão da Senhora Zayla
+  vnum: '2348'
+- description: |-
+    Este é o lado mais sudoeste da clareira, toda a ação está acontecendo no
+    lado nordeste.  Um pequeno palco desmontável foi montado bem perto daqui, ao
+    leste, onde um grupo de atores representam uma peça satírica.
+  exits:
+    east:
+      target_vnum: '2350'
+    north:
+      target_vnum: '2314'
+  name: "Ã\x81rea do Festival"
+  vnum: '2349'
+- description: |-
+    Um pequeno grupo de atores representa uma peça chamada "O Grande Outono
+    de Cyrrian", a história que conta como as escolhas egoístas de um homem
+    podem afetar o curso da história de uma cidade inteira.  A área principal do
+    festival fica ao norte.
+  exits:
+    east:
+      target_vnum: '2351'
+    north:
+      target_vnum: '2315'
+    west:
+      target_vnum: '2349'
+  name: A Representação
+  vnum: '2350'
+- description: |-
+    Um pequeno caminho foi aberto através da floresta, seguindo em direção
+    sul, distanciando-se desta área principal.  A oeste há um pequeno palco
+    desmontável, onde um diminuto grupo de atores representa uma peça satírica.
+  exits:
+    north:
+      target_vnum: '2316'
+    south:
+      target_vnum: '2352'
+    west:
+      target_vnum: '2350'
+  name: "Ã\x81rea do Festival"
+  vnum: '2351'
+- description: |-
+    A estradinha que vai para o sul não foi muito bem delineada, pois para se
+    encontrar o caminho sem se perder requer muita concentração.  Por causa da
+    lentidão, você consegue ouvir o motivo pelo qual os outros viajantes parecem
+    ter escolhido o mesmo caminho que você - o som de água correndo.
+  exits:
+    north:
+      target_vnum: '2351'
+    south:
+      target_vnum: '2353'
+  name: O Caminho de Terra Batida
+  vnum: '2352'
+- description: |-
+    Encontrar um caminho aqui, através desta confusão, é bastante difícil.  A
+    melhor maneira é tentar seguir o trilho de grama amassada e de ramos
+    quebrados e arrebentados.  Parece que você poderia ir para qualquer uma das
+    três direções que seguem para oeste, sul ou norte.
+  exits:
+    north:
+      target_vnum: '2352'
+    south:
+      target_vnum: '2354'
+    west:
+      target_vnum: '2376'
+  name: O Caminho de Terra Batida
+  vnum: '2353'
+- description: |-
+    O som da água corrente está agora muito mais claro.  Não é o som de uma
+    grande quantidade de água, apenas o fluxo tranquilo do que parece ser um
+    riacho.  Há um caminho aberto através da floresta que vai para o norte,
+    leste e sul.
+  exits:
+    east:
+      target_vnum: '2355'
+    north:
+      target_vnum: '2353'
+    south:
+      target_vnum: '2374'
+  name: O Caminho de Terra Batida
+  vnum: '2354'
+- description: |-
+    O caminho segue para o leste para uma pequena clareira, onde podem ser
+    vistas muitas pessoas em plenas atividades.  Foram erguidas estruturas de
+    algum tipo de material que não se pode reconhecer daqui.  A maneira de se
+    voltar para o festival é seguir para o oeste.
+  exits:
+    east:
+      target_vnum: '2356'
+    west:
+      target_vnum: '2354'
+  name: A Trilha da Floresta
+  vnum: '2355'
+- description: |-
+    Esta trilha parece ter sido um caminho que alguns animais da floresta,
+    costumavam usar antes que os primeiros ciganos chegassem.  Provavelmente,
+    eles estacionavam seus vagões e suas barracas aqui para acampar exatamente
+    por causa disso, pois caçar ali seria bem fácil e o jantar estaria
+    garantido.  Os vagões e as barracas se distribuem ao leste, formando um
+    grande círculo em volta da clareira.
+  exits:
+    east:
+      target_vnum: '2357'
+    west:
+      target_vnum: '2355'
+  name: A Trilha da Floresta
+  vnum: '2356'
+- description: |-
+    Apenas algumas árvores se encontram nesta pequena clareira, onde barracas
+    e vagões foram estacionados um pouco abaixo da extremidade onde ficam as
+    árvores maiores.  Uma fogueira enorme queima no centro deste acampamento,
+    lugar onde a maioria das pessoas se dirigem para dormir ou para descansarem
+    depois de suas atividades no festival.
+  exits:
+    east:
+      target_vnum: '2358'
+    north:
+      target_vnum: '2359'
+    south:
+      target_vnum: '2361'
+    west:
+      target_vnum: '2356'
+  name: A Grande Clareira Aberta
+  vnum: '2357'
+- description: |-
+    Apenas algumas árvores se encontram nesta pequena clareira, onde barracas
+    e vagões foram estacionados um pouco abaixo da extremidade onde ficam as
+    árvores maiores.  Uma fogueira enorme queima no centro deste acampamento,
+    lugar onde a maioria das pessoas se dirigem para dormir ou para descansarem
+    depois de suas atividades no festival.
+  exits:
+    east:
+      target_vnum: '2367'
+    north:
+      target_vnum: '2360'
+    south:
+      target_vnum: '2362'
+    west:
+      target_vnum: '2357'
+  name: A Grande Clareira Aberta
+  vnum: '2358'
+- description: |-
+    Apenas algumas árvores se encontram nesta pequena clareira, onde barracas
+    e vagões foram estacionados um pouco abaixo da extremidade onde ficam as
+    árvores maiores.  Uma fogueira enorme queima no centro deste acampamento,
+    lugar onde a maioria das pessoas se dirigem para dormir ou para descansarem
+    depois de suas atividades no festival.
+  exits:
+    east:
+      target_vnum: '2360'
+    north:
+      target_vnum: '2364'
+    south:
+      target_vnum: '2357'
+    west:
+      target_vnum: '2363'
+  name: A Grande Clareira Aberta
+  vnum: '2359'
+- description: |-
+    Apenas algumas árvores se encontram nesta pequena clareira, onde barracas
+    e vagões foram estacionados um pouco abaixo da extremidade onde ficam as
+    árvores maiores.  Uma fogueira enorme queima no centro deste acampamento,
+    lugar onde a maioria das pessoas se dirigem para dormir ou para descansarem
+    depois de suas atividades no festival.
+  exits:
+    east:
+      target_vnum: '2366'
+    north:
+      target_vnum: '2365'
+    south:
+      target_vnum: '2358'
+    west:
+      target_vnum: '2359'
+  name: A Grande Clareira Aberta
+  vnum: '2360'
+- description: |-
+    Apenas algumas árvores se encontram nesta pequena clareira, onde barracas
+    e vagões foram estacionados um pouco abaixo da extremidade onde ficam as
+    árvores maiores.  Uma fogueira enorme queima no centro deste acampamento,
+    lugar onde a maioria das pessoas se dirigem para dormir ou para descansarem
+    depois de suas atividades no festival.
+  exits:
+    east:
+      target_vnum: '2362'
+    north:
+      target_vnum: '2357'
+    south:
+      target_vnum: '2370'
+    west:
+      target_vnum: '2371'
+  name: A Grande Clareira Aberta
+  vnum: '2361'
+- description: |-
+    Apenas algumas árvores se encontram nesta pequena clareira, onde barracas
+    e vagões foram estacionados um pouco abaixo da extremidade onde ficam as
+    árvores maiores.  Uma fogueira enorme queima no centro deste acampamento,
+    lugar onde a maioria das pessoas se dirigem para dormir ou para descansarem
+    depois de suas atividades no festival.
+  exits:
+    east:
+      target_vnum: '2368'
+    north:
+      target_vnum: '2358'
+    south:
+      target_vnum: '2369'
+    west:
+      target_vnum: '2361'
+  name: A Grande Clareira Aberta
+  vnum: '2362'
+- description: |-
+    Este carroção coberto por grossa lona, possui em seu interior um grande
+    número de mantas de lã, que parecem estar guardadas aqui à espera daqueles
+    que irão se deitar aqui, para dormir, mais tarde.  A grossa lona que protege
+    esta grande carroça evita que a chuva caia e molhe as cobertas que foram
+    guardadas aqui dentro, bem como as pessoas que estiverem deitadas aqui
+    dentro, mantendo assim, uma certa privacidade ao local.
+  exits:
+    east:
+      target_vnum: '2359'
+  name: Um Vagão
+  vnum: '2363'
+- description: |-
+    Este carroção coberto por grossa lona, possui em seu interior um grande
+    número de mantas de lã, que parecem estar guardadas aqui à espera daqueles
+    que irão se deitar aqui, para dormir, mais tarde.  A grossa lona que protege
+    esta grande carroça evita que a chuva caia e molhe as cobertas que foram
+    guardadas aqui dentro, bem como as pessoas que estiverem deitadas aqui
+    dentro, mantendo assim, uma certa privacidade ao local.
+  exits:
+    south:
+      target_vnum: '2359'
+  name: Um Vagão
+  vnum: '2364'
+- description: |-
+    Este carroção coberto por grossa lona, possui em seu interior um grande
+    número de mantas de lã, que parecem estar guardadas aqui à espera daqueles
+    que irão se deitar aqui, para dormir, mais tarde.  A grossa lona que protege
+    esta grande carroça evita que a chuva caia e molhe as cobertas que foram
+    guardadas aqui dentro, bem como as pessoas que estiverem deitadas aqui
+    dentro, mantendo assim, uma certa privacidade ao local.
+  exits:
+    south:
+      target_vnum: '2360'
+  name: Um Vagão
+  vnum: '2365'
+- description: |-
+    Esta pequena barraca parece ter sido erguida apressadamente, aparentemente
+    sem grandes preocupações com conforto.  Seu dono parece que só vem até aqui
+    para dormir, sem nenhum tempo por relaxar.
+  exits:
+    west:
+      target_vnum: '2360'
+  name: Uma Barraca
+  vnum: '2366'
+- description: |-
+    Esta pequena barraca parece ter sido erguida apressadamente, aparentemente
+    sem grandes preocupações com conforto.  Seu dono parece que só vem até aqui
+    para dormir, sem nenhum tempo por relaxar.
+  exits:
+    west:
+      target_vnum: '2358'
+  name: Uma Barraca
+  vnum: '2367'
+- description: |-
+    Esta pequena barraca parece ter sido erguida apressadamente, aparentemente
+    sem grandes preocupações com conforto.  Seu dono parece que só vem até aqui
+    para dormir, sem nenhum tempo por relaxar.
+  exits:
+    west:
+      target_vnum: '2362'
+  name: Uma Barraca
+  vnum: '2368'
+- description: |-
+    Há uma outra barraca neste acampamento, bem maior, e em cujo topo há uma
+    espécie de abertura, que permite que a fumaça acumulada dentro da barraca
+    possa sair para fora, sem que as pessoas que estão em seu interior corram
+    nenhum risco de se intoxicarem. Parece que aqui dentro poderiam dormir umas
+    seis pessoas confortavelmente e pelo número de mantas espalhadas sobre o chão,
+    o número deve estar mesmo bem próximo disso.
+  exits:
+    north:
+      target_vnum: '2362'
+  name: Uma Barraca Maior
+  vnum: '2369'
+- description: |-
+    Há uma outra barraca neste acampamento, bem maior, e em cujo topo há uma
+    espécie de abertura, que permite que a fumaça acumulada dentro da barraca
+    possa sair para fora, sem que as pessoas que estão em seu interior corram
+    nenhum risco de se intoxicarem. Parece que aqui dentro poderiam dormir umas
+    seis pessoas confortavelmente e pelo número de mantas espalhadas sobre o chão,
+    o número deve estar mesmo bem próximo disso.
+  exits:
+    north:
+      target_vnum: '2361'
+  name: Uma Barraca Maior
+  vnum: '2370'
+- description: |-
+    Há uma outra barraca neste acampamento, bem maior, e em cujo topo há uma
+    espécie de abertura, que permite que a fumaça acumulada dentro da barraca
+    possa sair para fora, sem que as pessoas que estão em seu interior corram
+    nenhum risco de se intoxicarem. Parece que aqui dentro poderiam dormir umas
+    seis pessoas confortavelmente e pelo número de mantas espalhadas sobre o chão,
+    o número deve estar mesmo bem próximo disso.
+  exits:
+    east:
+      target_vnum: '2361'
+  name: Uma Barraca Maior
+  vnum: '2371'
+- description: "Ã\x89 por aqui que os atores saem do palco e Ã© tambÃ©m aqui o lugar\
+    \ onde eles\ndescansam um pouco depois de uma apresentação e podem então tomar\
+    \ uma gostosa\ncerveja inglesa, trazida por um dos membros do grupo. O palco,\
+    \ propriamente\ndito, fica ao norte."
+  exits:
+    up:
+      target_vnum: '2334'
+    west:
+      target_vnum: '2328'
+  name: A Saída do Lado Esquerdo do Palco
+  vnum: '2372'
+- description: |-
+    Esta é o lugar onde os atores e atrizes se preparam antes de entrar em cena
+    no palco, ensaiando suas falas ou simplesmente esperando quietos, pela sua vez.
+    Muitas risadas nervosas e ajustes de última hora nos trajes que serão usados
+    em cena, são feitos aqui mesmo.
+  exits:
+    up:
+      target_vnum: '2333'
+    west:
+      target_vnum: '2325'
+  name: A Saída do Lado Direito do Palco
+  vnum: '2373'
+- description: |-
+    Um pequeno riacho flui por sobre as pedras lisas de seu leito.  Seu ponto
+    mais profundo não deve ter mais do que três ou quatro pés, e sua largura não
+    deve exceder uns oito pés.  Os sons produzidos pela água são muito
+    relaxantes, e este é o tipo de lugar que os artistas procuram para se
+    inspirar.
+  exits:
+    north:
+      target_vnum: '2354'
+    south:
+      target_vnum: '2375'
+  name: "Ã\x80 Margem de um Riacho"
+  vnum: '2374'
+- description: |-
+    Bem, seus pés com certeza estão totalmente molhados agora!  A água está
+    fria e muito clara e certamente é boa para se beber.  O caminho para a
+    floresta fica ao norte.
+  exits:
+    north:
+      target_vnum: '2374'
+  name: No Riacho
+  vnum: '2375'
+- description: |-
+    O caminho está intransitável em qualquer direção que se olhe, com
+    excessão daquele pelo qual você veio.  Contudo, o toco de um imenso carvalho
+    que está caído neste local parece ser exatamente o lugar para se fazer um
+    feitiço, ou até mesmo, quem sabe, para se passar a noite...
+  exits:
+    east:
+      target_vnum: '2353'
+  name: O Toco do Bardo
+  vnum: '2376'
+- description: |-
+    Este pequeno lugar é onde, ao final de todas as horas, uma nova história
+    é contada para as crianças (e adultos também, em muitos casos) que estiverem
+    reunidas ao redor do Toco, prontas para ouvir mais um dos contos tirados do
+    Grande Tomo de Aventuras.  Com seus olhos muito abertos e em absoluto
+    silêncio, elas se sentam no chão, mordendo seus lábios por causa do medo e
+    da excitação - mas nunca saem antes do fim.
+  exits:
+    west:
+      target_vnum: '2338'
+  name: O Toco do Contador de Histórias
+  vnum: '2377'
+- description: |-
+    Você se encontra em uma sala estranha...vazia...desprovida de vida,
+    desprovida de sons, absolutamente vazia.
+  exits: {}
+  name: Uma Sala Estranhamente Vazia
+  vnum: '2398'
+- description: |-
+    Você se encontra em uma sala estranha...vazia...desprovida de vida,
+    desprovida de sons, absolutamente vazia.
+  exits: {}
+  name: Uma Sala Estranhamente Vazia
+  vnum: '2399'

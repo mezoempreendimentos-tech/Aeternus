@@ -1,0 +1,333 @@
+- description: |-
+    A lagoa está fracamente iluminada por uma luz difusa.  Você não pode ver
+    absolutamente nada por perto.  A escuridão aqui parece enormente opressiva.
+    O ar é úmido e a rocha em que você está é escorregadia.  A lagoa parece
+    muito escura.  A lagoa parece extender-se ao leste.  A rocha pode ser escalada
+    a partir daqui.
+  exits:
+    north:
+      target_vnum: '8328'
+    up:
+      target_vnum: '7000'
+  name: "A Margem da Ã\x81gua"
+  vnum: '7100'
+- description: |-
+    Você está numa pequena sala com uma grande rachadura no teto.  Da rachadura
+    há lama caindo  em grande quantidade.  ARGH!.  Você pode sentir o
+    terrível fedor do viscoso sedimento enquanto você tenta não ser coberto
+    pela lama que cai.  A leste há uma entrada levando para fora daqui e parece
+    absolutamente impossível forçar a descida por este caminho lamaçento.
+  exits:
+    east:
+      target_vnum: '7103'
+  name: Abaixo do Buraco de Lama
+  vnum: '7101'
+- description: |-
+    Você encontrou um bom lugar.  Você está no centro de uma sala com apenas
+    duas saídas, para cima e para leste.  Uma escada alta foi deixada aqui para
+    que você possa subir para fora do poço sem precisar usar uma corda.
+  exits:
+    down:
+      target_vnum: '7300'
+    east:
+      target_vnum: '7104'
+    up:
+      target_vnum: '7004'
+  name: Abaixo do Poço Escuro
+  vnum: '7102'
+- description: |-
+    Você está no que parece ser uma curva no sistema de canos de esgoto.  O
+    "chão" está completamente coberto pela lama!  Isso inclui suas pernas e
+    joelhos também.  O cano leva a oeste e sul.
+  exits:
+    south:
+      target_vnum: '7104'
+    west:
+      target_vnum: '7101'
+  name: Uma Curva Lamaçenta no Sistema de Esgoto
+  vnum: '7103'
+- description: |-
+    Você está no centro do que parece ser uma junção de canos tripla indo
+    para leste, oeste e norte.
+  exits:
+    east:
+      target_vnum: '7112'
+    north:
+      target_vnum: '7103'
+    west:
+      target_vnum: '7102'
+  name: Uma Junção nos Canos de Esgoto
+  vnum: '7104'
+- description: |-
+    Você está pendurado nas bordas escorregadias da velha fonte que leva
+    para baixo e para cima.  O único ponto seguro aqui são as barras de metal
+    cimentadas nas bordas, você agarra-se a uma tão freneticamente que não cai.
+    Quem sabe quão profunda é essa fonte?  As barras levam para baixo e para
+    cima.
+  exits:
+    up:
+      target_vnum: '7015'
+  name: Abaixo da Velha Fonte
+  vnum: '7105'
+- description: |-
+    Você está, inclinado para fora do peitoril, com apenas duas polegadas de
+    segurança.  O peitoril continua para leste mas não volta para o sul.  O
+    peitoril é tão estreito que você não pode virar-se então você deve
+    continuar a seguir em frente.
+  exits:
+    down:
+      target_vnum: '7279'
+    east:
+      target_vnum: '7113'
+    south:
+      target_vnum: '7107'
+  name: O Canto Noroeste do Peitoril
+  vnum: '7106'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes
+    chances de uma sessão de quedas livres.
+  exits:
+    east:
+      target_vnum: '7190'
+    north:
+      target_vnum: '7106'
+    south:
+      target_vnum: '7108'
+  name: O Estreito Peitoril
+  vnum: '7107'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes
+    chances de uma sessão de quedas livres.
+  exits:
+    east:
+      target_vnum: '7190'
+    north:
+      target_vnum: '7107'
+    south:
+      target_vnum: '7109'
+  name: O Estreito Peitoril
+  vnum: '7108'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes
+    chances de uma sessão de quedas livres.
+  exits:
+    east:
+      target_vnum: '7190'
+    north:
+      target_vnum: '7108'
+    south:
+      target_vnum: '7110'
+  name: O Estreito Peitoril
+  vnum: '7109'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Existe uma
+    OUTRA saída daqui mas leva diretamente para o Passo-Em-Falso e com grandes
+    chances de uma sucessão de quedas livres.
+  exits:
+    east:
+      target_vnum: '7190'
+    north:
+      target_vnum: '7107'
+    south:
+      target_vnum: '7111'
+  name: O Estreito Peitoril
+  vnum: '7110'
+- description: |-
+    Este peitoril parece ser mais largo que o outro ao norte daqui.  O peitoril
+    parece levar a um tipo de abismo na total escuridão.  O peitoril parece ter
+    uma margem aparentemente estranha.
+  exits:
+    down:
+      target_vnum: '7279'
+    east:
+      target_vnum: '7115'
+    north:
+      target_vnum: '7110'
+    south:
+      target_vnum: '7112'
+  name: O Canto Sudoeste do Peitoril
+  vnum: '7111'
+- description: |-
+    Você está numa estranha intersecção de canos de esgoto.  Os canos realmente
+    não parecem ser canos de esgoto.  Eles parecem ser um túnel de pedra ou uma
+    passagem talhada na rocha.  Os caminhos daqui levam ao norte, leste e oeste.
+  exits:
+    east:
+      target_vnum: '7122'
+    north:
+      target_vnum: '7111'
+    west:
+      target_vnum: '7104'
+  name: Uma Estranha Intersecção
+  vnum: '7112'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes chances de
+    uma sucessão de quedas livres.
+  exits:
+    east:
+      target_vnum: '7116'
+    south:
+      target_vnum: '7190'
+  name: O Estreiro Peitoril Indo do Leste para o Oeste
+  vnum: '7113'
+- description: |-
+    Você simplesmente pisou na mais azarada posição de todo Mundo de Vitália.
+    O resultado de um ato tão tolo deverá ser punido com a morte, você sabe
+    disso, não sabe?   Com uma aceleração de aproximadamente 9.82 metros²
+    por segundo, você está agora caindo no Abismo.  O que lhe espera lá
+    embaixo continua sendo um mistério.  Adeus mundo cruel...
+  exits:
+    east:
+      target_vnum: '7118'
+    north:
+      target_vnum: '7119'
+    south:
+      target_vnum: '7120'
+    up:
+      target_vnum: '7115'
+    west:
+      target_vnum: '7117'
+  name: Passo-Em-Falso
+  vnum: '7114'
+- description: |-
+    Você está num peitoril que parece ser bem maior que o resto.  Este leva
+    para o oeste e leste e ainda tem uma saída para o sul.  Talvez você pudesse
+    pular no meio-ar, porém essa não parece ser uma boa idéia.  O caminho ao
+    sul está na mais completa escuridão.
+  exits:
+    east:
+      target_vnum: '7121'
+    north:
+      target_vnum: '7114'
+    south:
+      target_vnum: '7129'
+    west:
+      target_vnum: '7111'
+  name: O Largo Peitoril
+  vnum: '7115'
+- description: |-
+    Você está pendurado no peitoril, com apenas algumas polegadas de segurança,
+    há um peitoril sólido abaixo dos seus pés.  O peitoril continua para o oeste e
+    leva ao sul daqui para a escuridão.
+  exits:
+    down:
+      target_vnum: '7280'
+    south:
+      target_vnum: '7117'
+    west:
+      target_vnum: '7113'
+  name: O Canto Nordeste do Peitoril
+  vnum: '7116'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
+    de uma sessão de quedas livres.  E isso é a oeste daqui, por isso tome
+    cuidado por onde pisa.
+  exits:
+    south:
+      target_vnum: '7118'
+    west:
+      target_vnum: '7114'
+  name: O Estreito Peitoril
+  vnum: '7117'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
+    de uma sessão de quedas livres.  E isso é a oeste daqui, por isso tome
+    cuidado por onde pisa.
+  exits:
+    south:
+      target_vnum: '7119'
+    west:
+      target_vnum: '7114'
+  name: O Estreito Peitoril Leste
+  vnum: '7118'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
+    de uma sessão de quedas livres.  E isso é a oeste daqui, por isso tome
+    cuidado por onde pisa.
+  exits:
+    south:
+      target_vnum: '7120'
+    west:
+      target_vnum: '7114'
+  name: O Estreito Peitoril Leste
+  vnum: '7119'
+- description: |-
+    Você está começando a caminhar no peitoril, não há como voltar.  Há uma
+    outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
+    de uma sessão de quedas livres.  E isso é a oeste daqui, por isso tome
+    cuidado por onde pisa.  Você vê uma pequena abertura ao leste.
+  exits:
+    east:
+      target_vnum: '7123'
+    south:
+      target_vnum: '7121'
+    west:
+      target_vnum: '7114'
+  name: O Estreito Peitoril Leste
+  vnum: '7120'
+- description: |-
+    Este peitoril parece ser um pouco mais largo que o que fica ao norte
+    daqui.  O Peitoril parece levar a um tipo de abismo totalmente escuro.
+  exits:
+    down:
+      target_vnum: '7279'
+    north:
+      target_vnum: '7120'
+    west:
+      target_vnum: '7115'
+  name: O Canto Sudeste do Peitoril
+  vnum: '7121'
+- description: |-
+    Você está numa caverna na completa escuridão que leva a oeste.  A parede
+    parece ser sobrenatural.
+  exits:
+    west:
+      target_vnum: '7112'
+  name: Abaixo do Poço
+  vnum: '7122'
+- description: |-
+    Uma escada leva para cima pelo poço.  Uma pequena abertura leva a oeste
+    daqui.
+  exits:
+    up:
+      target_vnum: '7041'
+    west:
+      target_vnum: '7120'
+  name: Abaixo do Poço
+  vnum: '7123'
+- description: |-
+    Você está numa parte estreita do esgoto.  Abaixo o esgoto continua e ao
+    norte está o peitoril.
+  exits:
+    down:
+      target_vnum: '7221'
+    north:
+      target_vnum: '7115'
+  name: A Linha do Esgoto
+  vnum: '7129'
+- description: |-
+    Você simplesmente pisou na mais azarada posição de todo Mundo de Vitália.
+    O resultado de um ato tão tolo deverá ser punido com a morte, você sabe.
+    Com uma aceleração de aproximadamente 9,82 metros por segundo ao quadrado,
+    você está agora caindo no Abismo.  O que lhe espera lá embaixo continua sendo
+    um mistério.  Adeus mundo cruel.
+  exits:
+    east:
+      target_vnum: '7108'
+    north:
+      target_vnum: '7109'
+    south:
+      target_vnum: '7110'
+    up:
+      target_vnum: '7113'
+    west:
+      target_vnum: '7107'
+  name: Passo-Em-Falso
+  vnum: '7190'

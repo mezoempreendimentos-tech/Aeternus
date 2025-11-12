@@ -1,0 +1,1004 @@
+#6500
+O Caminho para a Vila dos Anões~
+   Você está caminhando ao longo do caminho que leva para a Vila dos Anões.
+Em cima de você, você pode ver a Travessa, e para o norte o caminho continua
+em direção às montanhas.
+~
+65 4 0 0 0 2
+D0
+O caminho continua.
+~
+~
+0 -1 6501
+D4
+Você pode ver a cidade de Midgaard.
+~
+~
+0 -1 3502
+S
+#6501
+O Caminho na Base da Montanha~
+   Agora você está na base de uma montanha irregular.  A floresta ao seu
+redor é muito densa e parece muito escura para o norte.
+~
+65 0 0 0 0 4
+D0
+O caminho continua para cima da montanha.
+~
+~
+0 -1 6502
+D2
+O caminho leva em direção da cidade de Midgaard.
+~
+~
+0 -1 6500
+S
+#6502
+O Caminho no Meio da Montanha~
+   Posicionando-se no meio da montanha, você pode facilmente ver a cidade
+para o sul, e o topo da montanha está muito perto para o norte.
+~
+65 0 0 0 0 5
+D0
+O topo da montanha é facilmente avistado daqui.
+~
+~
+0 -1 6503
+D2
+A base da montanha está perto.
+~
+~
+0 -1 6501
+S
+#6503
+O Topo da Montanha~
+   Você está agora no topo da montanha.  Para o sul você avista o caminho
+levando para baixo da montanha.  Para o leste e oeste você vê entradas para
+o que lhe parece ser uma mina.
+~
+65 0 0 0 0 4
+D1
+Um entrada na montanha que parece levar para o subterrâneo.
+~
+~
+0 -1 6540
+D2
+O caminho leva para baixo da montanha em direção da cidade de Midgaard.
+~
+~
+0 -1 6502
+D3
+Existe uma entrada na montanha.
+~
+~
+0 -1 6505
+S
+#6504
+O Caminho Estreito~
+   Esta é um caminho estreito que leva para o Reino dos Anões.  Ele parece
+menos usado do que os outros, e é muito arrepiante.  O Caminho inicia-se
+logo ao sul e continua para o norte.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6506
+D2
+~
+~
+0 -1 6540
+S
+#6505
+A Entrada para a Montanha~
+   Aqui é uma entrada para a montanha.  A porta parece muito bem construída,
+e você pode ouvir sons vindos do seu interior.
+~
+65 0 0 0 0 2
+D1
+~
+~
+0 -1 6503
+D3
+~
+porta~
+2 6515 6513
+S
+#6506
+Uma Curva no Caminho Estreito~
+   Este é um estreito caminho que faz a curva para o leste aqui.  As árvores
+pendem sobre o caminho e estão muito crescidas.  O caminho estreito continua
+para o sul e para o leste.
+~
+65 8 0 0 0 0
+D1
+~
+~
+0 -1 6507
+D2
+~
+~
+0 -1 6504
+E
+arvore arvores~
+Elas pendem sobre a estrada na mais ameaçadoras das vias.
+~
+S
+#6507
+O Caminho Estreito~
+   Este caminho é muito estreito e ele continua para o norte e oeste.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6508
+D3
+~
+~
+0 -1 6506
+S
+#6508
+O Caminho Estreito Norte-Sul~
+   Este caminho leva para o norte e sul.  Para o norte você pode ver uma
+porta e para o sul o caminho continua.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6509
+D2
+~
+~
+0 -1 6507
+S
+#6509
+A Porta para o Reino~
+   Aqui o caminho curva-se para o oeste.  À sua frente, você pode ver uma
+porta e o caminho continua para o oeste e sul.
+~
+65 8 0 0 0 0
+D0
+~
+porta~
+2 6503 6510
+D2
+~
+~
+0 -1 6508
+D3
+~
+~
+0 -1 6522
+S
+#6510
+No Caminho para o Castelo~
+   Você está num caminho que vai, finalmente, levar para o castelo.  Ele
+continua para o norte em direção ao castelo, e existe uma porta na parede
+localizada ao sul.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6511
+D2
+~
+porta~
+2 6503 6509
+S
+#6511
+Ainda no Caminho para o Castelo~
+   Você está ainda no caminho para o castelo, ou de volta para a Vila dos
+Anões, dependendo da direção que você deseja ir.  O caminho continua para o
+norte e sul.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6512
+D2
+~
+~
+0 -1 6510
+S
+#6512
+A Porta para o Castelo~
+   Existe aqui uma porta para o castelo ao leste.  O castelo é elegantemente
+modelado, e se parece muito com um rolo de papel higiênico se observado do
+seu fim.  Existe um sinal que diz:
+
+              ******************************************
+              *  BEM VINDO AO CASTELO DE STRANGELOVE   *
+              *       Aqui, celibato é proibido        *
+              ******************************************
+
+~
+65 8 0 0 0 0
+D1
+~
+porta~
+2 6514 6525
+D2
+~
+~
+0 -1 6511
+D3
+~
+~
+0 0 6555
+S
+#6513
+Dentro da Entrada~
+   Tudo aqui é coberto de fuligem e muito sujo.  O caminho continua para o
+leste e norte, e existe uma porta para o oeste.
+~
+65 8 0 0 0 0
+D0
+O pequeno caminho subterrâneo continua para o norte.
+~
+~
+0 -1 6514
+D1
+O caminho leva para fora da entrada.
+~
+porta~
+2 6515 6505
+D3
+Esta parece uma entrada para algum tipo de depósito.
+~
+~
+0 -1 6526
+S
+#6514
+O Caminho~
+   Você está num caminho na vila dos anões que leva para o norte em direção
+das lojas e para o sul, em direção à extremidade desta área.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6515
+D2
+~
+~
+0 -1 6513
+S
+#6515
+Uma Curva na Estrada~
+   Você está num caminho que leva para a Loja Couro e Dente ao oeste, e o
+caminho continua para o sul.
+~
+65 8 0 0 0 0
+D2
+~
+~
+0 -1 6514
+D3
+A Loja Couro e Dente pode ser avistada ao oeste.
+~
+~
+0 -1 6516
+S
+#6516
+A Loja Couro e Dente~
+   Você está na Loja Couro e Dente.  Aqui você pode comprar as mais finas
+armas e armaduras anãs.  O caminho continua para o norte e leste.
+~
+65 40 0 0 0 0
+D0
+~
+~
+0 -1 6517
+D1
+~
+~
+0 -1 6515
+S
+#6517
+O Caminho que Leva para o Norte da Loja~
+   Você encontra-se no caminho para o norte da Loja Couro e Dente.  O
+caminho continua para o norte e para o oeste fica a Padaria do Cabeça de
+Granito.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6518
+D2
+~
+~
+0 -1 6516
+D3
+~
+~
+0 -1 6535
+S
+#6518
+Ao Norte das Lojas~
+   Aqui o caminho curva-se para o leste em direção ao quartel.  Para o sul
+você pode ver as lojas.
+~
+65 8 0 0 0 0
+D1
+~
+~
+0 -1 6519
+D2
+~
+~
+0 -1 6517
+S
+#6519
+O Caminho junto ao Hospital~
+   Aqui o caminho passa junto ao Hospital ao norte.  Ele continua para o
+leste em direção ao quartel, e para o oeste.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6534
+D1
+~
+~
+0 -1 6520
+D3
+~
+~
+0 -1 6518
+S
+#6520
+Um Caminho Próximo ao Quartel~
+   Aqui o caminho continua a oeste e a leste para o quartel.
+~
+65 8 0 0 0 0
+D1
+~
+~
+0 -1 6521
+D3
+~
+~
+0 -1 6519
+S
+#6521
+A Entrada para o Quartel~
+   Aqui, ao sul, encontra-se a entrada para o quartel, e o caminho continua
+para o oeste.
+~
+65 8 0 0 0 0
+D2
+~
+porta~
+1 -1 6523
+D3
+~
+~
+0 -1 6520
+S
+#6522
+A Casa da Guarda~
+   Você está na casa da guarda situada a oeste da entrada para o castelo.
+Existem aqui pôsters de nus femininos cobrindo as paredes.
+~
+65 8 0 0 0 0
+D1
+~
+~
+0 -1 6509
+E
+poster~
+Existe um pôster de parede com um nu de uma celebridade do reino dos anões.
+~
+S
+#6523
+A Primeira Sala do Quartel~
+   Aqui está a primeira das duas salas principais do quartel.  O quartel
+continua para o sul, e você pode deixar a sala para o norte.
+~
+65 8 0 0 0 0
+D0
+~
+porta~
+1 -1 6521
+D2
+~
+~
+0 -1 6524
+S
+#6524
+A Parte Traseira do Quartel~
+   Aqui é a parte traseira do quartel dos anões.  Existem camas enfileiradas
+aqui, e existe um fedor intolerável.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6523
+S
+#6525
+Dentro do Castelo de Strangelove~
+   Você está dentro do castelo.  Ele tem um formato tubular e não tem muitas
+características especiais.  Existe um lance de escadas que levam para cima e
+uma porta que leva para fora do castelo, a oeste.
+~
+65 8 0 0 0 0
+D3
+~
+porta~
+2 6514 6512
+D4
+~
+~
+0 -1 6528
+S
+#6526
+O Depósito~
+   Existe uma camada de sujeira no chão de pelo menos 7 centímetros de
+espessura!  Isto se deve, provavelmente, ao fato de que não muitas pessoas
+tenham passado por aqui por muitos meses.
+~
+65 9 0 0 0 0
+D1
+Uma área iluminada que aparenta ser um caminho muito utilizado.
+~
+~
+0 -1 6513
+D5
+Depois de retirar toda a sujeira do chão, você encontra um alçapão!
+~
+alcapao~
+1 -1 6527
+E
+chao sujeira~
+Depois de retirar toda a sujeira do chão, você encontra um alçapão!
+~
+S
+#6527
+A Adega de Vinho~
+   Esta sala cheira a vinho, e você apenas pode concluir que ela costumava
+ser usada como uma adega de vinhos em algum tempo.
+~
+65 9 0 0 0 0
+D4
+~
+alcapao~
+1 -1 6526
+S
+#6528
+Na Escada Dentro do Castelo Strangelove~
+   A escada continua em círculos para cima e para baixo daqui.
+~
+65 8 0 0 0 0
+D4
+~
+~
+0 -1 6529
+D5
+~
+~
+0 -1 6525
+S
+#6529
+Na Escada~
+   Você está ainda circulando pela escada.  Você está começando a ficar
+tonto de dar voltas e voltas e voltas e voltas e voltas.  A escada continua
+para cima e para baixo.
+~
+65 8 0 0 0 0
+D4
+~
+~
+0 -1 6530
+D5
+~
+~
+0 -1 6528
+S
+#6530
+No Topo da Escada~
+   Você está no topo da escada dentro do castelo.  Existe uma saída para o
+leste e a escada leva para baixo.
+~
+65 8 0 0 0 0
+D1
+~
+~
+0 -1 6531
+D5
+~
+~
+0 -1 6529
+S
+#6531
+A Sala de Espera da Rainha~
+   Esta é a sala de espera da Rainha.  Aqui os homens literalmente
+'aguardam' pela rainha.  Você ouviu rumores de que a rainha realmente gosta
+de 'conhecer' seu povo, no sentido bíblico.
+   O quarto da Rainha encontra-se para o norte e você pode avistar a escada
+para o oeste.
+~
+65 8 0 0 0 0
+D0
+~
+porta~
+1 -1 6532
+D3
+~
+~
+0 -1 6530
+S
+#6532
+O Quarto da Rainha~
+   Este é o quarto da Rainha.  A cama está toda amarrotada e existe uma
+pilha de lençóis sujos amontoados no canto.  Existe uma escada que leva para
+baixo, para fora do castelo, e você pode deixar esta sala para o sul.
+Existe, também, uma pequena porta de madeira para o oeste.  Existe um sinal
+que diz:
+
+      ---------------------------------------------------------------
+      | Estou ocupada agora, e não sei quando vou retornar, mas se  |
+      | encontrar uma chave por aqui, pegue-a e POR FAVOR tente     |
+      | conseguir meus comprimidos anti-concepcionais de volta.     |
+      | Eu ouvi dizer que eles podem ser encontrados em algum lugar |
+      | nas profundezas das minas.                                  |
+      ---------------------------------------------------------------
+~
+65 8 0 0 0 0
+D2
+~
+porta~
+1 -1 6531
+D3
+~
+porta madeira~
+2 6500 6554
+D5
+~
+~
+0 -1 6533
+S
+#6533
+O Lado Norte do Castelo de Strangelove~
+   Você está no lado norte do Castelo de Strangelove.  Você nota que você
+não está mais dentro da montanha.  Ao longo da linha do horizonte ao sul
+você vê montanhas que se elevam a grandes alturas.
+   A única saída, entretanto, é de volta para cima da escada em direção ao
+Quarto da Rainha.
+~
+65 0 0 0 0 0
+D4
+~
+~
+0 -1 6532
+S
+#6534
+O Hospital~
+   Você encontra-se dentro do Hospital dos Anões.  Ele cheira a álcool
+utilizado para limpeza, e existe sangue por todas as paredes.
+~
+65 8 0 0 0 0
+D2
+~
+~
+0 -1 6519
+S
+#6535
+Padaria do Cabeça de Granito~
+   O aroma vindo desta sala é surpreendente.  Você quase pode sentir o gosto
+das massas e tortas dissolvendo na sua boca.
+~
+65 136 0 0 0 0
+D1
+~
+~
+0 -1 6517
+S
+#6540
+O Caminho Escuro~
+   Este caminho é muito utilizado e existe uma entrada para as minas para o
+leste, enquanto que o caminho continua para o norte e oeste.
+~
+65 8 0 0 0 0
+D0
+~
+~
+0 -1 6504
+D1
+~
+porta~
+1 6502 6541
+D3
+~
+~
+0 -1 6503
+S
+#6541
+A Entrada da Mina~
+   Um pequeno caminho leva para baixo em direção às minas, enquanto o
+caminho continua para o oeste.
+~
+65 8 0 0 0 0
+D3
+~
+porta~
+1 6502 6540
+D5
+~
+~
+0 -1 6542
+S
+#6542
+Na Base da Fossa da Mina~
+   Você encontra-se na base da fossa da mina.  O ar aqui é muito fuliginoso
+e ele é muito difícil de se respirar.  A fossa da mina leva para cima e a
+leste.
+~
+65 9 0 0 0 0
+D1
+~
+~
+0 -1 6543
+D4
+~
+~
+0 -1 6541
+S
+#6543
+Num Caminho Dentro da Mina~
+   Você está nas profundezas da mina, e você se sente muito inconfortável.
+O caminho continua para o leste e leva para a fossa da mina para o oeste.
+~
+65 9 0 0 0 0
+D1
+~
+~
+0 -1 6544
+D3
+~
+~
+0 -1 6542
+S
+#6544
+A Encruzilhada da Mina~
+   Você está na encruzilhada na mina.  Existe uma porta para o norte, e o
+caminho continua para o sul, leste e oeste.
+~
+65 9 0 0 0 0
+D0
+~
+porta~
+2 6516 6546
+D1
+~
+~
+0 -1 6545
+D2
+~
+~
+0 -1 6551
+D3
+~
+~
+0 -1 6543
+S
+#6545
+O Depósito de Carvão~
+   Você está dentro de uma área de depósito de materiais naturais que foram
+encontrados aqui embaixo.  Sua fundação não é muito robusta, visto que o
+apoio dela é muito fraco.
+~
+65 9 0 0 0 0
+D3
+~
+~
+0 -1 6544
+S
+#6546
+O Labirinto da Mina~
+   Você entrou no labirinto da mina.  Para o leste você pode ver algumas
+inscrições, e você pode sair para o sul.
+~
+65 9 0 0 0 0
+D1
+~
+~
+0 -1 6547
+D2
+~
+porta~
+2 6516 6544
+S
+#6547
+A Inscrição do Labirinto~
+   Você está dentro do labirinto, mas não afastado o suficiente para você se
+perder.  Existe um inscrição na parede que diz:
+
+          1    3    2    4
+          N    L    N    S
+
+   Isso não parece muito seguro, então não confie muito...
+~
+65 9 0 0 0 0
+D0
+~
+~
+0 -1 6548
+D1
+~
+~
+0 -1 6544
+D3
+~
+~
+0 -1 6546
+S
+#6548
+O Labirinto~
+   Você está num labirinto.
+~
+65 9 0 0 0 0
+D0
+~
+~
+0 -1 6549
+D2
+~
+~
+0 -1 6547
+D3
+~
+~
+0 -1 6548
+S
+#6549
+O Labirinto~
+   Você está num labirinto.
+~
+65 9 0 0 0 0
+D0
+~
+~
+0 -1 6548
+D2
+~
+~
+0 -1 6548
+D3
+~
+~
+0 -1 6550
+S
+#6550
+O Labirinto~
+   Você está num labirinto.
+~
+65 9 0 0 0 0
+D0
+~
+~
+0 -1 6549
+D1
+~
+~
+0 -1 6549
+D2
+~
+~
+0 -1 6552
+D3
+~
+~
+0 -1 6548
+S
+#6551
+A Sala de Equipamentos de Mineração~
+   Este é a sala de depósito para equipamentos usados pelos mineiros anões.
+Ela é muito pequena e você pode notar que não são muitos mineiros que usam
+estes equipamentos.
+~
+65 9 0 0 0 0
+D0
+~
+~
+0 -1 6544
+S
+#6552
+O Final do Labirinto~
+   Você conseguiu solucionar o labirinto.  Você pode notar pelos últimos
+movimentos pequenos que não existe a possibilidade de um trabalhador
+estúpido ter conseguido resolver isto.  Parece muito solitário aqui.  Para o
+sul existe uma sala deserta.  Para o norte, você avista o labirinto.  Existe
+um sinal situado acima da saída sul:
+
+   AQUELES QUE ENTRAREM, PLANEJAM UMA OPORTUNA MORTE.
+   (ESPECIALMENTE SE VOCÊ FOR LEAL À RAINHA)
+~
+65 9 0 0 0 0
+D0
+~
+~
+0 -1 6550
+D2
+~
+~
+0 -1 6553
+S
+#6553
+A Sala do Guardião do Labirinto~
+   Você entrou na sala do guardião do labirinto.  Aqui existem pinturas da
+Rainha com dardos enfiados nelas.  Pintadas em spray nas paredes, existem
+expressões como 'a rainha deve sofrer' e 'Católicos Dominam'.
+~
+65 9 0 0 0 0
+D0
+~
+~
+0 -1 6552
+S
+#6554
+A Tesouraria~
+   Esta sala parece ser a Tesouraria da Rainha.  Existe uma saída, de volta
+para o leste.
+~
+65 520 0 0 0 1
+D1
+~
+porta~
+2 6500 6532
+S
+#6555
+A Taverna de Strangelove~
+   Esta taverna animada é o coração social do reino dos anões de Strangelove.
+Barris de cerveja anã estão empilhados ao longo das paredes, e o ar está
+carregado com o aroma de carne assada e cerveja forte. Anões de toda a
+montanha se reúnem aqui para beber, comer e contar histórias de suas
+aventuras.
+~
+65 8 0 0 0 0
+D0
+A cozinha da taverna fica ao norte.
+~
+~
+0 0 6556
+D1
+O salão principal do castelo fica a leste.
+~
+~
+0 0 6512
+S
+#6556
+A Cozinha da Taverna~
+   Uma cozinha robusta onde são preparadas as refeições hearty preferidas
+pelos anões. Enormes caldeirões borbulham sobre fornos de pedra, e carcaças
+de caça estão penduradas nas vigas do teto. O cheiro de pão recém-assado
+mistura-se com o aroma de ensopados temperados.
+~
+65 8 0 0 0 0
+D2
+A taverna principal fica ao sul.
+~
+~
+0 0 6555
+S
+#6557
+A Forja Real de Strangelove~
+   Esta é a forja mais avançada do reino dos anões, onde são criadas as
+armas e armaduras da realeza. O calor intenso das fornalhas rivaliza com
+o centro de um vulcão, e ferramentas especiais de precisão estão organizadas
+com cuidado militar. Apenas os mestres ferreiros mais habilidosos trabalham
+aqui.
+~
+65 8 0 0 0 0
+D1
+O arsenal real fica a leste.
+~
+~
+0 0 6558
+S
+#6558
+O Arsenal Real~
+   Um arsenal impressionante contendo as melhores armas e armaduras do reino
+dos anões. Machados de guerra ornamentados estão expostos em suportes especiais,
+e armaduras de placas reluzem sob a luz das tochas. Cada peça representa o
+auge da metalurgia anã.
+~
+65 8 0 0 0 0
+D0
+A sala do conselho fica ao norte.
+~
+~
+0 0 6559
+D3
+A forja real fica a oeste.
+~
+~
+0 0 6557
+S
+#6559
+A Sala do Conselho dos Anões~
+   Aqui os líderes anões se reúnem para discutir assuntos importantes do reino.
+Uma mesa de pedra circular domina o centro da sala, rodeada por cadeiras
+esculpidas especialmente para cada conselheiro. Mapas das minas e territórios
+anões decoram as paredes de granito.
+~
+65 8 0 0 0 0
+D1
+Os aposentos reais ficam a leste.
+~
+~
+0 0 6560
+D2
+O arsenal real fica ao sul.
+~
+~
+0 0 6558
+S
+#6560
+Os Aposentos Reais~
+   Os quartos privados da realeza anã são luxuosamente decorados com os
+melhores trabalhos em pedra e metal do reino. Móveis entalhados em granito
+negro contrastam com detalhes em ouro e mithril. Esta é a residência pessoal
+dos governantes de Strangelove.
+~
+65 8 0 0 0 0
+D3
+A sala do conselho fica a oeste.
+~
+~
+0 0 6559
+S
+#6561
+A Grande Mina de Mithril~
+   Esta é a mina mais valiosa do reino dos anões, onde o precioso mithril é
+extraído das profundezas da montanha. Veios prateados brilham nas paredes
+de rocha, e o som de picaretas ressoa constantemente. A segurança aqui é
+extremamente rigorosa.
+~
+65 0 0 0 0 2
+D0
+O túnel principal continua ao norte.
+~
+~
+0 0 6562
+S
+#6562
+Túnel da Mina de Mithril~
+   Um túnel bem iluminado que leva às seções mais profundas da mina de mithril.
+Trilhos de minério correm pelo chão, e carrinhos carregados com minério
+precioso passam regularmente. O ar está fresco devido ao sistema de ventilação
+anão bem projetado.
+~
+65 0 0 0 0 2
+D0
+A câmara de refino fica ao norte.
+~
+~
+0 0 6563
+D2
+A entrada da mina fica ao sul.
+~
+~
+0 0 6561
+S
+#6563
+A Câmara de Refino~
+   Aqui o mithril bruto é refinado e purificado usando técnicas secretas
+dos anões. Fornos especiais operam em temperaturas extremas, e alquimistas
+anões trabalham com precisão para extrair a pureza máxima do metal precioso.
+O resultado são lingotes de mithril de qualidade incomparável.
+~
+65 8 0 0 0 0
+D2
+O túnel da mina fica ao sul.
+~
+~
+0 0 6562
+S
+$~

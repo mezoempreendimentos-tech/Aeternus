@@ -1,0 +1,506 @@
+- description: |-
+    Você está em um caminho subaquático, nadando entre corais e algas.  O
+    caminho parece ser bastante movimentado e tem as marcas do tempo de uso.
+    Acima você pode ver o que sobrou de uma abandonada cidade que parece ser um
+    centro de comércio.  Perto deste centro você pode ver uma vermelha luz
+    brilhante, emanando de uma grande torre.
+  exits:
+    east:
+      target_vnum: '301'
+    up:
+      target_vnum: '341'
+  name: O Caminho Para Bandar, A Cidade Maldita
+  vnum: '300'
+- description: |-
+    Um enorme portão enferrujado se ergue diante de seus olhos.  Agora você
+    pode ver a cidade você percebe que ela é mais simples do que você pensava.
+    Zumbis e mortos-vivos flutuam ao redor, com seus resquícios de cabelos sendo
+    levados pelas correntes.  Seus olhos não têm qualquer expressão; a única
+    história que eles contam é a morte.
+  exits:
+    east:
+      target_vnum: '302'
+    west:
+      target_vnum: '300'
+  name: Os Portões de Bandar
+  vnum: '301'
+- description: |-
+    Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
+    atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
+    para atravessar a cidade.  Agora ela está coberta com escombros das
+    construções à seu redor.  Cobrindo a rua, também estão centenas de zumbis
+    malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
+  exits:
+    east:
+      target_vnum: '303'
+    west:
+      target_vnum: '301'
+  name: A Estrada Principal
+  vnum: '302'
+- description: |-
+    Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
+    atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
+    para atravessar a cidade.  Agora ela está coberta com escombros das
+    construções à seu redor.  Cobrindo a rua, também estão centenas de zumbis
+    malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
+  exits:
+    east:
+      target_vnum: '304'
+    west:
+      target_vnum: '302'
+  name: A Estrada Principal
+  vnum: '303'
+- description: |-
+    Você está em uma parte da estrada principal que parece ter sido um centro
+    à parte do comercio.  As tavernas ao longo da estrada estão todas
+    destruídas, exceto uma parte parece ter resistido, ao norte uma enorme torre
+    que é a fonte da estranha luz que você notou desde que chegou nesta cidade
+    amaldiçoada.
+  exits:
+    east:
+      target_vnum: '305'
+    north:
+      target_vnum: '320'
+    west:
+      target_vnum: '303'
+  name: Diante da Grande Torre
+  vnum: '304'
+- description: |-
+    Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
+    atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
+    para atravessar a cidade.  Agora ela está coberta com escombros das
+    construções à seu redor.  Cobrindo a rua, também estão centenas de zumbis
+    malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
+  exits:
+    east:
+      target_vnum: '306'
+    west:
+      target_vnum: '304'
+  name: A Estrada Principal
+  vnum: '305'
+- description: |-
+    Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
+    atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
+    para atravessar a cidade.  Agora ela está coberta com escombros das
+    construções à seu redor.  Cobrindo a rua, também estão centenas de zumbis
+    malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
+  exits:
+    east:
+      target_vnum: '307'
+    west:
+      target_vnum: '305'
+  name: A Estrada Principal
+  vnum: '306'
+- description: |-
+    Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
+    atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
+    para atravessar a cidade.  Agora ela está coberta com escombros das
+    construções à seu redor.  Cobrindo a rua, também estão centenas de zumbis
+    malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
+  exits:
+    east:
+      target_vnum: '309'
+    south:
+      target_vnum: '308'
+    west:
+      target_vnum: '306'
+  name: A Estrada Principal
+  vnum: '307'
+- description: |-
+    Até mesmo as instalações desta loja não tem valor.  Até as pinturas nas
+    paredes são baratas.  Você se surpreende ao encontrar uma poção mais cara na
+    lista de itens.  Olhando através do vidro, você pode ver poções de todas as
+    formas, tamanhos e variedades.
+  exits:
+    north:
+      target_vnum: '307'
+  name: Guerrand Itens Mágicos
+  vnum: '308'
+- description: |-
+    Você está diante do enorme portão leste da Cidade de Bandar.  Há centenas
+    de corpos pendurados no portão.  Embora cruel, o castigo parece ter sido
+    efetivo.  A sua volta, enormes algas tocam sua carne, como enormes dedos que
+    tentam te puxar na direção do portão, para receber seu frio flagelo eterno.
+  exits:
+    south:
+      target_vnum: '310'
+    west:
+      target_vnum: '307'
+  name: O Portão Oriental de Bandar
+  vnum: '309'
+- description: |-
+    Você afasta as algas e vê um surpreendentemente bem cuidado caminho, em
+    relação aos outros, claro.  Ele também é coberto de algas e outras plantas
+    aquáticas.  Você sente perigo, um calafrio toma sua espinha fazendo os pelos
+    de seu braço se arrepiarem.  Seria melhor tomar cuidado onde pisa; nunca se
+    sabe o que se pode encontrar aqui.
+  exits:
+    east:
+      target_vnum: '311'
+    north:
+      target_vnum: '309'
+    south:
+      target_vnum: '312'
+  name: Fora do Caminho
+  vnum: '310'
+- description: |-
+    Você adentra a caverna e imediatamente seus sentidos são tomados por
+    cheiros horríveis, fecais, para ser exato.  Você ouve uma pesada respiração
+    a seu lado, e se pergunta o que diabos está pingando em seu pé.  Com cada
+    pingo sua mente lentamente começa a perceber que o que quer que seja que
+    esteja pingando em seu pé, é quente e viscoso...  Apenas um pensamento vem a
+    sua mente....  CORRA!
+  exits:
+    west:
+      target_vnum: '310'
+  name: Uma Pequena Alcova
+  vnum: '311'
+- description: |-
+    Você está em uma enorme floresta de algas e outras plantas.  Normalmente
+    estas áreas seriam cheias de vida marinha, mas você pode ver que não há nada
+    além de plantas.  Olhando em volta, você percebe que a areia embaixo de seus
+    pés está ensopada de sangue.  Estaria você no meio de algum grotesco
+    matadouro?
+  exits:
+    east:
+      target_vnum: '313'
+    north:
+      target_vnum: '310'
+  name: Nas Profundezas das Algas
+  vnum: '312'
+- description: |-
+    Você começa a perceber que a terra se inclina a medida que você avança.
+    Em algum lugar de sua mente, você sabe que grandes predadores do oceano
+    vivem neste tipo de área.  Cada passo que você toma o faz pensar mais e mais
+    a respeito da vida marinha, o modo como a cadeia alimentar é diferente aqui.
+    O fato do homem ser mais vulnerável no oceano...  Isso faz você querer ter
+    algum repelente de tubarões à seu alcance.
+  exits:
+    down:
+      target_vnum: '314'
+    west:
+      target_vnum: '312'
+  name: Nas Profundezas das Algas
+  vnum: '313'
+- description: |-
+    Olhando em volta você vê que está em um enorme buraco no solo do oceano.
+    Pequenos outros buracos servem de lugar de repouso para outras criaturas
+    marinhas.  A cada toque você percebe que finalmente há alguma saída
+    penetrando estas escuras águas.
+  exits:
+    down:
+      target_vnum: '317'
+    east:
+      target_vnum: '315'
+    up:
+      target_vnum: '313'
+  name: Dentro de Uma Fenda
+  vnum: '314'
+- description: |-
+    Você está em uma beirada rochosa e pegajosa, que se ergue da grande
+    fresta no solo do oceano.  Você percebe que há uma pequena cabana feita de
+    algas, estranhamente colocada aqui.  Uma aconchegante luz amarela e o cheiro
+    de comida caseira penetra as paredes de água e alcança suas narinas.
+  exits:
+    south:
+      target_vnum: '316'
+    west:
+      target_vnum: '314'
+  name: Uma Borda Rochosa
+  vnum: '315'
+- description: |-
+    Você está em uma pequena cabana.  Este lugar parece bom demais para ser
+    verdade.  Em sua frente há uma pequena mesa cheia das mais finas comidas.
+    Desde leite a carne de porco, este lugar parece ter tudo, menos uma pia.
+    Você sente-se um pouco desconfiado, mas rapidamente se senta e começa a se
+    servir.
+  exits:
+    north:
+      target_vnum: '315'
+  name: Uma Cabana
+  vnum: '316'
+- description: |-
+    Ao nadar mais fundo pela fenda, a água se torna mais fria e seus membros
+    começam a esfriar, tornando difícil seu movimento.  Você pensa que se não
+    encontrar água mais morna logo, irá morrer.  Cada braçada se torna mais e
+    mais difícil, e você começa a parar de sentir seus membros.  Você pode
+    avistar uma luminosidade vinda do leste.
+  exits:
+    east:
+      target_vnum: '318'
+    up:
+      target_vnum: '314'
+  name: No Fundo da Fenda
+  vnum: '317'
+- description: |-
+    Você está em uma alcova e nota que a água aqui começa a esquentar
+    consideravelmente.  Seus movimentos começam a voltar ao normal.  Ao olhar em
+    volta você nota que a luminosidade vem de cima.
+  exits:
+    north:
+      target_vnum: '319'
+    west:
+      target_vnum: '317'
+  name: Uma Alcova
+  vnum: '318'
+- description: |-
+    Você olha em frente e pode perceber que o calor está a apenas alguns
+    passos de você.  Você sente como se estivesse levando horas atravessar
+    apenas alguns metros, mas a busca pelo calor afasta este pensamento, e o
+    mantêm andando em frente.
+  exits:
+    south:
+      target_vnum: '318'
+    up:
+      target_vnum: '304'
+  name: Quase Lá
+  vnum: '319'
+- description: |-
+    Você está onde todos devem esperar para que comece a aventura.  O lugar é
+    bem decorado e mobiliado com bom gosto.  Cada peça da mobília tem seu lugar,
+    dando uma atmosfera de suspense e mistério.  Para você este lugar é como um
+    purgatório em vida, a espera pelo prêmio e glória.
+  exits:
+    south:
+      target_vnum: '304'
+    up:
+      target_vnum: '321'
+  name: Começando a Grande Aventura!
+  vnum: '320'
+- description: |-
+    Você está em uma sala, sem teto.  A grama embaixo de seus pés é bem
+    cuidada e parece fresca.  Pássaros voam a seu redor, abelhas zunem, formigas
+    trabalham...  Mas apesar de tudo isso, você sente como se estivesse em um
+    lugar fechado...estranhamente fechado.
+  exits:
+    down:
+      target_vnum: '320'
+    east:
+      target_vnum: '322'
+  name: O Começo do Labirinto
+  vnum: '321'
+- description: |-
+    A medida que você entra nessa sala você é surpreendido.  Você quase pode
+    sentir o cheiro do cachimbo de papai, e o gosto da comida da mamãe.  Cada
+    sentimento, cada cheiro, e cada toque faz com que você se sinta mais em
+    casa.  Você quase sente-se deitado no sofá pronto para descansar a tarde
+    toda.
+  exits:
+    east:
+      target_vnum: '323'
+    west:
+      target_vnum: '321'
+  name: No Labirinto
+  vnum: '322'
+- description: |-
+    A medida que você entra neste quarto os sentimentos de segurança são
+    diluídos.  A fria realidade deste severo ambiente o atinge com grande
+    impacto.  Você percebe que a qualquer momento a magia que permite que você
+    respire em baixo de água possa acabar, e você terá que lutar por ar e buscar
+    pela superfície.  Você percebe que está a total mercê do oceano, de joelhos
+    diante do poder do profundo...
+  exits:
+    east:
+      target_vnum: '324'
+    west:
+      target_vnum: '322'
+  name: No Labirinto
+  vnum: '323'
+- description: |-
+    Você está em uma curva do labirinto.  Você pode seguir a norte e explorar
+    mais, ou voltar pelo caminho o qual veio.  Mas há alguma estranha luz azul
+    que causa um frio arrepio em sua espinha.  Uma voz dentro de sua cabeça
+    começa a chamar por você...  Quase um choro pedindo ajuda.  Tudo isso lhe
+    diz para voltar, mas o bravo em você deseja continuar adiante...  Não é?
+  exits:
+    north:
+      target_vnum: '325'
+    west:
+      target_vnum: '323'
+  name: Uma Esquina
+  vnum: '324'
+- description: |-
+    Você está em um outro corredor que tem suas próprias memórias e
+    histórias.  Olhando em volta, todas as pinturas de pessoas nas paredes lhe
+    conta a história de quem viveu a muito tempo atrás, grandes aventureiros que
+    tentaram conquistar o labirinto, e todos mortos agora.  Seus gritos de
+    agonia e terror enchem suas orelhas.  Cada alma perdida dos aventureiros
+    derrotados se torna um fantasma em sua mente.  Será que vale mesmo a pena se
+    arriscar assim?
+  exits:
+    north:
+      target_vnum: '326'
+    south:
+      target_vnum: '324'
+  name: Em Um Novo Corredor
+  vnum: '325'
+- description: |-
+    Nesta parte do corredor, um acorde soa fundo em sua alma.  Ele fala de
+    perda de pessoas amadas.  Imagens de mães se lamentando vêm a sua cabeça.
+    Você vê todos eles, vestidos em negro, chorando até que as lágrimas se
+    acabem.  Você suportaria ver sua família assim?  Ousaria continuar?
+  exits:
+    north:
+      target_vnum: '331'
+    south:
+      target_vnum: '325'
+    west:
+      target_vnum: '327'
+  name: Ainda Mais do Corredor
+  vnum: '326'
+- description: |-
+    Este corredor parece frio e solitário.  Cada passo ecoa pelas profundezas
+    do oceano.  A costumeira onda de emoções não aparece aqui.  Você se sente
+    mais nulo do que qualquer outra coisa...
+  exits:
+    east:
+      target_vnum: '326'
+    north:
+      target_vnum: '332'
+    west:
+      target_vnum: '328'
+  name: Um Corredor Indescritível
+  vnum: '327'
+- description: |-
+    Este corredor parece frio e solitário.  Cada passo ecoa pelas profundezas
+    do oceano.  A costumeira onda de emoções não aparece aqui.  Você se sente
+    mais nulo do que qualquer outra coisa...
+  exits:
+    east:
+      target_vnum: '327'
+    south:
+      target_vnum: '334'
+    west:
+      target_vnum: '329'
+  name: Um Corredor Indescritível
+  vnum: '328'
+- description: |-
+    Este corredor parece frio e solitário.  Cada passo ecoa pelas profundezas
+    do oceano.  A costumeira onda de emoções não aparece aqui.  Você se sente
+    mais nulo do que qualquer outra coisa...
+  exits:
+    east:
+      target_vnum: '328'
+    north:
+      target_vnum: '335'
+    west:
+      target_vnum: '330'
+  name: Um Corredor Indescritível
+  vnum: '329'
+- description: |-
+    Finalmente você chegou ao Oráculo!  Centenas de aventureiros falharam
+    nesta busca, mas você, poderoso bravo, teve sucesso!  Alegra-te, por tudo o
+    que você viu, é tudo seu, somente seu.  Use seus tesouros sabiamente meu
+    amigo.  Eles podem ser a melhor coisa que já aconteceu a você, ou a pior
+    maldição que alguém já proferiu...
+  exits:
+    east:
+      target_vnum: '329'
+  name: O Oráculo
+  vnum: '330'
+- description: |-
+    Você está em outro corredor que parece não um corredor, mas a junção de
+    três passagens, então ele tem apenas uma parede.  Todas as direções podem
+    guardar novas aventuras, e ainda, armadilhas e terror.
+  exits:
+    east:
+      target_vnum: '332'
+    north:
+      target_vnum: '333'
+    south:
+      target_vnum: '326'
+  name: Um Corredor
+  vnum: '331'
+- description: |-
+    CAMINHO ERRADO!!!
+    OOPS
+  exits: {}
+  name: Um Corredor
+  vnum: '332'
+- description: "SEM SAÃ\x8DDA!!!\nDUHH!!!!"
+  exits: {}
+  name: Um Corredor
+  vnum: '333'
+- description: "SEM SAÃ\x8DDA!!!\nDUHH!!!!"
+  exits: {}
+  name: Um Corredor
+  vnum: '334'
+- description: |-
+    E mais uma vez, você está na junção de corredores.  Este corredor parece
+    lhe dar aquela sensação confortável, como se você estivesse em sua casa, lhe
+    dando o sentimento de que você realizou sua tarefa, e agora vai sentar e
+    relaxar com a família.
+  exits:
+    east:
+      target_vnum: '336'
+    south:
+      target_vnum: '329'
+  name: Um Corredor
+  vnum: '335'
+- description: |-
+    E mais uma vez, você está na junção de corredores.  Este corredor parece
+    lhe dar aquela sensação confortável, como se você procurasse por sua casa e
+    que seu objetivo está a poucos passos daqui...
+  exits:
+    north:
+      target_vnum: '337'
+    west:
+      target_vnum: '335'
+  name: Um Corredor
+  vnum: '336'
+- description: |-
+    Agora você sente como se pudesse alcançar aquela bandeja de bolinhos e
+    leite que aguarda junto com sua família, onde todos riem e conversam em
+    volta da lareira.  Papai está sentado em sua grande poltrona, mamãe está lhe
+    esperando, com uma bandeja nas mãos.  Sua irmã está sentada no sofá,
+    esperando que você faça companhia a ela.
+  exits:
+    north:
+      target_vnum: '338'
+    south:
+      target_vnum: '336'
+  name: Um Corredor
+  vnum: '337'
+- description: |-
+    Adiante está seu objetivo.  A sala brilha com a mais bela e branca luz de
+    todas, lhe chamando para ela.  Até o cheiro da atmosfera mudou para um
+    triunfante aroma.  Você tem certeza que conseguiu...
+  exits:
+    north:
+      target_vnum: '50'
+  name: A Recompensa Final
+  vnum: '338'
+- description: |-
+    Você viu uma espécie de buraco na parte rasa da costa, logo abaixo da
+    doca, e resolveu investigar.  Um pouco depois, você constata estar em um
+    túnel subaquático, nadando entre corais e algas.  O caminho parece ser
+    bastante movimentado, tendo marcas de passagem recente por todos os lados.
+  exits:
+    down:
+      target_vnum: '340'
+    up:
+      target_vnum: '5698'
+  name: Sob o Mar
+  vnum: '339'
+- description: |-
+    Você está em um túnel subáquatico, nadando entre corais e algas.  O
+    caminho parece ser bastante movimentado, tendo marcas de passagem recente
+    por todos os lados.
+  exits:
+    down:
+      target_vnum: '341'
+    up:
+      target_vnum: '339'
+  name: O Túnel Subaquático
+  vnum: '340'
+- description: |-
+    Você está em um túnel subáquatico, nadando entre corais e algas.  O
+    caminho parece ser bastante movimentado, tendo marcas de passagem recente
+    por todos os lados.
+  exits:
+    down:
+      target_vnum: '300'
+    up:
+      target_vnum: '340'
+  name: O Túnel Subaquático
+  vnum: '341'

@@ -1,0 +1,1832 @@
+- description: |-
+    Você está na praça central do região residencial de Nova Thalos.
+    Estranhamente, você tem a impressão de não estar mais em Nova Thalos.  Um
+    forte vento sopra continuamente.  A Rua de Vayu segue para leste e para
+    oeste, onde pode-se ver muitas casas.
+    Há um estranho portal sobre sua cabeça.
+  exits:
+    east:
+      target_vnum: '12411'
+    north:
+      target_vnum: '12401'
+    south:
+      target_vnum: '12402'
+    up:
+      target_vnum: '5495'
+    west:
+      target_vnum: '12410'
+  name: A Praça de Vayu
+  vnum: '12400'
+- description: |-
+    Você está na praça de Yama da região residencial de Nova Thalos.
+    Um calafrio toma conta de seu corpo.  A Rua de Yama segue para leste e para
+    oeste, onde pode-se ver muitas casas.
+  exits:
+    east:
+      target_vnum: '12421'
+    north:
+      target_vnum: '12403'
+    south:
+      target_vnum: '12400'
+    west:
+      target_vnum: '12420'
+  name: A Praça de Yama
+  vnum: '12401'
+- description: |-
+    Você está na praça de Surya da região residencial de Nova Thalos.
+    O brilho do Sol parece mais intenso nessa praça.  A Rua de Surya segue para
+    leste e para oeste, onde pode-se ver muitas casas.
+  exits:
+    east:
+      target_vnum: '12431'
+    north:
+      target_vnum: '12400'
+    south:
+      target_vnum: '12404'
+    west:
+      target_vnum: '12430'
+  name: A Praça de Surya
+  vnum: '12402'
+- description: |-
+    Você está na praça de Puchan da região residencial de Nova Thalos.  A Rua
+    de Puchan segue para leste e para oeste, onde pode-se ver muitas casas.
+  exits:
+    east:
+      target_vnum: '12441'
+    south:
+      target_vnum: '12401'
+    west:
+      target_vnum: '12440'
+  name: A Praça de Puchan
+  vnum: '12403'
+- description: |-
+    Você está na praça de Siva da região residencial de Nova Thalos.  A Rua
+    de Siva segue para leste e para oeste, onde pode-se ver muitas casas.
+  exits:
+    east:
+      target_vnum: '12451'
+    north:
+      target_vnum: '12402'
+    west:
+      target_vnum: '12450'
+  name: A Praça de Siva
+  vnum: '12404'
+- description: |-
+    Você está em um cruzamento das ruas da região residencial de Nova Thalos.
+    Para leste e para oeste está a rua de Vayu, para norte está a rua de Yama e
+    para sul está a rua de Surya.
+  exits:
+    east:
+      target_vnum: '12418'
+    north:
+      target_vnum: '12406'
+    south:
+      target_vnum: '12407'
+    west:
+      target_vnum: '12419'
+  name: Um Cruzamento de Ruas
+  vnum: '12405'
+- description: |-
+    Você está em um cruzamento das ruas da região residencial de Nova Thalos.
+    Para leste e para oeste está a rua de Yama, para sul está a rua de Vayu e
+    para norte está a rua de Puchan.
+  exits:
+    east:
+      target_vnum: '12428'
+    north:
+      target_vnum: '12408'
+    south:
+      target_vnum: '12405'
+    west:
+      target_vnum: '12429'
+  name: Um Cruzamento de Ruas
+  vnum: '12406'
+- description: |-
+    Você está em um cruzamento das ruas da região residencial de Nova Thalos.
+    Para leste e para oeste está a rua de Surya, para norte está a rua de Vayu e
+    para sul está a rua de Siva.
+  exits:
+    east:
+      target_vnum: '12438'
+    north:
+      target_vnum: '12405'
+    south:
+      target_vnum: '12409'
+    west:
+      target_vnum: '12439'
+  name: Um Cruzamento de Ruas
+  vnum: '12407'
+- description: |-
+    Você está em um cruzamento das ruas da região residencial de Nova Thalos.
+    Para leste e para oeste está a rua de Puchan e para sul está a rua de Yama.
+  exits:
+    east:
+      target_vnum: '12448'
+    south:
+      target_vnum: '12406'
+    west:
+      target_vnum: '12449'
+  name: Um Cruzamento de Ruas
+  vnum: '12408'
+- description: |-
+    Você está em um cruzamento das ruas da região residencial de Nova Thalos.
+    Para leste e para oeste está a rua de Siva e para norte está a rua de Surya.
+  exits:
+    east:
+      target_vnum: '12458'
+    north:
+      target_vnum: '12407'
+    west:
+      target_vnum: '12459'
+  name: Um Cruzamento de Ruas
+  vnum: '12409'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 1 e 2.  A rua continua
+    para oeste, e a praça de Vayu pode ser vista a leste.
+  exits:
+    east:
+      target_vnum: '12400'
+    north:
+      target_vnum: '12500'
+    south:
+      target_vnum: '12501'
+    west:
+      target_vnum: '12412'
+  name: A Rua de Vayu
+  vnum: '12410'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 3 e 4.  A rua continua
+    para leste, e a praça de Vayu pode ser vista a oeste.
+  exits:
+    east:
+      target_vnum: '12413'
+    north:
+      target_vnum: '12502'
+    south:
+      target_vnum: '12503'
+    west:
+      target_vnum: '12400'
+  name: A Rua de Vayu
+  vnum: '12411'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 5 e 6.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12410'
+    north:
+      target_vnum: '12504'
+    south:
+      target_vnum: '12505'
+    west:
+      target_vnum: '12414'
+  name: A Rua de Vayu
+  vnum: '12412'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 7 e 8.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12415'
+    north:
+      target_vnum: '12506'
+    south:
+      target_vnum: '12507'
+    west:
+      target_vnum: '12411'
+  name: A Rua de Vayu
+  vnum: '12413'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 9 e 10.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12412'
+    north:
+      target_vnum: '12508'
+    south:
+      target_vnum: '12509'
+    west:
+      target_vnum: '12416'
+  name: A Rua de Vayu
+  vnum: '12414'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 11 e 12.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12417'
+    north:
+      target_vnum: '12510'
+    south:
+      target_vnum: '12511'
+    west:
+      target_vnum: '12413'
+  name: A Rua de Vayu
+  vnum: '12415'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 13 e 14.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12414'
+    north:
+      target_vnum: '12512'
+    south:
+      target_vnum: '12513'
+    west:
+      target_vnum: '12418'
+  name: A Rua de Vayu
+  vnum: '12416'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 15 e 16.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12419'
+    north:
+      target_vnum: '12514'
+    south:
+      target_vnum: '12515'
+    west:
+      target_vnum: '12415'
+  name: A Rua de Vayu
+  vnum: '12417'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 17 e 18.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12416'
+    north:
+      target_vnum: '12516'
+    south:
+      target_vnum: '12517'
+    west:
+      target_vnum: '12405'
+  name: A Rua de Vayu
+  vnum: '12418'
+- description: |-
+    Você está caminhando pela Rua de Vayu, o Deus do Vento.  Essa rua deve
+    ter recebido esse nome devido ao constante vento que sopra aqui, a ponto de
+    incomodar.
+    Para o norte e para o sul você vê as casas números 19 e 20.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12405'
+    north:
+      target_vnum: '12518'
+    south:
+      target_vnum: '12519'
+    west:
+      target_vnum: '12417'
+  name: A Rua de Vayu
+  vnum: '12419'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 1 e 2.  A rua continua
+    para oeste, e a praça de Yama pode ser vista a leste.
+  exits:
+    east:
+      target_vnum: '12401'
+    north:
+      target_vnum: '12520'
+    south:
+      target_vnum: '12521'
+    west:
+      target_vnum: '12422'
+  name: A Rua de Yama
+  vnum: '12420'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 3 e 4.  A rua continua
+    para leste, e a praça de Yama pode ser vista a oeste.
+  exits:
+    east:
+      target_vnum: '12423'
+    north:
+      target_vnum: '12522'
+    south:
+      target_vnum: '12523'
+    west:
+      target_vnum: '12401'
+  name: A Rua de Yama
+  vnum: '12421'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 5 e 6.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12420'
+    north:
+      target_vnum: '12524'
+    south:
+      target_vnum: '12525'
+    west:
+      target_vnum: '12424'
+  name: A Rua de Yama
+  vnum: '12422'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 7 e 8.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12425'
+    north:
+      target_vnum: '12526'
+    south:
+      target_vnum: '12527'
+    west:
+      target_vnum: '12421'
+  name: A Rua de Yama
+  vnum: '12423'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 9 e 10.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12422'
+    north:
+      target_vnum: '12528'
+    south:
+      target_vnum: '12529'
+    west:
+      target_vnum: '12426'
+  name: A Rua de Yama
+  vnum: '12424'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 11 e 12.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12427'
+    north:
+      target_vnum: '12530'
+    south:
+      target_vnum: '12531'
+    west:
+      target_vnum: '12423'
+  name: A Rua de Yama
+  vnum: '12425'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 13 e 14.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12424'
+    north:
+      target_vnum: '12532'
+    south:
+      target_vnum: '12533'
+    west:
+      target_vnum: '12428'
+  name: A Rua de Yama
+  vnum: '12426'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 15 e 16.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12429'
+    north:
+      target_vnum: '12534'
+    south:
+      target_vnum: '12535'
+    west:
+      target_vnum: '12425'
+  name: A Rua de Yama
+  vnum: '12427'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 17 e 18.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12426'
+    north:
+      target_vnum: '12536'
+    south:
+      target_vnum: '12537'
+    west:
+      target_vnum: '12406'
+  name: A Rua de Yama
+  vnum: '12428'
+- description: |-
+    Você está caminhando pela Rua de Yama, o Deus da Morte.  Você sente um
+    frio percorrendo a espinha cada vez que ouve o nome desta rua.
+    Para o norte e para o sul você vê as casas números 19 e 20.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12406'
+    north:
+      target_vnum: '12538'
+    south:
+      target_vnum: '12539'
+    west:
+      target_vnum: '12427'
+  name: A Rua de Yama
+  vnum: '12429'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 1 e 2.  A rua continua
+    para oeste, e a praça de Surya pode ser vista a leste.
+  exits:
+    east:
+      target_vnum: '12402'
+    north:
+      target_vnum: '12540'
+    south:
+      target_vnum: '12541'
+    west:
+      target_vnum: '12432'
+  name: A Rua de Surya
+  vnum: '12430'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 3 e 4.  A rua continua
+    para leste, e a praça de Surya pode ser vista a oeste.
+  exits:
+    east:
+      target_vnum: '12433'
+    north:
+      target_vnum: '12542'
+    south:
+      target_vnum: '12543'
+    west:
+      target_vnum: '12402'
+  name: A Rua de Surya
+  vnum: '12431'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 5 e 6.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12430'
+    north:
+      target_vnum: '12544'
+    south:
+      target_vnum: '12545'
+    west:
+      target_vnum: '12434'
+  name: A Rua de Surya
+  vnum: '12432'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 7 e 8.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12435'
+    north:
+      target_vnum: '12546'
+    south:
+      target_vnum: '12547'
+    west:
+      target_vnum: '12431'
+  name: A Rua de Surya
+  vnum: '12433'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 9 e 10.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12432'
+    north:
+      target_vnum: '12548'
+    south:
+      target_vnum: '12549'
+    west:
+      target_vnum: '12436'
+  name: A Rua de Surya
+  vnum: '12434'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 11 e 12.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12437'
+    north:
+      target_vnum: '12550'
+    south:
+      target_vnum: '12551'
+    west:
+      target_vnum: '12433'
+  name: A Rua de Surya
+  vnum: '12435'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 13 e 14.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12434'
+    north:
+      target_vnum: '12552'
+    south:
+      target_vnum: '12553'
+    west:
+      target_vnum: '12438'
+  name: A Rua de Surya
+  vnum: '12436'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 15 e 16.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12439'
+    north:
+      target_vnum: '12554'
+    south:
+      target_vnum: '12555'
+    west:
+      target_vnum: '12435'
+  name: A Rua de Surya
+  vnum: '12437'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 17 e 18.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12436'
+    north:
+      target_vnum: '12556'
+    south:
+      target_vnum: '12557'
+    west:
+      target_vnum: '12407'
+  name: A Rua de Surya
+  vnum: '12438'
+- description: |-
+    Você está caminhando pela Rua de Surya, o Deus da Natureza.  A rua é muito
+    bem arborizada, e o Sol brilha muito intensamente aqui.
+    Para o norte e para o sul você vê as casas números 19 e 20.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12407'
+    north:
+      target_vnum: '12558'
+    south:
+      target_vnum: '12559'
+    west:
+      target_vnum: '12437'
+  name: A Rua de Surya
+  vnum: '12439'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 1 e 2.  A rua continua
+    para oeste, e a praça de Puchan pode ser vista a leste.
+  exits:
+    east:
+      target_vnum: '12403'
+    north:
+      target_vnum: '12560'
+    south:
+      target_vnum: '12561'
+    west:
+      target_vnum: '12442'
+  name: A Rua de Puchan
+  vnum: '12440'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 3 e 4.  A rua continua
+    para leste, e a praça de Puchan pode ser vista a oeste.
+  exits:
+    east:
+      target_vnum: '12443'
+    north:
+      target_vnum: '12562'
+    south:
+      target_vnum: '12563'
+    west:
+      target_vnum: '12403'
+  name: A Rua de Puchan
+  vnum: '12441'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 5 e 6.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12440'
+    north:
+      target_vnum: '12564'
+    south:
+      target_vnum: '12565'
+    west:
+      target_vnum: '12444'
+  name: A Rua de Puchan
+  vnum: '12442'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 7 e 8.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12445'
+    north:
+      target_vnum: '12566'
+    south:
+      target_vnum: '12567'
+    west:
+      target_vnum: '12441'
+  name: A Rua de Puchan
+  vnum: '12443'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 9 e 10.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12442'
+    north:
+      target_vnum: '12568'
+    south:
+      target_vnum: '12569'
+    west:
+      target_vnum: '12446'
+  name: A Rua de Puchan
+  vnum: '12444'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 11 e 12.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12447'
+    north:
+      target_vnum: '12570'
+    south:
+      target_vnum: '12571'
+    west:
+      target_vnum: '12443'
+  name: A Rua de Puchan
+  vnum: '12445'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 13 e 14.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12444'
+    north:
+      target_vnum: '12572'
+    south:
+      target_vnum: '12573'
+    west:
+      target_vnum: '12448'
+  name: A Rua de Puchan
+  vnum: '12446'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 15 e 16.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12449'
+    north:
+      target_vnum: '12574'
+    south:
+      target_vnum: '12575'
+    west:
+      target_vnum: '12445'
+  name: A Rua de Puchan
+  vnum: '12447'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 17 e 18.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12446'
+    north:
+      target_vnum: '12576'
+    south:
+      target_vnum: '12577'
+    west:
+      target_vnum: '12408'
+  name: A Rua de Puchan
+  vnum: '12448'
+- description: |-
+    Você está caminhando pela Rua de Puchan, o Deus dos Viajantes.
+    Para o norte e para o sul você vê as casas números 19 e 20.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12408'
+    north:
+      target_vnum: '12578'
+    south:
+      target_vnum: '12579'
+    west:
+      target_vnum: '12447'
+  name: A Rua de Puchan
+  vnum: '12449'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 1 e 2.  A rua continua
+    para oeste, e a praça de Siva pode ser vista a leste.
+  exits:
+    east:
+      target_vnum: '12404'
+    north:
+      target_vnum: '12580'
+    south:
+      target_vnum: '12581'
+    west:
+      target_vnum: '12452'
+  name: A Rua de Siva
+  vnum: '12450'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 3 e 4.  A rua continua
+    para leste, e a praça de Siva pode ser vista a oeste.
+  exits:
+    east:
+      target_vnum: '12453'
+    north:
+      target_vnum: '12582'
+    south:
+      target_vnum: '12583'
+    west:
+      target_vnum: '12404'
+  name: A Rua de Siva
+  vnum: '12451'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 5 e 6.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12450'
+    north:
+      target_vnum: '12584'
+    south:
+      target_vnum: '12585'
+    west:
+      target_vnum: '12454'
+  name: A Rua de Siva
+  vnum: '12452'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 7 e 8.  A rua continua
+    para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12455'
+    north:
+      target_vnum: '12586'
+    south:
+      target_vnum: '12587'
+    west:
+      target_vnum: '12451'
+  name: A Rua de Siva
+  vnum: '12453'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 9 e 10.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12452'
+    north:
+      target_vnum: '12588'
+    south:
+      target_vnum: '12589'
+    west:
+      target_vnum: '12456'
+  name: A Rua de Siva
+  vnum: '12454'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 11 e 12.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12457'
+    north:
+      target_vnum: '12590'
+    south:
+      target_vnum: '12591'
+    west:
+      target_vnum: '12453'
+  name: A Rua de Siva
+  vnum: '12455'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 13 e 14.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12454'
+    north:
+      target_vnum: '12592'
+    south:
+      target_vnum: '12593'
+    west:
+      target_vnum: '12458'
+  name: A Rua de Siva
+  vnum: '12456'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 15 e 16.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12459'
+    north:
+      target_vnum: '12594'
+    south:
+      target_vnum: '12595'
+    west:
+      target_vnum: '12455'
+  name: A Rua de Siva
+  vnum: '12457'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 17 e 18.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12456'
+    north:
+      target_vnum: '12596'
+    south:
+      target_vnum: '12597'
+    west:
+      target_vnum: '12409'
+  name: A Rua de Siva
+  vnum: '12458'
+- description: |-
+    Você está caminhando pela Rua de Siva, o Deus da Destruição.
+    Para o norte e para o sul você vê as casas números 19 e 20.  A rua
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '12409'
+    north:
+      target_vnum: '12598'
+    south:
+      target_vnum: '12599'
+    west:
+      target_vnum: '12457'
+  name: A Rua de Siva
+  vnum: '12459'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 1.
+  exits:
+    south:
+      target_vnum: '12410'
+  name: A Casa 1 da Rua de Vayu
+  vnum: '12500'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 2.
+  exits:
+    north:
+      target_vnum: '12410'
+  name: A Casa 2 da Rua de Vayu
+  vnum: '12501'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 3.
+  exits:
+    south:
+      target_vnum: '12411'
+  name: A Casa 3 da Rua de Vayu
+  vnum: '12502'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 4.
+  exits:
+    north:
+      target_vnum: '12411'
+  name: A Casa 4 da Rua de Vayu
+  vnum: '12503'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 5.
+  exits:
+    south:
+      target_vnum: '12412'
+  name: A Casa 5 da Rua de Vayu
+  vnum: '12504'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 6.
+  exits:
+    north:
+      target_vnum: '12412'
+  name: A Casa 6 da Rua de Vayu
+  vnum: '12505'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 7.
+  exits:
+    south:
+      target_vnum: '12413'
+  name: A Casa 7 da Rua de Vayu
+  vnum: '12506'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 8.
+  exits:
+    north:
+      target_vnum: '12413'
+  name: A Casa 8 da Rua de Vayu
+  vnum: '12507'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 9.
+  exits:
+    south:
+      target_vnum: '12414'
+  name: A Casa 9 da Rua de Vayu
+  vnum: '12508'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 10.
+  exits:
+    north:
+      target_vnum: '12414'
+  name: A Casa 10 da Rua de Vayu
+  vnum: '12509'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 11.
+  exits:
+    south:
+      target_vnum: '12415'
+  name: A Casa 11 da Rua de Vayu
+  vnum: '12510'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 12.
+  exits:
+    north:
+      target_vnum: '12415'
+  name: A Casa 12 da Rua de Vayu
+  vnum: '12511'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 13.
+  exits:
+    south:
+      target_vnum: '12416'
+  name: A Casa 13 da Rua de Vayu
+  vnum: '12512'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 14.
+  exits:
+    north:
+      target_vnum: '12416'
+  name: A Casa 14 da Rua de Vayu
+  vnum: '12513'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 15.
+  exits:
+    south:
+      target_vnum: '12417'
+  name: A Casa 15 da Rua de Vayu
+  vnum: '12514'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 16.
+  exits:
+    north:
+      target_vnum: '12417'
+  name: A Casa 16 da Rua de Vayu
+  vnum: '12515'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 17.
+  exits:
+    south:
+      target_vnum: '12418'
+  name: A Casa 17 da Rua de Vayu
+  vnum: '12516'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 18.
+  exits:
+    north:
+      target_vnum: '12418'
+  name: A Casa 18 da Rua de Vayu
+  vnum: '12517'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 19.
+  exits:
+    south:
+      target_vnum: '12419'
+  name: A Casa 19 da Rua de Vayu
+  vnum: '12518'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Vayu, número 20.
+  exits:
+    north:
+      target_vnum: '12419'
+  name: A Casa 20 da Rua de Vayu
+  vnum: '12519'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 1.
+  exits:
+    south:
+      target_vnum: '12420'
+  name: A Casa 1 da Rua de Yama
+  vnum: '12520'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 2.
+  exits:
+    north:
+      target_vnum: '12420'
+  name: A Casa 2 da Rua de Yama
+  vnum: '12521'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 3.
+  exits:
+    south:
+      target_vnum: '12421'
+  name: A Casa 3 da Rua de Yama
+  vnum: '12522'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 4.
+  exits:
+    north:
+      target_vnum: '12421'
+  name: A Casa 4 da Rua de Yama
+  vnum: '12523'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 5.
+  exits:
+    south:
+      target_vnum: '12422'
+  name: A Casa 5 da Rua de Yama
+  vnum: '12524'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 6.
+  exits:
+    north:
+      target_vnum: '12422'
+  name: A Casa 6 da Rua de Yama
+  vnum: '12525'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 7.
+  exits:
+    south:
+      target_vnum: '12423'
+  name: A Casa 7 da Rua de Yama
+  vnum: '12526'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 8.
+  exits:
+    north:
+      target_vnum: '12423'
+  name: A Casa 8 da Rua de Yama
+  vnum: '12527'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 9.
+  exits:
+    south:
+      target_vnum: '12424'
+  name: A Casa 9 da Rua de Yama
+  vnum: '12528'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 10.
+  exits:
+    north:
+      target_vnum: '12424'
+  name: A Casa 10 da Rua de Yama
+  vnum: '12529'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 11.
+  exits:
+    south:
+      target_vnum: '12425'
+  name: A Casa 11 da Rua de Yama
+  vnum: '12530'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 12.
+  exits:
+    north:
+      target_vnum: '12425'
+  name: A Casa 12 da Rua de Yama
+  vnum: '12531'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 13.
+  exits:
+    south:
+      target_vnum: '12426'
+  name: A Casa 13 da Rua de Yama
+  vnum: '12532'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 14.
+  exits:
+    north:
+      target_vnum: '12426'
+  name: A Casa 14 da Rua de Yama
+  vnum: '12533'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 15.
+  exits:
+    south:
+      target_vnum: '12427'
+  name: A Casa 15 da Rua de Yama
+  vnum: '12534'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 16.
+  exits:
+    north:
+      target_vnum: '12427'
+  name: A Casa 16 da Rua de Yama
+  vnum: '12535'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 17.
+  exits:
+    south:
+      target_vnum: '12428'
+  name: A Casa 17 da Rua de Yama
+  vnum: '12536'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 18.
+  exits:
+    north:
+      target_vnum: '12428'
+  name: A Casa 18 da Rua de Yama
+  vnum: '12537'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 19.
+  exits:
+    south:
+      target_vnum: '12429'
+  name: A Casa 19 da Rua de Yama
+  vnum: '12538'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Yama, número 20.
+  exits:
+    north:
+      target_vnum: '12429'
+  name: A Casa 20 da Rua de Yama
+  vnum: '12539'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 1.
+  exits:
+    south:
+      target_vnum: '12430'
+  name: A Casa 1 da Rua de Surya
+  vnum: '12540'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 2.
+  exits:
+    north:
+      target_vnum: '12430'
+  name: A Casa 2 da Rua de Surya
+  vnum: '12541'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 3.
+  exits:
+    south:
+      target_vnum: '12431'
+  name: A Casa 3 da Rua de Surya
+  vnum: '12542'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 4.
+  exits:
+    north:
+      target_vnum: '12431'
+  name: A Casa 4 da Rua de Surya
+  vnum: '12543'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 5.
+  exits:
+    south:
+      target_vnum: '12432'
+  name: A Casa 5 da Rua de Surya
+  vnum: '12544'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 6.
+  exits:
+    north:
+      target_vnum: '12432'
+  name: A Casa 6 da Rua de Surya
+  vnum: '12545'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 7.
+  exits:
+    south:
+      target_vnum: '12433'
+  name: A Casa 7 da Rua de Surya
+  vnum: '12546'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 8.
+  exits:
+    north:
+      target_vnum: '12433'
+  name: A Casa 8 da Rua de Surya
+  vnum: '12547'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 9.
+  exits:
+    south:
+      target_vnum: '12434'
+  name: A Casa 9 da Rua de Surya
+  vnum: '12548'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 10.
+  exits:
+    north:
+      target_vnum: '12434'
+  name: A Casa 10 da Rua de Surya
+  vnum: '12549'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 11.
+  exits:
+    south:
+      target_vnum: '12435'
+  name: A Casa 11 da Rua de Surya
+  vnum: '12550'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 12.
+  exits:
+    north:
+      target_vnum: '12435'
+  name: A Casa 12 da Rua de Surya
+  vnum: '12551'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 13.
+  exits:
+    south:
+      target_vnum: '12436'
+  name: A Casa 13 da Rua de Surya
+  vnum: '12552'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 14.
+  exits:
+    north:
+      target_vnum: '12436'
+  name: A Casa 14 da Rua de Surya
+  vnum: '12553'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 15.
+  exits:
+    south:
+      target_vnum: '12437'
+  name: A Casa 15 da Rua de Surya
+  vnum: '12554'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 16.
+  exits:
+    north:
+      target_vnum: '12437'
+  name: A Casa 16 da Rua de Surya
+  vnum: '12555'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 17.
+  exits:
+    south:
+      target_vnum: '12438'
+  name: A Casa 17 da Rua de Surya
+  vnum: '12556'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 18.
+  exits:
+    north:
+      target_vnum: '12438'
+  name: A Casa 18 da Rua de Surya
+  vnum: '12557'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 19.
+  exits:
+    south:
+      target_vnum: '12439'
+  name: A Casa 19 da Rua de Surya
+  vnum: '12558'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Surya, número 20.
+  exits:
+    north:
+      target_vnum: '12439'
+  name: A Casa 20 da Rua de Surya
+  vnum: '12559'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 1.
+  exits:
+    south:
+      target_vnum: '12440'
+  name: A Casa 1 da Rua de Puchan
+  vnum: '12560'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 2.
+  exits:
+    north:
+      target_vnum: '12440'
+  name: A Casa 2 da Rua de Puchan
+  vnum: '12561'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 3.
+  exits:
+    south:
+      target_vnum: '12441'
+  name: A Casa 3 da Rua de Puchan
+  vnum: '12562'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 4.
+  exits:
+    north:
+      target_vnum: '12441'
+  name: A Casa 4 da Rua de Puchan
+  vnum: '12563'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 5.
+  exits:
+    south:
+      target_vnum: '12442'
+  name: A Casa 5 da Rua de Puchan
+  vnum: '12564'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 6.
+  exits:
+    north:
+      target_vnum: '12442'
+  name: A Casa 6 da Rua de Puchan
+  vnum: '12565'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 7.
+  exits:
+    south:
+      target_vnum: '12443'
+  name: A Casa 7 da Rua de Puchan
+  vnum: '12566'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 8.
+  exits:
+    north:
+      target_vnum: '12443'
+  name: A Casa 8 da Rua de Puchan
+  vnum: '12567'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 9.
+  exits:
+    south:
+      target_vnum: '12444'
+  name: A Casa 9 da Rua de Puchan
+  vnum: '12568'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 10.
+  exits:
+    north:
+      target_vnum: '12444'
+  name: A Casa 10 da Rua de Puchan
+  vnum: '12569'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 11.
+  exits:
+    south:
+      target_vnum: '12445'
+  name: A Casa 11 da Rua de Puchan
+  vnum: '12570'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 12.
+  exits:
+    north:
+      target_vnum: '12445'
+  name: A Casa 12 da Rua de Puchan
+  vnum: '12571'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 13.
+  exits:
+    south:
+      target_vnum: '12446'
+  name: A Casa 13 da Rua de Puchan
+  vnum: '12572'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 14.
+  exits:
+    north:
+      target_vnum: '12446'
+  name: A Casa 14 da Rua de Puchan
+  vnum: '12573'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 15.
+  exits:
+    south:
+      target_vnum: '12447'
+  name: A Casa 15 da Rua de Puchan
+  vnum: '12574'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 16.
+  exits:
+    north:
+      target_vnum: '12447'
+  name: A Casa 16 da Rua de Puchan
+  vnum: '12575'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 17.
+  exits:
+    south:
+      target_vnum: '12448'
+  name: A Casa 17 da Rua de Puchan
+  vnum: '12576'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 18.
+  exits:
+    north:
+      target_vnum: '12448'
+  name: A Casa 18 da Rua de Puchan
+  vnum: '12577'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 19.
+  exits:
+    south:
+      target_vnum: '12449'
+  name: A Casa 19 da Rua de Puchan
+  vnum: '12578'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Puchan, número 20.
+  exits:
+    north:
+      target_vnum: '12449'
+  name: A Casa 20 da Rua de Puchan
+  vnum: '12579'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 1.
+  exits:
+    south:
+      target_vnum: '12450'
+  name: A Casa 1 da Rua de Siva
+  vnum: '12580'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 2.
+  exits:
+    north:
+      target_vnum: '12450'
+  name: A Casa 2 da Rua de Siva
+  vnum: '12581'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 3.
+  exits:
+    south:
+      target_vnum: '12451'
+  name: A Casa 3 da Rua de Siva
+  vnum: '12582'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 4.
+  exits:
+    north:
+      target_vnum: '12451'
+  name: A Casa 4 da Rua de Siva
+  vnum: '12583'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 5.
+  exits:
+    south:
+      target_vnum: '12452'
+  name: A Casa 5 da Rua de Siva
+  vnum: '12584'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 6.
+  exits:
+    north:
+      target_vnum: '12452'
+  name: A Casa 6 da Rua de Siva
+  vnum: '12585'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 7.
+  exits:
+    south:
+      target_vnum: '12453'
+  name: A Casa 7 da Rua de Siva
+  vnum: '12586'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 8.
+  exits:
+    north:
+      target_vnum: '12453'
+  name: A Casa 8 da Rua de Siva
+  vnum: '12587'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 9.
+  exits:
+    south:
+      target_vnum: '12454'
+  name: A Casa 9 da Rua de Siva
+  vnum: '12588'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 10.
+  exits:
+    north:
+      target_vnum: '12454'
+  name: A Casa 10 da Rua de Siva
+  vnum: '12589'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 11.
+  exits:
+    south:
+      target_vnum: '12455'
+  name: A Casa 11 da Rua de Siva
+  vnum: '12590'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 12.
+  exits:
+    north:
+      target_vnum: '12455'
+  name: A Casa 12 da Rua de Siva
+  vnum: '12591'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 13.
+  exits:
+    south:
+      target_vnum: '12456'
+  name: A Casa 13 da Rua de Siva
+  vnum: '12592'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 14.
+  exits:
+    north:
+      target_vnum: '12456'
+  name: A Casa 14 da Rua de Siva
+  vnum: '12593'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 15.
+  exits:
+    south:
+      target_vnum: '12457'
+  name: A Casa 15 da Rua de Siva
+  vnum: '12594'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 16.
+  exits:
+    north:
+      target_vnum: '12457'
+  name: A Casa 16 da Rua de Siva
+  vnum: '12595'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 17.
+  exits:
+    south:
+      target_vnum: '12458'
+  name: A Casa 17 da Rua de Siva
+  vnum: '12596'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 18.
+  exits:
+    north:
+      target_vnum: '12458'
+  name: A Casa 18 da Rua de Siva
+  vnum: '12597'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 19.
+  exits:
+    south:
+      target_vnum: '12459'
+  name: A Casa 19 da Rua de Siva
+  vnum: '12598'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua de Siva, número 20.
+  exits:
+    north:
+      target_vnum: '12459'
+  name: A Casa 20 da Rua de Siva
+  vnum: '12599'

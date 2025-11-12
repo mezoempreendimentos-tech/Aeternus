@@ -1,0 +1,2179 @@
+- description: "Uma imensa sensação de tranqüilidade e paz invade seu corpo e sua\
+    \ mente.\nAo seu redor você observa belas planícies verdes e alguns pássaros curiosos\n\
+    com a sua presenÃ§a.  Ã\x80 sua frente vocÃª observa a estreita estrada do leste,\n\
+    que segue no sentido leste-oeste.  Você observa ao leste as luzes da isolada\n\
+    aldeia de Bri.  Vindo do oeste você escuta sons dos movimentos lentos das\náguas\
+    \ do rio Brandevim.  A estrada continua para o oeste, cada vez mais\nestreita\
+    \ e para leste em direção da aldeia de Bri."
+  exits:
+    east:
+      target_vnum: '14400'
+    south:
+      target_vnum: '11116'
+    west:
+      target_vnum: '14501'
+  name: A Estrada do Leste
+  vnum: '14500'
+- description: |-
+    Você está caminhando pela estreita estrada do leste.  Ao seu redor você
+    observa belas paisagens e uma sensação confortável de paz e tranqüilidade.
+    Ao norte você observa belos campos verdes e ao sudeste e sudoeste você
+    observa a maravilhosa Terra dos Buques.  Ao oeste e ao leste a estrada do
+    leste continua.
+  exits:
+    east:
+      target_vnum: '14500'
+    west:
+      target_vnum: '14502'
+  name: A Estrada do Leste
+  vnum: '14501'
+- description: |-
+    Você está caminhando bela estreita estrada do leste, que segue passando
+    pelo Condado na direção oeste até chegar nos Portos Cinzentos e para leste
+    a estreita estrada do leste fica mais larga, passando pela isolada Aldeia de
+    Bri, pela mata dos trolls até chegar em Valfenda.  Ao leste você observa a
+    continuação da estrada do leste e ao oeste você observa a bela Ponte do
+    Brandevim.
+  exits:
+    east:
+      target_vnum: '14501'
+    west:
+      target_vnum: '14503'
+  name: A Estrada do Leste
+  vnum: '14502'
+- description: |-
+    Você está sobre a bela ponte de pedra do Brandevim.  Ao norte e ao sul
+    você observa as tranqüilas águas do rio Brandevim seguindo seu leito.  Ao
+    leste e ao oeste você observa a estrada do leste.  Ao noroeste você observa
+    um belo campo verde e amarelo.
+  exits:
+    east:
+      target_vnum: '14504'
+    north:
+      target_vnum: '14536'
+    south:
+      target_vnum: '14537'
+    west:
+      target_vnum: '14502'
+  name: A Ponte de Pedra do Brandevim
+  vnum: '14503'
+- description: |-
+    Você está caminhando tranqüilamente pela estreita estrada do leste que
+    corta o Condado.  Ao seu redor você observa belos campos verdes com lindas
+    flores amarelas.  Ao leste você observa a bela ponte de pedra do Brandevim e
+    ao sudoeste você observa a continuação da estrada do leste no sentido oeste.
+  exits:
+    east:
+      target_vnum: '14503'
+  name: A Estrada do Leste
+  vnum: '14504'
+- description: |-
+    Você está caminhando pela estreita estrada do leste e admirando os belos
+    campos floridos ao seu redor.  Ao olhar para o chão você percebe pequeninas
+    pegadas seguindo para a direção oeste.  Ao oeste e ao nordeste você observa
+    a continuação da estrada do leste.
+  exits:
+    west:
+      target_vnum: '14506'
+  name: A Estrada do Leste
+  vnum: '14505'
+- description: |-
+    Você está caminhando pela estreita estrada do leste, porém ao seu redor
+    a paisagem lhe surpreende.  Você observa belos campos verdes cobertos por
+    flores amarelas, imensas árvores que a pesar de isoladas fazem gigantescas
+    sombras e curiosos pássaros, que seguem cantando sobrevoando a estrada.  Ao
+    leste e ao oeste você observa a continuação da estrada do leste.
+  exits:
+    east:
+      target_vnum: '14505'
+    west:
+      target_vnum: '14507'
+  name: A Estrada do Leste
+  vnum: '14506'
+- description: |-
+    Você está caminhando pela estrada do leste.  Ao seu redor você observa
+    belos campos floridos e perfumados.  No chão você nota várias pequeninas
+    pegadas.  Ao norte você observa além de uma linda planície, as límpidas
+    águas do Beirágua.  Ao sul você observa uma bela planície coberta de flores
+    amarelas e ao leste e o oeste você observa a continuação da estrada do
+    leste.
+  exits:
+    east:
+      target_vnum: '14506'
+    north:
+      target_vnum: '14571'
+    south:
+      target_vnum: '14555'
+    west:
+      target_vnum: '14508'
+  name: A Estrada do Leste
+  vnum: '14507'
+- description: |-
+    Você está caminhando pela estrada do  leste, que corta o Condado no
+    sentido leste-oeste.  Vindo desde as terras mais ao oeste, os Portos
+    Cinzentos, passando pela aldeia isolada de Bri e pela mata dos trolls,
+    chegando até as sagradas terras élficas de Valfenda.  Ao seu redor você
+    observa lindos campos verdes e amarelos.  Ao leste e ao oeste você observa a
+    continuação da estrada do leste.
+  exits:
+    east:
+      target_vnum: '14507'
+    west:
+      target_vnum: '14509'
+  name: A Estrada do Leste
+  vnum: '14508'
+- description: "Uma imensa sensação de tranqüilidade e paz invade seu corpo e sua\
+    \ mente.\nAo seu redor você observa belas planícies verdes e alguns pássaros curiosos\n\
+    com a sua presenÃ§a.  Ã\x80 sua frente vocÃª observa a estreita estrada do leste,\n\
+    que segue no sentido leste-oeste.  A estrada continua para o oeste na\ndireção\
+    \ dos Portos Cinzentos e para leste cortando o Condado e na direção da\nisolada\
+    \ aldeia de Bri."
+  exits:
+    east:
+      target_vnum: '14508'
+  name: A Estrada do Leste
+  vnum: '14509'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao sudeste você observa uma pequena trilha entre as árvores
+    de várias formas e tamanhos da floresta velha e ao sudoeste você observa o
+    centro da Vilanova.
+  exits: {}
+  name: A Floresta Velha
+  vnum: '14510'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao sul, ao noroeste e ao sudeste você observa algumas
+    pequeninas trilhas entre as árvores de várias formas e tamanhos da floresta
+    velha.
+  exits:
+    south:
+      target_vnum: '14519'
+  name: A Floresta Velha
+  vnum: '14511'
+- description: |-
+    Você está dentro de uma apertada casa de madeira, feita pelos hobbits que
+    vivem na Vilanova.  Ao seu redor você observa alguns móveis de madeira e
+    algumas ferramentas de madeira no chão.  Nas paredes você observa alguns
+    quadros, que ilustram a tranqüilidade e a paz dos campos verdes do Condado.
+    Na parte oeste da casa de madeira, você observa a misteriosa floresta velha
+    através de uma curiosa janela circular.  Logo embaixo da janela você percebe
+    um belo jardim cheio de flores coloridas e perfumadas.  Para cima você
+    observa uma porta circular de madeira.
+  exits:
+    up:
+      target_vnum: '14516'
+  name: Uma Toca de madeira
+  vnum: '14512'
+- description: |-
+    Você está dentro de uma pequenina casa de madeira, construída pelos
+    hobbits que vivem na Vilanova.  Ao seu redor você observa alguns móveis de
+    madeira, alguns quadros fixados nas paredes de madeira e uma curiosa janela
+    circular.  A toca de madeira é totalmente coberta por grama e bastante
+    ornamentada por flores de todas as cores.  Ao sul você observa uma porta
+    circular de madeira.
+  exits:
+    south:
+      target_vnum: '14517'
+  name: Uma Toca de Madeira Colorida
+  vnum: '14513'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao  noroeste e ao sudoeste você observa algumas pequenas
+    trilhas entre as árvores de várias formas e tamanhos da floresta velha.
+  exits: {}
+  name: A Floresta Velha
+  vnum: '14514'
+- description: |-
+    Você está dentro de uma bela casa de madeira, feita pelos hobbits que
+    vivem na Vilanova.  Ao seu redor você observa alguns pequeninos móveis e
+    alguns restos de comidas da última refeição dos donos da casa.  Nas paredes
+    você observa algumas curiosas pinturas em pequenos quadros de madeira.  Na
+    extremidade leste da casa de madeira, você observa uma curiosa janela em
+    forma de círculo, através dela você observa as grandes árvores da floresta
+    velha.  Ao oeste você observa uma engraçada porta de madeira circular.
+  exits:
+    west:
+      target_vnum: '14516'
+  name: Uma Pequena Toca de Madeira
+  vnum: '14515'
+- description: |-
+    Você está no centro da Vilanova.  Ao seu redor vários hobbits conversam e
+    apontam curiosamente para você.  O centro da Vilanova está cercada de
+    pequenas barraquinhas, onde alguns hobbits vendem pequenas ferramentas de
+    madeira, além das tradicionais comidas dos pequeninos.  Ao redor do centro
+    da Vilanova, você percebe várias casas, para você parecem mais tocas.  Todas
+    feitas de madeira e coloridas na maioria das vezes de amarelo e verde.  Ao
+    leste, ao sul e para cima você observa pequeninas casas.  Ao oeste você
+    alguns hobbits caminhando e conversando no centro da Vilanova.
+  exits:
+    down:
+      target_vnum: '14512'
+    east:
+      target_vnum: '14515'
+    south:
+      target_vnum: '14520'
+    west:
+      target_vnum: '14517'
+  name: O Cativante Centro da Vilanova
+  vnum: '14516'
+- description: |-
+    Você acaba de chegar no centro da Vilanova, um lugar extremamente
+    cativante.  Ao seu redor você observa várias barraquinhas, onde alguns
+    hobbits fazem trocas ou vendem pequenas ferramentas de madeira.  Ao redor do
+    centro da Vilanova, você observa várias pequenas casas de madeira cobertas
+    por grama e com belos jardins.  Alguns pequeninos apontam e sorriem para
+    você.  Ao leste você observa alguns hobbits conversando no centro da
+    Vilanova, ao norte e para baixo você observa pequeninas casas de madeira.
+    Ao oeste você observa um grande portão de madeira e ao sul você observa uma
+    pequena trilha na direção da floresta negra.
+  exits:
+    down:
+      target_vnum: '14521'
+    east:
+      target_vnum: '14516'
+    north:
+      target_vnum: '14513'
+    south:
+      target_vnum: '14524'
+    west:
+      target_vnum: '14518'
+  name: O Cativante Centro da Vilanova
+  vnum: '14517'
+- description: |-
+    Você está na frente do grande portão de madeira da Vilanova.  O grande
+    portão foi feito para afastar visitas inesperadas e desagradáveis.  Ao seu
+    redor você observa a Terra dos Buques do lado oeste do grande portão de
+    madeira e do lado leste você observa a Vilanova.  Após o grande portão
+    construído pelos hobbits, você observa uma grande cerca, a Sebe Alta, que
+    segue no sentido norte-sul.
+  exits:
+    east:
+      target_vnum: '14517'
+    west:
+      target_vnum: '14529'
+  name: O Grande Portão da Vilanova
+  vnum: '14518'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao  norte, sul e sudoeste você observa algumas trilhas entre
+    as árvores de várias formas e tamanhos da floresta velha.
+  exits:
+    north:
+      target_vnum: '14511'
+    south:
+      target_vnum: '14522'
+  name: A Floresta Velha
+  vnum: '14519'
+- description: |-
+    Você está dentro de uma apertada casa de madeira.  Ao seu redor você
+    observa pequenos móveis e utensílios de madeira.  Na parede sul da pequena
+    casa de madeira, você observa a floresta velha através de uma curiosa janela
+    circular.  Ao norte você observa uma engraçada porta de madeira pintada de
+    verde de forma circular.
+  exits:
+    north:
+      target_vnum: '14516'
+  name: Uma Pequenina Casa de Madeira
+  vnum: '14520'
+- description: |-
+    Você está dentro de uma pequenina casa de madeira.  Construída pelos
+    pequeninos hobbits que vivem na Vilanova.  A casa é totalmente coberta por
+    uma faixa de grama, com exceção das engraçadas e circulares janelas e porta.
+    Ao seu redor você observa pequeninos móveis e uma bela lareira.  Para cima
+    você observa uma curiosa porta de madeira.
+  exits:
+    up:
+      target_vnum: '14517'
+  name: Uma Curiosa Casa de Madeira
+  vnum: '14521'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao  norte, oeste, nordeste e sudeste você observa algumas
+    trilhas entre as árvores de várias formas e tamanhos da floresta velha.
+  exits:
+    north:
+      target_vnum: '14519'
+    west:
+      target_vnum: '14523'
+  name: A Floresta Velha
+  vnum: '14522'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao  leste, oeste e nordeste você observa algumas trilhas entre
+    as árvores de várias formas e tamanhos da floresta velha.
+  exits:
+    east:
+      target_vnum: '14522'
+    west:
+      target_vnum: '14524'
+  name: A Floresta Velha
+  vnum: '14523'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao  leste você observa uma trilha entre as árvores de várias
+    formas e tamanhos da floresta velha, e ao norte você observa o centro da
+    Vilanova
+  exits:
+    east:
+      target_vnum: '14523'
+    north:
+      target_vnum: '14517'
+  name: A Floresta Velha
+  vnum: '14524'
+- description: |-
+    Você está caminhando pelas belas terras dos Buques.  Ao seu redor você
+    observa belos campos verdes e maravilhosas árvores frondosas.  Por entre as
+    folhas secas no chão você percebe algumas pequeninas pegadas.  Ao sul você
+    observa os belíssimos campos verdes e árvores frondosas da Terra dos Buques.
+    Ao noroeste você observa a estrada do leste.
+  exits:
+    south:
+      target_vnum: '14529'
+  name: A Terra dos Buques
+  vnum: '14525'
+- description: |-
+    Você está numa apertada casa, construída de pedras pelos pequeninos
+    hobbits que vivem na aldeia de Buqueburgo.  Ao seu redor você observa alguns
+    pequenos móveis e alguns quadros engraçados nas paredes.  Nas paredes ao
+    leste e ao oeste, você observa duas janelas curiosas de forma circular.  Ao
+    sul você observa uma porta de madeira.
+  exits:
+    south:
+      target_vnum: '14528'
+  name: Uma Toca de Pedra na Aldeia de Buqueburgo
+  vnum: '14526'
+- description: |-
+    Você está caminhando pelas belas terras dos Buques.  Ao seu redor você
+    observa belos campos verdes e maravilhosas árvores frondosas.  Por entre as
+    folhas secas no chão você percebe algumas pequeninas pegadas.  Ao sul você
+    observa os belíssimos campos verdes e árvores frondosas da Terra dos Buques.
+    Ao nordeste você observa a estrada do leste.
+  exits:
+    south:
+      target_vnum: '14531'
+  name: A Terra dos Buques
+  vnum: '14527'
+- description: |-
+    Você está caminhando pela bela aldeia de Buqueburgo, cuja origem as
+    velhas histórias contam que:  Há muito tempo atrás, o chefe da família
+    Velhobuque, o Sr. Gorhendad Velhobuque, atravessou o rio Brandevim, que era
+    o limite original do Condado do lado leste, e escavou a Sede do Brandevim
+    mais tarde mudando seu nome para a Sede de Brandebuque.  Com o passar dos
+    anos a família cresceu, o velho Gorhendad Velhobuque ainda viu sua família
+    ocupar toda a parte baixa do Condado para que mais tarde a numerosa prole
+    dos Brandebuques começassem a escavar várias tocas por todo o lugar.  Ao
+    seu redor você observa várias tocas de pedra e de madeira, cobertas
+    completamente de grama, com exceção das portas e das janelas.  Ao norte e ao
+    sul você observa algumas tocas da aldeia e ao sudeste e sudoeste você
+    observa a Terra dos Buques.
+  exits:
+    north:
+      target_vnum: '14526'
+    south:
+      target_vnum: '14530'
+  name: A Aldeia de Buqueburgo
+  vnum: '14528'
+- description: |-
+    Você está caminhando pelas belas terras dos Buques.  Ao seu redor você
+    observa belos campos verdes e maravilhosas árvores frondosas.  Por entre as
+    folhas secas no chão você percebe algumas pequeninas pegadas.  Ao norte e ao
+    sul você observa os belíssimos campos verdes e árvores frondosas da Terra
+    dos Buques.  Ao leste você observa uma grande portão de madeira.  Ao
+    sudoeste você observa a Sede de Brandebuque e ao noroeste você observa a
+    aldeia de Buqueburgo.
+  exits:
+    east:
+      target_vnum: '14518'
+    north:
+      target_vnum: '14525'
+    south:
+      target_vnum: '14532'
+  name: A Terra dos Buques
+  vnum: '14529'
+- description: |-
+    Você está dentro de uma pequenina casa hobbits, feita de pedra e coberta
+    por grama, com exceção de sua porta e janelas circulares.  Ao seu redor você
+    observa pequenos móveis e alguns restos de comida.  Ao norte você observa
+    uma curiosa porta circular.
+  exits:
+    north:
+      target_vnum: '14528'
+  name: Uma Toca de Pedra na Aldeia de Buqueburgo
+  vnum: '14530'
+- description: |-
+    Você está caminhando pelas belas terras dos Buques.  Ao seu redor você
+    observa belos campos verdes e maravilhosas árvores frondosas.  Por entre as
+    folhas secas no chão você percebe algumas pequeninas pegadas.  Ao norte você
+    observa os belíssimos campos verdes e árvores frondosas da Terra dos Buques.
+    Ao sudeste você observa a Sede de Brandebuque e ao nordeste você observa a
+    aldeia de Buqueburgo.
+  exits:
+    north:
+      target_vnum: '14527'
+  name: A Terra dos Buques
+  vnum: '14531'
+- description: |-
+    Você está caminhando pelas belas terras dos Buques.  Ao seu redor você
+    observa belos campos verdes e maravilhosas árvores frondosas.  Por entre as
+    folhas secas no chão você percebe algumas pequeninas pegadas.  Ao norte e ao
+    oeste você observa os belíssimos campos verdes e árvores frondosas da Terra
+    dos Buques.
+  exits:
+    north:
+      target_vnum: '14529'
+    west:
+      target_vnum: '14533'
+  name: A Terra dos Buques
+  vnum: '14532'
+- description: |-
+    Você está caminhando pelas belas terras dos Buques.  Ao seu redor você
+    observa belos campos verdes e maravilhosas árvores frondosas.  Por entre as
+    folhas secas no chão você percebe algumas pequeninas pegadas.  Ao leste você
+    observa os belíssimos campos verdes e árvores frondosas da Terra dos Buques.
+    Ao norte você observa a Sede de Brandebuque e ao oeste você observa as águas
+    do rio Brandevim.
+  exits:
+    east:
+      target_vnum: '14532'
+    north:
+      target_vnum: '14655'
+    west:
+      target_vnum: '14534'
+  name: A Terra dos Buques
+  vnum: '14533'
+- description: |-
+    Você está dentro do tranqüilo rio Brandevim, o antigo limite leste do
+    Condado.  As águas do rio Brandevim são bastante utilizadas pelos hobbits
+    que vivem na Terra dos Buques e por este motivo os moradores antigos do
+    Condado acham os hobbits da Terra dos Buques estranhos.  Ao seu redor você
+    observa do lado leste após as margens do Brandevim, belas árvores frondosas,
+    e próximo da margem oeste do Brandevim, você observa a balsa de Buqueburgo.
+    Ao noroeste e ao sudoeste você observa as límpidas águas do rio Brandevim.
+  exits:
+    east:
+      target_vnum: '14533'
+    west:
+      target_vnum: '14539'
+  name: "As Ã\x81guas do Rio Brandevim"
+  vnum: '14534'
+- description: |-
+    Você está dentro do tranqüilo rio Brandevim, o antigo limite leste do
+    Condado.  As águas do rio Brandevim são bastante utilizadas pelos hobbits
+    que vivem na Terra dos Buques e por este motivo os moradores antigos do
+    Condado acham os hobbits da Terra dos Buques estranhos.  Ao seu redor você
+    observa nas margens leste e oeste uma farta plantação de milho.  Ao sul você
+    observa as calmas águas do rio Brandevim.
+  exits:
+    south:
+      target_vnum: '14536'
+  name: "As Ã\x81guas do Rio Brandevim"
+  vnum: '14535'
+- description: |-
+    Você está dentro do tranqüilo rio Brandevim, o antigo limite leste do
+    Condado.  As águas do rio Brandevim são bastante utilizadas pelos hobbits
+    que vivem na Terra dos Buques e por este motivo os moradores antigos do
+    Condado acham os hobbits da Terra dos Buques estranhos.  Ao seu redor você
+    observa nas margens leste e oeste, belos campos verdes.  Ao norte você
+    observa as calmas águas do rio Brandevim e ao sul você observa a Ponte do
+    Brandevim, bastante baixa e quase tocando nas águas do rio Brandevim, apenas
+    os pequeninos conseguem ultrapassá-la de canoas ou barcos.
+  exits:
+    north:
+      target_vnum: '14535'
+    south:
+      target_vnum: '14503'
+  name: "As Ã\x81guas do Rio Brandevim"
+  vnum: '14536'
+- description: |-
+    Você está dentro do tranqüilo rio Brandevim, o antigo limite leste do
+    Condado.  As águas do rio Brandevim são bastante utilizadas pelos hobbits
+    que vivem na Terra dos Buques e por este motivo os moradores antigos do
+    Condado acham os hobbits da Terra dos Buques estranhos.  Ao seu redor você
+    observa após a margem leste a terra dos Buques e após a margem oeste um belo
+    bosque.  Ao sul você observa as calmas águas do rio Brandevim e ao norte
+    você observa a Ponte do Brandevim, bastante baixa e quase tocando nas águas
+    do rio Brandevim, apenas os pequeninos conseguem ultrapassá-la de canoas ou
+    barcos.
+  exits:
+    north:
+      target_vnum: '14503'
+    south:
+      target_vnum: '14538'
+  name: "As Ã\x81guas do Rio Brandevim"
+  vnum: '14537'
+- description: |-
+    Você está dentro do tranqüilo rio Brandevim, o antigo limite leste do
+    Condado.  As águas do rio Brandevim são bastante utilizadas pelos hobbits
+    que vivem na Terra dos Buques e por este motivo os moradores antigos do
+    Condado acham os hobbits da Terra dos Buques estranhos.  Ao seu redor você
+    observa após a margem leste a terra dos Buques e após a margem oeste um belo
+    bosque.  Ao norte e ao sudeste você observa as calmas águas do rio
+    Brandevim.
+  exits:
+    north:
+      target_vnum: '14537'
+  name: "As Ã\x81guas do Rio Brandevim"
+  vnum: '14538'
+- description: |-
+    Você está sobre a balsa de Buqueburgo, utilizada pelos pequeninos para
+    facilitar a passagem pelo rio Brandevim.  A balsa de Buqueburgo está
+    localizada entre a Terra dos Buques e o belo bosque, povoado de pequeninos.
+    Ao seu redor você observa as tranqüilas águas do rio Brandevim seguindo seu
+    percurso.  Ao leste você observa além do rio Brandevim a Terra dos Buques e
+    ao oeste um belo bosque.
+  exits:
+    east:
+      target_vnum: '14534'
+    west:
+      target_vnum: '14545'
+  name: A Balsa de Buqueburgo
+  vnum: '14539'
+- description: |-
+    Você está dentro do tranqüilo rio Brandevim, o antigo limite leste do
+    Condado.  As águas do rio Brandevim são bastante utilizadas pelos hobbits
+    que vivem na Terra dos Buques e por este motivo os moradores antigos do
+    Condado acham os hobbits da Terra dos Buques estranhos.  Ao seu redor você
+    observa após a margem leste a terra dos Buques e após a margem oeste um belo
+    bosque.  Ao nordeste você observa as calmas águas do rio Brandevim.
+  exits: {}
+  name: "As Ã\x81guas do Rio Brandevim"
+  vnum: '14540'
+- description: |-
+    Você está caminhando entre as belas árvores do bosque do Condado.  Ao seu
+    redor você observa algumas árvores cheias de frutas e alguns pássaros
+    brincando em seus galhos.  No chão você percebe a presença de pequeninas
+    pegadas entre as folhas secas e a grama.  Ao sul e ao noroeste você observa
+    as magníficas árvores do bosque do Condado.
+  exits:
+    south:
+      target_vnum: '14545'
+  name: O Bosque do Condado
+  vnum: '14541'
+- description: |-
+    Você está andando sobre uma pilha de folhas secas no bosque do Condado.
+    Ao seu redor você observa belas árvores frondosas e no chão a grama está bem
+    verdinha.  Alguns pássaros cantam para os visitantes e outros preferem
+    brincar nos bondosos galhos das árvores do bosque.  Ao sudeste e ao sudoeste
+    você observa o verde bosque do Condado.
+  exits: {}
+  name: O Bosque do Condado
+  vnum: '14542'
+- description: |-
+    Você está caminhando entre as belas árvores do bosque do Condado.  Ao seu
+    redor você observa algumas árvores cheias de frutas e alguns pássaros
+    brincando em seus galhos.  No chão você percebe a presença de pequeninas
+    pegadas entre as folhas secas e a grama.  Ao nordeste e ao sudoeste você
+    observa as magníficas árvores do bosque do Condado.
+  exits: {}
+  name: O Bosque do Condado
+  vnum: '14543'
+- description: |-
+    Você está dentro de uma minúscula casa, feita pelos hobbits que habitam a
+    Vila do Bosque.  A casa foi construída toda em madeira, possui curiosas
+    janelas em forma de círculos e sua porta é circular.  Ao seu redor você
+    observa vários pequeninos móveis espalhados pela casa.  Para cima você
+    observa uma porta de madeira.
+  exits:
+    up:
+      target_vnum: '14546'
+  name: Uma Pequenina Casa Verde
+  vnum: '14544'
+- description: |-
+    Você está caminhando sobre um belo tapete de grama extremamente verdinha.
+    Ao seu redor você observa as árvores frondosas e cheias de frutas do
+    Condado.  No chão além de algumas folhas secas, você observa pequeninas
+    pegadas caminhando em todos os sentidos.  Ao leste você observa a balsa de
+    Buqueburgo, ao oeste você observa a pequena Vila do Bosque, e ao norte e ao
+    sul você observa as belas árvores do bosque do Condado.
+  exits:
+    east:
+      target_vnum: '14539'
+    north:
+      target_vnum: '14541'
+    south:
+      target_vnum: '14548'
+    west:
+      target_vnum: '14546'
+  name: O Bosque do Condado
+  vnum: '14545'
+- description: |-
+    Você está caminhando no centro da Vila do Bosque.  Ao seu redor você
+    observa alguns curiosas pequeninos apontando para você, loucos para
+    descobrir o que você está fazendo nas terras do Condado.  Você percebe
+    também várias pequeninas tocas coloridas, principalmente pintadas de verde e
+    amarelo, que circulam todo o centro da vila.  Ao leste você observa as belas
+    árvores do bosque e ao sul, ao oeste e para baixo você observa tocas de
+    madeira cobertas por uma faixa de grama, com exceção das janelas e portas
+    circulares.
+  exits:
+    down:
+      target_vnum: '14544'
+    east:
+      target_vnum: '14545'
+    south:
+      target_vnum: '14549'
+    west:
+      target_vnum: '14547'
+  name: A Vila do Bosque
+  vnum: '14546'
+- description: |-
+    Você está dentro de uma apertada toca de madeira, construída pelos
+    pequeninos que habitam a Vila do Bosque e pintada com suas cores favoritas.
+    Ao seu redor você observa belos, porém pequeninos móveis e algumas
+    ferramentas estranhas de madeira.  Nas paredes você observa alguns quadros e
+    uma engraçada janela circular.  Ao leste você observa o centro da Vila do
+    Bosque.
+  exits:
+    east:
+      target_vnum: '14546'
+  name: Uma Curiosa Toca Verde e Amarela
+  vnum: '14547'
+- description: |-
+    Você está caminhando entre as belas árvores do bosque do Condado.  Ao seu
+    redor você observa algumas árvores cheias de frutas e alguns pássaros
+    brincando em seus galhos.  No chão você percebe a presença de pequeninas
+    pegadas entre as folhas secas e a grama.  Ao norte e ao sudoeste você
+    observa as magníficas árvores do bosque do Condado.
+  exits:
+    north:
+      target_vnum: '14545'
+  name: O Bosque do Condado
+  vnum: '14548'
+- description: |-
+    Você está dentro de uma pequenina casa de madeira, feita pelas mãos
+    habilidosas dos pequeninos.  Ao seu redor você observa alguns móveis
+    pequenos e alguns brinquedos de criança.  As paredes foram pintadas de
+    amarelo e você percebe na extremidade sul da casa uma janela circular, que
+    lhe permite observa as belas árvores do bosque do Condado.  Ao norte você
+    observa uma engraçada porta de madeira.
+  exits:
+    north:
+      target_vnum: '14546'
+  name: Uma Pequena Toca Hobbits
+  vnum: '14549'
+- description: |-
+    Você está caminhando entre as belas árvores do bosque do Condado.  Ao seu
+    redor você observa algumas árvores cheias de frutas e alguns pássaros
+    brincando em seus galhos.  No chão você percebe a presença de pequeninas
+    pegadas entre as folhas secas e a grama.  Ao sudeste e ao noroeste você
+    observa as magníficas árvores do bosque do Condado.
+  exits: {}
+  name: O Bosque do Condado
+  vnum: '14550'
+- description: |-
+    Você está andando sobre uma pilha de folhas secas no bosque do Condado.
+    Ao seu redor você observa belas árvores frondosas e no chão a grama está bem
+    verdinha.  Alguns pássaros cantam para os visitantes e outros preferem
+    brincar nos bondosos galhos das árvores do bosque.  Ao noroeste e nordeste
+    você observa o verde bosque do Condado.
+  exits: {}
+  name: O Bosque do Condado
+  vnum: '14551'
+- description: |-
+    Você está caminhando sobre uma belo tapete de grama perfumada e bastante
+    verdinha.  Ao seu redor você observa as belas árvores do bosque do Condado:
+    Grandes, frondosas e cheias de frutinhas maduras.  No chão além do macio
+    tapete verde, você observa também algumas pegadas pequeninas entre as folhas
+    secas das árvores.  Ao nordeste e ao sudeste você observa as belas árvores
+    do bosque do Condado, e ao oeste você observa uma colina verde.
+  exits:
+    west:
+      target_vnum: '14553'
+  name: O Bosque do Condado
+  vnum: '14552'
+- description: "Você está caminhando entre as belas colinas verdes do Condado.  Ao\
+    \ seu\nredor você observa várias e lindas colinas verdes, além de observa ao norte\n\
+    a estrada do leste e o rio Ã\x81gua, e ao sul extensas planÃ­cies verdes.  Ao\n\
+    leste você observa o bosque do Condado e ao oeste você observa a Terra das\nColinas\
+    \ Verdes."
+  exits:
+    east:
+      target_vnum: '14552'
+    west:
+      target_vnum: '14554'
+  name: A Terra das Colinas Verdes
+  vnum: '14553'
+- description: "Você está caminhando entre as belas colinas verdes do Condado.  Ao\
+    \ seu\nredor você observa várias e lindas colinas verdes, além de observa ao norte\n\
+    a estrada do leste e o rio Ã\x81gua, e ao sul extensas planÃ­cies verdes.  Ao\n\
+    oeste, noroeste e sudoeste você observa a Terra das Colinas Verdes."
+  exits:
+    west:
+      target_vnum: '14553'
+  name: A Terra das Colinas Verdes
+  vnum: '14554'
+- description: |-
+    Você está caminhando sobre uma tranqüila planície verde do Condado.  Ao
+    seu redor apenas algumas flores e pequenos pássaros que sobrevoam a planície
+    caçando pequenos insetos.  Ao norte você observa a estrada do leste e ao sul
+    uma colina verde.
+  exits:
+    north:
+      target_vnum: '14507'
+    south:
+      target_vnum: '14556'
+  name: Uma Planície Verde
+  vnum: '14555'
+- description: |-
+    Você está caminhando sobre uma bela colina verde das terras do Condado.
+    Ao seu redor você observa várias colinas cobertas de vegetação rasteira.  Ao
+    norte, além das colinas você observa alguns viajantes caminhando no sentido
+    leste da estrada do leste.  Ao sul, sudeste e sudoeste você observa várias
+    colinas verdes, e ao norte você observa uma planície verde.
+  exits:
+    north:
+      target_vnum: '14555'
+    south:
+      target_vnum: '14557'
+  name: A Terra das Colinas Verdes
+  vnum: '14556'
+- description: |-
+    Você está caminhando sobre uma bela colina verde das terras do Condado.
+    Ao seu redor você observa várias colinas cobertas de vegetação rasteira.  Ao
+    norte, além das colinas você observa alguns viajantes caminhando no sentido
+    leste da estrada do leste.  Ao norte, nordeste e noroeste você observa
+    várias colinas verdes, e ao sul você observa uma planície verde.
+  exits:
+    north:
+      target_vnum: '14556'
+    south:
+      target_vnum: '14558'
+  name: A Terra das Colinas Verdes
+  vnum: '14557'
+- description: |-
+    Você está caminhando sobre uma tranqüila planície verde do Condado.  Ao
+    seu redor apenas algumas flores e pequenos pássaros que sobrevoam a planície
+    caçando pequenos insetos.  Ao norte você observa a Terra das Colinas Verdes
+    e ao sul você observa uma extensa planície verde.
+  exits:
+    north:
+      target_vnum: '14557'
+    south:
+      target_vnum: '14559'
+  name: Uma Planície Verde
+  vnum: '14558'
+- description: |-
+    Você está caminhando há mais de duas horas na bela planície verde do
+    Condado e ela parece não ter fim.  Ao seu redor você observa apenas alguns
+    pássaros sobrevoando a vegetação rasteira da planície à procura de pequenos
+    insetos.  Ao norte e ao sul você observa a extensa planície verde do
+    Condado.
+  exits:
+    north:
+      target_vnum: '14558'
+    south:
+      target_vnum: '14560'
+  name: Uma Extensa Planície Verde
+  vnum: '14559'
+- description: |-
+    Você está caminhando sobre a extensa planície verde do Condado.  A
+    planície se estende até as águas do rio Brandevim, que formam o limite sul
+    do Condado.  Ao seu redor você observa uma imensa planície coberta por uma
+    resistente vegetação rasteira e alguns pássaros vermelhos e amarelos
+    sobrevoando a vegetação à procura de insetos.  Ao norte e ao sul você
+    observa a extensa planície verde.
+  exits:
+    north:
+      target_vnum: '14559'
+  name: Uma Extensa Planície Verde
+  vnum: '14560'
+- description: |-
+    Você está caminhando entre as belas colinas verdes do Condado.  Ao seu
+    redor você observa as extensas terras do Condado, ao norte você observa a
+    estrada do leste e ao sul você observa a extensa planície verde, que parece
+    não ter fim se estendendo para sul.  Ao oeste, nordeste e sudeste você
+    observa algumas colinas verdes.
+  exits:
+    west:
+      target_vnum: '14562'
+  name: A Terra das Colinas Verdes
+  vnum: '14561'
+- description: |-
+    Você está caminhando entre as belas colinas verdes do Condado.  Ao seu
+    redor você observa as extensas terras do Condado, ao norte você observa a
+    estrada do leste e ao sul você observa a extensa planície verde, que parece
+    não ter fim se estendendo para sul.  Ao leste você observa uma bela colina
+    verde e ao noroeste você observa o início das terras dos Tûks.
+  exits:
+    east:
+      target_vnum: '14561'
+  name: A Terra das Colinas Verdes
+  vnum: '14562'
+- description: |-
+    Você está dentro de uma pequena casa de madeira coberta por uma faixa de
+    grama, com exceção de sua porta e janelas circulares.  Ao seu redor você
+    observa pequeninos móveis e algumas ferramentas de madeira.  Você observa
+    através da janela da parede oeste uma pequena rua inclinada no sentido
+    nordeste-sudoeste.  Ao sul você observa uma bela porta circular de madeira.
+  exits:
+    south:
+      target_vnum: '14564'
+  name: Uma Pequenina Toca de Madeira Tûk
+  vnum: '14563'
+- description: |-
+    Você está caminhando sobre uma pequena planície coberta por uma vegetação
+    bastante fina.  Ao seu redor você observa pequeninas tocas com jardins muito
+    bem cuidados.  A sua frente você observa uma bela @yplaca de madeira@n e no
+    chão você percebe algumas pequeninas pegadas.  Ao norte e para baixo você
+    observa pequenas tocas de madeira.  Ao sudeste você observa a Terra das
+    Colinas Verdes e ao oeste você observa uma pequena rua inclinada.
+  exits:
+    down:
+      target_vnum: '-1'
+    north:
+      target_vnum: '14563'
+    west:
+      target_vnum: '14566'
+  name: A Terra dos Tûks
+  vnum: '14564'
+- description: |-
+    Você esta dentro de uma apertada, porém confortável casa de madeira.  A
+    toca construída pelos Tûks é coberta quase que totalmente por uma faixa de
+    grama, com exceção de sua porta e janelas circulares.  Ao seu redor você
+    observa pequeninos brinquedos e móveis de madeira.  Para cima você observa
+    uma porta de madeira.
+  exits:
+    up:
+      target_vnum: '14564'
+  name: Uma Pequenina Toca de Madeira Tûk
+  vnum: '14565'
+- description: |-
+    Você está caminhando numa estreita e inclinada rua, conhecida como a
+    ladeira Tûk.  Ao seu redor você observa várias tocas de madeira e de pedras,
+    construídas pelos pequeninos Tûks.  Ao leste você observa o início das
+    terras dos Tûks e para baixo você observa a continuação da ladeira Tûk.
+  exits:
+    down:
+      target_vnum: '14567'
+    east:
+      target_vnum: '14564'
+  name: A Ladeira Tûk
+  vnum: '14566'
+- description: |-
+    Você está caminhando com bastante dificuldade pela estreita ladeira Tûk.
+    Ao seu redor você observa várias tocas coloridas, principalmente verdes e
+    amarelas, cobertas quase que totalmente por uma faixa de grama, com exceção
+    das janelas e portas circulares.  Para cima você observa a ladeira Tûk
+    seguindo na direção do início das terras dos Tûks e para baixo você observa
+    a ladeira Tûk seguindo na direção de várias tocas de madeira e de pedras.
+  exits:
+    down:
+      target_vnum: '14568'
+    up:
+      target_vnum: '14566'
+  name: A Ladeira Tûk
+  vnum: '14567'
+- description: |-
+    Finalmente você chegou no final da ladeira Tûk.  Ao seu redor você
+    observa várias tocas coloridas e alguns pequeninos olhando curiosamente para
+    você.  Uma confortável sensação de tranqüilidade atinge todo o seu corpo.  A
+    vida dentro do Condado é realmente cativante e saudável.  Seguindo para cima
+    você observa a ladeira Tûk, para baixo você observa uma pequenina toca de
+    madeira e ao sul você observa uma bela toca de madeira, pintada de verde e
+    amarelo.
+  exits:
+    down:
+      target_vnum: '14570'
+    south:
+      target_vnum: '14569'
+    up:
+      target_vnum: '14567'
+  name: O Fim da Ladeira Tûk
+  vnum: '14568'
+- description: |-
+    Você está dentro de uma pequenina casa de madeira, construída pelos
+    pequeninos que habitam as terras dos Tûks.  A casa é quase que completamente
+    coberta por uma faixa de grama, com exceção de sua porta e de suas janelas
+    circulares.  Ao seu redor você observa vários móveis de madeira e através da
+    janela circular você observa o belo e perfumado jardim da casa.  Ao  norte
+    você observa uma curiosa porta circular.
+  exits:
+    north:
+      target_vnum: '14568'
+  name: Uma Bela Casa Tûk
+  vnum: '14569'
+- description: |-
+    Você está dentro de uma apertada casa de madeira, construída pelos
+    pequeninos que habitam as terras dos Tûks.  Ao seu redor você observa alguns
+    móveis pequenos e algumas ferramentas de madeira.  Nas paredes você observa
+    algumas pinturas engraçadas que ilustram algumas festas de aniversário de
+    pequeninos ilustres do Condado.  Para cima você observa uma curiosa porta
+    de madeira.
+  exits:
+    up:
+      target_vnum: '14568'
+  name: Uma Pequenina Toca Verde e Amarela Tûk
+  vnum: '14570'
+- description: |-
+    Você está caminhando entre as flores azuis e amarelas de um belo campo
+    perfumado do Condado.  Ao seu redor você observa belas flores como lindas
+    bocas-de-leões, imensos girassóis e magníficos nastúrcios.  A tranqüilidade
+    e a paz reinam nestas terras.  Os cantos dos pássaros juntos formam uma bela
+    canção que pode ser ouvida há muitos metros de distância.  Ao sul você
+    observa a estrada do leste, que corta o Condado de leste ao oeste, e ao
+    norte você observa um magnífico campo florido.
+  exits:
+    north:
+      target_vnum: '14576'
+    south:
+      target_vnum: '14507'
+  name: Um Belo Campo Florido
+  vnum: '14571'
+- description: "VocÃª estÃ¡ navegando nas lÃ­mpidas e tranqÃ¼ilas Ã¡guas do rio Ã\x81\
+    gua.  Ao seu\nredor você observa alguns pequeninos peixes curiosos com a presença\
+    \ da sua\nembarcaÃ§Ã£o.  ApÃ³s as margens do rio Ã\x81gua vocÃª observa belos\
+    \ campos floridos,\nque com a divina ajuda do vento, trazem até você o mais puro\
+    \ perfume das\nflores do Condado.  Ao oeste vocÃª observa as Ã¡guas cristalinas\
+    \ do Ã\x81gua."
+  exits:
+    west:
+      target_vnum: '14573'
+  name: "O Ã\x81gua"
+  vnum: '14572'
+- description: "VocÃª estÃ¡ navegando nas belas e puras Ã¡guas do rio Ã\x81gua.  Ao\
+    \ seu redor\nvocê observa pequeninos peixes curiosos com a presença de sua embarcação\
+    \ nas\nÃ¡guas pertencentes a eles.  ApÃ³s as margens do Ã\x81gua, vocÃª observa\
+    \ belos\ncampos floridos, onde belos pássaros sobrevoam atrás de pequenos insetos\
+    \ e\nonde coloridas borboletas apresentam suas danças.  Ao leste e ao noroeste\n\
+    vocÃª observa as lÃ­mpidas Ã¡guas do rio Ã\x81gua."
+  exits:
+    east:
+      target_vnum: '14572'
+  name: "O Ã\x81gua"
+  vnum: '14573'
+- description: |-
+    Você está dentro da mais cativante taverna de todo o Condado: A Taverna
+    Dragão Verde.  A taverna é um belo ponto de encontros dos pequeninos, que
+    adoram escutar histórias e conversar, comendo um suculento petisco e bebendo
+    uma belo copo de cerveja.  Ao seu redor você observa algumas pequeninas
+    mesas e cadeiras de madeira.  Ao sul do salão da taverna você observa uma
+    pequena bancada onde são feitos os pedidos.  Nas paredes você observa
+    algumas pinturas engraçadas e algumas janelas circulares.  Ao oeste você
+    observa uma pequenina porta de madeira.
+  exits:
+    west:
+      target_vnum: '14575'
+  name: A Taverna Dragão Verde
+  vnum: '14574'
+- description: "Você está caminhando entre as flores azuis e amarelas de um belo campo\n\
+    perfumado do Condado.  Ao seu redor você observa belas flores como lindas\nbocas-de-leões,\
+    \ imensos girassóis e magníficos nastúrcios.  A tranqüilidade\ne a paz reinam\
+    \ nestas terras.  Os cantos dos pássaros juntos formam uma bela\ncanção que pode\
+    \ ser ouvida há muitos metros de distância.  Ao norte você\nobserva as cristalinas\
+    \ Ã¡guas do rio Ã\x81gua, ao oeste vocÃª observa pequenas\nborboletas coloridas\
+    \ dançando no ar e ao leste você observa a famosa Taverna\nDragão Verde."
+  exits:
+    east:
+      target_vnum: '14574'
+    north:
+      target_vnum: '14583'
+    west:
+      target_vnum: '14576'
+  name: Um Belo Campo Florido
+  vnum: '14575'
+- description: "Você está caminhando tranqüilamente nas belas terras do Condado, sobre\
+    \ um\nbelo campo florido e bastante perfumado.  Ao seu redor você observa as mais\n\
+    maravilhosas flores do Condado.  No céu você observa lindos pássaros\nsobrevoando\
+    \ o belo campo perfumado.  Ao redor do seu corpo, várias\nborboletas tentam lhe\
+    \ encantar através das suas danças.  Ao norte, noroeste\ne nordeste vocÃª observa\
+    \ as cristalinas e tranqÃ¼ilas Ã¡guas do rio Ã\x81gua.  Ao\nleste, sul e oeste\
+    \ você observa o extenso campo florido."
+  exits:
+    east:
+      target_vnum: '14575'
+    north:
+      target_vnum: '14584'
+    south:
+      target_vnum: '14571'
+    west:
+      target_vnum: '14577'
+  name: Um Belo Campo Florido
+  vnum: '14576'
+- description: |-
+    Você está caminhando entre as flores azuis e amarelas de um belo campo
+    perfumado do Condado.  Ao seu redor você observa belas flores como lindas
+    bocas-de-leões, imensos girassóis e magníficos nastúrcios.  A tranqüilidade
+    e a paz reinam nestas terras.  Os cantos dos pássaros juntos formam uma bela
+    canção que pode ser ouvida há muitos metros de distância.  Ao leste você
+    observa o extenso campo florido e ao oeste você observa a bela Hospedaria
+    Ramo de Hera.
+  exits:
+    east:
+      target_vnum: '14576'
+    west:
+      target_vnum: '14578'
+  name: Um Belo Campo Florido
+  vnum: '14577'
+- description: |-
+    Você está na confortável e famosa Hospedaria Ramo de Hera.  Ao seu redor
+    você observa um salão bem ornamentado, cheio de jarros de flores e pequenos
+    tapetes.  Na sua frente você observa uma bela bancada de recepção e alguns
+    papéis rabiscados.  Nas paredes você observa alguns quadros e pequenas
+    janelas circulares.  Para cima você observa uma pequenina escadaria de
+    madeira e ao leste você observa uma porta de madeira.
+  exits:
+    east:
+      target_vnum: '14577'
+    up:
+      target_vnum: '14579'
+  name: A Hospedaria Ramo de Hera
+  vnum: '14578'
+- description: |-
+    Você está no estreito corredor da hospedaria.  Ao seu redor você observa
+    ao longo do corredor várias portas de madeira e no teto você percebe a
+    presença de pequeninas janelas circulares, que trazem luz para dentro do
+    corredor.  Ao noroeste, ao oeste e ao sudoeste você observa algumas portas
+    de madeira.
+  exits:
+    west:
+      target_vnum: '14581'
+  name: O Corredor da Famosa Hospedaria Ramo de Hera
+  vnum: '14579'
+- description: |-
+    Você está dentro de um confortável quarto da Hospedaria Ramo de Hera.  Ao
+    seu redor você observa duas pequenas camas de madeira, algumas cadeiras e
+    uma mesa de madeira, e um pequeno baú.  As paredes do quarto estão todas
+    pintadas de verde.  Você observa através da pequena janela circular na
+    parede sul alguns viajantes caminhando pela estrada do leste.  Ao chegar
+    perto da parede norte do quarto você escuta alguns sons estranhos do quarto
+    ao lado.  Ao nordeste você observa uma porta de madeira.
+  exits: {}
+  name: Um Confortável Quarto na Hospedaria Ramo de Hera
+  vnum: '14580'
+- description: |-
+    Você está dentro de um confortável quarto, porém muito bagunçado.  Ao seu
+    redor parece que uma ventania passou por aqui.  As camas estão desarrumadas,
+    os quadros estão jogados no chão, as cadeiras estão quebradas e a mesa de
+    madeira está partida no meio.  Ao leste você observa uma porta de madeira.
+  exits:
+    east:
+      target_vnum: '14579'
+  name: Um Quarto Bem Bagunçado
+  vnum: '14581'
+- description: "VocÃª estÃ¡ navegando nas lÃ­mpidas e tranqÃ¼ilas Ã¡guas do rio Ã\x81\
+    gua.  Ao seu\nredor você observa alguns pequeninos peixes curiosos com a presença\
+    \ da sua\nembarcaÃ§Ã£o.  ApÃ³s as margens do Ã\x81gua vocÃª observa belos campos\
+    \ floridos, que\ncom a divina ajuda do vento, trazem até você o mais puro perfume\
+    \ das flores\ndo Condado e observando mais ao norte você percebe algumas luzes\
+    \ em\nBeirÃ¡gua.  Ao oeste e ao sudeste vocÃª observa as Ã¡guas cristalinas do\
+    \ Ã\x81gua."
+  exits:
+    west:
+      target_vnum: '14583'
+  name: "O Ã\x81gua"
+  vnum: '14582'
+- description: "VocÃª estÃ¡ navegando nas lÃ­mpidas e tranqÃ¼ilas Ã¡guas do rio Ã\x81\
+    gua.  Ao seu\nredor você observa alguns pequeninos peixes curiosos com a presença\
+    \ da sua\nembarcaÃ§Ã£o.  ApÃ³s as margens do Ã\x81gua vocÃª observa belos campos\
+    \ floridos, que\ncom a divina ajuda do vento, trazem até você o mais puro perfume\
+    \ das flores\ndo Condado e observando mais ao norte você percebe algumas luzes\
+    \ em\nBeirÃ¡gua.  Ao oeste e ao leste vocÃª observa as Ã¡guas cristalinas do Ã\x81\
+    gua.\nAo nordeste você observa as terras de Beirágua e ao sul e sudoeste você\n\
+    observa um campo florido."
+  exits:
+    east:
+      target_vnum: '14582'
+    south:
+      target_vnum: '14575'
+    west:
+      target_vnum: '14584'
+  name: "O Ã\x81gua"
+  vnum: '14583'
+- description: "VocÃª estÃ¡ navegando nas belas e puras Ã¡guas do rio Ã\x81gua.  Ao\
+    \ seu redor\nvocê observa pequeninos peixes curiosos com a presença de sua embarcação\
+    \ nas\nÃ¡guas pertencentes a eles.  ApÃ³s as margens do Ã\x81gua, vocÃª observa\
+    \ belos\ncampos floridos, onde belos pássaros sobrevoam atrás de pequenos insetos\
+    \ e\nonde coloridas borboletas apresentam suas danças.  Ao leste e ao oeste você\n\
+    observa as lÃ­mpidas Ã¡guas do rio Ã\x81gua.  Ao sul vocÃª observa um belo campo\n\
+    florido."
+  exits:
+    east:
+      target_vnum: '14583'
+    south:
+      target_vnum: '14576'
+    west:
+      target_vnum: '14585'
+  name: "O Ã\x81gua"
+  vnum: '14584'
+- description: "VocÃª estÃ¡ navegando nas lÃ­mpidas e tranqÃ¼ilas Ã¡guas do rio Ã\x81\
+    gua.  Ao seu\nredor você observa alguns pequeninos peixes curiosos com a presença\
+    \ da sua\nembarcação.  Ao norte você observa a bela Vila dos Hobbits e ao sudeste\
+    \ você\nobserva um belo campo florido.  Ao oeste e ao leste você observa as águas\n\
+    cristalinas do Ã\x81gua seguindo seu percurso natural."
+  exits:
+    east:
+      target_vnum: '14584'
+    north:
+      target_vnum: '14596'
+    west:
+      target_vnum: '14586'
+  name: "O Ã\x81gua"
+  vnum: '14585'
+- description: "VocÃª estÃ¡ navegando nas lÃ­mpidas e tranqÃ¼ilas Ã¡guas do rio Ã\x81\
+    gua.  Ao seu\nredor você observa alguns pequeninos peixes curiosos com a presença\
+    \ da sua\nembarcaÃ§Ã£o.  ApÃ³s as margens do rio Ã\x81gua vocÃª observa belos\
+    \ campos floridos,\nque com a divina ajuda do vento, trazem até você o mais puro\
+    \ perfume das\nflores do Condado.  Ao leste e noroeste você observa as águas cristalinas\
+    \ do\nÃ\x81gua."
+  exits:
+    east:
+      target_vnum: '14585'
+  name: "O Ã\x81gua"
+  vnum: '14586'
+- description: "VocÃª estÃ¡ navegando pelas cristalinas e calmas Ã¡guas do rio Ã\x81\
+    gua.  Ao seu\nredor você observa após as margens ao norte uma bela e alegre vila,\
+    \ após as\nmargens ao sul você observa um belo campo florido, onde várias borboletas\n\
+    coloridas dançam em harmonia.  Ao oeste e ao sudeste você observa as águas\ndo\
+    \ rio Ã\x81gua seguirem seu percurso natural."
+  exits:
+    west:
+      target_vnum: '14589'
+  name: "O Ã\x81gua"
+  vnum: '14587'
+- description: "Você está dentro de um confortável quarto da Hospedaria Ramo de Hera.\
+    \  Ao\nseu redor você observa duas pequenas camas de madeira, algumas cadeiras\
+    \ e\numa mesa de madeira, e um pequeno baú.  As paredes do quarto estão todas\n\
+    pintadas de amarelo.  Você observa através da pequena janela circular na\nparede\
+    \ norte as Ã¡guas do rio Ã\x81gua seguindo seu percurso natural.  Ao chegar\n\
+    perto da parede sul do quarto você escuta alguns sons estranhos do quarto ao\n\
+    lado.  Ao sudeste você observa uma porta de madeira."
+  exits: {}
+  name: Um Confortável Quarto na Hospedaria Ramo de Hera
+  vnum: '14588'
+- description: "VocÃª estÃ¡ navegando pelas Ã¡guas calmas e lÃ­mpidas do rio Ã\x81\
+    gua.  Ao seu\nredor você observa os campos floridos e as frondosas árvores do\
+    \ Condado.\nSeguindo o percurso inverso das águas do rio, indo contra as águas,\
+    \ você\nchegará no brejo juncoso localizado nas proximidades da floresta Atacaule.\n\
+    Ao leste vocÃª observa as Ã¡guas cristalinas do rio Ã\x81gua."
+  exits:
+    east:
+      target_vnum: '14587'
+  name: "O Ã\x81gua"
+  vnum: '14589'
+- description: |-
+    Você está caminhando sobre um belo tapete verde e perfumado.  A grama
+    parece ter sido aparada hoje.  Ao seu redor você observa as belas terras do
+    Condado, com suas belas árvores frondosas e seus maravilhosos campos
+    floridos.  Ao sudeste você observa a sublime Ponte do Brandevim e um velho
+    moinho de água nas margens do rio Brandevim.  Ao oeste você observa a bela e
+    extensa planície verde e ao norte você observa uma farta plantação de milho.
+  exits:
+    north:
+      target_vnum: '14647'
+    west:
+      target_vnum: '14591'
+  name: Uma Planície Verde
+  vnum: '14590'
+- description: |-
+    Você está caminhando numa tranqüila planície verde do Condado.  Ao seu
+    redor você observa algumas árvores frondosas e belas flores perfumadas.  Uma
+    maravilhosa sensação de tranqüilidade e paz enche seu coração de alegria.
+    Ao norte você observa a linda e movimentada Vila dos Hobbits, ao noroeste
+    você observa as águas do Lago de Beirágua e ao leste você observa uma
+    extensa planície verde.
+  exits:
+    east:
+      target_vnum: '14590'
+    north:
+      target_vnum: '14595'
+  name: Uma Planície Verde
+  vnum: '14591'
+- description: |-
+    Você está nadando nas refrescantes águas do Lago de Beirágua.  Ao seu
+    redor você observa após as margens do lago, belos campos floridos e algumas
+    árvores frondosas.  Ao norte você observa as terras de Beirágua e ao sudeste
+    você observa uma maravilhosa planície verde.  Ao oeste e ao nordeste você
+    observa as águas do Lago de Beirágua.
+  exits:
+    north:
+      target_vnum: '14600'
+    west:
+      target_vnum: '14593'
+  name: O Lago de Beirágua
+  vnum: '14592'
+- description: |-
+    Você está nadando nas refrescantes águas do Lago de Beirágua.  Ao seu
+    redor você observa após as margens do lago, belos campos floridos e algumas
+    árvores frondosas.  Ao norte você observa as terras de Beirágua e ao leste
+    você observa as águas do Lago de Beirágua.
+  exits:
+    east:
+      target_vnum: '14592'
+    north:
+      target_vnum: '14601'
+  name: O Lago de Beirágua
+  vnum: '14593'
+- description: |-
+    Você está dentro de uma confortável casa de tijolos e coberta quase que
+    completamente por uma faixa de grama, com exceção de sua porta e das janelas
+    circulares.  A toca foi construída pelos pequeninos Hobbits, que escavaram e
+    reforçaram a estrutura da toca com tijolos.  Ao seu redor você observa
+    pequeninos e belos móveis de madeira, à sua frente você observa uma bela
+    lareira e nas paredes você observa algumas engraçadas janelas circulares.
+    Ao oeste você observa uma porta de madeira.
+  exits:
+    west:
+      target_vnum: '14595'
+  name: Uma Toca de Tijolos da Vila Hobbits
+  vnum: '14594'
+- description: |-
+    Um imenso sentimento de alegria invade todo o seu coração, após seus pés
+    pisarem sobre esta bela terra e após seus olhos se cativarem pela bela visão
+    à sua frente.  Você está caminhando no centro agitado e feérico da Vila dos
+    Hobbits.  Ao seu redor você observa várias pequeninas barraquinhas de
+    madeira cheias de verduras e pequenas frutas, alguns baús, alguns pequenos
+    animais correndo de um lado para o outro e vários pequeninos Hobbits
+    conversando e curiosos com a sua presença.  Você percebe também várias tocas
+    circundando todo o centro da vila.  Ao norte e ao oeste você observa o
+    alegre centro da Vila dos Hobbits.  Ao sul você observa uma bela planície
+    verde e ao leste você observa uma pequenina toca coberta de grama.
+  exits:
+    east:
+      target_vnum: '14594'
+    north:
+      target_vnum: '14603'
+    south:
+      target_vnum: '14591'
+    west:
+      target_vnum: '14596'
+  name: A Alegre Vila dos Hobbits
+  vnum: '14595'
+- description: "Você está caminhando entre várias barracas de verduras e frutas da\n\
+    cativante Vila dos Hobbits.  Alguns pequeninos aponta para você e cochicham\n\
+    com os outros hobbits.  Ao seu redor, além de várias barracas, você observa\n\
+    algumas tocas, que cercam todo o centro da Vila.  Ao norte, leste e oeste\nvocê\
+    \ observa o alegre centro da Vila dos Hobbits, e ao sul você observa as\nÃ¡guas\
+    \ do tranqÃ¼ilo rio Ã\x81gua."
+  exits:
+    east:
+      target_vnum: '14595'
+    north:
+      target_vnum: '14604'
+    south:
+      target_vnum: '14585'
+    west:
+      target_vnum: '14597'
+  name: A Vila dos Hobbits
+  vnum: '14596'
+- description: "Você está caminhando pela agitada e alegre Vila dos Hobbits.  Ao seu\n\
+    redor você observa vários pequeninos conversando e observando as verduras e\n\
+    as frutas à venda nas barracas de madeira.  Ao redor do centro da vila você\n\
+    percebe várias tocas pequeninas circulando todo o centro da vila.  Ao sul\nvocÃª\
+    \ observa as cristalinas Ã¡guas do rio Ã\x81gua cortando as terras do Condado.\n\
+    Ao oeste você observa uma bela toca coberta de grama e pintada de amarelo.\nAo\
+    \ norte e ao leste você observa o movimentado centro da Vila dos Hobbits."
+  exits:
+    east:
+      target_vnum: '14596'
+    north:
+      target_vnum: '14605'
+    west:
+      target_vnum: '14598'
+  name: O Centro da Vila dos Hobbits
+  vnum: '14597'
+- description: |-
+    Você está dentro de uma apertada casa hobbit de madeira.  Ao seu redor
+    você observa alguns pequenos móveis de madeira e alguns pequeninos
+    brinquedos jogados no chão.  Nas paredes você observa engraçadas janelas de
+    forma circulares.  Ao leste você observa uma curiosa porta de madeira.
+  exits:
+    east:
+      target_vnum: '14597'
+  name: Uma Toca Amarela da Vila dos Hobbits
+  vnum: '14598'
+- description: |-
+    Você está nadando nas refrescantes águas do Lago de Beirágua.  Ao seu
+    redor você observa após as margens do lago, belos campos floridos e algumas
+    árvores frondosas.  Ao oeste você observa as terras de Beirágua e ao
+    sudoeste você observa as águas do Lago de Beirágua.
+  exits:
+    west:
+      target_vnum: '14600'
+  name: O Lago de Beirágua
+  vnum: '14599'
+- description: |-
+    Você está caminhando sobre um imenso tapete verde de grama macia.  Ao seu
+    redor você observa as belas terras de Beirágua.  Nessas maravilhosas terras
+    acontecem sempre as festas e eleições para prefeito do Condado, que
+    acontecem a cada sete anos, sempre no solstício de verão.  Ao norte e ao
+    oeste você observa as terras de Beirágua.  Ao sul e ao leste você observa as
+    calmas águas do Lago de Beirágua.
+  exits:
+    east:
+      target_vnum: '14599'
+    north:
+      target_vnum: '14606'
+    south:
+      target_vnum: '14592'
+    west:
+      target_vnum: '14601'
+  name: As Festivas Terras de Beirágua
+  vnum: '14600'
+- description: "Você está caminhando sobre um imenso tapete verde de grama macia.\
+    \  Ao seu\nredor você observa as belas terras de Beirágua.  Nessas maravilhosas\
+    \ terras\nacontecem sempre as festas e eleições para prefeito do Condado, que\n\
+    acontecem a cada sete anos, sempre no solstício de verão.  Ao norte e ao\nleste\
+    \ você observa as terras de Beirágua.  Ao sul você observa as calmas\nÃ¡guas do\
+    \ Lago de BeirÃ¡gua e ao sudoeste vocÃª observa as Ã¡guas do rio Ã\x81gua."
+  exits:
+    east:
+      target_vnum: '14600'
+    north:
+      target_vnum: '14607'
+    south:
+      target_vnum: '14599'
+  name: As Festivas Terras de Beirágua
+  vnum: '14601'
+- description: |-
+    Você está dentro de uma apertada casa de madeira, construída pelos
+    pequeninos que habitam a Vila dos Hobbits.  Ao seu redor você observa alguns
+    tapetes e pequenos móveis de madeira.  Nas paredes você observa curiosos
+    quadros com pinturas de crianças e em algumas paredes você observa
+    engraçadas janelas circulares.  Ao oeste você observa uma porta de madeira.
+  exits:
+    west:
+      target_vnum: '14603'
+  name: Uma Pequenina Toca Da Vila dos Hobbits
+  vnum: '14602'
+- description: |-
+    Você está caminhando entre vários pequeninos e pequenas barracas de
+    frutas e verduras no centro da Vila dos Hobbits.  Ao seu redor você observa
+    o agitado e alegre modo de vida dos hobbits.  Você observa várias tocas em
+    volta do centro da vila.  Ao sul e ao oeste você observa pequenas crianças
+    dançando a ciranda do pulo.  Ao norte e ao leste você observa pequeninas
+    tocas ao redor do centro da vila, e ao nordeste você observa as terras de
+    Beirágua.
+  exits:
+    east:
+      target_vnum: '14602'
+    north:
+      target_vnum: '14609'
+    south:
+      target_vnum: '14595'
+    west:
+      target_vnum: '14604'
+  name: O Centro da Vila dos Hobbits
+  vnum: '14603'
+- description: |-
+    Você está caminhando pela agitada e alegre Vila dos Hobbits.  Ao seu
+    redor você observa vários pequeninos conversando e observando as verduras e
+    as frutas à venda nas barracas de madeira.  Ao redor do centro da vila você
+    percebe várias tocas pequeninas circulando todo o centro da vila.  Ao norte
+    você observa uma toca coberta de grama.  Ao oeste, ao sul e ao leste você
+    observa o movimentado centro da Vila dos Hobbits.
+  exits:
+    east:
+      target_vnum: '14603'
+    north:
+      target_vnum: '14610'
+    south:
+      target_vnum: '14596'
+    west:
+      target_vnum: '14605'
+  name: O Centro da Vila dos Hobbits
+  vnum: '14604'
+- description: |-
+    Você está caminhando entre vários pequeninos e pequenas barracas de
+    frutas e verduras no centro da Vila dos Hobbits.  Ao seu redor você observa
+    o agitado e alegre modo de vida dos hobbits.  Você observa várias tocas em
+    volta do centro da vila.  Ao sul e ao leste você observa pequenas crianças
+    dançando a ciranda do pulo.  Para cima você observa uma bela colina verde.
+  exits:
+    east:
+      target_vnum: '14604'
+    south:
+      target_vnum: '14597'
+    up:
+      target_vnum: '14611'
+  name: O Centro da Vila dos Hobbits
+  vnum: '14605'
+- description: |-
+    Você está caminhando sobre um imenso tapete verde de grama macia.  Ao seu
+    redor você observa as belas terras de Beirágua.  Nessas maravilhosas terras
+    acontecem sempre as festas e eleições para prefeito do Condado, que
+    acontecem a cada sete anos, sempre no solstício de verão.  Ao sul, ao oeste
+    e ao noroeste você observa as terras de Beirágua.
+  exits:
+    south:
+      target_vnum: '14600'
+    west:
+      target_vnum: '14607'
+  name: As Festivas Terras de Beirágua
+  vnum: '14606'
+- description: |-
+    Você está caminhando sobre uma tranqüila planície do Condado.  Ao seu
+    redor você observa frondosas árvores e pequenos pássaros cantando e
+    sobrevoando a planície à procura de pequeninos insetos.  Ao olhar para o
+    chão você observa várias pegadas pequeninas em todas as direções.  Com
+    certeza os pequeninos comemoraram mais uma festa há poucos dias atrás.  Ao
+    norte, ao sul, ao leste e ao oeste você observa a extensa planície de
+    Beirágua.
+  exits:
+    east:
+      target_vnum: '14606'
+    north:
+      target_vnum: '14656'
+    south:
+      target_vnum: '14601'
+    west:
+      target_vnum: '14608'
+  name: As Terras de Beirágua
+  vnum: '14607'
+- description: |-
+    Você está caminhando sobre um imenso tapete verde de grama macia.  Ao seu
+    redor você observa as belas terras de Beirágua.  Nessas maravilhosas terras
+    acontecem sempre as festas e eleições para prefeito do Condado, que
+    acontecem a cada sete anos, sempre no solstício de verão.  Ao nordeste e ao
+    leste você observa as terras de Beirágua.  Ao sudoeste você observa o centro
+    da Vila dos Hobbits.
+  exits:
+    east:
+      target_vnum: '14607'
+  name: As Festivas Terras de Beirágua
+  vnum: '14608'
+- description: |-
+    Você está dentro de uma bela e perfumada toca hobbit.  Construída pelos
+    pequeninos que habitam a Vila dos Hobbits, a casa é coberta por uma faixa de
+    grama e apenas as aberturas das janelas e da porta são descobertas.  Ao seu
+    redor você observa pequeninas ferramentas de madeira e alguns pequenos
+    móveis de madeira.  Ao sul você observa uma engraçada porta de madeira.
+  exits:
+    south:
+      target_vnum: '14603'
+  name: Uma Florida Toca da Vila dos Hobbits
+  vnum: '14609'
+- description: |-
+    Você está dentro de uma apertada toca hobbit, escavada numa pequena
+    colina e coberta quase que completamente por uma faixa de grama, com
+    exceção das curiosas e pequeninas aberturas das janelas e da sua porta.  A
+    estrutura da toca foi reforçada com madeira.  Ao seu redor você observa
+    pequenos móveis de madeira e uma lareira.  Ao sul você observa uma curiosa
+    porta de madeira.
+  exits:
+    south:
+      target_vnum: '14604'
+  name: Uma Pequenina Toca da Vila dos Hobbits
+  vnum: '14610'
+- description: |-
+    Você está sobre uma bela colina verde.  Ao seu redor é possível observar
+    todo o centro da Vila dos Hobbits e as festivas terras de Beirágua.  Você
+    observa também belas árvores frondosas, que produzem gigantescas sombras e
+    belos frutos.  Para baixo você observa uma trilha na direção do centro da
+    Vila dos Hobbits e ao norte você uma estreita rua da vila dos pequeninos.
+  exits:
+    down:
+      target_vnum: '14605'
+    north:
+      target_vnum: '14612'
+  name: Uma Suave Colina Verde
+  vnum: '14611'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao sul você observa uma tranqüila colina verde e para baixo
+    você observa a continuação da rua do Bolsinho.
+  exits:
+    down:
+      target_vnum: '14613'
+    south:
+      target_vnum: '14611'
+  name: A Rua do Bolsinho
+  vnum: '14612'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Para cima você observa o início da rua do Bolsinho e para o
+    nordeste e noroeste você observa uma birfucação da rua do Bolsinho.
+  exits:
+    up:
+      target_vnum: '14612'
+  name: A Rua do Bolsinho
+  vnum: '14613'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao nordeste e ao sudoeste você observa a continuação da rua
+    do Bolsinho.
+  exits: {}
+  name: A Rua do Bolsinho
+  vnum: '14614'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao noroeste e ao sudeste você observa a continuação da rua
+    do Bolsinho e para baixo você observa uma pequenina toca hobbit verde.
+  exits:
+    down:
+      target_vnum: '14618'
+  name: A Rua do Bolsinho
+  vnum: '14615'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao norte e ao sudoeste você observa a continuação da rua do
+    Bolsinho e para baixo você observa uma pequenina toca hobbit.
+  exits:
+    down:
+      target_vnum: '14617'
+    north:
+      target_vnum: '14621'
+  name: A Rua do Bolsinho
+  vnum: '14616'
+- description: |-
+    Você está dentro de uma bela, porém apertada casa hobbit.  Escavada numa
+    pequena colina a casa possui uma faixa de grama que cobre quase que toda a
+    toca, com exceção das aberturas das janelas e da porta.  Ao seu redor você
+    observa alguns pequeninos móveis de madeira e alguns restos de comida em
+    cima de uma pequena mesa de madeira.  Para cima você observa uma curiosa
+    porta circular.
+  exits:
+    up:
+      target_vnum: '14616'
+  name: Uma Florida Toca da Vila dos Hobbits
+  vnum: '14617'
+- description: |-
+    Você está dentro de uma confortável, porém pequenina casa hobbit.
+    Construída pelos pequeninos que habitam a Vila dos Hobbits, a casa foi
+    escavada numa pequena colina e teve sua estrutura reforçada com madeira.  Ao
+    seu redor você observa as suas paredes de madeira pontadas de verde e
+    algumas curiosas janelas circulares.  Você observa também alguns pequenos
+    móveis de madeira e alguns tapetes.  Para cima você observa uma porta de
+    madeira engraçada.
+  exits:
+    up:
+      target_vnum: '14615'
+  name: Uma Toca Verde da Vila dos Hobbits
+  vnum: '14618'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao norte e ao sudeste você observa a continuação da rua
+    do Bolsinho e ao nordeste você observa um grande jardim florido com várias
+    pequeninas crianças brincando.
+  exits:
+    north:
+      target_vnum: '14624'
+  name: A Rua do Bolsinho
+  vnum: '14619'
+- description: |-
+    Você está caminhando entre belas flores do magnífico jardim da Vila dos
+    Hobbits.  Ao seu redor você observa pequeninas crianças hobbits brincando e
+    cantando.  As brisas que passam entre as belas flores do jardim espalham o
+    mais divino e sublime perfume para todos os lados.  Ao redor do grande
+    jardim você observa algumas tocas cobertas de uma faixa de grama.  Ao norte,
+    sul, nordeste, noroeste, sudeste e sudoeste você observa a estreita rua do
+    Bolsinho.
+  exits:
+    north:
+      target_vnum: '14625'
+    south:
+      target_vnum: '14613'
+  name: O Monumental Jardim da Vila dos Hobbits
+  vnum: '14620'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao noroeste e ao sul você observa a continuação da rua do
+    Bolsinho e para baixo você observa uma pequenina toca hobbit colorida.
+  exits:
+    down:
+      target_vnum: '14622'
+    south:
+      target_vnum: '14616'
+  name: A Rua do Bolsinho
+  vnum: '14621'
+- description: |-
+    Você está dentro de uma confortável toca de madeira.  Ao seu redor você
+    observa pequenos móveis espalhados e algumas ferramentas de madeira pelo
+    chão.  Nas paredes você observa alguns quadros coloridos e pequeninas
+    janelas circulares.  Para cima você observa uma curiosa porta de madeira.
+  exits:
+    up:
+      target_vnum: '14621'
+  name: Uma Colorida Toca da Vila dos Hobbits
+  vnum: '14622'
+- description: |-
+    Você está dentro de uma apertada toca da Vila dos Hobbits.  Ao seu redor
+    você observa algumas pequeninas cadeiras de madeira e uma pequena lareira.
+    No chão você observa alguns tapetes e alguns pequenos brinquedos.  Nas
+    paredes você observa pequeninas janelas circulares e para cima você observa
+    uma curiosa porta de madeira.
+  exits:
+    up:
+      target_vnum: '14624'
+  name: Uma Pequenina Toca da Vila dos Hobbits
+  vnum: '14623'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao nordeste e ao sul você observa a continuação da rua do
+    Bolsinho e para baixo você observa uma pequenina toca hobbit colorida.
+  exits:
+    down:
+      target_vnum: '14623'
+    south:
+      target_vnum: '14619'
+  name: A Rua do Bolsinho
+  vnum: '14624'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao norte, sudeste e sudoeste você observa a continuação da
+    rua do Bolsinho e ao sul você observa várias crianças brincando no belo
+    jardim da Vila dos Hobbits.
+  exits:
+    north:
+      target_vnum: '14626'
+    south:
+      target_vnum: '14620'
+  name: A Rua do Bolsinho
+  vnum: '14625'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao norte e ao sul você observa a continuação da rua do
+    Bolsinho e para baixo você observa uma pequenina toca de madeira.
+  exits:
+    down:
+      target_vnum: '14627'
+    north:
+      target_vnum: '14628'
+    south:
+      target_vnum: '14625'
+  name: A Rua do Bolsinho
+  vnum: '14626'
+- description: |-
+    Você está dentro de uma bela, porém apertada casa hobbit.  Escavada numa
+    pequena colina a casa possui uma faixa de grama que cobre quase que toda a
+    toca, com exceção das aberturas das janelas e da porta.  Ao seu redor você
+    observa alguns pequeninos móveis de madeira e alguns restos de comida em
+    cima de uma pequena mesa de madeira.  Para cima você observa uma curiosa
+    porta circular.
+  exits:
+    up:
+      target_vnum: '14626'
+  name: Uma Florida Toca da Vila dos Hobbits
+  vnum: '14627'
+- description: |-
+    Você está caminhando na estreita rua do Bolsinho.  Ao seu redor você
+    observa os belos campos verdes e floridos do Condado, algumas belas e
+    enormes árvores cheias de frutos e algumas tocas hobbits cobertas por uma
+    faixa de grama.  Ao sul você observa a continuação da rua do Bolsinho.  Para
+    baixo você observa uma pequenina toca de madeira e ao nordeste você observa
+    uma grandiosa toca florida.
+  exits:
+    down:
+      target_vnum: '14629'
+    south:
+      target_vnum: '14626'
+  name: O Final da Rua do Bolsinho
+  vnum: '14628'
+- description: |-
+    Você está dentro de uma confortável, porém pequenina casa hobbit.
+    Construída pelos pequeninos que habitam a Vila dos Hobbits, a casa foi
+    escavada numa pequena colina e teve sua estrutura reforçada com madeira.  Ao
+    seu redor você observa as suas paredes de madeira pontadas de verde e
+    algumas curiosas janelas circulares.  Você observa também alguns pequenos
+    móveis de madeira e alguns tapetes.  Para cima você observa uma porta de
+    madeira engraçada.
+  exits:
+    up:
+      target_vnum: '14628'
+  name: Uma Toca da Vila dos Hobbits
+  vnum: '14629'
+- description: |-
+    Você está dentro de um belo e confortável quarto da toca mais luxuosa da
+    Vila dos Hobbits.  Ao seu redor você observa uma majestosa cama de madeira
+    coberta com os mais suaves tecidos que você já viu.  No chão você observa
+    alguns pequeninos e macios tapetes.  Na parede sul você observa uma pequena
+    janela circular e através dela você observa toda a rua do Bolsinho.  Ao
+    norte você observa um estreito corredor.
+  exits:
+    north:
+      target_vnum: '14633'
+  name: Um Confortável Quarto em Bolsão
+  vnum: '14630'
+- description: |-
+    Você está dentro de um belo e confortável quarto da toca mais luxuosa da
+    Vila dos Hobbits.  Ao seu redor você observa uma majestosa cama de madeira
+    coberta com os mais suaves tecidos que você já viu.  No chão você observa
+    alguns pequeninos e macios tapetes.  Na parede sul você observa uma pequena
+    janela circular e através dela você observa toda a rua do Bolsinho.  Ao
+    noroeste você observa um estreito corredor.
+  exits: {}
+  name: Um Confortável Quarto em Bolsão
+  vnum: '14631'
+- description: |-
+    Você está dentro da mais bela e luxuosa toca da Vila dos Hobbits.  Ao seu
+    redor você observa alguns pequeninos móveis de madeira e alguns tapetes no
+    chão.  Nas paredes você observa alguns quadros e pinturas, que ilustram
+    belas montanhas.  Você observa também as engraçadas janelas circulares de
+    Bolsão.  Os antigos moradores da Vila dos Hobbits adoram especular e
+    conversar sobre as riquezas guardadas nos túneis de Bolsão.  Ao norte você
+    observa uma pequenina sala de paredes arqueadas, ao leste você observa um
+    estreito corredor e ao sudoeste você observa uma porta de madeira bastante
+    curiosa.
+  exits:
+    east:
+      target_vnum: '14633'
+    north:
+      target_vnum: '14636'
+  name: Bolsão, a Luxuosa Toca da Vila dos Hobbits
+  vnum: '14632'
+- description: |-
+    Você está caminhando com muita dificuldade num corredor estreito de
+    Bolsão.  Ao seu redor você observa as intactas paredes de madeira arqueadas
+    e alguns tapetes verdes e amarelos.  Ao sul e ao sudeste você observa alguns
+    quartos, ao nordeste você observa uma perfumada cozinha e ao oeste você
+    observa a sala da toca de Bolsão.
+  exits:
+    south:
+      target_vnum: '14630'
+    west:
+      target_vnum: '14632'
+  name: Um Corredor Apertado em Bolsão
+  vnum: '14633'
+- description: |-
+    Você está dentro da perfumada cozinha de Bolsão.  Ao seu redor você
+    observa várias panelas e colheres de madeira, uma grande mesa de madeira e
+    algumas cadeiras.  Na parede leste você observa uma pequena janela circular
+    e logo abaixo dela você observa uma belo jardim com algumas flores e
+    pequenas ervas.  Ao norte você observa uma pequena porta de madeira e ao
+    sudoeste você observa um estreito corredor.
+  exits:
+    north:
+      target_vnum: '14635'
+  name: A Cozinha Perfumada de Bolsão
+  vnum: '14634'
+- description: |-
+    Você está dentro da grande despensa de Bolsão.  Ao seu redor você observa
+    alguns barris de vinho, algumas frutas e vários baús cheios de provisões.
+    Ao sul você observa uma pequena porta de madeira.
+  exits:
+    south:
+      target_vnum: '14634'
+  name: A Despensa de Bolsão
+  vnum: '14635'
+- description: |-
+    Você está dentro de uma pequena sala da grande toca de Bolsão.  Ao seu
+    redor você observa uma bela mesa de madeira e algumas cadeiras, alguns
+    livros e alguns pequenos mapas.  No chão você observa alguns tapetes e nas
+    paredes você observa algumas pinturas que ilustram belas montanhas e na
+    parede oeste você observa uma pequena janela circular.  Ao sul você observa
+    a sala principal da luxuosa toca de Bolsão.
+  exits:
+    down:
+      target_vnum: '14637'
+    south:
+      target_vnum: '14632'
+  name: Um Pequeno Escritório em Bolsão
+  vnum: '14636'
+- description: |-
+    Você está caminhando com muita dificuldade num estreito túnel de Bolsão.
+    Ao seu redor você observa belas paredes de madeira arqueadas, que reforçam a
+    estrutura do túnel.  No teto você observa algumas pequeninas teias de
+    aranha.  Ao nordeste você observa a continuação do estreito túnel de Bolsão.
+    Para cima você observa um pequenino alçapão de madeira.
+  exits:
+    up:
+      target_vnum: '14636'
+  name: Os Secretos Túneis de Bolsão
+  vnum: '14637'
+- description: |-
+    Você está caminhando com muita dificuldade num estreito túnel de Bolsão.
+    Ao seu redor você observa belas paredes de madeira arqueadas, que reforçam a
+    estrutura do túnel.  No teto você observa algumas pequeninas teias de
+    aranha.  Ao nordeste, ao noroeste e ao sudoeste você observa a continuação
+    do estreito túnel de Bolsão.
+  exits: {}
+  name: Os Secretos Túneis de Bolsão
+  vnum: '14638'
+- description: |-
+    Você está caminhando com muita dificuldade num estreito túnel de Bolsão.
+    Ao seu redor você observa belas paredes de madeira arqueadas, que reforçam a
+    estrutura do túnel.  No teto você observa algumas pequeninas teias de
+    aranha.  Para baixo e ao sudoeste você observa a continuação do estreito
+    túnel de Bolsão.
+  exits:
+    down:
+      target_vnum: '14640'
+  name: Os Secretos Túneis de Bolsão
+  vnum: '14639'
+- description: |-
+    Você está caminhando com muita dificuldade num estreito túnel de Bolsão.
+    Ao seu redor você observa belas paredes de madeira arqueadas, que reforçam a
+    estrutura do túnel.  No teto você observa algumas pequeninas teias de
+    aranha.  Para cima você observa o estreito túnel de Bolsão.
+  exits:
+    up:
+      target_vnum: '14639'
+  name: O Final do Túnel de Bolsão
+  vnum: '14640'
+- description: |-
+    Você está caminhando com muita dificuldade num estreito túnel de Bolsão.
+    Ao seu redor você observa belas paredes de madeira arqueadas, que reforçam a
+    estrutura do túnel.  No teto você observa algumas pequeninas teias de
+    aranha.  Ao norte e ao sudeste você observa a continuação do estreito túnel
+    de Bolsão.
+  exits:
+    north:
+      target_vnum: '14642'
+  name: Os Secretos Túneis de Bolsão
+  vnum: '14641'
+- description: |-
+    Você está caminhando com muita dificuldade num estreito túnel de Bolsão.
+    Ao seu redor você observa belas paredes de madeira arqueadas, que reforçam a
+    estrutura do túnel.  No teto você observa algumas pequeninas teias de
+    aranha.  Ao sul você observa o estreito túnel de Bolsão.
+  exits:
+    south:
+      target_vnum: '14641'
+  name: O Final do Túnel de Bolsão
+  vnum: '14642'
+- description: |-
+    Você está caminhando entre árvores de inúmeras formas e tamanhos, seus
+    troncos retos, inclinados, curvados ou torcidos formando um emaranhado que
+    dificulta sua visão.  A floresta velha é conhecida pelas suas histórias de
+    árvores que se mexem, árvores que possuem vida.  Ao caminhar pelas trilhas
+    da floresta a dificuldade aumenta à medida que surgem raízes torcidas e
+    emaranhadas.  Ao noroeste você observa uma pequena trilha entre as árvores
+    de várias formas e tamanhos da floresta velha e ao sul você observa uma casa
+    de madeira.
+  exits:
+    south:
+      target_vnum: '14644'
+  name: A Floresta Velha
+  vnum: '14643'
+- description: |-
+    Você está dentro da confortável casa de Tom Bombadil.  Ao seu redor você
+    observa alguns móveis de madeira, uma bela mesa com três cadeiras e um belo
+    tapete no chão.  Ao sul você observa uma bela janela cheia de jarros com
+    perfumadas flores.  Ao norte você observa uma porta de madeira.
+  exits:
+    north:
+      target_vnum: '14643'
+  name: A Casa de Tom Bombadil
+  vnum: '14644'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao norte e ao oeste você observa a farta plantação do velho
+    Magote e ao noroeste você observa um antigo espantalho.
+  exits:
+    north:
+      target_vnum: '14648'
+    west:
+      target_vnum: '14646'
+  name: As Terras do Senhor Magote
+  vnum: '14645'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao leste, ao oeste, ao noroeste e ao nordeste você observa
+    a farta plantação do velho Magote e ao norte você observa um antigo
+    espantalho.
+  exits:
+    east:
+      target_vnum: '14645'
+    north:
+      target_vnum: '14649'
+    west:
+      target_vnum: '14647'
+  name: As Terras do Senhor Magote
+  vnum: '14646'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao norte e ao leste você observa a farta plantação do velho
+    Magote, ao nordeste você observa um antigo espantalho e ao sul você observa
+    uma bela planície verde.
+  exits:
+    east:
+      target_vnum: '14646'
+    north:
+      target_vnum: '14650'
+    south:
+      target_vnum: '14590'
+  name: As Terras do Senhor Magote
+  vnum: '14647'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao norte, ao sul, ao noroeste e ao sudoeste você observa a
+    farta plantação do velho Magote e ao oeste você observa um velho espantalho.
+  exits:
+    north:
+      target_vnum: '14651'
+    south:
+      target_vnum: '14645'
+    west:
+      target_vnum: '14549'
+  name: As Terras do Senhor Magote
+  vnum: '14648'
+- description: |-
+    Você está caminhando entre os altos galhos das plantações de milho do
+    senhor Magote.  Ao seu redor você observa o milharal carregado de belos
+    sabugos de milho.  Na sua frente você observa um engraçado espantalho de
+    palha, que só espanta mesmo os corvos.  Ao norte, leste, oeste, sul,
+    noroeste, nordeste, sudeste e sudoeste você observa as terras do senhor
+    Magote.
+  exits:
+    east:
+      target_vnum: '14648'
+    north:
+      target_vnum: '14652'
+    south:
+      target_vnum: '14646'
+    west:
+      target_vnum: '14650'
+  name: O Antigo Espantalho das Plantações do velho Magote
+  vnum: '14649'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao norte, ao sul, ao nordeste e ao sudeste você observa a
+    farta plantação do velho Magote e ao leste você observa um velho espantalho.
+  exits:
+    east:
+      target_vnum: '14649'
+    north:
+      target_vnum: '14653'
+    south:
+      target_vnum: '14547'
+  name: As Terras do Senhor Magote
+  vnum: '14650'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao sul e ao oeste você observa a farta plantação do velho
+    Magote, ao sudoeste você observa um velho espantalho e ao nordeste você
+    observa uma velha casa de madeira.
+  exits:
+    south:
+      target_vnum: '14648'
+    west:
+      target_vnum: '14652'
+  name: As Terras do Senhor Magote
+  vnum: '14651'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao leste, ao oeste, ao sudoeste e ao sudeste você observa a
+    farta plantação do velho Magote e ao sul você observa um velho espantalho.
+  exits:
+    east:
+      target_vnum: '14651'
+    south:
+      target_vnum: '14649'
+    west:
+      target_vnum: '14653'
+  name: As Terras do Senhor Magote
+  vnum: '14652'
+- description: |-
+    Você está caminhando por entre os altos galhos das plantações de milho do
+    velho senhor Magote.  Ao seu redor você observa o milharal carregado de
+    milho.  Com certeza mais uma vez este ano o velho Magote terá mais uma
+    colheita farta.  Ao leste e ao sul você observa a farta plantação do velho
+    Magote e ao sudeste você observa um velho espantalho.
+  exits:
+    east:
+      target_vnum: '14652'
+    south:
+      target_vnum: '14650'
+  name: As Terras do Senhor Magote
+  vnum: '14653'
+- description: |-
+    Você está dentro de uma velha casa de madeira construída pelo velho
+    Magote.  Ao seu redor você observa antigos móveis de madeira e uma lareira.
+    No chão você observa uma bela pele de lobo e sobre ela você observa uma
+    pequena mesa de madeira e algumas cadeiras.  Nas paredes você observa alguns
+    quadros velhos de madeira e algumas janelas.  Ao sudoeste você observa uma
+    porta de madeira.
+  exits: {}
+  name: A Casa do Velho Magote
+  vnum: '14654'
+- description: |-
+    Você está dentro da magnífica Sede de Brandebuque, escada e construída
+    pelo chefe da família Velhobuque, o senhor Gorhendad Velhobuque.  Ao seu
+    redor você observa um imenso salão com belas janelas circulares e três
+    grandes portas de entrada.  Você observa algumas cadeiras de madeira e
+    alguns jarros de flores.  No centro do salão alguns pequeninos olham para
+    você com muita curiosidade.  Para baixo você observa um largo corredor
+    dentro da Sede de Brandebuque.  Ao sul noroeste e nordeste você observa a
+    Terra dos Buques.
+  exits:
+    down:
+      target_vnum: '14657'
+    south:
+      target_vnum: '14533'
+  name: A Sede de Brandebuque
+  vnum: '14655'
+- description: |-
+    Você está caminhando sobre um imenso tapete verde de grama macia.  Ao seu
+    redor você observa as belas terras de Beirágua.  Nessas maravilhosas terras
+    acontecem sempre as festas e eleições para prefeito do Condado, que
+    acontecem a cada sete anos, sempre no solstício de verão.  Ao sul, sudeste e
+    sudoeste você observa as belas terras de Beirágua.
+  exits:
+    south:
+      target_vnum: '14607'
+  name: As Festivas Terras de Beirágua
+  vnum: '14656'
+- description: |-
+    Você está caminhando não num largo corredor, mas num imenso salão.  Ao
+    seu redor você observa vários pequeninos cantando e conversando, belas
+    tochas de fogo iluminando todo o lugar e várias tocas hobbits em volta do
+    grande salão.  Ao olhar para cima você observa no teto magníficas
+    clarabóias, que permitem que os raios solares entrem neste belíssimo salão
+    da Sede de Brandebuque.  Para cima você observa a entrada da Sede de
+    Brandebuque, ao leste e ao oeste você observa pequeninas tocas hobbits, e ao
+    sul você observa o imenso salão da Sede de Brandebuque.
+  exits:
+    east:
+      target_vnum: '14659'
+    south:
+      target_vnum: '14660'
+    up:
+      target_vnum: '14655'
+    west:
+      target_vnum: '14658'
+  name: O Grande Salão da Sede de Brandebuque
+  vnum: '14657'
+- description: |-
+    Você está dentro de uma apertada, porém confortável toca hobbit.  Ao seu
+    redor você observa alguns pequenos móveis de madeira e alguns pequeninos
+    brinquedos.  A toca foi escavada logo após o termino da escavação da grande
+    e bela Sede de Brandebuque.  Ao leste você observa o grande salão da Sede de
+    Brandebuque.
+  exits:
+    east:
+      target_vnum: '14657'
+  name: Uma Pequena Toca Hobbit na Sede de Brandebuque
+  vnum: '14658'
+- description: |-
+    Você está dentro de uma apertada, porém confortável toca hobbit.  Ao seu
+    redor você observa alguns pequenos móveis de madeira e alguns pequeninos
+    brinquedos.  A toca foi escavada logo após o termino da escavação da grande
+    e bela Sede de Brandebuque.  Ao oeste você observa o grande salão da Sede de
+    Brandebuque.
+  exits:
+    west:
+      target_vnum: '14657'
+  name: Uma Pequena Toca Hobbit na Sede de Brandebuque
+  vnum: '14659'
+- description: |-
+    Você está caminhando não num largo corredor, mas num imenso salão.  Ao
+    seu redor você observa vários pequeninos cantando e conversando, belas
+    tochas de fogo iluminando todo o lugar e várias tocas hobbits em volta do
+    grande salão.  Ao olhar para cima você observa no teto magníficas
+    clarabóias, que permitem que os raios solares entrem neste belíssimo salão
+    da Sede de Brandebuque.  Ao leste e ao oeste você observa o belo jardim
+    interno da Sede de Brandebuque.  Ao norte você observa o imenso salão da
+    Sede de Brandebuque e ao sul você observa uma grande toca hobbit.  Para cima
+    você observa o grande observatório da Sede de Brandebuque.
+  exits:
+    east:
+      target_vnum: '14661'
+    north:
+      target_vnum: '14657'
+    south:
+      target_vnum: '14663'
+    up:
+      target_vnum: '14664'
+    west:
+      target_vnum: '14662'
+  name: O Grande Salão da Sede de Brandebuque
+  vnum: '14660'
+- description: |-
+    Você está caminhando entre belas e perfumadas flores do magnífico jardim
+    interno da Sede de Brandebuque.  Ao seu redor você observa várias flores e
+    pequeninas plantas cultivadas pelos pequeninos neste mundo subterrâneo.
+    Você observa também uma bela fonte de pedra que faz jorrar água cristalina
+    nas majestosas flores.  Ao oeste você observa o grande salão da Sede de
+    Brandebuque.
+  exits:
+    west:
+      target_vnum: '14660'
+  name: O Maravilhoso Jardim Interno da Sede de Brandebuque
+  vnum: '14661'
+- description: |-
+    Você está caminhando entre belas e perfumadas flores do magnífico jardim
+    interno da Sede de Brandebuque.  Ao seu redor você observa várias flores e
+    pequeninas plantas cultivadas pelos pequeninos neste mundo subterrâneo.
+    Você observa também uma bela fonte de pedra que faz jorrar água cristalina
+    nas majestosas flores.  Ao leste você observa o grande salão da Sede de
+    Brandebuque.
+  exits:
+    east:
+      target_vnum: '14660'
+  name: O Maravilhoso Jardim Interno da Sede de Brandebuque
+  vnum: '14662'
+- description: |-
+    Você está dentro de uma bela e confortável toca.  Ao seu redor você
+    observa várias cadeiras e algumas mesas de madeira.  No chão você observa
+    belos tapetes e nas paredes você observa belos quadros.  No canto sul da
+    toca você observa uma bela mesa de pedra com uma pequenina @BPlaca@n sobre
+    a mesma.  Ao norte você observa o grande salão da Sede de Brandebuque.
+  exits:
+    north:
+      target_vnum: '14660'
+  name: A Grande Toca do Senhor da Sede
+  vnum: '14663'
+- description: |-
+    Você está caminhando na sala do observatório da Sede de Brandebuque.  Ao
+    seu redor você observa várias pequeninas janelas cobertas com uma fina
+    camada de grama, que servem como pontos de observação para os pequeninos
+    hobbits da Sede de Brandebuque.  Você observa também algumas mesas de
+    madeira e algumas pequeninas anotações sobre elas.  Para baixo você observa
+    o grande salão da Sede de Brandebuque.
+  exits:
+    down:
+      target_vnum: '14660'
+  name: O Observatório da Sede de Brandebuque
+  vnum: '14664'

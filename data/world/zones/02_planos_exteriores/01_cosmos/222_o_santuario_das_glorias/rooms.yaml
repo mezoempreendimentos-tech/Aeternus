@@ -1,0 +1,309 @@
+- description: |-
+    Prepare-se.  Este é o caminho que o levará a um lugar muito especial.  A
+    sensação de paz e de força que toma conta de você aumenta à medida que você
+    segue em frente.  Uma profusão de sentimentos o envolve por completo e você
+    percebe que é preciso honra e dignidade para poder caminhar por aqui.
+    Belíssimo canto de pássaros chega aos seus ouvidos, como se estivessem
+    saudando a sua vinda e a emoção vai aumentando.  Uma luz começa a surgir, a
+    princípio suave e tênue e vai se tornando mais e mais forte, à medida que
+    você vai avançando.
+  exits:
+    east:
+      target_vnum: '9403'
+    south:
+      target_vnum: '22201'
+  name: O Caminho da Glória
+  vnum: '22200'
+- description: |-
+    Você sente que finalmente chegou.  Imensos gradis surgem à sua frente,
+    imponentes e majestosos.  Você olha para cima e percebe uma espécie de
+    meio-arco, fixado sobre a parte mais alta do portão, onde foram gravadas em
+    uma espécie de metal azulado, algumas incrições.  De alguma forma, você
+    consegue entender o significado daquela estranha língua e fica profundamente
+    emocionado ao perceber que conseguiu chegar até aqui.
+  exits:
+    south:
+      target_vnum: '22202'
+  name: Os Portais da Glória
+  vnum: '22201'
+- description: |-
+    Você está entrando na Grande Valhala, onde os bravos vivem para sempre!
+    E sente a enorme responsabilidade que terá daqui para frente, pois está
+    penetrando na terra dos justos e dignos, dos valentes e honrados.  Você sabe
+    que atrás destes enormes portões, nesta terra abençoada, estão guardadas as
+    memórias daqueles que se tornaram lenda nesse mundo.  Duas enormes torres de
+    mármore branco ostentam grandes bandeiras que tremulam ao vento, e além dos
+    portões, você vê um belo e esplêndido vale.  Dois guardas olham para você e
+    sorriem, eles sabem que você poderá fazer parte desse lugar.  Existe uma
+    bela placa em uma das torres.
+  exits:
+    south:
+      target_vnum: '22203'
+  name: Cruzando os Portais da Glória
+  vnum: '22202'
+- description: |-
+    Este é provavelmente o lugar mais lindo que você já viu!  Inúmeras
+    pessoas e aventureiros passeiam por aqui em busca de inspiração.  Alguns
+    bardos divagam, perdidos em seus pensamentos enquanto criam canções e poemas
+    sobre grandes feitos.  Um enorme templo reflete a luz do Sol, ao oeste.
+  exits:
+    west:
+      target_vnum: '22204'
+  name: As Grandes Planícies
+  vnum: '22203'
+- description: |-
+    Você não tem pressa.  Caminha devagar, absorto em suas mémorias,
+    lembrando-se do passado, de cada história vivida.  Sente seu coração
+    apertar-se e, praticamente, ouve a voz de tantos companheiros que já se
+    foram, mas, que ainda assim, permanecem vivos em você, falando diretamente
+    ao seu coração.  Uma brisa suave parece embalar os seus passos e você olha
+    para cima, emocionado e agradecido por poder estar vivenciando este momento.
+  exits:
+    east:
+      target_vnum: '22203'
+    west:
+      target_vnum: '22205'
+  name: A Caminho da Glória
+  vnum: '22204'
+- description: |-
+    Você não tem pressa.  Caminha devagar, absorto em suas mémorias,
+    lembrando-se do passado, de cada história vivida.  Sente seu coração
+    apertar-se e, praticamente, ouve a voz de tantos companheiros que já se
+    foram, mas, que ainda assim, permanecem vivos em você, falando diretamente
+    ao seu coração.  Uma brisa suave parece embalar os seus passos e você olha
+    para cima, emocionado e agradecido por poder estar vivenciando este momento.
+    Ao longe você vê uma construção imensa.
+  exits:
+    east:
+      target_vnum: '22204'
+    west:
+      target_vnum: '22206'
+  name: A Caminho da Glória
+  vnum: '22205'
+- description: |-
+    Você não tem pressa.  Caminha devagar, absorto em suas mémorias,
+    lembrando-se do passado, de cada história vivida.  Sente seu coração
+    apertar-se e, praticamente, ouve a voz de tantos companheiros que já se
+    foram, mas, que ainda assim, permanecem vivos em você, falando diretamente
+    ao seu coração.  Uma brisa suave parece embalar os seus passos e você olha
+    para cima, emocionado e agradecido por poder estar vivenciando este momento.
+    Você está chegando próximo a uma construção maravilhosa.
+  exits:
+    east:
+      target_vnum: '22205'
+    west:
+      target_vnum: '22207'
+  name: A Caminho da Glória
+  vnum: '22206'
+- description: "E você pára.  Seu corpo parece não mais obedecer aos seus comandos,\n\
+    tamanha emoção o envolve.  Lentamente você penetra neste lugar sagrado e\nsabe\
+    \ que a partir de agora nada será como foi.  Imenso e glorioso, tem as\nparedes\
+    \ totamente cobertas por um material absolutamente branco, que você\nnÃ£o sabe\
+    \ definir se Ã© mÃ¡rmore ou nÃ£o.  Ã\x89 aqui, neste Templo esplendoroso,\nonde\
+    \ estão gravadas as glórias de todo o passado e onde se registrarão as do\nfuturo.\
+    \  Em algumas paredes, imensas pinturas ilustram as conquistas de\ntodos os bravos\
+    \ e você fica impressionado com as cenas ali perpetuadas.\nEstranhamente, você\
+    \ consegue ver através das paredes brancas e percebe que\nlá fora, em um grande\
+    \ vale, há um número infinito de belíssimas estátuas."
+  exits:
+    east:
+      target_vnum: '22206'
+    south:
+      target_vnum: '22208'
+  name: O Templo das Glórias
+  vnum: '22207'
+- description: "Você deixou o Templo e segue em direção ao vale.  Tudo aqui parece\n\
+    lembrar o quanto este lugar é especial e sagrado.  E você olha com respeito\n\
+    para o imenso círculo de estátuas, que esculpidas com perfeição, revelam as\n\
+    figuras daqueles que foram bravos e corajosos, dignos e honrados.  Tantas\ncenas\
+    \ tomam conta dos seus pensamentos.  Tantas lembranças, tantos momentos\nde glória.\
+    \  E você se orgulha, pois sabe que chegou até aqui por acreditar\nnestes príncipios.\
+    \  E percebe que PODE fazer mais e que QUER fazer mais.\nNão pela conquista ou\
+    \ pela fama, mas, por este mundo e pelas pessoas que\nvocê ama e respeita.  E\
+    \ que se fizer parte desta imensa galeria, terá\ndeixado o maior de todos os legados:\
+    \ o seu exemplo.  Você sabe que terá que\nlutar muito.  Não com pressa.  Nem por\
+    \ ambição.  Mas porque quer deixar\nregistrado para todo o sempre que você também\
+    \ lutou pela @CHONRA, DIGNIDADE e\nFRATERNIDADE@n.  Chegou a hora, vocÃª sente\
+    \ isso!  Ã\x89 hora de fazer uma prece\naos Deuses pedindo suas bençãos e partir\
+    \ para a luta!\nHá uma floresta a sudeste e além dela, parece haver uma interessante\n\
+    construção."
+  exits:
+    north:
+      target_vnum: '22207'
+  name: O Vale das Glórias
+  vnum: '22208'
+- description: |-
+    Lentamente você vai saindo deste lugar sagrado.  Seu coração está em paz,
+    bem como a sua consciência.  Você sabe que daqui para frente será outra
+    pessoa.  Alguém melhor, mais paciente, mais consciente de que para muitos é
+    um exemplo.  Então o vento lhe sopra algumas palavras, encorajando-o a
+    visitar aqueles que, de alguma forma, serviram de inspiração para a sua
+    própria jornada.
+    Há uma floresta a sudeste e uma interessante construção ao longe.
+  exits: {}
+  name: Saindo do Vale das Glórias
+  vnum: '22209'
+- description: |-
+    Você continua sua caminhada.  Seu coração está em paz, bem como a sua
+    consciência.  Você sabe que daqui para frente será outra pessoa.  Alguém
+    melhor, mais paciente, mais consciente de que para muitos é um exemplo.  O
+    vento continua lhe instigando a visitar aqueles que, de alguma forma,
+    serviram de inspiração para a sua própria jornada.
+    A floresta fica a sudeste e uma interessante construção surge ao longe.
+  exits: {}
+  name: A Caminho da Floresta
+  vnum: '22210'
+- description: |-
+    E você segue em sua caminhada.  Seu coração está em paz, bem como a sua
+    consciência.  Você sabe que daqui para frente será outra pessoa.  Alguém
+    melhor, mais paciente, mais consciente de que para muitos é um exemplo.  O
+    vento continua lhe instigando a visitar aqueles que, de alguma forma,
+    serviram de inspiração para a sua própria jornada.
+    A floresta está bem próxima e uma interessante construção vai tomando
+    forma.
+  exits: {}
+  name: A Caminho da Floresta
+  vnum: '22211'
+- description: |-
+    O nome não é estranho aos seus ouvidos...Floresta de Sherwood.  São
+    tantas as lendas a respeito deste lugar...não é?  Dizem que sob a proteção
+    destas matas, vivem inúmeras criaturas ferozes e seres sobrenaturais .  Mas
+    não fique com medo...pois existe alguém especial que também vive neste
+    lugar.  Alguém que queria ajudar seus semelhantes.  Alguém que queria levar
+    pão para os famintos e esperança aos que haviam desistido de sonhar.  Alguém
+    como você?
+  exits:
+    east:
+      target_vnum: '22213'
+  name: Dentro da Floresta
+  vnum: '22212'
+- description: |-
+    Engraçado...você está sorrindo, pensando em como tudo poderia ser
+    diferente se as pessoas não fossem tão mesquinhas, tão egoístas.  Ainda bem
+    que você jamais foi assim, não é?  Então você percebe que está perto do
+    porto e pensa: "Será que vale a pena caminhar até lá?".
+  exits:
+    east:
+      target_vnum: '22214'
+  name: Saindo da Floresta
+  vnum: '22213'
+- description: |-
+    E você segue em sua caminhada.  Seu coração está em paz, bem como a sua
+    consciência.  Você sabe que daqui para frente será outra pessoa.  Alguém
+    melhor, mais paciente, mais consciênte de que para muitos é um exemplo.  O
+    vento continua lhe instigando a visitar aqueles que, de alguma forma,
+    serviram de inspiração para a sua própria jornada.  O cheiro do oceano chega
+    às suas narinas, vindos do oeste.  A floresta vai ficando para trás e parece
+    que ao leste existe uma grande festa acontecendo.
+  exits:
+    east:
+      target_vnum: '22215'
+  name: A Caminho do Cais
+  vnum: '22214'
+- description: |-
+    Você acabou de chegar e percebe que uma verdadeira festa parece estar
+    acontecendo aqui.  Todos estão felizes e sorridentes com a chegada de outra
+    figura ilustre, amada e respeitada por todos.  Um grande herói, um grande
+    exemplo.  Não o maior lutador ou o maior mago de todos os tempos, mas um
+    grande desbravador.  Quanta honra poder conhecê-lo, não é?  A sua jornada
+    ainda não terminou e você segue novamente para o sul, pois parece que
+    naquela direção, bem perto dali, outra festa está acontecendo.
+  exits:
+    south:
+      target_vnum: '22216'
+  name: No Cais
+  vnum: '22215'
+- description: |-
+    Que maravilha!!!  A grande multidão parece estar vivendo um grande
+    momento!  Outra festa está acontecendo!  Uma grande fogueira está iluminando
+    tudo.  Comida e bebida à vontade!  Parece que estão comemorando os grandes
+    feitos de alguém.  Você se aproxima, curioso, tentando ouvir o que a turba
+    alegre está festejando.  Então você percebe uma figura nobre, que se destaca
+    em meio a tantas pessoas.  E se emociona, pois está diante de Jasão e seus
+    Argonautas, que acabaram de chegar de mais uma aventura bem sucedida!  Você
+    repete baixinho aquele nome....Jasão...Argonautas....o grande líder destes,
+    que são os melhores marinheiros de todos os mares e sem dúvida, grandes
+    guerreiros também.
+  exits:
+    north:
+      target_vnum: '22215'
+    south:
+      target_vnum: '22217'
+  name: A Comemoração!
+  vnum: '22216'
+- description: |-
+    Você sabe que precisa prosseguir e deixa aquele local com a certeza de
+    que mais uma lição valorosa foi aprendida aqui.  O ar frio traz consigo uma
+    doce sensação de paz.  E mais uma vez o vento parece ser o grande
+    incentivador do seu aprendizado.  Seus passos seguem firmes, confiantes, em
+    direção à floresta.
+  exits:
+    north:
+      target_vnum: '22216'
+    south:
+      target_vnum: '22218'
+  name: Saindo da Festa
+  vnum: '22217'
+- description: |-
+    Você sai do porto e seus passos seguem firmes, em direção à floresta.
+    Seu espírito está confiante, ciente de que o aprendizado é grande, porém
+    precioso e importante.  Uma construção rústica vai surgindo e parece que sua
+    alma de aventureiro o impulsiona em direção sul.
+  exits:
+    south:
+      target_vnum: '22219'
+  name: Deixando o Porto
+  vnum: '22218'
+- description: |-
+    Você está alegre, feliz e seus passos seguem firmes.  Seu espírito está
+    confiante, ciente de que o aprendizado é grande, porém precioso e
+    importante.  Distante, ao sul, uma construção rústica vai surgindo e parece
+    que sua alma de aventureiro está mais viva do que nunca.
+  exits:
+    south:
+      target_vnum: '22220'
+  name: Na Floresta
+  vnum: '22219'
+- description: |-
+    Seus passos seguem firmes, confiantes, cientes de que o aprendizado é
+    grande, porém precioso e importante.  Uma construção rústica está bem
+    próxima e há uma grande excitação em sua alma de aventureiro, como se
+    estivesse prevendo alguma coisa importante que está para acontecer.
+  exits:
+    north:
+      target_vnum: '22219'
+    south:
+      target_vnum: '22221'
+  name: Em Direção à Cabana Rústica
+  vnum: '22220'
+- description: |-
+    Você entra em uma casa muito bem decorada com rica mobília.  Quadros e
+    esculturas enfeitam o lugar e grandes tapeçarias narrando as conquistas e as
+    glórias de inúmeros heróis, foram colocadas por todos os lados, dando ao
+    lugar um aspécto bastante singular.  Você tem a sua atenção atraída por
+    alguns dos quadros.  No primeiro deles, a noite escura envolve por completo
+    um belíssimo lago, em cujas águas se refletem imensa lua prateada.  Em uma
+    de suas margens, pode-se ver um homem em pé, carregando uma espada quebrada.
+    No segundo quadro, a espada quebrada está sendo jogada no lago, pelo homem.
+    E no terceiro, a Dama do Lago está se erguendo, trazendo consigo a mais bela
+    e mais poderosa espada de todos os tempos, para aquele que se transformaria
+    no maior e mais poderoso Rei de todos os tempos.  Você precisa partir...o
+    vento parece estar lhe chamando.
+  exits:
+    north:
+      target_vnum: '22222'
+  name: A Cabana Rústica
+  vnum: '22221'
+- description: "Você deixa aquela casa com a certeza de que mais uma lição valorosa\
+    \ foi\naprendida aqui.  Ã\x89 preciso levar aos outros a sua boa-nova.  Ã\x89\
+    \ preciso\nrepartir o conhecimento e difundí-lo para que assim, todos possam de\
+    \ fato,\nse tornarem irmãos.  O seu velho amigo o vento parece querer lhe dar\
+    \ seus\núltimo conselho e você compreende então, que é preciso antes de mais nada,\n\
+    se tornar exemplo.  Uma suave luz começa a surgir no horizonte e você tem a\n\
+    certeza de que é naquela direção que você precisa ir.  Seus passos seguem\nfirmes,\
+    \ confiantes, na direção daquela luz."
+  exits:
+    north:
+      target_vnum: '50'
+  name: Fora da Cabana Rústica
+  vnum: '22222'

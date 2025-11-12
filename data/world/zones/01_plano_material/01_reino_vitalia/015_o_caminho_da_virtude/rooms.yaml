@@ -1,0 +1,506 @@
+- description: |-
+    Você se encontra em uma pequena estrada que lhe conduz à margem do Rio
+    das Almas Perdidas.  As águas escuras do rio podem ser vistas e ouvidas ao
+    sul daqui.  Olhando para leste e oeste, você vê apenas as paredes dos
+    precipícios rochosos.  Ao norte, um estranho caminho parece guiá-lo direto
+    às profundezas da montanha.
+  exits:
+    north:
+      target_vnum: '1501'
+    south:
+      target_vnum: '5619'
+  name: Uma estrada vinda do Banco
+  vnum: '1500'
+- description: |-
+    Você se encontra em um vazio espiritual, começando um longo e perigoso
+    caminho.  Sua honesta submissão aceita, mas a verdade de seu coração ainda
+    está para ser contada.  Saia daqui agora e não volte até que tenha
+    amadurecido.
+  exits:
+    north:
+      target_vnum: '1502'
+    south:
+      target_vnum: '1500'
+  name: Um Longo Caminho
+  vnum: '1501'
+- description: |-
+    Você pára por algum tempo, gritando de frustração.  Certamente é aquele
+    pecado que poderia ter sido evitado que você se arrepende.  A dor da carne
+    pecadora atinge você.  Algum tempo depois a dor desaparece e o caminho da
+    virtude se revela a sua frente.
+  exits:
+    north:
+      target_vnum: '1503'
+    south:
+      target_vnum: '1501'
+  name: Um Longo Caminho
+  vnum: '1502'
+- description: |-
+    O caminho vai se tornando mais claro, a névoa e a dor dos primeiros
+    passos vão sendo deixados para trás.  Apesar da súbita claridade, sua mente
+    ainda é assombrada pelas imagens de uma velha mulher que se ajoelha em
+    oração, fechando seus olhos, sorrindo e chorando.
+  exits:
+    north:
+      target_vnum: '1504'
+    south:
+      target_vnum: '1502'
+  name: Um Longo Caminho
+  vnum: '1503'
+- description: |-
+    Olhando para a frente, você percebe que o caminho que você tem seguido
+    logo chegará ao fim mas algo no frio e na suave brisa lhe diz que é apenas o
+    início de sua jornada.
+  exits:
+    north:
+      target_vnum: '1505'
+    south:
+      target_vnum: '1503'
+  name: Um Longo Caminho
+  vnum: '1504'
+- description: |-
+    Finalmente é aqui que as decisões devem ser tomadas.  A primeira que
+    confronta você é bastante simples, adentrar na escuridão ou andar pelo
+    caminho da luz.  Apenas as profundezas de sua alma podem decidir mas
+    lembre-se: a mesma verdade jaz no fim dos dois caminhos.
+  exits:
+    down:
+      target_vnum: '1506'
+    up:
+      target_vnum: '1507'
+  name: Um Teste para o Fiel
+  vnum: '1505'
+- description: "AtÃ© mesmo os mais sombrios tem um lugar no caminho para a verdade.\
+    \  Ã\x89\nneste lugar, tão vazio e esquecido, que Deus tem escolhido os piores\
+    \ e os\ntraz para perto si por uma última vez."
+  exits:
+    east:
+      target_vnum: '1513'
+    up:
+      target_vnum: '1505'
+    west:
+      target_vnum: '1508'
+  name: O Corredor dos Esquecidos
+  vnum: '1506'
+- description: |-
+    Foi escrito uma vez, em um antigo pergaminho feito num curioso e fluente
+    idioma, que não há de fato um Deus mas sim "O Criador" e que Mohamed era o
+    último dos seus profetas.  Com esse reconhecimento, tudo mais se torna vazio
+    e sem sentido.
+  exits:
+    down:
+      target_vnum: '1505'
+    east:
+      target_vnum: '1523'
+    west:
+      target_vnum: '1518'
+  name: A Profecia
+  vnum: '1507'
+- description: |-
+    Seja pelo motivo que for, a raiva se converte sempre em arma.  A ira se
+    alimenta com todos seus braços.  Quando um homem nervoso tem sede de sangue,
+    qualquer coisa servirá a ele como lança.  A fúria transforma um graveto em
+    uma espada.
+  exits:
+    east:
+      target_vnum: '1506'
+    north:
+      target_vnum: '1509'
+  name: O Mal Terrestre
+  vnum: '1508'
+- description: |-
+    Alguns foram trazidos aqui não pelo que fizeram, mas pelo que falharam em
+    fazer.  São estas, as pobres almas que foram presenteadas com causas justas
+    e rejeitaram-nas, que merecem a nossa pena mais do que qualquer um.
+  exits:
+    north:
+      target_vnum: '1510'
+    south:
+      target_vnum: '1508'
+  name: Desorientação
+  vnum: '1509'
+- description: |-
+    Velhas lendas contam sobre uma conversa entre o demônio e o profeta
+    Jesus: o demônio lhe oferece um reino, vastas riquezas, a tentação de uma
+    gloriosa pré-morte salva por seus anjos.  Até o Mensageiro de Deus foi
+    forçado a parar e pensar.  Imagine o quão difícil seria para o resto.
+  exits:
+    north:
+      target_vnum: '1511'
+    south:
+      target_vnum: '1509'
+  name: Tentação
+  vnum: '1510'
+- description: |-
+    Ele chamou o povo para a rígida e puritana religião, rigorosamente
+    ditando as horas de reza e as formas mais corretas das palavras dos
+    profetas.  Tudo isso foi fortalecido por seu impecável exemplo, evitando
+    todas as riquezas e seguindo em trapos esfarrapados por sua cidade no lombo
+    de um burro.  Mas apesar de tudo, lembre-se: atrás de portas fechadas todos
+    os homens são hipócritas.
+  exits:
+    north:
+      target_vnum: '1512'
+    south:
+      target_vnum: '1510'
+  name: Hipocrisia
+  vnum: '1511'
+- description: |-
+    Há muito pouca coisa na vida que seja mais fácil e meio mais rápido para
+    se ingressar na danação.  Você dirá um breve agradecimento assim que chegar
+    ao final destas provas mas suas palavras estão submersas em algo muito mais
+    alto, uma prece mecânica que submerge aos seus ouvidos em cólera.  Você ouve
+    o constante repetir de uma mesma frase por inúmeras vezes:
+    "Eu sigo o caminho que a história dita com a garantia cega de um sonâmbulo".
+  exits:
+    north:
+      target_vnum: '1528'
+    south:
+      target_vnum: '1511'
+  name: "Ã\x93dio"
+  vnum: '1512'
+- description: |-
+    Alguns demônios são tangíveis, sólidos e tão evidentes que eles cospem
+    direto em sua cara.  Outros são mais inteligentes, mais sutis e são eles que
+    representam o maior perigo.  Olhando abaixo, o corredor a sua frente, um
+    grande medo preenche seu coração, e um grande e pesado desejo.
+  exits:
+    north:
+      target_vnum: '1514'
+    west:
+      target_vnum: '1506'
+  name: Perigo Espiritual
+  vnum: '1513'
+- description: |-
+    No começo, ele foi o melhor, o mais belo de todos os anjos e a criação
+    mais amada de Deus.  Olhe para sua própria beleza, humana, e faça o que ele
+    não pode.  Olhe para sua beleza, e aprenda a ajoelhar-se!
+  exits:
+    north:
+      target_vnum: '1515'
+    south:
+      target_vnum: '1513'
+  name: A Queda
+  vnum: '1514'
+- description: |-
+    A tentação é o "SE...", a indagação, um segundo pensamento, o "eu serei
+    um homem melhor...  Se..." E isso é usualmente tomado, sentado sozinho,
+    ouvindo aquela voz, chamando você, oferecendo-lhe um caminho tão mais fácil
+    mas tão desonesto.
+  exits:
+    north:
+      target_vnum: '1516'
+    south:
+      target_vnum: '1514'
+  name: Tentação
+  vnum: '1515'
+- description: |-
+    O estrondo de uma grande batalha faz tremer estes corredores, os gemidos
+    da terra estourando às margens do "Fim dos Tempos".  Esteja pronto para este
+    dia, esteja bem preparado e se você não estiver, Ele lhe chamará através de
+    um dos seus.
+  exits:
+    north:
+      target_vnum: '1517'
+    south:
+      target_vnum: '1515'
+  name: "O Ã\x9Altimo Dia"
+  vnum: '1516'
+- description: |-
+    Indescritível horror e dor, uma escuridão densa e pesada que parece
+    sufocar a tudo com a chama da angústia, o fogo inextinguível, vindo não de
+    algum pedaço de madeira ardente ou lava fundida, mas sim do brilho e da dor
+    das horríveis almas torturadas que estão em todos os lugares por onde você
+    caminha.
+  exits:
+    north:
+      target_vnum: '1530'
+    south:
+      target_vnum: '1516'
+  name: A Chama
+  vnum: '1517'
+- description: |-
+    Escorregar para a maldade é fácil porém caminhar por este caminho é o
+    dificílimo. Mesmo os Quatro que você encontrará aqui hoje, se desviaram
+    de seus caminhos pelo menos uma vez em suas vidas e ainda há alguma
+    criatura que amaldiçoa o som de seus nomes. Não obstante, confronte-os
+    agora e deixe que seus atos lhe sirvam de exemplo.
+  exits:
+    east:
+      target_vnum: '1507'
+    north:
+      target_vnum: '1519'
+  name: Luz Terrestre
+  vnum: '1518'
+- description: |-
+    Muitos acreditaram que o profeta nunca mentiria mas quando a total
+    evidência de seu corpo os confrontou, se tornou necessário prover para
+    futuro. Os Quatro que vieram depois são chamados Os Escolhidos, os bem
+    aventurados Califas que podiam propagar a palavra e a luz ao mundo e com
+    isso forjar uma das histórias dos maiores impérios.
+  exits:
+    north:
+      target_vnum: '1520'
+    south:
+      target_vnum: '1518'
+  name: A Luz dos Escolhidos
+  vnum: '1519'
+- description: |-
+    Os primeiros Califas foram escolhidos através de uma consulta do nobre
+    conselho dos anciões, cada um deles, desejando guiar o mundo do Islãm
+    sózinho, votaram para eleger um, dentre aqueles que eles achavam o mais
+    fraco. Cada um era mais nobre e ainda mais virtuoso que o anterior.
+  exits:
+    north:
+      target_vnum: '1521'
+    south:
+      target_vnum: '1519'
+  name: A Luz dos Escolhidos
+  vnum: '1520'
+- description: |-
+    Todo conto majestoso e feliz tem que acabar, normalmente muito cedo,
+    e assim ocorreu com a idade dourada do Califado. Os Escolhidos foram
+    homens puros, homens bons, fiéis para o caminho mas seus seguidores cedo
+    começaram a brigar e uma guerra civil pairava no horizonte.
+  exits:
+    north:
+      target_vnum: '1522'
+    south:
+      target_vnum: '1520'
+  name: A Luz dos Escolhidos
+  vnum: '1521'
+- description: |-
+    O fim da era dos Escolhidos foi o começo do Cisma. As memórias
+    do profeta e o exemplo de vida dos Califas provaram serem insuficientes
+    exemplos para os crentes. Ali morreu e alguns dizem que com ele o Califado
+    morreu também...um mártir, seu sangue ainda flui no rio sem nome.
+  exits:
+    north:
+      target_vnum: '1531'
+    south:
+      target_vnum: '1521'
+  name: A Luz dos Escolhidos
+  vnum: '1522'
+- description: |-
+    Observem: Alá é o Criador, o mais Generoso! Ele não permitiria que seus
+    fiéis andassem no caminho da luz sem orientação. Ele proviu os Profetas,
+    para que a paz estivesse sobre eles, e pelos exemplos de seus próprios
+    crescimentos, deveremos nós encontrar a nossa própria verdade.
+  exits:
+    north:
+      target_vnum: '1524'
+    west:
+      target_vnum: '1507'
+  name: Recompensa Espiritual
+  vnum: '1523'
+- description: |-
+    Na criação do paraíso e da terra e na alternação entre o dia e a noite,
+    há sinais para homens de bom senso. Aqueles que se lembram de Alá dizem:
+    "Senhor, não criastes isso em vão!"
+  exits:
+    north:
+      target_vnum: '1525'
+    south:
+      target_vnum: '1523'
+  name: Criação
+  vnum: '1524'
+- description: |-
+    O anjo Gabriel veio até ele e disse: "Leia!" Ele respondeu: "Mas eu
+    não posso!" A ordem foi repetida três vezes, até que o anjo mesmo leu:
+    "Leia em nome de seu Senhor, que criou o homem através de coágulos de
+    sangue. Enalteça seu Deus, Senhor do Universo."
+  exits:
+    north:
+      target_vnum: '1526'
+    south:
+      target_vnum: '1524'
+  name: Revelação
+  vnum: '1525'
+- description: |-
+    Descrentes! Eu não adoro o que vocês adoram, nem vocês adoram o que
+    eu adoro. Eu nunca deverei adorar o que vocês adoram nem vocês nunca
+    adorarão o que eu adoro. Vocês têm sua própria religião e eu a minha.
+  exits:
+    north:
+      target_vnum: '1527'
+    south:
+      target_vnum: '1525'
+  name: Conversão
+  vnum: '1526'
+- description: |-
+    O equilíbrio já foi feito, a alma colocada em prontidão e as medidas
+    finais tomadas. Para aqueles que chegaram até aqui, certamente este é
+    o dia da imortalidade!
+  exits:
+    north:
+      target_vnum: '1533'
+    south:
+      target_vnum: '1526'
+  name: A Libertação
+  vnum: '1527'
+- description: |-
+    Deus perdoa aqueles que cometeram o mal por ignorância, porque Ele é
+    todo conhecimento e sabedoria. Mas Ele não perdoará aqueles que praticam o
+    mal pelo mal e quando a morte chegar para eles, dirão: "Agora nós nos
+    arrependemos!"   Para estes Nós preparamos um açoite de afliçao.
+  exits:
+    east:
+      target_vnum: '1529'
+    south:
+      target_vnum: '1512'
+    up:
+      target_vnum: '1534'
+  name: O Arrependimento
+  vnum: '1528'
+- description: "Ã\x89 da incumbÃªncia de todos os MuÃ§ulmanos a fazerem a peregrinaÃ§Ã£o\
+    \ para\nMeca pelo menos uma vez em suas vidas, se tiverem condições. E para aqueles\n\
+    que foram infelizes, pois seguiram suas vidas nos mais baixos níveis de\nmaldades,\
+    \ tal peregrinação, se feita com um coração aberto e arrependido,\nlhes trará\
+    \ o perdão total."
+  exits:
+    east:
+      target_vnum: '1530'
+    up:
+      target_vnum: '1535'
+    west:
+      target_vnum: '1528'
+  name: A Peregrinação
+  vnum: '1529'
+- description: |-
+    Está escrito que ninguém pode interceder com Deus em nome de outro.
+    Nenhuma oração de ninguém poderá salvar a alma de um homem condenado. Sua
+    única esperança são suas próprias preces.
+  exits:
+    south:
+      target_vnum: '1517'
+    up:
+      target_vnum: '1536'
+    west:
+      target_vnum: '1529'
+  name: Intercessão
+  vnum: '1530'
+- description: |-
+    Você esteve viajando pelo caminho da virtude e você tem visto os
+    exemplos dos verdadeiros modelos do Profeta. Apenas a jornada final aguarda
+    por você. Viva assim e deverás viver para sempre.
+  exits:
+    down:
+      target_vnum: '1534'
+    east:
+      target_vnum: '1532'
+    south:
+      target_vnum: '1522'
+  name: Alcançando o Superior
+  vnum: '1531'
+- description: |-
+    Quando os registros dos feitos dos homens estiverem abertos e o céu for
+    desnudado; quando o Inferno queimar ferozmente e o Paraíso for trazido
+    para bem perto, então cada alma deverá saber aquilo que fez.
+  exits:
+    down:
+      target_vnum: '1535'
+    east:
+      target_vnum: '1533'
+    west:
+      target_vnum: '1531'
+  name: Alcançando o Superior
+  vnum: '1532'
+- description: |-
+    Você tem viajado pelo caminho da virtude e sua própria jornada tem
+    imitado a evolução da alma mais perfeita de todas. Apenas um caminho final
+    aguarda por você; morra como aquele na sala anterior e sua morte não terá
+    significado nada.
+  exits:
+    down:
+      target_vnum: '1536'
+    south:
+      target_vnum: '1527'
+    west:
+      target_vnum: '1532'
+  name: Alcançando o Superior
+  vnum: '1533'
+- description: |-
+    A última das escuridões se encontra atrás de você; resta apenas o
+    caminho da virtude. Vá adiante de coração aberto. Apenas o penitente
+    poderá encontrar aquilo que eles procuram.
+  exits:
+    down:
+      target_vnum: '1528'
+    east:
+      target_vnum: '1535'
+    up:
+      target_vnum: '1531'
+  name: O Encontro Final
+  vnum: '1534'
+- description: |-
+    A última das escuridões se encontra atrás de você; resta apenas o
+    caminho da virtude. Vá adiante de coração aberto. Apenas o penitente
+    poderá encontrar aquilo que eles procuram.
+  exits:
+    down:
+      target_vnum: '1529'
+    east:
+      target_vnum: '1536'
+    north:
+      target_vnum: '1537'
+    up:
+      target_vnum: '1532'
+    west:
+      target_vnum: '1534'
+  name: O Encontro Final
+  vnum: '1535'
+- description: |-
+    A última das escuridões se encontra atrás de você; resta apenas o
+    caminho da virtude. Vá adiante de coração aberto. Apenas o penitente
+    poderá encontrar aquilo que eles procuram.
+  exits:
+    down:
+      target_vnum: '1530'
+    up:
+      target_vnum: '1533'
+    west:
+      target_vnum: '1535'
+  name: O Encontro Final
+  vnum: '1536'
+- description: |-
+    Oh Compassivo, oh Misericordioso, Soberano do Dia do Julgamento!
+    Só a Vós nós adoramos, e só a Vós nós pedimos ajuda. Guia-nos
+    para o Caminho da Virtude, o caminho daqueles a quem Vós favorecestes,
+    não daqueles que se perderam no caminho.
+  exits:
+    north:
+      target_vnum: '1538'
+    south:
+      target_vnum: '1535'
+  name: O Caminho da Virtude
+  vnum: '1537'
+- description: "Fomos nós usados pela Primeira Criação?  Eles ainda estão em dúvida\n\
+    a respeito da nova criaÃ§Ã£o. NÃ\x93S criamos o homem. NÃ³s sabemos os caminhos\n\
+    de sua alma e estamos mais perto dele do que sua veia jugular."
+  exits:
+    north:
+      target_vnum: '1539'
+    south:
+      target_vnum: '1537'
+  name: Progressão
+  vnum: '1538'
+- description: |-
+    Indubitavelmente o caminho mais estreito é o mais virtuoso. Apenas mais
+    um passo aguardando antes que uma decisão final seja tomada e um lar
+    lhe seja dado para toda a eternidade.
+  exits:
+    north:
+      target_vnum: '1540'
+    south:
+      target_vnum: '1538'
+  name: O Julgamento
+  vnum: '1539'
+- description: "Você finalmente chega ao local de repouso da maioria dos santificados.\n\
+    Uma cristalina e assustadora imagem foi mostrada a você; sete guardiões\ncircundam\
+    \ o trono e todos estÃ£o banhados por uma luz suave e clara. Ã\x89 aqui\nque a\
+    \ escolha final está para ser feita e nenhum desafio seu poderá mudar o\nresultado."
+  exits:
+    south:
+      target_vnum: '1539'
+  name: O Trono Supremo
+  vnum: '1540'

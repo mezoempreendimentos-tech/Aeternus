@@ -1,0 +1,939 @@
+- description: |-
+    Este é o centro das residências de Midgaard.  Você vê casas e mais casas
+    para todos os lados.  A leste, tem uma estrada que leva você de volta ao
+    templo de Midgaard.  Tanto a norte, a sul e a oeste, existem estradas que
+    levam até as residências de Midgaard.
+    Tem uma grande fonte bem no centro da vila, onde os viajantes cansados
+    podem saciar sua sede.
+  exits:
+    east:
+      target_vnum: '1001'
+    north:
+      target_vnum: '1002'
+    south:
+      target_vnum: '1003'
+    west:
+      target_vnum: '1010'
+  name: O Centro da Vila
+  vnum: '1000'
+- description: |-
+    Você está numa estrada pavimentada com granito.  A oeste, você vê a fonte
+    central da zona residencial de Midgaard.  A leste, as escadarias levam de
+    volta à sala de leitura do templo.
+  exits:
+    east:
+      target_vnum: '3000'
+    west:
+      target_vnum: '1000'
+  name: A Estrada da Vila
+  vnum: '1001'
+- description: |-
+    Você está caminhando pela Rua do Luar de Prata.  Esse nome vem de uma das
+    luas de Vitália, Teriany, que brilha com uma cor prateada.  Daqui você não é
+    capaz de ver o final dessa rua.  Para leste e oeste estão as casas 1 e 2, ao
+    sul está o centro da vila, e a rua continua para o norte.
+  exits:
+    east:
+      target_vnum: '1050'
+    north:
+      target_vnum: '1006'
+    south:
+      target_vnum: '1000'
+    west:
+      target_vnum: '1051'
+  name: A Rua do Luar de Prata
+  vnum: '1002'
+- description: |-
+    Você está caminhando pela Rua do Luar de Prata.  Esse nome vem de uma das
+    luas de Vitália, Teriany, que brilha com uma cor prateada.  Daqui você não é
+    capaz de ver o final dessa rua.  Para leste e oeste estão as casas 3 e 4, ao
+    norte está o centro da vila, e a rua continua para o norte.
+  exits:
+    east:
+      target_vnum: '1052'
+    north:
+      target_vnum: '1000'
+    south:
+      target_vnum: '1004'
+    west:
+      target_vnum: '1053'
+  name: A Rua do Luar de Prata
+  vnum: '1003'
+- description: |-
+    Você está caminhando pela Rua do Luar de Prata.  Esse nome vem de uma das
+    luas de Vitália, Teriany, que brilha com uma cor prateada.  Daqui você não é
+    capaz de ver o final dessa rua.  Para leste e oeste estão as casas 5 e 6.  A
+    rua continua para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1054'
+    north:
+      target_vnum: '1003'
+    south:
+      target_vnum: '1005'
+    west:
+      target_vnum: '1055'
+  name: A Rua do Luar de Prata
+  vnum: '1004'
+- description: |-
+    Você está caminhando pela Rua do Luar de Prata.  Esse nome vem de uma das
+    luas de Vitália, Teriany, que brilha com uma cor prateada.  Daqui você não é
+    capaz de ver o final dessa rua.  Para leste e oeste estão as casas 7 e 8.  A
+    rua continua para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1056'
+    north:
+      target_vnum: '1004'
+    south:
+      target_vnum: '1006'
+    west:
+      target_vnum: '1057'
+  name: A Rua do Luar de Prata
+  vnum: '1005'
+- description: |-
+    Você está caminhando pela Rua do Luar de Prata.  Esse nome vem de uma das
+    luas de Vitália, Teriany, que brilha com uma cor prateada.  Daqui você não é
+    capaz de ver o final dessa rua.  Para leste e oeste estão as casas 9 e 10.
+    A rua continua para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1058'
+    north:
+      target_vnum: '1005'
+    south:
+      target_vnum: '1002'
+    west:
+      target_vnum: '1059'
+  name: A Rua do Luar de Prata
+  vnum: '1006'
+- description: |-
+    Você está caminhando pela Rua do Luar de Fogo.  Esse nome vem de uma das
+    luas de Vitália, Latïzie, que brilha com uma cor avermelhada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 1 e
+    2, ao leste está o centro da vila, e a rua continua para o oeste.
+  exits:
+    east:
+      target_vnum: '1000'
+    north:
+      target_vnum: '1060'
+    south:
+      target_vnum: '1061'
+    west:
+      target_vnum: '1011'
+  name: A Rua do Luar de Fogo
+  vnum: '1010'
+- description: |-
+    Você está caminhando pela Rua do Luar de Fogo.  Esse nome vem de uma das
+    luas de Vitália, Latïzie, que brilha com uma cor avermelhada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 3 e
+    4.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1010'
+    north:
+      target_vnum: '1062'
+    south:
+      target_vnum: '1063'
+    west:
+      target_vnum: '1012'
+  name: A Rua do Luar de Fogo
+  vnum: '1011'
+- description: |-
+    Você está caminhando pela Rua do Luar de Fogo.  Esse nome vem de uma das
+    luas de Vitália, Latïzie, que brilha com uma cor avermelhada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 5 e
+    6.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1011'
+    north:
+      target_vnum: '1064'
+    south:
+      target_vnum: '1065'
+    west:
+      target_vnum: '1013'
+  name: A Rua do Luar de Fogo
+  vnum: '1012'
+- description: |-
+    Você está caminhando pela Rua do Luar de Fogo.  Esse nome vem de uma das
+    luas de Vitália, Latïzie, que brilha com uma cor avermelhada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 7 e
+    8.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1012'
+    north:
+      target_vnum: '1066'
+    south:
+      target_vnum: '1067'
+    west:
+      target_vnum: '1014'
+  name: A Rua do Luar de Fogo
+  vnum: '1013'
+- description: |-
+    Você está caminhando pela Rua do Luar de Fogo.  Esse nome vem de uma das
+    luas de Vitália, Latïzie, que brilha com uma cor avermelhada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 9 e
+    10.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1013'
+    north:
+      target_vnum: '1068'
+    south:
+      target_vnum: '1069'
+    west:
+      target_vnum: '1015'
+  name: A Rua do Luar de Fogo
+  vnum: '1014'
+- description: |-
+    Neste ponto se cruzam a Rua do Luar de Fogo, com a Rua da Luz.  A Rua da
+    Luz continua para o norte e para o sul, enquanto a Rua do Luar de Fogo
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '1014'
+    north:
+      target_vnum: '1041'
+    south:
+      target_vnum: '1042'
+    west:
+      target_vnum: '1016'
+  name: Um Cruzamento de Ruas
+  vnum: '1015'
+- description: |-
+    Você chegou ao final da Rua do Luar de Fogo.  Já não há mais casas por
+    aquí, os densos arbustos não lhe permitem continuar caminhando para o oeste.
+  exits:
+    east:
+      target_vnum: '1015'
+  name: O Final da Rua do Luar de Fogo
+  vnum: '1016'
+- description: |-
+    Você está caminhando pela Rua do Luar de Safira.  Esse nome vem de uma
+    das luas de Vitália, Aqrien, que brilha com uma cor azulada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 1 e
+    2, ao leste está o centro da vila, e a rua continua para o oeste.
+  exits:
+    north:
+      target_vnum: '1080'
+    south:
+      target_vnum: '1081'
+    west:
+      target_vnum: '1021'
+  name: A Rua do Luar de Safira
+  vnum: '1020'
+- description: |-
+    Você está caminhando pela Rua do Luar de Safira.  Esse nome vem de uma
+    das luas de Vitália, Aqrien, que brilha com uma cor azulada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 3 e
+    4.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1020'
+    north:
+      target_vnum: '1082'
+    south:
+      target_vnum: '1083'
+    west:
+      target_vnum: '1022'
+  name: A Rua do Luar de Safira
+  vnum: '1021'
+- description: |-
+    Você está caminhando pela Rua do Luar de Safira.  Esse nome vem de uma
+    das luas de Vitália, Aqrien, que brilha com uma cor azulada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 5 e
+    6.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1021'
+    north:
+      target_vnum: '1084'
+    south:
+      target_vnum: '1085'
+    west:
+      target_vnum: '1023'
+  name: A Rua do Luar de Safira
+  vnum: '1022'
+- description: |-
+    Você está caminhando pela Rua do Luar de Safira.  Esse nome vem de uma
+    das luas de Vitália, Aqrien, que brilha com uma cor azulada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 7 e
+    8.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1022'
+    north:
+      target_vnum: '1086'
+    south:
+      target_vnum: '1087'
+    west:
+      target_vnum: '1024'
+  name: A Rua do Luar de Safira
+  vnum: '1023'
+- description: |-
+    Neste ponto se cruzam a Rua do Luar de Safira, com a Rua da Luz.  A Rua
+    da Luz continua para o norte e para o sul, enquanto a Rua do Luar de Safira
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '1023'
+    north:
+      target_vnum: '1040'
+    south:
+      target_vnum: '1041'
+    west:
+      target_vnum: '1025'
+  name: Um Cruzamento de Ruas
+  vnum: '1024'
+- description: |-
+    Você está caminhando pela Rua do Luar de Safira.  Esse nome vem de uma
+    das luas de Vitália, Aqrien, que brilha com uma cor azulada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 9 e
+    10.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1024'
+    north:
+      target_vnum: '1088'
+    south:
+      target_vnum: '1089'
+    west:
+      target_vnum: '1026'
+  name: A Rua do Luar de Safira
+  vnum: '1025'
+- description: |-
+    Você chegou ao final da Rua do Luar de Safira.  Já não há mais casas por
+    aquí, os densos arbustos não lhe permitem continuar caminhando para o oeste.
+  exits:
+    east:
+      target_vnum: '1025'
+  name: O Final da Rua do Luar de Safira
+  vnum: '1026'
+- description: |-
+    Você está caminhando pela Rua do Luar de Jade.  Esse nome vem de uma das
+    luas de Vitália, Kadrictes, que brilha com uma cor esverdeada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 1 e
+    2, ao leste está o centro da vila, e a rua continua para o oeste.
+  exits:
+    north:
+      target_vnum: '1090'
+    south:
+      target_vnum: '1091'
+    west:
+      target_vnum: '1031'
+  name: A Rua do Luar de Jade
+  vnum: '1030'
+- description: |-
+    Você está caminhando pela Rua do Luar de Jade.  Esse nome vem de uma das
+    luas de Vitália, Kadrictes, que brilha com uma cor esverdeada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 3 e
+    4.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1030'
+    north:
+      target_vnum: '1092'
+    south:
+      target_vnum: '1093'
+    west:
+      target_vnum: '1032'
+  name: A Rua do Luar de Jade
+  vnum: '1031'
+- description: |-
+    Você está caminhando pela Rua do Luar de Jade.  Esse nome vem de uma das
+    luas de Vitália, Kadrictes, que brilha com uma cor esverdeada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 5 e
+    6.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1031'
+    north:
+      target_vnum: '1094'
+    south:
+      target_vnum: '1095'
+    west:
+      target_vnum: '1033'
+  name: A Rua do Luar de Jade
+  vnum: '1032'
+- description: |-
+    Você está caminhando pela Rua do Luar de Jade.  Esse nome vem de uma das
+    luas de Vitália, Kadrictes, que brilha com uma cor esverdeada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 7 e
+    8.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1032'
+    north:
+      target_vnum: '1096'
+    south:
+      target_vnum: '1097'
+    west:
+      target_vnum: '1034'
+  name: A Rua do Luar de Jade
+  vnum: '1033'
+- description: |-
+    Neste ponto se cruzam a Rua do Luar de Jade, com a Rua da Luz.  A Rua da
+    Luz continua para o norte e para o sul, enquanto a Rua do Luar de Jade
+    continua para leste e para oeste.
+  exits:
+    east:
+      target_vnum: '1033'
+    north:
+      target_vnum: '1042'
+    south:
+      target_vnum: '1043'
+    west:
+      target_vnum: '1035'
+  name: Um Cruzamento de Ruas
+  vnum: '1034'
+- description: |-
+    Você está caminhando pela Rua do Luar de Jade.  Esse nome vem de uma das
+    luas de Vitália, Kadrictes, que brilha com uma cor esverdeada.  Daqui você
+    não é capaz de ver o final dessa rua.  Para norte e sul estão as casas 9 e
+    10.  A rua continua para o leste e para o oeste.
+  exits:
+    east:
+      target_vnum: '1034'
+    north:
+      target_vnum: '1098'
+    south:
+      target_vnum: '1099'
+    west:
+      target_vnum: '1036'
+  name: A Rua do Luar de Jade
+  vnum: '1035'
+- description: |-
+    Você chegou ao final da Rua do Luar de Jade.  Já não há mais casas por
+    aquí, os densos arbustos não lhe permitem continuar caminhando para o oeste.
+  exits:
+    east:
+      target_vnum: '1035'
+  name: O Final da Rua do Luar de Jade
+  vnum: '1036'
+- description: |-
+    Você está caminhando pela Rua da Luz.  Daqui você não é capaz de ver o
+    final dessa rua.  Para leste e oeste estão as casas 1 e 2.  A rua continua
+    para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1070'
+    north:
+      target_vnum: '1044'
+    south:
+      target_vnum: '1024'
+    west:
+      target_vnum: '1071'
+  name: A Rua da Luz
+  vnum: '1040'
+- description: |-
+    Você está caminhando pela Rua da Luz.  Daqui você não é capaz de ver o
+    final dessa rua.  Para leste e oeste estão as casas 3 e 4.  A rua continua
+    para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1072'
+    north:
+      target_vnum: '1024'
+    south:
+      target_vnum: '1015'
+    west:
+      target_vnum: '1073'
+  name: A Rua da Luz
+  vnum: '1041'
+- description: |-
+    Você está caminhando pela Rua da Luz.  Daqui você não é capaz de ver o
+    final dessa rua.  Para leste e oeste estão as casas 5 e 6.  A rua continua
+    para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1074'
+    north:
+      target_vnum: '1015'
+    south:
+      target_vnum: '1034'
+    west:
+      target_vnum: '1075'
+  name: A Rua da Luz
+  vnum: '1042'
+- description: |-
+    Você está caminhando pela Rua da Luz.  Daqui você não é capaz de ver o
+    final dessa rua.  Para leste e oeste estão as casas 7 e 8.  A rua continua
+    para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1076'
+    north:
+      target_vnum: '1034'
+    south:
+      target_vnum: '1044'
+    west:
+      target_vnum: '1077'
+  name: A Rua da Luz
+  vnum: '1043'
+- description: |-
+    Você está caminhando pela Rua da Luz.  Daqui você não é capaz de ver o
+    final dessa rua.  Para leste e oeste estão as casas 9 e 10.  A rua continua
+    para o norte e para o sul.
+  exits:
+    east:
+      target_vnum: '1078'
+    north:
+      target_vnum: '1043'
+    south:
+      target_vnum: '1040'
+    west:
+      target_vnum: '1079'
+  name: A Rua da Luz
+  vnum: '1044'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 1.
+  exits:
+    west:
+      target_vnum: '1002'
+  name: A Casa 1 da Rua do Luar de Prata
+  vnum: '1050'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 2.
+  exits:
+    east:
+      target_vnum: '1002'
+  name: A Casa 2 da Rua do Luar de Prata
+  vnum: '1051'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 3.
+  exits:
+    west:
+      target_vnum: '1003'
+  name: A Casa 3 da Rua do Luar de Prata
+  vnum: '1052'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 4.
+  exits:
+    east:
+      target_vnum: '1003'
+  name: A Casa 4 da Rua do Luar de Prata
+  vnum: '1053'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 5.
+  exits:
+    west:
+      target_vnum: '1004'
+  name: A Casa 5 da Rua do Luar de Prata
+  vnum: '1054'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 6.
+  exits:
+    east:
+      target_vnum: '1004'
+  name: A Casa 6 da Rua do Luar de Prata
+  vnum: '1055'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 7.
+  exits:
+    west:
+      target_vnum: '1005'
+  name: A Casa 7 da Rua do Luar de Prata
+  vnum: '1056'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 8.
+  exits:
+    east:
+      target_vnum: '1005'
+  name: A Casa 8 da Rua do Luar de Prata
+  vnum: '1057'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 9.
+  exits:
+    west:
+      target_vnum: '1006'
+  name: A Casa 9 da Rua do Luar de Prata
+  vnum: '1058'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Prata, número 10.
+  exits:
+    east:
+      target_vnum: '1006'
+  name: A Casa 10 da Rua do Luar de Prata
+  vnum: '1059'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 1.
+  exits:
+    south:
+      target_vnum: '1010'
+  name: A Casa 1 da Rua do Luar de Fogo
+  vnum: '1060'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 2.
+  exits:
+    north:
+      target_vnum: '1010'
+  name: A Casa 2 da Rua do Luar de Fogo
+  vnum: '1061'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 3.
+  exits:
+    south:
+      target_vnum: '1011'
+  name: A Casa 3 da Rua do Luar de Fogo
+  vnum: '1062'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 4.
+  exits:
+    north:
+      target_vnum: '1011'
+  name: A Casa 4 da Rua do Luar de Fogo
+  vnum: '1063'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 5.
+  exits:
+    south:
+      target_vnum: '1012'
+  name: A Casa 5 da Rua do Luar de Fogo
+  vnum: '1064'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 6.
+  exits:
+    north:
+      target_vnum: '1012'
+  name: A Casa 6 da Rua do Luar de Fogo
+  vnum: '1065'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 7.
+  exits:
+    south:
+      target_vnum: '1013'
+  name: A Casa 7 da Rua do Luar de Fogo
+  vnum: '1066'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 8.
+  exits:
+    north:
+      target_vnum: '1013'
+  name: A Casa 8 da Rua do Luar de Fogo
+  vnum: '1067'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 9.
+  exits:
+    south:
+      target_vnum: '1014'
+  name: A Casa 9 da Rua do Luar de Fogo
+  vnum: '1068'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Fogo, número 10.
+  exits:
+    north:
+      target_vnum: '1014'
+  name: A Casa 10 da Rua do Luar de Fogo
+  vnum: '1069'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 1.
+  exits:
+    west:
+      target_vnum: '1040'
+  name: A Casa 1 da Rua da Luz
+  vnum: '1070'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 2.
+  exits:
+    east:
+      target_vnum: '1040'
+  name: A Casa 2 da Rua da Luz
+  vnum: '1071'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 3.
+  exits:
+    west:
+      target_vnum: '1041'
+  name: A Casa 3 da Rua da Luz
+  vnum: '1072'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 4.
+  exits:
+    east:
+      target_vnum: '1041'
+  name: A Casa 4 da Rua da Luz
+  vnum: '1073'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 5.
+  exits:
+    west:
+      target_vnum: '1042'
+  name: A Casa 5 da Rua da Luz
+  vnum: '1074'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 6.
+  exits:
+    east:
+      target_vnum: '1042'
+  name: A Casa 6 da Rua da Luz
+  vnum: '1075'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 7.
+  exits:
+    west:
+      target_vnum: '1043'
+  name: A Casa 7 da Rua da Luz
+  vnum: '1076'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 8.
+  exits:
+    east:
+      target_vnum: '1043'
+  name: A Casa 8 da Rua da Luz
+  vnum: '1077'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 9.
+  exits:
+    west:
+      target_vnum: '1044'
+  name: A Casa 9 da Rua da Luz
+  vnum: '1078'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua da Luz, número 10.
+  exits:
+    east:
+      target_vnum: '1044'
+  name: A Casa 10 da Rua da Luz
+  vnum: '1079'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 1.
+  exits:
+    south:
+      target_vnum: '1020'
+  name: A Casa 1 da Rua do Luar de Safira
+  vnum: '1080'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 2.
+  exits:
+    north:
+      target_vnum: '1020'
+  name: A Casa 2 da Rua do Luar de Safira
+  vnum: '1081'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 3.
+  exits:
+    south:
+      target_vnum: '1021'
+  name: A Casa 3 da Rua do Luar de Safira
+  vnum: '1082'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 3.
+  exits:
+    north:
+      target_vnum: '1021'
+  name: A Casa 4 da Rua do Luar de Safira
+  vnum: '1083'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 5.
+  exits:
+    south:
+      target_vnum: '1022'
+  name: A Casa 5 da Rua do Luar de Safira
+  vnum: '1084'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 6.
+  exits:
+    north:
+      target_vnum: '1022'
+  name: A Casa 6 da Rua do Luar de Safira
+  vnum: '1085'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 7.
+  exits:
+    south:
+      target_vnum: '1023'
+  name: A Casa 7 da Rua do Luar de Safira
+  vnum: '1086'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 8.
+  exits:
+    north:
+      target_vnum: '1023'
+  name: A Casa 8 da Rua do Luar de Safira
+  vnum: '1087'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 9.
+  exits:
+    south:
+      target_vnum: '1025'
+  name: A Casa 9 da Rua do Luar de Safira
+  vnum: '1088'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Safira, número 10.
+  exits:
+    north:
+      target_vnum: '1025'
+  name: A Casa 10 da Rua do Luar de Safira
+  vnum: '1089'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 1.
+  exits:
+    south:
+      target_vnum: '1030'
+  name: A Casa 1 da Rua do Luar de Jade
+  vnum: '1090'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 2.
+  exits:
+    north:
+      target_vnum: '1030'
+  name: A Casa 2 da Rua do Luar de Jade
+  vnum: '1091'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 3.
+  exits:
+    south:
+      target_vnum: '1031'
+  name: A Casa 3 da Rua do Luar de Jade
+  vnum: '1092'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 4.
+  exits:
+    north:
+      target_vnum: '1031'
+  name: A Casa 4 da Rua do Luar de Jade
+  vnum: '1093'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 5.
+  exits:
+    south:
+      target_vnum: '1032'
+  name: A Casa 5 da Rua do Luar de Jade
+  vnum: '1094'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 6.
+  exits:
+    north:
+      target_vnum: '1032'
+  name: A Casa 6 da Rua do Luar de Jade
+  vnum: '1095'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 7.
+  exits:
+    south:
+      target_vnum: '1033'
+  name: A Casa 7 da Rua do Luar de Jade
+  vnum: '1096'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 8.
+  exits:
+    north:
+      target_vnum: '1033'
+  name: A Casa 8 da Rua do Luar de Jade
+  vnum: '1097'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 9.
+  exits:
+    south:
+      target_vnum: '1035'
+  name: A Casa 9 da Rua do Luar de Jade
+  vnum: '1098'
+- description: |-
+    Você está dentro de uma casa.  Tudo por aquí é muito simples.  A única
+    saída é a porta que lhe levará devolta para a rua.  O endereço desta casa é
+    Rua do Luar de Jade, número 10.
+  exits:
+    north:
+      target_vnum: '1035'
+  name: A Casa 10 da Rua do Luar de Jade
+  vnum: '1099'

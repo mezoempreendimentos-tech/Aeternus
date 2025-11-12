@@ -1,0 +1,667 @@
+- description: |-
+    Você move-se vagarosamente através das verdes videiras e da espessa grama
+    Que cobre o chão do vale.  Parece que este lugar não tem recebido pessoas
+    há décadas.  A sul, a terra eleva-se até um paredão coberto de vegetação,
+    onde apenas um buraco se destaca.  A leste a vegetação abre-se para um
+    caminho que leva a uma estranha encosta de pedra.
+  exits:
+    east:
+      target_vnum: '1701'
+    south:
+      target_vnum: '1758'
+  name: Um Vale Selvagem
+  vnum: '1700'
+- description: |-
+    Você para diante da forma petrificada do Dragão Ancalador.  Você ainda
+    pode perceber seu ódio da terra, que um dia foi sua.  Uma vaga sensação de
+    maldade emana do ser petrificado, que um dia aterrorizou nações.
+  exits:
+    east:
+      target_vnum: '1702'
+    west:
+      target_vnum: '1700'
+  name: Diante do Dragão
+  vnum: '1701'
+- description: |-
+    Fileiras de dentes de pedra tão grandes que formam muros estão aqui.  Uma
+    língua marcada com pedras está a leste,  atrás molares de pedra tão
+    grandes quanto escudos de ferro.
+  exits:
+    east:
+      target_vnum: '1703'
+    west:
+      target_vnum: '1701'
+  name: Na Boca do Dragão
+  vnum: '1702'
+- description: |-
+    Você está atrás da boca do dragão.  A garganta continua para baixo e
+    algo transpira do peito petrificado.
+  exits:
+    down:
+      target_vnum: '1704'
+    west:
+      target_vnum: '1702'
+  name: Pelas Amígdalas de Pedra
+  vnum: '1703'
+- description: |-
+    O chão é irregular -- o meio da passagem é mais baixo que os lados, que
+    crescem como muros.  A passagem como um todo é ligeiramente inclinada,
+    levando para o leste e para baixo.
+  exits:
+    down:
+      target_vnum: '1705'
+    up:
+      target_vnum: '1703'
+  name: Uma Garganta de Pedra
+  vnum: '1704'
+- description: |-
+    O túnel começa a perder sua inclinação, seguinto simplesmente na direção
+    leste.  As formas do que pode ser músculos petrificados cobrem as paredes.
+  exits:
+    east:
+      target_vnum: '1706'
+    up:
+      target_vnum: '1704'
+  name: Ainda Mais nas Profundezas da Garganta
+  vnum: '1705'
+- description: |-
+    Você está numa junção de quatro caminhos.  A garganta do dragão continua
+    a leste e oeste, mas na espremedura abaixo há  um lábio petrificado, você
+    pode perceber túneis ao norte e ao sul.
+  exits:
+    east:
+      target_vnum: '1755'
+    north:
+      target_vnum: '1707'
+    south:
+      target_vnum: '1710'
+    west:
+      target_vnum: '1705'
+  name: Uma Junção
+  vnum: '1706'
+- description: |-
+    Essa passagem circular de pedra encurva-se gradualmente para cima, é um
+    lugar muito iluminado e quente.
+  exits:
+    south:
+      target_vnum: '1706'
+    up:
+      target_vnum: '1708'
+  name: Um Túnel de Pedra
+  vnum: '1707'
+- description: Chamas antigas queimam aqui, esperando o renascimento de seu mestre.
+  exits:
+    down:
+      target_vnum: '1707'
+  name: Um Pulmão do Dragão
+  vnum: '1708'
+- description: |-
+    Palvras mágicas, que brilham com uma luz azul, estão cravadas nas paredes
+    de pedra da câmara do coração de Ancalador.  A pureza da mágica contém
+    o mal e forma uma sagrada balança de Neutralidade.  Parece que uma música
+    amorosa está tocando aqui.
+  exits:
+    north:
+      target_vnum: '1755'
+  name: O Coração do Dragão
+  vnum: '1709'
+- description: |-
+    Essa passagem de pedra é iluminada por uma grande luz e um calor violento
+    parece vir do final da passagem.
+  exits:
+    north:
+      target_vnum: '1706'
+    up:
+      target_vnum: '1711'
+  name: Um Túnel de Pedra
+  vnum: '1710'
+- description: |-
+    Os fogos nucleares que energizavam o dragão com sua apavorante respiração
+    estão aqui, e eles estão latentes a muito tempo, eles queimam você
+    lentamente e fazem você arrepender-se de estar usando uma armadura de metal.
+  exits:
+    down:
+      target_vnum: '1710'
+  name: Um Pulmão do Dragão
+  vnum: '1711'
+- description: |-
+    A garganta de Ancalador acaba, revelando uma enorme caverna iluminada por
+    assustadoras e difusas luzes verdes e amarelas.  Nada mais maravilhoso!  Uma
+    ponte de madeira transpõe a caverna coberta por estalactites.  Um degrau
+    abaixo leva, com segurança, ao chão da caverna, e a ponte segue a leste.
+  exits:
+    down:
+      target_vnum: '1720'
+    east:
+      target_vnum: '1713'
+    west:
+      target_vnum: '1755'
+  name: Estômago de Ancalador
+  vnum: '1712'
+- description: |-
+    Você não pode imaginar quem construiria uma ponte nesta fantástica
+    caverna.  Grandes estalagmites crescem enquanto as assustadoras luzes
+    parecem mover-se na névoa ao longe.  A ponte continua para o leste.
+  exits:
+    down:
+      target_vnum: '1716'
+    east:
+      target_vnum: '1714'
+    west:
+      target_vnum: '1712'
+  name: Uma Ponte de Madeira
+  vnum: '1713'
+- description: |-
+    Você está no meio da ponte de madeira.  Grandes estalagmites crescem ao
+    seu redor e as luzes assustadoras continuam a dançar na névoa ao longe.
+    A ponte continua para o leste e para o oeste.
+  exits:
+    down:
+      target_vnum: '1716'
+    east:
+      target_vnum: '1715'
+    west:
+      target_vnum: '1713'
+  name: Uma Ponte de Madeira
+  vnum: '1714'
+- description: |-
+    A floresta aqui é velha, semelhante ao resto da ponte. As mortais
+    estalagmites continuam ao longe e mais luzes verdes e amarelas podem ser
+    vistas na névoa ao longe.  A ponte acaba num pequeno planalto a leste.
+  exits:
+    down:
+      target_vnum: '1716'
+    east:
+      target_vnum: '1726'
+    west:
+      target_vnum: '1714'
+  name: Uma Ponte de Madeira
+  vnum: '1715'
+- description: |-
+    Você mergulha na ponte de madeira e encontra-se grudado entre várias
+    estalagmites.  Mover-se machuca muito, e você não consegue lembrar-se de
+    nenhuma mágica para escapar dessa situação.
+  exits: {}
+  name: Uma Floresta de Estalagmite
+  vnum: '1716'
+- description: |-
+    Estalagmites afiadas encontram-se aqui, criadas por pingos de mineral
+    que caem das estalactites acima.  Poças de ácido preenchem cada fenda do
+    duro chão da caverna.  A caverna continua para o sul e leste.
+  exits:
+    east:
+      target_vnum: '1718'
+    south:
+      target_vnum: '1720'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1717'
+- description: |-
+    As Estalagmites daqui são grandes e de tom arco-íris.  Poças de ácido
+    gástrico estão espalhadas pelo chão.  A caverna expande-se em todas as
+    direções exceto ao norte.
+  exits:
+    east:
+      target_vnum: '1719'
+    south:
+      target_vnum: '1721'
+    west:
+      target_vnum: '1717'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1718'
+- description: |-
+    Afiadas estalagmites crescem, criadas por pingos de mineral que caem das
+    estalactites acima.  Poças de ácido preenchem cada fenda do duro chão da
+    caverna.
+  exits:
+    south:
+      target_vnum: '1722'
+    west:
+      target_vnum: '1718'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1719'
+- description: |-
+    Você para em frente a uma maravilhosa visão.  Escondido entre a névoa no
+    chão da caverna está uma floresta, de forma diferente, estalagmites afiadas
+    rodeadas por poças de algo que deve ser os restos de ácido gástrico do
+    dragão.
+  exits:
+    east:
+      target_vnum: '1721'
+    north:
+      target_vnum: '1717'
+    south:
+      target_vnum: '1723'
+    up:
+      target_vnum: '1712'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1720'
+- description: |-
+    Você está no centro da caverna do estômago do dragão.  Uma ponte de
+    madeira aparece ao longe.  Afiadas estalagmites equilibram-se aqui
+    encontrando cada pingo que é lançado sobre elas.
+  exits:
+    east:
+      target_vnum: '1722'
+    north:
+      target_vnum: '1718'
+    south:
+      target_vnum: '1724'
+    west:
+      target_vnum: '1720'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1721'
+- description: |-
+    As estalagmites aqui são grandes e têm um tom de arco-íris.  Poças de
+    ácido gástrico estão espalhadas pelo chão.  Um degrau leva a um grande
+    planalto no fim da caverna.
+  exits:
+    north:
+      target_vnum: '1719'
+    south:
+      target_vnum: '1725'
+    west:
+      target_vnum: '1721'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1722'
+- description: |-
+    Névoa gira ao redor de um estranho ovo de casca de cristal.  A caverna
+    continua para o norte e para o leste.
+  exits:
+    east:
+      target_vnum: '1724'
+    north:
+      target_vnum: '1720'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1723'
+- description: |-
+    Afiadas estalagmites crescem, criadas por pingos de mineral que caem das
+    estalactites acima.  Poças de ácido preenchem cada fenda do duro chão da
+    caverna.
+  exits:
+    east:
+      target_vnum: '1725'
+    north:
+      target_vnum: '1721'
+    west:
+      target_vnum: '1723'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1724'
+- description: |-
+    As estalagmites aqui são grandes e têm um tom de arco-íris.  Poças de
+    ácido gástrico estão espalhadas pelo chão.  A caverna continua para norte e
+    oeste.
+  exits:
+    north:
+      target_vnum: '1722'
+    west:
+      target_vnum: '1724'
+  name: "A Floresta Ã\x81cida"
+  vnum: '1725'
+- description: |-
+    A ponte de madeira acaba aqui, num grande planalto acima do chão da
+    caverna.  O planalto tem uma vista panorâmica, por completo, da floresta de
+    ácido e pedra ao longe.  Um túnel na parede da caverna ao leste foi escorado
+    por uma parede de gesso e ossos.  Duas grandes portas com maçanetas de
+    caveira foram colocadas aqui.
+  exits:
+    down:
+      target_vnum: '1722'
+    east:
+      target_vnum: '1756'
+    west:
+      target_vnum: '1715'
+  name: O Fim do Estomâgo
+  vnum: '1726'
+- description: |-
+    Você está numa câmara de forma estranha, o mais forte orgão de Ancalador.
+    Uma luz amarelada ilumina a sala.  O pressentimento de maldade é grande
+    aqui, pode-se ler um aviso que diz, 'Memento Mori', ou na nossa língua,
+    'Lembre-se de Morrer'.  A câmara ainda continua para o leste e para baixo.
+  exits:
+    down:
+      target_vnum: '1749'
+    east:
+      target_vnum: '1745'
+    north:
+      target_vnum: '1756'
+  name: O Pâncreas do Dragão
+  vnum: '1727'
+- description: |-
+    Você entrou num túnel monótono que deve ser o começo do intestino delgado
+    do dragão.  Pequenas pilhas de caveiras humanas e restos de armaduras foram
+    deixados aqui.  O túnel continua para norte e para o oeste um túnel pode ser
+    visto.
+  exits:
+    north:
+      target_vnum: '1729'
+    west:
+      target_vnum: '1756'
+  name: O Intestino Delgado
+  vnum: '1728'
+- description: O túnel segue para o sul e para o leste.
+  exits:
+    east:
+      target_vnum: '1730'
+    south:
+      target_vnum: '1728'
+  name: O Intestino Delgado
+  vnum: '1729'
+- description: O tranquilo túnel encurva-se para o oeste e para o norte.
+  exits:
+    south:
+      target_vnum: '1731'
+    west:
+      target_vnum: '1729'
+  name: O Intestino Delgado
+  vnum: '1730'
+- description: As paredes claras do túnel correm para o norte e para o sul.
+  exits:
+    north:
+      target_vnum: '1730'
+    south:
+      target_vnum: '1732'
+  name: O Intestino Delgado
+  vnum: '1731'
+- description: O Túnel vem do norte e mergulha penetrantemente para baixo.
+  exits:
+    down:
+      target_vnum: '1733'
+    north:
+      target_vnum: '1731'
+  name: O Intestino Delgado
+  vnum: '1732'
+- description: |-
+    O descaracterizado túnel leva para o norte e para cima.  Sons ecoam das
+    claras paredes, você não pode dizer se estão longe ou perto.
+  exits:
+    north:
+      target_vnum: '1734'
+    up:
+      target_vnum: '1732'
+  name: O Intestino Delgado
+  vnum: '1733'
+- description: |-
+    Pilhas de equipamento quebrado, de aventureiros há muito tempo mortos,
+    foram armazenadas aqui.  O túnel corre para o norte e para o sul.
+  exits:
+    north:
+      target_vnum: '1735'
+    south:
+      target_vnum: '1733'
+  name: O Intestino Delgado
+  vnum: '1734'
+- description: |-
+    O túnel encurva-se do sul para o leste.  Você imagina que muitos restos,
+    de bravos guerreiros que desafiaram o dragão, podem estar aqui dilacerados
+    e estragados.
+  exits:
+    east:
+      target_vnum: '1736'
+    south:
+      target_vnum: '1734'
+  name: O Intestino Delgado
+  vnum: '1735'
+- description: As paredes claras do túnel seguem para o leste e para o sul.
+  exits:
+    south:
+      target_vnum: '1737'
+    west:
+      target_vnum: '1735'
+  name: O Intestino Delgado
+  vnum: '1736'
+- description: O tranquilo túnel estreita-se, ao sul daqui, num novo túnel.
+  exits:
+    north:
+      target_vnum: '1736'
+    south:
+      target_vnum: '1738'
+  name: O Intestino Delgado
+  vnum: '1737'
+- description: |-
+    Diferente do intestino delgado, as paredes aqui têm fendas.  Elas são
+    ásperas e sujas.
+  exits:
+    east:
+      target_vnum: '1739'
+    north:
+      target_vnum: '1737'
+  name: O Intestino Grosso
+  vnum: '1738'
+- description: |-
+    O cheiro de lixo é forte nesta parte do túnel que corre para o oeste e
+    para o norte.
+  exits:
+    north:
+      target_vnum: '1740'
+    west:
+      target_vnum: '1738'
+  name: O Intestino Grosso
+  vnum: '1739'
+- description: |-
+    As ásperas paredes do túnel arranham sua armadura e corta sua pele
+    desprotegida quando você segue para o norte ou para o sul.
+  exits:
+    north:
+      target_vnum: '1741'
+    south:
+      target_vnum: '1739'
+  name: O Intestino Grosso
+  vnum: '1740'
+- description: |-
+    O túnel segue para o leste mas você acha muitos apoios entre a
+    sujeira.
+  exits:
+    east:
+      target_vnum: '1742'
+    south:
+      target_vnum: '1740'
+  name: O Intestino Grosso
+  vnum: '1741'
+- description: O áspero e rachado túnel estreita-se para o sul.
+  exits:
+    south:
+      target_vnum: '1743'
+    west:
+      target_vnum: '1741'
+  name: O Intestino Grosso
+  vnum: '1742'
+- description: |-
+    Você está num túnel estreito, pode-se andar sem bater sua cabeça no teto.
+    Uma brisa do sul levanta a poeira e você começa a acreditar que está longe
+    de estar seguro.
+  exits:
+    east:
+      target_vnum: '1744'
+    north:
+      target_vnum: '1742'
+  name: Uma Sfíncter de Pedra
+  vnum: '1743'
+- description: |-
+    Você nunca tinha ficado tão feliz por ter visto a luz do dia!  Você está
+    no rabo de pedra do dragão, que é coberto de verdes videiras e pequenas
+    violetas.  Os pássaros cantam e você pode perceber um desfalecido pátio
+    para o sul, deixando o monte do dragão.  Uma poste indicador em forma de
+    caveira aponta para um caminho pouco usado ao norte.  Há uma grande porção
+    de terra, estrategicamente colocada,para bloquear o caminho para o norte.
+  exits:
+    south:
+      target_vnum: '1701'
+    west:
+      target_vnum: '1743'
+  name: No Rabo do Dragão
+  vnum: '1744'
+- description: |-
+    Arbustos balançando e palmeiras tremorosas rodeiam algumas árvores
+    esqueléticas que formam este horrendo jardim.  A vida, esconde-se nas
+    deformadas paredes da câmara, parece que todas morreram e voltaram da morte
+    de algum modo.  Uma parede abre-se no orgão petrificado levando para o
+    oeste e para baixo.
+  exits:
+    down:
+      target_vnum: '1750'
+    west:
+      target_vnum: '1727'
+  name: Um Jardim Morto-Vivo
+  vnum: '1745'
+- description: |-
+    Esta pequena sala parece ter sido cavada com as mãos de dentro do
+    pâncreas de Ancalador.  Ela tem alguns confortos, como uma confortável
+    cama e um pequeno bancada de alquimista, mas se o dragão algum dia
+    libertar-se de sua prisão de pedra, ele ficará bastante infeliz com essa
+    situação.  A única saída é para o oeste.
+  exits:
+    west:
+      target_vnum: '1747'
+  name: As Câmaras Privadas
+  vnum: '1746'
+- description: |-
+    Você está numa ampla e circular saliência olhando um grande pedaço de
+    pedra na câmara abaixo.  Assentos crus são feitos de rocha porosa e as
+    paredes são decoradas com vários ossos serrados e um pouco de sangue,
+    'Preso sem direito a fiança.' Uma porta de tampa de caixão foi posta na parede
+    a leste, enquanto degraus cortam a rocha ao oeste e abaixo.
+  exits:
+    down:
+      target_vnum: '1751'
+    east:
+      target_vnum: '1746'
+    west:
+      target_vnum: '1748'
+  name: O Anfiteatro Macabro
+  vnum: '1747'
+- description: |-
+    Você está num pequeno santuário em homenagem ao 'Pálido Padre das
+    Pessoas Mudas'.  Aqui, o tirano Grim do inferno é desejado como um princípio
+    de inspiração e sabedoria aos membros da guilda.  A paredes da câmara abrem
+    para as saídas ao leste e para baixo.
+  exits:
+    down:
+      target_vnum: '1752'
+    east:
+      target_vnum: '1747'
+  name: O Templo da Morte
+  vnum: '1748'
+- description: |-
+    O fedor dessa câmara de armazenagem faz você ficar tonto por um tempo.
+    Após a náusea ter passado você percebe cadáveres conservados a frio, em
+    montes, nas paredes de pedra.  Barris de poeira e garrafas de sangue enchem
+    a sala. Na parede, marcado com tinta preta, está rabiscado 'Os sonos sem
+    sonhos.'  A câmara acaba para cima ou para o sul.
+  exits:
+    south:
+      target_vnum: '1752'
+    up:
+      target_vnum: '1727'
+  name: Armazenagem Fria
+  vnum: '1749'
+- description: |-
+    A câmara feita de uma pedra muito dura está totalmente vazia exceto por
+    um anel de ferro posto no centro.  Uma grande e pesada corrente com um
+    colar em cada ponta está preso a corrente. Numa pequena inscrição no colar
+    lê-se 'Quietus.'
+  exits:
+    south:
+      target_vnum: '1751'
+    up:
+      target_vnum: '1745'
+  name: O Canil dos Mortos
+  vnum: '1750'
+- description: |-
+    Esta câmara circular é dominada por um grande pedaço de pedra no centro
+    que parece conter incontáveis manchas de horríveis experiências. O trabalho
+    cruel que é executado aqui é geralmente observado do anfiteatro por
+    aprendizes da guilda e patronos.
+  exits:
+    north:
+      target_vnum: '1750'
+    up:
+      target_vnum: '1747'
+  name: A Sala de Operações
+  vnum: '1751'
+- description: |-
+    Esta é a maior câmara do pâncreas de Ancalador.  Uma longa mesa de
+    banquetes feita de caixões apertados uns contra os outros enche a longa
+    sala.  Na parede, está escrito, com algo que parece ser sangue de demônio,
+    'Um débito que todos nós devemos pagar.'  Um par de portas de tampa de
+    caixão está a oeste, e outras saídas estão ao norte e para cima.
+  exits:
+    north:
+      target_vnum: '1749'
+    up:
+      target_vnum: '1748'
+    west:
+      target_vnum: '1753'
+  name: A Sala da Guilda
+  vnum: '1752'
+- description: |-
+    Você para em frente ao horrível Altar da Aniquilação onde a mágica e o
+    poder da extinção e da dissolução são altamente explorados.  Você pode
+    sentir as incontáveis cerimônias de extinção que foram executadas aqui,
+    como trevas que impregnam o altar, que parece uma grande gaiola feita de
+    costelas e no centro está a caveira de um demônio.  Em frente ao altar está
+    uma grade de ferro preta que cobre um poço escuro onde a ruína da vida é
+    glorificada em sacrifício.
+  exits:
+    down:
+      target_vnum: '1754'
+    east:
+      target_vnum: '1752'
+  name: O Altar da Aniquilação
+  vnum: '1753'
+- description: |-
+    O mal deste lugar procura extinguir sua luz quando as trevas sugam uma
+    alma maléfica.  Você conhece o verdadeiro medo quando algo move-se na
+    escuridão... em sua direção.
+  exits:
+    up:
+      target_vnum: '1753'
+  name: O Poço Escuro
+  vnum: '1754'
+- description: |-
+    A garganta do dragão continua para leste e oeste para um pátio que nem
+    sobe nem desce.  A parede sul, leva ao lado esquerdo do dragão, um calor
+    pode ser sentido, seguido por um sentimento de pura maldade.
+  exits:
+    east:
+      target_vnum: '1712'
+    west:
+      target_vnum: '1706'
+  name: Um Túnel de Pedra
+  vnum: '1755'
+- description: |-
+    Você está num túnel de pedra circular.  As paredes são irregulares e
+    rachadas.  O túnel continua para leste e oeste.
+  exits:
+    east:
+      target_vnum: '1728'
+    south:
+      target_vnum: '1727'
+    west:
+      target_vnum: '1726'
+  name: Um Corredor de Pedra
+  vnum: '1756'
+- description: |-
+    Você descobriu uma passagem secreta na lareira das ruínas e acabou
+    escorregando por uma espécie de tobogã que passa por um túnel escuro e
+    abafado.  O túnel termina, repentinamente, em uma estreita passagem circular
+    com alguma iluminação, a norte.  Uma escada feita de corda, ao lado dessa
+    passagem, permite que você escale de volta à passagem que o trouxe até aqui.
+  exits:
+    north:
+      target_vnum: '1758'
+    up:
+      target_vnum: '5999'
+  name: Além da Lareira
+  vnum: '1757'
+- description: |-
+    Você caminha, com dificuldade, pelos metros finais do túnel, agora plano
+    mas ainda encharcado por água enlameada.  A passagem parece dar,
+    inesperadamente, em um vale que se extende por todo norte.  O túnel fica a
+    sul.
+  exits:
+    north:
+      target_vnum: '1700'
+    south:
+      target_vnum: '1757'
+  name: A Passagem
+  vnum: '1758'

@@ -1,0 +1,282 @@
+#7000
+monstro lamacento lama~
+o horripilante Monstro lamaçento~
+Um horripilante Monstro lamaçento está, vagarosamente, surgindo da lama...
+~
+Ele parece ter vindo de um filme de terror.  Ele realmente parece ser uma
+extaordinária figura feita de lama e ele parece ter comido uma alma humana
+no café da manhã e está com a intenção de comer o mesmo no jantar.
+- Que tal você?
+~
+2293824 0 0 0 0 0 0 0 -250 E
+12 9 2 4d6+140 2d5+3
+100 13000
+9 9 0
+GenWimpy: 4
+GenRoam: 61
+GenGroup: 3
+E
+#7001
+morcego pequeno ameacador~
+o pequeno morcego~
+Um pequeno, porém ameaçador, morcego está pendurado no teto, obviamente
+dormindo.
+~
+Você nunca tinha visto, durante toda sua vida um morcego tão pequeno.   Você
+prefere que ele continue assim, pacífico, pendurado lá, dormindo.  Seus
+ossos gelam só de você pensar em acordar essa cruel criatura.
+~
+2228320 0 0 0 0 0 0 0 -500 E
+1 20 5 5d2+6 1d5+0
+0 150
+4 9 0
+GenWimpy: 3
+E
+#7002
+rato esgoto~
+o rato de esgoto~
+Um enorme rato de esgoto, raivoso, está aqui.
+~
+An undefined string.
+~
+2097184 0 0 0 0 0 0 0 -1000 E
+5 16 5 1d12+48 2d4+0
+30 1000
+9 9 1
+GenWimpy: 30
+GenLoot: 6
+GenRoam: 67
+GenFollow: 9
+E
+#7003
+aranha pequena peluda~
+a pequena Aranha~
+A pequena Aranha peluda, está aqui, ocupada com sua teia.
+~
+An undefined string.
+~
+2097184 0 0 0 0 0 0 0 -700 E
+1 20 3 1d12+8 1d4+0
+1 100
+9 9 1
+GenWimpy: 100
+GenLoot: 1
+GenRoam: 87
+GenFollow: 10
+E
+#7004
+besouro gigante terra~
+o gigante besouro terra~
+O gigante, besouro da terra está aqui.
+~
+An undefined string.
+~
+2097152 0 0 0 0 0 0 0 -300 E
+8 13 3 2d10+98 2d4+2
+1000 3750
+4 9 1
+E
+#7005
+larva gigante~
+a larva~
+A larva gigante está aqui, em sua simples existência.
+~
+An undefined string.
+~
+2293760 0 0 0 0 0 0 0 300 E
+3 17 9 2d5+35 1d7+0
+2 350
+9 9 2
+GenWimpy: 60
+GenLoot: 4
+GenRoam: 87
+GenFollow: 5
+E
+#7006
+cobra~
+a cobra~
+A cobra rasteja perto de você. Ela parece bastante medíocre.
+~
+An undefined string.
+~
+2097184 0 0 0 0 0 0 0 -500 E
+4 16 7 2d5+40 1d9+0
+1 1000
+9 9 2
+GenWimpy: 93
+GenLoot: 4
+GenRoam: 86
+GenFollow: 6
+E
+T 3008
+#7007
+andarilho demonio~
+o demônio andarilho~
+O demônio andarilho olha fixamente para você com uma admiração comovente.
+~
+O demônio andarilho é muito magro.  Ele está vestido com um manto cinza.
+Ele não parece querer companhia em sua viagem.
+~
+2097284 0 0 0 0 0 0 0 -1000 E
+10 11 2 4d10+100 2d6+1
+300 9500
+9 9 1
+E
+#7008
+homuncula criatura~
+a criatura homúncula~
+A criatura homúncula está aqui, olhando para você maliciosamente.
+~
+O homúnculo aparenta ter uma forma humana, uns 5 metros de altura, tem uma
+pele de réptil esverdeada, asas rígidas e uma boca de morcego, com dentes
+que parecem ser venenosos.
+~
+2154496 0 0 0 0 0 0 0 -780 E
+11 10 1 6d3+130 2d6+2
+500 11500
+9 9 2
+E
+#7009
+morkot sombrio~
+o morkot sombrio~
+O morkot está aqui, esperando por alguém para MATAR!
+~
+Ele é um monstro de cinco pés de altura, meio homem meio rato.  Ele respira
+fortemente enquanto aproxima-se de você.
+~
+2097312 0 0 0 0 0 0 0 -900 E
+10 12 3 1d20+120 2d6+0
+1 9000
+9 9 0
+E
+T 3009
+#7010
+chr-eff'n chreffn~
+o demônio chr-eff'n~
+O chr-eff'n está rastejando aqui, procurando algo com seus olhos amarelos.
+~
+A cabeça e o dorso do chr-eff'n é coberto de cobre, e tem olhos amarelos
+brilhantes.  A parte de baixo tem uma cor alaranjada.
+~
+2097284 0 0 0 0 0 0 0 -830 E
+12 9 2 2d26+148 2d7+1
+1500 13000
+9 9 0
+GenWimpy: 15
+GenRoam: 88
+E
+#7040
+dragao vermelho~
+o dragão vermelho~
+O feroz dragão vermelho encara você, raivosamente.
+~
+O dragão vermelho encara você, raivosamente, como se estivesse aguardando a
+sua chegada.  Ele diz 'Oh humano, VOCÊ me acordou...Hssss', enquanto move-
+se para perto de você, 'Eu NUNCA posso dormir em paz...Hssss...'
+~
+2187314 0 0 0 0 0 0 0 -1000 E
+19 2 0 5d4+230 3d6+3
+16842 40000
+9 9 0
+GenWimpy: 4
+GenLoot: 2
+E
+#7041
+bruxa mar~
+a bruxa do mar~
+Uma bruxa do mar está nadando aqui.
+~
+A bruxa do mar é tão horripilante que você sente um medo profundo: Grandes
+olhos amarelos e dentes afiados.  Suas orelhas são muito grandes, e ela tem
+pequenos chifres afiados.  Esse tipo de monstro é um dos grandes inimigos
+da beleza.
+~
+2097184 0 0 0 0 0 0 0 -800 E
+14 7 1 1d8+172 2d8+1
+0 18000
+9 9 2
+GenWimpy: 36
+GenLoot: 1
+GenRoam: 89
+GenGroup: 9
+E
+#7042
+naga guardiao~
+a guardiã naga~
+A guardiã naga parece gostar de você.
+~
+O naga é uma criatura com aparência de cobra.  Ela é coberta por escamas
+verde-ouro e com triângulos prateados em suas costas.  Seus olhos são
+dourados.  Ela nota que você está olhando fixamente para ela, então ela diz
+'Saia daqui.  Este caminho leva a criaturas malignas.'
+~
+2097154 0 0 0 0 0 0 0 700 E
+12 9 2 1d18+148 2d7+1
+100 13500
+9 9 2
+E
+#7043
+basilisco escamoso~
+o basilisco escamoso~
+O basilisco escamoso rasteja em sua direção, vagarosamente.
+~
+O basilisco é um monstro reptiliano.  Ele tem oito patas, e fortes
+mandíbulas.  Ele é amarronzado com umas pintas amarelas.  Seus olhos são
+verde pálido.
+~
+2097156 0 0 0 0 0 0 0 -250 E
+13 11 0 1d12+160 2d7+2
+350 16000
+9 9 0
+GenWimpy: 20
+GenLoot: 7
+GenRoam: 89
+GenGroup: 1
+E
+#7044
+bolha lemure~
+a lêmure~
+A bolha lêmure desliza para perto de você preparando um ataque!
+~
+Ela parece, vagamente, uma bolha humana.  Grandes olhos negros, e uma boca
+com um pedaço que escapa do rosto.  A lêmure não parece interessada em você
+mas ela ataca de qualquer jeito.  Parece que a mente dela foi queimada.
+~
+2170912 0 0 0 0 0 0 0 -500 E
+5 16 6 3d5+57 2d4+0
+0 1000
+9 9 2
+GenWimpy: 87
+GenLoot: 2
+GenRoam: 88
+GenFollow: 7
+E
+#7045
+jones esmagador ettin~
+Jones 'esmagador' ettin~
+Jones está em pé aqui espantado com você.
+~
+Numa primeira olhada você pensa que Jones é um Orc, mas quando ele chega
+mais perto você vê sua segunda cabeça.  Ele veste uma pele de animal como
+roupa, imunda e comida pelas traças.  Jones realmente fede...
+~
+2097156 0 0 0 0 0 0 0 -480 E
+10 11 2 1d5+130 2d6+2
+60 11000
+5 5 1
+E
+#7046
+herald rato assassino ettin~
+Herald 'o assassino de ratos' ettin~
+Herald está aqui parecendo meio confuso com a sua presença.
+~
+Quando você olha para Herald, você sente pena.  Suas roupas são realmente
+pobres, e uma de suas cabeças está pendurada.  Na corda que circunda sua
+cintura estão vários ratos e camundongos mortos.  Ele não cheira bem.
+~
+2097156 0 0 0 0 0 0 0 200 E
+6 14 4 3d5+70 1d8+0
+40 1500
+5 5 1
+E
+$

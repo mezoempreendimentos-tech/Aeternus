@@ -1,0 +1,1220 @@
+- description: |-
+    Você entra em um quarto escuro. As paredes e o teto feitos de pedra o
+    fazem sentir uma sensação de estar descendo ao subterrâneo. Uma enorme
+    cova ocupa a maior parte deste lugar. Para descer através dela existe
+    umas escadas feitas de corda, que olhando melhor parece não ser muito
+    confiável e que irá se romper a qualquer momento. Existe um pequeno sinal
+    que parece ter sido colocado para advertir sobre algum mal. Você começa a
+    imaginar as criaturas que morderam este sinal e retiraram um enorme pedaço,
+    e com certeza jamais irá querer conhecer elas. Estranhos e terríveis sons
+    vêm da cova, enquanto isso você pensa novamente nestas furiosas criaturas.
+    Grandes portas de madeira conduzem ao Leste e Oeste. Você continua
+    caminhando em direção à cova e acaba notando que a lama em suas botas estão
+    aumentando e que estão ficando cada vez mais difíceis de retirar. Com o
+    tempo você se acalma e começa a ver uma aura azul clara vindo de dentro da
+    cova.
+  exits:
+    east:
+      target_vnum: '13111'
+    up:
+      target_vnum: '13172'
+    west:
+      target_vnum: '13102'
+  name: A Entrada
+  vnum: '13101'
+- description: |-
+    As sombras que o cercam parecem estar em todos lugares. Imagens sombrias
+    aparecem e desaparecem em um piscar de olhos. Você consegue olhar muito
+    rapidamente um imenso tesouro atrás da escuridão. O caminho continua ao
+    norte. Existe também uma sala ao oeste, e você com certeza pode voltar pela
+    entrada ao leste.
+  exits:
+    east:
+      target_vnum: '13101'
+    north:
+      target_vnum: '13104'
+    west:
+      target_vnum: '13103'
+  name: O Caminho Oeste
+  vnum: '13102'
+- description: "Um enorme quarto se abre diante de você. Este quarto está repleto\
+    \ com\nestas sombras estranhas. Imediatamente ao entrar você nota que existe algo\n\
+    de errado com o seu tato. De repente, em um movimento muito rápido seus\nolhos\
+    \ não conseguem acompanhar algo, uma das sombras que você adquiriu\nanteriormente\
+    \ está usando a mudança que fez em você, mas que nunca o havia\nperturbado. Ã\x89\
+    \ completamente visÃ­vel que seus olhos estÃ£o ardendo e muito\nvermelho. Você\
+    \ pensa conseguir ver grotescos lábios sorrindo. O único modo\nde sair daqui é\
+    \ por onde você entrou."
+  exits:
+    east:
+      target_vnum: '13102'
+  name: O Quarto Do Bohemoth
+  vnum: '13103'
+- description: |-
+    O caminho fica obscuro aqui. As imagens criadas pelas sombras ficam cada
+    vez menos significativas. Porém, as sombras parecem estar ficando mais
+    fortes. Você começa a sentir como se estivesse sonhando, mas você ainda
+    está completamente acordado, que estranho. Deve ser a suavidade das imagens
+    que estão fazendo você pensar isso. O caminho continua ao leste e pelas
+    sombras ao sul.
+  exits:
+    east:
+      target_vnum: '13105'
+    south:
+      target_vnum: '13102'
+  name: Ao Longo Do Caminho
+  vnum: '13104'
+- description: "Você tem agora certeza que está sonhando. No meio do caminho, cercado\n\
+    pelas sombras, existe um banquete para uma refeiÃ§Ã£o real. Ã\x89 um lugar\nestranho\
+    \ para alguém estar esperando você... ou alguém estava fazendo uma\nsúplica a\
+    \ um deus. A mesa parece ser feita somente de sombra. Como pode\nestar sustentando\
+    \ a refeição? As sombras parecem estar surgindo do norte,\ncomo se alguém estivesse\
+    \ as empurrando de algum lugar. Você deve voltar\npelo oeste, novamente pelas\
+    \ sombras, ou pelo norte, onde elas estão\npuxando você."
+  exits:
+    north:
+      target_vnum: '13106'
+    west:
+      target_vnum: '13104'
+  name: O Sonho
+  vnum: '13105'
+- description: |-
+    Aparentemente havia uma emboscada aqui, entretanto deve ter sido a
+    muitos anos atrás. Existem somente esqueletos e armas extremamente
+    enferrujadas aqui agora. Uma procura rápida revela que as sombras se
+    tornaram mais significativas agora. Nada de valor significante pode ser
+    encontrado no meio dos restos. O caminho continua ao norte e você pode
+    voltar ao sul.
+  exits:
+    north:
+      target_vnum: '13107'
+    south:
+      target_vnum: '13105'
+  name: A Emboscada
+  vnum: '13106'
+- description: |-
+    O caminho fica mais iluminado com as sombras diminuindo. As sombras
+    estão se retirando, você já não consegue mais sentir o toque delas, mas
+    você sente outra presença agora. Esta segunda presença. . . Agradável.
+    Fica mais forte ao leste, e as sombras ficam mais fortes para o sul.
+  exits:
+    east:
+      target_vnum: '13108'
+    south:
+      target_vnum: '13106'
+  name: O Começo
+  vnum: '13107'
+- description: |-
+    Você sente uma forte presença ao norte. As sombras já não existem mais
+    aqui.  Elas parecem terem recuado desta imensa luz. Os enormes portões são
+    iguais a um aço de adamantium... Não, deve ser somente sua imaginação,
+    ninguém forjou isto em milênios. Para o sul e oeste as sombras ficam mais
+    intensas. Ao sul você consegue ouvir o que parece serem resmungos, nem
+    mesmo quem conhece o idioma consegue compreender o que eles estão dizendo,
+    e você gostaria?
+  exits:
+    north:
+      target_vnum: '13123'
+    south:
+      target_vnum: '13109'
+    west:
+      target_vnum: '13107'
+  name: Antes Dos Portões
+  vnum: '13108'
+- description: |-
+    Com o tempo você nota que a movimentação das sombras aqui é bastante
+    intensa.  Você se sente como se estivesse se movendo por uma névoa pesada.
+    De alguma forma estas sombras exploram todas as partes externas de seu
+    corpo. Você se estremece todo involuntariamente conforme a proximidade
+    delas e também pelo fato de que existem olhos o observando da escuridão.
+    Para o norte você pode ver as sombras diminuírem, e felizmente também
+    consegue ver o caminho ao sul.
+  exits:
+    north:
+      target_vnum: '13108'
+    south:
+      target_vnum: '13110'
+  name: Uma Sombra Nublada
+  vnum: '13109'
+- description: |-
+    As sombras aqui lhe passam um ar de cansaço e acaba se sentindo
+    hipnotizado. O caminho por onde você veio parece estar muito distante.
+    Para o norte as sombras aumentam bastante... Oh, você está com muito
+    sono... e quando você dá uma olhada ao seu redor, nota que as sombras
+    diminuem ao sul... Você sente os olhos começarem a se fechar.
+    AHHHHHHHhhhh! Você é acordado de repente por um intenso grito e é quando
+    você adquire um sentimento de que outro aventureiro esteve vagando por
+    aqui antes. Você agora está sentindo muito medo e começa a ouvir barulhos
+    não muito amigáveis vindo do leste.
+  exits:
+    east:
+      target_vnum: '13113'
+    north:
+      target_vnum: '13109'
+    south:
+      target_vnum: '13111'
+  name: Perdendo A Consciência
+  vnum: '13110'
+- description: |-
+    Estranhas imagens de um movimento bastante lento o fazem pensar que
+    está se movendo rápido demais. Imagens sombrias aparecem e desaparecem.
+    Você consegue ver somente os tesouros atrás da escuridão. Para o norte o
+    caminho continua, com monstros e sombras maiores e mais maléficas. Para
+    o leste você nota um pequeno posto de guarda que parece estar deserto e
+    para o oeste existe uma entrada.
+  exits:
+    east:
+      target_vnum: '13112'
+    north:
+      target_vnum: '13110'
+    west:
+      target_vnum: '13101'
+  name: O Caminho Leste
+  vnum: '13111'
+- description: |-
+    Isto parece ter sido um posto de guarda, mas que está bastante
+    danificado. As paredes de pedra estão gastas, e quase se desmoronando, a
+    porta de madeira que uma vez foi uma entrada, está completamente
+    apodrecida. Você nota um pedaço antigo de papel no chão. A única forma de
+    sair deste lugar é pela entrada, ou seja, ao oeste.
+  exits:
+    west:
+      target_vnum: '13111'
+  name: O Posto De Guardas Abandonado
+  vnum: '13112'
+- description: |-
+    Você tem agora certeza que está sonhando. Aonde mais você irá encontrar
+    três pessoas que fiquem repetindo para você: "Nós temos que servir o
+    mestre". Estas três almas parecem terem sido o resultado de algum acidente
+    estranho, e nota que algumas partes do corpo deles se parecem com a de
+    humanos. Este quarto de guarda existe aparentemente para vigiar a entrada
+    do quarto ao norte. Não há nenhuma idéia do que possa haver lá. O caminho
+    continua ao leste e oeste.
+  exits:
+    east:
+      target_vnum: '13115'
+    north:
+      target_vnum: '13114'
+    west:
+      target_vnum: '13110'
+  name: O Quarto Dos Guardas
+  vnum: '13113'
+- description: |-
+    Hmmm... Você nota que não esteve aqui antes. E tenta expulsar este
+    sentimento mas você não consegue. Você quase consegue lembrar de algum
+    dia ter dormido aqui. Usado o guarda-roupa de carvalho na qual está
+    apodrecido agora, ter visto a cama demolida com marcas de serragem em
+    sua cabeceira e segurado talvez... Um vestido? Você acaba se emocionando.
+    Isto é muito estranho. Talvez você devesse esquecer ou superar estas
+    recordações. Agora este quarto está habitado somente pelas sombras. Este
+    quarto também parece ter outras qualidades. Por exemplo, você não consegue
+    pensar, não por causa de qualquer barulho mas por causa da falta disto. A
+    única saída é a porta para o sul.
+  exits:
+    south:
+      target_vnum: '13113'
+  name: Deja-vu
+  vnum: '13114'
+- description: |-
+    As sombras aqui estão ficando opressivas.  Elas estão tão intensas que
+    chegam a impedir o movimento. Você sente como se estivesse se movendo por
+    uma multidão.  Como as multidões que se aglomeram em um concerto... Espere,
+    o que é um concerto? Conforme você caminha por este lugar vai descobrindo
+    muitas recordações estranhas. Talvez exista algo errado com você, ou talvez
+    seja este lugar, ou até mesmo estas sombras estranhas. Você nota que será
+    difícil saber, mas se não fizer isto talvez não consigas sair daqui... Você
+    sente um forte puxão do leste, mas você ainda pode voltar pelo o oeste para
+    escapar disto.
+  exits:
+    east:
+      target_vnum: '13116'
+    west:
+      target_vnum: '13113'
+  name: O Quarto Abarrotado
+  vnum: '13115'
+- description: |-
+    Uma gigantesca praça se estende diante de você. No centro dela existe
+    uma monstruosa fonte... isso parece estar produzindo cada vez mais sombras.
+    Espere,... você pensa ter ouvido alguém chamando seu nome, e isso não é a
+    coisa mais estranha que está acontecendo, você pode ver a fonte se movendo
+    com harmonia. Para o lado leste uma loja, com uma porta que você poderia
+    ser capaz de fechar... Na parte superior desta porta você consegue ver uma
+    mancha. Hmmm... Talvez seja uma mancha de suor provida do cansado dos
+    viajantes, ou talvez seja uma armadilha, bem, só existe um modo de
+    descobrir. Para o norte existe um imenso corredor, e para o sul mais
+    sombras estranhas. Ainda existe a opção de voltar ao oeste, talvez você
+    devesse fazer isto enquanto ainda tiver uma chance de escapar.
+  exits:
+    east:
+      target_vnum: '13117'
+    north:
+      target_vnum: '13118'
+    south:
+      target_vnum: '13146'
+    west:
+      target_vnum: '13115'
+  name: A Praça
+  vnum: '13116'
+- description: |-
+    Isto é agradável. Não há nenhuma sombra aqui. O lugar parece ser uma
+    loja abandonada. Ainda está tudo em ordem. No centro do quarto está uma
+    mesa que chama sua atenção. Um brilhante globo está sobre esta mesa. Uma
+    estranha roda parece acelerar sempre que você chega perto. Você não está
+    seguro de poder confiar nesta coisa. As paredes estão forradas de mármore.
+    Esta loja é a única que parece ter resistido a tudo nesta cidade. Você
+    sente um estranho conforto nesta loja, e suspeita estar vindo do globo
+    azul que existe aqui. Você sente uma forte aura mágica vindo disto. Ao
+    oeste existe uma porta. Você entrou por lá.
+  exits:
+    west:
+      target_vnum: '13116'
+  name: A Loja Silenciosa
+  vnum: '13117'
+- description: |-
+    Estes corredores parecem terem sido invadidos pelas mesmas sombras.
+    Parece ter sido um largo corredor usado para comércio, os pequenos postos
+    de madeira existem já há bastante tempo. Para o lado sul existe uma praça,
+    e ao norte as sombras esconderam tudo.
+  exits:
+    north:
+      target_vnum: '13119'
+    south:
+      target_vnum: '13116'
+  name: O Corredor Sombrio
+  vnum: '13118'
+- description: |-
+    A névoa sombria está diminuindo aqui. Você ganha um senso de que tudo
+    que está ao oeste amedronta estas sombras. Não há nenhuma sombra ao oeste,
+    mas elas continuam aumentando ao sul. Este corredor é largo o suficiente
+    para esconder um exército. Hmmm... Talvez, só que teria que ser um
+    exército como você jamais havia visto antes. Para o leste existe um portal
+    azul que conduz para um quarto bastante elegante. Você observa um pouco
+    mais adiante e parece conseguir ver uma pintura. Talvez você devesse
+    confirmar isto.
+  exits:
+    east:
+      target_vnum: '13114'
+    south:
+      target_vnum: '13118'
+    west:
+      target_vnum: '13120'
+  name: O Corredor Nublado
+  vnum: '13119'
+- description: |-
+    Você está diante de um imenso portão brilhante. Este portão está
+    coberto com letras rúnicas e você, sim até mesmo você, pode sentir uma
+    incrível aura mágica vindo disto. Não há nenhuma sombra neste quarto.
+    Elas parecem ter medo deste portão. Uma única chave dourada está no chão,
+    e também brilha com uma estranha luz etérea. Para o lado leste mais
+    sombras. Para o norte existe um imenso portão.
+  exits:
+    east:
+      target_vnum: '13119'
+    north:
+      target_vnum: '13121'
+  name: Antes Dos Portões
+  vnum: '13120'
+- description: |-
+    Ao entrar neste quarto você é dominado por um incrível senso de temor.
+    Aqui diante de você está um guarda bastante alto que aparentemente está
+    muito feliz com o trabalho. Este lugar o faz lembrar de outro quarto em
+    um palácio opulento. Com certeza esta foi a área mais rica de Torin. O
+    portão está ao sul e para o lado oeste outro quarto bastante iluminado e
+    elegante. Um sinal foi cuidadosamente fixado na parede.
+  exits:
+    south:
+      target_vnum: '13120'
+    west:
+      target_vnum: '13122'
+  name: O Quarto Do Portão
+  vnum: '13121'
+- description: |-
+    Quando você entra neste quarto primeiro nota a funcionalidade dele.
+    Tudo nisto tem um propósito. Até mesmo os cantos escuros que permitem
+    alguém permanecer escondido para observar quem quer que seja entrar no
+    quarto. Você nota olhos o observando de um destes cantos...?... Não, não
+    pode ser.  Você continua notando coisas ao redor do quarto. Uma pequena
+    mesa tombada lateralmente poderia perfeitamente servir como uma proteção.
+    Você de repente se movimenta e dá uma olhada como que sentisse alguém
+    batendo em seu ombro. Você dá uma olhada mas não consegue encontrar
+    ninguém, então de repente você consegue vê-lo. Ele está encostado contra
+    a parede. As roupas e as magníficas armas estão camufladas. Você observa
+    o quarto do portão ao leste e ao oeste.
+  exits:
+    east:
+      target_vnum: '13121'
+    west:
+      target_vnum: '13123'
+  name: O Posto De Garin
+  vnum: '13122'
+- description: |-
+    A opulência deste quarto é incrível.  Você nota as belíssimas bordas
+    dos portões. Algumas cadeiras de mármore foram espalhadas ao redor do
+    quarto, e ironicamente, não existe sinal de um guarda. Embora, ao entrar
+    no quarto você comece a notar alguém o observando. Você também nota um
+    estranho zumbido na qual parece estar vindo de todos os lados. Um quarto
+    bastante insípido, mas funcional está ao leste. Para o norte e oeste
+    existem estranhos globos brilhantes, e para o lado sul um majestoso portão
+    coberto com letras rúnicas.
+  exits:
+    east:
+      target_vnum: '13122'
+    north:
+      target_vnum: '13157'
+    south:
+      target_vnum: '13108'
+    west:
+      target_vnum: '13124'
+  name: O Quarto Do Portão
+  vnum: '13123'
+- description: |-
+    Uma estranha camada cobre todos os edifícios. Você parece não poder
+    adquirir isto. Age como um campo de força impedindo a entrada. Como é
+    hostil!  Você vê lojas ao norte, oeste e sul. Infelizmente esta cobertura
+    cobre as lojas ao sul e oeste. Para o leste está um quarto do portão.
+  exits:
+    east:
+      target_vnum: '13123'
+    north:
+      target_vnum: '13125'
+  name: Ao Longo Da Avenida
+  vnum: '13124'
+- description: |-
+    Uma loja pequena, porém indistinta está aqui. Embora isto pareça ser uma
+    loja muito pequena você nota que os contadores foram feitos em mármore,
+    assim como também o balcão. A mesa no centro está em forma de uma estranha
+    pirâmide, de cabeça para baixa colocada em um canto bastante estranho. Uma
+    olhada rápida não revela nada de importância, mas quando se levanta, seu
+    braço bate um armário no quarto, talvez devesse ter mais cuidado. Você
+    também nota ao oeste que existe um remendo na parede. Talvez... Sim, parece
+    ser a impressão de uma mão. Ao sul está a entrada da loja.
+  exits:
+    south:
+      target_vnum: '13124'
+    west:
+      target_vnum: '13126'
+  name: Uma Pequena Loja
+  vnum: '13125'
+- description: |-
+    Você sente estar em uma imensa caverna. Você somente consegue notar as
+    paredes quando os fungos nela contido brilham. A caverna continua ao oeste
+    e sul, para o lado norte uma parede e para o lado leste uma porta leva
+    até a loja.
+  exits:
+    east:
+      target_vnum: '13125'
+    south:
+      target_vnum: '13127'
+    west:
+      target_vnum: '13129'
+  name: A Grande Caverna
+  vnum: '13126'
+- description: |-
+    Como esta imensa caverna continua você nota a suavidade das paredes,
+    a luz esverdeada que a ilumina clareia os limites da caverna. Uma piscina
+    no chão da caverna ilumina incrivelmente bem este lugar, e você ouve o
+    gotejar das estalagmites sobre você. Espere um segundo, você olha ao
+    redor novamente, e poderia jurar ter visto olhos vermelhos o encararem
+    da escuridão. A caverna continua envolver você ao norte, e oeste.
+  exits:
+    north:
+      target_vnum: '13126'
+    south:
+      target_vnum: '13128'
+    west:
+      target_vnum: '13128'
+  name: A Grande Caverna
+  vnum: '13127'
+- description: |-
+    Você entra nesta parte da imensa caverna e mais uma vez nota os fungos
+    brilhando estranhamente e iluminando as paredes de pedra. Mas você também
+    nota a incrível suavidade dessas paredes, impossível para natureza ter
+    realizado isto sozinha. Uma piscina no chão da caverna ilumina
+    incrivelmente bem este lugar... e falando do chão, você vê grandes marcas
+    de raspado ao oeste. Para o norte, sul e leste a caverna envolve você.
+  exits:
+    east:
+      target_vnum: '13127'
+    north:
+      target_vnum: '13129'
+    south:
+      target_vnum: '13127'
+    west:
+      target_vnum: '13130'
+  name: A Grande Caverna
+  vnum: '13128'
+- description: |-
+    Aham, você achou outra parede para esta caverna. Quando você olha ao
+    seu redor acha muito estranho não conseguir ver nem ao menos a mão em
+    frente ao seus olhos, uma completa escuridão. A escuridão é tão intensa
+    que você não pôde nem mesmo pensar em procurar alguma coisa, a única
+    coisa que você espera é encontrar sem querer alguma porta. Um sentimento
+    ao seu redor diz que a parede permite passagem em uma direção, e você
+    adivinha ser ao sul e também ao leste. Para o norte existe uma estranha
+    depressão e um sentimento mais forte indica que ao longo daqui você pode
+    ver que é ou era um túnel, só existe um modo de descobrir.
+  exits:
+    east:
+      target_vnum: '13126'
+    north:
+      target_vnum: '13166'
+    south:
+      target_vnum: '13128'
+  name: A Grande Caverna
+  vnum: '13129'
+- description: "Você adquire um sentimento de timidez quando entra nestes corredores.\n\
+    Olha ao redor e supera isto com um temor maior.  Este lugar parece ter sido\n\
+    no passado um monastÃ©rio e parece que nada mudou aqui.  Ã\x80 sua direita e\n\
+    esquerda estão enfileirados estátuas de granito de gargantuan, com os olhos\n\
+    ardentes parecendo que estão lhe observando e seguindo seus movimentos.\nElas\
+    \ parecem que querem adquirir vida própria a qualquer momento...  Olhando\npor\
+    \ sobre estas estátuas um teto muito enfeitado.  Quando você observa este\nteto\
+    \ percebe que o mural que existe nele estÃ¡ movendo.  Ã\x89 um quadro.  VocÃª\n\
+    nota que o chão de granito abaixo está estrondeando, parecendo muito com o\nbatimento\
+    \ do seu coração.  Você sussurra algo e parece que tudo o que é\nsussurrado é\
+    \ absorvido para dentro das paredes.  Você pisa fortemente no\nchão, bate nas\
+    \ paredes, mas nenhum barulho é ouvido.  Não há nada que você\npossa fazer para\
+    \ criar qualquer tipo de som."
+  exits:
+    east:
+      target_vnum: '13128'
+    north:
+      target_vnum: '13131'
+  name: Os Corredores
+  vnum: '13130'
+- description: |-
+    Parece que você já esteve aqui antes... Lembra-se? Destes corredores.
+    Você não está muito seguro mas lembra-se vagamente de já ter vindo aqui.
+    O silencio é o único mistério. Você não se lembra desta quietude. Parece
+    até que o lugar está morto, como se nada tivesse vivido aqui por muitos
+    milhares de anos. As estátuas terminam aqui em uma escuridão mais adiante
+    uma piscina parece bloquear toda a passagem ao norte. As águas brilhantes
+    refletem tudo ao redor, mas elas refletem também uma face que você não
+    reconhece. Você vê um pequeno sinal na última das estátuas. Pode-se
+    prosseguir ao oeste pelo começo dos corredores, e ao sul pelo caminho que
+    você veio.
+  exits:
+    south:
+      target_vnum: '13130'
+    west:
+      target_vnum: '13132'
+  name: A Lembrança
+  vnum: '13131'
+- description: |-
+    Você fica imaginando os monges, quando caminhavam por esta interseção
+    há muito tempo atrás, em seus passeios sombrios. Quanto mais você fica
+    imaginando, mais coisas que você não gostaria de pensar aparece em sua
+    mente. Neste momento o fato de que elas poderiam ser recordações já não
+    o amedronta. Você começa a pensar que talvez pudesse ter vivido aqui,
+    muitos anos atrás. Para o leste e sul existem portas bem preservadas. O
+    carvalho parece ser novo e você consegue sentir o cheiro da seiva
+    recentemente cortada. Para o norte e oeste existem mais corredores.
+  exits:
+    east:
+      target_vnum: '13131'
+    north:
+      target_vnum: '13131'
+    south:
+      target_vnum: '13135'
+    west:
+      target_vnum: '13133'
+  name: A Antiga Interseção De Pedra
+  vnum: '13132'
+- description: |-
+    Quando você pisa aqui mudanças acontecem neste quarto. Onde antes era
+    um quarto vazio e claro, existe agora um quarto ricamente decorado e
+    iluminado. Você pode sentir o cheiro da seiva recentemente cortada do
+    carvalho ao sul, e para o oeste existe uma interseção vazia.
+  exits:
+    east:
+      target_vnum: '13132'
+    south:
+      target_vnum: '13134'
+  name: A Sala Do Tesouro
+  vnum: '13133'
+- description: |-
+    Uma estrutura impressionante está diante de você.  Todas as paredes,
+    tetos, e chão estão cobertos com espelhos. As únicas formas de sair são
+    pelas portas e pela arcada que conduz para fora. Os espelhos estão
+    posicionados de forma que você veja dez ou mais imagens fantasmagóricas
+    de você e de outros que estão no quarto. Estas imagens flutuam dentro
+    daqui e são como se fossem reais. As portas dianteiras bem preservadas
+    estão ao norte e sul, e os corredores continuam ao leste.
+  exits:
+    east:
+      target_vnum: '13135'
+    north:
+      target_vnum: '13133'
+    south:
+      target_vnum: '13137'
+  name: O Quarto Do Portão
+  vnum: '13134'
+- description: |-
+    Estes corredores parecem estar vivos. Você consegue ver as paredes se
+    movimentando como se tivessem pulmões. Ao longo destes corredores está
+    uma fila de estátuas. Elas se referem a inumeráveis deuses. Você vê o
+    santuário de Júpiter a sua direita e o santuário de Brahman à esquerda.
+    Este lugar, entretanto parece ser um lugar santo, estar vivo. O chão que
+    você está pisando está se movimentando em um ritmo sempre igual. Hmmm...
+    Por quanto tempo será que a caverna já é assim? Pois você não havia
+    notado isto antes. Tudo parecia normal antes de você ter notado. Que
+    tipo de criatura pode ser esta?  Isto com certeza está dormindo por
+    bilhões de anos, e será que irá continuar por mais um?  Bem, sorte a
+    sua... Você detestaria despertar um ser deste tamanho. Para o leste estão
+    as filas de estátuas e a continuação da passagem viva. Para o lado norte
+    uma porta de madeira bem preservada e para o lado oeste está o quarto do
+    portão.
+  exits:
+    east:
+      target_vnum: '13136'
+    north:
+      target_vnum: '13132'
+    west:
+      target_vnum: '13134'
+  name: Os Corredores Vivos
+  vnum: '13135'
+- description: |-
+    Você alcançou um beco sem saída. As paredes ainda estão se movimentando,
+    parecendo vivas. As estátuas estão aqui, mas parecem terem chegado ao fim.
+    Você nota um assovio estranho.  Soa como que... Algo Respirando! Você está
+    seguro de que se trata de uma criatura. As paredes continuam se movendo,
+    você pode ouvir a respiração e os movimentos do chão. Os antigos pensavam
+    que isto fosse obra dos deuses e por este motivo foram construídos os
+    altares aqui para que fossem adorados. A única forma de sair é pela mesma
+    entrada que você veio... ou continuando através da criatura.
+  exits:
+    east:
+      target_vnum: '13142'
+    west:
+      target_vnum: '13135'
+  name: O Fim Do Corredor
+  vnum: '13136'
+- description: |-
+    Você gostaria de ter esquecido isto há muito tempo. Sombras estão em
+    todos os lugares.  Aqui você está novamente, no meio destas estranhas
+    sombras.  Estas sombras parecem mais amigáveis, de alguma forma.  Elas
+    também são menos intensas e menos opressivas. Elas continuam ao sul, e
+    uma porta bem conservada está ao norte.
+  exits:
+    north:
+      target_vnum: '13134'
+    south:
+      target_vnum: '13140'
+  name: A Assombração
+  vnum: '13137'
+- description: |-
+    Quando você começa olhar ao seu redor consegue ver um pequeno quarto
+    feito de pedras, cadeiras de pedra, uma mesa de pedra, até mesmo xícaras
+    de pedra, pratos de pedra e facas de pedra. Quando você se encosta junto
+    às paredes, sente uma suavidade jamais sentida antes. Espere um segundo,
+    você já sentiu isto em um outro lugar... A forma de sair é pelas sombras
+    e também pelo lugar estranho que você sabe agora que se trata de uma casa
+    que está ao sul.
+  exits:
+    south:
+      target_vnum: '13141'
+  name: O Quarto De Pedra
+  vnum: '13138'
+- description: |-
+    O corredor das sombras, você se lembra vagamente dele. As paredes do
+    corredor são uma prova da incrível habilidade que os arquitetos e
+    construtores desta cidade possuem. As rígidas paredes de granito são
+    completamente lisas, com alguns ganchos de metais. Alguns deles estão
+    segurando algumas sombrias armaduras já enferrujadas das batalhas de
+    Torin, e alguns destes ganchos estão vazios. Você sente que já conhece
+    muito melhor a história desta importante cidade, ou melhor, deste Império
+    que se chama Torin. As recordações aparecem em pedaços, assim você não
+    consegue saber a história completa. Você observa o chão onde lá existe um
+    buraco. Infelizmente um estranho campo de força azul o impede de tentar
+    descer. Para o leste está uma velha porta, e para o lado sul mais corredor
+    das sombras.
+  exits:
+    east:
+      target_vnum: '13108'
+    south:
+      target_vnum: '13142'
+  name: O Corredor Das Sombras
+  vnum: '13139'
+- description: |-
+    As sombras encobrem as paredes, o teto, o chão, na verdade você
+    consegue ver muito pouco a sua frente.  Você se sente sufocado, como se
+    a escuridão do túnel de pedra estivesse se movendo. Você está viajando
+    por estas sombras durante algum tempo, e nada lhe é familiar. Talvez
+    pelo motivo de ter vindo de um corredor que não emitisse som algum. Com
+    certeza você irá descobrir o que aconteceu neste lugar para fazer com que
+    as sombras assumissem e os residentes se escondessem. O caminho continua,
+    nestas sombras, para o norte e leste.
+  exits:
+    east:
+      target_vnum: '13141'
+    north:
+      target_vnum: '13137'
+  name: A Assombração
+  vnum: '13140'
+- description: |-
+    As sombras encobrem as paredes, o teto, o chão, na verdade você
+    consegue ver muito pouco a sua frente.  Você se sente sufocado, como se
+    a escuridão do túnel de pedra estivesse se movendo. Você está viajando
+    por estas sombras durante algum tempo, e nada lhe é familiar. Talvez
+    pelo motivo de ter vindo de um corredor que não emitisse som algum. Com
+    certeza você irá descobrir o que aconteceu neste lugar para fazer com
+    que as sombras assumissem e os residentes se escondessem. As sombras
+    continuam para o sul, leste e oeste. Para o norte você consegue ver um
+    sólido quarto de pedras.
+  exits:
+    east:
+      target_vnum: '13142'
+    north:
+      target_vnum: '13138'
+    south:
+      target_vnum: '13143'
+    west:
+      target_vnum: '13140'
+  name: A Assombração
+  vnum: '13141'
+- description: |-
+    O corredor das sombras, você se lembra vagamente dele. As paredes do
+    corredor são uma prova da incrível habilidade que os arquitetos e
+    construtores desta cidade possuem. As rígidas paredes de granito são
+    completamente lisas, com alguns ganchos de metais. Alguns deles estão
+    segurando algumas sombrias armaduras já enferrujadas das batalhas de
+    Torin, e alguns destes ganchos estão vazios. Você sente que já conhece
+    muito melhor a história desta importante cidade, ou melhor, deste Império
+    que se chama Torin. As recordações aparecem em pedaços, assim você não
+    consegue saber a história completa. O corredor continua para o norte e
+    sul, existe uma porta de pedra para o leste e as sombras estão ao oeste.
+  exits:
+    east:
+      target_vnum: '13136'
+    north:
+      target_vnum: '13139'
+    south:
+      target_vnum: '13144'
+    west:
+      target_vnum: '13141'
+  name: O Corredor Das Sombras
+  vnum: '13142'
+- description: |-
+    O que você vê diante de seus olhos lhe enche de medo.  Há centenas de
+    sombras aqui. E não parecem ser amigáveis. Você ouve seus assobios,
+    gemidos, e até mesmo o idioma estranho que elas falam. Todas elas parecem
+    estar olhando você, um intruso em seu território. O quarto é uma grande
+    caverna, e elas preenchem todo o espaço. Você vê um homem alto vestindo
+    roupões pretos se levantando de uma parede em cima do que parece ser um
+    altar. Os olhares deste homem estão direcionados diretamente para você.
+    Todas as sombras olham você com um ar de ansiedade... Não existe nenhuma
+    saída deste lugar, a não ser por onde você entrou, mas isso também foi
+    bloqueado pelas sombras.
+  exits:
+    north:
+      target_vnum: '13141'
+  name: O Trono Sombrio
+  vnum: '13143'
+- description: |-
+    Este é um fim estranho para o Grande Corredor das Sombras. As sombras
+    são intensas aqui. Elas impedem seu movimento e sua respiração. O quarto
+    parece estranho. As paredes parece estarem derretendo, e os quadros e as
+    armaduras que adornam as paredes também estão. Algo parece estar se
+    escondendo dentro das sombras, entretanto você não sabe o que é e possui
+    muito medo de tentar adivinhar.
+  exits:
+    north:
+      target_vnum: '13142'
+    south:
+      target_vnum: '13138'
+    west:
+      target_vnum: '13143'
+  name: Um Fim Estranho
+  vnum: '13144'
+- description: |-
+    Você chega até as câmaras pessoais do grande Lorgeth. Este general do
+    exército de Torin é mesmo um legendário. Ele foi um bravo guerreiro.
+    Embora o quarto esteja podre ou destruído você ainda pode notar tudo isto
+    por aqui. A estante de livros na parede suporta os antigos pedaços de
+    pergaminhos que no passado já fez parte de um livro. A grande escrivaninha
+    no centro do quarto, que uma vez impressionara bastante está agora
+    completamente comida e apodrecida. O chão de madeira também parece
+    agüentar bem ao tempo, e você consegue ver toda a sujeira depositada. No
+    passado aqui havia grandes tapetes cobrindo isto tudo.
+  exits:
+    north:
+      target_vnum: '13156'
+  name: A Sala De Lorgeth
+  vnum: '13145'
+- description: |-
+    Estes parece serem quartéis antigos do exército de Torin. Eles estão
+    agora habitados pelo exército das sombras. Há beliches enferrujados,
+    armas e couraças em todos os lugares. Você não pode arrumar qualquer
+    coisa daqui. O chão indica que faz muito tempo que ninguém pisa aqui.
+    Para o lado oeste mais quartéis, para o lado leste um estranho corredor
+    destituído de sombras, e para o norte esta uma praça.
+  exits:
+    east:
+      target_vnum: '13151'
+    north:
+      target_vnum: '13116'
+    south:
+      target_vnum: '13149'
+    west:
+      target_vnum: '13147'
+  name: As Barracas
+  vnum: '13146'
+- description: |-
+    Mais beliches, baús vazios e um chão pardo. No meio dos beliches está
+    um aventureiro menos afortunado que você; ele está com a roupa toda
+    rasgada e aparentemente foi machucado de alguma forma pelas sombras. O
+    único modo de sair daqui é indo mais ao fundo nos quartéis, pelo oeste.
+  exits:
+    east:
+      target_vnum: '13146'
+  name: As Barracas
+  vnum: '13147'
+- description: |-
+    Você pode ter certeza que alguém viveu aqui. Em vez do padrão beliche
+    verde existe um beliche com uma grande pele (Você acaba rasgando a pele
+    que cobre o beliche para verificar, pois algo havia se mexido dentro
+    disto). As paredes daqui possuem um padrão de qualidade melhor comparado
+    aos outros quartéis. Esta parede parece ter sido construída para uma
+    proteção maior contra o frio até mesmo porque esta cidade inteira é
+    subterrânea. Uma antiga nota prende sua atenção na pequena mesa de
+    escritura na qual está sentado.
+  exits:
+    east:
+      target_vnum: '13149'
+  name: O Quarto Do Tenente
+  vnum: '13148'
+- description: |-
+    Uma enorme mesa de madeira esta no centro do quarto. Tudo aqui está
+    muito velho e apodrecido, até mesmo pedaços de pergaminhos que você supõe
+    ter sido uma vez mapas. Eles ainda estão postos na mesma maneira que
+    foram colocadas há muito tempo, como se os donos não tivessem tido tempo
+    suficiente para levarem junto. Algo muito grave deve ter acontecido para
+    que os habitantes saíssem tão rápido. E com certeza você não faz nem idéia
+    do que possa ter acontecido. Em algumas cadeiras e no chão existem muitos
+    esqueletos... Eles parecem terem sido guardas de uma posição bastante alta
+    da cidade. Quando olha melhor ao seu redor nota o quarto dos tenentes ao
+    oeste, mais quartéis ao norte e o quarto do Chefe ao leste.
+  exits:
+    east:
+      target_vnum: '13150'
+    north:
+      target_vnum: '13146'
+    west:
+      target_vnum: '13148'
+  name: O Quarto De Guerra
+  vnum: '13149'
+- description: |-
+    Este impressionante e confortável quarto pertenceu ao chefe da Guarda
+    da cidade, infelizmente agora está em ruínas. Ele está completamente
+    destruído, e você não consegue nem imaginar como ele fora no passado.
+    Você pode ver os pratos de porcelana, alguns armamentos de aço e também
+    as sobras das belas tapeçarias nas paredes, embora agora estejam
+    apodrecidas. Por mais que ele tenha sido um homem corrupto e politicamente
+    poderoso, ninguém o protegeu. Ele morreu sentado em uma pequena cadeira
+    e a única coisa que você consegue ver são ossos. Você ainda consegue ver
+    as marcas da espada deixado em seus ossos. A forma de sair daqui é por
+    onde você entrou, pelo o oeste.
+  exits:
+    west:
+      target_vnum: '13149'
+  name: O Quarto Do Comandante
+  vnum: '13150'
+- description: |-
+    Este pequeno corredor parece que já foi utilizado como quartel, mas
+    os beliches foram rasgados e infelizmente você não sabe o motivo. Isto
+    se assemelha a nada mais nada menos que um esconderijo de rebeldes. Você
+    acredita ter ouvido falar algo referente a isto, ou seja, uns soldados
+    da cidade que estavam organizando algo contra rei, e agora você já sabe
+    onde realmente isso tudo começou. Você consegue ver os esqueletos de
+    alguns soldados menos afortunados que evidentemente foram mortos, pois
+    não conseguiram fugir. Você acredita conseguir ver algo à frente ao leste,
+    entretanto você pode voltar para a cidade pelo o oeste.
+  exits:
+    east:
+      target_vnum: '13152'
+    west:
+      target_vnum: '13146'
+  name: O Corredor
+  vnum: '13151'
+- description: |-
+    Agora você pode comentar que as pessoas que construíram estes quartéis
+    utilizaram-se de pedras na construção, e que preferiram cavar ao redor.
+    Que coisa estranha você ter achado que este povo de Torin tenha sido
+    tecnologicamente bem desenvolvido, pois utilizaram-se de magia para cavar
+    com grande facilidade esta cidade subterrânea. Das marcas nas paredes e
+    pelo fato de que os beliches parece que foram rasgados você acredita que
+    este povo não fora nada melhor do que qualquer grupo de bárbaros.
+  exits:
+    north:
+      target_vnum: '13153'
+    west:
+      target_vnum: '13151'
+  name: Uma Curva No Corredor
+  vnum: '13152'
+- description: |-
+    Aqui os quartéis se ramificam ao norte e ao leste.  Eles também
+    continuam para o sul.  Esta área está completamente vazia, mas parece que
+    uma vez este lugar já foi repleto de beliches do exército de Torin. Não
+    sobrou nada aqui, apesar de tanto tempo não ter sido usada você nota
+    sinais recentes de uso. Poderia ser qualquer um que esteve aqui.
+  exits:
+    east:
+      target_vnum: '13154'
+    north:
+      target_vnum: '13155'
+    south:
+      target_vnum: '13152'
+  name: Os Quartéis
+  vnum: '13153'
+- description: |-
+    Um quartel, um corredor, como você deseja chamar este lugar. Pois isto
+    se parece muito com as duas opções e continua conduzindo ao leste e oeste.
+    Os beliches parecem terem sido limpos recentemente, pelo menos é o que
+    parece, mas mesmo assim parece que nunca foram usados.
+  exits:
+    east:
+      target_vnum: '13156'
+    west:
+      target_vnum: '13153'
+  name: O Corredor
+  vnum: '13154'
+- description: |-
+    Este beco sem saída parece ter sido cavado parcialmente, e nunca fora
+    terminado. Talvez porque os habitantes daqui nunca tiveram uma chance de
+    cavar com segurança. Você consegue ver até mesmo onde eles deixaram suas
+    pás quando foram chamados para lutar pela cidade. Alguns beliches estão
+    aqui, provavelmente para que não precisassem ir até suas casa, ou seja,
+    para cavarem o mais rápido possível. Você consegue voltar somente pelo
+    caminho que você veio, ao sul.
+  exits:
+    south:
+      target_vnum: '13153'
+  name: O Fim Das Barracas
+  vnum: '13155'
+- description: |-
+    Aqui você consegue ver pegadas sobre o grosso pó que cobre o chão. Será
+    que você já esteve aqui antes? As paredes ao contrário do chão não
+    demonstram qualquer sinal de passagem. Parece que esta área sempre possuiu
+    beliches e você imagina que isto foi e possivelmente ainda é algum tipo de
+    sede. Para o sul o corredor continua até um quarto grande e para o leste o
+    corredor segue até a parte principal da cidade.
+  exits:
+    south:
+      target_vnum: '13145'
+    west:
+      target_vnum: '13154'
+  name: Uma Curva No Corredor
+  vnum: '13156'
+- description: |-
+    Este lugar parece totalmente estranho comparado ao resto de Torin.
+    Instintivamente você percebe que este lugar é sagrado pelo menos para
+    algumas pessoas de Torin, e possivelmente também um lugar religioso. As
+    ruas, ao contrário de outras partes da cidade, é mantida imaculada. De
+    vez em quando você acredita conseguir ver um dos guardiões destas ruas,
+    mas você pisca e eles desaparecem como se virasse pó. Brilhantes globos
+    iluminam a rua, entretanto você nunca viu qualquer coisa parecida como
+    eles antes. Ao leste continua o bulevar e para o sul você pode ver a
+    Câmara dos Porteiros.
+  exits:
+    east:
+      target_vnum: '13158'
+    south:
+      target_vnum: '13123'
+  name: O Começo De Um Lugar Sagrado
+  vnum: '13157'
+- description: |-
+    Aqui a rua está bem limpa, e passou com certeza por uma monstruosa
+    limpeza. Uma estrutura bem mantida está ao norte. O estranho e brilhante
+    globo nos lados da rua iluminam uma parte da estrutura e você também
+    consegue notar uma bela porta dourada que está com certeza aberta ao
+    público. O resto da estrutura está impressionando e faz com que as ruas
+    pavimentadas fiquem com um aspecto muito melhor. A estrada continua ao
+    leste e oeste.
+  exits:
+    east:
+      target_vnum: '13159'
+    north:
+      target_vnum: '13165'
+    west:
+      target_vnum: '13157'
+  name: Na Estrada Diante Da Catedral
+  vnum: '13158'
+- description: |-
+    Aqui a rua termina. Uma grande parede está sustentando uma estrutura
+    ao oeste, e isto bloqueia seu caminho. Para o norte estão duas portas
+    douradas muito grandes que estão abertas ao público, como que estivessem
+    convidando a todos para entrar. A rua embora termine aqui, permanece
+    extremamente limpa e muito bem iluminada.
+  exits:
+    north:
+      target_vnum: '13160'
+    west:
+      target_vnum: '13158'
+  name: O Fim Da Estrada
+  vnum: '13159'
+- description: |-
+    Você entra na grande catedral de Torin e és imediatamente amedrontado
+    pela presença que você sente ao entrar. O chão aqui é feito de um tipo de
+    mármore branco com fugas de ouro. Você nota que este mármore reveste as
+    paredes ao leste e oeste. Estranhamente os bancos da frente parecem estar
+    em condição muito melhor do que os de trás, como se esses bancos fossem
+    especiais, mas infelizmente não existe ninguém por aqui disposto a lhe
+    ajudar. O altar está ao norte e para o lado sul as portas douradas que
+    estão supostamente sempre abertas por ordem do Mestre Templar Mendo
+    possuem um papel fixado.
+  exits:
+    north:
+      target_vnum: '13161'
+    south:
+      target_vnum: '13159'
+  name: A Grande Catedral
+  vnum: '13160'
+- description: |-
+    Um grande altar ocupa a grande parte deste templo. Você não consegue
+    reconhecer para qual deus este altar foi dedicado, entretanto o significado
+    dele com certeza é muito importante. O resto do altar não impressiona nada,
+    a não ser o ouro que ladrilha isso. Ao leste você nota uma pequena entrada
+    que conduz mais adiante no templo, talvez para uma câmara privada no templo.
+  exits:
+    east:
+      target_vnum: '13162'
+    south:
+      target_vnum: '13160'
+  name: O Altar
+  vnum: '13161'
+- description: |-
+    Você entrou em um pequeno, porém temeroso lugar. O lugar é realmente
+    muito pouco decorado, possui somente um tapete enfeitando o chão e uma
+    pequena escrivaninha, praticamente é somente isto.  Uma mesa está ao do
+    norte e sobre isto existe a estátua de um deus. O Templar Mendo é um
+    homem grande. Já foi dito que ele era um gigante entre os homens e que
+    também fora uma criatura calma. Você pode ver uma tapeçaria na parte de
+    trás do quarto. Para o lado leste outro pequeno quarto e para o oeste o
+    próprio Templo de Mendo. Para o lado sul um quarto.
+  exits:
+    east:
+      target_vnum: '13164'
+    south:
+      target_vnum: '13163'
+    west:
+      target_vnum: '13161'
+  name: O Aposento de Mendo
+  vnum: '13162'
+- description: |-
+    Quando entra neste quarto nota que é realmente muito simples para uma
+    pessoa como ele foi. A primeira coisa que você olha ao entrar são as
+    paredes marrons de pedra. A única coisa para quebrar a monotonia daqui é
+    uma pequena cama onde Mendo quase não cabe. A única saída deste quarto é
+    ao norte.
+  exits:
+    north:
+      target_vnum: '13162'
+  name: O Quarto De Mendo
+  vnum: '13163'
+- description: |-
+    Antes você achava que isto fosse somente um outro quarto qualquer, mas
+    agora nota que existe um gabinete adornado com pequenas jóias. Por outro
+    lado o quarto possui somente paredes de madeira e uns pequenos azulejos de
+    pedra no chão. A única saída está ao oeste.
+  exits:
+    west:
+      target_vnum: '13162'
+  name: Um Quarto Pequeno
+  vnum: '13164'
+- description: |-
+    Aqui está um pequeno quarto. Parece ser uma sala de reuniões,
+    entretanto você não consegue ter certeza para qual finalidade era
+    utilizado. Isto não parece com nada com que você tenha visto, mas nota
+    alguma semelhança. O chão pardo não parece ter sido tocado há muito tempo.
+    A única saída deste quarto está ao sul.
+  exits:
+    south:
+      target_vnum: '13158'
+  name: Um Quarto Pequeno
+  vnum: '13165'
+- description: |-
+    Rastejando por este pequeno túnel você percebe que alguém de fato
+    cavou isto como um caminho temporário... não existe nenhum motivo de
+    alguém cavar um túnel como este para outra razão. Este túnel é grande o
+    suficiente para você conseguir rastejar, mas você não pode permanecer
+    aqui por muito tempo, pois sofre de claustrofobia. Ao norte você pode
+    ver uma caverna e para o sul uma outra.
+  exits:
+    north:
+      target_vnum: '13167'
+    south:
+      target_vnum: '13129'
+  name: O Túnel
+  vnum: '13166'
+- description: |-
+    Estas cavernas estão em um estado terrível e você não consegue
+    imaginar o tipo de criatura que poderia viver em um lugar como este.
+    Restos de comida e roupas rasgadas o fazem ter certeza que a criatura
+    pode um dia ter caminhado em duas pernas. Entretanto os sons de algo
+    raspando fazem você pensar que isto ocorreu há muito tempo. Você pode
+    continuar pela caverna ao leste, oeste e pelo túnel ao sul.
+  exits:
+    east:
+      target_vnum: '13169'
+    south:
+      target_vnum: '13166'
+    west:
+      target_vnum: '13168'
+  name: O Reino De Melki E Adorin
+  vnum: '13167'
+- description: |-
+    Aqui as paredes da caverna são volumosas e escuras. Vestimentas antigas
+    e outras relíquias semelhantes lhe mostram que algum tipo de civilização
+    viveu aqui. As únicas criaturas que você consegue ver são algumas
+    insignificantes. Você não consegue entender o motivo que poderia ter
+    reduzido estes seres inteligentes em tais animais, certamente eles se
+    degeneraram. Para o leste está mais uma seção desta pequena caverna.
+  exits:
+    east:
+      target_vnum: '13167'
+  name: O Fim Da Caverna
+  vnum: '13168'
+- description: |-
+    Aqui você vê mais uma daquelas cavernas que parecem terem sido habitas
+    por algum ser. Agora o que apenas vive aqui pode ser considerado de algo
+    não inteligente. As criaturas que vivem aqui parecem terem perdido todo
+    tipo de rastro que lhes tornam seres inteligentes. Eles agora se utilizam
+    somente de seus instintos. Eles retiraram o que foi uma vez sua roupa,
+    pois elas estão por toda parte, junto com o que parece ter sido um jantar.
+    Alguns pedaços da parede provavelmente foram utilizados como ferramentas
+    por estes seres. Um pequeno nicho está ao leste e uma pequena rotatória
+    está ao sul.
+  exits:
+    east:
+      target_vnum: '13170'
+    south:
+      target_vnum: '13171'
+    west:
+      target_vnum: '13167'
+  name: A Caverna
+  vnum: '13169'
+- description: |-
+    Um grande quarto está aberto aqui e você não consegue imaginar como
+    isto durou por tanto tempo. Uma grande fonte está no centro do quarto e
+    um grande globo brilhante paira sobre isto. Você não está se sentindo
+    muito seguro por mais que este lugar lhe passe segurança. Filas de
+    azulejos brancos estão no chão deste quarto. O suave gotejar de água da
+    fonte quase faz você dormir. Você está tão à vontade que quase esquece
+    da saída ocidental, que é a única saída deste quarto.
+  exits:
+    west:
+      target_vnum: '13169'
+  name: Um Grande Quarto
+  vnum: '13170'
+- description: |-
+    O chão imundo neste pequeno nicho quase lhe asfixia. Você só consegue
+    pensar no tipo de criatura que vive em um lugar como este. Talvez isto
+    daqui pudesse ter sido usado como algum tipo de banheiro. As lágrimas
+    que correm de seus olhos fazem com que a sujeira grude de alguma forma
+    neles, mas você ainda consegue ver o caminho para sair daqui ao norte.
+  exits:
+    north:
+      target_vnum: '13169'
+  name: Um Nicho Pequeno
+  vnum: '13171'
+- description: "Você chega até uma pequena justificação dentro das Arvores Negras.\n\
+    Folhas estão espalhadas sobre o chão, depois de terem caído possivelmente\ndas\
+    \ árvores que aqui estão. A idade desta floresta se torna muito\nevidente quando\
+    \ você nota o tamanho do buraco que as raízes fizeram.\nMas existe somente um\
+    \ buraco deste tamanho, porque será que somente UM?\nPoderia ser uma caverna subterrânea?\
+    \  Uma cidade anciã enterrada aqui? Um\ntesouro acumulado de um pequeno dragÃ£o?\
+    \ Ã\x89 difÃ­cil conter a excitaÃ§Ã£o que\nisto lhe proporciona, pois ainda é\
+    \ um mistério.  Entre, se você for\nousado - caso contrÃ¡rio, volte pelo caminho\
+    \ das Ã\x81rvores Negras ao oeste\ne sul."
+  exits:
+    down:
+      target_vnum: '13101'
+    south:
+      target_vnum: '13173'
+  name: "Uma Ã\x81rea Limpa Na Floresta"
+  vnum: '13172'
+- description: |-
+    Vagando por esta antiga floresta, você começa a se lembrar quando era
+    uma criança, de todos os contos que foram lhe contado sobre este lugar.
+    Esta floresta é considerada uma das que possuem os maiores mistérios já
+    conhecidos, pois todos conhecem aquela de que possui uma antiga cidade
+    enterrada debaixo daqui. Muitas criaturas maléficas vagam livremente ao
+    longo das árvores. O caminho pela floresta segue ao oeste e ao norte
+    existe uma pequena justificação.
+  exits:
+    north:
+      target_vnum: '13172'
+    west:
+      target_vnum: '13174'
+  name: "As Ã\x81rvores Negras"
+  vnum: '13173'
+- description: |-
+    Você entra em uma floresta que parece ser completamente diferente da
+    floresta de Thewster.  Aqui todas as árvores são completamente negras, mas
+    não por terem sido carbonizadas ou algo do tipo, e sim por assim o serem.
+    Além disso, elas são muito antigas, escondendo entre seus ramos e raízes
+    muitos mistérios.  Há muita dificuldade em andar aqui, sendo possível
+    caminhar apenas por uma estreita trilha quase desaparecida.
+  exits:
+    east:
+      target_vnum: '13175'
+    west:
+      target_vnum: '13581'
+  name: "A Floresta das Ã\x81rvores Negras"
+  vnum: '13174'
+- description: |-
+    Você está em uma floresta em que todas as árvores são completamente
+    negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
+    o serem.  São elas seres muito antigos, que escondem entre seus ramos e
+    raízes muitos mistérios.  Há muita dificuldade em andar aqui, sendo possível
+    caminhar apenas por uma estreita trilha quase desaparecida que segue leste-
+    oeste.
+  exits:
+    east:
+      target_vnum: '13176'
+    west:
+      target_vnum: '13174'
+  name: "A Floresta das Ã\x81rvores Negras"
+  vnum: '13175'
+- description: |-
+    Você está em uma floresta em que todas as árvores são completamente
+    negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
+    o serem.  São elas seres muito antigos, que escondem entre seus ramos e
+    raízes muitos mistérios.  Há muita dificuldade em andar aqui, sendo possível
+    caminhar apenas por uma estreita trilha quase desaparecida que segue leste-
+    oeste.
+  exits:
+    east:
+      target_vnum: '13177'
+    west:
+      target_vnum: '13175'
+  name: "A Floresta das Ã\x81rvores Negras"
+  vnum: '13176'
+- description: |-
+    Você está em uma floresta em que todas as árvores são completamente
+    negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
+    o serem.  São elas seres muito antigos, que escondem entre seus ramos e
+    raízes muitos mistérios.  Há muita dificuldade em andar aqui, sendo possível
+    caminhar apenas por uma estreita trilha quase desaparecida que segue leste-
+    oeste.
+  exits:
+    east:
+      target_vnum: '13178'
+    west:
+      target_vnum: '13176'
+  name: "A Floresta das Ã\x81rvores Negras"
+  vnum: '13177'
+- description: |-
+    Você está em uma floresta em que todas as árvores são completamente
+    negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
+    o serem.  São elas seres muito antigos, que escondem entre seus ramos e
+    raízes muitos mistérios.  Há muita dificuldade em andar aqui, sendo possível
+    caminhar apenas por uma estreita trilha quase desaparecida que segue leste-
+    oeste.
+  exits:
+    east:
+      target_vnum: '13173'
+    west:
+      target_vnum: '13177'
+  name: "A Floresta das Ã\x81rvores Negras"
+  vnum: '13178'

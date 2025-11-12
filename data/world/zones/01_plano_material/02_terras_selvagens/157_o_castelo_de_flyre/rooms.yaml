@@ -1,0 +1,607 @@
+- description: |-
+    Nossa, que diferença!  Depois de sair de uma floresta tão densa e escura,
+    você chega num enorme campo.  A luz do sol quase lhe cega, tão desacostumado
+    à luz você estava.  Bem ao longe, você avista uma pequena ponte, e além
+    dela, um castelo.
+  exits:
+    south:
+      target_vnum: '15702'
+    west:
+      target_vnum: '6142'
+  name: O Campo Aberto
+  vnum: '15701'
+- description: |-
+    "Oh-oh... Essa ponte não parece ser muito segura..." - você pensou.  E
+    estava certo.  Mas mesmo assim tentou atravessá-la...  Tsc tsc...  Agora
+    você está aí, pendurado no que sobrou dela...  Seus dedos estão doendo pois
+    o sol é muito forte e a corda está quente.  Se gritar por socorro, ninguém
+    irá te ouvir...  Só lhe resta subir, antes que os crocodilos do fosso pouco
+    abaixo de você lhe comam vivo...
+  exits:
+    east:
+      target_vnum: '15703'
+    north:
+      target_vnum: '15701'
+    south:
+      target_vnum: '15704'
+  name: A Ponte
+  vnum: '15702'
+- description: "Ooops...  Seus dedos não agüentaram e você escorregou.  Os crocodilos\n\
+    estão lhe devorando brutalmente.  Lhe arrancam os braços, as pernas, a\ncabeça,\
+    \ tudo.  Numa hora dessas você está morto, mas sua alma ainda continua\nlÃ¡, vendo\
+    \ seu corpo ser estraÃ§alhado.  Ã\x89 uma cena horrorosa, e Ã© preciso ter\num\
+    \ estômago muito forte, para agüentar vê-la."
+  exits: {}
+  name: O Fosso dos Crocodilos
+  vnum: '15703'
+- description: |-
+    Ufa!  Depois de 4 longas e cansativas horas, você finalmente conseguiu,
+    digamos, escalar a ponte.  Parabéns!  Agora você se encontra numa pequena
+    praça, na frente de um imenso castelo.  Você vê o castelo através das águas
+    de um chafariz que se encontra na sua frente.
+  exits:
+    north:
+      target_vnum: '15702'
+    south:
+      target_vnum: '15705'
+  name: A Praça
+  vnum: '15704'
+- description: "Você se encontra no centro da praça e pode ver a sua frente um chafariz.\n\
+    Ã\x89 lindo.  E jorra uma Ã¡gua tÃ£o cristalina que a imagem do castelo fica tÃ£o\n\
+    nítida quanto se ele existisse dentro do Chafariz.  Ele é da forma de uma\nlinda\
+    \ ave de fogo, a qual você nunca viu.  O castelo está à sua frente e\npara chegar\
+    \ até ele, você terá que subir uma escadaria."
+  exits:
+    east:
+      target_vnum: '15706'
+    north:
+      target_vnum: '15704'
+    west:
+      target_vnum: '15707'
+  name: O Centro da Praça
+  vnum: '15705'
+- description: |-
+    São feitas de pedra, e aparentam ter mais de 100 anos.  Possuem cerca de
+    100 degraus, o que lhe faz ficar extremamente cansado.  Mas, enquanto para
+    para descansar, você percebe que em certos locais dessa escadaria também
+    existe um desenho da mesma ave de fogo do chafariz...  "Que ave será
+    essa?" - você se pergunta...
+  exits:
+    east:
+      target_vnum: '15705'
+  name: A Escadaria
+  vnum: '15706'
+- description: |-
+    São feitas de pedra, e aparentam ter mais de 100 anos.  Possuem cerca de
+    100 degraus, o que lhe faz ficar extremamente cansado.  Mas, enquanto pára
+    para descansar, você percebe que em certos locais dessa escadaria também
+    existe um desenho da mesma ave de fogo do chafariz...  Que ave será
+    essa? - você se pergunta...
+  exits:
+    west:
+      target_vnum: '15705'
+  name: A Escadaria
+  vnum: '15707'
+- description: |-
+    Você chegou na entrada principal do castelo.  Na grande porta que se
+    encontra à sua frente, está escrito: "Bem Vindo Ao Castelo de Flyre!"  Ah..
+    Finalmente você descobriu nome do castelo.  Os guardas barram caminho
+    para a entrada do castelo.  Você tenta conversar, mas nem lhe olhar nos
+    olhos eles olham...
+  exits:
+    south:
+      target_vnum: '15709'
+  name: A Porta
+  vnum: '15708'
+- description: |-
+    Depois de uma luta e tanto você consegue entrar no castelo!  Se encontra
+    agora num grande salão.  Aqui o que não falta é luxo...  E silêncio.
+    Nenhuma palavra, nenhum ruído (a não ser os seus) são ouvidos.  O mais
+    estranho é que existem mais duas pessoas aqui: O Rei e a Rainha, que não te
+    olharam nem mesmo por um instante.  Parece que não te viram. Mas você está
+    na frente deles!  Como é possível?...
+  exits:
+    east:
+      target_vnum: '15739'
+    north:
+      target_vnum: '15708'
+    south:
+      target_vnum: '15711'
+    up:
+      target_vnum: '15714'
+    west:
+      target_vnum: '15710'
+  name: O Imenso Salão
+  vnum: '15709'
+- description: "Ã\x89 um corredor como outro qualquer.  A nÃ£o ser pelo silÃªncio...\
+    \  NÃ£o Ã© um\nsilÃªncio comum...  Ã\x89 um silÃªncio assustador, que lhe faz\
+    \ tremer atÃ© os pÃ©s.\nNo final do corredor se encontra uma sala.  Quem sabe\
+    \ você não encontre\nalguém lá.  E que não seja cego, de preferência."
+  exits:
+    east:
+      target_vnum: '15709'
+    west:
+      target_vnum: '15712'
+  name: Um Corredor
+  vnum: '15710'
+- description: "Ã\x89 um corredor como outro qualquer.  A nÃ£o ser pelo silÃªncio...\
+    \  NÃ£o Ã© um\nsilÃªncio comum...  Ã\x89 um silÃªncio assustador, que lhe faz\
+    \ tremer atÃ© os pÃ©s.\nNo final do corredor se encontra uma sala.  Quem save\
+    \ você não encontre\nalguém lá, e que não seja cego, de preferência."
+  exits:
+    north:
+      target_vnum: '15709'
+    south:
+      target_vnum: '15713'
+    west:
+      target_vnum: '15719'
+  name: Um Corredor
+  vnum: '15711'
+- description: |-
+    Papéis, papéis e mais papéis.  Todos espalhados pela pequena sala.  No
+    meio da papelada, você encontra uma linda mulher, de cabelos loiros e olhos
+    da cor do mel.  Você vai chegando cada ver mais perto da moça e...  Ahh! Ela
+    também não lhe vê! Não lhe ouve!  Não percebe sua presença!  O que será isso?
+    O que está acontecendo com esse lugar?  Será que seu destino será igual ao
+    dos monarcas ou dessa moça?  Você tem duas opções: pode fugir daqui, ou
+    continuar explorando o lugar.
+  exits:
+    east:
+      target_vnum: '15711'
+  name: O Escritório
+  vnum: '15712'
+- description: "Ã\x89 uma cozinha muito bem limpa.  NÃ£o se vÃª nada sujo e a comida\
+    \ cheira\nbem.  Nham nham...  O Chefe da Cozinha é bem competente.  Está tudo\
+    \ no seu\ndevido lugar.  Estranhamente, ele esta como os outros habitantes desse\n\
+    castelo: imóvel!  Mas, se não foi ele, quem fez toda essa comida?  Você\navista\
+    \ uma porta aberta nos fundos."
+  exits:
+    east:
+      target_vnum: '15718'
+    north:
+      target_vnum: '15711'
+    south:
+      target_vnum: '15726'
+  name: A Cozinha
+  vnum: '15713'
+- description: "Ã\x89 uma escada das mais luxuosas.  Existem alguns desenhos nela...\
+    \  Ã\x89 o\nmesmo desenho que aparece no chafariz e na porta!  Que ave será essa?\
+    \  E sua\ncuriosidade aumenta a cada passo que você dá."
+  exits:
+    down:
+      target_vnum: '15709'
+  name: A Escada Principal
+  vnum: '15714'
+- description: |-
+    Finalmente você encontra com o chão, aqui é escuro, assustador e cheira
+    mal.  A saída foi misteriosamente bloqueada, e só resta seguir em frente.
+  exits:
+    west:
+      target_vnum: '15716'
+  name: Um Corredor Escuro
+  vnum: '15715'
+- description: |-
+    Você não consegue enxergar nada, algo parece ter bloqueado a passagem de
+    onde você veio, e só resta seguir em frente nessa escuridão.
+  exits:
+    west:
+      target_vnum: '15717'
+  name: Um Corredor Escuro
+  vnum: '15716'
+- description: |-
+    Você não consegue enxergar nada, algo parece ter bloqueado a passagem de
+    onde você veio, e só lhe resta seguir em frente nessa escuridão.
+  exits:
+    south:
+      target_vnum: '15720'
+  name: Um Corredor Escuro
+  vnum: '15717'
+- description: "Ã\x89 tudo muito sujo por aqui e aparentemente do nada, um grande\
+    \ livro\ncomeça a produzir uma fraca luz, talvez com suas últimas forças."
+  exits:
+    west:
+      target_vnum: '15713'
+  name: O Porão
+  vnum: '15718'
+- description: |-
+    Ahá!  Você sabia que deveria ter alguma passagem secreta naquele
+    corredor.
+    Depois de alguma procura você finalmente achou.  E está caindo, caindo...
+    Não vê nem sente nada, mas você sabe de uma coisa: uma hora você vai
+    encontrar o chão.  E nesse hora, você espera encontrar a resposta para todo
+    o mistério que invadiu seus pensamentos.
+  exits:
+    west:
+      target_vnum: '15715'
+  name: A Passagem Secreta
+  vnum: '15719'
+- description: "Argh!  Quanto mais você anda, mais nojo você sente.  Agora a cena\
+    \ é de\nvárias celas, com muitos ossos dentro delas.  Na parte de cima do castelo,\
+    \ as\npessoas estavam imóveis, mas pareciam estar \"meio vivas\"...  Essas não.\
+    \  As\npessoas (?) estão mortas!  Parece que esse lugar foi esquecido de sua\n\
+    existÃªncia.  Ã\x89 um lugar horrendo, que vocÃª faz questÃ£o de nÃ£o voltar nunca\n\
+    mais."
+  exits:
+    north:
+      target_vnum: '15717'
+    south:
+      target_vnum: '15721'
+    west:
+      target_vnum: '15722'
+  name: A Prisão
+  vnum: '15720'
+- description: "Argh! Quanto mais você anda, mais nojo você sente.  Agora a cena é\
+    \ de\nvárias celas, com muitos ossos dentro delas.  Na parte de cima do castelo,\n\
+    as pessoas estavam imóveis, mas pareciam estar meio vivas...  Essas não.  As\n\
+    pessoas (?) estão mortas!  Parece que esse lugar foi esquecido de sua\nexistÃªncia.\
+    \  Ã\x89 um lugar horrendo, que vocÃª faz questÃ£o de nÃ£o voltar nunca\nmais."
+  exits:
+    east:
+      target_vnum: '15723'
+    north:
+      target_vnum: '15720'
+    west:
+      target_vnum: '15724'
+  name: A Prisão
+  vnum: '15721'
+- description: |-
+    Ossos, ossos e mais ossos.  Pela posição, você julga que eles estavam se
+    rastejando e gritando, provavelmente por água e comida.
+  exits:
+    east:
+      target_vnum: '15720'
+  name: A Cela
+  vnum: '15722'
+- description: |-
+    Ossos, ossos e mais ossos.  Pela posição, você julga que eles estavam se
+    rastejando e gritando, provavelmente por água e comida.
+  exits:
+    west:
+      target_vnum: '15721'
+  name: A Cela
+  vnum: '15723'
+- description: |-
+    Ossos, ossos e mais ossos.  Pela posição, você julga que eles estavam se
+    rastejando e gritando, provavelmente por água e comida.
+  exits:
+    east:
+      target_vnum: '15721'
+  name: A Cela
+  vnum: '15724'
+- description: |-
+    Finalmente você encontra Flyre, a Ave do Fogo.  Ela é totalmente feita de
+    fogo, e você não tem nem coragem de chegar perto.  Infelizmente a cela é
+    pequena, e ficar longe dela é quase impossível.  Você faz de tudo para que
+    ela não te perceba, e quando se dá conta, uma sensação de tristeza e de
+    desânimo lhe invade o corpo, e vem à você a imagem de um quadro com seu
+    nome, desenhando sua suposta imagem daquele momento.  Parece que o olhar de
+    Flyre lhe hipnotizou, e ela está se aproximando de você, e está cada vez
+    mais perto...  Mas a coragem para a luta não existe, e você só tem à suas
+    mãos o medo que tomou seu corpo.  Ainda há tempo de fugir...
+  exits:
+    up:
+      target_vnum: '15756'
+  name: A Cela Isolada
+  vnum: '15725'
+- description: "Ã\x89 um simples quintal, mas o silÃªncio continua.  VocÃª nÃ£o ouve\
+    \ o canto de\nnenhum pássaro, nem mesmo do vento batendo nas várias plantações\
+    \ ali\nexistentes...Nada.  Como isso é possível?  O que tão grave aconteceu, para\n\
+    que esse castelo fosse enfeitiçado dessa forma, e perdesse toda a vida e\nalegria\
+    \ que um dia, alí deverá ter existido?  São perguntas que, talvez, você\nnunca\
+    \ terá as respostas..."
+  exits:
+    east:
+      target_vnum: '15746'
+    north:
+      target_vnum: '15713'
+    south:
+      target_vnum: '15751'
+    west:
+      target_vnum: '15748'
+  name: O Quintal
+  vnum: '15726'
+- description: "Ã\x89 um longo corredor, e possui em suas paredes quadros de vÃ¡rios\
+    \ jovens.\nAo olhar mais detalhadamente para eles, você percebe uma expressão\
+    \ de\ntristeza e desânimo."
+  exits:
+    east:
+      target_vnum: '15728'
+    north:
+      target_vnum: '15732'
+    south:
+      target_vnum: '15735'
+  name: Um Grande Corredor
+  vnum: '15727'
+- description: |-
+    O corredor continua, e parece não ter fim.  E ambas paredes existem
+    quadros de jovens, olhando-lhe tristemente.  Você se sente observado.
+  exits:
+    east:
+      target_vnum: '15740'
+    north:
+      target_vnum: '15733'
+    south:
+      target_vnum: '15736'
+    up:
+      target_vnum: '15741'
+    west:
+      target_vnum: '15727'
+  name: Um Grande Corredor
+  vnum: '15728'
+- description: |-
+    O corredor continua, e possui em suas paredes quadros de vários jovens.
+    Ao olhar mais detalhadamente para eles você percebe uma expressão de
+    tristeza e desânimo.    Ao final de tantos quadros existe um em
+    branco...Com seu nome escrito!  Um indescritível medo lhe faz pensar
+    seriamente em sair do castelo...Imediatamente.
+  exits:
+    east:
+      target_vnum: '15730'
+  name: Um Grande Corredor
+  vnum: '15729'
+- description: |-
+    O corredor continua, e parece não ter fim.  E ambas paredes existem
+    quadros de jovens, olhando-lhe tristemente.  Você se sente observado.
+  exits:
+    east:
+      target_vnum: '15731'
+    north:
+      target_vnum: '15734'
+    south:
+      target_vnum: '15737'
+    west:
+      target_vnum: '15729'
+  name: Um Grande Corredor
+  vnum: '15730'
+- description: |-
+    O corredor continua, e parece não ter fim.  E ambas paredes existem
+    quadros de jovens, olhando-lhe tristemente.  Você se sente observado.
+  exits:
+    east:
+      target_vnum: '15746'
+    north:
+      target_vnum: '15734'
+    up:
+      target_vnum: '15741'
+    west:
+      target_vnum: '15730'
+  name: Um Grande Corredor
+  vnum: '15731'
+- description: "Ã\x89 um quarto de hÃ³spedes, mas parece nÃ£o ser usado hÃ¡ muito\
+    \ tempo.  NÃ£o\nexiste nada de mais aqui, e ele só lhe serviu para aumentar o\
+    \ pavor."
+  exits:
+    south:
+      target_vnum: '15727'
+  name: O Quarto de Hóspedes
+  vnum: '15732'
+- description: "Ã\x89 um quarto de hÃ³spedes, mas parece nÃ£o ser usado hÃ¡ muito\
+    \ tempo.  NÃ£o\nexiste nada de mais aqui, e ele só lhe serviu para aumentar o\
+    \ pavor."
+  exits:
+    south:
+      target_vnum: '15728'
+  name: O Quarto de Hóspedes
+  vnum: '15733'
+- description: "Ã\x89 um quarto de hÃ³spedes, mas parece nÃ£o ser usado hÃ¡ muito\
+    \ tempo.  NÃ£o\nexiste nada de mais aqui, e ele só lhe serviu para aumentar o\
+    \ pavor."
+  exits:
+    south:
+      target_vnum: '15731'
+  name: O Quarto de Hóspedes
+  vnum: '15734'
+- description: "Ã\x89 um quarto de hÃ³spedes, mas parece nÃ£o ser usado hÃ¡ muito\
+    \ tempo.  NÃ£o\nexiste nada de mais aqui, e ele só lhe serviu para aumentar o\
+    \ pavor."
+  exits:
+    south:
+      target_vnum: '15729'
+  name: O Quarto de Hóspedes
+  vnum: '15735'
+- description: "Ã\x89 um quarto de hÃ³spedes, mas parece nÃ£o ser usado hÃ¡ muito\
+    \ tempo.  NÃ£o\nexiste nada de mais aqui, e ele só lhe serviu para aumentar o\
+    \ pavor."
+  exits:
+    north:
+      target_vnum: '15727'
+  name: O Quarto de Hóspedes
+  vnum: '15736'
+- description: "Ã\x89 um quarto de hÃ³spedes, mas parece nÃ£o ser usado hÃ¡ muito\
+    \ tempo.  NÃ£o e\nxiste nada de mais aqui, e ele só lhe serviu para aumentar o\
+    \ pavor."
+  exits:
+    north:
+      target_vnum: '15728'
+  name: O Quarto de Hóspedes
+  vnum: '15737'
+- description: "Ã\x89 um quarto de hÃ³spedes, mas parece nÃ£o ser usado hÃ¡ muito\
+    \ tempo.  NÃ£o\nexiste nada de mais aqui, e ele só lhe serviu para aumentar o\
+    \ pavor."
+  exits:
+    north:
+      target_vnum: '15729'
+  name: O Quarto de Hóspedes
+  vnum: '15738'
+- description: |-
+    Agora não tem desculpa.  Você está a dois passos deles!  Mas eles não
+    reagem.  Parecem estar mortos...  Eles devem estar enfeitiçados.  Mas quem
+    fez isso?
+  exits:
+    west:
+      target_vnum: '15709'
+  name: O Trono
+  vnum: '15739'
+- description: |-
+    O Aposento real...  Bem aconchegante, por sinal.  Uma imensa cama,
+    janelas enormes...  Você percebe uma pequena caixinha num dos criados-mudos.
+    Parece ter algo bem interessante dentro dela.
+  exits:
+    west:
+      target_vnum: '15728'
+  name: O Aposento Real
+  vnum: '15740'
+- description: "Ã\x89 escuro.  A luz do sol nÃ£o consegue penetrar nesse local.  AtÃ©\
+    \ agora,\ntodos os locais onde você explorou, ou possuía a luz do sol ou um castiçal\n\
+    como fonte de luz.  Aqui nÃ£o tem nada disso. Ã\x89 escuridÃ£o total, e sua fonte\n\
+    de luz é muito bem vinda.  Quanto mais você sobe, mais a escuridão e o frio\n\
+    aumentam.  Você tem a impressão de que o que te espera lá em cima não é coisa\n\
+    boa.  Você chega num local onde existem 4 saídas: voltar, ir para leste, para\n\
+    oeste, ou continuar subindo...  Agora é com você."
+  exits:
+    down:
+      target_vnum: '15731'
+    east:
+      target_vnum: '15745'
+    up:
+      target_vnum: '15742'
+    west:
+      target_vnum: '15744'
+  name: Subindo para as Torres
+  vnum: '15741'
+- description: |-
+    Finalmente, algum movimento!  No alto da mais alta torre desse Castelo
+    uma criatura se mexe...  Ele está na sua frente, e você vê claramente um
+    velho prisioneiro, quase morto.  Um zumbi, podemos chamá-lo assim, ele está
+    vindo na sua direção.
+  exits:
+    down:
+      target_vnum: '15741'
+  name: A Torre Principal
+  vnum: '15742'
+- description: |-
+    Você literalmente desce muito mais depressa que se fosse pela escada.
+    Você cai do alto da torre, e o impacto com o chão não foi nada agradável.
+    Doeu.
+  exits: {}
+  name: Descendo Mais Depressa
+  vnum: '15743'
+- description: |-
+    Nossa!  Que medo!  Você pensou que existiria alguma criatura de 7 cabeças
+    aqui, mas tudo o que encontrou foi um velho esqueleto.  Agora, você sabe que
+    veio para o caminho errado...  Voltar é a única saída.
+  exits:
+    east:
+      target_vnum: '15741'
+  name: A Torre de Apoio
+  vnum: '15744'
+- description: |-
+    Nossa!  Que medo!  Você pensou que existiria alguma criatura de 7 cabeças
+    aqui, mas tudo o que encontrou foi um velho esqueleto.  Agora, você sabe que
+    veio para o caminho errado...  Voltar é a única saída.
+  exits:
+    east:
+      target_vnum: '15743'
+    west:
+      target_vnum: '15741'
+  name: A Torre de Apoio
+  vnum: '15745'
+- description: |-
+    Um quarto quase igual ao Quarto real.  Ao ver bonecas, e vários outros
+    tipos de brinquedos espalhados, você julga que este deve ser o aposento de
+    uma criança, provavelmente da princesa.  Mesmo no quarto de uma criança, o
+    clima sinistro não deixa de existir...  Isso já está te dando alguns cabelos
+    brancos...
+  exits:
+    west:
+      target_vnum: '15731'
+  name: Um Pequeno Aposento
+  vnum: '15746'
+- description: |-
+    Argh, que cheiro horrível!  Os cavalos aqui presentes infestaram o local
+    com um cheiro insuportável, que lhe faz sair dali agora, antes que desmaie.
+    Mesmo com o cheiro, você não pôde deixar de perceber que os cavalos também
+    estavam imóveis...
+  exits:
+    west:
+      target_vnum: '15726'
+  name: O Celeiro
+  vnum: '15747'
+- description: |-
+    Argh, que cheiro horrível!  As vacas aqui presentes infestaram o local
+    com um cheiro insuportável, que lhe faz sair dali agora, antes que desmaie.
+    Mesmo com o cheiro, você não pôde deixar de perceber que as vacas também
+    tinham algo de estranho...  Estavam imóveis.
+  exits:
+    east:
+      target_vnum: '15726'
+  name: O Curral
+  vnum: '15748'
+- description: |-
+    Foi a gota d'água!  Aqui você não fica nem por 10 segundos.  O cheiro é 5
+    vezes pior que o cheiro do curral ou do celeiro.  O silêncio incomoda, mas o
+    cheiro é insuportável!  Sair daqui e nunca mais voltar parece ser uma ótima
+    idéia.
+  exits: {}
+  name: O Chiqueiro
+  vnum: '15749'
+- description: "Ã\x89...  O cheiro daqui nÃ£o Ã© tÃ£o ruim assim, dÃ¡ para agÃ¼entar.\
+    \  E vocÃª\ncomeça a pensar: até os animais estão imóveis...  Mas as vacas continuam\n\
+    dando leite, e as galinhas continuam botando ovos.  Mesmo quase mortos, o\nanimais\
+    \ não param de fazer o que devem...  Muito estranho."
+  exits: {}
+  name: O Galinheiro
+  vnum: '15750'
+- description: "\"Que fome!  As cenouras parecem estar boas!\"  Você pensa... e estão,\
+    \ de\nfato.  Uma plantação de cenoura!  Há quanto tempo você não via uma!  Há\n\
+    quanto tempo vocÃª nÃ£o comia uma!  Ã\x89 uma das plantaÃ§Ãµes mais bem cuidadas\
+    \ que\nvocê já viu.\nAo longe, você avista uma simples mulher, que colhe as cenouras\
+    \ e as\ncoloca num cesto, não é preciso dizer o que essa mulher tem de estranho..."
+  exits:
+    east:
+      target_vnum: '15752'
+    north:
+      target_vnum: '15726'
+    west:
+      target_vnum: '15755'
+  name: A Plantação de Cenoura
+  vnum: '15751'
+- description: |-
+    Tá aí um vegetal que você não sabe para que serve.  Ele é muito duro, e
+    machuca os dentes.  Mas se existe, é porque alguma utilidade ele deve ter.
+    E não lhe cabe descobrir qual é.  Seu dever agora é desvendar todo o mistério
+    que ronda esse local...  Ou sair dele imediatamente.
+  exits:
+    south:
+      target_vnum: '15755'
+    west:
+      target_vnum: '15751'
+  name: Milharal
+  vnum: '15752'
+- description: |-
+    "Morangos!  Que delícia!"  Estão vermelhinhos e se demorar mais um dia
+    para serem degustados, irão apodrecer.  E é querendo evitar esse desperdício
+    que uma simples mulher os está(va) colhendo.
+  exits:
+    east:
+      target_vnum: '15751'
+    south:
+      target_vnum: '15754'
+  name: A Plantação de Morangos
+  vnum: '15753'
+- description: |-
+    Milho, morango, leite, ovos, trigo...  Uma infinidade de coisas está
+    depositada aqui.  E estão separadas, cada tipo em uma cesta.  Morangos em
+    uma, milhos em outra...  Cada cesta está destinada a uma pessoa.
+  exits:
+    north:
+      target_vnum: '15753'
+  name: O Depósito
+  vnum: '15754'
+- description: "Aqui nÃ£o existe nada de especial...  Ã\x89 apenas uma plantaÃ§Ã£o\
+    \ de trigo.  O\nmais incrível, é que você sente o vento, mas não vê a plantação\
+    \ se mexendo,\nnem um pouquinho...  Ela permanece imóvel."
+  exits:
+    north:
+      target_vnum: '15752'
+  name: A Plantação de Trigo
+  vnum: '15755'
+- description: |-
+    Essa é a sala onde a Ave de Fogo depositava seus pertences mais
+    preciosos.  Será que, após tantos séculos fechada, essa sala ainda
+    guarda algo de valioso?
+  exits:
+    up:
+      target_vnum: '5025'
+  name: A Ascensão
+  vnum: '15756'

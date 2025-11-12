@@ -1,0 +1,4910 @@
+- description: |-
+    Esta larga ponte faz a ligação entre os campos e o enorme castelo que
+    está a sua frente, você avista dois enormes estandartes verdes pendurados
+    nos mastros de duas torres frontais da construção.  Você pode voltar por
+    onde veio ou seguir para o sul em direção ao castelo.
+  exits:
+    north:
+      target_vnum: '16301'
+    south:
+      target_vnum: '16001'
+  name: A Ponte do Castelo
+  vnum: '16000'
+- description: |-
+    Você está a apenas alguns metros do grandioso portão de metal que protege
+    o castelo das numerosas tentativas de invasão que este sofre, ao olhar para
+    as paredes pode ver uma flâmula verde pendurada em cada lateral do portão.
+    Ao norte você segue pela ponte e ao sul chega aos portões.
+  exits:
+    north:
+      target_vnum: '16000'
+    south:
+      target_vnum: '16002'
+  name: A Ponte do Castelo
+  vnum: '16001'
+- description: |-
+    Você está em frente ao grande portão de metal do castelo do reino verde
+    e, caso não seja desta equipe, a imponência de sua fortificação deixa-lhe em
+    duvidas se deve ou não entrar.  Se estiver com medo volte correndo para o
+    norte, se for alguém com uma alma aventureira siga para o sul.
+  exits:
+    north:
+      target_vnum: '16001'
+    south:
+      target_vnum: '16003'
+  name: O Imponente Portão
+  vnum: '16002'
+- description: |-
+    Passando o portão da entrada, você olha ao redor e percebe que toda a
+    decoração é feita com detalhes verdes.  Grandes quadros pintados com a
+    imagem dos grandes marechais estão nas paredes.  Para voltar para a parte
+    exterior siga para o norte; ao sul, leste e oeste corredores levam ao
+    interior da fortificada construção.
+  exits:
+    east:
+      target_vnum: '16004'
+    north:
+      target_vnum: '16002'
+    south:
+      target_vnum: '16039'
+    west:
+      target_vnum: '16030'
+  name: A Entrada do Castelo
+  vnum: '16003'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao oeste você volta para a entrada do
+    castelo e para leste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16005'
+    west:
+      target_vnum: '16003'
+  name: Pelos Corredores
+  vnum: '16004'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16006'
+    west:
+      target_vnum: '16004'
+  name: Pelos Corredores
+  vnum: '16005'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16007'
+    south:
+      target_vnum: '16035'
+    west:
+      target_vnum: '16005'
+  name: Pelos Corredores
+  vnum: '16006'
+- description: |-
+    Aqui acaba o corredor que trazia para o nordeste do castelo e iniciam os
+    corredores que seguem para o extremo sul-oeste, aqui também há uma escada
+    que leva para alguma parte superior.  Para o oeste e o sul estão os
+    corredores e para cima uma escada.
+  exits:
+    south:
+      target_vnum: '16008'
+    up:
+      target_vnum: '16031'
+    west:
+      target_vnum: '16006'
+  name: O Canto Nordeste do Castelo
+  vnum: '16007'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16007'
+    south:
+      target_vnum: '16009'
+    west:
+      target_vnum: '16035'
+  name: Pelos Corredores
+  vnum: '16008'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16008'
+    south:
+      target_vnum: '16010'
+  name: Pelos Corredores
+  vnum: '16009'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16009'
+    south:
+      target_vnum: '16011'
+  name: Pelos Corredores
+  vnum: '16010'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16010'
+    south:
+      target_vnum: '16012'
+    west:
+      target_vnum: '16036'
+  name: Pelos Corredores
+  vnum: '16011'
+- description: |-
+    Aqui acabam os corredores que traziam para o sudoeste do castelo e
+    iniciam os corredores que seguem para o extremo sul-leste.  Para o oeste e o
+    norte estão os corredores e ao leste algo.
+  exits:
+    east:
+      target_vnum: '16074'
+    north:
+      target_vnum: '16011'
+    west:
+      target_vnum: '16013'
+  name: O Canto Sudeste do Castelo
+  vnum: '16012'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16012'
+    north:
+      target_vnum: '16036'
+    west:
+      target_vnum: '16014'
+  name: Pelos Corredores
+  vnum: '16013'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16013'
+    west:
+      target_vnum: '16015'
+  name: Pelos Corredores
+  vnum: '16014'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16014'
+    west:
+      target_vnum: '16016'
+  name: Pelos Corredores
+  vnum: '16015'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16015'
+    west:
+      target_vnum: '16017'
+  name: Pelos Corredores
+  vnum: '16016'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o norte segue um corredor que passa
+    pelo centro do castelo, a leste e oeste continuam os corredores laterais.
+  exits:
+    east:
+      target_vnum: '16016'
+    north:
+      target_vnum: '16045'
+    west:
+      target_vnum: '16018'
+  name: Uma Intersecção dos Corredores
+  vnum: '16017'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16017'
+    west:
+      target_vnum: '16019'
+  name: Pelos Corredores
+  vnum: '16018'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16018'
+    west:
+      target_vnum: '16020'
+  name: Pelos Corredores
+  vnum: '16019'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16019'
+    north:
+      target_vnum: '16037'
+    west:
+      target_vnum: '16021'
+  name: Pelos Corredores
+  vnum: '16020'
+- description: |-
+    Aqui acabam os corredores que traziam para o sudoeste do castelo e
+    iniciam os corredores que seguem para o extremo norte-leste.  Para o leste e
+    o norte estão os corredores.
+  exits:
+    east:
+      target_vnum: '16020'
+    north:
+      target_vnum: '16022'
+  name: O Canto Sudoeste do Castelo
+  vnum: '16021'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16037'
+    north:
+      target_vnum: '16023'
+    south:
+      target_vnum: '16021'
+  name: Pelos Corredores
+  vnum: '16022'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16024'
+    south:
+      target_vnum: '16022'
+  name: Pelos Corredores
+  vnum: '16023'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16025'
+    south:
+      target_vnum: '16023'
+  name: Pelos Corredores
+  vnum: '16024'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16038'
+    north:
+      target_vnum: '16026'
+    south:
+      target_vnum: '16024'
+  name: Pelos Corredores
+  vnum: '16025'
+- description: |-
+    Aqui acaba o corredor que trazia para o noroeste do castelo e iniciam os
+    corredores que seguem para o extremo sul-leste, aqui também há uma escada
+    que leva para alguma parte superior.  Para o leste e o sul estão os
+    corredores e para cima uma escada.
+  exits:
+    east:
+      target_vnum: '16027'
+    south:
+      target_vnum: '16025'
+    up:
+      target_vnum: '16033'
+  name: O Canto Noroeste do Castelo
+  vnum: '16026'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16028'
+    south:
+      target_vnum: '16038'
+    west:
+      target_vnum: '16026'
+  name: Pelos Corredores
+  vnum: '16027'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16029'
+    west:
+      target_vnum: '16027'
+  name: Pelos Corredores
+  vnum: '16028'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16030'
+    west:
+      target_vnum: '16028'
+  name: Pelos Corredores
+  vnum: '16029'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste você volta para a entrada do
+    castelo e para oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16003'
+    west:
+      target_vnum: '16029'
+  name: Pelos Corredores
+  vnum: '16030'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    leste do castelo do exército verde, em um certo ponto as escadas terminam em
+    uma porta de metal.  Para cima há uma porta fechando o caminho que leva ao
+    topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16007'
+    up:
+      target_vnum: '16032'
+  name: A Escadaria da Torre Leste
+  vnum: '16031'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Opa!  A porta de metal que você deixou fechar quando entrou parece
+    não abrir pelo lado de dentro...
+  exits:
+    down:
+      target_vnum: '16031'
+  name: O Topo da Torre Leste
+  vnum: '16032'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    oeste do castelo do exército verde, em um certo ponto as escadas terminam em
+    uma porta de metal.  Para cima há uma porta fechando o caminho que leva ao
+    topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16026'
+    up:
+      target_vnum: '16034'
+  name: A Escadaria da Torre Oeste
+  vnum: '16033'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Para baixo abrindo a porta de metal está a escadaria que você usou
+    para chegar até aqui.
+  exits:
+    down:
+      target_vnum: '16033'
+  name: O Topo da Torre Oeste
+  vnum: '16034'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército verde.  Para o norte e para o
+    leste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16008'
+    north:
+      target_vnum: '16006'
+  name: Uma Junção
+  vnum: '16035'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército verde.  Para o sul e para o
+    leste continuam os corredores, para cima está uma bela escadaria com um rico
+    tapete verde, levando aos aposentos superiores.
+  exits:
+    east:
+      target_vnum: '16011'
+    south:
+      target_vnum: '16013'
+    up:
+      target_vnum: '16048'
+  name: Uma Junção
+  vnum: '16036'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército verde.  Para o sul e para o
+    oeste continuam os corredores, para cima está uma bela escadaria com um rico
+    tapete verde, levando aos aposentos superiores.
+  exits:
+    south:
+      target_vnum: '16020'
+    up:
+      target_vnum: '16047'
+    west:
+      target_vnum: '16022'
+  name: Uma Junção
+  vnum: '16037'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército verde.  Para o norte e para o
+    oeste continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16027'
+    west:
+      target_vnum: '16025'
+  name: Uma Junção
+  vnum: '16038'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte você volta para a entrada do
+    castelo e para o sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16003'
+    south:
+      target_vnum: '16040'
+  name: Pelos Corredores Centrais
+  vnum: '16039'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o norte e para o leste continuam os
+    corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16041'
+    north:
+      target_vnum: '16039'
+  name: Pelos Corredores Centrais
+  vnum: '16040'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o oeste e para o sul continuam os
+    corredores do castelo.
+  exits:
+    south:
+      target_vnum: '16042'
+    west:
+      target_vnum: '16040'
+  name: Pelos Corredores Centrais
+  vnum: '16041'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o norte e para o oeste continuam os
+    corredores do castelo.
+  exits:
+    north:
+      target_vnum: '16041'
+    west:
+      target_vnum: '16043'
+  name: Pelos Corredores Centrais
+  vnum: '16042'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o leste e para o oeste continuam os
+    corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16042'
+    west:
+      target_vnum: '16044'
+  name: Pelos Corredores Centrais
+  vnum: '16043'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o leste e para o sul continuam os
+    corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16043'
+    south:
+      target_vnum: '16045'
+  name: Pelos Corredores Centrais
+  vnum: '16044'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército verde,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o norte e para o sul continuam os
+    corredores do castelo e para o leste segue uma estreita passagem.
+  exits:
+    east:
+      target_vnum: '16046'
+    north:
+      target_vnum: '16044'
+    south:
+      target_vnum: '16017'
+  name: Pelos Corredores Centrais
+  vnum: '16045'
+- description: |-
+    Aqui há uma grade de metal que separa o andar principal das escadas que
+    levem ao subterrâneo do castelo, onde estão as masmorras, lá são presos
+    todos os que têm intenções de prejudicar o exército verde, seria uma boa
+    idéia entrar lá?  Para baixo fica a entrada das masmorras e para o oeste
+    seguem os corredores.
+  exits:
+    down:
+      target_vnum: '16049'
+    west:
+      target_vnum: '16045'
+  name: Acesso as Masmorras
+  vnum: '16046'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina verde estão os aposentos e salas dos lideres do exército verde,
+    se for pego aqui vai estar com sérios problemas por estar espionando.  Para
+    norte fica a cortina que separa os dois andares e para baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16037'
+    north:
+      target_vnum: '16060'
+  name: No Topo da Escadaria
+  vnum: '16047'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina verde estão os aposentos e salas dos lideres do exército verde,
+    se for pego aqui vai estar com sérios problemas por estar espionando.  Para
+    norte fica a cortina que separa os dois andares e para baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16036'
+    north:
+      target_vnum: '16065'
+  name: No Topo da Escadaria
+  vnum: '16048'
+- description: |-
+    Aqui estão as temidas masmorras do exército verde, se for pego aqui por
+    alguém provavelmente irá conhecê-las muito bem e por um longo tempo.  Para
+    cima você volta para o andar principal e para o leste, oeste e sul seguem os
+    corredores das masmorras.
+  exits:
+    east:
+      target_vnum: '16050'
+    south:
+      target_vnum: '16052'
+    up:
+      target_vnum: '16046'
+    west:
+      target_vnum: '16056'
+  name: A Entrada das Masmorras
+  vnum: '16049'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército verde.  Para o sul está uma porta de ferro fechada e sem
+    nenhuma abertura e para o oeste você volta para a entrada.
+  exits:
+    south:
+      target_vnum: '16051'
+    west:
+      target_vnum: '16049'
+  name: Corredores das Masmorras
+  vnum: '16050'
+- description: |-
+    Aqui fica a temível solitária, usada para acalmar aquele prisioneiro que
+    costuma arranjar encrencas.  Por azar você foi espionar onde não deve e não
+    tem como sair daqui!
+  exits: {}
+  name: A Solitária
+  vnum: '16051'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército verde.  Para o leste está uma porta de ferro fechada e
+    sem nenhuma abertura e para o norte você volta para a entrada.
+  exits:
+    east:
+      target_vnum: '16051'
+    north:
+      target_vnum: '16049'
+  name: Corredores das Masmorras
+  vnum: '16052'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao norte você sai da cela e vai para os corredores.
+  exits:
+    north:
+      target_vnum: '16056'
+  name: Uma Cela
+  vnum: '16053'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao norte você sai da cela e vai para os corredores.
+  exits:
+    north:
+      target_vnum: '16055'
+  name: Uma Cela
+  vnum: '16054'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército verde.  Para o sul, para o norte e para o oeste portas
+    de metal fechadas e para o leste mais do corredor.
+  exits:
+    east:
+      target_vnum: '16056'
+    north:
+      target_vnum: '16058'
+    south:
+      target_vnum: '16054'
+    west:
+      target_vnum: '16059'
+  name: Corredores das Masmorras
+  vnum: '16055'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército verde.  Para o sul e para o norte portas de metal
+    fechadas e para o leste e oeste mais do corredor.
+  exits:
+    east:
+      target_vnum: '16049'
+    north:
+      target_vnum: '16057'
+    south:
+      target_vnum: '16053'
+    west:
+      target_vnum: '16055'
+  name: Corredores das Masmorras
+  vnum: '16056'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao sul você sai da cela e vai para os corredores.
+  exits:
+    south:
+      target_vnum: '16056'
+  name: Uma Cela
+  vnum: '16057'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao sul você sai da cela e vai para os corredores.
+  exits:
+    south:
+      target_vnum: '16055'
+  name: Uma Cela
+  vnum: '16058'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao leste você sai da cela e vai para os corredores.
+  exits:
+    east:
+      target_vnum: '16055'
+  name: Uma Cela
+  vnum: '16059'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    verde você chega aos aposentos e salas dos lideres do exército verde, se for
+    pego aqui vai estar com sérios problemas por estar espionando.  Para o sul
+    fica a cortina que separa os dois andares e para leste os corredores do
+    segundo andar.
+  exits:
+    east:
+      target_vnum: '16061'
+    south:
+      target_vnum: '16047'
+  name: Entrada do Segundo Andar
+  vnum: '16060'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete verde estende-se pelo chão.  Para o oeste está a passagem que leva
+    para o andar principal, para o leste o rico corredor e para o norte os
+    aposentos dos lideres.
+  exits:
+    east:
+      target_vnum: '16062'
+    north:
+      target_vnum: '16072'
+    west:
+      target_vnum: '16060'
+  name: O Corredor Verde
+  vnum: '16061'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete verde estende-se pelo chão.  Para o oeste e para o leste segue o rico
+    corredor.
+  exits:
+    east:
+      target_vnum: '16063'
+    west:
+      target_vnum: '16061'
+  name: O Corredor Verde
+  vnum: '16062'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete verde estende-se pelo chão.  Para o oeste e para o leste segue o rico
+    corredor.
+  exits:
+    east:
+      target_vnum: '16064'
+    west:
+      target_vnum: '16062'
+  name: O Corredor Verde
+  vnum: '16063'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete verde estende-se pelo chão.  Para o leste está a passagem que leva
+    para o andar principal e para o oeste o rico corredor.
+  exits:
+    east:
+      target_vnum: '16065'
+    west:
+      target_vnum: '16063'
+  name: O Corredor Verde
+  vnum: '16064'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    verde você chega aos aposentos e salas dos lideres do exército verde, se for
+    pego aqui vai estar com sérios problemas por estar espionando.  Para o sul
+    fica a cortina que separa os dois andares, para oeste os corredores do
+    segundo andar e ao norte os aposentos dos lideres.
+  exits:
+    north:
+      target_vnum: '16066'
+    south:
+      target_vnum: '16048'
+    west:
+      target_vnum: '16064'
+  name: Entrada do Segundo Andar
+  vnum: '16065'
+- description: |-
+    Aqui fica o escritório dos capitães do exército verde, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o sul
+    você vai para a entrada do segundo andar e para o oeste há uma placa
+    indicando ser o escritório dos coronéis.
+  exits:
+    south:
+      target_vnum: '16065'
+    west:
+      target_vnum: '16067'
+  name: Escritório dos Capitães
+  vnum: '16066'
+- description: |-
+    Aqui fica o escritório dos coronéis do exército verde, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    leste fica o escritório dos capitães e para o norte há uma placa indicando
+    ser o escritório do marechal.
+  exits:
+    east:
+      target_vnum: '16066'
+    north:
+      target_vnum: '16068'
+  name: Escritório dos Coronéis
+  vnum: '16067'
+- description: |-
+    Aqui fica o escritório do poderoso marechal, líder das forças verdes,
+    você uma mesa com uma confortável poltrona e vários planos de estratégias
+    pendurados nas paredes.  Para o oeste fica a biblioteca do castelo, para o
+    sul você vai ao escritório dos coronéis.
+  exits:
+    south:
+      target_vnum: '16067'
+    west:
+      target_vnum: '16069'
+  name: Escritório do Marechal
+  vnum: '16068'
+- description: |-
+    Diversas estantes amarrotadas de livros sobre estratégia, mapas, plantas
+    e planos estão organizados aqui na bela biblioteca.  Uma das estantes chama
+    sua atenção por estar preenchida apenas por livros de capa verde.  Para o
+    leste fica o escritório do marechal e para o oeste o escritório do general.
+  exits:
+    east:
+      target_vnum: '16068'
+    south:
+      target_vnum: '16073'
+    west:
+      target_vnum: '16070'
+  name: Biblioteca do Castelo Verde
+  vnum: '16069'
+- description: |-
+    Aqui fica o escritório do poderoso general, segundo no poderio da força
+    verde, você uma mesa com uma confortável poltrona e vários planos com
+    estratégias pendurados nas paredes.  Para o leste fica a biblioteca do
+    castelo, para o sul você vai ao escritório dos majores.
+  exits:
+    east:
+      target_vnum: '16069'
+    south:
+      target_vnum: '16071'
+  name: Escritório do General
+  vnum: '16070'
+- description: |-
+    Aqui fica o escritório dos majores do exército verde, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    oeste fica o escritório dos tenentes e para o norte há uma placa indicando
+    ser o escritório do general.
+  exits:
+    north:
+      target_vnum: '16070'
+    west:
+      target_vnum: '16072'
+  name: Escritório dos Majores
+  vnum: '16071'
+- description: |-
+    Aqui fica o escritório dos tenentes do exército verde, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o sul
+    você vai para o corredor do segundo andar e para o leste há uma placa
+    indicando ser o escritório dos majores.
+  exits:
+    east:
+      target_vnum: '16071'
+    south:
+      target_vnum: '16061'
+  name: Escritório dos Tenentes
+  vnum: '16072'
+- description: |-
+    Empurrando a estante de livros da biblioteca você fica surpreso ao
+    encontrar esta sala escondida.  Há um buraco no chão, e descendo a escada
+    você irá parar em alguma outra parte do castelo.  Para o norte está a
+    biblioteca e para baixo você desce as escadas.
+  exits:
+    down:
+      target_vnum: '16002'
+    north:
+      target_vnum: '16069'
+  name: A Passagem Secreta
+  vnum: '16073'
+- description: |-
+    Passando pela porta camuflada você encontra uma enorme passagem que leva
+    para algum ponto a noroeste.  Para o oeste você volta para os corredores e
+    para o noroeste ficam as passagens.
+  exits:
+    west:
+      target_vnum: '16012'
+  name: A Passagem Escondida
+  vnum: '16074'
+- description: |-
+    Esta larga ponte faz a ligação entre os campos e o enorme castelo que
+    está a sua frente, você avista dois enormes estandartes vermelhos pendurados
+    nos mastros de duas torres frontais da construção.  Você pode voltar por
+    onde veio ou seguir para o norte em direção ao castelo.
+  exits:
+    north:
+      target_vnum: '16076'
+    south:
+      target_vnum: '16322'
+  name: A Ponte do Castelo
+  vnum: '16075'
+- description: |-
+    Você está a apenas alguns metros do grandioso portão de metal que protege
+    o castelo das numerosas tentativas de invasão que este sofre, ao olhar para
+    as paredes pode ver uma flâmula vermelha pendurada em cada lateral do
+    portão.  Ao sul você segue pela ponte e ao norte chega aos portões.
+  exits:
+    north:
+      target_vnum: '16077'
+    south:
+      target_vnum: '16075'
+  name: A Ponte do Castelo
+  vnum: '16076'
+- description: |-
+    Você está em frente ao grande portão de metal do castelo do reino
+    vermelho e, caso não seja desta equipe, a imponência de sua fortificação
+    deixa-lhe em duvidas se deve ou não entrar.  Se estiver com medo volte
+    correndo para o sul, se for alguém com uma alma aventureira siga para o
+    norte.
+  exits:
+    north:
+      target_vnum: '16078'
+    south:
+      target_vnum: '16076'
+  name: O Imponente Portão
+  vnum: '16077'
+- description: |-
+    Passando o portão da entrada, você olha ao redor e percebe que toda a
+    decoração é feita com detalhes vermelhos.  Grandes quadros pintados com a
+    imagem dos grandes marechais estão nas paredes.  Para voltar para a parte
+    exterior siga para o sul; ao norte, leste e oeste corredores levam ao
+    interior da fortificada construção.
+  exits:
+    east:
+      target_vnum: '16105'
+    north:
+      target_vnum: '16114'
+    south:
+      target_vnum: '16077'
+    west:
+      target_vnum: '16079'
+  name: A Entrada do Castelo
+  vnum: '16078'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste você volta para a
+    entrada do castelo e para oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16078'
+    west:
+      target_vnum: '16080'
+  name: Pelos Corredores
+  vnum: '16079'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16079'
+    west:
+      target_vnum: '16081'
+  name: Pelos Corredores
+  vnum: '16080'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16080'
+    north:
+      target_vnum: '16110'
+    west:
+      target_vnum: '16082'
+  name: Pelos Corredores
+  vnum: '16081'
+- description: |-
+    Aqui acaba o corredor que trazia para o sudoeste do castelo e iniciam os
+    corredores que seguem para os extremos norte-leste, aqui também há uma
+    escada que leva para alguma parte superior.  Para o leste e o norte estão os
+    corredores e para cima uma escada.
+  exits:
+    east:
+      target_vnum: '16081'
+    north:
+      target_vnum: '16083'
+    up:
+      target_vnum: '16106'
+  name: O Canto Sudoeste do Castelo
+  vnum: '16082'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16110'
+    north:
+      target_vnum: '16084'
+    south:
+      target_vnum: '16082'
+  name: Pelos Corredores
+  vnum: '16083'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16085'
+    south:
+      target_vnum: '16083'
+  name: Pelos Corredores
+  vnum: '16084'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16086'
+    south:
+      target_vnum: '16084'
+  name: Pelos Corredores
+  vnum: '16085'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16111'
+    north:
+      target_vnum: '16087'
+    south:
+      target_vnum: '16085'
+  name: Pelos Corredores
+  vnum: '16086'
+- description: |-
+    Aqui acabam os corredores que traziam para o noroeste do castelo e
+    iniciam os corredores que seguem para os extremos sul-leste.  Para o leste e
+    o sul estão os corredores e ao oeste algo.
+  exits:
+    east:
+      target_vnum: '16088'
+    south:
+      target_vnum: '16086'
+    west:
+      target_vnum: '16149'
+  name: O Canto Noroeste do Castelo
+  vnum: '16087'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16089'
+    south:
+      target_vnum: '16111'
+    west:
+      target_vnum: '16087'
+  name: Pelos Corredores
+  vnum: '16088'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16090'
+    west:
+      target_vnum: '16088'
+  name: Pelos Corredores
+  vnum: '16089'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16091'
+    west:
+      target_vnum: '16089'
+  name: Pelos Corredores
+  vnum: '16090'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16092'
+    west:
+      target_vnum: '16090'
+  name: Pelos Corredores
+  vnum: '16091'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o sul segue um corredor que
+    passa pelo centro do castelo, a leste e oeste continuam os corredores
+    laterais.
+  exits:
+    east:
+      target_vnum: '16093'
+    south:
+      target_vnum: '16120'
+    west:
+      target_vnum: '16091'
+  name: Uma Intersecção dos Corredores
+  vnum: '16092'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16094'
+    west:
+      target_vnum: '16092'
+  name: Pelos Corredores
+  vnum: '16093'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16095'
+    west:
+      target_vnum: '16093'
+  name: Pelos Corredores
+  vnum: '16094'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16096'
+    south:
+      target_vnum: '16112'
+    west:
+      target_vnum: '16094'
+  name: Pelos Corredores
+  vnum: '16095'
+- description: |-
+    Aqui acabam os corredores que traziam para o nordeste do castelo e
+    iniciam os corredores que seguem para os extremos sul-oeste.  Para o oeste e
+    o sul estão os corredores.
+  exits:
+    south:
+      target_vnum: '16097'
+    west:
+      target_vnum: '16095'
+  name: O Canto Nordeste do Castelo
+  vnum: '16096'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16096'
+    south:
+      target_vnum: '16098'
+    west:
+      target_vnum: '16112'
+  name: Pelos Corredores
+  vnum: '16097'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16097'
+    south:
+      target_vnum: '16099'
+  name: Pelos Corredores
+  vnum: '16098'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16098'
+    south:
+      target_vnum: '16100'
+  name: Pelos Corredores
+  vnum: '16099'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16099'
+    south:
+      target_vnum: '16101'
+    west:
+      target_vnum: '16113'
+  name: Pelos Corredores
+  vnum: '16100'
+- description: |-
+    Aqui acaba o corredor que trazia para o sudeste do castelo e iniciam os
+    corredores que seguem para os extremos norte-oeste, aqui também há uma
+    escada que leva para alguma parte superior.  Para o oeste e o norte estão os
+    corredores e para cima uma escada.
+  exits:
+    north:
+      target_vnum: '16100'
+    up:
+      target_vnum: '16108'
+    west:
+      target_vnum: '16102'
+  name: O Canto Sudeste do Castelo
+  vnum: '16101'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16101'
+    north:
+      target_vnum: '16113'
+    west:
+      target_vnum: '16103'
+  name: Pelos Corredores
+  vnum: '16102'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16102'
+    west:
+      target_vnum: '16104'
+  name: Pelos Corredores
+  vnum: '16103'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16103'
+    west:
+      target_vnum: '16105'
+  name: Pelos Corredores
+  vnum: '16104'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao oeste você volta para a
+    entrada do castelo e para leste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16104'
+    west:
+      target_vnum: '16078'
+  name: Pelos Corredores
+  vnum: '16105'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    oeste do castelo do exército vermelho, em um certo ponto as escadas terminam
+    em uma porta de metal.  Para cima há uma porta fechando o caminho que leva
+    ao topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16082'
+    up:
+      target_vnum: '16107'
+  name: A Escadaria da Torre Oeste
+  vnum: '16106'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Opa!  A porta de metal que você deixou fechar quando entrou parece
+    não abrir pelo lado de dentro...
+  exits:
+    down:
+      target_vnum: '16106'
+  name: O Topo da Torre Oeste
+  vnum: '16107'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    leste do castelo do exército vermelho, em um certo ponto as escadas terminam
+    em uma porta de metal.  Para cima há uma porta fechando o caminho que leva
+    ao topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16101'
+    up:
+      target_vnum: '16109'
+  name: A Escadaria da Torre Leste
+  vnum: '16108'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Para baixo abrindo a porta de metal está a escadaria que você usou
+    para chegar até aqui.
+  exits:
+    down:
+      target_vnum: '16108'
+  name: O Topo da Torre Leste
+  vnum: '16109'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército vermelho.  Para o sul e para
+    o oeste continuam os corredores.
+  exits:
+    south:
+      target_vnum: '16081'
+    west:
+      target_vnum: '16083'
+  name: Uma Junção
+  vnum: '16110'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército vermelho.  Para o norte e
+    para o oeste continuam os corredores, para cima está uma bela escadaria com
+    um rico tapete vermelho, levando aos aposentos superiores.
+  exits:
+    north:
+      target_vnum: '16088'
+    up:
+      target_vnum: '16123'
+    west:
+      target_vnum: '16086'
+  name: Uma Junção
+  vnum: '16111'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército vermelho.  Para o norte e
+    para o leste continuam os corredores, para cima está uma bela escadaria com
+    um rico tapete vermelho, levando aos aposentos superiores.
+  exits:
+    east:
+      target_vnum: '16097'
+    north:
+      target_vnum: '16095'
+    up:
+      target_vnum: '16122'
+  name: Uma Junção
+  vnum: '16112'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército vermelho.  Para o sul e para
+    o leste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16100'
+    south:
+      target_vnum: '16102'
+  name: Uma Junção
+  vnum: '16113'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao sul você volta para a entrada
+    do castelo e para o norte continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16115'
+    south:
+      target_vnum: '16078'
+  name: Pelos Corredores Centrais
+  vnum: '16114'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o sul e para o oeste
+    continuam os corredores do castelo.
+  exits:
+    south:
+      target_vnum: '16114'
+    west:
+      target_vnum: '16116'
+  name: Pelos Corredores Centrais
+  vnum: '16115'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o leste e para o norte
+    continuam os corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16115'
+    north:
+      target_vnum: '16117'
+  name: Pelos Corredores Centrais
+  vnum: '16116'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o sul e para o leste
+    continuam os corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16118'
+    south:
+      target_vnum: '16116'
+  name: Pelos Corredores Centrais
+  vnum: '16117'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o leste e para o oeste
+    continuam os corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16119'
+    west:
+      target_vnum: '16117'
+  name: Pelos Corredores Centrais
+  vnum: '16118'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o oeste e para o norte
+    continuam os corredores do castelo.
+  exits:
+    north:
+      target_vnum: '16120'
+    west:
+      target_vnum: '16118'
+  name: Pelos Corredores Centrais
+  vnum: '16119'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    vermelho, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o norte e para o sul
+    continuam os corredores do castelo e para o oeste segue uma estreita
+    passagem.
+  exits:
+    north:
+      target_vnum: '16092'
+    south:
+      target_vnum: '16119'
+    west:
+      target_vnum: '16121'
+  name: Pelos Corredores Centrais
+  vnum: '16120'
+- description: |-
+    Aqui há uma grade de metal que separa o andar principal das escadas que
+    levem ao subterrâneo do castelo, onde estão as masmorras, lá são presos
+    todos os que têm intenções de prejudicar o exército vermelho, seria uma boa
+    idéia entrar lá?  Para baixo fica a entrada das masmorras e para o leste
+    seguem os corredores.
+  exits:
+    down:
+      target_vnum: '16124'
+    east:
+      target_vnum: '16120'
+  name: Acesso as Masmorras
+  vnum: '16121'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina vermelha estão os aposentos e salas dos lideres do exército
+    vermelho, se for pego aqui vai estar com sérios problemas por estar
+    espionando.  Para norte fica a cortina que separa os dois andares e para
+    baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16112'
+    north:
+      target_vnum: '16135'
+  name: No Topo da Escadaria
+  vnum: '16122'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina vermelha estão os aposentos e salas dos lideres do exército
+    vermelho, se for pego aqui vai estar com sérios problemas por estar
+    espionando.  Para norte fica a cortina que separa os dois andares e para
+    baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16111'
+    north:
+      target_vnum: '16140'
+  name: No Topo da Escadaria
+  vnum: '16123'
+- description: |-
+    Aqui estão as temidas masmorras do exército vermelho, se for pego aqui
+    por alguém provavelmente irá conhece-las muito bem e por um longo tempo.
+    Para cima você volta para o andar principal e para o leste, oeste e norte
+    seguem os corredores das masmorras.
+  exits:
+    east:
+      target_vnum: '16131'
+    north:
+      target_vnum: '16127'
+    up:
+      target_vnum: '16121'
+    west:
+      target_vnum: '16125'
+  name: A Entrada das Masmorras
+  vnum: '16124'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército vermelho.  Para o norte está uma porta de ferro fechada
+    e sem nenhuma abertura e para o leste você volta para a entrada.
+  exits:
+    east:
+      target_vnum: '16124'
+    north:
+      target_vnum: '16126'
+  name: Corredores das Masmorras
+  vnum: '16125'
+- description: |-
+    Aqui fica a temível solitária, usada para acalmar aquele prisioneiro que
+    costuma arranjar encrencas.  Por azar você foi espionar onde não deve e não
+    tem como sair daqui!
+  exits: {}
+  name: A Solitária
+  vnum: '16126'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército vermelho.  Para o oeste está uma porta de ferro fechada
+    e sem nenhuma abertura e para o sul você volta para a entrada.
+  exits:
+    south:
+      target_vnum: '16124'
+    west:
+      target_vnum: '16126'
+  name: Corredores das Masmorras
+  vnum: '16127'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao sul você sai da cela e vai para os corredores.
+  exits:
+    south:
+      target_vnum: '16131'
+  name: Uma Cela
+  vnum: '16128'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao sul você sai da cela e vai para os corredores.
+  exits:
+    south:
+      target_vnum: '16130'
+  name: Uma Cela
+  vnum: '16129'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército vermelho.  Para o sul, para o norte e para o leste
+    portas de metal fechadas e para o oeste mais do corredor.
+  exits:
+    east:
+      target_vnum: '16134'
+    north:
+      target_vnum: '16129'
+    south:
+      target_vnum: '16133'
+    west:
+      target_vnum: '16131'
+  name: Corredores das Masmorras
+  vnum: '16130'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército vermelho.  Para o sul e para o norte portas de metal
+    fechadas e para o leste e oeste mais do corredor.
+  exits:
+    east:
+      target_vnum: '16130'
+    north:
+      target_vnum: '16128'
+    south:
+      target_vnum: '16132'
+    west:
+      target_vnum: '16124'
+  name: Corredores das Masmorras
+  vnum: '16131'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao sul você sai da cela e vai para os corredores.
+  exits:
+    north:
+      target_vnum: '16131'
+  name: Uma Cela
+  vnum: '16132'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao sul você sai da cela e vai para os corredores.
+  exits:
+    north:
+      target_vnum: '16130'
+  name: Uma Cela
+  vnum: '16133'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao oeste você sai da cela e vai para os corredores.
+  exits:
+    west:
+      target_vnum: '16130'
+  name: Uma Cela
+  vnum: '16134'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    vermelha você chega aos aposentos e salas dos lideres do exército vermelho,
+    se for pego aqui vai estar com sérios problemas por estar espionando.  Para
+    o sul fica a cortina que separa os dois andares e para oeste os corredores
+    do segundo andar.
+  exits:
+    south:
+      target_vnum: '16122'
+    west:
+      target_vnum: '16136'
+  name: Entrada do Segundo Andar
+  vnum: '16135'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete vermelho estende-se pelo chão.  Para o leste está a passagem que leva
+    para o andar principal, para o oeste o rico corredor e para o norte os
+    aposentos dos lideres.
+  exits:
+    east:
+      target_vnum: '16135'
+    north:
+      target_vnum: '16147'
+    west:
+      target_vnum: '16137'
+  name: O Corredor Vermelho
+  vnum: '16136'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete vermelho estende-se pelo chão.  Para o oeste e para o leste segue o
+    rico corredor.
+  exits:
+    east:
+      target_vnum: '16136'
+    west:
+      target_vnum: '16138'
+  name: O Corredor Vermelho
+  vnum: '16137'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete vermelho estende-se pelo chão.  Para o oeste e para o leste segue o
+    rico corredor.
+  exits:
+    east:
+      target_vnum: '16137'
+    west:
+      target_vnum: '16139'
+  name: O Corredor Vermelho
+  vnum: '16138'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete vermelho estende-se pelo chão.  Para o oeste está a passagem que leva
+    para o andar principal e para o leste o rico corredor.
+  exits:
+    east:
+      target_vnum: '16138'
+    west:
+      target_vnum: '16140'
+  name: O Corredor Vermelho
+  vnum: '16139'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    vermelha você chega aos aposentos e salas dos lideres do exército vermelho,
+    se for pego aqui vai estar com sérios problemas por estar espionando.  Para
+    o sul fica a cortina que separa os dois andares, para leste os corredores do
+    segundo andar e ao norte os aposentos dos lideres.
+  exits:
+    east:
+      target_vnum: '16139'
+    north:
+      target_vnum: '16141'
+    south:
+      target_vnum: '16123'
+  name: Entrada do Segundo Andar
+  vnum: '16140'
+- description: |-
+    Aqui fica o escritório dos capitães do exército vermelho, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o sul
+    você vai para a entrada do segundo andar e para o leste há uma placa
+    indicando ser o escritório dos coronéis.
+  exits:
+    east:
+      target_vnum: '16142'
+    south:
+      target_vnum: '16140'
+  name: Escritório dos Capitães
+  vnum: '16141'
+- description: |-
+    Aqui fica o escritório dos coronéis do exército vermelho, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    oeste fica o escritório dos capitães e para o norte há uma placa indicando
+    ser o escritório do marechal.
+  exits:
+    north:
+      target_vnum: '16143'
+    west:
+      target_vnum: '16141'
+  name: Escritório dos Coronéis
+  vnum: '16142'
+- description: |-
+    Aqui fica o escritório do poderoso marechal, líder das forças vermelhas,
+    você uma mesa com uma confortável poltrona e vários planos de estratégias
+    pendurados nas paredes.  Para o leste fica a biblioteca do castelo, para o
+    sul você vai ao escritório dos coronéis.
+  exits:
+    east:
+      target_vnum: '16144'
+    south:
+      target_vnum: '16142'
+  name: Escritório do Marechal
+  vnum: '16143'
+- description: |-
+    Diversas estantes amarrotadas de livros sobre estratégia, mapas, plantas
+    e planos estão organizados aqui na bela biblioteca.  Uma das estantes chama
+    sua atenção por estar preenchida apenas por livros de capa vermelha.  Para o
+    oeste fica o escritório do marechal e para o leste o escritório do general.
+  exits:
+    east:
+      target_vnum: '16145'
+    south:
+      target_vnum: '16148'
+    west:
+      target_vnum: '16143'
+  name: Biblioteca do Castelo Vermelho
+  vnum: '16144'
+- description: |-
+    Aqui fica o escritório do poderoso general, segundo no poderio da força
+    vermelha, você uma mesa com uma confortável poltrona e vários planos com
+    estratégias pendurados nas paredes.  Para o oeste fica a biblioteca do
+    castelo, para o sul você vai ao escritório dos majores.
+  exits:
+    south:
+      target_vnum: '16146'
+    west:
+      target_vnum: '16144'
+  name: Escritório do General
+  vnum: '16145'
+- description: |-
+    Aqui fica o escritório dos majores do exército vermelho, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    leste fica o escritório dos tenentes e para o norte há uma placa indicando
+    ser o escritório do general.
+  exits:
+    east:
+      target_vnum: '16147'
+    north:
+      target_vnum: '16145'
+  name: Escritório dos Majores
+  vnum: '16146'
+- description: |-
+    Aqui fica o escritório dos tenentes do exército vermelho, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o sul
+    você vai para o corredor do segundo andar e para o oeste há uma placa
+    indicando ser o escritório dos majores.
+  exits:
+    south:
+      target_vnum: '16136'
+    west:
+      target_vnum: '16146'
+  name: Escritório dos Tenentes
+  vnum: '16147'
+- description: |-
+    Empurrando a estante de livros da biblioteca você fica surpreso ao
+    encontrar esta sala escondida.  Há um buraco no chão, e descendo a escada
+    você irá parar em alguma outra parte do castelo.  Para o norte está a
+    biblioteca e para baixo você desce as escadas.
+  exits:
+    down:
+      target_vnum: '16177'
+    north:
+      target_vnum: '16144'
+  name: A Passagem Secreta
+  vnum: '16148'
+- description: |-
+    Passando pela porta camuflada você encontra uma enorme passagem que leva
+    para algum ponto a sudeste.  Para o leste você volta para os corredores e
+    para o sudeste fica a passagem.
+  exits:
+    east:
+      target_vnum: '16187'
+  name: A Passagem Escondida
+  vnum: '16149'
+- description: |-
+    Esta larga ponte faz a ligação entre os campos e o enorme castelo que
+    está a sua frente, você avista dois enormes estandartes amarelos pendurados
+    nos mastros de duas torres frontais da construção.  Você pode voltar por
+    onde veio ou seguir para o leste em direção ao castelo.
+  exits:
+    east:
+      target_vnum: '16151'
+    west:
+      target_vnum: '16312'
+  name: A Ponte do Castelo
+  vnum: '16150'
+- description: |-
+    Você está a apenas alguns metros do grandioso portão de metal que protege
+    o castelo das numerosas tentativas de invasão que este sofre, ao olhar para
+    as paredes pode ver uma flâmula amarela pendurada em cada lateral do portão.
+    Ao oeste você segue pela ponte e ao leste chega aos portões.
+  exits:
+    east:
+      target_vnum: '16152'
+    west:
+      target_vnum: '16150'
+  name: A Ponte do Castelo
+  vnum: '16151'
+- description: |-
+    Você está em frente ao grande portão de metal do castelo do reino amarelo
+    e, caso não seja desta equipe, a imponência de sua fortificação deixa-lhe em
+    duvidas se deve ou não entrar.  Se estiver com medo volte correndo para o
+    oeste, se for alguém com uma alma aventureira siga para o leste.
+  exits:
+    east:
+      target_vnum: '16153'
+    west:
+      target_vnum: '16151'
+  name: O Imponente Portão
+  vnum: '16152'
+- description: |-
+    Passando o portão da entrada, você olha ao redor e percebe que toda a
+    decoração é feita com detalhes amarelos.  Grandes quadros pintados com a
+    imagem dos grandes marechais estão nas paredes.  Para voltar para a parte
+    exterior siga para o oeste; ao norte, leste e sul corredores levam ao
+    interior da fortificada construção.
+  exits:
+    east:
+      target_vnum: '16189'
+    north:
+      target_vnum: '16154'
+    south:
+      target_vnum: '16180'
+    west:
+      target_vnum: '16152'
+  name: A Entrada do Castelo
+  vnum: '16153'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao sul você volta para a entrada
+    do castelo e para norte continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16155'
+    south:
+      target_vnum: '16153'
+  name: Pelos Corredores
+  vnum: '16154'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16156'
+    south:
+      target_vnum: '16154'
+  name: Pelos Corredores
+  vnum: '16155'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16185'
+    north:
+      target_vnum: '16157'
+    south:
+      target_vnum: '16155'
+  name: Pelos Corredores
+  vnum: '16156'
+- description: |-
+    Aqui acaba o corredor que trazia para o noroeste do castelo e iniciam os
+    corredores que seguem para os extremos sul-leste, aqui também há uma escada
+    que leva para alguma parte superior.  Para o leste e o sul estão os
+    corredores e para cima uma escada.
+  exits:
+    east:
+      target_vnum: '16158'
+    south:
+      target_vnum: '16156'
+    up:
+      target_vnum: '16181'
+  name: O Canto Noroeste do Castelo
+  vnum: '16157'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16159'
+    south:
+      target_vnum: '16185'
+    west:
+      target_vnum: '16157'
+  name: Pelos Corredores
+  vnum: '16158'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16160'
+    west:
+      target_vnum: '16158'
+  name: Pelos Corredores
+  vnum: '16159'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16161'
+    west:
+      target_vnum: '16159'
+  name: Pelos Corredores
+  vnum: '16160'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16162'
+    south:
+      target_vnum: '16186'
+    west:
+      target_vnum: '16160'
+  name: Pelos Corredores
+  vnum: '16161'
+- description: |-
+    Aqui acabam os corredores que traziam para o nordeste do castelo e
+    iniciam os corredores que seguem para os extremos sul-oeste.  Para o oeste e
+    o sul estão os corredores e ao norte algo.
+  exits:
+    north:
+      target_vnum: '16224'
+    south:
+      target_vnum: '16163'
+    west:
+      target_vnum: '16161'
+  name: O Canto Nordeste do Castelo
+  vnum: '16162'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16162'
+    south:
+      target_vnum: '16164'
+    west:
+      target_vnum: '16186'
+  name: Pelos Corredores
+  vnum: '16163'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16163'
+    south:
+      target_vnum: '16165'
+  name: Pelos Corredores
+  vnum: '16164'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16164'
+    south:
+      target_vnum: '16166'
+  name: Pelos Corredores
+  vnum: '16165'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16165'
+    south:
+      target_vnum: '16167'
+  name: Pelos Corredores
+  vnum: '16166'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o oeste segue um corredor
+    que passa pelo centro do castelo, a norte e sul continuam os corredores
+    laterais.
+  exits:
+    north:
+      target_vnum: '16166'
+    south:
+      target_vnum: '16168'
+    west:
+      target_vnum: '16195'
+  name: Uma Intersecção dos Corredores
+  vnum: '16167'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16167'
+    south:
+      target_vnum: '16169'
+  name: Pelos Corredores
+  vnum: '16168'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16168'
+    south:
+      target_vnum: '16170'
+  name: Pelos Corredores
+  vnum: '16169'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16169'
+    south:
+      target_vnum: '16171'
+    west:
+      target_vnum: '16187'
+  name: Pelos Corredores
+  vnum: '16170'
+- description: |-
+    Aqui acabam os corredores que traziam para o sudeste do castelo e iniciam
+    os corredores que seguem para os extremos norte-oeste.  Para o norte e o
+    oeste estão os corredores.
+  exits:
+    north:
+      target_vnum: '16170'
+    west:
+      target_vnum: '16172'
+  name: O Canto Sudeste do Castelo
+  vnum: '16171'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16171'
+    north:
+      target_vnum: '16187'
+    west:
+      target_vnum: '16173'
+  name: Pelos Corredores
+  vnum: '16172'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16172'
+    west:
+      target_vnum: '16174'
+  name: Pelos Corredores
+  vnum: '16173'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16173'
+    west:
+      target_vnum: '16175'
+  name: Pelos Corredores
+  vnum: '16174'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao leste e oeste continuam os
+    corredores e aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16174'
+    north:
+      target_vnum: '16188'
+    west:
+      target_vnum: '16176'
+  name: Pelos Corredores
+  vnum: '16175'
+- description: |-
+    Aqui acaba o corredor que trazia para o sudoeste do castelo e iniciam os
+    corredores que seguem para os extremos norte-leste, aqui também há uma
+    escada que leva para alguma parte superior.  Para o leste e o norte estão os
+    corredores e para cima uma escada.
+  exits:
+    east:
+      target_vnum: '16175'
+    north:
+      target_vnum: '16177'
+    up:
+      target_vnum: '16183'
+  name: O Canto Sudoeste do Castelo
+  vnum: '16176'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores e aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16188'
+    north:
+      target_vnum: '16178'
+    south:
+      target_vnum: '16176'
+  name: Pelos Corredores
+  vnum: '16177'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    east:
+      target_vnum: '16177'
+    north:
+      target_vnum: '16179'
+  name: Pelos Corredores
+  vnum: '16178'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte e sul continuam os
+    corredores.
+  exits:
+    north:
+      target_vnum: '16180'
+    south:
+      target_vnum: '16178'
+  name: Pelos Corredores
+  vnum: '16179'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao norte você volta para a
+    entrada do castelo e para sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16153'
+    south:
+      target_vnum: '16179'
+  name: Pelos Corredores
+  vnum: '16180'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    norte do castelo do exército amarelo, em um certo ponto as escadas terminam
+    em uma porta de metal.  Para cima há uma porta fechando o caminho que leva
+    ao topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16157'
+    up:
+      target_vnum: '16182'
+  name: A Escadaria da Torre Norte
+  vnum: '16181'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Opa!  A porta de metal que você deixou fechar quando entrou parece
+    não abrir pelo lado de dentro...
+  exits:
+    down:
+      target_vnum: '16181'
+  name: O Topo da Torre Norte
+  vnum: '16182'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    leste do castelo do exército amarelo, em um certo ponto as escadas terminam
+    em uma porta de metal.  Para cima há uma porta fechando o caminho que leva
+    ao topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16176'
+    up:
+      target_vnum: '16184'
+  name: A Escadaria da Torre Sul
+  vnum: '16183'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Para baixo abrindo a porta de metal está a escadaria que você usou
+    para chegar até aqui.
+  exits:
+    down:
+      target_vnum: '16183'
+  name: O Topo da Torre Sul
+  vnum: '16184'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército amarelo.  Para o norte e para
+    o oeste continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16158'
+    west:
+      target_vnum: '16156'
+  name: Uma Junção
+  vnum: '16185'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército amarelo.  Para o norte e para
+    o leste continuam os corredores, para cima está uma bela escadaria com um
+    rico tapete amarelo, levando aos aposentos superiores.
+  exits:
+    east:
+      target_vnum: '16163'
+    north:
+      target_vnum: '16161'
+    up:
+      target_vnum: '16198'
+  name: Uma Junção
+  vnum: '16186'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército amarelo.  Para o sul e para o
+    leste continuam os corredores, para cima está uma bela escadaria com um rico
+    tapete amarelo, levando aos aposentos superiores.
+  exits:
+    east:
+      target_vnum: '16170'
+    south:
+      target_vnum: '16172'
+    up:
+      target_vnum: '16197'
+  name: Uma Junção
+  vnum: '16187'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército amarelo.  Para o sul e para o
+    oeste continuam os corredores.
+  exits:
+    south:
+      target_vnum: '16175'
+    west:
+      target_vnum: '16177'
+  name: Uma Junção
+  vnum: '16188'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Ao oeste você volta para a
+    entrada do castelo e para o leste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16190'
+    west:
+      target_vnum: '16153'
+  name: Pelos Corredores Centrais
+  vnum: '16189'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o norte e para o oeste
+    continuam os corredores do castelo.
+  exits:
+    north:
+      target_vnum: '16191'
+    west:
+      target_vnum: '16189'
+  name: Pelos Corredores Centrais
+  vnum: '16190'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o leste e para o sul
+    continuam os corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16192'
+    south:
+      target_vnum: '16190'
+  name: Pelos Corredores Centrais
+  vnum: '16191'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o sul e para o oeste
+    continuam os corredores do castelo.
+  exits:
+    south:
+      target_vnum: '16193'
+    west:
+      target_vnum: '16191'
+  name: Pelos Corredores Centrais
+  vnum: '16192'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o norte e para o sul
+    continuam os corredores do castelo.
+  exits:
+    north:
+      target_vnum: '16192'
+    south:
+      target_vnum: '16194'
+  name: Pelos Corredores Centrais
+  vnum: '16193'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o leste e para o norte
+    continuam os corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16195'
+    north:
+      target_vnum: '16193'
+  name: Pelos Corredores Centrais
+  vnum: '16194'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército
+    amarelo, estes caminhos parecem não acabar e você reza aos deuses para não
+    se perder e conseguir cumprir sua missão.  Para o leste e para o oeste
+    continuam os corredores do castelo e para o norte segue uma estreita
+    passagem.
+  exits:
+    east:
+      target_vnum: '16167'
+    north:
+      target_vnum: '16196'
+    west:
+      target_vnum: '16194'
+  name: Pelos Corredores Centrais
+  vnum: '16195'
+- description: |-
+    Aqui há uma grade de metal que separa o andar principal das escadas que
+    levem ao subterrâneo do castelo, onde estão as masmorras, lá são presos
+    todos os que têm intenções de prejudicar o exército amarelo, seria uma boa
+    idéia entrar lá?  Para baixo fica a entrada das masmorras e para o sul
+    seguem os corredores.
+  exits:
+    down:
+      target_vnum: '16199'
+    south:
+      target_vnum: '16195'
+  name: Acesso as Masmorras
+  vnum: '16196'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina amarela estão os aposentos e salas dos lideres do exército
+    amarelo, se for pego aqui vai estar com sérios problemas por estar
+    espionando.  Para leste fica a cortina que separa os dois andares e para
+    baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16187'
+    east:
+      target_vnum: '16210'
+  name: No Topo da Escadaria
+  vnum: '16197'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina amarela estão os aposentos e salas dos lideres do exército
+    amarelo, se for pego aqui vai estar com sérios problemas por estar
+    espionando.  Para leste fica a cortina que separa os dois andares e para
+    baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16186'
+    east:
+      target_vnum: '16215'
+  name: No Topo da Escadaria
+  vnum: '16198'
+- description: |-
+    Aqui estão as temidas masmorras do exército amarelo, se for pego aqui por
+    alguém provavelmente irá conhece-las muito bem e por um longo tempo.  Para
+    cima você volta para o andar principal e para o leste, norte e sul seguem os
+    corredores das masmorras.
+  exits:
+    east:
+      target_vnum: '16202'
+    north:
+      target_vnum: '16200'
+    south:
+      target_vnum: '16206'
+    up:
+      target_vnum: '16196'
+  name: A Entrada das Masmorras
+  vnum: '16199'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército amarelo.  Para o leste está uma porta de ferro fechada e
+    sem nenhuma abertura e para o sul você volta para a entrada.
+  exits:
+    east:
+      target_vnum: '16201'
+    south:
+      target_vnum: '16199'
+  name: Corredores das Masmorras
+  vnum: '16200'
+- description: |-
+    Aqui fica a temível solitária, usada para acalmar aquele prisioneiro que
+    costuma arranjar encrencas.  Por azar você foi espionar onde não deve e não
+    tem como sair daqui!
+  exits: {}
+  name: A Solitária
+  vnum: '16201'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército amarelo.  Para o norte está uma porta de ferro fechada e
+    sem nenhuma abertura e para o oeste você volta para a entrada.
+  exits:
+    north:
+      target_vnum: '16201'
+    west:
+      target_vnum: '16199'
+  name: Corredores das Masmorras
+  vnum: '16202'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao oeste você sai da cela e vai para os corredores.
+  exits:
+    west:
+      target_vnum: '16206'
+  name: Uma Cela
+  vnum: '16203'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao oeste você sai da cela e vai para os corredores.
+  exits:
+    west:
+      target_vnum: '16205'
+  name: Uma Cela
+  vnum: '16204'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército amarelo.  Para o sul, para o leste e para o oeste portas
+    de metal fechadas e para o norte mais do corredor.
+  exits:
+    east:
+      target_vnum: '16204'
+    north:
+      target_vnum: '16206'
+    south:
+      target_vnum: '16209'
+    west:
+      target_vnum: '16208'
+  name: Corredores das Masmorras
+  vnum: '16205'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército amarelo.  Para o leste e para o oeste portas de metal
+    fechadas e para o norte e sul mais do corredor.
+  exits:
+    east:
+      target_vnum: '16203'
+    north:
+      target_vnum: '16199'
+    south:
+      target_vnum: '16205'
+    west:
+      target_vnum: '16207'
+  name: Corredores das Masmorras
+  vnum: '16206'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao leste você sai da cela e vai para os corredores.
+  exits:
+    east:
+      target_vnum: '16206'
+  name: Uma Cela
+  vnum: '16207'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao leste você sai da cela e vai para os corredores.
+  exits:
+    east:
+      target_vnum: '16205'
+  name: Uma Cela
+  vnum: '16208'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao norte você sai da cela e vai para os corredores.
+  exits:
+    north:
+      target_vnum: '16205'
+  name: Uma Cela
+  vnum: '16209'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    amarela você chega aos aposentos e salas dos lideres do exército amarelo, se
+    for pego aqui vai estar com sérios problemas por estar espionando.  Para o
+    oeste fica a cortina que separa os dois andares e para norte os corredores
+    do segundo andar.
+  exits:
+    north:
+      target_vnum: '16211'
+    west:
+      target_vnum: '16197'
+  name: Entrada do Segundo Andar
+  vnum: '16210'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete amarelo estende-se pelo chão.  Para o sul está a passagem que leva
+    para o andar principal, para o norte o rico corredor e para o leste os
+    aposentos dos lideres.
+  exits:
+    east:
+      target_vnum: '16222'
+    north:
+      target_vnum: '16212'
+    south:
+      target_vnum: '16210'
+  name: O Corredor Amarelo
+  vnum: '16211'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete amarelo estende-se pelo chão.  Para o norte e para o sul segue o rico
+    corredor.
+  exits:
+    north:
+      target_vnum: '16213'
+    south:
+      target_vnum: '16211'
+  name: O Corredor Amarelo
+  vnum: '16212'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete amarelo estende-se pelo chão.  Para o norte e para o sul segue o rico
+    corredor.
+  exits:
+    north:
+      target_vnum: '16214'
+    south:
+      target_vnum: '16212'
+  name: O Corredor Amarelo
+  vnum: '16213'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete amarelo estende-se pelo chão.  Para o norte está a passagem que leva
+    para o andar principal e para o sul o rico corredor.
+  exits:
+    north:
+      target_vnum: '16215'
+    south:
+      target_vnum: '16213'
+  name: O Corredor Amarelo
+  vnum: '16214'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    amarela você chega aos aposentos e salas dos lideres do exército amarelo, se
+    for pego aqui vai estar com sérios problemas por estar espionando.  Para o
+    oeste fica a cortina que separa os dois andares, para sul os corredores do
+    segundo andar e ao leste os aposentos dos lideres.
+  exits:
+    east:
+      target_vnum: '16216'
+    south:
+      target_vnum: '16214'
+    west:
+      target_vnum: '16198'
+  name: Entrada do Segundo Andar
+  vnum: '16215'
+- description: |-
+    Aqui fica o escritório dos capitães do exército amarelo, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    oeste você vai para a entrada do segundo andar e para o sul há uma placa
+    indicando ser o escritório dos coronéis.
+  exits:
+    south:
+      target_vnum: '16217'
+    west:
+      target_vnum: '16215'
+  name: Escritório dos Capitães
+  vnum: '16216'
+- description: |-
+    Aqui fica o escritório dos coronéis do exército amarelo, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    norte fica o escritório dos capitães e para o leste há uma placa indicando
+    ser o escritório do marechal.
+  exits:
+    east:
+      target_vnum: '16218'
+    north:
+      target_vnum: '16216'
+  name: Escritório dos Coronéis
+  vnum: '16217'
+- description: |-
+    Aqui fica o escritório do poderoso marechal, líder das forças amarelas,
+    você uma mesa com uma confortável poltrona e vários planos de estratégias
+    pendurados nas paredes.  Para o sul fica a biblioteca do castelo, para o
+    oeste você vai ao escritório dos coronéis.
+  exits:
+    south:
+      target_vnum: '16219'
+    west:
+      target_vnum: '16217'
+  name: Escritório do Marechal
+  vnum: '16218'
+- description: |-
+    Diversas estantes amarrotadas de livros sobre estratégia, mapas, plantas
+    e planos estão organizados aqui na bela biblioteca.  Uma das estantes chama
+    sua atenção por estar preenchida apenas por livros de capa amarela.  Para o
+    norte fica o escritório do marechal e para o sul o escritório do general.
+  exits:
+    north:
+      target_vnum: '16218'
+    south:
+      target_vnum: '16220'
+    west:
+      target_vnum: '16223'
+  name: Biblioteca do Castelo Amarelo
+  vnum: '16219'
+- description: |-
+    Aqui fica o escritório do poderoso general, segundo no poderio da força
+    amarela, você uma mesa com uma confortável poltrona e vários planos com
+    estratégias pendurados nas paredes.  Para o norte fica a biblioteca do
+    castelo, para o oeste você vai ao escritório dos majores.
+  exits:
+    north:
+      target_vnum: '16219'
+    west:
+      target_vnum: '16221'
+  name: Escritório do General
+  vnum: '16220'
+- description: |-
+    Aqui fica o escritório dos majores do exército amarelo, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o sul
+    fica o escritório dos tenentes e para o leste há uma placa indicando ser o
+    escritório do general.
+  exits:
+    east:
+      target_vnum: '16220'
+    south:
+      target_vnum: '16222'
+  name: Escritório dos Majores
+  vnum: '16221'
+- description: |-
+    Aqui fica o escritório dos tenentes do exército amarelo, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    oeste você vai para o corredor do segundo andar e para o norte há uma placa
+    indicando ser o escritório dos majores.
+  exits:
+    north:
+      target_vnum: '16221'
+    west:
+      target_vnum: '16210'
+  name: Escritório dos Tenentes
+  vnum: '16222'
+- description: |-
+    Empurrando a estante de livros da biblioteca você fica surpreso ao
+    encontrar esta sala escondida.  Há um buraco no chão, e descendo a escada
+    você irá parar em alguma outra parte do castelo.  Para o leste está a
+    biblioteca e para baixo você desce as escadas.
+  exits:
+    down:
+      target_vnum: '16152'
+    east:
+      target_vnum: '16219'
+  name: A Passagem Secreta
+  vnum: '16223'
+- description: |-
+    Passando pela porta camuflada você encontra uma enorme passagem que leva
+    para algum ponto a sudoeste.  Para o sul você volta para os corredores e
+    para o sudoeste fica a passagem.
+  exits:
+    south:
+      target_vnum: '16162'
+  name: A Passagem Escondida
+  vnum: '16224'
+- description: |-
+    Esta larga ponte faz a ligação entre os campos e o enorme castelo que
+    está a sua frente, você avista dois enormes estandartes amarelos pendurados
+    nos mastros de duas torres frontais da construção.  Você pode voltar por
+    onde veio ou seguir para o oeste em direção ao castelo.
+  exits:
+    east:
+      target_vnum: '16332'
+    west:
+      target_vnum: '16226'
+  name: A Ponte do Castelo
+  vnum: '16225'
+- description: |-
+    Você está a apenas alguns metros do grandioso portão de metal que protege
+    o castelo das numerosas tentativas de invasão que este sofre, ao olhar para
+    as paredes pode ver uma flâmula azul pendurada em cada lateral do portão.
+    Ao leste você segue pela ponte e ao oeste chega aos portões.
+  exits:
+    east:
+      target_vnum: '16225'
+    west:
+      target_vnum: '16227'
+  name: A Ponte do Castelo
+  vnum: '16226'
+- description: |-
+    Você está em frente ao grande portão de metal do castelo do reino azul e,
+    caso não seja desta equipe, a imponência de sua fortificação deixa-lhe em
+    duvidas se deve ou não entrar.  Se estiver com medo volte correndo para o
+    leste, se for alguém com uma alma aventureira siga para o oeste.
+  exits:
+    east:
+      target_vnum: '16226'
+    west:
+      target_vnum: '16228'
+  name: O Imponente Portão
+  vnum: '16227'
+- description: |-
+    Passando o portão da entrada, você olha ao redor e percebe que toda a
+    decoração é feita com detalhes azuis.  Grandes quadros pintados com a imagem
+    dos grandes marechais estão nas paredes.  Para voltar para a parte exterior
+    siga para o leste; ao norte, oeste e sul corredores levam ao interior da
+    fortificada construção.
+  exits:
+    east:
+      target_vnum: '16227'
+    north:
+      target_vnum: '16255'
+    south:
+      target_vnum: '16229'
+    west:
+      target_vnum: '16264'
+  name: A Entrada do Castelo
+  vnum: '16228'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte você volta para a entrada do
+    castelo e para sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16228'
+    south:
+      target_vnum: '16230'
+  name: Pelos Corredores
+  vnum: '16229'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16229'
+    south:
+      target_vnum: '16231'
+  name: Pelos Corredores
+  vnum: '16230'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16230'
+    south:
+      target_vnum: '16232'
+    west:
+      target_vnum: '16260'
+  name: Pelos Corredores
+  vnum: '16231'
+- description: |-
+    Aqui acaba o corredor que trazia para o sudeste do castelo e iniciam os
+    corredores que seguem para os extremos norte-oeste, aqui também há uma
+    escada que leva para alguma parte superior.  Para o oeste e o norte estão os
+    corredores e para cima uma escada.
+  exits:
+    north:
+      target_vnum: '16231'
+    up:
+      target_vnum: '16256'
+    west:
+      target_vnum: '16233'
+  name: O Canto Sudeste do Castelo
+  vnum: '16232'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16232'
+    north:
+      target_vnum: '16260'
+    west:
+      target_vnum: '16234'
+  name: Pelos Corredores
+  vnum: '16233'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16233'
+    west:
+      target_vnum: '16235'
+  name: Pelos Corredores
+  vnum: '16234'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16234'
+    west:
+      target_vnum: '16236'
+  name: Pelos Corredores
+  vnum: '16235'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o norte também.
+  exits:
+    east:
+      target_vnum: '16235'
+    north:
+      target_vnum: '16261'
+    west:
+      target_vnum: '16237'
+  name: Pelos Corredores
+  vnum: '16236'
+- description: |-
+    Aqui acabam os corredores que traziam para o sudoeste do castelo e
+    iniciam os corredores que seguem para os extremos norte-leste.  Para o leste
+    e o norte estão os corredores e ao sul algo.
+  exits:
+    east:
+      target_vnum: '16236'
+    north:
+      target_vnum: '16238'
+    south:
+      target_vnum: '16299'
+  name: O Canto Sudoeste do Castelo
+  vnum: '16237'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16261'
+    north:
+      target_vnum: '16239'
+    south:
+      target_vnum: '16237'
+  name: Pelos Corredores
+  vnum: '16238'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16240'
+    south:
+      target_vnum: '16238'
+  name: Pelos Corredores
+  vnum: '16239'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16241'
+    south:
+      target_vnum: '16239'
+  name: Pelos Corredores
+  vnum: '16240'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16242'
+    south:
+      target_vnum: '16240'
+  name: Pelos Corredores
+  vnum: '16241'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o leste segue um corredor que passa
+    pelo centro do castelo, a norte e sul continuam os corredores laterais.
+  exits:
+    east:
+      target_vnum: '16270'
+    north:
+      target_vnum: '16243'
+    south:
+      target_vnum: '16241'
+  name: Uma Intersecção dos Corredores
+  vnum: '16242'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16244'
+    south:
+      target_vnum: '16242'
+  name: Pelos Corredores
+  vnum: '16243'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16245'
+    south:
+      target_vnum: '16243'
+  name: Pelos Corredores
+  vnum: '16244'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o leste também.
+  exits:
+    east:
+      target_vnum: '16262'
+    north:
+      target_vnum: '16246'
+    south:
+      target_vnum: '16244'
+  name: Pelos Corredores
+  vnum: '16245'
+- description: |-
+    Aqui acabam os corredores que traziam para o noroeste do castelo e
+    iniciam os corredores que seguem para os extremos sul-leste.  Para o sul e o
+    leste estão os corredores.
+  exits:
+    east:
+      target_vnum: '16247'
+    south:
+      target_vnum: '16245'
+  name: O Canto Noroeste do Castelo
+  vnum: '16246'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16248'
+    south:
+      target_vnum: '16262'
+    west:
+      target_vnum: '16246'
+  name: Pelos Corredores
+  vnum: '16247'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16249'
+    west:
+      target_vnum: '16247'
+  name: Pelos Corredores
+  vnum: '16248'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16250'
+    west:
+      target_vnum: '16248'
+  name: Pelos Corredores
+  vnum: '16249'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste e oeste continuam os corredores e
+    aqui se dividem para o sul também.
+  exits:
+    east:
+      target_vnum: '16251'
+    south:
+      target_vnum: '16263'
+    west:
+      target_vnum: '16249'
+  name: Pelos Corredores
+  vnum: '16250'
+- description: |-
+    Aqui acaba o corredor que trazia para o nordeste do castelo e iniciam os
+    corredores que seguem para os extremos sul-oeste, aqui também há uma escada
+    que leva para alguma parte superior.  Para o oeste e o sul estão os
+    corredores e para cima uma escada.
+  exits:
+    south:
+      target_vnum: '16252'
+    up:
+      target_vnum: '16258'
+    west:
+      target_vnum: '16250'
+  name: O Canto Nordeste do Castelo
+  vnum: '16251'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores e
+    aqui se dividem para o oeste também.
+  exits:
+    north:
+      target_vnum: '16251'
+    south:
+      target_vnum: '16253'
+    west:
+      target_vnum: '16263'
+  name: Pelos Corredores
+  vnum: '16252'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16252'
+    south:
+      target_vnum: '16254'
+  name: Pelos Corredores
+  vnum: '16253'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao norte e sul continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16253'
+    south:
+      target_vnum: '16255'
+  name: Pelos Corredores
+  vnum: '16254'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao sul você volta para a entrada do castelo
+    e para norte continuam os corredores.
+  exits:
+    north:
+      target_vnum: '16254'
+    south:
+      target_vnum: '16228'
+  name: Pelos Corredores
+  vnum: '16255'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    sul do castelo do exército azul, em um certo ponto as escadas terminam em
+    uma porta de metal.  Para cima há uma porta fechando o caminho que leva ao
+    topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16232'
+    up:
+      target_vnum: '16257'
+  name: A Escadaria da Torre Sul
+  vnum: '16256'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Opa!  A porta de metal que você deixou fechar quando entrou parece
+    não abrir pelo lado de dentro...
+  exits:
+    down:
+      target_vnum: '16256'
+  name: O Topo da Torre Sul
+  vnum: '16257'
+- description: |-
+    Você sobe a grande escadaria circular de pedras que leva ao topo da torre
+    Norte do castelo do exército azul, em um certo ponto as escadas terminam em
+    uma porta de metal.  Para cima há uma porta fechando o caminho que leva ao
+    topo e para baixo você volta aos corredores.
+  exits:
+    down:
+      target_vnum: '16251'
+    up:
+      target_vnum: '16259'
+  name: A Escadaria da Torre Norte
+  vnum: '16258'
+- description: |-
+    Do alto da torre é possível olhar para todo o terreno acidentado que
+    separa os castelos dos quatro exércitos inimigos, aqui parece um lugar
+    seguro.  Para baixo abrindo a porta de metal está a escadaria que você usou
+    para chegar até aqui.
+  exits:
+    down:
+      target_vnum: '16258'
+  name: O Topo da Torre Norte
+  vnum: '16259'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército azul.  Para o sul e para o
+    leste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16231'
+    south:
+      target_vnum: '16233'
+  name: Uma Junção
+  vnum: '16260'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército azul.  Para o sul e para o
+    oeste continuam os corredores, para cima está uma bela escadaria com um rico
+    tapete azul, levando aos aposentos superiores.
+  exits:
+    south:
+      target_vnum: '16236'
+    up:
+      target_vnum: '16273'
+    west:
+      target_vnum: '16238'
+  name: Uma Junção
+  vnum: '16261'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército azul.  Para o norte e para o
+    oeste continuam os corredores, para cima está uma bela escadaria com um rico
+    tapete azul, levando aos aposentos superiores.
+  exits:
+    north:
+      target_vnum: '16247'
+    up:
+      target_vnum: '16272'
+    west:
+      target_vnum: '16245'
+  name: Uma Junção
+  vnum: '16262'
+- description: |-
+    Você está nos corredores do castelo, por todos os lados podem-se observar
+    detalhes demonstrando a supremacia do exército azul.  Para o norte e para o
+    leste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16252'
+    north:
+      target_vnum: '16250'
+  name: Uma Junção
+  vnum: '16263'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Ao leste você volta para a entrada do
+    castelo e para o oeste continuam os corredores.
+  exits:
+    east:
+      target_vnum: '16228'
+    west:
+      target_vnum: '16265'
+  name: Pelos Corredores Centrais
+  vnum: '16264'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o sul e para o leste continuam os
+    corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16264'
+    south:
+      target_vnum: '16266'
+  name: Pelos Corredores Centrais
+  vnum: '16265'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o oeste e para o norte continuam os
+    corredores do castelo.
+  exits:
+    north:
+      target_vnum: '16265'
+    west:
+      target_vnum: '16267'
+  name: Pelos Corredores Centrais
+  vnum: '16266'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o norte e para o leste continuam os
+    corredores do castelo.
+  exits:
+    east:
+      target_vnum: '16266'
+    north:
+      target_vnum: '16268'
+  name: Pelos Corredores Centrais
+  vnum: '16267'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o norte e para o sul continuam os
+    corredores do castelo.
+  exits:
+    north:
+      target_vnum: '16269'
+    south:
+      target_vnum: '16267'
+  name: Pelos Corredores Centrais
+  vnum: '16268'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o oeste e para o sul continuam os
+    corredores do castelo.
+  exits:
+    south:
+      target_vnum: '16268'
+    west:
+      target_vnum: '16270'
+  name: Pelos Corredores Centrais
+  vnum: '16269'
+- description: |-
+    Você está andando pelos imensos corredores do castelo do exército azul,
+    estes caminhos parecem não acabar e você reza aos deuses para não se perder
+    e conseguir cumprir sua missão.  Para o leste e para o oeste continuam os
+    corredores do castelo e para o sul segue uma estreita passagem.
+  exits:
+    east:
+      target_vnum: '16269'
+    south:
+      target_vnum: '16271'
+    west:
+      target_vnum: '16242'
+  name: Pelos Corredores Centrais
+  vnum: '16270'
+- description: |-
+    Aqui há uma grade de metal que separa o andar principal das escadas que
+    levem ao subterrâneo do castelo, onde estão as masmorras, lá são presos
+    todos os que têm intenções de prejudicar o exército azul, seria uma boa
+    idéia entrar lá?  Para baixo fica a entrada das masmorras e para o norte
+    seguem os corredores.
+  exits:
+    down:
+      target_vnum: '16274'
+    north:
+      target_vnum: '16270'
+  name: Acesso as Masmorras
+  vnum: '16271'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina azul estão os aposentos e salas dos lideres do exército azul, se
+    for pego aqui vai estar com sérios problemas por estar espionando.  Para
+    leste fica a cortina que separa os dois andares e para baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16262'
+    east:
+      target_vnum: '16285'
+  name: No Topo da Escadaria
+  vnum: '16272'
+- description: |-
+    Aqui termina a escadaria que traz para o segundo andar do castelo, atrás
+    da cortina azul estão os aposentos e salas dos lideres do exército azul, se
+    for pego aqui vai estar com sérios problemas por estar espionando.  Para
+    leste fica a cortina que separa os dois andares e para baixo os corredores.
+  exits:
+    down:
+      target_vnum: '16261'
+    east:
+      target_vnum: '16290'
+  name: No Topo da Escadaria
+  vnum: '16273'
+- description: |-
+    Aqui estão as temidas masmorras do exército azul, se for pego aqui por
+    alguém provavelmente irá conhece-las muito bem e por um longo tempo.  Para
+    cima você volta para o andar principal e para o oeste, norte e sul seguem os
+    corredores das masmorras.
+  exits:
+    north:
+      target_vnum: '16281'
+    south:
+      target_vnum: '16275'
+    up:
+      target_vnum: '16271'
+    west:
+      target_vnum: '16277'
+  name: A Entrada das Masmorras
+  vnum: '16274'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército azul.  Para o leste está uma porta de ferro fechada e
+    sem nenhuma abertura e para o sul você volta para a entrada.
+  exits:
+    north:
+      target_vnum: '16274'
+    west:
+      target_vnum: '16276'
+  name: Corredores das Masmorras
+  vnum: '16275'
+- description: |-
+    Aqui fica a temível solitária, usada para acalmar aquele prisioneiro que
+    costuma arranjar encrencas.  Por azar você foi espionar onde não deve e não
+    tem como sair daqui!
+  exits: {}
+  name: A Solitária
+  vnum: '16276'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército azul.  Para o sul está uma porta de ferro fechada e sem
+    nenhuma abertura e para o leste você volta para a entrada.
+  exits:
+    east:
+      target_vnum: '16274'
+    south:
+      target_vnum: '16276'
+  name: Corredores das Masmorras
+  vnum: '16277'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao leste você sai da cela e vai para os corredores.
+  exits:
+    east:
+      target_vnum: '16281'
+  name: Uma Cela
+  vnum: '16278'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao leste você sai da cela e vai para os corredores.
+  exits:
+    east:
+      target_vnum: '16280'
+  name: Uma Cela
+  vnum: '16279'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército azul.  Para o norte, para o leste e para o oeste portas
+    de metal fechadas e para o sul mais do corredor.
+  exits:
+    east:
+      target_vnum: '16283'
+    north:
+      target_vnum: '16284'
+    south:
+      target_vnum: '16281'
+    west:
+      target_vnum: '16279'
+  name: Corredores das Masmorras
+  vnum: '16280'
+- description: |-
+    Você está nos não muito limpos e agradáveis corredores das masmorras do
+    castelo do exército azul.  Para o leste e para o oeste portas de metal
+    fechadas e para o norte e sul mais do corredor.
+  exits:
+    east:
+      target_vnum: '16282'
+    north:
+      target_vnum: '16280'
+    south:
+      target_vnum: '16274'
+    west:
+      target_vnum: '16278'
+  name: Corredores das Masmorras
+  vnum: '16281'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao oeste você sai da cela e vai para os corredores.
+  exits:
+    west:
+      target_vnum: '16281'
+  name: Uma Cela
+  vnum: '16282'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao oeste você sai da cela e vai para os corredores.
+  exits:
+    west:
+      target_vnum: '16280'
+  name: Uma Cela
+  vnum: '16283'
+- description: |-
+    Este não é o local mais agradável do castelo, é sujo, escuro e cheira a
+    mofo, melhor não descobrirem que está no castelo, ou ficará aqui por muito
+    tempo.  Ao sul você sai da cela e vai para os corredores.
+  exits:
+    south:
+      target_vnum: '16280'
+  name: Uma Cela
+  vnum: '16284'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    azul você chega aos aposentos e salas dos lideres do exército azul, se for
+    pego aqui vai estar com sérios problemas por estar espionando.  Para o oeste
+    fica a cortina que separa os dois andares e para sul os corredores do
+    segundo andar.
+  exits:
+    south:
+      target_vnum: '16286'
+    west:
+      target_vnum: '16272'
+  name: Entrada do Segundo Andar
+  vnum: '16285'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete azul estende-se pelo chão.  Para o norte está a passagem que leva
+    para o andar principal, para o sul o rico corredor e para o leste os
+    aposentos dos lideres.
+  exits:
+    east:
+      target_vnum: '16297'
+    north:
+      target_vnum: '16285'
+    south:
+      target_vnum: '16287'
+  name: O Corredor Azul
+  vnum: '16286'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete azul estende-se pelo chão.  Para o norte e para o sul segue o rico
+    corredor.
+  exits:
+    north:
+      target_vnum: '16286'
+    south:
+      target_vnum: '16288'
+  name: O Corredor Azul
+  vnum: '16287'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete azul estende-se pelo chão.  Para o norte e para o sul segue o rico
+    corredor.
+  exits:
+    north:
+      target_vnum: '16287'
+    south:
+      target_vnum: '16289'
+  name: O Corredor Azul
+  vnum: '16288'
+- description: |-
+    Este corredor é ricamente decorado, em sua extensão estão estatuas dos
+    grandes heróis, quadros dos marechais e generais nas paredes e um belo
+    tapete azul estende-se pelo chão.  Para o sul está a passagem que leva para
+    o andar principal e para o norte o rico corredor.
+  exits:
+    north:
+      target_vnum: '16288'
+    south:
+      target_vnum: '16290'
+  name: O Corredor Azul
+  vnum: '16289'
+- description: |-
+    A escadaria trouxe para o segundo andar do castelo, passando pela cortina
+    azul você chega aos aposentos e salas dos lideres do exército azul, se for
+    pego aqui vai estar com sérios problemas por estar espionando.  Para o oeste
+    fica a cortina que separa os dois andares, para norte os corredores do
+    segundo andar e ao leste os aposentos dos lideres.
+  exits:
+    east:
+      target_vnum: '16291'
+    north:
+      target_vnum: '16289'
+    west:
+      target_vnum: '16273'
+  name: Entrada do Segundo Andar
+  vnum: '16290'
+- description: |-
+    Aqui fica o escritório dos capitães do exército azul, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    oeste você vai para a entrada do segundo andar e para o norte há uma placa
+    indicando ser o escritório dos coronéis.
+  exits:
+    north:
+      target_vnum: '16292'
+    west:
+      target_vnum: '16290'
+  name: Escritório dos Capitães
+  vnum: '16291'
+- description: |-
+    Aqui fica o escritório dos coronéis do exército azul, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o sul
+    fica o escritório dos capitães e para o leste há uma placa indicando ser o
+    escritório do marechal.
+  exits:
+    east:
+      target_vnum: '16293'
+    south:
+      target_vnum: '16291'
+  name: Escritório dos Coronéis
+  vnum: '16292'
+- description: |-
+    Aqui fica o escritório do poderoso marechal, líder das forças azuis, você
+    uma mesa com uma confortável poltrona e vários planos de estratégias
+    pendurados nas paredes.  Para o norte fica a biblioteca do castelo, para o
+    oeste você vai ao escritório dos coronéis.
+  exits:
+    north:
+      target_vnum: '16294'
+    west:
+      target_vnum: '16292'
+  name: Escritório do Marechal
+  vnum: '16293'
+- description: |-
+    Diversas estantes amarrotadas de livros sobre estratégia, mapas, plantas
+    e planos estão organizados aqui na bela biblioteca.  Uma das estantes chama
+    sua atenção por estar preenchida apenas por livros de capa azul.  Para o sul
+    fica o escritório do marechal e para o norte o escritório do general.
+  exits:
+    north:
+      target_vnum: '16295'
+    south:
+      target_vnum: '16293'
+    west:
+      target_vnum: '16298'
+  name: Biblioteca do Castelo Azul
+  vnum: '16294'
+- description: |-
+    Aqui fica o escritório do poderoso general, segundo no poderio da força
+    azul, você uma mesa com uma confortável poltrona e vários planos com
+    estratégias pendurados nas paredes.  Para o sul fica a biblioteca do
+    castelo, para o oeste você vai ao escritório dos majores.
+  exits:
+    south:
+      target_vnum: '16294'
+    west:
+      target_vnum: '16296'
+  name: Escritório do General
+  vnum: '16295'
+- description: |-
+    Aqui fica o escritório dos majores do exército azul, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    norte fica o escritório dos tenentes e para o leste há uma placa indicando
+    ser o escritório do general.
+  exits:
+    east:
+      target_vnum: '16295'
+    north:
+      target_vnum: '16297'
+  name: Escritório dos Majores
+  vnum: '16296'
+- description: |-
+    Aqui fica o escritório dos tenentes do exército azul, você pode ver
+    algumas mesas com cadeiras e diversas estantes cheias de papeis.  Para o
+    oeste você vai para o corredor do segundo andar e para o sul há uma placa
+    indicando ser o escritório dos majores.
+  exits:
+    south:
+      target_vnum: '16296'
+    west:
+      target_vnum: '16286'
+  name: Escritório dos Tenentes
+  vnum: '16297'
+- description: |-
+    Empurrando a estante de livros da biblioteca você fica surpreso ao
+    encontrar esta sala escondida.  Há um buraco no chão, e descendo a escada
+    você irá parar em alguma outra parte do castelo.  Para o leste está a
+    biblioteca e para baixo você desce as escadas.
+  exits:
+    down:
+      target_vnum: '16227'
+    east:
+      target_vnum: '16294'
+  name: A Passagem Secreta
+  vnum: '16298'
+- description: |-
+    Passando pela porta camuflada você encontra uma enorme passagem que leva
+    para algum ponto a nordeste.  Para o norte você volta para os corredores e
+    para o nordeste fica a passagem.
+  exits:
+    north:
+      target_vnum: '16237'
+  name: A Passagem Escondida
+  vnum: '16299'
+- description: |-
+    Você infelizmente caiu em uma das armadilhas feita pelo marechal deste
+    castelo.  Você não tem saídas, a não ser seguir para baixo e retornar ao
+    templo.
+  exits:
+    down:
+      target_vnum: '50'
+  name: Um Buraco
+  vnum: '16300'
+- description: |-
+    Você finalmente chegou onde queria: o Castelo Verde.  O castelo por fora
+    é muito grande e...verde!  Você nota várias flâmulas e bandeiras verdes
+    postas na parte de fora do castelo.  Indo para sul você segue para a ponte
+    que leva ao castelo, mas se você estiver com medo de entrar nesse castelo
+    você pode voltar, ao norte ou para baixo.
+  exits:
+    down:
+      target_vnum: '16300'
+    north:
+      target_vnum: '16302'
+    south:
+      target_vnum: '16000'
+  name: Fora do Castelo Verde
+  vnum: '16301'
+- description: |-
+    Daqui você tem uma melhor visão do castelo verde, mas mesmo assim você
+    não pode ver muitos detalhes, o que você pode ver é que é um castelo um
+    tanto quanto grande, e tem várias pessoas se mexendo na parte de cima do
+    castelo.  Você pode se aproximar mais do castelo indo para o sul ou voltar
+    de onde você veio, para cima há uma torre de vigilância.
+  exits:
+    north:
+      target_vnum: '16303'
+    south:
+      target_vnum: '16301'
+    up:
+      target_vnum: '16367'
+  name: Em um Vasto Campo
+  vnum: '16302'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16304'
+    south:
+      target_vnum: '16302'
+    west:
+      target_vnum: '16339'
+  name: Em um Vasto Campo
+  vnum: '16303'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16305'
+    north:
+      target_vnum: '16304'
+    south:
+      target_vnum: '16304'
+    west:
+      target_vnum: '16303'
+  name: Em um Vasto Campo
+  vnum: '16304'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16306'
+    west:
+      target_vnum: '16304'
+  name: Em um Vasto Campo
+  vnum: '16305'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16307'
+    west:
+      target_vnum: '16305'
+  name: Em um Vasto Campo
+  vnum: '16306'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16307'
+    north:
+      target_vnum: '16308'
+    south:
+      target_vnum: '16307'
+    west:
+      target_vnum: '16306'
+  name: Em um Vasto Campo
+  vnum: '16307'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16308'
+    north:
+      target_vnum: '16309'
+    south:
+      target_vnum: '16307'
+    west:
+      target_vnum: '16308'
+  name: Em um Vasto Campo
+  vnum: '16308'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    north:
+      target_vnum: '16310'
+    south:
+      target_vnum: '16308'
+  name: Em um Vasto Campo
+  vnum: '16309'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16311'
+    north:
+      target_vnum: '16314'
+    south:
+      target_vnum: '16309'
+  name: Em um Vasto Campo
+  vnum: '16310'
+- description: |-
+    Daqui você tem uma melhor visão do castelo amarelo, mas mesmo assim você
+    não pode ver muitos detalhes, o que você pode ver é que é um castelo um
+    tanto quanto grande, e tem várias pessoas se mexendo na parte de cima do
+    castelo.  Você pode se aproximar mais do castelo indo para o leste ou voltar
+    de onde você veio, para cima há uma torre de vigilância.
+  exits:
+    east:
+      target_vnum: '16312'
+    up:
+      target_vnum: '16373'
+    west:
+      target_vnum: '16310'
+  name: Em um Vasto Campo
+  vnum: '16311'
+- description: |-
+    Você finalmente chegou onde queria: o Castelo Amarelo.  O castelo por
+    fora é muito grande e...amarelo!  Você nota várias flâmulas e bandeiras
+    amarelas postas na parte de fora do castelo.  Indo para leste você segue
+    para a ponte que leva ao castelo, mas se você estiver com medo de entrar
+    nesse castelo você pode voltar, ao oeste ou para baixo.
+  exits:
+    down:
+      target_vnum: '16313'
+    east:
+      target_vnum: '16150'
+    west:
+      target_vnum: '16311'
+  name: Fora do Castelo Amarelo
+  vnum: '16312'
+- description: |-
+    Você infelizmente caiu em uma das armadilhas feita pelo marechal deste
+    castelo.  Você não tem saídas, a não ser seguir para baixo e retornar ao
+    templo.
+  exits:
+    down:
+      target_vnum: '50'
+  name: Um Buraco
+  vnum: '16313'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    north:
+      target_vnum: '16315'
+    south:
+      target_vnum: '16310'
+    west:
+      target_vnum: '16346'
+  name: Em um Vasto Campo
+  vnum: '16314'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    north:
+      target_vnum: '16316'
+    south:
+      target_vnum: '16314'
+  name: Em um Vasto Campo
+  vnum: '16315'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16316'
+    north:
+      target_vnum: '16316'
+    south:
+      target_vnum: '16315'
+    west:
+      target_vnum: '16317'
+  name: Em um Vasto Campo
+  vnum: '16316'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16316'
+    west:
+      target_vnum: '16318'
+  name: Em um Vasto Campo
+  vnum: '16317'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16317'
+    north:
+      target_vnum: '16318'
+    south:
+      target_vnum: '16318'
+    west:
+      target_vnum: '16319'
+  name: Em um Vasto Campo
+  vnum: '16318'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16318'
+    south:
+      target_vnum: '16349'
+    west:
+      target_vnum: '16320'
+  name: Em um Vasto Campo
+  vnum: '16319'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16319'
+    north:
+      target_vnum: '16321'
+    west:
+      target_vnum: '16324'
+  name: Em um Vasto Campo
+  vnum: '16320'
+- description: |-
+    Daqui você tem uma melhor visão do castelo vermelho, mas mesmo assim você
+    não pode ver muitos detalhes, o que você pode ver é que é um castelo um
+    tanto quanto grande, e tem várias pessoas se mexendo na parte de cima do
+    castelo.  Você pode se aproximar mais do castelo indo para o norte ou voltar
+    de onde você veio, para cima há uma torre de vigilância.
+  exits:
+    north:
+      target_vnum: '16322'
+    south:
+      target_vnum: '16320'
+    up:
+      target_vnum: '16379'
+  name: Em um Vasto Campo
+  vnum: '16321'
+- description: |-
+    Você finalmente chegou onde queria: o Castelo Vermelho.  O castelo por
+    fora é muito grande e...vermelho!  Você nota várias flâmulas e bandeiras
+    vermelhas postas na parte de fora do castelo.  Indo para norte você segue
+    para a ponte que leva ao castelo, mas se você estiver com medo de entrar
+    nesse castelo você pode voltar, ao sul ou para baixo.
+  exits:
+    down:
+      target_vnum: '16323'
+    north:
+      target_vnum: '16075'
+    south:
+      target_vnum: '16321'
+  name: Fora do Castelo Vermelho
+  vnum: '16322'
+- description: |-
+    Você infelizmente caiu em uma das armadilhas feita pelo marechal deste
+    castelo.  Você não tem saídas, a não ser seguir para baixo e retornar ao
+    templo.
+  exits:
+    down:
+      target_vnum: '50'
+  name: Um Buraco
+  vnum: '16323'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16320'
+    west:
+      target_vnum: '16325'
+  name: Em um Vasto Campo
+  vnum: '16324'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16324'
+    north:
+      target_vnum: '16325'
+    south:
+      target_vnum: '16325'
+    west:
+      target_vnum: '16326'
+  name: Em um Vasto Campo
+  vnum: '16325'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16325'
+    west:
+      target_vnum: '16327'
+  name: Em um Vasto Campo
+  vnum: '16326'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16326'
+    north:
+      target_vnum: '16327'
+    south:
+      target_vnum: '16328'
+    west:
+      target_vnum: '16327'
+  name: Em um Vasto Campo
+  vnum: '16327'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    north:
+      target_vnum: '16327'
+    south:
+      target_vnum: '16329'
+  name: Em um Vasto Campo
+  vnum: '16328'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16329'
+    north:
+      target_vnum: '16328'
+    south:
+      target_vnum: '16330'
+    west:
+      target_vnum: '16329'
+  name: Em um Vasto Campo
+  vnum: '16329'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    north:
+      target_vnum: '16329'
+    south:
+      target_vnum: '16334'
+    west:
+      target_vnum: '16331'
+  name: Em um Vasto Campo
+  vnum: '16330'
+- description: |-
+    Daqui você tem uma melhor visão do castelo azul, mas mesmo assim você não
+    pode ver muitos detalhes, o que você pode ver é que é um castelo um tanto
+    quanto grande, e tem várias pessoas se mexendo na parte de cima do castelo.
+    Você pode se aproximar mais do castelo indo para o oeste ou voltar de onde
+    você veio, para cima há uma torre de vigilância.
+  exits:
+    east:
+      target_vnum: '16330'
+    up:
+      target_vnum: '16385'
+    west:
+      target_vnum: '16332'
+  name: Em um Vasto Campo
+  vnum: '16331'
+- description: |-
+    Você finalmente chegou onde queria: o Castelo Azul.  O castelo por fora é
+    muito grande e...azul!  Você nota várias flâmulas e bandeiras azuis postas
+    na parte de fora do castelo.  Indo para oeste você segue para a ponte que
+    leva ao castelo, mas se você estiver com medo de entrar nesse castelo você
+    pode voltar, ao leste ou para baixo.
+  exits:
+    down:
+      target_vnum: '16333'
+    east:
+      target_vnum: '16331'
+    west:
+      target_vnum: '16225'
+  name: Fora do Castelo Azul
+  vnum: '16332'
+- description: |-
+    Você infelizmente caiu em uma das armadilhas feita pelo marechal deste
+    castelo.  Você não tem saídas, a não ser seguir para baixo e retornar ao
+    templo.
+  exits:
+    down:
+      target_vnum: '50'
+  name: Um Buraco
+  vnum: '16333'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16356'
+    north:
+      target_vnum: '16330'
+    south:
+      target_vnum: '16335'
+  name: Em um Vasto Campo
+  vnum: '16334'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16335'
+    north:
+      target_vnum: '16334'
+    south:
+      target_vnum: '16336'
+    west:
+      target_vnum: '16335'
+  name: Em um Vasto Campo
+  vnum: '16335'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16337'
+    north:
+      target_vnum: '16335'
+    south:
+      target_vnum: '16336'
+    west:
+      target_vnum: '16336'
+  name: Em um Vasto Campo
+  vnum: '16336'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16338'
+    west:
+      target_vnum: '16336'
+  name: Em um Vasto Campo
+  vnum: '16337'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16339'
+    north:
+      target_vnum: '16338'
+    south:
+      target_vnum: '16338'
+    west:
+      target_vnum: '16337'
+  name: Em um Vasto Campo
+  vnum: '16338'
+- description: |-
+    Você está em um vasto campo verde que se estende até onde sua vista
+    alcança.  Você repara algumas pequenas flores espalhadas pelo campo e
+    algumas raras árvores grandes.  Você vê saídas para todas as direções.
+  exits:
+    east:
+      target_vnum: '16303'
+    north:
+      target_vnum: '16349'
+    west:
+      target_vnum: '16338'
+  name: Em um Vasto Campo
+  vnum: '16339'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16341'
+    north:
+      target_vnum: '16360'
+    west:
+      target_vnum: '16359'
+  name: Em um Lago Escuro
+  vnum: '16340'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16341'
+    north:
+      target_vnum: '16342'
+    west:
+      target_vnum: '16340'
+  name: Em um Lago Escuro
+  vnum: '16341'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16366'
+    south:
+      target_vnum: '16341'
+  name: Em um Lago Escuro
+  vnum: '16342'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16344'
+    north:
+      target_vnum: '16343'
+    south:
+      target_vnum: '16343'
+    west:
+      target_vnum: '16343'
+  name: Em um Lago Escuro
+  vnum: '16343'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que você consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16345'
+    west:
+      target_vnum: '16343'
+  name: Em um Lago Escuro
+  vnum: '16344'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16346'
+    south:
+      target_vnum: '16344'
+    west:
+      target_vnum: '16361'
+  name: Em um Lago Escuro
+  vnum: '16345'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16314'
+    south:
+      target_vnum: '16345'
+    west:
+      target_vnum: '16347'
+  name: Em um Lago Escuro
+  vnum: '16346'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16346'
+    north:
+      target_vnum: '16347'
+    south:
+      target_vnum: '16347'
+    west:
+      target_vnum: '16347'
+  name: Em um Lago Escuro
+  vnum: '16347'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16349'
+    south:
+      target_vnum: '16348'
+  name: Em um Lago Escuro
+  vnum: '16348'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16319'
+    south:
+      target_vnum: '16348'
+    west:
+      target_vnum: '16350'
+  name: Em um Lago Escuro
+  vnum: '16349'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16349'
+    south:
+      target_vnum: '16362'
+    west:
+      target_vnum: '16351'
+  name: Em um Lago Escuro
+  vnum: '16350'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16350'
+    north:
+      target_vnum: '16351'
+    south:
+      target_vnum: '16352'
+    west:
+      target_vnum: '16351'
+  name: Em um Lago Escuro
+  vnum: '16351'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16352'
+    north:
+      target_vnum: '16351'
+    south:
+      target_vnum: '16352'
+    west:
+      target_vnum: '16352'
+  name: Em um Lago Escuro
+  vnum: '16352'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16353'
+    south:
+      target_vnum: '16353'
+    west:
+      target_vnum: '16354'
+  name: Em um Lago Escuro
+  vnum: '16353'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16353'
+    south:
+      target_vnum: '16355'
+  name: Em um Lago Escuro
+  vnum: '16354'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16363'
+    north:
+      target_vnum: '16354'
+    south:
+      target_vnum: '16356'
+  name: Em um Lago Escuro
+  vnum: '16355'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16357'
+    north:
+      target_vnum: '16355'
+    south:
+      target_vnum: '16356'
+    west:
+      target_vnum: '16334'
+  name: Em um Lago Escuro
+  vnum: '16356'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16357'
+    north:
+      target_vnum: '16357'
+    west:
+      target_vnum: '16356'
+  name: Em um Lago Escuro
+  vnum: '16357'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16358'
+    south:
+      target_vnum: '16359'
+  name: Em um Lago Escuro
+  vnum: '16358'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16340'
+    north:
+      target_vnum: '16358'
+    south:
+      target_vnum: '16339'
+    west:
+      target_vnum: '16359'
+  name: Em um Lago Escuro
+  vnum: '16359'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16360'
+    south:
+      target_vnum: '16340'
+  name: Em um Lago Escuro
+  vnum: '16360'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16345'
+    west:
+      target_vnum: '16366'
+  name: Em um Lago Escuro
+  vnum: '16361'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    north:
+      target_vnum: '16350'
+    south:
+      target_vnum: '16365'
+  name: Em um Lago Escuro
+  vnum: '16362'
+- description: |-
+    Você está em uma lagoa escura e fria.  Você nota o corpo de vários peixes
+    mortos e restos de comida flutuando por aqui.  O odor é insuportável e mal
+    se consegue respirar.  Você consegue avistar bem longe, um pântano
+    lamacento, mas fora isso tudo o que consegue ver é o lago.
+  exits:
+    east:
+      target_vnum: '16364'
+    west:
+      target_vnum: '16355'
+  name: Em um Lago Escuro
+  vnum: '16363'
+- description: |-
+    A única coisa que você pode ver aqui é uma árvore seca e sem folhas.
+    Fora isso tudo é pura lama.  Você está todo sujo de lama até a altura da
+    cintura; o que dificulta seus passos e torna sua jornada ainda mais
+    cansativa.  Você pode tentar sair daqui, ou continuar neste pântano e ver se
+    acha algo de interessante.
+  exits:
+    east:
+      target_vnum: '16365'
+    west:
+      target_vnum: '16363'
+  name: O Pântano Lamacento
+  vnum: '16364'
+- description: |-
+    A única coisa que você pode ver aqui é uma árvore seca e sem folhas.
+    Fora isso tudo é pura lama.  Você está todo sujo de lama até a altura da
+    cintura; o que dificulta seus passos e torna sua jornada ainda mais
+    cansativa.  Você pode tentar sair daqui, ou continuar neste pântano e ver se
+    acha algo de interessante.
+  exits:
+    east:
+      target_vnum: '16366'
+    north:
+      target_vnum: '16362'
+    west:
+      target_vnum: '16364'
+  name: O Pântano Lamacento
+  vnum: '16365'
+- description: |-
+    A única coisa que você pode ver aqui é uma árvore seca e sem folhas.
+    Fora isso tudo é pura lama.  Você está todo sujo de lama até a altura da
+    cintura; o que dificulta seus passos e torna sua jornada ainda mais
+    cansativa.  Você pode tentar sair daqui, ou continuar neste pântano e ver se
+    acha algo de interessante.
+  exits:
+    east:
+      target_vnum: '16361'
+    south:
+      target_vnum: '16342'
+    west:
+      target_vnum: '16365'
+  name: O Pântano Lamacento
+  vnum: '16366'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16302'
+    up:
+      target_vnum: '16368'
+  name: Torre de Vigilância
+  vnum: '16367'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16367'
+    up:
+      target_vnum: '16369'
+  name: Torre de Vigilância
+  vnum: '16368'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16368'
+    up:
+      target_vnum: '16370'
+  name: Torre de Vigilância
+  vnum: '16369'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16369'
+    up:
+      target_vnum: '16371'
+  name: Torre de Vigilância
+  vnum: '16370'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16370'
+    up:
+      target_vnum: '16372'
+  name: Torre de Vigilância
+  vnum: '16371'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para baixo você
+    pode sair da torre.
+  exits:
+    down:
+      target_vnum: '16371'
+  name: Torre de Vigilância
+  vnum: '16372'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16311'
+    up:
+      target_vnum: '16374'
+  name: Torre de Vigilância
+  vnum: '16373'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16373'
+    up:
+      target_vnum: '16375'
+  name: Torre de Vigilância
+  vnum: '16374'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16374'
+    up:
+      target_vnum: '16376'
+  name: Torre de Vigilância
+  vnum: '16375'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16375'
+    up:
+      target_vnum: '16377'
+  name: Torre de Vigilância
+  vnum: '16376'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16376'
+    up:
+      target_vnum: '16378'
+  name: Torre de Vigilância
+  vnum: '16377'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para baixo você
+    pode sair da torre.
+  exits:
+    down:
+      target_vnum: '16377'
+  name: Torre de Vigilância
+  vnum: '16378'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16321'
+    up:
+      target_vnum: '16380'
+  name: Torre de Vigilância
+  vnum: '16379'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16379'
+    up:
+      target_vnum: '16381'
+  name: Torre de Vigilância
+  vnum: '16380'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16380'
+    up:
+      target_vnum: '16382'
+  name: Torre de Vigilância
+  vnum: '16381'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16381'
+    up:
+      target_vnum: '16383'
+  name: Torre de Vigilância
+  vnum: '16382'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16382'
+    up:
+      target_vnum: '16384'
+  name: Torre de Vigilância
+  vnum: '16383'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para baixo você
+    pode sair da torre.
+  exits:
+    down:
+      target_vnum: '16383'
+  name: Torre de Vigilância
+  vnum: '16384'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16331'
+    up:
+      target_vnum: '16386'
+  name: Torre de Vigilância
+  vnum: '16385'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16385'
+    up:
+      target_vnum: '16387'
+  name: Torre de Vigilância
+  vnum: '16386'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16386'
+    up:
+      target_vnum: '16388'
+  name: Torre de Vigilância
+  vnum: '16387'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16387'
+    up:
+      target_vnum: '16389'
+  name: Torre de Vigilância
+  vnum: '16388'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para cima você
+    continua cada vez mais alto na torre ou pode sair dela indo para baixo.
+  exits:
+    down:
+      target_vnum: '16388'
+    up:
+      target_vnum: '16390'
+  name: Torre de Vigilância
+  vnum: '16389'
+- description: |-
+    Você esta na torre de vigilância que fica antes de chegar no castelo,
+    daqui é possível ver perfeitamente bem toda a região do campo e do escuro
+    lago que fica entre este e os outros castelos inimigos.  Para baixo você
+    pode sair da torre.
+  exits:
+    down:
+      target_vnum: '16389'
+  name: Torre de Vigilância
+  vnum: '16390'
+- description: "@RATENÃ\x87Ã\x83O!!!@n  VocÃª estÃ¡ entrando em uma Ã¡rea de alto\
+    \ risco, somente os mais\ncorajosos e espertos sairão vencedores, se for uma pessoa\
+    \ que não gosta de\ndesafios volte agora, se deseja aventura siga para cima e\
+    \ leia atentamente\nas instruções."
+  exits:
+    up:
+      target_vnum: '16392'
+  name: A Sala de Convocação
+  vnum: '16391'
+- description: |-
+    @y1)@n Você será do @BExercito Azul@n, @RExercito Vermelho@n, @GExercito Verde@n ou
+    @YExercito Amarelo@n.  A escolha será de acordo com as instruções que os deuses
+    darão, ajuste seu titulo colocando apenas Exercito <cor>.
+    @y2)@n Na sala a norte há quatro portas, cada um levará o exercito para o
+    castelo de sua cor, preste atenção para qual direção deve seguir pois é
+    proibido seguir em outra direção.
+    @y3)@n Não saia da sala inicial, lá recebera as instruções necessária para
+    cumprir a missão, o marechal de seu exército dirá quando poderão partir.
+  exits:
+    north:
+      target_vnum: '16393'
+  name: A Sala das Instruções
+  vnum: '16392'
+- description: |-
+    Estas portas mágicas o levarão até o seu destino.  Preste atenção no qual
+    deve seguir.
+    @Rnorte@n: Exercito Vermelho.
+    @Yleste@n: Exercito Amarelo.
+    @Boeste@n: Exercito Azul.
+    @Gsul@n  : Exercito Verde.
+  exits:
+    east:
+      target_vnum: '16152'
+    north:
+      target_vnum: '16077'
+    south:
+      target_vnum: '16002'
+    west:
+      target_vnum: '16227'
+  name: Os Quatro Destinos
+  vnum: '16393'
+- description: |-
+    Tesouros de todos os tipos e valores estão postos nesta sala.  Desde
+    objetos de valor simbólico até estátuas de ouro e objetos mágicos.  Todos os
+    tesouros adquiridos pelos Marechais durante os anos estão guardados aqui.  A
+    sala é muito grande e ricamente decorada.  Pendurado na parede há um quadro
+    que você deve ler.  A única saída fica para o norte.
+  exits:
+    north:
+      target_vnum: '16395'
+  name: A Sala do Tesouro
+  vnum: '16394'
+- description: |-
+    Se você está passando por este corredor é porque o seu exercito é o
+    vencedor, parabéns!  Ao norte você volta para a sua cidade.
+  exits:
+    north:
+      target_vnum: '50'
+  name: A Sala da Vitória
+  vnum: '16395'

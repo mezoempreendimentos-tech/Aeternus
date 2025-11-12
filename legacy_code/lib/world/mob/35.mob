@@ -1,0 +1,126 @@
+#3500
+wyvern~
+o wyvern~
+Um wyvern monstruoso vagarosamente circula sobre sua cabeça.
+~
+Esta imensa criatura alada parece realmente ameaçadora, a medida que circula
+a poucas polegadas de sua cabeça, batendo suas asas e chiando muito alto.
+~
+2163298 0 0 0 0 0 0 0 -700 E
+8 13 3 2d10+90 2d6+1
+0 3575
+9 9 0
+GenWimpy: 39
+E
+#3501
+montanha goblin~
+o goblin~
+Um goblin da montanha está vagando sem rumo, resmungando para si mesmo...
+~
+Você se vê diante de uma pequena e esfarrapada criatura com músculos nodosos
+e uma pele verde e nojenta.  Não parece o tipo de pessoa que você convidaria
+para o jantar.
+~
+2103392 0 0 0 2048 0 0 0 -250 E
+4 17 6 1d1+55 1d8+0
+50 600
+9 9 1
+GenWimpy: 100
+GenLoot: 12
+GenRoam: 88
+GenFollow: 13
+E
+#3502
+goblin tenente~
+o tenente goblin~
+Um tenente goblin está aqui, tentando colocar seus homens em ordem.
+~
+O tentente goblin está particularmente furioso e está escolhendo um de seus
+homens para bater, mas talvez quem bata seja você...
+~
+2103904 0 0 0 2064 0 0 0 -600 E
+7 15 3 1d12+100 2d5+1
+300 2000
+9 9 1
+GenWimpy: 100
+GenLoot: 4
+GenRoam: 89
+GenFollow: 13
+E
+#3503
+goblin lider~
+o líder goblin~
+O líder goblin inspeciona a sala.
+~
+O líder não parece muito feliz por você ter achado ele aqui.  Ele agarra sua
+espada curta e dispara em direção ao seu pescoço.
+~
+2103846 0 0 0 2064 0 0 0 -900 E
+9 10 1 1d12+120 2d5+3
+1000 8000
+9 9 1
+E
+#3504
+garoto pequeno~
+o garoto pequeno~
+Um garoto pequeno está sentado aqui, lambendo suas feridas.
+~
+O pobre garoto tem inúmeros cortes e arranhões, mas parece estar bem.
+Aparentemente, ele foi o único sobrevivente da emboscada.
+~
+2097282 0 0 0 0 0 0 0 500 E
+4 17 6 1d12+47 1d8+0
+0 600
+5 5 1
+GenWimpy: 6
+E
+#3505
+estalajadeiro~
+o Estalajadeiro~
+O estalajadeiro está de pé aqui, limpando os copos.
+~
+Agora, o estalajadeiro gasta a maior parte de seu tempo esperando por
+clientes, enquanto as noites são gastas vigiando os goblins.  Sua 
+hospedaria não é mais o lugar feliz que foi no passado.
+~
+2103362 0 0 0 0 0 0 0 400 E
+10 8 1 1d12+200 2d8+1
+1500 7000
+9 9 1
+GenWimpy: 26
+E
+#3506
+bardo~
+o bardo~
+Um bardo mal-humorado está aqui, bebendo para esquecer seus problemas.
+~
+Você pode sentir o bafo de álcool do bardo do outro lado da sala.  Este
+pobre bardo está sentado aqui há bastante tempo, bebendo para se levar ao
+esquecimento.
+~
+2103362 0 0 0 16 0 0 0 600 E
+8 13 3 1d12+110 2d6+0
+1500 3750
+6 6 1
+GenWimpy: 29
+GenLoot: 4
+GenFollow: 11
+E
+#3507
+cavaleiro negro~
+o cavaleiro negro~
+Um cavaleiro negro está aqui, montado em seu cavalo preto.
+~
+O homem é evidentemente um fora-da-lei e não tem escrúpulos em reduzir você a
+pequenos pedaços.
+~
+2101440 0 0 0 589824 0 0 0 -900 E
+8 12 4 1d12+97 1d5+7
+1000 4000
+9 9 1
+GenWimpy: 93
+GenLoot: 1
+GenRoam: 89
+GenFollow: 19
+E
+$

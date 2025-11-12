@@ -1,0 +1,204 @@
+#6200
+veado~
+o veado~
+Um veado olha para você com medo nos olhos.
+~
+Este veado é muito bonito.
+~
+2097280 0 0 0 0 0 0 0 0 E
+3 18 1 3d5+33 1d7+0
+0 350
+9 9 0
+GenWimpy: 7
+GenRoam: 79
+E
+#6201
+coelho~
+o coelho~
+Um pequeno coelho roe uma folha aqui.
+~
+Ele é um pequeno e peludo roedor com grandes orelhas.
+~
+2097280 0 0 0 0 0 0 0 0 E
+0 20 3 1d5+3 1d3+0
+0 25
+9 9 0
+GenWimpy: 5
+GenRoam: 68
+E
+#6202
+esquilo~
+o esquilo~
+Um esquilo percebe a sua presença e corre para trás de uma árvore!
+~
+Ele é um esquilo pequeno e marrom.  Um excelente espécime saltador.
+~
+2097280 0 0 0 0 0 0 0 0 E
+0 20 -1 1d3+0 1d1+1
+0 10
+9 9 0
+GenWimpy: 8
+GenRoam: 84
+E
+#6203
+cacador orc~
+o caçador orc~
+Um caçador orc olha para você com seus odiosos olhos.
+~
+Ele parece nervoso, violento e talvez um pouco doente.
+Sua pele verde está definitivamente pintada e ele parece coxear um pouco...
+~
+2101280 0 0 0 2048 0 0 0 -350 E
+7 14 5 3d5+83 2d3+2
+0 2250
+9 9 1
+GenWimpy: 14
+GenLoot: 2
+GenRoam: 88
+E
+#6204
+chefe orc~
+o chefe orc~
+Um chefe orc grunhe para você!
+~
+Ele veste uma coroa de folhas de carvalho, para mostrar que é o líder.  E
+carrega uma clava para mostrar que é guerreiro.  Você se espanta ao ver
+como ele é bom em ambas as coisas.
+~
+2103330 0 0 0 2048 0 0 0 -600 E
+10 11 2 3d5+120 2d7+2
+17 9000
+9 9 1
+E
+#6205
+mulher orc~
+a mulher orc~
+Uma mulher orc está aqui, assustando você.
+~
+Quando você a olha fixamente, ela levanta suas mãos vagarosamente, como se
+dissesse "Não me mate!!".
+~
+2097280 0 0 0 2048 0 0 0 -50 E
+5 16 7 3d5+58 2d4+0
+0 900
+9 9 2
+GenWimpy: 3
+GenRoam: 56
+E
+#6206
+crianca orc~
+a criança orc~
+Uma criança orc procura freneticamente por sua mãe.
+~
+Ela é escabrosa e parece estar coberta por chagas.
+~
+2097280 0 0 0 2048 0 0 0 50 E
+3 18 9 3d5+30 1d7+0
+0 350
+9 9 2
+GenWimpy: 2
+GenLoot: 2
+GenRoam: 40
+GenGroup: 3
+GenFollow: 5
+E
+#6207
+mulher orc~
+uma mulher orc~
+Uma mulher orc grávida tenta escapar de você.
+~
+Ela está muito longe de mover-se rápido.  Você pode matá-la facilmente.
+~
+2097282 0 0 0 2048 0 0 0 -50 E
+5 16 10 3d5+58 1d4+0
+0 750
+6 6 2
+E
+#6208
+orc mutante mutado~
+o orc mutante~
+Um orc mutante está aqui, práticamente morto.
+~
+Em seu corpo práticamente não existe qualquer sinal esperança.  Ele está
+morrendo e nada irá mudar isso.
+~
+2097152 0 0 0 2048 0 0 0 0 E
+6 20 10 1d1+0 1d1+0
+0 1
+5 5 0
+E
+#6209
+orc mutante~
+o orc mutante~
+Um horrível orc mutante está aqui, falando incoerentemente.
+~
+Ele parece ainda não ter notado a sua presença... ele está falando consigo
+mesmo.  Seu corpo é uma mistura de orc, homem, besta, e sabe-se lá o que
+mais.
+~
+2097152 0 0 0 2048 0 0 0 0 E
+6 20 1 3d5+60 1d1+0
+0 10
+9 9 0
+GenWimpy: 4
+GenRoam: 62
+E
+#6210
+feiticeiro elfo elfico elstar~
+Elstar~
+Um feiticeiro élfico está aqui.  Ele parece nervoso.
+~
+Ele olha para você matreiramente, como se perguntasse porque você invadiu
+os seus domínios.  Sem problemas... não deve ser tão difícil para ele
+destruir você, não é mesmo?
+~
+2099234 0 0 0 2064 0 0 0 -1000 E
+15 6 -8 3d5+183 2d8+2
+10000 21000
+9 9 1
+E
+#6211
+crianca elfo duende aprendiz~
+a criança duende~
+Uma criança duende joga sua vara de pescar no rio.
+~
+Ele parece jovem e inocente.  Você se pergunta o que ele estaria fazendo
+aqui.
+~
+2097154 0 0 0 2048 0 0 0 600 E
+3 18 6 3d5+35 2d4+0
+0 400
+9 9 1
+E
+#6212
+coisa mutante~
+a coisa mutante~
+Uma coisa mutante empurra você!
+~
+Ela deve ter sido um orc um dia.  Agora ela vive no terror, empurrando tudo
+para longe do seu caminho para chegar até você.
+~
+2099232 0 0 0 2048 0 0 0 -800 E
+12 9 -2 3d5+170 2d7+4
+0 15000
+9 9 0
+GenWimpy: 36
+GenRoam: 89
+GenFollow: 15
+E
+#6213
+coisa mutante~
+a coisa mutante~
+Uma coisa mutante tenta pegar você, mas não pode alcançá-lo!
+~
+Ela deve ter sido um orc, um dia.  Agora vive no terror, empurrando tudo
+para longe de seu caminho, para chegar até você.
+~
+2099202 0 0 0 2048 0 0 0 -800 E
+12 9 -2 3d5+170 2d7+4
+0 15000
+9 9 0
+GenWimpy: 74
+GenRoam: 84
+E
+$

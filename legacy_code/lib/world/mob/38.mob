@@ -1,0 +1,71 @@
+#3800
+fada recepcionista Philomena~
+Philomena~
+Uma linda fada o recebe com um grande sorriso.
+~
+Philomena, a recepcionista do Museu, é na verdade uma eladrin, uma
+representante da raça das fadas nobres.  De aparência jovial e simpática,
+dizem que foi com a ajuda da magia dela que os CARD's pintados pelo
+Explorador se espalharam por Vitália.  Philomena olha para você com seus
+belíssimos olhos cor de jade e lhe estende uma entrada. 
+ - \tMSão 10.000 moedas por favor.\n
+~
+2285578 0 0 0 0 0 0 0 500 E
+108 2 2 1d1+30000 2d8+18
+30000 160000
+9 9 2
+E
+#3801
+golem mithril~
+um golem de mithril~
+Um enorme golem de mithril parece querer barrar seu caminho.
+~
+Um massivo golem feito do precioso e mágico mithril monta guarda na entrada
+do Museu.  É bom você não quebrar nada lá dentro, pois ele provavelmente é o
+segurança daqui, e você não vai querer se meter com um tipo desses.  Uma
+pequena placa foi pendurada em seu pescoço, com os dizeres:
+"Favor ter sua entrada em mãos para adentrar no Museu".
+~
+2285578 0 0 0 0 0 0 0 0 E
+108 2 2 1d1+30000 2d8+18
+30000 160000
+9 9 1
+E
+#3802
+pilgoras~
+Pilgoras~
+Pilgoras, o maior colecionador de CARD's de Vitália, mal percebe sua
+aproximação, absorto com sua coleção.
+~
+Um jovem meio-elfo de longos cabelos negros, Pilgoras é conhecido por sua
+mania de colecionar coisas.  Sua maior obsessão parece ser completar a
+coleção de CARDS, e dizem que ele só precisa de mais três cartas para isso.
+Nesse momento, Pilgoras está usando uma grande lupa para analizar alguns
+CARD's, talvez a procura de mais uma raridade.
+~
+2285578 0 0 0 0 0 0 0 400 E
+50 0 -15 1d10+800 1d15+5
+500000 100000
+9 9 1
+E
+#3803
+garoto~
+um garoto~
+Um garoto está aqui, abraçado à sua coleção de cards.
+~
+Esse garoto anda pelo museu sem nem prestar muita atenção nas maravilhas ao
+seu redor.  O tempo todo ele abraça com força um fichário preto, como se
+dentro houvesse um precioso tesouro.
+~
+2285640 0 0 0 0 0 0 0 0 E
+30 10 -5 1d10+400 1d15+1
+2000 40000
+9 9 1
+GenWimpy: 3
+GenLoot: 14
+GenRoam: 63
+GenGroup: 2
+GenFollow: 14
+E
+T 3800
+$

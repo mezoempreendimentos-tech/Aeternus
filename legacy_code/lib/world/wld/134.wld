@@ -1,0 +1,1504 @@
+#13400
+A Praça Central de Thewster~
+   Você se  choca ao perceber o tamanho dessa praça e a altitude em que ela
+está,  normal  considerando  que  ela  está  empoleirada no alto de uma das
+gigantescas  árvores  Nirin  da floresta de Thewster.  Toda a cidade ao seu
+redor está viva, com a população vivendo suas vidas.  Acima, o caminho guia
+para  as  diversas  lojas  de  Thewster,  ao sul fica a Taverna da Baía das
+Folhas.  Para leste fica o caminho devolta à floresta.
+~
+134 16 0 0 0 1
+D0
+~
+~
+0 0 13482
+D1
+A Escadaria.
+~
+~
+0 -1 13402
+D2
+Taverna da Baía das Folhas.
+~
+~
+0 -1 13403
+D3
+oeste
+~
+~
+0 -1 13404
+D4
+Um caminho.
+~
+~
+0 -1 13401
+S
+#13401
+O Caminho no Galho~
+  O  caminho  foi cravado em um gigantesco galho, que passa através de duas
+árvores.  Várias  lamparinas dependuram-se de pequenos galhos, iluminando o
+caminho.  A sul fica a praça central de Thewster e ao norte fica a praça do
+mercado.
+~
+134 0 0 0 0 1
+D0
+~
+~
+0 -1 13406
+D4
+~
+~
+0 -1 13405
+D5
+~
+~
+0 -1 13400
+S
+#13402
+A Escadaria~
+  Você  está  em um enorme galho da árvore. Olhando para cima e para baixo,
+você  nota  que  os galhos crescem bem próximo uns dos outros, formando uma
+escadaria que conduz à superfície e para o topo da escadaria.
+~
+134 4 0 0 0 0
+D3
+oeste
+~
+~
+0 -1 13400
+D4
+~
+~
+0 -1 13429
+D5
+A Floresta.
+~
+~
+0 -1 13571
+S
+#13403
+A Taverna da Baía das Folhas~
+  Grandes  vasos de plantas e árvores preenchem as paredes. No meio da sala
+há  uma  grande mesa com uma placa de bronze. A leste você vê a recepção, a
+oeste você vê o Restaurante Baía das Folhas e a norte fica a praça.
+~
+134 8 0 0 0 1
+D0
+norte
+~
+~
+0 -1 13400
+D1
+~
+~
+0 -1 13422
+D3
+~
+~
+0 -1 13423
+S
+#13404
+Avenida Baía das Folhas~
+  Essa  avenida  foi  cravada  em uma grande baía de folhas. A leste fica a
+praça central de Thewster, próximo daqui o caminho se torna uma interseção.
+~
+134 0 0 0 0 0
+D1
+leste
+~
+~
+0 -1 13400
+D4
+~
+~
+0 -1 13410
+S
+#13405
+O Banco de Thewster~
+  Essa  sala  foi  cravada em um tipo de nó sobre o caminho. As paredes são
+preenchidas  com  pequenas  árvores  de figo. A leste você nota uma entrada
+para um tipo de cofre.
+~
+134 8 0 0 0 1
+D5
+~
+~
+0 -1 13401
+E
+cofre~
+Esse cofre possui uma porta de aço maciço com uma enorme fechadura nela. Se
+você conseguisse entrar...
+~
+S
+#13406
+Interseção da Praça do Mercado~
+  O  galho se ramifica em outro grande galho aqui, formando uma interseção.
+Árvores  com  lanternas presas em suas copas iluminam o lugar. Para o norte
+você vê a entrada para a ferraria, a leste está a entrada para o arsenal de
+Dios.  A  praça  continua para oeste. Para o sul o caminho de galhos conduz
+para a praça central.
+~
+134 0 0 0 0 0
+D0
+~
+~
+0 -1 13411
+D1
+~
+~
+0 -1 13412
+D2
+~
+~
+0 -1 13401
+D3
+~
+~
+0 -1 13407
+S
+#13407
+A Praça do Mercado~
+  Vendedores  de  rua  andam  por  todos  os  lados,  tentando  vender suas
+mercadorias.  Os  cidadãos  de  Thewster  andam  normalmente,  fazendo suas
+tarefas diárias. A praça conduz a outros caminhos em ambos os lados leste e
+oeste.
+~
+134 0 0 0 0 0
+D1
+~
+~
+0 -1 13406
+D4
+~
+~
+0 -1 13408
+S
+#13408
+A Lemba e Intersecção da Praça do Mercado~
+  O caminho de cordas e madeira da rua Lemba encontra o gigantesco galho. A
+pequena escada ao lado do caminho conduz acima, e pelo som, há um bar.  Para
+leste  o caminho conduz para a praça do mercado.  A oeste você vê a entrada
+para as Guildas, que está atualmente fechada para detetização.
+~
+134 0 0 0 0 0
+D2
+~
+~
+0 -1 13409
+D3
+~
+~
+0 -1 13416
+D4
+~
+~
+0 -1 13415
+D5
+~
+~
+0 -1 13407
+S
+#13409
+Rua Lemba~
+  A  escada de cordas balança suavemente com o vento fazendo você sentir um
+pouco  de  enjôo.  Você dá uma amedrontada olhada para baixo, esperando ver
+alguns  elfos  espatifados  no chão da floresta, lá embaixo, mas felizmente
+você não vê nenhum.
+~
+134 0 0 0 0 0
+D0
+~
+~
+0 -1 13408
+D2
+~
+~
+0 -1 13410
+E
+floresta embaixo chão baixo~
+Nada, nada espatifado..
+~
+S
+#13410
+Intersecção da Av. Baía de Folhas e Rua Lemba~
+ Os gigantescos galhos se encontram formando uma interseção. Para norte uma
+pequena  placa  presa  por  cordas  balança  sobre o caminho que leva a uma
+escada  de  cordas,  abaixo  está  a  Av. Baía de Folhas. Você vê a Loja de
+Mágica de Balston ao sul e uma pequena escada de cordas que conduzem abaixo
+até o armazém de equipamentos.
+~
+134 0 0 0 0 0
+D0
+~
+~
+0 -1 13409
+D1
+~
+~
+0 -1 13434
+D2
+~
+~
+0 -1 13413
+D4
+~
+~
+0 -1 13414
+D5
+~
+~
+0 -1 13404
+E
+placa~
+A placa lê:
+        Rua Lemba
+~
+S
+#13411
+A Ferraria de Thewster~
+  Essa ferraria possui todos os tipos de armaduras em suas paredes. Você vê
+capacetes,  escudos  e  grandes  armaduras por todos os lados. A sul está a
+praça do mercado.
+~
+134 8 0 0 0 1
+D2
+~
+~
+0 -1 13406
+S
+#13412
+O Depósito de Armas do Dios~
+  As mais finas armas élficas está espalhadas pelas paredes desse lugar. As
+lâminas  de aço temperado das grandes espadas brilham por todos os lados. A
+oeste, através da porta, você vê a interseção.
+~
+134 8 0 0 0 1
+D3
+~
+~
+0 -1 13406
+S
+#13413
+A Loja de Mágica de Balston~
+  Diversos  arcos  com  manchas  negras  de  fumaça sobre diversas mesas de
+carvalho  enegrecido, totalmente preenchidos com estranhos tubos e frascos.
+O  chão  é  coberto  por  desenhos  gastos de pentagramas e outros símbolos
+estranhos, e há um quadro-negro em um canto que foi parcialmente limpo, com
+algumas letras que são pouco visíveis.
+~
+134 8 0 0 0 1
+D0
+~
+~
+0 -1 13410
+S
+#13414
+O Depósito de Equipamentos~
+  Você está dentro do depósito de equipamentos, todas as espécies de coisas
+preenchem as organizadas estantes. Abaixo fica a interseção.
+~
+134 8 0 0 0 1
+D5
+~
+~
+0 -1 13410
+S
+#13415
+O Bar do Leeve~
+  Esse é o bar mais estranho dessas terras. Imagens místicas flutuam no ar.
+Ilusões  de  finas  mobílias  aparecem por todo lugar, talvez seja apenas a
+bebida..
+~
+134 8 0 0 0 1
+D5
+~
+~
+0 -1 13408
+S
+#13416
+A Entrada Para as Guildas~
+  O  hall de entrada é um pequeno e modesto quarto, refletindo a verdadeira
+natureza  das  guildas.  A  sala  central  continua  para oeste enquanto as
+guildas ficam para norte e sul.
+~
+134 8 0 0 0 1
+D0
+~
+~
+0 -1 13418
+D1
+~
+~
+0 -1 13408
+D2
+~
+~
+0 -1 13419
+D3
+~
+~
+0 -1 13417
+S
+#13417
+A Entrada Para as Guildas~
+  O  hall de entrada é um pequeno e modesto quarto, refletindo a verdadeira
+natureza  das  guildas.  A  sala  central  continua  para oeste enquanto as
+guildas ficam para norte e sul.
+~
+134 8 0 0 0 1
+D0
+~
+~
+0 -1 13421
+D1
+~
+~
+0 -1 13416
+D2
+~
+~
+0 -1 13420
+D3
+~
+~
+0 -1 13426
+S
+#13418
+A Guilda dos Ladinos~
+  As  sombras nesse lugar parecem se mover, talvez sejam os novatos? Apesar
+do teto ser bem alto, você pode ver alguns objetos pendurados nele. A única
+saída esta a sul.
+~
+134 8 0 0 0 1
+D2
+~
+~
+0 -1 13416
+S
+#13419
+A Guilda dos Magos~
+  Você  está  em  uma pequena sala. Sombras cobrem totalmente as paredes. O
+chão é feito de rochas negras. A única saída está ao norte.
+~
+134 8 0 0 0 1
+D0
+~
+~
+0 -1 13416
+S
+#13420
+A Guilda dos Clérigos~
+  Essa  sala  emana  uma sensação de paz, parece uma igreja em miniatura. A
+única saída fica ao norte.
+~
+134 8 0 0 0 1
+D0
+~
+~
+0 -1 13417
+S
+#13421
+A Guilda dos Guerreiros~
+  A  entrada  para  a  Guilda  dos  Guerreiros. Um lugar onde se deve tomar
+cuidado para não dizer nada errado (ou certo). A única saída fica ao sul.
+~
+134 8 0 0 0 1
+D2
+~
+~
+0 -1 13417
+S
+#13422
+A Recepção~
+ A recepção é uma pequena sala ao lado da taverna. Atrás de uma grande mesa
+no  centro  da  sala  você vê uma longa sala com diversas portas. A porta a
+oeste conduz à entrada da taverna.
+~
+134 8 0 0 0 1
+D3
+~
+~
+0 -1 13403
+S
+#13423
+Restaurante Baía das Folhas~
+  O  restaurante  é uma confortável taverna. Cheira a boa comida e o som de
+alegria  inunda  seus sentidos. Uma enorme lareira domina uma das paredes e
+um caloroso brilho emana de suas chamas. Pequenas mesas preenchem a sala. A
+porta a leste conduz à taverna.
+~
+134 8 0 0 0 1
+D1
+~
+~
+0 -1 13403
+D3
+~
+~
+0 -1 13428
+S
+#13424
+A Guilda dos Paladinos~
+  Você está em uma bem iluminada sala com um chão marmóreo impecável. Armas
+de  guerra  estão  penduradas  por todas as paredes, aguardando para que um
+novato treine com elas.
+~
+134 16777224 0 0 0 0
+D2
+~
+~
+0 -1 13426
+S
+#13425
+A Guilda dos Monges~
+ Este lugar parece como uma floresta em miniatura, com árvores enfileiradas
+em  um  semicírculo,  abrindo  uma  clareira  no centro, onde os estudantes
+praticam suas habilidades.
+~
+134 16777224 0 0 0 0
+D1
+~
+~
+0 -1 13426
+S
+#13426
+As Guildas~
+ O hall de entrada é uma pequena e modesta sala, refletindo a real natureza
+de todas as guildas. A sala principal é ao leste, enquanto as guildas ficam
+ao norte, sul e oeste.
+~
+134 8 0 0 0 0
+D0
+~
+~
+0 -1 13424
+D1
+~
+~
+0 -1 13417
+D2
+~
+~
+0 -1 13427
+D3
+~
+~
+0 -1 13425
+S
+#13427
+A Guilda dos Guardas Florestais~
+  Esta  sala parece uma enorme trilha através da floresta, mas é apenas uma
+boa  ilusão  feita  estratégicamente pelas árvores. Seus colegas estudantes
+praticam  em  busca  de  comida, e rastreando os outros. A única saída é ao
+norte.
+~
+134 8 0 0 0 0
+D0
+~
+~
+0 -1 13426
+S
+#13428
+A Cozinha do Restaurante Baía das Folhas~
+  Potes  e  panelas  penduradas na parede. A cozinha é barulhenta e quente.
+Garçons correm de um lado para o outro carregando comida.
+~
+134 12 0 0 0 0
+D1
+~
+~
+0 -1 13423
+S
+#13429
+No Topo das Escadas~
+  Você  está  acima  da floresta, no topo das escadas. Ao oeste você vê uma
+trilha. Olhando para baixo, você nota que os galhos formam degraus, de modo
+que você seria capaz de descer.
+~
+134 0 0 0 0 0
+D3
+~
+~
+0 -1 13430
+D5
+~
+~
+0 -1 13402
+S
+#13430
+O Caminho Pela Àrvore~
+  Você caminha através de uma trilha acima do chão da floresta. O caminho é
+cercado  de  modestas  casas  e  ao  norte, você vê a entrada da Estação da
+Guarda de Thewster.
+~
+134 0 0 0 0 0
+D0
+~
+~
+0 -1 13431
+D1
+~
+~
+0 -1 13429
+D2
+~
+~
+0 -1 13436
+D3
+~
+~
+0 -1 13434
+S
+#13431
+A Estação da Guarda de Thewster~
+  Você  está  em  um pequeno quarto cravado no tronco de uma árvore, não há
+janelas  em  parte  alguma.  A  única  fonte  de luz é uma pequena lanterna
+pendurada na parede. A porta fica ao sul, e alguns degraus levam para cima.
+~
+134 8 0 0 0 0
+D2
+~
+~
+0 -1 13430
+D4
+~
+~
+0 -1 13433
+S
+#13432
+A Loja de Velharias~
+   Velhas   e   empoeiradas  mesas  alinham-se  pelas  paredes,  cheias  de
+equipamentos  e  armas.  Olhando  mais de perto, você nota que estas coisas
+estão em melhor condição do que você pensava, porém é melhor ter certeza de
+que elas ainda funcionam.
+~
+134 8 0 0 0 0
+D2
+~
+~
+0 -1 13434
+S
+#13433
+O Escritório do Capitão~
+  Este  é  outra  pequena sala, embora este tenha uma pequena janela que dá
+visão  de  Thewster. Há uma larga mesa no meio da sala, cheia de papéis. Há
+degraus levando para baixo.
+~
+134 8 0 0 0 0
+D5
+~
+~
+0 -1 13431
+S
+#13434
+O Caminho Pela Árvore~
+  Esta  estrada segue acima da floresta e é bastante útil para os elfos, já
+que  eles  moram  por  aqui.  Os  galhos  que formam o caminho começam a se
+encontrar  aqui,  formando  uma interseção ao oeste. O caminho segue para o
+leste e ao norte você pode ver uma pequena loja. Há uma velha casa ao sul.
+~
+134 0 0 0 0 1
+D0
+~
+~
+0 -1 13432
+D1
+~
+~
+0 -1 13430
+D2
+~
+~
+0 -1 13435
+D3
+~
+~
+0 -1 13410
+S
+#13435
+Uma Casa Velha~
+  Você está em uma velha casa empoleirada acima de Thewster. Há buracos nas
+paredes  e  o  chão  não parece ser muito firme. Esta casa lhe da o péssimo
+sentimento de que você irá cair a qualquer momento.
+~
+134 60 0 0 0 0
+D0
+~
+~
+0 -1 13434
+S
+#13436
+O Restaurante Sion~
+  Este  pequeno  restaurante acomodado entre dois galhos possui em seu lado
+sul,  uma enorme janela, de onde se pode ver a floresta enquanto se come. A
+porta fica ao norte.
+~
+134 8 0 0 0 0
+D0
+~
+~
+0 -1 13430
+S
+#13440
+Uma Interseção Subterrânea~
+   O túnel não continua por muito longe. Ele agora segue a leste e sul.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13441
+D2
+~
+~
+0 -1 13444
+S
+#13441
+Uma Caverna Escura~
+  Você  pode ouvir a água pingando das pedras enquanto você caminha através
+da  caverna  escura.  Há  uma pequena entrada ao leste, que parece bastante
+estreita.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13442
+D3
+~
+~
+0 -1 13440
+S
+#13442
+Uma Passagem Estreira~
+ Você precisou se ajoelhar para conseguir passar através desta passagem, se
+espremendo entre as pedras.
+~
+134 521 0 0 0 0
+D1
+~
+~
+0 -1 13443
+D3
+~
+~
+0 -1 13441
+S
+#13443
+A Entrada da Caverna~
+ Mesmo com sua luz, você mal pode ver através do negrume que toma a entrada
+da caverna.
+~
+134 13 0 0 0 0
+D3
+~
+~
+0 -1 13442
+D4
+~
+~
+0 -1 13552
+S
+#13444
+A Caverna Escura~
+  A  caverna  se  alarga,  tornando mais fácil a passagem, embora ainda lhe
+cause claustrofobia. Você sente um cheiro horrível vindo do sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13440
+D2
+~
+~
+0 -1 13445
+S
+#13445
+Uma Interseção~
+  A  caverna  faz uma pequena interseção aqui, saídas ficam ao norte, sul e
+leste. E o horrível cheiro, continua a vir do sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13444
+D1
+~
+~
+0 -1 13446
+D2
+~
+~
+0 -1 13449
+S
+#13446
+A Caverna Escura~
+ A caverna continua a leste e oeste. Há musgo crescendo nas paredes daqui.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13447
+D3
+~
+~
+0 -1 13445
+E
+musgo parede~
+O  musgo  cresce,  criando alguma penugem em sua superfície, e apresentando
+uma coloração vermelha em sua base.
+~
+S
+#13447
+A Caverna Escura~
+   A caverna continua a leste e oeste. Há musgo crescendo nas paredes daqui.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13448
+D3
+~
+~
+0 -1 13446
+S
+#13448
+A Caverna Escura~
+  A  caverna  faz  uma curva aqui, e agora segue a sul e a oeste. Você pode
+sentir o cheiro de algo horrível ao sul.
+~
+134 9 0 0 0 0
+D2
+~
+~
+0 -1 13450
+D3
+~
+~
+0 -1 13447
+S
+#13449
+A Caverna Escura~
+ A água pinga das paredes, formando pequenas poças. Você pode sentir outros
+passos pisando nas poças... O fedor está ficando pior.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13445
+D2
+~
+~
+0 -1 13452
+S
+#13450
+Uma Caverna Escura~
+  A  caverna continua a norte e a sul. Este detestável cheiro parece vir do
+sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13448
+D2
+~
+~
+0 -1 13453
+S
+#13451
+Um Buraco~
+   O pequeno fluxo faz uma curva ao sul.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13452
+D2
+~
+~
+0 -1 13454
+D4
+~
+~
+0 -1 13634
+S
+#13452
+Uma Caverna Escura~
+  A caverna faz uma abrupta parada aqui. As poças formaram um pequeno fluxo
+subterrâneo que passa através de um pequeno buraco na parede oeste.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13449
+D3
+~
+~
+0 -1 13451
+S
+#13453
+Uma Caverna Escura~
+  A  caverna continua a norte e a sul. Este detestável cheiro parece vir do
+sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13450
+D2
+~
+~
+0 -1 13457
+S
+#13454
+Uma Caverna Escura~
+  O  caminho chega a um abrupto fim, a única coisa que resta é este pequeno
+fluxo  vindo de um buraco na parede da caverna. Você pode ver algum tipo de
+assobio vindo do leste, o cheiro detestável continua a vir do sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13451
+D1
+~
+~
+0 -1 13455
+D2
+~
+~
+0 -1 13458
+S
+#13455
+O Covil da Cobra~
+  A caverna forma uma pequena toca. Corpos de animais e ossos cobrem o chão
+fazendo  barulhos  de  esmagamento  enquanto  você pisa. A única saída é ao
+oeste.
+~
+134 9 0 0 0 0
+D3
+~
+~
+0 -1 13454
+S
+#13456
+A Caverna Escura~
+ A caverna faz uma curva aqui, ela agora segue ao sul e ao leste. Você pode
+sentir o cheiro de algo horrível ao sul.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13457
+D2
+~
+~
+0 -1 13461
+S
+#13457
+A Caverna Escura~
+  A  caverna  faz uma curva aqui, ela agora segue ao norte e ao oeste. Você
+pode sentir o cheiro de algo horrível ao sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13453
+D3
+~
+~
+0 -1 13456
+S
+#13458
+A Caverna Escura~
+  Os  túneis  formam  uma  interseção aqui. O túnel sul foi particularmente
+preenchido  com  pedras  como  se alguém quisesse impedir sua passagem, mas
+parece  que  você  ainda  consegue  se espremer e passar. O cheiro continua
+vindo do sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13454
+D1
+~
+~
+0 -1 13459
+D2
+~
+~
+0 -1 13463
+S
+#13459
+A Caverna Escura~
+   A caverna continua a leste e oeste. Há musgo crescendo nas paredes aqui.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13460
+D3
+~
+~
+0 -1 13458
+S
+#13460
+A Caverna Escura~
+   A caverna continua a leste e oeste. Há musgo crescendo nas paredes aqui.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13461
+D3
+~
+~
+0 -1 13459
+S
+#13461
+A Caverna Escura~
+  A  caverna  faz uma curva aqui, ela agora segue ao norte e ao oeste. Você
+pode sentir o cheiro de algo horrível ao sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13456
+D3
+~
+~
+0 -1 13460
+S
+#13462
+Uma Sala Muito Estranha~
+Saia já Daqui!
+~
+134 65536 0 0 0 0
+D0
+~
+~
+0 -1 13458
+D1
+~
+~
+0 -1 13445
+D2
+~
+~
+0 -1 13461
+D3
+~
+~
+0 -1 13451
+D4
+~
+~
+0 -1 13442
+D5
+~
+~
+0 -1 13448
+S
+#13463
+A Caverna Escura~
+ Há algumas estranhas marcas por toda a parede deste túnel. A única saoda é
+ao norte, se aprofundando pelos túneis.
+~
+134 13 0 0 0 0
+D0
+~
+~
+0 -1 13448
+D5
+~
+~
+0 -1 13464
+S
+#13464
+Se Aprofundando Pela Caverna~
+  O  ar  começa a ter um cheiro velho e almiscarado, um cheiro horrível que
+parece vir do sul. A únicas saídas ficam ao norte e ao sul.
+~
+134 9 0 0 0 0
+D2
+~
+~
+0 -1 13465
+D4
+~
+~
+0 -1 13463
+S
+#13465
+Se Aprofundando Pela Caverna~
+   A caverna faz uma curva aqui. Ela agora segue pelo norte e pelo oeste.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13464
+D1
+~
+~
+0 -1 13466
+S
+#13466
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao leste, oeste e ao sul.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13467
+D2
+~
+~
+0 -1 13469
+D3
+~
+~
+0 -1 13465
+S
+#13467
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao leste e ao oeste.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13468
+D3
+~
+~
+0 -1 13466
+S
+#13468
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao oeste e ao sul.
+~
+134 9 0 0 0 0
+D2
+~
+~
+0 -1 13471
+D3
+~
+~
+0 -1 13467
+S
+#13469
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao leste, norte e ao sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13466
+D1
+~
+~
+0 -1 13470
+D2
+~
+~
+0 -1 13472
+S
+#13470
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao leste e ao oeste.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13471
+D3
+~
+~
+0 -1 13469
+S
+#13471
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao norte, ao oeste e ao sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13468
+D2
+~
+~
+0 -1 13474
+D3
+~
+~
+0 -1 13470
+S
+#13472
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao leste, norte e ao sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13469
+D1
+~
+~
+0 -1 13473
+D2
+~
+~
+0 -1 13475
+S
+#13473
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam   até   se  encontrarem,  formando  uma  espécie  de  barreira.  As
+estalagmites  aqui  formam  um  semicírculo  quase perfeito com uma pequena
+passagem em seu centro.
+~
+134 9 0 0 0 0
+D3
+~
+~
+0 -1 13472
+D5
+~
+~
+0 -1 13478
+S
+#13474
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao norte e ao sul.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13471
+D2
+~
+~
+0 -1 13477
+S
+#13475
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao norte e a leste.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13472
+D1
+~
+~
+0 -1 13476
+S
+#13476
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao leste e ao oeste.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13477
+D3
+~
+~
+0 -1 13475
+S
+#13477
+No Fundo Da Caverna~
+  A  caverna  se  alarga, formando um corredor que se estende até onde seus
+olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
+saídas ficam ao norte e ao oeste.
+~
+134 9 0 0 0 0
+D0
+~
+~
+0 -1 13474
+D3
+~
+~
+0 -1 13476
+S
+#13478
+No Fundo Da Caverna~
+  O  ar aqui é praticamente irrespirável devido ao terrível odor que parece
+estar  em  todo  lugar. O chão da caverna tem algumas margas de pegadas, as
+quais seguem para o leste.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13479
+D4
+~
+~
+0 -1 13473
+S
+#13479
+No Fundo da Caverna~
+ As estalagmites formam uma pequena sala que cujas saídas seguem para leste
+e  sul.  A saída a sul é bloqueada por uma porta, a qual parece ser a fonte
+deste horrendo fedor.
+~
+134 9 0 0 0 0
+D1
+~
+~
+0 -1 13480
+D2
+~
+sul porta~
+1 13437 13481
+D3
+~
+~
+0 -1 13478
+S
+#13480
+No Fundo da Caverna~
+  Esta  sala é apenas um buraco na parede de estalagmites. A água pinga por
+todo o lugar, tornando-o ainda mais frio.
+~
+134 9 0 0 0 0
+D3
+~
+~
+0 -1 13479
+S
+#13481
+No Fundo da Caverna~
+  Você  está em o que parece ser uma Sala do Trono. No centro há uma grande
+pedra e penduradas junto às paredes, há peles de animais de diversos tipos.
+O  "carpete"  é  feito de corpos em decomposição e provavelmente a fonte do
+cheiro pútrido. A única saída é ao norte.
+~
+134 9 0 0 0 0
+D0
+~
+porta sul~
+1 13437 13479
+E
+carpete corpos~
+Coelhos, pássaros, elfos, guerreiros. Se você pode nomear, está aqui.
+~
+E
+peles pele animais paredes~
+As peles tem um estranho símbolo de um olho e um dente marcada nelas.
+~
+S
+#13482
+O Distrito Élfico Superior~
+   Você se encontra em uma área elevada da cidade élfica de Thewster, onde
+as casas mais elegantes estão construídas entre os galhos superiores das
+árvores gigantes. A arquitetura élfica aqui é mais refinada, com detalhes
+entalhados que brilham suavemente com magia élfica. Pontes de madeira
+conectam as diferentes habitações.
+~
+134 0 0 0 0 1
+D0
+Uma ponte leva ao norte para mais residências élficas.
+~
+~
+0 0 13483
+D2
+O caminho desce para o nível principal da cidade.
+~
+~
+0 0 13400
+S
+#13483
+Residências Élficas Nobres~
+   Esta área exclusiva abriga as famílias élficas mais influentes de Thewster.
+Cada casa é uma obra de arte arquitetônica, integrada harmoniosamente com
+as árvores vivas. Jardins suspensos florescem entre as habitações, e o ar
+está perfumado com flores mágicas que só crescem nestes galhos altos.
+~
+134 0 0 0 0 1
+D1
+A biblioteca élfica fica a leste.
+~
+~
+0 0 13484
+D2
+O distrito élfico superior fica ao sul.
+~
+~
+0 0 13482
+S
+#13484
+A Grande Biblioteca Élfica~
+   Uma impressionante biblioteca construída no tronco oco de uma árvore
+ancestral. Prateleiras espiraladas sobem pelas paredes curvas, carregadas
+com tomos antigos e pergaminhos élficos. A luz suave filtra através de
+aberturas naturais, iluminando mesas de estudo onde estudiosos élficos
+pesquisam conhecimentos arcanos.
+~
+134 8 0 0 0 0
+D1
+O arquivo de pergaminhos fica a leste.
+~
+~
+0 0 13485
+D3
+As residências élficas ficam a oeste.
+~
+~
+0 0 13483
+S
+#13485
+Arquivo de Pergaminhos Antigos~
+   Uma câmara silenciosa onde os pergaminhos mais antigos e preciosos são
+preservados por magia élfica. O ar está seco e perfumado com ervas
+preservativas. Apenas os bibliotecários mais qualificados têm acesso a
+esta seção, onde registros da história élfica são mantidos seguros.
+~
+134 8 0 0 0 0
+D3
+A biblioteca principal fica a oeste.
+~
+~
+0 0 13484
+S
+#13486
+O Mercado das Árvores~
+   Um mercado único construído em plataformas conectadas entre várias árvores.
+Comerciantes élficos vendem produtos exclusivos da floresta: frutas mágicas,
+madeiras especiais, e artesanatos élficos. O mercado flutua literalmente no
+ar, suspenso por magia élfica e engenharia natural.
+~
+134 0 0 0 0 1
+D0
+O caminho continua para o norte.
+~
+~
+0 0 13487
+D2
+O caminho desce para a praça central.
+~
+~
+0 0 13400
+S
+#13487
+Oficina do Artesão Élfico~
+   Uma oficina especializada onde mestres artesãos élficos criam itens únicos
+combinando habilidade tradicional com magia natural. Ferramentas élficas
+estão organizadas com precisão, e peças semi-acabadas demonstram a qualidade
+excepcional do trabalho élfico.
+~
+134 8 0 0 0 0
+D1
+O ateliê de encantamento fica a leste.
+~
+~
+0 0 13488
+D2
+O mercado das árvores fica ao sul.
+~
+~
+0 0 13486
+S
+#13488
+Ateliê de Encantamento~
+   Nesta câmara mística, magos élficos especializados encantam itens com
+propriedades mágicas. Círculos rúnicos estão gravados no chão de madeira,
+e cristais mágicos projetam luz colorida pelas paredes. O ar vibra com
+energia arcana concentrada.
+~
+134 8 0 0 0 0
+D3
+A oficina do artesão fica a oeste.
+~
+~
+0 0 13487
+S
+#13489
+O Santuário da Natureza~
+   Um local sagrado onde os elfos vêm para meditar e se conectar com as
+forças naturais da floresta. Flores silvestres crescem em padrões mágicos,
+e uma pequena fonte cristalina murmura suavemente. A paz e harmonia deste
+lugar restauram tanto o corpo quanto o espírito.
+~
+134 4 0 0 0 0
+D0
+O jardim medicinal fica ao norte.
+~
+~
+0 0 13490
+S
+#13490
+Jardim Medicinal Élfico~
+   Um jardim cuidadosamente cultivado onde crescem plantas medicinais raras
+e mágicas. Cada erva é plantada de acordo com antigas tradições élficas,
+e algumas plantas brilham suavemente com propriedades curativas naturais.
+Curandeiros élficos colhem ingredientes aqui para suas poções.
+~
+134 0 0 0 0 1
+D2
+O santuário da natureza fica ao sul.
+~
+~
+0 0 13489
+S
+$~

@@ -1,0 +1,958 @@
+- description: |-
+    Você surge bem no meio de um quarto pequeno com janelas nas paredes
+    do leste e sul. Estas janelas providenciam uma visão completa dos campos de
+    competição.  Sobre a mesa, há vários cartões de marcação, lápis e outros
+    artigos que são usados pelos juízes das competições.  A única saída é um
+    alçapão que conduz para baixo.
+  exits:
+    down:
+      target_vnum: '12002'
+  name: A Saleta do Juiz
+  vnum: '12001'
+- description: |-
+    Este camarote possui a melhor visão de toda a arena!  Você pode ver os
+    gladiadores que lutam ou o cochê correndo veloz, sem que nada obstrua a sua
+    visão.  Os assentos são estofados com um veludo vermelho e todos estão em
+    perfeita condição.  Há uma pequena escada de mão conduzindo para cima e uma
+    escadaria toda de mármore que conduz para baixo.
+  exits:
+    down:
+      target_vnum: '12003'
+    up:
+      target_vnum: '12001'
+  name: Camarote Privativo de Cesar
+  vnum: '12002'
+- description: |-
+    Este é lado ocidental onde os cidadãos de Roma se sentam.  Há fileiras
+    após fileiras de bancos de madeira áspera, presos no chão.  Há lixo espalhado
+    por todos os lugares do estádio e o cheiro forte o faz querer vomitar.
+    Escadarias conduzem até o Camarote Privativo de César e uma rampa pequena
+    conduz até a arena de jogos e um corredor leva ao sul.
+  exits:
+    down:
+      target_vnum: '12010'
+    south:
+      target_vnum: '12004'
+    up:
+      target_vnum: '12002'
+  name: O Lado Ocidental Das Arquibancadas dos Cidadaos Comuns
+  vnum: '12003'
+- description: |-
+    Esta é a parte sudeste da área de assento dos comuns.  Os bancos daqui
+    são feitos de pedra e provavelmente tem séculos de idade.  Alguns arranhões
+    em um dos bancos chama a sua atenção.  Um cheiro picante está vindo do leste
+    e um túnel começa para o norte.
+  exits:
+    east:
+      target_vnum: '12011'
+    north:
+      target_vnum: '12003'
+  name: O Lado Sul Das Arquibancadas dos Cidadaos Comuns
+  vnum: '12004'
+- description: |-
+    Este era um portão que ia DE e PARA Roma ocidental.  Há um portão de ferro
+    bloqueando seu caminho e, a se julgar pela enorme quantidade de ferrugem e
+    do mato que cresce entre as barras, parece que este não é aberto há anos.
+    Olhando através do portão, nota-se uma paisagem estéril e então compreende-se
+    o porque deste abandono.  Uma estrada de terra conduz para o leste, e uma
+    loja pode ser encontrada, indo-se diretamente ao sul.
+  exits:
+    east:
+      target_vnum: '12012'
+    south:
+      target_vnum: '12006'
+    west:
+      target_vnum: '50'
+  name: O Portão Abandonado
+  vnum: '12005'
+- description: |-
+    Bem-vindo à loja de armas de Titus Andronicus!!  Temos alabardas raras,
+    chicotes, espadas e outros instrumentos de morte que estão orgulhosamente
+    exibidos nas paredes em vitrines de vidro transparente.  As armas mais
+    comuns estão empilhadas como madeira, no chão.  Ao norte você pode ver
+    apenas um portão.  Olhando-se para o sul, percebe-se uma porta com a
+    aparência de ser muito segura.
+  exits:
+    north:
+      target_vnum: '12005'
+    south:
+      target_vnum: '12007'
+  name: O Rei das Espadas
+  vnum: '12006'
+- description: |-
+    Se você achou que haviam muitas armas na frente da loja, você ainda não
+    viu nada!!  O espaço existente ali dentro apenas é suficiente para se
+    caminhar entre as caixas e mais caixas de armadura e espadas.  Não é à toa
+    que Roma irá durar por mil anos.  A única saída é através de uma porta ao
+    norte.
+  exits:
+    north:
+      target_vnum: '12006'
+  name: O Quarto dos Fundos
+  vnum: '12007'
+- description: |-
+    Agora você está num lugar tão alto que você começa a se sentir enjoado e
+    você sente como se o seu nariz fosse começar a sangrar.  Não há nem mesmo
+    bancos para se sentar aqui; apenas o chão sujo de pedra.  A vista do campo
+    circunvizinho é espetacular.  Infelizmente você mal consegue ver o estádio.
+    Alguns degraus estão aqui, conduzindo abaixo.
+  exits:
+    down:
+      target_vnum: '12015'
+  name: Paraiso do Amendoim
+  vnum: '12008'
+- description: |-
+    Há muitos gladiadores, condutores de cochês e seus treinadores aqui,
+    fazendo aquecimento em preparação para os jogos.  O pó que sobe da terra
+    ressecada faz você querer espirrar.  Um túnel curto segue para o leste e o
+    barulho ensurdecedor de tambores, lembrando o som de trovões e o som das
+    armas sendo testadas, podem ser ouvidos vindo do sul.
+  exits:
+    east:
+      target_vnum: '12016'
+    south:
+      target_vnum: '12010'
+  name: Area para Treino e Aquecimento
+  vnum: '12009'
+- description: |-
+    Esta é uma área bem grande, plana e coberta por grama...  CUIDADO!!!!
+    Você quase é atingido pela lança de um gladiador enquanto ele faz seu
+    arremesso.  Um área para treinamento se encontra ao norte.
+  exits:
+    north:
+      target_vnum: '12009'
+    up:
+      target_vnum: '12003'
+  name: A Arena de Competição
+  vnum: '12010'
+- description: |-
+    Este é o lugar para onde se deve vir no caso da pessoa se sentir mal
+    por causa do calor (ou no caso de um leão escapar).  Você vê um jarro cheio
+    com sanguessugas vivas e outro artefato médico medieval se encontra aqui.
+    Do oeste vem o rugido da multidão, e a leste há um corredor.  O curandeiro
+    estará com você muito breve.
+  exits:
+    east:
+      target_vnum: '12018'
+    west:
+      target_vnum: '12004'
+  name: O Pronto-Socorro
+  vnum: '12011'
+- description: |-
+    Você está em uma estrada de terra poeirenta que vai de leste a oeste. Ao
+    sul há uma estrutura.
+  exits:
+    east:
+      target_vnum: '12019'
+    south:
+      target_vnum: '12013'
+    west:
+      target_vnum: '12005'
+  name: Uma estrada de terra
+  vnum: '12012'
+- description: |-
+    Você se encontra na sala principal da casa de um cidadão romano comum.
+    A mobília é escassa e está abafado aqui.  Um odor pútrido está vindo do
+    leste e passagens conduzem norte e sul.
+  exits:
+    east:
+      target_vnum: '12020'
+    north:
+      target_vnum: '12012'
+    south:
+      target_vnum: '12014'
+  name: A Casa do Cidadão
+  vnum: '12013'
+- description: |-
+    Este é o quarto.  Há uma cama com colchão duro e encaroçado num canto
+    distante.  Parece que nos últimos dias a esposa deste cidadão tem falhado
+    com os seus deveres, pois há uma pilha enorme de roupa suja para lavar aqui.
+    O único maneira de sair daqui é usar o mesmo caminho que você veio.
+  exits:
+    north:
+      target_vnum: '12013'
+  name: O Quarto de Dormir
+  vnum: '12014'
+- description: |-
+    Este é o local onde estão os melhores assentos, usados principalmente
+    pela classe alta de Roma.  Há uma área bem grande de lugares ao leste e uma
+    escadaria que leva para cima daqui.  A visão da pista de carruagens é muito
+    fácil.
+  exits:
+    east:
+      target_vnum: '12022'
+    up:
+      target_vnum: '12008'
+  name: "Ã\x81rea dos Nobres"
+  vnum: '12015'
+- description: "Esta é uma pista de corrida difícil e trabalhosa, com aproximadamente\n\
+    1600 metros de extensão.  Há coices e manchas por todos os lados, e você vê\n\
+    uma nuvem grande de pÃ³ se aproximando.  Ã\x89 melhor vocÃª se mexer rÃ¡pido antes\n\
+    que seja atropelado.  Um pequeno túnel segue rumo a oeste, e você pode ver\na\
+    \ multidão a leste.  Você pode ouvir altos rosnares e rugidos que vêm de\nabaixo."
+  exits:
+    down:
+      target_vnum: '12017'
+    up:
+      target_vnum: '12023'
+    west:
+      target_vnum: '12009'
+  name: A Pista de Corrida
+  vnum: '12016'
+- description: |-
+    Assim que chega ao fundo desta cova imunda, você percebe que uma toca
+    cheia de leões não é um lugar muito agradável de se estar perto.
+    Vários gladiadores se reúnem ao redor da extremidade da cova para assistir
+    sua morte.  Você dá uma olhada a sua volta, e tudo que você vê são jubas
+    e mandíbulas boquiabertas... mas é muito tarde para correr, muito tarde para
+    se esconder.
+    Doze leões rasgam você e seus pertences transformando tudo em uma massa
+    ensangüentada de couro, bronze, e osso.
+
+    Como é mesmo aquele velho ditado?
+    A curiosidade matou o gato?  Ou algo assim, eu estou seguro...
+  exits:
+    down:
+      target_vnum: '12016'
+    up:
+      target_vnum: '12010'
+  name: A Cova do Leão
+  vnum: '12017'
+- description: |-
+    Você se encontra junto à entrada sul do Coliseu.  Há cidadãos de Roma
+    por todos os lados, que aparentemente estão com uma pressa danada para
+    entrar.  Uma estátua de Calígula, O Imperador Louco, toma conta da área.
+    Longas filas seguem para o leste, e um cheiro acre está vindo do oeste.
+    Ao sul há uma estrada movimentada.
+  exits:
+    east:
+      target_vnum: '12025'
+    south:
+      target_vnum: '12019'
+    west:
+      target_vnum: '12011'
+  name: A Entrada Sul do Coliseu
+  vnum: '12018'
+- description: |-
+    Esta é uma estrada muito bem construída e com grande movimento, que
+    corre de leste a oeste e há uma grande estrutura de pedra ao norte.
+  exits:
+    east:
+      target_vnum: '12026'
+    north:
+      target_vnum: '12018'
+    west:
+      target_vnum: '12012'
+  name: A Rodovia Principal
+  vnum: '12019'
+- description: |-
+    ECAAAAAAAAAAAAAAAAAA-URGGGGGGGGGGGGGGGGG!!!!!  Rapaz, como fede aqui!!!
+    Você sente um gosto amargo de bílis em sua boca e seus olhos começam a
+    lacrimejar.  Assim que você enxuga suas lágrimas, você vê que este é um
+    quarto pequeno, num canto bem distante, e que ali dentro um buraco foi
+    cavado.  O odor se intensifica a medida que você chega mais perto e há
+    um rolo de papel higiênico jogado no chão.  A única saída fica ao oeste
+    e seu nariz e estômago estão implorando para que você use esta saída o
+    quanto antes.
+  exits:
+    west:
+      target_vnum: '12013'
+  name: A Casinha
+  vnum: '12020'
+- description: |-
+    Este é o lugar onde os escravos dormem.  Pedaços de tábuas duras são
+    usadas como camas e não há muito além disso aqui.  A única saída fica ao
+    leste.
+  exits:
+    east:
+      target_vnum: '12027'
+  name: Os Aposentos dos Escravos
+  vnum: '12021'
+- description: |-
+    Este é o local onde os cidadãos romanos comuns se sentam durante os
+    jogos.  Estes são os lugares mais baratos do Estádio, apesar dos raios de sol
+    serem um grande problema durante a tarde. Assim como em todos os locais com
+    lugares comuns, este local poderia passar por uma reforma grande e uma
+    limpeza completa.  Esta área se estende para o sul e uma área com lugares
+    muito mais elegantes pode ser vista ao oeste.
+  exits:
+    south:
+      target_vnum: '12023'
+    west:
+      target_vnum: '12015'
+  name: A Arquibancada Geral
+  vnum: '12022'
+- description: |-
+    Este é o local onde os cidadãos romanos comuns se sentam durante os
+    jogos.  Assim como em todos os locais com lugares comuns, este local
+    poderia passar por uma reforma grande e uma limpeza completa.  Esta área
+    se estende para o norte e muito barulho pode ser ouvido vindo do sul.
+  exits:
+    north:
+      target_vnum: '12022'
+    south:
+      target_vnum: '12024'
+  name: A Arquibancada Geral
+  vnum: '12023'
+- description: |-
+    Você se encontra junto à entrada oriental do Coliseu.  Existem pessoas
+    por todos os lugares, que aparentemente estão com uma pressa danada para
+    entrar.  Uma estátua de Tiberius, um antigo Imperador de Roma, surge aqui,
+    olhando por cima da multidão.  Há uma passagem ao norte, a bilheteria fica
+    ao sul e ao leste há um portão que se abre para a cidade.
+  exits:
+    east:
+      target_vnum: '12031'
+    north:
+      target_vnum: '12023'
+    south:
+      target_vnum: '12025'
+  name: A Entrada Oriental do Coliseu
+  vnum: '12024'
+- description: |-
+    Longas filas de pessoas paradas estão aqui, enquanto esperam para comprar
+    seus ingressos.  Há três vendedores que trabalham furiosamente.  Canhotos de
+    ingressos cobrem o chão e você pode ver que as pessoas estão ficando muito
+    impacientes.  Há um grande Caixa aberto aqui.  As entradas principais para
+    o Coliseu são ao norte e oeste.
+  exits:
+    north:
+      target_vnum: '12024'
+    west:
+      target_vnum: '12018'
+  name: A Bilheteria
+  vnum: '12025'
+- description: |-
+    Você se encontra em uma estrada pavimentada que segue para de leste para
+    oeste. Você pode ver uma propriedade muito bem cuidada ao sul e ao noroeste,
+    longe do seu alcance, você pode ver uma estrutura de pedra muito grande.
+  exits:
+    east:
+      target_vnum: '12033'
+    south:
+      target_vnum: '12027'
+    west:
+      target_vnum: '12019'
+  name: Uma Estrada Pavimentada
+  vnum: '12026'
+- description: |-
+    Você está pisando no chão da propriedade de um nobre, que é centenas de
+    vezes maior e muito mais luxuosa do que qualquer coisa que um cidadão comum
+    de Roma jamais sonharia em ter.  Tudo é muito luxuoso e há muito verde em
+    volta.  A grama está perfeitamente aparada e existem árvores com todos os
+    tipos de fruta.  Plantas ornamentais delicadas e exóticas estão perfeitamente
+    arrumadas para embelezar e homenagear as três estátuas que representam os
+    deuses Júpiter, Vênus e Netuno.  Um caminho tranqüilo segue pra leste e
+    oeste, e ao norte há uma estrada asfaltada para os nortes e seguindo para o
+    sul pode-se ver uma casa extravagante.
+  exits:
+    east:
+      target_vnum: '12034'
+    north:
+      target_vnum: '12026'
+    south:
+      target_vnum: '12028'
+    west:
+      target_vnum: '12021'
+  name: Uma Propriedade Nobre
+  vnum: '12027'
+- description: |-
+    Você se encontra numa casa, cujo tamanho e luxo práticamente desafia sua
+    imaginação.  O chão foi todo coberto por um belíssimo mosaico de mármore,
+    entalhado a mão e cravejado com pura prata de lei.  A luminosidade suave
+    atravessa os vidros de cristal das janelas, banhando a sala com esplendor
+    dourado e a mobília tem a aparência de ter sido feita pelos melhores mestres
+    artesãos de todo o império.  Um caminho que corta a propriedade fica ao
+    norte daqui.
+  exits:
+    north:
+      target_vnum: '12027'
+  name: Uma Casa Opulenta
+  vnum: '12028'
+- description: |-
+    Este é o portal norte que leva à cidade de Roma.  O portão enorme parece
+    estar fechado e trancado para intrusos.  Uma grande estrada lamacenta passa
+    atraves do portão e segue em direção à zona rural.  Alameda Nero corre ao sul
+    daqui.
+  exits:
+    north:
+      target_vnum: '12069'
+    south:
+      target_vnum: '12030'
+  name: O Grande Portão Norte
+  vnum: '12029'
+- description: |-
+    Você está caminhando por uma estrada asfaltada que segue para o sul através
+    da cidade de Roma. Indo diretamente ao norte, há um grande portão.
+    Os cidadãos romanos são muito amigáveis e tiram seus chapéus ou dizem olá
+    quando você passa por eles.
+  exits:
+    north:
+      target_vnum: '12029'
+    south:
+      target_vnum: '12031'
+    west:
+      target_vnum: '12062'
+  name: Alameda Nero
+  vnum: '12030'
+- description: |-
+    Você está caminhando sobre uma grande estrada pavimentada que corta a
+    cidade de norte a sul.  As pessoas apressadas vão de um lugar para outro,
+    mas sempre param para dizer olá.  A maioria das pessoas ou estão vindo ou
+    indo para a Praça Central.  A Alameda Nero segue para o norte e voê pode ver
+    uma grande área aberta, ao sul.
+  exits:
+    north:
+      target_vnum: '12030'
+    south:
+      target_vnum: '12032'
+    west:
+      target_vnum: '12024'
+  name: Alameda Nero
+  vnum: '12031'
+- description: |-
+    Você se encontra bem no centro de uma grande área aberta que é a área
+    comunitária de Roma.  Durante o dia, este lugar é animado pelo movimento
+    apressado e atarefado de todos os cidadãos de Roma e todos da cidade sabem
+    que uma hora ou outra acabam dando uma passada por ali.  Existem muitos
+    vendedores ambulantes por ali, mascateando suas mercadorias e a atmosfera
+    geral é de um grande carnaval.  Ao sudeste, quase escapando do alcance de
+    sua vista, você percebe os aquedutos e ao noroeste se encontram os edifícios
+    do governo romanos.  A partir deste ponto, a Alameda Nero segue para o norte
+    e para o sul e a Avenida Clay segue para o leste.
+  exits:
+    east:
+      target_vnum: '12039'
+    north:
+      target_vnum: '12031'
+    south:
+      target_vnum: '12033'
+  name: A Praça Central
+  vnum: '12032'
+- description: |-
+    Você está caminhando por uma estrada pavimentada, que corta a cidade de
+    Roma de norte a sul.  Há muitas pessoas aqui, cortêses como sempre.
+    A maioria deles ou está vindo ou indo para a Praça Central da cidade, que
+    fica ao norte.  A Alameda Nero continua para o sul.  Ao leste, há uma área
+    de observação voltada para o aqueduto e uma estrada asfaltada segue rumo
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '12040'
+    north:
+      target_vnum: '12032'
+    south:
+      target_vnum: '12034'
+    west:
+      target_vnum: '12026'
+  name: A Alameda Nero
+  vnum: '12033'
+- description: |-
+    Esta é uma movimentada estrada pavimentada, que vem do norte e atravessa
+    a cidade.  As pessoas de Roma são muito amigáveis e dizem olá quando você
+    passa por elas.  Ao sul, um portão conduz para fora da cidade e um pequenino
+    caminho segue rumo a uma propriedade nobre.  Para o leste, bem distante,
+    fica uma grande montanha.  Existem rumores de que os Deuses observam e
+    protegem o império, lá de cima.
+  exits:
+    north:
+      target_vnum: '12033'
+    south:
+      target_vnum: '12035'
+    west:
+      target_vnum: '12027'
+  name: Alameda Nero
+  vnum: '12034'
+- description: |-
+    Este é o portal sul da cidade de Roma.  O portão de bronze é fechado e
+    trancado.  Olhando através das grades, você vê uma estrada muito movimentada
+    que segue para fora da cidade.  A Alameda Nero começa aqui e segue rumo ao
+    norte e para o leste, chega-se até a loja de um feiticeiro.
+  exits:
+    east:
+      target_vnum: '12042'
+    north:
+      target_vnum: '12034'
+    south:
+      target_vnum: '50'
+  name: O Portão Sul
+  vnum: '12035'
+- description: |-
+    Você se encontra dentro dos aposentos particulares do Imperador.  O
+    lugar foi ricamente mobiliado com os mais finos e luxuosos objetos, fruto
+    de pilhagens feitas durante as conquistas de terras distantes.  Há uma
+    escrivaninha pesada e ricamente esculpida, em cujo interior estão guardados
+    importantes documentos, decretos e muita papelada ligadas ao funcionamento
+    do império.  Numa parede distante, há uma estante de mármore, repletas com
+    as obras de Homero, Platão, Sócrates e outros homens sábios.  Mais adiante,
+    percebe-se que o atual Imperador gosta de flores pois notam-se muitos
+    espécimes plantados e outros em vasos, distribuidos pelo quarto.  Há uma
+    porta francesa que leva à sala de espera e ao sul, uma porta de madeira.
+  exits:
+    east:
+      target_vnum: '12043'
+    south:
+      target_vnum: '12037'
+  name: Aposentos Particulares do Imperador
+  vnum: '12036'
+- description: |-
+    Esta é a sala de trabalho, onde senadores eleitos de todo o império se
+    reunem para auxiliar e aconselhar o Imperador.  O selo oficial do Imperador
+    está pendurado numa parede mais distante.  Ao norte há uma porta de madeira,
+    ao leste e ao sul uma porta dupla.
+  exits:
+    east:
+      target_vnum: '12044'
+    north:
+      target_vnum: '12036'
+    south:
+      target_vnum: '12038'
+  name: A Câmara do Senado
+  vnum: '12037'
+- description: |-
+    Este é o local onde se reunem aqueles que não são nobres mas fazem parte
+    do corpo de assessoramento do Imperador.  São homens comuns, vindos de de
+    todas as partes de Roma, trabalham aqui para darem uma ajuda adicional aos
+    senadores, aconselhando-os em situações críticas, do Estado.  O selo do
+    Imperador está pintado numa parede distante.  A única saída é ao norte.
+  exits:
+    north:
+      target_vnum: '12037'
+  name: A Casa dos Comuns
+  vnum: '12038'
+- description: |-
+    Você se encontra numa larga e movimentada avenida que vai de leste a oeste
+    através do coração de Roma.  A oeste uma grande multidão de pessoas andam
+    apressadas e a avenida segue para o leste.  O aqueduto fica exatamente ao
+    sul daqui.
+  exits:
+    east:
+      target_vnum: '12046'
+    south:
+      target_vnum: '12041'
+    west:
+      target_vnum: '12032'
+  name: Avenida Clay
+  vnum: '12039'
+- description: |-
+    Você está em uma plataforma de onde se pode ver um aqueduto volumoso.
+    Há um telescópio montado junto à grade que cerca a área e você pode ouvir os
+    sons borbulhantes da água encanada da cidade.  Ao longe, você pode ver a
+    Montanha dos Deuses.  Há uma placa junto à grade e uma rampa conduz para o
+    oeste.
+  exits:
+    west:
+      target_vnum: '12033'
+  name: A Plataforma de Observação
+  vnum: '12040'
+- description: |-
+    Você está numa estrutura de pedra maciça que foi projetada para servir
+    como canal distribuidor da água que abastece a cidade de Roma.  Por causa de
+    um recente período de seca, o nível da água está baixo, permitindo assim que
+    se possa atravessá-lo sem usar um barco.  As paredes e o chão estão cobertos
+    por algas e limbo, fazendo assim, que sua caminhada se torne perigosa e
+    arriscada.  Existem saídas ao norte, sul e leste.
+  exits:
+    east:
+      target_vnum: '12048'
+    north:
+      target_vnum: '12039'
+    south:
+      target_vnum: '12041'
+    west:
+      target_vnum: '12054'
+  name: O Aqueduto
+  vnum: '12041'
+- description: |-
+    Você se encontra na loja do Mago. Ungüentos mágicos, talismãs e poções
+    estão amontoadas em estantes e atras de um balcão de vidro.  Há uma densa
+    névoa azul-neon que encobre todo o chão daqui, tornando impossível a tarefa
+    de se ver abaixo do joelho.  De repente, você começa a ouvir alguns
+    murmúrios vindos da parte de trás, muito provavelmente de...
+    KKKKKAAAAAABBBBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMM!!!!!!
+    Você fica surdo com o barulho de uma tremenda explosão e está completamente
+    tonto com tamanho choque!!  O lojista não parece se incomodar nem um pouco
+    com normas de segurança!  A porta que dá para o quarto de trás se abre, e
+    um homem mais idoso, usando um chapéu pontudo e com o rosto coberto com
+    fuligem, coloca a cabeça para fora. 'Todo mundo está bem??  Desculpem por
+    tudo isso.  Eu estava testando um novo feitiço.  Eu tentarei avisar sobre
+    o perigo, da próxima vez.', diz ele.  E então a porta torna a se fechar.
+  exits:
+    east:
+      target_vnum: '12049'
+    west:
+      target_vnum: '12035'
+  name: A Loja do Mago
+  vnum: '12042'
+- description: |-
+    Você se encontra dentro de uma sala muito grande com teto muito alto
+    e algumas pessoas estão aguardando para ver o Imperador para tratarem de
+    assuntos urgentes.  O mestre programador pede a você para que se sente e
+    envia um pajem para informar sua Alteza Imperial sobre a sua chegada.
+    Ao leste e oeste existem grandes portas e uma saída para o hall de entrada.
+  exits:
+    east:
+      target_vnum: '12050'
+    south:
+      target_vnum: '12044'
+    west:
+      target_vnum: '12036'
+  name: A Sala de Espera
+  vnum: '12043'
+- description: |-
+    Você acaba de entrar no principal prédio do governo do Império Romano
+    e se encontra parado dentro de uma sala compacta, cujo teto foi
+    elaboradamente decorado.  Muitas pessoas estão aqui; sendo que os
+    mensageiros e senadores estão em maior número.  A oeste há uma grande e bem
+    ornamentada porta, um corredor segue na direção norte e ao sul pode-se ver
+    uma escadaria de mármore que conduz as pessoas para fora do edifício.
+  exits:
+    down:
+      target_vnum: '12045'
+    north:
+      target_vnum: '12043'
+    west:
+      target_vnum: '12037'
+  name: O Hall de Entrada
+  vnum: '12044'
+- description: |-
+    Você se encontra sobre degraus de mármore brancos que seguem para cima
+    e para dentro do Edifício do Capitólio.  Logo à entrada do edifício, existem
+    várias estátuas, nenhuma com real importância.  A entrada principal do
+    edifício fica bem no topo da escada.
+  exits:
+    down:
+      target_vnum: '12046'
+    up:
+      target_vnum: '12044'
+  name: Fora do Edifício do Capitólio
+  vnum: '12045'
+- description: |-
+    Você se encontra numa larga e movimentada avenida que vai de leste a oeste
+    atraves do coração de Roma.  Existem degraus feitos de mármore que seguem
+    para cima.  Ao sul, bem distante, você pode ver uma grande estrutura feita de
+    pedra e uma montanha que está parcialmente coberta por nuvens.  Há um armazém
+    geral ao norte.
+  exits:
+    east:
+      target_vnum: '12051'
+    north:
+      target_vnum: '12063'
+    up:
+      target_vnum: '12045'
+    west:
+      target_vnum: '12039'
+  name: Avenida Clay
+  vnum: '12046'
+- description: |-
+    Você está no topo de uma montanha muito alta e está acima das nuvens.
+    Os raios de sol estão brilhando aqui e as nuvens abaixo parecem bolas
+    de algodão. A trilha pela qual você esteve caminhando é úmida e um suave
+    aroma de lilases se dispersa pelo ar.
+  exits:
+    down:
+      target_vnum: '12052'
+  name: O Cume do Monte Dos Deuses
+  vnum: '12047'
+- description: |-
+    Você está numa estrutura de pedra maciça que foi projetada para servir
+    como canal distribuidor da água que abastece a cidade de Roma.  Por causa de
+    um recente período de seca, o nível da água está baixo, permitindo assim que
+    se possa atravessá-lo sem usar um barco.  As paredes e o chão estão cobertos
+    por algas e limbo, fazendo assim, que sua caminhada se torne perigosa e
+    arriscada.  Existem saídas em todos os quatro pontos cardeais.
+  exits:
+    east:
+      target_vnum: '12041'
+    north:
+      target_vnum: '12057'
+    south:
+      target_vnum: '12041'
+    west:
+      target_vnum: '12048'
+  name: O Aqueduto
+  vnum: '12048'
+- description: |-
+    Você se encontra dentro do laboratório do Grande Froboz, o mais poderoso
+    e famoso mago que Roma jamais conheceu.  Bancadas de trabalho se encontram
+    alinhadas junto às paredes e estão entulhadas com inúmeros tubos de ensaio,
+    pipetas, fracos de vidro e de louça e há um odor aqui que poderia melhor ser
+    descrito como uma mistura de pneus queimados com meias usadas.  A única
+    saída fica exatamente pela porta que você usou para entrar.  No meio do
+    aposento, você vê uma pilha de cinzas que parecem terem pertencido a um
+    corpo, um dia, e Froboz está ocupado fazendo ajustes em um novo tipo de
+    vareta mágica...  Provavelmente aquela responsável pela explosão de alguns
+    minutos atrás.  Ele remove a lupa de seus olhos e quando ele se volta,
+    exclama: 'Como, em nome de Merlin, você veio parar aqui??!!' pergunta ele.
+    'Ah!, não se preocupe!  Dêsde que você está aqui, você poderá servir de
+    testemunha para o teste final dessa nova magia.  "ectowatt"'.  Com isso, ele
+    faz um gesto e um paladino aparece de repente.  Cruzando seus dedos, Froboz
+    agita sua vareta na direção, e o que acontece a seguir é simplesmente
+    incrível!!!  O Paladino é envolvido com o que parece ser uma pequena e suave
+    explosão termonuclear.  Quando a fumaça se dispersa, você pode ver que o
+    paladino e todos os equipamentos foram reduzidos a um grande monte de cinzas
+    flamejantes de carvão.  Froboz joga sua cabeça para traz e dá sua risada
+    insana.  'Agora, meu jovem amiguinho, o que eu posso fazer por você?', ele
+    pergunta.
+  exits:
+    west:
+      target_vnum: '12042'
+  name: O Laboratório de Froboz
+  vnum: '12049'
+- description: |-
+    Você se encontra dentro de uma grande sala de tribunal no qual disputas
+    civis comuns e assuntos criminais são decididos.  Há o banco do juiz e uma
+    testemunha está do lado oposto da sala, e o posto dos jurados fica ao lado.
+    As insignias do Imperador são permanentemente expostas na parede atrás do
+    posto do juiz, como que lembrando a todos que entram ali, de que estão
+    dentro dos domínios de seu poder.  Ao leste há uma porta, possivelmente
+    conduzindo para os aposentos do juiz, e a sala de espera fica a oeste.
+  exits:
+    east:
+      target_vnum: '12055'
+    south:
+      target_vnum: '12060'
+    west:
+      target_vnum: '12043'
+  name: O Tribunal
+  vnum: '12050'
+- description: |-
+    Você se encontra do lado de dentro do portão leste de Roma.  Existem
+    duas torres altas construídas junto aos muros da cidade, de cujo interior
+    os guardas podem ver todo o lado leste da cidade.  O portão está aberto
+    neste instante e ao leste existe uma estrada bem movimentada, feita com
+    tijolos de barro, que segue para fora de Roma.  Uma outra estrada, ao oeste,
+    se dirige para a cidade.
+  exits:
+    east:
+      target_vnum: '12064'
+    west:
+      target_vnum: '12046'
+  name: O Portão Leste de Roma
+  vnum: '12051'
+- description: |-
+    Você se encontra sobre uma trilha que segue para cima e para baixo.
+    Choveu recentemente e existem pequenas poças por todos os lados.  Você está
+    logo abaixo das nuvens e a vista ao seu redor é de tirar o fôlego.
+  exits:
+    down:
+      target_vnum: '12056'
+    up:
+      target_vnum: '12047'
+  name: Um Caminho para a Montanha
+  vnum: '12052'
+- description: |-
+    Você está numa estrutura de pedra maciça que foi projetada para servir
+    como canal distribuidor da água que abastece a cidade de Roma.  Por causa de
+    um recente período de seca, o nível da água está baixo, permitindo assim que
+    se possa atravessá-lo sem usar um barco.  As paredes e o chão estão cobertos
+    por algas e limbo, fazendo assim, que sua caminhada se torne perigosa e
+    arriscada.  Existem saídas em todos os quatro pontos cardeais.
+  exits:
+    east:
+      target_vnum: '12054'
+    north:
+      target_vnum: '12041'
+    south:
+      target_vnum: '12057'
+    west:
+      target_vnum: '12048'
+  name: O Aqueduto
+  vnum: '12054'
+- description: |-
+    Você está dentro de um pequeno aposento totalmente cheio com processos
+    legais.  Há uma pequena escrivaninha aqui, literalmente coberta por toneladas
+    de documentos.  Também pode-se ver uma pequena janela cuja vista está voltada
+    para a parte norte da cidade.
+  exits:
+    west:
+      target_vnum: '12050'
+  name: Os Aposentos do Juíz
+  vnum: '12055'
+- description: |-
+    Você se encontra em uma pequenina trilha que prossegue atraves de extenso
+    arvoredo.  Aqui tudo é muito exuberante e verde e parece que choveu
+    recentemente. 'Este poderia ser um lugar ideal para se fazer pic-nics',
+    você pensa com os seus botões.
+  exits:
+    down:
+      target_vnum: '12059'
+    up:
+      target_vnum: '12052'
+  name: Um Caminho na Montanha
+  vnum: '12056'
+- description: |-
+    Você está numa estrutura de pedra maciça que foi projetada para servir
+    como canal distribuidor da água que abastece a cidade de Roma.  Por causa
+    de um recente período de seca, o nível da água está baixo, permitindo assim
+    que se possa atravessá-lo sem usar um barco.  As paredes e o chão estão
+    cobertos por algas e limbo, fazendo assim, que sua caminhada se torne
+    perigosa e arriscada.  Ao sul existe um vale e os outros pontos cardeais
+    conduzem você ainda mais profundamente para dentro do aqueduto.
+  exits:
+    east:
+      target_vnum: '12054'
+    north:
+      target_vnum: '12054'
+    south:
+      target_vnum: '12058'
+    west:
+      target_vnum: '12041'
+  name: O Aqueduto
+  vnum: '12057'
+- description: |-
+    Você se encontra num vale tranquilo, exatamente na base de uma grande
+    montanha.  Um silencioso riacho, com muitas árvores frutíferas crescendo às
+    suas margens, vai abrindo caminho, pacificamente, através do vale, e ao
+    oeste, se infiltra por dentro de uma imensa estrutura de pedra.  Há muito
+    pássaros ali, e estes cantam suas melodias harmoniosas, e de vez em quando,
+    uma suave ondulação quebra a surperfície do riacho.  Você observa um caminho
+    que segue atraves das árvores seguindo para cima.
+  exits:
+    north:
+      target_vnum: '12057'
+    up:
+      target_vnum: '12059'
+  name: O Vale dos Deuses
+  vnum: '12058'
+- description: |-
+    Você se encontra num caminho que vai subindo na direção de grandes
+    árvores.  Tudo é muito verde e bonito, como se ali houvesse a eterna
+    primavera - é a Mãe Natureza em seu melhor.  Daqui é possível descer até um
+    tranquilo vale.
+  exits:
+    down:
+      target_vnum: '12058'
+    up:
+      target_vnum: '12056'
+  name: Um Caminho Montanhoso
+  vnum: '12059'
+- description: |-
+    Você se encontra dentro da área de detenção, bem perto do tribunal.
+    Aqueles que foram recentemente condenados por crimes graves, são trazidos
+    até aqui, aguardando por suas torturas e execuções.  O tribunal fica ao
+    norte e ao leste existe outra saída.
+  exits:
+    east:
+      target_vnum: '12061'
+    north:
+      target_vnum: '12050'
+  name: As Celas de Detenção
+  vnum: '12060'
+- description: |-
+    Você se encontra em um aposento muito pequeno, em cujo interior se
+    encontram muitos objetos especialmente projetados para provocar dor e
+    sofrimento.  Alguns desses utensílios são familiares, como por exemplo,
+    as algemas e focinheiras de ferro.  Outros, você nunca viu antes, e lhe
+    fazem pensar no tipo de mente sádica e doentia que teria concebido artefatos
+    como estes.  A única saída fica ao Oeste.
+  exits:
+    west:
+      target_vnum: '12060'
+  name: A Câmara de Tortura
+  vnum: '12061'
+- description: |-
+    Você se encontra na padaria de Roma e ao sentir os cheiros deliciosos
+    que chegam da cozinha, você sente que sua boca se enche de água.  A única
+    saída fica ao leste.
+  exits:
+    east:
+      target_vnum: '12030'
+  name: A Padaria de Roma
+  vnum: '12062'
+- description: |-
+    Você se encontra dentro do único armazém de Roma.  As paredes e
+    prateleiras estão cobertas com os mais variados tipos de mercadorias
+    utilizadas pelos cidadãos romanos e visitantes aventureiros.  A Rua de Terra
+    segue para o sul.
+  exits:
+    south:
+      target_vnum: '12046'
+  name: O Armazém
+  vnum: '12063'
+- description: |-
+    Você viaja numa estrada Leste-Oeste, larga o suficiente para que 30
+    homens marchem lado a lado.  O chão está duro, compactado, por causa do uso
+    constante.  A Oeste estão os Portões de Roma, que lhe convidam a entrar e
+    participar de toda a glória e esplendor de Roma.
+  exits:
+    east:
+      target_vnum: '12065'
+    west:
+      target_vnum: '12051'
+  name: Antes de Roma
+  vnum: '12064'
+- description: |-
+    Você viaja numa estrada Leste-Oeste, larga o suficiente para que 30
+    homens marchem lado a lado. O chão está duro, compactado, por causa do uso
+    constante.  Para o Oeste, seus olhos capturam o esplendor de uma poderosa
+    cidade.
+  exits:
+    east:
+      target_vnum: '12066'
+    west:
+      target_vnum: '12064'
+  name: Rua de Terra
+  vnum: '12065'
+- description: |-
+    Você viaja numa estrada Leste-Oeste, larga o suficiente para que 30
+    homens marchem lado a lado.
+  exits:
+    east:
+      target_vnum: '12067'
+    west:
+      target_vnum: '12065'
+  name: Rua de Terra
+  vnum: '12066'
+- description: |-
+    A imponente rua de terra vai diminuindo, mas ainda continua sendo muito
+    utilizada pelos viajantes daqui.  Você sente que uma onda de energia
+    percorre todo o seu corpo, quando seus olhos se voltam para o oeste, e
+    percorrem todas as terras que transformaram Roma neste poderoso e
+    inigualável império.
+  exits:
+    east:
+      target_vnum: '12068'
+    west:
+      target_vnum: '12066'
+  name: O Final da Rua de Terra
+  vnum: '12067'
+- description: |-
+    Esta pequena trilha cheia de sujeira parece ser uma esquina entre uma
+    grande e imponente estrada de terra que fica perto, a oeste e uma grande
+    extensão de areia que se abre ao leste.  A estrada de terra parece que segue
+    em direção ao pé da cadeia de montanhas geladas do oeste.  Talvez exista uma
+    cidade ou um assentamento naquela direção.  Ao olhar para o leste, você não
+    vê absolutamente nada neste infinito horizonte de areia, que preenche seu
+    campo de visão, e que parece aumentar infinitamente.
+  exits:
+    east:
+      target_vnum: '5028'
+    west:
+      target_vnum: '12067'
+  name: Uma Pequena Trilha Suja
+  vnum: '12068'
+- description: |-
+    Você está diante do grande portão norte da cidade de Roma.  Um barulho
+    distante faz lembrar as batalhas travadas no Coliseu e o a agitação da
+    Alameda Nero ainda pode ser ouvida com clareza.  Para o norte segue uma
+    pequena trilha e ao sul o portão o convida para entrar.
+  exits:
+    north:
+      target_vnum: '12070'
+    south:
+      target_vnum: '12029'
+  name: Fora do Grande Portão Norte
+  vnum: '12069'
+- description: |-
+    Você segue com facilidade por esta trilha mantendo sempre em sua mente o
+    caminho de volta para a cidade de Roma que fica imediatamente para o sul.
+    Para o leste você vê uma espécie de entrada que você não pode dizer com
+    certeza de que se trata.
+  exits:
+    east:
+      target_vnum: '19800'
+    south:
+      target_vnum: '12069'
+  name: Uma Pequena Trilha
+  vnum: '12070'

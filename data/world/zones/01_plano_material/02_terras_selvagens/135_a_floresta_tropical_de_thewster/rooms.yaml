@@ -1,0 +1,1267 @@
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem  ser ouvidos a sua volta. O caminho faz uma curva
+    aqui, seguindo ao norte e leste.
+  exits:
+    east:
+      target_vnum: '13501'
+    south:
+      target_vnum: '13505'
+  name: O Caminho de Nirin
+  vnum: '13500'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem  ser ouvidos a sua volta. O caminho faz uma curva
+    aqui, seguindo ao oeste e ao sul.
+  exits:
+    east:
+      target_vnum: '13502'
+    south:
+      target_vnum: '13506'
+    west:
+      target_vnum: '13500'
+  name: O Caminho de Nirin
+  vnum: '13501'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13503'
+    north:
+      target_vnum: '3207'
+    south:
+      target_vnum: '13507'
+    west:
+      target_vnum: '13501'
+  name: A Floresta
+  vnum: '13502'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13504'
+    south:
+      target_vnum: '13508'
+    west:
+      target_vnum: '13502'
+  name: A Floresta
+  vnum: '13503'
+- description: |-
+    Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
+    gorjeiam. Do sul vem o cheiro de algo morto.
+  exits:
+    south:
+      target_vnum: '13509'
+    west:
+      target_vnum: '13503'
+  name: A Floresta
+  vnum: '13504'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13506'
+    north:
+      target_vnum: '13500'
+    south:
+      target_vnum: '13511'
+  name: A Floresta
+  vnum: '13505'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem  ser ouvidos a sua volta. O caminho faz uma curva
+    aqui, seguindo ao norte e leste.
+  exits:
+    east:
+      target_vnum: '13507'
+    north:
+      target_vnum: '13501'
+    south:
+      target_vnum: '13512'
+    west:
+      target_vnum: '13505'
+  name: O Caminho de Nirin
+  vnum: '13506'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem  ser ouvidos a sua volta. O caminho faz uma curva
+    aqui, seguindo ao sul e ao oeste.
+  exits:
+    east:
+      target_vnum: '13508'
+    north:
+      target_vnum: '13502'
+    south:
+      target_vnum: '13513'
+    west:
+      target_vnum: '13506'
+  name: O Caminho de Nirin
+  vnum: '13507'
+- description: |-
+    Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
+    gorjeiam. Do leste vem o cheiro de algo morto.
+  exits:
+    east:
+      target_vnum: '13509'
+    north:
+      target_vnum: '13503'
+    south:
+      target_vnum: '13514'
+    west:
+      target_vnum: '13507'
+  name: A Floresta
+  vnum: '13508'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13510'
+    north:
+      target_vnum: '13504'
+    south:
+      target_vnum: '13515'
+    west:
+      target_vnum: '13508'
+  name: A Floresta
+  vnum: '13509'
+- description: |-
+    Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
+    gorjeiam. Do oeste vem o cheiro de algo morto.
+  exits:
+    south:
+      target_vnum: '13516'
+    west:
+      target_vnum: '13509'
+  name: A Floresta
+  vnum: '13510'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13512'
+    north:
+      target_vnum: '13505'
+    south:
+      target_vnum: '13522'
+  name: A Floresta
+  vnum: '13511'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13513'
+    north:
+      target_vnum: '13506'
+    south:
+      target_vnum: '13523'
+    west:
+      target_vnum: '13511'
+  name: A Floresta
+  vnum: '13512'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem  ser ouvidos a sua volta. O caminho faz uma curva
+    aqui, seguindo ao norte e ao sul.
+  exits:
+    east:
+      target_vnum: '13514'
+    north:
+      target_vnum: '13507'
+    south:
+      target_vnum: '13524'
+    west:
+      target_vnum: '13512'
+  name: O Caminho de Nirin
+  vnum: '13513'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13515'
+    north:
+      target_vnum: '13508'
+    south:
+      target_vnum: '13525'
+    west:
+      target_vnum: '13513'
+  name: A Floresta
+  vnum: '13514'
+- description: |-
+    Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
+    gorjeiam. Do norte vem o cheiro de algo morto.
+  exits:
+    east:
+      target_vnum: '13516'
+    north:
+      target_vnum: '13509'
+    south:
+      target_vnum: '13526'
+    west:
+      target_vnum: '13514'
+  name: A Floresta
+  vnum: '13515'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13517'
+    north:
+      target_vnum: '13510'
+    south:
+      target_vnum: '13527'
+    west:
+      target_vnum: '13515'
+  name: A Floresta
+  vnum: '13516'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13518'
+    south:
+      target_vnum: '13528'
+    west:
+      target_vnum: '13516'
+  name: A Floresta
+  vnum: '13517'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13519'
+    south:
+      target_vnum: '13529'
+    west:
+      target_vnum: '13517'
+  name: A Floresta
+  vnum: '13518'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13520'
+    south:
+      target_vnum: '13530'
+    west:
+      target_vnum: '13518'
+  name: A Floresta
+  vnum: '13519'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13521'
+    south:
+      target_vnum: '13531'
+    west:
+      target_vnum: '13519'
+  name: A Floresta
+  vnum: '13520'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    south:
+      target_vnum: '13532'
+    west:
+      target_vnum: '13520'
+  name: A Floresta
+  vnum: '13521'
+- description: |-
+    Você caminha ao longo de uma estrada empoeirada, que não parece ser usada
+    com  freqüência. A poeira sobe do chão a medida que seus pés tocam o mesmo.
+    A  floresta  cerca  o  caminho  e pequenos olhos vermelhos podem ser vistos
+    através das folhas, te observando.
+  exits:
+    east:
+      target_vnum: '13523'
+    north:
+      target_vnum: '13511'
+    west:
+      target_vnum: '13583'
+  name: Um Caminho Sujo e Empoeirado
+  vnum: '13522'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem ser ouvidos a sua volta. Um sujo caminho segue ao
+    oeste.
+  exits:
+    east:
+      target_vnum: '13524'
+    north:
+      target_vnum: '13512'
+    west:
+      target_vnum: '13522'
+  name: O Caminho de Nirin
+  vnum: '13523'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem  ser ouvidos a sua volta. O caminho faz uma curva
+    aqui, seguindo ao norte e leste.
+  exits:
+    east:
+      target_vnum: '13525'
+    north:
+      target_vnum: '13513'
+    south:
+      target_vnum: '13535'
+    west:
+      target_vnum: '13523'
+  name: O Caminho de Nirin
+  vnum: '13524'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem  ser  ouvidos  a  sua  volta.  O  caminho faz uma
+    interseção com um outro caminho, seguindo a leste, oeste e ao sul.
+  exits:
+    east:
+      target_vnum: '13526'
+    north:
+      target_vnum: '13514'
+    south:
+      target_vnum: '13536'
+    west:
+      target_vnum: '13524'
+  name: O Caminho de Nirin
+  vnum: '13525'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons da floresta podem ser ouvidos a sua volta. Ao longe, pelo leste, podem
+    ser vistas algumas montanhas.
+  exits:
+    east:
+      target_vnum: '13527'
+    north:
+      target_vnum: '13515'
+    south:
+      target_vnum: '13537'
+    west:
+      target_vnum: '13525'
+  name: O Caminho de Nirin
+  vnum: '13526'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13528'
+    north:
+      target_vnum: '13516'
+    south:
+      target_vnum: '13538'
+    west:
+      target_vnum: '13526'
+  name: O Caminho de Nirin
+  vnum: '13527'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13529'
+    north:
+      target_vnum: '13517'
+    south:
+      target_vnum: '13539'
+    west:
+      target_vnum: '13527'
+  name: O Caminho de Nirin
+  vnum: '13528'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13530'
+    north:
+      target_vnum: '13518'
+    west:
+      target_vnum: '13528'
+  name: O Caminho de Nirin
+  vnum: '13529'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13531'
+    north:
+      target_vnum: '13519'
+    west:
+      target_vnum: '13529'
+  name: O Caminho de Nirin
+  vnum: '13530'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13532'
+    north:
+      target_vnum: '13520'
+    west:
+      target_vnum: '13530'
+  name: O Caminho de Nirin
+  vnum: '13531'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13533'
+    north:
+      target_vnum: '13521'
+    west:
+      target_vnum: '13531'
+  name: O Caminho de Nirin
+  vnum: '13532'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13534'
+    west:
+      target_vnum: '13532'
+  name: O Caminho de Nirin
+  vnum: '13533'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da  floresta  podem ser ouvidos a sua volta. Largos muros de um jovem
+    vilarejo bloqueia sua passagem ao leste.
+  exits:
+    north:
+      target_vnum: '13582'
+    west:
+      target_vnum: '13533'
+  name: O Caminho de Nirin
+  vnum: '13534'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13536'
+    north:
+      target_vnum: '13524'
+    south:
+      target_vnum: '13540'
+  name: A Floresta
+  vnum: '13535'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao norte e
+    ao sul.
+  exits:
+    east:
+      target_vnum: '13537'
+    north:
+      target_vnum: '13525'
+    south:
+      target_vnum: '13541'
+    west:
+      target_vnum: '13535'
+  name: O Caminho de Nirin
+  vnum: '13536'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13538'
+    north:
+      target_vnum: '13526'
+    south:
+      target_vnum: '13542'
+    west:
+      target_vnum: '13536'
+  name: A Floresta
+  vnum: '13537'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13539'
+    north:
+      target_vnum: '13527'
+    south:
+      target_vnum: '13543'
+    west:
+      target_vnum: '13537'
+  name: A Floresta
+  vnum: '13538'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13528'
+    west:
+      target_vnum: '13538'
+  name: A Floresta
+  vnum: '13539'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13541'
+    north:
+      target_vnum: '13535'
+    south:
+      target_vnum: '13544'
+  name: A Floresta
+  vnum: '13540'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao norte e
+    ao sul.
+  exits:
+    east:
+      target_vnum: '13542'
+    north:
+      target_vnum: '13536'
+    south:
+      target_vnum: '13545'
+    west:
+      target_vnum: '13540'
+  name: O Caminho de Nirin
+  vnum: '13541'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13543'
+    north:
+      target_vnum: '13537'
+    south:
+      target_vnum: '13546'
+    west:
+      target_vnum: '13541'
+  name: A Floresta
+  vnum: '13542'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13538'
+    south:
+      target_vnum: '13547'
+    west:
+      target_vnum: '13542'
+  name: A Floresta
+  vnum: '13543'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13545'
+    north:
+      target_vnum: '13540'
+    south:
+      target_vnum: '13548'
+  name: A Floresta
+  vnum: '13544'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao norte e
+    ao sul.
+  exits:
+    east:
+      target_vnum: '13546'
+    north:
+      target_vnum: '13541'
+    south:
+      target_vnum: '13549'
+    west:
+      target_vnum: '13544'
+  name: O Caminho de Nirin
+  vnum: '13545'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13547'
+    north:
+      target_vnum: '13542'
+    south:
+      target_vnum: '13550'
+    west:
+      target_vnum: '13545'
+  name: A Floresta
+  vnum: '13546'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13543'
+    south:
+      target_vnum: '13551'
+    west:
+      target_vnum: '13546'
+  name: A Floresta
+  vnum: '13547'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13549'
+    north:
+      target_vnum: '13544'
+    south:
+      target_vnum: '13554'
+  name: A Floresta
+  vnum: '13548'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao norte e
+    ao sul.
+  exits:
+    east:
+      target_vnum: '13550'
+    north:
+      target_vnum: '13545'
+    south:
+      target_vnum: '13555'
+    west:
+      target_vnum: '13548'
+  name: O Caminho de Nirin
+  vnum: '13549'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13551'
+    north:
+      target_vnum: '13546'
+    south:
+      target_vnum: '13556'
+    west:
+      target_vnum: '13549'
+  name: A Floresta
+  vnum: '13550'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13547'
+    south:
+      target_vnum: '13557'
+    west:
+      target_vnum: '13550'
+  name: A Floresta
+  vnum: '13551'
+- description: "Você esta na entrada da uma pequena caverna, pequenos e brilhantes\
+    \ olhos o\nencaram  firmemente.  Ã\x89  realmente  escuro  lÃ¡ dentro, vocÃª irÃ¡\
+    \ precisar de\nalguma fonte de luz."
+  exits:
+    down:
+      target_vnum: '13443'
+    east:
+      target_vnum: '13553'
+    south:
+      target_vnum: '13558'
+    west:
+      target_vnum: '13609'
+  name: A Clareira
+  vnum: '13552'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    south:
+      target_vnum: '13559'
+    west:
+      target_vnum: '13552'
+  name: A Floresta
+  vnum: '13553'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13555'
+    north:
+      target_vnum: '13548'
+    south:
+      target_vnum: '13560'
+  name: A Floresta
+  vnum: '13554'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao norte e
+    ao sul.
+  exits:
+    east:
+      target_vnum: '13556'
+    north:
+      target_vnum: '13549'
+    south:
+      target_vnum: '13561'
+    west:
+      target_vnum: '13554'
+  name: O Caminho de Nirin
+  vnum: '13555'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13557'
+    north:
+      target_vnum: '13550'
+    south:
+      target_vnum: '13562'
+    west:
+      target_vnum: '13555'
+  name: A Floresta
+  vnum: '13556'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13551'
+    south:
+      target_vnum: '13563'
+    west:
+      target_vnum: '13556'
+  name: A Floresta
+  vnum: '13557'
+- description: |-
+    Você  está  em  uma  grande  clareira na floresta, ao norte você vê o que
+    parece ser a entrada de uma caverna.
+  exits:
+    east:
+      target_vnum: '13559'
+    north:
+      target_vnum: '13552'
+    south:
+      target_vnum: '13564'
+    west:
+      target_vnum: '13609'
+  name: A Clareira
+  vnum: '13558'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13560'
+    north:
+      target_vnum: '13553'
+    south:
+      target_vnum: '13565'
+    west:
+      target_vnum: '13558'
+  name: A Floresta
+  vnum: '13559'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13561'
+    north:
+      target_vnum: '13554'
+    south:
+      target_vnum: '13566'
+    west:
+      target_vnum: '13559'
+  name: A Floresta
+  vnum: '13560'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao norte e
+    ao sul.
+  exits:
+    east:
+      target_vnum: '13562'
+    north:
+      target_vnum: '13555'
+    south:
+      target_vnum: '13567'
+    west:
+      target_vnum: '13560'
+  name: O Caminho de Nirin
+  vnum: '13561'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13563'
+    north:
+      target_vnum: '13556'
+    south:
+      target_vnum: '13568'
+    west:
+      target_vnum: '13561'
+  name: A Floresta
+  vnum: '13562'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13557'
+    south:
+      target_vnum: '13569'
+    west:
+      target_vnum: '13562'
+  name: A Floresta
+  vnum: '13563'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13565'
+    north:
+      target_vnum: '13558'
+    south:
+      target_vnum: '13570'
+  name: A Floresta
+  vnum: '13564'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13566'
+    north:
+      target_vnum: '13559'
+    south:
+      target_vnum: '13571'
+    west:
+      target_vnum: '13564'
+  name: A Floresta
+  vnum: '13565'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13567'
+    north:
+      target_vnum: '13560'
+    south:
+      target_vnum: '13572'
+    west:
+      target_vnum: '13565'
+  name: A Floresta
+  vnum: '13566'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao norte e
+    ao sul.
+  exits:
+    east:
+      target_vnum: '13568'
+    north:
+      target_vnum: '13561'
+    south:
+      target_vnum: '13573'
+    west:
+      target_vnum: '13566'
+  name: O Caminho de Nirin
+  vnum: '13567'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13569'
+    north:
+      target_vnum: '13562'
+    south:
+      target_vnum: '13574'
+    west:
+      target_vnum: '13567'
+  name: A Floresta
+  vnum: '13568'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13563'
+    south:
+      target_vnum: '13575'
+    west:
+      target_vnum: '13568'
+  name: A Floresta
+  vnum: '13569'
+- description: |-
+    O caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13571'
+    north:
+      target_vnum: '13564'
+    west:
+      target_vnum: '13628'
+  name: O Caminho de Nirin
+  vnum: '13570'
+- description: |-
+    A estrada de Nirin se alarga aqui e parece ser bem cuidada. Os galhos aqui
+    crescem  de  modo  a formar degraus que seguem para cima, ao sul você vê um
+    estábulo. A oeste e leste, a estrada de Nirin continua.
+  exits:
+    east:
+      target_vnum: '13572'
+    north:
+      target_vnum: '13565'
+    south:
+      target_vnum: '13577'
+    up:
+      target_vnum: '13402'
+    west:
+      target_vnum: '13570'
+  name: Os Degraus
+  vnum: '13571'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste.
+  exits:
+    east:
+      target_vnum: '13573'
+    north:
+      target_vnum: '13566'
+    south:
+      target_vnum: '13578'
+    west:
+      target_vnum: '13571'
+  name: O Caminho de Nirin
+  vnum: '13572'
+- description: |-
+    O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
+    que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
+    sons  da floresta podem ser ouvidos a sua volta. O caminho segue ao leste e
+    ao oeste. O caminho faz uma volta aqui e agora vai de norte a oeste.
+  exits:
+    east:
+      target_vnum: '13574'
+    north:
+      target_vnum: '13567'
+    south:
+      target_vnum: '13579'
+    west:
+      target_vnum: '13572'
+  name: O Caminho de Nirin
+  vnum: '13573'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13575'
+    north:
+      target_vnum: '13568'
+    south:
+      target_vnum: '13580'
+    west:
+      target_vnum: '13573'
+  name: A Floresta
+  vnum: '13574'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    north:
+      target_vnum: '13569'
+    south:
+      target_vnum: '13581'
+    west:
+      target_vnum: '13574'
+  name: A Floresta
+  vnum: '13575'
+- description: "O que hÃ¡ para ser dito? Ã\x89 um tedioso estÃ¡bulo."
+  exits: {}
+  name: Os Estábulos
+  vnum: '13576'
+- description: |-
+    Você  está nos fétidos e sujos estábulos. Selas repousam sobre cavalos de
+    madeira  e  ferraduras  podem  ser  vistas, penduradas nas paredes. A única
+    saída é ao norte para os degraus.
+  exits:
+    north:
+      target_vnum: '13571'
+  name: Os Estábulos
+  vnum: '13577'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13579'
+    north:
+      target_vnum: '13572'
+  name: A Floresta
+  vnum: '13578'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13580'
+    north:
+      target_vnum: '13573'
+    west:
+      target_vnum: '13578'
+  name: A Floresta
+  vnum: '13579'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13581'
+    north:
+      target_vnum: '13574'
+    west:
+      target_vnum: '13579'
+  name: A Floresta
+  vnum: '13580'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '13174'
+    north:
+      target_vnum: '13575'
+    west:
+      target_vnum: '13580'
+  name: A Floresta
+  vnum: '13581'
+- description: |-
+    Você  está  em uma pequena cabana circular ao norte do caminho, parece um
+    bom lugar para descansar antes de viajar mais adiante.
+  exits:
+    south:
+      target_vnum: '13534'
+  name: Uma Cabana
+  vnum: '13582'
+- description: |-
+    Os  volumosos  portões de Silverthorne fica ao oeste, formando uma grande
+    sombra  sobre  você.  A  estrada  pela  qual  você  está andando é bastante
+    estreita e nuvens de poeira sopram com a brisa. A floresta de altas árvores
+    com  largas  folhas  verdes de todos os tipos cerca a estrada ao norte e ao
+    sul. O caminho sujo e empoeirado segue pelo leste.
+  exits:
+    east:
+      target_vnum: '13584'
+    west:
+      target_vnum: '3207'
+  name: Um Caminho Sujo e Empoeirado
+  vnum: '13583'
+- description: |-
+    A  estrada  pela  qual  você está andando é bastante estreita e nuvens de
+    poeira  sopram com a brisa. Ocasionalmente uma larga folha se desprende das
+    árvores  e espirala até alcançar o chão. A estrada suja continua ao leste e
+    ao oeste, de onde também pode-se ver os muros de uma cidade.
+  exits:
+    east:
+      target_vnum: '13585'
+    west:
+      target_vnum: '13583'
+  name: Um Caminho Sujo e Empoeirado
+  vnum: '13584'
+- description: |-
+    A estrada  pela  qual  você está andando é bastante estreita e nuvens de
+    poeira  sopram  com  a brisa. A floresta de altas árvores com largas folhas
+    verdes  de  todos  os  tipos  cerca  a  estrada ao norte e ao sul. Pequenas
+    criaturas podem ser ouvidas. O Caminho sujo continua a leste e oeste.
+  exits:
+    east:
+      target_vnum: '13586'
+    west:
+      target_vnum: '13584'
+  name: Um Caminho Sujo e Empoeirado
+  vnum: '13585'
+- description: |-
+    A  estrada  pela  qual  você está andando é bastante estreita e nuvens de
+    poeira  sopram com a brisa. Ocasionalmente uma larga folha se desprende das
+    árvores  e espirala até alcançar o chão. A estrada suja continua ao leste e
+    ao oeste, de onde também pode-se ver os muros de uma cidade.
+  exits:
+    east:
+      target_vnum: '13522'
+    west:
+      target_vnum: '13585'
+  name: Um Caminho Sujo e Empoeirado
+  vnum: '13586'
+- description: Saia já daqui!
+  exits:
+    east:
+      target_vnum: '13530'
+    north:
+      target_vnum: '13500'
+    south:
+      target_vnum: '13540'
+    up:
+      target_vnum: '13570'
+    west:
+      target_vnum: '13560'
+  name: Uma Sala Muito Estranha
+  vnum: '13587'
+- description: Saia já daqui!
+  exits:
+    east:
+      target_vnum: '13530'
+    north:
+      target_vnum: '13510'
+    south:
+      target_vnum: '13550'
+    west:
+      target_vnum: '13570'
+  name: Uma Sala Muito Estranha
+  vnum: '13588'

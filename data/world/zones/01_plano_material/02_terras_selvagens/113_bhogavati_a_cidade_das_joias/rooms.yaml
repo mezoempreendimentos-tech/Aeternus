@@ -1,0 +1,1503 @@
+- description: |-
+    Você está nadando sob as águas do Rio Ikshumati, exatamente num ponto em
+    que o rio parece ser menos violento.  Uma agradável luz violeta parece vir
+    do fundo, parecendo tentar atraí-lo para si.  Você pode voltar à tona,
+    subindo, ou descer ainda mais, para o fundo do rio.
+  exits:
+    down:
+      target_vnum: '11301'
+    up:
+      target_vnum: '11577'
+  name: "Sob as Ã\x81guas"
+  vnum: '11300'
+- description: "Você está nadando próximo ao fundo do rio, muito aturdido pois ele\
+    \ é\nmuito mais profundo do que você imaginaria: seriam necessários mais de vinte\n\
+    homens altos para cobrir toda sua profundidade.  O solo do fundo é coberto\npor\
+    \ milhares de cristais arredondados de cores que vão do rosa mais claro ao\nazul\
+    \ mais profundo.  Você esperava encontrar plantas aquáticas comuns, mas\nse deparou\
+    \ com um lindo jardim colorido.  Mas o que mais chama sua atenção é\numa espécie\
+    \ das flores que cobrem o fundo: lótus de pétalas violácea que\ncintilam intensamente.\
+    \  Esses lótus formam um círculo que parece demarcar a\nárea mais branda do Ikshumati,\
+    \ emitindo o brilho suave que tanto o intrigara\nna superfície.  A partir do círculo\
+    \ você vê ainda que os lótus,\nenfileirados, seguem oeste.  Ã\x89 possÃ­vel ainda\
+    \ nadar para norte ou para cima."
+  exits:
+    north:
+      target_vnum: '11307'
+    up:
+      target_vnum: '11300'
+    west:
+      target_vnum: '11302'
+  name: O Fundo do Rio
+  vnum: '11301'
+- description: |-
+    Você está nadando muito próximo ao fundo do rio, seguindo de perto uma
+    trilha de flores de lótus cintilantes que crescem sob as águas do Ikshumati.
+    Cristais arredondados, de cores que vão do rosa mais claro ao azul mais
+    profundo, cobrem o solo formando estranhos mosaicos que brilham à luz das
+    flores.  Mais à frente você repara que a trilha cintilante termina, levando
+    a um local extremamente escuro.
+  exits:
+    east:
+      target_vnum: '11301'
+    west:
+      target_vnum: '11303'
+  name: A Trilha Subaquática
+  vnum: '11302'
+- description: |-
+    Você está nadando muito próximo ao fundo do rio, seguindo de perto uma
+    trilha de flores de lótus cintilantes que crescem sob as águas do Ikshumati.
+    Cristais arredondados, de cores que vão do rosa mais claro ao azul mais
+    profundo, cobrem o solo formando estranhos mosaicos que brilham à luz das
+    flores.  O cintilar dos lótus para abruptamente abaixo de você, logo na
+    borda do que parece ser um buraco no rio.  Ali você não enxergar luz alguma.
+  exits:
+    down:
+      target_vnum: '11304'
+    east:
+      target_vnum: '11302'
+  name: A Trilha Subaquática
+  vnum: '11303'
+- description: |-
+    Você está num estreito túnel que desce a partir do fundo do Rio
+    Ikshumati.  A iluminação aqui é inexistente, sendo extremamente desagradável
+    a sensação de estranhos seres de corpo liso nadando à sua volta, tocando-o
+    vez ou outra. O túnel segue para baixo e para cima.
+  exits:
+    down:
+      target_vnum: '11305'
+    up:
+      target_vnum: '11303'
+  name: O Túnel Sob o Rio
+  vnum: '11304'
+- description: |-
+    Você está num estreito túnel que desce a partir do fundo do Rio
+    Ikshumati.  A iluminação aqui é inexistente, sendo extremamente desagradável
+    a sensação de estranhos seres de corpo liso nadando à sua volta, tocando-o
+    vez ou outra.  Há uma repentina curva no túnel, seguindo oeste.  Para cima
+    está o leito do rio Ikshumati.
+  exits:
+    up:
+      target_vnum: '11304'
+    west:
+      target_vnum: '11306'
+  name: O Túnel Sob o Rio
+  vnum: '11305'
+- description: |-
+    Você está em uma grande caverna sob o leito do rio Ikshumati, que é
+    acessível apenas por um túnel subaquático.  As águas não avançam sobre o
+    solo do lugar, que é completamente tomado por grandes cristais cujo brilho
+    torna desnecessário o uso de qualquer outra luz.  Estalactites pontiagudas e
+    de arestas afiadas pendem do teto como uma perigosa cortina multicolor,
+    enquanto formações cristalinas de cores puras e radiantes parecem enormes
+    espadas prontas para matar.  No centro da caverna, mais luzente que os
+    próprios cristais, está uma enorme flor de lótus, de diâmetro próximo à sua
+    altura, fechada como botão prestes a se abrir.  Ela parece muito bem
+    guardada.
+  exits:
+    east:
+      target_vnum: '11305'
+  name: A Caverna dos Cristais
+  vnum: '11306'
+- description: |-
+    Você está nadando próximo ao fundo do rio, fora do círculo de lótus
+    que demarcam a parte que parece ser mais segura do Ikshumati.
+    O rio é muito profundo, sendo que você tem a impressão que é melhor
+    continuar a nadar e procurar uma saída do que arriscar-se em
+    uma interminável subida rumo à tona.  Nadar a norte ou sul parece
+    ser sua única opção.
+  exits:
+    north:
+      target_vnum: '11308'
+    south:
+      target_vnum: '11301'
+  name: "No Fundo do Rio, Sob as Ã\x81guas"
+  vnum: '11307'
+- description: |-
+    Você está nadando próximo ao fundo do rio, fora do círculo de lótus
+    que demarcam a parte que parece ser mais segura do Ikshumati.
+    O rio é muito profundo, sendo que você tem a impressão que é melhor
+    continuar a nadar e procurar uma saída do que arriscar-se em
+    uma interminável subida rumo à tona.  Nadar para norte ou sul parece
+    ser sua única opção.
+  exits:
+    north:
+      target_vnum: '11309'
+    south:
+      target_vnum: '11307'
+  name: "No Fundo do Rio, Sob as Ã\x81guas"
+  vnum: '11308'
+- description: |-
+    Você está nadando próximo ao fundo do rio, fora do círculo de lótus que
+    demarcam a parte que parece ser mais segura do Ikshumati.  O rio está
+    ficando cada vez mais escuro e com o leito mais e mais estreito, dando a
+    impressão de que você está próximo do início de um abismo coberto de água.
+    Mais à frente você vê que o rio faz uma curva para oeste, parecendo entrar
+    num gigantesco buraco, em uma rocha.  Mas por enquanto, nadar para norte ou
+    sul são suas únicas opções aqui.
+  exits:
+    north:
+      target_vnum: '11310'
+    south:
+      target_vnum: '11308'
+  name: "No Fundo do Rio, Sob as Ã\x81guas"
+  vnum: '11309'
+- description: |-
+    Você está nadando sob as águas do rio Ikshumati, sendo que afastou-se um
+    pouco do fundo para poder ver melhor o gigantesco buraco à sua frente.  O
+    rio, acima de você, parece ter sido coberto por uma parede de pedra, como se
+    você tivesse nadado até uma parte canalizada dele (e uma canalização de
+    proporções monstruosas!).  O buraco, muito escuro, está em uma parede
+    rochosa que atinge até o "teto" colocado sobre o rio, podendo até ser mais
+    alto, mas você não tem como saber...  A correnteza parece ser muito forte
+    por ali, sendo que uma vez entrando lá, difícilmente você voltará.  Vale a
+    pena arriscar?  Se sim, continue a seguir norte.  Se não, nada para sul.
+  exits:
+    north:
+      target_vnum: '11311'
+    south:
+      target_vnum: '11309'
+  name: Em Frente ao Buraco
+  vnum: '11310'
+- description: |-
+    Você não vê quase nada, mas sente que está na atravessando, na verdade,
+    um túnel.  Ainda é possível nadar até sul, pois a correnteza que segue norte
+    não está tão forte.
+  exits:
+    north:
+      target_vnum: '11312'
+    south:
+      target_vnum: '11310'
+  name: Atravessando o Buraco
+  vnum: '11311'
+- description: |-
+    Voce nao ve quase nada. A correnteza aqui tornou-se muito intensa, sendo impossivel
+    nadar para sul. Voce nao ve saida alguma.
+  exits:
+    up:
+      target_vnum: '11313'
+  name: No Tunel
+  vnum: '11312'
+- description: |-
+    Você não vê quase nada. A forte correnteza o atrai cada vez mais para cima.
+    Lá, parece haver alguma coisa iluminando um dos lados do túnel.
+  exits:
+    up:
+      target_vnum: '11314'
+  name: No Túnel
+  vnum: '11313'
+- description: |-
+    Você sente que perdeu o controle sobre seu corpo, de tão forte se mostra
+    a correnteza (levando-o sempre para cima), até que seu corpo bate em uma grade
+    que atravessa o túnel, permitindo que você se segure.
+    Refeito da viagem um tanto "forçada", você observa que há, no lado
+    norte no túnel, rente à grade que o mantém aqui, outra grade, mas dourada,
+    que mais parece uma porta. Parece ser sua única saída.
+  exits:
+    north:
+      target_vnum: '11315'
+  name: No Túnel
+  vnum: '11314'
+- description: |-
+    Você está no centro do templo de Bhogavati, que é dedicado a Sesha, o
+    Infinito.  O centro é ocupado por um grande lago circular, uma espécie de
+    piscina, assentado em uma grande bacia dourada e cravejadas de jóias.  No
+    fundo do lago é possível ver quatro grades, cada uma voltada para um ponto
+    cardeal, enquanto quatro canaletas douradas, nessas mesmas direções, levam
+    suas águas através do templo.  O teto alto e abobodado possui belas pinturas
+    enquanto os quatro pilares dourados que sustentam-no e delimitam a região
+    central são adornados com finos desenhos sulcados no metal.  A norte você
+    vê um salão abarrotado de coisas, a leste vê uma sala repleta de livros e
+    pergaminhos, a sul um local pouco iluminado, a oeste uma espécie de altar
+    e pátios a noroeste e sudeste, externos ao templo.
+  exits:
+    down:
+      target_vnum: '11314'
+    east:
+      target_vnum: '11317'
+    north:
+      target_vnum: '11316'
+    south:
+      target_vnum: '11318'
+    west:
+      target_vnum: '11319'
+  name: O Centro do Templo a Sesha
+  vnum: '11315'
+- description: |-
+    Você está na sala de oferendas do templo.  A sala é separada do centro
+    por grandes pilares dourados, que por sua vez também sustentam o alto teto
+    de forma abobadada.  Há paredes apenas em dois lados, leste e oeste,
+    enquanto o lado norte é aberto para um pequeno rio que atravessa a cidade e
+    parece nascer da água que é derramada sobre as escadas do templo por uma das
+    canaletas que o atravessam.  O chão, de negra pedra muito polida, foi
+    coberto com finos tapetes, havendo sobre eles a mais variada coleção de
+    objetos: armas, vestimentas, alimentos, jóias, livros, estátuas.  No
+    entanto, o que ocupa maior espaço são os grandes baús de pedra que parecem
+    encerrar em si os maiores tesouros.
+    Na parede oeste há uma abertura que leva a um pátio.
+  exits:
+    north:
+      target_vnum: '11320'
+    south:
+      target_vnum: '11315'
+    west:
+      target_vnum: '11361'
+  name: A Sala de Oferendas
+  vnum: '11316'
+- description: |-
+    Você está na sala em que qualquer naga de Bhogavati procura quando
+    precisa de inspiração, conselhos ou apenas conversar e ter notícias sobre o
+    mundo.  Ela é delimitada por uma série de pilares dourados, a oeste, havendo
+    outros para a sustentação do teto e por paredes de mármore claro a norte e
+    sul.  O lado leste é completamente aberto, voltando-se para um pequeno rio
+    que atravessa a cidade e que parece nascer da água derramada nas escadas do
+    templo por uma das canalestas que o atravessam.  Há altas estantes apoiadas
+    nas paredes, enquanto grandes baús de pedra, abertos e espalhados pela sala,
+    guardam pergaminhos e mapas desconhecidos por aqueles que nunca visitaram
+    esse lugar.  Uma interessante inscrição em um pilar exatamente no centro da
+    sala chama sua atenção.
+    A parede sul possui uma abertura, esta levando a um pátio.
+  exits:
+    east:
+      target_vnum: '11330'
+    south:
+      target_vnum: '11384'
+    west:
+      target_vnum: '11315'
+  name: A Sala dos Sábios
+  vnum: '11317'
+- description: |-
+    Você está em uma sala coberta por aconchegante penumbra.  Isso o deixa
+    surpreso, uma vez que a sala é separada do centro por apenas uma fileira de
+    grandes pilares e possui somente duas paredes, a leste e a oeste, o que
+    deveria fazer com que ela fosse no mínimo um pouco mais iluminada.  Apesar
+    disso, ela parece encerrar em si o conforto da iluminação de suas velas
+    aromáticas cuja dança se reflete tanto no dourado dos pilares quanto das
+    belas estátuas dispostas na frente das paredes.  Você percebe que a sul,
+    onde não há parede, a vista é a de um pequeno rio de calmas águas azuis que
+    parece nascer da água derramada sobre os degraus do templo por uma das
+    canaletas de ouro que o atravessam.  O ambiente parece ser ideal para
+    meditação ou simplesmente para o repouso de uma mente e corpo cansados.
+    Há, na parede leste, a passagem para um pátio externo ao templo.
+  exits:
+    east:
+      target_vnum: '11384'
+    north:
+      target_vnum: '11315'
+    south:
+      target_vnum: '11343'
+  name: A Sala de Meditação
+  vnum: '11318'
+- description: |-
+    Você está num grande salão quase vazio.  Pilares dourados separam-no do
+    centro do templo, além de sustentar o alto teto abobadado.  Há somente duas
+    paredes separando o lugar do ambiente externo: uma a norte e outra sul,
+    ambas de mármore muito claro com pequenas pedras prateadas em seu interior.
+    O chão é como o de todo o templo: de pedra negra polida, com ricos veios
+    dourados.  A oeste se vê um pequeno rio que parece nascer da água derramada
+    nas escadas do templo por uma das canaletas de ouro que o atravessam,
+    formando uma curiosa estrada.  Há, no centro do salão, uma grande mesa
+    redonda, de pedra, cercada por flores e ervas aromáticas em quantidade
+    tamanha que formam um verdadeiro manto colorido em volta do estranho altar.
+    Largos tapetes macios, de cores claras, foram dispostos por todos os lados,
+    sem razão aparente. Diga-se de passagem, você até agora não entendeu para
+    que serve esse salão.
+    Uma passagem, na parede norte, leva a um pátio externo ao templo.
+  exits:
+    east:
+      target_vnum: '11315'
+    north:
+      target_vnum: '11361'
+    west:
+      target_vnum: '11350'
+  name: O Salão da Vida
+  vnum: '11319'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a norte do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  Você pode seguir pela via por norte ou
+    nordeste, voltar para o templo, que fica a sul, ou entrar em uma discreta
+    loja a oeste.
+  exits:
+    north:
+      target_vnum: '11321'
+    south:
+      target_vnum: '11316'
+    west:
+      target_vnum: '11327'
+  name: A Via Norte
+  vnum: '11320'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a norte do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  Você pode seguir pela via por norte, sul
+    ou oeste ou entrar em uma grande loja a leste.
+  exits:
+    east:
+      target_vnum: '11326'
+    north:
+      target_vnum: '11322'
+    south:
+      target_vnum: '11320'
+    west:
+      target_vnum: '11329'
+  name: A Via Norte
+  vnum: '11321'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a norte do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  Você pode seguir pela via por norte, sul,
+    entrar em uma grande loja a leste ou em uma barulhenta loja a oeste.
+  exits:
+    east:
+      target_vnum: '11325'
+    north:
+      target_vnum: '11323'
+    south:
+      target_vnum: '11321'
+    west:
+      target_vnum: '11328'
+  name: A Via Norte
+  vnum: '11322'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a norte do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  Você pode seguir pela via leste e oeste.
+  exits:
+    east:
+      target_vnum: '11357'
+    south:
+      target_vnum: '11322'
+    west:
+      target_vnum: '11382'
+  name: A Via Norte
+  vnum: '11323'
+- description: |-
+    Você está na oficina em que alguns dos mais fantásticos artefatos que
+    esse mundo já viu foram forjados.  Twashtri passa a maior parte de seus dias
+    aqui, não só idealizando maravilhas, mas realizando-as.  Há todo tipo de
+    material aqui: couro, seda, ferro, aço, bronze, titânio, prata, mithril,
+    ouro, platina, pedras preciosas e coisas que você nunca viu e talvez nem irá
+    ver de novo.  O lugar é bastante arejado, com paredes claras já enegrecidas
+    pelas atividades da oficina, e teto alto de onde pendem dezenas de correntes
+    em que projetos e objetos são pendurados.  As fornalhas ardem
+    incessantemente, os martelos não param nunca de bater, o metal nunca para de
+    bilhar aqui.  Não é algo que costume ser bonito, mas a oficina do velho
+    artesão consegue ser.
+  exits: {}
+  name: A Oficina de Twashtri
+  vnum: '11324'
+- description: |-
+    Você está na loja de armas de Bhogavati.  Ela é, nada mais nada menos,
+    abastecida pela oficina de Twashtri, um dos mais famosos artesãos que já
+    existiram.  A loja é bastante grande por fora, mas por dentro você a acha
+    bastante pequena: a quantidade de armas espalhadas por ela é grande demais
+    para seu tamanho.  Há espadas presas às paredes, lanças dos mais variados
+    tipos fincadas em grandes suportes do chão, machados pendendo de correntes
+    no teto, adagas em grandes prateleiras, chicotes presos a postes de ferros,
+    maças em grandes baús...  Infelizmente, pela qualidade dos itens ser
+    excepcional, os preços também o são.
+    A sudeste parece ficar a oficina e a oeste a Via Norte.
+  exits:
+    west:
+      target_vnum: '11322'
+  name: O Arsenal de Twashtri
+  vnum: '11325'
+- description: |-
+    Você está numa ampla loja repleta dos mais variados tipos de armaduras e
+    vestimentas.  Abastecida pela oficina do grande artesão Twashtri, essa loja
+    oferece artigos de fantástica qualidade e variedade surpreendente, por
+    preços a altura.  Há armaduras completas montadas por todos os lados, cada
+    uma visivelmente diferente da outra.  Escudos de tipos já vistos por você, e
+    outros de estilos que lhe são desconhecidos, foram pendurados nas paredes,
+    enquanto grandes baús contendo partes avulsas de armaduras, como manoplas,
+    gorjais e perneiras brilham à luz de tochas de fogo branco.  Em algumas
+    estantes você vê artigos mais delicados como camisas de seda, luvas de
+    algodão leve e calças de tecido, provando a variedade dos artigos oferecidos
+    pela armoraria.
+    A nordeste parece ficar a oficina e a oeste a Via Norte.
+  exits:
+    west:
+      target_vnum: '11321'
+  name: A Armoraria de Twashtri
+  vnum: '11326'
+- description: |-
+    Você está em uma loja de fachada bastante discreta, tão discreta que nem
+    apresenta um nome.  Por dentro ela parece ser um longo corredor que contém
+    dois balcões de madeira, ao lado das paredes mais compridas, que possuem um
+    tampo de cristal reluzente, deixando à mostra as belas peças confeccionadas
+    na Cidade das Jóias.  O teto, de madeira, é um pouco baixo, dando a
+    impressão de que a loja foi construída para parecer mais simples do que é.
+    Enormes candelabros de ferro negro, completamente sem adornos, iluminam
+    apenas o local em que as jóias se encontram: tudo aqui parece ser feito para
+    que as jóias pareçam ainda mais majestosa do que são, se isso for possível.
+  exits:
+    east:
+      target_vnum: '11320'
+  name: A Joalheria
+  vnum: '11327'
+- description: |-
+    Você está na velha loja de artefatos mágicos de Bhogavati.  Ela recebe
+    seu nome pois, se reparar bem, a forma do estabelecimento imita à de um
+    grande caldeirão, tendo as paredes tanto de dentro quanto de fora pintadas
+    de um amarelo escurecido que cintila levemente.  Dentro da loja há um enorme
+    balcão que acompanha a forma arredondada da construção, tomando quase toda a
+    circunferência ao lado das paredes.  No centro, sobre um grande tapete
+    estampado, há estantes que contém livros mágicos, estojos com varinhas,
+    bastões mágicos, além de pergaminhos, poções e o que mais for
+    possível.
+    A leste fica a Via Norte.
+  exits:
+    east:
+      target_vnum: '11322'
+  name: O Caldeirão Dourado
+  vnum: '11328'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As límpidas águas douradas
+    encontram caminho para norte, sul e leste.
+  exits:
+    east:
+      target_vnum: '11321'
+    north:
+      target_vnum: '11382'
+    south:
+      target_vnum: '11367'
+  name: Um Afluente das Vias
+  vnum: '11329'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a leste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  Você pode seguir pela via indo leste,
+    voltar para o templo a oeste, se aproximar da entrada para a Congregação de
+    Clérigos de Bhogavati indo norte, ou seguir em direção a uma casa de ar
+    furtivo, a sul.
+  exits:
+    east:
+      target_vnum: '11331'
+    north:
+      target_vnum: '11335'
+    south:
+      target_vnum: '11337'
+    west:
+      target_vnum: '11317'
+  name: A Via Leste
+  vnum: '11330'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a leste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    As belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  Você pode seguir pela via indo leste, oeste
+    ou sul, ou ainda ir em direção ao norte, onde fica a Confraria de Druidas de
+    Bhogavati.
+  exits:
+    east:
+      target_vnum: '11332'
+    north:
+      target_vnum: '11378'
+    south:
+      target_vnum: '11373'
+    west:
+      target_vnum: '11330'
+  name: A Via Leste
+  vnum: '11331'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a leste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  A via segue leste oeste, sendo possível
+    chegar a norte à Associação de Guerreiros de Bhogavati e a sul para uma
+    filial da Irmandade dos Magos.
+  exits:
+    east:
+      target_vnum: '11333'
+    north:
+      target_vnum: '11339'
+    south:
+      target_vnum: '11341'
+    west:
+      target_vnum: '11331'
+  name: A Via Leste
+  vnum: '11332'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a leste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  A via segue nas direções norte, sul, leste
+    e oeste.
+  exits:
+    east:
+      target_vnum: '11334'
+    north:
+      target_vnum: '11375'
+    south:
+      target_vnum: '11374'
+    west:
+      target_vnum: '11332'
+  name: A Via Leste
+  vnum: '11333'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a leste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. A via segue oeste, norte e sul.
+  exits:
+    north:
+      target_vnum: '11359'
+    south:
+      target_vnum: '11360'
+    west:
+      target_vnum: '11333'
+  name: A Via Leste
+  vnum: '11334'
+- description: |-
+    Você está em frente à uma simples casa de madeira pintada de branco
+    impecável com portas e janelas de brilhante azul-escuro.  Um pequeno jardim
+    floresce às margens da via leste, que está a sul.  A casa fica a norte.
+  exits:
+    north:
+      target_vnum: '11336'
+    south:
+      target_vnum: '11330'
+  name: A Entrada da Congregação de Clérigos de Bhogavati
+  vnum: '11335'
+- description: |-
+    Você está dentro da rústica casinha branca que abriga a Congregação de
+    Clérigos de Bhogavati.  Apesar da cidade ser famosa por suas riquezas, pouca
+    coisa de valor há na congregação: algumas belas pinturas religiosas nas
+    paredes, uma grande estante de livros e um pequeno altar feito de ouro.  O
+    ambiente é muito calmo, sendo possível recuperar suas forças e sua fé apenas
+    estando aqui por alguns momentos.  A entrada fica a sul.
+  exits:
+    south:
+      target_vnum: '11335'
+  name: A Congregação de Clérigos de Bhogavati
+  vnum: '11336'
+- description: |-
+    Você está dentro de uma grande construção de aparência suspeita.  Não que
+    você tenha algo contra ladinos, mas os quer bem longe de seu ouro e qualquer
+    outro pertence!  Aqui é tudo bastante escuro, sendo que a única iluminação
+    que há vem do crepitante fogo de uma pequena lareira.  Sua entrada parece
+    ter chamado mais atenção do que você gostaria, pois agora indivíduos
+    encapuzados ou de face oculta pela escuridão cochicham enquanto o examinam,
+    apontando para você.  A sul fica o coração da Sociedade, enquanto a norte
+    corre a via leste.
+  exits:
+    north:
+      target_vnum: '11330'
+    south:
+      target_vnum: '11338'
+  name: A Entrada da Sociedade de Ladinos
+  vnum: '11337'
+- description: |-
+    Você está no centro do local onde os ladinos da região (ou visitantes) se
+    encontram.  A iluminação aqui consegue ser pior que a da entrada, deixando-o
+    muito vulnerável à ação de um eficiente ladrão (e aqui eles são muitos): são
+    apenas quatro tochas, duas ao lado da passagem para o local, uma na parede
+    leste e outra a oeste.  Alguns bancos de madeiras foram dispostos em volta
+    do centro da sala, facilitando a conversa em uma eventual reunião.
+  exits:
+    north:
+      target_vnum: '11337'
+  name: A Sociedade de Ladinos
+  vnum: '11338'
+- description: |-
+    Esta é a entrada para a Associação de Guerreiros de Bhogavati, que se
+    encontra em uma edificação ampla, de apenas um cômodo, maior que um salão de
+    grande palácio.  As paredes e chão são de pedra, esta cinzenta enquanto
+    aquela é brancas.  A iluminação se dá por três lustres de ferro
+    trabalhado cobertos de centenas de velas, que pendem do alto teto, e por
+    enormes candelabros fixados às paredes.  Aqui os guerreiros parecem parar
+    apenas para descansar ou conversar, sentados em poltronas confortáveis,
+    enquanto a oeste eles reproduzem o que um guerreiro faz tão bem.
+  exits:
+    south:
+      target_vnum: '11332'
+    west:
+      target_vnum: '11340'
+  name: A Entrada para a Associação de Guerreiros de Bhogavati
+  vnum: '11339'
+- description: |-
+    Você está bem no centro da Associação, um espaço amplo, quadrado, onde os
+    guerreiros promovem pequenos duelos, como treinamento, praticam luta ou se
+    divertem com jogos de guerra.  Baixos postes de ferro delimitam a região do
+    centro, havendo atrás deles uma série de cadeiras e bancos para aqueles que
+    querem assistir o que ali ocorre ou para os que estão se exercitando e
+    querem descansar um pouco.
+  exits:
+    east:
+      target_vnum: '11339'
+  name: O Centro da Associação de Guerreiros
+  vnum: '11340'
+- description: |-
+    Você está num grande terraço fora da irmandade.  De pedra
+    verde-acinzentada, ele ocupa toda a frente de uma construção, da mesma
+    pedra, cuja fachada imita a de uma torre de castelo com suas ameias.  A alta
+    porta de madeira, de duas folhas, está aberta, porém não se vê o que há no
+    interior do lugar.  O terraço desce até a via leste por norte.
+  exits:
+    east:
+      target_vnum: '11342'
+    north:
+      target_vnum: '11332'
+  name: A Entrada da Irmandade de Magos em Bhogavati
+  vnum: '11341'
+- description: |-
+    Você está no interior da Irmandade dos Magos em Bhogavati.  Aqui são as
+    paredes de pedra verde-acizentada, o chão, muito limpo, é de madeira negra,
+    que também está nas resistentes vigas qe atravessam o teto.  Há grandes
+    tochas, ardendo em variadas cores, presos em pesados suportes de ferro ao
+    lado das paredes e pilares, assim como candelabros sobre agumas mesas de
+    carvalho espalhadas pelo lugar.  Em um canto há uma grande estante
+    abarrotada de livros, enquanto em outro parecem estar expostas obras que
+    retratam membros ilustres da Irmandade.
+  exits:
+    west:
+      target_vnum: '11341'
+  name: A Irmandade dos Magos em Bhogavati
+  vnum: '11342'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a sul do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  A via continua a sul, o templo fica a
+    norte, havendo ainda a oeste um grande barco ancorado em uma ramificação do
+    rio.
+  exits:
+    north:
+      target_vnum: '11318'
+    south:
+      target_vnum: '11344'
+    west:
+      target_vnum: '11347'
+  name: A Via Sul
+  vnum: '11343'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a sul do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. A via continua a norte, sul e leste,
+    e a loja de música Sublime Música fica a oeste.
+  exits:
+    east:
+      target_vnum: '11372'
+    north:
+      target_vnum: '11343'
+    south:
+      target_vnum: '11345'
+    west:
+      target_vnum: '11349'
+  name: A Via Sul
+  vnum: '11344'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a sul do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. A via segue norte, sul e oeste, havendo
+    a leste uma pequena construção sobre um braço do rio.
+  exits:
+    east:
+      target_vnum: '11348'
+    north:
+      target_vnum: '11344'
+    south:
+      target_vnum: '11346'
+    west:
+      target_vnum: '11371'
+  name: A Via Sul
+  vnum: '11345'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a sul do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. A via segue norte, leste e oeste.
+  exits:
+    east:
+      target_vnum: '11362'
+    north:
+      target_vnum: '11345'
+    west:
+      target_vnum: '11363'
+  name: A Via Sul
+  vnum: '11346'
+- description: |-
+    Você está dentro de uma grande barco ancorado ao lado da via sul de
+    Bhogavati.  Aqui funciona o Serviço Postal, de onde partem velozes
+    mensageiros para entregar suas cartas e mensagens e onde chegam os mais
+    diferentes agentes postais com uma infinidade de entregas e notícias.  O
+    barco, de madeira marrom-dourada muito lisa, se assemelha a uma imensa canoa
+    que possui uma grande cabine para armazenar coisas e alguns mastros sem
+    velas.  Um aviso foi preso a um dos mastros (que parece inútil), havendo ao
+    seu lado uma bonita mesa de madeira, também marrom-dourada.
+  exits:
+    east:
+      target_vnum: '11343'
+  name: Serviço Postal
+  vnum: '11347'
+- description: |-
+    Você está em frente a uma pequena construção feita sobre um dos braços da
+    via sul.  Ela parece ser uma casa de paredes externas forradas de pedras
+    arredondadas retirada de leitos de rios, tendo elas aparência de grandes
+    gemas douradas talhadas em cabochão.  Uma larga porta de madeira vermelha
+    abre-se de forma a formar um balcão, com a folha de cima aberta e uma tábua
+    da mesma madeira apoiada sobre a de baixo.  Um grande número de barcos foi
+    deixado para fora, bioando no braço do rio, sendo presos por firmes cordas
+    de fios de dourado bem escurecido
+  exits:
+    west:
+      target_vnum: '11345'
+  name: A Loja de Barcos
+  vnum: '11348'
+- description: |-
+    Você está em uma construção de pedra branca cuja entrada, em forma de
+    arco, dá diretamente nas águas da Via Sul.  O seu interior é bastante
+    arejado, havendo plantas por todos os lados, inclusive cobrindo as alvas
+    paredes.  Sobre baixas estantes de madeira, estas pouco trabalhadas,
+    conservando até mesmo suas folhas, você vê belos instrumentos músicais
+    colocados à venda, tão bem feitos que são como jóias.  De uma fonte,
+    colocada no extremo oeste na loja, é emitida uma suave música que fala sobre
+    a beleza da união da luz dos céus e com as gotas de chuva, o arco-íris.
+  exits:
+    east:
+      target_vnum: '11344'
+  name: Sublime Música
+  vnum: '11349'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a oeste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. O templo fica a leste e a estalagem
+    Pedra Preciosa a sul. A via, por sua vez, continua a oeste.
+  exits:
+    east:
+      target_vnum: '11319'
+    south:
+      target_vnum: '11354'
+    west:
+      target_vnum: '11351'
+  name: A Via Oeste
+  vnum: '11350'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a oeste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis.  A via parece continuar a sul, leste e
+    oeste.
+  exits:
+    east:
+      target_vnum: '11350'
+    south:
+      target_vnum: '11368'
+    west:
+      target_vnum: '11352'
+  name: A Via Oeste
+  vnum: '11351'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a oeste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. A via segue norte, leste e oeste, estando
+    a sul a taverna Cobra Voando.
+  exits:
+    east:
+      target_vnum: '11351'
+    north:
+      target_vnum: '11366'
+    south:
+      target_vnum: '11355'
+    west:
+      target_vnum: '11353'
+  name: A Via Oeste
+  vnum: '11352'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a oeste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. A via continua a leste e oeste, enquanto a
+    norte fica a loja do senhor Kalidas.
+  exits:
+    east:
+      target_vnum: '11352'
+    north:
+      target_vnum: '11383'
+    west:
+      target_vnum: '11377'
+  name: A Via Oeste
+  vnum: '11353'
+- description: |-
+    Você está em uma aconchegante (se é que alguma coisa naga pode ser
+    aconchegante para forasteiros) estalagem que parece ter sida esculpida
+    dentro de um gigantesco bloco de pedra avermelhada.  Ela se assemelha a uma
+    caverna, muito bem iluminada por archotes dourados, de paredes e chão
+    polido, este muito limpo e cuidado.  Duas mesas de pedra, colocadas cada uma
+    num lado da larga entrada arqueada, foram cobertas por finas toalhas brancas
+    e enfeitadas com fruteiras cheias, e cercadas ainda por grandes cadeiras de
+    pedra com almofadas fofas no assento e encosto.  No chão foram colocados
+    tapetes redondos de pele muito felpuda, um verdadeiro convita para se andar
+    descalço.  Um largo balcão de granito negro serve de recepção para a
+    estalagem.
+    A Via Oeste fica a norte, enquanto que o salão fica a oeste.
+  exits:
+    north:
+      target_vnum: '11350'
+    west:
+      target_vnum: '11356'
+  name: A Pedra Preciosa
+  vnum: '11354'
+- description: |-
+    A taverna Cobra Voando, um grande estabelecimento cuja fachada lembra uma
+    serpente dando o bote, é um lugar bastante movimentado.  Suas paredes de
+    pedra verde-escura, que são encurvadas para imitar o corpo uma serpente, são
+    repletas de inscrições que representam canções apropriadas para acompanhar
+    canecas de uma boa cerveja e amigos dando boas risadas.  Há compridas mesas
+    por todos os lados, estas acompanhadas de bancos e cadeiras de madeira.  Um
+    grande balcão, também de madeira, fica um pouco à frente da parede sul,
+    oposta à entrada.  Sobre a entrada você vê uma enorme inscrição.
+    A Via Oeste fica a norte, enquanto o salão fica a leste.
+  exits:
+    east:
+      target_vnum: '11356'
+    north:
+      target_vnum: '11352'
+  name: A Cobra Voando
+  vnum: '11355'
+- description: |-
+    Você está num salão.  Isso: num salão.  Ele não tem um nome ou uma
+    especificação, mas acabou sendo usado para quem quiser tirar uns cochilos e
+    não quer pagar a estalagem e para aqueles que desejam jogar sossegadamente
+    cartas ou dardos.  O salão em si é um amplo cômodo feito de pedras, sendo
+    uma espécie de transição da forma de serpente da taverna e da estranha
+    caverna que é a estalagem, tendo paredes de blocos de pedra verde com
+    detalhes avermelhados.  Confortáveis poltronos reclináveis e alguns sofás
+    foram dispostos quase que aleatoreamente no lugar, tornando-o
+    aconchegantemente bagunçado.  Mesas quadradas e redondas, com toalhas de
+    feltro, foram colocadas na maior parte da região central da sala, enquanto
+    quadros com alvos para dardos foram pindurados nas paredes.  Além deles, há
+    quadros de baralhos de diferentes partes do mundo.  A leste fica a Pedra
+    Preciosa, e a oeste a Cobra Voando.
+  exits:
+    east:
+      target_vnum: '11354'
+    west:
+      target_vnum: '11355'
+  name: O Salão
+  vnum: '11356'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
+    para sul, sudeste e oeste.
+  exits:
+    south:
+      target_vnum: '11376'
+    west:
+      target_vnum: '11323'
+  name: Um Afluente das Vias
+  vnum: '11357'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
+    para noroeste, sudeste e sudoeste.
+  exits: {}
+  name: Um Afluente das Vias
+  vnum: '11358'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
+    para noroeste, sul e oeste.
+  exits:
+    south:
+      target_vnum: '11334'
+    west:
+      target_vnum: '11375'
+  name: Um Afluente das Vias
+  vnum: '11359'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
+    para norte, oeste e sudoeste, passando por baixo uma grande ponte.
+  exits:
+    north:
+      target_vnum: '11334'
+    west:
+      target_vnum: '11374'
+  name: Um Afluente das Vias
+  vnum: '11360'
+- description: |-
+    Você está em um pequeno pátio gramado fora do templo.  A água das vias
+    que passam por Bhogavati encostam em sua borda, mas uma longa ponte que liga
+    esse pátio até a saída sudeste da cidade passa por cima dela, formando uma
+    das únicas vias por "terra" daqui.  Você pode entrar no templo seguindo
+    sul, leste ou sudeste, além de seguir pela ponte noroeste.
+  exits:
+    east:
+      target_vnum: '11316'
+    south:
+      target_vnum: '11319'
+  name: Um Pátio Fora do Templo
+  vnum: '11361'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
+    para norte, oeste e nordeste, passando por baixo uma grande ponte.
+  exits:
+    north:
+      target_vnum: '11372'
+    west:
+      target_vnum: '11346'
+  name: Um Afluente das Vias
+  vnum: '11362'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas correm por norte,
+    leste e passam debaixo de uma ponte a noroeste.
+  exits:
+    east:
+      target_vnum: '11346'
+    north:
+      target_vnum: '11370'
+  name: Um Afluente das Vias
+  vnum: '11363'
+- description: |-
+    Você está andando sobre a ponte noroeste de Bhogavati, uma bela construção
+    em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
+    um arco.  As laterais da ponte foram cobertas com placas de ouro trabalhado,
+    tendo estas pedras de todos os tipos cravejadas, formando lindos e preciosos
+    desenhos.  A vista aqui é muito bela, podendo-se ver as principais vias da
+    cidade, com seus leitos prateados e multicolores flores, além de seus
+    dourados afluentes.  As construções também chamam sua atenção, sendo todas
+    elas muito diferentes entre si, mas sempre utilizando os metais e pedras
+    preciosas tão característicos do lugar.
+    A ponte segue sudeste e noroeste.
+  exits: {}
+  name: A Ponte Noroeste
+  vnum: '11364'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As límpidas águas douradas
+    encontram caminho livre para norte e leste, passando ainda por baixo de uma
+    grande ponte, a sudeste.
+  exits:
+    east:
+      target_vnum: '11368'
+    north:
+      target_vnum: '11377'
+  name: Um Afluente das Vias
+  vnum: '11365'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As límpidas águas douradas
+    encontram caminho para sul, leste e oeste.
+  exits:
+    east:
+      target_vnum: '11367'
+    south:
+      target_vnum: '11352'
+    west:
+      target_vnum: '11381'
+  name: Um Afluente das Vias
+  vnum: '11366'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As límpidas águas douradas
+    encontram caminho para norte, sul e oeste.
+  exits:
+    north:
+      target_vnum: '11329'
+    south:
+      target_vnum: '11350'
+    west:
+      target_vnum: '11366'
+  name: Um Afluente das Vias
+  vnum: '11367'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As límpidas águas douradas
+    encontram caminho para leste, oeste, norte e sul.
+  exits:
+    east:
+      target_vnum: '11369'
+    north:
+      target_vnum: '11351'
+    south:
+      target_vnum: '11370'
+    west:
+      target_vnum: '11365'
+  name: Um Afluente das Vias
+  vnum: '11368'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As límpidas águas douradas
+    encontram caminho para leste e oeste.
+  exits:
+    east:
+      target_vnum: '11343'
+    west:
+      target_vnum: '11368'
+  name: Um Afluente das Vias
+  vnum: '11369'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As águas do pequeno rio
+    se derramam nas direções norte, sul e sudeste.
+  exits:
+    north:
+      target_vnum: '11369'
+    south:
+      target_vnum: '11363'
+  name: Um Afluente das Vias
+  vnum: '11370'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas do pequeno rio
+    seguem por leste e noroeste.
+  exits:
+    east:
+      target_vnum: '11345'
+  name: Um Afluente das Vias
+  vnum: '11371'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas do afluente segue
+    oeste, sul e norte.
+  exits:
+    north:
+      target_vnum: '11373'
+    south:
+      target_vnum: '11362'
+    west:
+      target_vnum: '11344'
+  name: Um Afluente das Vias
+  vnum: '11372'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas do rio encontram
+    caminho para norte, sul e leste.
+  exits:
+    east:
+      target_vnum: '11374'
+    north:
+      target_vnum: '11331'
+    south:
+      target_vnum: '11372'
+  name: Um Afluente das Vias
+  vnum: '11373'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As águas do rio se espalham
+    entre a direção norte, sudeste e leste.
+  exits:
+    north:
+      target_vnum: '11333'
+    west:
+      target_vnum: '11373'
+  name: Um Afluente das Vias
+  vnum: '11374'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As águas do rio se espalham
+    por oeste, leste e sul.
+  exits:
+    east:
+      target_vnum: '11359'
+    south:
+      target_vnum: '11333'
+    west:
+      target_vnum: '11376'
+  name: Um Afluente das Vias
+  vnum: '11375'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias. As águas encontram caminho
+    para norte, nordeste, leste e sudoeste.
+  exits:
+    east:
+      target_vnum: '11375'
+    north:
+      target_vnum: '11357'
+  name: Um Afluente das Vias
+  vnum: '11376'
+- description: |-
+    Você está sobre as águas do pequeno rio que corre a oeste do templo a
+    Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
+    as belas ninféias coloridas que exalam delicioso perfume.  Ainda sobre
+    perfumes, você repara que Bhogavati, ao contrário de outras cidades
+    atravessadas por rios, não possui nenhum cheiro desagradável (exceto o seu,
+    é claro...), e sim é repleta de aromas que vão do mais suave ao mais
+    pungente, mas todos agradáveis. A via segue norte, sul e leste.
+  exits:
+    east:
+      target_vnum: '11353'
+    north:
+      target_vnum: '11381'
+    south:
+      target_vnum: '11365'
+  name: A Via Oeste
+  vnum: '11377'
+- description: "Ã\x80s margens da Via Leste, a entrada da confraria Ã© um bem-cuidado\
+    \ jardim\nrepleto de variedades com propriedades mágicas e curativas de plantas.\n\
+    Pequenos animais passam sossegadamente pelo jardim, entre eles esquilos,\npassarinhos,\
+    \ jovens cervos, além de alguns que foram trazidos aqui para se\ncurarem de ferimentos\
+    \ ou doenças.  Um grande círculo de pedras, monólitos\ncinzentos com traços de\
+    \ musgos e liquens, se ergue, digno de reverência, a\nnorte.  A Via Leste corre\
+    \ passando por sul."
+  exits:
+    north:
+      target_vnum: '11379'
+    south:
+      target_vnum: '11331'
+  name: A Entrada da Confraria dos Druidas de Bhogavati
+  vnum: '11378'
+- description: |-
+    Você está dentro de um círculo de enormes e pesadas pedras cinzentas
+    encaixadas em fendas cavadas na terra coberta por gramado.  Uma grande mesa,
+    da mesma pedra, ocupa o exato centro do monumento, parecendo um altar
+    circular cujo uso não é muito claro.  Há quatro altos postes de aço em volta
+    do altar, cada um com cerca de vinte centímetros de diâmetro, voltados para
+    os pontos cardeais, iluminando o local quando necessário.  Há sempre um
+    experiente druida aqui, zelando pelo pequeno santuário.
+  exits:
+    south:
+      target_vnum: '11378'
+  name: A Confraria dos Druidas
+  vnum: '11379'
+- description: |-
+    Você está andando sobre a ponte noroeste de Bhogavati, uma bela construção
+    em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
+    um arco.  As laterais da ponte foram cobertas com placas de ouro trabalhado,
+    tendo estas pedras de todos os tipos cravejadas, formando lindos e preciosos
+    desenhos.  A vista aqui é muito bela, podendo-se ver as principais vias da
+    cidade, com seus leitos prateados e multicolores flores, além de seus
+    dourados afluentes.  As construções também chamam sua atenção, sendo todas
+    elas muito diferentes entre si, mas sempre utilizando os metais e pedras
+    preciosas tão característicos do lugar.
+    A ponte segue sudeste e noroeste.
+  exits: {}
+  name: A Ponte Noroeste
+  vnum: '11380'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
+    para nordeste, sob uma grande ponte, a leste e a sul.
+  exits:
+    east:
+      target_vnum: '11366'
+    south:
+      target_vnum: '11377'
+  name: Um Afluente das Vias
+  vnum: '11381'
+- description: |-
+    Você está navegando nas calmas águas de um afluente das principais vias
+    de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
+    e, ao invés das belas ninféias que flutuam e perfumam os pequenos rios de
+    prata, há uma infinidade de folhas douradas boiando sobre as águas do
+    afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
+    brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
+    para sudoeste, sob uma grande ponte, a sul e leste.
+  exits:
+    east:
+      target_vnum: '11323'
+    south:
+      target_vnum: '11329'
+  name: Um Afluente das Vias
+  vnum: '11382'
+- description: |-
+    Você está dentro de uma pequena loja repleta das mais variadas
+    mercadorias.  Não é possível ver as paredes pois elas estão ocultas por
+    quadros, móveis e estranhos objetos pendurados.  O chão, por ser coberto com
+    muitos tapetes, é fofo e deve ter pelo menos vinte centímentros a mais do
+    que originalmente.  O lugar é muito iluminado, pois não só há diversos
+    lustres pendendo dos tetos, como lanternas e archotes de diferentes modelos
+    espalhados por sobre as estantes, cadeiras, baús, cabideiros e tantas e
+    tantas caixas que obstruem sua passagem. Há um pequeno balcão no fundo da loja,
+    além de uma saída a sul, que leva à Via Oeste.
+  exits:
+    south:
+      target_vnum: '11353'
+  name: As Antigüidades e Inutilidades do Senhor Kalidas
+  vnum: '11383'
+- description: |-
+    Você está em um pequeno pátio gramado fora do templo.  A água das vias
+    que passam por Bhogavati encostam em sua borda, mas uma longa ponte que liga
+    esse pátio até a saída sudeste da cidade passa por cima dela, formando uma
+    das únicas vias por "terra" daqui.  Você pode entrar no templo seguindo
+    norte, oeste ou noroeste, além de seguir pela ponte sudeste.
+  exits:
+    north:
+      target_vnum: '11317'
+    west:
+      target_vnum: '11318'
+  name: Um Pátio Fora do Templo
+  vnum: '11384'
+- description: |-
+    Você está andando sobre a ponte sudeste de Bhogavati, uma bela construção
+    em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
+    um arco.  As laterais da ponte foram cobertas com placas de ouro trabalhado,
+    tendo estas pedras de todos os tipos cravejadas, formando lindos e preciosos
+    desenhos.  A vista aqui é muito bela, podendo-se ver as principais vias da
+    cidade, com seus leitos prateados e multicolores flores, além de seus
+    dourados afluentes.  As construções também chamam sua atenção, sendo todas
+    elas muito diferentes entre si, mas sempre utilizando os metais e pedras
+    preciosas tão característicos do lugar.
+    A ponte segue noroeste e sudeste.
+  exits: {}
+  name: A Ponte Sudeste
+  vnum: '11385'
+- description: |-
+    Você está andando sobre a ponte sudeste de Bhogavati, uma bela construção
+    em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
+    um arco.  As laterais da ponte foram cobertas com placas de ouro trabalhado,
+    tendo estas pedras de todos os tipos cravejadas, formando lindos e preciosos
+    desenhos.  A vista aqui é muito bela, podendo-se ver as principais vias da
+    cidade, com seus leitos prateados e multicolores flores, além de seus
+    dourados afluentes.  As construções também chamam sua atenção, sendo todas
+    elas muito diferentes entre si, mas sempre utilizando os metais e pedras
+    preciosas tão característicos do lugar.
+    A ponte segue noroeste e sudeste.
+  exits: {}
+  name: A Ponte Sudeste
+  vnum: '11386'
+- description: |-
+    Você está na outra extremidade da ponte sudeste, que termina em um pátio,
+    gramado como os do templo, seguido este, a sul, de um alto portão de
+    cristal negro.  O portão não está amparado por parede alguma, havendo no
+    lugar delas um longo canal de águas negras (que cerca a cidade).  Apesar dos
+    lados do portão serem abertos, você pouca coisa vê além de água.
+    Para seguir pela ponte, vá para noroeste; e para sair da cidade, siga sul,
+    pelo portão.
+  exits:
+    south:
+      target_vnum: '11388'
+  name: O Pátio Sudeste
+  vnum: '11387'
+- description: |-
+    Você está do lado de fora da Cidade das Jóias, exatamente em frente a um
+    alto portão de cristal negro.  A partir dele, uma estreita estrada de pedra
+    azulada segue sul quase em linha reta, cercada esta de água imóvel como
+    vidro até onde a vista alcança.  A cidade fica a norte.
+  exits:
+    north:
+      target_vnum: '11387'
+    south:
+      target_vnum: '2998'
+  name: Fora de Bhogavati
+  vnum: '11388'
+- description: |-
+    Você está na outra extremidade da ponte noroeste, que termina em um pátio,
+    gramado como os do templo, seguido este, a oeste, de um alto portão de
+    cristal negro.  O portão não está amparado por parede alguma, havendo no
+    lugar delas um longo canal de águas negras (que cerca a cidade).  Apesar dos
+    lados do portão serem abertos, você somente vê escuridão além do canal.
+    Indo sudeste você atravessa a ponte, enquanto a oeste está o outro lado do
+    portão.
+  exits:
+    west:
+      target_vnum: '11390'
+  name: O Pátio Noroeste
+  vnum: '11389'
+- description: |-
+    Você está do lado de fora da Cidade das Jóias, exatamente em frente a um
+    alto portão de cristal negro.  A partir dele, há um pequeno terreno coberto
+    de relva que entra em uma sombria floresta. Arrepios percorrem seu corpo
+    ao observar as altas e escuras árvores do lugar, tudo parecendo ameaçador
+    demais para ser seguro. A entrada da floresta fica a oeste, enquanto a leste
+    está a cidade.
+  exits:
+    east:
+      target_vnum: '11389'
+  name: Fora de Bhogavati
+  vnum: '11390'
+- description: |-
+    Esta área especializada de Bhogavati é dedicada aos artesãos nagas mais
+    habilidosos da cidade. Oficinas ornamentadas se alinham ao longo dos canais
+    dourados, cada uma especializada em diferentes artes: joalheria, escultura
+    em pedras preciosas, forjaria de metais nobres. O som suave de ferramentas
+    delicadas mistura-se com o murmúrio das águas.
+  exits:
+    east:
+      target_vnum: '11393'
+    north:
+      target_vnum: '11392'
+  name: O Distrito dos Artífices Nagas
+  vnum: '11391'
+- description: |-
+    Um canal estreito mas profundo onde pequenas embarcações nagas transportam
+    materiais preciosos entre as oficinas. As águas aqui têm uma tonalidade
+    dourada mais intensa, resultado dos resíduos de metais nobres que são
+    cuidadosamente filtrados e reaproveitados pelos artesãos nagas.
+  exits:
+    north:
+      target_vnum: '11394'
+    south:
+      target_vnum: '11391'
+  name: Canal dos Artífices
+  vnum: '11392'
+- description: |-
+    Uma oficina suntuosa onde os mestres joalheiros nagas criam as peças mais
+    refinadas da cidade. Bancadas de mármore negro exibem ferramentas de precisão
+    feitas de mithril, e cofres seguros guardam gemas raras. A luz é projetada
+    através de cristais especiais para revelar cada faceta das pedras preciosas
+    em sua verdadeira beleza.
+  exits:
+    west:
+      target_vnum: '11391'
+  name: Oficina de Joalheria Naga
+  vnum: '11393'
+- description: |-
+    Um santuário dedicado às forças que governam a formação de gemas e metais
+    preciosos nas profundezas da terra. Estátuas de nagas ancestrais, esculpidas
+    em diamante e safira, guardam altares onde oferendas de pedras brutas são
+    deixadas para serem abençoadas antes da lapidação.
+  exits:
+    east:
+      target_vnum: '11395'
+    south:
+      target_vnum: '11392'
+  name: Templo das Pedras Preciosas
+  vnum: '11394'
+- description: |-
+    Os luxuosos aposentos onde reside a realeza naga de Bhogavati. Cada
+    superfície é incrustada com pedras preciosas em padrões que contam a história
+    ancestral dos nagas. Piscinas de águas termais perfumadas proporcionam conforto
+    aos habitantes serpentinos, e jardins de plantas aquáticas raras decoram
+    os ambientes.
+  exits:
+    west:
+      target_vnum: '11394'
+  name: Aposentos Reais dos Nagas
+  vnum: '11395'

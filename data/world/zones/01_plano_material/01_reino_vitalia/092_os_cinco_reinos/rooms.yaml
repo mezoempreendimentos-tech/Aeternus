@@ -1,0 +1,566 @@
+- description: |-
+    Você caminha por uma estrada realmente bela de terra batida.  Pouca
+    poeira é levantada ao seu caminhar e você pode respirar muito bem, embora
+    não perceba a presença de árvores ou qualquer tipo de vegetação por perto.
+    A estrada é ladeada por pedras muito brancas, talvez fosse mármore mas você
+    não tem certeza.  Bem longe ao norte você consegue, com muita dificuldade,
+    ver 5 torres: duas vermelhas, duas pretas e uma dourada.  Você ainda pode
+    voltar para o sul de onde você veio.
+  exits:
+    north:
+      target_vnum: '9201'
+    south:
+      target_vnum: '3070'
+  name: A Estrada dos Cinco Reinos
+  vnum: '9200'
+- description: |-
+    Você continua caminhando pela estrada maravilhado por sua beleza.  Ao
+    norte a visão das cinco torres parece mais nítida e você percebe que a torre
+    dourada parece mudar de forma assemelhando-se a cada uma das outras torres.
+    Há realmente algo de mágico nesta torre.  Você pode ainda seguir para o sul.
+  exits:
+    north:
+      target_vnum: '9202'
+    south:
+      target_vnum: '9200'
+  name: A Estrada dos Cinco Reinos
+  vnum: '9201'
+- description: "Ã\x89 chegada a hora de vocÃª decidir seu caminho.  TrÃªs sÃ£o suas\
+    \ escolhas e\na partir daqui você terá selado seu caminho.  Ao norte há uma estrada\n\
+    multicolorida que hora assemelha-se a estrada a nordeste e hora confunde-se\n\
+    na sua forma com a estrada que segue para norodeste.  Você ainda pode voltar\n\
+    para o sul."
+  exits:
+    north:
+      target_vnum: '9205'
+    south:
+      target_vnum: '9201'
+  name: A Escolha
+  vnum: '9202'
+- description: |-
+    Você nem percebe que depois de feita sua escolha a estrada toma uma cor
+    avermelhada com tonalidade indefinida.  Ao perceber isso você se depara com
+    dois portões um ao norte e outro para noroeste.  O caminho para sudeste
+    continua livre.
+  exits:
+    north:
+      target_vnum: '9207'
+  name: Os Dois Portões
+  vnum: '9203'
+- description: |-
+    Você nem percebe que depois de feita sua escolha a estrada toma uma cor
+    enegrecida com tonalidade indefinida.  Ao perceber isso você se depara com
+    dois portões um ao norte e outro para nordeste.  O caminho para sudoeste
+    continua livre.
+  exits:
+    north:
+      target_vnum: '9209'
+  name: Os Dois Portões
+  vnum: '9204'
+- description: |-
+    Você se depara com um portão de forma indefinida.  Na verdade você nota
+    que ele toma diversas formas, ou melhor, quatro formas muito parecidas com
+    os naipes de um baralho.  Sua tonalidade também oscila entre o vermelho e o
+    preto.Uma placa está bem ao alto do portão com alguma coisa escrita mas você
+    não consegue enxergar ...  Talvez se você examinasse mais de perto a
+    placa...  Você pode atravessar o portão para norte ou simplesmente seguir
+    para o sul.
+  exits:
+    north:
+      target_vnum: '9214'
+    south:
+      target_vnum: '9202'
+  name: O Portão de Forma Indefinida
+  vnum: '9205'
+- description: |-
+    Você se depara com um portão todo vermelho com a forma do naipe de copas.
+    Uma placa está bem ao alto do portão com alguma coisa escrita mas você não
+    consegue enxergar ...  Talvez se você examinasse mais de perto a placa...
+    De qualquer maneira você não tem dúvidas de que está entrando na corte do
+    Reino de Copas.  Você pode seguir em frente, para o norte ou para o sudeste.
+  exits:
+    north:
+      target_vnum: '9210'
+  name: O Portão para o Reino de Copas
+  vnum: '9206'
+- description: |-
+    Você se depara com um portão todo vermelho com a forma do naipe de ouros.
+    Uma placa está bem ao alto do portão com alguma coisa escrita mas você não
+    consegue enxergar ...  Talvez se você examinasse mais de perto a placa...
+    De qualquer maneira você não tem dúvidas de que está entrando na corte do
+    Reino de Ouros.  Você pode seguir em frente, para o norte, ou para o sul.
+  exits:
+    north:
+      target_vnum: '9211'
+    south:
+      target_vnum: '9203'
+  name: O Portão para o Reino de Ouros
+  vnum: '9207'
+- description: |-
+    Você se depara com um portão todo negro com a forma do naipe de espadas.
+    Uma placa está bem ao alto do portão com alguma coisa escrita mas você não
+    consegue enxergar ...  Talvez se você examinasse mais de perto a placa...
+    De qualquer maneira você não tem dúvidas de que está entrando na corte do
+    Reino de Espadas.  Você pode seguir em frente, para o norte, ou para o
+    sudoeste.
+  exits:
+    north:
+      target_vnum: '9212'
+  name: O Portão para o Reino de Espadas
+  vnum: '9208'
+- description: |-
+    Você se depara com um portão todo Negro com a forma do naipe de paus.
+    Uma placa está bem ao alto do portão com alguma coisa escrita mas você não
+    consegue enxergar ...  Talvez se você examinasse mais de perto a placa...
+    De qualquer maneira você não tem dúvidas de que está entrando na corte do
+    Reino de Paus.  Você pode seguir em frente, para o norte, ou para o
+    sudoeste.
+  exits:
+    north:
+      target_vnum: '9213'
+    south:
+      target_vnum: '9204'
+  name: O Portão para o Reino de Paus
+  vnum: '9209'
+- description: |-
+    Atravessando o portão do Reino de Copas você entra em uma estrada pouco
+    movimentada, que segue em direção ao castelo de Copas onde você pode ver uma
+    linda torre vermelha.  Antes do castelo ao norte, você vê uma praça onde
+    algumas pessoas (?) estão paradas.  Ao voltar seu olhar para o sul você vê o
+    portão.
+  exits:
+    north:
+      target_vnum: '9215'
+    south:
+      target_vnum: '9206'
+  name: Estrada para o Castelo de Copas
+  vnum: '9210'
+- description: |-
+    Atravessando o portão do Reino de Ouros você entra em uma estrada pouco
+    movimentada, que segue em direção ao castelo de Ouros onde você pode ver uma
+    linda torre vermelha.  Antes do castelo ao norte, você vê uma praça onde
+    algumas pessoas (?) estão paradas.  Ao voltar seu olhar para o sul você vê o
+    portão.
+  exits:
+    north:
+      target_vnum: '9216'
+    south:
+      target_vnum: '9207'
+  name: Estrada para o Castelo de Ouros
+  vnum: '9211'
+- description: |-
+    Atravessando o portão do Reino de Espadas você entra em uma estrada pouco
+    movimentada, que segue em direção ao castelo de Espadas onde você pode ver
+    uma linda torre Negra.  Antes do castelo ao norte, você vê uma praça onde
+    algumas pessoas (?) estão paradas.  Ao voltar seu olhar para o sul você vê o
+    portão.
+  exits:
+    north:
+      target_vnum: '9217'
+    south:
+      target_vnum: '9208'
+  name: Estrada para o Castelo de Espadas
+  vnum: '9212'
+- description: |-
+    Atravessando o portão do Reino de Paus você entra em uma estrada pouco
+    movimentada, que segue em direção ao castelo de Paus onde você pode ver uma
+    linda torre Negra.  Antes do castelo ao norte, você vê uma praça onde
+    algumas pessoas (?) estão paradas.  Ao voltar seu olhar para o sul você vê o
+    portão.
+  exits:
+    north:
+      target_vnum: '9218'
+    south:
+      target_vnum: '9209'
+  name: Estrada para o Castelo de Paus
+  vnum: '9213'
+- description: |-
+    Atravessando o portão do Reino Coringa você entra em uma estrada pouco
+    movimentada, que segue em direção ao Castelo Multiforme onde você pode ver
+    uma linda torre de cor indefinida.  Antes do castelo ao norte, você vê uma
+    praça onde algumas pessoas (?) estão paradas.  Ao voltar seu olhar para o
+    sul você vê o portão.
+  exits:
+    north:
+      target_vnum: '9219'
+    south:
+      target_vnum: '9205'
+  name: Estrada para o Castelo Multiforme
+  vnum: '9214'
+- description: |-
+    Você se encontra em uma praça bastante tumultuada onde os arcanos menores
+    de Copas se reúnem para celebrar sabe-se lá o quê...
+  exits:
+    north:
+      target_vnum: '9220'
+    south:
+      target_vnum: '9210'
+  name: O Lixo
+  vnum: '9215'
+- description: |-
+    Você se encontra em uma praça bastante tumultuada onde os arcanos menores
+    de Ouros se reúnem para celebrar sabe-se lá o quê...
+  exits:
+    north:
+      target_vnum: '9221'
+    south:
+      target_vnum: '9211'
+  name: O Lixo
+  vnum: '9216'
+- description: |-
+    Você se encontra em uma praça bastante tumultuada onde os arcanos menores
+    de Espadas se reúnem para celebrar sabe-se lá o quê...
+  exits:
+    north:
+      target_vnum: '9222'
+    south:
+      target_vnum: '9212'
+  name: O Lixo
+  vnum: '9217'
+- description: |-
+    Você se encontra em uma praça bastante tumultuada onde os arcanos menores
+    de Paus se reúnem para celebrar sabe-se lá o quê...
+  exits:
+    north:
+      target_vnum: '9223'
+    south:
+      target_vnum: '9213'
+  name: O Lixo
+  vnum: '9218'
+- description: |-
+    Você se encontra em uma praça bastante tumultuada onde os coringas menos
+    nobres se reúnem para celebrar sabe-se lá o quê...
+  exits:
+    north:
+      target_vnum: '9224'
+    south:
+      target_vnum: '9214'
+  name: O Lixo
+  vnum: '9219'
+- description: |-
+    Você está diante de um belo castelo de cartas vermelhas.  Sua entrada é
+    sempre bem guardada.  O mistério do que te aguarda dentro deste castelo
+    invade sua alma e você não consegue pensar em mais nada a não ser em entrar
+    nele e descobrir, talvez, o TESOURO perdido do Rei de Copas.  Seguindo para
+    norte está a entrada do Castelo e ao sul uma praça bastante movimentada
+    chama sua atenção.
+  exits:
+    north:
+      target_vnum: '9225'
+    south:
+      target_vnum: '9215'
+  name: Antes do Castelo de Copas
+  vnum: '9220'
+- description: |-
+    Você está diante de um belo castelo de cartas vermelhas.  Sua entrada é
+    sempre bem guardada.  O mistério do que te aguarda dentro deste castelo
+    invade sua alma e você não consegue pensar em mais nada a não ser em entrar
+    nele e descobrir, talvez, o TESOURO perdido do Rei de Ouros.  Seguindo para
+    norte está a entrada do Castelo e ao sul uma praça bastante movimentada
+    chama sua atenção.
+  exits:
+    north:
+      target_vnum: '9226'
+    south:
+      target_vnum: '9216'
+  name: Antes do Castelo de Ouros
+  vnum: '9221'
+- description: |-
+    Você está diante de um belo castelo de cartas pretas.  Sua entrada é
+    sempre bem guardada.  O mistério do que te aguarda dentro deste castelo
+    invade sua alma e você não consegue pensar em mais nada a não ser em entrar
+    nele e descobrir, talvez, o TESOURO perdido do Rei de Espadas.  Seguindo
+    para norte está a entrada do Castelo e ao sul uma praça bastante movimentada
+    chama sua atenção.
+  exits:
+    north:
+      target_vnum: '9227'
+    south:
+      target_vnum: '9217'
+  name: Antes do Castelo de Espadas
+  vnum: '9222'
+- description: |-
+    Você está diante de um belo castelo de cartas pretas.  Sua entrada é
+    sempre bem guardada.  O mistério do que te aguarda dentro deste castelo
+    invade sua alma e você não consegue pensar em mais nada a não ser em entrar
+    nele e descobrir, talvez, o TESOURO perdido do Rei de Paus.  Seguindo para
+    norte está a entrada do Castelo e ao sul uma praça bastante movimentada
+    chama sua atenção.
+  exits:
+    north:
+      target_vnum: '9228'
+    south:
+      target_vnum: '9218'
+  name: Antes do Castelo de Paus
+  vnum: '9223'
+- description: |-
+    Você está diante de um belo castelo de cartas multicoloridas.  Sua
+    entrada é sempre bem guardada.  O mistério do que te aguarda dentro deste
+    castelo invade sua alma e você não consegue pensar em mais nada a não ser em
+    entrar nele e descobrir, talvez, o TESOURO perdido do Rei Coringa.  Seguindo
+    para norte está a entrada do Castelo e ao sul uma praça bastante movimentada
+    chama sua atenção.
+  exits:
+    north:
+      target_vnum: '9229'
+    south:
+      target_vnum: '9219'
+  name: Antes do Castelo Multiforme
+  vnum: '9224'
+- description: |-
+    Você se encontra diante de um salão enorme com cortinas vermelhas e o
+    chão quadriculado em branco e vermelho.  Na parede há um ENORME painel com o
+    brasão de Copas.  A sua frente o mais belo de todos os tronos que você já
+    viu.  Forrado com cetim vermelho esse trono deve pertencer ao belo Rei de
+    Copas e um trono um pouco menor parece não ser usado há muito tempo, o que o
+    faz pensar que a rainha não mais habita esse mundo.  A leste você vê uma
+    pequena sala, que, embora pareça pequena, também parece muito luxuosa - ao
+    menos é o q você pode ver pela porta entreaberta que se fecha
+    repentinamente.  No canto noroeste da sala você vê uma porta que
+    provavelmente o levará para a torre que você via do lado de fora.
+  exits:
+    east:
+      target_vnum: '9230'
+    south:
+      target_vnum: '9220'
+  name: A Sala do Trono de Copas
+  vnum: '9225'
+- description: |-
+    Você se encontra diante de um salão enorme com cortinas vermelhas e o
+    chão quadriculado em branco e vermelho.  Na parede há um ENORME painel com o
+    brasão de Ouros.  A sua frente o mais belo de todos os tronos que você já
+    viu.  Forrado com cetim vermelho esse trono deve pertencer ao belo Rei de
+    Ouros e um trono um pouco menor parece não ser usado há muito tempo, o que o
+    faz pensar que a rainha não mais habita esse mundo.  A leste você vê uma
+    pequena sala, que, embora pareça pequena, também parece muito luxuosa - ao
+    menos é o q você pode ver pela porta entreaberta que se fecha
+    repentinamente.  No canto noroeste da sala você vê uma porta que
+    provavelmente o levará para a torre que você via do lado de fora.
+  exits:
+    east:
+      target_vnum: '9231'
+    south:
+      target_vnum: '9221'
+  name: A Sala do Trono de Ouros
+  vnum: '9226'
+- description: |-
+    Você se encontra diante de um salão enorme com cortinas negras e o chão
+    quadriculado em branco e preto.  Na parede há um ENORME painel com o brasão
+    de Espadas.  A sua frente o mais belo de todos os tronos que você já viu.
+    Forrado com cetim negro esse trono deve pertencer ao belo Rei de Espadas e
+    um trono um pouco menor parece não ser usado há muito tempo, o que o faz
+    pensar que a rainha não mais habita esse mundo.  A leste você vê uma pequena
+    sala, que, embora pareça pequena, também parece muito luxuosa - ao menos é o
+    q você pode ver pela porta entreaberta que se fecha repentinamente.  No
+    canto noroeste da sala você vê uma porta que provavelmente o levará para a
+    torre que você via do lado de fora.
+  exits:
+    east:
+      target_vnum: '9232'
+    south:
+      target_vnum: '9222'
+  name: A Sala do Trono de Espadas
+  vnum: '9227'
+- description: |-
+    Você se encontra diante de um salão enorme com cortinas negras e o chão
+    quadriculado em branco e preto.  Na parede há um ENORME painel com o brasão
+    de Paus.  A sua frente o mais belo de todos os tronos que você já viu.
+    Forrado com cetim negro esse trono deve pertencer ao belo Rei de Paus e um
+    trono um pouco menor parece não ser usado há muito tempo, o que o faz pensar
+    que a rainha não mais habita esse mundo.  A leste você vê uma pequena sala,
+    que, embora pareça pequena, também parece muito luxuosa - ao menos é o q
+    você pode ver pela porta entreaberta que se fecha repentinamente.  No canto
+    noroeste da sala você vê uma porta que provavelmente o levará para a torre
+    que você via do lado de fora.
+  exits:
+    east:
+      target_vnum: '9233'
+    south:
+      target_vnum: '9223'
+  name: A Sala do Trono de Paus
+  vnum: '9228'
+- description: |-
+    Você se encontra diante de um salão enorme com cortinas coloridas e o
+    chão quadriculado em vermelho e preto.  Na parede há um ENORME painel com o
+    brasão sem forma definida.  A sua frente um trono que parece imitar, sem
+    sucesso a beleza de outros.  Forrado com cetim de uma cor indefinida esse
+    trono deve pertencer ao Rei Coringa e um trono um pouco menor parece não ser
+    usado há muito tempo, o que o faz pensar que a rainha não mais habita esse
+    mundo.  A leste você vê uma pequena sala, que, embora pareça pequena, também
+    parece muito luxuosa - ao menos é o q você pode ver pela porta entreaberta
+    que se fecha repentinamente.  No canto noroeste da sala você vê uma porta
+    que provavelmente o levará para a torre que você via do lado de fora.  Você
+    ainda pode sair do castelo pela direção sul.
+  exits:
+    east:
+      target_vnum: '9234'
+    south:
+      target_vnum: '9224'
+  name: A Sala do Trono do Rei Coringa
+  vnum: '9229'
+- description: "Você está diante de um luxuosíssimo aposento com tudo que há de melhor\
+    \ em\nconforto.  TambÃ©m, pudera, este quarto pertence ao Ã\x81S de COPAS!  O\
+    \ mais\nhabilidoso de todos os habitantes deste e de muitos outros reinos!  Sua\n\
+    habilidade com espadas, chicotes, lanças e todo tipo de arma é famosa por\ntoda\
+    \ Vitália!  Sorte sua você não encontra-lo aqui ...  Mas espere ...  Onde\nandarÃ¡\
+    \ o Pacificador do Reino de Copas?  Antes que o Ã\x81s chegue vocÃª ainda\npode\
+    \ correr de volta ao salão a oeste ou ficar e esperar para enfrentá-lo."
+  exits:
+    west:
+      target_vnum: '9225'
+  name: "O Quarto do Ã\x81s de Copas"
+  vnum: '9230'
+- description: "Você está diante de um luxuosíssimo aposento com tudo que há de melhor\
+    \ em\nconforto.  TambÃ©m, pudera, este quarto pertence ao Ã\x81S de OUROS!  O\
+    \ mais\nhabilidoso de todos os habitantes deste e de muitos outros reinos!  Sua\n\
+    habilidade com espadas, chicotes, lanças e todo tipo de arma é famosa por\ntoda\
+    \ Vitália!  Sorte sua você não encontra-lo aqui ...  Mas espere ...  Onde\nandarÃ¡\
+    \ o Pacificador do Reino de Ouros?  Antes que o Ã\x81s chegue vocÃª ainda\npode\
+    \ correr de volta ao salão a oeste ou ficar e esperar para enfrentá-lo."
+  exits:
+    west:
+      target_vnum: '9226'
+  name: "O Quarto do Ã\x81s de Ouros"
+  vnum: '9231'
+- description: "Você está diante de um luxuosíssimo aposento com tudo que há de melhor\
+    \ em\nconforto.  TambÃ©m, pudera, este quarto pertence ao Ã\x81S de ESPADAS! \
+    \ O mais\nhabilidoso de todos os habitantes deste e de muitos outros reinos! \
+    \ Sua\nhabilidade com espadas, chicotes, lanças e todo tipo de arma é famosa por\n\
+    toda Vitália!  Sorte sua você não encontra-lo aqui ...  Mas espere ...  Onde\n\
+    andarÃ¡ o Pacificador do Reino de Espadas?  Antes que o Ã\x81s chegue vocÃª ainda\n\
+    pode correr de volta ao salão a oeste ou ficar e esperar para enfrentá-lo."
+  exits:
+    west:
+      target_vnum: '9227'
+  name: "O Quarto do Ã\x81s de Espadas"
+  vnum: '9232'
+- description: "Você está diante de um luxuosíssimo aposento com tudo que há de melhor\
+    \ em\nconforto.  TambÃ©m, pudera, este quarto pertence ao Ã\x81S de PAUS!  O mais\n\
+    habilidoso de todos os habitantes deste e de muitos outros reinos!  Sua\nhabilidade\
+    \ com espadas, chicotes, lanças e todo tipo de arma é famosa por\ntoda Vitália!\
+    \  Sorte sua você não encontra-lo aqui ...  Mas espere ...  Onde\nandarÃ¡ o Pacificador\
+    \ do Reino de Paus?  Antes que o Ã\x81s chegue vocÃª ainda\npode correr de volta\
+    \ ao salão a oeste ou ficar e esperar para enfrentá-lo."
+  exits:
+    west:
+      target_vnum: '9228'
+  name: "O Quarto do Ã\x81s de Paus"
+  vnum: '9233'
+- description: "Você está diante de um luxuosíssimo aposento com tudo que há de melhor\
+    \ em\nconforto.  TambÃ©m, pudera, este quarto pertence ao Falso Ã\x81s!  O mais\n\
+    habilidoso de todos os habitantes deste e de muitos outros reinos!  Sua\nhabilidade\
+    \ com espadas, chicotes, lanças e todo tipo de arma é famosa por\ntoda Vitália!\
+    \  Sorte sua você não encontra-lo aqui ...  Mas espere ...  Onde\nandarÃ¡ o Pacificador\
+    \ do Reino Coringa?  Antes que o Ã\x81s chegue vocÃª ainda\npode correr de volta\
+    \ ao salão a oeste ou ficar e esperar para enfrentá-lo."
+  exits:
+    west:
+      target_vnum: '9229'
+  name: "O Quarto do Falso Ã\x81s"
+  vnum: '9234'
+- description: |-
+    Você está em uma escada reta que o conduz ao alto da torre de Copas.
+    Você não deixa de pensar que tipo de surpresa você encontrará no fim dessa
+    escada...  Você chega ao final da escada onde há uma porta fechada.  Você
+    ainda pode voltar ao salão do trono pela mesma escada na direção
+    sul.
+  exits:
+    north:
+      target_vnum: '9240'
+  name: A Subindo a Torre de Copas
+  vnum: '9235'
+- description: |-
+    Você está em uma escada reta que o conduz ao alto da torre de Ouros.
+    Você não deixa de pensar que tipo de surpresa você encontrará no fim dessa
+    escada...  Você chega ao final da escada onde há uma porta fechada.  Você
+    ainda pode voltar ao salão do trono pela mesma escada na direção sul.
+  exits:
+    north:
+      target_vnum: '9241'
+  name: A Subindo a Torre de Ouros
+  vnum: '9236'
+- description: |-
+    Você está em uma escada reta que o conduz ao alto da torre de Espadas.
+    Você não deixa de pensar que tipo de surpresa você encontrará no fim dessa
+    escada...  Você chega ao final da escada onde há uma porta fechada.  Você
+    ainda pode voltar ao salão do trono pela mesma escada na direção sul.
+  exits:
+    north:
+      target_vnum: '9242'
+  name: A Subindo a Torre de Espadas
+  vnum: '9237'
+- description: |-
+    Você está em uma escada reta que o conduz ao alto da torre de Paus.  Você
+    não deixa de pensar que tipo de surpresa você encontrará no fim dessa
+    escada...  Você chega ao final da escada onde há uma porta fechada.  Você
+    ainda pode voltar ao salão do trono pela mesma escada na direção sul.
+  exits:
+    north:
+      target_vnum: '9243'
+  name: A Subindo a Torre de Paus
+  vnum: '9238'
+- description: |-
+    Você está em uma escada reta que o conduz ao alto da torre Coringa.  Você
+    não deixa de pensar que tipo de surpresa você encontrará no fim dessa
+    escada...  Você chega ao final da escada onde há uma porta fechada.  Você
+    ainda pode voltar ao salão do trono pela mesma escada na direção sudeste.
+  exits:
+    north:
+      target_vnum: '9244'
+  name: A Subindo a Torre Coringa
+  vnum: '9239'
+- description: |-
+    Você nota que, vendo daqui, o interior da torre é muito menor do que você
+    havia imaginado pelo lado de fora.  Na verdade trata-se de um pequeno
+    aposento onde o Rei de Copas deixa sua filha para livra-la dos
+    conquistadores baratos que rondam o Reino de Copas atrás de belas donzelas
+    com dotes altos como a Dama de Copas.  Subitamente você percebe que a porta
+    se tranca com uma rapidez estupenda impedindo seu retorno!  Parece que você
+    ficou preso aqui ....
+  exits: {}
+  name: O Alto da Torre de Copas
+  vnum: '9240'
+- description: |-
+    Você nota que, vendo daqui, o interior da torre é muito menor do que você
+    havia imaginado pelo lado de fora.  Na verdade trata-se de um pequeno
+    aposento onde o Rei de Ouros deixa sua filha para livra-la dos
+    conquistadores baratos que rondam o Reino de Ouros atrás de belas donzelas
+    com dotes altos como a Dama de Ouros.  Subitamente você percebe que a porta
+    se tranca com uma rapidez estupenda impedindo seu retorno!  Parece que você
+    ficou preso aqui ....
+  exits: {}
+  name: O Alto da Torre de Ouros
+  vnum: '9241'
+- description: |-
+    Você nota que, vendo daqui, o interior da torre é muito menor do que você
+    havia imaginado pelo lado de fora.  Na verdade trata-se de um pequeno
+    aposento onde o Rei de Espadas deixa sua filha para livra-la dos
+    conquistadores baratos que rondam o Reino de Espadas atrás de belas donzelas
+    com dotes altos como a Dama de Espadas.  Subitamente você percebe que a
+    porta se tranca com uma rapidez estupenda impedindo seu retorno!  Parece que
+    você ficou preso aqui ....
+  exits: {}
+  name: O Alto da Torre de Espadas
+  vnum: '9242'
+- description: |-
+    Você nota que, vendo daqui, o interior da torre é muito menor do que você
+    havia imaginado pelo lado de fora.  Na verdade trata-se de um pequeno
+    aposento onde o Rei de Paus deixa sua filha para livra-la dos conquistadores
+    baratos que rondam o Reino de Paus atrás de belas donzelas com dotes altos
+    como a Dama de Paus.  Subitamente você percebe que a porta se tranca com uma
+    rapidez estupenda impedindo seu retorno!  Parece que você ficou preso aqui
+    ....
+  exits: {}
+  name: O Alto da Torre de Paus
+  vnum: '9243'
+- description: |-
+    Você nota que, vendo daqui, o interior da torre é muito menor do que você
+    havia imaginado pelo lado de fora.  Na verdade trata-se de um pequeno
+    aposento onde o Rei Coringa deixa sua filha (?) para livra-la dos
+    conquistadores baratos que rondam o Reino Coringa atrás de belas (?)
+    donzelas (?) com dotes altos como a Dama Coringa.  Subitamente você percebe
+    que a porta se tranca com uma rapidez estupenda impedindo seu retorno!
+    Parece que você ficou preso aqui ....
+  exits: {}
+  name: O Alto da Torre Coringa
+  vnum: '9244'

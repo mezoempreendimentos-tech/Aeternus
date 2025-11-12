@@ -1,0 +1,1281 @@
+- description: |-
+    O castelo está à sua frente.  Uma pequena ponte levadiça permite o acesso
+    ao castelo.  Ela é feita de robustas tábuas de carvalho presas por amarras
+    de ferro.  Numerosas batidas na madeira contam histórias dos incontáveis
+    cercos que resistiu.  Os bancos impregnados de fossas nojentas e fedorentas
+    estão a esquerda e a direita.  O castelo situa-se a frente, para o norte, ou
+    você pode deixá-lo indo para o sul.
+  exits:
+    east:
+      target_vnum: '2706'
+    north:
+      target_vnum: '2701'
+    south:
+      target_vnum: '2720'
+    west:
+      target_vnum: '2707'
+  name: A Ponte Levadiça
+  vnum: '2700'
+- description: |-
+    Esta pequena península de terra que sai do continente do castelo e
+    dirigi-se para o canal serve como posto de comando.  Visitantes vindos de
+    todo o reino estão parados e examinando aqui.  Os bancos impregnados de
+    fossas estão a esquerda e a direita.  O castelo situa-se a frente, na
+    direção norte, ou você pode deixá-lo indo para o sul.
+  exits:
+    east:
+      target_vnum: '2709'
+    north:
+      target_vnum: '2702'
+    south:
+      target_vnum: '2700'
+    west:
+      target_vnum: '2708'
+  name: A Primeira Entrada Para o Castelo
+  vnum: '2701'
+- description: |-
+    Esta é a Grande Entrada do castelo.  Estandartes coloridos mostrando
+    todos os emblemas dos aliados do castelo balançam alegremente no topo.
+    Tochas brilhantes iluminam o caminho para o coração do castelo.  A passagem
+    entre as paredes do castelo começam para o leste e oeste.
+  exits:
+    east:
+      target_vnum: '2710'
+    north:
+      target_vnum: '2703'
+    south:
+      target_vnum: '2701'
+    west:
+      target_vnum: '2760'
+  name: A Grande Entrada do Castelo
+  vnum: '2702'
+- description: |-
+    Esta é uma pequena rua de direção norte/sul que passa pelo castelo.  Na
+    verdade esta é a única rua aqui.  Ao longo dela você vê várias pessoas
+    andando.  Algumas delas se encaminham às lojas, outras para o pátio.
+    Qualquer coisa que seja necessária pode ser encontrada ao longo da Rua
+    Principal.
+  exits:
+    east:
+      target_vnum: '2739'
+    north:
+      target_vnum: '2704'
+    south:
+      target_vnum: '2702'
+    west:
+      target_vnum: '2712'
+  name: A Rua Principal
+  vnum: '2703'
+- description: |-
+    Esta é uma pequena rua de direção norte/sul que passa pelo castelo.  Na
+    verdade esta é a única rua aqui.  Ao longo dela você vê muitas pessoas
+    andando.  Algumas delas se encaminham para as lojas, outras para o pátio.
+    Qualquer coisa que seja necessária pode ser encontrada ao longo da Rua
+    Principal.
+  exits:
+    east:
+      target_vnum: '2756'
+    north:
+      target_vnum: '2705'
+    south:
+      target_vnum: '2703'
+  name: A Rua Principal
+  vnum: '2704'
+- description: |-
+    Esta é uma pequena rua de direção norte/sul que passa pelo castelo.  Na
+    verdade esta é a única rua aqui.  Ao longo dela você vê muitas pessoas
+    andando.  Algumas delas se encaminham para as lojas, outras para o pátio.
+    Qualquer coisa que seja necessária pode ser encontrada ao longo da Rua
+    Principal.
+  exits:
+    east:
+      target_vnum: '2711'
+    south:
+      target_vnum: '2704'
+    west:
+      target_vnum: '2753'
+  name: O Fim da Rua Principal
+  vnum: '2705'
+- description: |-
+    A água do canal é estagnada e tem um cheiro nojento.  A água preta e
+    turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
+    superfície.  Bolhas de gases nocivos elevam-se das profundezas e estouram na
+    superfície.  Funcionando como um maravilhoso mecanismo de defesa, eles
+    cercam todo o castelo.
+  exits:
+    north:
+      target_vnum: '2709'
+    west:
+      target_vnum: '2741'
+  name: O Canal
+  vnum: '2706'
+- description: |-
+    A água do canal é estagnada e tem um cheiro nojento.  A água preta e
+    turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
+    superfície.  Bolhas de gases nocivos elevam-se das profundezas e estouram na
+    superfície.  Funcionando como um maravilhoso mecanismo de defesa, eles
+    cercam todo o castelo.
+  exits:
+    east:
+      target_vnum: '2741'
+    north:
+      target_vnum: '2708'
+  name: O Canal
+  vnum: '2707'
+- description: |-
+    A água do canal é estagnada e tem um cheiro nojento.  A água preta e
+    turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
+    superfície.  Bolhas de gases nocivos elevam-se das profundezas e estouram na
+    superfície.  Funcionando como um maravilhoso mecanismo de defesa, eles
+    cercam todo o castelo.
+  exits:
+    south:
+      target_vnum: '2707'
+  name: O Canal
+  vnum: '2708'
+- description: |-
+    A água do canal é estagnada e tem um cheiro nojento.  A água preta e
+    turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
+    superfície.  Bolhas de gases nocivos elevam-se das profundezas e estouram na
+    superfície.  Funcionando como um maravilhoso mecanismo de defesa, eles
+    cercam todo o castelo.  Um estranho mecanismo de filtragem de água foi
+    montado no desnível norte do canal.  Ele permite que a água entre, vinda do
+    rio, que fica justamente ao norte daqui, mas não saia.  Isto provavelmente
+    acontece pela pressão exercída nas barreiras no Castelo Midan para manter o
+    rio livre deste horrível canal.  Você pode escalar o aparelho e ir em
+    direção ao rio ou voltar, pelo canal, para a passagem do castelo.
+  exits:
+    south:
+      target_vnum: '2706'
+    west:
+      target_vnum: '2701'
+  name: O Canal
+  vnum: '2709'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    east:
+      target_vnum: '2775'
+    west:
+      target_vnum: '2702'
+  name: Entre as Fortificações do Castelo
+  vnum: '2710'
+- description: |-
+    Tendas estão montadas por toda essa fileira.  Produtos de todos os tipos
+    podem ser comprados aqui pela população local.  Pessoas correm ao redor de
+    você enquanto tentam pegar o que podem enquanto está a venda.  Isto é
+    realmente o paraíso dos compradores.
+  exits:
+    east:
+      target_vnum: '2743'
+    west:
+      target_vnum: '2705'
+  name: A Fileira do Regateador
+  vnum: '2711'
+- description: |-
+    A Torre do Rei levanta-se acima de você, bloqueando o sol.  Velhas
+    edificações ainda aguentam firme e, claro, desgostam a abundância do musgo
+    verde cescendo nas fendas.  Heras inglesas graciosamente adornam a torre.
+    Esta é a casa da família governante do castelo.
+  exits:
+    east:
+      target_vnum: '2703'
+    north:
+      target_vnum: '2752'
+    up:
+      target_vnum: '2713'
+  name: A Base da Torre do Rei
+  vnum: '2712'
+- description: |-
+    Este é o centro da torre que foi obviamente construida por finos
+    construtores.  Tapetes vermelhos estendem-se pelo chão e tapeçarias cobrem
+    as paredes.  Membros da família real têm seus quartos aqui.
+  exits:
+    down:
+      target_vnum: '2712'
+    north:
+      target_vnum: '2750'
+    south:
+      target_vnum: '2715'
+    up:
+      target_vnum: '2719'
+    west:
+      target_vnum: '2714'
+  name: A Torre para o Quarto do Rei
+  vnum: '2713'
+- description: |-
+    Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
+    chão que estende-se por todo o comprimento do saguão.  Há também duas
+    grandes tepeçarias nas paredes, uma de cada lado.  Tochas nas paredes
+    fornecem luz paras as pessoas verem.
+  exits:
+    east:
+      target_vnum: '2713'
+  name: O Saguão Real
+  vnum: '2714'
+- description: |-
+    Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
+    chão que estende-se por todo o comprimento do saguão.  Há também duas
+    grandes tepeçarias nas paredes, uma de cada lado.  Tochas nas paredes
+    fornecem luz paras as pessoas verem.
+  exits:
+    east:
+      target_vnum: '2716'
+    north:
+      target_vnum: '2713'
+  name: O Saguão Real
+  vnum: '2715'
+- description: |-
+    Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
+    chão que estende-se por todo o comprimento do saguão.  Há também duas
+    grandes tepeçarias nas paredes, uma de cada lado.  Tochas nas paredes
+    fornecem luz paras as pessoas verem.
+  exits:
+    east:
+      target_vnum: '2717'
+    north:
+      target_vnum: '2718'
+    west:
+      target_vnum: '2715'
+  name: O Saguão Real
+  vnum: '2716'
+- description: |-
+    Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
+    chão que estende-se por todo o comprimento do saguão.  Há também duas
+    grandes tepeçarias nas paredes, uma de cada lado.  Tochas nas paredes
+    fornecem luz paras as pessoas verem.
+  exits:
+    west:
+      target_vnum: '2716'
+  name: O Fim do Saguão Real
+  vnum: '2717'
+- description: |-
+    Tudo neste grande quarto é portátil.  Beliches em estilo militar estão no
+    fundo do quarto.  Uniformes estão pendurados organizadamente em um pequeno
+    armário embutido, na parede leste.  Aqui é onde os guardas reais moram e
+    dormem.
+  exits:
+    south:
+      target_vnum: '2716'
+  name: Os Quartos do Guardas Reais
+  vnum: '2718'
+- description: |-
+    Uma grande clarabóia permite que a luz do sol entre nesse quarto
+    abundantemente mobiliado.  Ouro adorna o teto e espelhos presos às paredes.
+    Uma grande escrivaninha está a leste.  Nela estão a estampa do selo real,
+    pergaminhos de impostos, blocos de cera e um tubo emplumado.  De fato, este
+    é o aposento do Rei!
+  exits:
+    down:
+      target_vnum: '2713'
+    north:
+      target_vnum: '2757'
+  name: O Quarto do Rei
+  vnum: '2719'
+- description: |-
+    Este largo caminho foi bem mantido durante os anos.  Diferente de vários
+    outros caminhos e estradas, ele oferece uma viagem estável e confortável.
+    Campos de trigo e aveia balançam com a brisa ao longo deste caminhos.  O
+    castelo situa-se ao norte.
+  exits:
+    east:
+      target_vnum: '2721'
+    north:
+      target_vnum: '2700'
+  name: O Caminho para o Castelo
+  vnum: '2720'
+- description: |-
+    Existem três caminhos, uma pode ir deste ponto.  O caminhos bem mantido
+    para o castelo é para o oeste.  Um caminho muito utilizado vai para o sul.
+    Um caminho sujo em direção a uma clareira fica ao leste.
+  exits:
+    east:
+      target_vnum: '2783'
+    south:
+      target_vnum: '2722'
+    west:
+      target_vnum: '2720'
+  name: Um Cruzamento em T
+  vnum: '2721'
+- description: |-
+    As pisadas de incontáveis pés maltrataram a vegetação daqui, mantando-a.
+    Tudo que restou ao longo deste caminho são escassas ervas daninhas que
+    crescem nas bordas do caminho.  Gritos de guerra e gritos de dor podem ser
+    ouvidos, vindos do leste.  O caminho segue ao norte e ao sul.
+  exits:
+    east:
+      target_vnum: '2723'
+    north:
+      target_vnum: '2721'
+    south:
+      target_vnum: '2724'
+  name: Um Caminho Bastante Utilizado
+  vnum: '2722'
+- description: |-
+    Um caminho pedrego vai em direção à origem dos gritos e sons que ressoam,
+    ao leste.  O castelo e os campos de treino situam-se à oeste.  Gotas de
+    sangue recentes e secas podem ser vistas aqui, respingadas entre as pedras.
+  exits:
+    east:
+      target_vnum: '2725'
+    west:
+      target_vnum: '2722'
+  name: O Caminho para os Campos de Guerra
+  vnum: '2723'
+- description: |-
+    O caminho não é tão utilizada como era ao norte.  Gramas crescem verdes e
+    fortes aqui, devido aos poucos pisões recebidos.  Pode-se dizer que cavalos
+    passam rotinamente por aqui, pelas pegadas no chão.  Olhando a frente, para
+    o sul, você pode ver claramente coloridas tendas motadas em um grande campo.
+  exits:
+    north:
+      target_vnum: '2722'
+    south:
+      target_vnum: '2727'
+  name: O Caminho para os Campos de Treino dos Cavaleiros
+  vnum: '2724'
+- description: |-
+    Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
+    vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
+    o treino.  Fique em guarda, acidentes acontecem.
+  exits:
+    east:
+      target_vnum: '2736'
+    north:
+      target_vnum: '2738'
+    south:
+      target_vnum: '2726'
+    west:
+      target_vnum: '2723'
+  name: Um Caminho pelos Campos de Extermínio
+  vnum: '2725'
+- description: |-
+    Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
+    vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
+    o treino.  Fique em guarda, acidentes acontecem.
+  exits:
+    east:
+      target_vnum: '2734'
+    north:
+      target_vnum: '2725'
+    south:
+      target_vnum: '2782'
+  name: Um Caminho pelos Campos de Extermínio
+  vnum: '2726'
+- description: |-
+    Cavaleiros de todo o campo vêm aqui praticar suas habilidades na
+    esperança de ser famoso algum dia.  Meday.  Lutas com lanças, boxe,
+    levantamento de peso e exercício com espadas são algumas atividades
+    acontecendo.  Esquivando-se, um vagabundo é golpeado pr um cavaleiro.  Você
+    vê entradas para grandes tendas à direita e à esquerda.
+  exits:
+    east:
+      target_vnum: '2728'
+    north:
+      target_vnum: '2724'
+    south:
+      target_vnum: '2730'
+    west:
+      target_vnum: '2729'
+  name: Os Campos de Treino dos Cavaleiros
+  vnum: '2727'
+- description: |-
+    Esta grande tenda é a casa do Cavaleiro da Rosa Branca.  Tudo ao seu
+    redor é de cor branca e carregam a insígnia da Rosa Branca.  Maravilhosas
+    armas feitas à mão repousam de forma organizada em uma escrivaninha à
+    direita.  Uma grande cama à direita sustenta armaduras polidas, prontas para
+    serem vestidas.
+  exits:
+    west:
+      target_vnum: '2727'
+  name: Uma Tenda dos Cavaleiros Leais
+  vnum: '2728'
+- description: |-
+    A tenda é pequena e pouco mobiliada.  Uma mesa com uma vela em cima está
+    no meio do quarto.  Uma cama está atrás.  Pilhas de farrapos usados para
+    limpar e polir utensílios dos cavaleiro estão espalhados pelo chão.
+  exits:
+    east:
+      target_vnum: '2727'
+  name: Uma Tenda de um Escudeiro
+  vnum: '2729'
+- description: |-
+    Cavaleiros de todo o campo vêm aqui praticar suas habilidades na
+    esperança de ser famoso algum dia.  Meday.  Lutas com lanças, boxe,
+    levantamento de peso e exercício com espadas são algumas atividades
+    acontecendo.  Esquivando-se, um vagabundo é golpeado pr um cavaleiro.  Você
+    vê entradas para grandes tendas à direita e à esquerda.
+  exits:
+    east:
+      target_vnum: '2731'
+    north:
+      target_vnum: '2727'
+    south:
+      target_vnum: '2733'
+    west:
+      target_vnum: '2732'
+  name: Os Campos de Treino dos Cavaleiros
+  vnum: '2730'
+- description: |-
+    A tenda é esplendidamente decorada, dando a impressão de que pertence a
+    alguém de altíssimo nível.  Travesseiros de veludo sobre tapetes persas faz
+    com que qualquer um se sinta em casa.  Uma escrivaninha com inúmeros papeis,
+    contendo a extensa programação de eventos deste reino, está no centro do
+    quarto.  Incensos perfumados queimam de apoios presos ao teto da tenda.
+  exits:
+    west:
+      target_vnum: '2730'
+  name: A Tenda da Paladina
+  vnum: '2731'
+- description: |-
+    A tenda é pequena e pouco mobiliada.  Uma mesa com uma vela em cima está
+    no meio do quarto.  Uma cama está atrás.  Pilhas de farrapos usados para
+    limpar e polir utensílios dos cavaleiro estão espalhados pelo chão.
+  exits:
+    east:
+      target_vnum: '2730'
+  name: A Tenda de um Escudeiro
+  vnum: '2732'
+- description: |-
+    Remédios e extratos de ervas demarcam as prateleiras organizadas da
+    melhor forma possível, nesta tenda.  Uma cama médica encontra-se no centro
+    do quarto.  Um grande balde cheio de água sangrenta está perto dela.  Um
+    grande buraco no topo da tenda permite a entrada da luz do sol.
+  exits:
+    north:
+      target_vnum: '2730'
+  name: A Tenda dos Treinadores
+  vnum: '2733'
+- description: |-
+    Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
+    vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
+    o treino.  Fique em guarda, acidentes acontecem.
+  exits:
+    east:
+      target_vnum: '2735'
+    north:
+      target_vnum: '2736'
+    west:
+      target_vnum: '2726'
+  name: Os Campos de Extermínio
+  vnum: '2734'
+- description: |-
+    Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
+    vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
+    o treino.  Fique em guarda, acidentes acontecem.
+  exits:
+    north:
+      target_vnum: '2737'
+    west:
+      target_vnum: '2734'
+  name: Um Caminho pelos Campos de Extermínio
+  vnum: '2735'
+- description: |-
+    Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
+    oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
+    carne sacrificada está ao redor.  O zumbido das moscas procurando por corpos
+    é enlouquecedor.  Estes são realmente os Campos de Extermínio!
+  exits:
+    east:
+      target_vnum: '2737'
+    north:
+      target_vnum: '2779'
+    south:
+      target_vnum: '2734'
+    west:
+      target_vnum: '2725'
+  name: Os Campos de Extermínio
+  vnum: '2736'
+- description: |-
+    Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
+    vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
+    o treino.  Fique em guarda, acidentes acontecem.
+  exits:
+    north:
+      target_vnum: '2780'
+    south:
+      target_vnum: '2735'
+    west:
+      target_vnum: '2736'
+  name: Um Caminho pelos Campos de Extermínio
+  vnum: '2737'
+- description: |-
+    Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
+    oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
+    carne sacrificada está ao redor.  O zumbido das moscas procurando por corpos
+    é enlouquecedor.  Estes são realmente os Campos de Extermínio!
+  exits:
+    east:
+      target_vnum: '2737'
+    south:
+      target_vnum: '2725'
+  name: Os Campos de Extermínio
+  vnum: '2738'
+- description: |-
+    Conforme você entra pela entrada de granito, você pára um momento
+    deixando que seus olhos acostumem com a escura sala.  Você nota uma
+    escrivaninha no centro da sala, onde um Guarda está sentado mexendo em
+    papéis aparentemente importantes.  Ele levanta a cabeça lentamente fitando-o
+    com um olhar frio e mortal.  Você espera que a razão por estar lá seja boa.
+    Olhando para o leste você vê outro ecritório...  Ousa entrar?  Talvez você
+    deva apenas voltar...
+  exits:
+    east:
+      target_vnum: '2740'
+    west:
+      target_vnum: '2703'
+  name: Um Quartel
+  vnum: '2739'
+- description: |-
+    Cuidadosamente entrando no escritório do Carcereiro, você dá uma rápida
+    olhada pela sala.  Parece como se ela acabasse de sair...  Um copo fumegante
+    de algum liquído aparentemente sujo está entre vários papéis manchados com
+    sangue.  Uma porta, ligeiramente aberta, revela um grupo de escadas
+    conduzindo para baixo.
+  exits:
+    down:
+      target_vnum: '2742'
+    west:
+      target_vnum: '2739'
+  name: O Escritório do Carcereiro
+  vnum: '2740'
+- description: |-
+    A água do canal é estagnada e tem um cheiro nojento.  A água preta e
+    turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
+    superfície.  Bolhas de gases nocivos elevam-se das profundezas e estouram na
+    superfície.  Funcionando como um maravilhoso mecanismo de defesa, eles
+    cercam todo o castelo.
+  exits:
+    east:
+      target_vnum: '2706'
+    west:
+      target_vnum: '2707'
+  name: Embaixo da Ponte Levadiça do Canal
+  vnum: '2741'
+- description: |-
+    Localizado na base das escadas, você analiza o quarto sem janelas,
+    procurando por seus ocupantes.  A lâmpada, suspensa do teto, está balançando
+    para frente e para trás espalhando sobras pelo quarto.  De um de seus lados
+    os carcereiros aparecem!!  Fortes e vestidos de preto, eles avançam em sua
+    direção, espadas empunhadas...  O som estridente de várias chaves presas em
+    suas cinturas rompem o silêncio
+  exits:
+    north:
+      target_vnum: '2745'
+    up:
+      target_vnum: '2740'
+  name: O Quarto do Carcereiro
+  vnum: '2742'
+- description: |-
+    Estes são os estábulos.  Palha cobre o chão e cercados limpos, cheios de
+    animais, podem ser vistos aqui.  Toda noite os animais do castelo são
+    reunidos e trnacados aqui para evitar qualquer dano causado por eles.
+  exits:
+    west:
+      target_vnum: '2711'
+  name: Os Estábulos
+  vnum: '2743'
+- description: |-
+    Vários utensílios de dor e tortura estão pendurados nas paredes aqui...
+    Chicotes de couro...  Pequenos ganchos visíveis fazem um zig-zag em todo seu
+    comprimento.  As paredes respingadas de sangue e o chão manchado contam
+    sobre várias mortes.
+  exits:
+    west:
+      target_vnum: '2746'
+  name: A Cela
+  vnum: '2744'
+- description: |-
+    O escuro e úmido corredor parece ser infinito, interrompido apenas por
+    uma ocasional entrada.  Você pode ver barras cobrindo as portas, mas nada
+    além daquilo...  As salas são tão escuras que você sente como se estivesse
+    caindo no vácuo escuro.
+  exits:
+    east:
+      target_vnum: '2747'
+    north:
+      target_vnum: '2746'
+    south:
+      target_vnum: '2742'
+    west:
+      target_vnum: '2748'
+  name: O Corredor do Calabouço
+  vnum: '2745'
+- description: |-
+    Aventurando-se mais abaixo pelo corredor escurecido, você não consegue
+    nem imaginar que outros horrores irá encontrar aqui...  Sua mente clama para
+    que você volte.
+  exits:
+    east:
+      target_vnum: '2744'
+    south:
+      target_vnum: '2745'
+    west:
+      target_vnum: '2749'
+  name: Corredor do Calabouço
+  vnum: '2746'
+- description: |-
+    Os ossos de vários homens estão esparramados pelo chão ensanguentado.  As
+    correntes presas no alto da parede contam sobre torturas e dores
+    excruciantes...  Você treme involuntariamente quando olha para as marcas
+    escuras de sangue seco que marcam a parede...
+  exits:
+    west:
+      target_vnum: '2745'
+  name: A Cela
+  vnum: '2747'
+- description: |-
+    Uma grande mesa domina a sala.  Grandes cabos em um dos fins não deixam
+    dúvidas sobre onde era utilizado.  Conforme você olha mais de perto para as
+    correntes do pulso e do tornozla, você percebe que existem pedaços de carne
+    dilacerada ainda presentes...  O cheio na sala é predominante...  Carne
+    podre e morte penetra em seus sentidos...
+  exits:
+    east:
+      target_vnum: '2745'
+  name: A Cela
+  vnum: '2748'
+- description: |-
+    Ao entrar nesta cela eus sentidos são imediatamente assaltados pelo forte
+    cheiro de carne podre.  Você rapidamente descobre a origem do cheiro
+    pútrido...  Vários corpos em putrefação estão pendurados por grossas
+    correntes presas nas paredes...
+  exits:
+    east:
+      target_vnum: '2746'
+  name: A Cela
+  vnum: '2749'
+- description: |-
+    Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
+    chão que estende-se por todo o comprimento do saguão.  Há também duas
+    grandes tepeçarias nas paredes, uma de cada lado.  Tochas nas paredes
+    fornecem luz paras as pessoas verem.
+  exits:
+    south:
+      target_vnum: '2713'
+    up:
+      target_vnum: '2757'
+  name: O Saguão Real
+  vnum: '2750'
+- description: |-
+    Olhando da torre de guarda você pode ver o campo que a cerca por muitas
+    milhas.  Um inimigo teria dificuldades tentando se aproximar sem ser notado.
+    Você pode ver brilhos da luz refletidas nas armaduras no Campo de Extermínio
+    ao sul.  As árvores da Floresta Midan cobrem as terras a leste.
+  exits:
+    down:
+      target_vnum: '2765'
+  name: No Topo da Torre de Guarda
+  vnum: '2751'
+- description: |-
+    Todos os criados do Rei moram aqui.  Sob o olho atento de experientes
+    chefs, os criados levam e trazem comida da torre.  Eles obedientemente
+    limpam a torre e mantém as terras do castelo.  Uma corda amarrada a um
+    pequeno sino vai para cima em direção ao quarto do rei.  Quando o sino toca
+    os criados entram em atividade para cumprir a ordem do rei.  As mobilias
+    neste quarto são planas e simples
+  exits:
+    south:
+      target_vnum: '2712'
+  name: As Moradias dos Criados
+  vnum: '2752'
+- description: |-
+    Um pequeno pátio situa-se entre estas parede, oferecendo um refugio dos
+    rigores da vida no castelo.  Pequenas árvores e arbustos trazem um pouco do
+    mundo lá fora.  A água flui do topo da fonte de bacia em bacia até que ela
+    se encontre com o lago do peixe dourado, no meio do pátio.
+  exits:
+    east:
+      target_vnum: '2705'
+  name: Um pequeno Pátio
+  vnum: '2753'
+- description: |-
+    Ferrugem preta cobre as paredes daqui.  Uma fornalha fervendo está a
+    leste, no fim da sala.  Pedaços de metal estão espalhados por toda a grande
+    bancada de carvalho na sala.  Uma bacia com água está no meio da sala.
+    Escadas ao longo da parede norte levam ao andar superior, para outras lojas.
+  exits:
+    up:
+      target_vnum: '2758'
+    west:
+      target_vnum: '2756'
+  name: A Loja do Ferreiro
+  vnum: '2754'
+- description: |-
+    Olhando da torre de guarda você pode ver o campo que a cerca por muitas
+    milhas.  Um inimigo teria dificuldades tentando se aproximar sem ser notado.
+    Você pode ver brilhos da luz refletidas nas armaduras no Campo de Extermínio
+    ao sul.  As árvores da Floresta Midan cobrem as terras a leste.
+  exits:
+    down:
+      target_vnum: '2770'
+  name: No Topo da Torre de Guarda
+  vnum: '2755'
+- description: |-
+    Um velho homem e sua mulher estão atrás de uma bancada vendendo suas
+    mercadorias assadas.  Um agradável odor de canela toma conta da sala.
+    Apenas as melhores mercadorias assadas são vendidas aqui.  Qualquer coisa de
+    menor qualidade é mandada para alimentar os animais do estábulo.
+  exits:
+    east:
+      target_vnum: '2754'
+    west:
+      target_vnum: '2704'
+  name: A Padaria do Castelo
+  vnum: '2756'
+- description: |-
+    Este é o quarto da Rainha.  Aqui é onde todas as damas de espera tendem
+    às suas necessidades.  Uma grande cadeira de veludo, uma pia elegante, um
+    armário e bobagens podem ser vistas aqui.  Uma porta leva ao quarto do rei,
+    ao sul.
+  exits:
+    down:
+      target_vnum: '2750'
+    south:
+      target_vnum: '2719'
+  name: O Quarto da Rainha
+  vnum: '2757'
+- description: |-
+    Mostruários exibem todos os tipo de armas, pendurados nas paredes da
+    sala.  Qualquer arma que você poderá percisar pode ser obtida aqui.  Se por
+    acaso for uma arma em especial, o ferreiro irá trabalhar com o forno no
+    andar de baixo para deixá-la a seu gosto.  Escadas na parede ao norte levam
+    para cima e para baixo.
+  exits:
+    down:
+      target_vnum: '2754'
+    up:
+      target_vnum: '2759'
+  name: A Loja de Armas
+  vnum: '2758'
+- description: |-
+    Manequins usando o que há de mais recente em armaduras estão pela sala.
+    Armaduras dos melhores artesãos podem ser compradas aqui.  Olhando ao redor
+    você a única saída, que é descer as escadas.
+  exits:
+    down:
+      target_vnum: '2758'
+  name: O Depósito de Armaduras
+  vnum: '2759'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    east:
+      target_vnum: '2702'
+    west:
+      target_vnum: '2761'
+  name: Entre as Fortificações do Castelo
+  vnum: '2760'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    east:
+      target_vnum: '2760'
+    north:
+      target_vnum: '2762'
+  name: O Canto Sudoeste
+  vnum: '2761'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    north:
+      target_vnum: '2763'
+    south:
+      target_vnum: '2761'
+  name: Entre as Fortificações do Castelo
+  vnum: '2762'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    north:
+      target_vnum: '2764'
+    south:
+      target_vnum: '2762'
+  name: Entre as Fortificações do Castelo
+  vnum: '2763'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    north:
+      target_vnum: '2765'
+    south:
+      target_vnum: '2763'
+  name: Entre as Fortificações do Castelo
+  vnum: '2764'
+- description: |-
+    Pesadas tábuas de madeira foram construídas para ligar as duas
+    fortificações daqui.  Olhando para cima você pode ver que uma torre de
+    guarda de pedra foi construida sobre aquela.  Uma escada ao longo da parede
+    interna leva para a torre de guarda acima.
+  exits:
+    east:
+      target_vnum: '2766'
+    south:
+      target_vnum: '2764'
+    up:
+      target_vnum: '2751'
+  name: A Torre de Guarda Noroeste
+  vnum: '2765'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    east:
+      target_vnum: '2767'
+    west:
+      target_vnum: '2765'
+  name: Entre as Fortificações do Castelo
+  vnum: '2766'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    east:
+      target_vnum: '2768'
+    west:
+      target_vnum: '2766'
+  name: Entre as Fortificações do Castelo
+  vnum: '2767'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    east:
+      target_vnum: '2769'
+    west:
+      target_vnum: '2767'
+  name: Entre as Fortificações do Castelo
+  vnum: '2768'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.1
+  exits:
+    east:
+      target_vnum: '2770'
+    west:
+      target_vnum: '2768'
+  name: Entre as Fortificações do Castelo
+  vnum: '2769'
+- description: |-
+    Pesadas tábuas de madeira foram construídas para ligar as duas
+    fortificações daqui.  Olhando para cima você pode ver que uma torre de
+    guarda de pedra foi construida sobre aquela.  Uma escada ao longo da parede
+    interna leva para a torre de guarda acima.
+  exits:
+    south:
+      target_vnum: '2771'
+    up:
+      target_vnum: '2755'
+    west:
+      target_vnum: '2769'
+  name: A Torre Nordeste
+  vnum: '2770'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    north:
+      target_vnum: '2770'
+    south:
+      target_vnum: '2772'
+  name: Entre as Fortificações do Castelo
+  vnum: '2771'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    north:
+      target_vnum: '2771'
+    south:
+      target_vnum: '2773'
+  name: Entre as Fortificações do Castelo
+  vnum: '2772'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    north:
+      target_vnum: '2772'
+    south:
+      target_vnum: '2774'
+  name: Entre as Fortificações do Castelo
+  vnum: '2773'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    north:
+      target_vnum: '2773'
+    west:
+      target_vnum: '2775'
+  name: O Canto Sudeste
+  vnum: '2774'
+- description: |-
+    Pedras cinzas do interior e exterior das fortificações demarcam a
+    passagem.  Fendas através das paredes de ambos os lados permitem que
+    defensores atirem flechas em qualquer atacante, em caso de um cerco.  Você
+    percebe que este castelo é bem protegido e não cairá facilmente nas mãos de
+    inimigos.
+  exits:
+    east:
+      target_vnum: '2774'
+    west:
+      target_vnum: '2710'
+  name: Entre as Fortificações do Castelo
+  vnum: '2775'
+- description: |-
+    Abaixo de uma grande quantidade de rochas está a caverna do urso.  Mesmo
+    com a fraca luz do sol na entrada da caverna aqui eh escuro.  Uma briga pode
+    ser ouvida vinda de algum lugar daqui.  Talvez seja melhor sair
+    silenciosamente e voltar por onde veio.
+  exits:
+    west:
+      target_vnum: '2798'
+  name: A Caverna do Urso
+  vnum: '2776'
+- description: |-
+    A trilha faz uma suave curva aqui conforme você caminha pela floresta.
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.
+  exits:
+    east:
+      target_vnum: '2797'
+    north:
+      target_vnum: '2778'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2777'
+- description: |-
+    Raios de sol passam pelas folhas das árvores crescendo acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  A trilha o leva para o norte e
+    para o sul.
+  exits:
+    north:
+      target_vnum: '2789'
+    south:
+      target_vnum: '2777'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2778'
+- description: |-
+    Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
+    oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
+    carne sacrificada está ao redor.  O zumbido das moscas procurando por corpos
+    é enlouquecedor.  Estes são realmente os Campos de Extermínio!
+  exits:
+    east:
+      target_vnum: '2780'
+    south:
+      target_vnum: '2736'
+    west:
+      target_vnum: '2738'
+  name: Os Campos de Extermínio
+  vnum: '2779'
+- description: |-
+    Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
+    oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
+    carne sacrificada está ao redor.  O zumbido das moscas procurando por corpos
+    é enlouquecedor.  Estes são realmente os Campos de Extermínio!  Uma grande
+    tenda emanando uma fraca aura preta está a leste.
+  exits:
+    east:
+      target_vnum: '2781'
+    south:
+      target_vnum: '2737'
+    west:
+      target_vnum: '2779'
+  name: Os Campos de Extermínio
+  vnum: '2780'
+- description: |-
+    Após entrar na tenda, um sentimento de intensa maldade desloca sua alma.
+    Valiosos panos de seda preta guarnece sobre tudo e travesseiros de veludo
+    convidam-no a um descanso.  Você deseja descansar, mas a presença de sangue
+    no chão úmido deixa-o nervoso.  A oeste você pode voltar as Campos de
+    Extermínio.
+  exits:
+    west:
+      target_vnum: '2780'
+  name: A Tenda do Cavaleiro do Espinho Negro
+  vnum: '2781'
+- description: |-
+    Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
+    oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
+    carne sacrificada está ao redor.  O zumbido das moscas procurando por corpos
+    é enlouquecedor.  Estes são realmente os Campos de Extermínio!
+  exits:
+    north:
+      target_vnum: '2726'
+  name: Os Campos de Extermínio
+  vnum: '2782'
+- description: |-
+    Esta clareira é ampla e espaçosa.  A grama alta ondula com a suave brisa.
+    Borboletas de todos os tipos voam entre as coloridas flores selvagens que
+    crescem aqui.  Para o norte o caminho torna-se uma trilha através da
+    Floresta Midan.  A oeste está um caminho mais utilizado.
+  exits:
+    north:
+      target_vnum: '2784'
+    west:
+      target_vnum: '2721'
+  name: Um Caminho Através da Clareira
+  vnum: '2783'
+- description: |-
+    A trilha faz uma suave curva aqui conforme você caminha pela floresta.
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.  As
+    árvores estão começando a dar espaço para baixos arbustos e para a grama
+    alta.  Uma clareira abriu-se ao o sul, enquanto a floresta está a leste.
+  exits:
+    east:
+      target_vnum: '2785'
+    south:
+      target_vnum: '2783'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2784'
+- description: |-
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
+  exits:
+    east:
+      target_vnum: '2786'
+    west:
+      target_vnum: '2784'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2785'
+- description: |-
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
+  exits:
+    east:
+      target_vnum: '2787'
+    west:
+      target_vnum: '2785'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2786'
+- description: |-
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
+  exits:
+    east:
+      target_vnum: '2788'
+    west:
+      target_vnum: '2786'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2787'
+- description: |-
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
+  exits:
+    east:
+      target_vnum: '2789'
+    west:
+      target_vnum: '2787'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2788'
+- description: |-
+    A trilha faz uma suave curva aqui conforme você caminha pela floresta.
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.
+  exits:
+    south:
+      target_vnum: '2778'
+    west:
+      target_vnum: '2788'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2789'
+- description: |-
+    A trilha faz uma suave curva aqui conforme você caminha pela floresta.
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.
+  exits:
+    east:
+      target_vnum: '2792'
+    south:
+      target_vnum: '2797'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2790'
+- description: "As ávores crescem adiante daqui, criando uma clareira.  A grama baixa\n\
+    atapetam o chão.  Uma pequena nascente borbulha para fora do chão, saindo\ndentre\
+    \ algumas pedras recobertas de musgo.  Uma pequena cascata é criada\nconforme\
+    \ ela flui sobre as pedras.  O resplendor aquático parece brilhar\ncomo se uma\
+    \ brisa vinda do leste apenas sobre o outro lado da cascata.  Ã\x89 um\nlugar\
+    \ tranqüilo, um onde um viajante pode descansar sem se preocupar."
+  exits:
+    north:
+      target_vnum: '2792'
+    south:
+      target_vnum: '2798'
+    west:
+      target_vnum: '2797'
+  name: Uma Clareira Dentro da Floresta
+  vnum: '2791'
+- description: |-
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  Uma clareira pode ser vista ao
+    sul.
+  exits:
+    east:
+      target_vnum: '2793'
+    south:
+      target_vnum: '2791'
+    west:
+      target_vnum: '2790'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2792'
+- description: |-
+    A trilha faz uma suave curva aqui conforme você caminha pela floresta.
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.
+  exits:
+    south:
+      target_vnum: '2794'
+    west:
+      target_vnum: '2792'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2793'
+- description: |-
+    A trilha faz uma suave curva aqui conforme você caminha pela floresta.
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  Para o sul está uma área aberta de
+    encostas que podem cair.
+  exits:
+    east:
+      target_vnum: '2795'
+    north:
+      target_vnum: '2793'
+  name: Uma curva na Trilha
+  vnum: '2794'
+- description: |-
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.
+    Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
+    graciosamente no chão ao seu redor.  Os sons do imenso jardim selvagem são
+    tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
+  exits:
+    east:
+      target_vnum: '2796'
+    west:
+      target_vnum: '2794'
+  name: Uma trilha através da Floresta Midan
+  vnum: '2795'
+- description: |-
+    Os confortos de Midgaard cedem lugar para uma região selvagem, aqui.
+    Altos carvalhos, agradáveis borbos, vidoeiros brancos descascados, e uma
+    ampla vegetação de plátanos marcam o começo da Floresta Midan.  Uma trilha
+    de um rico solo sedimentar pode ser vista a oeste.  Midgaard situa-se a
+    leste.
+  exits:
+    north:
+      target_vnum: '6090'
+    west:
+      target_vnum: '2795'
+  name: A Entrada para a Floresta Midan
+  vnum: '2796'
+- description: |-
+    A trilha faz uma suave curva aqui conforme você caminha pela floresta.
+    Raios de sol passam pelas folhas das árvores que crescem acima de você.  Uma
+    clareira pode ser vista a leste e a floresta fechada está ao sul.  A trilha
+    continua ao norte e oeste.
+  exits:
+    east:
+      target_vnum: '2791'
+    north:
+      target_vnum: '2790'
+    south:
+      target_vnum: '2799'
+    west:
+      target_vnum: '2777'
+  name: Uma Trilha através da Floresta Midan
+  vnum: '2797'
+- description: |-
+    A luz do sol é bloqueada pela copa das fortes árvores que crescem aqui.
+    Uma árvore bastante cicatrizada está a sua frente.  Ela parece ter sido
+    arranhada por algum tipo de animal grande.  Uma entrada para uma caverna
+    está a leste.  Ao norte está a floresta mais aberta e uma trilha de
+    caçadores está a oeste.
+  exits:
+    east:
+      target_vnum: '2776'
+    north:
+      target_vnum: '2791'
+    west:
+      target_vnum: '2799'
+  name: A Mata Fechada na Floresta Midan
+  vnum: '2798'
+- description: |-
+    A luz do sol é bloqueada pela copa das fortes árvores que crescem aqui.
+    A vegetação daqui é tão densa que a única saída é voltando de onde veio ou
+    indo para leste na trilha dos caçadores.
+  exits:
+    east:
+      target_vnum: '2798'
+    north:
+      target_vnum: '2797'
+  name: A Mata Fechada na Floresta Midan
+  vnum: '2799'

@@ -1,0 +1,863 @@
+- description: |-
+    Ao entrar neste tunel, você encontra a correnteza deste rio que
+    corta as montanhas.  Há uma ramificação para o norte.
+  exits:
+    east:
+      target_vnum: '5002'
+    north:
+      target_vnum: '2170'
+    west:
+      target_vnum: '3205'
+  name: Um Túnel Longo
+  vnum: '5001'
+- description: O túnel se ramifica para o norte.
+  exits:
+    east:
+      target_vnum: '5003'
+    north:
+      target_vnum: '5008'
+    west:
+      target_vnum: '5001'
+  name: Um Túnel Longo
+  vnum: '5002'
+- description: O túnel se ramifica para o sul.
+  exits:
+    east:
+      target_vnum: '5004'
+    south:
+      target_vnum: '5017'
+    west:
+      target_vnum: '5002'
+  name: Um Túnel Longo
+  vnum: '5003'
+- description: O túnel se ramifica para o sul.
+  exits:
+    east:
+      target_vnum: '5005'
+    north:
+      target_vnum: '5643'
+    south:
+      target_vnum: '5018'
+    west:
+      target_vnum: '5003'
+  name: Um Túnel Longo
+  vnum: '5004'
+- description: |-
+    Você está flutuando em um negro lago subterrâneo, alimentado pelo
+    gotejar da água e do limbo que vem de cima. O túnel continua ao leste
+    e a correnteza do rio a oeste. Conduzindo acima ao noroeste há um
+    corredor.
+  exits:
+    east:
+      target_vnum: '5006'
+    north:
+      target_vnum: '5671'
+    south:
+      target_vnum: '5023'
+    up:
+      target_vnum: '5016'
+    west:
+      target_vnum: '5004'
+  name: Um Lago Subterrâneo
+  vnum: '5005'
+- description: O túnel sobe diretamente para o leste.
+  exits:
+    east:
+      target_vnum: '5007'
+    west:
+      target_vnum: '5005'
+  name: Um Longo Túnel Estreito
+  vnum: '5006'
+- description: |-
+    O túnel segue para leste e oeste. Para o leste, o túnel mergulha
+    na direção de uma clara luz. Uma passagem pequena se abre ao norte.
+  exits:
+    east:
+      target_vnum: '5026'
+    west:
+      target_vnum: '5006'
+  name: Um Túnel Largo
+  vnum: '5007'
+- description: |-
+    Você se encontra bem no limite de um grande monte de pedregulhos,
+    fruto do último deslizamento.
+  exits:
+    down:
+      target_vnum: '5009'
+    south:
+      target_vnum: '5002'
+  name: A Entrada da Caverna
+  vnum: '5008'
+- description: |-
+    Você está bem ao fundo de uma grande pilha de pedregulho. Um túnel
+    se ramifica  para o norte e leste.
+  exits:
+    east:
+      target_vnum: '5012'
+    north:
+      target_vnum: '5010'
+    up:
+      target_vnum: '5008'
+  name: Ao Pé dos Pedregulhos
+  vnum: '5009'
+- description: |-
+    Você se encontra no meio de uma caverna grande e bonita. Um caminho
+    conduz para a mais profunda escuridão.
+  exits:
+    down:
+      target_vnum: '5011'
+    south:
+      target_vnum: '5009'
+  name: Uma Entrada de Caverna
+  vnum: '5010'
+- description: |-
+    Esta caverna o subjuga. As paredes e o teto parecem estar há
+    milhas de distância de você. Ossos de desafortunados aventureiros estão
+    espalhados pelo chão de toda a caverna.
+  exits:
+    down:
+      target_vnum: '5100'
+    up:
+      target_vnum: '5010'
+  name: Uma Caverna Gigantesca
+  vnum: '5011'
+- description: O túnel segue para o sul e oeste.
+  exits:
+    south:
+      target_vnum: '5013'
+    west:
+      target_vnum: '5009'
+  name: Uma Curva Estreita
+  vnum: '5012'
+- description: |-
+    Você se encontra dentro de uma caverna muito grande.  Muitas peles
+    estão jogadas pelo chão.
+  exits:
+    east:
+      target_vnum: '5014'
+    north:
+      target_vnum: '5012'
+  name: Uma Caverna Grande
+  vnum: '5013'
+- description: As paredes aqui estão extremamente úmidas, assim como o chão também.
+  exits:
+    east:
+      target_vnum: '5015'
+    west:
+      target_vnum: '5013'
+  name: "Um Corredor Ã\x9Amido"
+  vnum: '5014'
+- description: Você avança penosamente por uma funda piscina de água limbosa.
+  exits:
+    south:
+      target_vnum: '5016'
+    west:
+      target_vnum: '5014'
+  name: Uma Piscina Subterrânea
+  vnum: '5015'
+- description: |-
+    As paredes do túnel são extremamente úmidas aqui. Você ouve a doce
+    melodia provocada pelo constante movimento da água corrente ao sul
+  exits:
+    north:
+      target_vnum: '5015'
+    south:
+      target_vnum: '5005'
+  name: "Um Corredor Ã\x9Amido"
+  vnum: '5016'
+- description: |-
+    Este canal é grande o bastante para que um homem adulto rasteje ou
+    para que outro tipo de forma de vida caminhe livremente.
+  exits:
+    east:
+      target_vnum: '5018'
+    north:
+      target_vnum: '5003'
+    south:
+      target_vnum: '5019'
+  name: Um Canal Estreito
+  vnum: '5017'
+- description: |-
+    Você entrou dentro de uma caverna muito grande. As formações
+    rochosas causariam espanto em práticamente todos os anões.
+  exits:
+    north:
+      target_vnum: '5004'
+    west:
+      target_vnum: '5017'
+  name: Uma Caverna Grande
+  vnum: '5018'
+- description: |-
+    Enquanto você anda através do caminho de fungos, você se vê
+    envolvido por milhões e milhões de esporos. Você mal consegue respirar.
+  exits:
+    east:
+      target_vnum: '5020'
+    north:
+      target_vnum: '5017'
+  name: Um Caminho de Fungo
+  vnum: '5019'
+- description: |-
+    A medida em que você anda através do caminho, milhões de esporos
+    são arremessados em sua direção. Isso lhe dificulta a respiração.
+  exits:
+    south:
+      target_vnum: '5021'
+    west:
+      target_vnum: '5019'
+  name: O Caminho de Fungo
+  vnum: '5020'
+- description: |-
+    Você se encontra dentro de um gigantesco cogumelo. Seu interior
+    está todo enfeitado como um templo.
+  exits:
+    east:
+      target_vnum: '5022'
+    north:
+      target_vnum: '5020'
+  name: O Templo de Fungos
+  vnum: '5021'
+- description: |-
+    Você segue por um caminho que se inclina por baixo do templo de
+    fungos.
+  exits:
+    down:
+      target_vnum: '5023'
+    south:
+      target_vnum: '5021'
+  name: Uma Passagem Inclinada
+  vnum: '5022'
+- description: Você está em um caminho que suavemente emerge da piscina subterrânea.
+  exits:
+    north:
+      target_vnum: '5005'
+    up:
+      target_vnum: '5022'
+    west:
+      target_vnum: '6951'
+  name: Uma Passagem Inclinada
+  vnum: '5023'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+    encontra uma gigantesca montanha com seu cume embranquecido por neves
+    eternas.
+  exits:
+    east:
+      target_vnum: '5034'
+    north:
+      target_vnum: '5030'
+    south:
+      target_vnum: '5025'
+  name: O Grande Deserto Oriental
+  vnum: '5024'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+    encontra uma gigantesca montanha com seu cume embranquecido por neves
+    eternas.
+  exits:
+    east:
+      target_vnum: '5031'
+    north:
+      target_vnum: '5024'
+    south:
+      target_vnum: '5026'
+  name: O Grande Deserto Oriental
+  vnum: '5025'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+    encontra uma gigantesca montanha com seu cume embranquecido por neves
+    eternas. O buraco por onde você saiu é muito alto para que possa ser
+    alcançado.
+  exits:
+    east:
+      target_vnum: '5036'
+    north:
+      target_vnum: '5025'
+    south:
+      target_vnum: '5027'
+  name: O Grande Deserto Oriental
+  vnum: '5026'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+    encontra uma gigantesca montanha com seu cume embranquecido por neves
+    eternas.
+  exits:
+    east:
+      target_vnum: '5033'
+    north:
+      target_vnum: '5026'
+    south:
+      target_vnum: '5028'
+  name: O Grande Deserto Oriental
+  vnum: '5027'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+    encontra uma gigantesca montanha com seu cume embranquecido por neves
+    eternas. Você espia através de uma estreita trilha de terra que conduz
+    para o oeste, por entre o pé das montanhas.
+  exits:
+    east:
+      target_vnum: '5033'
+    north:
+      target_vnum: '5027'
+    south:
+      target_vnum: '5029'
+    west:
+      target_vnum: '12068'
+  name: O Grande Deserto Oriental
+  vnum: '5028'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A nordeste há uma pirâmide e ao oeste se
+    encontra uma gigantesca montanha com seu cume embranquecido por neves
+    eternas.
+  exits:
+    east:
+      target_vnum: '5037'
+    north:
+      target_vnum: '5028'
+    south:
+      target_vnum: '5044'
+  name: O Grande Deserto Oriental
+  vnum: '5029'
+- description: |-
+    Você se vê ao lado de uma pequenina piscina de águas cristalinas,
+    envolvivas pelas sombras de algumas raras palmeiras. Ao norte, você
+    vê um pequeno acampamento, descansando.
+  exits:
+    east:
+      target_vnum: '5036'
+    north:
+      target_vnum: '5056'
+    south:
+      target_vnum: '5032'
+    up:
+      target_vnum: '2000'
+    west:
+      target_vnum: '5025'
+  name: Um Pequeno Oásis
+  vnum: '5030'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao leste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5031'
+    north:
+      target_vnum: '5031'
+    south:
+      target_vnum: '5032'
+    west:
+      target_vnum: '5024'
+  name: O Grande Deserto Oriental
+  vnum: '5031'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao leste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5036'
+    north:
+      target_vnum: '5035'
+    south:
+      target_vnum: '5033'
+    west:
+      target_vnum: '5032'
+  name: O Grande Deserto Oriental
+  vnum: '5032'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A nordeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5037'
+    north:
+      target_vnum: '5037'
+    south:
+      target_vnum: '5043'
+    west:
+      target_vnum: '5028'
+  name: O Grande Deserto Oriental
+  vnum: '5033'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A sudeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5035'
+    north:
+      target_vnum: '5038'
+    south:
+      target_vnum: '5034'
+    west:
+      target_vnum: '5035'
+  name: O Grande Deserto Oriental
+  vnum: '5034'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A leste há uma pirâmide que parece ser
+    enorme, mesmo a esta distância.
+  exits:
+    east:
+      target_vnum: '5300'
+    north:
+      target_vnum: '5039'
+    south:
+      target_vnum: '5032'
+    west:
+      target_vnum: '5034'
+  name: O Grande Deserto Oriental
+  vnum: '5035'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A nordeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5041'
+    north:
+      target_vnum: '5035'
+    south:
+      target_vnum: '5032'
+    west:
+      target_vnum: '5030'
+  name: O Grande Deserto Oriental
+  vnum: '5036'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A nordeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '8101'
+    north:
+      target_vnum: '5048'
+    south:
+      target_vnum: '5042'
+    west:
+      target_vnum: '5033'
+  name: O Grande Deserto Oriental
+  vnum: '5037'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao sul há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5045'
+    north:
+      target_vnum: '5046'
+    south:
+      target_vnum: '5040'
+    west:
+      target_vnum: '5034'
+  name: O Grande Deserto Oriental
+  vnum: '5038'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao sul há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5039'
+    north:
+      target_vnum: '5046'
+    south:
+      target_vnum: '5048'
+    west:
+      target_vnum: '5039'
+  name: O Grande Deserto Oriental
+  vnum: '5039'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Você está próximo a uma pirâmide
+    gigantesca localizada a uns cem metros a oeste de você.  Daqui você
+    consegue sentiro grande mal que se encontra dentro da estrutura volumosa.
+  exits:
+    east:
+      target_vnum: '5049'
+    north:
+      target_vnum: '5036'
+    south:
+      target_vnum: '5041'
+    west:
+      target_vnum: '5300'
+  name: O Grande Deserto Oriental
+  vnum: '5040'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+    passa por constantes mudanças.  Ao norte há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5048'
+    north:
+      target_vnum: '5040'
+    south:
+      target_vnum: '5041'
+    west:
+      target_vnum: '5037'
+  name: O Grande Deserto Oriental
+  vnum: '5041'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao norte há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5055'
+    north:
+      target_vnum: '5049'
+    south:
+      target_vnum: '5043'
+    west:
+      target_vnum: '5041'
+  name: O Grande Deserto Oriental
+  vnum: '5042'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao norte há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5055'
+    north:
+      target_vnum: '5042'
+    south:
+      target_vnum: '5044'
+    west:
+      target_vnum: '5033'
+  name: O Grande Deserto Oriental
+  vnum: '5043'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+    passa por constantes mudanças.  Ao norte há uma pirâmide e há uma cidade
+    arruinada a oeste.
+  exits:
+    east:
+      target_vnum: '5055'
+    north:
+      target_vnum: '5050'
+    south:
+      target_vnum: '5029'
+    west:
+      target_vnum: '5200'
+  name: O Grande Deserto Oriental
+  vnum: '5044'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao sul há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5052'
+    north:
+      target_vnum: '5045'
+    south:
+      target_vnum: '5045'
+    west:
+      target_vnum: '5038'
+  name: O Grande Deserto Oriental
+  vnum: '5045'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao sudoeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5047'
+    north:
+      target_vnum: '5038'
+    south:
+      target_vnum: '5047'
+    west:
+      target_vnum: '5039'
+  name: O Grande Deserto Oriental
+  vnum: '5046'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A oeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5051'
+    north:
+      target_vnum: '5046'
+    south:
+      target_vnum: '5053'
+    west:
+      target_vnum: '5040'
+  name: O Grande Deserto Oriental
+  vnum: '5047'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A oeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5048'
+    north:
+      target_vnum: '5039'
+    south:
+      target_vnum: '5053'
+    west:
+      target_vnum: '5041'
+  name: O Grande Deserto Oriental
+  vnum: '5048'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A noroeste há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5054'
+    north:
+      target_vnum: '5053'
+    south:
+      target_vnum: '5050'
+    west:
+      target_vnum: '5042'
+  name: O Grande Deserto Oriental
+  vnum: '5049'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A norte há uma pirâmide.
+  exits:
+    east:
+      target_vnum: '5054'
+    north:
+      target_vnum: '5300'
+    south:
+      target_vnum: '5044'
+    west:
+      target_vnum: '5042'
+  name: O Grande Deserto Oriental
+  vnum: '5050'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. Ao sudoeste há uma pirâmide e ao leste se
+    encontra um canion muito profundo.
+  exits:
+    north:
+      target_vnum: '5051'
+    south:
+      target_vnum: '5052'
+    west:
+      target_vnum: '5047'
+  name: O Grande Deserto Oriental
+  vnum: '5051'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A sudoeste há uma pirâmide e um canion
+    muito profundo se encontra ao leste. Um pouco abaixo, você pode perceber
+    uma pequena borda.
+  exits:
+    down:
+      target_vnum: '5063'
+    north:
+      target_vnum: '5051'
+    south:
+      target_vnum: '5053'
+    west:
+      target_vnum: '5045'
+  name: O Grande Deserto Oriental
+  vnum: '5052'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+    passa por constantes mudanças.  A oeste há uma pirâmide e um canion muito
+    profundo se encontra ao leste.
+  exits:
+    east:
+      target_vnum: '5062'
+    north:
+      target_vnum: '5052'
+    south:
+      target_vnum: '5054'
+    west:
+      target_vnum: '5049'
+  name: O Grande Deserto Oriental
+  vnum: '5053'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A oeste há uma pirâmide e um canion
+    muito profundo se encontra ao leste.
+  exits:
+    north:
+      target_vnum: '5053'
+    south:
+      target_vnum: '5055'
+    west:
+      target_vnum: '5050'
+  name: O Grande Deserto Oriental
+  vnum: '5054'
+- description: |-
+    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+    passa por constantes mudanças. A noroeste há uma pirâmide e um canion
+    muito profundo se encontra ao leste.
+  exits:
+    north:
+      target_vnum: '5054'
+    south:
+      target_vnum: '5055'
+    west:
+      target_vnum: '5043'
+  name: O Grande Deserto Oriental
+  vnum: '5055'
+- description: |-
+    Este pequeno grupo de nômades do deserto, parou durante o dia para
+    descansar e se refrescar neste oásis maravilhoso.  Três tendas e
+    alguns camelos fazem parte do cenário.  De dentro de duas das tendas,
+    você ouve vozes abafadas, obviamente surpresas com a sua visita.
+  exits:
+    east:
+      target_vnum: '5057'
+    north:
+      target_vnum: '5058'
+    south:
+      target_vnum: '5030'
+    west:
+      target_vnum: '5025'
+  name: Um Acampamento de Nômades
+  vnum: '5056'
+- description: |-
+    Esta é uma pequena e simples tenda, em cujo interior poucas posses
+    foram guardadas. Homens e mulheres jazem deitados por todos os lados,
+    possivelmente são os escravos do líder deste bando.
+  exits:
+    west:
+      target_vnum: '5056'
+  name: Dentro de Uma Pequena Tenda
+  vnum: '5057'
+- description: |-
+    Aqui estão aproximadamente dez camelos, todos amarrados a algumas
+    estacas cravadas no chão. Ao leste você vê uma pequena tenda e ao norte
+    você vê uma tenda bem maior e muito mais luxuosa.
+  exits:
+    east:
+      target_vnum: '5059'
+    north:
+      target_vnum: '5060'
+    south:
+      target_vnum: '5056'
+    west:
+      target_vnum: '5024'
+  name: Ao lado dos Camelos
+  vnum: '5058'
+- description: |-
+    Esta tenda possui pouco mobiliário mas guarda, principalmente, os que
+    são os protetores do bando. Quando você entra, sente que todos lhe fixam
+    friamente.
+  exits:
+    west:
+      target_vnum: '5058'
+  name: A Tenda dos Guerreiros
+  vnum: '5059'
+- description: |-
+    Esta tenda é tão bem decorada em seu interior quanto no seu exterior.
+    Um tapete foi cuidadosamente estendido sobre a areia e numerosas cestas
+    enfileiram-se nas paredes.
+  exits:
+    east:
+      target_vnum: '5061'
+    south:
+      target_vnum: '5058'
+  name: A Tenda Principal
+  vnum: '5060'
+- description: |-
+    Este é o local onde o líder deste grupo de nômades reside. Você
+    examina cuidadosamente as belas tapeçarias, cestas e alguns pinturas
+    que ali estão enfeitando o ambiente e conclui que, definitvamente,
+    o dono desta tenda é muito rico.
+  exits:
+    west:
+      target_vnum: '5060'
+  name: A Tenda Principal
+  vnum: '5061'
+- description: |-
+    Você cuidadosamente começa a caminhar para o outro lado da ponte mas,
+    de repente, a corda se rompe e você cai.......
+    ...e cai
+    ...e cai
+    ...e cai
+    ...e você encontra a morte nas pedras abaixo.
+  exits: {}
+  name: A Ponte de Corda Esgarçada
+  vnum: '5062'
+- description: |-
+    Sendo muito cuidadoso para não perder o equilíbrio, você dá uma olhada
+    e acha que este canion deve ter mais ou menos 1/2 quilômetro de
+    profundidade. Para o oeste há uma caverna escura que segue por debaixo
+    das areias do deserto e sobre a sua cabeça há uma ponte de corda.
+  exits:
+    up:
+      target_vnum: '5052'
+    west:
+      target_vnum: '5064'
+  name: A Borda de Vento
+  vnum: '5063'
+- description: |-
+    O ar daqui é MUITO mais fresco que o de fora. Vindos do oeste, você
+    ouve sons estranhos, mas não consegue ver nada.  A caverna se aprofunda
+    na escuridão.
+  exits:
+    east:
+      target_vnum: '5063'
+    west:
+      target_vnum: '5065'
+  name: A Entrada da Caverna
+  vnum: '5064'
+- description: |-
+    Você acabou de tropeçar na casa de alguém.  Pelos tesouros largados
+    displicentemente e as inúmeras carcaças apodrecendo, você diria que esta
+    é a toca de um dragão. Dizer que tipo de dragão é este, você não poderia
+    dizer com certeza. A caverna estreita fora em um túnel para o oeste.
+  exits:
+    east:
+      target_vnum: '5064'
+    west:
+      target_vnum: '5066'
+  name: Uma Toca Misteriosa
+  vnum: '5065'
+- description: |-
+    Este túnel parece entrar infinitamente atraves da escuridão. Você
+    cuidadosamente vai apalpando as paredes para sentir por onde anda.
+  exits:
+    east:
+      target_vnum: '5065'
+    west:
+      target_vnum: '5067'
+  name: Um Túnel Largo
+  vnum: '5066'
+- description: |-
+    O túnel vai ficando muito estreito e você tem que se espremer para
+    conseguir passar. O chão parece que se nivelou um pouco.
+  exits:
+    east:
+      target_vnum: '5066'
+    south:
+      target_vnum: '5068'
+  name: Um Túnel Mais Estreito
+  vnum: '5067'
+- description: |-
+    Esta é a parte do túnel onde fica mais difícil de se mover, porque as
+    paredes parecem que estão vindo ao seu encontro.
+  exits:
+    north:
+      target_vnum: '5067'
+    west:
+      target_vnum: '5069'
+  name: Uma Trinca Estreita
+  vnum: '5068'
+- description: "Ã\x89 escuro e muito Ãºmido e hÃ¡ morcegos pendurados no teto. Uma\
+    \ trinca\nmuito estreita aparece na parede a leste.  O chão se inclina para cima\n\
+    agora."
+  exits:
+    east:
+      target_vnum: '5068'
+    west:
+      target_vnum: '5070'
+  name: Uma Pequena Caverna
+  vnum: '5069'
+- description: |-
+    Atraves deste pequeno feixe de luz você pode ver um buraco estreito no
+    teto grande o bastante para uma pessoa passar. Ao leste está a caverna.
+  exits:
+    east:
+      target_vnum: '5069'
+    up:
+      target_vnum: '5009'
+  name: Um Pequeno Feixe de Luz
+  vnum: '5070'

@@ -1,0 +1,274 @@
+- description: |-
+    Ao tentar atravessar o portal, você percebe que alguma coisa estranha
+    aconteceu...  Ao dar seu primeiro passo dentro do portal, a saída começou a
+    ficar distante, e você não pôde mais alcançá-la.  Ao olhar para trás, você
+    percebe que a entrada do portal desapareceu.
+    Você agora está flutuando nas névoas do portal, e você pode as ver por
+    todos os lados.  Agora a única coisa que você pode fazer é procurar a saída.
+    Corra, e encontre-a antes que ela se feche!
+  exits:
+    down:
+      target_vnum: '117'
+    east:
+      target_vnum: '116'
+    north:
+      target_vnum: '112'
+    south:
+      target_vnum: '118'
+    up:
+      target_vnum: '113'
+    west:
+      target_vnum: '114'
+  name: Entre as Névoas do Portal
+  vnum: '110'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '116'
+    east:
+      target_vnum: '112'
+    north:
+      target_vnum: '117'
+    south:
+      target_vnum: '114'
+    up:
+      target_vnum: '118'
+    west:
+      target_vnum: '113'
+  name: Entre as Névoas do Portal
+  vnum: '111'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '114'
+    east:
+      target_vnum: '113'
+    north:
+      target_vnum: '118'
+    south:
+      target_vnum: '115'
+    up:
+      target_vnum: '119'
+    west:
+      target_vnum: '111'
+  name: Entre as Névoas do Portal
+  vnum: '112'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '115'
+    east:
+      target_vnum: '111'
+    north:
+      target_vnum: '119'
+    south:
+      target_vnum: '116'
+    up:
+      target_vnum: '117'
+    west:
+      target_vnum: '112'
+  name: Entre as Névoas do Portal
+  vnum: '113'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '119'
+    east:
+      target_vnum: '115'
+    north:
+      target_vnum: '111'
+    south:
+      target_vnum: '117'
+    up:
+      target_vnum: '112'
+    west:
+      target_vnum: '116'
+  name: Entre as Névoas do Portal
+  vnum: '114'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '117'
+    east:
+      target_vnum: '116'
+    north:
+      target_vnum: '112'
+    south:
+      target_vnum: '118'
+    up:
+      target_vnum: '113'
+    west:
+      target_vnum: '114'
+  name: Entre as Névoas do Portal
+  vnum: '115'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '118'
+    east:
+      target_vnum: '114'
+    north:
+      target_vnum: '113'
+    south:
+      target_vnum: '119'
+    up:
+      target_vnum: '111'
+    west:
+      target_vnum: '115'
+  name: Entre as Névoas do Portal
+  vnum: '116'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '113'
+    east:
+      target_vnum: '118'
+    north:
+      target_vnum: '114'
+    south:
+      target_vnum: '111'
+    up:
+      target_vnum: '115'
+    west:
+      target_vnum: '119'
+  name: Entre as Névoas do Portal
+  vnum: '117'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '111'
+    east:
+      target_vnum: '119'
+    north:
+      target_vnum: '115'
+    south:
+      target_vnum: '112'
+    up:
+      target_vnum: '116'
+    west:
+      target_vnum: '117'
+  name: Entre as Névoas do Portal
+  vnum: '118'
+- description: Você está flutuando pelas névoas do portal.
+  exits:
+    down:
+      target_vnum: '112'
+    east:
+      target_vnum: '117'
+    north:
+      target_vnum: '116'
+    south:
+      target_vnum: '113'
+    up:
+      target_vnum: '114'
+    west:
+      target_vnum: '118'
+  name: Entre as Névoas do Portal
+  vnum: '119'
+- description: "Você se encontra numa enorme redoma de cristal.  Uma leve névoa azulada\n\
+    paira no ar e há um suave aroma de flores campestres.  Ao olhar para os\nlados\
+    \ você encontra apenas seu reflexo no mais puro cristal já encontrado.\nEsta sala\
+    \ o faz sentir calmo e relaxado, pronto para expandir seus\nconhecimentos sobre\
+    \ nosso belíssimo Mundo de Vitália.  O único objeto que\nvocê observa é um pedestal\
+    \ com um livro apoiado sobre ele.  Este é o Livro\nSagrado de Vitália.  Em sua\
+    \ capa está contida a palavra @YPOLICY@n grafada em\nouro.  Ã\x80 sua frente vocÃª\
+    \ percebe uma parte da nÃ©voa com um tom de azul mais\nforte - uma força mágica\
+    \ e acolhedora pronta para lhe ensinar o caminho da\nsabedoria."
+  exits: {}
+  name: A Sala da Sabedoria
+  vnum: '186'
+- description: "Você se encontra numa enorme redoma de cristal.  Uma leve névoa azulada\n\
+    paira no ar e há um suave aroma de flores campestres.  Ao olhar para os\nlados\
+    \ você encontra apenas seu reflexo no mais puro cristal já encontrado.\nEsta sala\
+    \ o faz sentir calmo e relaxado, pronto para expandir seus\nconhecimentos sobre\
+    \ nosso belíssimo Mundo de Vitália.  O único objeto que\nvocê observa é um pedestal\
+    \ com um livro apoiado sobre ele.  Este é o Livro\nSagrado de Vitália.  Em sua\
+    \ capa está contida a palavra @YPOLICY@n grafada em\nouro.  Ã\x80 sua frente vocÃª\
+    \ percebe uma parte da nÃ©voa com um tom de azul mais\nforte - uma força mágica\
+    \ e acolhedora pronta para lhe ensinar o caminho da\nsabedoria."
+  exits: {}
+  name: A Sala da Sabedoria
+  vnum: '187'
+- description: "Você se encontra numa enorme redoma de cristal.  Uma leve névoa azulada\n\
+    paira no ar e hà um suave aroma de flores campestres.  Ao olhar para os\nlados\
+    \ você encontra apenas seu reflexo no mais puro cristal já  encontrado.\nEsta\
+    \ sala o faz sentir calmo e relaxado, pronto para expandir seus\nconhecimentos\
+    \ sobre nosso belíssimo Mundo de Vitália.  O único objeto que\nvocê observa é\
+    \ um pedestal com um livro apoiado sobre ele.  Este é o Livro\nSagrado de Vitália.\
+    \  Em sua capa está contida a palavra @YPOLICY@n grafada em\nouro.  Ã\x80 sua\
+    \ frente vocÃª percebe uma parte da nÃ©voa com um tom de azul mais\nforte - uma\
+    \ força mágica e acolhedora pronta para lhe ensinar o caminho da\nsabedoria."
+  exits: {}
+  name: A Sala da Sabedoria
+  vnum: '188'
+- description: "Você se encontra numa enorme redoma de cristal.  Uma leve névoa azulada\n\
+    paira no ar e há um suave aroma de flores campestres.  Ao olhar para os\nlados\
+    \ você encontra apenas seu reflexo no mais puro cristal já encontrado.\nEsta sala\
+    \ o faz sentir calmo e relaxado, pronto para expandir seus\nconhecimentos sobre\
+    \ nosso belíssimo Mundo de Vitália.  O único objeto que\nvocê observa é um pedestal\
+    \ com um livro apoiado sobre ele.  Este é o Livro\nSagrado de Vitália.  Em sua\
+    \ capa está contida a palavra @YPOLICY@n grafada em\nouro.  Ã\x80 sua frente vocÃª\
+    \ percebe uma parte da nÃ©voa com um tom de azul mais\nforte - uma força mágica\
+    \ e acolhedora pronta para lhe ensinar o caminho da\nsabedoria."
+  exits: {}
+  name: A Sala da Sabedoria
+  vnum: '189'
+- description: |-
+    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+    Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+    em nenhum lugar você vê a sombra do seu corpo.  Você percebe um espécie de
+    portal sobre você.
+  exits:
+    up:
+      target_vnum: '50'
+  name: O Vazio
+  vnum: '190'
+- description: |-
+    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+    Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+    em nenhum lugar você vê a sombra do seu corpo.  Você percebe um espécie de
+    portal sobre você.
+  exits:
+    up:
+      target_vnum: '50'
+  name: O Vazio
+  vnum: '191'
+- description: |-
+    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+    Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+    em nenhum lugar você vê a sombra do seu corpo.  Você não consegue imaginar
+    forma alguma de sair daqui.
+  exits: {}
+  name: O Vazio
+  vnum: '192'
+- description: |-
+    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+    Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+    em nenhum lugar você vê a sombra do seu corpo.  Você não consegue imaginar
+    forma alguma de sair daqui.
+  exits: {}
+  name: O Vazio
+  vnum: '193'
+- description: |-
+    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+    Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+    em nenhum lugar você vê a sombra do seu corpo.  Você não consegue imaginar
+    forma alguma de sair daqui.
+  exits: {}
+  name: O Vazio
+  vnum: '194'
+- description: |-
+    Você está sobre um solo de cor escura.  Olhando ao redor, você percebe
+    que o solo some no infinito, por todos os lados, e você não consegue ver seu
+    fim.  O céu brilha com uma cor azul, totalmente sem nuvens.
+  exits:
+    east:
+      target_vnum: '195'
+    north:
+      target_vnum: '195'
+    south:
+      target_vnum: '195'
+    west:
+      target_vnum: '195'
+  name: O Solo Infinito
+  vnum: '195'
