@@ -1,0 +1,1343 @@
+- description: |-
+    Você está no limiar entre a floresta e o que parece ser uma grande
+    cidade.  Daqui você vê as largas ruas ladeadas de postes muito altos que
+    usam velas para iluminar.  Você pode sentir a atmosfera romântica da Cidade
+    Luz, Paris.  Há um aviso aqui que diz " Não esqueça de visitar a Catedral de
+    Paris".  Daqui, você pode continuar nesta rua indo para o leste.  Se for
+    para o sul, chegará até a cidade de Lyon ou entrar nos Champs Elyseés ao
+    norte.
+  exits:
+    east:
+      target_vnum: '010304304301'
+    north:
+      target_vnum: '010304304350'
+    northeast:
+      target_vnum: '010102302355'
+    south:
+      target_vnum: '010304304337'
+  name: A Entrada para a Cidade Luz
+  vnum: '010304304300'
+- description: |-
+    Você está em uma bonita rua, toda enfeitada com flores e árvores em
+    toda a sua extensão.  Se você prestasse mais atenção, notaria que todas as
+    ruas são iguais.  Isto está começando a ficar enfadonho.  Você pode
+    continuar nesta rua por a leste ou retornar para o oeste.
+  exits:
+    east:
+      target_vnum: '010304304302'
+    west:
+      target_vnum: '010304304300'
+  name: O Início da Rua Notre Dame
+  vnum: '010304304301'
+- description: |-
+    Você está na mesma rua enfadonha e percebe que está ao lado de um imenso
+    e sólido muro de pedra.  Ao olhar para cima, você vê que no topo há um
+    grande campanário.  Você percebe que isso não se trata de um campanário
+    comum, pois possui inúmeros detalhes, deduzindo então que ele deve
+    pertencer a uma grande e importante catedral de Paris.  Daqui você só pode
+    ir para o leste ou oeste.
+  exits:
+    east:
+      target_vnum: '010304304303'
+    west:
+      target_vnum: '010304304301'
+  name: Rua Notre Dame
+  vnum: '010304304302'
+- description: |-
+    Você está parado em frente a entrada da Catedral de Notre Dame.  Ao
+    olhar para cima você fica estupefato com uma enorme janela rosa.  Se você
+    olhar mais perto, irá notar os lindos ornamentos da porta, na qual estão
+    representadas as figuras dos quatros evangelistas.  Você pode entrar na
+    catedral ao sul, ou pode continuar indo pelo leste ou oeste.
+  exits:
+    east:
+      target_vnum: '010304304304'
+    south:
+      target_vnum: '010304304305'
+    west:
+      target_vnum: '010304304302'
+  name: A Entrada para a Catedral
+  vnum: '010304304303'
+- description: |-
+    Você está em um beco sem saída.  Tudo está quieto, e para o leste há
+    uma enorme parede que bloqueia o seu caminho.  Olhando para cima você nota
+    que há outro imenso campanário, o que só pode significar uma de coisa: você
+    ultrapassou a entrada da catedral.
+  exits:
+    west:
+      target_vnum: '010304304303'
+  name: O Fim da Rua Notre Dame
+  vnum: '010304304304'
+- description: |-
+    Você está entrando em uma das catedrais no estilo gótico mais bonitas
+    que existe.  Aqui há belíssimos ornamentos dourados pelo teto; e nas
+    paredes de pedra encontram-se grandes estátuas esculpidas em granito.  O
+    chão é todo coberto por pedras de mármore.  No momento em que você se vira
+    percebe que, em cada um dos lados da porta, existe uma linda coluna em
+    estilo dórico, com frisos e entalhes.
+  exits:
+    east:
+      target_vnum: '010304304307'
+    north:
+      target_vnum: '010304304303'
+    south:
+      target_vnum: '010304304308'
+    west:
+      target_vnum: '010304304306'
+  name: "O Ã\x81trio da Catedral"
+  vnum: '010304304305'
+- description: |-
+    Você está ao lado ocidental do átrio, a aqui as paredes e o teto é todo
+    enfeitado.  Você nota que no teto existem alguns belos anjos feitos em ouro
+    puro.  O chão é todo revestido por um raro e, com certeza, caríssimo
+    mármore branco, lhe dando a vontade de ser um sacerdote para poder morar
+    em um lugar tão belo assim.
+  exits:
+    east:
+      target_vnum: '010304304305'
+  name: "O Ã\x81trio De Dame de Notre"
+  vnum: '010304304306'
+- description: |-
+    Você está ao lado oriental do átrio e pode ver, decorando as paredes,
+    algumas estátuas esculpidas em uma pedra vermelha.  Você reconhece aqui a
+    figura de Cristo e também alguns dos apóstolos.  No teto encontram-se
+    muitos anjos feitos em ouro, entre os quais, os arcanjos Rafael, Miguel e
+    Gabriel.
+  exits:
+    west:
+      target_vnum: '010304304305'
+  name: "O Ã\x81trio de Notre Dame"
+  vnum: '010304304307'
+- description: |-
+    Você está no corredor central da catedral, e pode ver o altar a seu
+    redor.  Por todo o local existem inúmeros bancos de madeira, nos quais as
+    pessoas podem se sentar e ouvir atentamente o sermão que o cardeal faz. Ao
+    leste, encontra-se a capela e para o oeste você consegue enxergar um
+    quarto, com uma passagem para o segundo andar.
+  exits:
+    east:
+      target_vnum: '010304304309'
+    north:
+      target_vnum: '010304304305'
+    south:
+      target_vnum: '010304304316'
+    west:
+      target_vnum: '010304304312'
+  name: O Corredor Central
+  vnum: '010304304308'
+- description: |-
+    Você está no corredor oriental da catedral.  Aqui há vários bancos de
+    madeira apor todo o seu redor, nos quais há pessoas sentadas, sussurrando
+    umas para as outras.  A leste, você vê um pequeno quarto que o conduz para
+    a capela.
+  exits:
+    east:
+      target_vnum: '010304304310'
+    south:
+      target_vnum: '010304304317'
+    west:
+      target_vnum: '010304304308'
+  name: O Corredor Oriental
+  vnum: '010304304309'
+- description: |-
+    Você está em um pequeno, frio e escuro, quarto onde pode-se ver um banco
+    no qual as pessoas se sentam, enquanto esperam pela vinda do padre.  Você
+    pode abrir a porta e a leste, e entrar na capela, ou voltar para o
+    corredor.
+  exits:
+    east:
+      target_vnum: '010304304311'
+    west:
+      target_vnum: '010304304309'
+  name: A Sala de Espera da Catedral
+  vnum: '010304304310'
+- description: |-
+    Você entrou em uma pequena capela onde normalmente o padre realiza a
+    confissão daqueles que precisam.  Este quarto é muito escuro pois a única
+    luz existente vem de uma vela, e não existe janela alguma por aqui.  A
+    única saída é a oeste, passando pela porta.
+  exits:
+    west:
+      target_vnum: '010304304310'
+  name: Uma Pequena Capela
+  vnum: '010304304311'
+- description: |-
+    Você está no corredor ocidental, onde existem vários bancos de madeira
+    por toda sua extensão, e nos quais alguns fiéis franceses aguardam pela
+    chegada do cardeal.  Nas laterais encontram-se enormes janelas com lindos
+    vitrais, nas quais cenas bíblicas são representadas.  Há uma velha porta a
+    oeste.
+  exits:
+    east:
+      target_vnum: '010304304308'
+    south:
+      target_vnum: '010304304315'
+    west:
+      target_vnum: '010304304313'
+  name: O Corredor Ocidental
+  vnum: '010304304312'
+- description: |-
+    Você está em um pequeno quarto, muito mal iluminado.  O local está todo
+    muito sujo, como se ninguém entrasse aqui há muito tempo.  Para o norte, há
+    outro quarto com uma pequena escada que o conduz ao segundo andar da
+    catedral.
+  exits:
+    east:
+      target_vnum: '010304304312'
+    north:
+      target_vnum: '010304304314'
+  name: Um Quarto Pequeno
+  vnum: '010304304313'
+- description: |-
+    Este quarto é muito escuro.  A única luz vem de uma tocha que está presa
+    na parede.  Logo a sua frente, há uma uma velha escada feita de madeira.
+    Cuidado, ela parece ser muito velha e não muito segura... suba por sua
+    conta e risco.
+  exits:
+    south:
+      target_vnum: '010304304313'
+    up:
+      target_vnum: '010304304325'
+  name: Os Degraus para o Campanário
+  vnum: '010304304314'
+- description: |-
+    Você está no lado ocidental da catedral.  A leste há inúmeros bancos
+    de madeira, e ao oeste, em um dos vitrais das janelas, está representada
+    uma passagem muito especial da Bíblia: "O nascimento de Cristo", com
+    alguns pastores, vacas e ovelhas.
+  exits:
+    east:
+      target_vnum: '010304304316'
+    north:
+      target_vnum: '010304304312'
+    south:
+      target_vnum: '010304304320'
+  name: Corredor Ocidental
+  vnum: '010304304315'
+- description: |-
+    Você está na nave central, e vários bancos encontram-se ao seu lado
+    direito e esquerdo, o que está começando a deixa-lo um pouco doido.
+    Bancos, bancos e mais bancos de madeira!!  Você até prefere olhar para o
+    teto , que é feito de pedra cinzenta, assim como quase toda a catedral.  No
+    teto encontram-se algumas vigas expostas, que parecem também terem sido
+    feitas de pedra.
+  exits:
+    east:
+      target_vnum: '010304304317'
+    north:
+      target_vnum: '010304304308'
+    south:
+      target_vnum: '010304304319'
+    west:
+      target_vnum: '010304304315'
+  name: A Nave Central
+  vnum: '010304304316'
+- description: "Você está no lado oriental da catedral.  A oeste, você vê muitos bancos\n\
+    de madeira e ao leste há uma janela com vitrais que mostram as passagens\nda BÃ­blia.\
+    \  Em uma delas hÃ¡ representado a \"Ã\x9Altima Ceia\", na qual estÃ£o\nlocalizadas\
+    \ as figuras de Cristo e os doze apóstolos."
+  exits:
+    north:
+      target_vnum: '010304304309'
+    south:
+      target_vnum: '010304304318'
+    west:
+      target_vnum: '010304304316'
+  name: O Corredor Oriental
+  vnum: '010304304317'
+- description: |-
+    Você está no corredor ao lado leste de Notre Dame.  Aqui ainda pode-se
+    ver muitos bancos de madeira, e no vidro sujo da janela, você vê
+    representado a crucificação de Cristo.  No corredor há um aviso que
+    diz: "Não se esqueça de dar o dízimo ".
+  exits:
+    north:
+      target_vnum: '010304304317'
+    south:
+      target_vnum: '010304304323'
+    west:
+      target_vnum: '010304304319'
+  name: Corredor Oriental
+  vnum: '010304304318'
+- description: |-
+    Você está na nave central, mas já muito entediado por ver tantos bancos
+    de madeira.  Olhando para o chão, você percebe que sobre a superfície
+    lisa do mármore, há um tapete vermelho, dividindo bem a sua frente os
+    lugares onde ficam a classe média, e a alta sociedade da França.  Fazendo
+    uma rápida comparação, você percebe que até mesmo os bancos parecem ser
+    mais confortáveis.
+  exits:
+    east:
+      target_vnum: '010304304318'
+    north:
+      target_vnum: '010304304316'
+    south:
+      target_vnum: '010304304322'
+    west:
+      target_vnum: '010304304320'
+  name: A Nave Central
+  vnum: '010304304319'
+- description: |-
+    Você está no corredor ocidental de Notre Dame.  No sujo vitral da
+    janela, encontra-se a representação da cena em que Cristo foi para o templo
+    e falou com os sacerdotes.  Ao leste você pode ver muitos bancos de
+    madeira.
+  exits:
+    east:
+      target_vnum: '010304304319'
+    north:
+      target_vnum: '010304304315'
+    south:
+      target_vnum: '010304304321'
+  name: O Corredor Ocidental
+  vnum: '010304304320'
+- description: |-
+    Você continua no corredor ocidental da catedral, onde há muitos bancos
+    de madeira e alguns franceses de uma privilegiada classe social.  No vidro
+    manchado da janela, há a representação da cena em que João batiza Cristo.
+  exits:
+    east:
+      target_vnum: '010304304322'
+    north:
+      target_vnum: '010304304320'
+  name: O Corredor Ocidental
+  vnum: '010304304321'
+- description: |-
+    Você está na nave principal da catedral.  Aqui você pode ver os mesmos
+    velhos bancos de madeira, mas as pessoas são diferentes; nota-se que elas
+    são da alta sociedade da França, vestindo roupas elegantes e sofisticadas,
+    e possuindo modos refinados.  A sua frente encontra-se o grande altar de
+    Notre Dame.
+  exits:
+    east:
+      target_vnum: '010304304323'
+    north:
+      target_vnum: '010304304319'
+    south:
+      target_vnum: '010304304324'
+    west:
+      target_vnum: '010304304321'
+  name: A Nave
+  vnum: '010304304322'
+- description: |-
+    Você chegou ao final do corredor oriental, e agradece a Deus por isso.
+    No empoeirado vidro da janela, há retratado a cena da ressurreição de
+    Cristo, seguido por muitos anjos e arcanjos.  Se você ainda tem dúvidas...
+    sim...  ainda existe MUITOS bancos.
+  exits:
+    north:
+      target_vnum: '010304304318'
+    west:
+      target_vnum: '010304304322'
+  name: Corredor Oriental
+  vnum: '010304304323'
+- description: |-
+    Você está no grande altar de Notre Dame.  Aqui há uma grande mesa de
+    pedra verde, decorada com afrescos de mármore azul.  Aqui é onde o cardeal
+    de Paris faz a comunhão.  Na parede atrás do altar, há uma imensa
+    representação de Cristo crucificado, e em cada um dos lados, encontram-se
+    as estátuas, em tamanho natural, de Maria e José.
+  exits:
+    north:
+      target_vnum: '010304304322'
+  name: O Altar Catedral
+  vnum: '010304304324'
+- description: |-
+    Você fica deslumbrado com tamanha a beleza da luz do sol que chega até
+    o local.  Você abre seus olhos, e fica extasiado com tamanha beleza.  Daqui
+    pode-se ver toda a cidadede Paris, que se projeta diante de seus olhos,
+    com uma radiante formosura.  O seu desejo era poder ficar aqui para poder
+    ter esta vista durante a noite, mas você sabe que deve continuar seu
+    caminho.  Você pode abrir o alçapão, e seguir até o campanário.
+  exits:
+    down:
+      target_vnum: '010304304314'
+    east:
+      target_vnum: '010304304327'
+    up:
+      target_vnum: '010304304326'
+  name: O Segundo Andar de Notre Dame
+  vnum: '010304304325'
+- description: |-
+    Você está no camparário de Notre Dame, e aqui pode-se ver uma dúzia de
+    grandes sinos de bronze, projetando um altíssimo som.  Você não consegue
+    imaginar a condição dos pássaros e morcegos que aqui vivem.  Pode-se sentir
+    o ar frio que está vindo do leste, e seus olhos mal acreditam em toda a
+    beleza desta cidade tão explendorosa.
+  exits:
+    down:
+      target_vnum: '010304304325'
+  name: O Campanário da Catedral
+  vnum: '010304304326'
+- description: |-
+    Você encontra-se em um dos muitos corredores que estão no segundo andar,
+    e seguem para sul.  Aqui não há nenhuma parede, porém existem muitas
+    colunas dóricas, feitas de pedra, que sustentam o pesado teto.
+  exits:
+    east:
+      target_vnum: '010304304328'
+    south:
+      target_vnum: '010304304331'
+    west:
+      target_vnum: '010304304325'
+  name: Um Corredor
+  vnum: '010304304327'
+- description: |-
+    Você está no corredor central do segundo andar de Dame de Notre, e pode
+    ver as inúmeras colunas dóricas, e seus entalhes de pedra.  Ao leste há um
+    pequeno quarto, talvez você devesse dar uma olhada nisso... quem sabe você
+    não encontra alguma coisa interessante por ali.
+  exits:
+    east:
+      target_vnum: '010304304329'
+    south:
+      target_vnum: '010304304330'
+    west:
+      target_vnum: '010304304327'
+  name: O Corredor Central do Segundo Andar
+  vnum: '010304304328'
+- description: |-
+    Você está em um pequeno quarto, com uma cama de palha.  Aqui
+    encontram-se algumas figuras de madeira com forma humana, e você deduz que
+    este seja ser o quarto daquele homem que estava gritando no campanário.
+    Aqui pode-se sentir um vento frio vindo da janela de arco que está a sua
+    esquerda.  Você reconhece algumas das figuras, sendo uma o cardeal, e a
+    outra a figura de uma mulher que você viu na floresta.
+  exits:
+    west:
+      target_vnum: '010304304328'
+  name: O Quarto do Quasimodo
+  vnum: '010304304329'
+- description: |-
+    Você está no corredor principal do segundo andar, onde há algumas
+    colunas decoradas de estilo dórico.  Aqui não existem paredes, permitindo
+    assim que o ar corra livremente, vindo do leste do corredor.  Você está
+    começando a desejar ter trazido o seu suéter.
+  exits:
+    north:
+      target_vnum: '010304304328'
+    south:
+      target_vnum: '010304304333'
+    west:
+      target_vnum: '010304304331'
+  name: O Corredor Central do Segundo Andar
+  vnum: '010304304330'
+- description: |-
+    Você está em um corredor do segundo andar, com inúmeras colunas de
+    pedra em estilodórico. Aqui não se pode ver qualquer parede, explicando o
+    fato desse forte vento frio, que circula vindo do leste para oeste. O
+    chão aqui já não é mais coberto pelo mármore branco, mas sim pelo mesmo
+    material das colunas, feitas de pedra cinzenta.
+  exits:
+    east:
+      target_vnum: '010304304330'
+    north:
+      target_vnum: '010304304327'
+    south:
+      target_vnum: '010304304332'
+  name: O Corredor Central do Segundo Andar
+  vnum: '010304304331'
+- description: |-
+    Você chegou no final do corredor do segundo andar e se sente feliz por
+    não ter visto sequer um único banco de madeira por aqui.  Bem ao longe, ao
+    norte, há uma  rua onde muitas carruagens estão passando, supoestamente uma
+    estação para carruagens.  Você pode passar para o outro corredor, que fica
+    a leste, ou ir para oeste e entrar no que parece ser um quarto.
+  exits:
+    east:
+      target_vnum: '010304304333'
+    north:
+      target_vnum: '010304304331'
+    west:
+      target_vnum: '010304304336'
+  name: O Fim de um Corredor
+  vnum: '010304304332'
+- description: "Você chegou ao final do corredor do segundo andar e nota que ao norte,\n\
+    bem distante, encontram-se estão algumas montanhas.  Ao olhar para baixo,\nvocê\
+    \ vê que alguém esqueceu de colocar uma escada para descer...portanto\nNÃ\x83\
+    O VÃ\x81 PARA BAIXO OU VOCÃ\x8A MORRERÃ\x81 CERTAMENTE.  VocÃª pode voltar para\
+    \ o\nnorte, leste ou oeste...mas nunca para baixo."
+  exits:
+    down:
+      target_vnum: '010304304335'
+    east:
+      target_vnum: '010304304334'
+    north:
+      target_vnum: '010304304330'
+    west:
+      target_vnum: '010304304332'
+  name: O Fim do Corredor Central
+  vnum: '010304304333'
+- description: |-
+    Você está no que parece ser outro quarto, mas ao invés de paredes, há
+    colunas dóricas.  Aqui pode-se ver os demônios de pedra, e apenas a idéia
+    de que um desses gárgulas pudessem adquirir vida o apavora até a morte.
+    Lá embaixo você consegue ver uma cidade, mas não é Paris, pois o modo das
+    pessoas se vestirem é bem diferente.
+  exits:
+    west:
+      target_vnum: '010304304333'
+  name: O Quarto Oriental do Segundo Andar
+  vnum: '010304304334'
+- description: |-
+    Você entra neste local e imediatamente cai, mas ainda consegue ouvir o
+    ruído do seu pescoço estalando, antes de sua morte quase imediata.  Que
+    pena que você não prestou atenção aos avisos de que ali não existia
+    nenhuma escada... Você está morto o_O
+  exits: {}
+  name: Um Vão em Notre Dame
+  vnum: '010304304335'
+- description: "Você está no que parece ser um quarto, porém aqui não existe qualquer\n\
+    porta ou parede, mas uma enorme estátua de pedra, com a forma de um\ndemÃ´nio\
+    \ alado.  Ã\x89 um gÃ¡rgula.  Olhando para baixo, vocÃª vÃª que hÃ¡ uma\nbonita\
+    \ cidade, mas você não consegue ter uma visão perfeita pois há uma\ngrande floresta\
+    \ ao sul, que bloqueia uma parte da vista."
+  exits:
+    east:
+      target_vnum: '010304304332'
+  name: O Quarto Ocidental do Segundo Andar
+  vnum: '010304304336'
+- description: |-
+    Você está no topo de uma ponte de pedra com arcos encurvados.  Logo
+    para baixo você vê a água cristalina.  O rio Sena está tão tranqüilo e
+    limpo que você pode ver sua própria imagem refletida na água.  Há um aviso
+    aqui que você deveria ler.
+  exits:
+    north:
+      target_vnum: '010304304300'
+    south:
+      target_vnum: '010304304338'
+  name: Uma Ponte na França
+  vnum: '010304304337'
+- description: |-
+    Você está na entrada de uma pequena cidade chamada Lyon, um dos lugares
+    mais bonitos de toda a França, bem como um dos menores.  Nesta cidade você
+    pode achar a mais importante loja de magia de toda a França. Aqui há uma
+    tabuleta que diz: " Bem-vindo a Lyon, onde os melhores vinhos de mesa
+    são produzidos ".
+  exits:
+    north:
+      target_vnum: '010304304337'
+    south:
+      target_vnum: '010304304339'
+  name: A Entrada de Lyon
+  vnum: '010304304338'
+- description: |-
+    Você acabou de entrar na cidade de Lyon.  A sua esquerda há algumas
+    pequenas, porém muito lindas, casas e um pequeno parque a oeste.  Você vê
+    algumas pessoas caminhando de um lado para o outro, fazendo seus trabalhos
+    de rotina.  Seguindo para oeste, você pode entrar no parque, e para leste
+    há uma casa.  Indo para o sul você se adentra pela cidade, mas pode voltar
+    para Paris ao norte.
+  exits:
+    east:
+      target_vnum: '010304304340'
+    north:
+      target_vnum: '010304304338'
+    south:
+      target_vnum: '010304304342'
+    west:
+      target_vnum: '010304304341'
+  name: A Rua Principal de Lyon
+  vnum: '010304304339'
+- description: |-
+    Você está dentro de uma pequena casa de Lyon.  Muito simples, ela é
+    feita de madeira, enfeitada com alguns quadros nas paredes, e seu o teto é
+    feito de palha, possuindo uma mobília de madeira muito rústica.  Você só
+    consegue ver uma escrivaninha a direita, e uma cama a esquerda.  A única
+    saída é voltar pelo oeste.
+  exits:
+    west:
+      target_vnum: '010304304339'
+  name: Uma Casa de Lyon
+  vnum: '010304304340'
+- description: |-
+    Você está em um parque pequeno mas muito bonito, e vê algumas crianças
+    que brincando despreocupadamente.  Alguns balanços encontram-se pendurados
+    nas grandes árvores, e pode-se ver que um cachorro correndo através do
+    parque.  A única saída é voltar para as ruas da cidade, a leste.
+  exits:
+    east:
+      target_vnum: '010304304339'
+  name: O Parque de Lyon
+  vnum: '010304304341'
+- description: |-
+    Você está no centro da cidade onde há uma pequena fonte.  Estranho, pois
+    você nota que não há água nesta fonte, mas sim vinho.  A leste encontra-se
+    uma pequena loja de mágica, e no alto rua foi estendida uma tosca faixa de
+    pano, com os seguintes dizeres: " Nós somos a melhor Loja de Magia de toda
+    a França " .  A oeste há uma pequena loja de miudezas.
+  exits:
+    east:
+      target_vnum: '010304304343'
+    north:
+      target_vnum: '010304304339'
+    south:
+      target_vnum: '010304304344'
+    west:
+      target_vnum: '010304304398'
+  name: A Cidade Baixa
+  vnum: '010304304342'
+- description: |-
+    Você está em uma pequena barraca, feita de pano azul.  Aqui pode-se
+    comprar coisas muito interessantes, como por exemplo poções mágicas.
+  exits:
+    west:
+      target_vnum: '010304304342'
+  name: A Loja de Magia de Lyon
+  vnum: '010304304343'
+- description: |-
+    Você chegou ao final da rua principal.  Ao sul, encontra-se a estação
+    de carruagem, onde se pode alugar carruagens para levá-lo a qualquer cidade
+    da França. Ao leste e oeste você ainda pode avistar algumas casas de Lyon,
+    e talvez visitá-las antes de deixar a cidade.
+  exits:
+    east:
+      target_vnum: '010304304345'
+    north:
+      target_vnum: '010304304342'
+    south:
+      target_vnum: '010304304347'
+    west:
+      target_vnum: '010304304346'
+  name: O Fim da Rua Principal
+  vnum: '010304304344'
+- description: |-
+    Você está em uma pequena cabana, e vê alguns quadros nas paredes.  Ao se
+    aproximar, olhando as assinaturas dos quadros, você vê em um deles o nome
+    "Van Gogh", mas você não dá qualquer atenção para isto.  Há alguns
+    documentos na escrivaninha de madeira, e do outro lado há uma janela
+    quebrada, pela qual entram fortes correntes de vento.
+  exits:
+    west:
+      target_vnum: '010304304344'
+  name: Uma Cabana de Lyon
+  vnum: '010304304345'
+- description: |-
+    Você entra em uma pequena cada de Lyon.  Aqui tudo é muito simples,
+    feito de madeira, e enfeitado com alguns quadros nas paredes.  O teto é
+    todo feito de palha, e a mobília é feita de madeira rústica.  Pode-se ver
+    uma escrivaninha à sua direita e uma cama à esquerda.  A única saída é
+    voltar a leste.
+  exits:
+    east:
+      target_vnum: '010304304344'
+  name: Outra Casa de Lyon
+  vnum: '010304304346'
+- description: |-
+    Você nota uma construção diferente das que você viu até agora na
+    cidade.  Aqui existem muitos bancos, feitos de madeira e pintados de
+    branco, nos quais algumas pessoas estão descansando enquanto esperam por
+    suas carruagens.  Você nota um pequeno aviso que talvez fosse interessante
+    de ser lido.  Você pode voltar para o norte, ou entrar em um pequeno e
+    estreito túnel escuro ao leste.
+  exits:
+    east:
+      target_vnum: '010304304348'
+    north:
+      target_vnum: '010304304344'
+  name: A Estação de Carruagens
+  vnum: '010304304347'
+- description: |-
+    Você está dentro de um estreito e escuro túnel, que está deixando você
+    enjoado.  Talvez você deva voltar antes que vomite.  Além disso, este
+    parece ser o local perfeito para uma emboscada, e você sente então como se
+    estivesse pisando sobre algo macio e peludo, e quando olha para baixo, vê
+    um feio e gordo rato. Oh céus!!  Em que lugar você foi parar.  Você pode
+    voltar para o oeste, ou pode continuar pelo túnel a leste.
+  exits:
+    east:
+      target_vnum: '010304304349'
+    west:
+      target_vnum: '010304304347'
+  name: Um Túnel Escuro
+  vnum: '010304304348'
+- description: |-
+    Você chegou ao fim deste escuro e sujo túnel, e se sente incomodado...
+    Você deveria pensar seriamente em voltar.  Este lugar é imundo... cheirando
+    como...hmmm... bem, nem você sabe que cheiro é este, mas nem por isso você
+    gostaria de ficar aqui.  Cuidado, pois são em lugares como estes que os
+    ladrões costumam se esconder.
+  exits:
+    west:
+      target_vnum: '010304304348'
+  name: Um Beco sem Saída
+  vnum: '010304304349'
+- description: |-
+    Você está na entrada dos Champs Elyseés, uma verdadeira e grande
+    floresta dentro da cidade de Paris.  Aqui pode-se ouvir o canto dos
+    pássaros e o som da brisa passando através das copas das árvores.  As
+    árvores são tão altas que você não consegue ver o topo delas.
+    Ao norte, há um portão dourado onde um pequeno aviso foi afixado.
+  exits:
+    north:
+      target_vnum: '010304304351'
+    south:
+      target_vnum: '010304304300'
+  name: A Entrada para os Champs Elyseés
+  vnum: '010304304350'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304352'
+    north:
+      target_vnum: '010304304358'
+    south:
+      target_vnum: '010304304350'
+    west:
+      target_vnum: '010304304354'
+  name: Champs Elyseés
+  vnum: '010304304351'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304353'
+    north:
+      target_vnum: '010304304356'
+    south:
+      target_vnum: '010304304352'
+    west:
+      target_vnum: '010304304351'
+  name: Champs Elyseés
+  vnum: '010304304352'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304353'
+    north:
+      target_vnum: '010304304355'
+    south:
+      target_vnum: '010304304353'
+    west:
+      target_vnum: '010304304352'
+  name: Champs Elyseés
+  vnum: '010304304353'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304351'
+    north:
+      target_vnum: '010304304359'
+    south:
+      target_vnum: '010304304354'
+    west:
+      target_vnum: '010304304354'
+  name: Champs Elyseés
+  vnum: '010304304354'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304355'
+    north:
+      target_vnum: '010304304355'
+    south:
+      target_vnum: '010304304353'
+    west:
+      target_vnum: '010304304356'
+  name: Champs Elyseés
+  vnum: '010304304355'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304355'
+    north:
+      target_vnum: '010304304357'
+    south:
+      target_vnum: '010304304352'
+    west:
+      target_vnum: '010304304358'
+  name: Champs Elyseés
+  vnum: '010304304356'
+- description: |-
+    Você está em uma pequena clareira, onde se pode ver um pequeno grupo
+    de ciganos em uma carroça de madeira.  Esta parte dos Champs Elyseés está
+    um pouco mais iluminada do que o resto, e a pequena fogueira que os
+    ciganos acenderam, lhe dá uma gostosa sensação de  calor e de proteção.
+  exits:
+    down:
+      target_vnum: '010304304396'
+    south:
+      target_vnum: '010304304356'
+  name: Um Acampamento de Ciganos
+  vnum: '010304304357'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304356'
+    north:
+      target_vnum: '010304304358'
+    south:
+      target_vnum: '010304304351'
+    west:
+      target_vnum: '010304304359'
+  name: Champs Elyseés
+  vnum: '010304304358'
+- description: |-
+    Você está nos Champs Elyseés.  Este lugar é muito escuro,pois as copas
+    das árvores não permitem que a luz do sol penetre entre elas.  Aqui você
+    pode ver alguns esquilos se atirando de um galho para outro e coletando
+    nozes para o inverno.  O tempo está muito frio e úmido, e você cada vez
+    mais, deseja ter trazido seu suéter.  Você pode ir para o norte, leste,
+    sul, e oeste ...ou seja: você perdeu totalmente seu senso de direção.
+  exits:
+    east:
+      target_vnum: '010304304358'
+    north:
+      target_vnum: '010304304359'
+    south:
+      target_vnum: '010304304354'
+    west:
+      target_vnum: '010304304360'
+  name: Champs Elyseés
+  vnum: '010304304359'
+- description: |-
+    Você está na entrada do centro histórico da cidade de Paris, cujo
+    monumento mais importante é a Praça Luís XIV, que é a mais bela praça que
+    você já viu.  Você pode avançar, em direção ao norte.
+  exits:
+    east:
+      target_vnum: '010304304359'
+    north:
+      target_vnum: '010304304361'
+  name: O Centro Histórico de Paris
+  vnum: '010304304360'
+- description: |-
+    Você está na Praça de Luís XIV, mas parece que este não vai ser o nome
+    deste lugar por muito tempo, com tantos problemas que a monarquia vem
+    enfrentando.  O lugar é repleto de árvores frondosas e então você
+    pensa... "Em Paris, onde não é cheio de árvores?"  Você pode ver um pequeno
+    aviso.
+  exits:
+    east:
+      target_vnum: '010304304362'
+    north:
+      target_vnum: '010304304365'
+    south:
+      target_vnum: '010304304360'
+    west:
+      target_vnum: '010304304363'
+  name: A Entrada para a Praça Luís XIV
+  vnum: '010304304361'
+- description: |-
+    Você está no lado oriental da Praça, e pode ver alguns revolucionários
+    correndo e se escondendo nas casas que estão perto deste local.  Você se
+    pergunta se foi uma boa idéia vir visitar a França.
+  exits:
+    north:
+      target_vnum: '010304304366'
+    west:
+      target_vnum: '010304304361'
+  name: Praça Luís XIV
+  vnum: '010304304362'
+- description: |-
+    Você está ao lado ocidental da Praça Luís XIV, e aqui pode-se ver
+    alguns pombos se alimentando.  Você se sente mais incomodado aqui do que
+    no Champs Elyseés, e pensa que talvez este não tenha sido o melhor momento
+    para visitar a França, pois este parece ser um momento em que todos
+    parecem estar nervosos com a monarquia.
+  exits:
+    east:
+      target_vnum: '010304304361'
+    north:
+      target_vnum: '010304304364'
+  name: Praça Luís XIV
+  vnum: '010304304363'
+- description: |-
+    Você continua na Praça de Paris, onde podem ser vistos alguns bancos de
+    madeira nas laterais do gramado, e onde também pode ser visto alguns
+    pombos comendo sementes espalhadas pelo chão.  Olhando para baixo, você
+    observa que o pavimento é feito de granito, e que em algumas partes
+    somente existe grama.  Este lugar é iluminado como toda Paris, com grandes
+    postes a vela.
+  exits:
+    east:
+      target_vnum: '010304304365'
+    north:
+      target_vnum: '010304304369'
+    south:
+      target_vnum: '010304304363'
+  name: Praça da Concórdia
+  vnum: '010304304364'
+- description: |-
+    Você está bem no centro da Praça, e pode observar uma enorme estátua do
+    Rei.  Neste local, as únicas coisas vivas são dois pombinhos que estão
+    empoleirados no topo da estátua.  Pelo menos eles acharam algum conforto.
+  exits:
+    east:
+      target_vnum: '010304304366'
+    north:
+      target_vnum: '010304304368'
+    south:
+      target_vnum: '010304304361'
+    west:
+      target_vnum: '010304304364'
+  name: O Centro da Praça
+  vnum: '010304304365'
+- description: |-
+    Você continua na Praça de Paris, onde podem ser vistos alguns bancos de
+    madeira nas laterais do gramado, e onde também pode ser visto alguns
+    pombos comendo sementes espalhadas pelo chão.  Olhando para baixo, você
+    observa que o pavimento é feito de granito, e que em algumas partes
+    somente existe grama.  Este lugar é iluminado como toda Paris, com grandes
+    postes a vela.
+  exits:
+    north:
+      target_vnum: '010304304367'
+    south:
+      target_vnum: '010304304362'
+    west:
+      target_vnum: '010304304365'
+  name: Praça da Concórdia
+  vnum: '010304304366'
+- description: |-
+    Você chega ao final da praça, pelo lado oriental e à sua frente há uma
+    hospedaria, na qual pode ser lido o seguinte aviso: " Fechado para
+    reformas.  Desculpe-nos pelo transtorno que isto possa causar a você. "
+    A oeste encontra-se a entrada do Quartel General e Escola de
+    Mosqueteiros.
+  exits:
+    east:
+      target_vnum: '010304304388'
+    south:
+      target_vnum: '010304304366'
+    west:
+      target_vnum: '010304304368'
+  name: Praça de Revolução
+  vnum: '010304304367'
+- description: |-
+    Você continua pela praça, e não vê nada interessante ao redor, mas você
+    nota que este local não parece ser muito seguro.  Ao norte você vê uma porta
+    para o quartel general dos Mosqueteiros.  Se você quiser entrar, basta
+    abri-la.
+  exits:
+    east:
+      target_vnum: '010304304367'
+    north:
+      target_vnum: '010304304370'
+    south:
+      target_vnum: '010304304365'
+    west:
+      target_vnum: '010304304369'
+  name: A Entrada para o Quartel General dos Mosqueteiros
+  vnum: '010304304368'
+- description: "Você chega ao final da praça, pelo lado ocidental, e vê que bem à\
+    \ sua\nfrente hÃ¡ um velho edifÃ­cio com grandes janelas.  Ã\x89 o quartel general\
+    \ dos\nMosqueteiros.  A sua entrada fica ao leste."
+  exits:
+    east:
+      target_vnum: '010304304368'
+    south:
+      target_vnum: '010304304364'
+  name: Praça de Revolução
+  vnum: '010304304369'
+- description: |-
+    Você está na sede central do Quartel General dos Mosqueteiros, e este é
+    apenas o átrio do edifício.  Você nota que este local não é muito elegante
+    e percebe que as paredes foram pintadas com o mesmo tom de azul do teto,
+    feito de pedra.  O chão é a única coisa que o faz lembrar da importância
+    deste lugar, pois é feito do mais branco e mais caro mármore.  Ao leste
+    você pode ver um refeitório.
+  exits:
+    east:
+      target_vnum: '010304304371'
+    north:
+      target_vnum: '010304304372'
+    south:
+      target_vnum: '010304304368'
+  name: A Entrada para o Quartel General dos Mosqueteiros
+  vnum: '010304304370'
+- description: |-
+    Você está em um refeitório francês, localizado dentro do Quartel General
+    dos Mosqueteiros.  Este local possui várias mesas e cadeiras, nas quais os
+    soldados que protegem o Rei podem se sentar para beber um café ou comer
+    algo antes de irem trabalhar.
+  exits:
+    west:
+      target_vnum: '010304304370'
+  name: O Refeitório Francês
+  vnum: '010304304371'
+- description: "VocÃª estÃ¡ em um grande corredor.  Ã\x80 sua frente hÃ¡ uma pequena\
+    \ fonte de\nmármore verde, porém há uma corrente impedindo que você prossiga.\
+    \  Você\npode ir ao leste ou oeste, em direção a um corredor dentro do Q.G dos\n\
+    Mosqueteiros, ou você pode voltar para a entrada, ao sul."
+  exits:
+    east:
+      target_vnum: '010304304373'
+    south:
+      target_vnum: '010304304370'
+    west:
+      target_vnum: '010304304386'
+  name: Um Corredor no Quartel General dos Mosqueteiros
+  vnum: '010304304372'
+- description: |-
+    Você está na passagem oriental, e percebe que há inúmeros quadros que
+    foram cuidadosamente colocados nas paredes, o que é algo bastante comum
+    na França.  A passagem segue para o norte, onde você pode encontrar os
+    quartos dos Mosqueteiros, ou o calabouço.  O pátio ao leste está fechado,
+    e não há como entrar, mas você ainda pode ir para o oeste ou para o norte.
+  exits:
+    north:
+      target_vnum: '010304304374'
+    west:
+      target_vnum: '010304304372'
+  name: A Passagem Oriental
+  vnum: '010304304373'
+- description: |-
+    Você continua na passagem oriental e nota que este lugar, embora
+    grande, não é nada interessante.  O edifício tem um estilo romano, o que
+    significa que não existem muitas janelas aqui, parecendo mais com uma
+    fortaleza.  Este local não é muito saudável para se viver, pois é
+    absolutamente frio e úmido por dentro.
+  exits:
+    north:
+      target_vnum: '010304304375'
+    south:
+      target_vnum: '010304304373'
+  name: A Passagem Oriental
+  vnum: '010304304374'
+- description: |-
+    Você está na interseção oriental, entre a passagem e um corredor.  Você
+    pode ir para oeste, leste ou voltar para sul.
+  exits:
+    east:
+      target_vnum: '010304304376'
+    south:
+      target_vnum: '010304304374'
+    west:
+      target_vnum: '010304304379'
+  name: A Intersecção Oriental
+  vnum: '010304304375'
+- description: |-
+    Você está no corredor oriental, cujas paredes são grandes e espessas.
+    Este local pode ter sido uma fortaleza durante a idade das trevas.  Você
+    voltar, ou continuar seguindo para o leste.
+  exits:
+    east:
+      target_vnum: '010304304377'
+    west:
+      target_vnum: '010304304375'
+  name: O Corredor Oriental
+  vnum: '010304304376'
+- description: |-
+    Você chega ao final deste corredor, e percebe que ao norte há um grande
+    quarto onde os Mosqueteiros usam para descansar depois de um longo dia de
+    trabalho.  Do lado direito deste quarto, há uma grande janela em arco de
+    onde pode-se ver toda a cidade.  As paredes são cinzas como as pedras que
+    encobrem o teto.
+  exits:
+    north:
+      target_vnum: '010304304378'
+    west:
+      target_vnum: '010304304376'
+  name: O Fim Oriental do Corredor
+  vnum: '010304304377'
+- description: |-
+    Este é o quarto onde os Mosqueteiros podem descansar quando retornam
+    de suas longas viagens de trabalho.  Aqui encontram-se várias muitas
+    cadeiras e uma grande mesa de madeira, com alguns papéis sobre.  Todo o
+    chão do quarto está coberto por um bonito tapete vermelho, e as paredes
+    estão enfeitadas com bonitos quadros pintados a óleo.
+  exits:
+    east:
+      target_vnum: '010304304399'
+    south:
+      target_vnum: '010304304377'
+  name: O Quarto dos Mosqueteiros
+  vnum: '010304304378'
+- description: |-
+    Você está em outro corredor do Q.G dos Mosqueteiros.  Aqui pode-se ver
+    uma porta de metal ao norte, que provavelmente deve se dirigir ao
+    calabouço, onde estão encarcerados muitos ladrões e revolutionários.  A
+    leste e oeste, você pode ver algumas interseções para alguns corredores ou
+    passagens.
+  exits:
+    east:
+      target_vnum: '010304304375'
+    north:
+      target_vnum: '010304304380'
+    west:
+      target_vnum: '010304304381'
+  name: Outro Corredor
+  vnum: '010304304379'
+- description: |-
+    Você está em um pequeno quarto, onde encontra-se uma pequena escada que
+    segue para baixo.  Provavelmente deve guiar para o calabouço, onde os
+    Mosqueteiros aprisionam os prisioneiros capturados na cidade, pois os dias
+    atuais estão cheios de revolucionários.
+  exits:
+    down:
+      target_vnum: '010304304389'
+    south:
+      target_vnum: '010304304379'
+  name: Um Passagem para o Calabouço
+  vnum: '010304304380'
+- description: |-
+    Você está na interseção ocidental, entre um corredor e uma passagem.  As
+    saídas são para leste, oeste, ou voltar para sul.
+  exits:
+    east:
+      target_vnum: '010304304379'
+    south:
+      target_vnum: '010304304385'
+    west:
+      target_vnum: '010304304382'
+  name: A Interseção Ocidental
+  vnum: '010304304381'
+- description: |-
+    Você está no corredor ocidental cujas paredes são muito espessas.  Este
+    lugar, bem como todos os outros daqui, é muito frio, pois foi totalmente
+    construído  de pedras.  Nem as paredes ou o teto foram pintados, e logo ao
+    chão há uma enorme barata.
+  exits:
+    east:
+      target_vnum: '010304304381'
+    west:
+      target_vnum: '010304304383'
+  name: O Corredor Ocidental
+  vnum: '010304304382'
+- description: |-
+    Você chega ao final deste corredor, e pode ver uma grande janela em
+    arco ao oeste. Ao norte há uma pequena escada que leva à torre.  Você
+    percebe que apenas a entrada teve as paredes pintadas, pois aqui as
+    paredes têm a cor da pedra cinzenta. Você pode voltar ou pode seguir para
+    o norte.
+  exits:
+    east:
+      target_vnum: '010304304382'
+    north:
+      target_vnum: '010304304384'
+  name: O Fim Ocidental do Corredor
+  vnum: '010304304383'
+- description: |-
+    Você está em um pequeno quarto, onde há uma pequena escada que se
+    dirige a torre.  A torre é o local onde os Mosqueteiros observam a cidade,
+    à procura de qualquer sinal de problemas.  O quarto está enfeitado com
+    somente um quadro.  A escada é feita de pedra e muito resistente e segura,
+    mas de qualquer modo, você precisa ter cuidado, pois os degraus são muito
+    estreitos.
+  exits:
+    south:
+      target_vnum: '010304304383'
+    up:
+      target_vnum: '010304304395'
+  name: Um Quarto Perto da Torre
+  vnum: '010304304384'
+- description: |-
+    Você continua na passagem ocidental, e aqui não há nada de interessante
+    ou de importante.  A oeste, encontra-se a fonte de mármore verde, dentro
+    do Q.G., mas há uma corrente impedindo que você prossiga.  De qualquer
+    maneira, você não sente a menor vontade de ir para o pátio deste edifício.
+  exits:
+    north:
+      target_vnum: '010304304381'
+    south:
+      target_vnum: '010304304386'
+  name: A Passagem Ocidental
+  vnum: '010304304385'
+- description: |-
+    Você está em uma passagem dentro do Q.G dos Mosqueteiros, que segue
+    para o norte, e oeste, onde há uma grande porta, de onde você consegue
+    ouvir alguns ruídos.  Estes sons não são de humanos, parece mais ser um
+    cavalo.  Sendo assim, este local é provavelmente onde os cavalos dos
+    Mosqueteiros descansam durante a noite.
+  exits:
+    east:
+      target_vnum: '010304304372'
+    north:
+      target_vnum: '010304304385'
+    west:
+      target_vnum: '010304304387'
+  name: A Passagem Ocidental
+  vnum: '010304304386'
+- description: |-
+    Você está no estábulo onde os cavalos dos Mosqueteiros permanecem
+    durante a noite.  Este local tem um terrível cheiro, e por alguns
+    momentos, você imagina há quanto tempo estes cavalos estão sem tomar um
+    banho.  A única que há aqui, são os cavalos e muito feno, para os
+    alimentar.
+  exits:
+    east:
+      target_vnum: '010304304386'
+  name: Um Estábulo Francês
+  vnum: '010304304387'
+- description: |-
+    Você está em uma hospedaria francêsa. Este local é muito sujo e se
+    encontra em decomposição.  Não é para menos que está sendo reformado.  Há
+    pelo menos uma coisa muito bonita neste local: no teto há um belíssimo par
+    de candelabros, feitos de ouro puro.  Você pode ver que há um recepcionista
+    aqui, e talvez possa perguntar quando a hospedaria estará novamente aberta.
+  exits:
+    west:
+      target_vnum: '010304304367'
+  name: Uma Hospedaria Francêsa
+  vnum: '010304304388'
+- description: |-
+    Você está em um escuro corredor dentro do Q.G. dos Mosqueteiros que
+    segue em direção às celas, onde os revolocionários mais perigosos ficam
+    presos.  Este local é muito frio e úmido, e você deveria ter muito
+    cuidado ao tentar abrir uma das celas, pois os presos que aqui estão são
+    muito perigosos.
+  exits:
+    south:
+      target_vnum: '010304304390'
+    up:
+      target_vnum: '010304304380'
+  name: Um Corredor para as Celas
+  vnum: '010304304389'
+- description: |-
+    Você está em um corredor de pedra maciça que com certeza impede uma
+    eventual fuga dos prisioneiros.  Até aqui, a única coisa que você
+    conseguiu ver, foram enormes ratos e algumas baratas nojentas. Este lugar
+    está tão frio, que você acha difícll que alguém possa sobreviver mais do
+    que algumas horas.  Você nota, espantado, que este lugar parece absorver
+    todos os sons, pois não é possivel ouvir qualquer prisioneiro gritando,
+    ou qualquer outro barulho.
+  exits:
+    north:
+      target_vnum: '010304304389'
+    south:
+      target_vnum: '010304304391'
+  name: Um Corredor no Calabouço
+  vnum: '010304304390'
+- description: |-
+    Você chega ao final este corredor e percebe que o local está se tornando
+    cada vez mais frio e escuro.  Um tremor percorre todo o seu corpo, pois você
+    percebe que se tornou absolutamente incapaz de usar seus poderes de magia
+    neste local, e sabe que nem seus pergaminhos e varinhas irão funcionar
+    aqui.  Você está rodeado por celas e se fosse realmente esperto, teria as
+    deixado fechadas.
+  exits:
+    east:
+      target_vnum: '010304304392'
+    north:
+      target_vnum: '010304304390'
+    south:
+      target_vnum: '010304304394'
+    west:
+      target_vnum: '010304304393'
+  name: O Final do Corredor do Calabouço
+  vnum: '010304304391'
+- description: |-
+    Você está em uma pequena cela dentro do calabouço do Q.G. dos
+    Mosqueteiros.  Este local é muito escuro e úmido.  Bem, como você esperava
+    que uma cela fosse?
+  exits:
+    west:
+      target_vnum: '010304304391'
+  name: Uma Cela do Calabouço
+  vnum: '010304304392'
+- description: |-
+    Este é um calabouço de segurança máxima.  A porta se fechou rapidamente
+    e aqui você não consegue ouvir um único ruído, a não ser o som do seu
+    coração batendo cada vez mais rápido e rápido.
+  exits: {}
+  name: Uma Cela Silenciosa
+  vnum: '010304304393'
+- description: |-
+    Você está em uma pequena cela dentro dos calabouços do Q.G dos
+    Mosqueteiros.  Este lugar é muito escuro e úmido.  Bem, como você esperava
+    que uma cela fosse?
+  exits:
+    north:
+      target_vnum: '010304304391'
+  name: Uma Cela no Calabouço
+  vnum: '010304304394'
+- description: |-
+    Você está no alto de uma torre.  O local é muito pequeno e você pode
+    ver uma lâmpada a óleo que deve ser usada pelo guarda à noite.  Existem
+    quatro janelas aqui e através das quais pode-se ver o norte, sul, oeste, e
+    até mesmo o leste da a cidade.  O lugar mais perto possível de se ver é a
+    praça que fica ao sul.
+  exits:
+    down:
+      target_vnum: '010304304384'
+  name: Uma Torre no Q.G dos Mosqueteiros
+  vnum: '010304304395'
+- description: |-
+    Você está em uma estranha passagem, que parece mais ser uma caverna,
+    porém muito bem iluminada, mas não há sinal de velas ou tochas.  Ao norte
+    e ao sul, pode-se ver alguns estranhos portais que o levam para diferentes
+    e estranhos lugares.  Abra esta pequena porta e entre, se puder.
+  exits:
+    east:
+      target_vnum: '010304304397'
+    west:
+      target_vnum: '010304304396'
+  name: Uma Estranha Passagem
+  vnum: '010304304396'
+- description: |-
+    Você está em uma estranha passagem, que parece mais ser uma caverna,
+    porém muito bem iluminada, mas não há sinal de velas ou tochas.  Ao norte
+    e ao sul, pode-se ver alguns estranhos portais que o levam para diferentes
+    e estranhos lugares.  Abra esta pequena porta e entre, se puder.
+  exits:
+    east:
+      target_vnum: '010304304397'
+    west:
+      target_vnum: '010304304396'
+  name: Uma Estranha Passagem
+  vnum: '010304304397'
+- description: |-
+    Esta é outra loja de Lyon, e como se pode perceber, não é nada se for
+    comparada com a loja mágica, que está ao leste.  Aqui você pode comprar
+    muitas coisas diferentes, que poderão ser usadas no futuro, tais como
+    tecidos, armas e armaduras.
+  exits:
+    east:
+      target_vnum: '010304304342'
+  name: Uma Pequena Loja
+  vnum: '010304304398'
+- description: |-
+    Você se sente emocionado, pois afinal você está dentro de um corredor
+    do Palácio Real.  Este local é enorme, e você imagina se talvez o Rei da
+    França esteja por aqui.  Existem muitos ornamentos feitos de ouro maciço
+    enfeitando as paredes, e o chão é feito com o melhor mármore do mundo.
+    No teto, você pode ver alguns candelabros de ouro puro, e parece que no
+    final do corredor encontra-se a Sala do Trono Real.
+  exits:
+    west:
+      target_vnum: '010304304378'
+  name: Corredor Real
+  vnum: '010304304399'

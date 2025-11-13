@@ -1,0 +1,1453 @@
+- description: |-
+    Duas grandes dunas de areia, uma ao leste e a outra ao oeste, formam uma
+    fortaleza de areia.  O uiva, soprando por todo o vale.  O calor é intenso e
+    inexorável queima cruelmente sob sua cabeça.  Ao sul, você pode ver algumas
+    tendas alojadas por todo o vale.
+  exits:
+    north:
+      target_vnum: '010204204216'
+    south:
+      target_vnum: '010204204201'
+  name: O Vale Protegido
+  vnum: '010204204200'
+- description: |-
+    Este é o lar dos nômades de Kubalai.  Apesar de estar localizado em um
+    dos lugares menos hospitaleiros do reino, o acampamento parece bastante
+    próspero.  Tendas feitas de pano alvejado pelo sol se alinham por ambos os
+    lados do caminho.  Você pode visitar as tendas, continuar a sul pelo
+    caminho, ou voltar pelo norte, de onde sopra os ventos uivantes.
+  exits:
+    east:
+      target_vnum: '010204204203'
+    north:
+      target_vnum: '010204204200'
+    south:
+      target_vnum: '010204204204'
+    west:
+      target_vnum: '010204204202'
+  name: O Acampamento Nômade
+  vnum: '010204204201'
+- description: |-
+    Esta é uma típica tenda dos moradores deste acampamento.  Panos pálidos
+    formam a parede e o teto, criando uma relaxante atmosfera.  Brilhantes e
+    coloridos panos de todos os tipos também estão pendurados pelas paredes,
+    criando uma aparência festiva.  Um tapete felpudo cobre o chão arenoso,
+    tintilando os pés daqueles que pisam sob ele.  Largas almofadas espalhadas
+    são a única mobília usada aqui.
+  exits:
+    east:
+      target_vnum: '010204204201'
+  name: A Tenda de Um Nômade Kubalai
+  vnum: '010204204202'
+- description: |-
+    Esta é uma típica tenda dos moradores deste acampamento.  Panos pálidos
+    formam a parede e o teto, criando uma relaxante atmosfera.  Brilhantes e
+    coloridos panos de todos os tipos também estão pendurados pelas paredes,
+    criando uma aparência festiva.  Um tapete felpudo cobre o chão arenoso,
+    tintilando os pés daqueles que pisam sob ele.  Largas almofadas espalhadas
+    são a única mobília usada aqui.
+  exits:
+    west:
+      target_vnum: '010204204201'
+  name: A Tenda de Um Nômade Kubalai
+  vnum: '010204204203'
+- description: |-
+    Este é o lar dos nômades de Kubalai.  Apesar de estar localizado em um
+    dos lugares menos hospitaleiros do reino, o acampamento parece bastante
+    próspero.  Tendas feitas de pano alvejado pelo sol se alinham por ambos os
+    lados do caminho.  Você pode visitar as tendas, continuar a sul pelo
+    caminho, ou voltar pelo norte, de onde sopra os ventos uivantes.
+  exits:
+    east:
+      target_vnum: '010204204206'
+    north:
+      target_vnum: '010204204201'
+    south:
+      target_vnum: '010204204207'
+    west:
+      target_vnum: '010204204205'
+  name: O Acampamento Nômade
+  vnum: '010204204204'
+- description: |-
+    Esta é uma típica tenda dos moradores deste acampamento.  Panos pálidos
+    formam a parede e o teto, criando uma relaxante atmosfera.  Brilhantes e
+    coloridos panos de todos os tipos também estão pendurados pelas paredes,
+    criando uma aparência festiva.  Um tapete felpudo cobre o chão arenoso,
+    tintilando os pés daqueles que pisam sob ele.  Largas almofadas espalhadas
+    são a única mobília usada aqui.
+  exits:
+    east:
+      target_vnum: '010204204204'
+  name: A Tenda de Um Nômade Kubalai
+  vnum: '010204204205'
+- description: |-
+    Esta é uma típica tenda dos moradores deste acampamento.  Panos pálidos
+    formam a parede e o teto, criando uma relaxante atmosfera.  Brilhantes e
+    coloridos panos de todos os tipos também estão pendurados pelas paredes,
+    criando uma aparência festiva.  Um tapete felpudo cobre o chão arenoso,
+    tintilando os pés daqueles que pisam sob ele.  Largas almofadas espalhadas
+    são a única mobília usada aqui.
+  exits:
+    west:
+      target_vnum: '010204204204'
+  name: A Tenda de Um Nômade Kubalai
+  vnum: '010204204206'
+- description: |-
+    Este é o lar dos nômades de Kubalai.  Apesar de estar localizado em um
+    dos lugares menos hospitaleiros do reino, o acampamento parece bastante
+    próspero.  Tendas feitas de pano alvejado pelo sol se alinham por ambos os
+    lados do caminho.  Você pode visitar as tendas, continuar a sul pelo
+    caminho, ou voltar pelo norte, de onde sopra os ventos uivantes.
+  exits:
+    east:
+      target_vnum: '010204204209'
+    north:
+      target_vnum: '010204204204'
+    south:
+      target_vnum: '010204204210'
+    west:
+      target_vnum: '010204204208'
+  name: O Acampamento Nômade
+  vnum: '010204204207'
+- description: |-
+    A tenda é completamente plana e mobiliada.  Aromas de incensos e perfumes
+    carregam o ar, quase embriagando quem entra aqui.  Uma misteriosa névoa
+    escura esconde aquele que os nômades respeitam e temem.
+  exits:
+    east:
+      target_vnum: '010204204207'
+  name: A Tenda do Gênio
+  vnum: '010204204208'
+- description: |-
+    Esta é uma típica tenda dos moradores deste acampamento.  Panos pálidos
+    formam a parede e o teto, criando uma relaxante atmosfera.  Brilhantes e
+    coloridos panos de todos os tipos também estão pendurados pelas paredes,
+    criando uma aparência festiva.  Um tapete felpudo cobre o chão arenoso,
+    tintilando os pés daqueles que pisam sob ele.  Largas almofadas espalhadas
+    são a única mobília usada aqui.
+  exits:
+    west:
+      target_vnum: '010204204207'
+  name: A Tenda de Um Nômade Kubalai
+  vnum: '010204204209'
+- description: |-
+    Seda colorida pende do alto desta alta tenda, formando uma espécie de
+    abóbada na tenda do chefe nômade.  Almofadas de pelúcia e macios tapetes
+    fazem o lugar confortável a qualquer viajante.  Não há sinal da dura vida do
+    deserto em lugar algum.
+  exits:
+    north:
+      target_vnum: '010204204207'
+  name: A Tenda do Chefe
+  vnum: '010204204210'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204212'
+    north:
+      target_vnum: '010204204214'
+    south:
+      target_vnum: '010204204211'
+    west:
+      target_vnum: '010204204284'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204211'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.  Um precipício
+    de areia criado por enormes dunas bloqueia a passagem ao leste e ao sul.
+  exits:
+    north:
+      target_vnum: '010204204215'
+    west:
+      target_vnum: '010204204211'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204212'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.  Um precipício
+    de areia criado por enormes dunas bloqueia a passagem ao oeste.
+  exits:
+    east:
+      target_vnum: '010204204213'
+    north:
+      target_vnum: '010204204217'
+    south:
+      target_vnum: '010204204294'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204213'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204215'
+    north:
+      target_vnum: '010204204223'
+    south:
+      target_vnum: '010204204211'
+    west:
+      target_vnum: '010204204285'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204214'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204216'
+    north:
+      target_vnum: '010204204222'
+    south:
+      target_vnum: '010204204212'
+    west:
+      target_vnum: '010204204214'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204215'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.  Duas enormes dunas se erguem ao
+    sul, criando um profundo vale.
+  exits:
+    east:
+      target_vnum: '010204204217'
+    north:
+      target_vnum: '010204204221'
+    south:
+      target_vnum: '010204204200'
+    west:
+      target_vnum: '010204204215'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204216'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204218'
+    north:
+      target_vnum: '010204204220'
+    south:
+      target_vnum: '010204204213'
+    west:
+      target_vnum: '010204204216'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204217'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204218'
+    north:
+      target_vnum: '010204204219'
+    south:
+      target_vnum: '010204204218'
+    west:
+      target_vnum: '010204204217'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204218'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204219'
+    north:
+      target_vnum: '010204204228'
+    south:
+      target_vnum: '010204204218'
+    west:
+      target_vnum: '010204204220'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204219'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204219'
+    north:
+      target_vnum: '010204204227'
+    south:
+      target_vnum: '010204204217'
+    west:
+      target_vnum: '010204204221'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204220'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204220'
+    north:
+      target_vnum: '010204204226'
+    south:
+      target_vnum: '010204204216'
+    west:
+      target_vnum: '010204204222'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204221'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204221'
+    north:
+      target_vnum: '010204204225'
+    south:
+      target_vnum: '010204204215'
+    west:
+      target_vnum: '010204204223'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204222'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204222'
+    north:
+      target_vnum: '010204204224'
+    south:
+      target_vnum: '010204204214'
+    west:
+      target_vnum: '010204204286'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204223'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204225'
+    north:
+      target_vnum: '010204204234'
+    south:
+      target_vnum: '010204204223'
+    west:
+      target_vnum: '010204204287'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204224'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204226'
+    north:
+      target_vnum: '010204204235'
+    south:
+      target_vnum: '010204204222'
+    west:
+      target_vnum: '010204204224'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204225'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204227'
+    north:
+      target_vnum: '010204204236'
+    south:
+      target_vnum: '010204204221'
+    west:
+      target_vnum: '010204204225'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204226'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204228'
+    north:
+      target_vnum: '010204204237'
+    south:
+      target_vnum: '010204204220'
+    west:
+      target_vnum: '010204204226'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204227'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204228'
+    north:
+      target_vnum: '010204204228'
+    south:
+      target_vnum: '010204204219'
+    west:
+      target_vnum: '010204204227'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204228'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.  Uma inclinada
+    parede de blocos de pedra de uma antiga estrutura, construída na areia,
+    torna impossível continuar adiante ao sul.
+  exits:
+    east:
+      target_vnum: '010204204230'
+    north:
+      target_vnum: '010204204238'
+    west:
+      target_vnum: '010204204229'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204229'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204231'
+    north:
+      target_vnum: '010204204239'
+    south:
+      target_vnum: '010204204266'
+    west:
+      target_vnum: '010204204229'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204230'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204232'
+    north:
+      target_vnum: '010204204240'
+    south:
+      target_vnum: '010204204267'
+    west:
+      target_vnum: '010204204230'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204231'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204233'
+    north:
+      target_vnum: '010204204241'
+    south:
+      target_vnum: '010204204268'
+    west:
+      target_vnum: '010204204231'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204232'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204234'
+    north:
+      target_vnum: '010204204242'
+    south:
+      target_vnum: '010204204287'
+    west:
+      target_vnum: '010204204232'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204233'
+- description: |-
+    O vasto oceano de areia continua, oprimido pelo ar sufocante.  Os severos
+    ventos açoitam as dunas, levantando nuvens de poeira que chega a cegar seus
+    olhos.  As dunas de areia de todos os tamanhos mudam lentamente ao sabor do
+    vento.  O terreno parece se inclinar ao norte onde carapaças quebradas,
+    exoesqueletos, e ossos podem ser vistos em meio às areias.
+  exits:
+    east:
+      target_vnum: '010204204235'
+    north:
+      target_vnum: '010204204243'
+    south:
+      target_vnum: '010204204224'
+    west:
+      target_vnum: '010204204233'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204234'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204236'
+    north:
+      target_vnum: '010204204244'
+    south:
+      target_vnum: '010204204225'
+    west:
+      target_vnum: '010204204234'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204235'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204237'
+    north:
+      target_vnum: '010204204245'
+    south:
+      target_vnum: '010204204226'
+    west:
+      target_vnum: '010204204235'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204236'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204237'
+    north:
+      target_vnum: '010204204237'
+    south:
+      target_vnum: '010204204227'
+    west:
+      target_vnum: '010204204236'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204237'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204239'
+    north:
+      target_vnum: '010204204246'
+    south:
+      target_vnum: '010204204229'
+    west:
+      target_vnum: '010204204238'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204238'
+- description: |-
+    O vasto oceano de areia continua, oprimido pelo ar sufocante.  Os severos
+    ventos açoitam as dunas, levantando nuvens de poeira que chega a cegar seus
+    olhos.  As dunas de areia de todos os tamanhos mudam lentamente ao sabor do
+    vento.  O terreno parece se inclinar ao norte onde carapaças quebradas,
+    exoesqueletos, e ossos podem ser vistos em meio às areias.  Uma pequena
+    pletora, alguns magros arbustos e cactos podem ser vistos a alguma distância
+    ao norte, oferecendo alguma esperança para escapar da turbulenta tempestade
+    de areia.
+  exits:
+    east:
+      target_vnum: '010204204240'
+    north:
+      target_vnum: '010204204247'
+    south:
+      target_vnum: '010204204230'
+    west:
+      target_vnum: '010204204238'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204239'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204241'
+    north:
+      target_vnum: '010204204248'
+    south:
+      target_vnum: '010204204231'
+    west:
+      target_vnum: '010204204239'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204240'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204242'
+    north:
+      target_vnum: '010204204249'
+    south:
+      target_vnum: '010204204232'
+    west:
+      target_vnum: '010204204240'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204241'
+- description: |-
+    O vasto oceano de areia continua, oprimido pelo ar sufocante.  Os severos
+    ventos açoitam as dunas, levantando nuvens de poeira que chega a cegar seus
+    olhos.  As dunas de areia de todos os tamanhos mudam lentamente ao sabor do
+    vento.  O terreno parece se inclinar ao norte onde carapaças quebradas,
+    exoesqueletos, e ossos podem ser vistos em meio às areias.
+  exits:
+    east:
+      target_vnum: '010204204243'
+    north:
+      target_vnum: '010204204250'
+    south:
+      target_vnum: '010204204233'
+    west:
+      target_vnum: '010204204241'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204242'
+- description: |-
+    A areia subitamente se inclina para baixo, formando um túnel.  Este é o
+    covil de Tam'ala, quem assombra estas terras por eras.  Esta armadilha foi
+    espertamente armada, qualquer coisa que entrar aqui, vai encontrar sérias
+    dificuldades escalar de volta por causa da areia que desce pelo túnel.
+    Fragmentos de exoesqueletos e ossos descarnados tomam todo o lugar.
+  exits:
+    east:
+      target_vnum: '010204204244'
+    north:
+      target_vnum: '010204204251'
+    south:
+      target_vnum: '010204204234'
+    west:
+      target_vnum: '010204204242'
+  name: O Covil de Tam'ala
+  vnum: '010204204243'
+- description: |-
+    O vasto oceano de areia continua, oprimido pelo ar sufocante.  Os severos
+    ventos açoitam as dunas, levantando nuvens de poeira que chega a cegar seus
+    olhos.  As dunas de areia de todos os tamanhos mudam lentamente ao sabor do
+    vento.  O terreno parece se inclinar ao norte onde carapaças quebradas,
+    exoesqueletos, e ossos podem ser vistos em meio às areias.
+  exits:
+    east:
+      target_vnum: '010204204245'
+    north:
+      target_vnum: '010204204252'
+    south:
+      target_vnum: '010204204235'
+    west:
+      target_vnum: '010204204243'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204244'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204245'
+    north:
+      target_vnum: '010204204245'
+    south:
+      target_vnum: '010204204236'
+    west:
+      target_vnum: '010204204244'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204245'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varre a areia,
+    chicoteando as dunas.  Uma pequena pletora, alguns magros arbustos e cactos
+    podem ser vistos a alguma distância ao norte, oferecendo alguma esperança
+    para escapar da turbulenta tempestade de areia.
+  exits:
+    east:
+      target_vnum: '010204204247'
+    north:
+      target_vnum: '010204204246'
+    south:
+      target_vnum: '010204204238'
+    west:
+      target_vnum: '010204204246'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204246'
+- description: |-
+    Um oásis, protegido dos amargos ventos pelo agrupamento de arbustos em
+    sua volta, é um sinal de esperança para os viajantes.  Não é muito
+    confortável devido aos espinhos dos arbustos e cactos, mas é muito melhor
+    que o deserto aberto.
+  exits:
+    east:
+      target_vnum: '010204204248'
+    north:
+      target_vnum: '010204204253'
+    south:
+      target_vnum: '010204204239'
+    west:
+      target_vnum: '010204204246'
+  name: Um Oásis
+  vnum: '010204204247'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Uma pequena pletora, alguns magros arbustos e cactos
+    podem ser vistos a alguma distância ao norte, oferecendo alguma esperança
+    para escapar da turbulenta tempestade de areia.
+  exits:
+    east:
+      target_vnum: '010204204249'
+    north:
+      target_vnum: '010204204254'
+    south:
+      target_vnum: '010204204240'
+    west:
+      target_vnum: '010204204247'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204248'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204250'
+    north:
+      target_vnum: '010204204255'
+    south:
+      target_vnum: '010204204241'
+    west:
+      target_vnum: '010204204248'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204249'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204251'
+    north:
+      target_vnum: '010204204256'
+    south:
+      target_vnum: '010204204242'
+    west:
+      target_vnum: '010204204249'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204250'
+- description: |-
+    O vasto oceano de areia continua, oprimido pelo ar sufocante.  Os severos
+    ventos açoitam as dunas, levantando nuvens de poeira que chega a cegar seus
+    olhos.  As dunas de areia de todos os tamanhos mudam lentamente ao sabor do
+    vento.  O terreno parece se inclinar ao norte onde carapaças quebradas,
+    exoesqueletos, e ossos podem ser vistos em meio às areias.
+  exits:
+    east:
+      target_vnum: '010204204252'
+    north:
+      target_vnum: '010204204257'
+    south:
+      target_vnum: '010204204243'
+    west:
+      target_vnum: '010204204250'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204251'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204252'
+    north:
+      target_vnum: '010204204252'
+    south:
+      target_vnum: '010204204244'
+    west:
+      target_vnum: '010204204251'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204252'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Uma pequena pletora, alguns magros arbustos e cactos
+    podem ser vistos a alguma distância ao norte, oferecendo alguma esperança
+    para escapar da turbulenta tempestade de areia.
+  exits:
+    east:
+      target_vnum: '010204204254'
+    north:
+      target_vnum: '010204204253'
+    south:
+      target_vnum: '010204204247'
+    west:
+      target_vnum: '010204204253'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204253'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204255'
+    north:
+      target_vnum: '010204204258'
+    south:
+      target_vnum: '010204204248'
+    west:
+      target_vnum: '010204204253'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204254'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204256'
+    north:
+      target_vnum: '010204204259'
+    south:
+      target_vnum: '010204204249'
+    west:
+      target_vnum: '010204204254'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204255'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204257'
+    north:
+      target_vnum: '010204204256'
+    south:
+      target_vnum: '010204204250'
+    west:
+      target_vnum: '010204204255'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204256'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204257'
+    north:
+      target_vnum: '010204204257'
+    south:
+      target_vnum: '010204204251'
+    west:
+      target_vnum: '010204204256'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204257'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204259'
+    north:
+      target_vnum: '010204204258'
+    south:
+      target_vnum: '010204204254'
+    west:
+      target_vnum: '010204204258'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204258'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204259'
+    north:
+      target_vnum: '010204204259'
+    south:
+      target_vnum: '010204204255'
+    west:
+      target_vnum: '010204204258'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204259'
+- description: |-
+    É surpreendentemente mais fresco aqui, comparado ao intenso calor lá
+    fora.  As paredes de pedra são adornadas com antigos símbolos e letras de
+    uma escrita já esquecida.  A areia no solo causa alguns ruídos ásperos a
+    medida que você pisa nele, quebrando o silêncio desta estranha e esquecida
+    tumba.
+  exits:
+    east:
+      target_vnum: '010204204269'
+    west:
+      target_vnum: '010204204261'
+  name: A Pirâmide
+  vnum: '010204204260'
+- description: |-
+    É surpreendentemente mais fresco aqui, comparado ao intenso calor lá
+    fora.  As paredes de pedra são adornadas com antigos símbolos e letras de
+    uma escrita já esquecida.  A areia no solo causa alguns ruídos ásperos a
+    medida que você pisa nele, quebrando o silêncio desta estranha e esquecida
+    tumba.
+  exits:
+    east:
+      target_vnum: '010204204260'
+    west:
+      target_vnum: '010204204265'
+  name: A Pirâmide
+  vnum: '010204204261'
+- description: |-
+    As frias paredes de pedra são inclinadas em um ângulo voltado para o
+    interior, alcançando e encontrando um apex em algum lugar da escuridão.  O
+    chão de pedra, intocado por eras, é ligeiramente coberto por areia.
+    Esculturas e runas adornam as paredes rochosas, contando-lhe uma história que
+    não é contada há séculos.
+  exits:
+    south:
+      target_vnum: '010204204265'
+  name: A Pirâmide
+  vnum: '010204204262'
+- description: |-
+    As frias paredes de pedra são inclinadas em um ângulo voltado para o
+    interior, alcançando e encontrando um apex em algum lugar da escuridão.  O
+    chão de pedra, intocado por eras, é ligeiramente coberto por areia.
+    Esculturas e runas adornam as paredes rochosas, contando-lhe uma história que
+    não é contada há séculos.
+  exits:
+    north:
+      target_vnum: '010204204265'
+  name: A Pirâmide
+  vnum: '010204204263'
+- description: |-
+    As frias paredes de pedra são inclinadas em um ângulo voltado para o
+    interior, alcançando e encontrando um apex em algum lugar da escuridão.  O
+    chão de pedra, intocado por eras, é ligeiramente coberto por areia.
+    Esculturas e runas adornam as paredes rochosas, contando-lhe uma história que
+    não é contada há séculos.
+  exits:
+    east:
+      target_vnum: '010204204265'
+  name: A Pirâmide
+  vnum: '010204204264'
+- description: |-
+    Tochas flamejantes iluminam esta câmara.  Sombras enganosas e
+    assustadoras são vistas por toda a vastidão do lugar.  Uma suave brisa sopra
+    de alguma fonte desconhecida.  A grande parede de pedra se ergue do chão,
+    formando um majestoso teto de catedral.  Estranhos e belos símbolos decoram
+    todo o lugar.  O propósito deste lugar foi esquecido e escondido entre as
+    areias do vasto deserto.
+  exits:
+    east:
+      target_vnum: '010204204261'
+    north:
+      target_vnum: '010204204262'
+    south:
+      target_vnum: '010204204263'
+    west:
+      target_vnum: '010204204264'
+  name: A Câmara Central da Pirâmide
+  vnum: '010204204265'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Uma inclinada parede de pedra de uma antiga estrutura
+    construída sobre a areia, barra qualquer tentativa de continuar adiante pelo
+    sul e pelo oeste.
+  exits:
+    east:
+      target_vnum: '010204204267'
+    north:
+      target_vnum: '010204204230'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204266'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Uma inclinada parede de pedra de uma antiga estrutura
+    construída sobre a areia, barra qualquer tentativa de continuar adiante pelo
+    sul.
+  exits:
+    east:
+      target_vnum: '010204204268'
+    north:
+      target_vnum: '010204204231'
+    west:
+      target_vnum: '010204204266'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204267'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Uma pequena abertura pode ser vista na
+    parede da antiga construção ao sul.
+  exits:
+    east:
+      target_vnum: '010204204287'
+    north:
+      target_vnum: '010204204232'
+    south:
+      target_vnum: '010204204269'
+    west:
+      target_vnum: '010204204267'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204268'
+- description: |-
+    É surpreendentemente mais fresco aqui, comparado ao intenso calor lá
+    fora.  As paredes de pedra são adornadas com antigos símbolos e letras de
+    uma escrita já esquecida.  A areia no solo causa alguns ruídos ásperos a
+    medida que você pisa nele, quebrando o silêncio desta estranha e esquecida
+    tumba.  Você pode continuar pelo oeste, se aprofundando na pirâmide, ou pode
+    voltar para o norte, para o infinito oceano de areia.
+  exits:
+    north:
+      target_vnum: '010204204268'
+    west:
+      target_vnum: '010204204260'
+  name: A Entrada da Pirâmide
+  vnum: '010204204269'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia.  Uma inclinada parede de pedra de uma antiga estrutura
+    construída sobre a areia, barra qualquer tentativa de continuar adiante pelo
+    norte.
+  exits:
+    east:
+      target_vnum: '010204204285'
+    south:
+      target_vnum: '010204204272'
+    west:
+      target_vnum: '010204204271'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204270'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Uma inclinada parede de pedra de uma antiga estrutura
+    construída sobre a areia, barra qualquer tentativa de continuar adiante pelo
+    norte.
+  exits:
+    east:
+      target_vnum: '010204204270'
+    south:
+      target_vnum: '010204204273'
+    west:
+      target_vnum: '010204204274'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204271'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204284'
+    north:
+      target_vnum: '010204204270'
+    south:
+      target_vnum: '010204204275'
+    west:
+      target_vnum: '010204204273'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204272'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204272'
+    north:
+      target_vnum: '010204204271'
+    south:
+      target_vnum: '010204204273'
+    west:
+      target_vnum: '010204204273'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204273'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Uma inclinada parede de pedra de uma antiga estrutura
+    construída sobre a areia, barra qualquer tentativa de continuar adiante pelo
+    norte e pelo oeste.
+  exits:
+    east:
+      target_vnum: '010204204271'
+    south:
+      target_vnum: '010204204274'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204274'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010204204283'
+    north:
+      target_vnum: '010204204272'
+    south:
+      target_vnum: '010204204275'
+    west:
+      target_vnum: '010204204275'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204275'
+- description: |-
+    Você está sobre as dunas ao norte da praia.  OUCH!!!  A areia é tão
+    quente que parece perfurar, como pregos, através das solas de suas botas.
+    Você pode apenas esperar, que seus preciosos pés não se machuquem.
+  exits:
+    north:
+      target_vnum: '010204204277'
+    south:
+      target_vnum: '010204204289'
+  name: Pelas Dunas
+  vnum: '010204204276'
+- description: |-
+    Você está no começo de um caminho sujo que, parece seguir infinitamente
+    pelo norte.  Até onde você pode dizer, não há vida por aqui.  Está ficando
+    notavelmente quente, a medida que você avança.
+  exits:
+    north:
+      target_vnum: '010204204278'
+    south:
+      target_vnum: '010204204276'
+  name: Em Um Caminho Sujo
+  vnum: '010204204277'
+- description: |-
+    O caminho sujo parece seguir infinitamente pelo norte.  Até onde você
+    pode dizer, não há vida por aqui.  Está ficando notavelmente quente a
+    medida que você avança.
+  exits:
+    north:
+      target_vnum: '010204204279'
+    south:
+      target_vnum: '010204204277'
+  name: Em Um Caminho Sujo
+  vnum: '010204204278'
+- description: |-
+    O caminho sujo parece seguir infinitamente pelo norte.  Até onde você
+    pode dizer, não há vida por aqui.  Está ficando notavelmente quente a
+    medida que você avança.
+  exits:
+    north:
+      target_vnum: '010204204280'
+    south:
+      target_vnum: '010204204278'
+  name: Em Um Caminho Sujo
+  vnum: '010204204279'
+- description: |-
+    O caminho sujo parece seguir infinitamente pelo norte.  Até onde você
+    pode dizer, não há vida por aqui.  Está ficando notavelmente quente a
+    medida que você avança.
+  exits:
+    north:
+      target_vnum: '010204204281'
+    south:
+      target_vnum: '010204204279'
+  name: Em Um Caminho Sujo
+  vnum: '010204204280'
+- description: |-
+    O caminho pelo qual você estava viajando se transformou misteriosamente
+    em areia.  Ao longo do caminho, como antes, está ficando realmente quente a
+    medida que você avança.  Você seca sua face, lavando-a com um pouco de água,
+    esperando que logo o clima se amenize.
+  exits:
+    north:
+      target_vnum: '010204204282'
+    south:
+      target_vnum: '010204204280'
+  name: Em um Caminho de Areia
+  vnum: '010204204281'
+- description: |-
+    Você viaja por um misterioso caminho de areia.  Está ficando realmente
+    quente a medida que você avança.  Você seca sua face, lavando-a com um pouco
+    de água, esperando que logo o clima se amenize.
+  exits:
+    north:
+      target_vnum: '010204204283'
+    south:
+      target_vnum: '010204204281'
+  name: Em um Caminho de Areia
+  vnum: '010204204282'
+- description: |-
+    Você viaja por um misterioso caminho de areia.  Está ficando realmente
+    quente a medida que você avança.  Você seca sua face, lavando-a com um pouco
+    de água, esperando que logo o clima se amenize.
+  exits:
+    north:
+      target_vnum: '010204204284'
+    south:
+      target_vnum: '010204204282'
+    west:
+      target_vnum: '010204204275'
+  name: Em um Caminho de Areia
+  vnum: '010204204283'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204211'
+    north:
+      target_vnum: '010204204285'
+    south:
+      target_vnum: '010204204283'
+    west:
+      target_vnum: '010204204272'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204284'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204214'
+    north:
+      target_vnum: '010204204286'
+    south:
+      target_vnum: '010204204284'
+    west:
+      target_vnum: '010204204270'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204285'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Uma inclinada parede de pedra de uma
+    antiga estrutura construída sobre a areia, barra qualquer tentativa de
+    continuar adiante pelo oeste.
+  exits:
+    east:
+      target_vnum: '010204204223'
+    north:
+      target_vnum: '010204204287'
+    south:
+      target_vnum: '010204204285'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204286'
+- description: |-
+    O grande deserto se estende até onde seus olhos podem ver.  A areia sendo
+    carregada pelo vento, forma uma grossa névoa que torna difícil sua
+    respiração, o sufocando.  O sol ardente, acima de sua cabeça,
+    implacavelmente chamusca estas terras.  As dunas sempre em movimento criam
+    um panorama de infinitos vales e cumes.
+  exits:
+    east:
+      target_vnum: '010204204224'
+    north:
+      target_vnum: '010204204233'
+    south:
+      target_vnum: '010204204286'
+    west:
+      target_vnum: '010204204268'
+  name: O Deserto Escaldante de Kubalai
+  vnum: '010204204287'
+- description: |-
+    Você está em um lindo oásis, cercado por altas palmeiras.  Este parece
+    ser um ótimo lugar para descansar, encha seu cantil, pois pode ser o único
+    lugar que você vá poder fazer isso, por algum tempo.
+  exits:
+    east:
+      target_vnum: '010204204200'
+    west:
+      target_vnum: '010204204287'
+  name: Um Oásis
+  vnum: '010204204288'
+- description: |-
+    Essa parte da praia é pequena e arenosa.  Bosques a limitam a oeste,
+    enquanto a leste ela faz uma curva seguindo ainda além.  Construções se
+    erguem nessa direção, local em que a areia deixa de ser fina e se torna
+    pedregosa.
+  exits:
+    east:
+      target_vnum: '010204204290'
+    north:
+      target_vnum: '010204204276'
+    south:
+      target_vnum: '010205405694'
+  name: A Praia
+  vnum: '010204204289'
+- description: |-
+    Você caminha pela praia, vendo que ela é mais extensa a leste do que você
+    imaginava.  Conforme o caminho segue norte, mais pedras podem ser vistas a
+    oeste.
+  exits:
+    north:
+      target_vnum: '010204204291'
+    west:
+      target_vnum: '010204204289'
+  name: A Praia
+  vnum: '010204204290'
+- description: |-
+    Você caminha pela praia, vendo que ela é mais extensa a leste do que você
+    imaginava.  Conforme o caminho segue norte, mais pedras podem ser vistas a
+    oeste.
+  exits:
+    north:
+      target_vnum: '010204204292'
+    south:
+      target_vnum: '010204204290'
+  name: A Praia
+  vnum: '010204204291'
+- description: |-
+    Você caminha pela praia, vendo que ela é mais extensa a leste do que você
+    imaginava.  Conforme o caminho segue norte, mais pedras podem ser vistas a
+    oeste.
+  exits:
+    north:
+      target_vnum: '010204204293'
+    south:
+      target_vnum: '010204204291'
+  name: A Praia
+  vnum: '010204204292'
+- description: |-
+    Você caminha pela praia, vendo que ela é mais extensa a leste do que você
+    imaginava.  Daqui você consegue ver que o caminho a noroeste e nordeste
+    parece desobstruído.
+  exits:
+    north:
+      target_vnum: '010113213205'
+    south:
+      target_vnum: '010204204292'
+  name: A Praia
+  vnum: '010204204293'
+- description: |-
+    Dunas incontáveis pontilham o horizonte para até onde seus olhos podem
+    ver.  A visibilidade e a respiração se tornam difíceis a medida que a
+    tempestade de areia se intensifica.  Os uivantes ventos varrem a areia,
+    chicoteando as dunas.  Este oceano de areia e calor parece infinito, o que o
+    faz sentir isolado de todo o mundo, trazendo-lhe o desespero.
+  exits:
+    east:
+      target_vnum: '010117617600'
+    north:
+      target_vnum: '010204204213'
+    south:
+      target_vnum: '010204204294'
+    west:
+      target_vnum: '010204204294'
+  name: Os Limites do Deserto de Kubalai
+  vnum: '010204204294'

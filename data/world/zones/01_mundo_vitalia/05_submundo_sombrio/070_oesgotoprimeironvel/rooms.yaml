@@ -1,0 +1,697 @@
+- description: |-
+    Esta é uma pequena fissura na sólida rocha.  Abaixo você vê uma escura
+    e profunda lagoa.  A água goteja calmamente debaixo das pedras, acima de
+    você.  A água tem cheiro de água de esgoto.
+  exits:
+    down:
+      target_vnum: '010507107100'
+    up:
+      target_vnum: '010507007070'
+  name: A Fissura Abaixo das Pedras
+  vnum: '010507007000'
+- description: |-
+    Você está com lama até os seus joelhos.  Este não é o tipo de lugar para
+    um piquenique.  O esgoto lamaçento estica-se mais adiante para o sul.
+  exits:
+    south:
+      target_vnum: '010507007002'
+  name: O Esgoto Lamaçento
+  vnum: '010507007001'
+- description: |-
+    O esgoto lamaçento expande-se na escuridão para o sul.  Parece que
+    ninguém nunca tinha posto seus pés aqui antes.  Mas também, quem iria querer
+    andar por aqui, sendo tão lamacento assim...  O esgoto leva ao norte, sul e
+    leste daqui.
+  exits:
+    east:
+      target_vnum: '010507007007'
+    north:
+      target_vnum: '010507007001'
+    south:
+      target_vnum: '010507007003'
+  name: A Junção do Esgoto Lamaçento
+  vnum: '010507007002'
+- description: |-
+    Você está em pé, com lama até acima de suas coxas e isso não é nada
+    confortável, mesmo para você, que já frequentou os mais diferentes tipos de
+    ambientes.   O esgoto leva para norte daqui.  No meio você pode perceber um
+    enorme cano de drenagem conduzindo para baixo.
+  exits:
+    down:
+      target_vnum: '010507107101'
+    north:
+      target_vnum: '010507007002'
+  name: O Buraco de Lama
+  vnum: '010507007003'
+- description: |-
+    Você está no centro de um poço escuro que leva para baixo até a mais
+    profunda escuridão.  >BWWAAADDRR< - O cheiro que vem de baixo é insuportável.
+    O esgoto expande-se em meio a escuridão para o leste.
+  exits:
+    down:
+      target_vnum: '010507107102'
+    east:
+      target_vnum: '010507007009'
+  name: O Poço Escuro
+  vnum: '010507007004'
+- description: "VocÃª estÃ¡ no meio de uma curva do cano de esgoto.  Ã\x89 muito escuro\
+    \ ao\nredor e a lama está se fixando em suas pernas, não é uma coisa muito agradável.\n\
+    O cano leva para o leste e sul daqui."
+  exits:
+    east:
+      target_vnum: '010507007011'
+    south:
+      target_vnum: '010507007006'
+  name: O Esgoto Lamaçento
+  vnum: '010507007005'
+- description: |-
+    Você está num lugar que lembra muito um mingau e tem a vantagem de não
+    ser quente, aliás, está particularmente frio agora. O cano encurva-se para o
+    norte e leste.
+  exits:
+    east:
+      target_vnum: '010507007012'
+    north:
+      target_vnum: '010507007005'
+  name: O Esgoto Lamaçento
+  vnum: '010507007006'
+- description: |-
+    Não é o tipo de lugar que você queira permanecer por muito tempo.  Você
+    está até os joelhos com algo que parece-se com lama, mas você não tem certeza
+    disso.  A curva em que você está leva ao oeste e ao sul.
+  exits:
+    south:
+      target_vnum: '010507007008'
+    west:
+      target_vnum: '010507007002'
+  name: A Curva no Esgoto Lamaçento
+  vnum: '010507007007'
+- description: |-
+    Você está com seu dois pés presos na lama.  Não é a lama que lhe incomoda
+    tanto mas sim o cheiro, os sons e a escuridão total que cerca você.  Tudo aqui
+    é muito deprimente.  O cano leva a uma trilha na grossa lama para o norte,
+    leste e sul.
+  exits:
+    east:
+      target_vnum: '010507007014'
+    north:
+      target_vnum: '010507007007'
+    south:
+      target_vnum: '010507007009'
+  name: Uma Intersecção Lamaçenta
+  vnum: '010507007008'
+- description: |-
+    Você está no meio de uma fedorenta junção de canos de esgoto, exatamente
+    embaixo de algo que parece ser uma coluna de ar.  Os canos de esgoto levam
+    ao norte, sul, leste e oeste.  Parece ser impossível forçar qualquer
+    caminho para cima.
+  exits:
+    east:
+      target_vnum: '010507007017'
+    north:
+      target_vnum: '010507007008'
+    south:
+      target_vnum: '010507007010'
+    west:
+      target_vnum: '010507007004'
+  name: A Junção no Esgoto
+  vnum: '010507007009'
+- description: |-
+    Você está numa curva do cano de esgoto.  Um forte cheiro penetra do
+    norte.  O esgoto segue para o norte e para o leste.
+  exits:
+    east:
+      target_vnum: '010507007018'
+    north:
+      target_vnum: '010507007009'
+  name: Uma Curva no Cano de Esgoto
+  vnum: '010507007010'
+- description: |-
+    Você entrou num tipo de intersecção do tubo que leva ao sul, oeste e leste.
+    Suas pernas estão cobertas de lama até os joelhos.
+  exits:
+    east:
+      target_vnum: '010507007024'
+    south:
+      target_vnum: '010507007021'
+    west:
+      target_vnum: '010507007005'
+  name: O Cano do Esgoto Lamaçenta
+  vnum: '010507007011'
+- description: "Este não é o seu lugar ideal para passar suas férias.  Você está com\
+    \ lama\nacima de seus joelhos.  Ã\x89 absolutamente inconcebÃ­vel pensar em como\
+    \ toda\nessa lama foi colocada aqui.  O cano leva para o oeste e para o sul."
+  exits:
+    south:
+      target_vnum: '010507007013'
+    west:
+      target_vnum: '010507007006'
+  name: A Curva no Esgoto Lamaçento
+  vnum: '010507007012'
+- description: "Você não queria saber como é sentir a lama subir acima de sua cintura.\n\
+    >NHACAAAA<.  A única coisa em que você pensa agora é num banho quente.  Essa\n\
+    NÃ\x83O Ã© uma lama MUITO limpa pelo que vocÃª sabe.  Lembre-se que vocÃª estÃ¡\
+    \ num\nesgoto!  Os canos levam ao norte, sul e leste."
+  exits:
+    east:
+      target_vnum: '010507007026'
+    north:
+      target_vnum: '010507007012'
+    south:
+      target_vnum: '010507007014'
+  name: Uma Intersecção Lamaçenta
+  vnum: '010507007013'
+- description: |-
+    Você está numa curva do sistema de canos do esgoto com lama acima de suas
+    coxas.  Contemplar um nível mais alto de existência aqui seria bastante
+    inapropriado, o cheiro mantém longe qualquer criatura inteligente, você
+    deve pensar em algo para sair desse fim de MUNDO.
+    A curva leva para o norte e para o oeste.
+  exits:
+    north:
+      target_vnum: '010507007013'
+    west:
+      target_vnum: '010507007008'
+  name: O Esgoto Lamaçento
+  vnum: '010507007014'
+- description: |-
+    Você está em frente a uma antiga e bastante usada fonte do século passado.
+    O esgoto segue para o leste daqui e a fonte leva para baixo em meio a escuridão.
+    Barras de metal implantadas no lado da fonte servem de escada.
+  exits:
+    down:
+      target_vnum: '010507107105'
+    east:
+      target_vnum: '010507007028'
+  name: A Velha Fonte
+  vnum: '010507007015'
+- description: |-
+    Você está no meio de uma curva do sistema de canos do sistema de esgoto
+    QUE lugar!!!  O cano leva para o sul e para o leste.
+  exits:
+    east:
+      target_vnum: '010507007021'
+    south:
+      target_vnum: '010507007017'
+  name: A Curva Regular
+  vnum: '010507007016'
+- description: Você está numa junção que leva para o norte, oeste e sul.
+  exits:
+    north:
+      target_vnum: '010507007016'
+    south:
+      target_vnum: '010507007018'
+    west:
+      target_vnum: '010507007009'
+  name: A Junção no Esgoto
+  vnum: '010507007017'
+- description: |-
+    Essa parece uma junção regular, atualmente ela está bastante quieta.  Os
+    encanamentos levam ao oeste, leste e norte.
+  exits:
+    east:
+      target_vnum: '010507007031'
+    north:
+      target_vnum: '010507007017'
+    west:
+      target_vnum: '010507007010'
+  name: A Junção Regular
+  vnum: '010507007018'
+- description: |-
+    Este é o tipo de lugar feito para descansar, embora pudesse cheirar
+    melhor que isso.  O esgoto vai para leste, norte e oeste daqui.
+  exits:
+    east:
+      target_vnum: '010507007029'
+    north:
+      target_vnum: '010507007011'
+    west:
+      target_vnum: '010507007016'
+  name: Uma Calma Junção de Canos
+  vnum: '010507007021'
+- description: |-
+    Ao entrar, você ouve um estalido baixo de uma das paredes... e você cai
+    cai e cai...
+    .
+    .
+    .
+    .
+    ... e chega a um repentino fim.  Isto é realmente estranho.  Existe uma
+    espécie de entrada principal levando para baixo.
+  exits:
+    down:
+      target_vnum: '010507107112'
+  name: A Sala Estranha com Paredes Polidas
+  vnum: '010507007022'
+- description: |-
+    Você está com lama acima de seus tornozelos.  Esta é uma intersecção com
+    canos levando ao leste, sul e oeste.
+  exits:
+    east:
+      target_vnum: '010507007037'
+    south:
+      target_vnum: '010507007025'
+    west:
+      target_vnum: '010507007011'
+  name: O Esgoto
+  vnum: '010507007024'
+- description: |-
+    Você nunca viu nada tão CHATO... Esta é outra intersecção com canos
+    levando ao norte, sul e leste.
+  exits:
+    east:
+      target_vnum: '010507007038'
+    north:
+      target_vnum: '010507007024'
+    south:
+      target_vnum: '010507007026'
+  name: Outra Intersecção
+  vnum: '010507007025'
+- description: |-
+    Esta parece interessante, bem diferente de todas as outras.  Ela  parece
+    mais limpa que as outras.  Sorte.  Algo que parece ser um tubo de ar leva
+    para cima, mas parece está muito longe para você alcançá-lo.  Os canos
+    levam ao sul, oeste e norte.
+  exits:
+    north:
+      target_vnum: '010507007025'
+    south:
+      target_vnum: '010507007028'
+    west:
+      target_vnum: '010507007013'
+  name: Uma Junção
+  vnum: '010507007026'
+- description: |-
+    Você está em uma junção de canos de esgoto levando ao norte, leste e
+    oeste.
+  exits:
+    east:
+      target_vnum: '010507007034'
+    north:
+      target_vnum: '010507007026'
+    west:
+      target_vnum: '010507007015'
+  name: A Junção no Esgoto
+  vnum: '010507007028'
+- description: |-
+    Você está no meio de uma enorme junção de canos de esgoto feitos de
+    concreto. Os canos levam a três diferentes direções: leste, sul e oeste.
+  exits:
+    east:
+      target_vnum: '010507007035'
+    south:
+      target_vnum: '010507007030'
+    west:
+      target_vnum: '010507007021'
+  name: A Junção Tripla
+  vnum: '010507007029'
+- description: |-
+    Você está em um lugar que lembra a entrada de um formigueiro.  Há
+    enormes canos de concreto levando ao norte, sul leste e oeste.  Além disso
+    há uma escada de metal construída na parede de concreto levando através
+    de um amontoado de lixo.
+  exits:
+    east:
+      target_vnum: '010507007036'
+    north:
+      target_vnum: '010507007029'
+    south:
+      target_vnum: '010507007031'
+    up:
+      target_vnum: '010103003030'
+    west:
+      target_vnum: '010507007022'
+  name: A Junção Quadrúpla Abaixo do Depósito de Lixo
+  vnum: '010507007030'
+- description: Você está numa junção com canos levando ao oeste, norte e leste.
+  exits:
+    east:
+      target_vnum: '010507007044'
+    north:
+      target_vnum: '010507007030'
+    west:
+      target_vnum: '010507007018'
+  name: Uma Junção Tripla
+  vnum: '010507007031'
+- description: 'Você pode ver em duas direções onde o cano leva: sul e oeste.'
+  exits:
+    south:
+      target_vnum: '010507007035'
+    west:
+      target_vnum: '010507007028'
+  name: Uma Curva no Cano de Esgoto
+  vnum: '010507007034'
+- description: |-
+    Você pode enxergar em duas diferentes direções onde leva o cano: oeste e
+    norte.
+  exits:
+    north:
+      target_vnum: '010507007034'
+    west:
+      target_vnum: '010507007029'
+  name: A Curva no Cano de Esgoto
+  vnum: '010507007035'
+- description: |-
+    Você está numa secção de um cano sem saída.  No chão há um poço levando
+    para baixo.  Há barras colocadas no lado de dentro do poço que servem de
+    escada.
+  exits:
+    down:
+      target_vnum: '010507107122'
+    west:
+      target_vnum: '010507007030'
+  name: O Poço
+  vnum: '010507007036'
+- description: |-
+    Assim que você entra na sala ela começa a girar - começando lentamente,
+    e depois cada vez mais rápido - Você fica totalmente confuso sem saber onde
+    fica o chão ou o teto, porém você está certo que a porta está na direção
+    oposta a que você entrou.  Ela leva a leste.  Há apenas esta saída.
+  exits:
+    east:
+      target_vnum: '010507007050'
+  name: A Sala Circular
+  vnum: '010507007037'
+- description: Você está numa junção de canos que levam a oeste, leste e sul.
+  exits:
+    east:
+      target_vnum: '010507007045'
+    south:
+      target_vnum: '010507007039'
+    west:
+      target_vnum: '010507007025'
+  name: A Junção com Três Caminhos
+  vnum: '010507007038'
+- description: |-
+    Você está numa pequena sala iluminada por uma simples tocha colocada na
+    parede.  A única saída daqui é para o norte.
+  exits:
+    north:
+      target_vnum: '010507007038'
+  name: A Despensa do Esgoto
+  vnum: '010507007039'
+- description: |-
+    Você está no centro de um escuro e profundo tubo.  Uma
+    simples escada é seu único meio de entrar nele, se você desejar.  O cano
+    de esgoto leva a sul daqui.
+  exits:
+    down:
+      target_vnum: '010507107123'
+    south:
+      target_vnum: '010507007043'
+  name: O Tubo
+  vnum: '010507007041'
+- description: |-
+    Você está no meio de um cano que leva a norte e a sul.  Acima de você
+    um tubo de ar leva para cima em meio a luz do sol.  Parece totalmente
+    impossível seguir para cima.
+  exits:
+    north:
+      target_vnum: '010507007041'
+    south:
+      target_vnum: '010507007044'
+  name: A Entrada do Esgoto
+  vnum: '010507007043'
+- description: |-
+    Você está numa passagem nos canos do sistema de esgoto levando a norte,
+    leste e oeste.
+  exits:
+    east:
+      target_vnum: '010507007049'
+    north:
+      target_vnum: '010507007043'
+    west:
+      target_vnum: '010507007031'
+  name: A Junção que Leva a Três Caminhos
+  vnum: '010507007044'
+- description: |-
+    Você está numa grande sala com cadeiras encostadas nas paredes.  Você tem
+    o pressentimento de estar sendo observado.  Ao sul há uma entrada para uma
+    sala maior.  A sala é iluminada por cinco tochas, colocadas nas paredes.
+    A oeste há um vão de porta que leva para fora dos canos de esgoto.
+  exits:
+    south:
+      target_vnum: '010507007046'
+    west:
+      target_vnum: '010507007038'
+  name: A Sala no Esgoto
+  vnum: '010507007045'
+- description: "Esta é uma sala com paredes que brilham como ouro, porém não parece\
+    \ ser\nouro.  Estranho, é como se o brilho estivesse iluminando toda a sala.\n\
+    Ã\x89 bastante brilhante.  Ao sul o chÃ£o estÃ¡ coberto com Ã¡gua suja.\nO norte\
+    \ leva para um tipo de despensa."
+  exits:
+    north:
+      target_vnum: '010507007045'
+    south:
+      target_vnum: '010507007047'
+  name: A Sala no Esgoto
+  vnum: '010507007046'
+- description: |-
+    Você está com água pela cintura.  Ao norte é a entrada para esta sala.
+    Uma simples porta leva a leste.
+  exits:
+    east:
+      target_vnum: '010507007053'
+    north:
+      target_vnum: '010507007046'
+  name: A Lagoa no Esgoto
+  vnum: '010507007047'
+- description: |-
+    Você está num lugar sem saída no esgoto.  O único caminho é ao sul.
+    Você pode ver um tubo levando para cima mas parece muito difícil chegar até
+    ele.
+  exits:
+    south:
+      target_vnum: '010507007049'
+  name: Os Canos de Esgoto
+  vnum: '010507007048'
+- description: Você está numa junção levando ao norte, oeste e leste.
+  exits:
+    east:
+      target_vnum: '010507007060'
+    north:
+      target_vnum: '010507007048'
+    west:
+      target_vnum: '010507007044'
+  name: A Junção
+  vnum: '010507007049'
+- description: |-
+    A única coisa desta sala que lhe interessa é a cadeira, que parece ter
+    sido pregada ao chão rochoso.  Um vão de porta leva a sul e outro a leste
+    para a escuridão.
+  exits:
+    east:
+      target_vnum: '010507007055'
+    south:
+      target_vnum: '010507007051'
+  name: A Pequena Sala
+  vnum: '010507007050'
+- description: |-
+    Você está em algo que parece ser um cano estragado, como se você gostasse
+    de estar aqui!  Você pode ver duas saídas levando ou ao norte ou ao sul.
+  exits:
+    north:
+      target_vnum: '010507007050'
+    south:
+      target_vnum: '010507007052'
+  name: O Cano de Esgoto
+  vnum: '010507007051'
+- description: |-
+    Você está num grandioso cano de esgoto.  Esse caminho leva em direção ao
+    sul.  Ele é grande, de fato!  Um vão de porta leva a leste daqui.
+  exits:
+    east:
+      target_vnum: '010507007056'
+    north:
+      target_vnum: '010507007051'
+    south:
+      target_vnum: '010507007053'
+  name: O Grandioso Cano de Esgoto
+  vnum: '010507007052'
+- description: |-
+    Você está com água em seus tornozelos.  Um vão de porta leva a oeste
+    daqui.  O cano segue para o norte.
+  exits:
+    north:
+      target_vnum: '010507007052'
+    west:
+      target_vnum: '010507007047'
+  name: O Final do Caminho Sul do Grandioso Cano de Esgoto
+  vnum: '010507007053'
+- description: |-
+    Você está numa sala onde metade do chão está coberto pela água.  A água
+    leva para o leste e um vão de porta leva a oeste.
+  exits:
+    east:
+      target_vnum: '010507007061'
+    west:
+      target_vnum: '010507007050'
+  name: "O Centro da Ã\x81gua do Esgoto"
+  vnum: '010507007055'
+- description: |-
+    Você não pode enxergar muito, apenas uma luz.  O corredor segue para uma
+    passagem para o sul.  Um vão de porta leva a oeste.
+  exits:
+    south:
+      target_vnum: '010507007057'
+    west:
+      target_vnum: '010507007052'
+  name: O Corredor Escuro
+  vnum: '010507007056'
+- description: |-
+    Você não pode ver nada além do chão onde pisa.  A passagem parece
+    continuar para o norte e para o sul.
+  exits:
+    north:
+      target_vnum: '010507007056'
+    south:
+      target_vnum: '010507007058'
+  name: A Passagem Escura
+  vnum: '010507007057'
+- description: |-
+    Você não pode ver nada além do chão onde pisa.  A passagem parece
+    continuar para o norte e para o sul.
+  exits:
+    north:
+      target_vnum: '010507007057'
+    south:
+      target_vnum: '010507007059'
+  name: A Passagem Escura
+  vnum: '010507007058'
+- description: |-
+    Você não pode ver nada além do chão onde pisa.  A passagem parece
+    continuar para o norte e para o sul.
+  exits:
+    north:
+      target_vnum: '010507007058'
+    south:
+      target_vnum: '010507007060'
+  name: A Passagem Escura
+  vnum: '010507007059'
+- description: |-
+    Você não pode ver nada além do chão onde pisa.  A passagem parece
+    continuar para o norte e para oeste.  Ao leste há água cobrindo o chão e
+    leva através de uma entrada em arco para um cano encharcado.
+  exits:
+    east:
+      target_vnum: '010507007068'
+    north:
+      target_vnum: '010507007059'
+    west:
+      target_vnum: '010507007049'
+  name: A Passagem Escura
+  vnum: '010507007060'
+- description: |-
+    Você não pode ver nada, mas a água está acima da sua cintura.  O cano de
+    esgoto parace curvar-se e levar ao sul e oeste.
+  exits:
+    south:
+      target_vnum: '010507007062'
+    west:
+      target_vnum: '010507007055'
+  name: A Curva Encharcada no Esgoto
+  vnum: '010507007061'
+- description: |-
+    Você não pode ver nada mas a água está acima da sua cintura.  O cano de
+    esgoto parece levar para o sul e para o norte.
+  exits:
+    north:
+      target_vnum: '010507007061'
+    south:
+      target_vnum: '010507007063'
+  name: O Cano Encharcado
+  vnum: '010507007062'
+- description: |-
+    Você não pode ver nada mas a água está acima da sua cintura.  O cano de
+    esgoto parece levar para o sul e para o norte.
+  exits:
+    north:
+      target_vnum: '010507007062'
+    south:
+      target_vnum: '010507007064'
+  name: O Cano Encharcado
+  vnum: '010507007063'
+- description: |-
+    Você não pode ver nada mas a água está acima da sua cintura.  O cano de
+    esgoto parece levar para uma junção indo para o sul, norte e leste.
+  exits:
+    east:
+      target_vnum: '010507007069'
+    north:
+      target_vnum: '010507007063'
+    south:
+      target_vnum: '010507007065'
+  name: A Junção no Cano Encharcado
+  vnum: '010507007064'
+- description: |-
+    Você não pode ver nada mas a água está acima da sua cintura.  O cano de
+    esgoto parece levar o sul e para o norte.
+  exits:
+    north:
+      target_vnum: '010507007064'
+    south:
+      target_vnum: '010507007066'
+  name: O Cano Encharcado
+  vnum: '010507007065'
+- description: |-
+    Você não pode ver nada mas a água está acima da sua cintura.  O cano de
+    esgoto parece levar para uma junção indo para o sul, norte e leste.
+  exits:
+    east:
+      target_vnum: '010507007070'
+    north:
+      target_vnum: '010507007065'
+    south:
+      target_vnum: '010507007067'
+  name: A Junção no Cano Encharcado
+  vnum: '010507007066'
+- description: |-
+    Você não pode ver nada mas a água está acima da sua cintura.  O cano de
+    esgoto parece levar o sul e para o norte.
+  exits:
+    north:
+      target_vnum: '010507007066'
+    south:
+      target_vnum: '010507007068'
+  name: O Cano Encharcado
+  vnum: '010507007067'
+- description: |-
+    Você não pode ver nada mas a água está acima da sua cintura.  O cano de
+    esgoto parece levar para oeste e para o norte.
+  exits:
+    north:
+      target_vnum: '010507007067'
+    west:
+      target_vnum: '010507007060'
+  name: A Curva no Cano Encharcado
+  vnum: '010507007068'
+- description: |-
+    Você não pode ver muito mas o eco de uma gota caindo, faz com que você
+    saiba que o local é calmo.  Você pode notar, por causa do movimento da água,
+    que há uma enorme e escura lagoa aqui, perdida em meio a escuridão.  A água do
+    esgoto que cai torna a margem escorregadia.  Daqui ela cai, como uma cachoeira,
+    para dentro da lagoa.
+  exits:
+    south:
+      target_vnum: '010507007070'
+    west:
+      target_vnum: '010507007064'
+  name: Uma Margem de uma Escura Lagoa
+  vnum: '010507007069'
+- description: |-
+    Você não pode ver muito mas, o eco de uma gota caindo, faz com que você
+    saiba que o local é calmo.  Você pode notar, por causa do movimento da água,
+    que há uma enorme e escura lagoa aqui, perdida em meio a escuridão.  A água do
+    esgoto que cai torna a margem escorregadia.  Daqui ela cai, como uma cachoeira,
+    para dentro da lagoa.  Abaixo de você há uma pequena fissura na rocha.  Parece
+    grande o bastante para conter algumas pessoas.
+  exits:
+    down:
+      target_vnum: '010507007000'
+    north:
+      target_vnum: '010507007069'
+    west:
+      target_vnum: '010507007066'
+  name: Uma Margem de uma Escura Lagoa
+  vnum: '010507007070'

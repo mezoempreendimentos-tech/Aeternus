@@ -1,0 +1,1507 @@
+- description: |-
+    Porto está localizada ao sul distante da capital. A cidade prospera porque é a
+    principal fornecedora de peixes e outros produtos do mar para a capital. A
+    localização da cidade oferece uma bela paisagem. Há montanhas a leste e floresta
+    a oeste. Mais uma selva, na verdade. O mar fica ao sul da cidade com uma bela
+    praia arenosa, interrompida abruptamente pelas montanhas a leste e uma série de
+    penhascos intransponíveis não muito longe da linha da floresta a oeste. A Estrada
+    do Sul (o povo de Porto sempre riu deste nome, já que daqui ela na verdade vai
+    para o norte) começa logo fora de um maravilhoso portão da cidade. O portão é
+    mais para exibição do que para proteção, já que Porto nunca teve nada a temer
+    devido à sua localização remota. Afinal, que senhor se interessaria por alguns
+    peixes? Isso realmente não mudou, mesmo com a vinda da estrada do sul, já que
+    patrulhas regulares de soldados de elite são designadas para protegê-la e
+    guarnecer a própria cidade.
+  exits: {}
+  name: A Cidade de Porto
+  vnum: '990002902900'
+- description: |-
+    A cabine parece confortável, mas não exatamente opulenta ou rica. As janelas
+    redondas estão abertas para deixar entrar a brisa salgada. Há um sofá sob uma
+    delas, feito de crina de cavalo e com aparência muito macia. Mapas do mar
+    forram as paredes, junto com os muitos instrumentos usados na navegação. Há
+    também uma cama e um pequeno fogão aqui, ao lado da escrivaninha. Todos os
+    móveis estão firmemente fixados ao chão, não sendo afetados pelo balanço do
+    navio. A porta ao norte leva de volta aos conveses.
+  exits:
+    north:
+      target_vnum: '990002902931'
+  name: A Cabine do Capitão
+  vnum: '990002902901'
+- description: |-
+    Interessante. O Senhor de Porto é obviamente um homem com um vício. Mulheres
+    com pouca roupa enchem este quarto. Há pilhas de sedas e almofadas por todo o
+    chão, parecendo confortáveis para simplesmente descansar. Há uma pilha
+    particularmente grande das almofadas mais macias contra a parede oeste. Talvez
+    sejam para a garota favorita de Degruziel.
+  exits:
+    down:
+      target_vnum: '990002902904'
+  name: Sala do Harém
+  vnum: '990002902902'
+- description: |-
+    Este quarto tem o chão coberto por um tapete vermelho luxuoso, macio e quase
+    chegando aos tornozelos. As cortinas estão abertas sobre as janelas, oferecendo
+    uma vista maravilhosa do jardim. As paredes aqui são brancas, onde não estão
+    obscurecidas por tapeçarias dos deuses e deusas locais. Contra a parede
+    próxima à única saída, a porta pela qual você entrou, há um grande guarda-roupa
+    de carvalho. Com muito espaço interno. O que chama e prende sua atenção, no
+    entanto, é a enorme cama no centro do quarto. Poderia acomodar confortavelmente
+    três pessoas, mas parece mais do gosto de duas. Parece confortável.
+  exits:
+    west:
+      target_vnum: '990002902904'
+  name: Câmara Privada de Degruziel
+  vnum: '990002902903'
+- description: |-
+    O quarto no topo da escadaria não é tão grande, nem tão elegante, quanto os
+    quartos do andar inferior. Estes quartos no segundo andar devem ser quartos
+    privados, não destinados aos olhos do público. Embora não seja tão bem
+    iluminado quanto a área no andar de baixo, você ainda pode ver bem pelas
+    tochas que forram as paredes de pedra. Há uma janela com cortinas voltada para
+    fora, enquanto também há entradas levando ao norte e leste. Uma escadaria
+    simples contra a parede oeste leva para cima, à torre da Mansão de Degruziel,
+    sendo a porta lá em cima trancada com uma fechadura MUITO GRANDE. Há uma
+    janela com cortinas voltada para fora, para o sul e o mar. Ao norte há uma
+    porta simples e baixa.
+  exits:
+    down:
+      target_vnum: '990002902907'
+    east:
+      target_vnum: '990002902903'
+    north:
+      target_vnum: '990002902905'
+    up:
+      target_vnum: '990002902902'
+  name: Topo da Escadaria
+  vnum: '990002902904'
+- description: |-
+    O quarto está lotado, mas uma brisa fraca perfumada com cheiros do jardim
+    entra por uma janela aberta. Deve estar sendo canalizada ao redor da torre,
+    porque a janela está voltada para o norte, e o vento geralmente sopra do sul.
+    Há várias esteiras estendidas no meio do chão, e uma cortina puxada separa o
+    quarto em seções. As esteiras, embora cheias apenas de palha, parecem bastante
+    confortáveis.
+  exits:
+    south:
+      target_vnum: '990002902904'
+  name: Aposentos dos Criados
+  vnum: '990002902905'
+- description: |-
+    Você entra na umidade escura da câmara da prisão... E a pesada porta de ferro
+    se fecha rapidamente atrás de você! Você está preso no quarto úmido. Você
+    consegue distinguir grilhões na parede norte. Uma pilha suja de tecido está
+    amontoada contra a parede oeste.
+  exits:
+    west:
+      target_vnum: '990002902921'
+  name: "Uma CÃ¢mara de Masmorra Ã\x9Amida"
+  vnum: '990002902906'
+- description: |-
+    Contra as paredes norte e sul há pares gêmeos de belas escadarias. São braços
+    de mármore cor de salmão curvando-se em um abraço ao centro do quarto, onde
+    fica uma fonte. A fonte de mármore requintada é de um peixe empoleirado em sua
+    cauda, água jorrando de sua boca. De volta ao leste o tapete vermelho começa
+    novamente, enquanto as escadas levam ao segundo andar da Mansão.
+  exits:
+    east:
+      target_vnum: '990002902908'
+    up:
+      target_vnum: '990002902904'
+  name: A Escadaria Dupla
+  vnum: '990002902907'
+- description: |-
+    Este quarto só é chamado de corredor porque conecta um quarto da Mansão a
+    outro, não por causa de seu tamanho. Tapeçarias lindamente bordadas forram as
+    paredes, cada uma com sua própria história para contar. Esculturas, estátuas,
+    pinturas e todos os tipos de formas de arte estão espalhados ao redor, alguns
+    pendurados e outros em pedestais de mármore que são eles próprios esculturas.
+    Aqui o chão de pedra foi coberto com tapete vermelho rico. Ao norte há uma
+    pequena porta simples, e ao oeste há um conjunto duplo de escadarias
+    majestosamente curvadas.
+  exits:
+    east:
+      target_vnum: '990002902910'
+    north:
+      target_vnum: '990002902909'
+    west:
+      target_vnum: '990002902907'
+  name: Um Corredor Artístico
+  vnum: '990002902908'
+- description: |-
+    Através da porta fica um pequeno escritório, onde Degruziel gosta de realizar
+    seus compromissos, conselhos internos, audiências e outras funções similares.
+    Há uma mesa redonda no centro do quarto, com seis cadeiras, e uma escrivaninha
+    no canto mais próximo. A escrivaninha está empilhada com todos os tipos de
+    papéis, pergaminhos e utensílios de escrita. Os castiçais tanto na mesa quanto
+    na escrivaninha são elegantes, como tudo mais no quarto, mas também têm um ar
+    de utilidade sobre eles ao invés da opulência simples do corredor que você
+    acabou de deixar. As paredes de pedra são forradas com prateleiras cobertas de
+    livros. Atrás da cadeira de madeira de espaldar alto há uma pequena pintura, e
+    na parede norte há uma janela voltada para o jardim.
+  exits:
+    south:
+      target_vnum: '990002902908'
+  name: Câmara de Audiências de Degruziel
+  vnum: '990002902909'
+- description: |-
+    Este deve ser onde Degruziel, o Senhor de Porto, recebe seus convidados. Há
+    cadeiras confortáveis e sofás espalhados pelo centro do grande quarto. Acima da
+    lareira maciça há uma grande pintura do deus do mar. Diante da lareira há uma
+    longa mesa de jantar de mogno, grande o suficiente para acomodar doze pessoas.
+    Tapeçarias cobrem as paredes de pedra. Do arco a leste vêm cheiros agradáveis,
+    enquanto a oeste, através de uma distância repleta de arte, você pode ver uma
+    escadaria dupla curvada.
+  exits:
+    east:
+      target_vnum: '990002902912'
+    north:
+      target_vnum: '990002902911'
+    west:
+      target_vnum: '990002902908'
+  name: Salão de Degruziel
+  vnum: '990002902910'
+- description: |-
+    O caminho de carroça aqui leva tanto para leste em direção aos estábulos,
+    onde alguém pode visitar os cavalos, ou para o norte através do jardim e de
+    volta à rua. Ao sul está a varanda opulenta do Senhor de Porto e a porta da
+    frente. O corrimão da varanda é esculpido para se assemelhar a uma videira se
+    retorcendo sobre si mesma, enquanto os postes são requintadamente esculpidos
+    em peixes sentados em suas caudas, com suas bocas ao redor do corrimão. Seus
+    olhos adornados com joias piscam na luz. A porta é uma grande e fantasiosa
+    miríade de esculturas retratando uma lenda local.
+  exits:
+    east:
+      target_vnum: '990002902913'
+    north:
+      target_vnum: '990002902914'
+    south:
+      target_vnum: '990002902910'
+  name: A Varanda da Mansão
+  vnum: '990002902911'
+- description: |-
+    Criadas se movimentam apressadamente por todo este quarto de cheiro agradável.
+    Está muito quente aqui, por todo o calor sendo emanado pelos muitos fogões,
+    fornos e lareiras. As bancadas neste quarto estão todas polvilhadas com farinha,
+    assim como as criadas apressadas. Uma grade de resfriamento para pão está fixada
+    contra uma parede, enquanto uma entrada do porão não está muito longe do arco
+    que leva de volta ao salão.
+  exits:
+    down:
+      target_vnum: '990002902982'
+    west:
+      target_vnum: '990002902910'
+  name: Cozinha de Tiama
+  vnum: '990002902912'
+- description: |-
+    O interior dos estábulos é escuro, mas você pode distinguir muitas fileiras
+    de estábulos bastante espaçosos e grandiosos. Um pouco demais para cavalos e
+    tal, mas se essa é a maneira que uma pessoa quer gastar seu dinheiro... Os
+    cheiros de feno e cavalos são fortes, e os sons suaves dos cavalariços
+    acalmando alguns dos cavalos mais nervosos que se assustaram com sua entrada
+    podem ser ouvidos no fundo do complexo sobre o balançar de caudas e o relincho
+    periódico.
+  exits:
+    west:
+      target_vnum: '990002902911'
+  name: Os Estábulos da Mansão
+  vnum: '990002902913'
+- description: |-
+    O caminho serpenteante de carroça que passa da rua pela varanda frontal do
+    Senhor e adiante até os estábulos também passa por seu magnífico jardim de
+    flores. Os tons suaves de roxos, vermelhos, brancos, amarelos e azuis descansam
+    os olhos de todas as outras atrações na cidade. O perfume das flores sempre
+    florescentes enche o ar agradavelmente, misturando-se com a brisa salgada do
+    mar. Videiras pendem festivamente dos galhos das muitas árvores, e animais
+    brincam sob elas, sem medo. O caminho de carroça continua tanto em direção à
+    rua quanto em direção à varanda, cabe a você escolher o caminho.
+  exits:
+    north:
+      target_vnum: '990002902991'
+    south:
+      target_vnum: '990002902911'
+  name: O Jardim de Flores do Senhor
+  vnum: '990002902914'
+- description: |-
+    Este quarto, além de qualquer um dos outros, está abarrotado com muitos
+    produtos roubados. Tudo desde rolos de tapetes até baús de moedas e joias estão
+    aqui, cuidadosamente embalados para serem vendidos no mercado negro. Algumas
+    das torres são tão altas que se você não for cuidadoso e cauteloso com seus
+    passos elas podem desabar, esmagando você. Este é obviamente onde os habitantes
+    atuais do Esconderijo armazenam a maioria de seu saque.
+  exits:
+    east:
+      target_vnum: '990002902916'
+    north:
+      target_vnum: '990002902917'
+  name: Um Quarto Cheio de Produtos Roubados
+  vnum: '990002902915'
+- description: "O chão deste quarto está forrado com rolos de cama, sua única vela\
+    \ não\najudando a iluminar muita coisa no quarto escuro. Os sons de pessoas dormindo\n\
+    se filtram através, como se o quarto estivesse muito ocupado. Este quarto está\n\
+    muito escuro para ver as bordas, mas ecoa como se a câmara fosse muito grande.\n\
+    Ã\x81gua goteja em algum lugar a leste, pingando no fundo de um pote invisÃ­vel."
+  exits:
+    west:
+      target_vnum: '990002902915'
+  name: O Quarto Comum
+  vnum: '990002902916'
+- description: |-
+    Este quarto está carregado com produtos roubados, desde as tapeçarias
+    penduradas nas paredes até o único castiçal de ouro que segura a única vela
+    deste quarto, até os tapetes importados caros no chão. As sombras neste quarto
+    são profundas e sinistras. Você tem a sensação de que seria sábio manter um
+    olho aberto para problemas.
+  exits:
+    north:
+      target_vnum: '990002902922'
+    south:
+      target_vnum: '990002902915'
+  name: Um Quarto no Esconderijo dos Ladrões
+  vnum: '990002902917'
+- description: |-
+    Ao empurrar de lado a cortina de veludo preto você percebe que este quarto
+    está silencioso e obviamente não usado pela espessa camada de poeira no chão.
+    Também está escuro, o pedaço preto de cera na mesa indicando a vela que uma vez
+    iluminou este quarto queimou há muito tempo. Este quarto pode ter sido
+    esplêndido uma vez, mas agora suas tapeçarias brilhantes estão desbotadas e
+    cobertas de poeira, o tapete vermelho apodrecido e pronto para desmoronar.
+    Mesmo o retrato de tamanho real na parede leste está desbotado além do
+    reconhecimento.
+  exits:
+    east:
+      target_vnum: 9900029-0001
+    south:
+      target_vnum: '990002902919'
+  name: Além do Santuário
+  vnum: '990002902918'
+- description: |-
+    Este é o quarto mais brilhantemente iluminado que você viu em todo o
+    esconderijo dos ladrões, com várias velas pequenas e de chama baixa dispostas
+    sob uma imagem de uma mulher bonita. As cores das velas variam de vermelho
+    brilhante, a sangue seco, ao preto mais profundo da meia-noite. Você sente
+    como se não fosse prudente falar acima de um sussurro neste quarto. O ar aqui
+    é sério e melancólico, com as tábuas do chão e tanto as paredes de pedra quanto
+    o teto pintados de preto. A pequena corrente de ar fluindo ondula o tecido
+    preto cobrindo o arco ao norte.
+  exits:
+    north:
+      target_vnum: '990002902918'
+    south:
+      target_vnum: '990002902922'
+  name: Um Pequeno Santuário
+  vnum: '990002902919'
+- description: |-
+    Ao entrar no quarto, luzes mágicas traçam uma escrita pelo ar,
+    @R'Toque em minhas coisas e eu te encontrarei e te matarei. Trianne.'@n
+    Baús meio apodrecidos se alinham nas paredes, suas barreiras mágicas ainda em
+    pé embora a madeira sobre a qual os feitiços foram lançados esteja em estado
+    de deterioração avançada. Pepitas douradas e joias de todas as cores brilham
+    através das fendas na madeira, refletindo luz do feitiço de luz lançado sobre
+    um globo de rocha no centro do quarto. Tão tentador... Que pena que você não
+    pode tocá-las.
+  exits:
+    west:
+      target_vnum: '990002902918'
+  name: Esconderijo Secreto de Trianne
+  vnum: '990002902920'
+- description: |-
+    Este quarto tem carpete simples em preto, realçando a aparência das sombras
+    projetadas pela única vela preta, cuja chama queima azul no quarto. Ela fica
+    na mesa simples, o único móvel. Uma tapeçaria bastante simples repousa
+    pendurada na parede leste.
+  exits:
+    east:
+      target_vnum: '990002902906'
+    west:
+      target_vnum: '990002902922'
+  name: Um Quarto Tedioso
+  vnum: '990002902921'
+- description: |-
+    Você se encontra em uma passagem do esconderijo dos ladrões, arcos em todos
+    os lados de você. O leste é esculpido simplesmente, o oeste tendo uma cabeça
+    de leão sobre ele, o norte de um lobo, e o sul de um urso. Outra vela simples
+    ilumina este quarto, projetando sombras longas ao redor dos móveis
+    incompatíveis e tapeçarias roubadas.
+  exits:
+    east:
+      target_vnum: '990002902921'
+    north:
+      target_vnum: '990002902919'
+    south:
+      target_vnum: '990002902917'
+    west:
+      target_vnum: '990002902923'
+  name: Passagem
+  vnum: '990002902922'
+- description: |-
+    Quando uma pessoa pensa em Porto com seu Mercado Lotado e suas patrulhas de
+    guardas de elite, não se pensa frequentemente em um quartel-general de ladrões.
+    Mas isso é o que você se encontra - um esconderijo de ladrões habilmente
+    escondido e muito seco. Tapeçarias forram as paredes, muito provavelmente tão
+    roubadas quanto os móveis confortáveis espalhados pelo chão de madeira. A luz
+    é fraca - uma única vela deixa muitas sombras conspícuas ao redor do quarto.
+    Há também um brilho através do arco a leste.
+  exits:
+    east:
+      target_vnum: '990002902922'
+    up:
+      target_vnum: '990002902924'
+  name: Esconderijo dos Ladrões
+  vnum: '990002902923'
+- description: |-
+    Esta deve ser uma parte do antigo sistema de esgoto de Porto quando era uma
+    pequena cidade. Agora as paredes do esgoto desmoronaram, deixando uma piscina
+    gigante de água aberta, coberta no fundo por pedras velhas. A água se estende
+    muito além de seus olhos e sua luz em alguns lugares. O chão é feito de uma
+    lama aquosa, consistindo de água, areia, algas marinhas podres e algumas outras
+    coisas em que você nem quereria pensar. A lama é rasa, apenas até seus joelhos.
+    Ela se agita violentamente em alguns lugares, como se houvesse coisas vivas
+    embaixo dela. Há uma caixa de madeira no canto aqui, afundada na lama.
+  exits:
+    down:
+      target_vnum: '990002902923'
+    east:
+      target_vnum: '990002902926'
+    north:
+      target_vnum: '990002902930'
+  name: Sob Porto
+  vnum: '990002902924'
+- description: |-
+    Está bem escuro sob as docas, embora a areia seja estável. A água está calma
+    aqui, sendo cercada por rochas que quebram as ondas, deixando você em água
+    estagnada até os joelhos. As docas aqui descem para a rua ao norte, forçando
+    você a se agachar, enquanto ao sul há um buraco nas rochas que pode ser o
+    covil de um caranguejo-rei. Uma escada de corda pende das docas acima, verde
+    com musgo que prospera no ar úmido. Seria um aperto apertado, mas você também
+    acha que pode conseguir se esgueirar entre a madeira e as rochas ao norte, mas
+    sua capacidade de retornar é realmente questionável.
+  exits:
+    east:
+      target_vnum: '990002902970'
+    north:
+      target_vnum: '990002902938'
+    west:
+      target_vnum: '990002902927'
+  name: Sob as Docas
+  vnum: '990002902925'
+- description: |-
+    Esta deve ser uma parte do antigo sistema de esgoto de Porto quando era uma
+    pequena cidade. Agora as paredes do esgoto desmoronaram, deixando uma piscina
+    gigante de água aberta, coberta no fundo por pedras velhas. A água se estende
+    muito além de seus olhos e sua luz em alguns lugares. O chão é feito de uma
+    lama aquosa, consistindo de água, areia, algas marinhas podres e algumas outras
+    coisas em que você nem quereria pensar. A lama é rasa, apenas até seus joelhos.
+    Ela se agita violentamente em alguns lugares, como se houvesse coisas vivas
+    embaixo dela.
+  exits:
+    north:
+      target_vnum: '990002902929'
+    west:
+      target_vnum: '990002902924'
+  name: Sob Porto
+  vnum: '990002902926'
+- description: |-
+    Uau, você está indo muito longe. Agora você está com água até os joelhos em
+    algumas águas escuras. Você não reconsideraria e voltaria? As águas são escuras
+    e você não consegue ver nada abaixo da superfície exceto alguns pequenos peixes.
+  exits:
+    east:
+      target_vnum: '990002902925'
+  name: "Ã\x81gua atÃ© os Joelhos"
+  vnum: '990002902927'
+- description: |-
+    Esta deve ser uma parte do antigo sistema de esgoto de Porto quando era uma
+    pequena cidade. Agora as paredes do esgoto desmoronaram, deixando uma piscina
+    gigante de água aberta, coberta no fundo por pedras velhas. A água se estende
+    muito além de seus olhos e sua luz em alguns lugares. O chão é feito de uma
+    lama aquosa, consistindo de água, areia, algas marinhas podres e algumas outras
+    coisas em que você nem quereria pensar. A lama é rasa, apenas até seus joelhos.
+    Ela se agita violentamente em alguns lugares, como se houvesse coisas vivas
+    embaixo dela. Contra a parede há uma escada, terminando em um alçapão.
+  exits:
+    up:
+      target_vnum: '990002902983'
+    west:
+      target_vnum: '990002902929'
+  name: Sob Porto
+  vnum: '990002902928'
+- description: |-
+    Esta deve ser uma parte do antigo sistema de esgoto de Porto quando era uma
+    pequena cidade. Agora as paredes do esgoto desmoronaram, deixando uma piscina
+    gigante de água aberta, coberta no fundo por pedras velhas. A água se estende
+    muito além de seus olhos e sua luz em alguns lugares. O chão é feito de uma
+    lama aquosa, consistindo de água, areia, algas marinhas podres e algumas outras
+    coisas em que você nem quereria pensar. A lama é rasa, apenas até seus joelhos.
+    Ela se agita violentamente em alguns lugares, como se houvesse coisas vivas
+    embaixo dela.
+  exits:
+    east:
+      target_vnum: '990002902928'
+    south:
+      target_vnum: '990002902926'
+    west:
+      target_vnum: '990002902930'
+  name: Sob Porto
+  vnum: '990002902929'
+- description: |-
+    Esta deve ser uma parte do antigo sistema de esgoto de Porto quando era uma
+    pequena cidade. Agora as paredes do esgoto desmoronaram, deixando uma piscina
+    gigante de água aberta, coberta no fundo por pedras velhas. A água se estende
+    muito além de seus olhos e sua luz em alguns lugares. O chão é feito de uma
+    lama aquosa, consistindo de água, areia, algas marinhas podres e algumas outras
+    coisas em que você nem quereria pensar. A lama é rasa, apenas até seus joelhos.
+    Ela se agita violentamente em alguns lugares, como se houvesse coisas vivas
+    embaixo dela.
+  exits:
+    east:
+      target_vnum: '990002902929'
+    south:
+      target_vnum: '990002902924'
+  name: Sob Porto
+  vnum: '990002902930'
+- description: |-
+    O navio balança suavemente nas ondas, fazendo a maioria dos terrestres quase
+    perder o equilíbrio. Uma rede foi espalhada pelo convés, absolutamente
+    amontoada com todos os tipos de peixes enormes. Muitos marinheiros forram o
+    convés do navio, seus braços enormes e musculosos arremessando peixes por
+    cima da amurada rapidamente, seus movimentos quase um borrão. Homens mais
+    magros correm aqui e ali, o que estão fazendo é bem pouco aparente para você.
+    Há um alçapão levando para baixo dos conveses não muito longe de onde você
+    está, enquanto ao sul está a porta de uma cabine.
+  exits:
+    down:
+      target_vnum: '990002902950'
+    east:
+      target_vnum: '990002902935'
+    south:
+      target_vnum: '990002902901'
+  name: Convés Dianteiro da Embarcação de Pesca
+  vnum: '990002902931'
+- description: |-
+    Embarcações de pesca forram as docas aqui, suas pranchas puxadas para cima e
+    os navios escuros. Aparentemente elas terminaram de descarregar a carga e
+    deixaram seus homens irem para a cidade. A leste há uma área nua, molhada e
+    varrida pelo vento das docas. Engraçado, mas apesar de todo o tráfego em outros
+    lugares, ninguém está naquela seção.
+  exits:
+    east:
+      target_vnum: '990002902975'
+    west:
+      target_vnum: '990002902935'
+  name: Entre os Navios
+  vnum: '990002902932'
+- description: "A praia aqui é calmante para os nervos. Banhistas habitam a areia,\
+    \ felizmente\ndesperdiçando seu dia pegando bronze e relaxando na areia muito\
+    \ fina. A areia\né macia e a praia lisa pelo vento constante. A água aqui é quente\
+    \ e calma,\nlambendo em ondas suaves. Crianças da cidade nadam alegremente, até\
+    \ mesmo até\nas rochas irregulares contra as quais as ondas se chocam do outro\
+    \ lado,\njogando borrifo no ar. Ã\x89 uma coisa boa que essas rochas estejam lÃ¡\
+    \ para agir\ncomo quebra-mares, ou esta praia bela não seria nadável."
+  exits:
+    east:
+      target_vnum: '990002902976'
+    north:
+      target_vnum: '990002902959'
+  name: Praia Bela
+  vnum: '990002902933'
+- description: |-
+    Através da porta atrás do balcão de Aramut fica sua oficina, onde ele trabalha
+    em suas armaduras. Há ferramentas espalhadas ao redor de uma bancada e uma mesa.
+    Sobre a mesa jaz o início de uma peça de malha, com várias horas de trabalho
+    restantes antes que se torne um dos belos artesanatos de Aramut. A 'parede' sul
+    da oficina está aberta, com vários pés de queda para a água profunda e rochas
+    irregulares abaixo. Seria sábio não chegar muito perto - o vento além da
+    entrada é rápido, embora o interior da oficina seja estranhamente calmo. Há um
+    baú marítimo pesado contra a parede leste.
+  exits:
+    south:
+      target_vnum: '990002902975'
+    west:
+      target_vnum: '990002902972'
+  name: Oficina de Aramut
+  vnum: '990002902934'
+- description: "A leste as docas continuam, mas a oeste há um navio de pesca enorme.\n\
+    Definitivamente não é o pequeno barco de um homem só que as palavras 'barco de\n\
+    pesca' provavelmente trariam Ã  mente. Ã\x89 monstruoso! Marinheiros com carroÃ§as\n\
+    ficam esperando enquanto peixes enormes são constantemente arremessados para\n\
+    fora do navio. Outros homens ficam em fila, esperando que a carroça da frente\n\
+    seja enchida e corram para o mercado para que possam subir e ter suas próprias\n\
+    carroças cheias. Uma rampa de prancha leva para cima até o convés."
+  exits:
+    east:
+      target_vnum: '990002902932'
+    north:
+      target_vnum: '990002902967'
+    west:
+      target_vnum: '990002902931'
+  name: Entre os Navios
+  vnum: '990002902935'
+- description: |-
+    As docas de Porto são rumorizadas como sendo um lugar maravilhoso - ou assim
+    dizem as conversas que você ouviu entre cidadãos e viajantes cansados. Mas daqui
+    você não consegue ver muito delas. Há simplesmente tráfego demais. Em ambos os
+    lados das docas aqui há areia de aparência molhada mais próxima da costa,
+    enquanto mais longe as ondas se chocam contra rochas traiçoeiras. Há uma escada
+    de corda escorregadia do lado aqui, pendendo na escuridão sob as docas.
+  exits:
+    north:
+      target_vnum: '990002902938'
+    south:
+      target_vnum: '990002902967'
+  name: Nas Docas
+  vnum: '990002902936'
+- description: |-
+    O som do mar contra as rochas ao sul é calmante para os nervos. O caminho
+    largo tem algum tráfego, mas embora haja homens com carroças correndo tanto
+    para o mercado quanto para as docas, a largura da estrada o torna de alguma
+    forma menos lotado. Há canto alto e licencioso em algum lugar a leste, e uma
+    praia arenosa ao sul, estranhamente plana.
+  exits:
+    east:
+      target_vnum: '990002902971'
+    south:
+      target_vnum: '990002902970'
+    west:
+      target_vnum: '990002902938'
+  name: Caminho Arenoso
+  vnum: '990002902937'
+- description: |-
+    O caminho arenoso não é tão arenoso aqui, a areia sendo regularmente varrida
+    das pedras pela passagem rápida de pés. Ao sul há uma grande rampa levando às
+    docas. Marinheiros empurrando carroças em ritmos furiosos aceleram, e é
+    surpreendente que não se choquem uns com os outros. Longe ao longo das docas
+    você pode ver homens correndo para dentro e fora de embarcações de pesca
+    gigantes, e até mesmo alguns navios coloridos. Ao norte há um prédio baixo,
+    em bom estado. A porta aberta derrama os cheiros de cerveja e bebidas mais
+    fortes na rua, junto com as canções licenciosas de bebedeira que os fregueses
+    estão cantando. Acima da porta está pregada uma caneca rachada.
+  exits:
+    east:
+      target_vnum: '990002902937'
+    north:
+      target_vnum: '990002902940'
+    south:
+      target_vnum: '990002902936'
+    west:
+      target_vnum: '990002902939'
+  name: Diante das Docas
+  vnum: '990002902938'
+- description: |-
+    Este caminho tem pouco tráfego comparado ao resto de Porto. As poucas pessoas
+    aqui estão vagueando tranquilamente, apreciando a paisagem. De algum lugar a
+    leste tentáculos de canções licenciosas chegam aos seus ouvidos, rapidamente
+    levadas pela pressa da brisa marinha sempre presente. Olhando para o leste você
+    pode ver a correria de homens entrando e saindo da entrada das docas que está
+    lá, enquanto a oeste a área é pacífica.
+  exits:
+    east:
+      target_vnum: '990002902938'
+    west:
+      target_vnum: '990002902963'
+  name: Caminho Arenoso
+  vnum: '990002902939'
+- description: |-
+    Este é bem obviamente um bar de pescadores, desde a rede pendurada pelo teto,
+    que está sendo usada atualmente para pendurar lanternas, até o peixe troféu
+    gigante pendurado nas paredes. Tanto os cheiros de cerveja quanto de fumaça de
+    cachimbo pairam pesadamente no ar do quarto enfumaçado, e as mesas estão
+    espalhadas bem próximas no chão sujo. Ao norte um barman baixo, musculoso e
+    jovem está polindo copos com um pano sujo quando não está servindo bebidas.
+  exits:
+    south:
+      target_vnum: '990002902938'
+  name: Dentro da Caneca Rachada
+  vnum: '990002902940'
+- description: |-
+    Aqui não está nem perto de tão lotado quanto a área perto do portão que você
+    pode ver a leste. A Estrada Gaivota Norte é pacífica, embora ainda tenha algum
+    tráfego. Ela passa pela seção residencial de Porto, e ao sul há principalmente
+    casas. As pedras aqui estão limpas, e o cheiro de sal é forte. Ao norte a terra
+    se inclina para cima, mantendo Porto em seu vale belo.
+  exits:
+    east:
+      target_vnum: '990002902998'
+    west:
+      target_vnum: '990002902942'
+  name: Estrada Gaivota Norte
+  vnum: '990002902941'
+- description: |-
+    Este cruzamento está ligeiramente mais lotado que as partes da Estrada Gaivota
+    Norte que você pode ver a leste e oeste. Ao sul está o Caminho do Mercado, e
+    além disso você pode ver flashes de cor. Ao norte a terra continua a se inclinar
+    para cima, mantendo Porto em seu vale belo.
+  exits:
+    east:
+      target_vnum: '990002902941'
+    south:
+      target_vnum: '990002902964'
+    west:
+      target_vnum: '990002902943'
+  name: Cruzamento da Estrada Gaivota Norte e Caminho do Mercado
+  vnum: '990002902942'
+- description: |-
+    A oeste a Estrada Gaivota Norte continua, enquanto a leste há um pequeno
+    cruzamento. A Estrada Gaivota Norte é pacífica, embora ainda tenha algum
+    tráfego. Ela passa pela seção residencial de Porto, e ao sul há principalmente
+    casas. As pedras aqui estão limpas, e o cheiro de sal é forte. Ao norte a terra
+    se inclina para cima, mantendo Porto em seu vale belo.
+  exits:
+    east:
+      target_vnum: '990002902942'
+    west:
+      target_vnum: '990002902944'
+  name: Estrada Gaivota Norte
+  vnum: '990002902943'
+- description: |-
+    A leste e oeste a Estrada Gaivota Norte continua. A Estrada Gaivota Norte é
+    pacífica, embora ainda tenha algum tráfego. Ela passa pela seção residencial
+    de Porto, e ao sul há principalmente casas. As pedras aqui estão limpas, e o
+    cheiro de sal é forte. Ao norte a terra se inclina para cima, mantendo Porto
+    em seu vale belo.
+  exits:
+    east:
+      target_vnum: '990002902943'
+    west:
+      target_vnum: '990002902945'
+  name: Estrada Gaivota Norte
+  vnum: '990002902944'
+- description: |-
+    A leste há mais da Estrada Gaivota Norte, enquanto a oeste há um pequeno
+    cruzamento. A Estrada Gaivota Norte é pacífica, embora ainda tenha algum
+    tráfego. Ela passa pela seção residencial de Porto, e ao sul há principalmente
+    casas. As pedras aqui estão limpas, e o cheiro de sal é forte. Ao norte a terra
+    se inclina para cima, mantendo Porto em seu vale belo.
+  exits:
+    east:
+      target_vnum: '990002902944'
+    west:
+      target_vnum: '990002902946'
+  name: Estrada Gaivota Norte
+  vnum: '990002902945'
+- description: |-
+    Pessoas passam apressadas por este cruzamento, lançando olhares preocupados
+    para o sul como se esperassem que algo monstruoso saltasse do beco a qualquer
+    segundo. De lá os odores pungentes de lixo e outros cheiros desagradáveis
+    derivam em sua direção. Risadas insanas e gargalhadas e gibberish variado
+    também podem ser ouvidos da escuridão criada pelos telhados suspensos.
+    Realmente não é surpresa que as pessoas passem apressadas com seus narizes
+    cobertos por lenços.
+  exits:
+    east:
+      target_vnum: '990002902945'
+    south:
+      target_vnum: '990002902974'
+    west:
+      target_vnum: '990002902947'
+  name: Cruzamento da Estrada Gaivota Norte e Beco da Luna
+  vnum: '990002902946'
+- description: |-
+    A leste há um pequeno cruzamento, enquanto a oeste a Estrada Gaivota Norte
+    termina. A Estrada Gaivota Norte é pacífica, embora ainda tenha algum tráfego.
+    Ela passa pela seção residencial de Porto, e ao sul há principalmente casas. As
+    pedras aqui estão limpas, e o cheiro de sal é forte. Ao norte a terra se
+    inclina para cima, mantendo Porto em seu vale belo. Ao sul a cidade se espalha
+    diante de sua vista como um mapa colorido.
+  exits:
+    east:
+      target_vnum: '990002902946'
+    west:
+      target_vnum: '990002902948'
+  name: Estrada Gaivota Norte
+  vnum: '990002902947'
+- description: |-
+    Aqui, a Estrada Gaivota Norte se cruza com a Caminhada do Rio. A Estrada
+    Gaivota Norte vai a leste através da seção residencial enquanto a Caminhada do
+    Rio vai ao sul, perto da margem do riacho que corre rapidamente. O que antes era
+    um rio gigante e corrente que havia esculpido o vale em que Porto agora se
+    encontra não é agora mais que um riacho rápido. Do outro lado do riacho começa
+    uma floresta densa, a folhagem frondosa e vegetação rasteira densa tão espessa
+    que você não consegue ver mais nada.
+  exits:
+    east:
+      target_vnum: '990002902947'
+    south:
+      target_vnum: '990002902951'
+  name: Quina da Estrada Gaivota Norte e Caminhada do Rio
+  vnum: '990002902948'
+- description: |-
+    As casas ao longo da Estrada Gaivota Sul são menores que as que você pode ver
+    ao norte, mas ainda são bem bonitas. Esta estrada é irregularmente sombreada
+    pelas pequenas árvores em alguns dos pequenos pátios, e canteiros pequenos
+    periódicos de flores adicionam seus aromas à brisa que varre as pedras limpas.
+    Residentes passeando ocasionalmente passam por você, sorrindo felizes. A oeste
+    está o cruzamento com a Caminhada do Rio, que dificilmente tem mais pessoas que
+    a própria Estrada Gaivota Sul. Há bancos brancos nos quais você pode descansar.
+  exits:
+    east:
+      target_vnum: '990002902987'
+    west:
+      target_vnum: '990002902953'
+  name: Estrada Gaivota Sul
+  vnum: '990002902949'
+- description: |-
+    Sob os conveses está escuro, não tendo janelas ou fontes de luz externa.
+    Nenhuma lâmpada está acesa aqui embaixo, sendo um perigo de incêndio no navio
+    balançante. Beliches estão aqui em fileiras organizadas, aparafusados ao chão.
+    Há também um pequeno grupo de mesas perto daqui, obviamente um refeitório. Ao
+    norte barris de água estão firmemente amarrados, no caso dos marinheiros e
+    pescadores ficarem presos no mar por uma tempestade.
+  exits:
+    up:
+      target_vnum: '990002902931'
+  name: Sob os Conveses
+  vnum: '990002902950'
+- description: |-
+    Esta caminhada é agradavelmente sombreada por árvores crescendo no lado oeste
+    da estrada, em pequenas áreas diante de casas agradáveis. A leste além de uma
+    pequena margem gramada o riacho rápido gorgoleja alegremente em seu caminho
+    para o sul e o mar. Pessoas caminham lentamente, aproveitando a sombra e
+    olhando para o rio.
+  exits:
+    north:
+      target_vnum: '990002902948'
+    south:
+      target_vnum: '990002902952'
+  name: Caminhada do Rio
+  vnum: '990002902951'
+- description: |-
+    Esta caminhada é agradavelmente sombreada por árvores crescendo no lado oeste
+    da estrada, em pequenas áreas diante de casas agradáveis. A leste além de uma
+    pequena margem gramada o riacho rápido gorgoleja alegremente em seu caminho
+    para o sul e o mar. Pessoas caminham lentamente, aproveitando a sombra e
+    olhando para o rio. Alguns casais sentam na grama na margem do rio, conversando
+    em vozes baixas enquanto se olham com amor.
+  exits:
+    north:
+      target_vnum: '990002902951'
+    south:
+      target_vnum: '990002902953'
+  name: Caminhada do Rio
+  vnum: '990002902952'
+- description: "Este cruzamento tem pessoas caminhando através dele em todas as direções,\n\
+    alegremente seguindo seus caminhos. Há as pessoas atravessando a Caminhada do\n\
+    Rio, aquelas subindo e descendo a Estrada Gaivota Sul, e aquelas apenas\ndescansando\
+    \ nos bancos. Há até uma plataforma aqui onde um bardo pode se\napresentar. Ã\x89\
+    \ um cruzamento muito pacÃ­fico."
+  exits:
+    east:
+      target_vnum: '990002902949'
+    north:
+      target_vnum: '990002902952'
+    south:
+      target_vnum: '990002902954'
+  name: Cruzamento da Caminhada do Rio e Estrada Gaivota Sul
+  vnum: '990002902953'
+- description: |-
+    Esta caminhada é agradavelmente sombreada por árvores crescendo no lado oeste
+    da estrada, em pequenas áreas diante de casas agradáveis. A leste além de uma
+    pequena margem gramada o riacho rápido gorgoleja alegremente em seu caminho
+    para o sul e o mar. Pessoas caminham lentamente, aproveitando a sombra e
+    olhando para o rio. Este é um lugar tão agradável, não é surpresa que algumas
+    pessoas apenas caminhem pela Caminhada do Rio o dia todo, aproveitando a
+    paisagem.
+  exits:
+    north:
+      target_vnum: '990002902952'
+    south:
+      target_vnum: '990002902955'
+  name: Caminhada do Rio
+  vnum: '990002902954'
+- description: |-
+    Esta caminhada é agradavelmente sombreada por árvores crescendo no lado oeste
+    da estrada, em pequenas áreas diante de casas agradáveis. A leste além de uma
+    pequena margem gramada o riacho rápido gorgoleja alegremente em seu caminho
+    para o sul e o mar. Pessoas caminham lentamente, aproveitando a sombra e
+    olhando para o rio, que gorgoleja ainda mais alto enquanto flui sobre as
+    pequenas pedras aqui.
+  exits:
+    north:
+      target_vnum: '990002902954'
+    south:
+      target_vnum: '990002902956'
+  name: Caminhada do Rio
+  vnum: '990002902955'
+- description: |-
+    Esta caminhada é agradavelmente sombreada por árvores crescendo no lado oeste
+    da estrada, em pequenas áreas diante de casas agradáveis. A leste além de uma
+    pequena margem gramada o riacho rápido gorgoleja alegremente em seu caminho
+    para o sul e o mar. Pessoas caminham lentamente, aproveitando a sombra e
+    olhando para o rio. Ao sul há um cruzamento, marcando o fim sul da Caminhada
+    do Rio.
+  exits:
+    north:
+      target_vnum: '990002902955'
+    south:
+      target_vnum: '990002902959'
+  name: Caminhada do Rio
+  vnum: '990002902956'
+- description: |-
+    Esta loja está cheia de armas de todos os tipos. De fato não seria sábio
+    chegar muito perto das paredes, pois o grande número de coisas afiadas nuas
+    penduradas das prateleiras de madeira ali o despedaçariam se qualquer uma das
+    estruturas delicadas desabasse. Pode ser uma boa ideia perguntar ao dono da
+    loja por que ele não tem prateleiras de aparência mais resistente... Mas por
+    outro lado, talvez ele as tenha frágeis por uma razão. Não há maneira de um
+    ladrão conseguir pegar qualquer uma daquelas sem a máxima cautela. A porta
+    aberta a oeste leva de volta ao Caminho do Mercado, enquanto Mithroq o minotauro
+    fica atrás de um balcão ao leste, afiando uma espada gigante e parecendo pronto
+    para ajudá-lo.
+  exits:
+    west:
+      target_vnum: '990002902965'
+  name: Instrumentos de Destruição de Mithroq
+  vnum: '990002902957'
+- description: |-
+    Através da porta fantasiosamente esculpida que você escolheu entrar, você se
+    encontra dentro de um quarto rico e bem iluminado. Você só pode entrar na menor
+    parte dele, no entanto, com um grande balcão de madeira separando você e a
+    pilha enorme de ouro que ocupa muito da outra metade do quarto. Um guarda fica
+    atrás do balcão, preparado para problemas com sua mão descansando levemente no
+    punho de sua espada. Há também um cavalheiro baixo e magro aqui em roupas de
+    seda ricas, obviamente Milos, o Banqueiro de Porto. A porta ao sul leva de
+    volta à Estrada Gaivota Sul.
+  exits:
+    south:
+      target_vnum: '990002902989'
+  name: Escritório de Milos, o Coletor de Impostos com Hobby Bancário
+  vnum: '990002902958'
+- description: |-
+    Aqui a Caminhada do Rio se transforma em Caminho Arenoso. O riacho a oeste
+    borbulha alegremente para o oceano, onde se junta com o resto da água. O som
+    de ondas batendo contra rochas em algum lugar ao sul enche o ar, junto com os
+    gritos de aves marinhas variadas. A brisa salgada sopra uma neblina fina e
+    refrescante no seu rosto.
+  exits:
+    east:
+      target_vnum: '990002902960'
+    north:
+      target_vnum: '990002902956'
+    south:
+      target_vnum: '990002902933'
+  name: Quina da Caminhada do Rio e Caminho Arenoso
+  vnum: '990002902959'
+- description: |-
+    Aqui as pedras cobertas de areia do Caminho Arenoso não estão muito lotadas.
+    Aqueles que passam aqui ou se apressam em direção ao leste ou caminham
+    tranquilamente para o sul. O som distante de ondas batendo contra rochas chega
+    fracamente aos seus ouvidos. Ao sul há uma praia arenosa bela, e os gritos de
+    crianças podem ser ouvidos misturados com os cries das gaivotas.
+  exits:
+    east:
+      target_vnum: '990002902961'
+    west:
+      target_vnum: '990002902959'
+  name: Caminho Arenoso
+  vnum: '990002902960'
+- description: |-
+    Aqui as pedras cobertas de areia do Caminho Arenoso não estão muito lotadas.
+    Aqueles que passam aqui ou se apressam em direção ao leste ou caminham
+    tranquilamente para o sul. O som distante de ondas batendo contra rochas chega
+    fracamente aos seus ouvidos. Ao sul há uma praia arenosa bela, e os gritos de
+    crianças brincando podem ser ouvidos misturados com os gritos das gaivotas.
+    Você também pode ver o contorno de rochas irregulares distantes no horizonte.
+  exits:
+    east:
+      target_vnum: '990002902962'
+    south:
+      target_vnum: '990002902976'
+    west:
+      target_vnum: '990002902960'
+  name: Caminho Arenoso
+  vnum: '990002902961'
+- description: |-
+    Aqui as pedras cobertas de areia do Caminho Arenoso não estão muito lotadas,
+    mas ao sul você vê o que poderiam ser banhistas. Aqueles que passam aqui ou se
+    apressam em direção ao leste ou caminham tranquilamente para o sul para se
+    juntar com outros. O som distante de ondas batendo contra rochas chega
+    fracamente aos seus ouvidos. Ao sul há uma praia arenosa bela, e os gritos de
+    crianças podem ser ouvidos misturados com os gritos famintos das gaivotas.
+  exits:
+    east:
+      target_vnum: '990002902963'
+    south:
+      target_vnum: '990002902968'
+    west:
+      target_vnum: '990002902961'
+  name: Caminho Arenoso
+  vnum: '990002902962'
+- description: |-
+    Ao sul o que anteriormente parecia arenoso é agora uma rocha gigante e
+    irregular de pedra preta brilhante. A brisa sudeste deriva os gritos felizes de
+    crianças em sua direção. Ao norte a porta de uma das casas da família de
+    pescadores fica aberta, o residente da casa não está lá. Talvez tenham saído
+    com pressa para a praia para buscar uma criança, ou talvez tenham ido ao
+    mercado para alguns suprimentos de última hora. O vento assobia através das
+    rachaduras nas rochas e faria ranger os dentes de qualquer pessoa exceto as
+    surdas.
+  exits:
+    east:
+      target_vnum: '990002902939'
+    north:
+      target_vnum: '990002902981'
+    west:
+      target_vnum: '990002902962'
+  name: Caminho Arenoso
+  vnum: '990002902963'
+- description: |-
+    Este caminho está um pouco lotado, estando bem entre uma das melhores seções
+    residenciais de Porto, a Estrada Gaivota Norte, e a seção comercial principal
+    de Porto, o mercado. O tráfego aqui, embora mais do que você pode ver ao norte,
+    só piora à medida que você vai mais ao sul em direção aos toldos coloridos.
+    Lojas forram o leste, mas parece que a maioria dos proprietários está fora no
+    mercado. Uma loja ainda está aberta, uma com uma placa pendurada pregada acima
+    da porta, retratando um frasco fumegante.
+  exits:
+    east:
+      target_vnum: '990002902966'
+    north:
+      target_vnum: '990002902942'
+    south:
+      target_vnum: '990002902965'
+  name: Caminho do Mercado
+  vnum: '990002902964'
+- description: |-
+    Ao sul o barulho e os cheiros do mercado são tantos que são quase dolorosos.
+    Aqui a multidão é mais silenciosa, sendo principalmente pessoas carregando a
+    descoberta do dia no mercado de volta para suas casas. Há apenas uma loja com
+    sua porta ainda deixada aberta, implorando por negócios. Ela tem uma placa
+    pregada acima da porta, uma de uma espada e maça cruzadas.
+  exits:
+    east:
+      target_vnum: '990002902957'
+    north:
+      target_vnum: '990002902964'
+    south:
+      target_vnum: '990002902980'
+  name: Caminho do Mercado
+  vnum: '990002902965'
+- description: |-
+    Este quarto é enfumaçado e cheira intensamente a incenso. As contas pendendo
+    da porta balançam enquanto você as empurra de lado para entrar, fazendo Tia
+    notar sua presença antes de se virar de volta para seu caldeirão, adicionando
+    uma pitada de uma erva de cheiro estranho ao pote espumante. Outras ervas
+    variadas pendem do teto e frascos e garrafas vazios e cheios enchem as
+    prateleiras na parede.
+  exits:
+    west:
+      target_vnum: '990002902964'
+  name: Boticário da Tia
+  vnum: '990002902966'
+- description: |-
+    Contrário ao norte, onde as ondas batem nas rochas e agitam todo o oceano em
+    uma espuma branca, aqui navios mercantes forram as docas de madeira elevadas na
+    água profunda e segura. Você pode dizer que são embarcações mercantes, pois
+    nenhum pescador com carroças ou qualquer outra coisa corre para cima e para
+    baixo de suas pranchas como fazem para os navios mais abaixo. As embarcações
+    mercantes têm velas de muitas cores, com bandeiras de reinos variados. Ao norte
+    a rua está um pouco distante, enquanto ao sul há algumas das famosas
+    embarcações de pesca de Porto.
+  exits:
+    north:
+      target_vnum: '990002902936'
+    south:
+      target_vnum: '990002902935'
+  name: Nas Docas
+  vnum: '990002902967'
+- description: "Aqui há uma praia arenosa serena. Banhistas sorrindo felizmente se\
+    \ espalham\nna areia, fazendo aqueles que desejam caminhar pela praia terem que\
+    \ observar\nseus passos ou pisar em um membro saliente. A areia fina é macia,\
+    \ a praia\nalisada pelos ventos constantemente varrendo-a. A água aqui é quente\
+    \ e calma,\nlambendo em ondas suaves. Crianças em sua roupa íntima, provavelmente\
+    \ crianças\nda cidade, nadam alegremente, até as rochas irregulares contra as\
+    \ quais as\nondas se chocam do outro lado, jogando borrifo no ar. Ã\x89 uma coisa\
+    \ boa que\nessas rochas estejam lá para agir como quebra-mares, ou esta praia\
+    \ bela não\nseria nadável."
+  exits:
+    north:
+      target_vnum: '990002902962'
+    west:
+      target_vnum: '990002902976'
+  name: Praia Bela
+  vnum: '990002902968'
+- description: |-
+    Contrário ao caminho pavimentado arenoso correndo ao norte, ficar nesta areia
+    aparentemente estável resulta em você afundando na areia movediça aquosa até
+    seus joelhos antes que seus pés entrem em contato com algo sólido. A leste há
+    outro pequeno trecho de praia de areia movediça antes das docas começarem. Ao
+    sul o mar começa, batendo contra as rochas irregulares na água que se aprofunda
+    rapidamente.
+  exits:
+    north:
+      target_vnum: '990002902971'
+    west:
+      target_vnum: '990002902970'
+  name: "Ã\x81gua atÃ© os Joelhos"
+  vnum: '990002902969'
+- description: |-
+    Contrário ao caminho pavimentado arenoso correndo ao norte, ficar nesta areia
+    aparentemente estável resulta em você afundando na areia movediça aquosa até
+    seus joelhos antes que seus pés entrem em contato com algo sólido. A oeste
+    estão os pilares grossos e altos que sustentam as docas enormes. A área sob as
+    docas está escura. Ao sul o mar começa, batendo contra as rochas irregulares na
+    água que se aprofunda rapidamente.
+  exits:
+    east:
+      target_vnum: '990002902969'
+    north:
+      target_vnum: '990002902937'
+    west:
+      target_vnum: '990002902925'
+  name: "Ã\x81gua atÃ© os Joelhos"
+  vnum: '990002902970'
+- description: |-
+    A estrada pavimentada de Porto aqui está quase coberta por uma camada fina
+    de areia, com mais constantemente soprando na brisa marinha vinda do sul. Há
+    também o início do mar ao sul, a areia intercalada com muitas rochas irregulares
+    nas quais as ondas se quebram. A oeste o Caminho Arenoso, merecedor de seu nome,
+    viaja ininterrupto. A leste há uma cabana de madeira com uma placa retratando
+    um barco pregada sobre a porta.
+  exits:
+    east:
+      target_vnum: '990002902972'
+    north:
+      target_vnum: '990002902977'
+    south:
+      target_vnum: '990002902969'
+    west:
+      target_vnum: '990002902937'
+  name: Cruzamento da Estrada do Mercado e Caminho Arenoso
+  vnum: '990002902971'
+- description: |-
+    Ao entrar na cabana você vê um velho enrugado parado sobre uma peça de cota
+    de malha quase terminada, adicionando os toques finais. Há todos os tipos de
+    armaduras e roupas penduradas do teto e montadas nas paredes. O velho levanta
+    os olhos quando você entra, rapidamente pulando atrás de um balcão contra a
+    parede leste. Atrás do balcão há uma porta baixa levando a um quarto dos fundos,
+    presumivelmente a oficina de Aramut.
+  exits:
+    east:
+      target_vnum: '990002902934'
+    west:
+      target_vnum: '990002902971'
+  name: Vestuário Protetor de Aramut
+  vnum: '990002902972'
+- description: |-
+    O beco estreito é sinuoso, escuro e cheio de lixo podre. Os nichos nas
+    paredes contêm olhos que brilham o reflexo de sua própria luz de volta para
+    você, e risadas ecoam no espaço próximo junto com gibberish e gritos, parecendo
+    vir de todos os lugares e lugar nenhum ao mesmo tempo. Ratos correm ao redor de
+    seus pés e observam você das sombras, hostis e quase tão grandes quanto gatos
+    pequenos. Não é muito de se admirar que as pessoas de Porto evitem este lugar.
+    Os habitantes desta pista se esquivam da pequena quantidade de luz correndo do
+    sul e da interseção, seus olhos acostumados à escuridão e machucados pela luz
+    natural.
+  exits:
+    north:
+      target_vnum: '990002902974'
+    south:
+      target_vnum: '990002902987'
+  name: Beco da Luna
+  vnum: '990002902973'
+- description: |-
+    O beco estreito é sinuoso, escuro e cheio de lixo podre. Os nichos nas
+    paredes contêm olhos que brilham o reflexo de sua própria luz de volta para
+    você, e risadas ecoam no espaço próximo junto com gibberish e gritos, parecendo
+    vir de todos os lugares e lugar nenhum ao mesmo tempo. Ratos correm ao redor de
+    seus pés e observam você das sombras, hostis e quase tão grandes quanto gatos
+    pequenos. Não é muito de se admirar que as pessoas de Porto evitem este lugar.
+    As pessoas na interseção comparativamente iluminada ao norte passam apressadas
+    com suas cabeças baixas.
+  exits:
+    north:
+      target_vnum: '990002902946'
+    south:
+      target_vnum: '990002902973'
+  name: Beco da Luna
+  vnum: '990002902974'
+- description: |-
+    As tábuas estão molhadas com o borrifo das ondas batendo contra as rochas
+    abaixo. Você chega muito perto da borda, e o vento rápido o pega e o joga sobre
+    os limites das tábuas molhadas. A espiral do vento o atira para baixo na água
+    que gela os ossos com um SPLASH!! Quando você vem à superfície, antes de ter
+    mesmo o menor tempo para reagir, você é atirado contra as rochas irregulares
+    pelas ondas batendo.
+  exits: {}
+  name: Contra as Rochas
+  vnum: '990002902975'
+- description: "Aqui há uma praia arenosa serena. Pessoas se deitam na areia, e aqueles\
+    \ que\ntêm o dia todo longe do trabalho podem tomar sol o dia todo, dormindo sob\
+    \ as\nestrelas à noite. A areia fina é macia, a praia alisada pelos ventos\nconstantemente\
+    \ varrendo-a. A água aqui é quente e calma, lambendo em ondas\nsuaves. Crianças\
+    \ da cidade nadam alegremente, até as rochas irregulares. Ondas\nse chocam forte\
+    \ contra o outro lado daquelas rochas, jogando borrifo no ar. Ã\x89\numa coisa\
+    \ boa que essas rochas estejam lá para agir como quebra-mares, ou esta\npraia\
+    \ bela não seria nadável."
+  exits:
+    east:
+      target_vnum: '990002902968'
+    north:
+      target_vnum: '990002902961'
+    west:
+      target_vnum: '990002902933'
+  name: Praia Bela
+  vnum: '990002902976'
+- description: |-
+    Há muito tráfego nesta estrada serpenteante. Muitas das pessoas indo ao norte
+    estão puxando carroças cheias de peixe, enquanto muitas das pessoas indo ao sul
+    estão puxando carroças vazias, sorrindo enquanto suas bolsas cheias tilintar de
+    seus quadris. Ao norte você pode vislumbrar toldos coloridos e multidões de
+    pessoas, enquanto ao sul você pode ouvir o estrondo de ondas quebrando nas
+    rochas. Se você forçar a vista talvez possa ver um pouco do azul cintilante da
+    luz refletida onde a estrada serpenteante quebra entre as muitas casas e
+    estabelecimentos.
+  exits:
+    north:
+      target_vnum: '990002902978'
+    south:
+      target_vnum: '990002902971'
+    west:
+      target_vnum: '990002902932'
+  name: Estrada do Mercado
+  vnum: '990002902977'
+- description: |-
+    Ao norte o cheiro de peixe, a pressão das pessoas e o barulho de um mercado
+    movimentado tudo se torna maior. Em ambos os lados da estrada você pode ver a
+    multidão de pessoas se movendo em todas as direções. Você também pode
+    vislumbrar o grande portão de Porto ao sul, e flashes de toldos coloridos ao
+    norte. Alguém pode se perguntar por que tantas pessoas seriam atraídas a um
+    mercado de peixe, de todas as coisas.
+  exits:
+    north:
+      target_vnum: '990002902994'
+    south:
+      target_vnum: '990002902977'
+  name: Estrada do Mercado, perto do mercado
+  vnum: '990002902978'
+- description: |-
+    As pessoas se apertam de todos os lados! Sob o tecido brilhante, remendado e
+    colorido, não existe tal coisa como céu. Há apenas pessoas vagando pelo
+    mercado lotado, homens carregando vagões e mercadores. Oh, os mercadores!
+    Vestidos em trajes extravagantes e com todos os tipos de sotaques, os
+    mercadores gritam sobre suas mercadorias, disputando sua atenção. Em uma
+    multidão como esta, capaz de deixar até você claustrofóbico, seria sábio
+    manter suas mãos perto da sua bolsa.
+  exits:
+    east:
+      target_vnum: '990002902995'
+    south:
+      target_vnum: '990002902993'
+    west:
+      target_vnum: '990002902980'
+  name: Mercado de Peixes Lotado
+  vnum: '990002902979'
+- description: |-
+    As pessoas se apertam de todos os lados! Sob o tecido brilhante, remendado e
+    colorido, não existe tal coisa como céu. Há apenas pessoas vagando pelo
+    mercado lotado, homens carregando vagões e mercadores. Oh, os mercadores!
+    Vestidos em trajes extravagantes e com todos os tipos de sotaques, os
+    mercadores gritam sobre suas mercadorias, disputando sua atenção. Em uma
+    multidão como esta, capaz de deixar até você claustrofóbico, seria sábio
+    manter suas mãos perto da sua bolsa.
+  exits:
+    east:
+      target_vnum: '990002902979'
+    north:
+      target_vnum: '990002902965'
+    south:
+      target_vnum: '990002902992'
+  name: Mercado de Peixes Lotado
+  vnum: '990002902980'
+- description: |-
+    Esta cabana é bem pequena, mas parece muito confortável. Contra a parede leste
+    três beliches estão empilhados um sobre o outro de tal forma a se encaixar, mas
+    para dar a cada pessoa espaço suficiente para se deitar confortavelmente. Há um
+    pequeno fogão contra a parede norte, suas brasas vermelhas iluminando o quarto.
+    Uma rede pende sobre a única janela voltada para o sul e o Caminho Arenoso,
+    servindo como cortina. Há uma lata de peixe, alimento básico principal de Porto,
+    contra a parede oeste. O pequeno chão, o que não está coberto por um tapete, é
+    terra varrida organizadamente.
+  exits:
+    south:
+      target_vnum: '990002902963'
+  name: A Cabana do Pescador
+  vnum: '990002902981'
+- description: |-
+    Este não é exatamente o porão que as portas davam a entender que seria.
+    Parece que o Senhor Degruziel não é exatamente popular com todos. O quarto está
+    fracamente iluminado por um braseiro brilhante cheio de brasas vermelhas
+    quentes. Há também uma vara de ferro quente no braseiro, e não parece muito
+    amigável. Você pode mal distinguir uma prateleira de instrumentos de tortura
+    reluzentes na parede distante, bem à esquerda da donzela de ferro. Alguns
+    daqueles instrumentos fariam até mesmo os mais duros de coração e malignos do
+    reino hesitar. Há uma porta de ferro pesada a oeste, com uma pequena fenda
+    para olhar dentro para verificar os prisioneiros.
+  exits:
+    up:
+      target_vnum: '990002902912'
+    west:
+      target_vnum: '990002902906'
+  name: A Câmara de Tortura da Mansão
+  vnum: '990002902982'
+- description: |-
+    Você entra na luz criada por muitos feixes queimando de tecido embebido em
+    óleo, obviamente tochas improvisadas, que iluminam esta praça aberta. Pilhas
+    de trapos imundos estão amontoadas contra as paredes, servindo como camas para
+    aqueles sem casas. Há uma cadeira de madeira velha contra a 'parede' leste da
+    praça. Ela pode ter sido magnífica uma vez, a praça, mas agora sua fonte uma
+    vez bela é apenas uma poça estagnada incrustada de granito, e a própria praça
+    está horrivelmente suja e em estado de abandono.
+  exits:
+    down:
+      target_vnum: '990002902928'
+    west:
+      target_vnum: '990002902984'
+  name: Praça da Luna
+  vnum: '990002902983'
+- description: |-
+    O beco estreito é sinuoso, escuro e cheio de lixo podre. Os nichos nas
+    paredes contêm olhos que brilham o reflexo de sua própria luz de volta para
+    você, e risadas ecoam no espaço próximo junto com gibberish e gritos parecendo
+    vir de todos os lugares e lugar nenhum ao mesmo tempo. Ratos correm ao redor de
+    seus pés e observam você das sombras, hostis e quase tão grandes quanto gatos
+    pequenos. Não é muito de se admirar que as pessoas de Porto evitem este lugar,
+    usando-o apenas como despejo. Luz entra do leste, quase permitindo que você
+    veja o caminho.
+  exits:
+    east:
+      target_vnum: '990002902983'
+    north:
+      target_vnum: '990002902985'
+  name: Beco da Luna
+  vnum: '990002902984'
+- description: |-
+    O beco estreito é sinuoso, escuro e cheio de lixo podre. Os nichos nas
+    paredes contêm olhos que brilham o reflexo de sua própria luz de volta para
+    você, e risadas ecoam no espaço próximo junto com gibberish e gritos, parecendo
+    vir de todos os lugares e lugar nenhum ao mesmo tempo. Ratos correm ao redor de
+    seus pés e observam você das sombras, hostis e quase tão grandes quanto gatos
+    pequenos. Não é muito de se admirar que as pessoas de Porto evitem este lugar.
+    Em algum lugar ao sul há o brilho suave da luz.
+  exits:
+    north:
+      target_vnum: '990002902986'
+    south:
+      target_vnum: '990002902984'
+  name: Beco da Luna
+  vnum: '990002902985'
+- description: |-
+    O beco estreito é sinuoso, escuro e cheio de lixo podre. Os nichos nas
+    paredes contêm olhos que brilham o reflexo de sua própria luz de volta para
+    você, e risadas ecoam no espaço próximo junto com gibberish e gritos, parecendo
+    vir de todos os lugares e lugar nenhum ao mesmo tempo. Ratos correm ao redor de
+    seus pés e observam você das sombras, hostis e quase tão grandes quanto gatos
+    pequenos. Não é muito de se admirar que as pessoas de Porto evitem este lugar.
+  exits:
+    north:
+      target_vnum: '990002902987'
+    south:
+      target_vnum: '990002902985'
+  name: Beco da Luna
+  vnum: '990002902986'
+- description: |-
+    Uivos semelhantes a animais do norte e sul bloqueiam os sons do vento aqui,
+    originando de um beco estreito e imundo. Os telhados suspensos o tornam negro
+    como breu e os flashes estranhos que você vê vindo da escuridão do beco podem
+    ser reflexos de luz em olhos de animais... ou humanos... Não é surpresa que as
+    pessoas passem apressadas por este cruzamento com olhares preocupados para o
+    norte e sul.
+  exits:
+    east:
+      target_vnum: '990002902988'
+    north:
+      target_vnum: '990002902973'
+    south:
+      target_vnum: '990002902986'
+    west:
+      target_vnum: '990002902949'
+  name: Cruzamento da Estrada Gaivota Sul e Beco da Luna
+  vnum: '990002902987'
+- description: |-
+    As casas ao longo da Estrada Gaivota Sul são menores que as que você pode ver
+    ao norte, mas ainda são bem bonitas. Esta estrada é irregularmente sombreada
+    pelas pequenas árvores em alguns dos pequenos pátios, e canteiros pequenos
+    periódicos de flores adicionam seus aromas à brisa que varre as pedras limpas.
+    Residentes passeando ocasionalmente passam por você, sorrindo felizes. Talvez
+    eles não ouçam as risadas suaves e maníacas que vêm de algum lugar a leste.
+  exits:
+    east:
+      target_vnum: '990002902989'
+    west:
+      target_vnum: '990002902987'
+  name: Estrada Gaivota Sul
+  vnum: '990002902988'
+- description: |-
+    As casas ao longo da Estrada Gaivota Sul são menores que as que você pode ver
+    ao norte, mas ainda são bem bonitas. Esta estrada é irregularmente sombreada
+    pelas pequenas árvores em alguns dos pequenos pátios, e canteiros pequenos
+    periódicos de flores adicionam seus aromas à brisa que varre as pedras limpas.
+    Residentes passeando ocasionalmente passam por você, sorrindo felizes. A estrada
+    vira ao sul aqui, enquanto ao norte um prédio opulento tem portas abertas, que
+    derramam uma luz dourada rica na rua. Através da pequena janela com grades você
+    pode capturar vislumbres de guardas bem armados e uma pilha cintilante do que
+    parece ser moedas de ouro.
+  exits:
+    north:
+      target_vnum: '990002902958'
+    south:
+      target_vnum: '990002902990'
+    west:
+      target_vnum: '990002902988'
+  name: Estrada Gaivota Sul
+  vnum: '990002902989'
+- description: |-
+    As casas ao longo da Estrada Gaivota Sul são menores que as que você pode ver
+    ao norte, mas ainda são bem bonitas. Esta estrada é irregularmente sombreada
+    pelas pequenas árvores em alguns dos pequenos pátios, e canteiros pequenos
+    periódicos de flores adicionam seus aromas à brisa que varre as pedras limpas.
+    Residentes passeando ocasionalmente passam por você, sorrindo felizes. Em algum
+    lugar ao sudeste você pode ver a torre branca alta da Casa da Mansão do Senhor
+    de Porto.
+  exits:
+    east:
+      target_vnum: '990002902991'
+    north:
+      target_vnum: '990002902989'
+  name: Estrada Gaivota Sul
+  vnum: '990002902990'
+- description: |-
+    Bem contrário ao mercado lotado a leste, esta rua é de alguma forma pacífica.
+    Isso pode ser apenas por causa das patrulhas de guardas musculosos que passam
+    em intervalos regulares. O cheiro de peixe que é tão prevalente em outros
+    lugares de Porto está quase ausente do ar aqui, sendo substituído pelo aroma
+    salgado da brisa marinha ao sul que está carregando o perfume doce das flores
+    em sua direção. Ao sul a brancura alta da torre projetando da mansão que fica
+    lá é como um dedo de osso levantado na percepção da resposta a uma pergunta
+    urgente.
+  exits:
+    east:
+      target_vnum: '990002902992'
+    south:
+      target_vnum: '990002902914'
+    west:
+      target_vnum: '990002902990'
+  name: Estrada Gaivota Sul
+  vnum: '990002902991'
+- description: |-
+    As pessoas se apertam de todos os lados! Sob o tecido brilhante, remendado e
+    colorido, não existe tal coisa como céu. Há apenas pessoas vagando pelo
+    mercado lotado, homens carregando vagões e mercadores. Oh, os mercadores!
+    Vestidos em trajes extravagantes e com todos os tipos de sotaques, os
+    mercadores gritam sobre suas mercadorias, disputando sua atenção. Em uma
+    multidão como esta, capaz de deixar até você claustrofóbico, seria sábio
+    manter suas mãos perto da sua bolsa. A oeste você vê uma pequena abertura
+    desobstruída levando ao céu azul.
+  exits:
+    east:
+      target_vnum: '990002902993'
+    north:
+      target_vnum: '990002902980'
+    west:
+      target_vnum: '990002902991'
+  name: Mercado de Peixes Lotado
+  vnum: '990002902992'
+- description: |-
+    As pessoas se apertam de todos os lados! Sob o tecido brilhante, remendado e
+    colorido, não existe tal coisa como céu. Há apenas pessoas vagando pelo
+    mercado lotado, homens carregando vagões e mercadores. Oh, os mercadores!
+    Vestidos em trajes extravagantes e com todos os tipos de sotaques, os
+    mercadores gritam sobre suas mercadorias, disputando sua atenção. Em uma
+    multidão como esta, capaz de deixar até você claustrofóbico, seria sábio
+    manter suas mãos perto da sua bolsa.
+  exits:
+    east:
+      target_vnum: '990002902994'
+    north:
+      target_vnum: '990002902979'
+    west:
+      target_vnum: '990002902992'
+  name: Mercado de Peixes Lotado
+  vnum: '990002902993'
+- description: |-
+    Pessoas empurram ao passar, com pressa para chegar onde quer que seja que
+    estão indo. Você pode ouvir os praguejos de vários homens em carroças e vagões,
+    tentando levá-los e suas mercadorias através da multidão. Próximo ao leste
+    toldos coloridos costurados ondulam na brisa marinha rígida e salgada. Os sons
+    de mercadores gritando suas mercadorias e pessoas gritando umas com as outras
+    em geral são quase esmagadores. Ao sul a multidão se afina em uma multidão, e
+    ao norte você vê o mesmo tipo de encontro que vê aqui.
+  exits:
+    north:
+      target_vnum: '990002902995'
+    south:
+      target_vnum: '990002902978'
+    west:
+      target_vnum: '990002902993'
+  name: Estrada do Mercado, além do mercado
+  vnum: '990002902994'
+- description: |-
+    Pessoas empurram ao passar, com pressa para chegar onde quer que seja que
+    estão indo. Você pode ouvir os praguejos de vários homens em carroças e vagões,
+    tentando levá-los e suas mercadorias através da multidão. Próximo ao leste
+    toldos coloridos costurados ondulam na brisa marinha rígida e salgada. Os sons
+    de mercadores gritando suas mercadorias e pessoas gritando umas com as outras
+    em geral são quase esmagadores. Ao norte a multidão se afina em uma multidão, e
+    ao sul você vê o mesmo tipo de encontro que vê aqui.
+  exits:
+    north:
+      target_vnum: '990002902996'
+    south:
+      target_vnum: '990002902994'
+    west:
+      target_vnum: '990002902979'
+  name: Estrada do Mercado, além do mercado
+  vnum: '990002902995'
+- description: |-
+    Ao sul o cheiro de peixe, a pressão das pessoas e o barulho de um mercado
+    movimentado tudo se torna maior. Em ambos os lados da estrada você pode ver a
+    multidão de pessoas se movendo em todas as direções. Você também pode vislumbrar
+    o grande portão de Porto ao norte, e flashes de toldos coloridos ao sul. Alguém
+    pode se perguntar por que tantas pessoas seriam atraídas a um mercado de peixe,
+    de todas as coisas.
+  exits:
+    north:
+      target_vnum: '990002902997'
+    south:
+      target_vnum: '990002902995'
+  name: Estrada do Mercado
+  vnum: '990002902996'
+- description: |-
+    A brisa do sul sopra um aroma de peixe em sua direção, e através da pressão
+    das pessoas nesta estrada serpenteante relativamente estreita você pode
+    vislumbrar o portão de Porto ao norte, e flashes de toldos coloridos em algum
+    lugar ao sul. Sobre o tilintar de cascos nas pedras e gritos de vizinhos uns
+    para os outros você pode ouvir o rugido surdo de fundo do surf marinho batendo
+    nas rochas. O ar está quente e úmido o suficiente para tornar a brisa leve
+    refrescante.
+  exits:
+    north:
+      target_vnum: '990002902998'
+    south:
+      target_vnum: '990002902996'
+  name: Estrada do Mercado
+  vnum: '990002902997'
+- description: "Ao norte há um par magnífico de portões. Com pelo menos vinte pés\
+    \ de altura\ne largos o suficiente para passar duas carroÃ§as lado a lado. Ã\x89\
+    \ inteiramente\nfeito de cristal negro polido, que parece um marrom dourado rico\
+    \ e liso ao\ntoque. Há muitas esculturas de animais marinhos e pássaros no portão,\n\
+    magistralmente feitas, mas o conjunto mais atraente de esculturas são os peixes\n\
+    gêmeos saltando. Com cinco pés de altura cada um, seus olhos adornados com\njoias\
+    \ piscando, eles estão no centro direto de cada portão. Você pode dizer\npelos\
+    \ olhares reverentes daqueles que passam que o povo da cidade está muito\norgulhoso\
+    \ de seu portão."
+  exits:
+    north:
+      target_vnum: '990011311388'
+    south:
+      target_vnum: '990002902997'
+    west:
+      target_vnum: '990002902941'
+  name: Os Portões Ornamentados da Cidade
+  vnum: '990002902998'
+- description: |-
+    Esta zona se conectará ao norte ao quarto 3472. Construa todos os quartos ao
+    sul desse ponto de conexão.
+  exits: {}
+  name: Um Quarto de Ligação
+  vnum: '990002902999'

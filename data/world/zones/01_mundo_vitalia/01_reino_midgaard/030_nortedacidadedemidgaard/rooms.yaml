@@ -1,0 +1,1066 @@
+- description: |-
+    Você está em uma pequena e simples sala que é em sua maior parte vazia,
+    exceto por algumas escrivaninhas e cadeiras.  Para leste, você ouve a
+    movimentação do Templo de Midgaard, um grande contraste relacionado com essa
+    pequena sala onde você se encontra.
+    A oeste, uma escadaria leva a zona residencial de Midgaard.
+  exits:
+    east:
+      target_vnum: '010103003001'
+    north:
+      target_vnum: '010122122100'
+    west:
+      target_vnum: '010101001001'
+  name: A Sala de Leitura
+  vnum: '010103003000'
+- description: |-
+    Você está a sul do hall do Templo de Midgaard. O templo foi construído
+    com blocos gigantes de mármore, com aparência eterna, e muitas paredes
+    são cobertas por velhas pinturas de Deuses, Gigantes e camponeses.
+    Grandes degraus descem logo após o portal do templo, descendo o enorme
+    monte sobre o qual o templo está construído e termina na Praca do Templo
+    logo abaixo. Para oeste você pode ver a Sala de Leitura. A Sala de
+    Doações é uma pequena sala para o leste.
+  exits:
+    down:
+      target_vnum: '010103003005'
+    east:
+      target_vnum: '010103003063'
+    north:
+      target_vnum: '010103003054'
+    south:
+      target_vnum: '010103003005'
+    west:
+      target_vnum: '010103003000'
+  name: O Templo de Midgaard
+  vnum: '010103003001'
+- description: |-
+    Este é o santuário interno. Uma pintura do poderoso Thor está pendurada
+    na parede, sobre o altar, localizado na parede oeste. Um fosso no meio da
+    sala desce para a escuridão...  Um odor abjeto emana das profundezas.
+  exits:
+    down:
+      target_vnum: '010507007026'
+    east:
+      target_vnum: '010103003003'
+  name: O Santuário Interno dos Clérigos
+  vnum: '010103003002'
+- description: |-
+    O bar é um dos mais finos da terra, observe que é apenas para membros.
+    Finas peças de metais e pedras preciosas enfeitam toda a sala. Um pequeno
+    aviso está pendurado na parede.
+  exits:
+    south:
+      target_vnum: '010103003004'
+    west:
+      target_vnum: '010103003002'
+  name: O Bar das Divindades
+  vnum: '010103003003'
+- description: |-
+    A entrada para a sala é um pequeno e modesto quarto, refletindo a verdade
+    sobre a natureza dos Clérigos. Existe uma saída para o leste que leva
+    para a Praça do Templo. O bar está ao norte daqui.
+  exits:
+    east:
+      target_vnum: '010103003005'
+    north:
+      target_vnum: '010103003003'
+  name: A Entrada para a Associação dos Clérigos
+  vnum: '010103003004'
+- description: |-
+    Você está parado na Praca do Templo. Uma enorme escada de mármore conduz
+    para o portão do templo. Para oeste você pode ver a Associação dos Clérigos,
+    e para leste a velha Hospedaria Grunting Boar. Para o sul você pode ver a
+    praça do mercado, o centro de Midgaard e do nordeste parece que suave melodia
+    alcança seus aguçados ouvidos.
+  exits:
+    east:
+      target_vnum: '010103003006'
+    north:
+      target_vnum: '010103003001'
+    northwest:
+      target_vnum: '010122022030'
+    south:
+      target_vnum: '010103003014'
+    west:
+      target_vnum: '010103003004'
+  name: A Praça do Templo
+  vnum: '010103003005'
+- description: |-
+    Você está na entrada da Hospedaria Grunting Boar Inn.  O salao foi
+    sabiamente decorado com mobília simples e funcional. O cheiro de poeira e
+    papel velho vem do Serviço de Correios, ao norte. O bar (oba!) é ao leste.
+  exits:
+    east:
+      target_vnum: '010103003007'
+    north:
+      target_vnum: '010103003062'
+    west:
+      target_vnum: '010103003005'
+  name: O Salão de Entrada da Hospedaria Grunting Boar
+  vnum: '010103003006'
+- description: |-
+    Você está no bar. O bar fica contra a parede norte, escrita antiga,
+    gravações e símbolos cobrem sua superfície. Uma lareira é construída
+    na parede oeste, e através das janelas ao sul você pode ver o a Praça
+    do Templo. Este lugar lhe faz sentir-se em casa. Um pequeno aviso com
+    letras grandes está pregado ao bar.
+    A sul fica um estreito corredor, muito mal iluminado.
+  exits:
+    south:
+      target_vnum: '010103003086'
+    west:
+      target_vnum: '010103003006'
+  name: O Grunting Boar
+  vnum: '010103003007'
+- description: |-
+    Diversos cartazes de 'PROCURADO' cobrem as paredes aqui.  Pilhas e mais
+    pilhas de papeis dos habitantes locais pedindo os mais diversos tipos de ajuda
+    estao espalhados por toda a sala.  No centro da sala, alguns montes de papeis
+    parecem ter sido empilhados na forma de um sofa.  No canto oeste existe algo que
+    lembra uma escada feita de papeis.
+  exits:
+    down:
+      target_vnum: '010103003062'
+  name: O Escritorio dos Aventureiros
+  vnum: '010103003008'
+- description: |-
+    Você esta dentro de uma pequena padaria. O doce perfume dos pães da
+    Dinamarca enchem a sala.  Os pães da Dinamarca são arrumados em perfeita
+    ordem nas prateleiras, e parecem ser da melhor qualidade.
+    Há um pequeno aviso no balcao.
+  exits:
+    south:
+      target_vnum: '010103003013'
+  name: A Padaria
+  vnum: '010103003009'
+- description: |-
+    Você está dentro do armazém. Todo tipo de items estão nas prateleiras
+    por trás do balcão, seguros, fora do seu alcance.
+    Uma pequena nota está pendurada na parede.
+  exits:
+    south:
+      target_vnum: '010103003015'
+  name: O Armazém
+  vnum: '010103003010'
+- description: Você esta dentro da loja de armas. Existe uma pequena nota no balcão.
+  exits:
+    south:
+      target_vnum: '010103003016'
+  name: A Loja de Armas
+  vnum: '010103003011'
+- description: |-
+    Você está no fim da rua principal de Midgaard.  Ao sul fica a entrada
+    da Associação dos Magos. A rua continua ao leste levando à
+    praça do mercado. A loja de mágica fica ao norte e para o oeste está o
+    portão da cidade.
+  exits:
+    east:
+      target_vnum: '010103003013'
+    north:
+      target_vnum: '010103003033'
+    south:
+      target_vnum: '010103003017'
+    west:
+      target_vnum: '010103003040'
+  name: Rua Principal
+  vnum: '010103003012'
+- description: |-
+    Você está na rua principal atravessando a Cidade de Midgaard.  Ao sul
+    daqui fica a entrada para a Loja de Armaduras, e a padaria é ao norte.
+    A leste daqui fica a praça do mercado.
+  exits:
+    east:
+      target_vnum: '010103003014'
+    north:
+      target_vnum: '010103003009'
+    south:
+      target_vnum: '010103003020'
+    west:
+      target_vnum: '010103003012'
+  name: Rua Principal
+  vnum: '010103003013'
+- description: |-
+    Você está diante da Praca do Mercado, a famosa Praça de Midgaard.
+    Há uma grande e estranha estátua no meio da praça. Ela é esculpida
+    em bronze e pedra. Dizem as lendas que ela pode tomar vida para defender
+    Midgaard de ataques malignos.
+    Ruas saem em todas as direções, para norte a praca do templo, para
+    sul a Praca Comum, leste e oeste saem na Rua Principal.
+  exits:
+    east:
+      target_vnum: '010103003015'
+    north:
+      target_vnum: '010103003005'
+    south:
+      target_vnum: '010103003075'
+    west:
+      target_vnum: '010103003013'
+  name: A Praça do Mercado
+  vnum: '010103003014'
+- description: |-
+    Você está na rua principal, atravessando a cidade. Ao norte há
+    o armazem, e a rua principal prolonga-se para leste. A oeste você vê e ouve
+    a praça do mercado, ao sul uma pequena porta leva à Loja de Animais.
+  exits:
+    east:
+      target_vnum: '010103003016'
+    north:
+      target_vnum: '010103003010'
+    south:
+      target_vnum: '010103003031'
+    west:
+      target_vnum: '010103003014'
+  name: Rua Principal
+  vnum: '010103003015'
+- description: |-
+    A rua principal. Ao norte você tem a loja de armas e ao sul a
+    Associação dos Guerreiros. A leste você deixa a cidade e para oeste
+    a rua leva à praca do mercado.
+  exits:
+    east:
+      target_vnum: '010103003041'
+    north:
+      target_vnum: '010103003011'
+    south:
+      target_vnum: '010103003021'
+    west:
+      target_vnum: '010103003015'
+  name: Rua Principal
+  vnum: '010103003016'
+- description: |-
+    O corredor de entrada para esse guia é pequeno, iluminado por uma
+    luz que altera sua cor entre azul e roxo.
+  exits:
+    north:
+      target_vnum: '010103003012'
+    south:
+      target_vnum: '010103003018'
+  name: A Entrada para o Associação dos Magos
+  vnum: '010103003017'
+- description: |-
+    Esse bar é um dos mais estranhos da terra. Imagens misticas flutuam
+    pelo ar. Ilusões de fina mobília aparecem por toda a sala.
+  exits:
+    east:
+      target_vnum: '010103003019'
+    north:
+      target_vnum: '010103003017'
+  name: O Bar dos Magos
+  vnum: '010103003018'
+- description: |-
+    Este é o Laboratório de Experimentos Mágicos. Arcos de pedra escurecidos
+    pela fumaça sobre pesadas mesas de carvalho, a maioria delas povoadas de
+    estranhos potes e frascos. O chão é coberto com pentagramas semi-apagados
+    e símbolos ainda mais estranhos, e num quadro negro parcialmente limpo
+    num canto escuro, algumas dolorosas letras são levemente visíveis. Um fosso
+    no meio da sala leva à escuridão. Um odor pútrido exala das profundezas.
+  exits:
+    down:
+      target_vnum: '010507007017'
+    west:
+      target_vnum: '010103003018'
+  name: O Laboratório dos Magos
+  vnum: '010103003019'
+- description: |-
+    Uma loja com todos os tipos de armaduras sobre as paredes e janelas.
+    Você vê elmos, escudos e malhas de aco. Ao norte fica a rua principal.
+    Na parede se vê uma nota.
+  exits:
+    north:
+      target_vnum: '010103003013'
+  name: A Loja de Armaduras
+  vnum: '010103003020'
+- description: |-
+    Um lugar onde tem que se tomar cuidado em não falar nada
+    errado (ou certo). A leste fica o bar e ao norte a rua principal.
+  exits:
+    east:
+      target_vnum: '010103003022'
+    north:
+      target_vnum: '010103003016'
+  name: O Salao de Entrada da Associação dos Guerreiros
+  vnum: '010103003021'
+- description: |-
+    O Bar dos Guerreiros. Esse lugar foi um dia belamente mobiliado... Mas
+    agora a mobilia está toda por aí, em pequenos pedaços. Ao sul fica o pátio,
+    e a oeste o salão de entrada.
+  exits:
+    south:
+      target_vnum: '010103003023'
+    west:
+      target_vnum: '010103003021'
+  name: O Bar dos Guerreiros
+  vnum: '010103003022'
+- description: |-
+    Este é o pátio de treinamento dos guerreiros. Ao norte fica o bar.
+    Um fosso desce para a escuridão.
+  exits:
+    down:
+      target_vnum: '010507007048'
+    north:
+      target_vnum: '010103003022'
+  name: O Pátio de Torneios e Treinamento
+  vnum: '010103003023'
+- description: |-
+    Você está no beco miserável.  Ao norte há uma loja estranha, ao sul fica
+    a Hospedaria Grubby e a leste você vê a praça comum.  O beco continua a
+    oeste.
+  exits:
+    east:
+      target_vnum: '010103003025'
+    north:
+      target_vnum: '010103003081'
+    south:
+      target_vnum: '010103003048'
+    west:
+      target_vnum: '010103003044'
+  name: O Final Leste do Beco Miserável
+  vnum: '010103003024'
+- description: |-
+    A praça comum, pessoas passam por você, conversando. A oeste
+    o beco miserável e a leste um beco escuro. Ao norte, esta praça está ligada
+    à praça do mercado. Ao sul você nota um cheiro desagradável.
+  exits:
+    east:
+      target_vnum: '010103003026'
+    north:
+      target_vnum: '010103003075'
+    south:
+      target_vnum: '010103003030'
+    west:
+      target_vnum: '010103003024'
+  name: A Praça Comum
+  vnum: '010103003025'
+- description: |-
+    O beco escuro, a oeste fica a praça comum e ao sul a Associação dos
+    Ladrões. O beco continua a leste.
+  exits:
+    east:
+      target_vnum: '010103003045'
+    south:
+      target_vnum: '010103003027'
+    west:
+      target_vnum: '010103003025'
+  name: O Beco Escuro
+  vnum: '010103003026'
+- description: |-
+    O salão de entrada da associação dos ladrões e assassinos. Um lugar onde
+    você pode perder sua vida e dinheiro, se não ficar esperto. Ao norte
+    há o beco escuro e a leste o bar dos ladrões.
+  exits:
+    east:
+      target_vnum: '010103003028'
+    north:
+      target_vnum: '010103003026'
+  name: O Salão de Entrada da Associação dos Ladrões
+  vnum: '010103003027'
+- description: |-
+    O bar dos ladroes. Este foi uma vez um lugar belamente mobiliado,
+    mas agora parece quase vazio. Ao sul há o pátio, e a oeste o salão
+    de entrada.
+    (Será que a mobília foi roubada?!?)
+  exits:
+    south:
+      target_vnum: '010103003029'
+    west:
+      target_vnum: '010103003027'
+  name: O Bar dos Ladrões
+  vnum: '010103003028'
+- description: |-
+    O pátio secreto de treinamento de ladroes e assassinos. Ao norte
+    fica o bar. Um fosso desce para a escuridão.
+  exits:
+    down:
+      target_vnum: '010507007043'
+    north:
+      target_vnum: '010103003028'
+  name: O Pátio Secreto
+  vnum: '010103003029'
+- description: |-
+    O depósito de lixo, onde o povo da cidade deixa o seu lixo. Através do
+    lixo, você vê uma grande conexão de canos. Parece a entrada para
+    o sistema de esgoto. Ao norte você pode ver a praça comum.
+  exits:
+    down:
+      target_vnum: '010507007030'
+    north:
+      target_vnum: '010103003025'
+  name: O Depósito de Lixo
+  vnum: '010103003030'
+- description: |-
+    A loja de animais é uma pequena loja atulhada, cheia de gaiolas e animais
+    de todos os tamanhos (ei! acho que ví minha sogra!). Há um aviso na parede.
+  exits:
+    north:
+      target_vnum: '010103003015'
+  name: A Loja de Animais
+  vnum: '010103003031'
+- description: "Este é o pequeno quarto onde a loja mantém seus animais.\nÃ\x89 vital\
+    \ que o nÃºmero destes quartos seja exatamente um a mais\nque o número da Loja\
+    \ de Animais."
+  exits: {}
+  name: A Loja de Animais
+  vnum: '010103003032'
+- description: |-
+    Atrás do balcão você vê vários itens, primorosamente dispostos em
+    prateleiras, provavelmente a maioria deles são mágicos.
+  exits:
+    south:
+      target_vnum: '010103003012'
+  name: A Loja de Mágica
+  vnum: '010103003033'
+- description: |-
+    Você vê vários mapas pelas paredes, das mais diversas partes do mundo.
+    Estão colados um ao lado do outro, de forma que seja fácil a consulta de
+    qualquer um dos mapas. No canto, há uma mesa onde um velho senhor desenha
+    seus mapas.
+  exits:
+    south:
+      target_vnum: '010103003046'
+  name: A Loja de Mapas
+  vnum: '010103003034'
+- description: |-
+    Você esta entre duas pequenas torres construídas nos muros da cidade e
+    ligadas a uma pequena ponte através do pesado portão de madeira. A Rua
+    Principal leva para leste e a Estrada do Muro vai para o sul. A norte você
+    vê a Confraria dos Druidas, construção até pouco tempo atrás oculta aos olhos
+    dos comuns...
+  exits:
+    east:
+      target_vnum: '010103003012'
+    north:
+      target_vnum: '010103003071'
+    south:
+      target_vnum: '010103003042'
+    west:
+      target_vnum: '010103003052'
+  name: Dentro do Portão Oeste de Midgaard
+  vnum: '010103003040'
+- description: "Você está entre duas pequenas torres construídas nos muros da cidade\
+    \ e\nligadas a uma pequena ponte atraves do pesado portão de madeira. A Rua\n\
+    Principal leva para oeste e ao sul VocÃª vÃª a Loja de Ã\x81gua."
+  exits:
+    east:
+      target_vnum: '010103003053'
+    south:
+      target_vnum: '010103003058'
+    west:
+      target_vnum: '010103003016'
+  name: Dentro do Portao Leste de Midgaard
+  vnum: '010103003041'
+- description: |-
+    Você está andando próximo ao muro oeste da cidade.  A estrada continua
+    para o sul e o portão da cidade está a norte daqui.  A leste está a Avenida
+    Midgaard.
+  exits:
+    east:
+      target_vnum: '010103003080'
+    north:
+      target_vnum: '010103003040'
+    south:
+      target_vnum: '010103003043'
+  name: Estrada do Muro
+  vnum: '010103003042'
+- description: |-
+    Você está andando próximo ao muro oeste da cidade. A Estrada do Muro
+    continua ao norte e sul. Um pequeno e miserável beco leva para leste.
+    Algo foi escrito no muro.
+  exits:
+    east:
+      target_vnum: '010103003044'
+    north:
+      target_vnum: '010103003042'
+    south:
+      target_vnum: '010103003047'
+  name: Estrada do Muro
+  vnum: '010103003043'
+- description: |-
+    Você está no Beco Miserável, que continua a leste. Você vê
+    o muro da cidade a oeste.
+  exits:
+    east:
+      target_vnum: '010103003024'
+    west:
+      target_vnum: '010103003043'
+  name: Beco Miserável
+  vnum: '010103003044'
+- description: |-
+    Você está em um beco que segue para leste e oeste. Ao sul
+    daqui você vê o dique.
+  exits:
+    east:
+      target_vnum: '010103003046'
+    south:
+      target_vnum: '010103003049'
+    west:
+      target_vnum: '010103003026'
+  name: O Beco Escuro no Dique
+  vnum: '010103003045'
+- description: |-
+    Você está no final leste do beco, o muro da cidade está a leste
+    bloqueando qualquer movimento. Um pequeno depósito está a sul daqui.
+    Ao norte, uma pequena e velha loja... o que será que vende alí?
+  exits:
+    north:
+      target_vnum: '010103003034'
+    south:
+      target_vnum: '010103003050'
+    west:
+      target_vnum: '010103003045'
+  name: O Final Leste do Beco
+  vnum: '010103003046'
+- description: |-
+    Você está na estrada próximo ao muro oeste da cidade, que continua ao
+    Norte. Ao sul ha uma ponte através do rio.
+  exits:
+    north:
+      target_vnum: '010103003043'
+    south:
+      target_vnum: '010103003051'
+  name: Estrada do Muro
+  vnum: '010103003047'
+- description: |-
+    Você está dentro da velha Hospedaria Grubby. Este lugar não foi limpo por
+    várias décadas; o cheiro de podre deixa você zonzo.
+  exits:
+    north:
+      target_vnum: '010103003024'
+  name: Hospedaria Grubby
+  vnum: '010103003048'
+- description: |-
+    Você está no dique. Ao sul daqui você vê o rio fluindo calmamente para
+    oeste. O rio é muito raso, o que permite entrar nele.
+  exits:
+    north:
+      target_vnum: '010103003045'
+    south:
+      target_vnum: '010103103203'
+  name: O Dique
+  vnum: '010103003049'
+- description: |-
+    Você está dentro do depósito. O lugar está decorado com várias peças
+    antigas de navios.
+  exits:
+    north:
+      target_vnum: '010103003046'
+  name: O Deposito Deserto
+  vnum: '010103003050'
+- description: |-
+    Você está na ponte de pedra que atravessa o rio. A ponte é construída
+    fora do muro oeste da cidade e o rio flui para oeste através de uma abertura
+    no muro, três metros sob a ponte.
+  exits:
+    north:
+      target_vnum: '010103003047'
+    south:
+      target_vnum: '010103103100'
+  name: Na Ponte
+  vnum: '010103003051'
+- description: |-
+    Você está entre duas pequenas torres construídas nos muros da cidade e
+    ligadas a uma pequena ponte através do pesado portão de madeira. A oeste
+    você pode ver a margem de uma grande floresta.
+  exits:
+    east:
+      target_vnum: '010103003040'
+    west:
+      target_vnum: '010306006092'
+  name: Fora do Portão Oeste de Midgaard
+  vnum: '010103003052'
+- description: |-
+    Você esta entre duas pequenas torres construídas nos muros da cidade e
+    ligadas a uma pequena ponte através do pesado portão de madeira. Ao leste
+    a planície desaparece ao longe.
+  exits:
+    east:
+      target_vnum: '010103503503'
+    west:
+      target_vnum: '010103003041'
+  name: Fora do Portão Leste de Midgaard
+  vnum: '010103003053'
+- description: |-
+    Você está no altar do templo no extremo norte do Templo de Midgaard.
+    Um grande altar feito de mármore branco polido esta à sua frente e atrás
+    dele com três metros de altura uma estatua de Odin, o Rei dos Deuses.
+    Ao norte, degraus levam aos fundos do templo, à zona rural.
+  exits:
+    east:
+      target_vnum: '010100400400'
+    north:
+      target_vnum: '010103003059'
+    south:
+      target_vnum: '010103003001'
+  name: No Altar do Templo
+  vnum: '010103003054'
+- description: "Este é o pequeno quarto escuro onde Odin mantém os itens de jogadores\n\
+    que ele toma conta. Ã\x89 vital que o nÃºmero destes quartos seja exatamente\n\
+    um a mais que o número do altar do templo."
+  exits: {}
+  name: Loja de Odin
+  vnum: '010103003055'
+- description: |-
+    Você esta no centro de uma pequena loja cujas paredes estão cobertas
+    com prateleiras e prateleiras de cantaros d'água. Muitos grandes barris
+    com torneiras estão empilhados num canto.
+  exits:
+    north:
+      target_vnum: '010103003041'
+  name: "A Velha Loja de Ã\x81gua"
+  vnum: '010103003058'
+- description: |-
+    Você está num caminho sujo que deixa o templo do altar, a sul daqui.
+    Ao norte, o caminho continua através da verdejante zona rural de Midgaard
+    na direção das Montanhas Dragonhelm, longe ao norte.
+  exits:
+    north:
+      target_vnum: '010103003060'
+    south:
+      target_vnum: '010103003054'
+  name: Atrás do Altar do Templo
+  vnum: '010103003059'
+- description: |-
+    Você está andando no amplo caminho de terra através da viscosa, verde,
+    fresca zona rural de Midgaard. Você pode ver o horizonte ao norte, leste
+    e oeste; a ocupada cidade de Midgaard fica ao sul. Tudo a sua volta
+    é grama verde e um ocasional carvalho. O Sol cai maravilhoso em sua
+    face e um prazeiroso vento sopra através de seus cabelos. Passaros gorjeiam
+    calmamente entre si e você pode sentir o suave aroma das flores e da grama
+    recem cortada. Você sente como se pudesse deitar-se na grama e ficar aqui
+    para sempre, dominado pela poderosa beleza em todas as direções.
+    O caminho em que você está segue para norte através do campo e ao sul,
+    retornado a Midgaard. Há um caminho construído com grandes pedras redondas
+    a oeste.
+  exits:
+    north:
+      target_vnum: '010103003061'
+    south:
+      target_vnum: '010103003059'
+    west:
+      target_vnum: '010101801800'
+  name: O Grande Campo de Midgaard
+  vnum: '010103003060'
+- description: |-
+    Você está andando no amplo caminho de terra através da viscosa, verde,
+    fresca zona rural de Midgaard. Você pode ver o horizonte ao norte, leste
+    e oeste; a ocupada cidade de Midgaard fica ao sul. Tudo a sua volta
+    é grama verde e um ocasional carvalho. O Sol cai maravilhoso em sua
+    face e um prazeiroso vento sopra através de seus cabelos. Passaros gorjeiam
+    calmamente entre si e você pode sentir o suave aroma das flores e da grama
+    recem cortada. Você sente como se pudesse deitar-se na grama e ficar aqui
+    para sempre, dominado pela poderosa beleza em todas as direções.
+    Há uma estrutura estranha no lado leste do caminho. Um pequeno caminho
+    de terra afasta-se do caminho principal e leva para oeste.
+  exits:
+    east:
+      target_vnum: '010118618600'
+    north:
+      target_vnum: '010103003065'
+    south:
+      target_vnum: '010103003060'
+    west:
+      target_vnum: '010103003066'
+  name: O Grande Campo de Midgaard
+  vnum: '010103003061'
+- description: |-
+    Você esta na central de correios de Midgaard.  Pilhas de correspondência
+    permanecem intocadas nos cantos, juntando teias de aranha.  Vários engradados
+    foram violados por curiosos agentes da alfândega, e estão agora empilhados ao
+    longo da parede oeste, escondendo vários cartazes de 'PROCURADO'.  Há um
+    pequeno aviso na parede.  No canto oeste da sala, uma escada foi encontrada
+    atras de diversos engradados e correspondencias paradas.
+  exits:
+    south:
+      target_vnum: '010103003006'
+    up:
+      target_vnum: '010103003008'
+  name: O Serviço de Correios
+  vnum: '010103003062'
+- description: |-
+    Você está num quarto pequeno e sem decoração, junto ao templo principal.
+    Há um par de pequenos bancos de madeira onde as pessoas ocasionalmente
+    sentam enquanto esperam. O templo fica a oeste. Uma pequena e velha porta
+    de madeira parece ter sido esquecida nos fundos da sala.
+  exits:
+    east:
+      target_vnum: '010101101100'
+    west:
+      target_vnum: '010103003001'
+  name: A Sala de Doações de Midgaard
+  vnum: '010103003063'
+- description: |-
+    Você está andando no amplo caminho de terra através da viscosa, verde,
+    fresca zona rural de Midgaard. Você pode ver o horizonte ao norte, leste
+    e oeste; a ocupada cidade de Midgaard fica ao sul. Tudo a sua volta
+    é grama verde e um ocasional carvalho. O Sol cai maravilhoso em sua
+    face e um prazeiroso vento sopra através de seus cabelos. Passaros gorjeiam
+    calmamente entre si e você pode sentir o suave aroma das flores e da grama
+    recem cortada. Você sente como se pudesse deitar-se na grama e ficar aqui
+    para sempre, dominado pela poderosa beleza em todas as direções.
+    O caminho ao norte parece finalmente ter sido aberto, podendo ainda se
+    ver as marcas do aparato que o bloqueava.  Há também um caminho para oeste.
+  exits:
+    north:
+      target_vnum: '010103003068'
+    south:
+      target_vnum: '010103003061'
+    west:
+      target_vnum: '010122022025'
+  name: O Grande Campo de Midgaard
+  vnum: '010103003065'
+- description: |-
+    Você está andando no amplo caminho de terra através da viscosa, verde,
+    fresca zona rural de Midgaard. Você pode ver o horizonte ao norte, leste
+    e oeste; a ocupada cidade de Midgaard fica ao sul. Tudo a sua volta
+    é grama verde e um ocasional carvalho. O Sol cai maravilhoso em sua
+    face e um prazeiroso vento sopra através de seus cabelos. Passaros gorjeiam
+    calmamente entre si e você pode sentir o suave aroma das flores e da grama
+    recem cortada. Você sente como se pudesse deitar-se na grama e ficar aqui
+    para sempre, dominado pela poderosa beleza em todas as direções.
+    Há um grande portão enferrujado em um arco de pedra a oeste.
+  exits:
+    east:
+      target_vnum: '010103003061'
+    west:
+      target_vnum: '010103003067'
+  name: O Caminho de Terra
+  vnum: '010103003066'
+- description: |-
+    Você vê o portão enferrujado a leste. A oeste você vê uma estranha
+    estrutura, como um tabuleiro de xadrez. Você ouve sons vindos de lá,
+    sons de uma... batalha de xadrez?!?
+  exits:
+    east:
+      target_vnum: '010103003066'
+    west:
+      target_vnum: '010103603600'
+  name: Atravessando o portão
+  vnum: '010103003067'
+- description: |-
+    Finalmente é possível ver o que havia além daquele estranho aparato, que
+    simplesmente sumiu de seu antigo lugar.  A trilha que seguia pelo campo
+    continua aqui, só que agora parece estar ficando mais larga a medida que
+    você caminha por ela.  Ao seu redor, a mudança também não foi muito grande,
+    sendo a única coisa chamativa a parte mais adiante da trilha e, mais ao
+    longe, o que parece ser a parte mais alta de cinco torres.
+  exits:
+    east:
+      target_vnum: '010102002090'
+    north:
+      target_vnum: '010103003069'
+    south:
+      target_vnum: '010103003065'
+  name: Além do Grande Campo de Midgaard
+  vnum: '010103003068'
+- description: |-
+    Você está cada vez mais longe do Grande Campo de Midgaard.  Olhando para
+    trás, você tem a impressão de que andou muito mais do que pensava, e se
+    sente perdido e tão solitário quanto a estrada pela qual caminha.  Ainda
+    longe, ao norte, você vê a silhueta de cinco torres cortando o céu no
+    horizonte.
+  exits:
+    north:
+      target_vnum: '010103003070'
+    south:
+      target_vnum: '010103003068'
+  name: Além do Grande Campo de Midgaard
+  vnum: '010103003069'
+- description: |-
+    Você continua a se distanciar de Midgaard, agora tendo resolvido seguir o
+    caminho até o fim.  A estrada parece mudar a partir daqui, sendo agora ladeada
+    por pedras muito brancas e bem cortadas.  A silhueta daquelas misteriosas
+    cinco torres também está mais próxima, mas ainda é difícil de ver com mais
+    detalhes.  Seguindo norte você continua pelo caminho, e por sul, você tem a
+    possibilidade de voltar para Midgaard.
+  exits:
+    north:
+      target_vnum: '010109209200'
+    south:
+      target_vnum: '010103003069'
+  name: Além do Grande Campo de Midgaard
+  vnum: '010103003070'
+- description: |-
+    A entrada da confraria se parece mais com a entrada de uma caverna.  As
+    paredes de pedra são recobertas por runas, indicando que o lugar inteiro
+    está protegido por forte magia.  Grandes tochas iluminam as câmaras mais
+    profundas.  A oeste você vê uma espécie de bar, enquanto a sul está uma das
+    ruas de Midgaard.
+  exits:
+    south:
+      target_vnum: '010103003040'
+    west:
+      target_vnum: '010103003072'
+  name: A Entrada para a Confraria dos Druidas
+  vnum: '010103003071'
+- description: |-
+    O bar ocupa uma grande câmara da caverna.  Você percebe veios de pedras
+    preciosas na rocha das paredes, mas acha melhor não olhar demais (cuidado
+    com a ganância!)...  Toda mobília foi entalhada em uma espécie de cristal,
+    sendo muito bonito o efeito que a luz das tochas produz quando incide sobre
+    alguma das peças.  A sul você percebe um aposento mergulhado no mais profundo
+    breu.
+  exits:
+    east:
+      target_vnum: '010103003071'
+    south:
+      target_vnum: '010103003073'
+  name: O Bar dos Druidas
+  vnum: '010103003072'
+- description: |-
+    Você está no imenso salão onde os druidas aprendem sobre suas tradições,
+    leis e poderes.  Megalitos foram, como que por mágica, dispostos em um
+    grande círculo, tendo como centro um altar feito de rocha azulada.  Sobre um
+    pedestal de ouro, junto ao altar, duas grandes esferas de fogo violeta
+    iluminam o Círculo com seu estranho brilho.
+  exits:
+    down:
+      target_vnum: '010507007048'
+    north:
+      target_vnum: '010103003072'
+  name: O Círculo Druídico
+  vnum: '010103003073'
+- description: |-
+    Você está na Praça Mediana de Midgaard.  Essa praça parece ter sido
+    construída recentemente, devido à necessidade de expansão da cidade.
+    Pessoas de todos os tipos passam por você, conversando.
+    Ruas saem em todas as direções, para norte a Praça do Mercado, para sul a
+    Praça Comum, para leste e oeste a Avenida Midgaard.
+  exits:
+    east:
+      target_vnum: '010103003076'
+    north:
+      target_vnum: '010103003014'
+    south:
+      target_vnum: '010103003025'
+    west:
+      target_vnum: '010103003079'
+  name: A Praça Mediana
+  vnum: '010103003075'
+- description: |-
+    Você está na Avenida Midgaard.  Ao norte você vê a agência local do Banco
+    de Vitália.  Ao leste você vê o final da Avenida Midgaard, e ao oeste você
+    vê a Praça Mediana.
+  exits:
+    east:
+      target_vnum: '010103003077'
+    north:
+      target_vnum: '010122022010'
+    west:
+      target_vnum: '010103003075'
+  name: Avenida Midgaard
+  vnum: '010103003076'
+- description: |-
+    Você está no final da Avenida Midgaard.  Ao norte você pode ver algumas
+    construções recentes.
+    A avenida continua para o oeste.
+  exits:
+    north:
+      target_vnum: '010101301300'
+    west:
+      target_vnum: '010103003076'
+  name: Avenida Midgaard
+  vnum: '010103003077'
+- description: |-
+    Você está na Avenida Midgaard.  Ao norte você vê uma confraria e pode-se
+    avistar uma imensa torre daqui, que parece ser bastante interessante.
+    A avenida continua para o oeste, e para o leste você vê a Praça Mediana.
+  exits:
+    east:
+      target_vnum: '010103003075'
+    north:
+      target_vnum: '010122022015'
+    west:
+      target_vnum: '010103003080'
+  name: Avenida Midgaard
+  vnum: '010103003079'
+- description: |-
+    Você está na Avenida Midgaard.  Não há muita coisa por aqui, mas você
+    nota várias construções em andamento.  Ao sul, fica uma grande torre, onde
+    funcionam as instalações de um grande jornal.
+    A avenida continua para o leste, para o oeste você vê a estrada do muro.
+  exits:
+    east:
+      target_vnum: '010103003079'
+    south:
+      target_vnum: '010122022020'
+    west:
+      target_vnum: '010103003042'
+  name: Avenida Midgaard
+  vnum: '010103003080'
+- description: "Você acabou de entrar num lugar absolutamente caótico!  Pilhas e mais\n\
+    pilhas de roupas, calçados, livros e até mesmo um número absurdo dos mais\nvariados\
+    \ tipos de espadas, armaduras, se espalham por todos os lados.\nÃ\x89 um lugar\
+    \ absolutamente desarrumado mas com certeza tudo o que vocÃª\nestiver procurando\
+    \ para comprar, sem pagar um preço absurdo, você encontra\naqui.  Procurando por\
+    \ roupas, armas ou simplesmente objetos inúteis e não\ntem muito dinheiro?  Ou\
+    \ então precisa de dinheiro e quer vender alguma\ncoisa?  Deixe seu recado escrito\
+    \ no enorme quadro."
+  exits:
+    down:
+      target_vnum: '010103003092'
+    south:
+      target_vnum: '010103003024'
+  name: O Brechó do Belchior
+  vnum: '010103003081'
+- description: |-
+    Você magicamente foi trazido de onde estava até esse lugar, a descampada
+    cabeça de uma colina cercada de imensas árvores.  Você vê, por entre a mata,
+    quatro longas trilhas margeadas por pedras brancas, polidas como grandes
+    seixos brilhantes.  Há, a sua frente, uma espécie de grande chalé de porta
+    dupla, lugar de onde vem delicioso cheiro de comida, bebida e onde alegres
+    vozes conversam e cantam ao som de boa música.  Uma placa sobre a porta
+    chama sua atenção.
+  exits:
+    north:
+      target_vnum: '010103003083'
+  name: Em Frente à Taverna
+  vnum: '010103003082'
+- description: |-
+    Você está em uma espécie de grande chalé que foi transformado em uma
+    aconchegante taverna.  Tudo aqui (móveis, paredes, teto) é de madeira nobre,
+    de várias partes do mundo, mas nada pomposo demais.  Mesas redondas,
+    quadradas, compridas ou estreitas se espalham pelo recinto sendo usadas nas
+    refeições, jogos, conversa entre amigos ou duelos de canções.  A iluminação
+    é feita por vários lustres que, redondos como rodas de carroças, amparam
+    grandes velas de chama colorida.  Um grande balcão de madeira, todo
+    enfeitado com notas musicais, fica da parede oposta à da porta de entrada,
+    tendo atrás de si várias estantes atulhadas das mais variadas bebidas.  As
+    paredes, por sua vez, exibem um diversificado número de enfeites:
+    instrumentos músicais, retratos, letras de canções e poesias enquadradas,
+    melodias a serem tocadas e qualquer coisa que um bardo acharia bonito e
+    gostaria de ver a todo momento.
+    A porta de entrada fica a sul, havendo ainda mais uma a leste e a oeste.
+  exits:
+    east:
+      target_vnum: '010103003085'
+    south:
+      target_vnum: '010000000050'
+    west:
+      target_vnum: '010103003084'
+  name: A Baderna
+  vnum: '010103003083'
+- description: |-
+    Você está em um cômodo de largas janelas e portas de vidro que dão para
+    fora da taverna, muito iluminado por isso e pela grande quantidade de velas
+    dispostas em lustres e candelabros.  Há armários de vitrine em quase todas
+    as paredes, estando dentro deles ricos e muito diversificados instrumentos
+    musicais.  O número de estantes também é grande, podendo nelas se ver
+    livros, papéis avulsos, pergaminhos, tábuas e onde mais se pode escrever
+    algo.  Além disso você vê muitos desenhos sobre algumas escrivaninhas, além
+    de estranhos objetos de madeira, metal e pedra.  O largo tablado, em frente
+    às mesas, possui um pequeno sofá de tecido rubro, talvez sendo o lugar de
+    algum professor que gosta de conforto.
+  exits:
+    east:
+      target_vnum: '010103003083'
+  name: A Sala de Estudos na Baderna
+  vnum: '010103003084'
+- description: |-
+    Você está uma vasta sala que parece emanar o mesmo calor acalentador de
+    uma coberta fofa em dias muitos frios.  Numa lareira o fogo crepita formando
+    figuras surpreendentes, enquanto a madeira queimada libera um suave odor de
+    incenso.  Um imenso balcão de madeira avermelhada foi colocado na parede em
+    frente à maior janela do recinto, tendo uma vista privilegiada.  Pesados
+    armários cobrem as parede adjacentes ao balcão.  Sob a maior janela ainda
+    foram dispostos enormes sofás acolchoados para o descanso dos clientes, que
+    podem admirar os enfeites vindos de todas as partes desse mundo.  A entrada
+    da Baderna fica a oeste.
+  exits:
+    west:
+      target_vnum: '010103003083'
+  name: Bardices e Bernardices na Baderna
+  vnum: '010103003085'
+- description: |-
+    Você está no estreito corredor que liga o Grunting Boar ao Clube de
+    Bardos.  O lugar, a leste, parece ser bem animado.
+  exits:
+    east:
+      target_vnum: '010103003087'
+    north:
+      target_vnum: '010103003007'
+  name: Um Corredor
+  vnum: '010103003086'
+- description: |-
+    Você está num alegre ponto de encontro de bardos vindos dos mais
+    diferentes cantos do mundo.  As mesas aqui estão sempre lotadas de
+    verdadeiros artistas e pessoas de diversos talentos, estando elas sempre
+    prontas para se divertir com um de seus companheiros de classe.  Música aqui
+    não falta, muito menos dança e bebida!
+    A entrada do Clube fica a oeste; acima, indo por um lance de escadas,
+    fica a sala dos mestres.
+  exits:
+    up:
+      target_vnum: '010103003088'
+    west:
+      target_vnum: '010103003086'
+  name: O Clube de Bardos
+  vnum: '010103003087'
+- description: |-
+    Mesmo sem qualquer música ser tocada, você sente que ela é parte desse
+    lugar.  Aqui, os mais aclamados mestres da arte estiveram tanto como pupilos
+    quanto como professores.  Deixaram os sons de suas obras aqui, impregnados
+    em suas paredes repletas de retratos, nos instrumentos espalhados sobre as
+    mesas, no cheiro doce de flores misturado com a comida e bebida lá debaixo.
+    E você, só de entrar no recinto, começou a deixar sua própria música no ar,
+    numa suave melodia que conta a sua vida.
+  exits:
+    down:
+      target_vnum: '010103003087'
+  name: A Sala dos Mestres
+  vnum: '010103003088'
+- description: |-
+    A Entrada para a Associação dos Rangers parece com o interior de uma cabana
+    sem janelas e mobilias. As luzes estão vindo de
+    lamparinas nas paredes, e uma chama queima em um coração de pedra. Uma porta que
+    parece ter sido cortada na parede oeste leva para o bar. Um
+    arco para o sul leva para Uma Estrada Através da Planicie.
+  exits:
+    south:
+      target_vnum: '010306006092'
+    west:
+      target_vnum: '010103003090'
+  name: A Entrada para a Associação dos Rangers
+  vnum: '010103003089'
+- description: |-
+    O bar parece bem menos interessante visto de fora. Agora que
+    você está aqui, você pode ver alguns bancos, um índio de madeira, e as
+    cabeças de troféu da última viagem da família Humulis. A sala está
+    iluminada por lamparinas, e um fogo queima em um coração de pedra.
+    Um arco de pedra para o norte leva para o Santuário Interno da Associação. A
+    entrada da associação é através da porta cortada na parede leste. Tem uma
+    placa pendurada na parede oeste.
+  exits:
+    east:
+      target_vnum: '010103003089'
+    north:
+      target_vnum: '010103003091'
+  name: O Bar do Chápeu de Penas
+  vnum: '010103003090'
+- description: |-
+    Definitivamente tem um... sentimento de floresta no lugar.
+    As paredes são feitas de troncos entrelaçados com prateleiras de
+    livros. Acima de você tem um teto feito de folhas e galhos. No meio de
+    um enorme tronco na parede sul tem um arco que leva para o bar.
+    O chão está forrado de flores, e no meio da sala um enorme tronco oco.
+    O cheiro seria horrível se não fosse pelo aroma doce das flores.
+  exits:
+    down:
+      target_vnum: '010507007026'
+    south:
+      target_vnum: '010103003090'
+  name: O Santuário Interno dos Rangers
+  vnum: '010103003091'
+- description: |-
+    Você desceu por uma porta secreta e se encontra numa sala subterrânea
+    surpreendentemente elegante e bem organizada, contrastando completamente com
+    a bagunça do brechó acima. As paredes são forradas com madeira polida e
+    tapetes luxuosos cobrem o chão. Várias cadeiras estão dispostas em semicírculo
+    diante de um pequeno palco elevado onde os leilões acontecem.
+    Uma placa discreta na parede oriental explica os diferentes tipos de
+    leilão disponíveis. O ambiente é silencioso e solene, preparado para
+    negociações sérias entre compradores e vendedores experientes.
+  exits:
+    up:
+      target_vnum: '010103003081'
+  name: Casa de Leilões de Belchior
+  vnum: '010103003092'

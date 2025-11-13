@@ -1,0 +1,63 @@
+- description: |-
+    Você está na entrada da Biblioteca Central de Vitália.  Um lugar quase
+    sagrado, pois aqui estão depositados verdadeiros tesousos.
+    O teto é tão lindo que por alguns instantes, você fica quase sem fôlego,
+    e, extasiado, observa atentamente a abóboda, cuja beleza dos afrescos
+    minuciosamente entalhada no mais puro ouro, revelam algumas figuras divinas.
+    O silêncio do ambiente não o torna lúgubre.  Ao contrário.  Há felicidade
+    no ar, pois neste recinto as pessoas crescem, enriquecendo suas mentes com o
+    conhecimento trazido por esses livros e pergaminhos.
+    As paredes estão cobertas por inscrições, que parecem narrar os segredos
+    deste mundo e de seus deuses e, foram escritas numa língua exótica e
+    antiquíssima.
+    No fundo da Biblioteca, uma estante imensa chama a sua atenção e ao
+    chegar mais perto, você percebe que há uma pequena placa onde se pode ler
+    alguma coisa.
+    Para o norte, você vê outra sala, onde uma figura sorridente e simpática
+    parece trabalhar.  Para o oeste, existem mais e mais livros e para o sul
+    está a entrada da Biblioteca.  Existem dezenas de cadeiras muito
+    confortáveis, e até mesmo alguns divãs, onde você pode se acomodar para ler
+    seu livro.
+  exits:
+    north:
+      target_vnum: '010122122102'
+    south:
+      target_vnum: '010103003000'
+    west:
+      target_vnum: '010122122101'
+  name: A Grande Biblioteca de Vitália
+  vnum: '010122122100'
+- description: |-
+    Esta é a sala de leitura da grandiosa Biblioteca.  Ao entrar, você depara
+    com um número infinito de estantes, todas elas absolutamente lotadas por
+    livros, pergaminhos e milhares de manuscritos tão antigos quanto a história
+    deste mundo.  São tantas as estantes e prateleiras, que você fica com medo
+    de se perder.  O ambiente tem cheiro de aventura no ar e você se pergunta
+    como alguém pode saber exatamente onde encontrar o que procura sem ficar
+    louco.
+    A iluminação é algo que o intriga, pois não existem nem lâmpadas, nem
+    janelas e mesmo assim, a luz é forte e muito clara, ideal para uma boa
+    leitura.
+    Interessante...alguns livros estão dispostos sobre uma espécie de altar e
+    há uma espécie de inscrição feita nele, que parece atrair sua atenção.
+    Um grande movimento de pessoas parece estar acontecendo ao leste e ao
+    norte.
+  exits:
+    east:
+      target_vnum: '010122122100'
+  name: O Anexo de Leitura da Biblioteca
+  vnum: '010122122101'
+- description: |-
+    Você agora se encontra na Livraria da Biblioteca, e está todo feliz, pois
+    sabe que poderá comprar alguns exemplares de livros para ler com calma.
+    São tantos os livros que você gostaria de ler mas seus olhos se sentem
+    atraídos especialmente para a prateleira onde estão enfileirados pesados
+    volumes e que fazem parte das "Epopéias em Verso e Prosa".  Pelo tamanho dos
+    volumes, algumas devem ter durado muitos e muitos anos.
+    Há um grande mural nesta parede, onde escreveram algo, numa língua
+    estranha e complexa.
+  exits:
+    south:
+      target_vnum: '010122122100'
+  name: A Livraria dos Aventureiros
+  vnum: '010122122102'

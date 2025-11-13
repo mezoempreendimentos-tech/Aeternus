@@ -1,0 +1,1181 @@
+- description: |-
+    Escuros, brilhantes pilares de ônix suportam o portal de entrada para o
+    desconhecido.  A sala é fria e mortalmente silenciosa.  Perscrutando através
+    do portal você sente que almas atormentadas existem em qualquer lugar que
+    ele vá levar.  Um ocasional estouro de calor irradia de lá...  Quase
+    chamuscando seu cabelo.
+  exits:
+    north:
+      target_vnum: '010503903910'
+    up:
+      target_vnum: '010205105100'
+  name: Entrada Para o Corredor das Chamas
+  vnum: '010503903900'
+- description: |-
+    Esta pequena construção de pedra é grande o bastante para apenas uma
+    pessoa se manter em pé.  Musgo verde cobre as rachaduras entre os blocos e
+    você sente algo viscoso gotejar do teto.  Ao sul, a saída o levará de volta
+    aos Portais Flamejantes enquanto ao norte, uma escada segue através da
+    escuridão.
+  exits:
+    north:
+      target_vnum: '010205105145'
+    south:
+      target_vnum: '010503903914'
+  name: Através dos Portais Flamejantes
+  vnum: '010503903901'
+- description: |-
+    Uma enorme caverna se abre diante de você.  Formações minerais crescem do
+    teto até o solo, ocasionalmente ligando um ao outro.  Na escuridão, algo
+    volumoso se movimenta.  Uma baforada de fogo ilumina a caverna por um
+    instante.  No segundo seguinte você vê diante de si, o maior dragão que
+    jamais fora desperto.
+  exits:
+    west:
+      target_vnum: '010503903905'
+  name: A Toca de Valik
+  vnum: '010503903902'
+- description: |-
+    Ricamente mobiliada, está é a câmara de Kalas.  A tapeçaria, pendurada
+    por todas as paredes, mostra famosas cenas de batalha.  Diversos troféus de
+    macabras origens, crânios, escalpes, e partes do corpo mumificadas, repousam
+    pela sala.  Embora a grosseria de ter tais itens guardados aqui, o lugar em
+    minuciosamente limpo e organizado.
+  exits:
+    south:
+      target_vnum: '010503903931'
+  name: A Câmara de Kalas
+  vnum: '010503903903'
+- description: |-
+    Assim que você mergulha na escuridão, você sente o chão abaixo de seus
+    pés sumir.  E você cai...  Cai....cai...  Você tenta gritar mas o som não
+    sai de sua boca.  Finalmente, você atinge o solo, e vê claramente sua alma
+    se desprender de seu corpo, e voar para o paraíso.
+  exits: {}
+  name: A Queda sem Fim
+  vnum: '010503903904'
+- description: |-
+    Você anda em uma pequena caverna.  As paredes a sua volta estão
+    carbonizadas e pulsam com o calor.  A medida que você começa a suar, você se
+    pergunta o que na terra poderia causar tamanho calor.  Ruídos e chamas vêm
+    do leste.
+  exits:
+    east:
+      target_vnum: '010503903902'
+    west:
+      target_vnum: '010503903979'
+  name: A Entrada Para a Toca dos Dragões
+  vnum: '010503903905'
+- description: |-
+    As furiosas águas fazem uma curva ao oeste.  Silenciosas e observadoras
+    árvores contornam as bordas do rio.  Elas parecem estar observando-lhe com
+    desaprovação a medida que você vaga indefeso pelas frias águas.
+  exits:
+    north:
+      target_vnum: '010503903907'
+    west:
+      target_vnum: '010503903976'
+  name: Uma Curva no Rio
+  vnum: '010503903906'
+- description: |-
+    A medida que o rio segue para o oeste, ele se ramifica em duas direções.
+    A corrente principal segue pelo sul e uma corrente secundária ao leste, de
+    onde podem ser ouvidos lânguidos ruídos.
+  exits:
+    east:
+      target_vnum: '010503903908'
+    south:
+      target_vnum: '010503903906'
+    west:
+      target_vnum: '010503903909'
+  name: Uma Bifurcação no Rio
+  vnum: '010503903907'
+- description: |-
+    O barulho das águas é ensurdecedor.  Corpos congelados de aventureiros e
+    criaturas flutuam na água, rodando a sua volta, rodando e rodando neste
+    redemoinho maldito.
+  exits: {}
+  name: O Redemoinho
+  vnum: '010503903908'
+- description: |-
+    Escuras e observadoras contornam o rio.  Seus galhos tocam a água, como
+    se quisessem lhe alcançar e lhe agarrar.  Coisas esbarram em suas pernas a
+    medida que você luta para conseguir manter sua cabeça acima das gélidas e
+    avermelhadas águas.
+  exits:
+    east:
+      target_vnum: '010503903907'
+    north:
+      target_vnum: '010503903908'
+  name: O Rio Talloren
+  vnum: '010503903909'
+- description: |-
+    As brilhantes paredes de ônix do corredor parecem ser infinitas.  Tudo é
+    frio ao toque e mortalmente silencioso.  Olhando adiante abaixo o corredor
+    não revela nada, exceto escuridão.  Você pode continuar ou voltar aos
+    Portais.
+  exits:
+    north:
+      target_vnum: '010503903911'
+    south:
+      target_vnum: '010503903900'
+  name: Descendo pelo Abismo Profundo
+  vnum: '010503903910'
+- description: |-
+    As brilhantes paredes de ônix do corredor parecem ser infinitas.  Tudo é
+    frio ao toque e mortalmente silencioso.  Olhando adiante abaixo o corredor
+    não revela nada, exceto escuridão.  Você pode continuar ou voltar aos
+    Portais.
+  exits:
+    north:
+      target_vnum: '010503903912'
+    south:
+      target_vnum: '010503903910'
+  name: Descendo pelo Abismo Profundo
+  vnum: '010503903911'
+- description: |-
+    Encontrando esta curva do corredor, você percebe uma brilhante
+    luminosidade vinda do leste.  A atmosfera se torna duramente quente a medida
+    que o declínio se acentua.  As sombras no corredor bruxuleiam como se fossem
+    feitas pela luz de chamas ardentes.
+  exits:
+    east:
+      target_vnum: '010503903913'
+    south:
+      target_vnum: '010503903911'
+  name: Uma Curva no Corredor
+  vnum: '010503903912'
+- description: |-
+    As paredes do corredor parecem bruxulear no intenso calor emanado do
+    leste.  A luz é tão brilhante, que você é forçado a proteger os olhos.  Logo
+    você poderá ver a fonte deste calor e luz.
+  exits:
+    east:
+      target_vnum: '010503903914'
+    west:
+      target_vnum: '010503903912'
+  name: Se Aproximando do Fim do Corredor
+  vnum: '010503903913'
+- description: |-
+    Enormes pilares gêmeos, flamejantes se erguem diante de você.  Um pesado
+    portão forjado em ferro magicalmente engolfado em chamas, impede que você
+    siga adiante.  Tudo a sua vista é chamuscado e enegrecido.  Algum alívio
+    pode ser encontrado ao oeste e talvez ao sul...
+  exits:
+    north:
+      target_vnum: '010503903901'
+    south:
+      target_vnum: '010503903915'
+    west:
+      target_vnum: '010503903913'
+  name: O Portal Flamejante
+  vnum: '010503903914'
+- description: |-
+    O caminho fora construído por escultores de um longo tempo atrás.  As
+    pedras lisas ainda resistem firmemente, um último tributo à habilidade
+    destes construtores.  A área ao redor é chamuscada e enegrecida.  Nenhum
+    sinal de vida pode ser vista e o vento é bastante calmo.
+  exits:
+    east:
+      target_vnum: '010503903916'
+    north:
+      target_vnum: '010503903914'
+  name: Um Chamuscado Caminho de Pedra
+  vnum: '010503903915'
+- description: |-
+    O caminho fora construído por escultores de um longo tempo atrás.  As
+    pedras lisas ainda resistem firmemente, um último tributo à habilidade
+    destes construtores.  A área ao redor é chamuscada e enegrecida.  Nenhum
+    sinal de vida pode ser vista e o vento é bastante calmo.
+  exits:
+    east:
+      target_vnum: '010503903917'
+    west:
+      target_vnum: '010503903915'
+  name: Um Chamuscado Caminho de Pedra
+  vnum: '010503903916'
+- description: |-
+    Este fora um lindo pátio.  Majestosos pilares e estátuas agora repousam
+    quebradas por todo o chão.  A única coisa que ainda resta é a fonte no
+    centro do pátio.  De alguma forma ela sobreviveu à o que quer que causou da
+    ruína deste lugar.
+  exits:
+    east:
+      target_vnum: '010503903920'
+    north:
+      target_vnum: '010503903918'
+    west:
+      target_vnum: '010503903916'
+  name: O Pátio do Abismo Profundo
+  vnum: '010503903917'
+- description: |-
+    Este pequeno caminho segue pelo norte.  O que restou dos jardins reais,
+    cerca o caminho.  Vegetação rasteira e retorcida agora cresce onde lindas
+    flores foram cultivadas.  A sua frente fica uma pequena construção de pedra,
+    enquanto o pátio fica ao sul.
+  exits:
+    east:
+      target_vnum: '010503903960'
+    north:
+      target_vnum: '010503903919'
+    south:
+      target_vnum: '010503903917'
+    west:
+      target_vnum: '010503903959'
+  name: Um Caminho Lateral
+  vnum: '010503903918'
+- description: |-
+    Assim que você adentra a construção, você vê que ela foi a morada de um
+    jardineiro.  Ferramentas quebradas estão por toda parte, todas elas
+    inutilizadas.  O teto desabou há muito, deixando um enorme buraco acima de
+    as cabeça.  Amassadas tapeçarias estão penduradas em uma das paredes.  Não
+    há outras saídas óbvias, a não ser pela qual você veio.
+  exits:
+    south:
+      target_vnum: '010503903918'
+  name: Uma Pequena Construção de Pedra
+  vnum: '010503903919'
+- description: |-
+    Uma grande ponte levadiça permite a entrada ao Castelo do Abismo.  A
+    portícula fora elevada como se alguém fosse esperado.  Olhando para baixo,
+    nos limites da ponte, você não ve nada, apenas a mais negra escuridão.
+  exits:
+    down:
+      target_vnum: '010503903904'
+    east:
+      target_vnum: '010503903921'
+    west:
+      target_vnum: '010503903917'
+  name: A Ponte Levadiça
+  vnum: '010503903920'
+- description: |-
+    Desbotados tapetes decoram esta sala.  A tapeçaria mostra cenas dos
+    melhores tempos que o Castelo viveu.  Um pedestal suporta um grande e
+    empoeirado tomo.  Examinando este livro, você percebe que o último visitante
+    a assina-lo o fez há séculos atrás.
+  exits:
+    east:
+      target_vnum: '010503903922'
+    west:
+      target_vnum: '010503903920'
+  name: A Entrada
+  vnum: '010503903921'
+- description: |-
+    Um vasto corredor se abre diante de você.  Tochas douradas e cortinas de
+    veludo estão penduradas nas vigas.  Macios sofás e almofadas se alinham
+    pelos lados do corredor.  Nunca você viu um corredor tão esplendoroso.
+  exits:
+    east:
+      target_vnum: '010503903923'
+    west:
+      target_vnum: '010503903921'
+  name: O Grande Corredor
+  vnum: '010503903922'
+- description: |-
+    O grande corredor encontra as asas do castelo debaixo desta enorme cúpula
+    de cristal.  Há muito tempo atrás, este lugar fora chamado Cúpula do
+    Esplendor.  Quando o sol da tarde se põe, os últimos raios de claridade
+    brilham através do cristal formando um arco-íris.  Havia uma grande bola
+    pendurada aqui, mas não há mais.
+  exits:
+    east:
+      target_vnum: '010503903924'
+    north:
+      target_vnum: '010503903925'
+    south:
+      target_vnum: '010503903928'
+    west:
+      target_vnum: '010503903922'
+  name: Uma interseção Abobadada
+  vnum: '010503903923'
+- description: |-
+    Um vasto corredor se abre diante de você.  Tochas douradas e cortinas de
+    veludo estão penduradas nas vigas.  Macios sofás e almofadas se alinham
+    pelos lados do corredor.  Nunca você viu um corredor tão esplendoroso.
+  exits:
+    east:
+      target_vnum: '010503903931'
+    west:
+      target_vnum: '010503903923'
+  name: O Grande Corredor
+  vnum: '010503903924'
+- description: |-
+    Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
+    estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
+    dos muitos quartos do castelo.
+  exits:
+    east:
+      target_vnum: '010503903946'
+    north:
+      target_vnum: '010503903926'
+    south:
+      target_vnum: '010503903923'
+    west:
+      target_vnum: '010503903943'
+  name: A Asa Norte
+  vnum: '010503903925'
+- description: |-
+    Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
+    estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
+    dos muitos quartos do castelo.
+  exits:
+    east:
+      target_vnum: '010503903945'
+    north:
+      target_vnum: '010503903927'
+    south:
+      target_vnum: '010503903925'
+    west:
+      target_vnum: '010503903944'
+  name: A Asa Norte
+  vnum: '010503903926'
+- description: |-
+    Enormes blocos que resistiram aos testes do tempo, ainda seguram a
+    poderosa torre.  Uma escadaria de pedra em espiral leva para cima.  Olhando
+    no meio da torre, você se esforça, e pode ver seu topo, ele parece estar
+    longe de sua vista, lhe surpreendendo pela altura da torre.  Um lânguido
+    esboço de um alçapão pode ser visto.
+  exits:
+    down:
+      target_vnum: '010503903961'
+    south:
+      target_vnum: '010503903926'
+    up:
+      target_vnum: '010503903940'
+  name: Na Base da Torre Norte
+  vnum: '010503903927'
+- description: |-
+    Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
+    estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
+    dos muitos quartos do castelo.
+  exits:
+    east:
+      target_vnum: '010503903947'
+    north:
+      target_vnum: '010503903923'
+    south:
+      target_vnum: '010503903929'
+    west:
+      target_vnum: '010503903950'
+  name: A Asa Sul
+  vnum: '010503903928'
+- description: |-
+    Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
+    estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
+    dos muitos quartos do castelo.
+  exits:
+    east:
+      target_vnum: '010503903948'
+    north:
+      target_vnum: '010503903928'
+    south:
+      target_vnum: '010503903930'
+    west:
+      target_vnum: '010503903949'
+  name: Asa Sul
+  vnum: '010503903929'
+- description: |-
+    Enormes blocos que resistiram aos testes do tempo, ainda seguram a
+    poderosa torre.  Uma escadaria de pedra em espiral leva para cima.  Olhando
+    no meio da torre, você se esforça, e pode ver seu topo, ele parece estar
+    longe de sua vista, lhe surpreendendo pela altura da torre.  Um lânguido
+    esboço de um alçapão pode ser visto.
+  exits:
+    down:
+      target_vnum: '010503903935'
+    north:
+      target_vnum: '010503903929'
+    up:
+      target_vnum: '010503903932'
+  name: A Base da Torre Sul
+  vnum: '010503903930'
+- description: |-
+    Enormes blocos que resistiram aos testes do tempo, ainda seguram a
+    poderosa torre.  Uma escadaria de pedra em espiral leva para cima.  Olhando
+    no meio da torre, você se esforça, e pode ver seu topo, ele parece estar
+    longe de sua vista, lhe surpreendendo pela altura da torre.  Uma porta de
+    ferro pode ser vista ao norte.
+  exits:
+    north:
+      target_vnum: '010503903903'
+    up:
+      target_vnum: '010503903951'
+    west:
+      target_vnum: '010503903924'
+  name: A Base da Torre Principal
+  vnum: '010503903931'
+- description: |-
+    A escadaria continua dando voltas e voltas a medida que você sobe pela
+    torre.  Ela parece continuar para sempre, sem que seu fim possa ser
+    avistado.
+  exits:
+    down:
+      target_vnum: '010503903930'
+    up:
+      target_vnum: '010503903933'
+  name: A Torre Sul
+  vnum: '010503903932'
+- description: |-
+    A escadaria continua dando voltas e voltas a medida que você sobe pela
+    torre.  Ela parece continuar para sempre, sem que seu fim possa ser
+    avistado.
+  exits:
+    down:
+      target_vnum: '010503903932'
+    up:
+      target_vnum: '010503903934'
+  name: A Torre Sul
+  vnum: '010503903933'
+- description: |-
+    Você suspira aliviado por ter finalmente chego ao topo da Torre Sul.
+    Você vê que a única coisa que resta mais alta que esta torre, é a Torre
+    Principal.  Caminhando até seu limite, você vê a zona rural.  Tudo parece
+    ter sido afetado por algum tipo de doença.  De fato, você começa a perceber
+    que este castelo parece ser a origem de qualquer que seja a causa de tanto
+    desastre e ruína.
+  exits:
+    down:
+      target_vnum: '010503903933'
+  name: O Topo da Torre Sul
+  vnum: '010503903934'
+- description: |-
+    O ar começa a esfriar a medida que você caminha pelos degraus.  A parede
+    de pedra é coberta por umidade.  Parece que a parede está verdadeiramente
+    suando.  Perscrutando a escuridão, és invadido por um sentimento de intensa
+    tristeza.
+  exits:
+    down:
+      target_vnum: '010503903936'
+    up:
+      target_vnum: '010503903930'
+  name: Pela Torre Sul
+  vnum: '010503903935'
+- description: |-
+    Você é invadido pelo horror e tragédia que aconteceu nesta sala há tempos
+    atrás.  Nos dias finais deste castelo, quando o mal aumentou seu poder,
+    pessoas foram jogadas para a morte da base desta torre.  Ossos quebrados e
+    caveiras se empilham no chão.  As paredes são cobertas com sangue, que há
+    muito secou e desbotou.  Marcas feitas com cinzel foram deixadas nas
+    paredes, provavelmente feitas por aqueles que sobreviveram à queda inicial e
+    tentaram escapar da morte resultante do fechamento do alçapão acima.
+  exits:
+    up:
+      target_vnum: '010503903935'
+    west:
+      target_vnum: '010503903937'
+  name: O Poço de Sacrifícios
+  vnum: '010503903936'
+- description: |-
+    Uma sala plana e branca oferece algum alívio da vista do poço de
+    sacrifícios.  Tudo aqui é muito branco, é a primeira vez que você vê esta
+    cor sendo usada no castelo.  Uma avermelhada mancha no chão perto da porta
+    do poço é a única outra cor que você vê.  Você pode sentir a paz vinda do
+    oeste.
+  exits:
+    east:
+      target_vnum: '010503903936'
+    west:
+      target_vnum: '010503903938'
+  name: A Entrada Para o Santuário
+  vnum: '010503903937'
+- description: |-
+    A medida que você entra nesta grande sala, você é agraciado com o
+    sentimento da paz.  Há móveis em boas condições aqui.  Você se sente
+    completamente calmo, até que nota-se algo a mais neste lugar.  No chão, uma
+    larga trilha de sangue seco cruza o a sala da entrada até o próximo cômodo
+    que fica ao oeste.
+  exits:
+    east:
+      target_vnum: '010503903937'
+    north:
+      target_vnum: '010503903958'
+    west:
+      target_vnum: '010503903939'
+  name: O Santuário
+  vnum: '010503903938'
+- description: |-
+    Um altar coberto de sangue repousa no meio desta sala branca.  Ele parece
+    um pouco deslocado de sua posição normal, deixando passar estranha luz
+    através de uma pequena fresta.  Uma estátua quebrada de alguma entidade fora
+    largada ao chão.  Ela tem uma figura grotesca, presas podem ser vistas de
+    sua boca aberta, podem ser vistos também seis apêndices, cada um terminando
+    em uma enorme garra.  Magicalmente ela começa a brilhar a medida que você
+    pisa no lugar.
+  exits:
+    down:
+      target_vnum: '010511411400'
+    east:
+      target_vnum: '010503903938'
+  name: No Altar
+  vnum: '010503903939'
+- description: |-
+    A escadaria continua dando voltas e voltas a medida que você sobe pela
+    torre.
+    Ela parece continuar para sempre, sem que seu fim possa ser avistado.
+  exits:
+    down:
+      target_vnum: '010503903927'
+    up:
+      target_vnum: '010503903941'
+  name: A Torre Norte
+  vnum: '010503903940'
+- description: |-
+    A escadaria continua dando voltas e voltas a medida que você sobe pela
+    torre.  Ela parece continuar para sempre, sem que seu fim possa ser
+    avistado.
+  exits:
+    down:
+      target_vnum: '010503903940'
+    up:
+      target_vnum: '010503903942'
+  name: Torre Norte
+  vnum: '010503903941'
+- description: |-
+    Uma fresca brisa lhe dá as boas vindas a medida que você pisa a abertura
+    no topo da Torre Norte.  Olhando abaixo, você percebe que tudo parece sem
+    sentido e triste.  Os campos rurais foram infestados por ervas daninhas e a
+    floresta ao seu redor parece estar agonizando.  Ao oeste, você pode ver o
+    brilho de um Portal Flamejante e nada mais além dele.  Ao leste a única
+    estrutura que é mais alta que esta torre é a Torre Principal.
+  exits:
+    down:
+      target_vnum: '010503903941'
+  name: O Topo da Torre Norte
+  vnum: '010503903942'
+- description: |-
+    Tudo neste quarto tem alguma sombra carmesim, sendo a tonalidade
+    vermelho-sangue a que prevalece.  Uma larga cama forrada com veludo vermelho
+    fica nos fundos do quarto.  Um sofá adornado com rubis o convida a se sentar
+    e descansar.  Quando você resolve descansar no sofá, você percebe que as
+    paredes começam a sangrar...
+  exits:
+    east:
+      target_vnum: '010503903925'
+  name: O Quarto Carmesim
+  vnum: '010503903943'
+- description: |-
+    O quarto é pouco mobiliado.  Poucas cadeiras e uma mesa ficam no meio da
+    sala.  A atmosfera pesada, lhe da um sentimento de muita disciplina.  Há
+    apenas uma porta neste lugar, pela qual os guardas se espremem para passar
+    em caso de emergência.
+  exits:
+    east:
+      target_vnum: '010503903926'
+  name: O Posto da Guarda
+  vnum: '010503903944'
+- description: |-
+    Este quarto fora designado para o conforto dos nobres, o que não seria
+    possível hoje.  O esqueleto dos confortáveis móveis ainda estão de pé, seu
+    tecido caprichoso apodreceu há muito tempo.  O pó cobriu tudo, mostrando que
+    ninguém esteve aqui durante anos, desde que o local fora saqueado e
+    destruído.
+  exits:
+    west:
+      target_vnum: '010503903926'
+  name: O Quarto dos Nobres
+  vnum: '010503903945'
+- description: |-
+    Há muito tempo, os negócios do castelo eram resolvidos aqui.  Restaram
+    pedaços quebrados de madeira onde a audiência costumava se sentar para
+    assistir aos julgamentos.  Na parte de trás da sala, sobre um degrau, há uma
+    grande mesa de carvalho.  Em cima da mesa há marcas antigas das marteladas
+    do juíz.  Ela também está coberta de sangue seco.
+  exits:
+    west:
+      target_vnum: '010503903925'
+  name: A Sala da Corte
+  vnum: '010503903946'
+- description: |-
+    Enjoativas, pálidas paredes amarelas lhe da as boas vindas a medida que
+    você entra no quarto, que é completamente desprovido de mobília, a não ser
+    por uma cama no meio do quarto.  A cama parece anti-higiênica, como se ela
+    não tivesse sido limpa depois que alguém morreu em cima dela.  Subitamente,
+    o ar torna-se mais quente e alguma coisa começa a gotejar do teto.  Bolhas
+    de pus amarelo se abrem na superfície das paredes e um cheiro pútrido invade
+    suas narinas.
+  exits:
+    west:
+      target_vnum: '010503903928'
+  name: O Quarto Amarelo
+  vnum: '010503903947'
+- description: |-
+    O quarto é pouco mobiliado.  Poucas cadeiras e uma mesa ficam no meio da
+    sala.  A atmosfera pesada, lhe da um sentimento de muita disciplina.  Há
+    apenas uma porta neste lugar, pela qual os guardas se espremem para passar
+    em caso de emergência.
+  exits:
+    west:
+      target_vnum: '010503903929'
+  name: O Posto da Guarda
+  vnum: '010503903948'
+- description: |-
+    Uma vez ricamente decorado para uma rainha, este quarto agora parece um
+    matadouro.  Espelhos quebrados revestem as paredes junto com cortinas
+    mofentas.  O chão é coberto com porta jóias abertos e afiados fragmentos de
+    vidro.  Traços de sangue seco restam em algum dos espelhos quebrados,
+    indicando a violência a qual sofreram os últimos habitantes deste quarto.
+  exits:
+    east:
+      target_vnum: '010503903929'
+  name: O Quarto de Repouso da Rainha
+  vnum: '010503903949'
+- description: |-
+    Escuridão, escuridão, escuridão é tudo o que você pode ver deste quarto.
+    Tudo aqui é negro.  Uma chama negra arde na lareira de obsidiana,
+    emprestando alguma claridade ao lugar.  A coisa mais notável aqui, são as
+    rasgadas cortinas que se movem, parecendo ter vida.
+  exits:
+    east:
+      target_vnum: '010503903928'
+  name: O Quarto Negro
+  vnum: '010503903950'
+- description: |-
+    A escadaria continua dando voltas e voltas a medida que você sobe pela
+    torre.  Ela parece continuar para sempre, sem um fim a vista.
+  exits:
+    down:
+      target_vnum: '010503903931'
+    up:
+      target_vnum: '010503903952'
+  name: A Torre Principal
+  vnum: '010503903951'
+- description: |-
+    A escadaria continua dando voltas e voltas a medida que você sobe pela
+    torre.  Ela parece continuar para sempre, sem um fim a vista.
+  exits:
+    down:
+      target_vnum: '010503903951'
+    up:
+      target_vnum: '010503903953'
+  name: A Torre Principal
+  vnum: '010503903952'
+- description: |-
+    A escadaria continua dando voltas e voltas a medida que você sobe pela
+    torre.  Ela parece continuar para sempre, sem um fim a vista.
+  exits:
+    down:
+      target_vnum: '010503903952'
+    up:
+      target_vnum: '010503903954'
+  name: A Torre Principal
+  vnum: '010503903953'
+- description: |-
+    Habilmente nomeada de Torre Principal, ela se ergue acima de tudo o que
+    você pode avistar.  Você pode ver daqui os campos abandonados, espalhados
+    pelo reino.  Uma floresta moribunda ao sul.  Portais Flamejantes ao oeste, e
+    um rio.  O qual daqui parece fluir em vermelho, ou pelo menos avermelhado, e
+    como se não bastasse, ele flui em direção ao castelo, e então...desaparece.
+  exits:
+    down:
+      target_vnum: '010503903953'
+    south:
+      target_vnum: '010503903955'
+  name: O Topo da Torre Principal
+  vnum: '010503903954'
+- description: |-
+    Este é um pequeno corredor, ricamente decorado.  Ele parece ser o único
+    lugar que parece estar intacto, remanescendo do tempo de glória do castelo.
+    Cortinas de veludo e placas coloridas adornam as vigas.  Exóticas armas e
+    armaduras estão penduradas pelas paredes.  Bustos de famosas pessoas, por
+    seu valor ou poder, se alinham em cada lado do corredor.  O corredor segue
+    para uma linda porta esculpida em madeira negra ao leste.
+  exits:
+    east:
+      target_vnum: '010503903956'
+    north:
+      target_vnum: '010503903954'
+  name: O Corredor Dos Reis
+  vnum: '010503903955'
+- description: |-
+    A porta pela qual você veio desaparece atrás de você.  Tudo aqui emite
+    uma aura de decadência e morte.  Uma grossa camada de poeira parece cobrir
+    tudo.  Nos fundos da sala há um enorme trono.  Ele é a única coisa que
+    parece resistir á toda destruição e poeira.  Feito de ouro maciço e adornado
+    com pedras preciosas vindas de todas as partes do mundo, ele parece lhe
+    convidar a se sentar.
+  exits:
+    north:
+      target_vnum: '010503903957'
+    west:
+      target_vnum: '010503903955'
+  name: A Sala do Trono
+  vnum: '010503903956'
+- description: |-
+    O que uma vez fora uma fortaleza, agora está aberta e destruída.  A
+    grande porta maciça fora arrebentada e agora está jogada pelo chão.  Se já
+    existiu qualquer coisa de valor aqui, foi saqueado há muito tempo atrás.
+  exits:
+    south:
+      target_vnum: '010503903956'
+  name: O Tesouro
+  vnum: '010503903957'
+- description: "Este quarto é o última fortaleza contra o mal que tomou este castelo.\n\
+    Tudo aqui é magnificamente branco.  Não há sinal do mal, ou da destruição.\nA\
+    \ sólida mobília de mármore, coberta com a mais fina seda lhe convida a\ndescansar.\
+    \  Há um grande vaso de alabastro branco sobre a lareira, e nele,\npintado em\
+    \ sangue, pode-se ler a palavra \"PrIsÃ\x83o\"."
+  exits:
+    south:
+      target_vnum: '010503903938'
+  name: A Sala de Mármore
+  vnum: '010503903958'
+- description: |-
+    Pode-se dizer que estes jardins já foram lindos há tempos atrás.
+    Tristemente tudo o que restou foram plantas rasteiras e contorcidas.
+    Majestosas árvores agora estão torcidas e carbonizadas.  O solo está sem
+    vida, coberto de cinzas e de morte.
+  exits:
+    east:
+      target_vnum: '010503903918'
+  name: Os Jardins Reais
+  vnum: '010503903959'
+- description: |-
+    Pode-se dizer que estes jardins já foram lindos há tempos atrás.
+    Tristemente tudo o que restou foram plantas rasteiras e contorcidas.
+    Majestosas árvores agora estão torcidas e carbonizadas.  O solo está sem
+    vida, coberto de cinzas e de morte.
+  exits:
+    west:
+      target_vnum: '010503903918'
+  name: Os Jardins Reais
+  vnum: '010503903960'
+- description: |-
+    Este é um pequeno quarto usado pelos membros da família real para escapar
+    do castelo se este estivesse sob ameaça.  Acima, leva para a base da torre,
+    e o caminho abaixo segue para os túneis de fuga.
+  exits:
+    down:
+      target_vnum: '010503903962'
+    up:
+      target_vnum: '010503903927'
+  name: A Sala Secreta Embaixo da Torre Norte
+  vnum: '010503903961'
+- description: |-
+    Escondidos nas profundezas do castelo, esta sala manteve-se secreta por
+    anos.  Sarrafos de madeira e vigas sustentam o teto e as paredes.  Os túneis
+    de fuga seguem a leste pela escuridão.
+  exits:
+    east:
+      target_vnum: '010503903963'
+    up:
+      target_vnum: '010503903961'
+  name: A Entrada Para os Túneis de Fuga
+  vnum: '010503903962'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    east:
+      target_vnum: '010503903964'
+  name: Os Túneis de Fuga
+  vnum: '010503903963'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    east:
+      target_vnum: '010503903965'
+    west:
+      target_vnum: '010503903963'
+  name: Os Túneis de Fuga
+  vnum: '010503903964'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    north:
+      target_vnum: '010103003014'
+    south:
+      target_vnum: '010503903966'
+    west:
+      target_vnum: '010503903964'
+  name: Uma Curva no Túnel de Fuga
+  vnum: '010503903965'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    north:
+      target_vnum: '010503903965'
+    south:
+      target_vnum: '010503903967'
+  name: Os Túneis de Fuga
+  vnum: '010503903966'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    north:
+      target_vnum: '010503903966'
+    west:
+      target_vnum: '010503903968'
+  name: Uma Curva no Túnel de Fuga
+  vnum: '010503903967'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    east:
+      target_vnum: '010503903967'
+    north:
+      target_vnum: '010503903969'
+    south:
+      target_vnum: '010507007031'
+  name: Uma Curva no Túnel de Fuga
+  vnum: '010503903968'
+- description: |-
+    Um suave aclive pode ser percebido, e o túnel agora sobe em direção à
+    escuridão.  Velhas e apodrecidas cordas se penduram da escuridão.  Se você
+    deseja tentar, você pode escalar a rampa, ou pode seguir ao oeste.
+  exits:
+    south:
+      target_vnum: '010503903968'
+    up:
+      target_vnum: '010503903970'
+    west:
+      target_vnum: '010503903900'
+  name: Um Aclive nos Túneis de Fuga
+  vnum: '010503903969'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    down:
+      target_vnum: '010503903969'
+    south:
+      target_vnum: '010503903971'
+  name: Os Túneis de Fuga
+  vnum: '010503903970'
+- description: |-
+    Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
+    mesmo tempo.
+  exits:
+    east:
+      target_vnum: '010503903972'
+    north:
+      target_vnum: '010503903970'
+  name: Uma Curva no Túnel de Fuga
+  vnum: '010503903971'
+- description: |-
+    Você sente a brisa em seu rosto, a medida que se aproxima da saída, mas
+    você está indeciso por onde seguir, já que a brisa vem de duas direções
+    diferentes.  Você deve escolher o caminho correto até a saída, então,
+    escolha sabiamente.
+  exits:
+    east:
+      target_vnum: '010503903973'
+    west:
+      target_vnum: '010506406427'
+  name: A Saída dos Túneis de Fuga
+  vnum: '010503903972'
+- description: |-
+    Se livrando das roseiras bravas da saída do túnel, você se depara com uma
+    pequena clareira.  A luz do sol brilha através dos galhos retorcidos e das
+    folhas das árvores a sua volta.  Seria um lindo lugar para sentar e
+    descansar se não tudo não fosse pelo mofo negro que cobre quase tudo à
+    vista.
+  exits:
+    east:
+      target_vnum: '010503903974'
+    west:
+      target_vnum: '010503903972'
+  name: Uma Clareira Pelos Bosques
+  vnum: '010503903973'
+- description: |-
+    Este caminho foi criado por algum animal que costumava usar esta trilha
+    para chegar ao rio.  Tudo através do caminho é coberto pelo mesmo mofo
+    asqueroso que cobria a clareira.
+  exits:
+    east:
+      target_vnum: '010503903975'
+    west:
+      target_vnum: '010503903973'
+  name: Uma Trilha de Animais
+  vnum: '010503903974'
+- description: |-
+    Este caminho foi criado por algum animal que costumava usar esta trilha
+    para chegar ao rio.  Tudo através do caminho é coberto pelo mesmo mofo
+    asqueroso que cobria a clareira.  O tom avermelhado da terra da ribeira,
+    confere ao rio sua cor vermelha.  O leste lhe levará pelo rio, enquanto pelo
+    oeste, você volta à clareira.
+  exits:
+    east:
+      target_vnum: '010503903976'
+    west:
+      target_vnum: '010503903974'
+  name: A Trilha de Animais Termina na Ribeira do Rio
+  vnum: '010503903975'
+- description: |-
+    Escuras e observadoras contornam o rio.  Seus galhos tocam á água, como
+    se quisessem lhe alcançar e lhe agarrar.  Coisas esbarram em suas pernas a
+    pedida que você luta para conseguir manter sua cabeça acima das gélidas e
+    avermelhadas águas.  Você pode tentar lutar contra a corrente e ir pelo
+    oeste, ou apenas soltar o corpo e seguir a corrente.
+  exits:
+    down:
+      target_vnum: '010503903977'
+    east:
+      target_vnum: '010503903906'
+  name: O Rio Talloren
+  vnum: '010503903976'
+- description: |-
+    Quase sem fôlego, você se encontra afundado em uma piscina, abaixo das
+    águas congelantes.  O único som é o da água correndo sobre sua cabeça.
+  exits:
+    up:
+      target_vnum: '010503903976'
+    west:
+      target_vnum: '010503903978'
+  name: Uma Piscina Subterrânea
+  vnum: '010503903977'
+- description: |-
+    A piscina o leva para uma pequena queda de água.  O suave barulho do cair
+    das águas adiante, lhe diz que a queda não é muito grande.  Você pode voltar
+    para a piscina ou simplesmente descer pelas águas.
+  exits:
+    down:
+      target_vnum: '010503903979'
+    east:
+      target_vnum: '010503903977'
+  name: Uma Pequena Queda D´água
+  vnum: '010503903978'
+- description: |-
+    Com um ressoante esguicho SPLASH!  ...  Você chega a uma piscina de água.
+    O som de sua queda ecoa por toda a caverna.  A medida que você começa a
+    sucumbir pelo frio, você procura rapidamente um caminho para sair destas
+    águas congelantes.  Você pode continuar seguindo a corrente pelo oeste, ou
+    pode sair piscina pelo leste.  O caminho ao leste segue através da
+    escuridão.
+  exits:
+    east:
+      target_vnum: '010503903905'
+    west:
+      target_vnum: '010503903980'
+  name: A Base da Queda D'água
+  vnum: '010503903979'
+- description: |-
+    Você chegou à costa de um lago congelado.  Você nota que está amargamente
+    frio aqui.  Alguns flocos de neve flutuam pelo ar, caindo preguiçosamente
+    pelo chão.  Ao leste, tudo o que pode ver é gelo.  Ao oeste, você seguira de
+    volta ao rio.
+  exits:
+    east:
+      target_vnum: '010503903979'
+    north:
+      target_vnum: '010503903981'
+    south:
+      target_vnum: '010503903982'
+    west:
+      target_vnum: '010503903989'
+  name: A Costa do Lago Subterrâneo Congelado
+  vnum: '010503903980'
+- description: |-
+    Grossos pedaços de gelo se amontoam pela costa, dificultando a passagem.
+    Também dificulta a viagem, o fato de ser muito escorregadio aqui.  Lutando
+    para chegar aqui, você desliza através do frio mortal.
+  exits:
+    south:
+      target_vnum: '010503903980'
+    west:
+      target_vnum: '010503903983'
+  name: A Costa Norte do Lago Congelado
+  vnum: '010503903981'
+- description: |-
+    Grossos pedaços de gelo se amontoam pela costa, dificultando a passagem.
+    Também dificulta a viagem, o fato de ser muito escorregadio aqui.  Lutando
+    para chegar aqui, você desliza através do frio mortal.
+  exits:
+    north:
+      target_vnum: '010503903980'
+    west:
+      target_vnum: '010503903983'
+  name: A Costa Sul do Lago Congelado
+  vnum: '010503903982'
+- description: |-
+    Este campo de gelo parece continuar além e além, seus limites não podem
+    ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
+    escorrega por este lugar desolado.  Você deve se apressar a encontrar um
+    abrigo.
+  exits:
+    east:
+      target_vnum: '010503903982'
+    north:
+      target_vnum: '010503903984'
+    south:
+      target_vnum: '010503903985'
+    west:
+      target_vnum: '010503903983'
+  name: O Lago Congelado
+  vnum: '010503903983'
+- description: |-
+    Este campo de gelo parece continuar além e além, seus limites não podem
+    ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
+    escorrega por este lugar desolado.  Você deve se apressar a encontrar um
+    abrigo.
+  exits:
+    south:
+      target_vnum: '010503903986'
+  name: O Lago Congelado
+  vnum: '010503903984'
+- description: |-
+    Este campo de gelo parece continuar além e além, seus limites não podem
+    ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
+    escorrega por este lugar desolado.  Você deve se apressar a encontrar um
+    abrigo.
+  exits:
+    north:
+      target_vnum: '010503903986'
+  name: O Lago Congelado
+  vnum: '010503903985'
+- description: |-
+    Este campo de gelo parece continuar além e além, seus limites não podem
+    ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
+    escorrega por este lugar desolado.  Você deve se apressar a encontrar um
+    abrigo.
+  exits:
+    east:
+      target_vnum: '010503903987'
+    south:
+      target_vnum: '010503903988'
+  name: O Lago Congelado
+  vnum: '010503903986'
+- description: |-
+    Este campo de gelo parece continuar além e além, seus limites não podem
+    ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
+    escorrega por este lugar desolado.  Você deve se apressar a encontrar um
+    abrigo.
+  exits:
+    north:
+      target_vnum: '010503903997'
+    west:
+      target_vnum: '010503903986'
+  name: O Lago Congelado
+  vnum: '010503903987'
+- description: |-
+    Este campo de gelo parece continuar além e além, seus limites não podem
+    ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
+    escorrega por este lugar desolado.  Você deve se apressar a encontrar um
+    abrigo.
+  exits:
+    north:
+      target_vnum: '010503903986'
+    south:
+      target_vnum: '010503903995'
+  name: O Lago Congelado
+  vnum: '010503903988'
+- description: |-
+    Você está em um congelado lago subterrâneo.  O caminho é escorregadio, e
+    você quase cai, ao se apressar para sair daqui antes que o gelo se parta.
+  exits:
+    east:
+      target_vnum: '010503903980'
+  name: No Congelado Lago Subterrâneo
+  vnum: '010503903989'
+- description: |-
+    A medida que você olha a sua volta, tudo o que você vê é branco, já que
+    tudo aqui está congelado.  Você mal acredita que alguma coisa poderia estar
+    viva aqui, ainda, ao olhar para o oeste, você vê uma árvore gigantesca
+    alcançando o teto de uma caverna.  Suas únicas chances são as de voltar de
+    onde você veio, ou seguir ao norte para a caverna que você avistou.
+  exits:
+    north:
+      target_vnum: '010503903999'
+    west:
+      target_vnum: '010503903991'
+  name: A Costa Oriental da Ilha Congelada
+  vnum: '010503903990'
+- description: |-
+    Você está debaixo de uma grande e larga árvore congelada, que se estende
+    quase até o teto da caverna.  Você percebe que a árvore é quase larga o
+    suficiente para quem sabe...  Degraus?
+  exits:
+    east:
+      target_vnum: '010503903990'
+    north:
+      target_vnum: '010503903997'
+    south:
+      target_vnum: '010503903995'
+    up:
+      target_vnum: '010503903992'
+    west:
+      target_vnum: '010503903996'
+  name: O Centro da Ilha Congelada
+  vnum: '010503903991'
+- description: |-
+    Você está em uma rampa de degraus escorregadios.  Você pode seguir para
+    cima ou para baixo daqui.
+  exits:
+    down:
+      target_vnum: '010503903994'
+    south:
+      target_vnum: '010503903991'
+    up:
+      target_vnum: '010503903993'
+  name: "Na Ã\x81rvore de Damorask"
+  vnum: '010503903992'
+- description: |-
+    Você está na câmara de gelo do Gigante Congelado.  Ele senta em um grande
+    trono feito de cristal, como sentinela para Damorask.  Do teto, você vê
+    pilares de gelo que alcançam o solo.  Ao olhar mais de perto, você percebe
+    que eles são de cor avermelhada.
+  exits:
+    down:
+      target_vnum: '010503903992'
+  name: A Câmara do Gigante Congelado
+  vnum: '010503903993'
+- description: |-
+    Você adentrou o santuário de Damorask, um antigo mago que reinou por
+    estas terras por séculos.  Ele está atrás de uma mesa, feita de puro gelo,
+    preparando novos modos de reger as forças do mal.
+  exits:
+    up:
+      target_vnum: '010503903992'
+  name: O Santuário de Damorask
+  vnum: '010503903994'
+- description: |-
+    Você está na costa sul da Ilha Congelada.  Ao norte você pode ver a
+    árvore de Damorask, enquanto ao sul, você vê mais do lago congelado.  Parece
+    que a neve e o gelo foram revolvidos aqui, como se alguém tivesse estado
+    aqui recentemente.
+  exits:
+    north:
+      target_vnum: '010503903991'
+  name: A Costa Sul da Ilha Congelada
+  vnum: '010503903995'
+- description: |-
+    Você está na costa oeste da Ilha Congelada.  Ao leste você pode ver a
+    árvore de Damorask, enquanto ao oeste, você vê mais do lago congelado.
+    Parece que a neve e o gelo foram revolvidos aqui, como se alguém tivesse
+    estado aqui recentemente.
+  exits:
+    east:
+      target_vnum: '010503903991'
+  name: A Costa Ocidental da Ilha Congelada
+  vnum: '010503903996'
+- description: |-
+    Você está na costa norte da Ilha Congelada.  Ao sul você pode ver a
+    árvore de Damorask, enquanto ao norte, você vê mais do lago congelado.
+    Parece que a neve e o gelo foram revolvidos aqui, como se alguém tivesse
+    cavado aqui recentemente.
+  exits:
+    down:
+      target_vnum: '010503903998'
+    south:
+      target_vnum: '010503903991'
+  name: A Costa Norte da Ilha Congelada
+  vnum: '010503903997'
+- description: Você encontrou a antiga sala de tesouros do Gigante Congelado!
+  exits:
+    up:
+      target_vnum: '010503903997'
+  name: Uma Sala Secreta!
+  vnum: '010503903998'
+- description: |-
+    Você adentrou a caverna da Besta da Neve.  A sua volta, você vê os ossos
+    dos outros visitantes desta ilha que não foram fortes o suficiente para
+    passar por este monstro.
+  exits:
+    south:
+      target_vnum: '010503903990'
+  name: A Caverna da Besta da Neve
+  vnum: '010503903999'

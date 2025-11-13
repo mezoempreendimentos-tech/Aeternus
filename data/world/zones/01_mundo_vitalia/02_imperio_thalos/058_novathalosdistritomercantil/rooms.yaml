@@ -1,0 +1,127 @@
+- description: |-
+    Você se encontra na entrada principal do distrito mercantil de Nova Thalos.
+    O ar está carregado com os aromas de especiarias exóticas e o som de negociadores
+    discutindo preços. Tendas e lojas se estendem em todas as direções, oferecendo
+    mercadorias de terras distantes. Para o norte você vê a rua principal do
+    distrito, enquanto ao sul o caminho leva de volta ao centro da cidade.
+  exits:
+    north:
+      target_vnum: '010205805801'
+    south:
+      target_vnum: '010205405461'
+  name: Entrada do Distrito Mercantil
+  vnum: '010205805800'
+- description: |-
+    Esta loja especializada vende armas adaptadas para o clima árido de Nova
+    Thalos. As paredes estão forradas com cimitarras reluzentes, lanças ornamentadas
+    e escudos decorados com símbolos do deserto. O mercador, um homem bronzeado
+    pelo sol, examina cada arma com cuidado antes de vendê-la.
+  exits:
+    south:
+      target_vnum: '010205805800'
+  name: Loja de Armas do Deserto
+  vnum: '010205805801'
+- description: |-
+    O aroma intenso de canela, cardamomo e outras especiarias exóticas preenche
+    este pequeno estabelecimento. Sacos de temperos coloridos estão arrumados
+    cuidadosamente em prateleiras, cada um rotulado em vários idiomas. O comerciante
+    conhece a origem e os usos culinários de cada especiaria em seu estoque.
+  exits:
+    east:
+      target_vnum: '010205805803'
+  name: Mercador de Temperos e Especiarias
+  vnum: '010205805802'
+- description: |-
+    Este santuário de cura é decorado com tapetes coloridos e possui um pequeno
+    oásis artificial no centro. Plantas medicinais do deserto crescem em vasos de
+    cerâmica, e o curandeiro prepara seus remédios usando antigas receitas tribais.
+    O som suave de água corrente cria uma atmosfera tranquila.
+  exits:
+    east:
+      target_vnum: '010205805804'
+    west:
+      target_vnum: '010205805802'
+  name: Casa de Cura do Deserto
+  vnum: '010205805803'
+- description: |-
+    Esta pousada acolhedora atende principalmente aos comerciantes que visitam
+    Nova Thalos. O saguão é decorado com troféus de viagens e mapas de rotas
+    comerciais. Mesas baixas estão dispostas para refeições comunitárias, e o
+    estalajadeiro conhece todas as fofocas comerciais da região.
+  exits:
+    east:
+      target_vnum: '010205805805'
+    west:
+      target_vnum: '010205805803'
+  name: A Pousada do Mercador
+  vnum: '010205805804'
+- description: |-
+    O calor intenso desta forja rivaliza com o do sol do deserto. O ferreiro,
+    suado e concentrado, trabalha em uma nova peça. Ferramentas especializadas
+    para trabalhar metais do deserto estão espalhadas pela bancada, e o som rítmico
+    do martelo ecoa pelas paredes de pedra.
+  exits:
+    north:
+      target_vnum: '010205805806'
+    west:
+      target_vnum: '010205805804'
+  name: Forja do Deserto
+  vnum: '010205805805'
+- description: |-
+    Este posto avançado da guarda de Nova Thalos protege o distrito mercantil.
+    Guardas bem armados patrulham constantemente, garantindo que o comércio flua
+    sem perturbações. Armas e equipamentos estão organizados de forma militar,
+    prontos para qualquer emergência.
+  exits:
+    east:
+      target_vnum: '010205805807'
+    south:
+      target_vnum: '010205805805'
+  name: Posto da Guarda
+  vnum: '010205805806'
+- description: |-
+    Uma extensão do posto da guarda, este quartel abriga soldados adicionais
+    responsáveis pela segurança do distrito mercantil. Camas simples estão alinhadas
+    e armários contêm equipamentos sobressalentes. A disciplina militar é evidente
+    em cada detalhe da organização.
+  exits:
+    east:
+      target_vnum: '010205805808'
+    west:
+      target_vnum: '010205805806'
+  name: Quartel da Guarda
+  vnum: '010205805807'
+- description: |-
+    Esta oficina produz artigos de couro adaptados para o clima seco do deserto.
+    Peles curtidas com métodos tradicionais estão empilhadas, e o artesão trabalha
+    em botas, cintos e bolsas resistentes. O cheiro característico do couro tratado
+    permeia o ambiente.
+  exits:
+    east:
+      target_vnum: '010205805809'
+    west:
+      target_vnum: '010205805807'
+  name: Oficina de Couro
+  vnum: '010205805808'
+- description: |-
+    Este estabelecimento lida com a troca de moedas de várias regiões. Balanças
+    precisas e cofres seguros garantem transações honestas. O cambista, um homem
+    de aparência próspera, conhece as taxas de câmbio de todas as principais cidades
+    comerciais.
+  exits:
+    east:
+      target_vnum: '010205805810'
+    west:
+      target_vnum: '010205805808'
+  name: Casa de Câmbio
+  vnum: '010205805809'
+- description: |-
+    Este escritório bem organizado serve como centro de comando para a segurança
+    do distrito mercantil. Mapas da área estão afixados nas paredes, e relatórios
+    de patrulhamento estão organizados na mesa do capitão. A autoridade militar
+    é claramente estabelecida aqui.
+  exits:
+    west:
+      target_vnum: '010205805809'
+  name: Gabinete do Capitão da Guarda
+  vnum: '010205805810'

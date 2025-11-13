@@ -1,0 +1,573 @@
+- description: |-
+    Grudento, Grudento, Grudento!  O chão está coberto de folhas, restos
+    mortais de grilos, besouros, ratos, cães e até de humanos envoltos por
+    teias.   Você começa a imaginar o que lhe espera à frente.  O ar é
+    viciado aqui, e até a pouca luz que vem de cima parece ser absorvida
+    pelas teias.
+  exits:
+    north:
+      target_vnum: '010306306302'
+    south:
+      target_vnum: '010306106132'
+  name: A Entrada com Teias
+  vnum: '010306306301'
+- description: |-
+    Você sente que andar aqui é muito bom, talvez bom até demais.  Os
+    galhos estão cobertos de teias de aranha e parecem mais fortes que
+    galhos comuns.   Há caminhos em quatro direções.  O da direita desce um
+    pouco.
+  exits:
+    east:
+      target_vnum: '010306306305'
+    north:
+      target_vnum: '010306306304'
+    south:
+      target_vnum: '010306306301'
+    west:
+      target_vnum: '010306306303'
+  name: A Passagem com Teias
+  vnum: '010306306302'
+- description: |-
+    Zangões voam nessa sala.  As aberturas na parede têm forma de favo
+    de mel e muitas das larvas e vespas que você vê, têm marcas em seus
+    corpos.  Você percebe alguma ordem nas marcações.
+  exits:
+    east:
+      target_vnum: '010306306302'
+  name: A Colméia das Vespas
+  vnum: '010306306303'
+- description: |-
+    Outra passagem com teias, totalmente grudenta e úmida.  Pequenas
+    aranhas enchem o ar.  Parece que elas são recém-nascidas.
+  exits:
+    east:
+      target_vnum: '010306306305'
+    south:
+      target_vnum: '010306306302'
+  name: A Passagem com Teias
+  vnum: '010306306304'
+- description: |-
+    Você ouve os sons dos aracnídeos se movendo acima.  O ritmo dos
+    passos sugere uma ordem no movimento deles.  A luz parece mais forte
+    acima.
+  exits:
+    up:
+      target_vnum: '010306306306'
+    west:
+      target_vnum: '010306306304'
+  name: Abaixo do Caminho Ocupado
+  vnum: '010306306305'
+- description: |-
+    Aranhas, aranhas, por todas as partes!  São quase tão eficazes quanto
+    as formigas, mas com uma grande diferença: as aranhas aqui estão
+    carregando corpos de formigas, e também corpos de ratos, lobos e
+    humanos.
+  exits:
+    down:
+      target_vnum: '010306306305'
+    south:
+      target_vnum: '010306306307'
+  name: No Caminho Ocupado
+  vnum: '010306306306'
+- description: |-
+    Aranhas, aranhas, por todas as partes!  São quase tão eficazes quanto
+    as formigas, mas com uma grande diferença: as aranhas aqui estão
+    carregando corpos de formigas, e também corpos de ratos, lobos e humanos.
+  exits:
+    east:
+      target_vnum: '010306306308'
+    north:
+      target_vnum: '010306306306'
+  name: No Caminho Ocupado
+  vnum: '010306306307'
+- description: |-
+    Aranhas, aranhas, por todas as partes!  São quase tão eficazes quanto
+    as formigas, mas com uma grande diferença: as aranhas aqui estão
+    carregando corpos de formigas, e também corpos de ratos, lobos e humanos.
+  exits:
+    east:
+      target_vnum: '010306306306'
+    north:
+      target_vnum: '010306306307'
+    south:
+      target_vnum: '010306306305'
+    west:
+      target_vnum: '010306306309'
+  name: No Caminho Ocupado
+  vnum: '010306306308'
+- description: |-
+    Como sempre, há uma bifurcação no caminho.  Um caminho está coberto
+    de antenas de grilos.  O outro é bem cuidado e adequado para uma
+    caminhada sem problemas.  As teias, que predominavam nas salas
+    anteriores, são quase inexistentes nesta.
+  exits:
+    east:
+      target_vnum: '010306306308'
+    north:
+      target_vnum: '010306306310'
+    south:
+      target_vnum: '010306306320'
+  name: Uma Bifurcação no Caminho
+  vnum: '010306306309'
+- description: |-
+    Você está em um tronco 'felpudo'.  Interessante, uma vez que os
+    galhos parecem ter 'cabelos' brotando de suas cascas.  Quando você olha
+    mais de perto, você vê milhões de pequenos insetos cobrindo cada galho.
+  exits:
+    south:
+      target_vnum: '010306306309'
+    west:
+      target_vnum: '010306306311'
+  name: Um Tronco Felpudo
+  vnum: '010306306310'
+- description: |-
+    Você sente que pode descansar tranquilamente nesse local.  Há teias
+    aqui, mas ela são de um tipo mais fino.
+  exits:
+    east:
+      target_vnum: '010306306310'
+    south:
+      target_vnum: '010306306312'
+  name: "O Tronco da Ã\x81rvore"
+  vnum: '010306306311'
+- description: |-
+    Parece que o habitante desse local não prende suas vítimas em teias,
+    e isso fica evidente pelos restos que estão à sua frente.  A área está
+    cheia de corpos dissecados, aparentemente mordidos e com seus sucos
+    vitais sugados, mas sem teias.
+  exits:
+    north:
+      target_vnum: '010306306311'
+    west:
+      target_vnum: '010306306313'
+  name: "A Entrada da Toca na Ã\x81rvore"
+  vnum: '010306306312'
+- description: |-
+    Muito escuro, como todas as tocas de aranha são.  Não existem muitas
+    saídas seguras aqui.  A aranha-lobo não guarda nenhum corpo aqui,
+    preferindo jogá-los fora a seu bel prazer.
+  exits:
+    east:
+      target_vnum: '010306306312'
+  name: O Covil da Aranha-Lobo
+  vnum: '010306306313'
+- description: |-
+    Estranho.  Não há teias aqui.  Na verdade, nem sons podem ser ouvidos.
+    O caminho continua a oeste, onde você vê que provavelmente terá que
+    andar sobre uma corda fina, que passa sobre a ravina.
+  exits:
+    north:
+      target_vnum: '010306306309'
+    west:
+      target_vnum: '010306306321'
+  name: O Caminho Sem Teia
+  vnum: '010306306320'
+- description: |-
+    Muito estranho.  Seus pés têm uma firmeza incrível na tal "corda".
+    Você está sobre uma ravina profunda.  A "corda" está ligada entre duas
+    árvores.   Abaixo você pode ver uma teia prismática, com montes de ossos
+    de animais presos nela: ossos de ursos e de pequenos veados, de verdade.
+    Nenhum esqueleto humano pode ser visto (ainda).
+  exits:
+    down:
+      target_vnum: '010306306322'
+    east:
+      target_vnum: '010306306320'
+    south:
+      target_vnum: '010306306323'
+  name: Acima da Ravina
+  vnum: '010306306321'
+- description: |-
+    Esta é a teia arco-íris -- cada fio, cada elo, uma profusão de cores
+    e contrastes.  Quem reside aqui parece ter controle sobre a luz também.
+  exits:
+    up:
+      target_vnum: '010306306321'
+  name: "A Teia Arco-Ã\x8Dris"
+  vnum: '010306306322'
+- description: |-
+    As árvores aqui têm uma aparência diferente -- elas não são mais
+    árvores, mas sim troncos desconexos e sedosos, grudentos ao toque e com
+    textura semelhante à da teia.  Isso parece ser um outro mundo.
+  exits:
+    down:
+      target_vnum: '010306306324'
+    north:
+      target_vnum: '010306306321'
+  name: A Floresta de Teia
+  vnum: '010306306323'
+- description: |-
+    Você entrou no poço de uma mina.  Uma voz retumba à distância,
+    'Voltem ao trabalho, vermes!'.  Carrinhos e mais carrinhos de ouro e
+    prata minerados enchem o caminho abaixo de você.
+  exits:
+    north:
+      target_vnum: '010306306325'
+    up:
+      target_vnum: '010306306323'
+  name: O Poço dos Escravos
+  vnum: '010306306324'
+- description: |-
+    Outro caminho na teia, igual ao resto deles.  Surpreendentemente bem
+    iluminado pelos orbes dourados que pendem dos dois lados, você pode ver
+    as saídas se tornarem mais e mais claras.
+  exits:
+    east:
+      target_vnum: '010306306326'
+    west:
+      target_vnum: '010306306324'
+  name: O Caminho Suspenso
+  vnum: '010306306325'
+- description: Outro emaranhado de pequenas teias, quase etéreas em sua natureza.
+  exits:
+    up:
+      target_vnum: '010306306327'
+    west:
+      target_vnum: '010306306325'
+  name: Um Cruzamento
+  vnum: '010306306326'
+- description: |-
+    Esta teia é pesada, mais robusta.  Ela cintila quando você pisa nela.
+    Você definitivamente não está mais nos reinos de Midgaard.  Porém você
+    não sabe dizer que lugar é este.  Parece que você está se movendo pelo
+    éter.   Você ainda pode voltar para baixo, para um local mais seguro.
+  exits:
+    down:
+      target_vnum: '010306306326'
+    north:
+      target_vnum: '010306306328'
+  name: Um Fio Principal
+  vnum: '010306306327'
+- description: |-
+    Você está na entrada para a teia etérea.  Tremeluzindo, cada fio
+    revela um tom diferente, indo do preto ao verde, do verde ao azul.
+  exits:
+    south:
+      target_vnum: '010306306331'
+  name: A Entrada da Teia Etérea
+  vnum: '010306306328'
+- description: |-
+    Você está em um berço, com vermes de vespas e de outros tipos pelo
+    chão.   Você sente que humanos foram usados como brinquedo aqui, e
+    comidos depois.   Algo te diz que a pessoa que construiu esse lugar
+    gosta de carne de dragão, e usa esta sala como um local para criá-los.
+  exits:
+    up:
+      target_vnum: '010306306331'
+  name: O Cercado do Pequeno Wormkin
+  vnum: '010306306330'
+- description: |-
+    Grandes teias se conectam neste ponto.  O ponto onde se cruzam brilha
+    e tremeluz no éter.  Você vê muitas criaturas voadoras -- insetos,
+    pégasos, e dragões wormkins -- passando pelos perigosos caminhos da teia.
+    Há saídas em muitas direções.
+  exits:
+    east:
+      target_vnum: '010306306332'
+    north:
+      target_vnum: '010306306330'
+    south:
+      target_vnum: '010306306333'
+    west:
+      target_vnum: '010306306334'
+  name: A Base da Teia
+  vnum: '010306306331'
+- description: |-
+    Esta parte da teia passa através dos galhos de algumas árvores.
+    Várias folhas e outras coisas que os muitos zangões ainda não pegaram
+    estão aqui no chão.
+  exits:
+    east:
+      target_vnum: '010306306331'
+    south:
+      target_vnum: '010306306335'
+    west:
+      target_vnum: '010306306333'
+  name: "AtravÃ©s das Ã\x81rvores"
+  vnum: '010306306332'
+- description: |-
+    Você pode ver toda Midgaard nesta teia etérea. Muitos dos dragões
+    maiores que por aqui voam parecem se desviar dos fios grudentos da teia.
+  exits:
+    east:
+      target_vnum: '010306306331'
+    south:
+      target_vnum: '010306306334'
+    west:
+      target_vnum: '010306306335'
+  name: Acima das Nuvens
+  vnum: '010306306333'
+- description: |-
+    Esta nuvem é particularmente densa em sua consistência.  Você
+    repentinamente se dá conta de que esta não é uma nuvem comum, mas
+    pode ser o ninho de uma criatura aérea.
+  exits:
+    down:
+      target_vnum: '010306306331'
+  name: Sobre uma Nuvem
+  vnum: '010306306334'
+- description: |-
+    Esta é outra ligação na teia etérea. Várias criaturas parecem ser
+    pegas (ou hipnotizadas) por seus fios grudentos.
+  exits:
+    east:
+      target_vnum: '010306306336'
+    west:
+      target_vnum: '010306306331'
+  name: Uma Ligação na Teia Etérea
+  vnum: '010306306335'
+- description: |-
+    Venta muito aqui, uma vez que esse fio está a uma altura considerável.
+    Ainda assim, este local é seguro para que você se movimente.
+  exits:
+    down:
+      target_vnum: '010306306331'
+    south:
+      target_vnum: '010306306340'
+    west:
+      target_vnum: '010306306341'
+  name: O Fio Tênue
+  vnum: '010306306336'
+- description: |-
+    Um wormkin mais maduro parece residir aqui.  Vários livros de
+    doutrinas misteriosas estão por aqui, juntamente com cacos de armaduras
+    e armas.
+  exits:
+    down:
+      target_vnum: '010306306331'
+  name: A Sala do Wormkin Velho
+  vnum: '010306306340'
+- description: |-
+    Novamente as teias passam por um tronco. Ao lado, você vê o que
+    parece ser uma entrada para a toca de alguma criatura.
+  exits:
+    east:
+      target_vnum: '010306306342'
+    south:
+      target_vnum: '010306306334'
+    west:
+      target_vnum: '010306306345'
+  name: Um Outro Tronco
+  vnum: '010306306341'
+- description: |-
+    Ela é uma grande caçadora dentre as aranhas.  Jóias e armas quebradas
+    sugerem que ela deve ter poderosas mandíbulas.  Cuidado!
+  exits:
+    down:
+      target_vnum: '010306306331'
+  name: A Toca da Aranha-Pássaro
+  vnum: '010306306342'
+- description: |-
+    Esta é outra ligação na teia etérea. Várias criaturas parecem ser
+    pegas (ou hipnotizadas) por seus fios grudentos.
+  exits:
+    south:
+      target_vnum: '010306306350'
+    up:
+      target_vnum: '010306306345'
+    west:
+      target_vnum: '010306306346'
+  name: Uma Ligação na Teia Etérea
+  vnum: '010306306345'
+- description: |-
+    Este é um silencioso topo de árvore.  Abaixo você
+    vê um caminho familiar, que pode te levar de volta para Midgaard.
+  exits:
+    down:
+      target_vnum: '010306106132'
+    east:
+      target_vnum: '010306306345'
+    west:
+      target_vnum: '010306306347'
+  name: O Topo Silencioso
+  vnum: '010306306346'
+- description: |-
+    RRRRRRRRRRROOOOOOOOOOOOOAAAAAAAAAAAAAARR!  Você ouve o rugido de uma
+    poderosa besta.  Dragão, você imagina.  Você se encolhe todo enquanto
+    anda nas pontas pés através desta parte da teia.
+  exits:
+    down:
+      target_vnum: '010306306331'
+    east:
+      target_vnum: '010306306346'
+    south:
+      target_vnum: '010306306355'
+  name: Na Teia
+  vnum: '010306306347'
+- description: "Uma sÃ¡bia ki-rin foi presa aqui muitos anos atrÃ¡s.  Ã\x89 dela que\
+    \ a\nimperatriz deste reino suga força mágica."
+  exits:
+    north:
+      target_vnum: '010306306347'
+  name: A Câmara da Ki-Rin
+  vnum: '010306306350'
+- description: |-
+    Esta é outra ligação na teia etérea. Várias criaturas parecem ser
+    pegas (ou hipnotizadas) por seus fios grudentos.  Ao norte você sente a
+    forte respiração de um enérgico animal.
+  exits:
+    north:
+      target_vnum: '010306306360'
+    south:
+      target_vnum: '010306306365'
+  name: Uma Ligação na Teia Etérea
+  vnum: '010306306355'
+- description: |-
+    Yevaud, o Usurpador de Midgaard, reside aqui.  Uma voz grita,
+    'CUIDADO, o Usurpador de Midgaard vive aqui!  FUJA enquanto pode!'.
+    Mas até Yevaud tem seu meste... ou assim você deduz.
+  exits:
+    south:
+      target_vnum: '010306306355'
+  name: O Covil de Yevaud
+  vnum: '010306306360'
+- description: |-
+    Esta é outra ligação na teia etérea. Várias criaturas parecem ser
+    pegas (ou hipnotizadas) por seus fios grudentos.  Um único fio de teia
+    vai para o norte, enquanto há um caminho horripilante ao sul.  A
+    satânica entrada do Covil de Arachnos é logo abaixo.
+  exits:
+    down:
+      target_vnum: '010306306390'
+    east:
+      target_vnum: '010306306331'
+    north:
+      target_vnum: '010306306371'
+    south:
+      target_vnum: '010306306366'
+  name: Uma Ligação na Teia Etérea
+  vnum: '010306306365'
+- description: "VocÃª se encontra num caminho escuro, ao final do fio de teia. Ã\x80\
+    \nfrente você vê uma câmara iluminada por uma tocha, onde almas de\naventureiros\
+    \ que não foram vingados vêm e rangem seus dentes.  Os uivos\ne gritos de muitos\
+    \ ecoam pelas paredes.  Você pode ver um caminho bem\ndefinido, seguindo adiante."
+  exits:
+    north:
+      target_vnum: '010306306367'
+  name: A Entrada para a Guarda da Torre
+  vnum: '010306306366'
+- description: |-
+    Uma cadeira está aqui para um guardião incansável, que garante que
+    nenhuma alma escape.  Além da cadeira, a sala não apresenta qualquer
+    decoração.
+  exits:
+    north:
+      target_vnum: '010306306368'
+  name: A Sala do Guardião
+  vnum: '010306306367'
+- description: |-
+    Aqui você vê muitas almas que pensam que ainda vivem.  Elas procuram
+    por aqueles que as mataram sem justificativa, e perseguem almas livres
+    de seres viventes, para habitarem e talvez se aventurarem mais uma vez.
+  exits:
+    north:
+      target_vnum: '010306306369'
+  name: O Reino dos sem Esperança
+  vnum: '010306306368'
+- description: |-
+    Aqui você vê muitas almas que pensam que ainda vivem.  Elas procuram
+    por aqueles que as mataram sem justificativa, e perseguem almas livres
+    de seres viventes, para habitarem e talvez se aventurarem mais uma vez.
+  exits:
+    north:
+      target_vnum: '010306306368'
+    south:
+      target_vnum: '010306306370'
+  name: O Reino dos sem Esperança
+  vnum: '010306306369'
+- description: |-
+    Nenhuma alma jamais viveu neste local.  O pranto de escravos e os
+    uivos de lobos são os sons que você ouve.  As paredes sao finas e
+    pequenas.  A única luz que você recebe vem do brilhar do fio de teia
+    etérea que você usou para chegar aqui.
+  exits:
+    east:
+      target_vnum: '010306306371'
+  name: A Guarda da Torre
+  vnum: '010306306370'
+- description: |-
+    Um único fio de teia de aranha te sustenta novamente.  Ao olhar
+    através do éter você vê uma única cabana adiante, com uma luz na janela.
+    Você percebe um grande mal vindo do sul, e sente vontade de voltar para
+    a teia etérea e tentar sua sorte lá.
+  exits:
+    north:
+      target_vnum: '010306306331'
+    south:
+      target_vnum: '010306306372'
+  name: O Fio de Teia de Aranha
+  vnum: '010306306371'
+- description: |-
+    Um único fio de teia de aranha lhe sustenta novamente.  A cabana se
+    aproxima, e você se sente com mais vontade de ir embora agora.
+  exits:
+    north:
+      target_vnum: '010306306371'
+    south:
+      target_vnum: '010306306373'
+  name: O Fio de Teia de Aranha
+  vnum: '010306306372'
+- description: |-
+    Aqui você vê evidencias de uma moradia errante.  A cabana é ao sul,
+    caso você ouse entrar nela.  Você tem uma sensação inconsciente de que
+    deveria ir embora agora.  O céu acima de você escurece, e urra com os
+    sons de trovões.
+  exits:
+    north:
+      target_vnum: '010306306372'
+    south:
+      target_vnum: '010306306380'
+  name: O Canto do Eremita
+  vnum: '010306306373'
+- description: |-
+    Mahatma, aquele ladrão tolo, está aqui, e ele rouba tudo o que você
+    tem.   Ele diz 'Aqui, você tem uma viagem rápida de volta ao
+    Templo de Midgaard.', e enterra uma adaga negra em suas costas...
+  exits: {}
+  name: A Armadilha Mortal de Mahatma
+  vnum: '010306306380'
+- description: |-
+    Todos os fios inevitavelmente vêm para cá, o centro da teia, a
+    entrada para o covil de Arachnos.
+  exits:
+    east:
+      target_vnum: '010306306391'
+  name: A Entrada para o Covil de Arachnos
+  vnum: '010306306390'
+- description: |-
+    Você ainda pode fugir, uma vez que seus joelhos estão tremendo por
+    causa da ansiedade (ou seria medo?).  O céu é claro neste fio de teia,
+    que surpreendentemente não é pegajoso.  Esta teia não vibra como as
+    outras.   Algumas aranhas passam por aqui, gargalhando, 'Você vai
+    morrer, você está frito!  Adeus!'.
+  exits:
+    down:
+      target_vnum: '010306306331'
+    east:
+      target_vnum: '010306306392'
+  name: A Câmara Pegajosa
+  vnum: '010306306391'
+- description: |-
+    Adiante você vê uma grande porta em forma de teia.  Vários desenhos
+    de runas antigas e nomes de heróis de Midgaard estão entalhados nela.
+    Talvez a lista de vítimas?  Você não tem como saber.
+  exits:
+    north:
+      target_vnum: '010306306399'
+    west:
+      target_vnum: '010306306391'
+  name: A Grande Porta
+  vnum: '010306306392'
+- description: |-
+    Este é o covil da Aranha Rainha, Arachnos.  Você pode ver uma
+    abundantemente adornada teia de arco-íris.  O covil permite que
+    Arachnos se mova para qualquer universo que deseje, usando seus
+    fios mágicos no Plano Material Principal.  Cofres e mais cofres
+    de ouro, jóias e gemas te esperam.  Infelizmente, Arachnos é uma
+    aranha avarenta, e prende todos seus tesouros em seu belo corpo
+    sedoso.
+  exits:
+    south:
+      target_vnum: '010306306392'
+  name: O Covil de Arachnos
+  vnum: '010306306399'

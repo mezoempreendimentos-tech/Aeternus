@@ -1,0 +1,273 @@
+- description: |-
+    Você está numa grande trilha, muros de pedras gigantescas demonstram
+    que esse lugar existe há milhões de anos.  Nos muros é possível notar que
+    há inscrições e desenhos muito antigos e incompreensíveis.  Ao norte, você
+    vê uma trilha e ao sul há um caminho para uma cabana.
+  exits:
+    north:
+      target_vnum: '010109409402'
+    south:
+      target_vnum: '010101801802'
+  name: Trilha do Destino
+  vnum: '010109409401'
+- description: |-
+    Você está numa grande trilha, quanto mais você se aproxima do final da
+    trilha, mais seus olhos ficam perturbados.  Um sentimento que você nunca
+    teve enche seu coração.  Ao sul você vai para o início da trilha e ao
+    norte você adentra ainda mais.
+  exits:
+    north:
+      target_vnum: '010109409403'
+    south:
+      target_vnum: '010109409401'
+  name: Trilha do Destino
+  vnum: '010109409402'
+- description: |-
+    Você está numa grande trilha.  Ao fundo, é posssível ouvir barulhos
+    estranhos, como se almas vagassem por aqui.  Você está perplexo, tendo
+    sensações diferentes e seu coração pulsa cada vez mais forte.  Ao norte,
+    você vê o fim da trilha e ao sul ela se torna um tanto extensa.  Há uma
+    outra trilha começando ao oeste.
+  exits:
+    north:
+      target_vnum: '010109409404'
+    south:
+      target_vnum: '010109409402'
+    west:
+      target_vnum: '010122222200'
+  name: Trilha do Destino
+  vnum: '010109409403'
+- description: |-
+    Você está no Final da Trilha do Destino.   Daqui você pode ver a oeste
+    um grande portal que reluz como ouro, totalmente rodeado por flores
+    campestres e ao leste outro grande portal, porém coberto por nuvens escuras
+    o qual enche seu coração com um sentimento sombrio e gélido.  Ao sul está
+    a extensa trilha.
+  exits:
+    east:
+      target_vnum: '010109409410'
+    north:
+      target_vnum: '010102002100'
+    south:
+      target_vnum: '010109409403'
+    west:
+      target_vnum: '010109409405'
+  name: Final da Trilha do Destino
+  vnum: '010109409404'
+- description: |-
+    Você está diante do grande Santuário dos Deuses Supremos e Criadores
+    do mundo de Vitália.  Uma grande luz emana de dentro do Santuário e você
+    sente uma paz ao seu redor.  Ao lado desse portal há uma grande pedra com
+    inscrições muito antigas e que parecem ser muito importantes.  A oeste
+    você vê o grande santuário e a leste o final de uma trilha.
+  exits:
+    east:
+      target_vnum: '010109409404'
+    west:
+      target_vnum: '010109409406'
+  name: O Portal do Santuário
+  vnum: '010109409405'
+- description: |-
+    Você está dentro do Santuário.  Ao norte e ao sul você vê as grandes
+    estátuas dos Deuses Criadores. No fundo do corredor você tem sua vista
+    ofuscada pela grande beleza das estátuas dos Deuses Supremos.  E a leste
+    você pode ver o grande portal.
+  exits:
+    east:
+      target_vnum: '010109409405'
+    north:
+      target_vnum: '010109409409'
+    south:
+      target_vnum: '010109409408'
+    west:
+      target_vnum: '010109409407'
+  name: O Santuário
+  vnum: '010109409406'
+- description: |-
+    Você esta diante da estátua dos grandes Deuses Supremos. Feitas
+    totalmente em ouro e marfim. É incompreensível como tanta beleza pode
+    ficar intacta milenios após sua construção.  A leste fica o centro da
+    sala.
+  exits:
+    east:
+      target_vnum: '010109409406'
+  name: O Santuário
+  vnum: '010109409407'
+- description: |-
+    Você esta diante da estátua dos grandes Deuses Criadores, feita
+    totalmente em ouro e marfim. É incompreensível como tanta beleza pode
+    ficar intacta milênios após sua construção.  Ao norte você pode ver
+    o centro da sala.
+  exits:
+    north:
+      target_vnum: '010109409406'
+  name: O Santuário
+  vnum: '010109409408'
+- description: |-
+    Você esta diante da estátua dos grandes Deuses Criadores. Feitas
+    totalmente em ouro e marfim. É incompreensível como tanta beleza pode
+    ficar intacta milenios após sua construção.  Ao sul você pode ver o
+    centro da sala.
+  exits:
+    south:
+      target_vnum: '010109409406'
+  name: O Santuário
+  vnum: '010109409409'
+- description: |-
+    Você esta diante de um portal nebuloso, coberto por nuvens escuras.
+    Gemidos vindos de dentro ecoam por todos os lados, um sentimento de
+    tristeza e melancolia invade seu coração. Ao lado desse portal há uma
+    grande pedra com inscrições muito antigas e que parecem ser muito
+    importantes.  A leste você uma grande sala e oeste o final de uma trilha.
+  exits:
+    east:
+      target_vnum: '010109409411'
+    west:
+      target_vnum: '010109409404'
+  name: Portal da Desolação
+  vnum: '010109409410'
+- description: |-
+    Você está dentro de uma grande sala, duas pequenas tochas iluminam esse
+    lugar sombrio. Ao norte e ao sul você pode ver enormes blocos de gelo.
+    Você percebe que dentro dos blocos de gelos há algumas coisas estranhas.  A
+    oeste você ve um grande portal e a leste um corredor.  No centro da sala
+    há uma fonte jorrando um líquido estranho, de cor avermelhada.
+  exits:
+    east:
+      target_vnum: '010109409414'
+    north:
+      target_vnum: '010109409413'
+    south:
+      target_vnum: '010109409412'
+    west:
+      target_vnum: '010109409410'
+  name: Sala da Desolação
+  vnum: '010109409411'
+- description: |-
+    Você está diante de grandes blocos de gelo, dentro deles você pode ver o
+    corpos apodrecidos mas que ainda parecem estar vivos em algum lugar, onde
+    o sofrimento é única coisa que possuem como companhia.  Ao norte, você vê
+    o centro da sala.
+  exits:
+    north:
+      target_vnum: '010109409411'
+  name: Sala da Desolação
+  vnum: '010109409412'
+- description: |-
+    Você está diante de grandes blocos de gelo, dentro deles você pode ver os
+    corpos apodrecidos mas que ainda parecem estar vivos em algum lugar, onde
+    o sofrimento é única coisa que possuem como companhia.  Ao sul você vê
+    o centro da sala.
+  exits:
+    south:
+      target_vnum: '010109409411'
+  name: Sala da Desolação
+  vnum: '010109409413'
+- description: |-
+    Você está no início de um grande corredor.  Este lugar é gélido e
+    sombrio, só de olhar você já sente arrepios.  Morcegos dormem dependurados
+    no teto.   Sua curiosidade manda você seguir em frente, a oeste você vê uma
+    grande sala.
+  exits:
+    east:
+      target_vnum: '010109409415'
+    west:
+      target_vnum: '010109409411'
+  name: Inicio do Corredor
+  vnum: '010109409414'
+- description: |-
+    A cada passo que você dá parece que a iluminação fica cada vez mais
+    fraca.  Um vento frio quase apaga as tochas penduradas nas paredes feitas de
+    pedra, que parecem ter séculos.  A oeste você vê o início do corredor e ao
+    sul você vê muito pouco por causa da falta de iluminação.
+  exits:
+    south:
+      target_vnum: '010109409416'
+    west:
+      target_vnum: '010109409414'
+  name: Corredor Sombrio
+  vnum: '010109409415'
+- description: |-
+    Nosssaaaaaa !!!! Um morcego enorme atirou-se por cima de você!!!
+    Cuidado!!   Com certeza ele estava mais com medo de você do que você dele.
+    O longo corredor continua a norte e a leste.
+  exits:
+    east:
+      target_vnum: '010109409417'
+    north:
+      target_vnum: '010109409415'
+  name: Corredor Sombrio
+  vnum: '010109409416'
+- description: |-
+    Tudo está muito escuro aqui.  Nem queira imaginar o que aconteceria se
+    você estivesse sem sua luz.   Esta parte do corredor está totalmente escura,
+    parece que alguém apagou a tocha de propósito.  Você com muita dificuldade
+    vê que o corredor continua a oeste e ao sul.
+  exits:
+    south:
+      target_vnum: '010109409418'
+    west:
+      target_vnum: '010109409416'
+  name: Corredor Sombrio
+  vnum: '010109409417'
+- description: |-
+    Você tropeça em algo... Ahhhhhhhhhhhhh !!! Uma caveira apodrecida pelo
+    tempo.  Pobre coitado, pelo jeito esse não teve tempo de conhecer o resto
+    do caminho.  Queiram os Deuses que você tenha mais sorte que esse pobre
+    aventureiro...  Você pode ver o fim do corredor a leste e ao norte parece
+    que ele se alonga cada vez mais.
+  exits:
+    east:
+      target_vnum: '010109409419'
+    north:
+      target_vnum: '010109409417'
+  name: Corredor Sombrio
+  vnum: '010109409418'
+- description: |-
+    Você vê um alçapão no chão, muito antigo e muito pesado.  Uma escada
+    velha e apodrecida leva até o subterrâneo.  Será que seria uma boa idéia
+    descer ?  Não é possivel ver muita coisa daqui de cima.  A oeste tem um
+    grande corredor.
+  exits:
+    down:
+      target_vnum: '010109409420'
+    west:
+      target_vnum: '010109409418'
+  name: Fim do Corredor
+  vnum: '010109409419'
+- description: |-
+    Parece que você não tem muita escolha, tanto para cima quanto para baixo
+    é quase impossivel de se ver.  Esse alçapão é estreito e muito sujo, parece
+    que não passa alguem aqui há anos.
+  exits:
+    down:
+      target_vnum: '010109409421'
+    up:
+      target_vnum: '010109409419'
+  name: A Escada
+  vnum: '010109409420'
+- description: |-
+    A escada é mais longa do que você imaginava.  E parece que não muito
+    resistente também.  Você escuta gritos vindos lá de baixo.  Para cima a luz
+    é tão fraca que você não pode ver quase nada.
+  exits:
+    down:
+      target_vnum: '010109409422'
+    up:
+      target_vnum: '010109409420'
+  name: A Escada
+  vnum: '010109409421'
+- description: |-
+    Você está no final da escada e, graças a quatro tochas enormes, a
+    iluminação nesta sala é razoável.  Você vê a oeste uma porta enorme
+    com uma pequena janela em seu centro e para cima uma longa escada.
+    Aparentemente há algo muito curioso atrás dessa porta de ferro.
+    E mais curioso ainda é a @RPLACA@n muito importante que está fixada na
+    parede.
+  exits:
+    up:
+      target_vnum: '010109409421'
+    west:
+      target_vnum: '010500600600'
+  name: O Fim da Escada
+  vnum: '010109409422'

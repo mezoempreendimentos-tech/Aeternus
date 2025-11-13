@@ -1,0 +1,268 @@
+- description: |-
+    Assim que o rio sai da cidade de Midgaard, ele pega velocidade e leva
+    você através das margens cercadas pelas árvores de Haon-Dor. Enquanto a
+    cidade desaparece a leste, você se aproxima de uma obscura floresta a oeste.
+  exits:
+    east:
+      target_vnum: '010103103200'
+    west:
+      target_vnum: '010100900901'
+  name: Na Correnteza do Rio
+  vnum: '010100900900'
+- description: |-
+    O rio é fundo, e corre rapidamente na direção leste-oeste. Para norte
+    o rio termina e entra uma clareira onde um barranco leva até um escuro e
+    fechado bosque. Isto não parece muito convidativo de qualquer modo.
+  exits:
+    east:
+      target_vnum: '010100900900'
+    north:
+      target_vnum: '010306106120'
+    west:
+      target_vnum: '010100900902'
+  name: A Margem do Rio
+  vnum: '010100900901'
+- description: |-
+    O rio serpenteia e quase joga você pra fora de seu barco. A agua é
+    escura, gelada, com um brilho reptiliano. Ele parece quase vivo. O rio corre
+    para o leste e para o sul.
+  exits:
+    east:
+      target_vnum: '010100900901'
+    south:
+      target_vnum: '010100900903'
+  name: A Parte Sinuosa do Rio
+  vnum: '010100900902'
+- description: |-
+    A obscura floresta de Haon-Dor desaparece atrás de você a nordeste.
+    O rio continua na direção oeste através do delta do rio, onde você avista
+    uma grande ilha.
+  exits:
+    east:
+      target_vnum: '010100900902'
+    west:
+      target_vnum: '010100900904'
+  name: A Paisagem Pitoresca
+  vnum: '010100900903'
+- description: |-
+    Você está na borda do delta do rio, onde o rio termina o seu caminho
+    para o mar. A agua aqui á Negra. Funda. Escura. Mortal. As ondas da maré
+    movem você para cima e para baixo.
+  exits:
+    east:
+      target_vnum: '010100900903'
+    north:
+      target_vnum: '010100900911'
+    south:
+      target_vnum: '010100900906'
+    west:
+      target_vnum: '010100900905'
+  name: A Correnteza no Delta do Rio
+  vnum: '010100900904'
+- description: |-
+    Você sacode-se para cima e para baixo nas ondas que vem perigosamente
+    perto de algumas rochas grandes, pontudas na costa leste de uma ilha incomum.
+    Não há nenhuma maneira de você ancorar lá sem ser morto.
+  exits:
+    east:
+      target_vnum: '010100900904'
+    south:
+      target_vnum: '010100900906'
+  name: Perto das Rochas
+  vnum: '010100900905'
+- description: |-
+    Você está fazendo seu caminho ao longo de um canal no delta do rio entre
+    a ilha ao oeste e á costa ao sul e leste. Ao sul um envelhecido e quebrado
+    cáis sai para fora da terra e para o oeste o canal vai para perto da ilha
+    enquanto se move em torno de sua ponta do sul.
+  exits:
+    east:
+      target_vnum: '010100900904'
+    north:
+      target_vnum: '010100900905'
+    south:
+      target_vnum: '010100900907'
+    west:
+      target_vnum: '010100900908'
+  name: O Delta Sul do Rio
+  vnum: '010100900906'
+- description: |-
+    Você flutua ao lado de um cáis se desintegrando e por muito tempo
+    esquecido. Ao oeste a água começa a parar e há muitas ervas daninhas e
+    algumas algas que flutuam próximas.
+  exits:
+    north:
+      target_vnum: '010100900906'
+    west:
+      target_vnum: '010100900908'
+  name: O Pier
+  vnum: '010100900907'
+- description: |-
+    O caminho por aqui é difícil. A maré luta com o fluxo normal do rio e
+    aqui perto da borda do mar há uma grande quantidade de algas. Ao oeste o
+    canal passa a ponta do sul da ilha e vai para águas abertas.
+  exits:
+    east:
+      target_vnum: '010100900907'
+    north:
+      target_vnum: '010100900906'
+    west:
+      target_vnum: '010100900909'
+  name: Passagem Pelas Algas
+  vnum: '010100900908'
+- description: |-
+    O delta encontra com o mar aqui. Ao oeste você não vê nada mais do que o
+    oceano no horizonte. Os pássaros do mar gritam ruidosamente em sua aproximação
+    e voam para uma praia próxima na ilha. Isto parace como se este poderia ser a
+    última parada para aqueles indo para o mar.
+  exits:
+    east:
+      target_vnum: '010100900908'
+    north:
+      target_vnum: '010100900910'
+  name: "A Ã\x9Altima Parada"
+  vnum: '010100900909'
+- description: |-
+    Esta parece uma praia deserta na ponta do sul da ilha.  Seguindo sudoeste
+    você entra em mar aberto.  Não há muito a ver aqui e não há nenhuma maneira
+    cruzar os penhascos rochosos e íngremes que cercam este lugar.
+  exits:
+    south:
+      target_vnum: '010100900909'
+    southwest:
+      target_vnum: '010110810800'
+    west:
+      target_vnum: '010102002010'
+  name: A Praia
+  vnum: '010100900910'
+- description: |-
+    O rio se divide e corre de encontro a ilha e a um canal navegável que se
+    divide para o norte e para o oeste.
+  exits:
+    north:
+      target_vnum: '010100900912'
+    south:
+      target_vnum: '010100900904'
+    west:
+      target_vnum: '010100900912'
+  name: O Canal Norte
+  vnum: '010100900911'
+- description: |-
+    O rio carrega-o rapidamente para o oeste enquanto o canal começa a se
+    estreitar enquanto se espreme através na extremidade norte da ilha.
+  exits:
+    east:
+      target_vnum: '010100900911'
+    south:
+      target_vnum: '010100900911'
+    west:
+      target_vnum: '010100900913'
+  name: O Canal Norte
+  vnum: '010100900912'
+- description: |-
+    Você está fora de uma aterragem pequena na ilha que não parece ser nada
+    mais do que um trajeto curto que conduz ao lado de uma colina.
+  exits:
+    east:
+      target_vnum: '010100900912'
+    south:
+      target_vnum: '010100900914'
+  name: Perto da Ilha
+  vnum: '010100900913'
+- description: |-
+    Corpos encontram-se por toda parte. Campones, mendigos, duques, duquesas.
+    Os deuses não ouvirão seu chamado aqui. Daqui não lhe responderão. Ao sul
+    o trajeto termina na entrada de uma escura caverna. Um letreiro foi afixado
+    ao lado da entrada.
+  exits:
+    north:
+      target_vnum: '010100900913'
+    south:
+      target_vnum: '010100900915'
+  name: O Caminho dos Que Ficaram
+  vnum: '010100900914'
+- description: |-
+    Ah... você encontra-se no campo de batalha de Minos. Minos ama torturar
+    seu povo através destes lugares. Ele coleta monstros do mundo todo e os poem
+    aqui.
+  exits:
+    east:
+      target_vnum: '010100900916'
+  name: O Primeiro Desafio de Minos
+  vnum: '010100900915'
+- description: |-
+    A voz de Minos reverbera nas quatro paredes desta sala: 'Descanse um pouco
+    e certifique-se de que você está curado. Você precisará para o próximo
+    monstro em meu desafio. Ou você é forte o bastante? '
+    Ao sul é a entrada para o próximo desafio na fortaleza de Minos.
+  exits:
+    south:
+      target_vnum: '010100900917'
+  name: O Segundo Desafio de Minos
+  vnum: '010100900916'
+- description: |-
+    Você entra em um quarto vermelho. Muito vermelho. Como se o rei Minos o
+    usou para estripar seus convidados. O trajeto continua a leste. Você vê
+    luzes azuis nesse sentido.
+  exits:
+    east:
+      target_vnum: '010100900918'
+  name: O Terceiro Desafio de Minos
+  vnum: '010100900917'
+- description: "Minos deve ser um monstro pesquisador. Você vê uma luz azul cintilante.\n\
+    Uma voz diz, 'PORQUE VOCÃ\x8A ESTÃ\x81 AQUI!'"
+  exits:
+    south:
+      target_vnum: '010100900919'
+  name: O Quarto Desafio de Minos
+  vnum: '010100900918'
+- description: |-
+    Isto é o quartel do General Woundwort. Cadáveres de coelhos encontram-se
+    dispersados sobre este pequeno inferno. O General não é uma pessoa muito boa
+    como você pode pensar.
+  exits:
+    east:
+      target_vnum: '010100900920'
+  name: O Quinto Desafio de Minos
+  vnum: '010100900919'
+- description: |-
+    Quisera nós sabermos quantas mais salas Minos tem. Os trajetos parecem
+    ser infinitos. Você escuta os sons de gritos de morte do leste. Uma voz alta
+    grita um outro aviso: 'Sai agora ou enfrente minha ira!' Há uma escada que
+    conduz para cima na extremidade do quarto e há uma brisa fresca que vem de
+    lá.
+  exits:
+    south:
+      target_vnum: '010100900921'
+    up:
+      target_vnum: '010100900923'
+  name: O Sexto Desafio de Minos
+  vnum: '010100900920'
+- description: |-
+    Este é a sala de Minos. O que você esperava? A sala é decorada
+    prodigamente para este rei bovino. Tudo é tão opulento que faz seus olhos
+    doerem. Sobreviva e leve a fortuna dele!
+    A única saída é uma porta grande de carvalho na parede do leste.
+  exits:
+    east:
+      target_vnum: '010100900922'
+  name: "O Ã\x9Altimo Desafio de Minos"
+  vnum: '010100900921'
+- description: |-
+    A sala do tesouro de Minos é escura, exceto por sua lanterna.
+    Esperançosamente ainda não foi descoberta pelos muitos ladrões legendários
+    de Midgaard. Uma passagem secreta conduz para cima daqui.
+  exits:
+    up:
+      target_vnum: '010100900910'
+  name: A Sala Real
+  vnum: '010100900922'
+- description: |-
+    Você senta-se entre as rochas em uma pequena praia na extremidade sul da
+    ilha. Você poderia descer facilmente, mas subir de novo seria uma outra
+    história.
+  exits:
+    down:
+      target_vnum: '010100900910'
+  name: Acima, Na Praia
+  vnum: '010100900923'

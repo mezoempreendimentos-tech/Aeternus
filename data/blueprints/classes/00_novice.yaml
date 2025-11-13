@@ -1,0 +1,27 @@
+# data/blueprints/classes/00_novice.yaml
+vnum: "class_novice"
+name: "Novato"
+description: "Um aventureiro em início de jornada, aprendendo os caminhos do mundo."
+playable: true
+remort_required: false
+
+# Atributos Base (O que ele ganha por nível)
+base_hp: 100
+hp_per_level: 10
+mana_per_level: 5
+stamina_per_level: 10
+
+# Multiplicadores de Atributo (Quanto cada ponto de STR ajuda no dano, etc)
+# 1.0 = Normal, 0.0 = Inútil, 2.0 = Especialidade
+stat_modifiers:
+  strength: 1.0
+  dexterity: 1.0
+  constitution: 1.0
+  intelligence: 1.0
+  wisdom: 1.0
+  charisma: 1.0
+
+# Equipamento Inicial (VNUMs dos itens que ele ganha ao criar)
+starting_gear:
+  - "01010303010" # Garrafa de Cerveja (Exemplo)
+  - "01010303011" # Adaga (Exemplo)

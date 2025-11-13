@@ -1,0 +1,228 @@
+- description: |-
+    Você está caminhando por uma estrada esquecida.  Há bonitas plantas ao
+    redor da estrada, que dão a impressão que poucos passam por aqui.  Contudo,
+    a estrada foi construída com grandes pedras redondas, perfeitamente colocadas
+    umas ao lado das outras.
+    Ao leste você vê a verdejante zona rural de Midgaard, e a noroeste há um
+    campo aberto.
+  exits:
+    east:
+      target_vnum: '010103003060'
+    northeast:
+      target_vnum: '010101801801'
+  name: Um Caminho Esquecido
+  vnum: '010101801800'
+- description: |-
+    Você está em um campo aberto, com algumas árvores e várias plantas.
+    O chão de grama verde está de certa forma, bem cuidada, o que lhe faz pensar
+    que esse lugar não é tão esquecido quanto parece.  O caminho continua para
+    oeste, e ao norte você vê uma cabana.
+  exits:
+    north:
+      target_vnum: '010101801802'
+    southeast:
+      target_vnum: '010101801800'
+    west:
+      target_vnum: '010101801804'
+  name: Um Campo Aberto
+  vnum: '010101801801'
+- description: |-
+    Este caminho é bem simples, e foi trilhado sobre a grama.  Não há muito
+    para se ver ao redor, exceto a cabana, logo ao oeste.  Há uma luz azul saindo
+    pela porta da cabana, e você sente uma profunda paz ao olhar para ela.
+    Ao sul você retorna para o campo aberto.
+  exits:
+    north:
+      target_vnum: '010109409401'
+    south:
+      target_vnum: '010101801801'
+    west:
+      target_vnum: '010101801803'
+  name: O Caminho Para a Cabana
+  vnum: '010101801802'
+- description: |-
+    Você está dentro da cabana.  Uma suave luz azul ilumina todo o ambiente,
+    lhe proporcionando uma incrível sensação de paz.  Ao chão há vários corpos
+    de buscadores que morreram em suas viagens pelo mundo.  Os corpos estão
+    bem preservados, e é isso que faz o ambiente não parecer como um cemitério.
+    Provavelmente é a magia dos sacerdotes de Midgaard que preservam estes corpos
+    aqui, até que algum amigo venha tentar os trazer devolta à vida.
+  exits:
+    east:
+      target_vnum: '010101801802'
+  name: A Cabana da Ressurreição
+  vnum: '010101801803'
+- description: |-
+    Você está em um caminho construído com grandes pedras redondas.  A uma
+    certa distância, ao norte, você pode ver uma cabana.  Há grandes arbustos e
+    altas árvores nas laterais do caminho, que tornam cada vez mais densos
+    conforme você caminha para oeste.  Para leste você volta para o campo
+    aberto.
+  exits:
+    east:
+      target_vnum: '010101801801'
+    west:
+      target_vnum: '010101801805'
+  name: Um Caminho
+  vnum: '010101801804'
+- description: |-
+    Você está em um caminho construído com grandes pedras redondas.  Aqui o
+    campo é mais fechado.  Nas laterais do caminho, há uma mata tão densa que
+    não lhe permite enxergar nada a mais que 5 metros adentro.  Os galhos mais
+    altos das árvores à beira do caminho se cruzam sobre você, bloqueando os
+    raios solares, e tornando o caminho mais úmido.  A oeste você pode ver uma
+    área mais aberta, e uma pequena casa.
+  exits:
+    east:
+      target_vnum: '010101801804'
+    west:
+      target_vnum: '010101801806'
+  name: Um Caminho
+  vnum: '010101801805'
+- description: |-
+    A área aqui é aberta, na forma de um círculo, e o no centro desse círculo
+    há uma pequena casa.  Você pode andar em volta da casa.  Você nota, agora,
+    que atrás da casa está o pé de uma grande montanha, que parece tocar as
+    núvens.  A leste, a mata se abre para o caminho que leva devolta à Midgaard.
+  exits:
+    east:
+      target_vnum: '010101801805'
+    northeast:
+      target_vnum: '010101801807'
+    southwest:
+      target_vnum: '010101801808'
+    west:
+      target_vnum: '010101801810'
+  name: Em Frente a uma Pequena Casa
+  vnum: '010101801806'
+- description: |-
+    Você está caminhando em volta da casa.  Há uma janela deste lado da casa.
+    Não há mais nada de especial aqui.
+  exits:
+    southeast:
+      target_vnum: '010101801806'
+    southwest:
+      target_vnum: '010101801809'
+  name: Ao Lado da Pequena Casa
+  vnum: '010101801807'
+- description: |-
+    Você está caminhando em volta da casa.  Há duas janelas deste lado da
+    casa.  Não há mais nada de especial aqui.
+  exits:
+    northwest:
+      target_vnum: '010101801806'
+  name: Ao Lado da Pequena Casa
+  vnum: '010101801808'
+- description: |-
+    Você está atrás da pequena casa.  Há uma outra porta desse lado da casa
+    (provavelmente a porta dos fundos).  Você pode andar em volta da casa.
+    Daqui é possível ver melhor a grande montanha.  Ela é muito íngreme, e
+    não é qualquer um que poderia escalá-la.  Contudo, você é incapaz de
+    encontrar uma forma de chegar até ela, pois a mata é densa demais para se
+    atravessar.
+  exits:
+    east:
+      target_vnum: '010101801811'
+    northwest:
+      target_vnum: '010101801807'
+    southeast:
+      target_vnum: '010101801808'
+  name: Atrás da Pequena Casa
+  vnum: '010101801809'
+- description: |-
+    A casa é um tanto quanto simples, e ao mesmo tempo, moderna.  Você pode
+    ver uma lareira, uma mesa, uma poltrona grande e um armário.  Sobre a
+    lareira há um quadro com uma paisagem pintada.  Na parede, há um espada e
+    um escudo pendurados.
+    A leste está porta de entrada da casa.  Há ainda uma passagem para oeste,
+    e portas para norte e sul.
+  exits:
+    east:
+      target_vnum: '010101801806'
+    north:
+      target_vnum: '010101801812'
+    south:
+      target_vnum: '010101801813'
+    west:
+      target_vnum: '010101801811'
+  name: A Sala
+  vnum: '010101801810'
+- description: |-
+    É uma pequena cozinha, preciosamente arrumada.  A pia e os armários estão
+    tão limpos que brilham.  Há alguns frutos sobre uma mesa.  Você pode voltar
+    para a sala para leste.  Há uma porta para oeste.
+  exits:
+    east:
+      target_vnum: '010101801810'
+    west:
+      target_vnum: '010101801809'
+  name: A Cozinha
+  vnum: '010101801811'
+- description: |-
+    Esse é o recinto mais particular da casa.  Não está sujo, não muito...
+    Comparando com outros, este certamente é um dos banheiros mais limpos que
+    existe.  É muito luxuoso, possui latrina, pia e um chuveiro.
+  exits:
+    south:
+      target_vnum: '010101801810'
+  name: O Banheiro
+  vnum: '010101801812'
+- description: |-
+    Você está no quarto.  O que mais lhe chama a atenção é o tamanho da estante
+    de livros que tem aqui.  Tem centenas de livros.  O quarto também possui uma
+    cama, uma pequena mesa e uma cadeira.
+  exits:
+    north:
+      target_vnum: '010101801810'
+  name: O Quarto
+  vnum: '010101801813'
+- description: |-
+    Você está no início de um longo corredor fechado.  As paredes são bem
+    altas e o corredor é largo.  O chão sob você foi feito com uma rocha cinza,
+    muito resistente.  O teto é feito de uma espécie de fumaça brilhante, que
+    ilumina a sala de maneira uniforme, não deixando nenhuma sombra.
+    O corredor continua para o norte, e há um grande portão de energia ao
+    sul.
+  exits:
+    north:
+      target_vnum: '010101801891'
+    south:
+      target_vnum: '010000000003'
+  name: A Entrada do Reino da Morte
+  vnum: '010101801890'
+- description: |-
+    Você está no corredor que leva para o Reino da Morte.  O corredor continua
+    para o norte e para o sul.  Você nota uma pequena placa fixada na parede.
+  exits:
+    north:
+      target_vnum: '010101801892'
+    south:
+      target_vnum: '010101801890'
+  name: A Entrada do Reino da Morte
+  vnum: '010101801891'
+- description: |-
+    Você chegou ao final do corredor.  Uma grande plataforma foi montada aqui,
+    provavelmente para algum tipo de palestra.  Há algumas faixas presas na
+    plataforma.  Há um grande portão ao norte.  O corredor continua para o sul.
+  exits:
+    north:
+      target_vnum: '010101801899'
+    south:
+      target_vnum: '010101801891'
+  name: A Entrada do Reino da Morte
+  vnum: '010101801892'
+- description: |-
+    Você está em um imenso solo de pedras cinzas, que se extende até aonde
+    sua visão alcança, por todas as direções.  Ventos desagradáveis mergulhando
+    do céu escuro e sem estrelas, batem selvagemente em seu fragil espírito.
+  exits:
+    east:
+      target_vnum: '010101801899'
+    north:
+      target_vnum: '010101801899'
+    south:
+      target_vnum: '010101801899'
+    west:
+      target_vnum: '010101801899'
+  name: O Reino da Morte
+  vnum: '010101801899'

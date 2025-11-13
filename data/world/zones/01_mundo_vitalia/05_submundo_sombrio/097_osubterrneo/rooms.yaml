@@ -1,0 +1,712 @@
+- description: |-
+    Quanto mais fundo você vai, mais fica denso e escuro, é praticamente
+    impossível de se ver qualquer coisa a sua frente.  Para cima e para baixo
+    nada há além da escuridão.
+  exits:
+    down:
+      target_vnum: '010509709701'
+    up:
+      target_vnum: '010101101110'
+  name: Dentro da Lagoa Escura
+  vnum: '010509709700'
+- description: |-
+    Esse lugar é tão escuro que provavelmente nem peixes vivem aqui.  Para
+    cima e para baixo só existe uma imensidão de água turva.
+  exits:
+    down:
+      target_vnum: '010509709702'
+    up:
+      target_vnum: '010509709700'
+  name: Dentro da Lagoa Escura
+  vnum: '010509709701'
+- description: |-
+    Cada vez mais fundo...  e mais fundo...  o que poderia existir numa
+    escuridão como essa?  Somente um louco poderia nadar tão fundo.
+  exits:
+    down:
+      target_vnum: '010509709703'
+    up:
+      target_vnum: '010509709701'
+  name: Dentro da Lagoa Escura
+  vnum: '010509709702'
+- description: |-
+    Nada há para se ver, escuridão intensa e um frio insuportável.  Além de
+    escura essa lagoa está se tornando cada vez mais fria....
+  exits:
+    down:
+      target_vnum: '010509709704'
+    up:
+      target_vnum: '010509709702'
+  name: Dentro da Lagoa Escura
+  vnum: '010509709703'
+- description: |-
+    A melhor idéia seria subir para a superfície, o frio se torna cada vez
+    mais terrível.  Nada se pode ver tanto para cima como para baixo.
+  exits:
+    down:
+      target_vnum: '010509709705'
+    up:
+      target_vnum: '010509709703'
+  name: Dentro da Lagoa Escura
+  vnum: '010509709704'
+- description: |-
+    Seu fôlego está acabando, triste fim para um aventureiro tão corajoso...
+    Morrer nessa profunda lagoa, solitário e sem desvendar os mistérios nela
+    contidos...  Talvez ainda haja tempo de voltar...
+  exits:
+    down:
+      target_vnum: '010509709706'
+    up:
+      target_vnum: '010509709704'
+  name: Dentro da Lagoa Escura
+  vnum: '010509709705'
+- description: |-
+    A melhor idéia seria subir para a superfície, o frio se torna cada vez
+    mais terrível.  Nada se pode ver tanto para cima como para baixo.
+  exits:
+    down:
+      target_vnum: '010509709707'
+    up:
+      target_vnum: '010509709705'
+  name: Dentro da Lagoa Escura
+  vnum: '010509709706'
+- description: |-
+    Finalmente você sente que tocou o fundo dessa horripilante e fria lagoa.
+    Não é possivel ver nada, mas aparentemente há um buraco no lado leste da
+    lagoa, talvez seria melhor voltar a superficie.
+  exits:
+    east:
+      target_vnum: '010509709708'
+    up:
+      target_vnum: '010509709706'
+  name: O Fundo da Lagoa Escura
+  vnum: '010509709707'
+- description: |-
+    Este buraco parece levá-lo para cima, estranhamente parece ser uma
+    superfície...  O frio ainda é intenso mas a escuridão parece terminar.
+  exits:
+    up:
+      target_vnum: '010509709709'
+    west:
+      target_vnum: '010509709707'
+  name: Um Buraco no Fundo da Lagoa
+  vnum: '010509709708'
+- description: |-
+    Incrível!!!  Seus olhos estão maravilhados, um imenso local subterrâneo
+    embaixo dessa lagoa.  Aqui o ambiente é mais quente e não é tão escuro, é
+    possivel ver algumas labaredas de fogo, talvez aqui seja uma espécie de
+    vulcão.  Para baixo você vê o buraco do fundo da lagoa, para leste esta área
+    se alonga e ao norte você vê a entrada de uma grande caverna,
+  exits:
+    down:
+      target_vnum: '010509709708'
+    east:
+      target_vnum: '010509709714'
+    north:
+      target_vnum: '010509709710'
+  name: O Subterranêo
+  vnum: '010509709709'
+- description: |-
+    Você está diante da entrada de uma grande caverna.  É um tanto estranha
+    a entrada dessa caverna, pois parece uma enorme boca esculpida nas rochas.
+    Uma larva gosmenta está brilhando pelo chão e pelas paredes da caverna.
+    Ao norte a caverna se alonga e a sul você pode ver o corredor do subterrâneo.
+  exits:
+    north:
+      target_vnum: '010509709711'
+    south:
+      target_vnum: '010509709709'
+  name: Entrada da Caverna
+  vnum: '010509709710'
+- description: |-
+    Está muito escuro aqui, mas é possível escutar que há algo se arrastando
+    pelo chão da caverna.  É impossível de caminhar sem que se escorregue nessa
+    gosma.  Ao leste a caverna continua a se extender e ao sul você pode ver sua
+    entrada.
+  exits:
+    east:
+      target_vnum: '010509709712'
+    south:
+      target_vnum: '010509709710'
+  name: Caverna da Serpente
+  vnum: '010509709711'
+- description: |-
+    Você está perto de encontrar algo horrível, é possível imaginar pela
+    quantia de larva gosmenta e pelos barulhos estranhos que estão vindo do
+    fundo da caverna. Ao leste parece ser o fundo da caverna e o oeste a
+    caverna continua.
+  exits:
+    east:
+      target_vnum: '010509709713'
+    west:
+      target_vnum: '010509709711'
+  name: Caverna da Serpente
+  vnum: '010509709712'
+- description: |-
+    Nosssaaaa!!!  É inacreditável!!!  Você está diante de uma serpente enorme
+    e horrivel.  Com um corpo gigantesco e com três cabeças, felizmente ela não
+    notou sua presença...  Parece que ela não consegue vê-lo, talvez seja
+    cega...  A única saída é retornar pelo lado oeste, talvez fosse melhor fazer
+    isso antes que sua presença seja notada.
+  exits:
+    west:
+      target_vnum: '010509709712'
+  name: O Ninho da Serpente
+  vnum: '010509709713'
+- description: |-
+    Você está caminhando pelo subterrâneo, aqui tudo é magnífico.  A natureza
+    com certeza levou milênios pra esculpir tudo isso.  No lado leste e oeste
+    você a grande extensão desse subterrâneo.
+  exits:
+    east:
+      target_vnum: '010509709715'
+    west:
+      target_vnum: '010509709709'
+  name: O Subterrâneo
+  vnum: '010509709714'
+- description: |-
+    O subterrâeo é muito curioso e assustador, aqui você nota a força da
+    natureza, mas ao mesmo tempo fica assombrado com o ar assustador e a
+    escuridão.  A oeste o suberrâneo tem continuidade e ao sul você pode
+    ver uma pequena passagem e a leste uma sala um tanto quente.
+  exits:
+    east:
+      target_vnum: '010509709716'
+    south:
+      target_vnum: '010509709717'
+    west:
+      target_vnum: '010509709714'
+  name: O Subterrâneo
+  vnum: '010509709715'
+- description: |-
+    Você caiu numa enorme labareda de fogo.  AAAHHhhhhh...... o calor é
+    extremo seus equipamentos se derretem e sua pele arde em chamas.....
+    Você está completamente queimado pelo fogo eterno.....!!!
+  exits: {}
+  name: O Fogo Eterno
+  vnum: '010509709716'
+- description: |-
+    Uma pequena e muito estreita passagem, com certeza se você fosse um pouco
+    mais gordo jamais passaria por aqui.  Ao norte você segue pelo subterrâneo,
+    para baixo você entra ainda mais nessa passagem estreita.
+  exits:
+    down:
+      target_vnum: '010509709718'
+    north:
+      target_vnum: '010509709715'
+  name: Uma Passagem pelas Pedras
+  vnum: '010509709717'
+- description: |-
+    Cada vez fica mais apertada essa passagem.  Nas paredes há muita umidade
+    e muitas rochas cortantes.  Para cima parece um pouco mais fácil de passar e
+    para leste ela se aprofunda.
+  exits:
+    east:
+      target_vnum: '010509709719'
+    up:
+      target_vnum: '010509709717'
+  name: Uma Passagem pelas Pedras
+  vnum: '010509709718'
+- description: |-
+    Com certeza ninguem nunca passou por aqui, e você respirar um pouco mais
+    forte é capaz de ficar preso.  Para oeste a passagem se alonga e para leste
+    parece que há uma sala maior.
+  exits:
+    east:
+      target_vnum: '010509709720'
+    west:
+      target_vnum: '010509709718'
+  name: Uma Passagem pelas Pedras
+  vnum: '010509709719'
+- description: |-
+    Um enorme vão no chão, você imagina que sua caminhada será um pouco mais
+    confortável daqui para frente.  Para baixo um enorme vão e para oeste a
+    passagem estreita por entre as pedras.
+  exits:
+    down:
+      target_vnum: '010509709721'
+    west:
+      target_vnum: '010509709719'
+  name: Uma Passagem pelas Pedras
+  vnum: '010509709720'
+- description: |-
+    Você se escorrega pelas pedras, é muito alto para poder voltar.  Sua
+    única alternativa é continuar descendo.  Você só vê a saída para baixo.
+  exits:
+    down:
+      target_vnum: '010509709722'
+  name: Uma Passagem pelas Pedras
+  vnum: '010509709721'
+- description: |-
+    Você está na margem de um rio subterrâneo, as aguas são turvas e muito
+    quentes, com certeza qualquer um que caisse nelas seria cozido.  Para o sul
+    você vê o rio de águas muitos sujas.
+  exits:
+    south:
+      target_vnum: '010509709723'
+  name: A Margem do Rio das Almas
+  vnum: '010509709722'
+- description: |-
+    Um rio de águas calmas, porém tudo aqui é assustador, das águas sobem
+    borbulhas e algo parece se mexer debaixo d'agua.  Ao norte você vê a margem
+    e a leste o rio continua.
+  exits:
+    east:
+      target_vnum: '010509709724'
+    north:
+      target_vnum: '010509709722'
+  name: O Rio das Almas
+  vnum: '010509709723'
+- description: |-
+    O rio continua calmo, mas você tem a impressão de estar sendo
+    observado.  Não existe correnteza, mas você percebe que é impossível voltar,
+    como se algo arrastasse você cada vez mais para frente.  Sua única saída é
+    continuar seguindo pelo lado sul.
+  exits:
+    south:
+      target_vnum: '010509709725'
+  name: O Rio das Almas
+  vnum: '010509709724'
+- description: |-
+    Algo estranho está acontecendo... as águas claras se movimentam
+    extremamente, no meio do rio um rodamoinho se forma, é impossível de
+    voltar... você está sendo puxado.  Sua única saída é a curva ao leste.
+  exits:
+    east:
+      target_vnum: '010509709726'
+  name: O Rio das Almas
+  vnum: '010509709725'
+- description: |-
+    Uuaahhhhuuuu!!!  Muita água cai dentro do seu barco, faz ele ficar muito
+    pesado.  Esse é um caminho sem volta.  Ao norte você vê a única saída
+    possível.
+  exits:
+    north:
+      target_vnum: '010509709727'
+  name: O Centro do Rodamoinho
+  vnum: '010509709726'
+- description: |-
+    Finalmente fora daquele rodamoinho e livre de qualquer perigo, mas
+    infelizmente não há como voltar.  Por todos os lados somente escuridão.
+    Você vê outra curva ao leste.
+  exits:
+    east:
+      target_vnum: '010509709728'
+  name: O Rio das Almas
+  vnum: '010509709727'
+- description: |-
+    Essa parte da caverna começa a ficar muito estreita, se você estivesse
+    com um barco muito grande, com certeza não conseguiria seguir viagem.  Há
+    muitos morcegos por aqui e o cheiro de suas fezes é insuportável.  A única
+    passagem é do lado norte, onde há uma curva.
+  exits:
+    north:
+      target_vnum: '010509709729'
+  name: O Rio das Almas
+  vnum: '010509709728'
+- description: |-
+    Finalmente a caverna voltou a ficar mais ampla, suas paredes estão
+    repletas de morcegos mas o ar aqui é bem melhor.  No teto da caverna há
+    sinais estranhos talvez alguma civilização tenha vivido aqui, mas é
+    impossivel de se ler dessa distância.  Você pode ver um passagem estreita a
+    leste, saindo do rio.  E ao sul parece que o rio continua.
+  exits:
+    east:
+      target_vnum: '010509709730'
+    south:
+      target_vnum: '010509709744'
+  name: Uma Curva no Rio
+  vnum: '010509709729'
+- description: |-
+    É incrível a sensação que mais alguem está aqui.  A impressão que você
+    tem é que essa ampla caverna é tomada por algo mágico e talvez muito
+    maléfico.  No lado leste você vê uma grande trilha pelas pedras, e a oeste
+    o rio continua, e você percebe que parece haver a possibilidade de haver
+    uma caverna submersa dentro da água, talvez fosse interessante explora-la.
+  exits:
+    east:
+      target_vnum: '010509709731'
+    west:
+      target_vnum: '010509709729'
+  name: Uma Margem do lado leste do Rio
+  vnum: '010509709730'
+- description: |-
+    Você está num caminho estreito por entre as pedras, nas paredes é sinal
+    de ranhuras, algo estranho passou por aqui.  Ao leste a trilha parece ser
+    profunda e a oeste você a margem do rio.
+  exits:
+    east:
+      target_vnum: '010509709732'
+    west:
+      target_vnum: '010509709730'
+  name: Uma Trilha na Caverna
+  vnum: '010509709731'
+- description: |-
+    O cheiro de fezes de morcego aqui é horrível, você sente sua narinas
+    arderem.  Arrrghhhhh...  A oeste e ao sul a trilha continua.
+  exits:
+    south:
+      target_vnum: '010509709733'
+    west:
+      target_vnum: '010509709731'
+  name: A Trilha
+  vnum: '010509709732'
+- description: |-
+    Essa trilha é muito difícil de ser percorrida, as pedras estão cada vez
+    mais escorregadias.  A trilha continua ao sul e ao norte.
+  exits:
+    north:
+      target_vnum: '010509709732'
+    south:
+      target_vnum: '010509709734'
+  name: A Trilha
+  vnum: '010509709733'
+- description: |-
+    Uma trilha estreita e cheia de pedras por todos os lados, como a natureza
+    foi te castigar tanto, com certeza após sair daqui seus pés estarão moídos!
+    Ao norte você pode ver a trilha se aprofundar e ao leste parece ser uma
+    clareira.
+  exits:
+    east:
+      target_vnum: '010509709735'
+    north:
+      target_vnum: '010509709733'
+  name: A Trilha
+  vnum: '010509709734'
+- description: |-
+    Aqui é uma entrada no meio da rocha, para o que parece ser um trilha.  Um
+    cheiro horrível emana de dentro dela, com certeza deve estar infestada de
+    morcegos.  Ao sul está a margem do rio e a oeste o começo da trilha.
+  exits:
+    south:
+      target_vnum: '010509709736'
+    west:
+      target_vnum: '010509709734'
+  name: Uma Trilha na Caverna
+  vnum: '010509709735'
+- description: |-
+    Essa margem do rio é bem calma, porém parece que ao leste o rio acaba bem
+    no meio das rochas, será que há uma passagem no meio das rochas?  A oeste o
+    rio aparentemente é bem longo e ao norte há uma trilha.
+  exits:
+    east:
+      target_vnum: '010509709737'
+    north:
+      target_vnum: '010509709735'
+    west:
+      target_vnum: '010509709739'
+  name: Uma Margem do lado sudeste do Rio
+  vnum: '010509709736'
+- description: |-
+    Uma sensação estranha...  parece que o rio está chegando ao final.  A
+    oeste você pode ver uma grande extensão de água, mas olhando para dentro da
+    agua você vê o que parece ser uma caverna submersa, e algo está se mexendo
+    lá dentro.
+  exits:
+    down:
+      target_vnum: '010509709738'
+    west:
+      target_vnum: '010509709736'
+  name: O Rio das Almas
+  vnum: '010509709737'
+- description: |-
+    Ohhhh nããããoo esta horrível caverna não tem saída, parece que você
+    passará o resto de seu dias aqui juntamente com essas horríveis....
+    caveeeiiiirasss.  Seu destino parece estar traçado!!!
+  exits: {}
+  name: A Caverna Submersa
+  vnum: '010509709738'
+- description: |-
+    Esse rio é muito estranho, em determinados trechos sua água é limpa
+    e cristalina, outros trechos como esse aqui a água é extremamente
+    turva.  A leste você vê uma margem do rio e a oeste ele segue seu rumo.
+  exits:
+    east:
+      target_vnum: '010509709736'
+    west:
+      target_vnum: '010509709740'
+  name: O Rio das Almas
+  vnum: '010509709739'
+- description: |-
+    O rio está calmo porem suas águas são muito escuras, a oeste e a leste
+    você vê que ele é longo.
+  exits:
+    east:
+      target_vnum: '010509709739'
+    west:
+      target_vnum: '010509709741'
+  name: O Rio das Almas
+  vnum: '010509709740'
+- description: |-
+    Esse rio é muito extenso, uma pessoa sem seu preparo físico com certeza
+    não conseguiria proseguir.  A leste e oeste o rio avança.
+  exits:
+    east:
+      target_vnum: '010509709740'
+    west:
+      target_vnum: '010509709742'
+  name: O Rio das Almas
+  vnum: '010509709741'
+- description: |-
+    Você está bem perto da margem do rio.  A norte e a leste ele continua com
+    suas águas escuras.
+  exits:
+    east:
+      target_vnum: '010509709741'
+    north:
+      target_vnum: '010509709743'
+  name: O Rio das Almas
+  vnum: '010509709742'
+- description: |-
+    Você navega incansávelmente por essas águas.  A norte você a vista uma
+    parte próxima da margem, ao sul o rio continua num trecho muito estreito.
+  exits:
+    north:
+      target_vnum: '010509709711'
+    south:
+      target_vnum: '010509709709'
+  name: O Rio das Almas
+  vnum: '010509709743'
+- description: |-
+    O rio é cada ve mais confuso, a impressão que se tem é que nunca acaba.
+    Do lado sul ele segue longamente, ao norte parece haver uma pequena curva e
+    ao oeste existe um pequeno canal.
+  exits:
+    north:
+      target_vnum: '010509709729'
+    south:
+      target_vnum: '010509709743'
+    west:
+      target_vnum: '010509709745'
+  name: O Rio das Almas
+  vnum: '010509709744'
+- description: |-
+    Você está num pequeno e estreito canal, a leste você avista o rio extenso
+    e ao oeste parece ser o final desse pequeno canal.
+  exits:
+    east:
+      target_vnum: '010509709744'
+    west:
+      target_vnum: '010509709746'
+  name: Um Pequeno Canal
+  vnum: '010509709745'
+- description: |-
+    Parece ser o fim desse pequeno canal, aqui a agua é cristalina...  que
+    estranho!  Você pode ver uma margem aparentemente segura do lado sul, do
+    lado leste o canal tem continuidade.
+  exits:
+    east:
+      target_vnum: '010509709745'
+    south:
+      target_vnum: '010509709747'
+  name: Um Pequeno Canal
+  vnum: '010509709746'
+- description: |-
+    Você está numa margem muito boa para desembarcar, aqui o solo é repleto
+    de areia.  Ao norte você vê um pequeno canal, ao sul há uma entrada bem
+    pequena nas rochas e a oeste há um caminho arenoso.
+  exits:
+    north:
+      target_vnum: '010509709746'
+    south:
+      target_vnum: '010509709717'
+    west:
+      target_vnum: '010509709748'
+  name: A Margem Sudoeste do Rio
+  vnum: '010509709747'
+- description: |-
+    Você está num caminho muito arenoso, o chão está repleto de uma material
+    estranho, como se fosse lava vulcânica, porém muito menos quente.  A leste
+    está a margem de um canal do rio e ao sul você pode ver o camiho arenoso
+    seguir por entre a escuridão e as pedras.
+  exits:
+    east:
+      target_vnum: '010509709747'
+    south:
+      target_vnum: '010509709749'
+  name: Um Caminho
+  vnum: '010509709748'
+- description: |-
+    Seus pés sentem o calor que emana do centro da terra.  Ao norte você vê
+    toda a extensão do caminho e ao oeste você pode ver uma enorme formação
+    rochosa, distribuida de forma que parece um oráculo feito em pedras.
+  exits:
+    north:
+      target_vnum: '010509709748'
+    west:
+      target_vnum: '010509709750'
+  name: Um Caminho
+  vnum: '010509709749'
+- description: |-
+    Você está diante de uma grande portal, um enorme portão de madeira separa
+    você do mundo desconhecido.  Desenhos e inscrições muito antigas cincundam
+    todo o batente desse enorme portão.  A oeste você entra pelo portal do
+    desconhecido e a leste você retorna ao seu caminho.
+  exits:
+    east:
+      target_vnum: '010509709749'
+    west:
+      target_vnum: '010509709751'
+  name: O Portal da Caverna do Dragão
+  vnum: '010509709750'
+- description: |-
+    Você está num grande salão dessa caverna.  Aqui as rochas estão
+    distribuidas formando um grande circulo e acima de sua cabeça se forma um
+    grande anel rochoso.  Há uma grande pedra com inscrições muito antigas e
+    aparentemente importantes.  A oeste você cruza o oráculo seguindo um caminho
+    escuro e a leste você retorna ao portal.
+  exits:
+    east:
+      target_vnum: '010509709764'
+    west:
+      target_vnum: '010509709752'
+  name: O Oráculo da Sabedoria
+  vnum: '010509709751'
+- description: |-
+    Cuidado!!!  Uma grande pedra rola e tampa sua passagem de retorno, pelo
+    visto você agora não tem mais escolha.  Você está dentro de uma grande
+    caverna sua única saida é seguir a oeste e adentrar cada vez mais dentro
+    dessa caverna.
+  exits:
+    west:
+      target_vnum: '010509709753'
+  name: A Grande Caverna
+  vnum: '010509709752'
+- description: |-
+    Como ao longo de todo o seu caminho, aqui não é diferente, muitos
+    morcegos voam e derrubam fezes em sua cabeça, arrghhh... que horrivel!
+    A leste você retorna ao começo da caverna e acima você vê uma pequena
+    passagem.
+  exits:
+    east:
+      target_vnum: '010509709752'
+    up:
+      target_vnum: '010509709754'
+  name: A Grande Caverna
+  vnum: '010509709753'
+- description: |-
+    Esta pequena passagem é muito estreita e escoprregadia, se você cair
+    daqui com certeza não será muito agradável.  Para cima a passagem fica cada
+    vez mais lisa e perigosa e para baixo está a grande caverna.
+  exits:
+    down:
+      target_vnum: '010509709753'
+    up:
+      target_vnum: '010509709755'
+  name: Uma Pequena Passagem
+  vnum: '010509709754'
+- description: |-
+    Finalmente você está chegando ao fim dessa pequena passagem.  Para baixo
+    a passagem se estende e pra cima você percebe que tem acesso a uma outra
+    grande câmara.
+  exits:
+    down:
+      target_vnum: '010509709754'
+    up:
+      target_vnum: '010509709756'
+  name: Fim da Pequena Passagem
+  vnum: '010509709755'
+- description: |-
+    Você está numa grande câmara, há morcegos por todo lado.  Você tem a
+    sensação que está observado, como se essas pedras tivesse vida própria.  A
+    leste a grande câmara continua e para baixo há uma pequena passagem.
+  exits:
+    down:
+      target_vnum: '010509709755'
+    east:
+      target_vnum: '010509709757'
+  name: A Grande Câmara
+  vnum: '010509709756'
+- description: |-
+    Aqui é tudo estranho, a impressão que você tem é que as pedras se
+    mexem...  Você parece ter visto essa pedra lá na entrada!!!  Para oeste e
+    para norte a grande câmara continua... repleta de pedras estranhas!
+  exits:
+    north:
+      target_vnum: '010509709758'
+    west:
+      target_vnum: '010509709756'
+  name: A Grande Câmara
+  vnum: '010509709757'
+- description: |-
+    Há pedras por todos os lados, cada uma mais estranha que a outra, você
+    agora pode notar elas parecem... ser guerreiros petrificados!!!  Ao sul e
+    ao norte a grande câmara se alonga.
+  exits:
+    north:
+      target_vnum: '010509709759'
+    south:
+      target_vnum: '010509709757'
+  name: A Grande Câmara
+  vnum: '010509709758'
+- description: |-
+    Um pequeno altar está aqui.  É estranho, um altar nesse lugar?  Mas
+    parece que alguem utiliza essa mesa de pedras para fazer reverencias a algum
+    deus.  Ao sul e a oeste você pode ver pedras.
+  exits:
+    south:
+      target_vnum: '010509709758'
+    west:
+      target_vnum: '010509709760'
+  name: A Grande Câmara
+  vnum: '010509709759'
+- description: |-
+    Uma grande entrada está a sua frente.  Há uma enorme porta aparentemente
+    feita de pedra, com inscrições muito antigas nela.  A leste você vê a grande
+    câmara e norte a grande porta de pedra.
+  exits:
+    east:
+      target_vnum: '010509709759'
+    north:
+      target_vnum: '010509709761'
+  name: A Grande Câmara
+  vnum: '010509709760'
+- description: |-
+    Arrgghhhh...!  Que horrível!  Você está numa sala repleta de ossos, há
+    crânios e esqueletos por todos os lados.  Aparentemente foram mortos em
+    batalha pois há muitas armas jogadas por todos os lados.  Ao sul a grande
+    porta de pedra está aparentemente trancada e a norte a sala continua repleta
+    de ossos.
+  exits:
+    north:
+      target_vnum: '010509709762'
+    south:
+      target_vnum: '010509709760'
+  name: Sala dos Ossos
+  vnum: '010509709761'
+- description: |-
+    Cada vez mais a sensação de perigo está no ar, talvez fosse melhor orar
+    pra seu deus...  Ao sul você retorna e a oeste você uma pequena entrada para
+    uma outra sala.  Aparentemente uma luz emana dessa sala.
+  exits:
+    south:
+      target_vnum: '010509709761'
+    west:
+      target_vnum: '010509709763'
+  name: Sala dos Ossos
+  vnum: '010509709762'
+- description: |-
+    Você esta diante do altar do grande Deus do reino das pedras.  É
+    impossivel deixar de ver de onde vem a luz que ilumina a sala: um amontoado
+    de corpos que queimam num pedestal feito em ouro.  A passagem por onde você
+    entrou parece ter sumido magicamente.  O cheiro de carne queimada é
+    insuportável... parece que você não foi tão sabio como teve oportunidade de
+    ser.  Sua única saída é um portal de luzes que emite muita claridade a
+    oeste, porém é impossível olhar para ele.
+  exits:
+    west:
+      target_vnum: '010509809800'
+  name: Sala dos Sacrifícios
+  vnum: '010509709763'
+- description: |-
+    Você está diante de uma grande portal, um enorme portão de madeira separa
+    você do mundo desconhecido.  Desenhos e inscrições muito antigas cincundam
+    todo o batente desse enorme portão.  A oeste você entra pelo portal do
+    desconhecido e a leste você retorna ao seu caminho.
+  exits:
+    east:
+      target_vnum: '010509709749'
+    west:
+      target_vnum: '010509809854'
+  name: O Portal da Caverna do Dragão
+  vnum: '010509709764'

@@ -1,0 +1,900 @@
+- description: |-
+    O Asilo dos Novatos é um antigo prédio de pedra, com uma atmosfera de
+    melancolia e depressão. Foi o lar dos insanos habitantes de Vitália por
+    séculos. Apesar do fato de que os tempos mudaram, as táticas e tratamentos
+    dos pacientes continuam sendo primitivos e cruéis.
+  exits:
+    north:
+      target_vnum: '010120120101'
+    west:
+      target_vnum: '010103103125'
+  name: O Asilo dos Novatos
+  vnum: '010120120100'
+- description: |-
+    Você está na entrada do Asilo. As paredes, apesar da possibilidade de muito
+    tempo atrás ela terem sido brancas e limpas, agora são imundas, cobertas
+    de poeiras e vômitos de novatos. O cheiro aqui é terrível, e percebendo que
+    apenas na ENTRADA do lugar você já começa a sentir enjôo, você imagina que
+    ficará pior lá dentro. Para o leste é o cadastro e para oeste é o
+    vestíbulo. Há uma porta para o norte.
+  exits:
+    east:
+      target_vnum: '010120120104'
+    north:
+      target_vnum: '010120120105'
+    south:
+      target_vnum: '010120120100'
+  name: Dentro do Asilo
+  vnum: '010120120101'
+- description: |-
+    Esse é um vestíbulo e uma sala de espera aqui no Asilo dos Novatos. Um
+    escritório de enfermeira se encontra a oeste e a entrada principal para o
+    leste. Empoeiradas, porém confortáveis cadeiras foram espalhadas pela sala.
+    Talvez você queira descansar um pouco?
+  exits:
+    east:
+      target_vnum: '010120120101'
+    west:
+      target_vnum: '010120120103'
+  name: O Vestíbulo
+  vnum: '010120120102'
+- description: |-
+    Essa sala fede a amônia e álcool...uma ótima combinação. Como qualquer
+    sala nesse lugar, as paredes estão imundas e podres, o chão parece que não
+    é lavado há meses, possivelmente anos! Talvez você queira fazer um
+    exame de saúde...?
+  exits:
+    east:
+      target_vnum: '010120120102'
+  name: Sala da Enfermeira
+  vnum: '010120120103'
+- description: |-
+    É aqui o lugar onde os visitantes do Asilo pegam as credenciais para poder
+    entrar.   As insígnias deixadas aqui diferenciam visitantes de pacientes, então
+    seria uma boa idéia pegar uma (só para o caso de eles cometerem um erro).
+  exits:
+    west:
+      target_vnum: '010120120101'
+  name: Sala de Identificação
+  vnum: '010120120104'
+- description: |-
+    Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
+    pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
+    penetram no ar e pairam como doenças. O corredor continua a leste e a oeste.
+    Uma porta levando para fora do prédio pode ser vista ao sul.
+  exits:
+    east:
+      target_vnum: '010120120108'
+    south:
+      target_vnum: '010120120101'
+    west:
+      target_vnum: '010120120106'
+  name: O Primeiro Andar do Asilo
+  vnum: '010120120105'
+- description: |-
+    Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
+    pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
+    penetram no ar e pairam como doenças. O corredor continua a leste e a oeste.
+  exits:
+    east:
+      target_vnum: '010120120105'
+    west:
+      target_vnum: '010120120107'
+  name: O Primeiro Andar do Asilo
+  vnum: '010120120106'
+- description: |-
+    Essa sala principal parece ser bem longa, dando espaço para os pacientes
+    vagarem. É provavelmente melhor deixá-los aqui fazendo apenas isso - você
+    realmente não quer mexer com a cabeça deles ou coisa assim...quer?
+  exits:
+    east:
+      target_vnum: '010120120106'
+    west:
+      target_vnum: '010120120109'
+  name: O Salão do Primeiro Andar
+  vnum: '010120120107'
+- description: |-
+    Essa grande sala tem todo o espaço que esses novatos precisam para vagar
+    por aí, trombando e falando com seus amigos imaginários. A sala abre-se para
+    oeste e daqui você pode ver um grande número de novatos loucos. Talvez você
+    devesse matá-los...Há um pequeno corredor levando para fora dessa
+    sala ao leste.
+  exits:
+    east:
+      target_vnum: '010120120110'
+    west:
+      target_vnum: '010120120105'
+  name: O Salão do Primeiro Andar
+  vnum: '010120120108'
+- description: |-
+    Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
+    pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
+    penetram no ar e pairam como doenças. Há um uma espécie de sinal gravado na
+    parede....talvez fosse bom ler com cuidado.
+    O corredor continua a leste e a oeste.
+  exits:
+    east:
+      target_vnum: '010120120107'
+    west:
+      target_vnum: '010120120114'
+  name: O Primeiro Andar do Asilo
+  vnum: '010120120109'
+- description: |-
+    Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
+    pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
+    penetram no ar e pairam como doenças. O corredor termina aqui em uma
+    escada. Você pode ver as celas aqui, ir para cima ou voltar para o oeste.
+  exits:
+    east:
+      target_vnum: '010120120113'
+    north:
+      target_vnum: '010120120111'
+    south:
+      target_vnum: '010120120112'
+    up:
+      target_vnum: '010120120149'
+    west:
+      target_vnum: '010120120108'
+  name: O Corredor Leste
+  vnum: '010120120110'
+- description: |-
+    Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
+    que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
+    no canto e um pequeno armário onde eles podem deixar seus pertences. A
+    saída é para o sul.
+  exits:
+    south:
+      target_vnum: '010120120110'
+  name: A Sala Pequena
+  vnum: '010120120111'
+- description: |-
+    Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
+    que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
+    no canto e um pequeno armário onde eles podem deixar seus pertences. A
+    saída é para o norte.
+  exits:
+    north:
+      target_vnum: '010120120110'
+  name: A Sala Pequena
+  vnum: '010120120112'
+- description: |-
+    Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
+    que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
+    no canto e um pequeno armário onde eles podem deixar seus pertences. A
+    saída é para o oeste.
+  exits:
+    west:
+      target_vnum: '010120120110'
+  name: A Sala Pequena
+  vnum: '010120120113'
+- description: |-
+    Esse setor do corredor é um pouco limpo. Ele parece ser o único local em
+    todo o Asilo que é limpo. O corredor termina aqui, em uma escada que leva
+    para baixo. Você pode ver as celas aqui, ir para baixo ou voltar para leste.
+  exits:
+    down:
+      target_vnum: '010120120119'
+    east:
+      target_vnum: '010120120109'
+    north:
+      target_vnum: '010120120115'
+    south:
+      target_vnum: '010120120117'
+    west:
+      target_vnum: '010120120116'
+  name: O Corredor Oeste
+  vnum: '010120120114'
+- description: |-
+    Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
+    que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
+    no canto e um pequeno armário onde eles podem deixar seus pertences. A
+    saída é para o sul.
+  exits:
+    south:
+      target_vnum: '010120120114'
+  name: A Sala Pequena
+  vnum: '010120120115'
+- description: |-
+    Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
+    que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
+    no canto e um pequeno armário onde eles podem deixar seus pertences. A
+    saída é para o leste.
+  exits:
+    east:
+      target_vnum: '010120120114'
+  name: A Sala Pequena
+  vnum: '010120120116'
+- description: |-
+    Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
+    que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
+    no canto e um pequeno armário onde eles podem deixar seus pertences. A
+    saída é para o norte.
+  exits:
+    north:
+      target_vnum: '010120120114'
+  name: A Sala Pequena
+  vnum: '010120120117'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para prevenir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos sofrendo os abusos dos pacientes, que
+    se jogam contra as paredes nos momentos de raiva, cólera ou frustração.
+    Além do paciente, não há objetos na sala, já que tudo é retirado pelos
+    atendentes pelo medo que seja usado como arma. Uma força mágica na porta
+    previne que o paciente escape da sala.
+  exits:
+    east:
+      target_vnum: '010120120119'
+  name: A Cela
+  vnum: '010120120118'
+- description: |-
+    Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
+    Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
+    e cheias de líquens. Odores horríveis penetram no ar e pairam como doenças.
+    Murmúrios e lamúrias incompreensíveis ecoam pelo corredor. Você pode checar
+    as celas aqui, ir para baixo, subir ou ir para leste pelo corredor.
+  exits:
+    down:
+      target_vnum: '010120120135'
+    east:
+      target_vnum: '010120120120'
+    north:
+      target_vnum: '010120120133'
+    south:
+      target_vnum: '010120120134'
+    up:
+      target_vnum: '010120120114'
+    west:
+      target_vnum: '010120120118'
+  name: As Escadas
+  vnum: '010120120119'
+- description: |-
+    Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
+    Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
+    e cheias de líquens. Odores horríveis penetram no ar e pairam como doenças.
+    Murmúrios e lamúrias incompreensíveis ecoam pelo corredor. O corredor
+    continua par leste e oeste.
+  exits:
+    east:
+      target_vnum: '010120120121'
+    west:
+      target_vnum: '010120120119'
+  name: Corredor no Porão
+  vnum: '010120120120'
+- description: |-
+    Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
+    Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
+    e cheias de líquens. Odores horríveis penetram no ar e pairam como doenças.
+    Murmúrios e lamúrias incompreensíveis ecoam pelo corredor. O corredor
+    continua par leste e oeste.
+  exits:
+    east:
+      target_vnum: '010120120122'
+    north:
+      target_vnum: '010120120131'
+    south:
+      target_vnum: '010120120132'
+    west:
+      target_vnum: '010120120120'
+  name: Corredor no Porão
+  vnum: '010120120121'
+- description: |-
+    Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
+    Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
+    e cheias de líquens. Odores horríveis penetram no ar e pairam como doenças.
+    Murmúrios e lamúrias incompreensíveis ecoam pelo corredor. O corredor
+    continua par leste e oeste.
+  exits:
+    east:
+      target_vnum: '010120120123'
+    west:
+      target_vnum: '010120120121'
+  name: Corredor no Porão
+  vnum: '010120120122'
+- description: |-
+    Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
+    Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
+    e cheias de líquens. Odores horríveis penetram no ar e pairam como doenças.
+    Murmúrios e lamúrias incompreensíveis ecoam pelo corredor. O corredor
+    continua par leste e oeste. Existem celas ao norte e ao sul.
+  exits:
+    east:
+      target_vnum: '010120120124'
+    north:
+      target_vnum: '010120120129'
+    south:
+      target_vnum: '010120120130'
+    west:
+      target_vnum: '010120120122'
+  name: Corredor no Porão
+  vnum: '010120120123'
+- description: |-
+    Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
+    Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
+    e cheias de líquens. Odores horríveis penetram no ar e pairam como doenças.
+    Murmúrios e lamúrias incompreensíveis ecoam pelo corredor. O corredor
+    continua par leste e oeste.
+  exits:
+    east:
+      target_vnum: '010120120125'
+    west:
+      target_vnum: '010120120123'
+  name: Corredor no Porão
+  vnum: '010120120124'
+- description: |-
+    Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
+    Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
+    e cheias de líquens. Odores horríveis penetram no ar e pairam como doenças.
+    Murmúrios e lamúrias incompreensíveis ecoam pelo corredor. O corredor
+    termina aqui, diante de três celas.
+  exits:
+    east:
+      target_vnum: '010120120126'
+    north:
+      target_vnum: '010120120127'
+    south:
+      target_vnum: '010120120128'
+    west:
+      target_vnum: '010120120124'
+  name: Corredor no Porão
+  vnum: '010120120125'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    west:
+      target_vnum: '010120120125'
+  name: A Cela
+  vnum: '010120120126'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para prevenir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    south:
+      target_vnum: '010120120125'
+  name: A Cela
+  vnum: '010120120127'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    north:
+      target_vnum: '010120120125'
+  name: A Cela
+  vnum: '010120120128'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    south:
+      target_vnum: '010120120123'
+  name: A Cela
+  vnum: '010120120129'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    north:
+      target_vnum: '010120120123'
+  name: A Cela
+  vnum: '010120120130'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    south:
+      target_vnum: '010120120121'
+  name: A Cela
+  vnum: '010120120131'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    north:
+      target_vnum: '010120120121'
+  name: A Cela
+  vnum: '010120120132'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    south:
+      target_vnum: '010120120119'
+  name: A Cela
+  vnum: '010120120133'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    north:
+      target_vnum: '010120120119'
+  name: A Cela
+  vnum: '010120120134'
+- description: |-
+    Esse é subsolo do porão do Asilo. Muitas poucas pessoas sabem desse lugar.
+    Aqui é onde os criminosos mais perigosos de Vitália são mantidos. Ranger
+    de ossos e gritos assustadores ecoam por aqui. Runas mágicas foram marcadas
+    nas paredes, previnindo que qualquer um que esteja preso aqui escape. O
+    corredor continua a leste, ou você pode voltar para cima.
+  exits:
+    east:
+      target_vnum: '010120120136'
+    up:
+      target_vnum: '010120120119'
+  name: AS Escadas
+  vnum: '010120120135'
+- description: |-
+    Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
+    escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
+    fúria, frustração e insanidade podem ser ouvidos por alguém que anda por
+    aqui.
+  exits:
+    east:
+      target_vnum: '010120120137'
+    west:
+      target_vnum: '010120120135'
+  name: Um Corredor no Subsolo do Porão
+  vnum: '010120120136'
+- description: |-
+    Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
+    escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
+    fúria, frustração e insanidade podem ser ouvidos por alguém que anda por
+    aqui. Você poder ver celas ao norte e ao sul aqui.
+  exits:
+    east:
+      target_vnum: '010120120138'
+    north:
+      target_vnum: '010120120143'
+    south:
+      target_vnum: '010120120144'
+    west:
+      target_vnum: '010120120136'
+  name: Um Corredor no Subsolo do Porão
+  vnum: '010120120137'
+- description: |-
+    Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
+    escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
+    fúria, frustração e insanidade podem ser ouvidos por alguém que anda por
+    aqui.
+  exits:
+    east:
+      target_vnum: '010120120139'
+    west:
+      target_vnum: '010120120137'
+  name: Um Corredor no Subsolo do Porão
+  vnum: '010120120138'
+- description: |-
+    Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
+    escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
+    fúria, frustração e insanidade podem ser ouvidos por alguém que anda por
+    aqui. Você pode ver celas ao norte e ao sul daqui.
+  exits:
+    east:
+      target_vnum: '010120120140'
+    north:
+      target_vnum: '010120120141'
+    south:
+      target_vnum: '010120120142'
+    west:
+      target_vnum: '010120120138'
+  name: Um Corredor no Subsolo do Porão
+  vnum: '010120120139'
+- description: |-
+    Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
+    escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
+    fúria, frustração e insanidade podem ser ouvidos por alguém que anda por
+    aqui.
+  exits:
+    east:
+      target_vnum: '010120120145'
+    west:
+      target_vnum: '010120120139'
+  name: Um Corredor no Subsolo do Porão
+  vnum: '010120120140'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para prevenir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    south:
+      target_vnum: '010120120139'
+  name: A Cela
+  vnum: '010120120141'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    north:
+      target_vnum: '010120120139'
+  name: A Cela
+  vnum: '010120120142'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    south:
+      target_vnum: '010120120137'
+  name: A Cela
+  vnum: '010120120143'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    north:
+      target_vnum: '010120120137'
+  name: A Cela
+  vnum: '010120120144'
+- description: |-
+    Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
+    escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
+    fúria, frustração e insanidade podem ser ouvidos por alguém que anda por
+    aqui. O corredor termina aqui. Você pode verificar as celas aqui, ou voltar
+    para o oeste.
+  exits:
+    east:
+      target_vnum: '010120120148'
+    north:
+      target_vnum: '010120120146'
+    south:
+      target_vnum: '010120120147'
+    west:
+      target_vnum: '010120120140'
+  name: Um Corredor no Subsolo do Porão
+  vnum: '010120120145'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    south:
+      target_vnum: '010120120145'
+  name: A Cela
+  vnum: '010120120146'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    north:
+      target_vnum: '010120120145'
+  name: A Cela
+  vnum: '010120120147'
+- description: |-
+    As paredes são feitas de uma fina camada de forro branco acolchoado, feito
+    para previnir que o paciente se machuque. O estofamento em si já está
+    rasgado e usado, depois de muitos anos de abuso de pacientes se jogando
+    contra as paredes em momentos de raiva, cólera ou frustração. Além do
+    paciente, não há objetos na sala, já que tudo é retirado pelos atendentes
+    pelo medo que seja usado como arma. Uma força mágica na porta previne que
+    o paciente escape da sala.
+  exits:
+    west:
+      target_vnum: '010120120145'
+  name: A Cela
+  vnum: '010120120148'
+- description: |-
+    É aqui o topo da escadaria. O ar é quente e cheio de odores malignos que
+    aguçam os seus sentidos. Dizem que a oeste há uma grande sala, onde funciona
+    uma espécie de laboratório onde fazem alguns experimentos.
+    Para baixo você voltará para o corredor principal.
+  exits:
+    down:
+      target_vnum: '010120120110'
+    west:
+      target_vnum: '010120120150'
+  name: As Escadas
+  vnum: '010120120149'
+- description: |-
+    É uma grande sala, cheia de equipamentos e objetos (para o medo de algumas
+    pessoas se machucarem). Um estofamento antigo e rasgado cobre as paredes,
+    mostrando que muitos pacientes já estiveram aqui para o bem da ciência. O
+    piso está sujo, em uma cor amarelada, fazendo qualquer um pensar que ele
+    não deveria estar aqui. Um campo de força está a oeste, enquanto que a
+    escadaria está a leste.
+  exits:
+    east:
+      target_vnum: '010120120149'
+    north:
+      target_vnum: '010120120152'
+    south:
+      target_vnum: '010120120155'
+    west:
+      target_vnum: '010120120151'
+  name: O Grande Laboratório
+  vnum: '010120120150'
+- description: |-
+    Essa é a tenda do pesquisador, onde qualquer um pode ficar e observar os
+    pacientes em uma relativa segurança. Uma estante, cheia de todos os tipos
+    de livros de ciência e psicologia, fica na parede oeste. Para o norte,
+    leste e sul ficam campos de força que protege a pessoa que esteja aqui
+    dentro da entrada de pessoas não autorizadas. Uma mesa fica no meio da
+    sala, cercado por grandes tamboretes usados para observação.
+  exits:
+    east:
+      target_vnum: '010120120150'
+    north:
+      target_vnum: '010120120153'
+    south:
+      target_vnum: '010120120154'
+  name: O Grande Laboratório
+  vnum: '010120120151'
+- description: |-
+    É uma grande sala, cheia de equipamentos e objetos (para o medo de algumas
+    pessoas se machucarem). Um estofamento antigo e rasgado cobre as paredes,
+    mostrando que muitos pacientes já estiveram aqui para o bem da ciência. O
+    piso está sujo, em uma cor amarelada, fazendo qualquer um pensar que ele
+    não deveria estar aqui.
+  exits:
+    south:
+      target_vnum: '010120120150'
+    west:
+      target_vnum: '010120120153'
+  name: O Grande Laboratório
+  vnum: '010120120152'
+- description: |-
+    É uma grande sala, cheia de equipamentos e objetos (para o medo de algumas
+    pessoas se machucarem). Um estofamento antigo e rasgado cobre as paredes,
+    mostrando que muitos pacientes já estiveram aqui para o bem da ciência. O
+    piso está sujo, em uma cor amarelada, fazendo qualquer um pensar que ele
+    não deveria estar aqui. Um campo de força fica a sul.
+  exits:
+    east:
+      target_vnum: '010120120152'
+    south:
+      target_vnum: '010120120151'
+  name: O Grande Laboratório
+  vnum: '010120120153'
+- description: |-
+    É uma grande sala, cheia de equipamentos e objetos (para o medo de algumas
+    pessoas se machucarem). Um estofamento antigo e rasgado cobre as paredes,
+    mostrando que muitos pacientes já estiveram aqui para o bem da ciência. O
+    piso está sujo, em uma cor amarelada, fazendo qualquer um pensar que ele
+    não deveria estar aqui.  Um campo de força fica a norte.
+  exits:
+    east:
+      target_vnum: '010120120155'
+    north:
+      target_vnum: '010120120151'
+  name: O Grande Laboratório
+  vnum: '010120120154'
+- description: |-
+    É uma grande sala, cheia de equipamentos e objetos (para o medo de algumas
+    pessoas se machucarem). Um estofamento antigo e rasgado cobre as paredes,
+    mostrando que muitos pacientes já estiveram aqui para o bem da ciência. O
+    piso está sujo, em uma cor amarelada, fazendo qualquer um pensar que ele
+    não deveria estar aqui.
+  exits:
+    north:
+      target_vnum: '010120120150'
+    west:
+      target_vnum: '010120120154'
+  name: O Grande Laboratório
+  vnum: '010120120155'
+- description: |-
+    Uma monótona areia de cor cinza e branca cobre o chão em todas as
+    direções. Quando você olha mais além, percebe alguns tufos de grama marrom
+    crescendo esporádicamente. Porém, a coisa que você nota mais explicitamente
+    é o tremor e um urro muito forte, vindo de longe.
+    Uma grande placa @RGRITA @n pela sua atenção.
+  exits:
+    east:
+      target_vnum: '010103003067'
+    west:
+      target_vnum: '010120120161'
+  name: O Deserto
+  vnum: '010120120160'
+- description: |-
+    Uma monótona areia de cor cinza e branca cobre o chão em todas as
+    direções. Quando você olha mais além, percebe alguns tufos de grama marrom
+    crescendo esporádicamente. Porém, a coisa que você nota mais explicitamente
+    é o tremor e um urro muito forte, vindo de longe.
+  exits:
+    east:
+      target_vnum: '010120120160'
+    west:
+      target_vnum: '010120120162'
+  name: O Deserto
+  vnum: '010120120161'
+- description: |-
+    Uma monótona areia de cor cinza e branca cobre o chão em todas as
+    direções. Quando você olha mais além, percebe alguns tufos de grama marrom
+    crescendo esporádicamente. Porém, a coisa que você nota mais explicitamente
+    é o tremor e um urro muito forte, vindo de longe.
+  exits:
+    east:
+      target_vnum: '010120120161'
+    west:
+      target_vnum: '010120120162'
+  name: O Deserto
+  vnum: '010120120162'
+- description: |-
+    Você está afundado até o joelho em algum líquido verde. Pedaços, nacos e as
+    vezes até um animal inteiro flutuam perto de você. Para cima, você vê a
+    entrada do esôfago e possivelmente a saída para fora daqui, se você pudesse
+    escalar até lá. Há mais do estômago do gigante para leste.
+  exits:
+    east:
+      target_vnum: '010120120165'
+  name: Dentro do Estômago do Gigante.
+  vnum: '010120120164'
+- description: |-
+    O líquido verde que contém as coisas dentro do estômago do gigante começa
+    a rodar formando um redemoinho que suga você para dentro do intestino
+    delgado. Como o cervo que está lutando para não ser sugado pra lá, você
+    percebe que será melhor seguir a multidão...
+  exits:
+    down:
+      target_vnum: '010120120166'
+    west:
+      target_vnum: '010120120164'
+  name: O Estômago
+  vnum: '010120120165'
+- description: |-
+    Fora do pote e direto para a frigideira. Você mal consegue ficar em pé dentro
+    do intestino delgado. Ele dobra e faz curvas por todo o lugar, fazendo com
+    que fique fácil se perder. O intestino delgado continua para leste.
+  exits:
+    east:
+      target_vnum: '010120120167'
+    up:
+      target_vnum: '010120120165'
+  name: O Intestino Delgado
+  vnum: '010120120166'
+- description: |-
+    O líquido verde parece ficar mais denso. As tenuosas passagens do intestino
+    delgado levam para baixo. Seu amigo, o cervo sem sorte, está indo para
+    aquela direção. Por que você não?
+  exits:
+    down:
+      target_vnum: '010120120168'
+    west:
+      target_vnum: '010120120166'
+  name: O Intestino Delgado
+  vnum: '010120120167'
+- description: |-
+    O intestino delgado pulsa em volta de você, levando-o para baixo no sistema
+    digestivo do gigante. O mesmo líquido verde continua te envolvendo, quase
+    em uma cor fashion.
+  exits:
+    up:
+      target_vnum: '010120120167'
+    west:
+      target_vnum: '010120120169'
+  name: O Intestino Delgado
+  vnum: '010120120168'
+- description: |-
+    O Intestino Delgado começa a se alargar para finalmente se tornar intestino
+    grosso. A pasta verde forma um redemoinho e te suga para baixo.
+  exits:
+    down:
+      target_vnum: '010120120170'
+    east:
+      target_vnum: '010120120168'
+  name: O Intestino Delgado
+  vnum: '010120120169'
+- description: |-
+    Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
+    igual ao intestino delgado, exceto pelo seu tamanho massivo. A pasta verde
+    flutua para leste.
+  exits:
+    east:
+      target_vnum: '010120120171'
+    up:
+      target_vnum: '010120120169'
+  name: O Intestino Grosso
+  vnum: '010120120170'
+- description: |-
+    Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
+    igual ao intestino delgado, exceto pelo seu tamanho massivo. A pasta verde
+    flutua para leste.
+  exits:
+    down:
+      target_vnum: '010120120172'
+    west:
+      target_vnum: '010120120170'
+  name: O Intestino Grosso
+  vnum: '010120120171'
+- description: |-
+    Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
+    igual ao intestino delgado, exceto pelo seu tamanho massivo. A pasta verde
+    flutua para leste.
+  exits:
+    east:
+      target_vnum: '010120120173'
+    up:
+      target_vnum: '010120120171'
+  name: O Intestino Grosso
+  vnum: '010120120172'
+- description: |-
+    Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
+    igual ao intestino delgado, exceto pelo seu tamanho massivo. Você pode ver
+    uma fraca luz vinda do leste.
+  exits:
+    west:
+      target_vnum: '010120120172'
+  name: O Final do Intestino Grosso
+  vnum: '010120120173'
+- description: |-
+    Uma monótona areia de cor cinza e branca cobre o chão em todas as
+    direções. Quando você olha mais além, percebe alguns tufos de grama marrom
+    crescendo esporádicamente. Porém, a coisa que você nota mais explicitamente
+    é o tremor e um urro muito forte, vindo de longe.
+  exits:
+    east:
+      target_vnum: '010120120160'
+    west:
+      target_vnum: '010120120162'
+  name: O Deserto
+  vnum: '010120120174'

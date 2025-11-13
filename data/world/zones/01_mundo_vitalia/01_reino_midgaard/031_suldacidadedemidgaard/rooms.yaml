@@ -1,0 +1,631 @@
+- description: |-
+    Você está na confluência, o muro da cidade está a oeste.  Um pequeno
+    passeio vai a leste, e a ponte está bem a norte daqui.  A confluência
+    prolonga-se ao sul junto ao muro da cidade.
+  exits:
+    east:
+      target_vnum: '010103103101'
+    north:
+      target_vnum: '010103003051'
+    south:
+      target_vnum: '010103103127'
+  name: O Final Noroeste da Confluência
+  vnum: '010103103100'
+- description: |-
+    O rio flui calmamente para oeste, a norte daqui.  O passeio continua a
+    leste e a oeste voce pode ver o muro da cidade.  A Estrada do Parque leva a
+    sul daqui.
+  exits:
+    east:
+      target_vnum: '010103103102'
+    south:
+      target_vnum: '010103103131'
+    west:
+      target_vnum: '010103103100'
+  name: O Passeio
+  vnum: '010103103101'
+- description: |-
+    O rio flui calmamente para oeste, a norte daqui.  O passeio continua a
+    leste e oeste.  Ao sul você vê a entrada para o parque, e uma pequena
+    construção parece estar bem a oeste da entrada.
+  exits:
+    east:
+      target_vnum: '010103103103'
+    south:
+      target_vnum: '010103103105'
+    west:
+      target_vnum: '010103103101'
+  name: O Passeio
+  vnum: '010103103102'
+- description: |-
+    O rio flui calmamente para oeste, a norte daqui.  O passeio continua a
+    leste e oeste.  Um pequeno caminho leva para o sul.  Olhando além do rio
+    você vê o dique.
+  exits:
+    east:
+      target_vnum: '010103103104'
+    south:
+      target_vnum: '010103103132'
+    west:
+      target_vnum: '010103103102'
+  name: O Passeio
+  vnum: '010103103103'
+- description: |-
+    Você está na Confluência.  O muro da cidade está a leste e um pequeno
+    passeio vai para oeste.  Olhando além do rio você vê uma construção que
+    lembra um depósito.  A Confluência continua ao sul ao longo do muro da
+    cidade.
+  exits:
+    south:
+      target_vnum: '010103103130'
+    west:
+      target_vnum: '010103103103'
+  name: O Final Nordeste da Confluência
+  vnum: '010103103104'
+- description: |-
+    Você está dentro do pequeno parque de Midgaard.  Ao norte fica o passeio
+    e um pequeno caminho leva ao sul dentro do parque.  A leste fica o famoso
+    Café do Parque.
+  exits:
+    east:
+      target_vnum: '010103103106'
+    north:
+      target_vnum: '010103103102'
+    south:
+      target_vnum: '010103103108'
+  name: A Entrada do Parque
+  vnum: '010103103105'
+- description: |-
+    Você está dentro do Café do Parque, um lugar muito agradável com muitas
+    mesas onde voce pode relaxar e aproveitar a paisagem.  A oeste você pode ver
+    a entrada do parque.
+  exits:
+    west:
+      target_vnum: '010103103105'
+  name: Café do Parque
+  vnum: '010103103106'
+- description: |-
+    Você está andando por um pequeno caminho através do parque.  O caminho
+    continua a sul e leste.
+  exits:
+    east:
+      target_vnum: '010103103108'
+    south:
+      target_vnum: '010103103113'
+  name: Um Pequeno Caminho no Parque
+  vnum: '010103103107'
+- description: |-
+    Você está em um pequeno caminho dentro do parque.  A entrada do parque
+    fica a norte daqui, e o Café do Parque é a leste da entrada.  O caminho leva
+    além, a leste e oeste.
+  exits:
+    east:
+      target_vnum: '010103103109'
+    north:
+      target_vnum: '010103103105'
+    west:
+      target_vnum: '010103103107'
+  name: Um Pequeno Caminho no Parque
+  vnum: '010103103108'
+- description: |-
+    Você está em um pequeno caminho que corre através do parque.  O caminho
+    continua a oeste e sul, ao norte você vê a parede sul do Café do Parque.
+  exits:
+    south:
+      target_vnum: '010103103115'
+    west:
+      target_vnum: '010103103108'
+  name: Um Pequeno Caminho no Parque
+  vnum: '010103103109'
+- description: Você está dentro de um escritório bem arrumado.
+  exits:
+    east:
+      target_vnum: '010103103111'
+  name: Quartel da Guarda
+  vnum: '010103103110'
+- description: |-
+    A estrada continua a norte e sul.  Há uma construção a oeste daqui, você
+    vê um aviso na porta.  A entrada do parque fica a leste.
+  exits:
+    east:
+      target_vnum: '010103103112'
+    north:
+      target_vnum: '010103103131'
+    south:
+      target_vnum: '010103103118'
+    west:
+      target_vnum: '010103103110'
+  name: Estrada do Parque
+  vnum: '010103103111'
+- description: |-
+    Você está no extremo oeste do parque.  Um pequeno caminho leva a leste
+    dentro do parque e a oeste, através da entrada, você chega à Estrada do
+    Parque.
+  exits:
+    east:
+      target_vnum: '010103103113'
+    west:
+      target_vnum: '010103103111'
+  name: A Entrada Oeste do Parque
+  vnum: '010103103112'
+- description: |-
+    Você está no parque.  O caminho leva a norte e oeste.  A oeste fica a
+    entrada do parque e a leste você vê um pequeno tanque.
+  exits:
+    east:
+      target_vnum: '010103103114'
+    north:
+      target_vnum: '010103103107'
+    west:
+      target_vnum: '010103103112'
+  name: Um Caminho no Parque
+  vnum: '010103103113'
+- description: |-
+    Você está nadando pelo tanque, parecendo um idiota.  Você pode voltar ao
+    caminho pelo extremo leste e oeste do tanque.
+  exits:
+    east:
+      target_vnum: '010103103115'
+    west:
+      target_vnum: '010103103113'
+  name: O Tanque
+  vnum: '010103103114'
+- description: |-
+    Você está no parque.  O caminho leva a norte e leste.  A leste fica a
+    entrada do parque e a oeste você vê um pequeno tanque.
+  exits:
+    east:
+      target_vnum: '010103103116'
+    north:
+      target_vnum: '010103103109'
+    west:
+      target_vnum: '010103103114'
+  name: Um Caminho no Parque
+  vnum: '010103103115'
+- description: |-
+    Você está no extremo leste do parque.  Um pequeno caminho leva a oeste
+    dentro do parque.  Seguindo a leste, através da entrada, você chegará à
+    Avenida Esmeralda.
+  exits:
+    east:
+      target_vnum: '010103103117'
+    west:
+      target_vnum: '010103103115'
+  name: A Entrada Leste do Parque
+  vnum: '010103103116'
+- description: |-
+    Você está no extremo norte da Avenida Esmeralda.  Ao sul fica o passeio e
+    a oeste a entrada do parque.  A leste fica a não muito grande Prefeitura de
+    Midgaard.
+  exits:
+    east:
+      target_vnum: '010103103137'
+    north:
+      target_vnum: '010103103132'
+    south:
+      target_vnum: '010103103119'
+    west:
+      target_vnum: '010103103116'
+  name: Avenida Esmeralda
+  vnum: '010103103117'
+- description: Você está na Estrada do Parque, que leva ao norte e sul.
+  exits:
+    north:
+      target_vnum: '010103103111'
+    south:
+      target_vnum: '010103103135'
+  name: Estrada do Parque
+  vnum: '010103103118'
+- description: |-
+    Você está numa curva da Avenida Esmeralda.  A estrada leva a norte e
+    oeste.
+  exits:
+    north:
+      target_vnum: '010103103117'
+    west:
+      target_vnum: '010103103133'
+  name: Avenida Esmeralda
+  vnum: '010103103119'
+- description: |-
+    Você está no meio de uma encruzilhada.  A estrada leva a todas as
+    direções.  Uma enorme corrente de ferro negro, grossa como uma arvore está
+    presa no chão no centro da encruzilhada.  A outra extremidade sobe
+    diretamente ao céu.
+    Há um placa de estrada aqui.
+  exits:
+    east:
+      target_vnum: '010103103136'
+    north:
+      target_vnum: '010103103133'
+    south:
+      target_vnum: '010103103134'
+    up:
+      target_vnum: '010307907914'
+    west:
+      target_vnum: '010103103135'
+  name: A Encruzilhada
+  vnum: '010103103120'
+- description: |-
+    Você está em uma curva da Avenida Esmeralda.  A estrada leva ao sul e
+    leste.
+  exits:
+    east:
+      target_vnum: '010103103134'
+    south:
+      target_vnum: '010103103125'
+  name: Avenida Esmeralda
+  vnum: '010103103121'
+- description: |-
+    Você está na Estrada do Parque, que leva ao norte e sul.  A Rua Olmo fica
+    a leste daqui.
+  exits:
+    east:
+      target_vnum: '010103103123'
+    north:
+      target_vnum: '010103103136'
+    south:
+      target_vnum: '010103103126'
+  name: Estrada do Parque
+  vnum: '010103103122'
+- description: |-
+    Você está na Rua Olmo.  A Estrada do Parque fica a oeste e a Rua Olmo
+    continua na direção leste.
+  exits:
+    east:
+      target_vnum: '010103103124'
+    west:
+      target_vnum: '010103103122'
+  name: Rua Olmo
+  vnum: '010103103123'
+- description: Você está no final da Rua Olmo.
+  exits:
+    east:
+      target_vnum: '010319019028'
+    west:
+      target_vnum: '010103103123'
+  name: O Final da Rua Olmo
+  vnum: '010103103124'
+- description: |-
+    Você está na Avenida Esmeralda, que continua ao norte.  A Confluência
+    fica ao sul daqui. Uma grande construção fica a leste.
+  exits:
+    east:
+      target_vnum: '010120120100'
+    north:
+      target_vnum: '010103103121'
+    south:
+      target_vnum: '010103103128'
+  name: Avenida Esmeralda
+  vnum: '010103103125'
+- description: |-
+    Você está na Estrada do Parque, que continua ao norte.  A Confluência
+    fica ao sul daqui.
+  exits:
+    east:
+      target_vnum: '010103803800'
+    north:
+      target_vnum: '010103103122'
+    south:
+      target_vnum: '010103103129'
+  name: Estrada do Parque
+  vnum: '010103103126'
+- description: |-
+    Você está no canto sudoeste do muro da cidade.  A Confluência leva a
+    norte e leste.
+  exits:
+    east:
+      target_vnum: '010103103128'
+    north:
+      target_vnum: '010103103100'
+    west:
+      target_vnum: '010103503504'
+  name: Na Confluência
+  vnum: '010103103127'
+- description: |-
+    A Confluência continua para leste e oeste.  A Avenida Esmeralda fica a
+    norte daqui.
+  exits:
+    east:
+      target_vnum: '010103103129'
+    north:
+      target_vnum: '010103103125'
+    west:
+      target_vnum: '010103103127'
+  name: Na Confluência
+  vnum: '010103103128'
+- description: |-
+    A Confluência continua para leste e oeste.  A Estrada do Parque fica a
+    norte daqui e uma grade de ferro leva ao sul para o cemiterio.
+  exits:
+    east:
+      target_vnum: '010103103130'
+    north:
+      target_vnum: '010103103126'
+    south:
+      target_vnum: '010103103150'
+    west:
+      target_vnum: '010103103128'
+  name: Na Confluência
+  vnum: '010103103129'
+- description: |-
+    Você está no canto sudeste do muro da cidade.  A Confluência leva a norte
+    e oeste. Você ainda repara em uma estranhíssima (e enorme) árvore a noroeste.
+  exits:
+    north:
+      target_vnum: '010103103104'
+    northeast:
+      target_vnum: '010304904978'
+    west:
+      target_vnum: '010103103129'
+  name: Na Confluência
+  vnum: '010103103130'
+- description: Você está na Estrada do Parque que continua ao norte e sul.
+  exits:
+    north:
+      target_vnum: '010103103101'
+    south:
+      target_vnum: '010103103111'
+  name: Estrada do Parque
+  vnum: '010103103131'
+- description: |-
+    Você está na Avenida Esmeralda, que continua para norte e sul.  A
+    Travessa Vintém leva a leste daqui.
+  exits:
+    east:
+      target_vnum: '010103103139'
+    north:
+      target_vnum: '010103103103'
+    south:
+      target_vnum: '010103103117'
+  name: Avenida Esmeralda
+  vnum: '010103103132'
+- description: |-
+    Você está em uma curva da Avenida Esmeralda.  A leste a estrada continua
+    e para o sul fica a Encruzilhada.
+  exits:
+    east:
+      target_vnum: '010103103119'
+    south:
+      target_vnum: '010103103120'
+  name: Avenida Esmeralda
+  vnum: '010103103133'
+- description: |-
+    Você está em uma curva da Avenida Esmeralda.  A oeste a estrada continua
+    e para o norte fica a Encruzilhada.
+  exits:
+    north:
+      target_vnum: '010103103120'
+    west:
+      target_vnum: '010103103121'
+  name: Avenida Esmeralda
+  vnum: '010103103134'
+- description: |-
+    Você está numa curva da Estrada do Parque.  Ao norte a estrada continua e
+    a leste fica a Encruzilhada.
+  exits:
+    east:
+      target_vnum: '010103103120'
+    north:
+      target_vnum: '010103103118'
+  name: Estrada do Parque
+  vnum: '010103103135'
+- description: |-
+    Você está numa curva da Estrada do Parque.  Ao sul a estrada continua e a
+    oeste fica a Encruzilhada.
+  exits:
+    south:
+      target_vnum: '010103103122'
+    west:
+      target_vnum: '010103103120'
+  name: Estrada do Parque
+  vnum: '010103103136'
+- description: |-
+    Você está na sala de espera da prefeitura.  Cadeiras de madeira estão
+    colocadas ao longo das paredes e uma grande mesa com uma máquina de escrever
+    foi colocada no meio da sala.
+  exits:
+    east:
+      target_vnum: '010103103138'
+    west:
+      target_vnum: '010103103117'
+  name: A Sala da Espera
+  vnum: '010103103137'
+- description: |-
+    Você está no não muito grande escritório do Prefeito de Midgaard.  Uma
+    mesa polida mas completamente vazia fica à frente de uma poltrona que parece
+    tão confortavel que quase parece com uma cama com a cabeceira ligeiramente
+    levantada.
+  exits:
+    west:
+      target_vnum: '010103103137'
+  name: O Escritório do Prefeito
+  vnum: '010103103138'
+- description: |-
+    Você está na Travessa Vintém.  A Avenida Esmeralda fica a oeste e a
+    Travessa Vintém continua na direção leste.
+  exits:
+    east:
+      target_vnum: '010103103140'
+    west:
+      target_vnum: '010103103132'
+  name: Travessa Vintém
+  vnum: '010103103139'
+- description: |-
+    Você está na Travessa Vintém.  A estrada estreita continua para norte e
+    oeste.
+  exits:
+    north:
+      target_vnum: '010103103141'
+    west:
+      target_vnum: '010103103139'
+  name: Travessa Vintém
+  vnum: '010103103140'
+- description: |-
+    Você está no final da Travessa Vintém.  Aparentemente a única saída fica
+    ao sul.
+  exits:
+    south:
+      target_vnum: '010103103140'
+  name: O Final da Travessa Vintém
+  vnum: '010103103141'
+- description: |-
+    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+    e sul através do cemiterio.  Em ambos os lados da estrada erguem-se escuras
+    sempre-verdes.  Ao norte há uma grade de ferro.
+  exits:
+    north:
+      target_vnum: '010103103129'
+    south:
+      target_vnum: '010103103151'
+  name: Uma Estrada de Cascalho no Cemitério
+  vnum: '010103103150'
+- description: |-
+    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+    e sul através do cemitério.  Em ambos os lados da estrada erguem-se escuras
+    sempre-verdes.
+  exits:
+    north:
+      target_vnum: '010103103150'
+    south:
+      target_vnum: '010103103152'
+  name: Uma Estrada de Cascalho no Cemiterio
+  vnum: '010103103151'
+- description: |-
+    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+    e sul através do cemitério.  Em ambos os lados da estrada erguem-se escuras
+    sempre-verdes.
+  exits:
+    north:
+      target_vnum: '010103103151'
+    south:
+      target_vnum: '010103103153'
+  name: Uma Estrada de Cascalho no Cemiterio
+  vnum: '010103103152'
+- description: |-
+    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+    e sul através do cemitério.  Em ambos os lados da estrada erguem-se escuras
+    sempre-verdes.
+  exits:
+    north:
+      target_vnum: '010103103152'
+    south:
+      target_vnum: '010103103154'
+  name: Uma Estrada de Cascalho no Cemiterio
+  vnum: '010103103153'
+- description: |-
+    Você está num espaço aberto na frente de uma pequena capela.  Uma estrada
+    de cascalho leva ao norte através do cemitério e a entrada da capela fica ao
+    sul.
+  exits:
+    north:
+      target_vnum: '010103103153'
+    south:
+      target_vnum: '010103103155'
+  name: Na Frente da Capela
+  vnum: '010103103154'
+- description: |-
+    Você está em uma pequena e escura capela.  O vidro marrom escuro nas
+    janelas estreitas não deixam entrar muita luz.  Há umas poucas fileiras de
+    gastos bancos de madeira e um antigo altar foi colocado no meio da sala.
+  exits:
+    north:
+      target_vnum: '010103103154'
+  name: Dentro da Capela
+  vnum: '010103103155'
+- description: |-
+    O arco sob a ponte é coberto com algas até meio metro sobre a superfície
+    do rio.  A água flui através de uma abertura na parte mais baixa do muro da
+    cidade.
+  exits:
+    east:
+      target_vnum: '010103103201'
+    west:
+      target_vnum: '010100900900'
+  name: Sob a Ponte
+  vnum: '010103103200'
+- description: |-
+    Ao norte daqui você vê os prédios decadentes do Beco Miserável.  O rio
+    flui para oeste, sob a ponte.  A ribanceira é muito íngreme para subir.
+  exits:
+    east:
+      target_vnum: '010103103202'
+    west:
+      target_vnum: '010103103200'
+  name: No Rio
+  vnum: '010103103201'
+- description: |-
+    Ao norte daqui você vê o depósito de lixo.  O rio flui para oeste.  A
+    ribanceira é muito íngreme para subir.
+  exits:
+    east:
+      target_vnum: '010103103203'
+    west:
+      target_vnum: '010103103201'
+  name: No Rio
+  vnum: '010103103202'
+- description: |-
+    O dique fica diretamente a norte daqui.  O rio flui na direção
+    leste-oeste.
+  exits:
+    east:
+      target_vnum: '010103103204'
+    north:
+      target_vnum: '010103003049'
+    west:
+      target_vnum: '010103103202'
+  name: No Rio
+  vnum: '010103103203'
+- description: |-
+    Você vê o depósito na margem norte do rio.  A leste daqui você vê o muro
+    da cidade.  O rio flui para oeste além do dique.
+  exits:
+    east:
+      target_vnum: '010103103205'
+    west:
+      target_vnum: '010103103203'
+  name: No Rio
+  vnum: '010103103204'
+- description: |-
+    O rio entra por um buraco no muro leste da cidade.  O buraco foi
+    bloqueado por várias barras de ferro colocadas verticalmente no muro.
+    O rio faz uma pequena curva para o sul.
+  exits:
+    east:
+      target_vnum: '010205005001'
+    south:
+      target_vnum: '010103103206'
+    west:
+      target_vnum: '010103103204'
+  name: No Rio
+  vnum: '010103103205'
+- description: O Rio segue na direção Sul-Norte.
+  exits:
+    north:
+      target_vnum: '010103103205'
+    south:
+      target_vnum: '010103103207'
+  name: No Rio
+  vnum: '010103103206'
+- description: "O rio desemboca em um pequeno lago.  Ao seu redor você percebe uma\n\
+    floresta bem cuidada.  Você tem a nítida impressão de que esta floresta\né protegida\
+    \ por seres muito especiais. Você não tem muita visibilidade\ndo que se passa\
+    \ devido a escuridão causada pelas sombras das enormes\nÃ\x81rvores Nirin."
+  exits:
+    east:
+      target_vnum: '010313513583'
+    north:
+      target_vnum: '010103103206'
+    south:
+      target_vnum: '010313513502'
+    west:
+      target_vnum: '010313613639'
+  name: Um Lago
+  vnum: '010103103207'
+- description: |-
+    Você sente tudo a sua volta mudar. Um enorme vazio preenche seu corpo e
+    quando você menos espera, um grande silêncio toma conta de tudo e nem um único
+    som chega até você. Você foi @Rsilenciado@n por um oponente. Sua aventura
+    termina por aqui. A única saída é esperar o final de mais esta aventura.
+  exits: {}
+  name: O Grande Silêncio de Vitália
+  vnum: '010103103208'

@@ -3,16 +3,22 @@ from aeternus.game.commands.interaction import do_get, do_drop, do_inventory
 from aeternus.game.commands.communication import (
     do_say, do_gossip, do_shout, do_tell, do_emote, do_broadcast, do_echo
 )
-from aeternus.game.commands.informative import do_who, do_look
+from aeternus.game.commands.informative import do_who, do_look, do_score # <--- Import do_score
 
 COMMANDS = {
     # Movimento
     'n': lambda c, a: do_move(c, 'north'),
+    'north': lambda c, a: do_move(c, 'north'),
     's': lambda c, a: do_move(c, 'south'),
+    'south': lambda c, a: do_move(c, 'south'),
     'e': lambda c, a: do_move(c, 'east'),
+    'east': lambda c, a: do_move(c, 'east'),
     'w': lambda c, a: do_move(c, 'west'),
+    'west': lambda c, a: do_move(c, 'west'),
     'u': lambda c, a: do_move(c, 'up'),
+    'up': lambda c, a: do_move(c, 'up'),
     'd': lambda c, a: do_move(c, 'down'),
+    'down': lambda c, a: do_move(c, 'down'),
     'ne': lambda c, a: do_move(c, 'northeast'),
     'nw': lambda c, a: do_move(c, 'northwest'),
     'se': lambda c, a: do_move(c, 'southeast'),
@@ -20,15 +26,22 @@ COMMANDS = {
 
     # Interação
     'get': lambda c, a: do_get(c, a),
+    'take': lambda c, a: do_get(c, a),
+    'pegar': lambda c, a: do_get(c, a),
     'drop': lambda c, a: do_drop(c, a),
+    'largar': lambda c, a: do_drop(c, a),
     'i': lambda c, a: do_inventory(c, a),
     'inv': lambda c, a: do_inventory(c, a),
+    'inventory': lambda c, a: do_inventory(c, a),
 
     # Informação
     'who': lambda c, a: do_who(c, a),
     'quem': lambda c, a: do_who(c, a),
     'l': lambda c, a: do_look(c, a),
     'look': lambda c, a: do_look(c, a),
+    'score': lambda c, a: do_score(c, a), # <--- Comando Score
+    'f': lambda c, a: do_score(c, a),     # Atalho (Ficha)
+    'ficha': lambda c, a: do_score(c, a),
 
     # Comunicação
     'say': lambda c, a: do_say(c, a),

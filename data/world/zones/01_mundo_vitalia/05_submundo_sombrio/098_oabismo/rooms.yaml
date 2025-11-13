@@ -1,0 +1,1004 @@
+- description: |-
+    Você foi transportado para entrada de um estranho abismo negro.  Uma
+    grande escuridão invade esse local.  Você pode ver para baixo um buraco, que
+    talvez seja sua única saída.
+  exits:
+    down:
+      target_vnum: '010509809801'
+  name: A Entrada do Abismo
+  vnum: '010509809800'
+- description: |-
+    Você está dentro de um buraco no chão.  Parece não haver nada aqui alem
+    da escuridão.  A leste você vê um buraco na parede e para baixo o buraco no
+    chão continua, estranhamente não é mais possivel ver o buraco na parte de
+    cima de onde você saiu.
+  exits:
+    down:
+      target_vnum: '010509809803'
+    east:
+      target_vnum: '010509809802'
+  name: Um Buraco no Chão
+  vnum: '010509809801'
+- description: |-
+    Você está dentro de um buraco na parede.  Parece não haver nada aqui alem
+    da escuridão.  A oeste você retorna.
+  exits:
+    west:
+      target_vnum: '010509809801'
+  name: Um Buraco na Parede
+  vnum: '010509809802'
+- description: |-
+    Você está dentro de um buraco cavado no chão, que parece ter muitos
+    séculos de vida.  Este buraco continua a descer pela escuridão e para cima
+    parece retornar ao inicio.
+  exits:
+    down:
+      target_vnum: '010509809804'
+    up:
+      target_vnum: '010509809801'
+  name: Um Pequeno Buraco no Chão
+  vnum: '010509809803'
+- description: |-
+    Você está dentro de um buraco cavado no chão, que parece ter muitos
+    séculos de vida.  É possível ver que para baixo este buraco continua a
+    descer pela escuridão, dando a impressão de nunca ter fim e para cima parece
+    retornar ao inicio desse buraco.
+  exits:
+    down:
+      target_vnum: '010509809805'
+    up:
+      target_vnum: '010509809803'
+  name: Um Pequeno Buraco no Chão
+  vnum: '010509809804'
+- description: |-
+    Você chegou ao fim da descida, talvez fosse melhor repensar se realmente
+    vale a pena entrar nesse local misterioso.  A leste você vê uma porta feita
+    em ferro, com aparência muito antiga e que contém algumas inscrições.
+    Talvez seja melhor você ler isto antes de entrar.  Para cima você retorna ao
+    buraco de onde saiu.
+  exits:
+    east:
+      target_vnum: '010509809806'
+    up:
+      target_vnum: '010509809804'
+  name: Fim da Descida
+  vnum: '010509809805'
+- description: |-
+    Você está atravessando a porta de entrada desse local horripilante.  Não
+    é possivel mais voltar a partir daqui, a porta pelo qual você passou some
+    como em um passe de mágica.  Sua única saída é a leste onde há um pequeno
+    corredor.
+  exits:
+    east:
+      target_vnum: '010509809807'
+  name: A Porta de Entrada
+  vnum: '010509809806'
+- description: |-
+    Você está dentro de um pequeno corredor sombrio e frio, as paredes aqui
+    são feitas de pedras com aparência ancestral.  A oeste fica a porta de
+    entrada e a leste parece ser o fim do corredor.
+  exits:
+    east:
+      target_vnum: '010509809808'
+    west:
+      target_vnum: '010509809806'
+  name: Um Pequeno Corredor
+  vnum: '010509809807'
+- description: |-
+    Você está no fim do corredor, daqui é possível ver que há um canil ao
+    norte, uma pequena passagen ao sul e a oeste existe um corredor.
+  exits:
+    north:
+      target_vnum: '010509809809'
+    south:
+      target_vnum: '010509809810'
+    west:
+      target_vnum: '010509809807'
+  name: Fim do Corredor
+  vnum: '010509809808'
+- description: |-
+    Este é o grande canil do guardião do abismo.  Você sente um cheiro forte
+    de carne, provavelmente esse cãozinho deve ser alimentado somente com carne.
+    Você só vê uma saída a sul.
+  exits:
+    south:
+      target_vnum: '010509809808'
+  name: O Canil
+  vnum: '010509809809'
+- description: |-
+    Você está numa pequena passagem, a cada passo é possivel sentir que o mal
+    impera nesse lugar.  Ao sul continua adentrar no desconhecido e a norte você
+    retorna.
+  exits:
+    north:
+      target_vnum: '010509809808'
+    south:
+      target_vnum: '010509809811'
+  name: Uma Pequena Passagem
+  vnum: '010509809810'
+- description: |-
+    Dentro dessa pequena passagem tudo é muito escuro, assim com todo esse
+    local.  Ao norte você retorna, leste você vê um buraco lateral e ao sul
+    existe uma sala aparentemente quente.
+  exits:
+    east:
+      target_vnum: '010509809812'
+    north:
+      target_vnum: '010509809810'
+    south:
+      target_vnum: '010509809813'
+  name: Uma Pequena Passagem
+  vnum: '010509809811'
+- description: |-
+    Aqui você está dentro desse buraco apertado.  A oeste e possível ver uma
+    pequena passagem, a leste você pode ver um sala bastante grande.
+  exits:
+    east:
+      target_vnum: '010509809814'
+    west:
+      target_vnum: '010509809811'
+  name: Um Buraco Lateral
+  vnum: '010509809812'
+- description: |-
+    Você está numa sala muito quente, é possivel ver que labaretas de fogo
+    surgem do chão.  Ao norte você retorna e ao sul você pode ver enormes chamas
+    de fogo ardente, talvez não seja uma boa opção continuar.
+  exits:
+    north:
+      target_vnum: '010509809811'
+    south:
+      target_vnum: '010509709716'
+  name: Uma Sala Ardente
+  vnum: '010509809813'
+- description: |-
+    Está é uma sala gigante, tudo aqui é muito grande.  É possivel ver
+    enormes pegadas no chão.  A oeste você pode ver um buraco lateral e a leste
+    a um desvio.
+  exits:
+    east:
+      target_vnum: '010509809815'
+    west:
+      target_vnum: '010509809812'
+  name: Uma Sala Gigantesca
+  vnum: '010509809814'
+- description: |-
+    Este desvio parece levar para uma parte pouco explorada.  Nada se pode
+    ver além de pedras muito antigas.  Para cima existe um buraco superior e
+    para leste um buraco lateral estreito e para oeste está uma sala gigantesca.
+  exits:
+    east:
+      target_vnum: '010509809824'
+    up:
+      target_vnum: '010509809816'
+    west:
+      target_vnum: '010509809814'
+  name: O Desvio
+  vnum: '010509809815'
+- description: |-
+    Você está dentro de um buraco estreito num nivel superior.  Tudo aqui é
+    muito apertado, esse buraco parece ter sido cavado a séculos e mais séculos.
+    A leste o buraco continua e para baixo está o desvio.
+  exits:
+    down:
+      target_vnum: '010509809815'
+    east:
+      target_vnum: '010509809817'
+  name: Um Buraco Superior
+  vnum: '010509809816'
+- description: |-
+    Este buraco parece ser longo e muito estreito.  A leste e a oeste o
+    buraco continua.
+  exits:
+    east:
+      target_vnum: '010509809818'
+    west:
+      target_vnum: '010509809816'
+  name: O Buraco Estreito
+  vnum: '010509809817'
+- description: |-
+    Você continua a se arrastar por dentro desse buraco estreito.  Existe uma
+    passagem acima e a oeste parece retornar para o inicio do buraco.
+  exits:
+    up:
+      target_vnum: '010509809819'
+    west:
+      target_vnum: '010509809817'
+  name: O Buraco Estreito
+  vnum: '010509809818'
+- description: |-
+    Esse buraco parece não ter fim, a medida que você anda o cansaço toma
+    conta de seu corpo.  Para baixo existe um buraco que parece retornar e para
+    leste você adentar ainda mais.
+  exits:
+    down:
+      target_vnum: '010509809818'
+    east:
+      target_vnum: '010509809820'
+  name: O Buraco Estreito
+  vnum: '010509809819'
+- description: |-
+    A medida que você adentra esse buraco é possivel escutar uns sons
+    estranhos e nunca ouvidos por você.  Para cima os sons aumentam e a oeste
+    você retorna para o inico desse apertado buraco.
+  exits:
+    up:
+      target_vnum: '010509809821'
+    west:
+      target_vnum: '010509809819'
+  name: O Buraco Estreito
+  vnum: '010509809820'
+- description: |-
+    Você se está cada vez mais perto do que parece ser o fim desse local, a
+    medida que você anda os sons aumentam.  Ao leste você pode ver uma porta e
+    para baixo o corredor estreito se alonga.
+  exits:
+    down:
+      target_vnum: '010509809820'
+    east:
+      target_vnum: '010509809822'
+  name: O Buraco Estreito
+  vnum: '010509809821'
+- description: |-
+    Você está diante de uma grande porta feita de ferro puro e antigo.  Os
+    sons que você estava ouvindo parece vir de dentro dessa porta, soa como uma
+    musica suave e calma, uma canto limpo e angelical.  A leste está a grande
+    porta de ferro e a oeste está a porta que da acesso ao buraco estreito.
+  exits:
+    east:
+      target_vnum: '010509809823'
+    west:
+      target_vnum: '010509809821'
+  name: A Ante-sala
+  vnum: '010509809822'
+- description: |-
+    Uma grande luz invade essa sala, os sons ecoam por toda parte, apesar de
+    parecer mais um calabouço os sons e as luzes fazem você se sentir agraciado
+    por uma sensação de paz, essa sala parece ser abençoada.  A oeste está a
+    grande porta de ferro.
+  exits:
+    west:
+      target_vnum: '010509809822'
+  name: O Calabouço dos Anjos
+  vnum: '010509809823'
+- description: |-
+    Esse buraco é muito apertado.  A oeste está um desvio e para leste você
+    pode ver o fim de desse buraco lateral.
+  exits:
+    east:
+      target_vnum: '010509809825'
+    west:
+      target_vnum: '010509809815'
+  name: O Buraco Lateral
+  vnum: '010509809824'
+- description: |-
+    Finalmente você atingiu o final desse buraco estreito, parece que agora
+    os caminhos são menos apertados porém a sensação de perigo continua.  A
+    oeste você vê o buraco lateral e para baixo há uma longa escada.
+  exits:
+    down:
+      target_vnum: '010509809826'
+    west:
+      target_vnum: '010509809824'
+  name: Fim do Buraco
+  vnum: '010509809825'
+- description: |-
+    Você está numa grande escada esculpida nas pedras.  Para cima existe um
+    buraco, para baixo a escada se alonga e para leste há uma passagem lateral.
+  exits:
+    down:
+      target_vnum: '010509809827'
+    east:
+      target_vnum: '010509809831'
+    up:
+      target_vnum: '010509809825'
+  name: Uma Longa Escada
+  vnum: '010509809826'
+- description: |-
+    Você está descendo por uma grande escada de pedras, a sensação de perigo
+    é grande por toda a extensão desse lugar.  Para cima e para baixo você vê a
+    escada de pedras.
+  exits:
+    down:
+      target_vnum: '010509809828'
+    up:
+      target_vnum: '010509809826'
+  name: Uma Longa Escada
+  vnum: '010509809827'
+- description: |-
+    A cada degrau, é possivel sentir a estranha sensação de estar sendo
+    observado.  Para cima e para baixo só é possivel ver escadas.
+  exits:
+    down:
+      target_vnum: '010509809829'
+    up:
+      target_vnum: '010509809827'
+  name: Uma Longa Escada
+  vnum: '010509809828'
+- description: |-
+    Essa longa escada parece não ter fim.  Para cima e para baixo só é
+    possivel ver escadas.
+  exits:
+    down:
+      target_vnum: '010509809830'
+    up:
+      target_vnum: '010509809828'
+  name: Uma Longa Escada
+  vnum: '010509809829'
+- description: |-
+    Aparentemente a escada parece estar chegando ao fim.  Para baixo você vê
+    o final da escada, mas estranhamente parece haver um circulo de luz como se
+    fosse um portal ou algo parecido, talvez fosse melhor tomar cuidado com essa
+    estranha passagem.  Para cima a escadaria é extensa a para oeste existe uma
+    porta.
+  exits:
+    down:
+      target_vnum: '010509809800'
+    up:
+      target_vnum: '010509809829'
+    west:
+      target_vnum: '010509809841'
+  name: Uma Longa Escada
+  vnum: '010509809830'
+- description: |-
+    Esta entrada parece levar a um corredor sem saída.  Feito em pedras muito
+    antigas e grandes esse lugar é cada vez mais misterioso.  Para Oeste é
+    possível ver uma longa escada e para leste o corredor.
+  exits:
+    east:
+      target_vnum: '010509809832'
+    west:
+      target_vnum: '010509809826'
+  name: Uma Entrada Lateral
+  vnum: '010509809831'
+- description: |-
+    Esse corredor com paredes enormes parece estar chegando ao fim.  A oeste
+    e a leste você pode ver toda a extensão desse pequemo corredor.
+  exits:
+    east:
+      target_vnum: '010509809833'
+    west:
+      target_vnum: '010509809831'
+  name: O Corredor Lateral
+  vnum: '010509809832'
+- description: |-
+    Você está no final do corredor, aparentemente ele não tinha saída, mas
+    você nota que há um pequeno alçapão no chão.  Para oeste você vai para o
+    inicio do corredor e para baixo há um alçapão.
+  exits:
+    down:
+      target_vnum: '010509809834'
+    west:
+      target_vnum: '010509809832'
+  name: Fim do Corredor Lateral
+  vnum: '010509809833'
+- description: |-
+    Você está dentro de um alçapão apertado e muito escuro, é possivel sentir
+    um ar gélido vindo do fundo.  Para cima está o alçapão e para baixo uma
+    estreita escada te leva cada vez mais fundo.
+  exits:
+    down:
+      target_vnum: '010509809835'
+    up:
+      target_vnum: '010509809833'
+  name: O Alçapão
+  vnum: '010509809834'
+- description: |-
+    Dentro desde alçapão é frio e apertado, talvez fosse melhor voltar.  Para
+    cima e para baixo nada é possivel se ver além dessa escada.
+  exits:
+    down:
+      target_vnum: '010509809836'
+    up:
+      target_vnum: '010509809834'
+  name: O Alçapão
+  vnum: '010509809835'
+- description: |-
+    Com certeza se você fosse um pouco mais gordo não passaria por aqui,
+    talvez fosse melhor voltar e garatir que não ficará entalado nesse estreito
+    local.  Para cima e para baixo só há escadas alem da escuridão.
+  exits:
+    down:
+      target_vnum: '010509809837'
+    up:
+      target_vnum: '010509809835'
+  name: O Alçapão
+  vnum: '010509809836'
+- description: |-
+    Parece que o fim desse alçapão está chegando ao fim.  É possivel ver uma
+    certa luminosidade vinda de baixo, mas o sentimentos de maldade e os
+    calafrios aumentam cada vez mais.  Para cima a escada continua e para baixo
+    parece ser o fim da escada.
+  exits:
+    down:
+      target_vnum: '010509809838'
+    up:
+      target_vnum: '010509809836'
+  name: O Alçapão
+  vnum: '010509809837'
+- description: |-
+    Esse alçapão chegou ao fim, mas parece que seu sofrimento apenas está
+    começando.  Para cima há uma longa escada e nada para se ver e para leste
+    você pode ver uma sala iluminada
+  exits:
+    east:
+      target_vnum: '010509809839'
+    up:
+      target_vnum: '010509809835'
+  name: Fim do Alçapão
+  vnum: '010509809838'
+- description: |-
+    Uma grande sala iluminada por tochas de fogo que parecem nunca se apagar.
+    Algo parece lhe dizer que seria melhor partir rapidamente desse local.  Para
+    oeste está o fim do alçapão e para leste está uma porta gigantesca, talvez
+    guardando algum tesouro, porém gritos vem de trás dessa porta.  Há estranhas
+    inscrições nessa porta, talvez fosse melhor le-las antes de entrar.
+  exits:
+    east:
+      target_vnum: '010509809840'
+    west:
+      target_vnum: '010509809838'
+  name: Entrada da Sala do Trono
+  vnum: '010509809839'
+- description: |-
+    É horrivel esse lugar, gritos ecoam por toda a parte, as paredes parecem
+    ter olhos e ouvidos.  Um sentimento maléfico invade essa sala somente seus
+    mais puros e verdadeiros sentimentos podem anular esse mal.  Infelizmente
+    você não vê nenhuma saída.
+  exits: {}
+  name: Sala do Trono
+  vnum: '010509809840'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  A leste
+    existe uma grande porta e oeste parece ser uma sala um tanto parecida com
+    essa aqui.
+  exits:
+    east:
+      target_vnum: '010509809830'
+    west:
+      target_vnum: '010509809842'
+  name: O Labirinto
+  vnum: '010509809841'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809841'
+    north:
+      target_vnum: '010509809853'
+    south:
+      target_vnum: '010509809843'
+    west:
+      target_vnum: '010509809852'
+  name: O Labirinto
+  vnum: '010509809842'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809853'
+    north:
+      target_vnum: '010509809842'
+    south:
+      target_vnum: '010509809844'
+    west:
+      target_vnum: '010509809852'
+  name: O Labirinto
+  vnum: '010509809843'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais, porém existe uma porta
+    a leste.
+  exits:
+    east:
+      target_vnum: '010509809853'
+    north:
+      target_vnum: '010509809843'
+    south:
+      target_vnum: '010509809845'
+    west:
+      target_vnum: '010509809852'
+  name: O Labirinto
+  vnum: '010509809844'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais, parecendo que você está
+    andando em circulos.
+  exits:
+    east:
+      target_vnum: '010509809852'
+    north:
+      target_vnum: '010509809844'
+    south:
+      target_vnum: '010509809853'
+    west:
+      target_vnum: '010509809846'
+  name: O Labirinto
+  vnum: '010509809845'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809845'
+    north:
+      target_vnum: '010509809847'
+    south:
+      target_vnum: '010509809853'
+    west:
+      target_vnum: '010509809852'
+  name: O Labirinto
+  vnum: '010509809846'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas, mas qual é a melhor opção ?
+  exits:
+    east:
+      target_vnum: '010509809853'
+    north:
+      target_vnum: '010509809848'
+    south:
+      target_vnum: '010509809846'
+    west:
+      target_vnum: '010509809852'
+  name: O Labirinto
+  vnum: '010509809847'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809852'
+    north:
+      target_vnum: '010509809853'
+    south:
+      target_vnum: '010509809847'
+    west:
+      target_vnum: '010509809849'
+  name: O Labirinto
+  vnum: '010509809848'
+- description: |-
+    Você está cada vez mais confuso.  Há saídas por todos os lados, talvez
+    fosse melhor ajoelhar-se e rezar.
+  exits:
+    east:
+      target_vnum: '010509809848'
+    north:
+      target_vnum: '010509809850'
+    south:
+      target_vnum: '010509809845'
+    west:
+      target_vnum: '010509809846'
+  name: O Labirinto
+  vnum: '010509809849'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809848'
+    north:
+      target_vnum: '010509809851'
+    south:
+      target_vnum: '010509809849'
+    west:
+      target_vnum: '010509809849'
+  name: O Labirinto
+  vnum: '010509809850'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809852'
+    north:
+      target_vnum: '010509809848'
+    south:
+      target_vnum: '010509809850'
+    west:
+      target_vnum: '010509809849'
+  name: O Labirinto
+  vnum: '010509809851'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809853'
+    north:
+      target_vnum: '010509809848'
+    south:
+      target_vnum: '010509809849'
+    west:
+      target_vnum: '010509809851'
+  name: O Labirinto
+  vnum: '010509809852'
+- description: |-
+    Você está dentro de algo que parece ser um grande labirinto.  Por todos
+    os lados há saídas que lhe confundem cada vez mais.
+  exits:
+    east:
+      target_vnum: '010509809842'
+    north:
+      target_vnum: '010509809848'
+    south:
+      target_vnum: '010509809849'
+    west:
+      target_vnum: '010509809852'
+  name: O Labirinto
+  vnum: '010509809853'
+- description: |-
+    Estranhamente tudo que você deixou para trás sumiu.  Daqui para frente
+    somente o sábios de espirito, leais e honestos aventureiros serão bem
+    aventurados.  Siga seu seu coração...  O seu caminho trilha a leste.
+  exits:
+    east:
+      target_vnum: '010509809855'
+  name: O Caminho dos Sábios
+  vnum: '010509809854'
+- description: |-
+    A cada passo você pode sentir uma estranha sensação de que está sendo
+    observado.  Tudo ao seu redor é muito lindo, um belo campo florido, talvez
+    este o verdadeiro paraiso.  Para oeste você o inicio do caminho e para leste
+    a trilha se alonga.
+  exits:
+    east:
+      target_vnum: '010509809856'
+    west:
+      target_vnum: '010509809854'
+  name: O Caminho dos Sábios
+  vnum: '010509809855'
+- description: |-
+    O cheiro de lugar é muito inspirador, uma suave fragância de lavanda se
+    espalha por todo esse campo.  Sua trilha retorna a oeste e continua ao sul.
+  exits:
+    south:
+      target_vnum: '010509809857'
+    west:
+      target_vnum: '010509809855'
+  name: O Caminho dos Sábios
+  vnum: '010509809856'
+- description: |-
+    A trilha é estreita, por todos os lados há flores campestres.  Até onde
+    sua vista alcança há somente flores e um bonito céu azul.  A trilha segue
+    para norte e leste.
+  exits:
+    east:
+      target_vnum: '010509809858'
+    north:
+      target_vnum: '010509809856'
+  name: O Caminho dos Sábios
+  vnum: '010509809857'
+- description: |-
+    A cada passo a curiosidade aumenta.  Talvez seja melhor começar a pensar
+    em qual é seu verdadeiro objetivo, a sensação de observado aumenta cada vez
+    mais.  Sua trilha segue a oeste e a leste.
+  exits:
+    east:
+      target_vnum: '010509809859'
+    west:
+      target_vnum: '010509809857'
+  name: O Caminho dos Sábios
+  vnum: '010509809858'
+- description: |-
+    Você está diante da escolha de seu verdadeiro objetivo, a sua escolha
+    mudará toda sua trajetória.  Se seu objetivo nesse mundo é explorar e ganhar
+    muita experiência e acha que já sabio o suficiente então parta rumo ao
+    norte, pois lá encontrará terras inexploradas.  Se seu objetivo, seja esse
+    mesmo, mas acha que ainda não é sabio o bastante, então parta rumo ao sul,
+    pois lá existe o aprendizado.  Diante dessas duas escolhas se você se achar
+    um aventureiro que tem medo de explorar e prefere voltar as suas origens
+    para repensar no seu destino, então siga a leste, pois lá está o inicio de
+    tudo.
+  exits:
+    east:
+      target_vnum: '010509809860'
+    north:
+      target_vnum: '010509809861'
+    south:
+      target_vnum: '010509809862'
+  name: O Destino
+  vnum: '010509809859'
+- description: |-
+    Você está no caminho dos que querem voltar e rever suas origens.  Siga a
+    leste e veja onde tudo começou.
+  exits:
+    east:
+      target_vnum: '010000000050'
+  name: O Caminho dos Sábios
+  vnum: '010509809860'
+- description: |-
+    Você está no caminho dos exploradores que acham que já sabem o suficiente
+    Siga ao norte e explore terras jamais conhecidas.
+  exits:
+    north:
+      target_vnum: '010509809800'
+  name: O Caminho dos Sábios
+  vnum: '010509809861'
+- description: |-
+    Você está no caminho dos exploradores que acham que os sábios são aqueles
+    que reconhecem que ainda existe muito para se aprender.  Siga ao sul e vá
+    ao encontro da sabedoria.
+  exits:
+    south:
+      target_vnum: '010509809863'
+  name: O Caminho dos Sábios
+  vnum: '010509809862'
+- description: |-
+    Certamente você fez a escolha mais correta.  "O mais sábios de todos é
+    aquele que reconhece sua burrice".  Daqui pra frente sua dignidade e honra
+    serão provadas, se você passar por essa provação, será merecedor de conhecer
+    os segredos da vitória.  Seu caminho é para leste...
+  exits:
+    east:
+      target_vnum: '010509809864'
+  name: O Caminho para a Ascensão
+  vnum: '010509809863'
+- description: |-
+    Você está diante de uma bonita entrada, feita no mais puro dos mármores
+    sua beleza é magnífica.  O caminho a ser seguido é ao norte, onde pode ser
+    visto um camiho florido e enfeitado com lindas pedras.
+  exits:
+    north:
+      target_vnum: '010509809865'
+  name: A Entrada da Ascensão
+  vnum: '010509809864'
+- description: |-
+    O caminho seguido por você é muito pessoal, aqui ninguem pode lhe ajudar
+    e a cada escolha você jamais verá que jamais poderá voltar.  Seja digno e
+    honrado pois só assim poderá realmente ser aclamado como um sábio.
+  exits:
+    north:
+      target_vnum: '010509809866'
+  name: O Caminho da Ascensão
+  vnum: '010509809865'
+- description: |-
+    Nada existe ao seu redor, por onde você olha só existe uma névoa, tudo
+    que era florido agora sumiu e a cada passo você nota que o caminho na suas
+    costas some.
+  exits:
+    east:
+      target_vnum: '010509809867'
+  name: O Caminho da Ascensão
+  vnum: '010509809866'
+- description: |-
+    Há névoa por toda parte, mesmo a mais intensa das luzes não é capaz de
+    iluminar seu caminho nesse nevoeiro.  Aqui é sua primeira provação, pense
+    bem antes de fazer sua escolha, pois NÃO poderá voltar atrás.
+    Ao norte você pode ver alguns equipamentos, alguns deles jamais visto em
+    todo esse mundo, talvez algum deles possa iluminar seu caminho.
+    Ao sul seu caminho parece ficar um pouco mais claro, é possivel ver a
+    sala de doações de um clan, que com certeza não é de seus amigos, mas lá
+    existem equipamentos que podem iluminar esse nevoeiro.
+    A leste a escuridão é cada vez mais intensa, porem lá no fundo é possivel
+    notar um velho mago, certamente ela está perdido no meio dessa nevoa tambem.
+  exits:
+    east:
+      target_vnum: '010509809868'
+    north:
+      target_vnum: '010509809870'
+    south:
+      target_vnum: '010509809869'
+  name: A Primeira Provação
+  vnum: '010509809867'
+- description: É possivel ver aquele pobre velho.  Siga a leste ao seu encontro.
+  exits:
+    east:
+      target_vnum: '010509809871'
+  name: A Escolha
+  vnum: '010509809868'
+- description: É possivel ver uma grande sala de equipamentos.  Siga ao sul para entrar.
+  exits:
+    south:
+      target_vnum: '010103003063'
+  name: A Escolha
+  vnum: '010509809869'
+- description: É possivel ver um enorme monte de equipamentos.  Siga ao norte para
+    entrar.
+  exits:
+    north:
+      target_vnum: '010103003063'
+  name: A Escolha
+  vnum: '010509809870'
+- description: |-
+    Certamente você preferiu ajudar esse pobre mago....um vento muito forte
+    faz com que essa névoa se espalhe, uma luz intensa transforma aquele velho
+    mago em um magnífico anjo.  Siga seu ensinamentos, pois o que lhe for dito
+    será de grande utilidade no futuro próximo.  Após ouvir seus ensinamentos
+    siga seu caminho a norte.
+  exits:
+    north:
+      target_vnum: '010509809872'
+  name: O Templo da Luz
+  vnum: '010509809871'
+- description: |-
+    Tudo volta a ser florido, e aquele cheiro de lavanda invade suas narinas.
+    O caminho é muito belo e segue a leste.
+  exits:
+    east:
+      target_vnum: '010509809873'
+  name: O Caminho da Ascensão
+  vnum: '010509809872'
+- description: |-
+    O cheiro de lavanda aumenta cada vez mais.  Provavelmente a mais bela
+    das mulheres é merecedora de tal perfume.  Com essa fragância seria capaz de
+    amolecer o coração das mais terrivel das víboras.
+  exits:
+    north:
+      target_vnum: '010509809874'
+  name: O Caminho da Ascensão
+  vnum: '010509809873'
+- description: |-
+    Você está diante da sua segunda escolha, seu caminho pode ser dificil ou
+    fácil basta que sua sabia experiencia lhe guie.
+    Ao leste vem um cheiro insuportável, é possível ver um campo de guerra, o
+    cheiro que invade suas narinas é o de seus companheiro mortos, talvez seja
+    melhor abandonar essa provação e ir ajuda-los.
+    Ao norte o cheiro de lavanda aumenta, um caminho florido e bonito, é
+    possível notar que há pedras de cores douradas por todo a chão.
+    A oeste é o inicio do caminho, você pode retornar ao principio e refazer
+    escolhas.
+  exits:
+    east:
+      target_vnum: '010509809875'
+    north:
+      target_vnum: '010509809876'
+    west:
+      target_vnum: '010509809877'
+  name: A Segunda Provação
+  vnum: '010509809874'
+- description: |-
+    É possível ver um campo de batalha e um corpo ferido caído ao chão. Siga
+    a leste, pois é seu destino.
+  exits:
+    east:
+      target_vnum: '010509809878'
+  name: A Escolha
+  vnum: '010509809875'
+- description: |-
+    É possível ver um caminho muito florido e lindo.  Siga seu destino ao
+    norte.
+  exits:
+    north:
+      target_vnum: '010103003065'
+  name: A Escolha
+  vnum: '010509809876'
+- description: É possível ver o inicio.  Siga a oeste e parta do principio.
+  exits:
+    east:
+      target_vnum: '010000000050'
+  name: A Escolha
+  vnum: '010509809877'
+- description: |-
+    Mais uma vez sua escolha foi sabia.  Uma luz azulada invade todo esse
+    campo, lentamente o corpo caido se levanta, como que por milagre ou por amor
+    divino, ele se transforma em um anjo muito bonito.  Escute o que esse anjo
+    tem a lhe falar.
+  exits:
+    north:
+      target_vnum: '010509809879'
+  name: O Templo do Amor
+  vnum: '010509809878'
+- description: |-
+    O maravilhoso cheiro de lavanda e o céu são dignos dos deuses.  Você pode
+    sentir que está próximo do céu pois um sentimento puro invade seu coração.
+  exits:
+    east:
+      target_vnum: '010509809880'
+  name: O Caminho da Ascensão
+  vnum: '010509809879'
+- description: |-
+    Estranhamento toda aquela alegria sumiu, aparentemente nada mais existe,
+    é como se você estivesse num plano vazio, por todos os lados nada existe e
+    nada há para ser contemplado.
+  exits:
+    east:
+      target_vnum: '010509809881'
+  name: O Caminho da Ascensão
+  vnum: '010509809880'
+- description: |-
+    Você está diante de mais teste, ao seu redor nada existe além dos
+    caminhos a serem por você trilhados.  Escute seu coração e construa sua
+    história.  O vazio ao seu redor, só será preenchido com sua fé.
+  exits:
+    east:
+      target_vnum: '010509809884'
+    north:
+      target_vnum: '010509809883'
+    south:
+      target_vnum: '010509809885'
+    west:
+      target_vnum: '010509809882'
+  name: A Terceira Provação
+  vnum: '010509809881'
+- description: |-
+    Nada existe além da sua imaginação, por todos os lados há somente um
+    abismo infinito.  Dê mais um passo rumo a sua sorte...siga a oeste.
+  exits:
+    west:
+      target_vnum: '010509809886'
+  name: O Vazio
+  vnum: '010509809882'
+- description: |-
+    Nada existe além da sua imaginação, por todos os lados há somente um
+    abismo infinito.  Dê mais um passo rumo a sua sorte...siga ao norte.
+  exits:
+    north:
+      target_vnum: '010000000050'
+  name: O Vazio
+  vnum: '010509809883'
+- description: |-
+    Nada existe além da sua imaginação, por todos os lados há somente um
+    abismo infinito.  Dê mais um passo rumo a sua sorte...siga a leste.
+  exits:
+    east:
+      target_vnum: '010000000050'
+  name: O Vazio
+  vnum: '010509809884'
+- description: |-
+    Nada existe além da sua imaginação, por todos os lados há somente um
+    abismo infinito.  Dê mais um passo rumo a sua sorte...siga ao sul.
+  exits:
+    south:
+      target_vnum: '010000000050'
+  name: O Vazio
+  vnum: '010509809885'
+- description: |-
+    Você percebe que o chão se forma aos seus pés, o abismo por você temido
+    agora é um belissimo campo florido, que outrora você havia comtemplado.  O
+    maravilhoso cheiro de lavanda, volta a invadir sua narinas.  E como que por
+    milagre uma maravilhosa flor começa a se desabrochar, emitindo um luz
+    intensa capaz de cega-lo...  E essa imensa luz começa a tomar forma do mais
+    belo de todos o anjos, ouça o que ele tem a lhe ensinar...  Após ouvi-lo seu
+    caminho é para o norte.
+  exits:
+    north:
+      target_vnum: '010509809887'
+  name: O Templo da Honestidade
+  vnum: '010509809886'
+- description: |-
+    Você está no caminho que poucos conseguirão trilhar, demonstre ser
+    realmente digno de por seus pés nesse caminho, pois somente os deuses de
+    Vitalia, outrora percorreram esse caminho.  Ao norte você pode uma luz
+    intensa e talvez seu unico destino.
+  exits:
+    north:
+      target_vnum: '010509809888'
+  name: O Caminho da Ascensão
+  vnum: '010509809887'
+- description: |-
+    Por todos os lados você ver imagens incríveis, é como se fosse pintado um
+    belíssimo quadro diante de seus olhos.  Batalhas sangrentas entre os deuses
+    de Vitalia e o mal, lindas paisagens jamais vistas por você, a ira e a
+    tristeza dos deuses diante dos traidores, a festa dos que com fé, muita
+    dignidade e acima de tudo honra, escreveram a história de suas vidas.  Seu
+    caminho chega a uma bela escada, apenas suba.
+  exits:
+    up:
+      target_vnum: '010509809889'
+  name: O Caminho da Ascensão
+  vnum: '010509809888'
+- description: |-
+    Você sobe cada vez mais em uma magnífica escada feita em mármore, é
+    incrível a beleza desse lugar, além de todo aquele jardim, o cheiro de
+    lavanda as imagens passadas diantes de seus olhos, você pode ver um Altar de
+    pedra polida.  Uma beleza nunca vista por seus olhos, suba diante desse
+    altar pois é seu destino.
+  exits:
+    up:
+      target_vnum: '010509809890'
+  name: A Escadaria de Mármore
+  vnum: '010509809889'
+- description: |-
+    Um magnífico altar, em suas paredes é possivel toda a história e lendas
+    de Vitalia, imagens dos grandes deuses desse mundo são aqui retradas, a
+    beleza e coragem desses deuses parecem ser passadas para você.  Lá no alto
+    você a imagem de um belo anjo, estranhamente essa imagens parece criar vida.
+    A imagem cria vida e uma anjo em forma de luz se faz presente, ouça o que
+    ele tem lhe dizer, depois dê um passo atrás para que seu destino se abra...
+  exits:
+    down:
+      target_vnum: '010509809800'
+  name: O Altar dos Dignos
+  vnum: '010509809890'

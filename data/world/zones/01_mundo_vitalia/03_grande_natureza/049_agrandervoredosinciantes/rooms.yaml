@@ -1,0 +1,954 @@
+- description: "A base da Grande Ã\x81rvore fica logo abaixo, e os prÃ³ximos galhos\
+    \ a\numa pequena distância acima, os galhos se entrelaçam entre si e olhando\n\
+    para o céu, pode-se ver movimentos das criaturas que habitam esta\nenorme árvore.\
+    \ Um buraco no tronco se abre ao norte e prestando um\npouco de atenção, você\
+    \ nota que aquele é o lar de alguém."
+  exits:
+    down:
+      target_vnum: '010304904979'
+    north:
+      target_vnum: '010304904904'
+    up:
+      target_vnum: '010304904901'
+  name: "O Galho Mais Baixo da Grande Ã\x81rvore"
+  vnum: '010304904900'
+- description: "Os galhos da árvore vão se entrelaçando até onde seus olhos podem\n\
+    ver, tornando possível que você possa andar por eles. O caminho que\nsegue para\
+    \ a Zona dos Iniciantes fica um pouco abaixo porém, também\né possível seguir\
+    \ para cima, escalando cuidadosamente os acessos por\nentre a vegetaÃ§Ã£o da Grande\
+    \ Ã\x81rvore. Perceba que os galhos se cruzam e\nseguem em todas as direções."
+  exits:
+    down:
+      target_vnum: '010304904900'
+    east:
+      target_vnum: '010304904908'
+    north:
+      target_vnum: '010304904906'
+    south:
+      target_vnum: '010304904910'
+    up:
+      target_vnum: '010304904902'
+    west:
+      target_vnum: '010304904912'
+  name: Em Um Galho no Nível Mais Baixo
+  vnum: '010304904901'
+- description: "Os galhos da árvore vão se entrelaçando até onde seus olhos podem\n\
+    ver, tornando possível que você possa andar por eles. O caminho que\nsegue para\
+    \ a Zona dos Iniciantes fica um pouco abaixo porém, também\né possível seguir\
+    \ para cima, escalando cuidadosamente os acessos por\nentre a vegetaÃ§Ã£o da Grande\
+    \ Ã\x81rvore. Perceba que os galhos se cruzam e\nseguem em todas as direções."
+  exits:
+    down:
+      target_vnum: '010304904901'
+    east:
+      target_vnum: '010304904932'
+    north:
+      target_vnum: '010304904930'
+    south:
+      target_vnum: '010304904934'
+    up:
+      target_vnum: '010304904903'
+    west:
+      target_vnum: '010304904936'
+  name: Dentro do Centro do Tronco
+  vnum: '010304904902'
+- description: |-
+    Você está no ponto mais alto que se pode alcançar com segurança
+    desta gigantesca árvore. Acima, o tronco não parece ser forte o suficiente
+    para suportar um peso mais substancial. Os ramos seguem em praticamente
+    em todas as direções e os galhos que estão na parte mais alta são tão
+    fortes como os que estão nas partes mais baixas.
+  exits:
+    down:
+      target_vnum: '010304904902'
+    east:
+      target_vnum: '010304904956'
+    north:
+      target_vnum: '010304904954'
+    south:
+      target_vnum: '010304904958'
+    west:
+      target_vnum: '010304904960'
+  name: Numa Parte Alta Dentro do Tronco
+  vnum: '010304904903'
+- description: |-
+    O interior desse tronco foi surpreendentemente transformado em um
+    aconchegante lar, com uma confortável poltrona e uma pequena cama feita de
+    gravetos e folhas. Há uma outro pequeno aposento que se conecta ao norte
+    através de um estreito caminho.
+  exits:
+    north:
+      target_vnum: '010304904905'
+    south:
+      target_vnum: '010304904900'
+  name: No Interior do Tronco
+  vnum: '010304904904'
+- description: |-
+    Você está explorando os aposentos secretos e íntimos de um treant, um ser
+    que é na realidade, a essência da própria árvore.  Apenas os mais tolos
+    tentariam desafiar um treant dentro de seu próprio lar.
+  exits:
+    south:
+      target_vnum: '010304904904'
+  name: No Interior do Tronco
+  vnum: '010304904905'
+- description: |-
+    Os galhos aqui são bastante grossos e resistentes devido sua
+    proximidade ao tronco. Os galhos levam à todas as direções, sendo que
+    o tronco fica bem ao sul.
+  exits:
+    east:
+      target_vnum: '010304904907'
+    north:
+      target_vnum: '010304904915'
+    south:
+      target_vnum: '010304904901'
+    west:
+      target_vnum: '010304904913'
+  name: Através dos Galhos Internos
+  vnum: '010304904906'
+- description: |-
+    Os galhos aqui são bastante grossos e resistentes devido sua
+    proximidade do tronco. Os galhos levam se ramificam ao norte e ao
+    oeste.
+  exits:
+    south:
+      target_vnum: '010304904908'
+    west:
+      target_vnum: '010304904906'
+  name: Através dos Galhos Internos
+  vnum: '010304904907'
+- description: |-
+    Os galhos aqui são bastante grossos e resistentes devido sua
+    proximidade ao tronco. Os galhos levam à todas as direções, sendo que
+    o tronco fica bem ao oeste.
+  exits:
+    east:
+      target_vnum: '010304904918'
+    north:
+      target_vnum: '010304904907'
+    south:
+      target_vnum: '010304904909'
+    west:
+      target_vnum: '010304904901'
+  name: Através dos Galhos Internos
+  vnum: '010304904908'
+- description: |-
+    Os galhos aqui são bastante grossos e resistentes devido sua
+    proximidade ao tronco. Daqui, os galhos se ramificam para o norte e
+    para o oeste.
+  exits:
+    north:
+      target_vnum: '010304904908'
+    west:
+      target_vnum: '010304904910'
+  name: Através dos Galhos Internos
+  vnum: '010304904909'
+- description: |-
+    Os galhos aqui são bastante grossos e resistentes devido sua
+    proximidade ao tronco. Os galhos levam à todas as direções, sendo que
+    o tronco fica bem ao norte.
+  exits:
+    east:
+      target_vnum: '010304904909'
+    north:
+      target_vnum: '010304904901'
+    south:
+      target_vnum: '010304904921'
+    west:
+      target_vnum: '010304904911'
+  name: Através dos Galhos Internos
+  vnum: '010304904910'
+- description: |-
+    Os galhos aqui são bastante grossos com o tronco principal.  Daqui,
+    os galhos se ramificam para o norte e leste.
+  exits:
+    east:
+      target_vnum: '010304904910'
+    north:
+      target_vnum: '010304904912'
+  name: Através dos Galhos Internos
+  vnum: '010304904911'
+- description: |-
+    Os galhos aqui são bastante grossos e resistentes devido sua proximidade
+    ao tronco.  Os galhos levam à todas as direções, sendo que o tronco fica bem
+    ao leste.
+  exits:
+    east:
+      target_vnum: '010304904901'
+    north:
+      target_vnum: '010304904913'
+    south:
+      target_vnum: '010304904911'
+    west:
+      target_vnum: '010304904924'
+  name: Através dos Galhos Internos
+  vnum: '010304904912'
+- description: |-
+    Os galhos aqui são bastante grossos e resistentes devido sua proximidade
+    ao tronco.  Daqui os
+    Galhos se ramificam ao sul e ao leste.
+  exits:
+    east:
+      target_vnum: '010304904906'
+    south:
+      target_vnum: '010304904912'
+  name: Através dos Galhos Internos
+  vnum: '010304904913'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  O único
+    caminho de volta para o tronco fica ao leste.
+  exits:
+    east:
+      target_vnum: '010304904915'
+  name: Os Galhos Externos
+  vnum: '010304904914'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  Saídas
+    seguem em todas as direções, e os galhos internos seguem para o sul.
+  exits:
+    east:
+      target_vnum: '010304904916'
+    north:
+      target_vnum: '010304904926'
+    south:
+      target_vnum: '010304904906'
+    west:
+      target_vnum: '010304904914'
+  name: Os Galhos Externos
+  vnum: '010304904915'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  A única
+    saída de volta ao tronco principal fica ao oeste.
+  exits:
+    west:
+      target_vnum: '010304904915'
+  name: Os Galhos Externos
+  vnum: '010304904916'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  A única
+    saída de volta ao tronco principal fica ao sul.
+  exits:
+    south:
+      target_vnum: '010304904918'
+  name: Os Galhos Externos
+  vnum: '010304904917'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  Saídas
+    seguem em todas as direções, os galhos internos ficam bem ao oeste.
+  exits:
+    east:
+      target_vnum: '010304904927'
+    north:
+      target_vnum: '010304904917'
+    south:
+      target_vnum: '010304904919'
+    west:
+      target_vnum: '010304904908'
+  name: Os Galhos Externos
+  vnum: '010304904918'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  O único
+    caminho de volta para o tronco fica ao norte.
+  exits:
+    north:
+      target_vnum: '010304904918'
+  name: Os Galhos Externos
+  vnum: '010304904919'
+- description: "Os galhos ainda são suficientemente fortes para sustentar bastante\
+    \ peso,\nde qualquer forma, não parece muito seguro em suas extremidades.  O único\n\
+    caminho para outra parte da Grande Ã\x81rvore fica ao oeste."
+  exits:
+    west:
+      target_vnum: '010304904921'
+  name: Os Galhos Externos
+  vnum: '010304904920'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  As saídas
+    seguem em todas as direções através dos ramos do tronco, e os galhos
+    internos seguem em direção ao norte.
+  exits:
+    east:
+      target_vnum: '010304904920'
+    north:
+      target_vnum: '010304904910'
+    south:
+      target_vnum: '010304904928'
+    west:
+      target_vnum: '010304904922'
+  name: Os Galhos Externos
+  vnum: '010304904921'
+- description: "Os galhos ainda são suficientemente fortes para sustentar bastante\
+    \ peso,\nde qualquer forma, não parece muito seguro em suas extremidades.  O único\n\
+    caminho de volta para o outro lado da Grande Ã\x81rvore fica a leste."
+  exits:
+    east:
+      target_vnum: '010304904921'
+  name: Os Galhos Externos
+  vnum: '010304904922'
+- description: "Os galhos ainda são suficientemente fortes para sustentar bastante\
+    \ peso,\nde qualquer forma, não parece muito seguro em suas extremidades.  O único\n\
+    caminho de volta para o outro lado da Grande Ã\x81rvore fica ao norte."
+  exits:
+    north:
+      target_vnum: '010304904924'
+  name: Os Galhos Externos
+  vnum: '010304904923'
+- description: |-
+    Os galhos ainda são suficientemente fortes para sustentar bastante peso,
+    de qualquer forma, não parece muito seguro em suas extremidades.  Saídas
+    seguem em todas as direções através das ramificações do tronco
+    e os galhos interiores ficam ao leste.
+  exits:
+    east:
+      target_vnum: '010304904912'
+    north:
+      target_vnum: '010304904925'
+    south:
+      target_vnum: '010304904923'
+    west:
+      target_vnum: '010304904929'
+  name: Os Galhos Externos
+  vnum: '010304904924'
+- description: "Os galhos ainda são suficientemente fortes para sustentar bastante\
+    \ peso,\nde qualquer forma, não parece muito seguro em suas extremidades.  O único\n\
+    caminho de volta para o outro lado da Grande Ã\x81rvore fica ao sul."
+  exits:
+    south:
+      target_vnum: '010304904924'
+  name: Os Galhos Externos
+  vnum: '010304904925'
+- description: |-
+    Embora o galho em que você se encontre não seja muito alto, a julgar
+    pelos galhos acima da sua cabeça, parece que ainda há muito o que se escalar
+    e você nota que a árvore parece muito alta vista daqui.  Uma suave brisa
+    toca o seu rosto e você se sente feliz, sem motivos.  O caminho de volta
+    fica ao sul.
+  exits:
+    south:
+      target_vnum: '010304904915'
+  name: Em Um Galho
+  vnum: '010304904926'
+- description: |-
+    Embora o galho em que você se encontre não seja muito alto, a julgar
+    pelos galhos acima da sua cabeça, parece que ainda há muito o que se escalar
+    e você nota que a árvore parece muito alta vista daqui.  Uma suave brisa
+    toca o seu rosto e você se sente feliz, sem motivos.  O caminho de volta
+    fica ao oeste.
+  exits:
+    west:
+      target_vnum: '010304904918'
+  name: Em Um Galho
+  vnum: '010304904927'
+- description: |-
+    Embora o galho em que você se encontre não seja muito alto, a julgar
+    pelos galhos acima da sua cabeça, parece que ainda há muito o que se escalar
+    e você nota que a árvore parece muito alta vista daqui.  Uma suave brisa
+    toca o seu rosto e você se sente feliz, sem motivos.  O caminho de volta
+    fica ao norte.
+  exits:
+    north:
+      target_vnum: '010304904921'
+  name: Em Um Galho
+  vnum: '010304904928'
+- description: |-
+    Embora o galho em que você se encontre não seja muito alto, a julgar
+    pelos galhos acima da sua cabeça, parece que ainda há muito o que se escalar
+    e você nota que a árvore parece muito alta vista daqui.  Uma suave brisa
+    toca o seu rosto e você se sente feliz, sem motivos.  O caminho de volta
+    fica ao leste.
+  exits:
+    east:
+      target_vnum: '010304904924'
+  name: Em Um Galho
+  vnum: '010304904929'
+- description: |-
+    Os galhos seguem para fora do tronco e você está mais ou menos na metade
+    da altura da árvore.  Os galhos aqui ainda são grossos, parecendo fortes o
+    suficiente para aguentar bastante peso.  Existem saídas para todas as
+    direções mas o tronco central fica ao sul.
+  exits:
+    east:
+      target_vnum: '010304904931'
+    north:
+      target_vnum: '010304904939'
+    south:
+      target_vnum: '010304904902'
+    west:
+      target_vnum: '010304904937'
+  name: Entre os Galhos
+  vnum: '010304904930'
+- description: "Os galhos da Grande Ã\x81rvore se abrem, formando uma Ã¡rea muito\
+    \ grande, que\nabriga as inúmeras casinhas de um sem número de exóticas criaturinhas,\
+    \ que\nde alguma maneira, coabitam neste lugar, pacíficamente.  Os galhos vão\n\
+    seguindo para o sul e para o oeste."
+  exits:
+    south:
+      target_vnum: '010304904932'
+    west:
+      target_vnum: '010304904930'
+  name: Entre os Galhos
+  vnum: '010304904931'
+- description: |-
+    Os galhos seguem para fora do tronco e você está mais ou menos na metade
+    da altura da árvore.  Os galhos aqui ainda são grossos, parecendo fortes o
+    suficiente para aguentar bastante peso.  Existem saídas para todas as
+    direções mas o tronco central fica bem ao oeste.
+  exits:
+    east:
+      target_vnum: '010304904942'
+    north:
+      target_vnum: '010304904931'
+    south:
+      target_vnum: '010304904933'
+    west:
+      target_vnum: '010304904902'
+  name: Entre os Galhos
+  vnum: '010304904932'
+- description: "Os galhos da Grande Ã\x81rvore se abrem, formando uma Ã¡rea muito\
+    \ grande, que\nabriga as inúmeras casinhas de um sem número de exóticas criaturinhas,\
+    \ que\nde alguma maneira, coabitam neste lugar, pacíficamente.  Os galhos vão\n\
+    seguindo para o norte e para o oeste."
+  exits:
+    north:
+      target_vnum: '010304904932'
+    west:
+      target_vnum: '010304904934'
+  name: Entre os Galhos
+  vnum: '010304904933'
+- description: |-
+    Os galhos seguem para fora do tronco e você está mais ou menos na metade
+    da altura da árvore.  Os galhos aqui ainda são grossos, parecendo fortes o
+    suficiente para aguentar bastante peso.  Existem saídas para todas as
+    direções mas o tronco central está bem ao norte.
+  exits:
+    east:
+      target_vnum: '010304904933'
+    north:
+      target_vnum: '010304904902'
+    south:
+      target_vnum: '010304904945'
+    west:
+      target_vnum: '010304904935'
+  name: Entre os Galhos
+  vnum: '010304904934'
+- description: |-
+    Os galhos seguem para fora do tronco e você está mais ou menos na metade
+    da altura da árvore.  Os galhos aqui ainda são grossos, parecendo fortes o
+    suficiente para aguentar bastante peso.  Os galhos seguem para o norte e
+    leste.
+  exits:
+    east:
+      target_vnum: '010304904934'
+    north:
+      target_vnum: '010304904936'
+  name: Entre os Galhos
+  vnum: '010304904935'
+- description: |-
+    Os galhos seguem para fora do tronco e você está mais ou menos na metade
+    da altura da árvore.  Os galhos aqui ainda são grossos, parecendo fortes o
+    suficiente para aguentar bastante peso.  Existem saídas para todas as
+    direções mas o tronco central fica ao leste.
+  exits:
+    east:
+      target_vnum: '010304904902'
+    north:
+      target_vnum: '010304904937'
+    south:
+      target_vnum: '010304904935'
+    west:
+      target_vnum: '010304904948'
+  name: Entre os Galhos
+  vnum: '010304904936'
+- description: "Os galhos da Grande Ã\x81rvore se abrem, formando uma Ã¡rea muito\
+    \ grande, que\nabriga as inúmeras casinhas de um sem número de exóticas criaturinhas,\
+    \ que\nde alguma maneira, coabitam neste lugar, pacíficamente.  Os galhos seguem\n\
+    para o sul e leste."
+  exits:
+    east:
+      target_vnum: '010304904930'
+    south:
+      target_vnum: '010304904936'
+  name: Entre os Galhos
+  vnum: '010304904937'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para leste.
+  exits:
+    east:
+      target_vnum: '010304904939'
+  name: Os Galhos Externos
+  vnum: '010304904938'
+- description: |-
+    Neste ponto, os galhos seguem para todas as direções.  O único caminho
+    que parece seguro através dos troncos fica ao sul.
+  exits:
+    east:
+      target_vnum: '010304904940'
+    north:
+      target_vnum: '010304904950'
+    south:
+      target_vnum: '010304904930'
+    west:
+      target_vnum: '010304904938'
+  name: Os Galhos Externos
+  vnum: '010304904939'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para oeste.
+  exits:
+    west:
+      target_vnum: '010304904939'
+  name: Os Galhos Externos
+  vnum: '010304904940'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para o sul.
+  exits:
+    south:
+      target_vnum: '010304904942'
+  name: Os Galhos Externos
+  vnum: '010304904941'
+- description: |-
+    Neste ponto, os galhos seguem em todas as direções e o único caminho que
+    parece seguro através dos ramos do tronco fica a oeste.
+  exits:
+    east:
+      target_vnum: '010304904951'
+    north:
+      target_vnum: '010304904941'
+    south:
+      target_vnum: '010304904943'
+    west:
+      target_vnum: '010304904932'
+  name: Os Galhos Externos
+  vnum: '010304904942'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para o norte.
+  exits:
+    east:
+      target_vnum: '010304904945'
+    north:
+      target_vnum: '010304904942'
+  name: Os Galhos Externos
+  vnum: '010304904943'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para o oeste.
+  exits:
+    west:
+      target_vnum: '010304904945'
+  name: Os Galhos Externos
+  vnum: '010304904944'
+- description: |-
+    Deste ponto, os galhos seguem em todas as direções, e o único caminho que
+    parece seguro através dos troncos fica ao norte.
+  exits:
+    east:
+      target_vnum: '010304904944'
+    north:
+      target_vnum: '010304904934'
+    south:
+      target_vnum: '010304904952'
+    west:
+      target_vnum: '010304904943'
+  name: Os Galhos Externos
+  vnum: '010304904945'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para o leste.
+  exits: {}
+  name: Os Galhos Externos
+  vnum: '010304904946'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para o norte.
+  exits:
+    north:
+      target_vnum: '010304904948'
+  name: Os Galhos Externos
+  vnum: '010304904947'
+- description: |-
+    Deste ponto, os galhos seguem em todas as direções e o único caminho que
+    parece seguro através dos troncos fica ao leste.
+  exits:
+    east:
+      target_vnum: '010304904936'
+    north:
+      target_vnum: '010304904949'
+    south:
+      target_vnum: '010304904947'
+    west:
+      target_vnum: '010304904953'
+  name: Os Galhos Externos
+  vnum: '010304904948'
+- description: |-
+    Uma queda desta altura seria um pouco desconfortável e olhando daqui
+    parece que há muito mais para subir.  A única direção possível de ser
+    seguida através do galho é para o sul.
+  exits:
+    south:
+      target_vnum: '010304904948'
+  name: Os Galhos Externos
+  vnum: '010304904949'
+- description: |-
+    O galho termina em um lugar sem saída, elevando-se sobre a zona dos
+    iniciantes.  Ele se estende um pouco mais, porém, ele não parece ser forte o
+    suficiente para suportar qualquer peso a mais.  A única saída segura para se
+    voltar ao tronco da árvore é retornar pelo mesmo caminho que se usou na
+    vinda.
+  exits:
+    south:
+      target_vnum: '010304904939'
+  name: Em Um Galho Externo
+  vnum: '010304904950'
+- description: |-
+    O galho termina em um lugar sem saída, elevando-se sobre a zona dos
+    iniciantes.  Ele se estende um pouco mais, porém, ele não parece ser forte o
+    suficiente para suportar qualquer peso a mais.  A única saída segura para se
+    voltar ao tronco da árvore é retornar pelo mesmo caminho que se usou na
+    vinda.
+  exits:
+    west:
+      target_vnum: '010304904942'
+  name: Em Um Galho Externo
+  vnum: '010304904951'
+- description: |-
+    O galho termina em um lugar sem saída, elevando-se sobre a zona dos
+    iniciantes.  Ele se estende um pouco mais, porém, ele não parece ser forte o
+    suficiente para suportar qualquer peso a mais.  A única saída segura para se
+    voltar ao tronco da árvore é retornar pelo mesmo caminho que se usou na
+    vinda.
+  exits:
+    north:
+      target_vnum: '010304904945'
+  name: Em Um Galho Externo
+  vnum: '010304904952'
+- description: |-
+    O galho termina em um lugar sem saída, elevando-se sobre a zona dos
+    iniciantes.  Ele se estende um pouco mais, porém, ele não parece ser forte o
+    suficiente para suportar qualquer peso a mais.  A única saída segura para se
+    voltar ao tronco da árvore é retornar pelo mesmo caminho que se usou na
+    vinda.
+  exits:
+    east:
+      target_vnum: '010304904948'
+  name: Em Um Galho Externo
+  vnum: '010304904953'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    east:
+      target_vnum: '010304904955'
+    north:
+      target_vnum: '010304904963'
+    south:
+      target_vnum: '010304904903'
+    west:
+      target_vnum: '010304904961'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904954'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    south:
+      target_vnum: '010304904956'
+    west:
+      target_vnum: '010304904954'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904955'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    east:
+      target_vnum: '010304904966'
+    north:
+      target_vnum: '010304904955'
+    south:
+      target_vnum: '010304904957'
+    west:
+      target_vnum: '010304904903'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904956'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    north:
+      target_vnum: '010304904956'
+    west:
+      target_vnum: '010304904958'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904957'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    east:
+      target_vnum: '010304904957'
+    north:
+      target_vnum: '010304904903'
+    south:
+      target_vnum: '010304904969'
+    west:
+      target_vnum: '010304904959'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904958'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    east:
+      target_vnum: '010304904958'
+    north:
+      target_vnum: '010304904960'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904959'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    east:
+      target_vnum: '010304904903'
+    north:
+      target_vnum: '010304904961'
+    south:
+      target_vnum: '010304904959'
+    west:
+      target_vnum: '010304904972'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904960'
+- description: |-
+    Esses são os galhos mais fortes da parte mais alta da árvore.  Eles
+    facilmente se comparam aos braços musculosos de um gigante.  Porém, mesmo
+    sendo grossos e muito fortes, estes galhos balançam perigosamente com o
+    vento.
+  exits:
+    east:
+      target_vnum: '010304904954'
+    south:
+      target_vnum: '010304904960'
+  name: Viajando Por Dentro dos Galhos
+  vnum: '010304904961'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    east:
+      target_vnum: '010304904963'
+  name: Os Galhos Externos
+  vnum: '010304904962'
+- description: |-
+    O constante movimentar dos galhos pelo vento é quase hipnótico, trazendo
+    a você uma tremenda sensação de paz.  Este suave balanço não oferece risco
+    nenhum.  Os galhos da árvore se expandem para todos os lados.
+  exits:
+    east:
+      target_vnum: '010304904964'
+    north:
+      target_vnum: '010304904974'
+    south:
+      target_vnum: '010304904954'
+    west:
+      target_vnum: '010304904962'
+  name: Os Galhos Externos
+  vnum: '010304904963'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    west:
+      target_vnum: '010304904963'
+  name: Os Galhos Externos
+  vnum: '010304904964'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    south:
+      target_vnum: '010304904966'
+  name: Os Galhos Externos
+  vnum: '010304904965'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    east:
+      target_vnum: '010304904975'
+    north:
+      target_vnum: '010304904965'
+    south:
+      target_vnum: '010304904967'
+    west:
+      target_vnum: '010304904956'
+  name: Os Galhos Externos
+  vnum: '010304904966'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    north:
+      target_vnum: '010304904966'
+  name: Os Galhos Externos
+  vnum: '010304904967'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    west:
+      target_vnum: '010304904969'
+  name: Os Galhos Externos
+  vnum: '010304904968'
+- description: |-
+    O constante movimentar dos galhos pelo vento é quase hipnótico, trazendo
+    a você uma tremenda sensação de paz.  Este suave balanço não oferece risco
+    nenhum.  Os galhos da árvore se expandem para todos os lados.
+  exits:
+    east:
+      target_vnum: '010304904968'
+    north:
+      target_vnum: '010304904958'
+    south:
+      target_vnum: '010304904976'
+    west:
+      target_vnum: '010304904970'
+  name: Os Galhos Externos
+  vnum: '010304904969'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    east:
+      target_vnum: '010304904969'
+  name: Os Galhos Externos
+  vnum: '010304904970'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    north:
+      target_vnum: '010304904972'
+  name: Os Galhos Externos
+  vnum: '010304904971'
+- description: |-
+    O constante movimentar dos galhos pelo vento é quase hipnótico, trazendo
+    a você uma tremenda sensação de paz.  Este suave balanço não oferece risco
+    nenhum.  Os galhos da árvore se expandem para todos os lados.
+  exits:
+    east:
+      target_vnum: '010304904960'
+    north:
+      target_vnum: '010304904973'
+    south:
+      target_vnum: '010304904971'
+    west:
+      target_vnum: '010304904977'
+  name: Os Galhos Externos
+  vnum: '010304904972'
+- description: "O topo da Grande Ã\x81rvore Ã© maravilhoso!  HÃ¡ uma vista estonteante\
+    \ que\npermite contemplar todo o esplendor destas vastas terras.  Uma suave brisa\n\
+    está soprando, chacoalhando todas as folhas dos ramos e fazendo com que os\ngalhos\
+    \ se balancem ligeiramente."
+  exits:
+    south:
+      target_vnum: '010304904972'
+  name: Os Galhos Externos
+  vnum: '010304904973'
+- description: |-
+    Esse é o ponto mais extremo que o galho alcança, tanto em limite de peso
+    quanto em altura.  O único caminho para seguir é voltar pelo mesmo caminho
+    que você usou para chegar até aqui.
+  exits:
+    south:
+      target_vnum: '010304904963'
+  name: O Limite do Galho
+  vnum: '010304904974'
+- description: |-
+    Esse é o ponto mais extremo que o galho alcança, tanto em limite de peso
+    quanto em altura.  O único caminho para seguir é voltar pelo mesmo caminho
+    que você usou para chegar até aqui.
+  exits:
+    west:
+      target_vnum: '010304904966'
+  name: O Limite do Galho
+  vnum: '010304904975'
+- description: |-
+    Esse é o ponto mais extremo que o galho alcança, tanto em limite de peso
+    quanto em altura.  O único caminho para seguir é voltar pelo mesmo caminho
+    que você usou para chegar até aqui.
+  exits:
+    north:
+      target_vnum: '010304904969'
+  name: O Limite do Galho
+  vnum: '010304904976'
+- description: |-
+    Esse é o ponto mais extremo que o galho alcança, tanto em limite de peso
+    quanto em altura.  O único caminho para seguir é voltar pelo mesmo caminho
+    que você usou para chegar até aqui.
+  exits:
+    east:
+      target_vnum: '010304904972'
+  name: O Limite do Galho
+  vnum: '010304904977'
+- description: |-
+    Você está bem abaixo da copa de uma grande árvore.  Uma idéia absurda
+    começa a tomar conta de sua cabeça: subir (o que parece ser, na verdade, a
+    única maneira de se sair daqui a pé...).  Para isso, pelo que você consegue
+    ver, você deve subir por um galho que está muito próximo do solo.
+  exits:
+    up:
+      target_vnum: '010304904900'
+  name: "Abaixo da Ã\x81rvore"
+  vnum: '010304904978'
+- description: |-
+    Você está bem abaixo da árvore, só que, ao invés de estar no lado por
+    onde chegou, acabou indo parar em um outro lugar. Um enorme galho se extende
+    daqui até alcançar exatamente a entrada do templo, sendo possível chegar
+    nele rapidamente.
+  exits:
+    up:
+      target_vnum: '010304904900'
+    west:
+      target_vnum: '010000000050'
+  name: "Abaixo da Ã\x81rvore"
+  vnum: '010304904979'

@@ -1,0 +1,874 @@
+- description: |-
+    Este é o amplo caminho de terra atraves da viscosa, verde, fresca zona rural de Midgaard.
+    Há um grande portao enferrujado em um arco de pedra a leste. O caminho segue em direcao ao oeste.
+  exits:
+    east:
+      target_vnum: '010103603625'
+    west:
+      target_vnum: '010000200201'
+  name: O Caminho de Terra
+  vnum: '010000200200'
+- description: |-
+    Este é o amplo caminho de terra atraves da viscosa, verde, fresca zona rural de Midgaard.
+    Ao norte é possivel ver as lindas montanhas Dragonhelm bem ao longe.
+    O caminho de terra continua para o leste e o oeste.
+  exits:
+    east:
+      target_vnum: '010000200200'
+    west:
+      target_vnum: '010000200202'
+  name: O Caminho de Terra
+  vnum: '010000200201'
+- description: |-
+    Este é o amplo caminho de terra atraves da viscosa, verde, fresca zona rural de Midgaard.
+    Ao norte é possivel ver as lindas montanhas Dragonhelm bem ao longe.
+    O caminho de terra continua para o leste e o oeste.
+  exits:
+    east:
+      target_vnum: '010000200201'
+    west:
+      target_vnum: '010000200203'
+  name: O Caminho de Terra
+  vnum: '010000200202'
+- description: |-
+    Neste ponto do caminho existe uma curva para o norte.
+    O caminho de terra continua para o norte e o oeste.
+  exits:
+    east:
+      target_vnum: '010000200202'
+    north:
+      target_vnum: '010000200204'
+  name: Uma Curva no Caminho
+  vnum: '010000200203'
+- description: |-
+    As terras ao redor estão cobertas por uma fina camada de neve.
+    Ao norte existe uma ponte, coberta de neve e gelo.
+    O caminho de terra continua para o norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200205'
+    south:
+      target_vnum: '010000200203'
+  name: O Caminho de Terra
+  vnum: '010000200204'
+- description: |-
+    A ponte é feita de um metal vermelho, com alguns detalhes dourados.  Em cada extremidade tem um grande portal.
+    Por toda a ponte existe uma espessa camada de neve.
+    Há no leste e oeste um pequeno rio congelado.  O caminho continua para o norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200206'
+    south:
+      target_vnum: '010000200204'
+  name: Uma Ponte Congelada
+  vnum: '010000200205'
+- description: |-
+    Aqui a camada de neve está mais espessa. As vezes é possivel ver um floco de neve caindo.
+    Ao norte existe uma bifurcação no caminho e sul uma ponte coberta de neve.
+  exits:
+    north:
+      target_vnum: '010000200207'
+    south:
+      target_vnum: '010000200205'
+  name: Um Caminho Congelado
+  vnum: '010000200206'
+- description: |-
+    Aqui o caminho se divide. A noroeste ele continua em direção a uma grande construção que parece um castelo.
+    A nordeste é possivel ver algumas montanhas e a entrada de uma mina.
+    Uma grande e solitaria árvore cresce a leste, quase sem folhas. As poucas folhas que restam estão cobertas de neve.
+    O caminho continua para sul.
+  exits:
+    northeast:
+      target_vnum: '010000200209'
+    northwest:
+      target_vnum: '010000200208'
+    south:
+      target_vnum: '010000200206'
+  name: Uma Bifurcacão
+  vnum: '010000200207'
+- description: |-
+    Neste lugar, a camada de neve está mais fina. O caminho é um pouco ingreme e bem iluminado.
+    Existe uma bifurcação a sudoeste.
+  exits:
+    southwest:
+      target_vnum: '010000200207'
+  name: O Caminho da Mina
+  vnum: '010000200208'
+- description: |-
+    As terras ao redor estão cobertas por uma grossa camada de neve.
+    Ao norte existe um grande castelo azulado. Existe uma bifurcação a sudeste.
+  exits:
+    north:
+      target_vnum: '010000200210'
+    southeast:
+      target_vnum: '010000200207'
+  name: O Caminho Noroeste
+  vnum: '010000200209'
+- description: |-
+    Aqui não há neve cobrindo o caminho. Apenas uma camada escorregadia de gelo.  Existe um grande castelo de gelo ao norte.
+    O chão tem um brilho azulado e o caminho continua para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200211'
+    south:
+      target_vnum: '010000200209'
+  name: Proximo ao Castelo
+  vnum: '010000200210'
+- description: |-
+    Todo o castelo é feito de gelo e brilha com o mesmo brilho azulado do chão.
+    A muralha externa possui seis metros de altura e tem uma aparencia bem reforçada.
+    Uma estrada de gelo acompanha a parte externa da muralha.
+  exits:
+    east:
+      target_vnum: '010000200244'
+    north:
+      target_vnum: '010000200212'
+    south:
+      target_vnum: '010000200210'
+    west:
+      target_vnum: '010000200276'
+  name: Em Frente aos Portões
+  vnum: '010000200211'
+- description: |-
+    Ao sul portões de gelo foram construidos para proteger este lugar. Feitos de espinhos de gelo que cruzam na diagonal, eles parecem sair da terra.
+    Ao sul é possivel ver a estrada da muralha.
+  exits:
+    north:
+      target_vnum: '010000200280'
+    south:
+      target_vnum: '010000200211'
+  name: Os Portões de Gelo
+  vnum: '010000200212'
+- description: Aqui é a parte do pátio mais proxima dos portões. Algumas marcas podem
+    ser vistas no chao.
+  exits:
+    east:
+      target_vnum: '010000200214'
+    north:
+      target_vnum: '010000200216'
+    northeast:
+      target_vnum: '010000200217'
+    northwest:
+      target_vnum: '010000200215'
+    south:
+      target_vnum: '010000200280'
+    west:
+      target_vnum: '010000200218'
+  name: O Pátio Aberto
+  vnum: '010000200213'
+- description: |-
+    Este é o canto sudeste do pátio. Um pouco mais a sudeste existe uma torre de observação.
+    Algumas marcas podem ser vistas no chão.
+  exits:
+    north:
+      target_vnum: '010000200215'
+    northeast:
+      target_vnum: '010000200216'
+    southeast:
+      target_vnum: '010000200219'
+    west:
+      target_vnum: '010000200213'
+  name: O Pátio Aberto
+  vnum: '010000200214'
+- description: |-
+    Este é o canto nordeste do pátio. Um pouco mais a nordeste existe uma torre de observação.
+    Algumas marcas podem ser vistas no chão.
+  exits:
+    northwest:
+      target_vnum: '010000200220'
+    south:
+      target_vnum: '010000200214'
+    southeast:
+      target_vnum: '010000200213'
+    west:
+      target_vnum: '010000200216'
+  name: O Patio Aberto
+  vnum: '010000200215'
+- description: Aqui é a parte do pátio mais proxima da parte nobre do castelo. Algumas
+    marcas podem ser vistas no chao.
+  exits:
+    east:
+      target_vnum: '010000200215'
+    north:
+      target_vnum: '010000200223'
+    south:
+      target_vnum: '010000200213'
+    southeast:
+      target_vnum: '010000200214'
+    southwest:
+      target_vnum: '010000200218'
+    west:
+      target_vnum: '010000200217'
+  name: O Pátio Aberto
+  vnum: '010000200216'
+- description: |-
+    Este é o canto noroeste do pátio. Um pouco mais a noroeste existe uma torre de observação.
+    Algumas marcas podem ser vistas no chão.
+  exits:
+    east:
+      target_vnum: '010000200216'
+    northeast:
+      target_vnum: '010000200221'
+    south:
+      target_vnum: '010000200218'
+    southeast:
+      target_vnum: '010000200213'
+  name: O Pátio Aberto
+  vnum: '010000200217'
+- description: |-
+    Este é o canto sudoeste do pátio. Um pouco mais a sudoeste existe uma torre de observação.
+    Algumas marcas podem ser vistas no chão.
+  exits:
+    east:
+      target_vnum: '010000200213'
+    north:
+      target_vnum: '010000200217'
+    northwest:
+      target_vnum: '010000200216'
+    southwest:
+      target_vnum: '010000200222'
+  name: O Pátio Aberto
+  vnum: '010000200218'
+- description: Totalmente feita de gelo, esta torre circular mede mais de 30 metros
+    de altura. Possui diametro suficiente para abrigar dezenas de soldados ao mesmo
+    tempo no seu interior.
+  exits:
+    northeast:
+      target_vnum: '010000200214'
+    southeast:
+      target_vnum: '010000200225'
+  name: A Torre Sudeste
+  vnum: '010000200219'
+- description: Totalmente feita de gelo, esta torre circular mede mais de 30 metros
+    de altura. Possui diametro suficiente para abrigar dezenas de soldados ao mesmo
+    tempo no seu interior.
+  exits:
+    northwest:
+      target_vnum: '010000200227'
+    southwest:
+      target_vnum: '010000200215'
+  name: A Torre Nordeste
+  vnum: '010000200220'
+- description: Totalmente feita de gelo, esta torre circular mede mais de 30 metros
+    de altura. Possui diametro suficiente para abrigar dezenas de soldados ao mesmo
+    tempo no seu interior.
+  exits:
+    northeast:
+      target_vnum: '010000200229'
+    southeast:
+      target_vnum: '010000200217'
+  name: A Torre Noroeste
+  vnum: '010000200221'
+- description: Totalmente feita de gelo, esta torre circular mede mais de 30 metros
+    de altura. Possui diametro suficiente para abrigar dezenas de soldados ao mesmo
+    tempo no seu interior.
+  exits:
+    northwest:
+      target_vnum: '010000200218'
+    southwest:
+      target_vnum: '010000200231'
+  name: A Torre Sudoeste
+  vnum: '010000200222'
+- description: Esta sala é destinada a todos que aguardam uma audiencia. No canto
+    leste existe uma escadaria que leva as partes subterraneas.
+  exits:
+    down:
+      target_vnum: '010000200233'
+    north:
+      target_vnum: '010000200224'
+    south:
+      target_vnum: '010000200216'
+  name: A Sala de Espera
+  vnum: '010000200223'
+- description: A altura e largura deste lugar são consideraveis. O chão está dividido
+    em três partes, sendo a parte norte em posição mais elevada e a parte sul a mais
+    inferior.
+  exits:
+    northeast:
+      target_vnum: '010000200278'
+    northwest:
+      target_vnum: '010000200281'
+    south:
+      target_vnum: '010000200223'
+  name: A Sala do Trono
+  vnum: '010000200224'
+- description: |-
+    A area interna e' um espaco circular de varios metros. Este parece ser um espaco dedicado ao treinamento dos soldados.
+    O chao e as paredes tem um brilho azulado.
+    Uma escada em espiral acompanha as paredes e algumas janelas foram colocadas em alguns pontos.
+  exits:
+    northeast:
+      target_vnum: '010000200219'
+    up:
+      target_vnum: '010000200226'
+  name: Dentro da Torre Sudeste
+  vnum: '010000200225'
+- description: |-
+    Daqui é possivel ver os arredores do castelo e a entrada de uma mina.
+    Um enorme tabuleiro de xadrez e um quartel tambem podem ser vistos a distancia.
+    Algumas fendas permitem atingir os inimigos que se aproximam.
+  exits:
+    down:
+      target_vnum: '010000200225'
+  name: O Topo da Torre Sudeste
+  vnum: '010000200226'
+- description: |-
+    A area interna e' um espaco circular de varios metros. Este parece ser um espaco dedicado a alimentação.
+    O chao e as paredes tem um brilho azulado.
+    Uma escada em espiral acompanha as paredes e algumas janelas foram colocadas em alguns pontos.
+  exits:
+    southwest:
+      target_vnum: '010000200220'
+    up:
+      target_vnum: '010000200228'
+  name: Dentro da Torre Nordeste
+  vnum: '010000200227'
+- description: |-
+    Daqui é possivel ver os arredores do castelo e a estrada que circula o castelo.
+    Cinco torres podem ser vistas a distancia.
+    Algumas fendas permitem atingir os inimigos que se aproximam.
+  exits:
+    down:
+      target_vnum: '010000200227'
+  name: O Topo da Torre Nordeste
+  vnum: '010000200228'
+- description: |-
+    A area interna e' um espaco circular de varios metros.
+    O chao e as paredes tem um brilho azulado. Alguns espinhos de gelo saem do chão dificultando o caminho.
+    Uma escada em espiral acompanha as paredes e algumas janelas foram colocadas em alguns pontos.
+  exits:
+    southeast:
+      target_vnum: '010000200221'
+    up:
+      target_vnum: '010000200230'
+  name: Dentro da Torre Noroeste
+  vnum: '010000200229'
+- description: |-
+    Daqui é possivel ver os arredores do castelo e a estrada que circula o castelo.
+    Uma grande floresta pode ser vista a distancia.
+    Algumas fendas permitem atingir os inimigos que se aproximam.
+  exits:
+    down:
+      target_vnum: '010000200229'
+  name: O Topo da Torre Noroeste
+  vnum: '010000200230'
+- description: |-
+    A area interna e' um espaco circular de varios metros.
+    O chao e as paredes tem um brilho azulado.
+    Uma escada em espiral acompanha as paredes e algumas janelas foram colocadas em alguns pontos.
+    O caminho da porta até as escadas é um pequeno labirinto. Paredes de gelo estão continuamente se movendo e mudando o interior da torre.
+  exits:
+    northwest:
+      target_vnum: '010000200222'
+    up:
+      target_vnum: '010000200232'
+  name: Dentro da Torre Sudoeste
+  vnum: '010000200231'
+- description: |-
+    Daqui é possivel ver os arredores do castelo.
+    Uma floresta e algumas casas podem ser vistas a distancia.
+    Algumas fendas permitem atingir os inimigos que se aproximam.
+  exits:
+    down:
+      target_vnum: '010000200231'
+  name: O Topo da Torre Sudoeste
+  vnum: '010000200232'
+- description: |-
+    O ambiente aqui é pouco iluminado. Alguns sons abafados podem ser ouvidos.
+    Uma pesada porta de metal com caveiras penduradas foi colocada aqui.
+    Gritos e sons de tortura parecem vir do outro lado da porta.
+    Um vento gelado pode ser sentido constantemente.
+  exits:
+    north:
+      target_vnum: '010000200234'
+    up:
+      target_vnum: '010000200223'
+  name: A Prisão Gelada
+  vnum: '010000200233'
+- description: |-
+    Um corredor escuro e estreito. Uma pesada porta de metal foi colocada ao sul.
+    Ao norte o corredor continua na escuridão.
+    O som de gritos continua cada vez mais alto.
+    Um vento gelado pode ser sentido constantemente.
+  exits:
+    north:
+      target_vnum: '010000200235'
+    south:
+      target_vnum: '010000200233'
+  name: O Corredor da Prisão
+  vnum: '010000200234'
+- description: |-
+    Um corredor escuro e estreito. O corredor continua ao norte e ao sul.
+    Ao leste e oeste existem duas celas numeradas.
+  exits:
+    east:
+      target_vnum: '010000200236'
+    north:
+      target_vnum: '010000200238'
+    south:
+      target_vnum: '010000200234'
+    west:
+      target_vnum: '010000200237'
+  name: O Corredor da Prisão
+  vnum: '010000200235'
+- description: |-
+    Esta cela tem o formato quadrado e bem pequena. Algumas correntes de gelo estão presas no teto.
+    No chão existem algumas poças de água.
+  exits:
+    west:
+      target_vnum: '010000200235'
+  name: Cela 1
+  vnum: '010000200236'
+- description: |-
+    Esta cela é grande o suficiente para caber um grupo pequeno de aventureiros. As paredes são totalmente lisas.
+    Alguns ossos podem ser vistos no canto mais distante da porta. Não é possivel ouvir qualquer som do exterior.
+  exits:
+    east:
+      target_vnum: '010000200235'
+  name: Cela 2
+  vnum: '010000200237'
+- description: |-
+    Um corredor escuro e estreito. O corredor continua ao norte e ao sul.
+    Ao leste e oeste existem duas celas numeradas.
+  exits:
+    east:
+      target_vnum: '010000200239'
+    north:
+      target_vnum: '010000200241'
+    south:
+      target_vnum: '010000200235'
+    west:
+      target_vnum: '010000200240'
+  name: O Corredor da Prisão
+  vnum: '010000200238'
+- description: |-
+    Esta cela possui espinhos de gelo que saem de todos os lados. Qualquer movimento aqui faz aparecer um espinho novo que retorna ao local de origem depois de alguns segundos.
+    Os espinhos parecem ter comprimentos variaveis.
+  exits:
+    west:
+      target_vnum: '010000200238'
+  name: Cela 3
+  vnum: '010000200239'
+- description: |-
+    As paredes são lisas exceto por alguns buracos. O chão tem a forma de uma grade.
+    Jatos de água gelada espirram dos buracos na parede em intervalos irregulares.
+  exits:
+    east:
+      target_vnum: '010000200238'
+  name: Cela 4
+  vnum: '010000200240'
+- description: |-
+    Um corredor escuro e estreito. O corredor continua ao sul.
+    Duas portas de gelo foram coladas aqui.
+  exits:
+    east:
+      target_vnum: '010000200242'
+    south:
+      target_vnum: '010000200238'
+    west:
+      target_vnum: '010000200243'
+  name: O Final do Corredor
+  vnum: '010000200241'
+- description: |-
+    As paredes e o chão são a unica coisa de pedra neste local.
+    Algumas camas de madeira foram dispostas ao redor das paredes e nenhum som do exterior pode ser ouvido.
+  exits:
+    west:
+      target_vnum: '010000200241'
+  name: O Dormitorio
+  vnum: '010000200242'
+- description: |-
+    Diversos manquins com armaduras e armas foram colocados aqui.
+    Os manequins são feitos de gelo como tudo ao redor e dispostos em fileiras.
+    Nenhum som do exterior pode ser ouvido.
+  exits:
+    east:
+      target_vnum: '010000200241'
+  name: O Deposito de Armas e Armaduras
+  vnum: '010000200243'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao norte.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200245'
+    west:
+      target_vnum: '010000200211'
+  name: A Estrada da Muralha
+  vnum: '010000200244'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao norte.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200246'
+    west:
+      target_vnum: '010000200244'
+  name: A Estrada da Muralha
+  vnum: '010000200245'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao norte.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200247'
+    west:
+      target_vnum: '010000200245'
+  name: A Estrada da Muralha
+  vnum: '010000200246'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha de gelo.
+    O caminho segue norte e oeste.
+  exits:
+    north:
+      target_vnum: '010000200248'
+    west:
+      target_vnum: '010000200246'
+  name: A Curva na Estrada
+  vnum: '010000200247'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200249'
+    south:
+      target_vnum: '010000200247'
+  name: A Estrada da Muralha
+  vnum: '010000200248'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200250'
+    south:
+      target_vnum: '010000200248'
+  name: A Estrada da Muralha
+  vnum: '010000200249'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200251'
+    south:
+      target_vnum: '010000200249'
+  name: A Estrada da Muralha
+  vnum: '010000200250'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200252'
+    south:
+      target_vnum: '010000200250'
+  name: A Estrada da Muralha
+  vnum: '010000200251'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200253'
+    south:
+      target_vnum: '010000200251'
+  name: A Estrada da Muralha
+  vnum: '010000200252'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200254'
+    south:
+      target_vnum: '010000200252'
+  name: A Estrada da Muralha
+  vnum: '010000200253'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200255'
+    south:
+      target_vnum: '010000200253'
+  name: A Estrada da Muralha
+  vnum: '010000200254'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao oeste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200256'
+    south:
+      target_vnum: '010000200254'
+  name: A Estrada da Muralha
+  vnum: '010000200255'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha.
+    O caminho segue para oeste e sul.
+  exits:
+    south:
+      target_vnum: '010000200255'
+    west:
+      target_vnum: '010000200257'
+  name: A Curva na Estrada
+  vnum: '010000200256'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao sul.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200256'
+    west:
+      target_vnum: '010000200258'
+  name: A Estrada da Muralha
+  vnum: '010000200257'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao sul.
+    Algumas marcas foram deixadas na muralha.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200257'
+    south:
+      target_vnum: '010000200277'
+    west:
+      target_vnum: '010000200259'
+  name: A Estrada da Muralha
+  vnum: '010000200258'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao sul.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200258'
+    west:
+      target_vnum: '010000200260'
+  name: A Estrada da Muralha
+  vnum: '010000200259'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao sul.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200259'
+    west:
+      target_vnum: '010000200261'
+  name: A Estrada da Muralha
+  vnum: '010000200260'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao sul.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200260'
+    west:
+      target_vnum: '010000200262'
+  name: A Estrada da Muralha
+  vnum: '010000200261'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao sul.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200261'
+    west:
+      target_vnum: '010000200263'
+  name: A Estrada da Muralha
+  vnum: '010000200262'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao sul.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200262'
+    west:
+      target_vnum: '010000200264'
+  name: A Estrada da Muralha
+  vnum: '010000200263'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha.
+    O caminho segue para leste e sul.
+  exits:
+    east:
+      target_vnum: '010000200263'
+    south:
+      target_vnum: '010000200265'
+  name: A Curva na Estrada
+  vnum: '010000200264'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200264'
+    south:
+      target_vnum: '010000200266'
+  name: A Estrada da Muralha
+  vnum: '010000200265'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200265'
+    south:
+      target_vnum: '010000200267'
+  name: A Estrada da Muralha
+  vnum: '010000200266'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200266'
+    south:
+      target_vnum: '010000200268'
+  name: A Estrada da Muralha
+  vnum: '010000200267'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200267'
+    south:
+      target_vnum: '010000200269'
+  name: A Estrada da Muralha
+  vnum: '010000200268'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200268'
+    south:
+      target_vnum: '010000200270'
+  name: A Estrada da Muralha
+  vnum: '010000200269'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200269'
+    south:
+      target_vnum: '010000200271'
+  name: A Estrada da Muralha
+  vnum: '010000200270'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200270'
+    south:
+      target_vnum: '010000200272'
+  name: A Estrada da Muralha
+  vnum: '010000200271'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao leste.
+    O caminho segue para norte e sul.
+  exits:
+    north:
+      target_vnum: '010000200271'
+    south:
+      target_vnum: '010000200273'
+  name: A Estrada da Muralha
+  vnum: '010000200272'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha de gelo.
+    O caminho segue norte e leste.
+  exits:
+    east:
+      target_vnum: '010000200274'
+    north:
+      target_vnum: '010000200272'
+  name: A Curva na Estrada
+  vnum: '010000200273'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao norte.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200275'
+    west:
+      target_vnum: '010000200273'
+  name: A Estrada da Muralha
+  vnum: '010000200274'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao norte.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200276'
+    west:
+      target_vnum: '010000200274'
+  name: A Estrada da Muralha
+  vnum: '010000200275'
+- description: |-
+    Esta estrada de gelo acompanha a alta muralha construida ao norte.
+    O caminho segue para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010000200211'
+    west:
+      target_vnum: '010000200275'
+  name: A Estrada da Muralha
+  vnum: '010000200276'
+- description: |-
+    Uma passagem escura e estreita. Enormes teias de aranha cobrem os cantos.
+    O ar aqui parece estagnado, como se nunca se esta passagem nunca tivesse sido utilizada.
+  exits:
+    north:
+      target_vnum: '010000200258'
+    south:
+      target_vnum: '010000200279'
+  name: A Passagem Secreta
+  vnum: '010000200277'
+- description: |-
+    Diversas moedas, joias e baus foram empilhados aqui de qualquer forma.
+    Algumas garrafas dificeis de achar tambem podem ser encontradas aqui.
+    É tanta coisa empilhada que fica dificil se orientar aqui para quem não tem costume de entrar aqui.
+  exits:
+    east:
+      target_vnum: '010000200279'
+    southeast:
+      target_vnum: '010000200224'
+  name: O Tesouro do Castelo
+  vnum: '010000200278'
+- description: |-
+    Um ambiente luxuoso. Estantes com diversas garrafas raras estão espalhadas perto das paredes.
+    No centro do quarto, uma cama enorme foi colocada. Um perfume doce e inebriante cobre este lugar.
+  exits:
+    east:
+      target_vnum: '010000200281'
+    north:
+      target_vnum: '010000200277'
+    west:
+      target_vnum: '010000200278'
+  name: Os Aposentos Reais
+  vnum: '010000200279'
+- description: |-
+    Ao norte portões de gelo foram construidos para proteger este lugar. Feitos de espinhos de gelo que cruzam na diagonal, eles parecem sair da terra.
+    Ao norte é possivel ver um pátio aberto.
+  exits:
+    north:
+      target_vnum: '010000200213'
+    south:
+      target_vnum: '010000200212'
+  name: Os Portões de Gelo
+  vnum: '010000200280'
+- description: |-
+    Jm ambiente calmo e tranquilo, com diversos tomos antigos.  Muitas estantes
+    foram colocadas aqui, onde repousam livros e pergaminhos azulados.
+  exits:
+    southwest:
+      target_vnum: '010000200224'
+    west:
+      target_vnum: '010000200279'
+  name: Biblioteca Glida
+  vnum: '010000200281'

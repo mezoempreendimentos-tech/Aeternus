@@ -1,0 +1,796 @@
+- description: |-
+    Você se encontra no final de uma estrada poeirenta, perto da margem
+    ocidental da grande Floresta de Haon-Dor.  Ao leste, você vê a estrada que
+    segue de volta para Midgaard e ao oeste uma trilha que segue pelo
+    desfiladeiro que através da floresta.
+  exits:
+    east:
+      target_vnum: '010306006090'
+    north:
+      target_vnum: '010102002030'
+    west:
+      target_vnum: '010306006001'
+  name: No Limite da Floresta
+  vnum: '010306006000'
+- description: |-
+    Você está sobre uma trilha que segue através da floresta.  Ao norte
+    parece haver um pequeno caminho que penetra dentro da escuridão.  Para o
+    leste está o limite da floresta e para o oeste, a trilha parece penetrar
+    mais fundo na floresta.
+  exits:
+    east:
+      target_vnum: '010306006000'
+    north:
+      target_vnum: '010306006060'
+    west:
+      target_vnum: '010306006002'
+  name: Uma Trilha Através da Floresta Clara
+  vnum: '010306006001'
+- description: |-
+    Você está numa trilha que ao leste vai para o desfiladeiro e para o
+    oeste, atravessa a floresta.  Para o oeste, a floresta vai gradualmente se
+    tornando mais densa.  Um pequeno caminho segue na direção sul.
+  exits:
+    east:
+      target_vnum: '010306006001'
+    south:
+      target_vnum: '010306006011'
+    west:
+      target_vnum: '010306006003'
+  name: Uma Trilha Através da Floresta Clara
+  vnum: '010306006002'
+- description: |-
+    Você está numa trilha que vai serpenteando para leste e oeste através da
+    floresta densa.  Para o leste, a floresta gradualmente vai parecendo ser
+    mais clara.
+  exits:
+    east:
+      target_vnum: '010306006002'
+    west:
+      target_vnum: '010306006004'
+  name: Uma Trilha Através da Floresta Densa
+  vnum: '010306006003'
+- description: |-
+    Você está numa trilha que ao leste vai para o desfiladeiro e para o
+    oeste, atravessa a floresta.  Ao oeste, as árvores são imensas e suas copas
+    são tão espessas e fechadas, que naquele trecho, floresta permanece quase na
+    escuridão total.  Um pequeno caminho segue na direção sul, através das
+    árvores.
+  exits:
+    east:
+      target_vnum: '010306006003'
+    south:
+      target_vnum: '010306006005'
+    west:
+      target_vnum: '010306106100'
+  name: Uma Trilha Através da Floresta Clara
+  vnum: '010306006004'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue rumo ao norte e ao sul.
+  exits:
+    north:
+      target_vnum: '010306006004'
+    south:
+      target_vnum: '010306006006'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006005'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue rumo ao norte e leste.
+  exits:
+    east:
+      target_vnum: '010306006007'
+    north:
+      target_vnum: '010306006005'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006006'
+- description: |-
+    Você está em um pequeno caminho que segue através da densa floresta.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.  A
+    floresta gradualmente vai ficando mais clara, ao leste.  Os caminhos seguem
+    para o leste, oeste e sul.
+  exits:
+    east:
+      target_vnum: '010306006008'
+    south:
+      target_vnum: '010306006012'
+    west:
+      target_vnum: '010306006006'
+  name: Uma Encruzilhada na Densa Floresta
+  vnum: '010306006007'
+- description: |-
+    Você está em uma clareira na floresta.  Muitos pedaços de madeira fresca,
+    dos mais variados tamanhos, estão no chão e pesados troncos estão guardados
+    em perfeita ordem, formando uma grande pilha, presos por estacas que foram
+    batidas no chão.  Caminhos seguem para norte, leste e oeste.
+  exits:
+    east:
+      target_vnum: '010306006009'
+    north:
+      target_vnum: '010306006011'
+    west:
+      target_vnum: '010306006007'
+  name: A Floresta Mais Clara
+  vnum: '010306006008'
+- description: |-
+    Você está do lado de fora de uma pequena cabana, totalmente construída
+    com pesadas toras de madeira.  Há uma porta de madeira para o norte e
+    pequenos caminhos seguem para o oeste e sul, através das árvores.
+  exits:
+    north:
+      target_vnum: '010306006010'
+    south:
+      target_vnum: '010306006014'
+    west:
+      target_vnum: '010306006008'
+  name: Do Lado de Fora de Uma Pequena Cabana na Floresta
+  vnum: '010306006009'
+- description: |-
+    Você está dentro de uma pequena cabana de um dormitório apenas, feita
+    totalmente com pesadas toras de madeira.  Está parcamente mobiliada,
+    contendo apenas o mais básico para para uma vida doméstica, como por
+    exemplo, cama, uma cadeira e uma mesa.
+  exits:
+    south:
+      target_vnum: '010306006009'
+  name: Dentro da Cabana
+  vnum: '010306006010'
+- description: |-
+    Você está em um pequeno caminho que segue através da floresta.  As
+    árvores são bem altas e finas.  Caminhos seguem para o norte e sul.
+  exits:
+    east:
+      target_vnum: '010128028000'
+    north:
+      target_vnum: '010306006002'
+    south:
+      target_vnum: '010306006008'
+  name: Um Pequeno Caminho Através da Floresta Clara
+  vnum: '010306006011'
+- description: |-
+    Você está em um pequeno caminho que segue através da floresta densa.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.
+    Caminhos seguem para o norte, sul e leste.
+  exits:
+    east:
+      target_vnum: '010306006013'
+    north:
+      target_vnum: '010306006007'
+    south:
+      target_vnum: '010306006021'
+  name: Uma Encruzilhada na Floresta Densa
+  vnum: '010306006012'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue rumo ao oestee leste.
+  exits:
+    east:
+      target_vnum: '010306006014'
+    west:
+      target_vnum: '010306006012'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006013'
+- description: |-
+    Você está em um pequeno caminho que segue através da floresta densa.  A
+    floresta gradualmente vai ficando mais clara, ao norte.
+  exits:
+    east:
+      target_vnum: '010306006015'
+    north:
+      target_vnum: '010306006009'
+    west:
+      target_vnum: '010306006013'
+  name: Uma Encruzilhada na Floresta Densa
+  vnum: '010306006014'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue rumo ao sul e oeste.
+  exits:
+    south:
+      target_vnum: '010306006016'
+    west:
+      target_vnum: '010306006014'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006015'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue rumo ao sul e leste.
+  exits:
+    east:
+      target_vnum: '010306006028'
+    north:
+      target_vnum: '010306006015'
+    south:
+      target_vnum: '010306006017'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006016'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  A
+    floresta parece estar se tornando mais clara, ao oeste.  O caminho continua
+    rumo ao norte oeste.
+  exits:
+    north:
+      target_vnum: '010306006016'
+    west:
+      target_vnum: '010306006018'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006017'
+- description: |-
+    Você está em um pequeno caminho que segue através da floresta.  O caminho
+    segue norte, para um pequeno campo e outros caminhos seguem para leste e
+    oeste, para dentro da floresta densa.
+  exits:
+    east:
+      target_vnum: '010306006017'
+    north:
+      target_vnum: '010306006023'
+    west:
+      target_vnum: '010306006019'
+  name: Uma Encruzilhada na Floresta Densa
+  vnum: '010306006018'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  A
+    floresta parece estar se tornando mais clara, ao leste.  O caminho continua
+    rumo ao norte leste.
+  exits:
+    east:
+      target_vnum: '010306006018'
+    north:
+      target_vnum: '010306006020'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006019'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  As
+    copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue rumo ao sul e oeste.
+  exits:
+    south:
+      target_vnum: '010306006019'
+    west:
+      target_vnum: '010306006021'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006020'
+- description: |-
+    Você está num pequeno caminho que segue através da densa floresta.  Para
+    o oeste, você vê a entrada de uma caverna escura, que leva para um pequeno
+    declive.  O caminho segue rumo ao norte e leste.
+  exits:
+    east:
+      target_vnum: '010306006020'
+    north:
+      target_vnum: '010306006012'
+    west:
+      target_vnum: '010306006022'
+  name: Um Pequeno Caminho na Densa Floresta
+  vnum: '010306006021'
+- description: |-
+    Você está dentro de uma caverna natural.  Vários tipos de entulho, cobrem
+    o chão de pedra, emanando um cheiro insuportável, que deixa o ar pesado e
+    difícil de respirar.  A única saída óbvia é ao leste.
+  exits:
+    east:
+      target_vnum: '010306006021'
+  name: Dentro da Caverna
+  vnum: '010306006022'
+- description: |-
+    Você está em um campo coberto por grama em algum lugar da floresta.  A
+    grama alta quase alcança a sua cintura e os ínúmeros carvalhos e faias ao
+    redor, quase formam uma compacta parede, encobrindo o lado leste do campo.
+    Ao nordeste, você quase pode ver um pequeno lago.  Um pequeno caminho vai
+    rumo ao sul, através das árvores, e o campo se abre para o norte e oeste.
+  exits:
+    east:
+      target_vnum: '010306006024'
+    north:
+      target_vnum: '010306006026'
+    south:
+      target_vnum: '010306006018'
+  name: O Campo Gramado
+  vnum: '010306006023'
+- description: |-
+    Você se encontra na parte mais baixa do campo gramado, ao sul do pequeno
+    lago.  A grama aqui foi totalmente pisoteada pelos inúmeros aniamais que
+    aqui chegam para matar a sede, deixando no chão, os mais diversos tipos de
+    pegadas.  Ao oeste, você vê um pequeno vão na maciça parede de árvores que
+    rodeiam o campo e ao norte, um pequeno lago.
+  exits:
+    north:
+      target_vnum: '010306006025'
+    west:
+      target_vnum: '010306006023'
+  name: A Parte Mais Baixa do Campo Gramado
+  vnum: '010306006024'
+- description: |-
+    A grama não cresce perto do lago, sendo substituida por lama coberta
+    pelas pegadas dos animais locais.  Quando você chega mais perto, muitos
+    animais se espalham por entre a grama e alguns se embrenham pela floresta.
+    Para o oeste, você vê pássaros circulando bem alto no céu e ao norte você vê
+    um pequeno lago cercado por plantas bem altas.  O campo segue em direção ao
+    sul e a floresta se fecha ao leste.
+  exits:
+    north:
+      target_vnum: '010306006027'
+    south:
+      target_vnum: '010306006024'
+    west:
+      target_vnum: '010306006026'
+  name: Ao Lado do Lago em um Campo Gramado
+  vnum: '010306006025'
+- description: "Ã\x80 medida que vocÃª se aproxima, animais carniceiros e pÃ¡ssaros\
+    \ de todos os\ntipos se espalham, ficando para trás apenas os mais corajosos e\
+    \ destemidos,\nque ficam rodeando a carcaça de um porco do mato.  Os abutres circulam\
+    \ sobre\na sua cabeça e pequenos animais, escondidos por entre a ravina, olham\n\
+    fixamente para você.  A grama aqui foi muito pisoteada e uma grande área em\n\
+    volta da carcaça está repleta de sangue.  Uma trilha segue para baixo, em\ndireção\
+    \ ao lago e você pode ver que ao sul há um pequeno caminho que segue\nem direção\
+    \ da floresta."
+  exits:
+    east:
+      target_vnum: '010306006025'
+    south:
+      target_vnum: '010306006023'
+  name: O Lado Norte do Campo Gramado
+  vnum: '010306006026'
+- description: |-
+    Você está bem no meio de um pequeno lago, alimentado por uma pequena
+    nascente de água que atravessa a floresta noroeste.  A água não é muito
+    límpida mas você pode ver peixinhos nadando em sua volta.  A margem está
+    limpa ao sul, oferecendo um lugar seguro para se retornar ao campo.
+  exits:
+    south:
+      target_vnum: '010306006025'
+  name: No Lago
+  vnum: '010306006027'
+- description: |-
+    Você está em um pequeno caminho que segue em direção à floresta densa.
+    As copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue para o oeste e sul.
+  exits:
+    south:
+      target_vnum: '010306006029'
+    west:
+      target_vnum: '010306006016'
+  name: Um Pequeno Caminho Na Floresta Densa
+  vnum: '010306006028'
+- description: |-
+    Você está no final de um pequeno caminho que segue através da densa
+    floresta.  As copas das velhas árvores deixam a floresta com uma iluminação
+    surreal.  Esta difícil clareira está dominada por um imenso carvalho,
+    provávelmente a maior árvore de toda a floresta.  O caminho do norte retorna
+    para a floresta.
+  exits:
+    north:
+      target_vnum: '010306006028'
+    up:
+      target_vnum: '010306006030'
+  name: "Perto de Uma Grande Ã\x81rvore na Floresta Densa"
+  vnum: '010306006029'
+- description: |-
+    Você está em um imenso carvalho, mais ou menos um terço abaixo do topo.
+    Embora os galhos de cima bloqueiem práticamente toda a luz, ainda assim você
+    consegue enxergar.  Pequenos animais e alguns pássaros fogem depressa, à
+    medida que você se aproxima, escondendo-se nas folhas dos galhos de cima.
+    Você poderia fácilmente escorregar de volta para o chão ou continuar indo
+    para cima.  Um grande galho bem à sua esquerda parece ser uma boa rota de
+    saída.
+  exits:
+    down:
+      target_vnum: '010306006029'
+    up:
+      target_vnum: '010306006032'
+    west:
+      target_vnum: '010306006031'
+  name: Nos Galhos Mais Baixos do Grande Carvalho
+  vnum: '010306006030'
+- description: |-
+    Este galho forte se projeta em direção ao caminho que segue para o oeste
+    e talvez você seja capaz de pular daqui.  Alguns esquilos do campo se
+    escondem, com medo de sua presença cada vez mais próxima, deixando-o sózinho
+    na companhia de uma suave brisa.  Para o norte você pode ver uma pequena
+    cabana meio escondida entre as árvores e para o sudeste há o que parece ser
+    algum tipo de clareira, com muitos abutres voando por ali.
+  exits:
+    down:
+      target_vnum: '010306006016'
+    east:
+      target_vnum: '010306006030'
+  name: Em um Galho do Grande Carvalho
+  vnum: '010306006031'
+- description: |-
+    Você está em um imenso carvalho, prestes a alcançar o seu topo.  Os
+    galhos que estão acima, bloqueiam a luz mas há iluminação suficiente para
+    que você possa enxergar.  Alguns pássaros permaneceram aqui, observando-o
+    através da folhagem e fora do seu alcance.  Marcas de garras estão gravadas
+    no tronco e você pensa que o animal que fêz isso deve ser muito forte.  Com
+    certeza deve ser algum tipo de felino grande, que deve viver nos arredores,
+    portanto, todo cuidado é pouco.  Você pode continuar subindo ainda mais ou
+    então escorregar até o solo.
+  exits:
+    down:
+      target_vnum: '010306006030'
+    up:
+      target_vnum: '010306006033'
+  name: Na Metade do Caminho para o Topo do Grande Carvalho
+  vnum: '010306006032'
+- description: |-
+    A copa da imensa árvore parece dançar ao vento e você sabe que chegou ao
+    ponto mais alto que poderia atingir com segurança.  O tronco da árvore
+    mostra evidências de que pequenas batalhas aconteceram aqui pois existem
+    ninhos destruídos e penas espalhadas por todo lado.  Olhando em volta, você
+    vê toda a floresta que se espalha em todas as direções.  Para o leste você
+    enxerga a cidade de Midgaard e para o sul um rio que corta um abismo.  Para
+    o norte e oeste daqui pode-se ver um pequeno vilarejo e uma imensa montanha
+    que preenche o horizonte.
+  exits:
+    down:
+      target_vnum: '010306006032'
+  name: No Topo do Grande Carvalho
+  vnum: '010306006033'
+- description: |-
+    Você está em um pequeno caminho sombreado, que segue através das árvores.
+    A floresta gradualmente vai ficando mais clara ao leste.  O caminho continua
+    para o norte e para o sul você vê a trilha principal.
+  exits:
+    north:
+      target_vnum: '010306006065'
+    south:
+      target_vnum: '010306006001'
+  name: Um Caminho Escuro Através da Floresta
+  vnum: '010306006060'
+- description: |-
+    Você está em um pequeno caminho sombreado, que segue através das árvores.
+    A floresta gradualmente vai ficando mais clara ao oeste.  O caminho continua
+    para o norte e oeste.
+  exits:
+    north:
+      target_vnum: '010306006066'
+    west:
+      target_vnum: '010306006062'
+  name: Um Caminho Escuro Através da Floresta
+  vnum: '010306006061'
+- description: |-
+    Você está em um pequeno caminho sombreado que segue através da densa
+    floresta.  As copas das velhas árvores deixam a floresta com uma iluminação
+    surreal.  Ao norte você vê uma pequena clareira.  Outras trilhas seguem para
+    o leste e oeste.
+  exits:
+    east:
+      target_vnum: '010306006061'
+    north:
+      target_vnum: '010306006067'
+    west:
+      target_vnum: '010306006063'
+  name: Um Caminho Escuro Através da Densa Floresta
+  vnum: '010306006062'
+- description: |-
+    Você está em um pequeno caminho sombreado que segue através da densa
+    floresta.  As copas das velhas árvores deixam a floresta com uma iluminação
+    surreal.  O caminho segue para o norte e para o leste.
+  exits:
+    east:
+      target_vnum: '010306006062'
+    north:
+      target_vnum: '010306006068'
+  name: Um Caminho Escuro Através da Densa Floresta
+  vnum: '010306006063'
+- description: |-
+    Você está em um pequeno caminho sombreado que segue através da densa
+    floresta.  As copas das velhas árvores deixam a floresta com uma iluminação
+    surreal.  O caminho segue para o norte e para o sul.
+  exits:
+    north:
+      target_vnum: '010306006069'
+    south:
+      target_vnum: '010306106100'
+  name: Um Caminho Escuro Através da Densa Floresta
+  vnum: '010306006064'
+- description: |-
+    Você está em um pequeno caminho sombreado, que segue através das árvores.
+    A floresta gradualmente vai ficando mais densa a oeste.  O caminho segue
+    daqui para o sul e oeste.
+  exits:
+    south:
+      target_vnum: '010306006060'
+    west:
+      target_vnum: '010306006066'
+  name: Um Caminho Escuro Através da Densa Floresta
+  vnum: '010306006065'
+- description: |-
+    Você se encontra em uma bifurcação no pequeno caminho ensombreado que
+    segue através das árvores.  A floresta gradualmente se torna mais densa para
+    o oeste.  O caminho segue para o norte e para o sul aqui e também prossegue
+    para o leste.
+  exits:
+    east:
+      target_vnum: '010306006065'
+    north:
+      target_vnum: '010306006071'
+    south:
+      target_vnum: '010306006061'
+  name: Uma Encruzilhada no Caminho Escuro Através da Densa Floresta
+  vnum: '010306006066'
+- description: |-
+    Você está em uma pequena clareira, ao lado de uma grande árvore caída.
+    Um grande números de árvores já estão em decomposição mas alguns pedaços
+    ainda estão inteiros, espalhados pela clareira.  Os caminhos seguem para o
+    norte e para o sul.
+  exits:
+    north:
+      target_vnum: '010306006072'
+    south:
+      target_vnum: '010306006062'
+  name: "Na Grande Ã\x81rvore CaÃ­da"
+  vnum: '010306006067'
+- description: |-
+    Você está em um pequeno caminho sombreado que segue através da densa
+    floresta.  As copas das velhas árvores deixam a floresta com uma iluminação
+    surreal.  O caminho segue para o norte, sul e para o oeste.
+  exits:
+    north:
+      target_vnum: '010306006073'
+    south:
+      target_vnum: '010306006063'
+    west:
+      target_vnum: '010306006069'
+  name: Um Cruzamento no Caminho Escuro
+  vnum: '010306006068'
+- description: |-
+    Você está em um pequeno caminho sombreado que segue através da densa
+    floresta.  As copas das velhas árvores deixam a floresta com uma iluminação
+    surreal.  O caminho segue para o sul e para o leste.
+  exits:
+    east:
+      target_vnum: '010306006068'
+    south:
+      target_vnum: '010306006064'
+  name: Um Caminho Escuro Através da Densa Floresta
+  vnum: '010306006069'
+- description: |-
+    Você está vagando em meio às árvores da floresta clara, sem a ajuda de um
+    caminho ou trilha.  Muita luz do sol passa através das árvores aqui, fazendo
+    com que sua viagem seja um pouco mais fácil.  Pequenos animais fogem
+    assustados quando você se aproxima.  Você não está mais em nenhum caminho
+    portanto pode escolher qualquer direção.
+  exits:
+    east:
+      target_vnum: '010306006070'
+    north:
+      target_vnum: '010306006078'
+    south:
+      target_vnum: '010306006061'
+    west:
+      target_vnum: '010306006072'
+  name: Fora dos Limites da Floresta Escura
+  vnum: '010306006070'
+- description: |-
+    Você está em um pequeno caminho sombreado, que segue através das árvores.
+    A floresta gradualmente vai ficando mais clara ao leste.  Os caminhos seguem
+    para o oeste e sul e você pensa ter visto um pequeno caminho voltado para o
+    lado leste.
+  exits:
+    east:
+      target_vnum: '010306006070'
+    south:
+      target_vnum: '010306006066'
+    west:
+      target_vnum: '010306006072'
+  name: Um Caminho Escuro Através da Floresta
+  vnum: '010306006071'
+- description: |-
+    Você se encontra em uma bifurcação no pequeno caminho ensombreado que
+    segue através das árvores.  A floresta gradualmente se torna mais densa para
+    o oeste.  O caminho segue para o norte e para o leste e você vê uma pequena
+    clareira ao sul.
+  exits:
+    east:
+      target_vnum: '010306006071'
+    north:
+      target_vnum: '010306006075'
+    south:
+      target_vnum: '010306006067'
+  name: Um Caminho Escuro Através da Floresta
+  vnum: '010306006072'
+- description: |-
+    Você está em um pequeno caminho escuro que segue através da densa
+    floresta.  Para o norte o terreno vai ficando bastante montanhoso e difícil.
+    As copas das velhas árvores deixam a floresta com uma iluminação surreal.  O
+    caminho segue para o norte e para o sul.
+  exits:
+    north:
+      target_vnum: '010306006076'
+    south:
+      target_vnum: '010306006068'
+  name: Um Caminho Escuro Através da Densa Floresta
+  vnum: '010306006073'
+- description: |-
+    Você acabou de deixar o caminho escuro e se encontra bem no começo de uma
+    trilha bastante curta.  Parece que alguém começou a abrir uma clareira aqui,
+    em meio aos arbustos, sem contudo ter terminado.  Você pode seguir em
+    qualquer direção mas o caminho parece ser para o oeste.
+  exits:
+    east:
+      target_vnum: '010306006070'
+    north:
+      target_vnum: '010306006074'
+    south:
+      target_vnum: '010306006070'
+    west:
+      target_vnum: '010306006075'
+  name: Uma Pequena Trilha Através da Floresta
+  vnum: '010306006074'
+- description: |-
+    Você se encontra em um pequeno caminho ensombreado que segue através das
+    árvores.  A floresta gradualmente se torna mais densa para o oeste e para o
+    noroeste o terreno é bastante montanhoso.  O caminho segue para o norte e
+    para o sul.  Para o leste você vê uma trilha que corta o lado mais novo da
+    floresta.
+  exits:
+    east:
+      target_vnum: '010306006074'
+    north:
+      target_vnum: '010306006078'
+    south:
+      target_vnum: '010306006072'
+  name: Um Caminho Escuro Através da Densa Floresta
+  vnum: '010306006075'
+- description: |-
+    Você se encontra em meio a muitas árvores espremidas entre algumas
+    colinas.  Você perdeu sua trilha há algum tempo atrás e agora precisa
+    confiar em seus instintos para guiá-lo.  O chão é bastante pedregoso e
+    difícil de caminhar e apenas as plantas mais fortes conseguem sobreviver
+    aqui.  As copas das velhas árvores dão às colinas uma iluminação surreal.
+  exits:
+    east:
+      target_vnum: '010306006077'
+    north:
+      target_vnum: '010306006081'
+    south:
+      target_vnum: '010306006076'
+    west:
+      target_vnum: '010306006073'
+  name: Na Floresta Densa Entre as Colinas
+  vnum: '010306006076'
+- description: |-
+    Você se encontra em meio a muitas árvores espremidas entre algumas
+    colinas.  Você perdeu sua trilha há algum tempo atrás e agora precisa
+    confiar em seus instintos para guiá-lo.  O chão é bastante pedregoso e
+    difícil de caminhar e apenas as plantas mais fortes conseguem sobreviver
+    aqui.  As copas das velhas árvores dão às colinas uma iluminação surreal.
+  exits:
+    east:
+      target_vnum: '010306006076'
+    north:
+      target_vnum: '010306006081'
+    south:
+      target_vnum: '010306006079'
+    west:
+      target_vnum: '010306006077'
+  name: Na Floresta Densa Entre as Colinas
+  vnum: '010306006077'
+- description: |-
+    Você chegou ao final de um caminho escuro que segue por entre as árvores.
+    A floresta é bastante espessa aqui e o chão é bastante pedregoso e difícil
+    de se caminhar, retardando seu progresso.  O caminho segue para o sul e para
+    o norte.
+  exits:
+    north:
+      target_vnum: '010109309301'
+    south:
+      target_vnum: '010306006075'
+  name: Na Floresta Densa Entre as Colinas
+  vnum: '010306006078'
+- description: |-
+    Você se encontra em meio a muitas árvores espremidas entre algumas
+    colinas.  Você perdeu sua trilha há algum tempo atrás e agora precisa
+    confiar em seus instintos para guiá-lo.  O chão é bastante pedregoso e
+    difícil de caminhar e apenas as plantas mais fortes conseguem sobreviver
+    aqui.  As copas das velhas árvores dão às colinas uma iluminação surreal.
+  exits:
+    east:
+      target_vnum: '010306006078'
+    north:
+      target_vnum: '010306006081'
+    south:
+      target_vnum: '010306006073'
+    west:
+      target_vnum: '010306006080'
+  name: Na Floresta Densa Entre as Colinas
+  vnum: '010306006079'
+- description: |-
+    Você se encontra em meio a muitas árvores espremidas entre algumas
+    colinas.  Você perdeu sua trilha há algum tempo atrás e agora precisa
+    confiar em seus instintos para guiá-lo.  O chão é bastante pedregoso e
+    difícil de caminhar e apenas as plantas mais fortes conseguem sobreviver
+    aqui.  As copas das velhas árvores dão às colinas uma iluminação surreal.
+  exits:
+    east:
+      target_vnum: '010306006082'
+    north:
+      target_vnum: '010306006081'
+    south:
+      target_vnum: '010306006076'
+    west:
+      target_vnum: '010306006081'
+  name: Na Floresta Densa Entre as Colinas
+  vnum: '010306006080'
+- description: |-
+    Você se encontra em meio a muitas árvores espremidas entre algumas
+    colinas.  Você perdeu sua trilha há algum tempo atrás e agora precisa
+    confiar em seus instintos para guiá-lo.  O chão é bastante pedregoso e
+    difícil de caminhar e apenas as plantas mais fortes conseguem sobreviver
+    aqui.  As copas das velhas árvores dão às colinas uma iluminação surreal.
+  exits:
+    east:
+      target_vnum: '010306006077'
+    north:
+      target_vnum: '010306006078'
+    south:
+      target_vnum: '010306006076'
+    west:
+      target_vnum: '010306006073'
+  name: Na Floresta Densa Entre as Colinas
+  vnum: '010306006081'
+- description: |-
+    Você se encontra em meio a muitas árvores espremidas em uma colina.  A
+    densa floresta se espalha por todos os lados e as copas das velhas árvores
+    dão às colinas uma iluminação surreal.
+  exits:
+    east:
+      target_vnum: '010306006079'
+    north:
+      target_vnum: '010306006081'
+    south:
+      target_vnum: '010306006076'
+  name: Na Floresta Densa Entre as Colinas
+  vnum: '010306006082'
+- description: |-
+    Você está em uma estrada empoeirada que vai para o leste-oeste através
+    das planícies ocidentais.  Ocasionalmente pode-se ver caçadores e
+    aventureiros por aqui, vindos ou indo para a floresta.  Ao leste está a
+    grande cidade de Midgaard e para o oeste a estrada termina em uma estreita
+    trilha que segue para uma grande floresta.  Uma outra trilha, a sul, leva a
+    uma floresta de ar intocado.
+  exits:
+    east:
+      target_vnum: '010306006091'
+    south:
+      target_vnum: '010102702792'
+    west:
+      target_vnum: '010306006000'
+  name: Uma Estrada Através das Planícies
+  vnum: '010306006090'
+- description: |-
+    Você está em uma estrada empoeirada que vai para o leste-oeste através
+    das planícies ocidentais.  Ocasionalmente pode-se ver caçadores e
+    aventureiros por aqui, vindos ou indo para a floresta.  Ao leste está a
+    grande cidade de Midgaard e para o oeste a estrada termina em uma estreita
+    trilha que segue para uma grande floresta.
+  exits:
+    east:
+      target_vnum: '010306006092'
+    west:
+      target_vnum: '010306006090'
+  name: Uma Estrada Através das Planícies
+  vnum: '010306006091'
+- description: |-
+    Você está em uma estrada empoeirada que vai para o leste-oeste através
+    das planícies ocidentais.  Ocasionalmente pode-se ver caçadores e
+    aventureiros por aqui, vindos ou indo para a floresta.  Ao norte uma grande
+    cabana de troncos com uma fogueira foi erguida. Ao leste está a
+    grande cidade de Midgaard e para o oeste a estrada termina em uma estreita
+    trilha que segue para uma grande floresta.
+  exits:
+    east:
+      target_vnum: '010103003052'
+    north:
+      target_vnum: '010103003089'
+    west:
+      target_vnum: '010306006091'
+  name: Uma Estrada Através das Planícies
+  vnum: '010306006092'

@@ -1,0 +1,514 @@
+- description: |-
+    Você está na entrada do labirinto do milharal.   Vários mugidos
+    e relinchos podem ser ouvidos de fora do labirinto.  Um pequeno
+    aviso foi posto no chão daqui.  Ele parece importante.  Você pode
+    ir para ao norte, no milharal, ou fugir voltando ao oeste.
+  exits:
+    north:
+      target_vnum: '010109109103'
+    west:
+      target_vnum: '010128028038'
+  name: Antes do Labirinto do Milharal
+  vnum: '010109109100'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109102'
+    north:
+      target_vnum: '010109109107'
+  name: O Labirinto do Milharal
+  vnum: '010109109101'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109108'
+    west:
+      target_vnum: '010109109101'
+  name: O Labirinto do Milharal
+  vnum: '010109109102'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109109'
+  name: O Labirinto do Milharal
+  vnum: '010109109103'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109105'
+    north:
+      target_vnum: '010109109110'
+  name: O Labirinto do Milharal
+  vnum: '010109109104'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109111'
+    west:
+      target_vnum: '010109109104'
+  name: O Labirinto do Milharal
+  vnum: '010109109105'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109112'
+  name: O Labirinto do Milharal
+  vnum: '010109109106'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109113'
+    south:
+      target_vnum: '010109109101'
+  name: O Labirinto do Milharal
+  vnum: '010109109107'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109109'
+    north:
+      target_vnum: '010109109114'
+    south:
+      target_vnum: '010109109102'
+  name: O Labirinto do Milharal
+  vnum: '010109109108'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109110'
+    north:
+      target_vnum: '010109109115'
+    south:
+      target_vnum: '010109109103'
+    west:
+      target_vnum: '010109109108'
+  name: O Labirinto do Milharal
+  vnum: '010109109109'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    south:
+      target_vnum: '010109109104'
+    west:
+      target_vnum: '010109109109'
+  name: O Labirinto do Milharal
+  vnum: '010109109110'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    south:
+      target_vnum: '010109109105'
+  name: O Labirinto do Milharal
+  vnum: '010109109111'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109113'
+    north:
+      target_vnum: '010109109118'
+    south:
+      target_vnum: '010109109106'
+  name: O Labirinto do Milharal
+  vnum: '010109109112'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    south:
+      target_vnum: '010109109107'
+    west:
+      target_vnum: '010109109112'
+  name: O Labirinto do Milharal
+  vnum: '010109109113'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109120'
+    south:
+      target_vnum: '010109109108'
+  name: O Labirinto do Milharal
+  vnum: '010109109114'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109116'
+    south:
+      target_vnum: '010109109109'
+  name: O Labirinto do Milharal
+  vnum: '010109109115'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109122'
+    west:
+      target_vnum: '010109109115'
+  name: O Labirinto do Milharal
+  vnum: '010109109116'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109118'
+    north:
+      target_vnum: '010109109124'
+  name: O Labirinto do Milharal
+  vnum: '010109109117'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109119'
+    south:
+      target_vnum: '010109109112'
+    west:
+      target_vnum: '010109109117'
+  name: O Labirinto do Milharal
+  vnum: '010109109118'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109126'
+    west:
+      target_vnum: '010109109118'
+  name: O Labirinto do Milharal
+  vnum: '010109109119'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109121'
+    south:
+      target_vnum: '010109109114'
+  name: O Labirinto do Milharal
+  vnum: '010109109120'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109122'
+    west:
+      target_vnum: '010109109120'
+  name: O Labirinto do Milharal
+  vnum: '010109109121'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    south:
+      target_vnum: '010109109116'
+    west:
+      target_vnum: '010109109121'
+  name: O Labirinto do Milharal
+  vnum: '010109109122'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109124'
+    north:
+      target_vnum: '010109109129'
+  name: O Labirinto do Milharal
+  vnum: '010109109123'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109125'
+    south:
+      target_vnum: '010109109117'
+    west:
+      target_vnum: '010109109123'
+  name: O Labirinto do Milharal
+  vnum: '010109109124'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109131'
+    west:
+      target_vnum: '010109109124'
+  name: O Labirinto do Milharal
+  vnum: '010109109125'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109127'
+    south:
+      target_vnum: '010109109119'
+  name: O Labirinto do Milharal
+  vnum: '010109109126'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109133'
+    west:
+      target_vnum: '010109109126'
+  name: O Labirinto do Milharal
+  vnum: '010109109127'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109134'
+  name: O Labirinto do Milharal
+  vnum: '010109109128'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109130'
+    south:
+      target_vnum: '010109109123'
+  name: O Labirinto do Milharal
+  vnum: '010109109129'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109135'
+    west:
+      target_vnum: '010109109129'
+  name: O Labirinto do Milharal
+  vnum: '010109109130'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    south:
+      target_vnum: '010109109125'
+  name: O Labirinto do Milharal
+  vnum: '010109109131'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109137'
+  name: O Labirinto do Milharal
+  vnum: '010109109132'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109134'
+    south:
+      target_vnum: '010109109127'
+  name: O Labirinto do Milharal
+  vnum: '010109109133'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    south:
+      target_vnum: '010109109128'
+    west:
+      target_vnum: '010109109133'
+  name: O Labirinto do Milharal
+  vnum: '010109109134'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109136'
+    south:
+      target_vnum: '010109109130'
+  name: O Labirinto do Milharal
+  vnum: '010109109135'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109137'
+    west:
+      target_vnum: '010109109135'
+  name: O Labirinto do Milharal
+  vnum: '010109109136'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109138'
+    north:
+      target_vnum: '010109109140'
+    south:
+      target_vnum: '010109109132'
+    west:
+      target_vnum: '010109109136'
+  name: O Labirinto do Milharal
+  vnum: '010109109137'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    east:
+      target_vnum: '010109109139'
+    west:
+      target_vnum: '010109109137'
+  name: O Labirinto do Milharal
+  vnum: '010109109138'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109141'
+    west:
+      target_vnum: '010109109138'
+  name: O Labirinto do Milharal
+  vnum: '010109109139'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    south:
+      target_vnum: '010109109139'
+  name: O Labirinto do Milharal
+  vnum: '010109109140'
+- description: |-
+    Você está em pé, em meio ao milharal.   Os pés de milho são tão
+    altos que você não consegue nem ver seus caules.  De repente, você
+    percebe que este é um milharal mágico e reza para que possa
+    encontrar a saída deste lugar.
+  exits:
+    north:
+      target_vnum: '010109109142'
+    south:
+      target_vnum: '010109109139'
+  name: O Labirinto do Milharal
+  vnum: '010109109141'
+- description: |-
+    Você finalmente chegou ao fim do labirinto.   Apenas vá a norte e não
+    volte para trás.  A não ser se você queira se perder mais um pouco. :P
+  exits:
+    north:
+      target_vnum: '010128028038'
+  name: A Saída
+  vnum: '010109109142'

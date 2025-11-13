@@ -1,0 +1,981 @@
+- description: |-
+    Este caminho consiste numa ladeira que se afasta da estrada principal
+    para o oeste.  Em alguns pontos a trilha parece cair na escuridão das pedras
+    cinzas e da grama cinzenta de montanha que predominam por aqui.  A trilha
+    leva, geralmente, em direção ao leste e para o alto em direção a um solo
+    rochoso.  Existe um sinal aqui, aparentemente fora do lugar, neste
+    turbulento território.
+  exits:
+    east:
+      target_vnum: '010103303301'
+    west:
+      target_vnum: '010103503500'
+  name: Uma Trilha Estreita
+  vnum: '010103303300'
+- description: |-
+    O que mal poderia ser chamada de trilha, leva para oeste na parte
+    traseira da montanha, leste para uma construção muito estranha e para baixo
+    em direção a um pequeno vale onde se encontra uma pequena casa antecedida de
+    um jardim bem cuidado.  A porta para a casa está aberta e atraente,
+    convidando você para uma visita.
+  exits:
+    down:
+      target_vnum: '010103303302'
+    east:
+      target_vnum: '010506906905'
+    west:
+      target_vnum: '010103303300'
+  name: Uma Trilha Estreita
+  vnum: '010103303301'
+- description: |-
+    Você se encontra no final oeste de um vale muito, muito pequeno, com
+    espaço suficiente para apenas uma casa, que se encontra para o leste.  Você
+    pode ver daqui que a porta para a aconchegante cabana está aberta e
+    atraente, mas seu interior parece muito escuro.  Um caminho rodeado por
+    arbustos leva direto para o edifício e termina onde você está parado: bem no
+    mais fácil caminho de volta para cima das montanhas.
+  exits:
+    east:
+      target_vnum: '010103303303'
+    up:
+      target_vnum: '010103303301'
+  name: Um Caminho Bem Cuidado
+  vnum: '010103303302'
+- description: |-
+    O caminho que você está vai da porta da frente da cabana a leste, até a
+    beira do pequeno vale a oeste.  A casa parece silenciosa...  Silenciosa
+    demais.  Uma pequena voz dentro da sua cabeça, a mesma voz que salvou sua
+    vida em incontáveis ocasiões, parece estar lhe dizendo que alguma coisa está
+    muito, muito errada por aqui.
+  exits:
+    east:
+      target_vnum: '010103303304'
+    west:
+      target_vnum: '010103303302'
+  name: A Parte Externa de Uma Casa
+  vnum: '010103303303'
+- description: |-
+    Devastação surge diante de seus olhos.
+    A fornalha foi destruída em vários pedaços, a maior parte se encontra ao
+    longo da porta preta.  Martelos, pinças e bigornas acham-se espalhados em
+    uma grande desordem, e a cama do ferreiro ainda arde, mas sem fogo.  Este
+    lugar foi completamente destruído por mais de um homem, você presume pelos
+    vários rastros que existem na poeira...
+  exits:
+    east:
+      target_vnum: '010103303305'
+    west:
+      target_vnum: '010103303303'
+  name: A Ferraria
+  vnum: '010103303304'
+- description: |-
+    Este jardim foi mantido, provavelmente em alguma ocasião, bem cuidado e
+    sem ervas daninhas.  Infelizmente, parece que alguém foi descuidado no
+    manuseio de uma bola de fogo.  Não há nada mais aqui além das marcas de
+    destruição e cinzas, e ainda permanece os restos de uma trilha levando para
+    a margem leste deste pequeno vale.
+  exits:
+    east:
+      target_vnum: '010103303306'
+    west:
+      target_vnum: '010103303304'
+  name: O Pequeno Jardim
+  vnum: '010103303305'
+- description: |-
+    Você está numa cadeia de montanhas, logo ao leste do pequeno vale.  Você
+    avista uma pequena cabana assentada no centro do vale, e o cume continua
+    para o sul.  Olhando para os desvios que levam para um penhasco ao norte e
+    oeste, você prefere não tomar aquelas direções.
+  exits:
+    south:
+      target_vnum: '010103303307'
+    west:
+      target_vnum: '010103303305'
+  name: Uma Cadeia de Montanhas
+  vnum: '010103303306'
+- description: |-
+    A cadeia de montanhas continua ao norte daqui, e amplia-se para um
+    pequeno planalto logo paro sul.  Indo leste e oeste daqui seria uma péssima
+    idéia, considerando o declive do penhasco.  Desta altura, você tem uma
+    privilegiada visão panorâmica para o sul, incluindo o que parece ser uma
+    pequena vila de montanha para o sul e oeste, e um alto e imponente pico em
+    direção ao oeste daqui.
+  exits:
+    north:
+      target_vnum: '010103303306'
+    south:
+      target_vnum: '010103303308'
+  name: Uma Cadeia de Montanhas
+  vnum: '010103303307'
+- description: |-
+    Você encontra-se num pequeno planalto nas montanhas, logo ao sul de uma
+    cumeeira que leva em direção ao norte por entre uma área rochosa.  Para o
+    leste, sul e oeste existem diferentes ladeiras levando para baixo para
+    diferentes áreas das montanhas.
+    Um gigante e escuro pico olha para você do oeste, parecendo, realmente,
+    muito fantasmagórico!
+  exits:
+    east:
+      target_vnum: '010103303341'
+    north:
+      target_vnum: '010103303307'
+    south:
+      target_vnum: '010103303309'
+    west:
+      target_vnum: '010103303359'
+  name: Os Caminhos Divergentes
+  vnum: '010103303308'
+- description: |-
+    Esta ladeira leva para baixo e para oeste daqui.  Acima, você vê um
+    planalto na extremidade sul de uma longa cadeia de montanhas.  Parece
+    existir sinais de tráfego nesta área, levando para dentro de uma enorme
+    depressão.  A aparência desta ladeira é muito perigosa, e você decide
+    exercitar um pouco sua precaução.
+  exits:
+    north:
+      target_vnum: '010103303308'
+    up:
+      target_vnum: '010103303308'
+    west:
+      target_vnum: '010103303310'
+  name: Uma Ladeira Inclinada
+  vnum: '010103303309'
+- description: |-
+    Você encontra-se sobre um outro mini-planalto, limitado por uma parede de
+    rochas maciça ao norte.  Você pode escalar pela ladeira ao leste, ou
+    continuar pela área plana para o oeste.  Outra ladeira leva mais embaixo
+    pelo sul, parecendo perigosa mas escalável.
+  exits:
+    east:
+      target_vnum: '010103303309'
+    south:
+      target_vnum: '010103303314'
+    west:
+      target_vnum: '010103303311'
+  name: Um Pequeno Planalto
+  vnum: '010103303310'
+- description: |-
+    Este planalto acaba aqui, com a ladeira diminuindo para o sul, e uma
+    parede de rochas sólida para o norte.  Em direção ao leste, o planalto
+    continua, e você pensa que pode escalar a ladeira íngreme e rochosa logo ao
+    oeste daqui.  Você é preenchido pela bela visão das regiões mais baixas
+    desta depressão, e você avista o que deve ser uma caverna ao sul e para
+    baixo daqui...
+  exits:
+    east:
+      target_vnum: '010103303310'
+    west:
+      target_vnum: '010103303312'
+  name: Um Pequeno Planalto
+  vnum: '010103303311'
+- description: |-
+    Esta ladeira é extremamente traiçoeira, mas parece ser mais segura para o
+    norte.  Para o leste a ladeira leva para baixo para um pequeno planalto que
+    também parece consideravelmente mais seguro que as outras opções.  O xisto
+    sob os seus pés escorrega muito e você quase perde o equilíbrio; este não é
+    um lugar para se ficar sem um equipamento de montanhismo.
+  exits:
+    east:
+      target_vnum: '010103303311'
+    north:
+      target_vnum: '010103303313'
+  name: Uma Ladeira Rochosa
+  vnum: '010103303312'
+- description: |-
+    Você encontra-se num ponto abençoado com uma maravilhosa visão das
+    montanhas para o norte.  Distante, lá embaixo, você percebe o que parece ser
+    um caminho de escalada para a montanha central, um pico que parece negro e
+    sombrio.  Você tem uma péssima impressão daquela montanha por alguma razão,
+    e por isso, não parece uma boa idéia tentar achar uma maneira de chegar até
+    ela.
+  exits:
+    north:
+      target_vnum: '010102002020'
+    south:
+      target_vnum: '010103303312'
+  name: O Mirante
+  vnum: '010103303313'
+- description: |-
+    Você desliza e escorrega durante a travessia do chão íngreme, tentando
+    desesperadamente manter o equilíbrio.  Você pode escalar em direção a um
+    pequeno planalto para o norte daqui, ou, cuidadosamente, ir para baixo, para
+    a base da depressão ao oeste.  Você não está certo de qual é mais seguro...
+  exits:
+    north:
+      target_vnum: '010103303310'
+    west:
+      target_vnum: '010103303315'
+  name: Uma Ladeira Rochosa
+  vnum: '010103303314'
+- description: |-
+    Um pequeno caminho leva para o sul, longe da ladeira rochosa que leva
+    para cima, ao leste daqui.  Um mato rasteiro encontra-se, evidentemente, por
+    causa do tráfego intenso.  Olhando para cima, você nota paredes rochosas
+    cercando uma grande parte da depressão, fazendo deste lugar uma efetiva
+    fortaleza.
+  exits:
+    east:
+      target_vnum: '010103303314'
+    south:
+      target_vnum: '010103303316'
+  name: A Base da Depressão
+  vnum: '010103303315'
+- description: |-
+    O pequeno caminho onde você está conduz a norte e leste dentro do que
+    parece ser uma grande caverna oca que surge de dentro da montanha.  O lugar
+    todo parece silencioso, muito silencioso aliás.  Sua pequena intuição de
+    aventureiro está insistentemente avisando a você sobre armadilhas.
+  exits:
+    east:
+      target_vnum: '010103303317'
+    north:
+      target_vnum: '010103303315'
+  name: A Base da Depressão
+  vnum: '010103303316'
+- description: |-
+    A caverna leva para dentro do coração da montanha, bem iluminada pelas
+    tochas nas paredes.  Uma grande pedra encontra-se ao lado aqui, perto de um
+    pequeno poço de fogo.  Escombros esculhambam a área; esqueletos de coelhos,
+    uma pedra de amolar parcialmente quebrada e um poço de água marcado por
+    muitos pares de botas.  Estranho alguém viver tão fundo nas montanhas...
+  exits:
+    east:
+      target_vnum: '010103303318'
+    west:
+      target_vnum: '010103303316'
+  name: A Entrada da Caverna
+  vnum: '010103303317'
+- description: |-
+    Você está perto da entrada da caverna.  A luz de fora verte para dentro
+    vinda do oeste, acompanhada por uma leve brisa, fazendo as chamas das tochas
+    agitarem-se um pouco, projetando estranhas sombras nas paredes.  Esta
+    passagem vai norte e sul daqui, cada rota parecendo mais escura e abafada do
+    que lá fora.  Pelas pegadas no chão você presume que a rota norte é a mais
+    usada.
+  exits:
+    north:
+      target_vnum: '010103303319'
+    south:
+      target_vnum: '010103303331'
+    west:
+      target_vnum: '010103303317'
+  name: Uma Passagem na Caverna
+  vnum: '010103303318'
+- description: |-
+    A passagem vira aqui, uma extremidade levando para o sul, em direção a
+    entrada da caverna e outra a leste -- muito mais fundo dentro da montanha.
+    A luz das tochas mantém a área clara o suficiente para você ver, mas não
+    clara o suficiente para você sentir-se confortável neste lugar estranho.
+    Distante ao longe, você ouve os ecos do que parecem ser vozes.
+  exits:
+    east:
+      target_vnum: '010103303320'
+    south:
+      target_vnum: '010103303318'
+  name: Uma Passagem na Caverna
+  vnum: '010103303319'
+- description: |-
+    Esta passagem irregular leva ao leste e oeste daqui.  Na direção leste
+    você escuta inequívocos sons de vozes baixas.  Os ecos parecem estar fazendo
+    divertidos efeitos em você, contudo, e você não está certo da distância da
+    origem dessas vozes.
+  exits:
+    east:
+      target_vnum: '010103303321'
+    west:
+      target_vnum: '010103303319'
+  name: Uma Passagem na Caverna
+  vnum: '010103303320'
+- description: |-
+    A passagem vira para o oeste e sul deste ponto.  Uma das tochas aqui está
+    apagada, fazendo esta área extremamente escura e difícil de ver.  Você
+    avista luzes vindas do sul.  Contudo, estas luzes parecem ser mais claras
+    que as luzes proferidas pelas tochas que você viu ao longo das paredes.
+  exits:
+    south:
+      target_vnum: '010103303322'
+    west:
+      target_vnum: '010103303320'
+  name: Uma Passagem na Caverna
+  vnum: '010103303321'
+- description: |-
+    Esta é uma intersecção do tipo "T" que existe na passagem: o norte leva
+    de volta até a entrada da caverna (você acha!), o oeste conduz até uma área
+    bem iluminada.  Em direção ao leste, a passagem continua dentro de uma
+    sombria alcova da montanha.  Os ecos de vozes estão confundindo você um
+    pouco, e você não tem certeza se você deveria tentar ficar quieto ou não.
+  exits:
+    east:
+      target_vnum: '010103303324'
+    north:
+      target_vnum: '010103303321'
+    west:
+      target_vnum: '010103303323'
+  name: Uma Passagem na Caverna
+  vnum: '010103303322'
+- description: |-
+    Muitas tochas estão alinhadas nas paredes aqui, iluminando algumas
+    prateleiras de armas e baús de armaduras.  Tudo está arrumado, ordenado e,
+    de fato, livre de poeira.  Alguém cuida muito destes itens...  Com
+    freqüência, pelo que parece.
+  exits:
+    east:
+      target_vnum: '010103303322'
+  name: Uma Caverna
+  vnum: '010103303323'
+- description: |-
+    A passagem conduz ao sul e oeste.  Muitas pedras e rochas grandes estão
+    pelo chão da caverna, dificultando o caminhar na escassa luz oriunda das
+    poucas tochas nas paredes.  Você ouve continuamente o eco de vozes,
+    parecendo mais tênues agora.  Deve ser a estranha acústica deste lugar...
+  exits:
+    south:
+      target_vnum: '010103303325'
+    west:
+      target_vnum: '010103303322'
+  name: Uma Passagem na Caverna
+  vnum: '010103303324'
+- description: |-
+    A caverna se enrola como uma cobra pronta para o bote, levando a leste e
+    norte daqui.  Você começa a se perguntar se suas orientações ainda estão
+    corretas.  Isto o deixa preocupado por alguma razão.
+  exits:
+    east:
+      target_vnum: '010103303326'
+    north:
+      target_vnum: '010103303324'
+  name: Uma Passagem na Caverna
+  vnum: '010103303325'
+- description: |-
+    Você pode ir para o norte e oeste através das passagens da caverna.
+    Ambas as rotas são escassas em iluminação devido às poucas tochas presentes
+    nas paredes.  Os ecos que você ouvia antes estão ficando mais altos, e
+    parecem vir da passagem ao norte.  Você sente frio com o ar congelado da
+    caverna e arrepia-se um pouco com o fraco sussuro da brisa.  Este lugar é um
+    tanto assustador e escuro para se sentir confortável.
+  exits:
+    north:
+      target_vnum: '010103303327'
+    west:
+      target_vnum: '010103303325'
+  name: Uma Passagem na Caverna
+  vnum: '010103303326'
+- description: |-
+    Os ecos estão ficando mais altos e parecem vir da extremidade norte deste
+    corredor.  Na direção sul você observa que o túnel continua até uma curva na
+    passagem.  Você depara-se com uma pequena peça de roupa vermelha rasgada
+    sobre uma rocha pontuda projetada do lado da pasagem.  Esta peça parece ser
+    de seda, muito fina de fato.
+  exits:
+    north:
+      target_vnum: '010103303328'
+    south:
+      target_vnum: '010103303326'
+  name: Uma Passagem na Caverna
+  vnum: '010103303327'
+- description: |-
+    A passagem conduz ao sul daqui e um pequeno túnel encravado leva para
+    longe, pelo oeste.  Duas pedras encontram-se contra a parede, livres de
+    sujeira e musgos.  Um papel que serviu para envolver comida está jogado
+    entre vários pares de pés aqui: na melhor das hipóteses, você diria que aqui
+    seria, provavelmente, um posto de guarda.
+  exits:
+    south:
+      target_vnum: '010103303327'
+    west:
+      target_vnum: '010103303329'
+  name: Uma Passagem na Caverna
+  vnum: '010103303328'
+- description: |-
+    A passagem da caverna termina abruptamente aqui para o norte, numa grande
+    porta de madeira encravada na parede de pedras.  O artesão responsável por
+    isso é habil!!  Você também pode voltar para a passagem principal ao oeste,
+    onde parece ser mais iluminado do que aqui.  Um eco do fundo da passagem faz
+    você refletir por um momento se não estaria sendo perseguido, mas você não
+    vê nada para lá.
+  exits:
+    east:
+      target_vnum: '010103303328'
+    north:
+      target_vnum: '010103303330'
+  name: O Final da Passagem
+  vnum: '010103303329'
+- description: |-
+    Esta caverna natural foi transformada numa combinação de escritório e
+    depósito.  Um pequeno riacho corre da parede sul, e termina na parede oeste
+    através de um pequeno buraco.  Caixas e engradados estão estocados contra as
+    paredes e uma escrivaninha de carvalho batido encontra-se perto da porta,
+    cheia de papéis escritos por uma mão trêmula.  Algumas grandes lanternas
+    mantém o lugar muito bem iluminado.
+  exits:
+    south:
+      target_vnum: '010103303329'
+  name: Uma Caverna
+  vnum: '010103303330'
+- description: |-
+    Você encontra-se ao sul da entrada principal desta caverna.  A passagem
+    em que você está continua para o sul, muito mal iluminada pelas tochas
+    alinhadas na parede a cada 4 metros ou mais.  De algum lugar do fundo da
+    caverna, você escuta o som de uma fraca batida rítmica, distorcida pela
+    estranha acústica da passagem.
+  exits:
+    north:
+      target_vnum: '010103303318'
+    south:
+      target_vnum: '010103303332'
+  name: Uma Passagem na Caverna
+  vnum: '010103303331'
+- description: |-
+    Você está na curva sul desta passagem, que lhe possibilita continuar para
+    o leste e norte daqui.  A rocha ao seu redor ecoa o som da distante batida
+    até você, fazendo este lugar parecer, de alguma forma, vivo, com uma batida
+    de coração.  Este lugar torna-se muito arrepiante, agora que você percebeu
+    isso tudo.
+  exits:
+    east:
+      target_vnum: '010103303333'
+    north:
+      target_vnum: '010103303331'
+  name: Uma Passagem na Caverna
+  vnum: '010103303332'
+- description: |-
+    A passagem faz uma curva em "U" aqui, dirigindo-se para o norte e oeste
+    em direção ao outro lado do "U".  O ar é úmido e difícil de respirar.
+    Alguns musgos crescem perto do chão nos lugares lisos, gerando um sutil e
+    definido cheiro de podridão no ar.
+  exits:
+    north:
+      target_vnum: '010103303334'
+    west:
+      target_vnum: '010103303332'
+  name: Uma Passagem na Caverna
+  vnum: '010103303333'
+- description: |-
+    O túnel se torce para o sul e leste daqui.  Sua extensão é escura,
+    parecendo melancólico e morto.  O som de uma fraca batida repercute das
+    paredes, fazendo você apontar suas orelhas em direção do barulho.
+  exits:
+    east:
+      target_vnum: '010103303335'
+    south:
+      target_vnum: '010103303333'
+  name: Uma Passagem na Caverna
+  vnum: '010103303334'
+- description: |-
+    Esta área é mais escura que o resto da passagem devido ao fato de que as
+    tochas ao longo da parede se apagaram bruscamente.  Para o sul está
+    completamente escuro, em direto contraste com o túnel para o oeste.  Você
+    observa atentamente para o sul, mas não pode avistar nada na impenetrável
+    escuridão.  E ainda aquela distante batida pesa em sua consciência...
+  exits:
+    south:
+      target_vnum: '010103303336'
+    west:
+      target_vnum: '010103303334'
+  name: Uma Passagem na Caverna
+  vnum: '010103303335'
+- description: |-
+    Você está num túnel norte-sul esculpido naturalmente através da montanha
+    de pedra.  O norte do túnel é iluminado por tochas postadas ao longo das
+    paredes, banindo a profunda escuridão em que você se encontrava.  O som de
+    uma batida profunda parece estar ficando mais alto, vindo de algum lugar
+    adiante.
+  exits:
+    north:
+      target_vnum: '010103303335'
+    south:
+      target_vnum: '010103303337'
+  name: Uma Passagem na Caverna
+  vnum: '010103303336'
+- description: |-
+    A passagem troca de direção de novo, dentro da grande escuridão da
+    montanha, conduzindo ao norte e leste daqui.  Quando você percorre o canto,
+    um truque da acústica faz a profunda batida que você vinha ouvindo, parecer
+    como se estivesse vindo de algo a um metro de distância!!  Muito instigante.
+  exits:
+    east:
+      target_vnum: '010103303338'
+    north:
+      target_vnum: '010103303336'
+  name: Uma Passagem na Caverna
+  vnum: '010103303337'
+- description: |-
+    O túnel se entrelaça, enrolando-se para o norte e oeste daqui.  A
+    escuridão ao seu redor é total.  À frente, você ouve os sons de algum metal
+    sendo batido contra uma pedra.  Poderia alguém estar escavando o túnel,
+    talvez?
+  exits:
+    north:
+      target_vnum: '010103303339'
+    west:
+      target_vnum: '010103303337'
+  name: Uma Passagem na Caverna
+  vnum: '010103303338'
+- description: |-
+    O tremeluzir de uma luz para o leste alerta você para o fato de que
+    alguma coisa está ocorrendo no túnel por perto.  A saída ao sul do túnel
+    leva para dentro de uma completa escuridão.  Por toda a parte no chão
+    existem pilhas de terra e pedras, fazendo você dirigir-se pelo túnel
+    cuidadosamente.  Hmm.
+  exits:
+    east:
+      target_vnum: '010103303340'
+    south:
+      target_vnum: '010103303338'
+  name: Uma Passagem na Caverna
+  vnum: '010103303339'
+- description: |-
+    O túnel acaba, bruscamente, aqui numa fissura na pedra.  Por toda a parte
+    existem no chão rochas e cascalhos, vindos da fissura na tentativa de
+    faze-la larga o suficiente para se passar.  Umas pequenas peças de papel de
+    cobertura contam a você que o trabalho aqui é relativamente recente.
+  exits:
+    west:
+      target_vnum: '010103303339'
+  name: O Final da Passagem
+  vnum: '010103303340'
+- description: |-
+    Esta traiçoeira ladeira leva sempre para baixo por uma longa distância.
+    Lá embaixo, no vale, parece existir uma pequena vila!  O que uma vila está
+    fazendo tão longe da civilização e como eles sobrevivem, você não tem idéia.
+    Pela fumaça expelida por algumas chaminés, parece que este lugar parece
+    ainda desabitado.
+    Agora, se você pode ir para baixo da ladeira somente quebrando um
+    tornozelo...
+  exits:
+    east:
+      target_vnum: '010103303342'
+    west:
+      target_vnum: '010103303308'
+  name: Uma Ladeira Rochosa
+  vnum: '010103303341'
+- description: |-
+    Você está escorregando pela ladeira, tentando chegar ao seu destino sem
+    quebrar uma perna ou cair e espatifar sua cabeça.  Abaixo, você avista algum
+    movimento na vila, dando provas de que o lugar não é uma cidade-fantasma.
+    A rua principal da vila começa na base da ladeira, logo para o leste, e a
+    ladeira continua ao oeste e para cima para longe, longe acima na motanha.
+  exits:
+    east:
+      target_vnum: '010103303343'
+    west:
+      target_vnum: '010103303341'
+  name: Uma Ladeira Rochosa
+  vnum: '010103303342'
+- description: |-
+    Este lugar deixa você muito impressionado.  E aborrecido.  Você fica,
+    definitivamente, aborrecido com este lugar.  As pessoas não lhe dão ouvidos,
+    preocupando-se apenas com seus afazeres diários com uma lentidão que chega a
+    doer nos seus olhos.  A ladeira para o oeste escala a montanha e duas lojas
+    abertas feitas de madeira e pedra estão para o norte e sul.  A rua continua
+    em direção ao leste.
+    Existe um pequeno sinal aqui.
+  exits:
+    east:
+      target_vnum: '010103303346'
+    north:
+      target_vnum: '010103303344'
+    south:
+      target_vnum: '010103303345'
+    west:
+      target_vnum: '010103303342'
+  name: Rua Principal
+  vnum: '010103303343'
+- description: |-
+    Hmm.  Parece que não há ninguém aqui, nem mesmo um garçom.  Evidentemente
+    você chegou na hora de folga, pois nenhum bar pode ser assim TÃO monótono.
+    As paredes foram decoradas com cabeças de animais emolduradas e flechas e
+    arcos longos e outros equipamentos/troféus de caça.  Tudo pareceria melhor
+    se o bar fosse mais modesto.
+  exits:
+    south:
+      target_vnum: '010103303343'
+  name: A Taverna da Montanha
+  vnum: '010103303344'
+- description: |-
+    Um aborrecido lojista acena com sua mão desocupada para seu estoque de
+    coisas.  Folheie, escreva uma lista, compre, venda, não importa...
+  exits:
+    north:
+      target_vnum: '010103303343'
+  name: A Loja Comum
+  vnum: '010103303345'
+- description: |-
+    Nada está havendo nesta seção da vila também.  Para o leste existe uma
+    atual interseção e para o oeste você avista uma das extremidades desta rua.
+    Uma larga área gramada para sul é cercada, servindo de curral para cavalos.
+  exits:
+    east:
+      target_vnum: '010103303348'
+    south:
+      target_vnum: '010103303347'
+    west:
+      target_vnum: '010103303343'
+  name: Rua Principal
+  vnum: '010103303346'
+- description: |-
+    Muitos cavalos olham para você quando você entre neste curral.  Os
+    cavalos estão sendo mantidos por uma grande cerca de madeira, o que os deixa
+    parecer estarem muito felizes por serem mantidos aqui.  Você não avista
+    ninguém ao redor cuidando destes cavalos, mas alguém, provavelmente, está
+    por perto.
+  exits:
+    north:
+      target_vnum: '010103303346'
+  name: O Curral
+  vnum: '010103303347'
+- description: |-
+    Você está numa interseção bem no coração da cidade de Stanneg das
+    Montanhas.  De fato, esta é a ÚNICA interseção da cidade, ao que parece.
+    Existem alguns prédios para o norte, sul, leste e oeste.  Nenhum,
+    particularmente, destaca-se dos outros.
+  exits:
+    east:
+      target_vnum: '010103303355'
+    north:
+      target_vnum: '010103303349'
+    south:
+      target_vnum: '010103303353'
+    west:
+      target_vnum: '010103303346'
+  name: A Interseção
+  vnum: '010103303348'
+- description: |-
+    Esta rua vai a norte através da cidade de Stanneg das Montanhas, que
+    seria melhor definida como "uma coleção colorida de prédios".  Em direção ao
+    oeste existe um pequeno prédio a céu aberto que parece ser uma feira de
+    agricultores.  A estrada em que você está continua para o norte e chega a
+    uma interseção logo ao sul daqui.
+  exits:
+    north:
+      target_vnum: '010103303351'
+    south:
+      target_vnum: '010103303348'
+    west:
+      target_vnum: '010103303350'
+  name: Uma Pequena Rua
+  vnum: '010103303349'
+- description: |-
+    A mulher de um fazendeiro está aqui, esperando por alguém que compre a
+    comida que a família dela plantou.  Ela parece aborrecida, mas não
+    infeliz...  Sem competição!
+  exits:
+    east:
+      target_vnum: '010103303349'
+  name: A Feira de Agricultores
+  vnum: '010103303350'
+- description: |-
+    A pequena rua que vai do norte ao sul através da cidade de Stanneg das
+    Montanhas acaba aqui, tornando-se um acesso de entrada para uma casa
+    particular para o leste.  A rua vai para o sul desta casa em direção ao
+    centro da vila.
+  exits:
+    east:
+      target_vnum: '010103303352'
+    south:
+      target_vnum: '010103303349'
+  name: Uma Pequena Rua
+  vnum: '010103303351'
+- description: |-
+    O interior desta casa é simples e rústico.  Uma escada leva para cima no
+    sótão.  Um fogão à lenha mantém o lugar bem aquecido e aconchegante.  Uma
+    cadeira de rocha feita em casa encontra-se curvada no canto, decorada com
+    uma velha aparência afeganesa.  Esta casa é um lugar bonito e muito
+    aconchegante.
+  exits:
+    west:
+      target_vnum: '010103303351'
+  name: Uma Casa Particular
+  vnum: '010103303352'
+- description: |-
+    A rua termina aqui, levando para cima em direção a uma casa de pedras
+    para o sul.  A Fumaça levanta da chaminé em uma corrente negra e as janelas
+    estão cobertas pela humidade.  Ao norte você avista a interseção principal
+    da cidade de Stanneg.
+  exits:
+    north:
+      target_vnum: '010103303348'
+    south:
+      target_vnum: '010103303354'
+  name: Uma Pequena Rua
+  vnum: '010103303353'
+- description: |-
+    Esta casa lhe parece muito inconfortável.  A lareira está acesa,
+    parecendo uma fogueira e uma imensa pilha de madeira encontra-se ao lado
+    dela contra a parede.  A decoração parece algo espartano e modesto: uma
+    pintura, um velho arco longo...  Nada de muito interessante.
+  exits:
+    north:
+      target_vnum: '010103303353'
+  name: Uma Casa Particular
+  vnum: '010103303354'
+- description: |-
+    A rua principal que atravessa Stanneg termina aqui em um largo poço que
+    vai fundo, fundo dentro da terra.  Para o norte do poço existe um grande
+    prédio, com um enorme capacho de BEM VINDO em frente a porta de entrada.  Ao
+    oeste você vê a interseção da rua no centro da pequena vila.  Ao redor você
+    observa um terreno rochoso no meio desta cadeia de montanhas...  Não existem
+    muitos lugares para se ir.
+  exits:
+    north:
+      target_vnum: '010103303356'
+    west:
+      target_vnum: '010103303348'
+  name: Rua Principal
+  vnum: '010103303355'
+- description: |-
+    Esta é uma peça modestamente decorada: o salão principal da Hospedaria de
+    Stanneg.  Um grande arco para o oeste conduz para uma sala comum, onde
+    comidas e bebidas podem ser encomendadas e uma fraca escada de madeira leva
+    para os quartos lá de cima.  Um velho e surrado tapete felpudo encontra-se
+    no meio do chão, evidentemente, adorado por um gato ou dois, pela quantidade
+    de pelos presentes nele.
+  exits:
+    south:
+      target_vnum: '010103303355'
+    up:
+      target_vnum: '010103303358'
+    west:
+      target_vnum: '010103303357'
+  name: A Hospedaria de Stanneg
+  vnum: '010103303356'
+- description: |-
+    Um grande lareira aquece esta sala com grandes ondas de calor, para
+    combater o frio proveniente das janelas dos lados oeste e norte desta peça.
+    Alguns poucos bancos e mesas estão agrupados no centro da sala, para uso
+    local.  Muito simples para um lugar de reuniões muito frequentado.
+  exits:
+    east:
+      target_vnum: '010103303356'
+  name: A Sala Comum
+  vnum: '010103303357'
+- description: |-
+    O salão leva para o oeste onde estão alinhadas pequenas portas marrons.
+    Uma pequena mesa tem um livro sobre ela, parecendo não ser muito usado.  O
+    salão é simples e sem qualquer decoração, exceto pelo bonito quadro de uma
+    montanha situada sobre as escadas que levam de volta para baixo,
+    convenientemente em direção da hospedaria.
+  exits:
+    down:
+      target_vnum: '010103303356'
+  name: A Recepção
+  vnum: '010103303358'
+- description: |-
+    Esta ladeira é muito rasa e fácil de se andar sobre ela, apesar dos
+    xistos e cascalhos soltos.  Para o leste existe uma grande saliência que
+    você poderia ficar sobre ela e para o oeste existe uma área plana levando
+    para cima e para baixo da montanha.  Alto acima de você, para seu oeste,
+    está aquele grande, pico negro, que parece irradiar uma sensação de
+    desesperança...
+  exits:
+    east:
+      target_vnum: '010103303308'
+    west:
+      target_vnum: '010103303360'
+  name: Uma Ladeira Rochosa
+  vnum: '010103303359'
+- description: |-
+    Esta borda permite a você olhar de cima um pequeno caminho que leva para
+    cima e para baixo daqui.  Abaixo, você vê um caminho vai em direto para
+    baixo até uma área plana onde uma pequena cabana encontra-se
+    confortavelmente situada nas montanhas, com fumaça subindo da cabana em
+    espirais.  Acima, o caminho parece levar em direção daquele pico negro
+    furando o céu.  Você nota algumas marcas de botas na terra, parecendo levar
+    para baixo em direção da cabana.
+  exits:
+    down:
+      target_vnum: '010103303361'
+    east:
+      target_vnum: '010103303359'
+    up:
+      target_vnum: '010103303363'
+  name: Na Borda
+  vnum: '010103303360'
+- description: |-
+    Agora que você se aproxima da cabana, você nota que a fumaça não está
+    vindo da chaminé, mas mais precisamente das ruínas destruídas do prédio.
+    Alguma coisa colocou fogo neste lugar, maldosamente.  Você nota sinais de
+    vida entre os destroços.  Você pode entrar por entre um dos vários buracos
+    gigantes na parede para oeste, com cautela.
+  exits:
+    up:
+      target_vnum: '010103303360'
+    west:
+      target_vnum: '010103303362'
+  name: Do Lado de Fora da Cabana
+  vnum: '010103303361'
+- description: |-
+    Este lugar todo esta ardendo ainda de alguma coisa que decidiu tentar
+    queimá-lo até o solo.  No chão próximo ao centro da estrutura em ruínas
+    existe um corpo de um homem queimado, dissecado e cinzento.  Não existe
+    muito para ver aqui; o que quer que seja que tenha decidido destruir este
+    lugar, o fez muito bem.
+  exits:
+    east:
+      target_vnum: '010103303361'
+  name: A Cabana Queimada
+  vnum: '010103303362'
+- description: |-
+    A trilha segue para cima, por estas montanhas com aparência malígna.
+    Bem acima de você, o pico da montanha parece radiar perigo e medo, e a
+    trilha parece levar até lá.  Você hesita se deve continuar por este caminho...
+    A trilha segue para oeste, e para baixo.
+  exits:
+    down:
+      target_vnum: '010103303360'
+    west:
+      target_vnum: '010103303364'
+  name: Uma Trilha da Montanha
+  vnum: '010103303363'
+- description: |-
+    A trilha vai mais para cima da montanha para o oeste daqui.  Você treme
+    no momento que o frio ar da montanha recai sobre você, e você sente picadas
+    ao pensar que alguém poderia viver por aqui ou algo perigoso por esse
+    motivo.  Talvez voltar para o leste seria uma boa idéia...
+  exits:
+    east:
+      target_vnum: '010103303363'
+    west:
+      target_vnum: '010103303365'
+  name: Uma Trilha da Montanha
+  vnum: '010103303364'
+- description: |-
+    A trilha leva para cima, mais alto na mais elevada montanha da cadeia --
+    aquela que espeta o céu escuro como um monumento para morte e futilidade.  A
+    trilha leva de volta para a segurança ao leste e vai mais alto para o oeste.
+  exits:
+    east:
+      target_vnum: '010103303364'
+    west:
+      target_vnum: '010103303366'
+  name: Uma Trilha da Montanha
+  vnum: '010103303365'
+- description: |-
+    Aqui você quase chega ao pico, sendo possível subir até ele, ainda que
+    com um pouco de dificuldade.  Há também um minúsculo caminho levando para
+    norte.  Alto, ao lado da montanha você vê uma grande caverna oca e o seu
+    interior muito escuro.  O caminho que leva para baixo das montanhas fica
+    para o leste, o qual lhe parece o melhor lugar para se ir.
+  exits:
+    east:
+      target_vnum: '010103303365'
+    north:
+      target_vnum: '010103303367'
+    up:
+      target_vnum: '010111111100'
+  name: Próximo ao Pico
+  vnum: '010103303366'
+- description: |-
+    Este caminho leva para o alto, alto, alto da montanha, para uma caverna
+    aparentemente maligna.  Ele também leva para baixo ao sul -- um lugar muito
+    mais seguro para se estar.  De fato, você ouve passos sobre a sua cabeça...
+  exits:
+    south:
+      target_vnum: '010103303366'
+    up:
+      target_vnum: '010103303368'
+  name: Um Pequeno e Perigoso Caminho
+  vnum: '010103303367'
+- description: |-
+    Infelizmente, você se da conta muito tarde de que esta grande beirada que
+    leva para o norte para uma caverna escura seria um bom lugar para uma
+    emboscada.  Este desfiladeiro lhe dá uma bela visão panorâmica da cadeia de
+    montanhas inteira.  Entretanto, lhe faz perder o fôlego!!
+  exits:
+    down:
+      target_vnum: '010103303367'
+    north:
+      target_vnum: '010103303369'
+  name: Um Pequeno e Perigoso Caminho
+  vnum: '010103303368'
+- description: |-
+    Você está na entrada de uma enorme caverna!  O tamanho dela é chocante!
+    Por toda a entrada estão espalhados ossos queimados e vários tipos de
+    escombros de madeiras e metais.  Marcas garras gigantes estão por todo o
+    chão, levando para dentro da profunda caverna.
+    Dois túneis levam para fora daqui: um para cima e outro para baixo.
+    Existem marcas de garras para ambas as direções.
+  exits:
+    down:
+      target_vnum: '010103303373'
+    south:
+      target_vnum: '010103303368'
+    up:
+      target_vnum: '010103303370'
+  name: A Entrada da Caverna
+  vnum: '010103303369'
+- description: |-
+    O túnel vai, em aclive, para cima ao norte, para dentro da montanha.  Uma
+    brisa um tanto forte atinge sua roupa vinda de algum lugar à frente.  As
+    marcas de garras no chão de pedras continuam ao longo da passagem, em
+    direção à escuridão.
+  exits:
+    down:
+      target_vnum: '010103303369'
+    north:
+      target_vnum: '010103303371'
+  name: Um Túnel em Aclive
+  vnum: '010103303370'
+- description: |-
+    O túnel continua em aclive para cima e o vento bate em você ainda mais
+    forte.  As pistas de garras na pedra desaparecem bruscamente aqui, onde
+    parecem existir muita terra desenterrada e pedras ao redor, empilhadas no
+    chão.  Você se sente inquieto neste lugar.
+  exits:
+    north:
+      target_vnum: '010103303372'
+    south:
+      target_vnum: '010103303370'
+  name: Um Túnel em Aclive
+  vnum: '010103303371'
+- description: |-
+    Você cai através do chão ilusionário.
+
+    Você acerta pontas envenenadas mais abaixo.
+
+    Você morre lentamente de perda de sangue e sua cabeça acaba em um ângulo
+    desajeitado.
+  exits:
+    south:
+      target_vnum: '010103303371'
+  name: O Buraco
+  vnum: '010103303372'
+- description: |-
+    Este túnel desce fundo para baixo, em direção ao coração da montanha.  O
+    ar lhe parece carregado e inconfortavelmente aquecido, apesar da proximidade
+    da entrada da caverna sobre você.  Existe um profundo odor no ar e as
+    gigantes marcas de garras continuam para baixo.
+  exits:
+    down:
+      target_vnum: '010103303374'
+    up:
+      target_vnum: '010103303369'
+  name: Um Túnel em Declive
+  vnum: '010103303373'
+- description: |-
+    Um luz brilhante vinda do norte enche seus olhos, em contraste direto com
+    a escuridão do túnel suspenso.  Você irrompe em uma onda de suor devido a
+    esmagadora sensação de calor no ar.  O odor aumentou e está completamente
+    intenso agora, sobrepondo-se sobre qualquer coisa no ar e fazendo o ar
+    difícil de respirar.  Alguma coisa em seu intestino começa a se retorcer
+    desconfortavelmente ao pensar o que lhe espera à frente...
+  exits:
+    north:
+      target_vnum: '010103303375'
+    up:
+      target_vnum: '010103303373'
+  name: Um Túnel em Declive
+  vnum: '010103303374'
+- description: |-
+    Este lugar é imenso!!!  Isto é, sem dúvida, um grande lugar para um
+    dragão.  De qualquer maneira, ao invés de você avistar a costumeira
+    carnificina e montanhas de ouro a que você está acostumado a ver num covil
+    de dragão, este aqui é decorado sutilmente com tapeçarias e cortinas e
+    outros confortos de uma vida humana.  Existe até mesmo uma gigantesca cama
+    do tamanho de um dragão -- sem dúvida conjurado à vida pelo ancião e
+    possuidor do dragão.
+  exits:
+    south:
+      target_vnum: '010103303374'
+  name: O Covil
+  vnum: '010103303375'

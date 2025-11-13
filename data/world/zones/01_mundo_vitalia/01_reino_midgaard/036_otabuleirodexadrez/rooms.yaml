@@ -1,0 +1,814 @@
+- description: |-
+    Você se encontra na entrada que dá acesso ao Tabuleiro de Xadrez de
+    Midgaard. O gigantesco portão de madeira range ao ser aberto.
+    Um caminho sujo e estreito segue rumo leste através da grama espessa,
+    e o tabuleiro de xadrez surge a oeste.
+  exits:
+    east:
+      target_vnum: '010103003067'
+    west:
+      target_vnum: '010103603632'
+  name: O Grande Tabuleiro de Xadrez de Midgaard
+  vnum: '010103603600'
+- description: |-
+    Você se encontra numa casa de mármore branco.  Esta normalmente é a casa
+    da Torre da Rainha Negra.
+  exits:
+    east:
+      target_vnum: '010103603602'
+    south:
+      target_vnum: '010103603609'
+  name: Uma Casa Branca
+  vnum: '010103603601'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    do Cavaleiro da Rainha Negra.
+  exits:
+    east:
+      target_vnum: '010103603603'
+    south:
+      target_vnum: '010103603610'
+    west:
+      target_vnum: '010103603601'
+  name: Uma Casa Negra
+  vnum: '010103603602'
+- description: |-
+    Você se encontra numa casa de mármore branco.  Esta normalmente é a casa
+    do Bispo da Rainha Negra.
+  exits:
+    east:
+      target_vnum: '010103603604'
+    south:
+      target_vnum: '010103603611'
+    west:
+      target_vnum: '010103603602'
+  name: Uma Casa Branca
+  vnum: '010103603603'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    da Rainha Negra.
+  exits:
+    down:
+      target_vnum: '010103603665'
+    east:
+      target_vnum: '010103603605'
+    south:
+      target_vnum: '010103603612'
+    west:
+      target_vnum: '010103603603'
+  name: Uma Casa Negra
+  vnum: '010103603604'
+- description: |-
+    Você se encontra numa casa de mármore branco.  Esta normalmente é a casa
+    do Rei Negro.
+  exits:
+    east:
+      target_vnum: '010103603606'
+    south:
+      target_vnum: '010103603613'
+    west:
+      target_vnum: '010103603604'
+  name: Uma Casa Branca
+  vnum: '010103603605'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    do Bispo do Rei Negro.
+  exits:
+    east:
+      target_vnum: '010103603607'
+    south:
+      target_vnum: '010103603614'
+    west:
+      target_vnum: '010103603605'
+  name: Uma Casa Negra
+  vnum: '010103603606'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    do Cavaleiro do Rei Negro.
+  exits:
+    east:
+      target_vnum: '010103603608'
+    south:
+      target_vnum: '010103603615'
+    west:
+      target_vnum: '010103603606'
+  name: Uma Casa Branca
+  vnum: '010103603607'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    da Torre do Rei Negro.
+  exits:
+    south:
+      target_vnum: '010103603616'
+    west:
+      target_vnum: '010103603607'
+  name: Uma Casa Negra
+  vnum: '010103603608'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    da de um dos Peões da Rainha Negra.
+  exits:
+    east:
+      target_vnum: '010103603610'
+    north:
+      target_vnum: '010103603601'
+    south:
+      target_vnum: '010103603617'
+  name: Uma Casa Negra
+  vnum: '010103603609'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões da Rainha Negra.
+  exits:
+    east:
+      target_vnum: '010103603611'
+    north:
+      target_vnum: '010103603602'
+    south:
+      target_vnum: '010103603618'
+    west:
+      target_vnum: '010103603609'
+  name: Uma Casa Branca
+  vnum: '010103603610'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    da de um dos Peões da Rainha Negra.
+  exits:
+    east:
+      target_vnum: '010103603612'
+    north:
+      target_vnum: '010103603603'
+    south:
+      target_vnum: '010103603619'
+    west:
+      target_vnum: '010103603610'
+  name: Uma Casa Negra
+  vnum: '010103603611'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões da Rainha Negra.
+  exits:
+    east:
+      target_vnum: '010103603613'
+    north:
+      target_vnum: '010103603604'
+    south:
+      target_vnum: '010103603620'
+    west:
+      target_vnum: '010103603611'
+  name: Uma Casa Branca
+  vnum: '010103603612'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    de um dos Peões do Rei Negro.
+  exits:
+    east:
+      target_vnum: '010103603614'
+    north:
+      target_vnum: '010103603605'
+    south:
+      target_vnum: '010103603621'
+    west:
+      target_vnum: '010103603612'
+  name: Uma Casa Negra
+  vnum: '010103603613'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões do Rei Negro.
+  exits:
+    east:
+      target_vnum: '010103603615'
+    north:
+      target_vnum: '010103603606'
+    south:
+      target_vnum: '010103603622'
+    west:
+      target_vnum: '010103603613'
+  name: Uma Casa Branca
+  vnum: '010103603614'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    de um dos Peões do Rei Negro.
+  exits:
+    east:
+      target_vnum: '010103603616'
+    north:
+      target_vnum: '010103603607'
+    south:
+      target_vnum: '010103603623'
+    west:
+      target_vnum: '010103603614'
+  name: Uma Casa Negra
+  vnum: '010103603615'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões do Rei Negro.
+  exits:
+    north:
+      target_vnum: '010103603608'
+    south:
+      target_vnum: '010103603624'
+    west:
+      target_vnum: '010103603615'
+  name: Uma Casa Branca
+  vnum: '010103603616'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603618'
+    north:
+      target_vnum: '010103603609'
+    south:
+      target_vnum: '010103603625'
+  name: Uma Casa Branca
+  vnum: '010103603617'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603619'
+    north:
+      target_vnum: '010103603610'
+    south:
+      target_vnum: '010103603626'
+    west:
+      target_vnum: '010103603617'
+  name: Uma Casa Negra
+  vnum: '010103603618'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603620'
+    north:
+      target_vnum: '010103603611'
+    south:
+      target_vnum: '010103603627'
+    west:
+      target_vnum: '010103603618'
+  name: Uma Casa Branca
+  vnum: '010103603619'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603621'
+    north:
+      target_vnum: '010103603612'
+    south:
+      target_vnum: '010103603628'
+    west:
+      target_vnum: '010103603619'
+  name: Uma Casa Negra
+  vnum: '010103603620'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603622'
+    north:
+      target_vnum: '010103603613'
+    south:
+      target_vnum: '010103603629'
+    west:
+      target_vnum: '010103603620'
+  name: Uma Casa Branca
+  vnum: '010103603621'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603623'
+    north:
+      target_vnum: '010103603614'
+    south:
+      target_vnum: '010103603630'
+    west:
+      target_vnum: '010103603621'
+  name: Uma Casa Negra
+  vnum: '010103603622'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603624'
+    north:
+      target_vnum: '010103603615'
+    south:
+      target_vnum: '010103603631'
+    west:
+      target_vnum: '010103603622'
+  name: Uma Casa Branca
+  vnum: '010103603623'
+- description: |-
+    Você se encontra numa casa de mármore negro. Você pode ver um portão
+    enferrujado ao sul.
+  exits:
+    north:
+      target_vnum: '010103603616'
+    south:
+      target_vnum: '010103603632'
+    west:
+      target_vnum: '010103603623'
+  name: Uma Casa Negra
+  vnum: '010103603624'
+- description: |-
+    Você se encontra numa casa de mármore negro.
+    Ao oeste, voce pode ver um grande portao enferrujado.
+  exits:
+    east:
+      target_vnum: '010103603626'
+    north:
+      target_vnum: '010103603617'
+    south:
+      target_vnum: '010103603633'
+    west:
+      target_vnum: '010000200200'
+  name: Uma Casa Negra
+  vnum: '010103603625'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603627'
+    north:
+      target_vnum: '010103603618'
+    south:
+      target_vnum: '010103603634'
+    west:
+      target_vnum: '010103603625'
+  name: Uma Casa Branca
+  vnum: '010103603626'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603628'
+    north:
+      target_vnum: '010103603619'
+    south:
+      target_vnum: '010103603635'
+    west:
+      target_vnum: '010103603626'
+  name: Uma Casa Negra
+  vnum: '010103603627'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603629'
+    north:
+      target_vnum: '010103603620'
+    south:
+      target_vnum: '010103603636'
+    west:
+      target_vnum: '010103603627'
+  name: Uma Casa Branca
+  vnum: '010103603628'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603630'
+    north:
+      target_vnum: '010103603621'
+    south:
+      target_vnum: '010103603637'
+    west:
+      target_vnum: '010103603628'
+  name: Uma Casa Negra
+  vnum: '010103603629'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603631'
+    north:
+      target_vnum: '010103603622'
+    south:
+      target_vnum: '010103603638'
+    west:
+      target_vnum: '010103603629'
+  name: Uma Casa Branca
+  vnum: '010103603630'
+- description: |-
+    Você se encontra numa casa de mármore negro. Ao leste, a uma curta distância
+    você pode ver um grande portão enferrujado.
+  exits:
+    east:
+      target_vnum: '010103603632'
+    north:
+      target_vnum: '010103603623'
+    south:
+      target_vnum: '010103603639'
+    west:
+      target_vnum: '010103603630'
+  name: Uma Casa Negra
+  vnum: '010103603631'
+- description: |-
+    Você se encontra numa casa de mármore branco. Você pode ver um portão
+    enferrujado ao leste.
+  exits:
+    east:
+      target_vnum: '010103603600'
+    north:
+      target_vnum: '010103603624'
+    south:
+      target_vnum: '010103603640'
+    west:
+      target_vnum: '010103603631'
+  name: Uma Casa Branca
+  vnum: '010103603632'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603634'
+    north:
+      target_vnum: '010103603625'
+    south:
+      target_vnum: '010103603641'
+  name: Uma Casa Branca
+  vnum: '010103603633'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603635'
+    north:
+      target_vnum: '010103603626'
+    south:
+      target_vnum: '010103603642'
+    west:
+      target_vnum: '010103603633'
+  name: Uma Casa Negra
+  vnum: '010103603634'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603636'
+    north:
+      target_vnum: '010103603627'
+    south:
+      target_vnum: '010103603643'
+    west:
+      target_vnum: '010103603634'
+  name: Uma Casa Branca
+  vnum: '010103603635'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603637'
+    north:
+      target_vnum: '010103603628'
+    south:
+      target_vnum: '010103603644'
+    west:
+      target_vnum: '010103603635'
+  name: Uma Casa Negra
+  vnum: '010103603636'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603638'
+    north:
+      target_vnum: '010103603629'
+    south:
+      target_vnum: '010103603645'
+    west:
+      target_vnum: '010103603636'
+  name: Uma Casa Branca
+  vnum: '010103603637'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603639'
+    north:
+      target_vnum: '010103603630'
+    south:
+      target_vnum: '010103603646'
+    west:
+      target_vnum: '010103603637'
+  name: Uma Casa Negra
+  vnum: '010103603638'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603640'
+    north:
+      target_vnum: '010103603631'
+    south:
+      target_vnum: '010103603647'
+    west:
+      target_vnum: '010103603638'
+  name: Uma Casa Branca
+  vnum: '010103603639'
+- description: |-
+    Você se encontra numa casa de mármore negro. Você pode ver um portão
+    enferrujado ao norte.
+  exits:
+    north:
+      target_vnum: '010103603632'
+    south:
+      target_vnum: '010103603648'
+    west:
+      target_vnum: '010103603639'
+  name: Uma Casa Negra
+  vnum: '010103603640'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603642'
+    north:
+      target_vnum: '010103603633'
+    south:
+      target_vnum: '010103603649'
+  name: Uma Casa Negra
+  vnum: '010103603641'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603643'
+    north:
+      target_vnum: '010103603634'
+    south:
+      target_vnum: '010103603650'
+    west:
+      target_vnum: '010103603641'
+  name: Uma Casa Branca
+  vnum: '010103603642'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603644'
+    north:
+      target_vnum: '010103603635'
+    south:
+      target_vnum: '010103603651'
+    west:
+      target_vnum: '010103603642'
+  name: Uma Casa Negra
+  vnum: '010103603643'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603645'
+    north:
+      target_vnum: '010103603636'
+    south:
+      target_vnum: '010103603652'
+    west:
+      target_vnum: '010103603643'
+  name: Uma Casa Branca
+  vnum: '010103603644'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603646'
+    north:
+      target_vnum: '010103603637'
+    south:
+      target_vnum: '010103603653'
+    west:
+      target_vnum: '010103603644'
+  name: Uma Casa Negra
+  vnum: '010103603645'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    east:
+      target_vnum: '010103603647'
+    north:
+      target_vnum: '010103603638'
+    south:
+      target_vnum: '010103603654'
+    west:
+      target_vnum: '010103603645'
+  name: Uma Casa Branca
+  vnum: '010103603646'
+- description: Você se encontra numa casa de mármore negro.
+  exits:
+    east:
+      target_vnum: '010103603648'
+    north:
+      target_vnum: '010103603639'
+    south:
+      target_vnum: '010103603655'
+    west:
+      target_vnum: '010103603646'
+  name: Uma Casa Negra
+  vnum: '010103603647'
+- description: Você se encontra numa casa de mármore branco.
+  exits:
+    north:
+      target_vnum: '010103603640'
+    south:
+      target_vnum: '010103603656'
+    west:
+      target_vnum: '010103603647'
+  name: Uma Casa Branca
+  vnum: '010103603648'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões da Rainha Branca.
+  exits:
+    east:
+      target_vnum: '010103603650'
+    north:
+      target_vnum: '010103603641'
+    south:
+      target_vnum: '010103603657'
+  name: Uma Casa Branca
+  vnum: '010103603649'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    de um dos Peões da Rainha Branca.
+  exits:
+    east:
+      target_vnum: '010103603651'
+    north:
+      target_vnum: '010103603642'
+    south:
+      target_vnum: '010103603658'
+    west:
+      target_vnum: '010103603649'
+  name: Uma Casa Negra
+  vnum: '010103603650'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões da Rainha Branca.
+  exits:
+    east:
+      target_vnum: '010103603652'
+    north:
+      target_vnum: '010103603643'
+    south:
+      target_vnum: '010103603659'
+    west:
+      target_vnum: '010103603650'
+  name: Uma Casa Branca
+  vnum: '010103603651'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    de um dos Peões da Rainha Branca.
+  exits:
+    east:
+      target_vnum: '010103603653'
+    north:
+      target_vnum: '010103603644'
+    south:
+      target_vnum: '010103603660'
+    west:
+      target_vnum: '010103603651'
+  name: Uma Casa Negra
+  vnum: '010103603652'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões do Rei Branco.
+  exits:
+    east:
+      target_vnum: '010103603654'
+    north:
+      target_vnum: '010103603645'
+    south:
+      target_vnum: '010103603661'
+    west:
+      target_vnum: '010103603652'
+  name: Uma Casa Branca
+  vnum: '010103603653'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    de um dos Peões do Rei Branco.
+  exits:
+    east:
+      target_vnum: '010103603655'
+    north:
+      target_vnum: '010103603646'
+    south:
+      target_vnum: '010103603662'
+    west:
+      target_vnum: '010103603653'
+  name: Uma Casa Negra
+  vnum: '010103603654'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    de um dos Peões do Rei Branco.
+  exits:
+    east:
+      target_vnum: '010103603656'
+    north:
+      target_vnum: '010103603647'
+    south:
+      target_vnum: '010103603663'
+    west:
+      target_vnum: '010103603654'
+  name: Uma Casa Branca
+  vnum: '010103603655'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    de um dos Peões do Rei Branco.
+  exits:
+    north:
+      target_vnum: '010103603648'
+    south:
+      target_vnum: '010103603664'
+    west:
+      target_vnum: '010103603655'
+  name: Uma Casa Negra
+  vnum: '010103603656'
+- description: |-
+    Você se encontra numa casa de mármore negro.  Esta normalmente é a casa
+    da Torre da Rainha Branca.
+  exits:
+    east:
+      target_vnum: '010103603658'
+    north:
+      target_vnum: '010103603649'
+  name: Uma Casa Negra
+  vnum: '010103603657'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    do Cavaleiro da Rainha Branca.
+  exits:
+    east:
+      target_vnum: '010103603659'
+    north:
+      target_vnum: '010103603650'
+    west:
+      target_vnum: '010103603657'
+  name: Uma Casa Branca
+  vnum: '010103603658'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    do Bispo da Rainha Branca.
+  exits:
+    east:
+      target_vnum: '010103603660'
+    north:
+      target_vnum: '010103603651'
+    west:
+      target_vnum: '010103603658'
+  name: Uma Casa Negra
+  vnum: '010103603659'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    da Rainha Branca.
+  exits:
+    down:
+      target_vnum: '010103603666'
+    east:
+      target_vnum: '010103603661'
+    north:
+      target_vnum: '010103603652'
+    west:
+      target_vnum: '010103603659'
+  name: Uma Casa Branca
+  vnum: '010103603660'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    do Rei Branco.
+  exits:
+    east:
+      target_vnum: '010103603662'
+    north:
+      target_vnum: '010103603653'
+    west:
+      target_vnum: '010103603660'
+  name: Uma Casa Negra
+  vnum: '010103603661'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    do Bispo do Rei Branco.
+  exits:
+    east:
+      target_vnum: '010103603663'
+    north:
+      target_vnum: '010103603654'
+    west:
+      target_vnum: '010103603661'
+  name: Uma Casa Branca
+  vnum: '010103603662'
+- description: |-
+    Você se encontra numa casa de mármore negro. Esta normalmente é a casa
+    do Cavaleiro do Rei Branco.
+  exits:
+    east:
+      target_vnum: '010103603664'
+    north:
+      target_vnum: '010103603655'
+    west:
+      target_vnum: '010103603662'
+  name: Uma Casa Negra
+  vnum: '010103603663'
+- description: |-
+    Você se encontra numa casa de mármore branco. Esta normalmente é a casa
+    da Torre do Rei Branco.
+  exits:
+    north:
+      target_vnum: '010103603656'
+    west:
+      target_vnum: '010103603663'
+  name: Uma Casa Branca
+  vnum: '010103603664'
+- description: |-
+    Você se encontra dentro da tesouraria da Corte Negra. Afortunadamente,
+    parece que ninguem saqueou o tesouro da Coroa.
+  exits:
+    up:
+      target_vnum: '010103603604'
+  name: A Tesouraria Negra
+  vnum: '010103603665'
+- description: |-
+    Você se encontra dentro da tesouraria da Corte Branca. Afortunadamente,
+    parece que ninguem saqueou o tesouro da Coroa.
+  exits:
+    up:
+      target_vnum: '010103603660'
+  name: A Tesouraria Branca
+  vnum: '010103603666'

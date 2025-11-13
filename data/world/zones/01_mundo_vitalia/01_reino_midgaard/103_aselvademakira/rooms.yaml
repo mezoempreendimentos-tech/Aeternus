@@ -1,0 +1,614 @@
+- description: |-
+    Andando por entre as árvores, parece que você deixou a floresta e entrou
+    em uma selva!  Aqui você encontra árvores e plantas exóticas que você nunca
+    viu em lugar algum.
+  exits:
+    east:
+      target_vnum: '010103503522'
+    north:
+      target_vnum: '010103503522'
+    south:
+      target_vnum: '010110310301'
+  name: O Começo da Selva
+  vnum: '010110310300'
+- description: |-
+    A medida que vai se aprofundando na selva, você começa a ouvir estranhos
+    sons de animais, vindo de todas direções e também consegue ouvir o som
+    abafado de tambor, que está sendo tocado por alguém, em algum lugar não
+    muito distante.  Tomara que os nativos sejam pacíficos!
+  exits:
+    north:
+      target_vnum: '010110310300'
+    south:
+      target_vnum: '010110310302'
+  name: Entrando na Selva
+  vnum: '010110310301'
+- description: |-
+    Você se encontra na junção de quatro caminhos.  O norte leva de volta para
+    fora da selva, o leste parece levar a uma pequena trilha da qual o som de
+    tambores pode ser ouvido, ao oeste existem algumas árvores espessas, e ao
+    sul um pequeno caminho continua.
+  exits:
+    east:
+      target_vnum: '010110310303'
+    north:
+      target_vnum: '010110310301'
+    south:
+      target_vnum: '010110310316'
+    west:
+      target_vnum: '010110310309'
+  name: Entrando na Selva
+  vnum: '010110310302'
+- description: |-
+    Você está em uma pequena trilha que leva para fora do caminho principal
+    na selva.  Para o leste o som de tambores está ficando cada vez mais alto.
+    Talvez você devesse voltar e procurar ajuda?
+  exits:
+    east:
+      target_vnum: '010110310304'
+    north:
+      target_vnum: '010110310341'
+    west:
+      target_vnum: '010110310302'
+  name: Em uma Pequena Trilha
+  vnum: '010110310303'
+- description: |-
+    Isto é o que parece um portão para um pequeno acampamento.  Até que poderia
+    ser um bom lugar para descansar um pouco, mas você muda de idéia rapidamente
+    ao ver crânios humanos espetados em lanças!
+  exits:
+    east:
+      target_vnum: '010110310305'
+    west:
+      target_vnum: '010110310303'
+  name: O Portão de Entrada do Acampamento
+  vnum: '010110310304'
+- description: |-
+    Nossa!  Você entrou em um acampamento de canibais!  Existem ossos jogados
+    por todo o lugar, alguns deles óbviamente humanos!  Parece que você acaba de
+    perder um grande banquete.  Talvez você deva sair antes que eles façam de
+    você o convidado de honra do próximo!
+  exits:
+    east:
+      target_vnum: '010110310306'
+    north:
+      target_vnum: '010110310307'
+    south:
+      target_vnum: '010110310308'
+    west:
+      target_vnum: '010110310304'
+  name: No Acampamento
+  vnum: '010110310305'
+- description: |-
+    Existem ganchos pendurados no teto que parecem ser usados para armazenar
+    carne, mas que tipo de carne?  Use sua imaginação!
+  exits:
+    west:
+      target_vnum: '010110310305'
+  name: A Loja de Alimentos
+  vnum: '010110310306'
+- description: |-
+    Você entrou na sala que deve ser onde os canibais mantém suas mulheres
+    quando eles estão fora caçando.  Existem peles de animais prontas para serem
+    confeccionadas roupas para os canibais, e alguns acessórios da moda canibal!
+  exits:
+    south:
+      target_vnum: '010110310305'
+  name: A Sala das Mulheres
+  vnum: '010110310307'
+- description: |-
+    Esta é óbviamente a sala do chefe dos canibais.  Existem peles de animais
+    estendidas diretamente sobre as paredes, com cruéis pinturas nelas.
+    Essas peles devem valer muito dinheiro!
+  exits:
+    north:
+      target_vnum: '010110310305'
+  name: A Sala do Chefe
+  vnum: '010110310308'
+- description: |-
+    As árvores parecem estar ficando mais espessas à medida que você avança
+    para o oeste.  Existem vinhas penduradas nas árvores, e você acha que pode
+    subir por elas.
+  exits:
+    east:
+      target_vnum: '010110310302'
+    up:
+      target_vnum: '010110310310'
+    west:
+      target_vnum: '010110310313'
+  name: Em Direção aos Macacos!
+  vnum: '010110310309'
+- description: |-
+    Uau, essas árvores são altas!  Você acha que quase pode ver Midgaard
+    daqui de cima.  Será que tem animais vivendo aqui?
+  exits:
+    down:
+      target_vnum: '010110310309'
+    north:
+      target_vnum: '010110310311'
+  name: "Nas Ã\x81rvores"
+  vnum: '010110310310'
+- description: |-
+    Quando você pula para esta árvore você quase cai!  Aqui as árvores
+    balançam, e você se sente cada vez menos seguro.  Talvez você devesse voltar
+    lá para baixo.  Você também percebe um pedaço de pele de cobra pendurado em
+    um galho.  Onde será que o seu dono está?
+  exits:
+    north:
+      target_vnum: '010110310312'
+    south:
+      target_vnum: '010110310310'
+  name: "Nas Ã\x81rvores"
+  vnum: '010110310311'
+- description: |-
+    Parece que você acaba de entrar num ninho de grandes cobras escaladoras
+    de árvores!  Cuidado, deve haver veneno nas presas delas!
+  exits:
+    south:
+      target_vnum: '010110310311'
+  name: "Nas Ã\x81rvores"
+  vnum: '010110310312'
+- description: |-
+    O som de vários animais está ficando mais alto à medida que você se
+    desloca para o oeste.  Parece que todos os primatas dessa selva estão tendo
+    uma espécie de reunião!  Isso deve ser interessante.
+  exits:
+    east:
+      target_vnum: '010110310309'
+    west:
+      target_vnum: '010110310314'
+  name: Perto dos Macacos
+  vnum: '010110310313'
+- description: |-
+    Este parece ser o local em que todos os primatas se reunem.  Parece que
+    eles tiveram uma grande festa, você pode notar pela grande bagunça que eles
+    fizeram aqui.
+  exits:
+    east:
+      target_vnum: '010110310313'
+    north:
+      target_vnum: '010110310315'
+  name: A Sala de Reuniões
+  vnum: '010110310314'
+- description: |-
+    Isto parece o lugar onde os primatas descansam após um grande encontro.
+    Existem grandes folhas macias para servir de cama, e uma bela fonte no canto
+    da sala.
+  exits:
+    south:
+      target_vnum: '010110310314'
+  name: Próximo à Sala de Reuniões
+  vnum: '010110310315'
+- description: |-
+    O aspecto denso de árvores e muita vegetação desta selva parece diminuir
+    na medida em que você avança por este caminho.  Há uma densa névoa vinda do
+    sul.  Você pode voltar pelo norte, se aventurar pelo desconhecido seguindo
+    para sul ou ainda seguir uma curva que o caminho faz a oeste.
+  exits:
+    north:
+      target_vnum: '010110310302'
+    south:
+      target_vnum: '010110310317'
+    west:
+      target_vnum: '010110310350'
+  name: Um Pequeno Caminho
+  vnum: '010110310316'
+- description: |-
+    Espantoso!  Você está diante a um imenso pântano.  Este pântano está
+    todo coberto por água, mas em algumas partes há só lama.  Uma grande e
+    espessa névoa cobre toda esta região, fazendo com que você não consiga
+    enxergar muito longe.  Um cheiro de carne apodrecida cobre toda esta região.
+    Você pode voltar pelo norte, ou seguir explorando o pântano pelo sul.
+  exits:
+    north:
+      target_vnum: '010110310316'
+    south:
+      target_vnum: '010110310318'
+  name: A Entrada do Pântano
+  vnum: '010110310317'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    east:
+      target_vnum: '010110310321'
+    north:
+      target_vnum: '010110310317'
+    south:
+      target_vnum: '010110310319'
+  name: Pelo Pântano
+  vnum: '010110310318'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    east:
+      target_vnum: '010110310322'
+    north:
+      target_vnum: '010110310318'
+    south:
+      target_vnum: '010110310320'
+  name: Pelo Pântano
+  vnum: '010110310319'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    east:
+      target_vnum: '010110310323'
+    north:
+      target_vnum: '010110310319'
+  name: Pelo Pântano
+  vnum: '010110310320'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    east:
+      target_vnum: '010110310324'
+    south:
+      target_vnum: '010110310322'
+    west:
+      target_vnum: '010110310318'
+  name: Pelo Pântano
+  vnum: '010110310321'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    east:
+      target_vnum: '010110310325'
+    north:
+      target_vnum: '010110310321'
+    south:
+      target_vnum: '010110310323'
+    west:
+      target_vnum: '010110310319'
+  name: Pelo Pântano
+  vnum: '010110310322'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    east:
+      target_vnum: '010110310326'
+    north:
+      target_vnum: '010110310322'
+    west:
+      target_vnum: '010110310320'
+  name: Pelo Pântano
+  vnum: '010110310323'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    south:
+      target_vnum: '010110310325'
+    west:
+      target_vnum: '010110310321'
+  name: Pelo Pântano
+  vnum: '010110310324'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    north:
+      target_vnum: '010110310324'
+    south:
+      target_vnum: '010110310326'
+    west:
+      target_vnum: '010110310322'
+  name: Pelo Pântano
+  vnum: '010110310325'
+- description: |-
+    Este pântano é enorme e misterioso.  Você olha adiante e parece não
+    encontrar o seu fim, talvez pela densa névoa que o cobre.  Cuidado, seres
+    horríveis podem habitar este misterioso local.
+  exits:
+    north:
+      target_vnum: '010110310325'
+    south:
+      target_vnum: '010110310327'
+    west:
+      target_vnum: '010110310323'
+  name: Pelo Pântano
+  vnum: '010110310326'
+- description: |-
+    Finalmente você conseguiu sair daquele horroroso pântano.  Aqui a névoa
+    já vai ficando para trás e a exuberante vegetação volta cobrindo todo o
+    caminho com densas árvores e plantas.
+    Você pode voltar ao pântano indo para o norte, ou seguir adiante indo
+    para sul.
+  exits:
+    north:
+      target_vnum: '010110310326'
+    south:
+      target_vnum: '010110310328'
+  name: Pela Trilha
+  vnum: '010110310327'
+- description: |-
+    Você está na margem de um grande e escuro rio.  Sua água é muito gelada
+    mas essencial para a sobrevivência dos seres que aqui vivem.
+    Na outra márgem do rio você parece ver um estranho tipo de moradia,
+    parece que algum tipo de população primitiva mora ali.
+  exits:
+    north:
+      target_vnum: '010110310327'
+    south:
+      target_vnum: '010110310331'
+  name: Na Margem do Rio
+  vnum: '010110310328'
+- description: |-
+    A nascente deste rio não passa de um pequeno lago, com uma vegetação
+    absolutamente exuberante. Há muita umidade aqui e a água é muito límpida e
+    transparente e através dela você pode ver muitos belos peixes de todas
+    as cores e tamanhos.
+  exits:
+    east:
+      target_vnum: '010110310330'
+  name: Na Nascente
+  vnum: '010110310329'
+- description: |-
+    Este rio é muito belo, mas parece ser muito profundo.  Daqui você tem
+    uma bela visão de toda a selva que circula o rio, simplesmente lindo.
+    O rio continua para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010110310331'
+    west:
+      target_vnum: '010110310329'
+  name: No Rio
+  vnum: '010110310330'
+- description: |-
+    Apesar de possuir uma coloração escura, talvez pela lama que há no fundo
+    deste rio, ele aparenta ser tranquilo e muito bonito.
+    O rio continua para leste e oeste.
+  exits:
+    east:
+      target_vnum: '010110310332'
+    north:
+      target_vnum: '010110310328'
+    west:
+      target_vnum: '010110310330'
+  name: No Rio
+  vnum: '010110310331'
+- description: |-
+    O rio continua seu belo curso para leste e oeste.  Você talvez possa
+    descer na margem logo ao sul.
+  exits:
+    east:
+      target_vnum: '010110310333'
+    south:
+      target_vnum: '010110310334'
+    west:
+      target_vnum: '010110310331'
+  name: No Rio
+  vnum: '010110310332'
+- description: |-
+    CUIDADO!  Ufa, você quase caiu na cachoeira, mas rapidamente se segurou
+    em uma das pedras do rio.  A única saída e voltar pelo rio, pois pela
+    cachoeira somente a morte você irá encontrar.
+  exits:
+    west:
+      target_vnum: '010110310332'
+  name: Na Cachoeira
+  vnum: '010110310333'
+- description: |-
+    Você está na outra margem do rio.  Ao sul há o que parece ser ruínas, e
+    misteriosos sons podem ser ouvidos de lá.  Será que há algum perigo?
+    Você pode tentar a sorte indo para sul ou pode voltar ao rio indo para
+    norte.
+  exits:
+    north:
+      target_vnum: '010110310332'
+    south:
+      target_vnum: '010110310335'
+  name: Na Margem
+  vnum: '010110310334'
+- description: |-
+    Aqui há algumas construções, não muitas, espalhadas por todo o local,
+    todas já em ruínas.  Diz a lenda do local, que aqui vivia uma civilização
+    antiga mas que há muitos anos foi invadida e exterminada.
+    Bom, pelo menos perigoso este local não aparenta ser.  Você pode voltar
+    para o norte ou entrar nas ruínas indo para o sul.
+  exits:
+    north:
+      target_vnum: '010110310334'
+    south:
+      target_vnum: '010110310336'
+  name: Pelas Ruínas
+  vnum: '010110310335'
+- description: |-
+    Você está bem no centro do que já foi uma vila.  Aqui as ruínas fazem um
+    círculo à sua volta e há um altar exatamente no local onde você está.
+    Agora você sabe de onde vêm os misteriosos sons.  Estas ruínas estão
+    assombradas, e você pode ver vários zumbis ao seu redor.  Talvez os mortos
+    nunca tenham saído deste local e até hoje estão aqui, para matar aqueles que
+    tentem adentrar a sua vila.
+    A oeste ou sul, encontram-se pequenas construções e a leste, há o que
+    parece ser um antigo templo.
+  exits:
+    east:
+      target_vnum: '010110310337'
+    north:
+      target_vnum: '010110310335'
+    south:
+      target_vnum: '010110310339'
+    west:
+      target_vnum: '010110310340'
+  name: Pelas Ruínas
+  vnum: '010110310336'
+- description: |-
+    Esta sala parece ser um pouco maior do que as demais.  Aqui há alguns
+    desenhos entalhados nas paredes que restaram e uma porta ao sul, que parece
+    estar intacta.  Você pode voltar pelo oeste ou tentar passar pela porta a sul.
+  exits:
+    south:
+      target_vnum: '010110310338'
+    west:
+      target_vnum: '010110310336'
+  name: Pelas Ruínas
+  vnum: '010110310337'
+- description: |-
+    Aqui parece ser onde o soberano desta antiga civilização ficava.  Há um
+    grande trono, entalhado na pedra bruta, encostado na parede, e muitos
+    entalhes por todas as paredes - pelo menos nas que restaram.
+    A única saída e voltar ao norte.
+  exits:
+    north:
+      target_vnum: '010110310337'
+  name: Uma Pequena Sala
+  vnum: '010110310338'
+- description: |-
+    Impressionante.  Aqui o forro desta construção já ruiu e o que restou
+    foi um grupo de quatro paredes e a pequena entrada.  Você se assuta ao
+    pensar que as quatro paredes que sobraram podem, a qualquer momento, despencar
+    sobre você.  A única saída é voltar pelo norte.
+  exits:
+    north:
+      target_vnum: '010110310336'
+  name: Pelas Ruínas
+  vnum: '010110310339'
+- description: |-
+    Você está dentro de uma ruína e as únicas coisas que você pode ver são
+    pedaços de pedras quebrados e espalhados por todo o local e uma pequena
+    inscrição na parede oeste.
+  exits:
+    east:
+      target_vnum: '010110310336'
+  name: Pelas Ruínas
+  vnum: '010110310340'
+- description: |-
+    Nossa!!! Só para andar neste local já é uma aventura.  Aqui tudo é coberto
+    por uma densa vegetação, dificultando muito seu movimento.  Em meio às folhagens
+    há uma pequena abertura no solo, parecendo ser a entrada para um túnel.
+  exits:
+    down:
+      target_vnum: '010110310342'
+    south:
+      target_vnum: '010110310303'
+  name: Na Selva
+  vnum: '010110310341'
+- description: |-
+    A descida pelo buraco é bem íngreme, fazendo com que você chegue a
+    escorregar em alguns momentos.  Olhando para baixo, você não vê nada, além
+    da total escuridão e só pode ouvir alguns estranhos sons de grunidos.
+  exits:
+    down:
+      target_vnum: '010110310343'
+    up:
+      target_vnum: '010110310341'
+  name: Pela Descida
+  vnum: '010110310342'
+- description: |-
+    A descida pelo buraco é bem íngreme, fazendo com que você até chegue a
+    escorregar em alguns momentos.  Olhando para baixo, você não vê nada, além
+    da total escuridão e só pode ouvir alguns estranhos sons de grunidos.
+  exits:
+    down:
+      target_vnum: '010110310344'
+    up:
+      target_vnum: '010110310342'
+  name: Pela Descida
+  vnum: '010110310343'
+- description: |-
+    Você está em uma pequena caverna.  Aqui você pode ouvir o som da água
+    pingando e o som de que parece ser asas batendo.  O formato desta caverna
+    é muito interessante, uma vez que ela já foi toda preenchida por água.
+  exits:
+    down:
+      target_vnum: '010110310348'
+    east:
+      target_vnum: '010110310345'
+    south:
+      target_vnum: '010110310346'
+    up:
+      target_vnum: '010110310343'
+    west:
+      target_vnum: '010110310347'
+  name: Na Caverna
+  vnum: '010110310344'
+- description: |-
+    Esta sala é onde os morcegos deste local vivem, todos a espera de
+    alimento.  O cheiro de podridão aqui é horrível e há pedaços de corpos em
+    decomposição, que devem ser de aventureiros que alcançaram este lugar.
+  exits:
+    west:
+      target_vnum: '010110310344'
+  name: A Sala dos Morcegos
+  vnum: '010110310345'
+- description: |-
+    Há unica coisa que há aqui é uma grande parede a sua frente, e várias
+    estalactites pela caverna.
+  exits:
+    north:
+      target_vnum: '010110310344'
+  name: Pela Caverna
+  vnum: '010110310346'
+- description: |-
+    Aqui é onde vive o Troll desta caverna.  Há sangue por todas as paredes
+    e pedaços de ossos espalhados pelo chão.  "O Troll deve ser uma criatura
+    faminta" ...pensa você.
+  exits:
+    east:
+      target_vnum: '010110310344'
+  name: Toca do Troll
+  vnum: '010110310347'
+- description: Você está em um buraco.  E agora?
+  exits:
+    up:
+      target_vnum: '010110310344'
+  name: Um Buraco
+  vnum: '010110310348'
+- description: |-
+    O aspecto denso de árvores e muita vegetação desta selva parece diminuir
+    na medida em que você avança por este caminho.  Há uma imensa construção
+    no fim do caminho.
+  exits:
+    east:
+      target_vnum: '010110310316'
+    west:
+      target_vnum: '010110310351'
+  name: Um Pequeno Caminho
+  vnum: '010110310350'
+- description: |-
+    O aspecto denso de árvores e muita vegetação desta selva parece diminuir
+    na medida em que você avança por este caminho.  Há uma imensa construção
+    no fim do caminho.
+  exits:
+    east:
+      target_vnum: '010110310350'
+    west:
+      target_vnum: '010110310352'
+  name: Um Pequeno Caminho
+  vnum: '010110310351'
+- description: |-
+    O aspecto denso de árvores e muita vegetação desta selva parece diminuir
+    na medida em que você avança por este caminho.  Há uma imensa construção
+    no fim do caminho.
+  exits:
+    east:
+      target_vnum: '010110310351'
+    west:
+      target_vnum: '010110310353'
+  name: Um Pequeno Caminho
+  vnum: '010110310352'
+- description: |-
+    Você está bem em frente a um imenso muro de pedra.  Há uma entrada a
+    norte que permite visitar o lugar, mas você não sabe o que encontraria
+    pela frente...
+  exits:
+    east:
+      target_vnum: '010110310352'
+    north:
+      target_vnum: '010120420400'
+  name: Um Pequeno Caminho
+  vnum: '010110310353'

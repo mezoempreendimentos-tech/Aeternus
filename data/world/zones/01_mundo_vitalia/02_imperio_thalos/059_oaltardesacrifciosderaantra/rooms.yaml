@@ -1,0 +1,1272 @@
+- description: "O portão negro descascado fica ao norte.  A parede de pedra fica a\
+    \ leste\ne oeste do portÃ£o.  Ã\x89 uma boa pergunta se o portÃ£o ainda funciona,\
+    \ de tÃ£o\nvelho e acabado que parece.  O sul é usado como entrada principal para\
+    \ algum\ntipo de encontro, talvez acadêmico, talvez militar.  Em todo caso, não\
+    \ é usado\na um bom tempo."
+  exits:
+    south:
+      target_vnum: '010205905901'
+    west:
+      target_vnum: '010115015067'
+  name: A Entrada Para o Manicômio
+  vnum: '010205905900'
+- description: |-
+    Uma fonte, seca, rachada, escurecida pelo limo, fica no centro deste
+    pequeno pátio.  A fonte ostenta a figura de um homem, orgulhosamente no
+    centro, com um tomo em uma das mãos e a outra em sua lapela.  Ainda há algum
+    tipo de líquido no fundo da fonte, mas não parece ser segura sua consumação.
+  exits:
+    east:
+      target_vnum: '010205905903'
+    north:
+      target_vnum: '010205905900'
+    south:
+      target_vnum: '010205905902'
+    west:
+      target_vnum: '010205905905'
+  name: Em uma Velha Fonte
+  vnum: '010205905901'
+- description: |-
+    Grandes construções cercam todos os lados, o que deveriam ser caminhos
+    bem cuidados agora estão tomados por ervas daninhas, levam pelas construções
+    e ao redor das mesmas.  Dois velhos prédios ficam a leste e oeste, e ao sul,
+    uma construção menor, claro, ao norte fica a saída deste lugar.  A porta
+    para a parte sul, obviamente, fica ao sul.
+  exits:
+    east:
+      target_vnum: '010205905904'
+    north:
+      target_vnum: '010205905901'
+    south:
+      target_vnum: '010205905931'
+    west:
+      target_vnum: '010205905906'
+  name: Pelo Manicômio
+  vnum: '010205905902'
+- description: |-
+    As ervas daninhas quase cobrem todo o assoalho que costumava cobrir o
+    chão aqui, apenas pequenos caminhos de pedra ainda são visíveis.  Uma vez,
+    este lugar costumava ser algum tipo de fundação.  O que pode ter acontecido
+    para que o lugar ficasse deste jeito, você pode apenas imaginar.
+  exits:
+    south:
+      target_vnum: '010205905904'
+    west:
+      target_vnum: '010205905901'
+  name: Pelo Manicômio
+  vnum: '010205905903'
+- description: |-
+    O chão abaixo de você foi obviamente remendado aqui, neste pequeno pátio,
+    as pedras ainda proíbem o crescimento das ervas daninhas.  Um prédio
+    bastante antigo fica ao leste, suas portas principais ficam ao leste, uma
+    delas balança loucamente em sua dobradiça.  Olhando mais de perto, você pode
+    ver manchas de sangue perto da maçaneta e em sua moldura.  Um caminho
+    perde-se ao sul entre as construções.
+  exits:
+    east:
+      target_vnum: '010205905907'
+    north:
+      target_vnum: '010205905903'
+    south:
+      target_vnum: '010205905934'
+    west:
+      target_vnum: '010205905902'
+  name: Pelo Manicômio
+  vnum: '010205905904'
+- description: |-
+    Perto do oeste há uma porta que leva a um prédio bem antigo feito de
+    pedra lascada.  O pátio a sua volta deve ter sido bastante bonito com a
+    fonte em seu centro, cercado de grandes construções.  De qualquer forma,
+    alguém ou alguma coisa causou todo este abandono.  Talvez uma fuga, talvez
+    uma doença.  Podemos apenas imaginar.
+  exits:
+    east:
+      target_vnum: '010205905901'
+    south:
+      target_vnum: '010205905906'
+    west:
+      target_vnum: '010205905920'
+  name: Pelo Manicômio
+  vnum: '010205905905'
+- description: |-
+    Um longo prédio bastante antigo segue pelo norte e sul, formando o limite
+    ocidental deste pátio.  Ao sul há um caminho que contorna as construções,
+    levando para trás para o manicômio.  Deste ângulo, você pode ver um brilho
+    bruxuleante vindo do prédio ao sul.
+  exits:
+    east:
+      target_vnum: '010205905902'
+    north:
+      target_vnum: '010205905905'
+    south:
+      target_vnum: '010205905935'
+  name: Pelo Manicômio
+  vnum: '010205905906'
+- description: "O chÃ£o deste prÃ©dio Ã© feito de concreto, qua jÃ¡ foi branco.  Ã\x89\
+    \ agora\nnegro pelo tempo e negligente desuso.  Uma porta fica pela parede leste,\
+    \ um\npequeno buraco se abre aqui, onde uma vez foi o lugar de um vidro.  A câmara\n\
+    segue a norte daqui, um pequeno rastro de sangue velho segue pelo chão."
+  exits:
+    east:
+      target_vnum: '010205905912'
+    north:
+      target_vnum: '010205905908'
+    west:
+      target_vnum: '010205905904'
+  name: A Câmara Interna do Manicômio
+  vnum: '010205905907'
+- description: |-
+    A câmara aqui parece muito com a câmara ao sul, a sujeira toma todo o
+    lugar.  Outra porta fica ao leste, há uma abertura em seu centro onde parece
+    que era o lugar de uma janela.  O rastro de sangue segue a norte para fim da
+    câmara e segue para outra porta ainda.
+  exits:
+    east:
+      target_vnum: '010205905911'
+    north:
+      target_vnum: '010205905909'
+    south:
+      target_vnum: '010205905907'
+  name: A Câmara Interna da Academia
+  vnum: '010205905908'
+- description: |-
+    A câmara chega a um fim, uma porta fica ao leste seguindo para uma sala
+    de aula.  O rastro de sangue, em sua maior parte seco, segue para a sala
+    onde está muito escuro para que você possa ver alguma coisa lá dentro.  A
+    câmara segue a sul na escuridão, para a saída.  Uma escada de concreto segue
+    acima na escuridão, seus degraus estão cobertos de lixo e poeira.
+  exits:
+    east:
+      target_vnum: '010205905910'
+    south:
+      target_vnum: '010205905908'
+    up:
+      target_vnum: '010205905913'
+  name: A Câmara Interna da Academia
+  vnum: '010205905909'
+- description: |-
+    Esta pequena sala de vinte por vinte, foi uma vez usada como sala de aula
+    para algum tipo de ensino que era passado aos pupilos que residiam neste
+    manicômio.  Há um velho quadro negro, quebrado ao meio, ainda pendurado na
+    parede ao sul, e as mesas e cadeiras usadas pelos pupilos ainda estão
+    firmemente pregadas ao chão.  Obviamente, se as mesas e cadeiras tiveram de
+    ser pregadas ao chão, houve necessidade de forçar a disciplina.
+  exits:
+    west:
+      target_vnum: '010205905909'
+  name: A Sala de Aula
+  vnum: '010205905910'
+- description: |-
+    Esta pequena sala tem três fileiras de mesas e cadeiras.  As cadeiras
+    estão viradas para o sul, para um velho quadro negro e um espaço, onde
+    deveria estar a mesa da professora, está vazio.  As cadeiras e mesas
+    restaram apenas por estarem pregadas ao chão, para impor disciplina do modo
+    antigo.
+  exits:
+    west:
+      target_vnum: '010205905908'
+  name: A Sala de Aula
+  vnum: '010205905911'
+- description: |-
+    Esta pequena sala tem três fileiras de mesas e cadeiras, todas colocadas
+    a mesma exata distancia uma da outra e das paredes.  As paredes uma vez de
+    gesso branco, agora trincado pelo tempo, abrindo grandes buracos nas antigas
+    paredes brancas e lisas.  Lascivos desenhos adornam a superfície escura do
+    gesso, clara evidência de que o lugar não está abandonado por completo.
+  exits:
+    west:
+      target_vnum: '010205905907'
+  name: A Sala de Aula
+  vnum: '010205905912'
+- description: |-
+    Estranho que não haja janelas no prédio todo, parece que este prédio
+    deste tamanho foi feito inteiramente de tijolos de pedra e gesso, o que o
+    tornara muito quente e extremamente mal ventilado.  Há uma porta na parede
+    leste, o corredor segue ao sul.
+  exits:
+    down:
+      target_vnum: '010205905909'
+    east:
+      target_vnum: '010205905918'
+    south:
+      target_vnum: '010205905914'
+  name: O Corredor Superior
+  vnum: '010205905913'
+- description: |-
+    O corredor é tão coberto de pedregulhos e escombros do teto e das paredes
+    que fica difícil sua travessia.  As paredes são rachadas e chamuscadas,
+    manchadas de sangue em alguns lugares.
+  exits:
+    east:
+      target_vnum: '010205905917'
+    north:
+      target_vnum: '010205905913'
+    south:
+      target_vnum: '010205905915'
+  name: O Corredor Superior
+  vnum: '010205905914'
+- description: |-
+    Aqui no fim do corredor, o chão é coberto por pedaços de gesso e tijolos
+    de pedra.  Há uma porta na parede leste, tomada pelo lixo que há no chão.
+    Talvez um rápido pulo sobre os escombros permita que você aterrisse ao
+    leste.
+  exits:
+    east:
+      target_vnum: '010205905916'
+    north:
+      target_vnum: '010205905914'
+  name: O Corredor Interno
+  vnum: '010205905915'
+- description: |-
+    Lixo e escombros estão por todo o chão deste pequeno quarto.  Os restos
+    das velhas mesas e cadeiras se acumulam quebradas pelo chão, em uma parede
+    há um pequeno buraco que dá para a outra sala.
+  exits:
+    west:
+      target_vnum: '010205905915'
+  name: A Sala de Aula
+  vnum: '010205905916'
+- description: |-
+    O lixo que estava sobre todo o corredor, se derramou neste quarto - ou
+    será vice versa?  - cobrindo o chão de sujeira.  Pedaços quebrados de
+    madeira das mesas e cadeiras se amontoam dentre pedaços de metal esquecidos.
+  exits:
+    west:
+      target_vnum: '010205905914'
+  name: A Sala de Aula
+  vnum: '010205905917'
+- description: "A sala Ã© manchada com sangue, em todos os estÃ¡gios de apodrecimento.\
+    \  Ã\x89\nobvio que algumas manchas são mais velhas que as outras, umas até\n\
+    relativamente frescas.  Há uma tonelada de entulho das paredes em colapso e\n\
+    do teto, e o fedor é terrível."
+  exits:
+    west:
+      target_vnum: '010205905913'
+  name: A Sala de Aula
+  vnum: '010205905918'
+- description: |-
+    O corredor termina com uma porta ao oeste.  A porta está aberta, apoiada
+    ao chão, pendurada por uma dobradiça.  O entulho do prédio em decadência
+    torna a passagem difícil.  O sangue emplastado nas paredes e o lixo no chão
+    não contribuem muito também.
+  exits:
+    south:
+      target_vnum: '010205905920'
+    west:
+      target_vnum: '010205905922'
+  name: O Fim do Corredor
+  vnum: '010205905919'
+- description: |-
+    Este corredor quase não pode ser chamado de corredor de tão devastado,
+    tão arruinado pelas garras do tempo e pelos tijolos de pedra que as paredes
+    não mais parecem segurar.  Há buracos nas paredes, abrindo uma brecha que dá
+    a visão dos outros quartos arruinados.
+  exits:
+    east:
+      target_vnum: '010205905905'
+    north:
+      target_vnum: '010205905919'
+    west:
+      target_vnum: '010205905923'
+  name: O Corredor Interno
+  vnum: '010205905920'
+- description: |-
+    Este parece ter sido algum tipo de escritório ou administração.  Quem
+    sabe, possivelmente ele tenha sido a recepção ou talvez onde os mais
+    problemáticos eram ouvidos.  Quem pode dizer?
+  exits:
+    west:
+      target_vnum: '010205905924'
+  name: Um Velho Escritório
+  vnum: '010205905921'
+- description: |-
+    Este ao que parece foi algum tipo de escritório de quando o manicômio
+    ainda estava ativo.  Pedaços de metal e de madeira tomam o chão desta sala,
+    parecem ser os restos da mobília do escritório.
+  exits:
+    east:
+      target_vnum: '010205905919'
+  name: O Escritório Administrativo
+  vnum: '010205905922'
+- description: |-
+    O corredor continua seu decadente caminho até as profundezas do prédio,
+    os buracos da parede ainda mostram outros quartos.  Tons de vermelho - o que
+    parecem ser manchas de sangue - são muito freqüentes enquanto você segue seu
+    caminho para dentro deste lugar amaldiçoado.  Pode ser uma boa idéia
+    manter-se perto da saída.
+  exits:
+    east:
+      target_vnum: '010205905920'
+    south:
+      target_vnum: '010205905924'
+  name: O Corredor Interno
+  vnum: '010205905923'
+- description: |-
+    Degraus levam para cima, estes, que estão pela metade, esmigalhados.
+    Seria um grande ato de coragem seguir adiante.  Há uma porta ao leste.
+  exits:
+    east:
+      target_vnum: '010205905921'
+    north:
+      target_vnum: '010205905923'
+    up:
+      target_vnum: '010205905925'
+  name: A Base de uma Escada Caindo aos Pedaços
+  vnum: '010205905924'
+- description: |-
+    A escada fica bem abaixo, seus degraus quebrados abrem buracos prontos
+    para engolir almas tolas o suficiente para descer.  Uma porta fica ao norte,
+    um corredor segue a leste.
+  exits:
+    down:
+      target_vnum: '010205905924'
+    east:
+      target_vnum: '010205905926'
+    north:
+      target_vnum: '010205905927'
+  name: No Topo da Escada Caindo aos Pedaços
+  vnum: '010205905925'
+- description: |-
+    O corredor faz uma curva pela direita ao norte, levando para a escuridão.
+    Os escombros são tantos quanto no nível superior e inferior.  Não há portas
+    ou janelas a vista, mas há manchas de sangue - sempre presentes.
+  exits:
+    north:
+      target_vnum: '010205905928'
+    west:
+      target_vnum: '010205905925'
+  name: O Corredor Escurecido
+  vnum: '010205905926'
+- description: |-
+    Parece ser bem pequeno este escritório privativo.  Há pedaços velhos da
+    decoração, apodrecendo desde que a decadência veio a este lugar, o que
+    indica que em alguma época este foi um lugar de conforto para algum alto
+    administrador.
+  exits:
+    south:
+      target_vnum: '010205905925'
+  name: Um Velho Escritório
+  vnum: '010205905927'
+- description: |-
+    O corredor segue do norte ao sul, sem janelas ou portas em ambas as
+    paredes.  Quase parece que o prédio inteiro foi borrifado com sangue, mas
+    manchas de sangue persistem até aqui, no nível superior.
+  exits:
+    north:
+      target_vnum: '010205905930'
+    south:
+      target_vnum: '010205905926'
+  name: O Corredor de Pedregulhos
+  vnum: '010205905928'
+- description: |-
+    Este obviamente foi o escritório de algum funcionário de alto escalão,
+    como se ele fosse feito para entreter convidados e outras pessoas.  O chão
+    ainda é parcialmente coberto com um carpete apodrecido e carcomido, assim
+    como as paredes.
+  exits:
+    east:
+      target_vnum: '010205905930'
+  name: O Escritório
+  vnum: '010205905929'
+- description: |-
+    Os corredores terminam aqui, com uma porta ao oeste.  Pilhas de escombro
+    sobem pelas paredes, fazendo da caminhada um desafio.  Há ainda as marcas de
+    sangue em todo lugar, fazendo-o parecer pintado com alguma tinta macabra e
+    mal cheirosa.
+  exits:
+    south:
+      target_vnum: '010205905928'
+    west:
+      target_vnum: '010205905929'
+  name: O Fim do Corredor
+  vnum: '010205905930'
+- description: |-
+    Aqui era a recepção do deão do manicômio, há muito tempo, quando este
+    ainda funcionava - era um manicômio oras.  O sangue que parece cobrir quase
+    todo chão parece especialmente grosso aqui, as paredes são pegajosas ao
+    toque, e o chão bastante grudendo.  Há uma pequena porta na parede leste.
+  exits:
+    east:
+      target_vnum: '010205905932'
+    north:
+      target_vnum: '010205905902'
+  name: A Recepção
+  vnum: '010205905931'
+- description: |-
+    Este era a sala de estar do deão e de sua família, onde eles se
+    encontravam, passavam algum tempo juntos e faziam suas refeições.  Os restos
+    de uma velha mesa estão aqui, apenas uma perna restou das quatro originais,
+    apoiando a mesa em um ângulo absurdo.
+  exits:
+    south:
+      target_vnum: '010205905933'
+    west:
+      target_vnum: '010205905931'
+  name: A Sala de Estar
+  vnum: '010205905932'
+- description: |-
+    Este periclitante quarto é tudo o que restou de uma confortável câmara de
+    descanso do deão e sua esposa.  Os travesseiros e lençóis há muito foram
+    rasgados em pedaços e carregados pelos ratos, o que era roupa de cama, agora
+    é um grande ninho.  O que restou da mobília é apenas uma pilha de madeira
+    carcomida, e gesso que caiu das paredes.  E tudo está - claro - ensopado de
+    sangue.
+  exits:
+    north:
+      target_vnum: '010205905932'
+  name: O Quarto
+  vnum: '010205905933'
+- description: |-
+    Em sua maior parte coberto de ervas daninhas e plantas escuras, este
+    caminho é cheio de tijolos de pedra e lixo dos prédios a seu redor, tudo,
+    coberto com um vermelho profundo, a cor do sangue.  Parece que o caminho foi
+    limpo recentemente, embora ainda haja muitos escombros no caminho, o que
+    torna sua passagem possível.  Ao sul uma luz bruxuleante pode ser vista.  Ao
+    leste fica a entrada para uma pequena construção feita de pedra.
+  exits:
+    east:
+      target_vnum: '010205905938'
+    north:
+      target_vnum: '010205905904'
+    south:
+      target_vnum: '010205905936'
+  name: Um Caminho Confuso
+  vnum: '010205905934'
+- description: "O caminho segue ao sul, em direÃ§Ã£o Ã  fonte de luz.  Ã\x80 luz bruxuleante,\n\
+    pode-se ver marcas vermelhas e molhadas que foram espirradas por todo o\nchão,\
+    \ nas velhas pedras algumas das manchas secaram.  Um terrível sentimento\nacompanha\
+    \ este lugar, quase como uma antecipação da morte próxima.  Um\nprédio de pedra\
+    \ sem telhado fica logo ao oeste."
+  exits:
+    north:
+      target_vnum: '010205905906'
+    south:
+      target_vnum: '010205905937'
+    west:
+      target_vnum: '010205905940'
+  name: Um Caminho Errante
+  vnum: '010205905935'
+- description: |-
+    A fonte de luz bruxuleante é agora vista.  Ela vem de um grande belvedere
+    de pedra, no meio do pátio.  O pátio é cercado por prédios escurecidos,
+    todos mostrando sinais de destruição.  Há formas humanas vagando pelo pátio,
+    algumas parecem estar dançando, outras parecem estar fazendo tarefas
+    específicas.  No belvedere há algumas pessoas, todas em únissono parecem
+    dizer alguma coisa com um som ainda não ouvido.  Olhando para o chão do
+    pátio, sangue pode ser visto espirrado em grandes quantidades pelas pedras.
+    Quase parece que foi vertido para saturar o lugar todo.
+  exits:
+    north:
+      target_vnum: '010205905934'
+    south:
+      target_vnum: '010205905945'
+  name: Um Caminho Errante Perto do Pátio
+  vnum: '010205905936'
+- description: |-
+    O caminho entra em uma curva ao noroeste para um grande pátio de pedra,
+    ornado com um enorme belvedere em seu centro.  Parece que o belvedere é a
+    fonte de luz bruxuleante, como se algum tipo de fogo o estivesse consumindo.
+    Ao longo do pátio há pessoas que parecem estar celebrando algum tipo de
+    ritual, eles são muitos.
+  exits:
+    north:
+      target_vnum: '010205905935'
+    south:
+      target_vnum: '010205905942'
+  name: Ao Norte do Pátio
+  vnum: '010205905937'
+- description: |-
+    Parece que os ocupantes dessa instituição eram ligeiramente periculosos,
+    uma vez que guardas haviam de ser mantidos em alerta.  Este prédio é igual
+    aos outros, decadente, caindo aos pedaços e manchado de sangue.
+  exits:
+    east:
+      target_vnum: '010205905939'
+    west:
+      target_vnum: '010205905934'
+  name: Os Quartos dos Guardas
+  vnum: '010205905938'
+- description: |-
+    O prédio mais parece um matadouro.  Nada de valor foi deixado, apenas
+    pedaços da mobília.  Este lugar deve ter sido deixado para apodrecer há
+    muito tempo atrás.
+  exits:
+    west:
+      target_vnum: '010205905938'
+  name: Os Quartos dos Guardas
+  vnum: '010205905939'
+- description: |-
+    Em algum tempo aqui deve ter sido onde os moradores e visitantes do
+    manicômio mantinham suas montarias.  O chão não mostra sinais de que fora de
+    pedra, as paredes são todas de pedra crua, que não parecem terem sido
+    erguidas com o propósito de dar algum conforto.
+  exits:
+    east:
+      target_vnum: '010205905935'
+    south:
+      target_vnum: '010205905941'
+  name: Os Velhos Estábulos
+  vnum: '010205905940'
+- description: |-
+    O sangue aqui é tão presente quanto é em todos os lugares deste
+    manicômio, borrifadas de vermelho decorando cada polegada.  Que tipo de
+    crime horrível fora cometido aqui, de modo a jorrar sangue deste modo?  Que
+    tipo de criatura faria uma coisa destas?
+  exits:
+    north:
+      target_vnum: '010205905940'
+  name: Os Velhos Estábulos
+  vnum: '010205905941'
+- description: |-
+    O pátio aqui é enorme, em seu centro há um grande belvedere que segura
+    uma bruxuleante chama.  As pedras são pegajosas, aderindo à sola das botas e
+    sandálias, causando efeito até aos mais corajosos.
+  exits:
+    east:
+      target_vnum: '010205905943'
+    north:
+      target_vnum: '010205905937'
+    south:
+      target_vnum: '010205905948'
+  name: O Pátio Principal do Manicômio
+  vnum: '010205905942'
+- description: |-
+    Este é o pátio principal do manicômio.  Um enorme belvedere de pedra é
+    ostentado no centro, um caminho de pedra leva em todas as direções.  O chão
+    é pegajoso, fazendo seu calçado grudar nele.
+  exits:
+    east:
+      target_vnum: '010205905944'
+    south:
+      target_vnum: '010205905946'
+    west:
+      target_vnum: '010205905942'
+  name: O Pátio Principal do Manicômio
+  vnum: '010205905943'
+- description: |-
+    Este pátio foi uma vez, obviamente, o centro de tráfego do manicômio
+    durante o dia.  Um enorme belvedere de pedra fica ao sul daqui, um caminho
+    largo leva a ele.  As pedras do pátio estão bem mais ensopadas de sangue que
+    o resto do caminho pelo qual você passou, o chão é pegajoso a ponto de
+    realmente tornar sua passagem difícil, pois seus calçados ficam presos.
+  exits:
+    east:
+      target_vnum: '010205905945'
+    south:
+      target_vnum: '010205905947'
+    west:
+      target_vnum: '010205905943'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905944'
+- description: |-
+    Este pátio foi uma vez, obviamente, o centro de tráfego do manicômio
+    durante o dia.  Um enorme belvedere de pedra fica ao sul daqui, um caminho
+    largo leva a ele.  As pedras do pátio estão bem mais ensopadas de sangue que
+    o resto do caminho pelo qual você passou, o chão é pegajoso a ponto de
+    realmente tornar sua passagem difícil, pois seus calçados ficam presos.
+  exits:
+    east:
+      target_vnum: '010205905958'
+    north:
+      target_vnum: '010205905936'
+    south:
+      target_vnum: '010205905955'
+    west:
+      target_vnum: '010205905944'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905945'
+- description: |-
+    Esta parte do pátio é de pedra, fica no meio de degraus que seguem para o
+    belvedere.  O cheiro de sangue fresco no ar é bastante forte, as pedras
+    deste pátio devem ser testemunhas de mortes diárias.
+  exits:
+    east:
+      target_vnum: '010205905947'
+    north:
+      target_vnum: '010205905943'
+    south:
+      target_vnum: '010205905949'
+    west:
+      target_vnum: '010205905948'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905946'
+- description: |-
+    Agora a fonte de luz do belvedere pode ser bem vista - uma tocha
+    bruxuleante encrustada em um suporte de pedra, e há um pequeno altar perto
+    dela.  Um homem vestido em um robe vermelho ensangüentado, se ajoelha diante
+    do altar, com braços erguidos em prece, enquanto segura firmemente uma adaga
+    curva.
+  exits:
+    east:
+      target_vnum: '010205905955'
+    north:
+      target_vnum: '010205905944'
+    south:
+      target_vnum: '010205905951'
+    west:
+      target_vnum: '010205905946'
+  name: Os Degraus do Belvedere
+  vnum: '010205905947'
+- description: |-
+    O pátio termina ao oeste, um pequeno edifício marca seu limite.  A
+    entrada para o prédio fica ao sul, uma escada de altos degraus leva para o
+    seu escuro interior.  Bem atrás do prédio uma alta torre pode ser vista se
+    erguendo no céu da noite.
+  exits:
+    east:
+      target_vnum: '010205905946'
+    north:
+      target_vnum: '010205905942'
+    south:
+      target_vnum: '010205905950'
+  name: O Pátio do Manicômio
+  vnum: '010205905948'
+- description: |-
+    Agora a fonte de luz do belvedere pode ser bem vista - uma tocha
+    bruxuleante encrustada em um suporte de pedra, e há um pequeno altar perto
+    dela.  Um homem vestido em um robe vermelho ensangüentado, se ajoelha diante
+    do altar, com braços erguidos em prece, enquanto segura firmemente uma adaga
+    curva.
+  exits:
+    east:
+      target_vnum: '010205905951'
+    north:
+      target_vnum: '010205905946'
+    south:
+      target_vnum: '010205905953'
+    west:
+      target_vnum: '010205905950'
+  name: Os Degraus do Belvedere
+  vnum: '010205905949'
+- description: |-
+    Um prédio, de aparência importante, pelo menos parece, pois não tem
+    manchas de sangue cobrindo as paredes interiores, fica ao oeste.  Portas
+    duplas penduradas em suas dobradiças dão visão para o escuro e misterioso
+    interior.  Pelo leste, degraus levam para o belvedere de pedra.
+  exits:
+    east:
+      target_vnum: '010205905949'
+    north:
+      target_vnum: '010205905948'
+    south:
+      target_vnum: '010205905952'
+    west:
+      target_vnum: '010205905974'
+  name: A Entrada Para o Prédio
+  vnum: '010205905950'
+- description: |-
+    O chão do belvedere é de pedra, como o resto dos edifícios que compõem o
+    manicômio, é gasto, o que indica grande movimento.  Esta área meio afundada
+    forma um tipo de piscina, que provavelmente é cheia com grosso e escuro
+    sangue.  Tochas são seguras em suportes de pedra no teto, quatro delas,
+    iluminando bem este terrível lugar.
+  exits:
+    east:
+      target_vnum: '010205905956'
+    north:
+      target_vnum: '010205905947'
+    south:
+      target_vnum: '010205905954'
+    west:
+      target_vnum: '010205905949'
+  name: O Altar de Raantra
+  vnum: '010205905951'
+- description: |-
+    O pátio dá para a parede de um prédio singular ao oeste.  A entrada para
+    esta construção fica a norte, através de suas portas previamente abertas.
+  exits:
+    east:
+      target_vnum: '010205905953'
+    north:
+      target_vnum: '010205905950'
+    south:
+      target_vnum: '010205905962'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905952'
+- description: |-
+    Esta parte do pátio é de pedra, fica no meio de degraus que seguem para o
+    belvedere.  O cheiro de sangue fresco no ar é bastante forte, as pedras
+    deste pátio devem ser testemunhas de mortes diárias.
+  exits:
+    east:
+      target_vnum: '010205905954'
+    north:
+      target_vnum: '010205905949'
+    south:
+      target_vnum: '010205905963'
+    west:
+      target_vnum: '010205905952'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905953'
+- description: |-
+    Agora a fonte de luz do belvedere pode ser bem vista - uma tocha
+    bruxuleante encrustada em um suporte de pedra, e há um pequeno altar perto
+    dela.  Um homem vestido em um robe vermelho ensangüentado, se ajoelha diante
+    do altar, com braços erguidos em prece, enquanto segura firmemente uma adaga
+    curva.
+  exits:
+    east:
+      target_vnum: '010205905960'
+    north:
+      target_vnum: '010205905955'
+    south:
+      target_vnum: '010205905957'
+    west:
+      target_vnum: '010205905951'
+  name: Os Degraus do Belvedere
+  vnum: '010205905954'
+- description: |-
+    Esta parte do pátio é de pedra, fica no meio de degraus que seguem para o
+    belvedere.  O cheiro de sangue fresco no ar é bastante forte, as pedras deste
+    pátio devem ser testemunhas de mortes diárias.
+  exits:
+    east:
+      target_vnum: '010205905959'
+    north:
+      target_vnum: '010205905945'
+    south:
+      target_vnum: '010205905956'
+    west:
+      target_vnum: '010205905947'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905955'
+- description: |-
+    Agora a fonte de luz do belvedere pode ser bem vista - uma tocha bruxuleante
+    encrustada em um suporte de pedra, e há um pequeno altar perto dela.  Um
+    homem vestido em um robe vermelho ensangüentado, se ajoelha diante do altar,
+    com braços erguidos em prece, enquanto segura firmemente uma adaga curva.
+  exits:
+    east:
+      target_vnum: '010205905960'
+    north:
+      target_vnum: '010205905955'
+    south:
+      target_vnum: '010205905957'
+    west:
+      target_vnum: '010205905951'
+  name: Os Degraus do Belvedere
+  vnum: '010205905956'
+- description: |-
+    Esta parte do pátio é de pedra, fica no meio de degraus que seguem para o
+    belvedere.  O cheiro de sangue fresco no ar é bastante forte, as pedras
+    deste pátio devem ser testemunhas de mortes diárias.
+  exits:
+    east:
+      target_vnum: '010205905961'
+    north:
+      target_vnum: '010205905956'
+    south:
+      target_vnum: '010205905965'
+    west:
+      target_vnum: '010205905954'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905957'
+- description: |-
+    Este é o limite nordeste do pátio.  Uma velha capela abandonada fica ao
+    leste, e a entrada a sul daqui.  Deste ângulo, uma alta torre pode ser
+    vista, se erguendo da capela, de onde um sino ainda toca.  Um grande
+    belvedere de pedra fica no centro do pátio, uma forte chama bruxuleia dentro
+    dele.
+  exits:
+    south:
+      target_vnum: '010205905959'
+    west:
+      target_vnum: '010205905945'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905958'
+- description: |-
+    A entrada da capela fica ao sul daqui, alguns degraus ficam ao leste
+    levando para a porta principal.  Ao sudoeste, no centro do pátio, um grande
+    belvedere celebra o progresso (?).  Pessoas de alguma outra raça podem ser
+    vistas vagando pelo pátio.
+  exits:
+    north:
+      target_vnum: '010205905958'
+    south:
+      target_vnum: '010205905960'
+    west:
+      target_vnum: '010205905955'
+  name: O Pátio Interno do Manicômio
+  vnum: '010205905959'
+- description: |-
+    Os degraus levam direto para a porta da capela, de madeira esculpida que
+    resistiu ao tempo.  A madeira deve ter sido muito bonita com seus desenhos
+    de anjos e querubins em alto relevo, mas agora os anjos estão sujos de
+    sangue, suas faces refletem algo horrível.  O pátio fica ao oeste.
+  exits:
+    east:
+      target_vnum: '010205905967'
+    north:
+      target_vnum: '010205905959'
+    south:
+      target_vnum: '010205905961'
+    west:
+      target_vnum: '010205905956'
+  name: A Entrada da Capela
+  vnum: '010205905960'
+- description: |-
+    Este é o limite leste do pátio, a parede externa da capela fica a leste.
+    A entrada da capela fica a norte, pelos degraus.
+  exits:
+    north:
+      target_vnum: '010205905960'
+    south:
+      target_vnum: '010205905966'
+    west:
+      target_vnum: '010205905957'
+  name: O Pátio do Manicômio
+  vnum: '010205905961'
+- description: |-
+    Este é o limite sudoeste do manicômio.  Um pequeno caminho leva ao redor
+    de um enorme prédio que fica a sul daqui.  A cerimônia continua no belvedere
+    ao nordeste.
+  exits:
+    east:
+      target_vnum: '010205905963'
+    north:
+      target_vnum: '010205905952'
+    west:
+      target_vnum: '010205905993'
+  name: O Pátio do Manicômio
+  vnum: '010205905962'
+- description: |-
+    Este é o limite sul do manicômio, limitado por um grande prédio cuja uma
+    das entradas fica ao sul.  O belvedere fica ao nordeste, no centro do pátio.
+  exits:
+    east:
+      target_vnum: '010205905964'
+    north:
+      target_vnum: '010205905953'
+    south:
+      target_vnum: '010205905976'
+    west:
+      target_vnum: '010205905962'
+  name: O Pátio do Manicômio
+  vnum: '010205905963'
+- description: |-
+    O belvedere fica ao norte daqui, no fim de alguns degraus.  Ao sul, há
+    uma parede de pedra de uma das construções.  O sangue no chão parece nunca
+    acabar.
+  exits:
+    east:
+      target_vnum: '010205905965'
+    north:
+      target_vnum: '010205905954'
+    west:
+      target_vnum: '010205905963'
+  name: O Pátio do Manicômio
+  vnum: '010205905964'
+- description: |-
+    Este é o final sul do pátio, onde ele termina em uma larga parede de
+    pedra de um dos prédios.  Uma porta para a entrada deste prédio fica ao sul,
+    o belvedere fica no centro do pátio - mais parece uma entrada pelos fundos.
+  exits:
+    east:
+      target_vnum: '010205905966'
+    north:
+      target_vnum: '010205905957'
+    south:
+      target_vnum: '010205905978'
+    west:
+      target_vnum: '010205905964'
+  name: O Pátio do Manicômio
+  vnum: '010205905965'
+- description: |-
+    Esta é a curva sudeste do pátio.  Uma trilha segue ao leste entre as
+    construções que limitam o pátio.  Ao longe, noroeste, um grande belvedere de
+    onde emana uma luz profana.
+  exits:
+    east:
+      target_vnum: '010205905983'
+    north:
+      target_vnum: '010205905961'
+    west:
+      target_vnum: '010205905965'
+  name: O Pátio do Manicômio
+  vnum: '010205905966'
+- description: |-
+    Que grande lugar aqui deve ter sido.  As paredes são de pedra trabalhada,
+    esculpidas com motivos angelicais.  Ao norte há uma porta, ao sul, a área
+    principal de adoração.  Ao leste um pequeno quarto, cuja função é
+    insondável.
+  exits:
+    east:
+      target_vnum: '010205905969'
+    north:
+      target_vnum: '010205905968'
+    south:
+      target_vnum: '010205905970'
+    west:
+      target_vnum: '010205905960'
+  name: Na Entrada da Capela
+  vnum: '010205905967'
+- description: |-
+    Os ganchos de pedra nas paredes onde os clérigos costumavam pendurar seus
+    hábitos e robes depois e antes de seus serviços.  Não há, obviamente, robes
+    pendurados.  Este quarto, como a maioria dos quartos nas dependências deste
+    manicômio, sucumbiu ao tempo e a decadência.  As paredes, assim como o chão,
+    estão rachadas e quebradas.  Tudo é claro, coberto de manchas vermelhas.
+  exits:
+    south:
+      target_vnum: '010205905967'
+  name: A Chapelaria
+  vnum: '010205905968'
+- description: |-
+    Nada mais é, que um quarto cinco por cinco sem teto.  Olhando para cima,
+    você pode ver que este alto cabo segue diretamente para a torre do sino, de
+    onde o mesmo pode ser visto.  Algumas cordas estão penduradas, mas não podem
+    ser alcançadas.  Elas deviam ligar alguma coisa até aqui, mas seja o que
+    tenha sido, já apodreceu...
+  exits:
+    west:
+      target_vnum: '010205905967'
+  name: Pelo Cabo
+  vnum: '010205905969'
+- description: |-
+    A manchas onde candelabros se alinham diante do altar esculpido em pedra,
+    de qualquer forma, tudo o que restou da majestade deste lugar são dois
+    candelabros que restaram no altar.  Pareceria trabalho de algum vândalo ou
+    ladrão, se não fosse a grande quantidade de sangue pelas pedras.
+  exits:
+    north:
+      target_vnum: '010205905967'
+  name: A Sala de Adoração da Capela
+  vnum: '010205905970'
+- description: |-
+    Inacreditavelmente, os lados interiores das paredes são escaláveis!
+    Apenas mais um pouco e o sino pode ser alcançado, onde uma plataforma de
+    pedra cerca o cabo.
+  exits:
+    down:
+      target_vnum: '010205905969'
+    up:
+      target_vnum: '010205905972'
+  name: Pelo Cabo
+  vnum: '010205905971'
+- description: |-
+    O cabo que segue no interior da capela é na verdade a torre do sino.  Na
+    parede norte há uma janela que leva para cima do telhado da capela.  Não
+    parece que a torre seria acessível novamente, uma vez que você saia pelo
+    telhado.
+  exits:
+    down:
+      target_vnum: '010205905971'
+    north:
+      target_vnum: '010205905973'
+  name: A Torre do Sino
+  vnum: '010205905972'
+- description: |-
+    Não há nada de interessante neste telhado, exceto o fato deste ser o
+    único lugar onde não há manchas de sangue.  Parece que o único modo de se
+    descer, é pulando para o pátio abaixo de você.
+  exits:
+    down:
+      target_vnum: '010205905959'
+  name: O Telhado da Capela
+  vnum: '010205905973'
+- description: |-
+    Esta é uma pequena antecâmara onde em algum tempo um bibliotecário uma
+    vez trabalhou e se certificou de que todos os livros estivessem em ordem.
+    Não há mesa, nem secretária, ou bibliotecário, apenas quatro paredes aos
+    pedaços.
+  exits:
+    east:
+      target_vnum: '010205905950'
+    south:
+      target_vnum: '010205905975'
+  name: A Entrada da Biblioteca
+  vnum: '010205905974'
+- description: |-
+    A maioria das prateleiras que costumavam se alinhar pela parede, moldadas
+    em pedra, agora
+    Estão quebradas pelo chão, cheias de poeira.
+  exits:
+    north:
+      target_vnum: '010205905974'
+  name: A Biblioteca
+  vnum: '010205905975'
+- description: |-
+    A faculdade do manicômio manteve os restos de camas e mesas quebradas
+    aqui, sem mencionar que neste prédio ficam todos os outros quartos dos
+    'estudantes' do lugar.  Ainda há vestígios do que este quarto costumava ser,
+    algumas velhas armações de aço - provavelmente camas - jogadas em uma
+    parede, retorcidas.  Como qualquer outra parte deste manicômio, as paredes
+    estão ensopadas em sangue assim, como o chão.
+  exits:
+    north:
+      target_vnum: '010205905963'
+    south:
+      target_vnum: '010205905977'
+  name: O Alojamento da Faculdade
+  vnum: '010205905976'
+- description: |-
+    Aqui é onde os estudantes - ou doentes mentais - eram trazidos a noite.
+    Não há mais mobília pelo quarto, apenas pedaços de gesso quebrado e tijolos
+    de pedra.  Uma porta leva à base de uma escada.
+  exits:
+    down:
+      target_vnum: '010205905981'
+    east:
+      target_vnum: '010205905979'
+    north:
+      target_vnum: '010205905976'
+  name: O Dormitório
+  vnum: '010205905977'
+- description: |-
+    A faculdade do manicômio manteve os restos de camas e mesas quebradas
+    aqui, sem mencionar que neste prédio ficam todos os outros quartos dos
+    'estudantes' do lugar.  Ainda há vestígios do que este quarto costumava ser,
+    algumas velhas armações de aço - provavelmente camas - jogadas em uma
+    parede, retorcidas.  Como qualquer outra parte deste manicômio, as paredes
+    estão ensopadas em sangue assim, como o chão.
+  exits:
+    north:
+      target_vnum: '010205905965'
+    south:
+      target_vnum: '010205905980'
+  name: O Alojamento da Faculdade
+  vnum: '010205905978'
+- description: |-
+    Aqui é onde os estudantes - ou doentes mentais - eram trazidos a noite.
+    Não há mais mobília pelo quarto, apenas pedaços de gesso quebrado e tijolos
+    de pedra.  Uma porta leva à base de uma escada.
+  exits:
+    east:
+      target_vnum: '010205905980'
+    west:
+      target_vnum: '010205905977'
+  name: O Dormitório
+  vnum: '010205905979'
+- description: |-
+    Aqui é onde os estudantes - ou doentes mentais - eram trazidos a noite.
+    Não há mais mobília pelo quarto, apenas pedaços de gesso quebrado e tijolos
+    de pedra.  Uma porta leva à base de uma escada.
+  exits:
+    north:
+      target_vnum: '010205905978'
+    west:
+      target_vnum: '010205905979'
+  name: O Dormitório
+  vnum: '010205905980'
+- description: |-
+    Este quarto tem todas suas paredes quebradas, guardando apenas o vazio.
+    Na parede sul há uma pequena porta de madeira, ainda bem segura em suas
+    dobradiças.
+  exits:
+    south:
+      target_vnum: '010205905982'
+    up:
+      target_vnum: '010205905977'
+  name: O Almoxarifado
+  vnum: '010205905981'
+- description: |-
+    Isto é o que os serventes do manicômio usavam como última arma contra os
+    'estudantes' que saíam fora do controle.  A temperatura deste minúsculo
+    cubículo deve cair mais ainda durante a noite, o chão é sujo assim, como as
+    paredes.  Qualquer 'estudante' que tivesse problemas com obediência era
+    trazido aqui para esfriar o ânimo.
+  exits:
+    north:
+      target_vnum: '010205905981'
+  name: O Quarto Gelado
+  vnum: '010205905982'
+- description: |-
+    Este uma vez foi um caminho bem cuidado, cujas pedras, agora, estão
+    quebras e ensopadas de sangue.  O caminho segue ao sul, e faz uma curva a
+    leste, em direção a um grande prédio de pedra.
+  exits:
+    south:
+      target_vnum: '010205905984'
+    west:
+      target_vnum: '010205905966'
+  name: Um Velho Caminho de Pedra
+  vnum: '010205905983'
+- description: |-
+    Este uma vez foi um caminho bem cuidado, cujas pedras, agora, estão
+    quebras e ensopadas de sangue.  O caminho segue ao norte pelo pátio, e vira
+    ao leste novamente, na direção ao grande prédio.
+  exits:
+    east:
+      target_vnum: '010205905985'
+    north:
+      target_vnum: '010205905983'
+  name: Um Velho Caminho de Pedra
+  vnum: '010205905984'
+- description: |-
+    Este uma vez foi um caminho bem cuidado, cujas pedras, agora, estão
+    quebras e ensopadas de sangue.  O prédio, que agora fica bem ao sul de você,
+    pode ser adentrado através de uma porta ao leste.
+  exits:
+    east:
+      target_vnum: '010205905986'
+    west:
+      target_vnum: '010205905984'
+  name: Um Velho Caminho de Pedra
+  vnum: '010205905985'
+- description: |-
+    O interior do prédio pode ser visto através de bruxuleantes luzes.
+    Estranhas pessoas podem ser vistas dentro do prédio, aquecendo-se em
+    fogueiras ou dormindo, miseráveis pelo chão.  O caminho segue pelo leste
+    daqui, de volta ao pátio.
+  exits:
+    south:
+      target_vnum: '010205905987'
+    west:
+      target_vnum: '010205905985'
+  name: A Entrada Para o Auditório
+  vnum: '010205905986'
+- description: |-
+    O lugar tem dimensões imensas, um enorme palco fica ao norte.  Pessoas
+    encardidas e miseráveis se aglomeram em volta de pequenas fogueiras, ou
+    dormem encolhidas no chão, esperando para serem a próxima Escolha.  Fileiras
+    de cadeiras de pedra vão até o teto.
+  exits:
+    north:
+      target_vnum: '010205905986'
+    south:
+      target_vnum: '010205905989'
+    west:
+      target_vnum: '010205905988'
+  name: Pelo Auditório
+  vnum: '010205905987'
+- description: |-
+    O lugar tem dimensões imensas, um enorme palco fica ao norte.  Pessoas
+    encardidas e miseráveis se aglomeram em volta de pequenas fogueiras, ou
+    dormem encolhidas no chão, esperando para serem a próxima Escolha.  Fileiras
+    de cadeiras de pedra vão até o teto.
+  exits:
+    east:
+      target_vnum: '010205905987'
+    south:
+      target_vnum: '010205905990'
+  name: Pelo Auditório
+  vnum: '010205905988'
+- description: |-
+    O lugar tem dimensões imensas, um enorme palco fica ao norte.  Pessoas
+    encardidas e miseráveis se aglomeram em volta de pequenas fogueiras, ou
+    dormem encolhidas no chão, esperando para serem a próxima Escolha.  Fileiras
+    de cadeiras de pedra vão até o teto.
+  exits:
+    north:
+      target_vnum: '010205905987'
+    up:
+      target_vnum: '010205905992'
+    west:
+      target_vnum: '010205905990'
+  name: Pelo Auditório
+  vnum: '010205905989'
+- description: |-
+    O lugar tem dimensões imensas, um enorme palco fica ao norte.  Pessoas
+    encardidas e miseráveis se aglomeram em volta de pequenas fogueiras, ou
+    dormem encolhidas no chão, esperando para serem a próxima Escolha.  Fileiras
+    de cadeiras de pedra vão até o teto.
+  exits:
+    east:
+      target_vnum: '010205905989'
+    north:
+      target_vnum: '010205905988'
+    up:
+      target_vnum: '010205905991'
+  name: Pelo Auditório
+  vnum: '010205905990'
+- description: |-
+    Fileiras e fileiras de assentos de pedra podem ser vistos, ao leste e
+    oeste da parede sul onde os assentos quase alcançam o teto.  Mais miseráveis
+    deitam entre os assentos, aconchegados em suas esperanças, que os mantêm
+    longe da próxima Escolha.
+  exits:
+    down:
+      target_vnum: '010205905990'
+    east:
+      target_vnum: '010205905992'
+  name: Os Assentos do Auditório
+  vnum: '010205905991'
+- description: |-
+    Fileiras e fileiras de assentos de pedra podem ser vistos, ao leste e
+    oeste da parede sul onde os assentos quase alcançam o teto.  Mais miseráveis
+    deitam entre os assentos, aconchegados em suas esperanças, que os mantêm
+    longe da próxima Escolha.
+  exits:
+    down:
+      target_vnum: '010205905989'
+    west:
+      target_vnum: '010205905991'
+  name: Os Assentos do Auditório
+  vnum: '010205905992'
+- description: |-
+    Este caminho costumava ser uma pequena extensão do caminho de pedra,
+    levando para a principal fonte de água do manicômio.  A torre se ergue pelo
+    escuro céu ao oeste.
+  exits:
+    east:
+      target_vnum: '010205905962'
+    west:
+      target_vnum: '010205905994'
+  name: Um Caminho Rachado
+  vnum: '010205905993'
+- description: |-
+    O caminho se divide ao sul e também dá entrada para a torre de água ao
+    oeste.  Há algum tipo de baixa estrutura se erguendo por vinte pés, ao sul
+    daqui, mas está escuro demais para se ver com clareza.
+  exits:
+    east:
+      target_vnum: '010205905993'
+    south:
+      target_vnum: '010205905997'
+    west:
+      target_vnum: '010205905995'
+  name: Um Caminho Rachado
+  vnum: '010205905994'
+- description: |-
+    Este é uma estranha torre esférica, de madeira, a qual guardava a água
+    quando o manicômio ainda era ativo.  Agora há buracos demais e rachaduras
+    para manter qualquer coisa lá dentro, mas uma escada em espiral ainda a
+    contorna, levando ao topo, provavelmente usada para reparar as rachaduras.
+  exits:
+    east:
+      target_vnum: '010205905994'
+    up:
+      target_vnum: '010205905996'
+  name: "Na Base da Torre de Ã\x81gua"
+  vnum: '010205905995'
+- description: |-
+    Não há teto no topo desta coisa, o manicômio deve ter confiado
+    veementemente na água da chuva para suprir suas necessidades.  Esta pequena
+    plataforma leva ao topo mais alto da torre, onde não parece ser muito firme.
+  exits:
+    down:
+      target_vnum: '010205905995'
+  name: "No Topo da Torre de Ã\x81gua"
+  vnum: '010205905996'
+- description: |-
+    O caminho segue para as ruínas queimadas de um prédio, que, obviamente
+    não era feito de pedra como os outros.  Tudo o que restou, ao que parece, é
+    a chaminé que ainda tem uma grande lareira na base.
+  exits:
+    north:
+      target_vnum: '010205905994'
+    south:
+      target_vnum: '010205905998'
+  name: O Caminho Rachado
+  vnum: '010205905997'
+- description: |-
+    O chão é coberto com pedaços de madeira e tijolos de pedra.  Não há nada
+    mais que cinzas.  Uma grande lareira de pedra se ergue ao oeste.
+  exits:
+    north:
+      target_vnum: '010205905997'
+    west:
+      target_vnum: '010205905999'
+  name: Nas Ruínas
+  vnum: '010205905998'
+- description: |-
+    O chão é coberto com pedaços de madeira e tijolos de pedra.  Não há nada
+    mais que cinzas.  Uma chaminé de pedra que, em sua base, tem uma lareira é
+    tudo o que restou do que seja lá o que este prédio tenha sido.
+  exits:
+    down:
+      target_vnum: '010501701757'
+    east:
+      target_vnum: '010205905998'
+  name: Nas Ruínas
+  vnum: '010205905999'

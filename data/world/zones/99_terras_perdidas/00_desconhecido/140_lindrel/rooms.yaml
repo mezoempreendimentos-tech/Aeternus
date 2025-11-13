@@ -1,0 +1,860 @@
+- description: |-
+    Assim que se entra na floresta, qualquer um sente que o clima é
+    completamente diferente do de fora.  A luz aqui parece muito mais intensa,
+    os sons muito mais claros e os odores mais agrádaveis e marcantes.  As altas
+    árvores não parecem hostis, e os pequenos animais passam sem medo por
+    você.  Você pode continuar caminhando por uma estreita trilha que segue
+    norte, ir para as planícies indo sul ou seguir uma larga trilha que
+    segue tanto para leste quanto para oeste.
+  exits:
+    east:
+      target_vnum: '990014014058'
+    north:
+      target_vnum: '990014014001'
+    south:
+      target_vnum: '010205405683'
+    west:
+      target_vnum: '990014014059'
+  name: A Floresta Encantada
+  vnum: '990014014000'
+- description: |-
+    Você segue a estreita trilha em direção ao norte, notando que ela não é
+    tão estreita quanto lhe parecia.  As altas árvores, cada uma mais diferente
+    que a outra, seguem ordenadamente ao lado do caminho, parecendo ter
+    permissão de apenas deixar suas folhas caírem ali para tornar o andar mais
+    macio. Pode parecer bobagem, mas você sente que nesse lugar nada de ruim pode
+    acontecer. A menos que você tenha vindo com propósitos escusos, é claro...
+    Como pode ver, o caminho segue nas direções norte e sul.
+  exits:
+    north:
+      target_vnum: '990014014002'
+    south:
+      target_vnum: '990014014057'
+  name: A Floresta Encantada
+  vnum: '990014014001'
+- description: |-
+    Desconfiado, você segue pela trilha em direção ao norte, reparando que
+    algo estranho parece estar acontecendo: as árvores daqui estão ficando cada
+    vez maiores!  E não são só as árvores...  São as flores, folhas, aves,
+    insetos.  Tudo está ficando desproporcionalmente grande, fazendo com que
+    todos seus sentidos voltem a ficar em alerta total.  Ainda há tempo de
+    voltar, seguindo sul.  Seguindo norte, talvez você descubra afinal o que
+    está acontecendo.
+  exits:
+    north:
+      target_vnum: '990014014003'
+    south:
+      target_vnum: '990014014053'
+  name: A Floresta Encantada
+  vnum: '990014014002'
+- description: |-
+    Tudo está enorme!  Menos você...  A copa das árvores agora parecem
+    encostar nos céus, e o caminho, antes uma estreita trilha, parece mais uma
+    planície forrada de folhas gigantescas.  Está muito difícil de caminhar
+    aqui, e você se sente presa fácil para qualquer animal que o escolha como
+    aperitivo.  Andando mais um pouco, você repara que uma enorme placa, vinda
+    do nada, aparece na sua frente. Suas únicas saídas são pela trilha, que segue
+    norte e sul.
+  exits:
+    north:
+      target_vnum: '990014014004'
+    south:
+      target_vnum: '990014014054'
+  name: A Floresta Encantada
+  vnum: '990014014003'
+- description: |-
+    Você segue a trilha com um pouco de dificuldade, mas já se habituando com
+    o verdadeiro mar de folhas que o cerca.  Os versos do aviso ainda ecoam em
+    sua cabeça, e você a qualquer momento espera a chegada de quem viria lhe
+    ajudar.  Ainda há tempo de voltar, indo sul, ou ainda seguir norte, em busca
+    de mais aventuras.
+  exits:
+    north:
+      target_vnum: '990014014005'
+    south:
+      target_vnum: '990014014055'
+  name: A Floresta Encantada
+  vnum: '990014014004'
+- description: "Da mesma forma que, aparentemente vinda do nada, a placa apareceu\
+    \ à sua\nfrente, um grande portÃ£o surge bloqueando seu caminho.  Ã\x89 impossÃ­vel\
+    \ ver o\nque há do outro lado, principalmente porque as gigantescas árvores da\n\
+    floresta formam uma espécie de muralha em torno de alguma coisa. O caminho\nnorte\
+    \ termina no portão, mas você ainda pode voltar."
+  exits:
+    north:
+      target_vnum: '990014014006'
+    south:
+      target_vnum: '990014014055'
+  name: Um Portão na Floresta
+  vnum: '990014014005'
+- description: |-
+    Você passou pelos portões e entrou em Lindrel.  No princípio você não
+    entende muito o que mudou na paisagem mas, observando tudo com mais atenção,
+    repara que acabou de entrar numa espécie de cidade bem no meio da floresta.
+    Tudo aqui continua gigantesco: as árvores, que parecem proteger a cidadela;
+    as flores, que parecem luzeiros dispostos ao redor das ruas lotadas de
+    folhas e até mesmo os cogumelos de chapéu, coloridos feito suas portas
+    arredondadas que parecem ocultar aconchegantes casas.
+    As saídas que você vê ficam a norte, leste e oeste, seguindo pelas ruas
+    de Lindrel, ou ainda a sul, por onde você pode sair da cidade.
+  exits:
+    east:
+      target_vnum: '990014014007'
+    north:
+      target_vnum: '990014014016'
+    south:
+      target_vnum: '990014014056'
+    west:
+      target_vnum: '990014014020'
+  name: A Entrada de Lindrel
+  vnum: '990014014006'
+- description: |-
+    Você está em uma rua - calçada de pedras arredondadas cobertas de folhas
+    - ladeada por gigantescas amoreiras.  Vez ou outra uma enorme amora cai
+    perto de você, fazendo com que você sinta coisas antagônicas dentro de si:
+    um enorme desejo de comer amoras misturado com o temor de morrer atingido
+    por uma dessas frutas.  As árvores impedem que você siga para qualquer outra
+    direção que não seja leste ou oeste.
+  exits:
+    east:
+      target_vnum: '990014014008'
+    west:
+      target_vnum: '990014014006'
+  name: A Rua das Amoreiras
+  vnum: '990014014007'
+- description: |-
+    Você está andando pela Rua das Amoreiras, tomando cuidado para não ser
+    atingido por nenhuma fruta.  Por um momento você tem a impressão que elas
+    estão sendo jogadas do alto das árvores, mas acaba afastando a idéia de
+    sua cabeça. Continuando pelo caminho, você se depara com um portão de madeira
+    a norte, que parece levar a um conjunto de grandes cogumelos-casa. Já a rua
+    continua leste e oeste.
+  exits:
+    east:
+      target_vnum: '990014014009'
+    north:
+      target_vnum: '990014014026'
+    west:
+      target_vnum: '990014014007'
+  name: A Rua das Amoreiras
+  vnum: '990014014008'
+- description: |-
+    Você caminha pela Rua das Amoreiras - sempre com muita cautela -
+    procurando conhecer um pouco mais da cidade.  Não demora muito e você
+    consegue distinguir, entre os sons da cidadela, o belo cantar de uma voz de
+    barítono.  Tentando descobrir de onde ela vem, você percebe, ao sul, um
+    grande e velho carvalho de portas (!?) fechadas.  Há tabuleta, presa no alto
+    do tronco.
+    Você pode ainda seguir oeste pela rua.
+  exits:
+    south:
+      target_vnum: '990014014010'
+    west:
+      target_vnum: '990014014008'
+  name: A Rua das Amoreiras
+  vnum: '990014014009'
+- description: |-
+    Você está dentro de uma aconchegante taverna que fica simplesmente dentro
+    de uma árvore.  A iluminação do lugar é feita por pequenas esferas de
+    cristal repletas de vaga-lumes presas às paredes da taverna, o que dá um
+    efeito realmente bonito ao lugar.  As mesas, no momento, estão todas
+    guardadas, pois o dono do lugar estava até agora limpando o estabelecimento.
+    Para sua alegria, balcão de bebidas, a leste, parece estar funcionando.
+    Há também um pequeno palco a sul.
+    A Rua Amoreira passa lá fora, ao norte.
+  exits:
+    east:
+      target_vnum: '990014014011'
+    north:
+      target_vnum: '990014014009'
+    south:
+      target_vnum: '990014014012'
+  name: O Velho Carvalho
+  vnum: '990014014010'
+- description: |-
+    Você está em frente ao balcão de bebidas da taverna "O Velho Carvalho".
+    Atrás do balcão você vê, em diversas prateleiras, uma enorme quantidade de
+    bebidas provenientes dos quatro cantos do mundo. Há algumas de lugares que
+    você não sabia nem que existia!
+    Se não for beber nada, a entrada da taverna fica a oeste.
+  exits:
+    west:
+      target_vnum: '990014014010'
+  name: O Balcão de Bebidas
+  vnum: '990014014011'
+- description: "Você está em uma parte mais elevada da taverna por onde se chega através\n\
+    de alguns degraus.  Das laterais desse palco pendem flores de longos e\nenrolados\
+    \ caules que, além de perfumar o local, servem para criar um belo\nefeito de iluminaÃ§Ã£o.\
+    \  Ã\x89 aqui que ocorrem alguns dos concursos de canto e\npoesia, além de apresentações\
+    \ de qualquer ser que queira compartilhar seu\ntalento."
+  exits:
+    north:
+      target_vnum: '990014014010'
+  name: O Pequeno Palco
+  vnum: '990014014012'
+- description: "Você está na Rua dos Laranjais, sendo esta quase que totalmente ladeada\n\
+    por grandes laranjeiras.  A tranqüilidade do lugar é quase soberana,\nperdendo\
+    \ apenas sua vez para o barulho de grandes laranjas caindo por todas\nas partes.\
+    \  Ã\x89 possÃ­vel avistar, a sul, um estranho amontoado de grandes\ncogumelos\
+    \ de \"telhado\" colorido, sendo impossível, no entando, pular a alta\ncerca branca\
+    \ e chegar até eles sem ser pela entrada correta.  Sons de\nexplosões ecoam no\
+    \ ar vindos do norte."
+  exits:
+    west:
+      target_vnum: '990014014014'
+  name: A Rua dos Laranjais
+  vnum: '990014014013'
+- description: |-
+    Você está em uma rua rodeada por grandes pés de laranjas, chamada Rua dos
+    Laranjais.  Estranhos barulhos de explosões ecoam interrompendo a
+    tranqüilidade do lugar vindos de uma esquisita construção a norte, o que
+    aguça sua curiosidade.  Fora isso, apenas os gigantes cogumelos-casa, a sul,
+    chamam sua atenção, além das perigosas laranjas suicidas que cismam em o
+    atacar.
+  exits:
+    east:
+      target_vnum: '990014014013'
+    north:
+      target_vnum: '990014014046'
+    west:
+      target_vnum: '990014014015'
+  name: A Rua dos Laranjais
+  vnum: '990014014014'
+- description: |-
+    Você está justamente no local onde a Rua dos Laranjais cruza com a
+    Avenida Lima Madura.  Aqui, os grandes pés de laranjas parecem competir com
+    as limeiras carregadas de perfumadas flores e frutos, estes parecendo ser
+    menos agressivos que as laranjas (que caem a todo momento tentando o
+    atingir).  O chão, revestido de pedras arredondadas, foi quase completamente
+    coberto por folhas secas, tornando o andar aqui macio.  Postes de madeira,
+    com grandes esferas de vidro, acompanham a Avenida ao lado das limeiras,
+    esperando a chegada da escuridão, quando acomodam os milhares de vaga-lumes
+    para iluminação.  As direções que aqui podem ser seguidas é norte e sul, ao
+    longo da Avenida, ou leste e oeste, pela Laranjais.
+  exits:
+    east:
+      target_vnum: '990014014014'
+    north:
+      target_vnum: '990014014017'
+    south:
+      target_vnum: '990014014016'
+  name: O Cruzamento da Laranjais com a Av. Lima Madura
+  vnum: '990014014015'
+- description: "Você está caminhando pela larga Avenida Lima Madura, cujas altas\n\
+    limeiras acompanham o caminho ao lado de altos postes de madeira usados\nna iluminaÃ§Ã£o.\
+    \  Ã\x80 leste vocÃª percebe uma extensa Ã¡rea repleta de\ncogumelos-de-chapéu\
+    \ gigantes que possuem portas, janelas e chaminés e a\noeste uma gigantesca flor\
+    \ com uma tabuleta presa ao seu caule.  Você pode\nseguir norte e sul pela Avenida."
+  exits:
+    east:
+      target_vnum: '990014014025'
+    north:
+      target_vnum: '990014014015'
+    south:
+      target_vnum: '990014014006'
+    west:
+      target_vnum: '990014014037'
+  name: A Avenida Lima Madura
+  vnum: '990014014016'
+- description: |-
+    Você está caminhando pela larga Avenida Lima Madura, cujas altas limeiras
+    acompanham o caminho ao lado de altos postes de madeira usados na
+    iluminação.  Há, a leste, uma estranha construção de onde vêem estranhos
+    barulhos, entre explosões e zunidos, enquanto a oeste parece haver um
+    extenso campo de grama colorida.  A Avenida continua a norte e sul, enquanto
+    a Rua das Macieiras é indicada como sendo a nordeste, e a Rua Pessegueiros a
+    noroeste.
+  exits:
+    east:
+      target_vnum: '990014014046'
+    north:
+      target_vnum: '990014014048'
+    northeast:
+      target_vnum: '990014014018'
+    northwest:
+      target_vnum: '990014014019'
+    south:
+      target_vnum: '990014014015'
+  name: A Avenida Lima Madura
+  vnum: '990014014017'
+- description: "Você está na pouco movimentada Rua das Macieiras.  As macieiras que\
+    \ dão\nnome à rua estão em flor, não havendo ainda fruto algum para tirar-lhe\
+    \ o\nsossego.  Ã\x89 possÃ­vel ver, a sul, um extenso campo gramado de maneira\
+    \ muito\nestranha, onde parece estar havendo alguma coisa importante.  A Avenida\
+    \ Lima\nMadura fica a sudeste."
+  exits:
+    south:
+      target_vnum: '990014014044'
+    southeast:
+      target_vnum: '990014014017'
+    west:
+      target_vnum: '990014014021'
+  name: A Rua das Macieiras
+  vnum: '990014014018'
+- description: |-
+    Você está caminhando em uma rua cercada por velhos pessegueiros
+    carregados de frutos.  Pêssegos, vez por outra, caem a seu redor, quase o
+    atingindo por diversas vezes.  A vizinhança aqui é muito tranqüila, sendo
+    possível avistar, a sul, os fundos de uma casa tomada pelas plantas.
+    A Pessegueiros segue leste, e a sudoeste fica a Avenida.
+  exits:
+    east:
+      target_vnum: '990014014060'
+    southwest:
+      target_vnum: '990014014017'
+  name: A Rua Pessegueiros
+  vnum: '990014014019'
+- description: |-
+    Você está na Rua das Ameixas, andando tranqüilamente entre as altas
+    árvores de frutos vermelho-arroxeados.  O chão, coberto de seixos coloridos,
+    parece ter sido limpo há pouquíssimo tempo, já que as folhas caídas das
+    árvores foram cuidadosamente dispostas em montes.  Você vê, a sul, o que
+    parece ser uma grande plantação de flores.  Seria possível continuar a oeste
+    e noroeste se não houvesse um enorme monte de folhas impedindo que você siga
+    justamente naquelas direções.  A entrada de Lidrel fica a leste, enquanto
+    ao norte está uma estranha e gigantesca flor.
+  exits:
+    east:
+      target_vnum: '990014014006'
+    north:
+      target_vnum: '990014014037'
+    south:
+      target_vnum: '990014014022'
+  name: A Rua Ameixas
+  vnum: '990014014020'
+- description: |-
+    Você está na Rua das Macieiras, esta cercada de velhas árvores repletas
+    De flores.  A sul você vê um estranho gramado colorido, a norte uma bem
+    cuidada barraca de flores, enquanto a sudeste há apenas a Avenida Lima
+    Madura.
+  exits:
+    east:
+      target_vnum: '990014014018'
+    north:
+      target_vnum: '990014014062'
+    south:
+      target_vnum: '990014014045'
+  name: A Rua das Macieiras
+  vnum: '990014014021'
+- description: |-
+    Você está no que os habitantes aqui chamam de campos de cultivo.  O
+    cultivo a que se referem é o de flores, que são aproveitadas tanto na
+    produção de néctar quanto como ingredientes mágicos e até alimentos.  As
+    flores, em sua maioria duas vezes mais altas que você, são variadas tanto em
+    cores quanto cheiros e espécies, estando elas organizadas em pequenos blocos
+    de flores-irmãs.  Você consegue caminhas pelos campos nas direções leste e
+    oeste, podendo seguir até a Rua Ameixas por norte.
+  exits:
+    east:
+      target_vnum: '990014014024'
+    north:
+      target_vnum: '990014014020'
+    west:
+      target_vnum: '990014014023'
+  name: Os Campos de Cultivo
+  vnum: '990014014022'
+- description: "Você está nos campos de cultivo de flores de Lindrel.  Desse lado,\
+    \ o que\npredomina são flores de cores frias, organizadas de maneira que os tons\
+    \ mais\nclaros de uma mesma cor estejam próximos aos intermediários, que estão\n\
+    prÃ³ximos aos mais escuros.  Ã\x89 um festival de cores extremamente agradÃ¡vel\n\
+    de se ver, porém muito difícil de se acreditar.  A pequena trilha que você\nsegue\
+    \ dentro dos campos segue apenas a leste."
+  exits:
+    east:
+      target_vnum: '990014014022'
+  name: Os Campos de Cultivo
+  vnum: '990014014023'
+- description: "Você está nos campos de cultivo de flores de Lindrel.  Desse lado,\
+    \ o que\npredomina são flores de cores quentes, organizadas de maneira que os\
+    \ tons\nmais claros de uma mesma cor estejam próximos aos intermediários, que\
+    \ estão\nprÃ³ximos aos mais escuros.  Ã\x89 um festival de cores extremamente\
+    \ agradÃ¡vel\nde se ver, porém muito difícil de se acreditar.  A pequena trilha\
+    \ que o\ntrouxe até aqui segue apenas de volta a oeste."
+  exits:
+    west:
+      target_vnum: '990014014022'
+  name: Os Campos de Cultivo
+  vnum: '990014014024'
+- description: "Você está em uma ruela na agradável Vila dos Cogumelos.  Gigantescos\n\
+    cogumelos coloridos, com portas e janelas arredondadas, estão espalhados por\n\
+    todos os lados.  Você ainda vê, interessado, que há, nos espaços\n\"não-construídos\"\
+    , pequenas miniaturas das estranhas casas, parecendo que de\nalguma forma crescerão\
+    \ até atingirem o tamanho adequado para serem\nhabitados.  Ã\x80 norte e sul hÃ¡\
+    \ dois grandes cogumelos de telhado laranja.\nA estreita rua segue leste e oeste."
+  exits:
+    east:
+      target_vnum: '990014014026'
+    north:
+      target_vnum: '990014014029'
+    south:
+      target_vnum: '990014014030'
+    west:
+      target_vnum: '990014014016'
+  name: A Vila dos Cogumelos
+  vnum: '990014014025'
+- description: |-
+    Você está em uma ruela na agradável Vila dos Cogumelos.  Gigantescos
+    cogumelos coloridos, com portas e janelas arredondadas, estão espalhados por
+    todos os lados.  Você ainda vê, interessado, que há, nos espaços
+    "não-construídos", pequenas miniaturas das estranhas casas, parecendo que de
+    alguma forma crescerão até atingirem o tamanho adequado para serem
+    habitados.   A estreita rua segue norte, sul, leste e oeste.
+  exits:
+    east:
+      target_vnum: '990014014028'
+    north:
+      target_vnum: '990014014027'
+    south:
+      target_vnum: '990014014008'
+    west:
+      target_vnum: '990014014025'
+  name: A Vila dos Cogumelos
+  vnum: '990014014026'
+- description: |-
+    Você está em uma ruela na agradável Vila dos Cogumelos.  Gigantescos
+    cogumelos coloridos, com portas e janelas arredondadas, estão espalhados por
+    todos os lados.  Você ainda vê, interessado, que há, nos espaços
+    "não-construídos", pequenas miniaturas das estranhas casas, parecendo que de
+    alguma forma crescerão até atingirem o tamanho adequado para serem
+    habitados. Há, nas direções norte, leste e oeste, três cogumelos de telhado
+    azul-claro. A estreita rua segue sul.
+  exits:
+    east:
+      target_vnum: '990014014033'
+    north:
+      target_vnum: '990014014032'
+    south:
+      target_vnum: '990014014026'
+    west:
+      target_vnum: '990014014031'
+  name: A Vila dos Cogumelos
+  vnum: '990014014027'
+- description: |-
+    Você está em uma ruela na agradável Vila dos Cogumelos.  Gigantescos
+    cogumelos coloridos, com portas e janelas arredondadas, estão espalhados por
+    todos os lados.  Você ainda vê, interessado, que há, nos espaços
+    "não-construídos", pequenas miniaturas das estranhas casas, parecendo que de
+    alguma forma crescerão até atingirem o tamanho adequado para serem
+    habitados. Há, nas direções leste, norte e sul, três cogumelos de telhado
+    amarelo. A estreita rua segue oeste.
+  exits:
+    east:
+      target_vnum: '990014014035'
+    north:
+      target_vnum: '990014014034'
+    south:
+      target_vnum: '990014014036'
+    west:
+      target_vnum: '990014014026'
+  name: A Vila dos Cogumelos
+  vnum: '990014014028'
+- description: |-
+    Você está dentro de um confortável cogumelo casa.  Há espaço para se
+    colocar bastante coisa aqui, o que o faz parecer um bom lugar para se morar.
+    A única saída daqui é sul.
+  exits:
+    south:
+      target_vnum: '990014014025'
+  name: O Cogumelo Vermelho Número 1
+  vnum: '990014014029'
+- description: |-
+    Você está dentro de um confortável cogumelo casa.  Aqui o ambiente é
+    quente e pouco iluminado, sendo o chão quase completamente coberto por
+    folhas ainda verdes e flores recém-colhidas.  Ficar aqui lhe dá vontade de
+    dormir...
+    A saída é a norte.
+  exits:
+    north:
+      target_vnum: '990014014025'
+  name: O Cogumelo Vermelho Número 2
+  vnum: '990014014030'
+- description: |-
+    Você está dentro de um confortável cogumelo casa.  Há espaço para se
+    colocar bastante coisa aqui, o que o faz parecer um bom lugar para se morar.
+    A única saída daqui é leste.
+  exits:
+    east:
+      target_vnum: '990014014027'
+  name: O Cogumelo Azul Número 1
+  vnum: '990014014031'
+- description: |-
+    Você está dentro de um confortável cogumelo casa.  Há muito espaço aqui,
+    principalmente porque a maioria dos "móveis" estão presos ao teto.  Há
+    balanços no alto por todos os lados, além de grandes flores repletas de
+    néctar e orvalho.  Deve ser a casa de alguém.
+    A porta de saída fica a sul.
+  exits:
+    south:
+      target_vnum: '990014014027'
+  name: O Cogumelo Azul Número 2
+  vnum: '990014014032'
+- description: |-
+    Você está dentro de um confortável cogumelo casa.  Há espaço para se
+    colocar bastante coisa aqui, o que o faz parecer um bom lugar para se morar.
+    A única saída daqui é oeste.
+  exits:
+    west:
+      target_vnum: '990014014027'
+  name: O Cogumelo Azul Número 3
+  vnum: '990014014033'
+- description: |-
+    Você está dentro da confortável casa de Arando.  Há esculturas de
+    diferentes tamanhos por todos os lados, além de uma grande variedade de
+    móveis feitos de folhas, flores e madeira.  Pelo que você percebeu, o dono
+    da casa aprecia muito trabalhos manuais, sendo um marceneiro-escultor de
+    muito talento.  Talvez seja melhor não tocar em nada.
+  exits:
+    south:
+      target_vnum: '990014014028'
+  name: O Cogumelo Amarelo Número 1
+  vnum: '990014014034'
+- description: |-
+    Você está dentro de um confortável cogumelo casa.  Há espaço para se
+    colocar bastante coisa aqui, o que o faz parecer um bom lugar para se morar.
+    A única saída daqui é oeste.
+  exits:
+    west:
+      target_vnum: '990014014028'
+  name: O Cogumelo Amarelo Número 2
+  vnum: '990014014035'
+- description: |-
+    Você está dentro de um confortável cogumelo casa.  Há espaço para se
+    colocar bastante coisa aqui, o que o faz parecer um bom lugar para se morar.
+    A única saída daqui é norte.
+  exits:
+    north:
+      target_vnum: '990014014028'
+  name: O Cogumelo Amarelo Número 3
+  vnum: '990014014036'
+- description: |-
+    Você está em um pequeno gramado protegido por uma baixa cerca de madeira
+    que, pintada de branco, foi quase completamente coberta por trepadeiras
+    floridas.  No centro, você vê na entrada da escola dos pequenos de Lindrel,
+    uma flor gigantesca.  Pelo que você observou, as salas de aula ficam ao
+    longo do caule da enorme planta, sobre suas folhas.  Provavelmente os alunos
+    chegam à suas classes voando, mas é possível chegar nelas escalando a
+    escola.  Ridículo, mas é verdade.
+  exits:
+    east:
+      target_vnum: '990014014016'
+    south:
+      target_vnum: '990014014020'
+    up:
+      target_vnum: '990014014038'
+  name: "A Gota D'Ã\x81gua"
+  vnum: '990014014037'
+- description: |-
+    Você está sobre uma enorme folha que, mesmo que você se movimente muito,
+    não parece se mover um centímetro qualquer.  Uma lousa de pedra negra, muito
+    bem polida, mantém-se no ar como que por mágica, havendo nela o que parece
+    ser a matéria da aula de hoje.  Vasos e mais vasos com pequenas flores foram
+    dispostos sobre as carteiras dos alunos.
+  exits:
+    down:
+      target_vnum: '990014014037'
+    up:
+      target_vnum: '990014014039'
+  name: A Sala das Magias Básicas
+  vnum: '990014014038'
+- description: |-
+    Você está em mais um "andar" na escola, entrando em uma sala completamente
+    bagunçada.  Há pequenos pedaços de papel escrito no chão, pétalas de flor,
+    sementes de frutas, poças de néctar, pós coloridos e outras coisas.
+    Caldeirões de ferro flutuam no ar, assim como pergaminhos, fôrmas, talheres
+    e tigelas.  Na lousa, você lê que aquela é a sala onde se aprende a
+    cozinhar.  Provavelmente a última aula foi um desastre...
+  exits:
+    down:
+      target_vnum: '990014014038'
+    up:
+      target_vnum: '990014014040'
+  name: A Sala de Culinária
+  vnum: '990014014039'
+- description: |-
+    Você está no que parece ser a sala da aula de artes.  Há tintas e mais
+    tintas por todos os lados, além de pínceis, pergaminhos em branco, telas,
+    lápis coloridos e trabalhos de alunos.  Você ainda repara que um dos lados
+    da classe é completamente rosa, justamente o lado onde está a lousa e a mesa
+    da professora.  Coisa estranha...
+  exits:
+    down:
+      target_vnum: '990014014039'
+    up:
+      target_vnum: '990014014041'
+  name: A Sala de Artes
+  vnum: '990014014040'
+- description: |-
+    Você está em uma grande sala onde os alunos mais jovens ficam para
+    brincar com seus colegas e, na maioria das vezes, ouvir estórias de suas
+    professoras.  A folha que sustenta a classe foi pintada pelos próprios
+    alunos com as cores do arco-íris, que também enfeitaram as cortinas que
+    servem de parede.
+  exits:
+    down:
+      target_vnum: '990014014040'
+    up:
+      target_vnum: '990014014042'
+  name: A Sala de Recreação
+  vnum: '990014014041'
+- description: |-
+    Você está em uma sala de temperatura agrádavel, muito limpa, decorada com
+    delicadas figuras de flores e animais.  O silêncio aqui é muito grande,
+    parecendo que o berçário é coberto por uma espécie de magia de proteção.
+    Berços de folhas flututam por todos os lados, havendo alguns vazios e
+    outros, balançados por magia, com bebês gordinhos e saudáveis.  Não faça
+    barulho!
+  exits:
+    down:
+      target_vnum: '990014014041'
+    up:
+      target_vnum: '990014014043'
+  name: O Berçário
+  vnum: '990014014042'
+- description: |-
+    Você está numa das salas de aulas que, no momento, permanece fechada.
+    Volte outra hora.
+  exits:
+    down:
+      target_vnum: '990014014042'
+  name: Uma Sala Fechada
+  vnum: '990014014043'
+- description: |-
+    Você está num extenso campo forrado de grama colorida.  As cores da grama
+    parecem ser usadas como indicadores durante os treinamentos que ocorrem
+    aqui, havendo ainda sinalizações com pontuações e desenhos de alvos.  Hoje,
+    o campo parece estar sendo usado para as lições de vôo da turma mais
+    avançada da escola de Lindrel.
+  exits:
+    north:
+      target_vnum: '990014014018'
+    west:
+      target_vnum: '990014014045'
+  name: Os Campos de Treinamento
+  vnum: '990014014044'
+- description: |-
+    Você está num extenso campo forrado de grama colorida.  As cores da grama
+    parecem ser usadas como indicadores durante os treinamentos que ocorrem
+    aqui, havendo ainda sinalizações com pontuações e desenhos de alvos.  Hoje,
+    o campo parece estar sendo usado para as lições de vôo da turma mais
+    avançada da escola de Lindrel.
+  exits:
+    east:
+      target_vnum: '990014014044'
+    north:
+      target_vnum: '990014014021'
+  name: Os Campos de Treinamento
+  vnum: '990014014045'
+- description: |-
+    Você está no pequeno jardim que cerca uma enorme casa completamente
+    coberta por flores.  O jardim, muito bem cuidado, parece acomodar flores que
+    você nunca viu antes, sendo que vez ou outra você percebe uma saindo do
+    jardim e se dirigindo ora para dentro da casa, ora para a rua, passando por
+    você.  Apurando mais os ouvidos, você consegue ouvir a conversa das flores.
+    A entrada da casa fica a norte, enquanto se pode sair de seu terreno indo
+    oeste ou sul.
+  exits:
+    north:
+      target_vnum: '990014014047'
+    south:
+      target_vnum: '990014014014'
+    west:
+      target_vnum: '990014014017'
+  name: Um Pequeno Jardim
+  vnum: '990014014046'
+- description: |-
+    Você está dentro de uma casa tomada pelas plantas.  São elas as cadeiras,
+    mesas, abajures, poltronas.  O lustre nada mais é que uma enorme
+    brinco-de-princesa cujas flores possuem luz própria, acendendo quando
+    necessário.  Passado o primeiro impacto, você repara no que estava causando
+    as explosões e fumaceiro fora da casa: aqui é uma espécie de laboratório de
+    uma fada, que no momento preparava algo em um tacho de cobre.
+    As portas, repletas de espinhos, estão fechadas, mas você ainda pode sair
+    daqui seguindo sul.
+  exits:
+    south:
+      target_vnum: '990014014046'
+  name: O Estranho Interior da Casa
+  vnum: '990014014047'
+- description: |-
+    Você está caminhando pela larga Avenida Lima Madura, cujas altas limeiras
+    acompanham o caminho ao lado de altos postes de madeira usados na
+    iluminação. Há, ao norte, uma grande construção de pedra cercada por um pequeno
+    lago e coberta por muitas plantas. A Avenida segue sul.
+  exits:
+    north:
+      target_vnum: '990014014049'
+    south:
+      target_vnum: '990014014017'
+  name: A Avenida Lima Madura
+  vnum: '990014014048'
+- description: |-
+    Você passa por uma pequena ponte de pedra sobre o lago.  Altas flores,
+    que fazem as vezes e corrimão, impediram que você caísse na água coberta de
+    nenúfares brancos e negros, podendo chegar bem em frente a uma grande
+    construção de pedra.  A construção, com ares de templo, ergue-se no meio na
+    vegetação com estranha aura de magia, parecendo possuir algo de muito
+    importante em seu interior.  O grande pórtico, da mesma maneira que o portão
+    de entrada de Lindrel, permanece fechado com as duas chaves, uma negra e
+    outra branca, no lado de fora.  A Avenida Lima Madura fica a sul.
+  exits:
+    north:
+      target_vnum: '990014014050'
+    south:
+      target_vnum: '990014014048'
+  name: Além do Lago
+  vnum: '990014014049'
+- description: |-
+    Você está na entrada do lar das rainhas de Lindrel.  Nada aqui é como
+    você esperava..  Pelo exterior, você imaginava que aqui seria um local muito
+    fechado e abafado.  Contrariando suas expectativas, você se encontra num
+    lugar muito iluminado e amplo, repleto de colunas brancas e negras com
+    esferas de iluminação apoiadas.  Cortinas de tecido diáfano, negras e
+    brancas, pendem do teto por todos os lados, dançando com o sopro de um vento
+    que você não sabe de onde vem.  Grandes almofadas flutuam no ar, convidando
+    os viajantes cansados para um breve descanso.  Há uma grande fonte no centro
+    do lugar.
+    Uma segunda sala fica a norte, enquanto o lado de fora fica a sul.
+  exits:
+    north:
+      target_vnum: '990014014051'
+    south:
+      target_vnum: '990014014049'
+  name: A Sala de Espera
+  vnum: '990014014050'
+- description: |-
+    Você está num local sagrado para todos os habitantes de Lindrel e para os
+    que reconhecem sua importância.  Daqui, as duas rainhas mantém o pequeno
+    reino protegido com sua magia, assim como mandam forças àqueles que pedem
+    auxílio ao povo pequeno.  Não há nada aqui além de dois tronos ricamente
+    adornados: um num lado completamente escuro da sala, outro em um
+    completamente claro.  Você não consegue olhar mais nada além das duas
+    figuras sentadas sobre os sólios que, de olhos cerrados, sussuram docemente.
+    A única saída se encontra a sul.
+  exits:
+    south:
+      target_vnum: '990014014050'
+  name: O Coração de Lindrel
+  vnum: '990014014051'
+- description: |-
+    Você segue a estreita trilha em direção ao sul, notando que a floresta está
+    curiosamente quieta. Não há nada de especial: as árvores não parecem diferentes,
+    nem os animais, nem qualquer outro tipo de coisa. A única direção a se seguir é
+    sul.
+  exits:
+    south:
+      target_vnum: '990014014057'
+  name: A Floresta Encantada
+  vnum: '990014014052'
+- description: |-
+    Você caminha em direção ao sul reparando que não há nada de anormal com
+    essa floresta. Tudo, desde as plantas até os animais está do tamanho que
+    você pensa que deveriam ser, o que mostra que de encantada a floresta não
+    tem mais nada. Sul é a única direção que você pode seguir.
+  exits:
+    south:
+      target_vnum: '990014014052'
+  name: A Floresta Encantada
+  vnum: '990014014053'
+- description: |-
+    Tudo estava enorme, mas foi aos poucos parecendo menor. Você sente que tudo
+    está voltando ao normal dentro dessa floresta, que perde seu encantamento
+    a cada passo rumo sul que você dá. A enorme placa que você encontrou enquanto
+    vinha desapareceu.
+  exits:
+    south:
+      target_vnum: '990014014053'
+  name: A Floresta Encantada
+  vnum: '990014014054'
+- description: |-
+    Você, que ao trilhar por esse caminho sentiu dificuldades, percebe que
+    elas diminuem à medida que segue mais e mais pra sul.  As árvores parecem
+    diminuir de tamanho, assim como a trilha, as folhas.  Tudo parece estar
+    normal.  Normal demais.
+  exits:
+    south:
+      target_vnum: '990014014054'
+  name: A Floresta Encantada
+  vnum: '990014014055'
+- description: |-
+    Você saiu de Lindrel, tendo atravessado o grande portão.  Tudo ao poucos
+    parece perder sua magia, o que culmina com o sumiço da entrada que leva ao
+    reino dos pequenos.  A única direção que você pode seguir é sul, por onde as
+    árvores parecem se tornar menores e a passagem mais estreita.
+  exits:
+    south:
+      target_vnum: '990014014055'
+  name: Um Portão na Floresta
+  vnum: '990014014056'
+- description: |-
+    Você está saindo da floresta encantanda.  As árvores parecem ter,
+    subitamente, se movido atrás de você, cobrindo a trilha que você usou tanto
+    pra entrar nela quanto para sair.  A única direção que você pode seguir é
+    sul.
+  exits:
+    south:
+      target_vnum: '010205405683'
+  name: A Saída da Floresta Encantada
+  vnum: '990014014057'
+- description: |-
+    Você anda por uma trilha na floresta encantada, observando a infinita
+    tranqüilidade em que o lugar parece estar mergulhado.  Não há empecilho
+    algum para que você continue andando entre as árvores, seja para leste
+    quanto para oeste.
+  exits:
+    east:
+      target_vnum: '990014014058'
+    west:
+      target_vnum: '990014014000'
+  name: A Floresta Encantada
+  vnum: '990014014058'
+- description: |-
+    Você anda por uma trilha na floresta encantada, observando a infinita
+    tranqüilidade em que o lugar parece estar mergulhado.  Não há empecilho
+    algum para que você continue andando entre as árvores, seja para leste
+    quanto para oeste.
+  exits:
+    east:
+      target_vnum: '990014014000'
+    west:
+      target_vnum: '990014014059'
+  name: A Floresta Encantada
+  vnum: '990014014059'
+- description: |-
+    Você está caminhando em uma rua cercada por velhos pessegueiros
+    carregados de frutos.  Pêssegos, vez por outra, caem a seu redor, quase o
+    atingindo por diversas vezes.  A rua pouco movimentada parece ter seus
+    atrativos: o cheiro inconfundível de comida, vindo de um cogumelo a norte,
+    parece chamá-lo insistentemente.  A Pessegueiros continua a oeste.
+  exits:
+    north:
+      target_vnum: '990014014061'
+    west:
+      target_vnum: '990014014019'
+  name: A Rua Pessegueiros
+  vnum: '990014014060'
+- description: |-
+    Você está dentro do grande cogumelo de teto vermelho com bolinhas
+    brancas.  As paredes circulares do cogumelo foram cobertas com papel de
+    parede colorido, havendo ainda uma grande quantidade de pequenas janelas
+    circulares com suas cortinas vermelhas.  Um grande balcão de madeira foi
+    colocado bem no centro do lugar, havendo, sob seu tampo de vidro, uma enorme
+    variedade de doces.  Tudo aqui é muito limpo e de aspecto novo, o que o
+    deixa bastante seguro sobre a qualidade da comida.
+    A Pessegueiros fica a sul.
+  exits:
+    south:
+      target_vnum: '990014014060'
+  name: As Delícias de Framboesa
+  vnum: '990014014061'
+- description: |-
+    Você está em uma simpática barraca de madeira branca repleta de vasos e
+    arranjos de flores.  Aqui se vende todo tipo de flores, estando elas sempre
+    muito bem cuidadas e arrumadas com bom gosto.  As prateleiras, que cobrem
+    quase toda a partes das paredes que não está tomada por retratos de flores,
+    estão cobertas por bonitas trepadeiras de profundo verde.  Tudo aqui é muito
+    bem cuidado.  A Macieiras fica a sul.
+  exits:
+    south:
+      target_vnum: '990014014021'
+  name: A Barraca de Flores
+  vnum: '990014014062'
