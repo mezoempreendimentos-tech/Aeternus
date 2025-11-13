@@ -6,9 +6,14 @@
     Caradharas.  Ao seu redor você observa liquens e musgos verdes sobre as
     inóspitas rochas do vale.  Ao sudeste você observa o vale do riacho escuro e
     suas rochas cinzentas coroadas com liquens.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '01021374077'
+    southeast:
+      target_vnum: '010213713703'
+  local_id: '13700'
   name: O Vale do Riacho Escuro
-  vnum: '13700'
+  vnum: '010213713700'
 - description: |-
     Você está caminhando sobre as cinzentas rochas do vale do riacho escuro.
     Ao seu redor você observa alguns liquens e musgos verdes sobre as rochas do
@@ -17,9 +22,10 @@
     superfície mais suave.
   exits:
     south:
-      target_vnum: '13703'
+      target_vnum: '010213713703'
+  local_id: '13701'
   name: O Vale do Riacho Escuro
-  vnum: '13701'
+  vnum: '010213713701'
 - description: |-
     Você está caminhando sobre as cinzentas rochas do vale do riacho escuro.
     Ao seu redor você observa alguns liquens e musgos verdes sobre as rochas do
@@ -28,9 +34,10 @@
     superfície mais suave.
   exits:
     east:
-      target_vnum: '13703'
+      target_vnum: '010213713703'
+  local_id: '13702'
   name: O Vale do Riacho Escuro
-  vnum: '13702'
+  vnum: '010213713702'
 - description: |-
     Você está caminhando sobre as rochas coroadas com liquens e musgos verdes
     do vale do riacho escuro.  Ao seu redor você observa o vale e suas rochas
@@ -40,11 +47,16 @@
     cinzentas das rochas que formam este lugar.
   exits:
     north:
-      target_vnum: '13701'
+      target_vnum: '010213713701'
+    northeast:
+      target_vnum: '010213713700'
+    southeast:
+      target_vnum: '010213713704'
     west:
-      target_vnum: '13702'
+      target_vnum: '010213713702'
+  local_id: '13703'
   name: O Vale do Riacho Escuro
-  vnum: '13703'
+  vnum: '010213713703'
 - description: |-
     Você está caminhando sobre as cinzentas rochas do vale do riacho escuro.
     Ao seu redor você observa a silhueta cinza das rochas do vale e algumas
@@ -53,9 +65,18 @@
     um belo e sossegado lago de águas azuis.  Ao sudeste você observa um
     agradável campo verde e ao sudoeste você observa a nascente do Veio de
     Prata.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010213713703'
+    northwest:
+      target_vnum: '010213713705'
+    southeast:
+      target_vnum: '010213713707'
+    southwest:
+      target_vnum: 010213713708
+  local_id: '13704'
   name: O Vale do Riacho Escuro
-  vnum: '13704'
+  vnum: '010213713704'
 - description: |-
     Você está nadando nas tranqüilas e azuis águas do Kheled-Zâram, o lago
     espelho.  De repente suas dores causadas por ferimentos das suas últimas
@@ -65,9 +86,14 @@
     do riacho escuro.  Ao noroeste você observa uma grande pedra erguida sobre
     as rochas do vale.  Ao sudoeste você observa as rochas do vale do riacho
     escuro.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010213713706'
+    southwest:
+      target_vnum: '010213713704'
+  local_id: '13705'
   name: Kheled-Zâram, o Lago-Espelho
-  vnum: '13705'
+  vnum: '010213713705'
 - description: |-
     Você está sobre algumas rochas e liquens do vale do riacho do escuro.  Ao
     seu redor você observa além das inóspitas rochas do vale, o lago-espelho e
@@ -75,17 +101,23 @@
     pedra foi erguida por Durin, o imortal, no ponto exato em que ele observou
     Kheled-Zâram, o lago-espelho pela primeira vez.  Ao sudeste você observa o
     lago-espelho e suas águas azuis e plácidas.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: '010213713705'
+  local_id: '13706'
   name: A Pedra de Durin
-  vnum: '13706'
+  vnum: '010213713706'
 - description: "Você está sobre algumas rochas cinzentas do vale do riacho escuro\
-    \ próximo\na nascente do belo Celebrant, o Veio de Prata.  Ã\x80 sua frente vocÃª\
+    \ próximo\na nascente do belo Celebrant, o Veio de Prata.  Ã\x80 sua frente você\
     \ observa a\nágua brotar entre as rochas formando a nascente do Veio de Prata\
     \ que segue\naté encontrar o Anduin, o grande rio, passando antes por Lothlórien.\
     \  Ao\nnordeste você observa as rochas inóspitas do vale do riacho escuro."
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: '010213713704'
+  local_id: '13707'
   name: A Nascente do Celebrant
-  vnum: '13707'
+  vnum: '010213713707'
 - description: |-
     Você está caminhando sobre um belo campo verde.  Ao seu redor alguns
     pássaros sobrevoando o céu cantando alegres com a sua presença.  Ao leste
@@ -94,9 +126,14 @@
     sudeste você observa uma magnífica floresta.
   exits:
     east:
-      target_vnum: '13709'
+      target_vnum: 010213713709
+    northeast:
+      target_vnum: '010213713704'
+    southeast:
+      target_vnum: '010213713711'
+  local_id: '13708'
   name: Um Campo Verde
-  vnum: '13708'
+  vnum: 010213713708
 - description: |-
     Você está caminhando sobre um belo tapete verde formado pela vegetação
     rasteira deste belíssimo campo.  Ao seu redor você observa impetuosos
@@ -105,13 +142,14 @@
     campo.  Ao sul você observa uma magnífica floresta.
   exits:
     east:
-      target_vnum: '13710'
+      target_vnum: '010213713710'
     south:
-      target_vnum: '13711'
+      target_vnum: '010213713711'
     west:
-      target_vnum: '13708'
+      target_vnum: 010213713708
+  local_id: '13709'
   name: Um Campo Verde
-  vnum: '13709'
+  vnum: 010213713709
 - description: |-
     Você está caminhando num belo campo verde, escutando as maravilhosas
     canções emitidas pelos magníficos pássaros que sobrevoam o lindo tapete
@@ -119,10 +157,13 @@
     perfume de lírios do campo.  Ao oeste você observa o maravilhoso tapete
     verde e ao sudoeste você observa uma magnífica floresta.
   exits:
+    southwest:
+      target_vnum: '010213713711'
     west:
-      target_vnum: '13709'
+      target_vnum: 010213713709
+  local_id: '13710'
   name: Um Campo Verde
-  vnum: '13710'
+  vnum: '010213713710'
 - description: |-
     Lothlórien!  A bela floresta dourada dos Galadhrim está à sua frente.
     Ao seu redor você observa belíssimas árvores imensas.  No chão você observa
@@ -135,11 +176,16 @@
     floresta de Lothlórien.
   exits:
     north:
-      target_vnum: '13709'
+      target_vnum: 010213713709
+    northeast:
+      target_vnum: 010213713708
+    northwest:
+      target_vnum: '010213713710'
     south:
-      target_vnum: '13713'
+      target_vnum: '010213713713'
+  local_id: '13711'
   name: A Floresta de Lothlórien
-  vnum: '13711'
+  vnum: '010213713711'
 - description: |-
     Você está caminhando entre as belas árvores da floresta dourada dos
     Galadhrim.  Ao seu redor esplendorosas árvores dão forma a está magnífica
@@ -150,9 +196,12 @@
     e união que você sente nesta floresta, o faz lembra das antigas histórias
     contadas em sua terra natal, sobre a gloriosa terra dos imortais.  Ao
     sudeste você observa belíssimas árvores da floresta de Lothlórien.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: '010213713715'
+  local_id: '13712'
   name: A Floresta de Lothlórien
-  vnum: '13712'
+  vnum: '010213713712'
 - description: |-
     Você está caminhando entre maravilhosas árvores que exalam um perfume
     bastante agradável no interior da floresta de Lothlórien.  Ao seu redor você
@@ -163,11 +212,16 @@
     observa as majestosas árvores da floresta de Lothlórien.
   exits:
     north:
-      target_vnum: '13711'
+      target_vnum: '010213713711'
     south:
-      target_vnum: '13716'
+      target_vnum: '010213713716'
+    southeast:
+      target_vnum: '010213713717'
+    southwest:
+      target_vnum: '010213713715'
+  local_id: '13713'
   name: A Floresta de Lothlórien
-  vnum: '13713'
+  vnum: '010213713713'
 - description: |-
     Uma sensação de paz e fraternidade toma conta do seu corpo!  Você está
     caminhando entre as majestosas árvores da floresta de Lothlórien.  Ao seu
@@ -177,9 +231,12 @@
     povos costumam contar sobre a floresta de Lothlórien e não consegue imagina
     como poderiam existir aqui neste belo lugar feiticeiros maléficos.  Ao
     sudoeste você observa algumas belíssimas árvores da floresta de Lothlórien.
-  exits: {}
+  exits:
+    southwest:
+      target_vnum: '010213713717'
+  local_id: '13714'
   name: A Floresta de Lothlórien
-  vnum: '13714'
+  vnum: '010213713714'
 - description: |-
     Você está caminhando entre as belíssimas árvores da floresta dourada de
     Lothlórien.  Ao seu redor você observa a imensidão desta magnífica floresta
@@ -192,9 +249,16 @@
     árvores.
   exits:
     east:
-      target_vnum: '13716'
+      target_vnum: '010213713716'
+    northeast:
+      target_vnum: '010213713712'
+    northwest:
+      target_vnum: '010213713713'
+    southwest:
+      target_vnum: 010213713718
+  local_id: '13715'
   name: A Floresta de Lothlórien
-  vnum: '13715'
+  vnum: '010213713715'
 - description: |-
     Uma sensação de tranqüilidade toma conta do seu corpo!  Você está
     caminhando entre as árvores da floresta dourada de Lothlórien.  Ao seu redor
@@ -204,13 +268,14 @@
     você observa a imensidão da floresta de Lothlórien.
   exits:
     east:
-      target_vnum: '13717'
+      target_vnum: '010213713717'
     north:
-      target_vnum: '13713'
+      target_vnum: '010213713713'
     west:
-      target_vnum: '13715'
+      target_vnum: '010213713715'
+  local_id: '13716'
   name: A Floresta de Lothlórien
-  vnum: '13716'
+  vnum: '010213713716'
 - description: |-
     Você está caminhando sobre um majestoso tapete formado pelas lindas
     folhas que caíram das belas árvores da floresta de Lothlórien.  Ao seu redor
@@ -219,10 +284,17 @@
     galho em galho no topo das árvores.  Ao oeste, noroeste, nordeste e ao
     sudeste você observa a sublime floresta de Lothlórien.
   exits:
+    northeast:
+      target_vnum: '010213713713'
+    northwest:
+      target_vnum: '010213713714'
+    southeast:
+      target_vnum: '010213713720'
     west:
-      target_vnum: '13716'
+      target_vnum: '010213713716'
+  local_id: '13717'
   name: A Floresta de Lothlórien
-  vnum: '13717'
+  vnum: '010213713717'
 - description: |-
     Você está caminhando entre as maravilhosas árvores da floresta dourada de
     Lothlórien.  Ao seu redor você observa as esplendorosas árvores com seus
@@ -234,9 +306,12 @@
     e ao nordeste você observa a bela floresta de Lothlórien.
   exits:
     east:
-      target_vnum: '13719'
+      target_vnum: 010213713719
+    northwest:
+      target_vnum: '010213713715'
+  local_id: '13718'
   name: A Floresta de Lothlórien
-  vnum: '13718'
+  vnum: 010213713718
 - description: |-
     Um sentimento de paz e harmonia toma conta do seu corpo!  Você está em
     Lothlórien, caminhando sobre um confortável tapete formado pelas folhas que
@@ -248,13 +323,14 @@
     riacho.
   exits:
     east:
-      target_vnum: '13720'
+      target_vnum: '010213713720'
     south:
-      target_vnum: '13722'
+      target_vnum: '010213713722'
     west:
-      target_vnum: '13718'
+      target_vnum: 010213713718
+  local_id: '13719'
   name: A Floresta de Lothlórien
-  vnum: '13719'
+  vnum: 010213713719
 - description: |-
     Você está caminhando entre as majestosas árvores da floresta dourada de
     Lothlórien.  Ao seu redor você observa a imponência da formosa floresta dos
@@ -264,12 +340,15 @@
     e ao oeste você observa a bela floresta dourada dos Galadhrim.  Ao você
     observa um pequeno riacho.
   exits:
+    northeast:
+      target_vnum: '010213713717'
     south:
-      target_vnum: '13721'
+      target_vnum: '010213713721'
     west:
-      target_vnum: '13719'
+      target_vnum: 010213713719
+  local_id: '13720'
   name: A Floresta de Lothlórien
-  vnum: '13720'
+  vnum: '010213713720'
 - description: |-
     Você sente seus ferimentos e dores das suas últimas batalhas sendo
     curados à medida que seu corpo vai sendo coberto pelas águas celestiais do
@@ -281,13 +360,14 @@
     escuras do riacho de Nimrodel.
   exits:
     north:
-      target_vnum: '13720'
+      target_vnum: '010213713720'
     south:
-      target_vnum: '13724'
+      target_vnum: '010213713724'
     west:
-      target_vnum: '13722'
+      target_vnum: '010213713722'
+  local_id: '13721'
   name: O Riacho de Nimrodel
-  vnum: '13721'
+  vnum: '010213713721'
 - description: |-
     Você sente uma agradável sensação de paz e tranqüilidade!  Suas dores e
     ferimentos, marcas das suas últimas batalhas estão sendo curados à medida
@@ -300,13 +380,14 @@
     escondidas nas sombras das imponentes árvores de Lothlórien.
   exits:
     east:
-      target_vnum: '13721'
+      target_vnum: '010213713721'
     north:
-      target_vnum: '13719'
+      target_vnum: 010213713719
     west:
-      target_vnum: '13723'
+      target_vnum: '010213713723'
+  local_id: '13722'
   name: O Riacho de Nimrodel
-  vnum: '13722'
+  vnum: '010213713722'
 - description: |-
     Nimrodel! Nimrodel! Donzela élfica de outrora!  Você ouvi das águas que
     caem das cascatas sons estranhos semelhantes aos de celestiais canções
@@ -316,9 +397,10 @@
     Ao leste você observa as escuras águas do riacho de Nimrodel.
   exits:
     east:
-      target_vnum: '13722'
+      target_vnum: '010213713722'
+  local_id: '13723'
   name: As Sublimes Cascatas do Nimrodel
-  vnum: '13723'
+  vnum: '010213713723'
 - description: |-
     Você está perplexo com a visão das árvores monumentais da floresta
     dourada de Lothlórien.  Ao seu redor você observa gigantes árvores de tronco
@@ -334,13 +416,18 @@
     floresta dourada de Lothlórien.
   exits:
     east:
-      target_vnum: '13725'
+      target_vnum: '010213713725'
     north:
-      target_vnum: '13721'
+      target_vnum: '010213713721'
+    southeast:
+      target_vnum: '010213713735'
+    southwest:
+      target_vnum: '010213713734'
     west:
-      target_vnum: '13726'
+      target_vnum: '010213713726'
+  local_id: '13724'
   name: O Naith de Lórien
-  vnum: '13724'
+  vnum: '010213713724'
 - description: |-
     Você está caminhando entre as monumentais árvores da floresta dourada dos
     Galadhrim.  Ao seu redor você observa magníficas árvores de tronco prateado,
@@ -351,13 +438,18 @@
     dourada de Lothlórien.
   exits:
     south:
-      target_vnum: '13739'
+      target_vnum: 010213713739
+    southeast:
+      target_vnum: '010213713736'
+    southwest:
+      target_vnum: '010213713735'
     up:
-      target_vnum: '13730'
+      target_vnum: '010213713730'
     west:
-      target_vnum: '13724'
+      target_vnum: '010213713724'
+  local_id: '13725'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13725'
+  vnum: '010213713725'
 - description: |-
     Você está caminhando entre as divinas árvores da floresta dourada dos
     Galadhrim e sobre um magnífico tapete dourado formado pelas maravilhosas
@@ -370,13 +462,18 @@
     Lothlórien.
   exits:
     east:
-      target_vnum: '13724'
+      target_vnum: '010213713724'
     south:
-      target_vnum: '13737'
+      target_vnum: '010213713737'
+    southeast:
+      target_vnum: '010213713734'
+    southwest:
+      target_vnum: '010213713733'
     up:
-      target_vnum: '13727'
+      target_vnum: '010213713727'
+  local_id: '13726'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13726'
+  vnum: '010213713726'
 - description: |-
     Você está escalando com muita dificuldade o liso tronco prateado de uma
     bela e magnífica mallorn.  Ao seu redor você observa o majestoso paredão
@@ -389,11 +486,12 @@
     mallorns que caíram.
   exits:
     down:
-      target_vnum: '13726'
+      target_vnum: '010213713726'
     up:
-      target_vnum: '13728'
+      target_vnum: 010213713728
+  local_id: '13727'
   name: O Monumental Tronco Prateado
-  vnum: '13727'
+  vnum: '010213713727'
 - description: |-
     Você está escalando perigosamente uma monumental mallorn.  Toda a atenção
     é pouca!  A cada passo um perigo.  O tom prata dos galhos e o dourado das
@@ -409,11 +507,12 @@
     que caíram no último verão.
   exits:
     down:
-      target_vnum: '13727'
+      target_vnum: '010213713727'
     up:
-      target_vnum: '13729'
+      target_vnum: 010213713729
+  local_id: '13728'
   name: Nos Esplendorosos Galhos Prateados
-  vnum: '13728'
+  vnum: 010213713728
 - description: |-
     Você está sobre uma grande plataforma de madeira no alto da floresta de
     Lothlórien, no topo de uma monumental mallorn.  Ao seu redor você observa
@@ -426,9 +525,10 @@
     belas folhas douradas.
   exits:
     down:
-      target_vnum: '13728'
+      target_vnum: 010213713728
+  local_id: '13729'
   name: Uma Plataforma de Madeira
-  vnum: '13729'
+  vnum: 010213713729
 - description: |-
     Você está escalando com muita dificuldade o liso tronco prateado de uma
     bela e magnífica mallorn.  Ao seu redor você observa o majestoso paredão
@@ -441,11 +541,12 @@
     mallorns que caíram.
   exits:
     down:
-      target_vnum: '13725'
+      target_vnum: '010213713725'
     up:
-      target_vnum: '13731'
+      target_vnum: '010213713731'
+  local_id: '13730'
   name: O Monumental Tronco Prateado
-  vnum: '13730'
+  vnum: '010213713730'
 - description: |-
     Você está escalando perigosamente uma monumental mallorn.  Toda a atenção
     é pouca!  A cada passo um perigo.  O tom prata dos galhos e o dourado das
@@ -461,11 +562,12 @@
     que caíram no último verão.
   exits:
     down:
-      target_vnum: '13730'
+      target_vnum: '010213713730'
     up:
-      target_vnum: '13732'
+      target_vnum: '010213713732'
+  local_id: '13731'
   name: Nos Esplendorosos Galhos Prateados
-  vnum: '13731'
+  vnum: '010213713731'
 - description: |-
     Você está sobre uma grande plataforma de madeira no alto da floresta de
     Lothlórien, no topo de uma monumental mallorn.  Ao seu redor você observa
@@ -478,9 +580,10 @@
     belas folhas douradas.
   exits:
     down:
-      target_vnum: '13731'
+      target_vnum: '010213713731'
+  local_id: '13732'
   name: Uma Plataforma de Madeira
-  vnum: '13732'
+  vnum: '010213713732'
 - description: |-
     Você está caminhando entre as monumentais árvores da floresta dourada dos
     Galadhrim.  Ao seu redor você observa um magnífico paredão prateado formado
@@ -490,9 +593,14 @@
     flores douradas que exalam um agradável perfume.  Aos seus pés você observa
     um belo tapete dourado formado pelas folhas que caíram no último verão.  Ao
     nordeste e ao sudeste você observa a majestosa floresta de Lothlórien.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: '010213713726'
+    southeast:
+      target_vnum: '010213713737'
+  local_id: '13733'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13733'
+  vnum: '010213713733'
 - description: |-
     Você está caminhando sobre um formidável tapete dourado formado pelas
     belíssimas folhas de mallorns que caíram durante o último verão.  Ao seu
@@ -503,9 +611,18 @@
     Galadhrim.
   exits:
     east:
-      target_vnum: '13735'
+      target_vnum: '010213713735'
+    northeast:
+      target_vnum: '010213713726'
+    northwest:
+      target_vnum: '010213713724'
+    southeast:
+      target_vnum: 010213713738
+    southwest:
+      target_vnum: '010213713737'
+  local_id: '13734'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13734'
+  vnum: '010213713734'
 - description: |-
     Você está caminhando entre as gigantescas árvores da floresta dourada dos
     Galadhrim.  Ao seu redor você observa perplexo o magnífico paredão prateado
@@ -516,10 +633,19 @@
     floresta.  Ao oeste, noroeste, nordeste, sudeste e ao sudoeste você observa
     a monumental floresta dourada de Lothlórien.
   exits:
+    northeast:
+      target_vnum: '010213713724'
+    northwest:
+      target_vnum: '010213713725'
+    southeast:
+      target_vnum: 010213713739
+    southwest:
+      target_vnum: 010213713738
     west:
-      target_vnum: '13734'
+      target_vnum: '010213713734'
+  local_id: '13735'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13735'
+  vnum: '010213713735'
 - description: |-
     Você está caminhando entre as maravilhosas árvores da floresta dourada de
     Lothlórien.  Ao seu redor você observa os belíssimos troncos prateados das
@@ -528,9 +654,14 @@
     caíram durante o último verão.  A floresta dos Galadhrim é realmente
     magnífica, um verdadeiro paraíso aos olhos dos forasteiros.  Ao noroeste e
     ao sudoeste você observa a linda floresta dourada de Lothlórien.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010213713725'
+    southwest:
+      target_vnum: 010213713739
+  local_id: '13736'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13736'
+  vnum: '010213713736'
 - description: |-
     Você está caminhando entre as monumentais árvores da floresta dourada dos
     Galadhrim.  Ao seu redor você observa imponentes mallorns, com seus troncos
@@ -540,11 +671,18 @@
     imensidão da magnífica floresta dourada de Lothlórien.
   exits:
     east:
-      target_vnum: '13738'
+      target_vnum: 010213713738
     north:
-      target_vnum: '13726'
+      target_vnum: '010213713726'
+    northeast:
+      target_vnum: '010213713733'
+    northwest:
+      target_vnum: '010213713734'
+    southwest:
+      target_vnum: '010213713740'
+  local_id: '13737'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13737'
+  vnum: '010213713737'
 - description: |-
     Você está caminhando sobre um belíssimo tapete dourado formado pelas
     lindas folhas douradas que caíram durante o último verão das gigantescas
@@ -557,13 +695,18 @@
     observa a base de uma colina verde.
   exits:
     east:
-      target_vnum: '13739'
+      target_vnum: 010213713739
+    northeast:
+      target_vnum: '010213713734'
+    northwest:
+      target_vnum: '010213713735'
     south:
-      target_vnum: '13747'
+      target_vnum: '010213713747'
     west:
-      target_vnum: '13737'
+      target_vnum: '010213713737'
+  local_id: '13738'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13738'
+  vnum: 010213713738
 - description: |-
     Você está caminhando entre monumentais árvores de troncos prateados e
     folhas douradas da floresta dourada dos Galadhrim.  Ao seu redor você
@@ -574,11 +717,18 @@
     floresta dourada de Lothlórien.
   exits:
     north:
-      target_vnum: '13725'
+      target_vnum: '010213713725'
+    northeast:
+      target_vnum: '010213713735'
+    northwest:
+      target_vnum: '010213713736'
+    southeast:
+      target_vnum: '010213713742'
     west:
-      target_vnum: '13738'
+      target_vnum: 010213713738
+  local_id: '13739'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13739'
+  vnum: 010213713739
 - description: |-
     Uma sensação de paz e tranqüilidade toma conta da sua mente!  Você está
     caminhando entre as monumentais árvores da magnífica floresta dourada dos
@@ -586,9 +736,14 @@
     prateados, suas folhas e cachos de flores douradas e seu agradável perfume.
     Ao nordeste e ao sudeste você observa a imponente floresta dourada de
     Lothlórien.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: '010213713737'
+    southeast:
+      target_vnum: '010213713741'
+  local_id: '13740'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13740'
+  vnum: '010213713740'
 - description: |-
     Você está caminhando entre as monumentais árvores da grandiosa floresta
     dourada do Galadhrim.  Ao seu redor belíssimas folhas douradas maiores que
@@ -598,12 +753,17 @@
     nordeste você observa as belas formas e cores da gloriosa floresta dourada
     de Lothlórien.
   exits:
+    northeast:
+      target_vnum: '010213713740'
+    northwest:
+      target_vnum: '010213713742'
     south:
-      target_vnum: '13743'
+      target_vnum: '010213713743'
     up:
-      target_vnum: '13757'
+      target_vnum: '010213713757'
+  local_id: '13741'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13741'
+  vnum: '010213713741'
 - description: |-
     Você está andando confortavelmente sobre um magnífico tapete dourado
     formado pelas belíssimas folhas das árvores da imponente floresta dourada
@@ -612,9 +772,14 @@
     galho em galho à procura de um lugar confortável para construírem seus
     ninhos.  Ao noroeste e ao sudoeste você observa a imensidão da grandiosa
     floresta dourada de Lothlórien.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213713739
+    southwest:
+      target_vnum: '010213713741'
+  local_id: '13742'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13742'
+  vnum: '010213713742'
 - description: |-
     Você está caminhando sobre um magnífico tapete dourado formado pelas
     belas folhas de mallorns que caíram durante o último verão.  Ao seu redor
@@ -625,9 +790,14 @@
     Lothlórien.
   exits:
     north:
-      target_vnum: '13741'
+      target_vnum: '010213713741'
+    southeast:
+      target_vnum: '010213713746'
+    southwest:
+      target_vnum: '010213713744'
+  local_id: '13743'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13743'
+  vnum: '010213713743'
 - description: |-
     Você está caminhando e contemplando as belas formas, cores e sons da
     magnífica floresta dourada dos Galadhrim.  Ao seu redor você observa lindas
@@ -636,9 +806,14 @@
     maravilhoso mar dourado formado por inúmeras folhas douradas que caíram
     durante o verão das monumentais árvores da floresta.  Ao nordeste e ao
     sudeste você observa a imensidão da linda floresta dourada de Lothlórien.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: '010213713743'
+    southeast:
+      target_vnum: '010213713745'
+  local_id: '13744'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13744'
+  vnum: '010213713744'
 - description: |-
     Uma sensação de paz e tranqüilidade toma conta do seu corpo e da sua
     mente!  Você está caminhando entre as maravilhosas mallorns da gloriosa
@@ -650,11 +825,16 @@
     noroeste e ao nordeste você observa a linda floresta de Lothlórien.
   exits:
     east:
-      target_vnum: '13761'
+      target_vnum: '010213713761'
     north:
-      target_vnum: '13760'
+      target_vnum: '010213713760'
+    northeast:
+      target_vnum: '010213713744'
+    northwest:
+      target_vnum: '010213713746'
+  local_id: '13745'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13745'
+  vnum: '010213713745'
 - description: |-
     Você está andando e contemplando a bela paisagem da monumental floresta
     dourada dos Galadhrim.  Ao seu redor você observa várias mallorns com seus
@@ -663,9 +843,14 @@
     douradas que caíram durante o último verão das monumentais árvores da
     floresta dourada de Lothlórien.  Ao noroeste e ao sudoeste você observa a
     imponência da floresta dos Galadhrim.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010213713743'
+    southwest:
+      target_vnum: '010213713745'
+  local_id: '13746'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13746'
+  vnum: '010213713746'
 - description: |-
     Após sua longa caminhada sobre o maravilhoso tapete dourado formado pelas
     lindas folhas douradas que caíram durante o verão das magníficas mallorns da
@@ -685,11 +870,12 @@
     coroa de árvores brancas e sem folhas.
   exits:
     north:
-      target_vnum: '13738'
+      target_vnum: 010213713738
     up:
-      target_vnum: '13748'
+      target_vnum: 010213713748
+  local_id: '13747'
   name: A Colina de Amroth
-  vnum: '13747'
+  vnum: '010213713747'
 - description: |-
     Você está realmente surpreso!  Como pode árvores sem folhas possuírem uma
     beleza tão exuberante!  Você está na maravilhosa coroa branca formada por
@@ -703,11 +889,16 @@
     observa a segunda e monumental coroa da colina de Amroth.
   exits:
     down:
-      target_vnum: '13747'
+      target_vnum: '010213713747'
     south:
-      target_vnum: '13752'
+      target_vnum: '010213713752'
+    southeast:
+      target_vnum: '010213713751'
+    southwest:
+      target_vnum: 010213713749
+  local_id: '13748'
   name: A Coroa Branca da Colina de Amroth
-  vnum: '13748'
+  vnum: 010213713748
 - description: |-
     Você está caminhando sobre a bela colina de Amroth.  Ao seu redor você
     observa sublimes árvores de troncos brancos e sem folhas, mas de uma beleza
@@ -719,9 +910,14 @@
     maravilhosas folhas douradas.
   exits:
     east:
-      target_vnum: '13753'
+      target_vnum: '010213713753'
+    northwest:
+      target_vnum: 010213713748
+    southeast:
+      target_vnum: '010213713750'
+  local_id: '13749'
   name: A Coroa Branca da Colina de Amroth
-  vnum: '13749'
+  vnum: 010213713749
 - description: |-
     Uma sensação de paz e harmonia toma conta do seu corpo e da sua mente!
     Você está caminhando sobre a gloriosa colina de Amroth.  Ao seu redor você
@@ -735,9 +931,14 @@
     por gigantescos mallorns de maravilhosas folhas douradas.
   exits:
     north:
-      target_vnum: '13754'
+      target_vnum: '010213713754'
+    northeast:
+      target_vnum: 010213713749
+    northwest:
+      target_vnum: '010213713751'
+  local_id: '13750'
   name: A Coroa Branca da Colina de Amroth
-  vnum: '13750'
+  vnum: '010213713750'
 - description: |-
     Magnífico!  Você está caminhando sobre a majestosa colina de Amroth.  Ao
     seu redor você observa a linda coroa branca da colina de Amroth.  A coroa
@@ -750,10 +951,15 @@
     colina de Amroth, a coroa branca.  Ao oeste você observa a segunda coroa da
     colina de Amroth, a coroa dourada de mallorns.
   exits:
+    northeast:
+      target_vnum: 010213713748
+    southwest:
+      target_vnum: '010213713750'
     west:
-      target_vnum: '13755'
+      target_vnum: '010213713755'
+  local_id: '13751'
   name: A Coroa Branca da Colina de Amroth
-  vnum: '13751'
+  vnum: '010213713751'
 - description: |-
     Você está caminhando sobre a bela colina de Amroth.  Ao seu redor você
     observa monumentais mallorns ornados por um dourado claro que formam um
@@ -767,11 +973,12 @@
     branca.  Ao sul você observa o centro da colina de Amroth.
   exits:
     north:
-      target_vnum: '13748'
+      target_vnum: 010213713748
     south:
-      target_vnum: '13756'
+      target_vnum: '010213713756'
+  local_id: '13752'
   name: A Coroa Dourada da Colina de Amroth
-  vnum: '13752'
+  vnum: '010213713752'
 - description: |-
     Você está caminhando perplexo com a beleza deste lugar.  Você está sobre
     a sublime colina de Amroth, andando entre as árvores monumentais que formam
@@ -786,11 +993,12 @@
     você observa o centro da colina de Amroth.
   exits:
     east:
-      target_vnum: '13756'
+      target_vnum: '010213713756'
     west:
-      target_vnum: '13749'
+      target_vnum: 010213713749
+  local_id: '13753'
   name: A Coroa Dourada da Colina de Amroth
-  vnum: '13753'
+  vnum: '010213713753'
 - description: |-
     Você está caminhando sobre a celestial colina de Amroth.  Ao seu redor
     você observa belíssimos pés de mallorn de um dourado claro e majestoso.  No
@@ -804,11 +1012,12 @@
     centro da sagrada colina de Amroth.
   exits:
     north:
-      target_vnum: '13756'
+      target_vnum: '010213713756'
     south:
-      target_vnum: '13750'
+      target_vnum: '010213713750'
+  local_id: '13754'
   name: A Coroa Dourada da Colina de Amroth
-  vnum: '13754'
+  vnum: '010213713754'
 - description: |-
     Você está caminhando sobre a sagrada colina de Amroth.  Ao seu redor você
     observa vários pés de mallorn formando um magnífico círculo dourado.  No
@@ -822,11 +1031,12 @@
     oeste você observa o centro da agradável colina de Amroth.
   exits:
     east:
-      target_vnum: '13751'
+      target_vnum: '010213713751'
     west:
-      target_vnum: '13756'
+      target_vnum: '010213713756'
+  local_id: '13755'
   name: A Coroa Dourada da Colina de Amroth
-  vnum: '13755'
+  vnum: '010213713755'
 - description: |-
     Uma confortável sensação de paz e tranqüilidade toma conta do seu corpo e
     da sua mente!  Você está no centro da colina de Amroth.  Ao seu redor você
@@ -841,15 +1051,16 @@
     da colina de Amroth, a coroa dourada.
   exits:
     east:
-      target_vnum: '13755'
+      target_vnum: '010213713755'
     north:
-      target_vnum: '13752'
+      target_vnum: '010213713752'
     south:
-      target_vnum: '13754'
+      target_vnum: '010213713754'
     west:
-      target_vnum: '13753'
+      target_vnum: '010213713753'
+  local_id: '13756'
   name: Cerin Amroth, o Coração do Reino Antigo
-  vnum: '13756'
+  vnum: '010213713756'
 - description: |-
     Você está escalando com muita dificuldade o liso tronco prateado de uma
     bela e magnífica mallorn.  Ao seu redor você observa o majestoso paredão
@@ -862,11 +1073,12 @@
     mallorns que caíram.
   exits:
     down:
-      target_vnum: '13741'
+      target_vnum: '010213713741'
     up:
-      target_vnum: '13758'
+      target_vnum: 010213713758
+  local_id: '13757'
   name: O Monumental Tronco Prateado
-  vnum: '13757'
+  vnum: '010213713757'
 - description: |-
     Você está escalando perigosamente uma monumental mallorn.  Toda a atenção
     é pouca!  A cada passo um perigo.  O tom prata dos galhos e o dourado das
@@ -882,11 +1094,12 @@
     que caíram no último verão.
   exits:
     down:
-      target_vnum: '13757'
+      target_vnum: '010213713757'
     up:
-      target_vnum: '13759'
+      target_vnum: 010213713759
+  local_id: '13758'
   name: Nos Esplendorosos Galhos Prateados
-  vnum: '13758'
+  vnum: 010213713758
 - description: |-
     Você está sobre uma grande plataforma de madeira no alto da floresta de
     Lothlórien, no topo de uma monumental mallorn.  Ao seu redor você observa
@@ -898,9 +1111,10 @@
     observa vários galhos e belas folhas douradas.
   exits:
     down:
-      target_vnum: '13758'
+      target_vnum: 010213713758
+  local_id: '13759'
   name: Uma Plataforma de Madeira
-  vnum: '13759'
+  vnum: 010213713759
 - description: |-
     Você chegou ao grandioso portão da gloriosa e sagrada cidade dos
     Galadhrim.  Ao seu redor você observa magníficas árvores de troncos
@@ -914,11 +1128,12 @@
     observa a perfumada floresta dourada de Lothlórien.
   exits:
     north:
-      target_vnum: '13774'
+      target_vnum: '010213713774'
     south:
-      target_vnum: '13745'
+      target_vnum: '010213713745'
+  local_id: '13760'
   name: O Monumental Portão de Madeira
-  vnum: '13760'
+  vnum: '010213713760'
 - description: |-
     Você está caminhando entre as magníficas árvores da floresta dourada dos
     Galadhrim, o povo das árvores.  Ao seu redor você observa monumentais pés de
@@ -928,10 +1143,13 @@
     durante o último verão.  Ao oeste e ao sudeste você observa a celestial
     floresta dourada de Lothlórien.
   exits:
+    southeast:
+      target_vnum: '010213713762'
     west:
-      target_vnum: '13745'
+      target_vnum: '010213713745'
+  local_id: '13761'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13761'
+  vnum: '010213713761'
 - description: |-
     Você está caminhando sobre um belo tapete dourado formado pelas lindas
     folhas douradas que caíram dos pés de mallorn durante o último verão.  Após
@@ -945,11 +1163,14 @@
     você observa as velozes águas do Anduin, o grande rio.
   exits:
     east:
-      target_vnum: '13763'
+      target_vnum: '010213713763'
+    northeast:
+      target_vnum: '010213713761'
     south:
-      target_vnum: '13765'
+      target_vnum: '010213713765'
+  local_id: '13762'
   name: A Floresta Dourada de Lothlórien
-  vnum: '13762'
+  vnum: '010213713762'
 - description: |-
     Você está navegando nas velozes águas do Anduin, o grande rio.  Ao seu
     redor você observa as impetuosas águas do Anduin e um pouco mais além das
@@ -958,11 +1179,12 @@
     você observa as velozes águas do Anduin, o grande rio.
   exits:
     south:
-      target_vnum: '13766'
+      target_vnum: '010213713766'
     west:
-      target_vnum: '13762'
+      target_vnum: '010213713762'
+  local_id: '13763'
   name: "As Ã\x81guas do Anduin, o Grande Rio"
-  vnum: '13763'
+  vnum: '010213713763'
 - description: |-
     Você está navegando nas belas águas do Veio de Prata.  Ao seu redor você
     observa na margem norte a monumental floresta dourada de Lothlórien e na
@@ -970,9 +1192,10 @@
     do veio de Prata seguindo seu curso ao encontro do Anduin, o grande rio.
   exits:
     east:
-      target_vnum: '13765'
+      target_vnum: '010213713765'
+  local_id: '13764'
   name: "As Ã\x81guas do Veio de Prata"
-  vnum: '13764'
+  vnum: '010213713764'
 - description: |-
     Você está navegando nas maravilhosas águas do Veio de Prata.  Ao seu
     redor você observa além das margens:  Ao norte a celestial floresta dourada
@@ -983,13 +1206,14 @@
     Lothlórien.
   exits:
     east:
-      target_vnum: '13766'
+      target_vnum: '010213713766'
     north:
-      target_vnum: '13762'
+      target_vnum: '010213713762'
     west:
-      target_vnum: '13764'
+      target_vnum: '010213713764'
+  local_id: '13765'
   name: "As Ã\x81guas do Veio de Prata"
-  vnum: '13765'
+  vnum: '010213713765'
 - description: |-
     Você está navegando exatamente no ponto onde o rio Anduin se encontra com
     o Veio de Prata.  Ao seu redor você observa as velozes águas do rio Anduin,
@@ -999,13 +1223,14 @@
     do Veio de Prata.
   exits:
     north:
-      target_vnum: '13763'
+      target_vnum: '010213713763'
     south:
-      target_vnum: '13767'
+      target_vnum: '010213713767'
     west:
-      target_vnum: '13765'
-  name: "O MagnÃ­fico Encontro das Ã\x81guas"
-  vnum: '13766'
+      target_vnum: '010213713765'
+  local_id: '13766'
+  name: "O Magnífico Encontro das Ã\x81guas"
+  vnum: '010213713766'
 - description: |-
     Você está navegando nas velozes águas do Anduin, o grande rio.  Ao seu
     redor você observa as maravilhosas águas do Anduin e além das
@@ -1014,9 +1239,10 @@
     do magnífico Anduin, o grande rio.
   exits:
     north:
-      target_vnum: '13766'
+      target_vnum: '010213713766'
+  local_id: '13767'
   name: "As Ã\x81guas do Anduin, o Grande Rio"
-  vnum: '13767'
+  vnum: '010213713767'
 - description: |-
     Você está caminhando entre monumentais pés de mallorn e maravilhosas
     flores perfumadas dos jardins de Caras Galadhon, a cidade dos Galadhrim.  Ao
@@ -1032,10 +1258,13 @@
     suspensas sobre os galhos das árvores.  Ao nordeste você observa sublimes
     estatuas de pedra.
   exits:
+    northwest:
+      target_vnum: '010213713774'
     up:
-      target_vnum: '13770'
+      target_vnum: '010213713770'
+  local_id: '13768'
   name: Os Jardins de Caras Galadhon
-  vnum: '13768'
+  vnum: 010213713768
 - description: |-
     Você está caminhando sobre um confortável gramado coroado por belíssimas
     flores dos jardins de Caras Galadhon, a cidade dos Galadhrim.  Ao seu redor
@@ -1050,10 +1279,13 @@
     os troncos prateados dos magníficos pés de mallorn.  Ao noroeste você
     observa sublimes estatuas de pedra.
   exits:
+    northeast:
+      target_vnum: '010213713774'
     up:
-      target_vnum: '13772'
+      target_vnum: '010213713772'
+  local_id: '13769'
   name: Os Jardins de Caras Galadhon
-  vnum: '13769'
+  vnum: 010213713769
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1069,11 +1301,12 @@
     gramado verde.
   exits:
     down:
-      target_vnum: '13768'
+      target_vnum: 010213713768
     up:
-      target_vnum: '13771'
+      target_vnum: '010213713771'
+  local_id: '13770'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13770'
+  vnum: '010213713770'
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1089,9 +1322,10 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13770'
+      target_vnum: '010213713770'
+  local_id: '13771'
   name: Um Majestoso Talan
-  vnum: '13771'
+  vnum: '010213713771'
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1107,11 +1341,12 @@
     gramado verde.
   exits:
     down:
-      target_vnum: '13769'
+      target_vnum: 010213713769
     up:
-      target_vnum: '13773'
+      target_vnum: '010213713773'
+  local_id: '13772'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13772'
+  vnum: '010213713772'
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1127,12 +1362,13 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13772'
+      target_vnum: '010213713772'
+  local_id: '13773'
   name: Um Majestoso Talan
-  vnum: '13773'
+  vnum: '010213713773'
 - description: "Uma estranha sensação toma conta do seu corpo e da sua mente, levando\n\
     você a um canto dos Dias Antigos.  Você está na maravilhosa Caras Galadhon,\n\
-    a cidade do povo das Ã¡rvores.  Ã\x80 sua frente vocÃª observa duas magnÃ­ficas\n\
+    a cidade do povo das árvores.  Ã\x80 sua frente você observa duas magníficas\n\
     estatuas de pedra que retratam duas celestiais elfas observando e dando boas\n\
     vindas aos visitantes da bela cidade onde não paira sombra alguma.  Ao seu\nredor\
     \ você observa monumentais árvores de troncos prateados, folhas douradas\ne perfumados\
@@ -1146,11 +1382,20 @@
     \  Ao sul você observa o gigantesco\nportão de madeira da cidade."
   exits:
     north:
-      target_vnum: '13782'
+      target_vnum: 010213713782
+    northeast:
+      target_vnum: '010213713775'
+    northwest:
+      target_vnum: '010213713776'
     south:
-      target_vnum: '13760'
+      target_vnum: '010213713760'
+    southeast:
+      target_vnum: 010213713769
+    southwest:
+      target_vnum: 010213713768
+  local_id: '13774'
   name: Caras Galadhon, a Cidade dos Galadhrim
-  vnum: '13774'
+  vnum: '010213713774'
 - description: |-
     Você está caminhando sobre um confortável gramado coroado por belíssimas
     flores dos jardins de Caras Galadhon, a cidade dos Galadhrim.  Ao seu redor
@@ -1165,10 +1410,13 @@
     os troncos prateados dos magníficos pés de mallorn.  Ao sudeste você observa
     sublimes estatuas de pedra.
   exits:
+    southeast:
+      target_vnum: '010213713774'
     up:
-      target_vnum: '13777'
+      target_vnum: '010213713777'
+  local_id: '13775'
   name: Os Jardins de Caras Galadhon
-  vnum: '13775'
+  vnum: '010213713775'
 - description: |-
     Você está caminhando entre monumentais pés de mallorn e maravilhosas
     flores perfumadas dos jardins de Caras Galadhon, a cidade dos Galadhrim.  Ao
@@ -1184,10 +1432,13 @@
     suspensas sobre os galhos das árvores.  Ao sudoeste você observa sublimes
     estatuas de pedra.
   exits:
+    southwest:
+      target_vnum: '010213713774'
     up:
-      target_vnum: '13779'
+      target_vnum: 010213713779
+  local_id: '13776'
   name: Os Jardins de Caras Galadhon
-  vnum: '13776'
+  vnum: '010213713776'
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1203,11 +1454,12 @@
     gramado verde.
   exits:
     down:
-      target_vnum: '13775'
+      target_vnum: '010213713775'
     up:
-      target_vnum: '13778'
+      target_vnum: 010213713778
+  local_id: '13777'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13777'
+  vnum: '010213713777'
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1223,9 +1475,10 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13777'
+      target_vnum: '010213713777'
+  local_id: '13778'
   name: Um Majestoso Talan
-  vnum: '13778'
+  vnum: 010213713778
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1241,11 +1494,12 @@
     gramado verde.
   exits:
     down:
-      target_vnum: '13776'
+      target_vnum: '010213713776'
     up:
-      target_vnum: '13780'
+      target_vnum: 010213713780
+  local_id: '13779'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13779'
+  vnum: 010213713779
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1261,9 +1515,10 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13779'
+      target_vnum: 010213713779
+  local_id: '13780'
   name: Um Majestoso Talan
-  vnum: '13780'
+  vnum: 010213713780
 - description: |-
     Você está sob um magnífico recanto na bela cidade dos Galadhrim.  Ao seu
     redor você observa toda a exuberância e magnitude da cidade de Caras
@@ -1277,11 +1532,12 @@
     revestido com pedras brancas.
   exits:
     east:
-      target_vnum: '13782'
+      target_vnum: 010213713782
     up:
-      target_vnum: '13784'
+      target_vnum: 010213713784
+  local_id: '13781'
   name: Um Agradável Recanto em Caras Galadhon
-  vnum: '13781'
+  vnum: 010213713781
 - description: |-
     Você está caminhando sobre um lindo passeio revestido com lisas e belas
     pedras brancas.  Ao seu redor você observa magníficas árvores de troncos
@@ -1295,15 +1551,20 @@
     recanto e ao leste e nordeste você observa gigantescos pés de mallorn.
   exits:
     east:
-      target_vnum: '13783'
+      target_vnum: 010213713783
     north:
-      target_vnum: '13788'
+      target_vnum: 010213713788
+    northeast:
+      target_vnum: 010213713794
+    northwest:
+      target_vnum: 010213713791
     south:
-      target_vnum: '13774'
+      target_vnum: '010213713774'
     west:
-      target_vnum: '13781'
+      target_vnum: 010213713781
+  local_id: '13782'
   name: Um Belo Passeio entre as Magníficas Mallorns
-  vnum: '13782'
+  vnum: 010213713782
 - description: |-
     Você está sob as gigantescas árvores da magnífica cidade dos Galadhrim, a
     bela Caras Galadhon.  Ao seu redor você observa uma majestosa cidade
@@ -1315,11 +1576,12 @@
     oeste você observa um lindo passeio revestido com pedras brancas.
   exits:
     up:
-      target_vnum: '13786'
+      target_vnum: 010213713786
     west:
-      target_vnum: '13782'
+      target_vnum: 010213713782
+  local_id: '13783'
   name: "Sob as Monumentais Ã\x81rvores de Caras Galadhon"
-  vnum: '13783'
+  vnum: 010213713783
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1335,11 +1597,12 @@
     coberta feita de pedras de um brilho intenso.
   exits:
     down:
-      target_vnum: '13781'
+      target_vnum: 010213713781
     up:
-      target_vnum: '13785'
+      target_vnum: 010213713785
+  local_id: '13784'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13784'
+  vnum: 010213713784
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1355,9 +1618,10 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13784'
+      target_vnum: 010213713784
+  local_id: '13785'
   name: Um Majestoso Talan
-  vnum: '13785'
+  vnum: 010213713785
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1373,11 +1637,12 @@
     gramado verde.
   exits:
     down:
-      target_vnum: '13783'
+      target_vnum: 010213713783
     up:
-      target_vnum: '13787'
+      target_vnum: 010213713787
+  local_id: '13786'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13786'
+  vnum: 010213713786
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1393,15 +1658,16 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13786'
+      target_vnum: 010213713786
+  local_id: '13787'
   name: Um Majestoso Talan
-  vnum: '13787'
+  vnum: 010213713787
 - description: "Magnífica!  Você está protegido de todo o mal existente nas sagradas\n\
     terras do nosso mundo.  Uma sensação de paz e harmonia toma conta do seu\ncorpo\
     \ e da sua mente.  Ao seu redor você observa monumentais e exuberantes\nárvores\
     \ de troncos prateados, folhas douradas e perfumados cachos de flores\ndouradas.\
     \  Aos seus pés, você observa uma linda e compacta camada verde de\ngrama recheada\
-    \ por perfumadas flores.  Ã\x80 sua frente vocÃª observa uma linda e\nmajestosa\
+    \ por perfumadas flores.  Ã\x80 sua frente você observa uma linda e\nmajestosa\
     \ fonte de pedra cinza com impetuosos e alegres pássaros banhando-se\nem suas\
     \ águas.  Acima de sua cabeça, você observa enormes escadas que\nescalam os gigantescos\
     \ pés de mallorn serpenteando sobre seu tronco liso e\nprateado.  Belíssimas lamparinas\
@@ -1410,9 +1676,10 @@
     \ de um brilho intenso."
   exits:
     south:
-      target_vnum: '13782'
+      target_vnum: 010213713782
+  local_id: '13788'
   name: A Maravilhosa Fonte de Lórien
-  vnum: '13788'
+  vnum: 010213713788
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1428,11 +1695,12 @@
     fonte construída com pedras de um lindo tom de cinza.
   exits:
     down:
-      target_vnum: '13788'
+      target_vnum: 010213713788
     up:
-      target_vnum: '13790'
+      target_vnum: 010213713790
+  local_id: '13789'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13789'
+  vnum: 010213713789
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1448,9 +1716,10 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13789'
+      target_vnum: 010213713789
+  local_id: '13790'
   name: Um Majestoso Talan
-  vnum: '13790'
+  vnum: 010213713790
 - description: |-
     Você está caminhando sobre as gigantescas árvores da magnífica cidade dos
     Galadhrim, a linda Caras Galadhon.  Ao seu redor você observa uma das
@@ -1464,10 +1733,13 @@
     deste sagrado lugar, onde não paira nenhuma sombra.  Ao sudoeste você
     observa um lindo passeio revestido com pedras de um belo tom de cinza.
   exits:
+    southwest:
+      target_vnum: 010213713782
     up:
-      target_vnum: '13792'
+      target_vnum: 010213713792
+  local_id: '13791'
   name: "Sob as Monumentais Ã\x81rvores de Caras Galadhon"
-  vnum: '13791'
+  vnum: 010213713791
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1483,11 +1755,12 @@
     gramado verde.
   exits:
     down:
-      target_vnum: '13791'
+      target_vnum: 010213713791
     up:
-      target_vnum: '13793'
+      target_vnum: 010213713793
+  local_id: '13792'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13792'
+  vnum: 010213713792
 - description: |-
     Você está sobre uma grande plataforma de madeira da cidade dos Galadhrim.
     Ao seu redor você observa no centro da plataforma de madeira um furo de onde
@@ -1503,9 +1776,10 @@
     escada de madeira iluminada por várias lamparinas prateadas.
   exits:
     down:
-      target_vnum: '13792'
+      target_vnum: 010213713792
+  local_id: '13793'
   name: Um Majestoso Talan
-  vnum: '13793'
+  vnum: 010213713793
 - description: |-
     Você está caminhando sobre um lindo passeio revestido de belas pedras
     brancas.  Ao seu redor você observa as monumentais árvores de troncos
@@ -1518,11 +1792,14 @@
     revestido de pedras brancas.
   exits:
     north:
-      target_vnum: '13795'
+      target_vnum: 010213713795
+    southeast:
+      target_vnum: 010213713782
     up:
-      target_vnum: '13796'
+      target_vnum: 010213713796
+  local_id: '13794'
   name: Um Belo Passeio entre as Magníficas Mallorns
-  vnum: '13794'
+  vnum: 010213713794
 - description: "Você está caminhando sobre um lindo passeio revestido com pedras lisas\
     \ e\nbrancas.  Ao seu redor você observa gigantescos pés de mallorn de troncos\n\
     prateados, folhas douradas e perfumados cachos de flores douradas.  Aos seus\n\
@@ -1531,18 +1808,19 @@
     \ enormes plataformas de madeira sustentadas pelos fortes galhos\nprateados das\
     \ belas mallorns.  Escadas imensas iluminadas por maravilhosas\nlamparinas prateadas\
     \ escalam os troncos dos pés de mallorn rumo ao seu topo,\ndando acesso Ã s monumentais\
-    \ plataformas de madeira.  Ã\x80 sua frente vocÃª\npercebe a presença de duas\
-    \ belíssimas estatuas de pedra, representando duas\ncelestiais donzelas élficas\
-    \ segurando pequenas bacias prateadas.  Ao sul\nvocê observa a continuação do\
-    \ belo passeio revestido com pedras brancas e\ndescendo uma pequena escada de\
-    \ pedra você observa um belo jardim cercado por\numa compacta cerca viva."
+    \ plataformas de madeira.  Ã\x80 sua frente você\npercebe a presença de duas belíssimas\
+    \ estatuas de pedra, representando duas\ncelestiais donzelas élficas segurando\
+    \ pequenas bacias prateadas.  Ao sul\nvocê observa a continuação do belo passeio\
+    \ revestido com pedras brancas e\ndescendo uma pequena escada de pedra você observa\
+    \ um belo jardim cercado por\numa compacta cerca viva."
   exits:
     down:
-      target_vnum: '13799'
+      target_vnum: 010213713799
     south:
-      target_vnum: '13794'
+      target_vnum: 010213713794
+  local_id: '13795'
   name: O Final do Belo Passeio entre as Magníficas Mallorns
-  vnum: '13795'
+  vnum: 010213713795
 - description: |-
     Você está caminhando cuidadosamente sobre uma belíssima escada que escala
     uma gigantesca mallorn, serpenteando sobre o seu majestoso tronco liso e
@@ -1558,11 +1836,12 @@
     passeio revestido com pedras lisas e brancas.
   exits:
     down:
-      target_vnum: '13794'
+      target_vnum: 010213713794
     up:
-      target_vnum: '13797'
+      target_vnum: 010213713797
+  local_id: '13796'
   name: Uma Bela Escada numa Monumental Mallorn
-  vnum: '13796'
+  vnum: 010213713796
 - description: |-
     Você está sobre uma bela plataforma de madeira sustentada pelos fortes e
     resistentes galhos dos maravilhosos pés de mallorn da linda cidade dos
@@ -1581,11 +1860,12 @@
     tronco da linda e forte mallorn.
   exits:
     down:
-      target_vnum: '13796'
+      target_vnum: 010213713796
     west:
-      target_vnum: '13798'
+      target_vnum: 010213713798
+  local_id: '13797'
   name: Uma Monumental Talan de Madeira
-  vnum: '13797'
+  vnum: 010213713797
 - description: |-
     Você está sobre uma imensa plataforma de madeira sustentada pelos fortes
     e resistentes galhos prateados dos gigantescos pés de mallorn.  Ao seu redor
@@ -1600,12 +1880,13 @@
     prateados.  Ao leste você observa a imensa plataforma de madeira.
   exits:
     east:
-      target_vnum: '13797'
+      target_vnum: 010213713797
+  local_id: '13798'
   name: A Celestial Talan de Caras Galadhon
-  vnum: '13798'
+  vnum: 010213713798
 - description: "Você está dentro de um magnífico jardim fechado.  Ao seu redor você\n\
     observa uma maravilhosa e bem cuidada cerca viva que circula todo o jardim.\n\
-    Ã\x80 sua frente no centro do jardim vocÃª observa um sublime altar e uma linda\n\
+    Ã\x80 sua frente no centro do jardim você observa um sublime altar e uma linda\n\
     bacia prateada sobre ele.  Ao oeste do jardim você observa um pequeno riacho\n\
     de águas cristalinas e perfumadas.  Acima de sua cabeça, você observa os\nimensos\
     \ e fortes galhos prateados dos monumentais pés de mallorn, que formam\numa bela\
@@ -1617,6 +1898,7 @@
     \ você observa um lindo passeio revestido de\npedras lisas e brancas."
   exits:
     up:
-      target_vnum: '13795'
+      target_vnum: 010213713795
+  local_id: '13799'
   name: O Espelho da Senhora de Lothlórien
-  vnum: '13799'
+  vnum: 010213713799

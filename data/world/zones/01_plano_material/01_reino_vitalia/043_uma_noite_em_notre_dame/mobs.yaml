@@ -1,18 +1,20 @@
-- description: "Ã\x89 um morcego normal, nÃ£o um vampiro. Ele Ã© bonitinho enquanto\
-    \ estÃ¡ dormindo.\nE você deveria deixa-lo exatamente daquele jeito ou então matá-lo."
+- description: "Ã\x89 um morcego normal, não um vampiro. Ele é bonitinho enquanto\
+    \ está dormindo.\nE você deveria deixa-lo exatamente daquele jeito ou então matá-lo."
   keywords:
   - morcego
   - cinzento
+  long_desc: um morcego cinzento está dormindo aqui.
   name: um morcego cinzento
-  vnum: '4300'
+  vnum: '01010434300'
 - description: |-
     Definitivamente, ele vem das classes inferiores de toda a França, ele é um
     pedinte, que está implorando por algumas moedas ou por um pedaço de carne.
   keywords:
   - pobre
   - cidadao
+  long_desc: um pobre cidadão da França está sentado aqui.
   name: um pobre cidadão
-  vnum: '4304'
+  vnum: '01010434304'
 - description: |-
     Ele está sentado numa cadeira de madeira. E ele parece ser bem idoso,
     porêm forte o suficiente para que, numa briga por sua própria vida,
@@ -21,15 +23,17 @@
   keywords:
   - padre
   - tintoreto
+  long_desc: Um padre está sentado em uma cadeira enquanto medita.
   name: Tintoreto o padre
-  vnum: '4311'
+  vnum: '01010434311'
 - description: |-
     Você está olhando para um homem francês, de meia idade e da classe média.
     Ele está vestido com botas pretas, calças marrom e camisa branca.
   keywords:
   - crente
+  long_desc: O homem crente se encontra aqui.
   name: o crente
-  vnum: '4316'
+  vnum: '01010434316'
 - description: |-
     Ele é um garoto que canta na catedral, por algumas moedas. Ele
     não parece ser muito forte ou poderoso e ele poderia cantar
@@ -38,16 +42,18 @@
   - menino
   - cantor
   - coral
+  long_desc: um jovem cantor de coral está cantando aqui.
   name: um jovem cantor de coral
-  vnum: '4321'
+  vnum: '01010434321'
 - description: |-
     Ela possui muita fé em Cristo, e tambêm acredita que o grande mal da
     humanidade é o excessivo apego ao ouro.  Ela está elegantemente vestida com
     roupas brancas.
   keywords:
   - crente
+  long_desc: Uma crente rezando.
   name: uma crente
-  vnum: '4322'
+  vnum: '01010434322'
 - description: |-
     O Cardeal da França e ministro de Luis XIV, todo vestido de vermelho,
     está aqui e você pode fácilmente identificá-lo através de seu
@@ -55,13 +61,15 @@
   keywords:
   - Richelieu
   - Cardeal
+  long_desc: O Cardeal Richelieu está aqui, gritando com as pessoas.
   name: o Cardeal Richelieu
-  vnum: '4324'
-- description: "Ã\x89 um pÃ¡ssaro branco, vocÃª nunca tinha visto um antes?"
+  vnum: '01010434324'
+- description: "Ã\x89 um pássaro branco, você nunca tinha visto um antes?"
   keywords:
   - pombo
+  long_desc: um pombo branco está aqui
   name: um pombo
-  vnum: '4325'
+  vnum: '01010434325'
 - description: |-
     Você vê um homem estranho e insano, que está gritando por alguém chamado
     Emeralda. Ele parece ser muito forte e bastante perigoso. Está usando
@@ -69,8 +77,9 @@
   keywords:
   - homem
   - corcunda
+  long_desc: um homem com um corpo estranho, está aqui, brincando com os sinos.
   name: o corcunda
-  vnum: '4326'
+  vnum: '01010434326'
 - description: |-
     Jean é um monge. Todo mundo fica caçoando seu nome. Ele não parece ser
     muito forte e tem jeito de ser um grande encrenqueiro. Talvez seja por isso
@@ -79,8 +88,9 @@
   keywords:
   - Monge
   - Jean
+  long_desc: Jean, o monge, está aqui, limpando o segundo andar.
   name: Jean, o monge
-  vnum: '4330'
+  vnum: '01010434330'
 - description: |-
     Este monstro de pedra deve estar aqui há anos e anos, e se tornou
     a casa de alguns pombos e de muitos insetos. Sua face lhe faz pensar nas
@@ -89,15 +99,17 @@
   - estatua
   - gargula
   - pedra
+  long_desc: Um horrendo monstro feito de pedra está aqui, cheio de pé.
   name: o gárgula
-  vnum: '4334'
+  vnum: '01010434334'
 - description: |-
     Você vê um jovem adolescente que realmente quer se tornar um Mosqueteiro mas seu
     olhar demonstra que ele talvez esteja meio perdido e distraído. Talvez você devesse ajudá-lo.
   keywords:
   - Dartagnan
+  long_desc: Um aprendiz de Mosqueteiro está parado aqui.
   name: Dartagnan
-  vnum: '4337'
+  vnum: '01010434337'
 - description: |-
     Ele é um simples morador de sua cidade. Talvez ele trabalhe em alguma
     fazenda ou mercado. A única coisa que você tem certeza é que ele não é
@@ -106,28 +118,32 @@
   - cidadao
   - cidadão
   - Lyon
+  long_desc: Um cidadão de Lyon está aqui.
   name: cidadão de Lyon
-  vnum: '4340'
+  vnum: '01010434340'
 - description: Parece que seu dono o deixou aqui, enquanto foi fazer algumas compras
     pelas lojas da cidade. O pobre animalzinho parece faminto.
   keywords:
   - poodle
+  long_desc: Há um poodle branco amarrado a uma árvore aqui.
   name: um poodle branco
-  vnum: '4341'
+  vnum: '01010434341'
 - description: Ele é um homem muito ocupado, que está trabalhando em uma poção muito
     especial.
   keywords:
   - Pierre
+  long_desc: Pierre está parado aqui misturando algo muito especial.
   name: Pierre, o mágico
-  vnum: '4343'
+  vnum: '01010434343'
 - description: |-
     Ele é um homem velho, que trabalha duro diáriamente para poder ganhar alguns
     trocados poder comprar comida. Ele pertence à sofrida classe dos trabalhadores
     de Lyon.
   keywords:
   - mercador
+  long_desc: Um mercador francês está aqui, tentando fazer bons negócios.
   name: mercador francês
-  vnum: '4345'
+  vnum: '01010434345'
 - description: |-
     Ela é uma mulher francesa muito bonita, você pode notar que ela pertence à
     uma classe privilegiada de Lyon. Está vestida com um bonito vestido verde
@@ -135,15 +151,18 @@
   keywords:
   - Mulher
   - francesa
+  long_desc: Uma mulher francesa está sentada aqui, esperando por uma carruagem para
+    passar.
   name: uma mulher francesa
-  vnum: '4347'
-- description: "Ã\x89 um enorme rato preto, daqueles que transmitem doenÃ§as. Mate-o,\
+  vnum: '01010434347'
+- description: "Ã\x89 um enorme rato preto, daqueles que transmitem doenças. Mate-o,\
     \ antes que ele\nmorda você, pois isto seria extremamente perigoso."
   keywords:
   - rato
   - preto
+  long_desc: Um rato preto está aqui, comendo coisas do lixo.
   name: um rato preto
-  vnum: '4348'
+  vnum: 01010434348
 - description: |-
     Ele está vestindo roupas pretas e tem a aparência de ser uma pessoa muito
     perigosa e agressiva. Se eu fosse você, não o perturbaria e voltaria pelo mesmo
@@ -152,8 +171,9 @@
   - Ladrao
   - ladrão
   - Renoir
+  long_desc: O ladrão Reinoir está aqui, amolando seu punhal.
   name: Renoir, o ladrão
-  vnum: '4349'
+  vnum: 01010434349
 - description: |-
     Degas é um homem que tem facetas distintas: ele é um eremita, ladrão e
     revolucionário. A história da vida dele é baseada em crimes e brigas,
@@ -162,14 +182,16 @@
   keywords:
   - degas
   - eremita
+  long_desc: Degas, o eremita está colhendo algumas frutas aqui.
   name: Degas, o eremita
-  vnum: '4351'
-- description: "Ã\x89 um pequeno esquilo atraente que estÃ¡ preparando durante o inverno."
+  vnum: '01010434351'
+- description: "Ã\x89 um pequeno esquilo atraente que está preparando durante o inverno."
   keywords:
   - esquilo
   - marrom
+  long_desc: Um esquilo marrom está aqui, a procura de nozes.
   name: um esquilo marrom
-  vnum: '4355'
+  vnum: '01010434355'
 - description: |-
     Ela é uma cigana muito famosa.  Seu nome é Esmeralda.  Tenha cuidado, pois
     embora ela tenha uma aparência frágil, ela possui poderes mágicos muito
@@ -179,16 +201,18 @@
   - misteriosa
   - linda
   - Esmeralda
+  long_desc: Uma mulher linda e misteriosa está dançando aqui.
   name: Esmeralda, a linda cigana
-  vnum: '4357'
+  vnum: '01010434357'
 - description: |-
     Ele é um cidadão de Paris e parece estar um pouco nervoso por causa desse clima
     de insegurança que todos na França estão vivendo neste momento.
   keywords:
   - cidadao
   - Paris
+  long_desc: Um cidadão de Paris está parado aqui.
   name: um cidadão de Paris
-  vnum: '4363'
+  vnum: '01010434363'
 - description: |-
     Robespierre parece ser alguém com idéias novas e tem todo o tipo de ser um
     homem que parece atrair problemas, contudo, sua aparência não é de alguém
@@ -196,8 +220,9 @@
   keywords:
   - Revolucionario
   - Robespierre
+  long_desc: Um revolucionário está aqui.
   name: Robespierre
-  vnum: '4367'
+  vnum: '01010434367'
 - description: |-
     Ele não parece ser alguém que daria sua vida pelo Rei e você se pergunta como teria
     este indivíduo conseguido este emprego? Talvez com os excessos de problemas da
@@ -206,60 +231,68 @@
   keywords:
   - Guarda
   - mosqueteiro
+  long_desc: Um mosqueteiro parece estar vigiando a porta.
   name: um mosqueteiro em serviço
-  vnum: '4368'
+  vnum: 01010434368
 - description: |-
     Ele é um do melhores chefes de cozinha de toda a França e tem o privilégio de
     contar com a proteção da guarda pessoal do rei Luís XIV.
   keywords:
   - Monet
+  long_desc: O Chefe de cozinha Monet está preparando o café da manhã aqui.
   name: Monet, o cozinheiro
-  vnum: '4371'
+  vnum: '01010434371'
 - description: |-
     Ele é um dos melhores Mosqueteiros de toda a França e um dos mais fortes.
     Você deveria pensar duas vezes antes de puxar uma briga com ele.
   keywords:
   - Portos
+  long_desc: Parece que Portos, o Mosqueteiro, está a procura de problemas aqui.
   name: Portos, o Mosqueteiro
-  vnum: '4372'
+  vnum: '01010434372'
 - description: |-
     Atos, não é o Mosqueteiro mais inteligente ou o mais forte, mas ele faz
     o trabalho dele com muita seriedade e com isso ele ganhou o respeito de todos.
   keywords:
   - Atos
   - mosqueteuri
+  long_desc: Atos, o Mosqueteiro está parado aqui.
   name: Atos, o Mosqueteiro
-  vnum: '4377'
-- description: "Ele Ã© um dos melhores Mosqueteiros de toda a FranÃ§a.  Ã\x89 considerado\
+  vnum: '01010434377'
+- description: "Ele é um dos melhores Mosqueteiros de toda a França.  Ã\x89 considerado\
     \ o mais\ninteligente de todos...pelo menos é isso que ele diz."
   keywords:
   - Aramis
   - mosqueteiro
   - inteligente
   - astuto
+  long_desc: Aramis, o astuto Mosqueteiro está parado aqui.
   name: Aramis, o astuto Mosqueteiro
-  vnum: '4378'
+  vnum: 01010434378
 - description: "Ã\x89 um lindo cavalo negro, um dos melhores puro-sangue de todo o\
     \ mundo,\ne são usados pelos guardas do rei francês."
   keywords:
   - cavalo
   - treinado
+  long_desc: Um cavalo bem treinado está comendo um pouco de grama aqui.
   name: um cavalo de Mosqueteiro
-  vnum: '4387'
+  vnum: 01010434387
 - description: Ela é uma linda jovem que parece estar bastante interessada em ajudar
     você.
   keywords:
   - recepcionista
+  long_desc: Uma recepcionista francesa está aqui, pronta para ajudá-lo.
   name: uma recepcionista francesa
-  vnum: '4388'
+  vnum: 01010434388
 - description: |-
     Ele é um Mosqueteiro como muitos outros. Porém ele tem o privilégio de ser um
     dos Mosqueteiros que pessoalmente protegem a vida do Rei.
   keywords:
   - Mosqueteiro
   - real
+  long_desc: Um Mosqueteiro real está aqui, protegendo o Rei.
   name: Mosqueteiro real
-  vnum: '4389'
+  vnum: 01010434389
 - description: |-
     Ele é um homem que parece ter ficado aqui por muito tempo, porém você não pode precisar
     quanto tempo olhando as roupas dele. Ele deve ser muito forte, pois está usando uma pesada
@@ -268,16 +301,18 @@
   keywords:
   - mascara
   - homem
+  long_desc: Um homem com uma máscara ferro.
   name: um homem com uma máscara ferro
-  vnum: '4390'
+  vnum: 01010434390
 - description: |-
     Ela é muito pequena e sua cor é avermelhada, parecendo estar cheia de sangue de
     algum pobre coitado que ela parece ter picado. O lugar parece estar infestado
     por estes insetos nojentos.
   keywords:
   - pulga
+  long_desc: Uma pulga minúscula está saltando prá cá e prá lá.
   name: uma pulga
-  vnum: '4392'
+  vnum: 01010434392
 - description: |-
     Ele parece ser muito perigoso e você tem quase certeza de que ele poderia
     fácilmente matá-lo mesmo com uma das mãos amarradas às costas.
@@ -285,16 +320,18 @@
   - Jean
   - Paul
   - prisioneiro
+  long_desc: Jean Paul, o frio assassino, está parado aqui.
   name: Jean Paul, o prisioneiro
-  vnum: '4393'
+  vnum: 01010434393
 - description: |-
     O pobre rapaz parece estar extremamente entediado com a falta de movimento
     do lugar.  Mas você nota por seu tamanho que enfrentar tal criatura poderia
     ser complicado.
   keywords:
   - sentinela
+  long_desc: Um Mosqueteiro está aqui trabalhando como sentinela.
   name: um sentinela
-  vnum: '4395'
+  vnum: 01010434395
 - description: |-
     Ele é um homem alto e estranho e segundo dizem, tem entre 230 a 250 anos e é
     extremamente sábio.  Como um guerreiro, ele talvez não valha uma única moeda
@@ -302,15 +339,17 @@
     que abre os portais para muitos mundos de fanstasia.
   keywords:
   - guardiao
+  long_desc: O guardião do tempo e do espaço está aqui.
   name: o guardião do tempo e do espaço
-  vnum: '4396'
+  vnum: 01010434396
 - description: |-
     Ele é um homem de meia idade, que trabalha nesta cidade, vendendo as coisas
     mais diferentes e interessantes que turistas em geral procuram para comprar.
   keywords:
   - Toulouse
+  long_desc: O simpático Toulouse está aqui, pronto para ajudá-lo.
   name: Toulouse, o lojista
-  vnum: '4398'
+  vnum: 01010434398
 - description: Ele é o responsável por todos os problemas que estão acontecendo neste
     país. Muitas pessoas dizem que ele era um excelente rei até bem pouco tempo atrás
     mas que parece ser outra pessoa agora.
@@ -318,5 +357,7 @@
   - rei
   - Luis
   - XIV
+  long_desc: Luís XIV, o grande Rei da França, está aqui, sentado em seu belíssimo
+    trono.
   name: Luis XIV, o Rei da França
-  vnum: '4399'
+  vnum: 01010434399

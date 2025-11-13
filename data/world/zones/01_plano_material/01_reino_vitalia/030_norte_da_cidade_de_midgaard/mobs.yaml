@@ -4,54 +4,64 @@
     e braceletes da melhor qualidade.
   keywords:
   - feiticeiro
+  long_desc: Um feiticeiro anda de um lado para o outro, atrás do balcão, falando
+    sozinho.
   name: o feiticeiro
-  vnum: '3000'
+  vnum: '01010303000'
 - description: |-
     Um gordo e bem apessoado padeiro. Mas você pode ver que ele possui muitas
     cicatrizes em seu corpo.
   keywords:
   - padeiro
+  long_desc: O padeiro olha você calmamente, limpando a farinha em seu rosto com a
+    mão.
   name: o padeiro
-  vnum: '3001'
+  vnum: '01010303001'
 - description: |-
     Um merceeiro alto, que consegue carregar dois sacos de trigo, pesando 200
     libras cada um, em seus ombros.
   keywords:
   - merceeiro
+  long_desc: Um merceeiro está atrás do balcão, com um olhar ligeiramente impaciente.
   name: o merceeiro
-  vnum: '3002'
+  vnum: '01010303002'
 - description: |-
     Ele é um jovem vendedor de armas, que ainda tem muita coisa para aprender,
     mas que está ansioso para lhe vender os seus mais novos instrumentos de
     carnificina e destruição.
   keywords:
   - vendedor
+  long_desc: Um vendedor de armas está parado aqui.
   name: o vendedor de armas
-  vnum: '3003'
+  vnum: '01010303003'
 - description: |-
     Um armeiro velho mas muito forte. Ele já fêz mais armaduras em sua vida do
     que você poderia imaginar.
   keywords:
   - armeiro
+  long_desc: Um armeiro está aqui, mostrando a sua nova (e previamente usada) armadura.
   name: o armeiro
-  vnum: '3004'
+  vnum: '01010303004'
 - description: Este capitão comeu mais tubarões em sua vida do que você matou insetos.
   keywords:
   - capitao
   - stolar
+  long_desc: Um capitão aposentado está parado aqui, vendendo embarcações.
   name: Capitão Stolar
-  vnum: '3006'
+  vnum: '01010303006'
 - description: Ele parece ser forte como um lobo-do-mar.
   keywords:
   - marinheiro
+  long_desc: Um marinheiro está parado aqui, esperando para ajudar você.
   name: o marinheiro
-  vnum: '3007'
+  vnum: '01010303007'
 - description: Olhando para ele não se sabe ao certo se ele é um clandestino ou não.
   keywords:
   - tio
   - juan
+  long_desc: Tio Juan está aqui, pronto para receber as suas ordens.
   name: tio Juan
-  vnum: '3008'
+  vnum: 01010303008
 - description: |-
     Wally é um pouco distraído mas parece ser muito forte.  Ele tem um copo de
     água natural da Fonte de Midgaard nas mãos.  Quando nota você, imediatamente
@@ -60,8 +70,9 @@
   keywords:
   - wally
   - vendedor
+  long_desc: Wally o vendedor de água está parado atrás do balcão.
   name: Wally o vendedor de água
-  vnum: '3009'
+  vnum: 01010303009
 - description: |-
     O agente postal parece ser um homem velho feliz, porêm já um pouco lento.
     Ele se preocupa com a reputação do SCM (Serviço de Correio de Midgaard),
@@ -72,8 +83,9 @@
   - carteiro
   - agente
   - postal
+  long_desc: O chefe dos carteiros está aqui, pronto para lhe ajudar com a correspondência.
   name: o agente postal
-  vnum: '3010'
+  vnum: '01010303010'
 - description: |-
     Moe é um homem idoso, que viajou muito no passado. Agora, ele escreve mapas
     para ajudar aos novos aventureiros a atingirem suas conquistas pelo mundo
@@ -82,16 +94,18 @@
   - moe
   - cartografo
   - cartógrafo
+  long_desc: Moe o Cartógrafo está aqui, sentado em sua escrivaninha.
   name: Moe o Cartógrafo
-  vnum: '3011'
+  vnum: '01010303011'
 - description: |-
     Atarefada e atrapalhada, ela parece muito sobrecarregada.  Suas roupas tem
     diversos rasgos e furos, provavelmente causados pelas tracas que sobrevivem em
     meio a tantos papeis velhos.
   keywords:
   - recepcionista
+  long_desc: A recepcionista está sentada em sua mesa, sorrindo para você.
   name: a recepcionista
-  vnum: '3012'
+  vnum: '01010303012'
 - description: |-
     O caçador de aventuras é um homem bem alto e forte, muito bem treinado nas
     artes de caçar e matar. Se eu fosse você, eu não o aborreceria. Pode ser
@@ -99,8 +113,9 @@
   keywords:
   - caçador
   - aventuras
+  long_desc: Um caçador de aventuras está parado aqui, procurando por sua presa.
   name: o caçador de aventuras
-  vnum: '3015'
+  vnum: '01010303015'
 - description: |-
     O vendedor de jornais é um garoto gordinho e baixo, que sua muito.  Em seu
     pescoço, está pendurada uma placa, que diz "Jornal de Vitália,
@@ -110,8 +125,9 @@
   - vendedor
   - jornaleiro
   - garoto
+  long_desc: O vendedor de jornais está aqui, carregando um fardo de jornais.
   name: o vendedor de jornais
-  vnum: '3016'
+  vnum: '01010303016'
 - description: |-
     Embora sua mestre-guia pareça velha e cansada, você pode ver claramente a
     imensa sabedoria que ela possui.  Ela está usando uma delicada roupa mágica
@@ -120,8 +136,9 @@
   keywords:
   - mestre-guia
   - mago
+  long_desc: Sua mestre-guia está aqui, estudando um livro de magia.
   name: a mestre-guia dos magos
-  vnum: '3020'
+  vnum: '01010303020'
 - description: |-
     Você não tem nenhuma dúvida de que este mestre-guia verdadeiramente está
     perto de seu Deus; ele tem um olhar calmo, amoroso.  Você nota que ele é
@@ -129,8 +146,9 @@
   keywords:
   - mestre-guia
   - sacerdote
+  long_desc: Seu mestre-guia está orando para o seu Deus, aqui.
   name: o mestre-guia dos clérigos
-  vnum: '3021'
+  vnum: '01010303021'
 - description: |-
     Você nota que quando a sua mestre-guia se move, você não consegue perceber.
     Este é o jeito do verdadeiro ladrão. Ela está vestida com roupas pobres, e
@@ -139,24 +157,27 @@
   - mestre-guia
   - mendiga
   - ladra
+  long_desc: Uma mendiga está sentada aqui, ela poderia ser a sua mestre-guia?
   name: a mestre-guia dos ladrões
-  vnum: '3022'
+  vnum: '01010303022'
 - description: |-
     Este é seu mestre. Grande e forte, com músculos imensos. Várias cicatrizes
     espalhadas pelo seu corpo, provam que ele já estava usando seus braços muito
     antes de você nascer. Ele tem um olhar tranqüilo em sua face.
   keywords:
   - mestre-guia
+  long_desc: Seu mestre-guia está parado aqui, amolando um machado.
   name: o mestre-guia dos guerreiros
-  vnum: '3023'
+  vnum: '01010303023'
 - description: |-
     Ele é um mago experiente que se especializou na área da Magia de Combate.
     Ele está aqui para tomar conta da Guilda dos Magos. Seu conhecimento profundo
     de magias ofensivas e defensivas, fazem dele um oponente mortal.
   keywords:
   - feiticeiro
+  long_desc: Um feiticeiro está guardando a entrada.
   name: o feiticeiro
-  vnum: '3024'
+  vnum: '01010303024'
 - description: |-
     Ele é um guerreiro especialmente treinado que pertence à ordem militar da
     Fé.  O dever dele é proteger os crentes de perseguições e ataques traiçoeiros.
@@ -165,8 +186,9 @@
   keywords:
   - cavaleiro
   - templar
+  long_desc: Um cavaleiro templar está guardando a entrada.
   name: o cavaleiro templar
-  vnum: '3025'
+  vnum: '01010303025'
 - description: |-
     Ele é um ladrão que se especializou em matar os outros de maneira tão
     eficiente quanto possível, utilizando-se para isso, de todos os tipos de
@@ -175,16 +197,18 @@
     oponente mortal.
   keywords:
   - assassino
+  long_desc: Um assassino está guardando a entrada.
   name: o assassino
-  vnum: '3026'
+  vnum: '01010303026'
 - description: |-
     Ele é um guerreiro especialista que foi condecorado por incontáveis atos
     heróicos. O dever dele é proteger a Guilda dos Espadachins. Sua habilidade
     extrema combinada com sua experiência em guerras, faz dele um mortal oponente.
   keywords:
   - cavaleiro
+  long_desc: Um cavaleiro está guardando a entrada.
   name: o cavaleiro
-  vnum: '3027'
+  vnum: '01010303027'
 - description: |-
     Você se sente calmo na presença desse sábio: seus bondosos olhos transmitem
     muita segurança, acalmando o coração mais agitado e despertando a mente mais
@@ -194,8 +218,9 @@
   - mestre
   - guia
   - druidas
+  long_desc: Seu mestre-guia está aqui, alegremente dissertando sobre filosofia.
   name: o mestre-guia dos druidas
-  vnum: '3028'
+  vnum: 01010303028
 - description: |-
     A guardiã da Confraria irradia juventude, mesmo sendo um dos membros mais
     antigos da Confraria.  Responsável pela segurança do refúgio dos sacerdotes
@@ -205,8 +230,9 @@
   - guardia
   - confraria
   - druidisa
+  long_desc: Uma sorridente druidisa guarda a entrada da Confraria.
   name: a guardiã da Confraria
-  vnum: '3029'
+  vnum: 01010303029
 - description: |-
     De uma forma estranha quase faz sentido, já que um sapo é uma criatura da natureza, que ele fosse seu
     mestre-guia. Exceto que ele está cantando e tocando um banjo
@@ -217,8 +243,9 @@
   - sapo
   - caco
   - ranger
+  long_desc: O seu mestre-guia é um alto e magro sapo, empuleirado em uma vitoria-régia.
   name: o mestre-guia dos rangers
-  vnum: '3030'
+  vnum: '01010303030'
 - description: |-
     A caçadora é alta, atraente e mortal. Não brinque com ela, ela não gosta
     de encrenqueiros. Dizem que ela consaguiu este emprego depois
@@ -228,8 +255,9 @@
   keywords:
   - guarda
   - cacadora
+  long_desc: A caçadora se diverte com a espada dela enquanto guarda a entrada.
   name: a caçadora
-  vnum: '3031'
+  vnum: '01010303031'
 - description: |-
     Esta jovem garota poderia enganar um membro de outra associação, mas
     você sabe que ela é durona. Ela é muito amigável, um pouco paqueradora
@@ -238,58 +266,70 @@
   keywords:
   - garconete
   - garota
+  long_desc: Uma bem jovem garçonete está aqui.
   name: a garçonete
-  vnum: '3032'
+  vnum: '01010303032'
 - description: Um barman com aspecto cansado que odeia desordens em seu bar.
   keywords:
   - barman
+  long_desc: Um barman calmamente observa você, enquanto mistura gradativamente uma
+    bebida.
   name: o barman
-  vnum: '3040'
+  vnum: '01010303040'
 - description: Um garçom com aspecto cansado.
   keywords:
   - garcom
   - garçom
+  long_desc: Um garçom está andando de um lado pro outro.
   name: o garçom
-  vnum: '3041'
+  vnum: '01010303041'
 - description: |-
     Este homem obviamente foi um famoso feiticeiro em seus dias de juventude.
     Você instantaneamente reconhece aquele rosto, assim que olha para ele.
   keywords:
   - garcom
   - garçom
+  long_desc: Um homem que agora leva uma vida quieta e pacífica como garçom, está
+    aqui.
   name: o garçom
-  vnum: '3042'
+  vnum: '01010303042'
 - description: |-
     Este garçom faz você se sentir como se tivesse que ficar de joelhos e
     e começar a adorar Deus. Naaah.
   keywords:
   - garcom
   - garçom
+  long_desc: Um garçom que parece ter perdido contato com Deus, está parado aqui.
   name: o garçom
-  vnum: '3043'
+  vnum: '01010303043'
 - description: Hmmm... gostaria de saber onde ele arrumou aquela moeda que ele est�
     brincando.
   keywords:
   - garcom
   - garçom
+  long_desc: Um garçom que sabe onde seus fregueses guardam seu dinheiro, está parado
+    aqui.
   name: o garçom
-  vnum: '3044'
+  vnum: '01010303044'
 - description: |-
     Parece que este sujeito poderia facilmente matar você sem derrubar nenhuma
     das garrafas de bebida que ele carrega
   keywords:
   - garcom
   - garçom
+  long_desc: Um garçom está aqui.
   name: o garçom
-  vnum: '3045'
+  vnum: '01010303045'
 - description: |-
     Encardido parece realmente... hmm... imundo. Ele gosta de manter os seus
     fregueses felizes, mas não mexa com ele ou ele poderá ficar realmente MUITO
     bravo.
   keywords:
   - encardido
+  long_desc: Encardido está parado aqui, ansioso para servir uma bebida especial para
+    você.
   name: Encardido
-  vnum: '3046'
+  vnum: '01010303046'
 - description: |-
     Ele já é m senhor de idade, mas sua límpida e constante risada o faz
     parecer um druida ainda jovem, cheio de energia.  Você repara em sua
@@ -298,8 +338,9 @@
   keywords:
   - garcom
   - garçom
+  long_desc: Um simpático garçom de traços celtas enxuga alguns copos com uma toalha.
   name: o garçom
-  vnum: '3047'
+  vnum: '01010303047'
 - description: |-
     Sua mestra, uma senhora de riso solto e voz poderosa, parece estar
     cantarolando mesmo ao falar.  Seus cabelos são brancos, curtos e arrepiados,
@@ -311,8 +352,9 @@
   keywords:
   - mestra
   - trovadora
+  long_desc: Sua mestra está aqui, estudando algumas partituras.
   name: a mestra trovadora
-  vnum: '3048'
+  vnum: 01010303048
 - description: |-
     Protegido por longo manto, esse alto bardo assovia traqüilamente enquanto
     protege a entrada que leva ao Clube de Bardos. Sua aparência despreocupada
@@ -321,8 +363,9 @@
   keywords:
   - bardo
   - sentinela
+  long_desc: Um bardo protege a entrada.
   name: o bardo sentinela
-  vnum: '3049'
+  vnum: 01010303049
 - description: |-
     Saltitante feito uma pulga risonha (??), a atendente passa prá lá e pra cá
     cantando sobre qualquer coisa em que fixe seus olhos mais de cinco segundos.
@@ -331,8 +374,9 @@
   keywords:
   - atendente
   - mulher
+  long_desc: Uma mulher canta as opções de bebida que o bar oferece.
   name: a atendente
-  vnum: '3050'
+  vnum: '01010303050'
 - description: |-
     Seu mestre, um sábio conhecedor da música do mundo, vê tudo com seus olhos
     de pura poesia: desde o silêncio mais profundo até o mais sublime da magia.
@@ -342,8 +386,9 @@
   keywords:
   - mestre
   - bardo
+  long_desc: Seu mestre bardo está aqui a cantar.
   name: o mestre bardo
-  vnum: '3051'
+  vnum: '01010303051'
 - description: |-
     Gambrinus é um senhor alto e barrigudo, de nariz avermelhado e olhos quase
     sempre fechados de tanto rir.  Seus cabelos, brancos e já ralos, envolvem a
@@ -354,8 +399,9 @@
   keywords:
   - gambrinus
   - senhor
+  long_desc: Um senhor de alvas suíças e espessas sobrancelhas limpa o balcão.
   name: Gambrinus
-  vnum: '3052'
+  vnum: '01010303052'
 - description: |-
     Bernardo lembra um urso: grande e forte, de pele bronzeada e cabelos
     encaracolados sempre rebeldes.  Um certo brilho brincalhão nunca deixa seus
@@ -366,103 +412,121 @@
   keywords:
   - bardo
   - bernardo
+  long_desc: Um homem alto de vasta cabeleira castanha afina alguns instrumentos.
   name: o bardo Bernardo
-  vnum: '3053'
+  vnum: '01010303053'
 - description: Ele parece muito forte e sábio. Parece que ele não fala com QUALQUER
     um.
   keywords:
   - pacificador
+  long_desc: Um Pacificador está aqui, pronto para agir ao primeiro sinal de problema.
   name: o Pacificador
-  vnum: '3059'
+  vnum: 01010303059
 - description: Um grande, forte, solidário e confiável sentinela.
   keywords:
   - sentinela
+  long_desc: Um sentinela está parado aqui.
   name: o sentinela
-  vnum: '3060'
+  vnum: '01010303060'
 - description: Que trabalho pesado ele tem.
   keywords:
   - zelador
+  long_desc: Um zelador anda de um lado para o outro, limpando tudo.
   name: o zelador
-  vnum: '3061'
+  vnum: '01010303061'
 - description: |-
     O fido é um cachorro pequeno que tem um cheiro muito ruim e seus dentes estão
     cheios de pedaços de carne apodrecida grudadas.
   keywords:
   - cachorro
   - fido
+  long_desc: Um fido bestial está aqui, fuçando no lixo, a procura de comida.
   name: o fido bestial
-  vnum: '3062'
+  vnum: '01010303062'
 - description: |-
     Ele tem um aspecto de ser muito mau, e você sabe que ele faria qualquer
     coisa por dinheiro.
   keywords:
   - mercenario
   - mercenário
+  long_desc: Um mercenário está aqui, esperando por trabalho.
   name: o mercenário
-  vnum: '3063'
+  vnum: '01010303063'
 - description: Um bêbado que parece estar muito feliz, e que carrega muito dinheiro.
   keywords:
   - bebado
   - bêbado
+  long_desc: Um bêbado feliz, cantando a plenos pulmões.
   name: o bêbado
-  vnum: '3064'
+  vnum: '01010303064'
 - description: A mendiga parece que está farta da vida.
   keywords:
   - mendiga
+  long_desc: Uma mendiga está aqui, pedindo algumas moedas.
   name: a mendiga
-  vnum: '3065'
+  vnum: '01010303065'
 - description: O odif é um deus pequeno que foi transformado por algum cachorro.
   keywords:
   - odif
   - laitseb
+  long_desc: Um odif laitseb está aqui, andando de trás prá frente.
   name: o odif laitseb
-  vnum: '3066'
+  vnum: '01010303066'
 - description: Um grande, forte, solidário e confiável sentinela.
   keywords:
   - sentinela
+  long_desc: Um sentinela está aqui, tomando conta do portão.
   name: o sentinela
-  vnum: '3067'
+  vnum: '01010303067'
 - description: Uma coisa medonha de se olhar; é enorme, esverdeado e se parece com
     uma bolha.
   keywords:
   - bolha
   - gelatinosa
   - verde
+  long_desc: Uma bolha gelatinosa verde e gosmenta está aqui, chupando restos de escombros.
   name: a bolha gelatinosa verde
-  vnum: '3068'
+  vnum: 01010303068
 - description: Assim que você olha para ele, ele abre suas mãos e mostra um rato!
   keywords:
   - animais
   - loja
   - garoto
+  long_desc: O Garoto da Loja da Animais está aqui, acariciando algo peludo em suas
+    mãos.
   name: o Garoto da Loja de Animais
-  vnum: '3089'
+  vnum: 01010303089
 - description: O gatinho parece ser um gracioso, pequenino e destemido lutador.
   keywords:
   - gatinho
+  long_desc: Um pequeno gatinho leal está aqui.
   name: o gatinho
-  vnum: '3090'
+  vnum: 01010303090
 - description: O cachorrinho parece ser um gracioso, pequenino e destemido lutador.
   keywords:
   - cachorrinho
+  long_desc: Um pequenino e leal cachorrinho está aqui.
   name: o cachorrinho
-  vnum: '3091'
+  vnum: 01010303091
 - description: O cão-de-caça parece ser um lutador destemido.
   keywords:
   - cao
   - cão
+  long_desc: Um pequeno, rápido e leal cão-de-caça está aqui.
   name: o cão-de-caça
-  vnum: '3092'
+  vnum: 01010303092
 - description: O rottweiler parece ser um forte e destemido lutador.
   keywords:
   - rottweiler
+  long_desc: Um grande e leal rottweiler está aqui.
   name: o rottweiler
-  vnum: '3093'
+  vnum: 01010303093
 - description: O lobo parece ser forte e um lutador que desconhece o medo.
   keywords:
   - lobo
+  long_desc: Um lobo grande e bem treinado está aqui.
   name: o lobo
-  vnum: '3094'
+  vnum: 01010303094
 - description: |-
     Belchior é um senhor interessante, irriquieto e parece estar bastante
     preocupado com alguma coisa.   Suas roupas estão tão empoeiradas!
@@ -470,8 +534,9 @@
   keywords:
   - belchior
   - gerente
+  long_desc: Belchior, o Gerente do Brechó, está muito preocupado com sua comissão.
   name: Belchior, o Gerente do Brechó
-  vnum: '3095'
+  vnum: 01010303095
 - description: |-
     Cabelos curtos e castanhos claros.
     Apesar de possuir apenas um olho, ela esta atenta a tudo oque seus alunos fazem. Parece ser uma aventureira bem experiente.
@@ -479,5 +544,6 @@
   - Maria
   - novata
   - instrutora
+  long_desc: Uma mulher esta ajudando os iniciantes aqui.
   name: Maria, a instrutora de iniciantes
-  vnum: '3096'
+  vnum: 01010303096

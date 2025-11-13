@@ -3,29 +3,33 @@
     pessoas mais chatas do mundo.
   keywords:
   - fazendeiro
+  long_desc: Um fazendeiro anda ao redor, buscando algo para fazer.
   name: o fazendeiro
-  vnum: '3300'
+  vnum: '01010333300'
 - description: |-
     O monótono comerciante mantém um preguiçoso olho em você enquanto ele espera
     que você compre alguma coisa.
   keywords:
   - comerciante
+  long_desc: Um monótono comerciante aguarda você fazer alguma coisa.
   name: o comerciante
-  vnum: '3301'
+  vnum: '01010333301'
 - description: |-
     Esta mulher parece preparada para qualquer coisa que você possa fazer...
     Ela é realmente uma mulher que deve ser tratada com respeito...
   keywords:
   - amazona
+  long_desc: Uma amazona se encontra aqui, pronta para defender seus cavalos...
   name: a amazona
-  vnum: '3302'
+  vnum: '01010333302'
 - description: |-
     Este cavalo parece estar em bom estado.  Ele olha para você com seus
     delicados olhos marrons e você sente-se com vontade de lhe dar uma cenoura.
   keywords:
   - cavalo
+  long_desc: Um cavalo pasta por aqui.
   name: o cavalo
-  vnum: '3303'
+  vnum: '01010333303'
 - description: |-
     Esta mulher tem os mais diferentes tipos de frutas e vegetais para você
     comprar.  Ela parece aborrecida, porêm.
@@ -33,23 +37,30 @@
   - mulher
   - do
   - fazendeiro
+  long_desc: Uma mulher de fazendeiro oferece a você alguns vegetais.
   name: a mulher do fazendeiro
-  vnum: '3304'
+  vnum: '01010333304'
 - description: |-
     Aglandiir é um príncipe para a espécie dele e ele não chegou até este título
     deixando as pessoas roubarem dos seus protegidos e iguais!
   keywords:
   - dragao
   - aglandiir
+  long_desc: |-
+    O Príncipe dos Dragões, Aglandiir, está sentado aqui olhando curiosamente
+    para você.
   name: Aglandiir
-  vnum: '3305'
+  vnum: '01010333305'
 - description: |-
     Este Cíclope atira pedras realmente bem.  Com um olho, porêm, acertar o alvo
     é outra coisa.  Ele olha para você e rosna ao errar você de novo!
   keywords:
   - ciclope
+  long_desc: |-
+    Um cíclope está aqui, tentando calcular distância sem a menor
+    percepção de profundidade.
   name: o cíclope
-  vnum: '3306'
+  vnum: '01010333306'
 - description: |-
     Ela é uma mulher e tanto, toda em cabelo e olhos, ao que parece.  Sua roupa é
     da mesma cor castanho-amarelado que sua pele e cabelo.  Os olhos azuis dela
@@ -58,8 +69,11 @@
   keywords:
   - salle
   - woman
+  long_desc: |-
+    Uma mulher ignora você completamente de tanta atenção que ela
+    está dispendendo para a espada dela.
   name: Salle
-  vnum: '3307'
+  vnum: '01010333307'
 - description: |-
     Este deve ser o maior homem que você já viu.  Ele tem mais de dois metros do
     pé à cabeça, e pesa uns bons 130 kilos -- a maior parte concentrada no seu
@@ -69,15 +83,17 @@
   keywords:
   - homem
   - duwick
+  long_desc: Um homem realmente imenso ri de você e empunha sua espada!
   name: Duwick
-  vnum: '3308'
+  vnum: 01010333308
 - description: |-
     Ele parece como um fazendeiro aposentado ganhando a vida honestamente
     trabalhando na hospedaria.  Mais poder para ele!
   keywords:
   - recepcionista
+  long_desc: Um recepcionista oferece a você um quarto.
   name: o Recepcionista
-  vnum: '3309'
+  vnum: 01010333309
 - description: |-
     Ele é velho e grisalho, mas parece ter sido capaz de manter suas faculdades
     mentais através dos anos.  Um grande suéter de lã agasalha ele aquecendo-o.
@@ -87,8 +103,9 @@
   - dono
   - da
   - hospedaria
+  long_desc: Um velho dono de hospedaria cumprimenta você quando você entra.
   name: o dono da hospedaria
-  vnum: '3310'
+  vnum: '01010333310'
 - description: |-
     Ele parece mal cuidado, como se a forte personalidade das montanhas tivesse
     infectado ele com sua resistência.  Seu andar é decidido, sua face é
@@ -96,8 +113,9 @@
     quando ele passa.
   keywords:
   - cacador
+  long_desc: Um caçador anda pelas ruas da cidade em seu próprio tempo.
   name: o caçador
-  vnum: '3311'
+  vnum: '01010333311'
 - description: |-
     Ele parece apoquentado com a maneira com que ele rapidamente pega os pedidos
     e corre para os fundos para pegar a comida e para o bar conseguir as
@@ -105,8 +123,9 @@
     passa por você.
   keywords:
   - garcom
+  long_desc: Um garçom apressa-se, preocupado com seu trabalho.
   name: um garçom
-  vnum: '3312'
+  vnum: '01010333312'
 - description: |-
     Ela parece apoquentada com a maneira com que ela rapidamente pega os pedidos
     e corre para os fundos para pegar a comida e para o bar conseguir as
@@ -114,8 +133,9 @@
     passa por você.
   keywords:
   - garconete
+  long_desc: Uma garçonete apressa-se, preocupada com seu trabalho.
   name: uma garçonete
-  vnum: '3313'
+  vnum: '01010333313'
 - description: |-
     Ele inclina a cabeça, sorri e pergunta a você o que você gostaria de beber.
     Enquanto você decide, ele lentamente seca um copo com um pano velho de bar.
@@ -124,16 +144,18 @@
   - homem
   - do
   - bar
+  long_desc: O homem do bar lava um copo preguiçosamente aqui.
   name: o homem do bar
-  vnum: '3314'
+  vnum: '01010333314'
 - description: |-
     Eca!  Será que esse cara já viu algum banho?  Sua face, mãos, armas...
     Quase todas as partes dele estão cobertas com imundície, poeira, sujeira e
     dentes cariados.  Porém, sua espada é polida e limpa...
   keywords:
   - bandido
+  long_desc: Um bandido move-se subitamente ao avistar você.
   name: o bandido
-  vnum: '3315'
+  vnum: '01010333315'
 - description: |-
     Ele pode ser um bandido, mas ele não é nenhum vagabundo.  Você pensa quem
     poderia ser capaz de manter esse bandidos na linha para manter uma bom
@@ -143,8 +165,9 @@
   keywords:
   - bandido
   - sentinela
+  long_desc: Um bandido sentinela encontra-se aqui atento.
   name: o bandido sentinela
-  vnum: '3316'
+  vnum: '01010333316'
 - description: |-
     O escravo olha para você com olhos suplicantes.  Ele quer sua liberdade.  As
     correntes ao redor do seu tornozelo são justas e você pergunta a si mesmo se
@@ -152,15 +175,17 @@
   keywords:
   - mineiro
   - escravo
+  long_desc: Um escravo está aqui escavando uma nova passagem.
   name: o escravo
-  vnum: '3317'
+  vnum: '01010333317'
 - description: |-
     Este fazendeiro é um cidadão de Stanneg das Montanhas, e como tal, é uma das
     pessoas mais chatas do mundo.
   keywords:
   - fazendeiro
+  long_desc: Um fazendeiro anda ao redor, buscando algo para fazer.
   name: o fazendeiro
-  vnum: '3318'
+  vnum: 01010333318
 - description: |-
     Ele parece mal cuidado, como se a forte personalidade das montanhas tivesse
     infectado ele com sua resistência.  Seu andar é decidido, sua face é
@@ -169,5 +194,6 @@
   keywords:
   - cacador
   - caçador
+  long_desc: Um caçador anda pelas ruas da cidade em seu próprio tempo.
   name: o caçador
-  vnum: '3319'
+  vnum: 01010333319

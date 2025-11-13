@@ -5,11 +5,12 @@
     norte, logo em frente a você, está a Grande Mansão de Naris.
   exits:
     down:
-      target_vnum: '7918'
+      target_vnum: 01010797918
     north:
-      target_vnum: '7901'
+      target_vnum: 01010797901
+  local_id: '7900'
   name: Do Lado de fora da Moradia de Redferne
-  vnum: '7900'
+  vnum: 01010797900
 - description: |-
     Você está em um vasto salão fracamente iluminado, mas de onde a luz vêm é
     um mistério.  As paredes parecem irradiar cordialidade e dão a você a
@@ -21,17 +22,18 @@
     Esta parece ser a única saída desta magnífica e velha casa.
   exits:
     east:
-      target_vnum: '7910'
+      target_vnum: 01010797910
     north:
-      target_vnum: '7904'
+      target_vnum: 01010797904
     south:
-      target_vnum: '7900'
+      target_vnum: 01010797900
     up:
-      target_vnum: '7909'
+      target_vnum: 01010797909
     west:
-      target_vnum: '7902'
+      target_vnum: 01010797902
+  local_id: '7901'
   name: A Parte Meridional do Grande Salão
-  vnum: '7901'
+  vnum: 01010797901
 - description: |-
     Este é um lugar realmente magnífico!  Livros e pergaminhos estão juntos
     em cada uma das estantes.  Um grande globo, com o mapa do mundo nele, está
@@ -43,9 +45,10 @@
     oeste.
   exits:
     east:
-      target_vnum: '7901'
+      target_vnum: 01010797901
+  local_id: '7902'
   name: A Biblioteca de Redferne
-  vnum: '7902'
+  vnum: 01010797902
 - description: |-
     Esta é uma triste e escura sala com somente uma fraca luz irradiando das
     paredes.  Um monte de engraçados itens preenchem o centro desta sala.  Não
@@ -53,9 +56,10 @@
     pequena porta de aço.
   exits:
     west:
-      target_vnum: '7910'
+      target_vnum: 01010797910
+  local_id: '7903'
   name: A Sala dos Artefatos de Naris
-  vnum: '7903'
+  vnum: 01010797903
 - description: |-
     Você está de pé na parte norte de um grande salão.  Esta parte está
     abaixo da grande escadaria de madeira, então, a luz é um pouco menos
@@ -65,15 +69,16 @@
     pinho.
   exits:
     east:
-      target_vnum: '7913'
+      target_vnum: 01010797913
     north:
-      target_vnum: '7906'
+      target_vnum: 01010797906
     south:
-      target_vnum: '7901'
+      target_vnum: 01010797901
     west:
-      target_vnum: '7905'
+      target_vnum: 01010797905
+  local_id: '7904'
   name: A Parte Setentrional do Grande Salão
-  vnum: '7904'
+  vnum: 01010797904
 - description: |-
     Você está de pé no meio de um lugar realmente confortável.  As paredes
     são decoradas com pinturas de sorridentes Reis e Rainhas.  A mais atrativa
@@ -81,9 +86,10 @@
     paredes há uma velha poltrona.  A única saída é pela porta de pinho a leste.
   exits:
     east:
-      target_vnum: '7904'
+      target_vnum: 01010797904
+  local_id: '7905'
   name: A Sala de Estar de Naris
-  vnum: '7905'
+  vnum: 01010797905
 - description: |-
     Este deve ser o lugar da comida e da bebida.  Você pode ouvir um fraco
     barulho de ratos banqueteando carne e pão de algum lugar indeterminado.  O
@@ -91,29 +97,32 @@
     indo para a parte Setentrional do Grande Salão.
   exits:
     east:
-      target_vnum: '7908'
+      target_vnum: 01010797908
     north:
-      target_vnum: '7907'
+      target_vnum: 01010797907
     south:
-      target_vnum: '7904'
+      target_vnum: 01010797904
+  local_id: '7906'
   name: A Cozinha de Naris
-  vnum: '7906'
+  vnum: 01010797906
 - description: |-
     Você pode ver comida por toda parte.  Entre as pilhas de comida você nota
     grandes ratos correndo ao redor, mordiscando pedaços de comida aqui e ali.
   exits:
     south:
-      target_vnum: '7906'
+      target_vnum: 01010797906
+  local_id: '7907'
   name: A Despensa
-  vnum: '7907'
+  vnum: 01010797907
 - description: |-
     Este lugar está completamente carregado de bebidas: água e bebidas
     alcoólicas.
   exits:
     west:
-      target_vnum: '7906'
+      target_vnum: 01010797906
+  local_id: '7908'
   name: A Geladeira
-  vnum: '7908'
+  vnum: 01010797908
 - description: |-
     Você pode ver acima e a baixo da escada.  A escadaria parece continuar
     eternamente, tanto para baixo como para cima.  Esta parece ser uma escalada
@@ -121,21 +130,23 @@
     baixo a escada leva à parte meridional do Grande Salão.
   exits:
     down:
-      target_vnum: '7901'
+      target_vnum: 01010797901
     up:
-      target_vnum: '7911'
+      target_vnum: 01010797911
+  local_id: '7909'
   name: Nas Escadarias
-  vnum: '7909'
+  vnum: 01010797909
 - description: |-
     Este é um lugar triste.  Um grande cofre está cimentado na parede leste.
     A única saída visível está a oeste, pela alta porta de carvalho.
   exits:
     east:
-      target_vnum: '7903'
+      target_vnum: 01010797903
     west:
-      target_vnum: '7901'
+      target_vnum: 01010797901
+  local_id: '7910'
   name: A Sala do Tesouro
-  vnum: '7910'
+  vnum: 01010797910
 - description: |-
     Este é um mais que afável quarto com tudo que se faz necessário a uma
     noite romântica.  Uma ampla lareira embeleza a parede leste, e queimando ao
@@ -146,11 +157,12 @@
     varanda, ao sul.
   exits:
     down:
-      target_vnum: '7909'
+      target_vnum: 01010797909
     south:
-      target_vnum: '7912'
+      target_vnum: 01010797912
+  local_id: '7911'
   name: O Quarto de Redferne
-  vnum: '7911'
+  vnum: 01010797911
 - description: |-
     Você vê o esplendor da maior parte deste mundo.  Os vales desenrolando-se
     ao mais longínquo ponto que seus olhos alcaçam ao sul.  Logo abaixo da
@@ -158,9 +170,10 @@
     as portas do Quarto de Redferne.
   exits:
     north:
-      target_vnum: '7911'
+      target_vnum: 01010797911
+  local_id: '7912'
   name: A Varanda de Redferne
-  vnum: '7912'
+  vnum: 01010797912
 - description: |-
     Este lugar é parecido com uma gaiola onde um grande animal carnívoro está
     sendo mantido preso.  A julgar pelo estado das paredes, este parece ser um
@@ -168,9 +181,10 @@
     você sentir este lugar como um provável fim para você.
   exits:
     west:
-      target_vnum: '7904'
+      target_vnum: 01010797904
+  local_id: '7913'
   name: A Jaula do Monstro
-  vnum: '7913'
+  vnum: 01010797913
 - description: |-
     Este lugar tem um panorama muito bom de Midgaard.  Suas possibilidades de
     movimento abrangem somente a subida ou descida.  A menos que você queira
@@ -178,23 +192,25 @@
     que você deve tomar.
   exits:
     down:
-      target_vnum: '3120'
+      target_vnum: 01010793120
     up:
-      target_vnum: '7915'
+      target_vnum: 01010797915
+  local_id: '7914'
   name: Na Grande Corrente
-  vnum: '7914'
+  vnum: 01010797914
 - description: "Pendurado na corrente você percebe que não há como descer daqui. \
     \ O vento\njoga você de um lado para o outro, para frente e para trás.  Descer\
     \ parece\nser impossível.  A subida é o único meio de seguir em frente.  De outra\n\
-    forma vocÃª estaria arriscando-se a morte certa, na queda ao chÃ£o.  NÃ\x83O DESÃ\x87\
+    forma você estaria arriscando-se a morte certa, na queda ao chão.  NÃ\x83O DESÃ\x87\
     A\nAGORA OU VOCÃ\x8A CERTAMENTE MORRERÃ\x81!!!!"
   exits:
     down:
-      target_vnum: '7920'
+      target_vnum: 01010797920
     up:
-      target_vnum: '7916'
+      target_vnum: 01010797916
+  local_id: '7915'
   name: Na Corrente, Onde o Vento Sopra Vigorosamente
-  vnum: '7915'
+  vnum: 01010797915
 - description: |-
     Você está aproximadamente na metade da traiçoeira corrente.  Um passo
     falso e a morte virá ceifar sua vida.  A corrente segue para cima e para
@@ -203,11 +219,12 @@
     vê o porquê.
   exits:
     down:
-      target_vnum: '7915'
+      target_vnum: 01010797915
     up:
-      target_vnum: '7918'
+      target_vnum: 01010797918
+  local_id: '7916'
   name: Na Grande Corrente de Naris
-  vnum: '7916'
+  vnum: 01010797916
 - description: |-
     A medida que você desce, a corrente parece absorver todo o clima ao
     redor, fazendo a corrente balançar cada vez menos ao sabor do poderoso
@@ -217,11 +234,12 @@
     Deus.' A Corrente estende-se abaixo através das agora divergentes nuvens.
   exits:
     down:
-      target_vnum: '7914'
+      target_vnum: 01010797914
     west:
-      target_vnum: '9501'
+      target_vnum: 01010799501
+  local_id: '7917'
   name: A Corrente
-  vnum: '7917'
+  vnum: 01010797917
 - description: |-
     Este é um lugar verdadeiramente esplêndido, com uma vista de todo reino!
     Uma magnífica luz brilha acima de você e o caminho através das nuvens está
@@ -230,11 +248,12 @@
     que te cercam agora.
   exits:
     down:
-      target_vnum: '7917'
+      target_vnum: 01010797917
     up:
-      target_vnum: '7900'
+      target_vnum: 01010797900
+  local_id: '7918'
   name: A Poderosa Corrente de Naris
-  vnum: '7918'
+  vnum: 01010797918
 - description: |-
     Este é provavelmente o terceiro pior lugar do mundo neste momento.  Você
     cai
@@ -253,16 +272,17 @@
     instantânea.  Adeus, mundo cruel.
   exits:
     down:
-      target_vnum: '3120'
+      target_vnum: 01010793120
     east:
-      target_vnum: '7915'
+      target_vnum: 01010797915
     north:
-      target_vnum: '7914'
+      target_vnum: 01010797914
     south:
-      target_vnum: '7916'
+      target_vnum: 01010797916
     up:
-      target_vnum: '7918'
+      target_vnum: 01010797918
     west:
-      target_vnum: '7917'
+      target_vnum: 01010797917
+  local_id: '7920'
   name: A Queda Livre da Corrente
-  vnum: '7920'
+  vnum: 01010797920

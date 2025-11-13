@@ -4,22 +4,24 @@
     poder emanando detrás da montanha.
   exits:
     down:
-      target_vnum: '4002'
+      target_vnum: '01021704002'
     up:
-      target_vnum: '17002'
+      target_vnum: '010217017002'
+  local_id: '17001'
   name: Um Caminho Montês
-  vnum: '17001'
+  vnum: '010217017001'
 - description: |-
     Você está em um caminho montês que leva ao redor da montanha em direção
     ao topo.  Você sente um brilho vindo da área atrás da montanha, o qual você
     não pode ver ainda.
   exits:
     down:
-      target_vnum: '17001'
+      target_vnum: '010217017001'
     up:
-      target_vnum: '17003'
+      target_vnum: '010217017003'
+  local_id: '17002'
   name: Um Caminho Montês
-  vnum: '17002'
+  vnum: '010217017002'
 - description: |-
     Há algumas pedras amontoadas aqui e ali, as tumbas dos que não
     conseguiram alcançar o topo da montanha.  Curiosamente você vê alguns
@@ -27,21 +29,23 @@
     O caminho se curva ao leste, ao redor da montanha.
   exits:
     down:
-      target_vnum: '17002'
+      target_vnum: '010217017002'
     up:
-      target_vnum: '17004'
+      target_vnum: '010217017004'
+  local_id: '17003'
   name: As Tumbas
-  vnum: '17003'
+  vnum: '010217017003'
 - description: "Parece um caminho normal, mas NÃ\x83O Ã\x89!  Esta parte do caminho\
-    \ Ã© habitada\nPor um enorme (e claro, devorador de humanos) Ciclope.  O caminho\
+    \ é habitada\nPor um enorme (e claro, devorador de humanos) Ciclope.  O caminho\
     \ termina\nadiante."
   exits:
     down:
-      target_vnum: '17003'
+      target_vnum: '010217017003'
     up:
-      target_vnum: '17005'
+      target_vnum: '010217017005'
+  local_id: '17004'
   name: Uma Curva Cega no Caminho Montês
-  vnum: '17004'
+  vnum: '010217017004'
 - description: |-
     Esta é uma estonteante visão de um canyon.  Há um aviso aqui que diz:
 
@@ -54,22 +58,24 @@
     caverna.  O caminho segue ao norte.
   exits:
     down:
-      target_vnum: '17004'
+      target_vnum: '010217017004'
     north:
-      target_vnum: '17006'
+      target_vnum: '010217017006'
+  local_id: '17005'
   name: A Visão
-  vnum: '17005'
+  vnum: '010217017005'
 - description: |-
     Você vê muitos serventes elementais rondando pelo canyon.  O zunido que
     vem do canyon fica mais alto.  O caminho faz uma descida para dentro do
     canyon aqui.
   exits:
     down:
-      target_vnum: '17007'
+      target_vnum: '010217017007'
     south:
-      target_vnum: '17005'
+      target_vnum: '010217017005'
+  local_id: '17006'
   name: A Visão
-  vnum: '17006'
+  vnum: '010217017006'
 - description: |-
     Você é assombrado pelos sons e sinais dos grandes poderes que trabalham
     aqui.  Serventes elementais andam por todos os lados, cumprindo as ordens
@@ -77,22 +83,24 @@
     escalar para a visão daqui.
   exits:
     north:
-      target_vnum: '17009'
+      target_vnum: 010217017009
     up:
-      target_vnum: '17006'
+      target_vnum: '010217017006'
+  local_id: '17007'
   name: A Entrada do Canyon Elemental
-  vnum: '17007'
+  vnum: '010217017007'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
     um zunido de coisas acontecendo.  O canyon segue a norte e leste.
   exits:
     east:
-      target_vnum: '17009'
+      target_vnum: 010217017009
     north:
-      target_vnum: '17011'
+      target_vnum: '010217017011'
+  local_id: '17008'
   name: O Solo do Canyon
-  vnum: '17008'
+  vnum: 010217017008
 - description: |-
     Ao oeste emerge um caminho entre os poços de lava.  Ao nordeste um
     caminho corre través do rio.  Ao leste já há a boca de uma caverna, que
@@ -100,15 +108,16 @@
     vagam por este caminho que segue em direção norte.
   exits:
     east:
-      target_vnum: '17010'
+      target_vnum: '010217017010'
     north:
-      target_vnum: '17012'
+      target_vnum: '010217017012'
     south:
-      target_vnum: '17007'
+      target_vnum: '010217017007'
     west:
-      target_vnum: '17008'
+      target_vnum: 010217017008
+  local_id: '17009'
   name: O Portal Elemental
-  vnum: '17009'
+  vnum: 010217017009
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
@@ -116,41 +125,44 @@
     boca de caverna em uma das paredes do canyon, no lado leste.
   exits:
     east:
-      target_vnum: '17020'
+      target_vnum: '010217017020'
     north:
-      target_vnum: '17013'
+      target_vnum: '010217017013'
     west:
-      target_vnum: '17009'
+      target_vnum: 010217017009
+  local_id: '17010'
   name: O Solo do Canyon
-  vnum: '17010'
+  vnum: '010217017010'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
     um zunido de coisas acontecendo.  O canyon segue a norte, sul e leste.
   exits:
     east:
-      target_vnum: '17012'
+      target_vnum: '010217017012'
     north:
-      target_vnum: '17014'
+      target_vnum: '010217017014'
     south:
-      target_vnum: '17008'
+      target_vnum: 010217017008
+  local_id: '17011'
   name: O Solo do Canyon
-  vnum: '17011'
+  vnum: '010217017011'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
     um zunido de coisas acontecendo.  O canyon segue em todas as direções.
   exits:
     east:
-      target_vnum: '17013'
+      target_vnum: '010217017013'
     north:
-      target_vnum: '17015'
+      target_vnum: '010217017015'
     south:
-      target_vnum: '17009'
+      target_vnum: 010217017009
     west:
-      target_vnum: '17011'
+      target_vnum: '010217017011'
+  local_id: '17012'
   name: O Solo do Canyon
-  vnum: '17012'
+  vnum: '010217017012'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
@@ -158,15 +170,16 @@
     caminho segue uma corrente ao leste.
   exits:
     east:
-      target_vnum: '17028'
+      target_vnum: 010217017028
     north:
-      target_vnum: '17016'
+      target_vnum: '010217017016'
     south:
-      target_vnum: '17010'
+      target_vnum: '010217017010'
     west:
-      target_vnum: '17012'
+      target_vnum: '010217017012'
+  local_id: '17013'
   name: O Solo do Canyon
-  vnum: '17013'
+  vnum: '010217017013'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
@@ -174,43 +187,46 @@
     oeste um jardim está em chamas.
   exits:
     east:
-      target_vnum: '17015'
+      target_vnum: '010217017015'
     north:
-      target_vnum: '17017'
+      target_vnum: '010217017017'
     south:
-      target_vnum: '17011'
+      target_vnum: '010217017011'
     west:
-      target_vnum: '17037'
+      target_vnum: '010217017037'
+  local_id: '17014'
   name: O Solo do Canyon
-  vnum: '17014'
+  vnum: '010217017014'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
     um zunido de coisas acontecendo.  O canyon segue em todas as direções.
   exits:
     east:
-      target_vnum: '17016'
+      target_vnum: '010217017016'
     north:
-      target_vnum: '17018'
+      target_vnum: 010217017018
     south:
-      target_vnum: '17012'
+      target_vnum: '010217017012'
     west:
-      target_vnum: '17014'
+      target_vnum: '010217017014'
+  local_id: '17015'
   name: O Solo do Canyon
-  vnum: '17015'
+  vnum: '010217017015'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
     um zunido de coisas acontecendo.  O canyon segue a norte, sul e oeste.
   exits:
     north:
-      target_vnum: '17019'
+      target_vnum: 010217017019
     south:
-      target_vnum: '17013'
+      target_vnum: '010217017013'
     west:
-      target_vnum: '17015'
+      target_vnum: '010217017015'
+  local_id: '17016'
   name: O Solo do Canyon
-  vnum: '17016'
+  vnum: '010217017016'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
@@ -218,26 +234,28 @@
     escalar uma elevação no canyon ao norte.
   exits:
     east:
-      target_vnum: '17018'
+      target_vnum: 010217017018
     north:
-      target_vnum: '17053'
+      target_vnum: '010217017053'
     south:
-      target_vnum: '17014'
+      target_vnum: '010217017014'
+  local_id: '17017'
   name: O Solo do Canyon
-  vnum: '17017'
+  vnum: '010217017017'
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
     um zunido de coisas acontecendo.  O canyon segue a leste, sul e oeste.
   exits:
     east:
-      target_vnum: '17019'
+      target_vnum: 010217017019
     south:
-      target_vnum: '17015'
+      target_vnum: '010217017015'
     west:
-      target_vnum: '17017'
+      target_vnum: '010217017017'
+  local_id: '17018'
   name: O Solo do Canyon
-  vnum: '17018'
+  vnum: 010217017018
 - description: |-
     Muitas formas elementais vagam por aqui.  Algumas parecem estar cuidando
     de sua vida, e outras parecem nem ter vida.  No geral, é calmo, mas ainda há
@@ -245,74 +263,80 @@
     escalar uma elevação no canyon ao norte.
   exits:
     north:
-      target_vnum: '17054'
+      target_vnum: '010217017054'
     south:
-      target_vnum: '17016'
+      target_vnum: '010217017016'
     west:
-      target_vnum: '17018'
+      target_vnum: 010217017018
+  local_id: '17019'
   name: O Solo do Canyon
-  vnum: '17019'
+  vnum: 010217017019
 - description: |-
     Você percebe um caminho sinuoso levando ao leste entre enormes
     pedregulhos.  Você sente uma poderosa fonte de energia vinda daquela
     direção.
   exits:
     east:
-      target_vnum: '17021'
+      target_vnum: '010217017021'
     west:
-      target_vnum: '17010'
+      target_vnum: '010217017010'
+  local_id: '17020'
   name: A Caverna Escura
-  vnum: '17020'
+  vnum: '010217017020'
 - description: "Você mal pode ver o caminho, mesmo com sua fonte de luz.  As rochas\
     \ da\ncaverna parecem mais escuras que a escuridão.  Você ouve um poderoso zunido\n\
-    ao seu redor.  Ã\x81speros caminhos seguem ao sul e ao leste, Ã© difÃ­cil dizer\n\
+    ao seu redor.  Ã\x81speros caminhos seguem ao sul e ao leste, é difícil dizer\n\
     exatamente onde você está indo."
   exits:
     east:
-      target_vnum: '17022'
+      target_vnum: '010217017022'
     south:
-      target_vnum: '17023'
+      target_vnum: '010217017023'
     west:
-      target_vnum: '17020'
+      target_vnum: '010217017020'
+  local_id: '17021'
   name: As Cavernas Mais Escuras
-  vnum: '17021'
+  vnum: '010217017021'
 - description: "Você mal pode ver o caminho, mesmo com sua fonte de luz.  As rochas\
     \ da\ncaverna parecem mais escuras que a escuridão.  Você ouve um poderoso zunido\n\
-    a seu redor.  Ã\x81speros caminhos seguem ao sul e ao oeste, Ã© difÃ­cil dizer\n\
+    a seu redor.  Ã\x81speros caminhos seguem ao sul e ao oeste, é difícil dizer\n\
     exatamente onde você está indo."
   exits:
     south:
-      target_vnum: '17024'
+      target_vnum: '010217017024'
     west:
-      target_vnum: '17021'
+      target_vnum: '010217017021'
+  local_id: '17022'
   name: As Cavernas Mais Escuras
-  vnum: '17022'
+  vnum: '010217017022'
 - description: "Você mal pode ver o caminho, mesmo com sua fonte de luz.  As rochas\
     \ da\ncaverna parecem mais escuras que a escuridão.  Você ouve um poderoso zunido\n\
-    a seu redor.  Ã\x81speros caminhos seguem ao sul e ao leste, Ã© difÃ­cil dizer\n\
+    a seu redor.  Ã\x81speros caminhos seguem ao sul e ao leste, é difícil dizer\n\
     exatamente onde você está indo."
   exits:
     east:
-      target_vnum: '17024'
+      target_vnum: '010217017024'
     north:
-      target_vnum: '17021'
+      target_vnum: '010217017021'
     south:
-      target_vnum: '17025'
+      target_vnum: '010217017025'
+  local_id: '17023'
   name: As Cavernas Mais Escuras
-  vnum: '17023'
+  vnum: '010217017023'
 - description: "Você mal pode ver o caminho, mesmo com sua fonte de luz.  As rochas\
     \ da\ncaverna parecem mais escuras que a escuridão.  Você ouve um poderoso zunido\n\
-    a seu redor.  Ã\x81speros caminhos seguem ao sul e ao oeste, Ã© difÃ­cil dizer\n\
+    a seu redor.  Ã\x81speros caminhos seguem ao sul e ao oeste, é difícil dizer\n\
     exatamente onde você está indo."
   exits:
     north:
-      target_vnum: '17022'
+      target_vnum: '010217017022'
     south:
-      target_vnum: '17026'
+      target_vnum: '010217017026'
     west:
-      target_vnum: '17023'
+      target_vnum: '010217017023'
+  local_id: '17024'
   name: As Cavernas Mais Escuras
-  vnum: '17024'
+  vnum: '010217017024'
 - description: |-
     Sua luz não parece funcionar aqui.  Nem forças mágicas de luz parecem
     iluminar um palmo a sua frente.  Você subitamente percebe que o caminho se
@@ -320,11 +344,12 @@
     presença pelos caminhos ao leste.
   exits:
     east:
-      target_vnum: '17026'
+      target_vnum: '010217017026'
     north:
-      target_vnum: '17023'
+      target_vnum: '010217017023'
+  local_id: '17025'
   name: As Cavernas Mais Escuras
-  vnum: '17025'
+  vnum: '010217017025'
 - description: |-
     Sua luz não parece funcionar aqui.  Nem forças mágicas de luz parecem
     iluminar um palmo a sua frente.  Você subitamente percebe que o caminho se
@@ -332,112 +357,122 @@
     presença vinda diretamente do leste.
   exits:
     east:
-      target_vnum: '17027'
+      target_vnum: '010217017027'
     north:
-      target_vnum: '17024'
+      target_vnum: '010217017024'
     west:
-      target_vnum: '17025'
+      target_vnum: '010217017025'
+  local_id: '17026'
   name: As Cavernas Mais Escuras
-  vnum: '17026'
+  vnum: '010217017026'
 - description: |-
     Esta é o domicílio do Criador da Terra.  Ele decide sobre terremotos,
     avalanches e deslizamentos.  O Criador da Terra senta sobre um enorme trono
     de mármore cravado na parede.
   exits:
     west:
-      target_vnum: '17026'
+      target_vnum: '010217017026'
+  local_id: '17027'
   name: Câmara Terrestre
-  vnum: '17027'
+  vnum: '010217017027'
 - description: |-
     A água parece borbulhar e espumar magicamente.  Embora esguiche em você,
     a água não parece molhá-lo.  O caminho segue ao norte perto da água. Ao
     oeste há uma interseção em forma de T.
   exits:
     north:
-      target_vnum: '17029'
+      target_vnum: 010217017029
     west:
-      target_vnum: '17013'
+      target_vnum: '010217017013'
+  local_id: '17028'
   name: Pelo Rio
-  vnum: '17028'
+  vnum: 010217017028
 - description: |-
     Para continuar, você teve de andar no rio.  Embora você ande com água
     pelos joelhos, você parece não se molhar.  Uma baía se estende ao norte e
     o rio flui ao sul.
   exits:
     north:
-      target_vnum: '17030'
+      target_vnum: '010217017030'
     south:
-      target_vnum: '17028'
+      target_vnum: 010217017028
+  local_id: '17029'
   name: No Rio
-  vnum: '17029'
+  vnum: 010217017029
 - description: "A água é cristalina aqui e você vê o fundo da baía a trinta pés abaixo\
-    \ de\nvocÃª.  EntÃ£o vocÃª percebe que estÃ¡ andando sobre a Ã¡gua realmente.\
-    \  Ã\x81gua\nverdadeiramente mágica.  E você ainda está seco!"
+    \ de\nvocê.  Então você percebe que está andando sobre a água realmente.  Ã\x81\
+    gua\nverdadeiramente mágica.  E você ainda está seco!"
   exits:
     east:
-      target_vnum: '17031'
+      target_vnum: '010217017031'
     north:
-      target_vnum: '17033'
+      target_vnum: '010217017033'
     south:
-      target_vnum: '17029'
+      target_vnum: 010217017029
+  local_id: '17030'
   name: A Baía Elemental
-  vnum: '17030'
+  vnum: '010217017030'
 - description: "A água é cristalina aqui e você vê o fundo da baía a trinta pés abaixo\
-    \ de\nvocÃª.  EntÃ£o vocÃª percebe que estÃ¡ andando sobre a Ã¡gua realmente.\
-    \  Ã\x81gua\nverdadeiramente mágica.  E você ainda está seco!"
+    \ de\nvocê.  Então você percebe que está andando sobre a água realmente.  Ã\x81\
+    gua\nverdadeiramente mágica.  E você ainda está seco!"
   exits:
     east:
-      target_vnum: '17032'
+      target_vnum: '010217017032'
     north:
-      target_vnum: '17034'
+      target_vnum: '010217017034'
     west:
-      target_vnum: '17030'
+      target_vnum: '010217017030'
+  local_id: '17031'
   name: A Baía Elemental
-  vnum: '17031'
+  vnum: '010217017031'
 - description: "A água é cristalina aqui e você vê o fundo da baía a trinta pés abaixo\
-    \ de\nvocÃª.  EntÃ£o vocÃª percebe que estÃ¡ andando sobre a Ã¡gua realmente.\
-    \  Ã\x81gua\nverdadeiramente mágica.  E você ainda está seco!"
+    \ de\nvocê.  Então você percebe que está andando sobre a água realmente.  Ã\x81\
+    gua\nverdadeiramente mágica.  E você ainda está seco!"
   exits:
     north:
-      target_vnum: '17035'
+      target_vnum: '010217017035'
     west:
-      target_vnum: '17031'
+      target_vnum: '010217017031'
+  local_id: '17032'
   name: A Baía Elemental
-  vnum: '17032'
+  vnum: '010217017032'
 - description: "A água é cristalina aqui e você vê o fundo da baía a trinta pés abaixo\
-    \ de\nvocÃª.  EntÃ£o vocÃª percebe que estÃ¡ andando sobre a Ã¡gua realmente.\
-    \  Ã\x81gua\nverdadeiramente mágica.  E você ainda está seco!"
+    \ de\nvocê.  Então você percebe que está andando sobre a água realmente.  Ã\x81\
+    gua\nverdadeiramente mágica.  E você ainda está seco!"
   exits:
     east:
-      target_vnum: '17034'
+      target_vnum: '010217017034'
     south:
-      target_vnum: '17030'
+      target_vnum: '010217017030'
+  local_id: '17033'
   name: A Baía Elemental
-  vnum: '17033'
+  vnum: '010217017033'
 - description: "A água é cristalina aqui e você vê o fundo da baía a trinta pés abaixo\
-    \ de\nvocÃª.  EntÃ£o vocÃª percebe que estÃ¡ andando sobre a Ã¡gua realmente.\
-    \  Ã\x81gua\nverdadeiramente mágica.  E você ainda está seco!"
+    \ de\nvocê.  Então você percebe que está andando sobre a água realmente.  Ã\x81\
+    gua\nverdadeiramente mágica.  E você ainda está seco!"
   exits:
     east:
-      target_vnum: '17035'
+      target_vnum: '010217017035'
     south:
-      target_vnum: '17031'
+      target_vnum: '010217017031'
     west:
-      target_vnum: '17033'
+      target_vnum: '010217017033'
+  local_id: '17034'
   name: A Baía Elemental
-  vnum: '17034'
+  vnum: '010217017034'
 - description: "A água é cristalina aqui e você vê o fundo da baía a trinta pés abaixo\
-    \ de\nvocÃª.  EntÃ£o vocÃª percebe que estÃ¡ andando sobre a Ã¡gua realmente.\
-    \  Ã\x81gua\nverdadeiramente mágica.  E você ainda está seco!"
+    \ de\nvocê.  Então você percebe que está andando sobre a água realmente.  Ã\x81\
+    gua\nverdadeiramente mágica.  E você ainda está seco!"
   exits:
     down:
-      target_vnum: '17036'
+      target_vnum: '010217017036'
     south:
-      target_vnum: '17032'
+      target_vnum: '010217017032'
     west:
-      target_vnum: '17034'
+      target_vnum: '010217017034'
+  local_id: '17035'
   name: A Baía Elemental
-  vnum: '17035'
+  vnum: '010217017035'
 - description: |-
     Esta câmara foi magicamente criada aqui no chão da baía.  Ela parece
     estar por aqui há bom tempo.  Embora você esteja embaixo da água, você não
@@ -445,152 +480,166 @@
     sente a pressão da água sobre você.
   exits:
     up:
-      target_vnum: '17035'
-  name: "A CÃ¢mara de Ã\x81gua"
-  vnum: '17036'
+      target_vnum: '010217017035'
+  local_id: '17036'
+  name: "A Câmara de Ã\x81gua"
+  vnum: '010217017036'
 - description: |-
     Você cuidadosamente caminha ao longo de um caminho do qual emergem
     gêiseres de fogo.  Pequeninos vulcões cospem lava no rio.  O fogo é quente
     mas não o bastante para ser perigoso.  O caminho se estende a leste e ao sul.
   exits:
     east:
-      target_vnum: '17014'
+      target_vnum: '010217017014'
     south:
-      target_vnum: '17038'
+      target_vnum: 010217017038
+  local_id: '17037'
   name: Um Caminho em Chamas
-  vnum: '17037'
+  vnum: '010217017037'
 - description: |-
     Você cuidadosamente caminha ao longo de um caminho do qual emergem
     gêiseres de fogo.  Um jardim ao oeste brilha em uma chama eterna.
   exits:
     north:
-      target_vnum: '17037'
+      target_vnum: '010217017037'
     west:
-      target_vnum: '17042'
+      target_vnum: '010217017042'
+  local_id: '17038'
   name: Um Caminho em Chamas
-  vnum: '17038'
+  vnum: 010217017038
 - description: |-
     Em toda sua volta há fogo;  as pedras, os arbustos e até mesmo o ar
     parece estar flamejante.  Curiosamente, o fogo mágico não consome o que
     queima.  Um caminho a leste leva por entre os poços de lava.
   exits:
     east:
-      target_vnum: '17038'
+      target_vnum: 010217017038
     west:
-      target_vnum: '17045'
+      target_vnum: '010217017045'
+  local_id: '17042'
   name: Os Jardins em Chamas
-  vnum: '17042'
+  vnum: '010217017042'
 - description: |-
     O Criador do Fogo senta sobre um trono feito de chama azul.  Pequenas
     chamas dançam para lá e para cá para entreter seu Criador.
   exits:
     east:
-      target_vnum: '17042'
+      target_vnum: '010217017042'
+  local_id: '17045'
   name: A Câmara de Fogo
-  vnum: '17045'
+  vnum: '010217017045'
 - description: |-
     O caminho brilha e zuni por causa da eletricidade que pulsa através dele.
     Parece acalmar seus pés cansados.  Ao norte há uma depressão.  O caminho
     segue a leste também.
   exits:
     east:
-      target_vnum: '17053'
+      target_vnum: '010217017053'
     north:
-      target_vnum: '17048'
+      target_vnum: 010217017048
+  local_id: '17046'
   name: O Caminho Elétrico
-  vnum: '17046'
+  vnum: '010217017046'
 - description: |-
     Através dele há uma calma atmosfera, você sente que algo muito importante
     fica próximo daqui.  O campo de força segue a norte e leste.
   exits:
     east:
-      target_vnum: '17048'
+      target_vnum: 010217017048
     north:
-      target_vnum: '17049'
+      target_vnum: 010217017049
+  local_id: '17047'
   name: O Campo de Força
-  vnum: '17047'
+  vnum: '010217017047'
 - description: |-
     Através dele há uma calma atmosfera, você sente que algo muito importante
     fica próximo daqui.  O campo de força segue a norte e oeste.
   exits:
     north:
-      target_vnum: '17050'
+      target_vnum: '010217017050'
     south:
-      target_vnum: '17046'
+      target_vnum: '010217017046'
     west:
-      target_vnum: '17047'
+      target_vnum: '010217017047'
+  local_id: '17048'
   name: O Campo de Força
-  vnum: '17048'
+  vnum: 010217017048
 - description: |-
     Através dele há uma calma atmosfera, você sente que algo muito importante
     fica próximo daqui.  O campo de força segue a sul e ao leste.
   exits:
     east:
-      target_vnum: '17050'
+      target_vnum: '010217017050'
     south:
-      target_vnum: '17047'
+      target_vnum: '010217017047'
+  local_id: '17049'
   name: O Campo de Força
-  vnum: '17049'
+  vnum: 010217017049
 - description: |-
     Através dele há uma calma atmosfera, você sente que algo muito importante
     fica próximo daqui.  O campo de força segue a norte e leste.  Algo muito
     importante chama sua atenção ao leste.
   exits:
     east:
-      target_vnum: '17051'
+      target_vnum: '010217017051'
     south:
-      target_vnum: '17048'
+      target_vnum: 010217017048
     west:
-      target_vnum: '17049'
+      target_vnum: 010217017049
+  local_id: '17050'
   name: O Campo de Força
-  vnum: '17050'
+  vnum: '010217017050'
 - description: |-
     Acima das escadas cravadas na encosta, você vê intermitentes flashes de
     luz.  Um contínuo zumbido vem daquela direção.  Ao oeste fica o campo de
     força.
   exits:
     up:
-      target_vnum: '17052'
+      target_vnum: '010217017052'
     west:
-      target_vnum: '17050'
+      target_vnum: '010217017050'
+  local_id: '17051'
   name: Os Raios
-  vnum: '17051'
+  vnum: '010217017051'
 - description: |-
     Há um tipo de painel de controle aqui.  Aparentemente o Criador dos Raios
     observa e controla as forças elétricas daqui.  Degraus cravados na encosta
     levam para baixo.
   exits:
     down:
-      target_vnum: '17051'
+      target_vnum: '010217017051'
+  local_id: '17052'
   name: A Câmara de Luz
-  vnum: '17052'
+  vnum: '010217017052'
 - description: |-
     Um campo elétrico começa ao oeste.  A mesa continua a leste.  Ou você
     pode escalar o canyon a sul.
   exits:
     east:
-      target_vnum: '17054'
+      target_vnum: '010217017054'
     south:
-      target_vnum: '17017'
+      target_vnum: '010217017017'
     west:
-      target_vnum: '17046'
+      target_vnum: '010217017046'
+  local_id: '17053'
   name: O Caminho Oeste
-  vnum: '17053'
+  vnum: '010217017053'
 - description: |-
     Um novo caminho começa ao norte.  Este segue ao oeste.  Ou você pode
     escalar canyon abaixo pelo sul.  Ao oeste você vê pegadas quase já
     desaparecidas.
   exits:
     east:
-      target_vnum: '17061'
+      target_vnum: '010217017061'
     north:
-      target_vnum: '17055'
+      target_vnum: '010217017055'
     south:
-      target_vnum: '17019'
+      target_vnum: 010217017019
     west:
-      target_vnum: '17053'
+      target_vnum: '010217017053'
+  local_id: '17054'
   name: O Caminho Leste
-  vnum: '17054'
+  vnum: '010217017054'
 - description: |-
     Até onde você percebeu, estava em um caminho.  Abruptamente o caminho
     desapareceu sob seus pés muito mais rápido do que você pôde notar.  Ao invés
@@ -599,66 +648,72 @@
     O caminho pelo qual você veio fica ao sul.
   exits:
     east:
-      target_vnum: '17056'
+      target_vnum: '010217017056'
     north:
-      target_vnum: '17057'
+      target_vnum: '010217017057'
     south:
-      target_vnum: '17054'
+      target_vnum: '010217017054'
+  local_id: '17055'
   name: Flutuando no Ar
-  vnum: '17055'
+  vnum: '010217017055'
 - description: |-
     Você olha e vê o chão a cem pés abaixo de você. O vento sussurrando em
     sua orelha o faz pensar que a sensação é ótima.  Ao norte você nota algo
     como um portal. Ao oeste há mais ar.
   exits:
     north:
-      target_vnum: '17058'
+      target_vnum: 010217017058
     west:
-      target_vnum: '17055'
+      target_vnum: '010217017055'
+  local_id: '17056'
   name: Flutuando no Ar
-  vnum: '17056'
+  vnum: '010217017056'
 - description: |-
     Você olha e vê o chão a cem pés abaixo de você.  O vento sussurrando em
     sua orelha o faz pensar de que a sensação é ótima.  Ao leste você nota algo
     como um portal.  Ao sul há mais ar.
   exits:
     east:
-      target_vnum: '17058'
+      target_vnum: 010217017058
     south:
-      target_vnum: '17055'
+      target_vnum: '010217017055'
+  local_id: '17057'
   name: Flutuando no Ar
-  vnum: '17057'
+  vnum: '010217017057'
 - description: |-
     Você olha e vê o chão a cem pés abaixo de você.  O vento sussurrando em
     sua orelha o faz pensar de que a sensação é ótima.  Há um portal flutuando
     aqui.  Ele fica a leste.  Você pode flutuar ao sul ou ao oeste, se quiser.
   exits:
     east:
-      target_vnum: '17059'
+      target_vnum: 010217017059
     south:
-      target_vnum: '17056'
+      target_vnum: '010217017056'
     west:
-      target_vnum: '17057'
+      target_vnum: '010217017057'
+  local_id: '17058'
   name: Flutuando no Ar
-  vnum: '17058'
+  vnum: 010217017058
 - description: |-
     O túnel segue ao leste, ao oeste você pode adentrar o portal.  O vento
     neste portal é bastante feroz.
   exits:
     east:
-      target_vnum: '17060'
+      target_vnum: '010217017060'
     west:
-      target_vnum: '17058'
+      target_vnum: 010217017058
+  local_id: '17059'
   name: Um Túnel de Vento
-  vnum: '17059'
+  vnum: 010217017059
 - description: |-
     Finos tornados vêm e vão dançando pelo chão.  Nos fundos da câmara você
     nota um enorme trono feito de nuvens.  Um túnel segue a oeste.
   exits:
     west:
-      target_vnum: '17059'
+      target_vnum: 010217017059
+  local_id: '17060'
   name: A Câmara de Ar
-  vnum: '17060'
+  vnum: '010217017060'
 - description: |-
     Você se encontra andando ao longo de um caminho que segue através de uma
     parte bastante barulhenta do canyon.  A trilha que você estava seguindo
@@ -667,11 +722,12 @@
     o caminho continua.
   exits:
     east:
-      target_vnum: '17062'
+      target_vnum: '010217017062'
     west:
-      target_vnum: '17054'
+      target_vnum: '010217017054'
+  local_id: '17061'
   name: Seguindo a Trilha
-  vnum: '17061'
+  vnum: '010217017061'
 - description: |-
     Você continua a seguir as pegadas atentamente.  Tão atentamente, que você
     bate seu rosto em um grande aviso.  Você coça a cabeça e se pergunta como
@@ -679,11 +735,12 @@
     volta ao oeste, o caminho segue para o canyon.
   exits:
     south:
-      target_vnum: '17063'
+      target_vnum: '010217017063'
     west:
-      target_vnum: '17061'
+      target_vnum: '010217017061'
+  local_id: '17062'
   name: Seguindo a Trilha
-  vnum: '17062'
+  vnum: '010217017062'
 - description: |-
     No topo da colina a vista tira seu fôlego.  Diante de você estão as
     grandes paredes cercando a cidade.  Em volta do portão principal você pode
@@ -692,104 +749,114 @@
     ventos frios.
   exits:
     north:
-      target_vnum: '17062'
+      target_vnum: '010217017062'
     south:
-      target_vnum: '17064'
+      target_vnum: '010217017064'
+  local_id: '17063'
   name: Acima da Cidade
-  vnum: '17063'
+  vnum: '010217017063'
 - description: |-
     Você está a poucos passos dos portões da cidade.  Os guardas que estão
     aqui parecem ferozes, assim como os minotauros.  Talvez você possa dribla-
     -los para conseguir entrar...
   exits:
     north:
-      target_vnum: '17063'
+      target_vnum: '010217017063'
+  local_id: '17064'
   name: Perto dos Portões
-  vnum: '17064'
+  vnum: '010217017064'
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '3502'
+      target_vnum: '01021703502'
     south:
-      target_vnum: '17066'
+      target_vnum: '010217017066'
+  local_id: '17065'
   name: Ao Longo do Caminho Sul
-  vnum: '17065'
+  vnum: '010217017065'
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Atrás das montanhas pode ser visto um vasto canyon.
     Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '17065'
+      target_vnum: '010217017065'
     south:
-      target_vnum: '17067'
+      target_vnum: '010217017067'
+  local_id: '17066'
   name: Ao Longo do Caminho Sul
-  vnum: '17066'
+  vnum: '010217017066'
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Atrás das montanhas pode ser visto um vasto canyon.
     Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '17066'
+      target_vnum: '010217017066'
     south:
-      target_vnum: '17068'
+      target_vnum: 010217017068
+  local_id: '17067'
   name: Ao Longo do Caminho Sul
-  vnum: '17067'
+  vnum: '010217017067'
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Atrás das montanhas pode ser visto um vasto canyon.
     Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '17067'
+      target_vnum: '010217017067'
     south:
-      target_vnum: '17069'
+      target_vnum: 010217017069
+  local_id: '17068'
   name: Ao Longo do Caminho Sul
-  vnum: '17068'
+  vnum: 010217017068
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Atrás das montanhas pode ser visto um vasto canyon.
     Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '17068'
+      target_vnum: 010217017068
     south:
-      target_vnum: '17070'
+      target_vnum: '010217017070'
+  local_id: '17069'
   name: Ao Longo do Caminho Sul
-  vnum: '17069'
+  vnum: 010217017069
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Atrás das montanhas pode ser visto um vasto canyon.
     Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '17069'
+      target_vnum: 010217017069
     south:
-      target_vnum: '17071'
+      target_vnum: '010217017071'
+  local_id: '17070'
   name: Ao Longo do Caminho Sul
-  vnum: '17070'
+  vnum: '010217017070'
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Atrás das montanhas pode ser visto um vasto canyon.
     Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '17070'
+      target_vnum: '010217017070'
     south:
-      target_vnum: '17072'
+      target_vnum: '010217017072'
+  local_id: '17071'
   name: Ao Longo do Caminho Sul
-  vnum: '17071'
+  vnum: '010217017071'
 - description: |-
     Você está caminhando ao longo do caminho sul.  Nesta direção você vê
     enormes montanhas.  Atrás das montanhas pode ser visto um vasto canyon.
     Você trouxe seus equipamentos de caminhada?
   exits:
     north:
-      target_vnum: '17071'
+      target_vnum: '010217017071'
     south:
-      target_vnum: '17001'
+      target_vnum: '010217017001'
+  local_id: '17072'
   name: Ao Longo do Caminho Sul
-  vnum: '17072'
+  vnum: '010217017072'

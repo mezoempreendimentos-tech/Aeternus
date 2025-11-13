@@ -4,28 +4,32 @@
     parece acabar a estrada.
   exits:
     north:
-      target_vnum: '10263'
+      target_vnum: '010210210263'
     south:
-      target_vnum: '10251'
+      target_vnum: '010210210251'
+    southwest:
+      target_vnum: '01021025614'
     west:
-      target_vnum: '10201'
+      target_vnum: '010210210201'
+  local_id: '10200'
   name: Uma Larga Estrada Pelos Contrafortes
-  vnum: '10200'
+  vnum: '010210210200'
 - description: |-
     A estrada continua através dos contrafortes para leste e oeste.  Nos dois
     lados da estrada as colinas se destacam dentre as árvores e arbustos.  Está
     é realmente a mais bela paisagem de Jareth.
   exits:
     east:
-      target_vnum: '10200'
+      target_vnum: '010210210200'
     north:
-      target_vnum: '10262'
+      target_vnum: '010210210262'
     south:
-      target_vnum: '10250'
+      target_vnum: '010210210250'
     west:
-      target_vnum: '10281'
+      target_vnum: 010210210281
+  local_id: '10201'
   name: Uma Larga Estrada Pelos Contrafortes
-  vnum: '10201'
+  vnum: '010210210201'
 - description: |-
     A porta do castelo fica a oeste, na entrada há belas bandeiras
     representando o Senhor e a Senhora deste lugar.  Olhando ao leste, você
@@ -33,51 +37,55 @@
     sociedade - as colinas e o luxuriante cenário, calmo e sereno.
   exits:
     east:
-      target_vnum: '10282'
+      target_vnum: 010210210282
     north:
-      target_vnum: '10259'
+      target_vnum: 010210210259
     south:
-      target_vnum: '10247'
+      target_vnum: '010210210247'
     west:
-      target_vnum: '10203'
+      target_vnum: '010210210203'
+  local_id: '10202'
   name: Na Entrada do Castelo
-  vnum: '10202'
+  vnum: '010210210202'
 - description: "Ã\x89 uma pequena sala, onde se guardam os diversos casacos e capas\
     \ dos\nconvidados do castelo.  Portas seguem para o interior do castelo ao norte,\n\
     sul, e oeste.  A porta ao leste, claro, leva ao lado exterior."
   exits:
     east:
-      target_vnum: '10202'
+      target_vnum: '010210210202'
     north:
-      target_vnum: '10204'
+      target_vnum: '010210210204'
     south:
-      target_vnum: '10207'
+      target_vnum: '010210210207'
     west:
-      target_vnum: '10210'
+      target_vnum: '010210210210'
+  local_id: '10203'
   name: A Chapelaria
-  vnum: '10203'
+  vnum: '010210210203'
 - description: |-
     Aqui talvez nem seja grande o bastante para ser chamado de corredor.  Uma
     porta fica pela parede sul, e outra porta fica ao norte, em uma distância
     insignificante uma da outra.
   exits:
     north:
-      target_vnum: '10205'
+      target_vnum: '010210210205'
     south:
-      target_vnum: '10203'
+      target_vnum: '010210210203'
+  local_id: '10204'
   name: Um Curto Corredor
-  vnum: '10204'
+  vnum: '010210210204'
 - description: |-
     Aqui talvez nem seja grande o bastante para ser chamado de corredor.  Uma
     porta fica pela parede sul, e outra porta fica ao norte, em uma distância
     insignificante uma da outra.
   exits:
     north:
-      target_vnum: '10206'
+      target_vnum: '010210210206'
     south:
-      target_vnum: '10204'
+      target_vnum: '010210210204'
+  local_id: '10205'
   name: Um Curto Corredor
-  vnum: '10205'
+  vnum: '010210210205'
 - description: |-
     Como se o Senhor deste lugar nunca precisasse realmente deste quarto -
     como se isto pudesse se elevar à categoria de quarto.  De qualquer forma é
@@ -86,33 +94,36 @@
     canto não significa nada...  Não é?
   exits:
     south:
-      target_vnum: '10205'
+      target_vnum: '010210210205'
     west:
-      target_vnum: '10214'
+      target_vnum: '010210210214'
+  local_id: '10206'
   name: O Quarto Particular do Senhor
-  vnum: '10206'
+  vnum: '010210210206'
 - description: |-
     Aqui talvez nem seja grande o bastante para ser chamado de corredor.  Uma
     porta fica pela parede sul, e outra porta fica ao norte, em uma distância
     insignificante uma da outra.
   exits:
     north:
-      target_vnum: '10203'
+      target_vnum: '010210210203'
     south:
-      target_vnum: '10208'
+      target_vnum: 010210210208
+  local_id: '10207'
   name: Um Curto Corredor
-  vnum: '10207'
+  vnum: '010210210207'
 - description: |-
     Aqui talvez nem seja grande o bastante para ser chamado de corredor.  Uma
     porta fica pela parede sul, e outra porta fica ao norte, em uma distância
     insignificante uma da outra.
   exits:
     north:
-      target_vnum: '10207'
+      target_vnum: '010210210207'
     south:
-      target_vnum: '10209'
+      target_vnum: 010210210209
+  local_id: '10208'
   name: Um Curto Corredor
-  vnum: '10208'
+  vnum: 010210210208
 - description: |-
     Há uma bela cama no centro do quarto, ela parece bastante confortável, e
     as cortinas que a adornam dão um toque romântico ao lugar.  Pelo jeito, o
@@ -120,11 +131,12 @@
     tanto quanto em público.
   exits:
     north:
-      target_vnum: '10208'
+      target_vnum: 010210210208
     west:
-      target_vnum: '10222'
+      target_vnum: '010210210222'
+  local_id: '10209'
   name: Os Aposentos do Senhor e da Senhora
-  vnum: '10209'
+  vnum: 010210210209
 - description: |-
     O teto desta enorme câmara alcança a parte mais alta do castelo, seu
     telhado está pelo menos a cem pés acima de sua cabeça.  Ao norte fica o
@@ -132,15 +144,16 @@
     Ao sul há a cozinha.  Uma porta fica na parede oeste.
   exits:
     east:
-      target_vnum: '10203'
+      target_vnum: '010210210203'
     north:
-      target_vnum: '10213'
+      target_vnum: '010210210213'
     south:
-      target_vnum: '10219'
+      target_vnum: 010210210219
     west:
-      target_vnum: '10211'
+      target_vnum: '010210210211'
+  local_id: '10210'
   name: A Câmara Principal
-  vnum: '10210'
+  vnum: '010210210210'
 - description: |-
     O teto desta enorme câmara alcança a parte mais alta do castelo, seu
     telhado está pelo menos a cem pés acima de sua cabeça.  Ao norte fica o
@@ -148,13 +161,14 @@
     Ao sul fica a despensa onde todos os alimentos secos são mantidos.
   exits:
     east:
-      target_vnum: '10210'
+      target_vnum: '010210210210'
     north:
-      target_vnum: '10212'
+      target_vnum: '010210210212'
     west:
-      target_vnum: '10226'
+      target_vnum: '010210210226'
+  local_id: '10211'
   name: A Câmara Principal
-  vnum: '10211'
+  vnum: '010210210211'
 - description: |-
     Esta grande câmara é permanentemente decorada da melhor maneira para as
     festas.  Um criado está sempre disponível, assim como um músico para quem
@@ -162,11 +176,12 @@
     fica ao sul.
   exits:
     east:
-      target_vnum: '10213'
+      target_vnum: '010210210213'
     south:
-      target_vnum: '10211'
+      target_vnum: '010210210211'
+  local_id: '10212'
   name: O Grande Salão de Baile
-  vnum: '10212'
+  vnum: '010210210212'
 - description: |-
     Esta grande câmara é permanentemente decorada da melhor maneira para as
     festas.  Um criado está sempre disponível, assim como um músico para quem
@@ -174,33 +189,36 @@
     fica ao sul.
   exits:
     south:
-      target_vnum: '10210'
+      target_vnum: '010210210210'
     west:
-      target_vnum: '10212'
+      target_vnum: '010210210212'
+  local_id: '10213'
   name: O Grande Salão de Baile
-  vnum: '10213'
+  vnum: '010210210213'
 - description: |-
     Este corredor não parece ser usado freqüentemente, nem parece ser mantido
     com o mesmo zelo pelos criados do castelo.  Possivelmente esta pequena e
     estreita passagem seja mantida pelo próprio Senhor do lugar.
   exits:
     east:
-      target_vnum: '10206'
+      target_vnum: '010210210206'
     west:
-      target_vnum: '10215'
+      target_vnum: '010210210215'
+  local_id: '10214'
   name: Um Corredor Esquecido
-  vnum: '10214'
+  vnum: '010210210214'
 - description: |-
     Este corredor não parece ser usado freqüentemente, nem parece ser mantido
     com o mesmo zelo pelos criados do castelo.  Possivelmente esta pequena e
     estreita passagem seja mantida pelo próprio Senhor do lugar.
   exits:
     east:
-      target_vnum: '10214'
+      target_vnum: '010210210214'
     west:
-      target_vnum: '10216'
+      target_vnum: '010210210216'
+  local_id: '10215'
   name: Um Corredor Esquecido
-  vnum: '10215'
+  vnum: '010210210215'
 - description: |-
     Este corredor não parece ser usado freqüentemente, nem parece ser mantido
     com o mesmo zelo pelos criados do castelo.  Possivelmente esta pequena e
@@ -209,62 +227,68 @@
     terem sido abertas há anos.
   exits:
     east:
-      target_vnum: '10215'
+      target_vnum: '010210210215'
     north:
-      target_vnum: '10217'
+      target_vnum: '010210210217'
+  local_id: '10216'
   name: Um Corredor Esquecido
-  vnum: '10216'
+  vnum: '010210210216'
 - description: |-
     Os criados utilizam-se desta saída, ela parece bem usada, com os batentes
     gastos, o que demonstra o grande número de criados que transitam por aqui.
   exits:
     south:
-      target_vnum: '10216'
+      target_vnum: '010210210216'
+  local_id: '10217'
   name: A Saída dos Fundos
-  vnum: '10217'
+  vnum: '010210210217'
 - description: |-
     Todos os comestíveis secos do castelo são mantidos neste quarto,
     incluindo o grande montante de álcool que faz a festa do Senhor e da Senhora
     durar o ano todo.  Através da porta ao leste, há a cozinha.
   exits:
     east:
-      target_vnum: '10219'
+      target_vnum: 010210210219
+  local_id: '10218'
   name: A Despensa
-  vnum: '10218'
+  vnum: 010210210218
 - description: |-
     Os cozinheiros do castelo trabalham diariamente, correndo contra o
     relógio, para manter boa comida no salão de baile e na própria cozinha.
   exits:
     north:
-      target_vnum: '10210'
+      target_vnum: '010210210210'
     south:
-      target_vnum: '10283'
+      target_vnum: 010210210283
     west:
-      target_vnum: '10218'
+      target_vnum: 010210210218
+  local_id: '10219'
   name: A Cozinha
-  vnum: '10219'
+  vnum: 010210210219
 - description: |-
     Este é um grande corredor que conecta os aposentos do Senhor e da Senhora
     à câmara principal - é usado pelos dois quando sentem-se cansados das festas
     e precisam de descanso e paz.  O corredor continua ao leste e oeste.
   exits:
     east:
-      target_vnum: '10221'
+      target_vnum: '010210210221'
     west:
-      target_vnum: '10223'
+      target_vnum: '010210210223'
+  local_id: '10220'
   name: O Corredor Sul
-  vnum: '10220'
+  vnum: '010210210220'
 - description: |-
     Este é um grande corredor que conecta os aposentos do Senhor e da Senhora
     à câmara principal - é usado pelos dois quando sentem-se cansados das festas
     e precisam de descanso e paz.  O corredor continua ao leste e oeste.
   exits:
     east:
-      target_vnum: '10222'
+      target_vnum: '010210210222'
     west:
-      target_vnum: '10220'
+      target_vnum: '010210210220'
+  local_id: '10221'
   name: O Corredor Sul
-  vnum: '10221'
+  vnum: '010210210221'
 - description: |-
     Este é um grande corredor que conecta os aposentos do Senhor e da Senhora
     à câmara principal - é usado pelos dois quando sentem-se cansados das festas
@@ -272,44 +296,48 @@
     aposentos do Senhor e da Senhora fica ao leste.
   exits:
     east:
-      target_vnum: '10209'
+      target_vnum: 010210210209
     west:
-      target_vnum: '10221'
+      target_vnum: '010210210221'
+  local_id: '10222'
   name: O Corredor Sul
-  vnum: '10222'
+  vnum: '010210210222'
 - description: |-
     O corredor vira ao norte e ao leste, o caminho ao norte leva para a
     câmara principal e o caminho ao leste leva para os aposentos do Senhor e da
     Senhora.
   exits:
     east:
-      target_vnum: '10220'
+      target_vnum: '010210210220'
     north:
-      target_vnum: '10224'
+      target_vnum: '010210210224'
+  local_id: '10223'
   name: Uma Curva no Corredor
-  vnum: '10223'
+  vnum: '010210210223'
 - description: |-
     Este pequeno corredor é usado pelo Senhor e pela Senhora para escapar
     para seus aposentos quanto a noite já está alta e eles precisam de descanso.
     O corredor leva ao norte e ao sul.
   exits:
     north:
-      target_vnum: '10225'
+      target_vnum: '010210210225'
     south:
-      target_vnum: '10223'
+      target_vnum: '010210210223'
+  local_id: '10224'
   name: Corredor Oeste
-  vnum: '10224'
+  vnum: '010210210224'
 - description: |-
     Este pequeno corredor é usado pelo Senhor e pela Senhora para escapar
     para seus aposentos quanto a noite já está alta e eles precisam de descanso.
     O corredor leva ao norte e ao sul.
   exits:
     north:
-      target_vnum: '10226'
+      target_vnum: '010210210226'
     south:
-      target_vnum: '10224'
+      target_vnum: '010210210224'
+  local_id: '10225'
   name: Corredor Oeste
-  vnum: '10225'
+  vnum: '010210210225'
 - description: |-
     A escadaria leva para os quartos de hóspedes onde todos os quartos dos
     convidados estão situados.  Ao leste há a entrada para a câmara principal e
@@ -317,22 +345,24 @@
     do Senhor e da Senhora.
   exits:
     east:
-      target_vnum: '10211'
+      target_vnum: '010210210211'
     south:
-      target_vnum: '10225'
+      target_vnum: '010210210225'
     up:
-      target_vnum: '10232'
+      target_vnum: '010210210232'
+  local_id: '10226'
   name: A Base da Escadaria
-  vnum: '10226'
+  vnum: '010210210226'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
     local privado do Senhor e da Senhora.  A porta para o corredor fica ao sul.
   exits:
     south:
-      target_vnum: '10230'
+      target_vnum: '010210210230'
+  local_id: '10227'
   name: O Quarto de Hóspedes
-  vnum: '10227'
+  vnum: '010210210227'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -340,20 +370,22 @@
     oeste.
   exits:
     west:
-      target_vnum: '10229'
+      target_vnum: 010210210229
+  local_id: '10228'
   name: O Quarto de Hóspedes
-  vnum: '10228'
+  vnum: 010210210228
 - description: |-
     O corredor termina em uma porta, presume-se que ela leve para a suíte de
     hóspedes que por sua vez, leva ao nível superior.  Há uma porta na parede
     leste, o corredor segue ao oeste.
   exits:
     east:
-      target_vnum: '10228'
+      target_vnum: 010210210228
     west:
-      target_vnum: '10230'
+      target_vnum: '010210210230'
+  local_id: '10229'
   name: O Final Norte do Corredor
-  vnum: '10229'
+  vnum: 010210210229
 - description: |-
     Uma porta fica na parede norte, seguindo para um dos muitos quartos de
     hóspedes deste nível superior do castelo.  O corredor segue ao sul por uma
@@ -361,13 +393,14 @@
     levam para o quarto de hóspedes.
   exits:
     east:
-      target_vnum: '10229'
+      target_vnum: 010210210229
     north:
-      target_vnum: '10227'
+      target_vnum: '010210210227'
     south:
-      target_vnum: '10231'
+      target_vnum: '010210210231'
+  local_id: '10230'
   name: O Corredor Superior
-  vnum: '10230'
+  vnum: '010210210230'
 - description: |-
     O corredor segue ao sul e ao norte, deixando muitas portas em ambos lados
     de suas paredes, todas levam para o quarto de hóspedes.  Esta área superior
@@ -375,15 +408,16 @@
     luxuosos e bem asseados.
   exits:
     east:
-      target_vnum: '10242'
+      target_vnum: '010210210242'
     north:
-      target_vnum: '10230'
+      target_vnum: '010210210230'
     south:
-      target_vnum: '10232'
+      target_vnum: '010210210232'
     west:
-      target_vnum: '10243'
+      target_vnum: '010210210243'
+  local_id: '10231'
   name: O Corredor Superior
-  vnum: '10231'
+  vnum: '010210210231'
 - description: |-
     O corredor segue ao sul e ao norte, deixando muitas portas em ambos lados
     de suas paredes, todas levam para o quarto de hóspedes.  Esta área superior
@@ -392,17 +426,18 @@
     do castelo.
   exits:
     down:
-      target_vnum: '10226'
+      target_vnum: '010210210226'
     east:
-      target_vnum: '10241'
+      target_vnum: '010210210241'
     north:
-      target_vnum: '10231'
+      target_vnum: '010210210231'
     south:
-      target_vnum: '10233'
+      target_vnum: '010210210233'
     west:
-      target_vnum: '10244'
+      target_vnum: '010210210244'
+  local_id: '10232'
   name: O Corredor Superior
-  vnum: '10232'
+  vnum: '010210210232'
 - description: |-
     O corredor segue ao sul e ao norte, deixando muitas portas em ambos lados
     de suas paredes, todas levam para o quarto de hóspedes.  Esta área superior
@@ -410,15 +445,16 @@
     luxuosos e bem asseados.
   exits:
     east:
-      target_vnum: '10240'
+      target_vnum: '010210210240'
     north:
-      target_vnum: '10232'
+      target_vnum: '010210210232'
     south:
-      target_vnum: '10234'
+      target_vnum: '010210210234'
     west:
-      target_vnum: '10245'
+      target_vnum: '010210210245'
+  local_id: '10233'
   name: O Corredor Superior
-  vnum: '10233'
+  vnum: '010210210233'
 - description: |-
     O corredor segue ao sul e ao norte, deixando muitas portas em ambos lados
     de suas paredes, todas levam para o quarto de hóspedes.  Esta área superior
@@ -426,15 +462,16 @@
     luxuosos e bem asseados.
   exits:
     east:
-      target_vnum: '10239'
+      target_vnum: 010210210239
     north:
-      target_vnum: '10233'
+      target_vnum: '010210210233'
     south:
-      target_vnum: '10235'
+      target_vnum: '010210210235'
     west:
-      target_vnum: '10246'
+      target_vnum: '010210210246'
+  local_id: '10234'
   name: O Corredor Superior
-  vnum: '10234'
+  vnum: '010210210234'
 - description: |-
     Uma porta fica na parede sul, seguindo para um dos muitos quartos de
     hóspedes deste nível superior do castelo.  O corredor segue ao sul por uma
@@ -442,24 +479,26 @@
     levam para o quarto de hóspedes.
   exits:
     east:
-      target_vnum: '10236'
+      target_vnum: '010210210236'
     north:
-      target_vnum: '10234'
+      target_vnum: '010210210234'
     south:
-      target_vnum: '10238'
+      target_vnum: 010210210238
+  local_id: '10235'
   name: O Corredor Superior
-  vnum: '10235'
+  vnum: '010210210235'
 - description: |-
     O corredor termina em uma porta, presume-se que ela leve para a suíte de
     hóspedes que por sua vez, leva ao nível superior.  Há uma porta na parede
     leste, o corredor segue ao oeste.
   exits:
     east:
-      target_vnum: '10237'
+      target_vnum: '010210210237'
     west:
-      target_vnum: '10235'
+      target_vnum: '010210210235'
+  local_id: '10236'
   name: O Final Sul do Corredor
-  vnum: '10236'
+  vnum: '010210210236'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -467,9 +506,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '10236'
+      target_vnum: '010210210236'
+  local_id: '10237'
   name: O Quarto de Hóspedes
-  vnum: '10237'
+  vnum: '010210210237'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -477,9 +517,10 @@
     norte.
   exits:
     north:
-      target_vnum: '10235'
+      target_vnum: '010210210235'
+  local_id: '10238'
   name: O Quarto de Hóspedes
-  vnum: '10238'
+  vnum: 010210210238
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -487,9 +528,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '10234'
+      target_vnum: '010210210234'
+  local_id: '10239'
   name: O Quarto de Hóspedes
-  vnum: '10239'
+  vnum: 010210210239
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -497,9 +539,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '10233'
+      target_vnum: '010210210233'
+  local_id: '10240'
   name: O Quarto de Hóspedes
-  vnum: '10240'
+  vnum: '010210210240'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -507,9 +550,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '10232'
+      target_vnum: '010210210232'
+  local_id: '10241'
   name: O Quarto de Hóspedes
-  vnum: '10241'
+  vnum: '010210210241'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -517,9 +561,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '10231'
+      target_vnum: '010210210231'
+  local_id: '10242'
   name: O Quarto de Hóspedes
-  vnum: '10242'
+  vnum: '010210210242'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -527,9 +572,10 @@
     leste.
   exits:
     east:
-      target_vnum: '10231'
+      target_vnum: '010210210231'
+  local_id: '10243'
   name: O Quarto de Hóspedes
-  vnum: '10243'
+  vnum: '010210210243'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -537,9 +583,10 @@
     leste.
   exits:
     east:
-      target_vnum: '10232'
+      target_vnum: '010210210232'
+  local_id: '10244'
   name: O Quarto de Hóspedes
-  vnum: '10244'
+  vnum: '010210210244'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -547,9 +594,10 @@
     leste.
   exits:
     east:
-      target_vnum: '10233'
+      target_vnum: '010210210233'
+  local_id: '10245'
   name: O Quarto de Hóspedes
-  vnum: '10245'
+  vnum: '010210210245'
 - description: |-
     O quarto dos convidados tem um tom suave que claramente significa que ele
     é destinado para descanso.  O castelo inteiro é mais uma atração do que o
@@ -557,158 +605,171 @@
     leste.
   exits:
     east:
-      target_vnum: '10234'
+      target_vnum: '010210210234'
+  local_id: '10246'
   name: O Quarto de Hóspedes
-  vnum: '10246'
+  vnum: '010210210246'
 - description: |-
     A parede do castelo segue ao lado oeste, as desigualdades dos blocos de
     pedra podem ser claramente vistos de perto.  Ao leste e sul ficam os
     contrafortes que terminam no castelo, formando uma vista maravilhosa.
   exits:
     east:
-      target_vnum: '10248'
+      target_vnum: 010210210248
     north:
-      target_vnum: '10202'
+      target_vnum: '010210210202'
     south:
-      target_vnum: '10252'
+      target_vnum: '010210210252'
+  local_id: '10247'
   name: Pela Parede do Castelo
-  vnum: '10247'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210247'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10249'
+      target_vnum: 010210210249
     north:
-      target_vnum: '10282'
+      target_vnum: 010210210282
     south:
-      target_vnum: '10254'
+      target_vnum: '010210210254'
     west:
-      target_vnum: '10247'
+      target_vnum: '010210210247'
+  local_id: '10248'
   name: Os Contrafortes
-  vnum: '10248'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: 010210210248
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10250'
+      target_vnum: '010210210250'
     north:
-      target_vnum: '10281'
+      target_vnum: 010210210281
     south:
-      target_vnum: '10255'
+      target_vnum: '010210210255'
     west:
-      target_vnum: '10248'
+      target_vnum: 010210210248
+  local_id: '10249'
   name: Os Contrafortes
-  vnum: '10249'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: 010210210249
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10251'
+      target_vnum: '010210210251'
     north:
-      target_vnum: '10201'
+      target_vnum: '010210210201'
     south:
-      target_vnum: '10258'
+      target_vnum: 010210210258
     west:
-      target_vnum: '10249'
+      target_vnum: 010210210249
+  local_id: '10250'
   name: Os Contrafortes
-  vnum: '10250'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210250'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     north:
-      target_vnum: '10200'
+      target_vnum: '010210210200'
     west:
-      target_vnum: '10250'
+      target_vnum: '010210210250'
+  local_id: '10251'
   name: Os Contrafortes
-  vnum: '10251'
+  vnum: '010210210251'
 - description: |-
     A parede do castelo segue ao lado oeste, as desigualdades dos blocos de
     pedra podem ser claramente vistos de perto.  Ao leste e sul ficam os
     contrafortes que terminam no castelo, formando uma vista maravilhosa.
   exits:
     east:
-      target_vnum: '10254'
+      target_vnum: '010210210254'
     north:
-      target_vnum: '10247'
+      target_vnum: '010210210247'
     south:
-      target_vnum: '10253'
+      target_vnum: '010210210253'
+  local_id: '10252'
   name: Pela Parede do Castelo
-  vnum: '10252'
+  vnum: '010210210252'
 - description: |-
     Você alcançou o final sul da parede do castelo, onde ela faz uma curva ao
     norte e oeste.  A sua volta todo o esplendor dos contrafortes que cercam o
     castelo de Jareth, uma linda terra, cheia de verde.
   exits:
     east:
-      target_vnum: '10256'
+      target_vnum: '010210210256'
     north:
-      target_vnum: '10252'
+      target_vnum: '010210210252'
+  local_id: '10253'
   name: Ao Longo da Parede do Castelo
-  vnum: '10253'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210253'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10255'
+      target_vnum: '010210210255'
     north:
-      target_vnum: '10248'
+      target_vnum: 010210210248
     south:
-      target_vnum: '10256'
+      target_vnum: '010210210256'
     west:
-      target_vnum: '10252'
+      target_vnum: '010210210252'
+  local_id: '10254'
   name: Os Contrafortes
-  vnum: '10254'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210254'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10258'
+      target_vnum: 010210210258
     north:
-      target_vnum: '10249'
+      target_vnum: 010210210249
     south:
-      target_vnum: '10257'
+      target_vnum: '010210210257'
     west:
-      target_vnum: '10254'
+      target_vnum: '010210210254'
+  local_id: '10255'
   name: Os Contrafortes
-  vnum: '10255'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210255'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10257'
+      target_vnum: '010210210257'
     north:
-      target_vnum: '10254'
+      target_vnum: '010210210254'
     west:
-      target_vnum: '10253'
+      target_vnum: '010210210253'
+  local_id: '10256'
   name: Os Contrafortes
-  vnum: '10256'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210256'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     north:
-      target_vnum: '10255'
+      target_vnum: '010210210255'
     west:
-      target_vnum: '10256'
+      target_vnum: '010210210256'
+  local_id: '10257'
   name: Os Contrafortes
-  vnum: '10257'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210257'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     north:
-      target_vnum: '10250'
+      target_vnum: '010210210250'
     west:
-      target_vnum: '10255'
+      target_vnum: '010210210255'
+  local_id: '10258'
   name: Os Contrafortes
-  vnum: '10258'
+  vnum: 010210210258
 - description: |-
     Este caminho segue ao norte ao longo das paredes do castelo, até os
     estábulos, onde todos os hóspedes guardam suas montarias.  Ao sul, está a
@@ -716,169 +777,182 @@
     contrafortes que cercam Jareth.
   exits:
     east:
-      target_vnum: '10260'
+      target_vnum: '010210210260'
     north:
-      target_vnum: '10264'
+      target_vnum: '010210210264'
     south:
-      target_vnum: '10202'
+      target_vnum: '010210210202'
+  local_id: '10259'
   name: Um Caminho Lateral
-  vnum: '10259'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: 010210210259
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10261'
+      target_vnum: '010210210261'
     north:
-      target_vnum: '10265'
+      target_vnum: '010210210265'
     south:
-      target_vnum: '10282'
+      target_vnum: 010210210282
     west:
-      target_vnum: '10259'
+      target_vnum: 010210210259
+  local_id: '10260'
   name: Os Contrafortes
-  vnum: '10260'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  EÃ\x89 difÃ­cil\
+  vnum: '010210210260'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  EÃ\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10262'
+      target_vnum: '010210210262'
     north:
-      target_vnum: '10266'
+      target_vnum: '010210210266'
     south:
-      target_vnum: '10281'
+      target_vnum: 010210210281
     west:
-      target_vnum: '10260'
+      target_vnum: '010210210260'
+  local_id: '10261'
   name: Os Contrafortes
-  vnum: '10261'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  EÃ\x89 difÃ­cil\
+  vnum: '010210210261'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  EÃ\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10263'
+      target_vnum: '010210210263'
     north:
-      target_vnum: '10267'
+      target_vnum: '010210210267'
     south:
-      target_vnum: '10201'
+      target_vnum: '010210210201'
     west:
-      target_vnum: '10261'
+      target_vnum: '010210210261'
+  local_id: '10262'
   name: Os Contrafortes
-  vnum: '10262'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210262'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     south:
-      target_vnum: '10200'
+      target_vnum: '010210210200'
     west:
-      target_vnum: '10262'
+      target_vnum: '010210210262'
+  local_id: '10263'
   name: Os Contrafortes
-  vnum: '10263'
+  vnum: '010210210263'
 - description: |-
     O caminho segue ao longo das paredes do castelo através dos estábulos e o
     celeiro.  Ao leste ficam os belos contrafortes desta maravilhosa terra, um
     lugar quase de surreal perfeição.
   exits:
     east:
-      target_vnum: '10265'
+      target_vnum: '010210210265'
     north:
-      target_vnum: '10270'
+      target_vnum: '010210210270'
     south:
-      target_vnum: '10259'
+      target_vnum: 010210210259
+  local_id: '10264'
   name: Um Caminho Lateral
-  vnum: '10264'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210264'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10266'
+      target_vnum: '010210210266'
     north:
-      target_vnum: '10269'
+      target_vnum: 010210210269
     south:
-      target_vnum: '10260'
+      target_vnum: '010210210260'
     west:
-      target_vnum: '10264'
+      target_vnum: '010210210264'
+  local_id: '10265'
   name: Os Contrafortes
-  vnum: '10265'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210265'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10267'
+      target_vnum: '010210210267'
     north:
-      target_vnum: '10268'
+      target_vnum: 010210210268
     south:
-      target_vnum: '10261'
+      target_vnum: '010210210261'
     west:
-      target_vnum: '10265'
+      target_vnum: '010210210265'
+  local_id: '10266'
   name: Os Contrafortes
-  vnum: '10266'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  EÃ\x89 difÃ­cil\
+  vnum: '010210210266'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  EÃ\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     south:
-      target_vnum: '10262'
+      target_vnum: '010210210262'
     west:
-      target_vnum: '10266'
+      target_vnum: '010210210266'
+  local_id: '10267'
   name: Os Contrafortes
-  vnum: '10267'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210267'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     north:
-      target_vnum: '10276'
+      target_vnum: '010210210276'
     south:
-      target_vnum: '10266'
+      target_vnum: '010210210266'
     west:
-      target_vnum: '10269'
+      target_vnum: 010210210269
+  local_id: '10268'
   name: Os Contrafortes
-  vnum: '10268'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
-    \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
-    a visão, mas tudo o que você consegue ver é simplesmente lindo."
-  exits:
-    east:
-      target_vnum: '10268'
-    north:
-      target_vnum: '10275'
-    south:
-      target_vnum: '10265'
-    west:
-      target_vnum: '10270'
-  name: Os Contrafortes
-  vnum: '10269'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: 010210210268
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10269'
+      target_vnum: 010210210268
     north:
-      target_vnum: '10271'
+      target_vnum: '010210210275'
     south:
-      target_vnum: '10264'
+      target_vnum: '010210210265'
+    west:
+      target_vnum: '010210210270'
+  local_id: '10269'
   name: Os Contrafortes
-  vnum: '10270'
+  vnum: 010210210269
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
+    \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
+    a visão, mas tudo o que você consegue ver é simplesmente lindo."
+  exits:
+    east:
+      target_vnum: 010210210269
+    north:
+      target_vnum: '010210210271'
+    south:
+      target_vnum: '010210210264'
+  local_id: '10270'
+  name: Os Contrafortes
+  vnum: '010210210270'
 - description: |-
     O caminho termina aqui, como também a parede do castelo.  Ao lado norte
     fica um celeiro, usado para guardar o feno e para alimentar os animais dos
     convidados.  Do lado oeste há o estábulo onde os animais são mantidos.
   exits:
     east:
-      target_vnum: '10275'
+      target_vnum: '010210210275'
     north:
-      target_vnum: '10272'
+      target_vnum: '010210210272'
     south:
-      target_vnum: '10270'
+      target_vnum: '010210210270'
     west:
-      target_vnum: '10274'
+      target_vnum: '010210210274'
+  local_id: '10271'
   name: Um Caminho Lateral
-  vnum: '10271'
+  vnum: '010210210271'
 - description: |-
     Parece que os mais diversos tipos repousam aqui pelo celeiro de feno,
     enquanto seus mestres mais influentes ficam no castelo.  Há um enorme monte
@@ -886,101 +960,110 @@
     transformaram em confortáveis camas.
   exits:
     south:
-      target_vnum: '10271'
+      target_vnum: '010210210271'
+  local_id: '10272'
   name: O Celeiro
-  vnum: '10272'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210272'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10279'
+      target_vnum: 010210210279
+  local_id: '10273'
   name: Os Contrafortes
-  vnum: '10273'
+  vnum: '010210210273'
 - description: |-
     Todas as montarias dos convidados são mantidas aqui nesta pequena mas bem
     organizada estrutura.  A saída do lugar fica a leste.
   exits:
     east:
-      target_vnum: '10271'
+      target_vnum: '010210210271'
+  local_id: '10274'
   name: O Estábulo
-  vnum: '10274'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210274'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10276'
+      target_vnum: '010210210276'
     north:
-      target_vnum: '10277'
+      target_vnum: '010210210277'
     south:
-      target_vnum: '10269'
+      target_vnum: 010210210269
     west:
-      target_vnum: '10271'
+      target_vnum: '010210210271'
+  local_id: '10275'
   name: Os Contrafortes
-  vnum: '10275'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210275'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     north:
-      target_vnum: '10278'
+      target_vnum: 010210210278
     south:
-      target_vnum: '10268'
+      target_vnum: 010210210268
     west:
-      target_vnum: '10275'
+      target_vnum: '010210210275'
+  local_id: '10276'
   name: Os Contrafortes
-  vnum: '10276'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210276'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     east:
-      target_vnum: '10278'
+      target_vnum: 010210210278
     north:
-      target_vnum: '10279'
+      target_vnum: 010210210279
     south:
-      target_vnum: '10275'
+      target_vnum: '010210210275'
+  local_id: '10277'
   name: Os Contrafortes
-  vnum: '10277'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: '010210210277'
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     north:
-      target_vnum: '10280'
+      target_vnum: 010210210280
     south:
-      target_vnum: '10276'
+      target_vnum: '010210210276'
     west:
-      target_vnum: '10277'
+      target_vnum: '010210210277'
+  local_id: '10278'
   name: Os Contrafortes
-  vnum: '10278'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: 010210210278
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo. A única coisa\n\
     estranha fica a norte, onde o terreno se tornou plano, havendo alguma coisa\n\
     muito grande em seu centro."
   exits:
     east:
-      target_vnum: '10280'
+      target_vnum: 010210210280
     north:
-      target_vnum: '12101'
+      target_vnum: '010210212101'
     south:
-      target_vnum: '10277'
+      target_vnum: '010210210277'
     west:
-      target_vnum: '10273'
+      target_vnum: '010210210273'
+  local_id: '10279'
   name: Os Contrafortes
-  vnum: '10279'
-- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difÃ­cil\
+  vnum: 010210210279
+- description: "Ao todo redor podem ser vistas grandes colinas verdes.  Ã\x89 difícil\
     \ ver\nmuito longe em qualquer direção devido ao fato das muitas colinas obstruírem\n\
     a visão, mas tudo o que você consegue ver é simplesmente lindo."
   exits:
     south:
-      target_vnum: '10278'
+      target_vnum: 010210210278
     west:
-      target_vnum: '10279'
+      target_vnum: 010210210279
+  local_id: '10280'
   name: Os Contrafortes
-  vnum: '10280'
+  vnum: 010210210280
 - description: |-
     A estrada continua através dos contrafortes ao leste e oeste.  Em ambos
     lados da estrada estão os contrafortes, cercados por árvores e arbustos.  Ao
@@ -989,29 +1072,31 @@
     pelas quais você está viajando, e mora a oeste daqui.
   exits:
     east:
-      target_vnum: '10201'
+      target_vnum: '010210210201'
     north:
-      target_vnum: '10261'
+      target_vnum: '010210210261'
     south:
-      target_vnum: '10249'
+      target_vnum: 010210210249
     west:
-      target_vnum: '10282'
+      target_vnum: 010210210282
+  local_id: '10281'
   name: Uma Grande Estrada Através dos Contrafortes
-  vnum: '10281'
+  vnum: 010210210281
 - description: |-
     Você estava em uma estrada cheia de altos e baixos e agora alcançou o
     primeiro caminho sólido que está a poucos palmos a sua frente.
   exits:
     east:
-      target_vnum: '10281'
+      target_vnum: 010210210281
     north:
-      target_vnum: '10260'
+      target_vnum: '010210210260'
     south:
-      target_vnum: '10248'
+      target_vnum: 010210210248
     west:
-      target_vnum: '10202'
+      target_vnum: '010210210202'
+  local_id: '10282'
   name: Uma Grande Estrada Através dos Contrafortes
-  vnum: '10282'
+  vnum: 010210210282
 - description: |-
     Os custos envolvidos para manter este quarto é realmente incrível.  Todo
     santo dia, um homem segue em sua embarcação para o mar congelado nos confins
@@ -1020,6 +1105,7 @@
     mantimentos perecíveis são congelados.
   exits:
     north:
-      target_vnum: '10219'
+      target_vnum: 010210210219
+  local_id: '10283'
   name: A Despensa Fria
-  vnum: '10283'
+  vnum: 010210210283

@@ -6,13 +6,16 @@
     o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4501'
+      target_vnum: '01010454501'
     north:
-      target_vnum: '4505'
+      target_vnum: '01010454505'
+    southeast:
+      target_vnum: 01010455659
     west:
-      target_vnum: '4509'
+      target_vnum: 01010454509
+  local_id: '4500'
   name: Um Círculo de Montanhas
-  vnum: '4500'
+  vnum: '01010454500'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -20,13 +23,14 @@
     norte, ao leste e ao oeste continua o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4502'
+      target_vnum: '01010454502'
     north:
-      target_vnum: '4504'
+      target_vnum: '01010454504'
     west:
-      target_vnum: '4500'
+      target_vnum: '01010454500'
+  local_id: '4501'
   name: Um Círculo de Montanhas
-  vnum: '4501'
+  vnum: '01010454501'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -34,11 +38,12 @@
     norte e ao oeste continua o círculo de montanhas.
   exits:
     north:
-      target_vnum: '4503'
+      target_vnum: '01010454503'
     west:
-      target_vnum: '4501'
+      target_vnum: '01010454501'
+  local_id: '4502'
   name: Um Círculo de Montanhas
-  vnum: '4502'
+  vnum: '01010454502'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -46,11 +51,12 @@
     sul e ao oeste continua o círculo de montanhas.
   exits:
     south:
-      target_vnum: '4502'
+      target_vnum: '01010454502'
     west:
-      target_vnum: '4504'
+      target_vnum: '01010454504'
+  local_id: '4503'
   name: Um Círculo de Montanhas
-  vnum: '4503'
+  vnum: '01010454503'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -58,15 +64,16 @@
     norte, ao leste, ao oeste e ao sul continua o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4503'
+      target_vnum: '01010454503'
     north:
-      target_vnum: '4511'
+      target_vnum: '01010454511'
     south:
-      target_vnum: '4501'
+      target_vnum: '01010454501'
     west:
-      target_vnum: '4505'
+      target_vnum: '01010454505'
+  local_id: '4504'
   name: Um Círculo de Montanhas
-  vnum: '4504'
+  vnum: '01010454504'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -75,13 +82,14 @@
     de montanhas.
   exits:
     east:
-      target_vnum: '4504'
+      target_vnum: '01010454504'
     south:
-      target_vnum: '4500'
+      target_vnum: '01010454500'
     west:
-      target_vnum: '4506'
+      target_vnum: '01010454506'
+  local_id: '4505'
   name: Um Círculo de Montanhas
-  vnum: '4505'
+  vnum: '01010454505'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -89,15 +97,16 @@
     norte, ao leste, ao oeste e ao sul continua o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4505'
+      target_vnum: '01010454505'
     north:
-      target_vnum: '4510'
+      target_vnum: '01010454510'
     south:
-      target_vnum: '4509'
+      target_vnum: 01010454509
     west:
-      target_vnum: '4507'
+      target_vnum: '01010454507'
+  local_id: '4506'
   name: Um Círculo de Montanhas
-  vnum: '4506'
+  vnum: '01010454506'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -105,11 +114,12 @@
     leste e ao sul continua o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4506'
+      target_vnum: '01010454506'
     south:
-      target_vnum: '4508'
+      target_vnum: 01010454508
+  local_id: '4507'
   name: Um Círculo de Montanhas
-  vnum: '4507'
+  vnum: '01010454507'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -117,11 +127,12 @@
     norte e ao leste continua o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4509'
+      target_vnum: 01010454509
     north:
-      target_vnum: '4507'
+      target_vnum: '01010454507'
+  local_id: '4508'
   name: Um Círculo de Montanhas
-  vnum: '4508'
+  vnum: 01010454508
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -129,13 +140,14 @@
     norte, ao leste e ao oeste continua o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4500'
+      target_vnum: '01010454500'
     north:
-      target_vnum: '4506'
+      target_vnum: '01010454506'
     west:
-      target_vnum: '4508'
+      target_vnum: 01010454508
+  local_id: '4509'
   name: Um Círculo de Montanhas
-  vnum: '4509'
+  vnum: 01010454509
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -143,11 +155,12 @@
     sul e ao leste continua o círculo de montanhas.
   exits:
     east:
-      target_vnum: '4512'
+      target_vnum: '01010454512'
     south:
-      target_vnum: '4506'
+      target_vnum: '01010454506'
+  local_id: '4510'
   name: Um Círculo de Montanhas
-  vnum: '4510'
+  vnum: '01010454510'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -155,11 +168,12 @@
     sul e ao oeste continua o círculo de montanhas.
   exits:
     south:
-      target_vnum: '4504'
+      target_vnum: '01010454504'
     west:
-      target_vnum: '4512'
+      target_vnum: '01010454512'
+  local_id: '4511'
   name: Um Círculo de Montanhas
-  vnum: '4511'
+  vnum: '01010454511'
 - description: |-
     Você está num circulo de montanhas altas e escarpadas, aonde é impossível
     de se chegar ao topo à exceção das enormes aves que circulam o local a
@@ -168,13 +182,14 @@
     Em direção ao leste e ao oeste continua o círculo de montanhas.
   exits:
     down:
-      target_vnum: '4513'
+      target_vnum: '01010454513'
     east:
-      target_vnum: '4511'
+      target_vnum: '01010454511'
     west:
-      target_vnum: '4510'
+      target_vnum: '01010454510'
+  local_id: '4512'
   name: Um Círculo de Montanhas
-  vnum: '4512'
+  vnum: '01010454512'
 - description: |-
     Ao passar pela abertura oculta, como se fosse a boca de um túnel escavado
     na dura rocha por águas que tivessem fluído do coração das montanhas, você
@@ -182,24 +197,26 @@
     parte exterior das montanhas, ao norte há um estreito e escuro caminho.
   exits:
     north:
-      target_vnum: '4514'
+      target_vnum: '01010454514'
     up:
-      target_vnum: '4512'
+      target_vnum: '01010454512'
     west:
-      target_vnum: '4599'
+      target_vnum: 01010454599
+  local_id: '4513'
   name: No Interior das Montanhas Circundantes
-  vnum: '4513'
+  vnum: '01010454513'
 - description: |-
     Aqui dentro não há luz alguma e é preciso andar encurvado, pois o teto é
     bastante baixo.  Ao norte você continua por este caminho assustador, para o
     sul você retorna à entrada do túnel.
   exits:
     north:
-      target_vnum: '4515'
+      target_vnum: '01010454515'
     south:
-      target_vnum: '4513'
+      target_vnum: '01010454513'
+  local_id: '4514'
   name: Um Caminho Estreito e Escuro
-  vnum: '4514'
+  vnum: '01010454514'
 - description: |-
     Aqui dentro não há luz alguma e é preciso andar encurvado, pois o teto é
     bastante baixo.  Durante algum tempo você prossegue as cegas, passo a passo,
@@ -208,11 +225,12 @@
     você retorna pelo túnel até a saída.
   exits:
     north:
-      target_vnum: '4516'
+      target_vnum: '01010454516'
     south:
-      target_vnum: '4514'
+      target_vnum: '01010454514'
+  local_id: '4515'
   name: Um Caminho Estreito e Escuro
-  vnum: '4515'
+  vnum: '01010454515'
 - description: |-
     Aqui o ar é fresco e saudável, há um grande espaço a sua volta e também
     acima.  Mas o silêncio é total, e nem mesmo o pingar da água se pode ouvir.
@@ -220,11 +238,12 @@
     caverna ou voltar pelo sul ao caminho estreito.
   exits:
     north:
-      target_vnum: '4517'
+      target_vnum: '01010454517'
     south:
-      target_vnum: '4515'
+      target_vnum: '01010454515'
+  local_id: '4516'
   name: Uma Grande Caverna
-  vnum: '4516'
+  vnum: '01010454516'
 - description: |-
     Você ouve o ruído de passos, crescendo para um tropel alto como a marcha
     de trolls neste lugar oco.  De repente uma lanterna élfica é destapada e seu
@@ -232,11 +251,12 @@
     você volta ao inicio desta caverna.
   exits:
     east:
-      target_vnum: '4518'
+      target_vnum: 01010454518
     south:
-      target_vnum: '4516'
+      target_vnum: '01010454516'
+  local_id: '4517'
   name: A Caverna da Guarda Externa
-  vnum: '4517'
+  vnum: '01010454517'
 - description: |-
     Você caminha por este corredor estreito durante muito tempo sobre um
     chão plano, sempre observado pelos guardas élficos, até que uma luz pálida
@@ -244,11 +264,12 @@
     retorna a caverna da guarda externa.
   exits:
     east:
-      target_vnum: '4519'
+      target_vnum: 01010454519
     west:
-      target_vnum: '4517'
+      target_vnum: '01010454517'
+  local_id: '4518'
   name: Um Corredor Estreito
-  vnum: '4518'
+  vnum: 01010454518
 - description: |-
     Você caminha por este corredor estreito durante muito tempo sobre um chão
     plano, sempre observado pelos guardas élficos, até que uma luz pálida reluz
@@ -256,11 +277,12 @@
     irá voltar por este.
   exits:
     east:
-      target_vnum: '4520'
+      target_vnum: '01010454520'
     west:
-      target_vnum: '4518'
+      target_vnum: 01010454518
+  local_id: '4519'
   name: Um Corredor Estreito
-  vnum: '4519'
+  vnum: 01010454519
 - description: |-
     Você chega, finalmente, a um amplo arco, com colunas altas de ambos os
     lados, esculpidas na rocha, e entre elas está suspenso um grande portão
@@ -270,11 +292,12 @@
     trouxe até aqui.
   exits:
     north:
-      target_vnum: '4521'
+      target_vnum: '01010454521'
     west:
-      target_vnum: '4519'
+      target_vnum: 01010454519
+  local_id: '4520'
   name: O Portão de Madeira
-  vnum: '4520'
+  vnum: '01010454520'
 - description: |-
     Você atravessa o portão de madeira que se abre sem ruído algum.  Aqui é a
     extremidade de uma ravina, tal como nunca antes contemplará ou imaginara.
@@ -283,19 +306,25 @@
     como se cortadas a golpes de machado, e se erguem a alturas inimagináveis.
     Ao noroeste você segue pela ravina, é impossível voltar a partir de agora
     sem ser morto pela guarda do portão de madeira.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '01010454522'
+  local_id: '4521'
   name: Uma Ravina
-  vnum: '4521'
+  vnum: '01010454521'
 - description: |-
     Embora já seja dia claro, estrelas brilham pálidas sobre os cimos das
     montanhas, e lá embaixo tudo é penumbra, a não ser pela luz fraca das
     lanternas colocadas ao longo da estrada ascendente.  Ao oeste você continua
     pela ravina e ao sudeste você volta pelo caminho até o portão de madeira.
   exits:
+    southeast:
+      target_vnum: '01010454521'
     west:
-      target_vnum: '4523'
+      target_vnum: '01010454523'
+  local_id: '4522'
   name: Uma Ravina
-  vnum: '4522'
+  vnum: '01010454522'
 - description: |-
     O piso da ravina apresenta um aclive pronunciado na direção leste e a
     esquerda, ao lado do leito do rio, um caminho longo, calçado com pedras,
@@ -303,11 +332,12 @@
     seguindo para cima ou voltar ao inicio da ravina.
   exits:
     east:
-      target_vnum: '4522'
+      target_vnum: '01010454522'
     up:
-      target_vnum: '4524'
+      target_vnum: '01010454524'
+  local_id: '4523'
   name: Um Caminho Pavimentado
-  vnum: '4523'
+  vnum: '01010454523'
 - description: |-
     O piso da ravina apresenta um aclive pronunciado na direção leste e a
     esquerda, ao lado do leito do rio, um caminho longo, calçado com pedras,
@@ -316,11 +346,12 @@
     cima ou voltar pela ravina.
   exits:
     down:
-      target_vnum: '4523'
+      target_vnum: '01010454523'
     up:
-      target_vnum: '4525'
+      target_vnum: '01010454525'
+  local_id: '4524'
   name: Um Caminho Pavimentado
-  vnum: '4524'
+  vnum: '01010454524'
 - description: |-
     Você não consegue imaginar a que distância esta estrada profundo leva,
     mas percebe que não há mais guardas vigiando seus passos, afinal deste local
@@ -328,11 +359,12 @@
     íngreme, sob a sombra intimidante do penhasco ao seu redor.
   exits:
     down:
-      target_vnum: '4524'
+      target_vnum: '01010454524'
     north:
-      target_vnum: '4526'
+      target_vnum: '01010454526'
+  local_id: '4525'
   name: Um Aclive Sinuoso
-  vnum: '4525'
+  vnum: '01010454525'
 - description: |-
     Escadarias talhadas na própria encosta da montanha, mas você observa que
     são perfeitamente regulares e fica imaginando se foram feitas pelos elfos ou
@@ -340,11 +372,12 @@
     escadarias, sob a sombra intimidante do penhasco ao seu redor.
   exits:
     south:
-      target_vnum: '4525'
+      target_vnum: '01010454525'
     up:
-      target_vnum: '4527'
+      target_vnum: '01010454527'
+  local_id: '4526'
   name: Longas Escadarias
-  vnum: '4526'
+  vnum: '01010454526'
 - description: |-
     E você continua sempre subindo pelas escadarias ou caminhos íngremes,
     até que, a cerca de meia légua do Portão de Madeira você percebe que o
@@ -354,13 +387,14 @@
     Segundo Portão.
   exits:
     down:
-      target_vnum: '4526'
+      target_vnum: '01010454526'
     south:
-      target_vnum: '4598'
+      target_vnum: 01010454598
     west:
-      target_vnum: '4528'
+      target_vnum: 01010454528
+  local_id: '4527'
   name: Próximo ao Segundo Portão
-  vnum: '4527'
+  vnum: '01010454527'
 - description: |-
     No muro há um grande arco sobre a estrada, mas parece ter sido bloqueado
     com uma única pedra enorme.  Ao se aproximar, sua superfície escura e polida
@@ -369,11 +403,12 @@
     pedra girar em torno de seu eixo, abrindo o caminho de ambos os lados.
   exits:
     east:
-      target_vnum: '4527'
+      target_vnum: '01010454527'
     north:
-      target_vnum: '4529'
+      target_vnum: 01010454529
+  local_id: '4528'
   name: O Portão de Pedra
-  vnum: '4528'
+  vnum: 01010454528
 - description: |-
     Você está no pátio do segundo portão, olhando ao redor pode avistar
     muitos soldados élficos armados, trajados de vestes cinzas, protegendo o
@@ -382,10 +417,17 @@
     torres de vigia, enquanto que para nordeste você segue em direção ao
     próximo portão.
   exits:
+    northwest:
+      target_vnum: '01010454534'
     south:
-      target_vnum: '4528'
+      target_vnum: 01010454528
+    southeast:
+      target_vnum: '01010454530'
+    southwest:
+      target_vnum: '01010454531'
+  local_id: '4529'
   name: Um Grande Pátio
-  vnum: '4529'
+  vnum: 01010454529
 - description: |-
     Este parece um local bastante calmo, ideal para que um aventureiro cansado
     e faminto recupere parte de suas energias para seguir o restante do caminho
@@ -393,10 +435,13 @@
     Há uma escada em espiral que leva ao segundo andar da torre no canto sul,
     e a noroeste você retorna ao pátio.
   exits:
+    northeast:
+      target_vnum: 01010454529
     up:
-      target_vnum: '4532'
+      target_vnum: '01010454532'
+  local_id: '4530'
   name: De Baixo da Torre Leste
-  vnum: '4530'
+  vnum: '01010454530'
 - description: |-
     Este parece um local bastante calmo, ideal para que um aventureiro cansado
     e faminto recupere parte de suas energias para seguir o restante do caminho
@@ -404,10 +449,13 @@
     Há uma escada em espiral que leva ao segundo andar da torre no canto sul,
     e a nordeste você retorna ao pátio.
   exits:
+    northwest:
+      target_vnum: 01010454529
     up:
-      target_vnum: '4533'
+      target_vnum: '01010454533'
+  local_id: '4531'
   name: De Baixo da Torre Oeste
-  vnum: '4531'
+  vnum: '01010454531'
 - description: |-
     Você está no alto da torre de vigilância leste do imponente Portão de
     Pedra do reino oculto, deste local olhando para sudeste é possível avistar o
@@ -415,9 +463,10 @@
     para norte você enxerga o pátio e muitos soldados de trajes cinza.
   exits:
     down:
-      target_vnum: '4530'
+      target_vnum: '01010454530'
+  local_id: '4532'
   name: O Topo da Torre Leste
-  vnum: '4532'
+  vnum: '01010454532'
 - description: |-
     Você está no alto da torre de vigilância oeste do imponente Portão de
     Pedra do reino oculto, deste local olhando para sudeste é possível avistar o
@@ -425,9 +474,10 @@
     para norte você enxerga o pátio e muitos soldados de trajes cinza.
   exits:
     down:
-      target_vnum: '4531'
+      target_vnum: '01010454531'
+  local_id: '4533'
   name: O Topo da Torre Oeste
-  vnum: '4533'
+  vnum: '01010454533'
 - description: |-
     Você está no pátio do segundo portão, olhando ao redor pode avistar
     muitos soldados élficos armados, trajados de vestes cinzas, protegendo o
@@ -435,10 +485,13 @@
     Para sudoeste você retorna em direção ao Porta de Pedra, enquanto que
     seguindo a trilha ainda ascendente, irá em direção à cidade.
   exits:
+    southwest:
+      target_vnum: 01010454529
     up:
-      target_vnum: '4535'
+      target_vnum: '01010454535'
+  local_id: '4534'
   name: Um Grande Pátio
-  vnum: '4534'
+  vnum: '01010454534'
 - description: |-
     Você sobe por esta longa trilha, no interior das montanhas, que leva
     sempre para cima.  Após muito subir, o caminho torna-se novamente plano e
@@ -446,13 +499,14 @@
     enorme muralha adiante.
   exits:
     down:
-      target_vnum: '4534'
+      target_vnum: '01010454534'
     east:
-      target_vnum: '4536'
+      target_vnum: '01010454536'
     west:
-      target_vnum: '4597'
+      target_vnum: 01010454597
+  local_id: '4535'
   name: Trilha Ascendente
-  vnum: '4535'
+  vnum: '01010454535'
 - description: |-
     Você chega em uma muralha ainda mais forte e alta do que a anterior,
     e nesta está instalado o Terceiro Portão.  Há uma grande porta dupla
@@ -464,11 +518,12 @@
     alinhadas como tochas ao longo da muralha.
   exits:
     east:
-      target_vnum: '4537'
+      target_vnum: '01010454537'
     west:
-      target_vnum: '4535'
+      target_vnum: '01010454535'
+  local_id: '4536'
   name: O Portão de Bronze
-  vnum: '4536'
+  vnum: '01010454536'
 - description: |-
     Você passa pelo portão de bronze e vê no pátio do outro lado uma companhia
     ainda maior de guardas, em cotas de malha que refulgem pálidas como o fogo
@@ -478,20 +533,26 @@
     Ao oeste você retorna pela passagem do grande portão, enquanto que para
     sudeste você segue por uma difícil trilha.
   exits:
+    southeast:
+      target_vnum: 01010454538
     west:
-      target_vnum: '4536'
+      target_vnum: '01010454536'
+  local_id: '4537'
   name: O Pátio do Terceiro Portão
-  vnum: '4537'
+  vnum: '01010454537'
 - description: |-
     Você chega então ao caminho mais cansativo, pois no meio do Orfalch o
     aclive é o mais íngreme, além disto a trilha é estreita, permitindo a
     passagem apenas em fila.  Enquanto sobe você observa a maior de todas as
     muralhas assomando sombria acima.
   exits:
+    southwest:
+      target_vnum: '01010454537'
     up:
-      target_vnum: '4539'
+      target_vnum: 01010454539
+  local_id: '4538'
   name: "O Aclive Ã\x8Dngreme"
-  vnum: '4538'
+  vnum: 01010454538
 - description: |-
     Você chega então ao caminho mais cansativo, pois no meio do Orfalch o
     aclive é o mais íngreme, além disto a trilha é estreita, permitindo a
@@ -499,11 +560,12 @@
     muralhas assomando sombria acima.
   exits:
     down:
-      target_vnum: '4538'
+      target_vnum: 01010454538
     up:
-      target_vnum: '4540'
+      target_vnum: '01010454540'
+  local_id: '4539'
   name: "O Aclive Ã\x8Dngreme"
-  vnum: '4539'
+  vnum: 01010454539
 - description: |-
     Você chega ao final deste caminho cansativo e íngreme, e depara-se com
     a maior de todas as muralhas.  Um caminho, muito bem cuidado segue para
@@ -511,13 +573,14 @@
     desce pelo caminho estreito em direção ao Terceiro Portão.
   exits:
     down:
-      target_vnum: '4539'
+      target_vnum: 01010454539
     east:
-      target_vnum: '4596'
+      target_vnum: 01010454596
     west:
-      target_vnum: '4541'
+      target_vnum: '01010454541'
+  local_id: '4540'
   name: "O Aclive Ã\x8Dngreme"
-  vnum: '4540'
+  vnum: '01010454540'
 - description: |-
     Você aproxima-se por fim do Quarto Portão, o Portão de Ferro Forjado.
     Alta e negra é a sua muralha, e nenhuma lâmpada a ilumina.  Quatro torres
@@ -528,11 +591,12 @@
     em direção ao caminho íngreme que o trouxe até aqui.
   exits:
     east:
-      target_vnum: '4540'
+      target_vnum: '01010454540'
     west:
-      target_vnum: '4542'
+      target_vnum: '01010454542'
+  local_id: '4541'
   name: A Muralha do Quarto Portão
-  vnum: '4541'
+  vnum: '01010454541'
 - description: |-
     Quando você para diante do portão, parece aos seus olhos maravilhados
     que olha, através de ramos e troncos de árvores imperecíveis, para dentro
@@ -545,11 +609,12 @@
     desenho; mas a luz do outro lado é a luz do dia.
   exits:
     east:
-      target_vnum: '4541'
+      target_vnum: '01010454541'
     north:
-      target_vnum: '4543'
+      target_vnum: '01010454543'
+  local_id: '4542'
   name: O Portão de Ferro Forjado
-  vnum: '4542'
+  vnum: '01010454542'
 - description: |-
     Você passou pela entrada do Portão de Ferro Forjado e depara-se,
     finalmente, com a luz do dia.  Agora já subiu a grande altura acima das
@@ -562,11 +627,14 @@
     ravina.
   exits:
     east:
-      target_vnum: '4595'
+      target_vnum: 01010454595
+    northwest:
+      target_vnum: '01010454544'
     south:
-      target_vnum: '4542'
+      target_vnum: '01010454542'
+  local_id: '4543'
   name: Dentro do Quarto Portão
-  vnum: '4543'
+  vnum: '01010454543'
 - description: |-
     Está seguindo pela ravina, suas longas margens estão recobertas de neve
     branca, e a luz do firmamento, espelhada pela neve, passa branca como o
@@ -576,9 +644,12 @@
     que ostentam cada uma um bico de águia.
   exits:
     east:
-      target_vnum: '4545'
+      target_vnum: '01010454545'
+    southwest:
+      target_vnum: '01010454543'
+  local_id: '4544'
   name: As Fileiras dos Guardas de Ferro
-  vnum: '4544'
+  vnum: '01010454544'
 - description: |-
     Então você segue a frente, entrando na luz pálida; e vê ao lado do
     caminho um gramado, onde crescem como estrelas as flores brancas de uilos,
@@ -588,23 +659,29 @@
     próximo portão.
   exits:
     north:
-      target_vnum: '4594'
+      target_vnum: 01010454594
+    southeast:
+      target_vnum: '01010454546'
     west:
-      target_vnum: '4544'
+      target_vnum: '01010454544'
+  local_id: '4545'
   name: O Caminho Gramado
-  vnum: '4545'
+  vnum: '01010454545'
 - description: "O muro do Quinto Portão é construído de mármore branco, e é baixo\
     \ e\nlargo; seu parapeito é uma treliça de prata entre cinco grandes globos\n\
     de mármore; e lá estão postados muitos arqueiros de vestes brancas.\nO portão\
     \ tem a forma de três quartos de círculo, e é trabalhado em\nprata e pérolas de\
-    \ Nevrast com imagens da Lua; mais acima do Portão,\nsobre o globo central, hÃ¡\
+    \ Nevrast com imagens da Lua; mais acima do Portão,\nsobre o globo central, há\
     \ uma imagem da Ã\x81rvore Branca Telperion, lavrada\nem prata e malaquita com\
     \ flores feitas de grandes pérolas de Balar."
   exits:
     north:
-      target_vnum: '4547'
+      target_vnum: '01010454547'
+    northeast:
+      target_vnum: '01010454545'
+  local_id: '4546'
   name: O Portão de Prata
-  vnum: '4546'
+  vnum: '01010454546'
 - description: |-
     Você está em um amplo pátio calçado de mármore, verde e branco, onde
     estão parados arqueiros em cota de malha de prata e elmos de cristas
@@ -615,11 +692,12 @@
     de uilos abrem-se muitas florezinhas como olhos de ouro.
   exits:
     north:
-      target_vnum: '4548'
+      target_vnum: 01010454548
     south:
-      target_vnum: '4546'
+      target_vnum: '01010454546'
+  local_id: '4547'
   name: O Pátio de Prata
-  vnum: '4547'
+  vnum: '01010454547'
 - description: |-
     A medida em que você avança, o gramado torna-se mais largo, e entre as
     estrelas brancas de uilos abrem-se muitas florezinhas como olhos de ouro.
@@ -629,26 +707,30 @@
     Para sul você avista um belíssimo pátio de mármore, ou pode seguir para
     oeste, chegando ao magnífico Portão de Ouro.
   exits:
+    northeast:
+      target_vnum: 01010454593
     south:
-      target_vnum: '4547'
+      target_vnum: '01010454547'
     west:
-      target_vnum: '4549'
+      target_vnum: 01010454549
+  local_id: '4548'
   name: Estrada para o Sexto Portão
-  vnum: '4548'
+  vnum: 01010454548
 - description: "Muito semelhante ao Portão de Prata, exceto que o muro é construído\
     \ de\nmármore amarelo, e os globos e o parapeito são de ouro vermelho.  São seis\n\
     globos e, no meio, sobre uma pirâmide dourada, esta fixada uma imagem de\nLaurelin,\
-    \ a Ã\x81rvore do Sol, com flores feitas de topÃ¡zio, em longos cachos\nem correntes\
+    \ a Ã\x81rvore do Sol, com flores feitas de topázio, em longos cachos\nem correntes\
     \ de ouro.  O próprio Portão é adornado com discos de ouro, de\nmuitos raios,\
     \ à semelhança do Sol, engastados entre desenhos de granadas,\ntopázios e diamantes\
     \ amarelos."
   exits:
     east:
-      target_vnum: '4548'
+      target_vnum: 01010454548
     north:
-      target_vnum: '4550'
+      target_vnum: '01010454550'
+  local_id: '4549'
   name: O Portão Dourado
-  vnum: '4549'
+  vnum: 01010454549
 - description: |-
     Deste lado do Portão de Ouro, estão perfilados trezentos arqueiros com
     arcos longos e sua malha é coberta de ouro; altas plumas douradas erguem-se
@@ -658,11 +740,14 @@
     na direção sul-oeste, pode ver uma bela estrada.
   exits:
     north:
-      target_vnum: '4592'
+      target_vnum: 01010454592
     south:
-      target_vnum: '4549'
+      target_vnum: 01010454549
+    southwest:
+      target_vnum: '01010454551'
+  local_id: '4550'
   name: O Pátio Dourado
-  vnum: '4550'
+  vnum: '01010454550'
 - description: |-
     A luz do sol cai sobre o restante da estrada, pois as muralhas das colinas
     são baixas de ambos os lados e verdes, exceto pela neve nos cimos.
@@ -672,11 +757,14 @@
     já é possível avistar o Sétimo Portão.
   exits:
     north:
-      target_vnum: '4552'
+      target_vnum: '01010454552'
+    northwest:
+      target_vnum: '01010454550'
     west:
-      target_vnum: '4591'
+      target_vnum: 01010454591
+  local_id: '4551'
   name: A Estrada Curta
-  vnum: '4551'
+  vnum: '01010454551'
 - description: |-
     Aqui não há muro, mas dos dois lados há torres redondas de grande altura,
     com muitas janelas, que, em sete andares, se afilam em torreões de aço
@@ -691,11 +779,12 @@
     de diamantes.  Você não consegue ver porta ou portão.
   exits:
     north:
-      target_vnum: '4553'
+      target_vnum: '01010454553'
     south:
-      target_vnum: '4551'
+      target_vnum: '01010454551'
+  local_id: '4552'
   name: Contemplando o Sétimo Portão
-  vnum: '4552'
+  vnum: '01010454552'
 - description: |-
     Você não consegue ver porta ou portão nesta enorme sebe de aço, mas,
     à medida que se aproxima, parece-lhe que sai pelos espaços entre as barras
@@ -708,11 +797,12 @@
     Gondolin, também é possível voltar pela estrada sul.
   exits:
     north:
-      target_vnum: '4554'
+      target_vnum: '01010454554'
     south:
-      target_vnum: '4552'
+      target_vnum: '01010454552'
+  local_id: '4553'
   name: O Portão de Aço
-  vnum: '4553'
+  vnum: '01010454553'
 - description: |-
     Você passa pelo portão então e, chega a um alto gramado de onde se divisa
     o vale mais além, ao nordeste, contemplando uma visão de Gondolin em meio a
@@ -722,12 +812,15 @@
     Gondolin; estão representados todos os sete grupos dos Sete Portões; mas
     seus capitães e comandantes montam cavalos, brancos e cinzentos.
   exits:
+    northwest:
+      target_vnum: '01010454555'
     south:
-      target_vnum: '4553'
+      target_vnum: '01010454553'
     west:
-      target_vnum: '4590'
+      target_vnum: 01010454590
+  local_id: '4554'
   name: O Alto Gramado
-  vnum: '4554'
+  vnum: '01010454554'
 - description: |-
     Deste local você contempla o belo vale de Tumladen, engastado como uma
     pedra preciosa verde no meio das colinas circundantes.  E vê ao longe, ao
@@ -736,9 +829,12 @@
     moradas dos elfos nas Terras de Cá.  Para sudoeste você vê um campo gramado.
   exits:
     east:
-      target_vnum: '4556'
+      target_vnum: '01010454556'
+    southwest:
+      target_vnum: '01010454554'
+  local_id: '4555'
   name: O Vale de Tumladen
-  vnum: '4555'
+  vnum: '01010454555'
 - description: |-
     Você vê ao longe, ao leste, sobre a elevação rochosa do Amon Gwareth,
     Gondolin, a esplêndida, a cidade dos sete nomes, cuja fama e glória é a
@@ -747,11 +843,12 @@
     visíveis estão coloridas pelo rosado alvorecer sobre a planíce.
   exits:
     east:
-      target_vnum: '4557'
+      target_vnum: '01010454557'
     west:
-      target_vnum: '4555'
+      target_vnum: '01010454555'
+  local_id: '4556'
   name: O Vale de Tumladen
-  vnum: '4556'
+  vnum: '01010454556'
 - description: |-
     As alvas muralhas da cidade de Gondolin são esplendidas, com o rosado
     alvorecer adquirem diversos tons.  Você atravessou todo o Vale de Tumladen
@@ -762,11 +859,12 @@
     segurando grandes lanças na entrada da cidade.
   exits:
     south:
-      target_vnum: '4558'
+      target_vnum: 01010454558
     west:
-      target_vnum: '4556'
+      target_vnum: '01010454556'
+  local_id: '4557'
   name: As Muralhas de Gondolin
-  vnum: '4557'
+  vnum: '01010454557'
 - description: |-
     Atravessando o portão, você olha ao seu redor e percebe que está num
     grande pátio que circunda toda a extensão da muralha ao redor de Gondolin,
@@ -777,15 +875,16 @@
     ficam naquele patamar superior.
   exits:
     east:
-      target_vnum: '4559'
+      target_vnum: 01010454559
     north:
-      target_vnum: '4557'
+      target_vnum: '01010454557'
     up:
-      target_vnum: '4561'
+      target_vnum: '01010454561'
     west:
-      target_vnum: '4560'
+      target_vnum: '01010454560'
+  local_id: '4558'
   name: O Pátio da Muralha
-  vnum: '4558'
+  vnum: 01010454558
 - description: |-
     Você olha ao seu redor e percebe que está num grande pátio que circunda
     toda a extensão da muralha ao redor de Gondolin, muitos soldados élficos
@@ -794,11 +893,12 @@
     Turgon ficam naquele patamar superior, subindo a grande escada de mármore.
   exits:
     east:
-      target_vnum: '4560'
+      target_vnum: '01010454560'
     west:
-      target_vnum: '4558'
+      target_vnum: 01010454558
+  local_id: '4559'
   name: O Pátio da Muralha
-  vnum: '4559'
+  vnum: 01010454559
 - description: |-
     Você olha ao seu redor e percebe que está num grande pátio que circunda
     toda a extensão da muralha ao redor de Gondolin, muitos soldados élficos
@@ -807,11 +907,12 @@
     Turgon ficam naquele patamar superior, subindo a grande escada de mármore.
   exits:
     east:
-      target_vnum: '4558'
+      target_vnum: 01010454558
     west:
-      target_vnum: '4559'
+      target_vnum: 01010454559
+  local_id: '4560'
   name: O Pátio da Muralha
-  vnum: '4560'
+  vnum: '01010454560'
 - description: |-
     Subindo pela grande escadaria de mármore esculpida pelos habilidosos
     noldor, você chega a praça central da cidade e a admira por alguns instantes,
@@ -822,15 +923,16 @@
     pavimentado leva ao palácio, enquanto que ao leste e oeste há ruas secundárias.
   exits:
     down:
-      target_vnum: '4558'
+      target_vnum: 01010454558
     east:
-      target_vnum: '4580'
+      target_vnum: 01010454580
     south:
-      target_vnum: '4562'
+      target_vnum: '01010454562'
     west:
-      target_vnum: '4585'
+      target_vnum: 01010454585
+  local_id: '4561'
   name: A Praça Central de Ondolindë
-  vnum: '4561'
+  vnum: '01010454561'
 - description: |-
     Você caminha pelos caminho pavimentado de granito, sempre observando os
     delicados jardins cultivados pelos elfos de Ondolindë, a sua frente a Torre
@@ -839,11 +941,12 @@
     sul continua a alameda.
   exits:
     north:
-      target_vnum: '4561'
+      target_vnum: '01010454561'
     south:
-      target_vnum: '4563'
+      target_vnum: '01010454563'
+  local_id: '4562'
   name: A Alameda Central
-  vnum: '4562'
+  vnum: '01010454562'
 - description: |-
     Você caminha pelos caminho pavimentado de granito, sempre observando os
     delicados jardins cultivados pelos elfos de Ondolindë, a sua frente a Torre
@@ -852,18 +955,24 @@
     sudeste está o arco de entrada da Torre do Rei.
   exits:
     north:
-      target_vnum: '4562'
+      target_vnum: '01010454562'
+    southeast:
+      target_vnum: '01010454564'
+  local_id: '4563'
   name: A Alameda Central
-  vnum: '4563'
+  vnum: '01010454563'
 - description: "Altas e brancas são as muralhas da forte e elevada Torre do Rei, a\
     \ porta do\narco de entrada é de madeira, com imagens de ouro e prata em alto\
     \ relevo das\nÃ\x81rvores de outrora.\nDois sentinelas vigiam o arco da torre,\
     \ mas lhe permitem a entrada, parece\nque a sua chegada já estava sendo aguardada."
   exits:
     east:
-      target_vnum: '4565'
+      target_vnum: '01010454565'
+    northeast:
+      target_vnum: '01010454563'
+  local_id: '4564'
   name: O Arco de Entrada
-  vnum: '4564'
+  vnum: '01010454564'
 - description: |-
     Passando pelo grande arco de entrada, você chega num enorme salão com as paredes
     e o teto de mármore esverdeado.  Doze pilares de prata trabalhada, estão dispostos
@@ -874,15 +983,16 @@
     a outra, no sentido sul, brilhando num tom prateado.
   exits:
     east:
-      target_vnum: '4568'
+      target_vnum: 01010454568
     north:
-      target_vnum: '4567'
+      target_vnum: '01010454567'
     south:
-      target_vnum: '4566'
+      target_vnum: '01010454566'
     west:
-      target_vnum: '4564'
+      target_vnum: '01010454564'
+  local_id: '4565'
   name: O Salão de Entrada da Torre
-  vnum: '4565'
+  vnum: '01010454565'
 - description: "Dentre todas as maravilhas de Gondolin, você encontra-se diante de\
     \ uma das\nmaiores.  Neste maravilhoso jardim está Belthil, a árvore das flores\
     \ de prata,\na imagem de Telperion, a Ã\x81rvore Branca, a mais velha das Antigas\
@@ -892,21 +1002,23 @@
     \ de um\nverde-escuro, você deseja, poder voltar novamente à estes jardins."
   exits:
     north:
-      target_vnum: '4565'
+      target_vnum: '01010454565'
+  local_id: '4566'
   name: O Santuário de Telperion
-  vnum: '4566'
+  vnum: '01010454566'
 - description: "Dentre todas as maravilhas de Gondolin, você encontra-se diante de\
     \ uma das\nmaiores.  Neste maravilhoso jardim está Glingal, a árvore das folhas\
-    \ de ouro,\na imagem de Laurelin, a CanÃ§Ã£o de Ouro, a mais jovem das Antigas\
-    \ Ã\x81rvores de\nValinor criadas por Yavanna, uma das Valier.\nGlingal foi esculpida\
+    \ de ouro,\na imagem de Laurelin, a Canção de Ouro, a mais jovem das Antigas Ã\x81\
+    rvores de\nValinor criadas por Yavanna, uma das Valier.\nGlingal foi esculpida\
     \ pelas mãos do próprio Turgon, um dos mais habilidosos\nelfos, mesmo dentre os\
     \ nondor.\nEm torno da árvore de ouro há um belo jardim de árvores com folhas\
     \ de um\nverde viçoso, você deseja, poder voltar novamente à estes jardins."
   exits:
     south:
-      target_vnum: '4565'
+      target_vnum: '01010454565'
+  local_id: '4567'
   name: O Santuário de Laurelin
-  vnum: '4567'
+  vnum: '01010454567'
 - description: |-
     Esta escadaria espiral de mármore une o andar inferior da Torre do Rei ao
     segundo andar, seus degraus são de mármore e seu corrimão de prata trabalhada.
@@ -914,13 +1026,14 @@
     andar.
   exits:
     down:
-      target_vnum: '4577'
+      target_vnum: '01010454577'
     up:
-      target_vnum: '4569'
+      target_vnum: 01010454569
     west:
-      target_vnum: '4565'
+      target_vnum: '01010454565'
+  local_id: '4568'
   name: As Escadas do Primeiro Andar
-  vnum: '4568'
+  vnum: 01010454568
 - description: |-
     Esta escadaria espiral de mármore une o segundo andar da Torre do Rei ao
     primeiro e terceiro andar, seus degraus são de mármore e seu corrimão de prata
@@ -929,13 +1042,14 @@
     escadas.
   exits:
     down:
-      target_vnum: '4568'
+      target_vnum: 01010454568
     up:
-      target_vnum: '4574'
+      target_vnum: '01010454574'
     west:
-      target_vnum: '4570'
+      target_vnum: '01010454570'
+  local_id: '4569'
   name: As Escadas do Segundo Andar
-  vnum: '4569'
+  vnum: 01010454569
 - description: |-
     Este, como todos os outros salões da forte e bela torre, lhe faz parar
     alguns instantes espantado de admiração pela habilidade destes elfos.
@@ -946,13 +1060,14 @@
     aposentos reais e dos capitães de Gondolin.  A grande maioria está trancada.
   exits:
     east:
-      target_vnum: '4569'
+      target_vnum: 01010454569
     south:
-      target_vnum: '4572'
+      target_vnum: '01010454572'
     west:
-      target_vnum: '4571'
+      target_vnum: '01010454571'
+  local_id: '4570'
   name: O Salão de Cristal
-  vnum: '4570'
+  vnum: '01010454570'
 - description: |-
     Várias poltronas de veludo negro estão dispostas neste aposento usado
     pelos capitães e membros da família real, ao aguardarem por uma audiência
@@ -960,9 +1075,10 @@
     estofada com veludo vermelho, de onde o Rei costuma das conselhos.
   exits:
     east:
-      target_vnum: '4570'
+      target_vnum: '01010454570'
+  local_id: '4571'
   name: A Sala de Espera do Rei
-  vnum: '4571'
+  vnum: '01010454571'
 - description: |-
     Estes são os aposentos de Tuor e Idril, a filha do Rei.  Tudo é belo e
     luxuoso, belíssimos tapetes ornamentam o piso de mármore e quadros ilustrando
@@ -971,11 +1087,12 @@
     restante dos aposentos da princesa e também ao quarto de Eärendil, seu filho.
   exits:
     north:
-      target_vnum: '4570'
+      target_vnum: '01010454570'
     south:
-      target_vnum: '4573'
+      target_vnum: '01010454573'
+  local_id: '4572'
   name: Os Aposentos de Idril
-  vnum: '4572'
+  vnum: '01010454572'
 - description: |-
     Este é o quarto do pequeno Eärendil, filho de Tuor e Idril.  As paredes e
     o piso são esverdeados, e nas paredes há algumas imagens do Mar e de grandes
@@ -985,9 +1102,10 @@
     veio.
   exits:
     north:
-      target_vnum: '4572'
+      target_vnum: '01010454572'
+  local_id: '4573'
   name: O Quarto de Eärendil
-  vnum: '4573'
+  vnum: '01010454573'
 - description: |-
     Esta escadaria espiral de mármore une o terceiro andar da Torre do Rei ao
     segundo andar, seus degraus são de mármore e seu corrimão de prata trabalhada.
@@ -995,11 +1113,12 @@
     entrada e para baixo há as escadas que descem para os andares inferiores.
   exits:
     down:
-      target_vnum: '4569'
+      target_vnum: 01010454569
     west:
-      target_vnum: '4575'
+      target_vnum: '01010454575'
+  local_id: '4574'
   name: As Escadas do Terceiro Andar
-  vnum: '4574'
+  vnum: '01010454574'
 - description: "Um vasto salão ocupa o andar inteiro da Torre do Rei, neste local\
     \ Turgon\ngoverna sabiamente o reino de Ondolindë.  Há um belo trono de ouro sobre\
     \ um\nestrado de mármore verde do lado oposto da porta de entrada.  Há uma enorme\n\
@@ -1008,20 +1127,22 @@
     \ chega ao conhecimento do Rei através delas."
   exits:
     east:
-      target_vnum: '4574'
+      target_vnum: '01010454574'
     west:
-      target_vnum: '4576'
+      target_vnum: '01010454576'
+  local_id: '4575'
   name: O Salão de Audiências
-  vnum: '4575'
-- description: "Ã\x89 permitido a entrada a esta sala apenas aos membros da famÃ­lia\
+  vnum: '01010454575'
+- description: "Ã\x89 permitido a entrada a esta sala apenas aos membros da família\
     \ real,\nse você não faz parte dela sofrerá uma grande punição caso seja pego\
     \ aqui.\nMuitas pedras preciosas, estão espalhados por urnas de prata, você encontra\n\
     diamantes, rubis, safiras... também há muita prata, ouro e mithril."
   exits:
     east:
-      target_vnum: '4575'
+      target_vnum: '01010454575'
+  local_id: '4576'
   name: A Sala do Tesouro
-  vnum: '4576'
+  vnum: '01010454576'
 - description: |-
     Estes são túneis foram construídos secretamente por Turgon e conhecidos
     apenas por ele e Idril.  Alertado por Ulmo antes da construção de Gondolin
@@ -1029,17 +1150,18 @@
     túnel que passa por baixo da cidade até o exterior das montanhas Circundantes.
   exits:
     east:
-      target_vnum: '4578'
+      target_vnum: 01010454578
     north:
-      target_vnum: '4578'
+      target_vnum: 01010454578
     south:
-      target_vnum: '4578'
+      target_vnum: 01010454578
     up:
-      target_vnum: '4568'
+      target_vnum: 01010454568
     west:
-      target_vnum: '4578'
+      target_vnum: 01010454578
+  local_id: '4577'
   name: Os Túneis de Fuga
-  vnum: '4577'
+  vnum: '01010454577'
 - description: |-
     Estes são túneis foram construídos secretamente por Turgon e conhecidos
     apenas por ele e Idril.  Alertado por Ulmo antes da construção de Gondolin
@@ -1048,15 +1170,24 @@
     Há muitos labirintos e você a esta altura já está completamente perdido.
   exits:
     east:
-      target_vnum: '4578'
+      target_vnum: 01010454578
     north:
-      target_vnum: '4577'
+      target_vnum: '01010454577'
+    northeast:
+      target_vnum: 01010454578
+    northwest:
+      target_vnum: 01010454579
     south:
-      target_vnum: '4578'
+      target_vnum: 01010454578
+    southeast:
+      target_vnum: 01010454578
+    southwest:
+      target_vnum: 01010454578
     west:
-      target_vnum: '4578'
+      target_vnum: 01010454578
+  local_id: '4578'
   name: Os Túneis de Fuga
-  vnum: '4578'
+  vnum: 01010454578
 - description: |-
     Estes são túneis foram construídos secretamente por Turgon e conhecidos
     apenas por ele e Idril.  Alertado por Ulmo antes da construção de Gondolin
@@ -1065,15 +1196,24 @@
     Há muitos labirintos e você a esta altura já está completamente perdido.
   exits:
     east:
-      target_vnum: '4579'
+      target_vnum: 01010454579
     north:
-      target_vnum: '4579'
+      target_vnum: 01010454579
+    northeast:
+      target_vnum: 01010454579
+    northwest:
+      target_vnum: 01010454579
     south:
-      target_vnum: '4579'
+      target_vnum: 01010454579
+    southeast:
+      target_vnum: '01010454500'
+    southwest:
+      target_vnum: 01010454578
     west:
-      target_vnum: '4579'
+      target_vnum: 01010454579
+  local_id: '4579'
   name: Os Túneis de Fuga
-  vnum: '4579'
+  vnum: 01010454579
 - description: |-
     Esta é a parte ocidental de Ondolindë, a Canção de Pedra.  Alguns alegres
     elfos caminham alegremente, despreocupados, pois a segurança dos sete portões
@@ -1083,11 +1223,12 @@
     agitação da praça central à oeste, e ao leste continua pelas ruas.
   exits:
     east:
-      target_vnum: '4581'
+      target_vnum: 01010454581
     west:
-      target_vnum: '4561'
+      target_vnum: '01010454561'
+  local_id: '4580'
   name: As Ruas de Gondolin
-  vnum: '4580'
+  vnum: 01010454580
 - description: |-
     Esta é a parte ocidental de Ondolindë, a Canção de Pedra.  Alguns alegres
     elfos caminham alegremente, despreocupados, pois a segurança dos sete portões
@@ -1096,15 +1237,16 @@
     casas são muito bem construídas, e de tonalidades claras.
   exits:
     east:
-      target_vnum: '4584'
+      target_vnum: 01010454584
     north:
-      target_vnum: '4582'
+      target_vnum: 01010454582
     south:
-      target_vnum: '4583'
+      target_vnum: 01010454583
     west:
-      target_vnum: '4580'
+      target_vnum: 01010454580
+  local_id: '4581'
   name: As Ruas de Gondolin
-  vnum: '4581'
+  vnum: 01010454581
 - description: |-
     Esta casa é muito bela, grandes tapetes estão estendidos pelo chão,
     tornando o ambiente muito agradável.  As paredes são brancas e no teto
@@ -1113,9 +1255,10 @@
     taça de vinho, em troca querem apenas noticias do mundo exterior.
   exits:
     south:
-      target_vnum: '4581'
+      target_vnum: 01010454581
+  local_id: '4582'
   name: Uma Bela Casa
-  vnum: '4582'
+  vnum: 01010454582
 - description: |-
     Esta casa é muito bela, grandes tapetes estão estendidos pelo chão,
     tornando o ambiente muito agradável.  As paredes são brancas e no teto
@@ -1124,9 +1267,10 @@
     taça de vinho, em troca querem apenas noticias do mundo exterior.
   exits:
     north:
-      target_vnum: '4581'
+      target_vnum: 01010454581
+  local_id: '4583'
   name: Uma Bela Casa
-  vnum: '4583'
+  vnum: 01010454583
 - description: |-
     Esta é a parte ocidental de Ondolindë, a Canção de Pedra.  Alguns alegres
     elfos caminham alegremente, despreocupados, pois a segurança dos sete portões
@@ -1135,11 +1279,12 @@
     casas são muito bem construídas, e de tonalidades claras.
   exits:
     east:
-      target_vnum: '4589'
+      target_vnum: 01010454589
     west:
-      target_vnum: '4581'
+      target_vnum: 01010454581
+  local_id: '4584'
   name: As Ruas de Gondolin
-  vnum: '4584'
+  vnum: 01010454584
 - description: |-
     Esta é a parte ocidental de Ondolindë, a Canção de Pedra.  Alguns alegres
     elfos caminham alegremente, despreocupados, pois a segurança dos sete portões
@@ -1149,11 +1294,12 @@
     agitação da praça central à leste, e ao oeste continua pelas ruas.
   exits:
     east:
-      target_vnum: '4561'
+      target_vnum: '01010454561'
     west:
-      target_vnum: '4586'
+      target_vnum: 01010454586
+  local_id: '4585'
   name: As Ruas de Gondolin
-  vnum: '4585'
+  vnum: 01010454585
 - description: |-
     Esta é a parte ocidental de Ondolindë, a Canção de Pedra.  Alguns alegres
     elfos caminham alegremente, despreocupados, pois a segurança dos sete portões
@@ -1162,15 +1308,16 @@
     casas são muito bem construídas, e de tonalidades claras.
   exits:
     east:
-      target_vnum: '4585'
+      target_vnum: 01010454585
     north:
-      target_vnum: '4587'
+      target_vnum: 01010454587
     south:
-      target_vnum: '4588'
+      target_vnum: 01010454588
     west:
-      target_vnum: '4589'
+      target_vnum: 01010454589
+  local_id: '4586'
   name: As Ruas de Gondolin
-  vnum: '4586'
+  vnum: 01010454586
 - description: |-
     Esta casa é muito bela, grandes tapetes estão estendidos pelo chão,
     tornando o ambiente muito agradável.  As paredes são brancas e no teto
@@ -1179,9 +1326,10 @@
     taça de vinho, em troca querem apenas noticias do mundo exterior.
   exits:
     south:
-      target_vnum: '4586'
+      target_vnum: 01010454586
+  local_id: '4587'
   name: Uma Bela Casa
-  vnum: '4587'
+  vnum: 01010454587
 - description: |-
     Esta casa é muito bela, grandes tapetes estão estendidos pelo chão,
     tornando o ambiente muito agradável.  As paredes são brancas e no teto
@@ -1190,9 +1338,10 @@
     taça de vinho, em troca querem apenas noticias do mundo exterior.
   exits:
     north:
-      target_vnum: '4586'
+      target_vnum: 01010454586
+  local_id: '4588'
   name: Uma Bela Casa
-  vnum: '4588'
+  vnum: 01010454588
 - description: |-
     Esta é a parte ocidental de Ondolindë, a Canção de Pedra.  Alguns alegres
     elfos caminham alegremente, despreocupados, pois a segurança dos sete portões
@@ -1201,11 +1350,12 @@
     casas são muito bem construídas, e de tonalidades claras.
   exits:
     east:
-      target_vnum: '4586'
+      target_vnum: 01010454586
     west:
-      target_vnum: '4584'
+      target_vnum: 01010454584
+  local_id: '4589'
   name: As Ruas de Gondolin
-  vnum: '4589'
+  vnum: 01010454589
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1215,11 +1365,12 @@
     na cidade pelo rio.
   exits:
     east:
-      target_vnum: '4554'
+      target_vnum: '01010454554'
     south:
-      target_vnum: '4591'
+      target_vnum: 01010454591
+  local_id: '4590'
   name: O Rio de Gondolin
-  vnum: '4590'
+  vnum: 01010454590
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1229,9 +1380,12 @@
     na cidade pelo rio.
   exits:
     east:
-      target_vnum: '4551'
+      target_vnum: '01010454551'
+    northwest:
+      target_vnum: 01010454592
+  local_id: '4591'
   name: O Rio de Gondolin
-  vnum: '4591'
+  vnum: 01010454591
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1241,11 +1395,12 @@
     na cidade pelo rio.
   exits:
     east:
-      target_vnum: '4593'
+      target_vnum: 01010454593
     south:
-      target_vnum: '4550'
+      target_vnum: '01010454550'
+  local_id: '4592'
   name: O Rio de Gondolin
-  vnum: '4592'
+  vnum: 01010454592
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1255,9 +1410,12 @@
     na cidade pelo rio.
   exits:
     south:
-      target_vnum: '4594'
+      target_vnum: 01010454594
+    southeast:
+      target_vnum: 01010454548
+  local_id: '4593'
   name: O Rio de Gondolin
-  vnum: '4593'
+  vnum: 01010454593
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1267,11 +1425,12 @@
     na cidade pelo rio.
   exits:
     south:
-      target_vnum: '4545'
+      target_vnum: '01010454545'
     west:
-      target_vnum: '4595'
+      target_vnum: 01010454595
+  local_id: '4594'
   name: O Rio de Gondolin
-  vnum: '4594'
+  vnum: 01010454594
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1281,11 +1440,12 @@
     na cidade pelo rio.
   exits:
     south:
-      target_vnum: '4596'
+      target_vnum: 01010454596
     west:
-      target_vnum: '4543'
+      target_vnum: '01010454543'
+  local_id: '4595'
   name: O Rio de Gondolin
-  vnum: '4595'
+  vnum: 01010454595
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1294,10 +1454,13 @@
     sentido interno da cidade para o exterior das montanhas, evitando a entrada
     na cidade pelo rio.
   exits:
+    southwest:
+      target_vnum: 01010454597
     west:
-      target_vnum: '4540'
+      target_vnum: '01010454540'
+  local_id: '4596'
   name: O Rio de Gondolin
-  vnum: '4596'
+  vnum: 01010454596
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1307,11 +1470,12 @@
     na cidade pelo rio.
   exits:
     east:
-      target_vnum: '4535'
+      target_vnum: '01010454535'
     west:
-      target_vnum: '4598'
+      target_vnum: 01010454598
+  local_id: '4597'
   name: O Rio de Gondolin
-  vnum: '4597'
+  vnum: 01010454597
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1321,9 +1485,12 @@
     na cidade pelo rio.
   exits:
     north:
-      target_vnum: '4527'
+      target_vnum: '01010454527'
+    southwest:
+      target_vnum: 01010454599
+  local_id: '4598'
   name: O Rio de Gondolin
-  vnum: '4598'
+  vnum: 01010454598
 - description: |-
     Estas águas límpidas e cristalinas abastecem o Reino Oculto, e são uma
     das graças que o Vala Ulmo concedeu a Gondolin, conta-se que as águas são
@@ -1333,8 +1500,9 @@
     na cidade pelo rio.
   exits:
     east:
-      target_vnum: '4513'
+      target_vnum: '01010454513'
     up:
-      target_vnum: '4512'
+      target_vnum: '01010454512'
+  local_id: '4599'
   name: O Rio de Gondolin
-  vnum: '4599'
+  vnum: 01010454599

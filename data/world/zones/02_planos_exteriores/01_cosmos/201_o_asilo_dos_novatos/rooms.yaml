@@ -5,11 +5,12 @@
     dos pacientes continuam sendo primitivos e cruéis.
   exits:
     north:
-      target_vnum: '20101'
+      target_vnum: '020120120101'
     west:
-      target_vnum: '3125'
+      target_vnum: '02012013125'
+  local_id: '20100'
   name: O Asilo dos Novatos
-  vnum: '20100'
+  vnum: '020120120100'
 - description: |-
     Você está na entrada do Asilo. As paredes, apesar da possibilidade de muito
     tempo atrás ela terem sido brancas e limpas, agora são imundas, cobertas
@@ -19,13 +20,14 @@
     vestíbulo. Há uma porta para o norte.
   exits:
     east:
-      target_vnum: '20104'
+      target_vnum: '020120120104'
     north:
-      target_vnum: '20105'
+      target_vnum: '020120120105'
     south:
-      target_vnum: '20100'
+      target_vnum: '020120120100'
+  local_id: '20101'
   name: Dentro do Asilo
-  vnum: '20101'
+  vnum: '020120120101'
 - description: |-
     Esse é um vestíbulo e uma sala de espera aqui no Asilo dos Novatos. Um
     escritório de enfermeira se encontra a oeste e a entrada principal para o
@@ -33,11 +35,12 @@
     Talvez você queira descansar um pouco?
   exits:
     east:
-      target_vnum: '20101'
+      target_vnum: '020120120101'
     west:
-      target_vnum: '20103'
+      target_vnum: '020120120103'
+  local_id: '20102'
   name: O Vestíbulo
-  vnum: '20102'
+  vnum: '020120120102'
 - description: |-
     Essa sala fede a amônia e álcool...uma ótima combinação. Como qualquer
     sala nesse lugar, as paredes estão imundas e podres, o chão parece que não
@@ -45,17 +48,19 @@
     exame de saúde...?
   exits:
     east:
-      target_vnum: '20102'
+      target_vnum: '020120120102'
+  local_id: '20103'
   name: Sala da Enfermeira
-  vnum: '20103'
+  vnum: '020120120103'
 - description: "Ã\x89 aqui o lugar onde os visitantes do Asilo pegam as credenciais\
     \ para poder\nentrar.   As insígnias deixadas aqui diferenciam visitantes de pacientes,\
     \ então\nseria uma boa idéia pegar uma (só para o caso de eles cometerem um erro)."
   exits:
     west:
-      target_vnum: '20101'
+      target_vnum: '020120120101'
+  local_id: '20104'
   name: Sala de Identificação
-  vnum: '20104'
+  vnum: '020120120104'
 - description: |-
     Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
     pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
@@ -63,34 +68,37 @@
     Uma porta levando para fora do prédio pode ser vista ao sul.
   exits:
     east:
-      target_vnum: '20108'
+      target_vnum: 020120120108
     south:
-      target_vnum: '20101'
+      target_vnum: '020120120101'
     west:
-      target_vnum: '20106'
+      target_vnum: '020120120106'
+  local_id: '20105'
   name: O Primeiro Andar do Asilo
-  vnum: '20105'
+  vnum: '020120120105'
 - description: |-
     Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
     pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
     penetram no ar e pairam como doenças. O corredor continua a leste e a oeste.
   exits:
     east:
-      target_vnum: '20105'
+      target_vnum: '020120120105'
     west:
-      target_vnum: '20107'
+      target_vnum: '020120120107'
+  local_id: '20106'
   name: O Primeiro Andar do Asilo
-  vnum: '20106'
+  vnum: '020120120106'
 - description: "Essa sala principal parece ser bem longa, dando espaço para os pacientes\n\
-    vagarem. Ã\x89 provavelmente melhor deixÃ¡-los aqui fazendo apenas isso - vocÃª\n\
+    vagarem. Ã\x89 provavelmente melhor deixá-los aqui fazendo apenas isso - você\n\
     realmente não quer mexer com a cabeça deles ou coisa assim...quer?"
   exits:
     east:
-      target_vnum: '20106'
+      target_vnum: '020120120106'
     west:
-      target_vnum: '20109'
+      target_vnum: 020120120109
+  local_id: '20107'
   name: O Salão do Primeiro Andar
-  vnum: '20107'
+  vnum: '020120120107'
 - description: |-
     Essa grande sala tem todo o espaço que esses novatos precisam para vagar
     por aí, trombando e falando com seus amigos imaginários. A sala abre-se para
@@ -99,11 +107,12 @@
     sala ao leste.
   exits:
     east:
-      target_vnum: '20110'
+      target_vnum: '020120120110'
     west:
-      target_vnum: '20105'
+      target_vnum: '020120120105'
+  local_id: '20108'
   name: O Salão do Primeiro Andar
-  vnum: '20108'
+  vnum: 020120120108
 - description: |-
     Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
     pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
@@ -112,11 +121,12 @@
     O corredor continua a leste e a oeste.
   exits:
     east:
-      target_vnum: '20107'
+      target_vnum: '020120120107'
     west:
-      target_vnum: '20114'
+      target_vnum: '020120120114'
+  local_id: '20109'
   name: O Primeiro Andar do Asilo
-  vnum: '20109'
+  vnum: 020120120109
 - description: |-
     Esse é o primeiro piso do Asilo. Algumas tochas iluminam o caminho nesse
     pequeno lugar. As paredes são sujas e cheias de líquens. Odores horríveis
@@ -124,17 +134,18 @@
     escada. Você pode ver as celas aqui, ir para cima ou voltar para o oeste.
   exits:
     east:
-      target_vnum: '20113'
+      target_vnum: '020120120113'
     north:
-      target_vnum: '20111'
+      target_vnum: '020120120111'
     south:
-      target_vnum: '20112'
+      target_vnum: '020120120112'
     up:
-      target_vnum: '20149'
+      target_vnum: 020120120149
     west:
-      target_vnum: '20108'
+      target_vnum: 020120120108
+  local_id: '20110'
   name: O Corredor Leste
-  vnum: '20110'
+  vnum: '020120120110'
 - description: |-
     Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
     que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
@@ -142,9 +153,10 @@
     saída é para o sul.
   exits:
     south:
-      target_vnum: '20110'
+      target_vnum: '020120120110'
+  local_id: '20111'
   name: A Sala Pequena
-  vnum: '20111'
+  vnum: '020120120111'
 - description: |-
     Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
     que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
@@ -152,9 +164,10 @@
     saída é para o norte.
   exits:
     north:
-      target_vnum: '20110'
+      target_vnum: '020120120110'
+  local_id: '20112'
   name: A Sala Pequena
-  vnum: '20112'
+  vnum: '020120120112'
 - description: |-
     Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
     que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
@@ -162,26 +175,28 @@
     saída é para o oeste.
   exits:
     west:
-      target_vnum: '20110'
+      target_vnum: '020120120110'
+  local_id: '20113'
   name: A Sala Pequena
-  vnum: '20113'
+  vnum: '020120120113'
 - description: |-
     Esse setor do corredor é um pouco limpo. Ele parece ser o único local em
     todo o Asilo que é limpo. O corredor termina aqui, em uma escada que leva
     para baixo. Você pode ver as celas aqui, ir para baixo ou voltar para leste.
   exits:
     down:
-      target_vnum: '20119'
+      target_vnum: 020120120119
     east:
-      target_vnum: '20109'
+      target_vnum: 020120120109
     north:
-      target_vnum: '20115'
+      target_vnum: '020120120115'
     south:
-      target_vnum: '20117'
+      target_vnum: '020120120117'
     west:
-      target_vnum: '20116'
+      target_vnum: '020120120116'
+  local_id: '20114'
   name: O Corredor Oeste
-  vnum: '20114'
+  vnum: '020120120114'
 - description: |-
     Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
     que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
@@ -189,9 +204,10 @@
     saída é para o sul.
   exits:
     south:
-      target_vnum: '20114'
+      target_vnum: '020120120114'
+  local_id: '20115'
   name: A Sala Pequena
-  vnum: '20115'
+  vnum: '020120120115'
 - description: |-
     Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
     que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
@@ -199,9 +215,10 @@
     saída é para o leste.
   exits:
     east:
-      target_vnum: '20114'
+      target_vnum: '020120120114'
+  local_id: '20116'
   name: A Sala Pequena
-  vnum: '20116'
+  vnum: '020120120116'
 - description: |-
     Essa pequena sala, ou carinhosamente chamada de 'cela', é um pequeno espaço
     que um residente do Asilo pode chamar por ele mesmo.  Há uma pequena cama
@@ -209,9 +226,10 @@
     saída é para o norte.
   exits:
     north:
-      target_vnum: '20114'
+      target_vnum: '020120120114'
+  local_id: '20117'
   name: A Sala Pequena
-  vnum: '20117'
+  vnum: '020120120117'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para prevenir que o paciente se machuque. O estofamento em si já está
@@ -222,9 +240,10 @@
     previne que o paciente escape da sala.
   exits:
     east:
-      target_vnum: '20119'
+      target_vnum: 020120120119
+  local_id: '20118'
   name: A Cela
-  vnum: '20118'
+  vnum: 020120120118
 - description: |-
     Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
     Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
@@ -233,19 +252,20 @@
     as celas aqui, ir para baixo, subir ou ir para leste pelo corredor.
   exits:
     down:
-      target_vnum: '20135'
+      target_vnum: '020120120135'
     east:
-      target_vnum: '20120'
+      target_vnum: '020120120120'
     north:
-      target_vnum: '20133'
+      target_vnum: '020120120133'
     south:
-      target_vnum: '20134'
+      target_vnum: '020120120134'
     up:
-      target_vnum: '20114'
+      target_vnum: '020120120114'
     west:
-      target_vnum: '20118'
+      target_vnum: 020120120118
+  local_id: '20119'
   name: As Escadas
-  vnum: '20119'
+  vnum: 020120120119
 - description: |-
     Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
     Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
@@ -254,11 +274,12 @@
     continua par leste e oeste.
   exits:
     east:
-      target_vnum: '20121'
+      target_vnum: '020120120121'
     west:
-      target_vnum: '20119'
+      target_vnum: 020120120119
+  local_id: '20120'
   name: Corredor no Porão
-  vnum: '20120'
+  vnum: '020120120120'
 - description: |-
     Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
     Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
@@ -267,15 +288,16 @@
     continua par leste e oeste.
   exits:
     east:
-      target_vnum: '20122'
+      target_vnum: '020120120122'
     north:
-      target_vnum: '20131'
+      target_vnum: '020120120131'
     south:
-      target_vnum: '20132'
+      target_vnum: '020120120132'
     west:
-      target_vnum: '20120'
+      target_vnum: '020120120120'
+  local_id: '20121'
   name: Corredor no Porão
-  vnum: '20121'
+  vnum: '020120120121'
 - description: |-
     Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
     Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
@@ -284,11 +306,12 @@
     continua par leste e oeste.
   exits:
     east:
-      target_vnum: '20123'
+      target_vnum: '020120120123'
     west:
-      target_vnum: '20121'
+      target_vnum: '020120120121'
+  local_id: '20122'
   name: Corredor no Porão
-  vnum: '20122'
+  vnum: '020120120122'
 - description: |-
     Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
     Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
@@ -297,15 +320,16 @@
     continua par leste e oeste. Existem celas ao norte e ao sul.
   exits:
     east:
-      target_vnum: '20124'
+      target_vnum: '020120120124'
     north:
-      target_vnum: '20129'
+      target_vnum: 020120120129
     south:
-      target_vnum: '20130'
+      target_vnum: '020120120130'
     west:
-      target_vnum: '20122'
+      target_vnum: '020120120122'
+  local_id: '20123'
   name: Corredor no Porão
-  vnum: '20123'
+  vnum: '020120120123'
 - description: |-
     Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
     Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
@@ -314,11 +338,12 @@
     continua par leste e oeste.
   exits:
     east:
-      target_vnum: '20125'
+      target_vnum: '020120120125'
     west:
-      target_vnum: '20123'
+      target_vnum: '020120120123'
+  local_id: '20124'
   name: Corredor no Porão
-  vnum: '20124'
+  vnum: '020120120124'
 - description: |-
     Esse é o porão do Asilo, onde os mais perigosos pacientes estão abrigados.
     Algumas tochas iluminam o caminho nesse pequeno lugar. As paredes são sujas
@@ -327,15 +352,16 @@
     termina aqui, diante de três celas.
   exits:
     east:
-      target_vnum: '20126'
+      target_vnum: '020120120126'
     north:
-      target_vnum: '20127'
+      target_vnum: '020120120127'
     south:
-      target_vnum: '20128'
+      target_vnum: 020120120128
     west:
-      target_vnum: '20124'
+      target_vnum: '020120120124'
+  local_id: '20125'
   name: Corredor no Porão
-  vnum: '20125'
+  vnum: '020120120125'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -346,9 +372,10 @@
     o paciente escape da sala.
   exits:
     west:
-      target_vnum: '20125'
+      target_vnum: '020120120125'
+  local_id: '20126'
   name: A Cela
-  vnum: '20126'
+  vnum: '020120120126'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para prevenir que o paciente se machuque. O estofamento em si já está
@@ -359,9 +386,10 @@
     o paciente escape da sala.
   exits:
     south:
-      target_vnum: '20125'
+      target_vnum: '020120120125'
+  local_id: '20127'
   name: A Cela
-  vnum: '20127'
+  vnum: '020120120127'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -372,9 +400,10 @@
     o paciente escape da sala.
   exits:
     north:
-      target_vnum: '20125'
+      target_vnum: '020120120125'
+  local_id: '20128'
   name: A Cela
-  vnum: '20128'
+  vnum: 020120120128
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -385,9 +414,10 @@
     o paciente escape da sala.
   exits:
     south:
-      target_vnum: '20123'
+      target_vnum: '020120120123'
+  local_id: '20129'
   name: A Cela
-  vnum: '20129'
+  vnum: 020120120129
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -398,9 +428,10 @@
     o paciente escape da sala.
   exits:
     north:
-      target_vnum: '20123'
+      target_vnum: '020120120123'
+  local_id: '20130'
   name: A Cela
-  vnum: '20130'
+  vnum: '020120120130'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -411,9 +442,10 @@
     o paciente escape da sala.
   exits:
     south:
-      target_vnum: '20121'
+      target_vnum: '020120120121'
+  local_id: '20131'
   name: A Cela
-  vnum: '20131'
+  vnum: '020120120131'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -424,9 +456,10 @@
     o paciente escape da sala.
   exits:
     north:
-      target_vnum: '20121'
+      target_vnum: '020120120121'
+  local_id: '20132'
   name: A Cela
-  vnum: '20132'
+  vnum: '020120120132'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -437,9 +470,10 @@
     o paciente escape da sala.
   exits:
     south:
-      target_vnum: '20119'
+      target_vnum: 020120120119
+  local_id: '20133'
   name: A Cela
-  vnum: '20133'
+  vnum: '020120120133'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -450,9 +484,10 @@
     o paciente escape da sala.
   exits:
     north:
-      target_vnum: '20119'
+      target_vnum: 020120120119
+  local_id: '20134'
   name: A Cela
-  vnum: '20134'
+  vnum: '020120120134'
 - description: |-
     Esse é subsolo do porão do Asilo. Muitas poucas pessoas sabem desse lugar.
     Aqui é onde os criminosos mais perigosos de Vitália são mantidos. Ranger
@@ -461,11 +496,12 @@
     corredor continua a leste, ou você pode voltar para cima.
   exits:
     east:
-      target_vnum: '20136'
+      target_vnum: '020120120136'
     up:
-      target_vnum: '20119'
+      target_vnum: 020120120119
+  local_id: '20135'
   name: AS Escadas
-  vnum: '20135'
+  vnum: '020120120135'
 - description: |-
     Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
     escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
@@ -473,11 +509,12 @@
     aqui.
   exits:
     east:
-      target_vnum: '20137'
+      target_vnum: '020120120137'
     west:
-      target_vnum: '20135'
+      target_vnum: '020120120135'
+  local_id: '20136'
   name: Um Corredor no Subsolo do Porão
-  vnum: '20136'
+  vnum: '020120120136'
 - description: |-
     Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
     escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
@@ -485,15 +522,16 @@
     aqui. Você poder ver celas ao norte e ao sul aqui.
   exits:
     east:
-      target_vnum: '20138'
+      target_vnum: 020120120138
     north:
-      target_vnum: '20143'
+      target_vnum: '020120120143'
     south:
-      target_vnum: '20144'
+      target_vnum: '020120120144'
     west:
-      target_vnum: '20136'
+      target_vnum: '020120120136'
+  local_id: '20137'
   name: Um Corredor no Subsolo do Porão
-  vnum: '20137'
+  vnum: '020120120137'
 - description: |-
     Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
     escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
@@ -501,11 +539,12 @@
     aqui.
   exits:
     east:
-      target_vnum: '20139'
+      target_vnum: 020120120139
     west:
-      target_vnum: '20137'
+      target_vnum: '020120120137'
+  local_id: '20138'
   name: Um Corredor no Subsolo do Porão
-  vnum: '20138'
+  vnum: 020120120138
 - description: |-
     Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
     escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
@@ -513,15 +552,16 @@
     aqui. Você pode ver celas ao norte e ao sul daqui.
   exits:
     east:
-      target_vnum: '20140'
+      target_vnum: '020120120140'
     north:
-      target_vnum: '20141'
+      target_vnum: '020120120141'
     south:
-      target_vnum: '20142'
+      target_vnum: '020120120142'
     west:
-      target_vnum: '20138'
+      target_vnum: 020120120138
+  local_id: '20139'
   name: Um Corredor no Subsolo do Porão
-  vnum: '20139'
+  vnum: 020120120139
 - description: |-
     Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
     escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
@@ -529,11 +569,12 @@
     aqui.
   exits:
     east:
-      target_vnum: '20145'
+      target_vnum: '020120120145'
     west:
-      target_vnum: '20139'
+      target_vnum: 020120120139
+  local_id: '20140'
   name: Um Corredor no Subsolo do Porão
-  vnum: '20140'
+  vnum: '020120120140'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para prevenir que o paciente se machuque. O estofamento em si já está
@@ -544,9 +585,10 @@
     o paciente escape da sala.
   exits:
     south:
-      target_vnum: '20139'
+      target_vnum: 020120120139
+  local_id: '20141'
   name: A Cela
-  vnum: '20141'
+  vnum: '020120120141'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -557,9 +599,10 @@
     o paciente escape da sala.
   exits:
     north:
-      target_vnum: '20139'
+      target_vnum: 020120120139
+  local_id: '20142'
   name: A Cela
-  vnum: '20142'
+  vnum: '020120120142'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -570,9 +613,10 @@
     o paciente escape da sala.
   exits:
     south:
-      target_vnum: '20137'
+      target_vnum: '020120120137'
+  local_id: '20143'
   name: A Cela
-  vnum: '20143'
+  vnum: '020120120143'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -583,9 +627,10 @@
     o paciente escape da sala.
   exits:
     north:
-      target_vnum: '20137'
+      target_vnum: '020120120137'
+  local_id: '20144'
   name: A Cela
-  vnum: '20144'
+  vnum: '020120120144'
 - description: |-
     Algumas tochas iluminam o caminho nesse pequeno lugar. Runas mágicas
     escritas nas paredes brilham e emitem uma radiação poderosa. Gritos de
@@ -594,15 +639,16 @@
     para o oeste.
   exits:
     east:
-      target_vnum: '20148'
+      target_vnum: 020120120148
     north:
-      target_vnum: '20146'
+      target_vnum: '020120120146'
     south:
-      target_vnum: '20147'
+      target_vnum: '020120120147'
     west:
-      target_vnum: '20140'
+      target_vnum: '020120120140'
+  local_id: '20145'
   name: Um Corredor no Subsolo do Porão
-  vnum: '20145'
+  vnum: '020120120145'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -613,9 +659,10 @@
     o paciente escape da sala.
   exits:
     south:
-      target_vnum: '20145'
+      target_vnum: '020120120145'
+  local_id: '20146'
   name: A Cela
-  vnum: '20146'
+  vnum: '020120120146'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -626,9 +673,10 @@
     o paciente escape da sala.
   exits:
     north:
-      target_vnum: '20145'
+      target_vnum: '020120120145'
+  local_id: '20147'
   name: A Cela
-  vnum: '20147'
+  vnum: '020120120147'
 - description: |-
     As paredes são feitas de uma fina camada de forro branco acolchoado, feito
     para previnir que o paciente se machuque. O estofamento em si já está
@@ -639,20 +687,22 @@
     o paciente escape da sala.
   exits:
     west:
-      target_vnum: '20145'
+      target_vnum: '020120120145'
+  local_id: '20148'
   name: A Cela
-  vnum: '20148'
-- description: "Ã\x89 aqui o topo da escadaria. O ar Ã© quente e cheio de odores malignos\
+  vnum: 020120120148
+- description: "Ã\x89 aqui o topo da escadaria. O ar é quente e cheio de odores malignos\
     \ que\naguçam os seus sentidos. Dizem que a oeste há uma grande sala, onde funciona\n\
     uma espécie de laboratório onde fazem alguns experimentos.\nPara baixo você voltará\
     \ para o corredor principal."
   exits:
     down:
-      target_vnum: '20110'
+      target_vnum: '020120120110'
     west:
-      target_vnum: '20150'
+      target_vnum: '020120120150'
+  local_id: '20149'
   name: As Escadas
-  vnum: '20149'
+  vnum: 020120120149
 - description: "Ã\x89 uma grande sala, cheia de equipamentos e objetos (para o medo\
     \ de algumas\npessoas se machucarem). Um estofamento antigo e rasgado cobre as\
     \ paredes,\nmostrando que muitos pacientes já estiveram aqui para o bem da ciência.\
@@ -661,15 +711,16 @@
     \ está a leste."
   exits:
     east:
-      target_vnum: '20149'
+      target_vnum: 020120120149
     north:
-      target_vnum: '20152'
+      target_vnum: '020120120152'
     south:
-      target_vnum: '20155'
+      target_vnum: '020120120155'
     west:
-      target_vnum: '20151'
+      target_vnum: '020120120151'
+  local_id: '20150'
   name: O Grande Laboratório
-  vnum: '20150'
+  vnum: '020120120150'
 - description: |-
     Essa é a tenda do pesquisador, onde qualquer um pode ficar e observar os
     pacientes em uma relativa segurança. Uma estante, cheia de todos os tipos
@@ -679,13 +730,14 @@
     sala, cercado por grandes tamboretes usados para observação.
   exits:
     east:
-      target_vnum: '20150'
+      target_vnum: '020120120150'
     north:
-      target_vnum: '20153'
+      target_vnum: '020120120153'
     south:
-      target_vnum: '20154'
+      target_vnum: '020120120154'
+  local_id: '20151'
   name: O Grande Laboratório
-  vnum: '20151'
+  vnum: '020120120151'
 - description: "Ã\x89 uma grande sala, cheia de equipamentos e objetos (para o medo\
     \ de algumas\npessoas se machucarem). Um estofamento antigo e rasgado cobre as\
     \ paredes,\nmostrando que muitos pacientes já estiveram aqui para o bem da ciência.\
@@ -693,11 +745,12 @@
     não deveria estar aqui."
   exits:
     south:
-      target_vnum: '20150'
+      target_vnum: '020120120150'
     west:
-      target_vnum: '20153'
+      target_vnum: '020120120153'
+  local_id: '20152'
   name: O Grande Laboratório
-  vnum: '20152'
+  vnum: '020120120152'
 - description: "Ã\x89 uma grande sala, cheia de equipamentos e objetos (para o medo\
     \ de algumas\npessoas se machucarem). Um estofamento antigo e rasgado cobre as\
     \ paredes,\nmostrando que muitos pacientes já estiveram aqui para o bem da ciência.\
@@ -705,11 +758,12 @@
     não deveria estar aqui. Um campo de força fica a sul."
   exits:
     east:
-      target_vnum: '20152'
+      target_vnum: '020120120152'
     south:
-      target_vnum: '20151'
+      target_vnum: '020120120151'
+  local_id: '20153'
   name: O Grande Laboratório
-  vnum: '20153'
+  vnum: '020120120153'
 - description: "Ã\x89 uma grande sala, cheia de equipamentos e objetos (para o medo\
     \ de algumas\npessoas se machucarem). Um estofamento antigo e rasgado cobre as\
     \ paredes,\nmostrando que muitos pacientes já estiveram aqui para o bem da ciência.\
@@ -717,11 +771,12 @@
     não deveria estar aqui.  Um campo de força fica a norte."
   exits:
     east:
-      target_vnum: '20155'
+      target_vnum: '020120120155'
     north:
-      target_vnum: '20151'
+      target_vnum: '020120120151'
+  local_id: '20154'
   name: O Grande Laboratório
-  vnum: '20154'
+  vnum: '020120120154'
 - description: "Ã\x89 uma grande sala, cheia de equipamentos e objetos (para o medo\
     \ de algumas\npessoas se machucarem). Um estofamento antigo e rasgado cobre as\
     \ paredes,\nmostrando que muitos pacientes já estiveram aqui para o bem da ciência.\
@@ -729,11 +784,12 @@
     não deveria estar aqui."
   exits:
     north:
-      target_vnum: '20150'
+      target_vnum: '020120120150'
     west:
-      target_vnum: '20154'
+      target_vnum: '020120120154'
+  local_id: '20155'
   name: O Grande Laboratório
-  vnum: '20155'
+  vnum: '020120120155'
 - description: |-
     Uma monótona areia de cor cinza e branca cobre o chão em todas as
     direções. Quando você olha mais além, percebe alguns tufos de grama marrom
@@ -742,11 +798,12 @@
     Uma grande placa @RGRITA @n pela sua atenção.
   exits:
     east:
-      target_vnum: '3067'
+      target_vnum: '02012013067'
     west:
-      target_vnum: '20161'
+      target_vnum: '020120120161'
+  local_id: '20160'
   name: O Deserto
-  vnum: '20160'
+  vnum: '020120120160'
 - description: |-
     Uma monótona areia de cor cinza e branca cobre o chão em todas as
     direções. Quando você olha mais além, percebe alguns tufos de grama marrom
@@ -754,11 +811,12 @@
     é o tremor e um urro muito forte, vindo de longe.
   exits:
     east:
-      target_vnum: '20160'
+      target_vnum: '020120120160'
     west:
-      target_vnum: '20162'
+      target_vnum: '020120120162'
+  local_id: '20161'
   name: O Deserto
-  vnum: '20161'
+  vnum: '020120120161'
 - description: |-
     Uma monótona areia de cor cinza e branca cobre o chão em todas as
     direções. Quando você olha mais além, percebe alguns tufos de grama marrom
@@ -766,11 +824,12 @@
     é o tremor e um urro muito forte, vindo de longe.
   exits:
     east:
-      target_vnum: '20161'
+      target_vnum: '020120120161'
     west:
-      target_vnum: '20162'
+      target_vnum: '020120120162'
+  local_id: '20162'
   name: O Deserto
-  vnum: '20162'
+  vnum: '020120120162'
 - description: |-
     Você está afundado até o joelho em algum líquido verde. Pedaços, nacos e as
     vezes até um animal inteiro flutuam perto de você. Para cima, você vê a
@@ -778,9 +837,10 @@
     escalar até lá. Há mais do estômago do gigante para leste.
   exits:
     east:
-      target_vnum: '20165'
+      target_vnum: '020120120165'
+  local_id: '20164'
   name: Dentro do Estômago do Gigante.
-  vnum: '20164'
+  vnum: '020120120164'
 - description: |-
     O líquido verde que contém as coisas dentro do estômago do gigante começa
     a rodar formando um redemoinho que suga você para dentro do intestino
@@ -788,96 +848,105 @@
     percebe que será melhor seguir a multidão...
   exits:
     down:
-      target_vnum: '20166'
+      target_vnum: '020120120166'
     west:
-      target_vnum: '20164'
+      target_vnum: '020120120164'
+  local_id: '20165'
   name: O Estômago
-  vnum: '20165'
+  vnum: '020120120165'
 - description: |-
     Fora do pote e direto para a frigideira. Você mal consegue ficar em pé dentro
     do intestino delgado. Ele dobra e faz curvas por todo o lugar, fazendo com
     que fique fácil se perder. O intestino delgado continua para leste.
   exits:
     east:
-      target_vnum: '20167'
+      target_vnum: '020120120167'
     up:
-      target_vnum: '20165'
+      target_vnum: '020120120165'
+  local_id: '20166'
   name: O Intestino Delgado
-  vnum: '20166'
+  vnum: '020120120166'
 - description: |-
     O líquido verde parece ficar mais denso. As tenuosas passagens do intestino
     delgado levam para baixo. Seu amigo, o cervo sem sorte, está indo para
     aquela direção. Por que você não?
   exits:
     down:
-      target_vnum: '20168'
+      target_vnum: 020120120168
     west:
-      target_vnum: '20166'
+      target_vnum: '020120120166'
+  local_id: '20167'
   name: O Intestino Delgado
-  vnum: '20167'
+  vnum: '020120120167'
 - description: |-
     O intestino delgado pulsa em volta de você, levando-o para baixo no sistema
     digestivo do gigante. O mesmo líquido verde continua te envolvendo, quase
     em uma cor fashion.
   exits:
     up:
-      target_vnum: '20167'
+      target_vnum: '020120120167'
     west:
-      target_vnum: '20169'
+      target_vnum: 020120120169
+  local_id: '20168'
   name: O Intestino Delgado
-  vnum: '20168'
+  vnum: 020120120168
 - description: |-
     O Intestino Delgado começa a se alargar para finalmente se tornar intestino
     grosso. A pasta verde forma um redemoinho e te suga para baixo.
   exits:
     down:
-      target_vnum: '20170'
+      target_vnum: '020120120170'
     east:
-      target_vnum: '20168'
+      target_vnum: 020120120168
+  local_id: '20169'
   name: O Intestino Delgado
-  vnum: '20169'
+  vnum: 020120120169
 - description: |-
     Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
     igual ao intestino delgado, exceto pelo seu tamanho massivo. A pasta verde
     flutua para leste.
   exits:
     east:
-      target_vnum: '20171'
+      target_vnum: '020120120171'
     up:
-      target_vnum: '20169'
+      target_vnum: 020120120169
+  local_id: '20170'
   name: O Intestino Grosso
-  vnum: '20170'
+  vnum: '020120120170'
 - description: |-
     Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
     igual ao intestino delgado, exceto pelo seu tamanho massivo. A pasta verde
     flutua para leste.
   exits:
     down:
-      target_vnum: '20172'
+      target_vnum: '020120120172'
     west:
-      target_vnum: '20170'
+      target_vnum: '020120120170'
+  local_id: '20171'
   name: O Intestino Grosso
-  vnum: '20171'
+  vnum: '020120120171'
 - description: |-
     Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
     igual ao intestino delgado, exceto pelo seu tamanho massivo. A pasta verde
     flutua para leste.
   exits:
     east:
-      target_vnum: '20173'
+      target_vnum: '020120120173'
     up:
-      target_vnum: '20171'
+      target_vnum: '020120120171'
+  local_id: '20172'
   name: O Intestino Grosso
-  vnum: '20172'
+  vnum: '020120120172'
 - description: |-
     Ahhh...  Finalmente algum lugar para se esticar. O intestino grosso é quase
     igual ao intestino delgado, exceto pelo seu tamanho massivo. Você pode ver
     uma fraca luz vinda do leste.
   exits:
     west:
-      target_vnum: '20172'
+      target_vnum: '020120120172'
+  local_id: '20173'
   name: O Final do Intestino Grosso
-  vnum: '20173'
+  vnum: '020120120173'
 - description: |-
     Uma monótona areia de cor cinza e branca cobre o chão em todas as
     direções. Quando você olha mais além, percebe alguns tufos de grama marrom
@@ -885,8 +954,9 @@
     é o tremor e um urro muito forte, vindo de longe.
   exits:
     east:
-      target_vnum: '20160'
+      target_vnum: '020120120160'
     west:
-      target_vnum: '20162'
+      target_vnum: '020120120162'
+  local_id: '20174'
   name: O Deserto
-  vnum: '20174'
+  vnum: '020120120174'

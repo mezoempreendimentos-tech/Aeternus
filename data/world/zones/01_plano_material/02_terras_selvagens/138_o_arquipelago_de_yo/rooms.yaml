@@ -1,28 +1,34 @@
 - description: "Você está caminhando sobre as ardentes areias do imenso deserto dos\n\
     dragões de Vitália.  Ao seu redor você observa a grandeza deste solitário\nlugar.\
     \  Os fortes ventos levantam uma fina camada desagradável de areia\nirritando\
-    \ seus olhos.  Ã\x80 sua frente vocÃª observa uma magnÃ­fica estatua de\npedra\
-    \ brilhante.  Acima das nuvens você observa horripilantes abutres\nesperando e\
-    \ procurando algum corpo caído no chão.  Ao sul você observa uma\npaisagem esplendorosa:\
+    \ seus olhos.  Ã\x80 sua frente você observa uma magnífica estatua de\npedra brilhante.\
+    \  Acima das nuvens você observa horripilantes abutres\nesperando e procurando\
+    \ algum corpo caído no chão.  Ao sul você observa uma\npaisagem esplendorosa:\
     \  Um pequeno oásis nas ardentes terras do deserto dos\ndragões de Vitália."
   exits:
     south:
-      target_vnum: '9357'
+      target_vnum: 01021389357
+  local_id: '13800'
   name: Uma Monumental Estátua de Pedra no Deserto dos Dragões de Vitália
-  vnum: '13800'
+  vnum: 010213813800
 - description: "Você está caminhando entre as maravilhosas árvores da floresta dos\n\
     dragões numa terra encantada e esquecida pelos homens.  Ao seu redor você\nobserva\
     \ lindas árvores carregadas com belos frutos vermelhos.  Aos seus pés\nno chão,\
     \ você observa imensas pegadas de monumentais criaturas.  Sobre as\nárvores você\
     \ observa suntuosos pássaros coloridos cantando suaves melodias.\nÃ\x80 sua frente\
-    \ vocÃª observa uma magnÃ­fica estatua de pedra brilhante.  Ao\nnorte você observa\
+    \ você observa uma magnífica estatua de pedra brilhante.  Ao\nnorte você observa\
     \ um sublime lago de águas douradas.  Ao noroeste e ao\nnordeste você observa\
     \ trilhas entre as árvores da floresta dos dragões."
   exits:
     north:
-      target_vnum: '13805'
+      target_vnum: 010213813805
+    northeast:
+      target_vnum: 010213813802
+    northwest:
+      target_vnum: 010213813803
+  local_id: '13801'
   name: A Floresta dos Dragões
-  vnum: '13801'
+  vnum: 010213813801
 - description: |-
     Você está andando numa trilha entre as frondosas árvores da floresta dos
     dragões.  Ao seu redor você observa as imensas árvores da floresta e grandes
@@ -30,9 +36,16 @@
     magníficos dragões sobrevoando a floresta.  Ao noroeste você observa uma
     trilha entre as árvores.  Ao sudeste você observa uma magnífica estatua de
     pedra brilhante.  Ao nordeste você observa um belo lago de águas douradas.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813804
+    northwest:
+      target_vnum: 010213813805
+    southeast:
+      target_vnum: 010213813801
+  local_id: '13802'
   name: A Floresta dos Dragões
-  vnum: '13802'
+  vnum: 010213813802
 - description: |-
     Você está caminhando sobre uma trilha entre as grandiosas árvores da
     floresta dos dragões.  Ao seu redor você observa belíssimas árvores cheias
@@ -42,9 +55,16 @@
     lindo lago de águas douradas.  Ao nordeste você observa uma trilha entre as
     árvores da floresta dos dragões e ao sudoeste você observa uma magnífica
     estatua de pedra brilhante.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813805
+    northwest:
+      target_vnum: 010213813806
+    southwest:
+      target_vnum: 010213813801
+  local_id: '13803'
   name: A Floresta dos Dragões
-  vnum: '13803'
+  vnum: 010213813803
 - description: |-
     Você está caminhando numa trilha entre as frondosas árvores da floresta
     dos dragões, numa terra encantada e esquecida pelos homens.  Ao seu redor
@@ -54,9 +74,14 @@
     dragão dourado planando sobre as nuvens, seguindo na direção noroeste rumo
     a imensas montanhas.  Ao nordeste e ao sudeste você observa trilhas entre as
     árvores da floresta dos dragões.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 010213813807
+    southeast:
+      target_vnum: 010213813802
+  local_id: '13804'
   name: A Floresta dos Dragões
-  vnum: '13804'
+  vnum: 010213813804
 - description: |-
     Você está nadando nas maravilhosas e refrescantes águas douradas de um
     majestoso lago no coração da floresta dos dragões.  Ao seu redor além das
@@ -66,10 +91,19 @@
     uma magnífica estatua de pedra brilhante.  Ao noroeste, nordeste, sudeste e
     ao sudoeste você observa trilhas entre as árvores da floresta dos dragões.
   exits:
+    northeast:
+      target_vnum: 010213813807
+    northwest:
+      target_vnum: 010213813808
     south:
-      target_vnum: '13801'
+      target_vnum: 010213813801
+    southeast:
+      target_vnum: 010213813803
+    southwest:
+      target_vnum: 010213813802
+  local_id: '13805'
   name: "O Sublime Lago de Ã\x81guas Douradas"
-  vnum: '13805'
+  vnum: 010213813805
 - description: |-
     Você está andando sobre uma trilha entre as belas árvores da floresta dos
     dragões.  Ao seu redor você observa várias árvores carregadas com grandes
@@ -77,9 +111,14 @@
     criaturas.  Por entre algumas árvores, você observa na direção nordeste
     algumas montanhas rochosas.  Ao noroeste e ao sudoeste você observa trilhas
     entre as grandes árvores da floresta dos dragões.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813808
+    southwest:
+      target_vnum: 010213813803
+  local_id: '13806'
   name: A Floresta dos Dragões
-  vnum: '13806'
+  vnum: 010213813806
 - description: |-
     Você está caminhando sobre uma trilha entre as árvores na floresta dos
     dragões.  Ao seu redor você observa lindas árvores cheias de maravilhosos
@@ -88,9 +127,18 @@
     rochosa.  Ao nordeste e ao sudoeste você observa trilhas entre as árvores da
     floresta dos dragões.  Ao sudeste você observa um belíssimo lago de águas
     douradas.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813812
+    northwest:
+      target_vnum: 010213813809
+    southeast:
+      target_vnum: 010213813805
+    southwest:
+      target_vnum: 010213813804
+  local_id: '13807'
   name: A Floresta dos Dragões
-  vnum: '13807'
+  vnum: 010213813807
 - description: |-
     Você está andando sobre uma trilha entre as belas árvores da floresta dos
     dragões.  Ao seu redor você observa as grandiosas árvores da floresta cheias
@@ -99,9 +147,18 @@
     rochosa.  Ao noroeste e ao sudeste você observa trilhas entre as árvores da
     floresta dos dragões.  Ao sudoeste você observa um belo lago de águas
     douradas.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813809
+    northwest:
+      target_vnum: 010213813815
+    southeast:
+      target_vnum: 010213813806
+    southwest:
+      target_vnum: 010213813805
+  local_id: '13808'
   name: A Floresta dos Dragões
-  vnum: '13808'
+  vnum: 010213813808
 - description: |-
     Você está caminhando sobre uma trilha entre as frondosas árvores da bela
     floresta dos dragões.  Ao seu redor você observa maravilhosas árvores cheias
@@ -112,9 +169,14 @@
     dragões.
   exits:
     north:
-      target_vnum: '13820'
+      target_vnum: 010213813820
+    southeast:
+      target_vnum: 010213813808
+    southwest:
+      target_vnum: 010213813807
+  local_id: '13809'
   name: A Floresta dos Dragões
-  vnum: '13809'
+  vnum: 010213813809
 - description: |-
     Você está caminhando sobre uma colina rochosa.  Ao seu redor você observa
     a total ausência de árvores e arbustos, além das grandes rochas cinzentas.
@@ -123,9 +185,12 @@
     e suas rochas cinzentas.
   exits:
     east:
-      target_vnum: '13811'
+      target_vnum: 010213813811
+    northwest:
+      target_vnum: 010213813813
+  local_id: '13810'
   name: A Colina Cinzenta
-  vnum: '13810'
+  vnum: 010213813810
 - description: |-
     Você está andando sobre as ásperas rochas que compõem está colina
     cinzenta.  Ao seu redor você observa grandes rochas cinzas e a ausência de
@@ -134,11 +199,12 @@
     colina rochosa e suas rochas cinzentas.
   exits:
     east:
-      target_vnum: '13812'
+      target_vnum: 010213813812
     west:
-      target_vnum: '13810'
+      target_vnum: 010213813810
+  local_id: '13811'
   name: A Colina Cinzenta
-  vnum: '13811'
+  vnum: 010213813811
 - description: |-
     Você está sobre uma imensa colina rochosa.  Ao seu redor você observa
     enormes rochas cinzentas.  Além da colina você observa grandes montanhas que
@@ -146,10 +212,15 @@
     rochosa.  Ao sudeste você observa uma trilha entre as árvores da floresta
     dos dragões.
   exits:
+    northeast:
+      target_vnum: 010213813813
+    southeast:
+      target_vnum: 010213813807
     west:
-      target_vnum: '13811'
+      target_vnum: 010213813811
+  local_id: '13812'
   name: A Colina Cinzenta
-  vnum: '13812'
+  vnum: 010213813812
 - description: |-
     Você está caminhando sobre uma imensa colina rochosa.  Ao seu redor você
     observa imensas rochosas cinzentas.  No céu você observa maravilhosas nuvens
@@ -158,9 +229,14 @@
     você observa majestoso palácio que brilha como uma estrela.
   exits:
     north:
-      target_vnum: '13814'
+      target_vnum: 010213813814
+    southeast:
+      target_vnum: 010213813812
+    southwest:
+      target_vnum: 010213813810
+  local_id: '13813'
   name: A Colina Cinzenta
-  vnum: '13813'
+  vnum: 010213813813
 - description: |-
     Você está dentro de um magnífico palácio.  Ao seu redor você observa
     enormes janelas, imensos ninhos de dragões e uma monumental fonte no centro
@@ -170,9 +246,10 @@
     sul você observa uma extensa colina rochosa.
   exits:
     south:
-      target_vnum: '13813'
+      target_vnum: 010213813813
+  local_id: '13814'
   name: O Palácio dos Dragões de Latão
-  vnum: '13814'
+  vnum: 010213813814
 - description: |-
     Você está caminhando sobre uma colina rochosa.  Ao seu redor você observa
     a total ausência de árvores e arbustos, além das grandes rochas cinzentas.
@@ -182,9 +259,14 @@
     árvores da floresta dos dragões.
   exits:
     east:
-      target_vnum: '13816'
+      target_vnum: 010213813816
+    northwest:
+      target_vnum: 010213813818
+    southwest:
+      target_vnum: 010213813808
+  local_id: '13815'
   name: A Colina Cinzenta
-  vnum: '13815'
+  vnum: 010213813815
 - description: |-
     Você está andando sobre as ásperas rochas que compõem está colina
     cinzenta.  Ao seu redor você observa grandes rochas cinzas e a ausência de
@@ -193,21 +275,25 @@
     colina rochosa e suas rochas cinzentas.
   exits:
     east:
-      target_vnum: '13817'
+      target_vnum: 010213813817
     west:
-      target_vnum: '13815'
+      target_vnum: 010213813815
+  local_id: '13816'
   name: A Colina Cinzenta
-  vnum: '13816'
+  vnum: 010213813816
 - description: |-
     Você está sobre uma imensa colina rochosa.  Ao seu redor você observa
     enormes rochas cinzentas.  Além da colina você observa grandes montanhas que
     delimitam este lugar.  Ao noroeste e ao oeste você observa a extensa colina
     rochosa.
   exits:
+    northeast:
+      target_vnum: 010213813818
     west:
-      target_vnum: '13816'
+      target_vnum: 010213813816
+  local_id: '13817'
   name: A Colina Cinzenta
-  vnum: '13817'
+  vnum: 010213813817
 - description: |-
     Você está caminhando sobre uma imensa colina rochosa.  Ao seu redor você
     observa imensas rochosas cinzentas.  No céu você observa maravilhosas nuvens
@@ -216,9 +302,14 @@
     você observa majestoso palácio que brilha como uma estrela vermelha.
   exits:
     north:
-      target_vnum: '13819'
+      target_vnum: 010213813819
+    southeast:
+      target_vnum: 010213813817
+    southwest:
+      target_vnum: 010213813815
+  local_id: '13818'
   name: A Colina Cinzenta
-  vnum: '13818'
+  vnum: 010213813818
 - description: |-
     Você está dentro de um monumental palácio.  Ao seu redor você observa
     gigantescos ninhos de dragões, grandes janelas, magníficas estatuas de cobre
@@ -228,9 +319,10 @@
     sul você observa uma extensa colina rochosa.
   exits:
     south:
-      target_vnum: '13818'
+      target_vnum: 010213813818
+  local_id: '13819'
   name: O Palácio dos Dragões de Cobre
-  vnum: '13819'
+  vnum: 010213813819
 - description: |-
     Você está caminhando sobre as rochas de uma inóspita colina cinzenta.  Ao
     seu redor você observa maravilhosas montanhas além das imensas rochas que
@@ -240,17 +332,22 @@
     sul você observa uma trilha entre as árvores da floresta dos dragões.
   exits:
     east:
-      target_vnum: '13845'
+      target_vnum: 010213813845
     north:
-      target_vnum: '13837'
+      target_vnum: 010213813837
+    northeast:
+      target_vnum: 010213813829
+    northwest:
+      target_vnum: 010213813853
     south:
-      target_vnum: '13809'
+      target_vnum: 010213813809
     up:
-      target_vnum: '13861'
+      target_vnum: 010213813861
     west:
-      target_vnum: '13821'
+      target_vnum: 010213813821
+  local_id: '13820'
   name: A Colina Cinzenta
-  vnum: '13820'
+  vnum: 010213813820
 - description: |-
     Você está na gigantesca entrada de uma enorme mina de pedras preciosas.
     A entrada é monumental, daria para um magnífico dragão passar por ela sem
@@ -261,11 +358,12 @@
     uma colina rochosa.
   exits:
     down:
-      target_vnum: '13822'
+      target_vnum: 010213813822
     east:
-      target_vnum: '13820'
+      target_vnum: 010213813820
+  local_id: '13821'
   name: A Monumental Entrada da Mina de Ametistas
-  vnum: '13821'
+  vnum: 010213813821
 - description: |-
     Você está caminhando dentro de um magnífico túnel de uma enorme mina.  O
     diâmetro do túnel é de dimensões monumentais, um grande dragão passaria por
@@ -275,11 +373,12 @@
     interior da mina de ametistas.
   exits:
     up:
-      target_vnum: '13821'
+      target_vnum: 010213813821
     west:
-      target_vnum: '13823'
+      target_vnum: 010213813823
+  local_id: '13822'
   name: Um Gigantesco Túnel no Interior da Mina
-  vnum: '13822'
+  vnum: 010213813822
 - description: |-
     Você está dentro de uma monumental mina de ametistas, caminhando dentro
     de um dos seus túneis.  Ao seu redor você observa várias pequenas pedras
@@ -288,11 +387,12 @@
     belíssimo túnel.
   exits:
     east:
-      target_vnum: '13822'
+      target_vnum: 010213813822
     south:
-      target_vnum: '13824'
+      target_vnum: 010213813824
+  local_id: '13823'
   name: Um Gigantesco Túnel no Interior da Mina
-  vnum: '13823'
+  vnum: 010213813823
 - description: |-
     Você está dentro da maravilhosa mina de ametistas.  Caminhando lentamente
     dentro de um magnífico túnel.  Ao seu redor você observa uma belíssima
@@ -302,11 +402,12 @@
     grandioso túnel.
   exits:
     down:
-      target_vnum: '13826'
+      target_vnum: 010213813826
     north:
-      target_vnum: '13823'
+      target_vnum: 010213813823
+  local_id: '13824'
   name: Um Gigantesco Túnel no Interior da Mina
-  vnum: '13824'
+  vnum: 010213813824
 - description: |-
     Você está dentro da magnífica mina de ametistas.  Caminhando dentro de um
     monumental túnel que possui um enorme diâmetro.  Ao seu redor você observa
@@ -316,9 +417,10 @@
     observa a continuação do túnel.
   exits:
     west:
-      target_vnum: '13826'
+      target_vnum: 010213813826
+  local_id: '13825'
   name: Um Gigantesco Túnel no Interior da Mina
-  vnum: '13825'
+  vnum: 010213813825
 - description: |-
     Você está caminhando dentro de uma magnífica mina de pedras ametistas.
     Ao seu redor você observa um monumental túnel e várias ametistas no chão e
@@ -328,22 +430,28 @@
     continuação do grandioso túnel.
   exits:
     down:
-      target_vnum: '13828'
+      target_vnum: 010213813828
+    southeast:
+      target_vnum: 010213813827
     up:
-      target_vnum: '13824'
+      target_vnum: 010213813824
     west:
-      target_vnum: '13825'
+      target_vnum: 010213813825
+  local_id: '13826'
   name: Um Gigantesco Túnel no Interior da Mina
-  vnum: '13826'
+  vnum: 010213813826
 - description: |-
     Você está caminhando dentro de uma majestosa mina de pedras ametistas.
     Ao seu redor você observa o belíssimo brilho das pedras incrustadas na
     superfície do imenso túnel que corta a mina.  Você observa grandes marcas de
     garras de dragões nas paredes da mina.  Você percebe também a existência de
     grandes ninhos de dragões.  Ao noroeste você observa a continuação do túnel.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813826
+  local_id: '13827'
   name: Um Gigantesco Túnel no Interior da Mina
-  vnum: '13827'
+  vnum: 010213813827
 - description: |-
     Você está dentro da magnífica mina de pedras ametistas.  Ao seu redor
     você observa vários ninhos de dragões e numerosos filhotes de belíssimos
@@ -353,9 +461,10 @@
     para cima você observa um gigantesco túnel de dimensões magníficas.
   exits:
     up:
-      target_vnum: '13826'
+      target_vnum: 010213813826
+  local_id: '13828'
   name: A Maravilhosa Câmara dos Dragões de Pedra Ametista
-  vnum: '13828'
+  vnum: 010213813828
 - description: |-
     Você está na monumental entrada da mina de esmeraldas.  Ao seu redor você
     observa várias maravilhosas pedras esmeraldas incrustadas na superfície das
@@ -365,9 +474,12 @@
     ornado por inúmeras esmeraldas seguindo rumo ao interior da mina verde.
   exits:
     down:
-      target_vnum: '13830'
+      target_vnum: 010213813830
+    southeast:
+      target_vnum: 010213813820
+  local_id: '13829'
   name: A Magnífica Entrada da Mina de Esmeraldas
-  vnum: '13829'
+  vnum: 010213813829
 - description: |-
     Você está caminhando dentro de um enorme túnel da maravilhosa mina de
     esmeralda.  Ao seu redor você observa belíssimas esmeraldas incrustadas nas
@@ -378,11 +490,12 @@
     esmeraldas.
   exits:
     up:
-      target_vnum: '13829'
+      target_vnum: 010213813829
     west:
-      target_vnum: '13831'
+      target_vnum: 010213813831
+  local_id: '13830'
   name: Um Magnífico Túnel no Interior da Mina
-  vnum: '13830'
+  vnum: 010213813830
 - description: |-
     Você está caminhando dentro de um monumental túnel da magnífica mina de
     esmeraldas.  Ao seu redor você observa as paredes recheadas de pedras
@@ -391,11 +504,12 @@
     você observa a continuação do túnel que corta a mina de esmeraldas.
   exits:
     down:
-      target_vnum: '13832'
+      target_vnum: 010213813832
     east:
-      target_vnum: '13830'
+      target_vnum: 010213813830
+  local_id: '13831'
   name: Um Magnífico Túnel no Interior da Mina
-  vnum: '13831'
+  vnum: 010213813831
 - description: |-
     Você está andando surpreso dentro de um túnel de magníficas dimensões que
     corta a mina de esmeraldas rumo ao seu interior.  Ao seu redor você observa
@@ -405,26 +519,28 @@
     continuação deste gigantesco túnel.
   exits:
     up:
-      target_vnum: '13831'
+      target_vnum: 010213813831
     west:
-      target_vnum: '13833'
+      target_vnum: 010213813833
+  local_id: '13832'
   name: Um Magnífico Túnel no Interior da Mina
-  vnum: '13832'
+  vnum: 010213813832
 - description: "Você está caminhando dentro de um imenso túnel da mina de esmeraldas.\
     \  Ao\nseu redor você observa várias esmeraldas incrustadas na superfície das\n\
-    paredes do tÃºnel.  Ã\x80 sua frente vocÃª percebe uma bifurcaÃ§Ã£o no tÃºnel\
-    \ que\nsegue rumo ao oeste e para baixo dando continuidade ao grandioso túnel\
-    \ da\nmina de esmeraldas.  Ao leste você observa a continuação do imenso túnel\n\
-    seguindo na direção da entrada da mina."
+    paredes do túnel.  Ã\x80 sua frente você percebe uma bifurcação no túnel que\n\
+    segue rumo ao oeste e para baixo dando continuidade ao grandioso túnel da\nmina\
+    \ de esmeraldas.  Ao leste você observa a continuação do imenso túnel\nseguindo\
+    \ na direção da entrada da mina."
   exits:
     down:
-      target_vnum: '13835'
+      target_vnum: 010213813835
     east:
-      target_vnum: '13832'
+      target_vnum: 010213813832
     west:
-      target_vnum: '13834'
+      target_vnum: 010213813834
+  local_id: '13833'
   name: Uma Bifurcação no Magnífico Túnel Verde
-  vnum: '13833'
+  vnum: 010213813833
 - description: |-
     Você está dentro da magnífica mina de esmeralda.  Ao seu redor você
     observa maravilhosas esmeraldas incrustadas nas paredes da mina e vários
@@ -433,9 +549,10 @@
     que corta a mina de esmeraldas.
   exits:
     east:
-      target_vnum: '13833'
+      target_vnum: 010213813833
+  local_id: '13834'
   name: A Câmara dos Ninhos dos Dragões de Pedra Esmeralda
-  vnum: '13834'
+  vnum: 010213813834
 - description: |-
     Você está caminhando dentro de um monumental túnel da magnífica mina de
     esmeraldas.  Ao seu redor você observa as paredes recheadas de pedras
@@ -444,11 +561,12 @@
     observa a continuação do túnel que corta a mina de esmeraldas.
   exits:
     up:
-      target_vnum: '13833'
+      target_vnum: 010213813833
     west:
-      target_vnum: '13836'
+      target_vnum: 010213813836
+  local_id: '13835'
   name: Um Magnífico Túnel no Interior da Mina
-  vnum: '13835'
+  vnum: 010213813835
 - description: |-
     Você está dentro de uma maravilhosa câmara da mina de esmeraldas.  Ao seu
     redor você observa imensos ninhos de dragões e vários filhotes de dragões de
@@ -458,9 +576,10 @@
     mina de esmeraldas.
   exits:
     east:
-      target_vnum: '13835'
+      target_vnum: 010213813835
+  local_id: '13836'
   name: A Maravilhosa Câmara dos Dragões de Pedra Esmeralda
-  vnum: '13836'
+  vnum: 010213813836
 - description: |-
     Você está na majestosa entrada da mina de cristais.  Ao seu redor você
     observa as belíssimas paredes da mina revestidas por várias pedras de
@@ -471,11 +590,12 @@
     interior da sublime mina de cristais.
   exits:
     down:
-      target_vnum: '13838'
+      target_vnum: 010213813838
     south:
-      target_vnum: '13820'
+      target_vnum: 010213813820
+  local_id: '13837'
   name: A Maravilhosa Entrada da Mina de Cristais
-  vnum: '13837'
+  vnum: 010213813837
 - description: |-
     Você está caminhando dentro de um túnel de gigantescas proporções da bela
     mina de cristais.  Ao seu redor você observa vários cristais de diferentes
@@ -487,11 +607,12 @@
     de cristais.
   exits:
     south:
-      target_vnum: '13839'
+      target_vnum: 010213813839
     up:
-      target_vnum: '13837'
+      target_vnum: 010213813837
+  local_id: '13838'
   name: Um Sublime Túnel no Interior da Mina
-  vnum: '13838'
+  vnum: 010213813838
 - description: |-
     Você olha ao seu redor surpreso com o que ver!  Você está caminhando
     dentro de um imenso túnel de dimensões grandiosas da mina de cristais.  Ao
@@ -501,11 +622,12 @@
     observa uma descida no enorme túnel que segue rumo ao interior da mina.
   exits:
     down:
-      target_vnum: '13840'
+      target_vnum: 010213813840
     north:
-      target_vnum: '13838'
+      target_vnum: 010213813838
+  local_id: '13839'
   name: Um Sublime Túnel no Interior da Mina
-  vnum: '13839'
+  vnum: 010213813839
 - description: |-
     Você está dentro da grande mina de cristais.  Caminhando lentamente
     dentro de um magnífico túnel que corta a mina.  Ao seu redor você observa
@@ -515,10 +637,13 @@
     cristais e para cima você observa uma subida íngreme no interior do imenso
     túnel.
   exits:
+    northeast:
+      target_vnum: 010213813841
     up:
-      target_vnum: '13839'
+      target_vnum: 010213813839
+  local_id: '13840'
   name: Um Sublime Túnel no Interior da Mina
-  vnum: '13840'
+  vnum: 010213813840
 - description: |-
     Você está caminhando surpreso com as dimensões deste gigantesco túnel que
     corta o interior da maravilhosa mina de cristais.  Ao seu redor você observa
@@ -529,10 +654,13 @@
     rumo ao interior da mina de cristais e ao sudeste você observa o enorme
     túnel seguindo na direção da saída desta magnífica mina.
   exits:
+    southeast:
+      target_vnum: 010213813840
     west:
-      target_vnum: '13843'
+      target_vnum: 010213813843
+  local_id: '13841'
   name: Um Sublime Túnel no Interior da Mina
-  vnum: '13841'
+  vnum: 010213813841
 - description: |-
     Magnífico!  Você está dentro de uma maravilhosa câmara de cristal dentro
     desta belíssima mina.  Ao seu redor você observa a superfície das paredes da
@@ -543,9 +671,10 @@
     mina de cristais.
   exits:
     south:
-      target_vnum: '13843'
+      target_vnum: 010213813843
+  local_id: '13842'
   name: Uma Esplendorosa Câmara de Cristal
-  vnum: '13842'
+  vnum: 010213813842
 - description: |-
     Você está caminhando dentro de um magnífico túnel que corta o interior da
     maravilhosa mina de cristais.  Ao seu redor você observa uma infinidade de
@@ -556,13 +685,14 @@
     monumental câmara cheia de ninhos de dragões.
   exits:
     down:
-      target_vnum: '13844'
+      target_vnum: 010213813844
     east:
-      target_vnum: '13841'
+      target_vnum: 010213813841
     north:
-      target_vnum: '13842'
+      target_vnum: 010213813842
+  local_id: '13843'
   name: Um Sublime Túnel no Interior da Mina
-  vnum: '13843'
+  vnum: 010213813843
 - description: |-
     Uma enorme sensação de inferioridade toma conta do seu corpo e da sua
     mente ao observa este maravilhoso e celestial lugar.  Você encontrou o belo
@@ -576,9 +706,10 @@
     gigantesco túnel que corta o interior da mina de cristais.
   exits:
     up:
-      target_vnum: '13843'
+      target_vnum: 010213813843
+  local_id: '13844'
   name: O Nascedouro dos Dragões de Pedra Cristal
-  vnum: '13844'
+  vnum: 010213813844
 - description: |-
     Você está na magnífica e surpreendente entrada da mina de safiras.  Ao
     seu redor você observa maravilhosas safiras incrustadas na superfície das
@@ -588,11 +719,12 @@
     interior da mina de safiras.
   exits:
     down:
-      target_vnum: '13846'
+      target_vnum: 010213813846
     west:
-      target_vnum: '13820'
+      target_vnum: 010213813820
+  local_id: '13845'
   name: A Belíssima Entrada da Mina de Safiras
-  vnum: '13845'
+  vnum: 010213813845
 - description: |-
     Você está caminhando alegremente dentro de um magnífico túnel que segue
     rumo ao interior da majestosa mina de safiras.  Ao seu redor você observa
@@ -604,11 +736,12 @@
     que segue rumo ao interior da encantadora mina de pedras safiras.
   exits:
     down:
-      target_vnum: '13847'
+      target_vnum: 010213813847
     up:
-      target_vnum: '13845'
+      target_vnum: 010213813845
+  local_id: '13846'
   name: Um Encantador Túnel no Interior da Mina
-  vnum: '13846'
+  vnum: 010213813846
 - description: |-
     Você está caminhando tranqüilamente dentro de um agradável túnel de
     dimensões gigantescas que segue rumo ao interior da mina de pedras safiras.
@@ -621,10 +754,13 @@
     interior da mina e para cima você observa o túnel na direção da saída da
     bela mina de pedras safiras.
   exits:
+    southwest:
+      target_vnum: 010213813848
     up:
-      target_vnum: '13846'
+      target_vnum: 010213813846
+  local_id: '13847'
   name: Um Encantador Túnel no Interior da Mina
-  vnum: '13847'
+  vnum: 010213813847
 - description: |-
     Você está caminhando calmamente dentro do encantador túnel que corta o
     interior da magnífica mina de pedras safiras.  Ao seu redor você observa
@@ -634,9 +770,14 @@
     azul que surgem das belas safiras iluminam todo o túnel, facilitando a sua
     caminhada.  Ao nordeste e ao sudoeste você observa a continuação do imenso
     túnel que corta o interior da mina de pedras safiras.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 010213813847
+    southwest:
+      target_vnum: 010213813849
+  local_id: '13848'
   name: Um Encantador Túnel no Interior da Mina
-  vnum: '13848'
+  vnum: 010213813848
 - description: |-
     Você está andando dentro de um magnífico túnel da mina de pedras safiras.
     Ao seu redor você observa belíssimas safiras espalhadas pelo chão e
@@ -647,10 +788,13 @@
     monumental túnel seguindo na direção da saída do túnel e ao sul você observa
     uma bifurcação no grandioso túnel.
   exits:
+    northwest:
+      target_vnum: 010213813848
     south:
-      target_vnum: '13850'
+      target_vnum: 010213813850
+  local_id: '13849'
   name: Um Encantador Túnel no Interior da MIna
-  vnum: '13849'
+  vnum: 010213813849
 - description: |-
     Você observa uma bifurcação no magnífico túnel que corta o interior da
     mina de pedras safiras.  Ao seu redor você observa um belíssimo túnel azul.
@@ -663,11 +807,14 @@
     baixo você observa o majestoso túnel se dividir em dois caminhos azulados.
   exits:
     down:
-      target_vnum: '13851'
+      target_vnum: 010213813851
     north:
-      target_vnum: '13848'
+      target_vnum: 010213813848
+    southeast:
+      target_vnum: 010213813852
+  local_id: '13850'
   name: Uma Bifurcação no Encantador Túnel Azul
-  vnum: '13850'
+  vnum: 010213813850
 - description: |-
     Magnífico!  Você encontrou o majestoso nascedouro dos dragões de pedra
     safira.  Ao seu redor você observa belos ninhos cheios de ovos de dragões e
@@ -681,9 +828,10 @@
     você um grandioso túnel azulado.
   exits:
     up:
-      target_vnum: '13850'
+      target_vnum: 010213813850
+  local_id: '13851'
   name: O Maravilhoso Recinto Azulado dos Dragões de Pedra Safira
-  vnum: '13851'
+  vnum: 010213813851
 - description: |-
     Esplendorosa!  Você encontrou uma monumental pedra safira que emite um
     brilho intenso, atingindo o seu corpo e purificando sua mente.  Ao seu redor
@@ -696,9 +844,12 @@
     pedra, uma suave e encantadora melodia surge, lhe deixando tranqüilo e
     espalhando uma sensação de paz em seu corpo.  Ao noroeste você observa um
     monumental túnel que corta o interior da maravilhosa mina de pedras safiras.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813850
+  local_id: '13852'
   name: Uma Extraordinária Pedra Azul
-  vnum: '13852'
+  vnum: 010213813852
 - description: |-
     Maravilhosa!  Você está na majestosa entrada da mina de topázios.  As
     dimensões do túnel que segue rumo ao interior da mina são monumentais.  Ao
@@ -709,9 +860,12 @@
     topázios.
   exits:
     down:
-      target_vnum: '13854'
+      target_vnum: 010213813854
+    southwest:
+      target_vnum: 010213813820
+  local_id: '13853'
   name: A Bela Entrada da Mina de Topázios
-  vnum: '13853'
+  vnum: 010213813853
 - description: |-
     Você está caminhando no interior de um imenso túnel na mina de topázios.
     Ao seu redor você observa inúmeras pedras de topázio das mais variadas
@@ -722,11 +876,12 @@
     topázios.
   exits:
     east:
-      target_vnum: '13855'
+      target_vnum: 010213813855
     up:
-      target_vnum: '13853'
+      target_vnum: 010213813853
+  local_id: '13854'
   name: Um Formidável Túnel no Interior da Mina
-  vnum: '13854'
+  vnum: 010213813854
 - description: |-
     Você está caminhando dentro de um gigantesco túnel que corta o interior
     da mina de topázios.  Ao seu redor você observa milhares de topázios
@@ -737,11 +892,12 @@
     seguindo na direção do interior da mina de topázios.
   exits:
     down:
-      target_vnum: '13856'
+      target_vnum: 010213813856
     west:
-      target_vnum: '13854'
+      target_vnum: 010213813854
+  local_id: '13855'
   name: Um Formidável Túnel no Interior da Mina
-  vnum: '13855'
+  vnum: 010213813855
 - description: |-
     Você está caminhando dentro de um monumental túnel da bela mina de
     topázios.  Ao seu redor você observa sobre o solo gigantescas pegadas de
@@ -751,11 +907,12 @@
     túnel seguindo na direção do interior da mina.
   exits:
     up:
-      target_vnum: '13855'
+      target_vnum: 010213813855
     west:
-      target_vnum: '13857'
+      target_vnum: 010213813857
+  local_id: '13856'
   name: Um Formidável Túnel no Interior da Mina
-  vnum: '13856'
+  vnum: 010213813856
 - description: |-
     Você está caminhando dentro do gigantesco túnel amarelo revestido por
     milhares pedras de topázio, que corta o interior da mina de pedras topázio.
@@ -765,11 +922,12 @@
     uma bifurcação ao longo do túnel amarelo.
   exits:
     down:
-      target_vnum: '13858'
+      target_vnum: 010213813858
     east:
-      target_vnum: '13856'
+      target_vnum: 010213813856
+  local_id: '13857'
   name: Um Formidável Túnel no Interior da Mina
-  vnum: '13857'
+  vnum: 010213813857
 - description: |-
     Você chegou a uma imensa bifurcação no interior do monumental túnel que
     corta a maravilhosa mina de topázios.  Ao seu redor você observa inúmeras
@@ -779,22 +937,24 @@
     ninhos de dragões.
   exits:
     down:
-      target_vnum: '13860'
+      target_vnum: 010213813860
     east:
-      target_vnum: '13859'
+      target_vnum: 010213813859
+  local_id: '13858'
   name: Uma Bifurcação no Interior do Túnel Amarelo
-  vnum: '13858'
+  vnum: 010213813858
 - description: "Você está dentro de uma magnífica câmara amarela revestida por milhares\n\
-    de topÃ¡zios da imensa mina de pedras.  Ã\x80 sua frente vocÃª observa uma enorme\n\
+    de topázios da imensa mina de pedras.  Ã\x80 sua frente você observa uma enorme\n\
     e maravilhosa estatua amarela composta por várias pedras de topázio, que\ngraciosamente\
     \ formam um gigantesco dragão de pedra.  Ao seu redor você\nobserva monumentais\
     \ pegadas de dragões sobre o solo da mina.  Ao oeste você\nobserva uma grandiosa\
     \ bifurcação no túnel que corta o interior da mina de\ntopázios."
   exits:
     west:
-      target_vnum: '13858'
+      target_vnum: 010213813858
+  local_id: '13859'
   name: Uma Esplendorosa Estatua de Pedras Amarelas
-  vnum: '13859'
+  vnum: 010213813859
 - description: |-
     Surpreendente!  Você encontrou o sagrado lar dos magníficos e imponentes
     dragões de pedra topázio.  Ao seu redor você observa vários ninhos de
@@ -807,9 +967,10 @@
     imenso túnel que corta o interior da mina de topázios.
   exits:
     up:
-      target_vnum: '13858'
+      target_vnum: 010213813858
+  local_id: '13860'
   name: O Celestial Nascedouro dos Dragões de Pedra Topázio
-  vnum: '13860'
+  vnum: 010213813860
 - description: |-
     Você está caminhando sobre uma bela e agradável colina coberta por uma
     compacta e extensa camada de grama.  Ao seu redor você observa uma magnífica
@@ -820,11 +981,12 @@
     extensa colina verde e para baixo você observa uma colina rochosa.
   exits:
     down:
-      target_vnum: '13820'
+      target_vnum: 010213813820
     north:
-      target_vnum: '13862'
+      target_vnum: 010213813862
+  local_id: '13861'
   name: Uma Colina Verde
-  vnum: '13861'
+  vnum: 010213813861
 - description: |-
     Você está caminhando sobre uma bela e tranqüila colina verde.  Ao seu
     redor você observa uma extensa e compacta camada de grama.  O silêncio neste
@@ -834,11 +996,16 @@
     sobrevoando ao seu redor.
   exits:
     north:
-      target_vnum: '13871'
+      target_vnum: 010213813871
+    northeast:
+      target_vnum: 010213813863
+    northwest:
+      target_vnum: 010213813865
     south:
-      target_vnum: '13861'
+      target_vnum: 010213813861
+  local_id: '13862'
   name: Uma Colina Verde
-  vnum: '13862'
+  vnum: 010213813862
 - description: |-
     Você está na base de uma magnífica montanha rochosa.  Ao seu redor você
     observa grandes rochas que formam a base da montanha.  Para cima você
@@ -846,10 +1013,13 @@
     monumentais dragões sobrevoam ao seu redor e ao sudeste você observa uma
     bela colina verde.
   exits:
+    southeast:
+      target_vnum: 010213813862
     up:
-      target_vnum: '13864'
+      target_vnum: 010213813864
+  local_id: '13863'
   name: A Base da Grande Montanha Rochosa
-  vnum: '13863'
+  vnum: 010213813863
 - description: |-
     Você está sobre o topo da majestosa montanha rochosa.  Ao seu redor você
     observa gigantescos dragões de metal sobrevoando ao redor do topo da
@@ -860,9 +1030,10 @@
     base da grande montanha rochosa.
   exits:
     down:
-      target_vnum: '13863'
+      target_vnum: 010213813863
+  local_id: '13864'
   name: O Topo da Magnífica Montanha Rochosa
-  vnum: '13864'
+  vnum: 010213813864
 - description: |-
     Você está caminhando tranqüilamente sobre uma extensa colina coberta por
     uma bela e compacta camada de grama.  Ao seu redor você observa apenas
@@ -870,9 +1041,14 @@
     Na direção oeste você observa uma monumental montanha rochosa sobrevoada por
     gigantescos dragões.  Ao sudeste e ao sudoeste você observa a extensa colina
     verde.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 010213813866
+    southwest:
+      target_vnum: 010213813862
+  local_id: '13865'
   name: Uma Colina Verde
-  vnum: '13865'
+  vnum: 010213813865
 - description: |-
     Você está caminhando sobre uma bela e agradável colina coberta por uma
     compacta e extensa camada de grama.  Ao seu redor você observa uma magnífica
@@ -882,9 +1058,14 @@
     nordeste você observa um belo lago de águas cristalinas.
   exits:
     east:
-      target_vnum: '13867'
+      target_vnum: 010213813867
+    northeast:
+      target_vnum: 010213813865
+    northwest:
+      target_vnum: 010213813868
+  local_id: '13866'
   name: Uma Colina Verde
-  vnum: '13866'
+  vnum: 010213813866
 - description: |-
     Você está caminhando sobre uma bela e tranqüila colina verde.  Ao seu
     redor você observa uma extensa e compacta camada de grama.  O silêncio neste
@@ -894,11 +1075,14 @@
     sinistra caverna.
   exits:
     down:
-      target_vnum: '13900'
+      target_vnum: 010213813900
+    northeast:
+      target_vnum: 010213813868
     west:
-      target_vnum: '13866'
+      target_vnum: 010213813866
+  local_id: '13867'
   name: Uma Colina Verde
-  vnum: '13867'
+  vnum: 010213813867
 - description: |-
     Você está nadando nas cristalinas águas do maravilhoso lago brilhante.
     Ao seu redor você observa as límpidas águas do lago que esquentam seu corpo,
@@ -909,11 +1093,16 @@
     pequeninos peixes coloridos.
   exits:
     down:
-      target_vnum: '13899'
+      target_vnum: 010213813899
     east:
-      target_vnum: '13869'
+      target_vnum: 010213813869
+    southeast:
+      target_vnum: 010213813867
+    southwest:
+      target_vnum: 010213813866
+  local_id: '13868'
   name: "Nas Ã\x81guas Cristalinas do Belo Lago Brilhante"
-  vnum: '13868'
+  vnum: 010213813868
 - description: |-
     Você está nadando nas límpidas águas do lago brilhante.  Ao seu redor
     você observa as suaves nuvens refletidas na superfície das águas do lago.
@@ -923,11 +1112,12 @@
     do lago.
   exits:
     down:
-      target_vnum: '13870'
+      target_vnum: 010213813870
     west:
-      target_vnum: '13868'
+      target_vnum: 010213813868
+  local_id: '13869'
   name: "Nas Ã\x81guas Cristalinas do Lago Brilhante"
-  vnum: '13869'
+  vnum: 010213813869
 - description: |-
     Você está nadando nas límpidas águas no fundo do maravilhoso lago
     brilhante.  Ao seu redor você observa pequeninos peixes coloridos nadando ao
@@ -935,10 +1125,13 @@
     Ao noroeste você observa o belo mundo do fundo do lago brilhante e para cima
     você observa surpreso o seu próprio reflexo na superfície das águas do lago.
   exits:
+    northeast:
+      target_vnum: 010213813899
     up:
-      target_vnum: '13869'
+      target_vnum: 010213813869
+  local_id: '13870'
   name: No Fundo do Lago Brilhante
-  vnum: '13870'
+  vnum: 010213813870
 - description: |-
     Você está andando sobre um belíssimo tapete verde formado por uma extensa
     camada compacta de grama.  Ao seu redor você observa alguns pássaros
@@ -949,11 +1142,12 @@
     que brotam da grandiosa montanha rochosa do oeste.
   exits:
     south:
-      target_vnum: '13862'
+      target_vnum: 010213813862
     west:
-      target_vnum: '13872'
+      target_vnum: 010213813872
+  local_id: '13871'
   name: Uma Colina Verde
-  vnum: '13871'
+  vnum: 010213813871
 - description: |-
     Você está sob as refrescantes águas que caem suavemente das maravilhosas
     cascatas dos dragões.  As belíssimas cascatas brotam da grandiosa montanha
@@ -962,41 +1156,59 @@
     dragões banhando-se nelas.  Ao leste você observa uma extensa colina verde.
   exits:
     east:
-      target_vnum: '13871'
+      target_vnum: 010213813871
+    northeast:
+      target_vnum: 010213813873
+  local_id: '13872'
   name: As Magníficas Cascatas dos Dragões
-  vnum: '13872'
-- description: "VocÃª estÃ¡ caminhando sobre uma extensa colina verde.  Ã\x80 sua\
-    \ frente vocÃª\nobserva um gigantesco monólito colorido com belíssimas runas esculpidas\
+  vnum: 010213813872
+- description: "Você está caminhando sobre uma extensa colina verde.  Ã\x80 sua frente\
+    \ você\nobserva um gigantesco monólito colorido com belíssimas runas esculpidas\
     \ em\nsua superfície.  Alguns formosos pássaros pousam sobre o topo do grande\n\
     monólito e cantam suaves melodias.  Ao nordeste e ao noroeste você observa\nmagníficos\
     \ monólitos e ao sudeste você observa a maravilhosa parede de água\nformada pelas\
     \ cascatas dos dragões."
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813874
+    northwest:
+      target_vnum: 010213813875
+    southeast:
+      target_vnum: 010213813872
+  local_id: '13873'
   name: Uma Enorme Pedra Colorida
-  vnum: '13873'
+  vnum: 010213813873
 - description: "Você está caminhando tranqüilamente sobre uma extensa colina coberta\
-    \ por\numa compacta e confortÃ¡vel camada de grama.  Ã\x80 sua frente vocÃª observa\
+    \ por\numa compacta e confortável camada de grama.  Ã\x80 sua frente você observa\
     \ um\nmagnífico monólito dourado com maravilhosas runas esculpidas em sua\nsuperfície.\
     \  Ao leste e ao sudeste você observa monumentais monólitos.  A\ncima das nuvens\
     \ você observa uma enorme rocha flutuando nos áureos céus de\nVitália."
   exits:
     east:
-      target_vnum: '13875'
+      target_vnum: 010213813875
+    southeast:
+      target_vnum: 010213813873
     up:
-      target_vnum: '13876'
+      target_vnum: 010213813876
+  local_id: '13874'
   name: Uma Gigantesca Pedra Dourada
-  vnum: '13874'
+  vnum: 010213813874
 - description: "Você está andando sobre uma extensa colina coberta por uma bela camada\
-    \ de\ngrama.  Ã\x80 sua frente vocÃª observa um magnÃ­fico monÃ³lito brilhante\
-    \ revestido\nde platina.  Ao seu redor você observa a presença de vários pássaros\
-    \ que\nolham curiosamente para você e emitem constantes sons.  Ao oeste e ao\n\
-    sudoeste você observa majestosos monólitos.  Ao nordeste você observa uma\ntranqüila\
-    \ colina verde."
+    \ de\ngrama.  Ã\x80 sua frente você observa um magnífico monólito brilhante revestido\n\
+    de platina.  Ao seu redor você observa a presença de vários pássaros que\nolham\
+    \ curiosamente para você e emitem constantes sons.  Ao oeste e ao\nsudoeste você\
+    \ observa majestosos monólitos.  Ao nordeste você observa uma\ntranqüila colina\
+    \ verde."
   exits:
+    northwest:
+      target_vnum: 010213813910
+    southwest:
+      target_vnum: 010213813873
     west:
-      target_vnum: '13874'
+      target_vnum: 010213813874
+  local_id: '13875'
   name: Uma Maravilhosa Pedra Metálica
-  vnum: '13875'
+  vnum: 010213813875
 - description: |-
     Você está voando entre as belas e suaves nuvens dos céus de Vitália.  Ao
     seu redor você observa alguns pássaros voando curiosamente ao seu lado entre
@@ -1005,11 +1217,12 @@
     observa uma gigantesca rocha flutuando entre as nuvens de Vitália.
   exits:
     down:
-      target_vnum: '13874'
+      target_vnum: 010213813874
     up:
-      target_vnum: '13877'
+      target_vnum: 010213813877
+  local_id: '13876'
   name: Entre as Suaves Nuvens dos Céus de Vitália
-  vnum: '13876'
+  vnum: 010213813876
 - description: |-
     Você está voando entre as sublimes e suaves nuvens dos áureos céus de
     Vitália.  Ao seu redor você observa vários pássaros surpresos com a sua
@@ -1018,11 +1231,12 @@
     flutuando entre as nuvens de Vitália.
   exits:
     down:
-      target_vnum: '13876'
+      target_vnum: 010213813876
     up:
-      target_vnum: '13878'
+      target_vnum: 010213813878
+  local_id: '13877'
   name: Entre as Suaves Nuvens dos Céus de Vitália
-  vnum: '13877'
+  vnum: 010213813877
 - description: |-
     Você está voando entre as belíssimas e suaves nuvens dos celestiais céus
     de Vitália.  Ao seu redor você pequenos pássaros voando entre as nuvens
@@ -1031,11 +1245,12 @@
     nuvens de Vitália.
   exits:
     down:
-      target_vnum: '13877'
+      target_vnum: 010213813877
     up:
-      target_vnum: '13879'
+      target_vnum: 010213813879
+  local_id: '13878'
   name: Entre as Suaves Nuvens dos Céus de Vitália
-  vnum: '13878'
+  vnum: 010213813878
 - description: "Você encontrou o surpreendente castelo flutuante do deus dos bons\n\
     dragões, o glorioso Bahamut.  Inexplicavelmente sua respiração voltou ao\nnormal.\
     \  Ao seu redor você observa uma gigantesca plataforma flutuante e\nsobre ela\
@@ -1043,17 +1258,18 @@
     \ esculpidas no chão branco, feito com o mais puro e sublime\nmármore existente\
     \ em Vitália.  Monumentais dragões dourados sobrevoam ao\nredor do belíssimo castelo\
     \ e enquanto alguns dragões prateados surgem das\ngrandiosas janelas do castelo\
-    \ do deus dos bons dragÃµes.  Ã\x80 sua frente vocÃª\nobserva um enorme portão\
-    \ de madeira apoiado numa gigantesca muralha de\npedra ornamentada por várias\
-    \ lamparinas douradas, que emitem um brilho\nintenso iluminando toda a plataforma.\
-    \  Para baixo você observa as suaves\nnuvens dos áureos céus de Vitália."
+    \ do deus dos bons dragões.  Ã\x80 sua frente você\nobserva um enorme portão de\
+    \ madeira apoiado numa gigantesca muralha de\npedra ornamentada por várias lamparinas\
+    \ douradas, que emitem um brilho\nintenso iluminando toda a plataforma.  Para\
+    \ baixo você observa as suaves\nnuvens dos áureos céus de Vitália."
   exits:
     down:
-      target_vnum: '13878'
+      target_vnum: 010213813878
     north:
-      target_vnum: '13881'
+      target_vnum: 010213813881
+  local_id: '13879'
   name: O Esplendoroso Castelo Flutuante de Bahamut
-  vnum: '13879'
+  vnum: 010213813879
 - description: |-
     Você está caminhando dentro do magnífico castelo flutuante do deus dos
     bons dragões, o glorioso Bahamut.  Ao seu redor você observa enormes janelas
@@ -1065,9 +1281,12 @@
     majestoso e sagrado salão do castelo do deus dos bons dragões.
   exits:
     east:
-      target_vnum: '13881'
+      target_vnum: 010213813881
+    northwest:
+      target_vnum: 010213813883
+  local_id: '13880'
   name: O Monumental Salão do Castelo de Bahamut
-  vnum: '13880'
+  vnum: 010213813880
 - description: |-
     Você está dentro do magnífico salão do belíssimo castelo do deus dos bons
     dragões, o poderoso Bahamut.  Ao seu redor você observa as maravilhosas
@@ -1080,13 +1299,18 @@
     apoiado por uma imensa muralha de pedra.
   exits:
     east:
-      target_vnum: '13882'
+      target_vnum: 010213813882
+    northeast:
+      target_vnum: 010213813883
+    northwest:
+      target_vnum: 010213813884
     south:
-      target_vnum: '13879'
+      target_vnum: 010213813879
     west:
-      target_vnum: '13880'
+      target_vnum: 010213813880
+  local_id: '13881'
   name: O Monumental Salão do Castelo de Bahamut
-  vnum: '13881'
+  vnum: 010213813881
 - description: |-
     Você está caminhando dentro do magnífico castelo flutuante do deus dos
     bons dragões, o glorioso Bahamut.  Ao seu redor você observa enormes janelas
@@ -1097,10 +1321,13 @@
     pinturas de dragões e dos deuses.  Ao oeste e ao noroeste você observa o
     majestoso e sagrado salão do castelo do deus dos bons dragões.
   exits:
+    northeast:
+      target_vnum: 010213813884
     west:
-      target_vnum: '13881'
+      target_vnum: 010213813881
+  local_id: '13882'
   name: O Monumental Salão do Castelo de Bahamut
-  vnum: '13882'
+  vnum: 010213813882
 - description: |-
     Você está contemplando o magnífico salão do castelo do deus dos bons
     dragões, o glorioso Bahamut.  Ao seu redor você observa monumentais janelas
@@ -1114,27 +1341,37 @@
     pedras.
   exits:
     east:
-      target_vnum: '13884'
+      target_vnum: 010213813884
+    southeast:
+      target_vnum: 010213813881
+    southwest:
+      target_vnum: 010213813880
     up:
-      target_vnum: '13891'
+      target_vnum: 010213813891
+  local_id: '13883'
   name: O Monumental Salão do Castelo de Bahamut
-  vnum: '13883'
+  vnum: 010213813883
 - description: "Você está dentro do magnífico salão do belíssimo castelo do deus dos\
     \ bons\ndragões, o poderoso dragão de platina Bahamut.  Ao seu redor você observa\n\
     gigantescas pedras que formam as paredes e o teto deste sublime salão.  No\nteto\
-    \ do salão, você observa lindas pinturas dos dragões e dos deuses na\nsuperfÃ­cie\
-    \ da perfeita abobada de pedra.  Ã\x80 sua frente vocÃª observa atravÃ©s\nde uma\
+    \ do salão, você observa lindas pinturas dos dragões e dos deuses na\nsuperfície\
+    \ da perfeita abobada de pedra.  Ã\x80 sua frente você observa através\nde uma\
     \ imensa janela as belas terras deste maravilhoso lugar, e percebe que\nestá numa\
     \ grandiosa ilha.  A esplendorosa ilha de Yo, a morada dos sagrados\ne lendários\
     \ dragões.  Ao oeste, sudeste e ao sudoeste você observa o\nmagnífico salão do\
     \ castelo de Bahamut e para cima você observa uma longa\nescadaria de pedra."
   exits:
+    southeast:
+      target_vnum: 010213813882
+    southwest:
+      target_vnum: 010213813881
     up:
-      target_vnum: '13890'
+      target_vnum: 010213813890
     west:
-      target_vnum: '13883'
+      target_vnum: 010213813883
+  local_id: '13884'
   name: O Monumental Salão do Castelo de Bahamut
-  vnum: '13884'
+  vnum: 010213813884
 - description: |-
     Você está dentro da cela onde são aprisionadas as malditas e malévolas
     criaturas da ilha de Yo.  Ao seu redor você observa as resistentes grades de
@@ -1142,9 +1379,18 @@
     Bahamut.  Ao noroeste, nordeste, sudeste e ao sudoeste você observa oito
     gigantescos tronos de pedra e ao norte da cela você observa o maravilhoso
     trono do deus dos bons dragões.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010213813888
+    northwest:
+      target_vnum: 010213813889
+    southeast:
+      target_vnum: 010213813886
+    southwest:
+      target_vnum: 010213813887
+  local_id: '13885'
   name: A Cela dos Amaldiçoados
-  vnum: '13885'
+  vnum: 010213813885
 - description: |-
     Você está caminhando entre majestosos tronos de pedra e gigantescas
     estatuas de dragões do esplendoroso tribunal de Bahamut.  Ao seu redor você
@@ -1158,11 +1404,16 @@
     enorme cela de diamante.
   exits:
     north:
-      target_vnum: '13889'
+      target_vnum: 010213813889
+    northeast:
+      target_vnum: 010213813885
+    southwest:
+      target_vnum: 010213813890
     west:
-      target_vnum: '13887'
+      target_vnum: 010213813887
+  local_id: '13886'
   name: Entre os Monumentais Tronos e Estatuas do Tribunal de Bahamut
-  vnum: '13886'
+  vnum: 010213813886
 - description: |-
     Você está caminhando entre majestosos tronos de pedra e gigantescas
     estatuas de dragões do esplendoroso tribunal de Bahamut.  Ao seu redor você
@@ -1176,11 +1427,16 @@
     enorme cela de diamante.
   exits:
     east:
-      target_vnum: '13886'
+      target_vnum: 010213813886
     north:
-      target_vnum: '13888'
+      target_vnum: 010213813888
+    northwest:
+      target_vnum: 010213813885
+    southeast:
+      target_vnum: 010213813890
+  local_id: '13887'
   name: Entre os Monumentais Tronos e Estatuas do Tribunal de Bahamut
-  vnum: '13887'
+  vnum: 010213813887
 - description: |-
     Você está caminhando entre majestosos tronos de pedra e gigantescas
     estatuas de dragões do esplendoroso tribunal de Bahamut.  Ao seu redor você
@@ -1193,11 +1449,14 @@
     diamante.
   exits:
     east:
-      target_vnum: '13889'
+      target_vnum: 010213813889
     south:
-      target_vnum: '13887'
+      target_vnum: 010213813887
+    southeast:
+      target_vnum: 010213813885
+  local_id: '13888'
   name: Entre os Monumentais Tronos e Estatuas do Tribunal de Bahamut
-  vnum: '13888'
+  vnum: 010213813888
 - description: |-
     Você está caminhando entre majestosos tronos de pedra e gigantescas
     estatuas de dragões do esplendoroso tribunal de Bahamut.  Ao seu redor você
@@ -1210,11 +1469,14 @@
     diamante.
   exits:
     south:
-      target_vnum: '13886'
+      target_vnum: 010213813886
+    southwest:
+      target_vnum: 010213813885
     west:
-      target_vnum: '13888'
+      target_vnum: 010213813888
+  local_id: '13889'
   name: Entre os Monumentais Tronos e Estatuas do Tribunal de Bahamut
-  vnum: '13889'
+  vnum: 010213813889
 - description: |-
     Você está na maravilhosa entrada do tribunal de Bahamut, onde são
     julgados os dragões habitantes da sagrada ilha de Yo, que cometam atos que
@@ -1226,25 +1488,31 @@
     baixo você observa uma longa escadaria.
   exits:
     down:
-      target_vnum: '13884'
+      target_vnum: 010213813884
+    northeast:
+      target_vnum: 010213813887
+    northwest:
+      target_vnum: 010213813886
+  local_id: '13890'
   name: A Majestosa Entrada do Tribunal de Bahamut
-  vnum: '13890'
+  vnum: 010213813890
 - description: "Você está dentro do salão celestial do glorioso dragão Bahamut.  Ao\
     \ seu\nredor você observa magníficas colunas de pedras que sustentam uma belíssima\n\
     cúpula dourada.  Monumentais estatuas de pedra formam uma maravilhosa\nalameda,\
     \ que se extende da entrada do salão até um grandioso trono dourado\nno extremo\
     \ norte do recinto.  Majestosos quadros estão fixados na superfície\ndo salão.\
     \  Uma suave brisa brota através das enormes janelas emolduradas com\nouro e prata.\
-    \  Ã\x89 possÃ­vel vocÃª observa atravÃ©s das janelas toda a extensÃ£o\nda maravilhosa\
+    \  Ã\x89 possível você observa através das janelas toda a extensão\nda maravilhosa\
     \ ilha de Yo.  Ao norte você observa uma magnífica alameda\nformada por duas esplendorosas\
     \ estatuas de dragões e para baixo você observa\numa longa escadaria de pedra."
   exits:
     down:
-      target_vnum: '13883'
+      target_vnum: 010213813883
     north:
-      target_vnum: '13892'
+      target_vnum: 010213813892
+  local_id: '13891'
   name: O Sublime Recinto do Deus dos Bons Dragões
-  vnum: '13891'
+  vnum: 010213813891
 - description: |-
     Você está caminhando numa surpreendente alameda formada por várias
     estatuas gigantescas de dragões.  Ao seu redor você observa o imenso salão
@@ -1258,15 +1526,16 @@
     trono dourado, no extremo norte do salão.
   exits:
     east:
-      target_vnum: '13894'
+      target_vnum: 010213813894
     north:
-      target_vnum: '13895'
+      target_vnum: 010213813895
     south:
-      target_vnum: '13891'
+      target_vnum: 010213813891
     west:
-      target_vnum: '13893'
+      target_vnum: 010213813893
+  local_id: '13892'
   name: A Magnífica Alameda dos Dragões
-  vnum: '13892'
+  vnum: 010213813892
 - description: |-
     Você está dentro do celestial salão da magnífico castelo flutuante do
     deus dos bons dragões, o glorioso Bahamut.  Ao seu redor você observa lindas
@@ -1277,9 +1546,10 @@
     majestoso lugar.  Ao leste você observa a bela alameda dos dragões.
   exits:
     east:
-      target_vnum: '13892'
+      target_vnum: 010213813892
+  local_id: '13893'
   name: As Belíssimas Estatuas do Salão Celestial de Bahamut
-  vnum: '13893'
+  vnum: 010213813893
 - description: |-
     Você está dentro do celestial salão da magnífico castelo flutuante do
     deus dos bons dragões, o glorioso Bahamut.  Ao seu redor você observa lindas
@@ -1290,9 +1560,10 @@
     majestoso lugar.  Ao oeste você observa a bela alameda dos dragões.
   exits:
     west:
-      target_vnum: '13892'
+      target_vnum: 010213813892
+  local_id: '13894'
   name: As Belíssimas Estatuas do Salão Celestial de Bahamut
-  vnum: '13894'
+  vnum: 010213813894
 - description: |-
     Você está caminhando numa surpreendente alameda formada por várias
     estatuas gigantescas de dragões.  Ao seu redor você observa o imenso salão
@@ -1306,15 +1577,16 @@
     trono dourado.
   exits:
     east:
-      target_vnum: '13897'
+      target_vnum: 010213813897
     north:
-      target_vnum: '13898'
+      target_vnum: 010213813898
     south:
-      target_vnum: '13892'
+      target_vnum: 010213813892
     west:
-      target_vnum: '13896'
+      target_vnum: 010213813896
+  local_id: '13895'
   name: A Magnífica Alameda dos Dragões
-  vnum: '13895'
+  vnum: 010213813895
 - description: |-
     Você está dentro do celestial salão da magnífico castelo flutuante do
     deus dos bons dragões, o glorioso Bahamut.  Ao seu redor você observa lindas
@@ -1325,9 +1597,10 @@
     majestoso lugar.  Ao leste você observa a bela alameda dos dragões.
   exits:
     east:
-      target_vnum: '13895'
+      target_vnum: 010213813895
+  local_id: '13896'
   name: As Belíssimas Estatuas do Salão Celestial de Bahamut
-  vnum: '13896'
+  vnum: 010213813896
 - description: |-
     Você está dentro do celestial salão da magnífico castelo flutuante do
     deus dos bons dragões, o glorioso Bahamut.  Ao seu redor você observa lindas
@@ -1338,11 +1611,12 @@
     majestoso lugar.  Ao oeste você observa a bela alameda dos dragões.
   exits:
     west:
-      target_vnum: '13895'
+      target_vnum: 010213813895
+  local_id: '13897'
   name: As Belíssimas Estatuas do Salão Celestial de Bahamut
-  vnum: '13897'
+  vnum: 010213813897
 - description: "Você está dentro do celestial salão do magnífico castelo flutuante\
-    \ do\ndeus dos bons dragÃµes, o poderoso Bahamut.  Ã\x80 sua frente vocÃª observa\
+    \ do\ndeus dos bons dragões, o poderoso Bahamut.  Ã\x80 sua frente você observa\
     \ um\nmajestoso trono dourado feito de um estranho metal brilhante.  Enormes\n\
     janelas emolduradas com ouro e prata fornecem uma das mais belas paisagens\njá\
     \ vista por você por toda Vitália.  Você observa toda a extensa ilha de Yo,\n\
@@ -1358,9 +1632,10 @@
     \ de dragões."
   exits:
     south:
-      target_vnum: '13895'
+      target_vnum: 010213813895
+  local_id: '13898'
   name: O Majestoso Trono do Deus dos Bons Dragões
-  vnum: '13898'
+  vnum: 010213813898
 - description: |-
     Você está nadando nas límpidas águas no fundo do maravilhoso lago
     brilhante.  Ao seu redor você observa pequeninos peixes coloridos nadando ao
@@ -1368,10 +1643,13 @@
     Ao sudeste você observa o belo mundo do fundo do lago brilhante e para cima
     você observa surpreso o seu próprio reflexo na superfície das águas do lago.
   exits:
+    southeast:
+      target_vnum: 010213813870
     up:
-      target_vnum: '13868'
+      target_vnum: 010213813868
+  local_id: '13899'
   name: No Fundo do Lago Brilhante
-  vnum: '13899'
+  vnum: 010213813899
 - description: |-
     Você está na entrada de uma sinistra caverna.  Ao seu redor você observa
     enormes rochas negras e imensos ossos que formam as paredes da caverna.  Aos
@@ -1381,11 +1659,12 @@
     um túnel que segue rumo ao interior da caverna negra.
   exits:
     east:
-      target_vnum: '13901'
+      target_vnum: 010213813901
     up:
-      target_vnum: '13867'
+      target_vnum: 010213813867
+  local_id: '13900'
   name: A Entrada da Caverna Maldita
-  vnum: '13900'
+  vnum: 010213813900
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1395,11 +1674,12 @@
     você observa a entrada da assustadora caverna maldita.
   exits:
     east:
-      target_vnum: '13902'
+      target_vnum: 010213813902
     west:
-      target_vnum: '13900'
+      target_vnum: 010213813900
+  local_id: '13901'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13901'
+  vnum: 010213813901
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1409,11 +1689,12 @@
     você observa um túnel que segue rumo a entrada da caverna maldita.
   exits:
     down:
-      target_vnum: '13905'
+      target_vnum: 010213813905
     west:
-      target_vnum: '13901'
+      target_vnum: 010213813901
+  local_id: '13902'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13902'
+  vnum: 010213813902
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1423,11 +1704,12 @@
     você observa um assustador túnel coberto por runas de sangue.
   exits:
     down:
-      target_vnum: '13906'
+      target_vnum: 010213813906
     east:
-      target_vnum: '13904'
+      target_vnum: 010213813904
+  local_id: '13903'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13903'
+  vnum: 010213813903
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1437,11 +1719,12 @@
     você observa um assustador túnel coberto por runas de sangue.
   exits:
     east:
-      target_vnum: '13905'
+      target_vnum: 010213813905
     west:
-      target_vnum: '13903'
+      target_vnum: 010213813903
+  local_id: '13904'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13904'
+  vnum: 010213813904
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1451,11 +1734,12 @@
     você observa um assustador túnel coberto por runas de sangue.
   exits:
     up:
-      target_vnum: '13902'
+      target_vnum: 010213813902
     west:
-      target_vnum: '13904'
+      target_vnum: 010213813904
+  local_id: '13905'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13905'
+  vnum: 010213813905
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1465,11 +1749,12 @@
     você observa um assustador túnel coberto por runas de sangue.
   exits:
     east:
-      target_vnum: '13907'
+      target_vnum: 010213813907
     up:
-      target_vnum: '13903'
+      target_vnum: 010213813903
+  local_id: '13906'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13906'
+  vnum: 010213813906
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1479,11 +1764,12 @@
     você observa um assustador túnel coberto por runas de sangue.
   exits:
     east:
-      target_vnum: '13908'
+      target_vnum: 010213813908
     west:
-      target_vnum: '13906'
+      target_vnum: 010213813906
+  local_id: '13907'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13907'
+  vnum: 010213813907
 - description: |-
     Você está dentro de um escuro túnel da sinistra caverna maldita do
     arquipélago de Yo.  Ao seu redor você observa inúmeras runas pintadas com
@@ -1493,11 +1779,12 @@
     cratera.
   exits:
     down:
-      target_vnum: '13909'
+      target_vnum: 010213813909
     west:
-      target_vnum: '13907'
+      target_vnum: 010213813907
+  local_id: '13908'
   name: As Runas Sinistras no Interior da Caverna Maldita
-  vnum: '13908'
+  vnum: 010213813908
 - description: |-
     Você está dentro de uma gigantesca cratera sombria.  Ao seu redor você
     observa inúmeras carcaças de dragões e várias runas pintadas com sangue no
@@ -1509,9 +1796,10 @@
     coberto por runas de sangue.
   exits:
     up:
-      target_vnum: '13908'
+      target_vnum: 010213813908
+  local_id: '13909'
   name: As Profundezas de Yo
-  vnum: '13909'
+  vnum: 010213813909
 - description: |-
     Você está caminhando tranqüilamente sobre uma bela colina verde.  Ao seu
     redor você observa um maravilhoso tapete verde formado pela perfumada e
@@ -1519,10 +1807,13 @@
     melodias.  Ao sudoeste você observa uma enorme pedra metálica e para cima
     você observa vários dragões dourados voando entre majestosas nuvens brancas.
   exits:
+    southwest:
+      target_vnum: 010213813875
     up:
-      target_vnum: '13911'
+      target_vnum: 010213813911
+  local_id: '13910'
   name: Uma Colina Verde
-  vnum: '13910'
+  vnum: 010213813910
 - description: |-
     Você está voando entre as belas e suaves nuvens dos céus de Vitália.  Ao
     seu redor você observa alguns pássaros voando curiosamente ao seu lado entre
@@ -1530,11 +1821,12 @@
     você observa majestosas nuvens brancas.
   exits:
     down:
-      target_vnum: '13910'
+      target_vnum: 010213813910
     up:
-      target_vnum: '13912'
+      target_vnum: 010213813912
+  local_id: '13911'
   name: Entre as Suaves Nuvens dos Céus de Vitália
-  vnum: '13911'
+  vnum: 010213813911
 - description: |-
     Você está voando entre as belas e suaves nuvens dos céus de Vitália.  Ao
     seu redor você observa alguns pássaros voando curiosamente ao seu lado entre
@@ -1543,11 +1835,12 @@
     observa algumas nuvens.
   exits:
     down:
-      target_vnum: '13911'
+      target_vnum: 010213813911
     up:
-      target_vnum: '13913'
+      target_vnum: 010213813913
+  local_id: '13912'
   name: Entre as Suaves Nuvens dos Céus de Vitália
-  vnum: '13912'
+  vnum: 010213813912
 - description: |-
     Você está voando entre as belas e suaves nuvens dos céus de Vitália.  Ao
     seu redor você observa alguns pássaros voando curiosamente ao seu lado entre
@@ -1555,9 +1848,10 @@
     você observa uma extensa mancha verde entre as nuvens.
   exits:
     down:
-      target_vnum: '13912'
+      target_vnum: 010213813912
+  local_id: '13913'
   name: Entre as Suaves Nuvens dos Céus de Vitália
-  vnum: '13913'
+  vnum: 010213813913
 - description: |-
     Você encontrou o sagrado e glorioso Conselho dos Wyrms.  Criado pelo todo
     poderoso Yo e seus três profetas:  Exauradon, Starratiel e Maré Sangrenta.
@@ -1572,9 +1866,14 @@
     misteriosa argola brilhante.
   exits:
     north:
-      target_vnum: '13917'
+      target_vnum: 010213813917
+    northeast:
+      target_vnum: 010213813916
+    northwest:
+      target_vnum: 010213813915
+  local_id: '13914'
   name: O Conselho dos Wyrms
-  vnum: '13914'
+  vnum: 010213813914
 - description: |-
     Você encontrou o sagrado e glorioso Conselho dos Wyrms.  Criado pelo todo
     poderoso Yo e seus três profetas:  Exauradon, Starratiel e Maré Sangrenta.
@@ -1589,9 +1888,14 @@
     misteriosa argola brilhante.
   exits:
     east:
-      target_vnum: '13917'
+      target_vnum: 010213813917
+    northeast:
+      target_vnum: 010213813918
+    southwest:
+      target_vnum: 010213813914
+  local_id: '13915'
   name: O Conselho dos Wyrms
-  vnum: '13915'
+  vnum: 010213813915
 - description: |-
     Você encontrou o sagrado e glorioso Conselho dos Wyrms.  Criado pelo todo
     poderoso Yo e seus três profetas:  Exauradon, Starratiel e Maré Sangrenta.
@@ -1605,10 +1909,15 @@
     observa o esplendoroso Conselho dos Wyrms e ao oeste você observa uma
     misteriosa argola brilhante.
   exits:
+    northwest:
+      target_vnum: 010213813918
+    southeast:
+      target_vnum: 010213813914
     west:
-      target_vnum: '13917'
+      target_vnum: 010213813917
+  local_id: '13916'
   name: O Conselho dos Wyrms
-  vnum: '13916'
+  vnum: 010213813916
 - description: |-
     Uma estranha sensação de fraqueza toma conta do seu corpo!  Você está
     dentro do monumental círculo brilhante que gira em pleno ar no centro do
@@ -1621,15 +1930,16 @@
     dos Wyrms.
   exits:
     east:
-      target_vnum: '13915'
+      target_vnum: 010213813915
     north:
-      target_vnum: '13918'
+      target_vnum: 010213813918
     south:
-      target_vnum: '13914'
+      target_vnum: 010213813914
     west:
-      target_vnum: '13916'
+      target_vnum: 010213813916
+  local_id: '13917'
   name: O Magnífico Círculo Brilhante do Conselho dos Wyrms
-  vnum: '13917'
+  vnum: 010213813917
 - description: |-
     Você encontrou o sagrado e glorioso Conselho dos Wyrms.  Criado pelo todo
     poderoso Yo e seus três profetas:  Exauradon, Starratiel e Maré Sangrenta.
@@ -1644,9 +1954,14 @@
     misteriosa argola brilhante.
   exits:
     south:
-      target_vnum: '13917'
+      target_vnum: 010213813917
+    southeast:
+      target_vnum: 010213813915
+    southwest:
+      target_vnum: 010213813916
+  local_id: '13918'
   name: O Conselho dos Wyrms
-  vnum: '13918'
+  vnum: 010213813918
 - description: |-
     Surpreendente!  Você está vagando entre várias constelações de estrelas e
     grandes astros do universo.  Deste lugar você pode observa vários mundo de
@@ -1660,9 +1975,10 @@
     despontando do centro.
   exits:
     north:
-      target_vnum: '13920'
+      target_vnum: 010213813920
+  local_id: '13919'
   name: O Universo de Yo
-  vnum: '13919'
+  vnum: 010213813919
 - description: |-
     Você está vagando entre gigantescos astros brilhantes e belíssimas
     constelações de estrelas.  Ao seu redor você observa surpreso a
@@ -1674,13 +1990,14 @@
     pontas com uma nona ponta despontando do centro.
   exits:
     north:
-      target_vnum: '13921'
+      target_vnum: 010213813921
     south:
-      target_vnum: '13919'
+      target_vnum: 010213813919
+  local_id: '13920'
   name: O Universo de Yo
-  vnum: '13920'
+  vnum: 010213813920
 - description: "Você está vagando entre enormes astros brilhantes e belas constelações\
-    \ de\nestrelas.  Ã\x80 sua frente vocÃª observa uma esplendorosa estrela de oito\
+    \ de\nestrelas.  Ã\x80 sua frente você observa uma esplendorosa estrela de oito\
     \ pontas\ncom uma nona ponta despontando do seu centro.  A sagrada estrela de\
     \ Yo, o\ndragão da harmonia, está aqui emitindo luz, paz e harmonia para todos\
     \ os\nmundos que possuem criaturas puras de coração.  Um magnífico feixe de luz\n\
@@ -1688,6 +2005,7 @@
     \ formam o arquipélago de Yo.  Ao sul você observa várias estrelas e belos\nastros."
   exits:
     south:
-      target_vnum: '13920'
+      target_vnum: 010213813920
+  local_id: '13921'
   name: A Celestial Estrela de Yo
-  vnum: '13921'
+  vnum: 010213813921

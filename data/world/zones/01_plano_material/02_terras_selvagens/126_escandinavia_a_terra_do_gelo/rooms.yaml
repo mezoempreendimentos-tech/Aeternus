@@ -6,9 +6,14 @@
     magnífico Atlântico e de suas lendas, o faz um dos oceanos mais poéticos e
     temidos de Vitália.  Ao noroeste você observa as majestosas águas do oceano
     Atlântico.
-  exits: {}
-  name: "As Ã\x81guas do AtlÃ¢ntico"
-  vnum: '12600'
+  exits:
+    northeast:
+      target_vnum: '010212612601'
+    southeast:
+      target_vnum: 01021265686
+  local_id: '12600'
+  name: "As Ã\x81guas do Atlântico"
+  vnum: '010212612600'
 - description: |-
     Você está navegando pelas águas do magnífico e temido oceano Atlântico.
     Suas lendas são contadas em todos os portos, cidades e por povos que vivem
@@ -18,9 +23,14 @@
     Atlântico Norte.
   exits:
     north:
-      target_vnum: '12602'
-  name: "As Ã\x81guas do AtlÃ¢ntico"
-  vnum: '12601'
+      target_vnum: '010212612602'
+    northeast:
+      target_vnum: 010212612838
+    southeast:
+      target_vnum: '010212612600'
+  local_id: '12601'
+  name: "As Ã\x81guas do Atlântico"
+  vnum: '010212612601'
 - description: |-
     Você está navegando pelas lendárias águas do magnífico oceano Atlântico.
     A cada milha marítima na direção norte, a temperatura fica cada vez mais
@@ -30,25 +40,29 @@
     da Noruega.
   exits:
     east:
-      target_vnum: '12603'
+      target_vnum: '010212612603'
+    northeast:
+      target_vnum: '010212612610'
     south:
-      target_vnum: '12601'
-  name: "As Ã\x81guas do AtlÃ¢ntico"
-  vnum: '12602'
+      target_vnum: '010212612601'
+  local_id: '12602'
+  name: "As Ã\x81guas do Atlântico"
+  vnum: '010212612602'
 - description: "Você está navegando pelas frias águas do mar do Norte.  O mar do Norte\n\
     está atualmente sobre domínio dos Vikings, que dominam as rotas marítimas,\nque\
     \ se estendem desde o Golfo de Bothnia passando pelo mar Báltico, mar do\nNorte,\
-    \ oceano AtlÃ¢ntico, mar da Noruega e pelo frio mar Glacial Ã\x81rtico.  Ao\n\
-    seu redor você observa grandes porções de terra banhadas pelo arrepiante mar\n\
-    do Norte.  Ao leste você observa as gélidas águas do mar do Norte e ao oeste\n\
+    \ oceano Atlântico, mar da Noruega e pelo frio mar Glacial Ã\x81rtico.  Ao\nseu\
+    \ redor você observa grandes porções de terra banhadas pelo arrepiante mar\ndo\
+    \ Norte.  Ao leste você observa as gélidas águas do mar do Norte e ao oeste\n\
     você observa o lendário oceano Atlântico."
   exits:
     east:
-      target_vnum: '12604'
+      target_vnum: '010212612604'
     west:
-      target_vnum: '12602'
+      target_vnum: '010212612602'
+  local_id: '12603'
   name: O Mar do Norte
-  vnum: '12603'
+  vnum: '010212612603'
 - description: |-
     Você está navegando pelas águas dominadas pelos magníficos Vikings da
     Escandinavia.  Ao seu redor você observa grandes porções de terras, ao norte
@@ -57,34 +71,39 @@
     ao oeste você observa as frias águas do mar do Norte.
   exits:
     east:
-      target_vnum: '12605'
+      target_vnum: '010212612605'
     north:
-      target_vnum: '12613'
+      target_vnum: '010212612613'
     west:
-      target_vnum: '12603'
+      target_vnum: '010212612603'
+  local_id: '12604'
   name: O Mar do Norte
-  vnum: '12604'
+  vnum: '010212612604'
 - description: |-
     Você está navegando pelas águas frias e dominadas pelos povos Vikings da
     península escandinava.  Ao leste e ao oeste você observa as gélidas águas
     do mar do Norte.
   exits:
     east:
-      target_vnum: '12606'
+      target_vnum: '010212612606'
     west:
-      target_vnum: '12604'
+      target_vnum: '010212612604'
+  local_id: '12605'
   name: O Mar do Norte
-  vnum: '12605'
+  vnum: '010212612605'
 - description: |-
     Você está navegando pelas águas gélidas do mar do Norte.  Ao norte você
     observa belos e imensos fiordes, que circundam toda a costa da península
     escandinava.  Ao oeste você observa as frias águas do mar do Norte e ao
     sudeste você observa o mar Báltico.
   exits:
+    southeast:
+      target_vnum: '010212612607'
     west:
-      target_vnum: '12605'
+      target_vnum: '010212612605'
+  local_id: '12606'
   name: O Mar do Norte
-  vnum: '12606'
+  vnum: '010212612606'
 - description: |-
     Você está navegando pelas águas frias do mar Báltico.  As águas do
     Báltico são dominadas pelos Vikings suecos, povo formado por vários clãs
@@ -94,9 +113,12 @@
     e ao noroeste você observa as frias águas do mar do Norte.
   exits:
     east:
-      target_vnum: '12608'
+      target_vnum: 010212612608
+    northeast:
+      target_vnum: '010212612606'
+  local_id: '12607'
   name: O Mar Báltico
-  vnum: '12607'
+  vnum: '010212612607'
 - description: |-
     Você está navegando pelas temidas águas de dominação Vikings do mar
     Báltico.  Ao norte você observa uma bela praia escandinava entre dois
@@ -104,11 +126,14 @@
     mar Báltico.
   exits:
     north:
-      target_vnum: '12618'
+      target_vnum: 010212612618
+    northwest:
+      target_vnum: 010212612609
     west:
-      target_vnum: '12607'
+      target_vnum: '010212612607'
+  local_id: '12608'
   name: O Mar Báltico
-  vnum: '12608'
+  vnum: 010212612608
 - description: |-
     Você está navegando pelas perigosas águas do mar Báltico, dominadas pelos
     Vikings suecos.  Ao noroeste você observa monumentais fiordes que formam a
@@ -116,9 +141,12 @@
     ao sudoeste você observa as frias águas do mar Báltico.
   exits:
     north:
-      target_vnum: '12647'
+      target_vnum: '010212612647'
+    southwest:
+      target_vnum: 010212612608
+  local_id: '12609'
   name: O Mar Báltico
-  vnum: '12609'
+  vnum: 010212612609
 - description: |-
     Você está navegando pelas frias e temidas águas de dominação dos Vikings
     noruegueses do mar da Noruega.  Ao norte você observa o mar da Noruega na
@@ -127,11 +155,14 @@
     praia escandinava.
   exits:
     east:
-      target_vnum: '12611'
+      target_vnum: '010212612611'
     north:
-      target_vnum: '12619'
+      target_vnum: 010212612619
+    southeast:
+      target_vnum: '010212612602'
+  local_id: '12610'
   name: O Mar da Noruega
-  vnum: '12610'
+  vnum: '010212612610'
 - description: |-
     Você está caminhando numa bela praia norueguesa em plena península
     escandinava.  Ao seu redor você observa monumentais fiordes e algumas
@@ -142,11 +173,14 @@
     extensão da linda praia escandinava.
   exits:
     north:
-      target_vnum: '12620'
+      target_vnum: '010212612620'
+    southeast:
+      target_vnum: '010212612612'
     west:
-      target_vnum: '12610'
+      target_vnum: '010212612610'
+  local_id: '12611'
   name: Uma Praia Escandinava
-  vnum: '12611'
+  vnum: '010212612611'
 - description: |-
     Você está caminhando numa bela praia escandinava.  A paisagem que você
     tem daqui é fascinante.  Ao sul monumentais fiordes fazem você sentir a
@@ -157,11 +191,14 @@
     praia escandinava.
   exits:
     east:
-      target_vnum: '12613'
+      target_vnum: '010212612613'
     north:
-      target_vnum: '12621'
+      target_vnum: '010212612621'
+    northeast:
+      target_vnum: '010212612611'
+  local_id: '12612'
   name: Liberdade, as Asas do Coração
-  vnum: '12612'
+  vnum: '010212612612'
 - description: |-
     Você está caminhando numa linda praia norueguesa em plena península
     escandinava.  Ao seu redor dois imensos fiordes se abrem formando está
@@ -170,13 +207,14 @@
     maravilhosa praia escandinava.
   exits:
     north:
-      target_vnum: '12622'
+      target_vnum: '010212612622'
     south:
-      target_vnum: '12604'
+      target_vnum: '010212612604'
     west:
-      target_vnum: '12612'
+      target_vnum: '010212612612'
+  local_id: '12613'
   name: Uma Praia Escandinava
-  vnum: '12613'
+  vnum: '010212612613'
 - description: |-
     Você está no idolatrado santuário de Thor, o senhor dos trovões.  O deus
     mais popular entre os povos vikings e um dos mais glorificados.  Os povos
@@ -184,9 +222,12 @@
     fazem sacrifícios.  Ao seu redor belíssimas runas e uma monumental estatua
     do supremo deus dos trovões.  Ao noroeste você observa o centro da vila
     viking.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010212612622'
+  local_id: '12614'
   name: O Santuário do Poderoso Thor
-  vnum: '12614'
+  vnum: '010212612614'
 - description: |-
     Você está caminhando por entre imensas árvores carregadas e cobertas de
     gelo.  A dificuldade de caminhar nas trilhas é grande, por causa da grande
@@ -197,11 +238,12 @@
     sueca.
   exits:
     east:
-      target_vnum: '12616'
+      target_vnum: '010212612616'
     north:
-      target_vnum: '12653'
+      target_vnum: '010212612653'
+  local_id: '12615'
   name: A Floresta de Gelo
-  vnum: '12615'
+  vnum: '010212612615'
 - description: |-
     Você está caminhando por entre monumentais árvores cobertas de neve.  A
     dificuldade de caminhar pelas trilhas é muito grande, por causa da enorme
@@ -209,11 +251,12 @@
     floresta de gelo e ao leste você observa uma bela planície escandinava.
   exits:
     east:
-      target_vnum: '12617'
+      target_vnum: '010212612617'
     west:
-      target_vnum: '12615'
+      target_vnum: '010212612615'
+  local_id: '12616'
   name: A Floresta de Gelo
-  vnum: '12616'
+  vnum: '010212612616'
 - description: |-
     Você está caminhando numa bela e calma planície escandinava.  Está
     região da península escandinava é habitada pelos povos vikings suecos.  Ao
@@ -223,13 +266,14 @@
     coberta de gelo e neve.
   exits:
     north:
-      target_vnum: '12627'
+      target_vnum: '010212612627'
     south:
-      target_vnum: '12618'
+      target_vnum: 010212612618
     west:
-      target_vnum: '12616'
+      target_vnum: '010212612616'
+  local_id: '12617'
   name: Uma Planície Escandinava
-  vnum: '12617'
+  vnum: '010212612617'
 - description: |-
     Você está caminhando numa bela praia escandinava.  Ao seu redor dois
     monumentais fiordes se abrem formando está magnífica praia.  Ao sul da praia
@@ -239,11 +283,12 @@
     gélidas águas do mar Báltico.
   exits:
     north:
-      target_vnum: '12617'
+      target_vnum: '010212612617'
     south:
-      target_vnum: '12608'
+      target_vnum: 010212612608
+  local_id: '12618'
   name: Uma Praia Escandinava
-  vnum: '12618'
+  vnum: 010212612618
 - description: |-
     Você está navegando pelas misteriosas e arrepiantes águas do mar da
     Noruega.  Ao longo de toda a costa da Noruega, você observa imensos fiordes.
@@ -253,11 +298,14 @@
     Glama.
   exits:
     east:
-      target_vnum: '12636'
+      target_vnum: '010212612636'
+    northeast:
+      target_vnum: 010212612658
     south:
-      target_vnum: '12610'
+      target_vnum: '010212612610'
+  local_id: '12619'
   name: O Mar da Noruega
-  vnum: '12619'
+  vnum: 010212612619
 - description: |-
     Você está numa agitada vila viking.  Ao seu redor você observa várias
     cabanas de madeira e turfa, algumas lindas mulheres vikings, grandes
@@ -268,11 +316,14 @@
     escandinava e ao sudeste você observa o centro da vila viking.
   exits:
     north:
-      target_vnum: '12636'
+      target_vnum: '010212612636'
     south:
-      target_vnum: '12611'
+      target_vnum: '010212612611'
+    southeast:
+      target_vnum: '010212612621'
+  local_id: '12620'
   name: Uma Vila Viking Norueguesa
-  vnum: '12620'
+  vnum: '010212612620'
 - description: |-
     Você está caminhando pela vila viking.  Ao seu redor você observa várias
     cabanas de madeira e de turfa.  Você percebe alguns homens vikings se
@@ -284,13 +335,16 @@
     planície escandinava.
   exits:
     east:
-      target_vnum: '12622'
+      target_vnum: '010212612622'
     north:
-      target_vnum: '12628'
+      target_vnum: 010212612628
+    northeast:
+      target_vnum: '010212612620'
     south:
-      target_vnum: '12612'
+      target_vnum: '010212612612'
+  local_id: '12621'
   name: O Centro da Vila Viking
-  vnum: '12621'
+  vnum: '010212612621'
 - description: |-
     Você está caminhando no centro agitado da vila viking.  Ao seu redor você
     observa uma movimentada e alegre festa viking.  Vários homens e mulheres
@@ -301,15 +355,20 @@
     observa uma bela praia escandinava e ao oeste você o centro da vila viking.
   exits:
     east:
-      target_vnum: '12623'
+      target_vnum: '010212612623'
     north:
-      target_vnum: '12629'
+      target_vnum: 010212612629
+    northwest:
+      target_vnum: '010212612630'
     south:
-      target_vnum: '12613'
+      target_vnum: '010212612613'
+    southwest:
+      target_vnum: '010212612614'
     west:
-      target_vnum: '12621'
+      target_vnum: '010212612621'
+  local_id: '12622'
   name: O Centro da Vila Viking
-  vnum: '12622'
+  vnum: '010212612622'
 - description: |-
     Você está dentro de uma longa cabana de madeira e de turfa.  A vila dos
     vikings é constituída por cabanas pequenas de madeira e turfa, que servem
@@ -322,9 +381,10 @@
     centro da vila viking.
   exits:
     west:
-      target_vnum: '12622'
+      target_vnum: '010212612622'
+  local_id: '12623'
   name: A Cabana Longa
-  vnum: '12623'
+  vnum: '010212612623'
 - description: |-
     Você está na sala dos tesouros dos vikings suecos, liderados pelo rei
     Eric.  Ao seu redor várias peças de ouro e prata, peças de vários lugares
@@ -332,9 +392,10 @@
     observa uma porta de madeira.
   exits:
     north:
-      target_vnum: '12631'
+      target_vnum: '010212612631'
+  local_id: '12624'
   name: A Sala das Riquezas Vikings
-  vnum: '12624'
+  vnum: '010212612624'
 - description: |-
     Você está na assustadora sala de troféus dos vikings suecos, liderados
     pelo rei Eric.  Ao seu redor você observa penduradas pelas paredes cabeças,
@@ -343,18 +404,20 @@
     um grande salão.
   exits:
     north:
-      target_vnum: '12632'
+      target_vnum: '010212612632'
+  local_id: '12625'
   name: A Sala dos Troféus
-  vnum: '12625'
+  vnum: '010212612625'
 - description: |-
     Você está dentro de uma cabana de madeira e de turfa.  Ao seu redor você
     observa uma cama de turfa e alguns restos de comida.  Ao leste você observa
     uma bela planície escandinava.
   exits:
     east:
-      target_vnum: '12627'
+      target_vnum: '010212612627'
+  local_id: '12626'
   name: Uma Cabana de Madeira
-  vnum: '12626'
+  vnum: '010212612626'
 - description: |-
     Você está numa agitada vila viking.  Ao seu redor você observa várias
     cabanas de madeira e turfa, algumas lindas mulheres vikings, grandes
@@ -365,13 +428,14 @@
     ao oeste você observa uma cabana de madeira e turfa.
   exits:
     north:
-      target_vnum: '12634'
+      target_vnum: '010212612634'
     south:
-      target_vnum: '12617'
+      target_vnum: '010212612617'
     west:
-      target_vnum: '12626'
+      target_vnum: '010212612626'
+  local_id: '12627'
   name: Uma Vila Viking Sueca
-  vnum: '12627'
+  vnum: '010212612627'
 - description: |-
     Você está dentro da cabana do ferreiro viking.  Ao seu redor ferramentas
     e uma enorme lareira.  Você observa armas espalhadas por todos os cantos da
@@ -380,18 +444,20 @@
     centro da vila viking.
   exits:
     south:
-      target_vnum: '12621'
+      target_vnum: '010212612621'
+  local_id: '12628'
   name: A Cabana do Ferreiro Viking
-  vnum: '12628'
+  vnum: 010212612628
 - description: |-
     Você está dentro do grande armazém da vila viking.  Ao seu redor você
     observa suprimentos que daria para alimentar a vila toda por um ano.  Ao sul
     você observa o centro da vila viking.
   exits:
     south:
-      target_vnum: '12622'
+      target_vnum: '010212612622'
+  local_id: '12629'
   name: O Armazém da Vila
-  vnum: '12629'
+  vnum: 010212612629
 - description: |-
     Você está caminhando numa belíssima planície escandinava.  A paisagem ao
     seu redor é formidável.  As flores vermelhas e azuis juntamente com as
@@ -400,9 +466,12 @@
     viking.
   exits:
     north:
-      target_vnum: '12638'
+      target_vnum: 010212612638
+    southwest:
+      target_vnum: '010212612622'
+  local_id: '12630'
   name: Uma Planície Escandinava
-  vnum: '12630'
+  vnum: '010212612630'
 - description: |-
     Você está no imponente salão da fortaleza viking de Eric, o rei da Suécia
     e líder de todos os clãs suecos.  Ao seu redor você observa algumas runas e
@@ -412,13 +481,14 @@
     de madeira.
   exits:
     east:
-      target_vnum: '12632'
+      target_vnum: '010212612632'
     north:
-      target_vnum: '12639'
+      target_vnum: 010212612639
     south:
-      target_vnum: '12624'
+      target_vnum: '010212612624'
+  local_id: '12631'
   name: O Salão Real de Eric
-  vnum: '12631'
+  vnum: '010212612631'
 - description: |-
     Você está caminhando pelo magnífico salão da fortaleza viking.  Ao seu
     redor você percebe que os costumes e tradições dos escandinavos são bem
@@ -429,13 +499,16 @@
     grande portão até o trono do imponente Eric.
   exits:
     north:
-      target_vnum: '12640'
+      target_vnum: '010212612640'
+    northwest:
+      target_vnum: '010212612641'
     south:
-      target_vnum: '12625'
+      target_vnum: '010212612625'
     west:
-      target_vnum: '12631'
+      target_vnum: '010212612631'
+  local_id: '12632'
   name: O Salão da Fortaleza Viking
-  vnum: '12632'
+  vnum: '010212612632'
 - description: |-
     Você está no magnífico santuário de Odin, o deus dos deuses e senhor do
     palácio de Valhala.  Ao seu redor belíssimas runas e uma monumental estatua
@@ -446,9 +519,10 @@
     festas.  Ao leste você observa o centro da vila viking.
   exits:
     east:
-      target_vnum: '12634'
+      target_vnum: '010212612634'
+  local_id: '12633'
   name: O Santuário do Supremo Odin
-  vnum: '12633'
+  vnum: '010212612633'
 - description: |-
     Você está caminhando pela vila viking.  Ao seu redor você observa várias
     cabanas de madeira e de turfa.  O centro da vila está bastante agitado hoje.
@@ -457,15 +531,16 @@
     e ao oeste você observa um belo santuário viking.
   exits:
     east:
-      target_vnum: '12635'
+      target_vnum: '010212612635'
     north:
-      target_vnum: '12644'
+      target_vnum: '010212612644'
     south:
-      target_vnum: '12627'
+      target_vnum: '010212612627'
     west:
-      target_vnum: '12633'
+      target_vnum: '010212612633'
+  local_id: '12634'
   name: O Centro da Vila viking
-  vnum: '12634'
+  vnum: '010212612634'
 - description: |-
     Você está dentro da cabana do ferreiro viking.  Ao seu redor ferramentas
     e uma enorme lareira.  Você observa armas espalhadas por todos os cantos da
@@ -474,9 +549,10 @@
     o centro da vila viking.
   exits:
     west:
-      target_vnum: '12634'
+      target_vnum: '010212612634'
+  local_id: '12635'
   name: A Cabana do Ferreiro Viking
-  vnum: '12635'
+  vnum: '010212612635'
 - description: |-
     Você está navegando pelas águas cristalinas e frias do rio Glama.  Ao
     oeste você observa o encontro das águas do rio Glama com as águas do mar da
@@ -484,15 +560,16 @@
     floresta coberta de neve e ao oeste você observa as águas do rio Glama.
   exits:
     east:
-      target_vnum: '12637'
+      target_vnum: '010212612637'
     north:
-      target_vnum: '12648'
+      target_vnum: 010212612648
     south:
-      target_vnum: '12620'
+      target_vnum: '010212612620'
     west:
-      target_vnum: '12619'
+      target_vnum: 010212612619
+  local_id: '12636'
   name: O Delta do Rio Glama
-  vnum: '12636'
+  vnum: '010212612636'
 - description: |-
     Você está navegando pelas águas cristalinas do rio Glama.  Ao seu redor
     você já percebe os primeiros sinais das mudanças climáticas da região, a
@@ -501,26 +578,28 @@
     e gelo, ao leste e oeste você observa as águas cristalinas do rio Glama.
   exits:
     east:
-      target_vnum: '12638'
+      target_vnum: 010212612638
     north:
-      target_vnum: '12649'
+      target_vnum: 010212612649
     west:
-      target_vnum: '12636'
+      target_vnum: '010212612636'
+  local_id: '12637'
   name: O Rio Glama
-  vnum: '12637'
+  vnum: '010212612637'
 - description: |-
     Você está navegando pelas águas cristalinas do rio Glama.  Ao norte você
     observa uma floresta coberta de gelo e neve, ao sul você observa uma bela
     planície escandinava e ao oeste você observa as águas do rio Glama.
   exits:
     north:
-      target_vnum: '12650'
+      target_vnum: '010212612650'
     south:
-      target_vnum: '12630'
+      target_vnum: '010212612630'
     west:
-      target_vnum: '12637'
+      target_vnum: '010212612637'
+  local_id: '12638'
   name: O Rio Glama
-  vnum: '12638'
+  vnum: 010212612638
 - description: |-
     Você está dentro do aposento do imponente rei da Suécia e líder dos clãs
     vikings da Suécia.  Ao seu redor você observa um aposento bastante simples
@@ -530,9 +609,10 @@
     e seu povo.  Ao sul você observa o grande salão e o trono de ouro de Eric.
   exits:
     south:
-      target_vnum: '12631'
+      target_vnum: '010212612631'
+  local_id: '12639'
   name: O Aposento de Eric
-  vnum: '12639'
+  vnum: 010212612639
 - description: |-
     Você está dentro do sublime santuário da fortaleza viking.  Ao seu redor
     algumas runas e uma enorme pedra, utilizada para fazer sacrifícios humanos.
@@ -541,9 +621,10 @@
     salão da fortaleza viking.
   exits:
     south:
-      target_vnum: '12632'
+      target_vnum: '010212612632'
+  local_id: '12640'
   name: O Santuário da Fortaleza
-  vnum: '12640'
+  vnum: '010212612640'
 - description: |-
     Você está dentro do grande salão da fortaleza viking.  Ao oeste você
     observa toda a extensão do salão, feito para que o rei pudesse ver todas
@@ -551,9 +632,12 @@
     vikings e ao sudoeste você observa o salão da fortaleza.
   exits:
     east:
-      target_vnum: '12642'
+      target_vnum: '010212612642'
+    southwest:
+      target_vnum: '010212612632'
+  local_id: '12641'
   name: O Salão da Fortaleza Viking
-  vnum: '12641'
+  vnum: '010212612641'
 - description: |-
     Você está dentro da protegida sala da guarda da fortaleza viking.  Ao seu
     redor você observa várias armas e guardas vikings.  Para se chegar ao rei
@@ -561,11 +645,12 @@
     e ao oeste você observa o grande salão da fortaleza.
   exits:
     east:
-      target_vnum: '12643'
+      target_vnum: '010212612643'
     west:
-      target_vnum: '12641'
+      target_vnum: '010212612641'
+  local_id: '12642'
   name: A Sala da Guarda da Fortaleza
-  vnum: '12642'
+  vnum: '010212612642'
 - description: |-
     Você está na entrada da fortaleza viking.  Ao seu redor vários vikings
     olham para você curiosamente.  A fortaleza é feita de madeira bastante
@@ -573,11 +658,12 @@
     oeste você observa um grande portão de madeira.
   exits:
     east:
-      target_vnum: '12644'
+      target_vnum: '010212612644'
     west:
-      target_vnum: '12642'
+      target_vnum: '010212612642'
+  local_id: '12643'
   name: A Entrada da Fortaleza Viking
-  vnum: '12643'
+  vnum: '010212612643'
 - description: |-
     Você está caminhando pelo centro da vila viking.  Ao seu redor você
     observa vários viking torcendo e desafiando uns aos outros num jogo de
@@ -587,15 +673,16 @@
     e ao oeste você observa a entrada da fortaleza viking.
   exits:
     east:
-      target_vnum: '12645'
+      target_vnum: '010212612645'
     north:
-      target_vnum: '12655'
+      target_vnum: '010212612655'
     south:
-      target_vnum: '12634'
+      target_vnum: '010212612634'
     west:
-      target_vnum: '12643'
+      target_vnum: '010212612643'
+  local_id: '12644'
   name: O Centro da Vila Viking
-  vnum: '12644'
+  vnum: '010212612644'
 - description: |-
     Você está caminhando por uma bela planície escandinava.  Ao seu redor
     você observa as lindas flores na vegetação rasteira e o solo rochoso da
@@ -605,22 +692,24 @@
     agitação no centro da vila viking.
   exits:
     east:
-      target_vnum: '12646'
+      target_vnum: '010212612646'
     west:
-      target_vnum: '12644'
+      target_vnum: '010212612644'
+  local_id: '12645'
   name: Uma Vila Viking Sueca
-  vnum: '12645'
+  vnum: '010212612645'
 - description: |-
     Você está caminhando numa belíssima praia escandinava, formada por uma
     abertura entre dois grandes fiordes.  Ao leste você observa as tranqüilas
     águas do golfo de Bothnia e ao oeste você observa uma vila viking.
   exits:
     east:
-      target_vnum: '12647'
+      target_vnum: '010212612647'
     west:
-      target_vnum: '12645'
+      target_vnum: '010212612645'
+  local_id: '12646'
   name: Uma Praia Escandinava
-  vnum: '12646'
+  vnum: '010212612646'
 - description: |-
     Você está navegando pelas tranqüilas águas do golfo de Bothnia.  Ao norte
     você observa as águas do golfo de Bothnia, ao sul você observa as gélidas
@@ -629,13 +718,14 @@
     mil lagos.
   exits:
     north:
-      target_vnum: '12657'
+      target_vnum: '010212612657'
     south:
-      target_vnum: '12609'
+      target_vnum: 010212612609
     west:
-      target_vnum: '12646'
+      target_vnum: '010212612646'
+  local_id: '12647'
   name: O Golfo de Bothnia
-  vnum: '12647'
+  vnum: '010212612647'
 - description: |-
     Você está caminhando por entre monumentais árvores carregadas de gelo e
     neve.  Precisa-se de muito esforço e força para caminhar pelas trilhas
@@ -644,13 +734,14 @@
     cristalinas do rio Glama.
   exits:
     east:
-      target_vnum: '12649'
+      target_vnum: 010212612649
     north:
-      target_vnum: '12659'
+      target_vnum: 010212612659
     south:
-      target_vnum: '12636'
+      target_vnum: '010212612636'
+  local_id: '12648'
   name: A Floresta de Gelo
-  vnum: '12648'
+  vnum: 010212612648
 - description: |-
     Você está caminhando com muita dificuldade por uma trilha entre
     monumentais árvores cobertas de gelo e neve.  A medida que você segue para
@@ -658,13 +749,14 @@
     ao leste e ao oeste você observa trilhas na floresta de gelo.
   exits:
     east:
-      target_vnum: '12650'
+      target_vnum: '010212612650'
     south:
-      target_vnum: '12637'
+      target_vnum: '010212612637'
     west:
-      target_vnum: '12648'
+      target_vnum: 010212612648
+  local_id: '12649'
   name: A Floresta de Gelo
-  vnum: '12649'
+  vnum: 010212612649
 - description: |-
     Você está caminhando numa trilha coberta de neve e gelo na floresta de
     gelo.  Ao seu redor várias árvores cobertas de neve e um silêncio solene.
@@ -673,13 +765,14 @@
     escandinavos.
   exits:
     south:
-      target_vnum: '12638'
+      target_vnum: 010212612638
     up:
-      target_vnum: '12651'
+      target_vnum: '010212612651'
     west:
-      target_vnum: '12649'
+      target_vnum: 010212612649
+  local_id: '12650'
   name: A Floresta de Gelo
-  vnum: '12650'
+  vnum: '010212612650'
 - description: |-
     Você está caminhando numa trilha íngreme em direção ao ponto mais alto
     dos Alpes escandinavos.  Ao seu redor você observa as grandes rochas negras
@@ -689,11 +782,12 @@
     a floresta de gelo.
   exits:
     down:
-      target_vnum: '12650'
+      target_vnum: '010212612650'
     up:
-      target_vnum: '12652'
+      target_vnum: '010212612652'
+  local_id: '12651'
   name: Os Alpes Escandinavos
-  vnum: '12651'
+  vnum: '010212612651'
 - description: |-
     Você está caminhando numa trilha no topo dos Alpes escandinavos.  A
     paisagem das terras escandinavas daqui é magnífica.  Ao oeste você observa
@@ -703,11 +797,12 @@
     para baixo você observa uma trilha íngreme em direção a floresta de gelo.
   exits:
     down:
-      target_vnum: '12651'
+      target_vnum: '010212612651'
     north:
-      target_vnum: '12660'
+      target_vnum: '010212612660'
+  local_id: '12652'
   name: Os Monumentais Alpes Escandinavos
-  vnum: '12652'
+  vnum: '010212612652'
 - description: |-
     Você está caminhando por entre monumentais árvores cobertas de neve.  A
     dificuldade de caminhar pelas trilhas é muito grande, por causa da enorme
@@ -715,11 +810,12 @@
     floresta de gelo e ao norte você observa o belo rio Angerman.
   exits:
     north:
-      target_vnum: '12661'
+      target_vnum: '010212612661'
     south:
-      target_vnum: '12615'
+      target_vnum: '010212612615'
+  local_id: '12653'
   name: A Floresta de Gelo
-  vnum: '12653'
+  vnum: '010212612653'
 - description: |-
     Você está dentro de uma longa cabana de madeira e de turfa.  A vila dos
     vikings é constituída por cabanas pequenas de madeira e turfa, que servem
@@ -733,9 +829,10 @@
     você observa o agitado centro da vila viking.
   exits:
     east:
-      target_vnum: '12655'
+      target_vnum: '010212612655'
+  local_id: '12654'
   name: A Grande Cabana Viking
-  vnum: '12654'
+  vnum: '010212612654'
 - description: |-
     Vocês está caminhando pela agitada vila viking.  Ao seu redor você
     observa várias cabanas de madeira e turfa e alguns vikings jogando um jogo
@@ -744,42 +841,52 @@
     observa a movimentação no centro da vila viking.
   exits:
     east:
-      target_vnum: '12656'
+      target_vnum: '010212612656'
     north:
-      target_vnum: '12662'
+      target_vnum: '010212612662'
     south:
-      target_vnum: '12644'
+      target_vnum: '010212612644'
     west:
-      target_vnum: '12654'
+      target_vnum: '010212612654'
+  local_id: '12655'
   name: O Centro da Vila Viking
-  vnum: '12655'
+  vnum: '010212612655'
 - description: |-
     Você está dentro do grande armazém da vila viking.  Ao seu redor você
     observa suprimentos que daria para alimentar a vila toda por um longo
     período.  Ao oeste você observa o centro da vila viking.
   exits:
     west:
-      target_vnum: '12655'
+      target_vnum: '010212612655'
+  local_id: '12656'
   name: O Armazém da Vila
-  vnum: '12656'
+  vnum: '010212612656'
 - description: |-
     Você está navegando pelas tranqüilas águas do golfo de Bothnia.  Ao sul e
     noroeste você observa as águas do golfo de Bothnia.  Ao leste você observa a
     Suomi, a terra dos mil lagos.
   exits:
+    northeast:
+      target_vnum: '010212612663'
     south:
-      target_vnum: '12647'
+      target_vnum: '010212612647'
+  local_id: '12657'
   name: O Golfo de Bothnia
-  vnum: '12657'
+  vnum: '010212612657'
 - description: |-
     Você está navegando pelas frias e temidas águas de dominação dos Vikings
     noruegueses do mar da Noruega.  A paisagem da costa escandinava é belíssima
     e monumental, seus fiordes transformam a península escandinava numa
     verdadeira fortaleza natural.  Ao nordeste e ao sudeste você observa o mar
     da Noruega na linha do horizonte.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: '010212612670'
+    southeast:
+      target_vnum: 010212612619
+  local_id: '12658'
   name: O Mar da Noruega
-  vnum: '12658'
+  vnum: 010212612658
 - description: |-
     Você está caminhando com muita dificuldade por uma trilha entre
     monumentais árvores cobertas de gelo e neve.  A medida que você segue para
@@ -787,11 +894,12 @@
     trilhas cobertas de neve na floresta de gelo.
   exits:
     north:
-      target_vnum: '12664'
+      target_vnum: '010212612664'
     south:
-      target_vnum: '12648'
+      target_vnum: 010212612648
+  local_id: '12659'
   name: A Floresta de Gelo
-  vnum: '12659'
+  vnum: 010212612659
 - description: |-
     Você está caminhando numa trilha no topo dos Alpes escandinavos.  Ao seu
     redor as belíssimas terras escandinavas.  Em seu coração, o sentimento de
@@ -799,19 +907,25 @@
     ao sul você observa uma trilha no topo coberto de neve dos Alpes
     escandinavos.
   exits:
+    northwest:
+      target_vnum: '010212612666'
     south:
-      target_vnum: '12652'
+      target_vnum: '010212612652'
+  local_id: '12660'
   name: Os Monumentais Alpes Escandinavos
-  vnum: '12660'
+  vnum: '010212612660'
 - description: |-
     Você está navegando pelas frias e tranqüilas águas do rio Angerman.  Ao
     nordeste você observa as belas águas do rio Angerman e ao sul você observa
     a bela floresta de gelo coberta de neve.
   exits:
+    northwest:
+      target_vnum: '010212612667'
     south:
-      target_vnum: '12653'
+      target_vnum: '010212612653'
+  local_id: '12661'
   name: O Rio Angerman
-  vnum: '12661'
+  vnum: '010212612661'
 - description: |-
     Você está caminhando numa bela planície escandinava.  Ao seu redor você
     observa algumas cabanas de madeira e turfa, e alguns vikings curiosos com a
@@ -819,11 +933,12 @@
     observa o centro da vila viking.
   exits:
     north:
-      target_vnum: '12668'
+      target_vnum: 010212612668
     south:
-      target_vnum: '12655'
+      target_vnum: '010212612655'
+  local_id: '12662'
   name: Uma Vila Viking Sueca
-  vnum: '12662'
+  vnum: '010212612662'
 - description: |-
     Você está navegando pelas tranqüilas águas do golfo de Bothnia.  Ao norte
     e ao sudeste você observa as águas do golfo de Bothnia.  A paisagem da costa
@@ -831,9 +946,12 @@
     observa a Suomi, a terra dos mil lagos.
   exits:
     north:
-      target_vnum: '12669'
+      target_vnum: 010212612669
+    southeast:
+      target_vnum: '010212612657'
+  local_id: '12663'
   name: O Golfo de Bothnia
-  vnum: '12663'
+  vnum: '010212612663'
 - description: |-
     Você está caminhando por entre monumentais árvores carregadas de gelo e
     neve.  Precisa-se de muito esforço e força para caminhar pelas trilhas
@@ -841,20 +959,22 @@
     trilha na floresta de gelo e ao norte você observa uma agitada vila viking.
   exits:
     north:
-      target_vnum: '12672'
+      target_vnum: '010212612672'
     south:
-      target_vnum: '12659'
+      target_vnum: 010212612659
+  local_id: '12664'
   name: A Floresta de Gelo
-  vnum: '12664'
+  vnum: '010212612664'
 - description: |-
     Você está dentro de uma cabana de pedras e turfa.  Ao seu redor você
     observa uma cama de feno e alguns restos de comida.  Ao norte você observa
     o centro da vila viking.
   exits:
     north:
-      target_vnum: '12673'
+      target_vnum: '010212612673'
+  local_id: '12665'
   name: Uma Cabana de Madeira
-  vnum: '12665'
+  vnum: '010212612665'
 - description: |-
     Você está caminhando numa trilha no topo dos Alpes escandinavos.  A
     paisagem das terras escandinavas daqui é magnífica.  Ao oeste você observa
@@ -864,18 +984,24 @@
     escandinavos.
   exits:
     north:
-      target_vnum: '12675'
+      target_vnum: '010212612675'
+    southwest:
+      target_vnum: '010212612660'
+  local_id: '12666'
   name: Os Monumentais Alpes Escandinavos
-  vnum: '12666'
+  vnum: '010212612666'
 - description: |-
     Você está navegando pelas frias e tranqüilas águas do rio Angerman.  Os
     ventos vindos do norte causam arrepios em você.  Ao sudoeste e ao leste você
     observa as belas águas do rio Angerman.
   exits:
     east:
-      target_vnum: '12668'
+      target_vnum: 010212612668
+    southwest:
+      target_vnum: '010212612661'
+  local_id: '12667'
   name: O Rio Angerman
-  vnum: '12667'
+  vnum: '010212612667'
 - description: |-
     Você está navegando nas belas e tranqüilas águas do rio Angerman.  Ao sul
     você observa alguns vikings construindo embarcações nas margens do rio
@@ -883,23 +1009,27 @@
     observa uma bela planície escandinava.
   exits:
     north:
-      target_vnum: '12677'
+      target_vnum: '010212612677'
     south:
-      target_vnum: '12662'
+      target_vnum: '010212612662'
+  local_id: '12668'
   name: O Rio Angerman
-  vnum: '12668'
+  vnum: 010212612668
 - description: |-
     Você está navegando pelas tranqüilas águas do golfo de Bothnia.  Ao sul
     e ao nordeste você observa as águas do golfo de Bothnia e ao oeste você
     observa as águas tranqüilas do bela rio Angerman.  Ao leste você observa a
     Suomi, a terra dos mil lagos.
   exits:
+    northwest:
+      target_vnum: 010212612699
     south:
-      target_vnum: '12663'
+      target_vnum: '010212612663'
     west:
-      target_vnum: '12668'
+      target_vnum: 010212612668
+  local_id: '12669'
   name: O Golfo de Bothnia
-  vnum: '12669'
+  vnum: 010212612669
 - description: |-
     Você está navegando pelas misteriosas e arrepiantes águas do mar da
     Noruega.  Ao longo de toda a costa da Noruega, você observa imensos fiordes.
@@ -909,11 +1039,14 @@
     praia escandinava.
   exits:
     east:
-      target_vnum: '12671'
+      target_vnum: '010212612671'
     north:
-      target_vnum: '12685'
+      target_vnum: 010212612685
+    southwest:
+      target_vnum: 010212612658
+  local_id: '12670'
   name: O Mar da Noruega
-  vnum: '12670'
+  vnum: '010212612670'
 - description: |-
     Você está caminhando numa bela praia escandinava, formada por uma grande
     abertura entre dois monumentais fiordes.  Ao seu redor você observa grandes
@@ -922,11 +1055,12 @@
     uma agitada vila viking norueguesa.
   exits:
     east:
-      target_vnum: '12672'
+      target_vnum: '010212612672'
     west:
-      target_vnum: '12670'
+      target_vnum: '010212612670'
+  local_id: '12671'
   name: Uma Bela Praia Escandinava
-  vnum: '12671'
+  vnum: '010212612671'
 - description: |-
     Você está caminhando por uma bela planície escandinava.  Ao seu redor
     você observa as lindas flores na vegetação rasteira e o solo rochoso da
@@ -939,15 +1073,16 @@
     observa uma floresta coberta de neve.
   exits:
     east:
-      target_vnum: '12673'
+      target_vnum: '010212612673'
     north:
-      target_vnum: '12678'
+      target_vnum: 010212612678
     south:
-      target_vnum: '12664'
+      target_vnum: '010212612664'
     west:
-      target_vnum: '12671'
+      target_vnum: '010212612671'
+  local_id: '12672'
   name: Uma Vila Viking Norueguesa
-  vnum: '12672'
+  vnum: '010212612672'
 - description: |-
     Você está caminhando pela vila viking.  Ao seu redor você observa várias
     cabanas de pedras e turfa.  O centro da vila está bastante agitado hoje.  A
@@ -957,15 +1092,18 @@
     você observa belas planícies escandinavas.
   exits:
     east:
-      target_vnum: '12674'
+      target_vnum: '010212612674'
     north:
-      target_vnum: '12679'
+      target_vnum: 010212612679
+    northwest:
+      target_vnum: 010212612680
     south:
-      target_vnum: '12665'
+      target_vnum: '010212612665'
     west:
-      target_vnum: '12672'
+      target_vnum: '010212612672'
+  local_id: '12673'
   name: O Centro da Vila Viking
-  vnum: '12673'
+  vnum: '010212612673'
 - description: |-
     Você está dentro de uma longa cabana de pedras e turfa.  A vila dos
     vikings é constituída por cabanas pequenas de pedras e turfa, que servem
@@ -978,9 +1116,10 @@
     centro da vila viking.
   exits:
     west:
-      target_vnum: '12673'
+      target_vnum: '010212612673'
+  local_id: '12674'
   name: A Grande Cabana Viking
-  vnum: '12674'
+  vnum: '010212612674'
 - description: |-
     Você está caminhando numa trilha no topo dos Alpes escandinavos.  A
     paisagem das terras escandinavas daqui é magnífica.  Ao oeste você observa
@@ -989,10 +1128,13 @@
     Alpes.  Ao nordeste e ao sul você observa uma trilha no topo dos Alpes
     escandinavos.
   exits:
+    northwest:
+      target_vnum: '010212612676'
     south:
-      target_vnum: '12666'
+      target_vnum: '010212612666'
+  local_id: '12675'
   name: Os Monumentais Alpes Escandinavos
-  vnum: '12675'
+  vnum: '010212612675'
 - description: |-
     Você está caminhando numa trilha coberta pela neve, que não para de cair
     nos Alpes escandinavos.  Além dos Alpes você observa um imenso deserto de
@@ -1001,9 +1143,12 @@
     Alpes escandinavos.
   exits:
     north:
-      target_vnum: '12705'
+      target_vnum: '010212612705'
+    southwest:
+      target_vnum: '010212612675'
+  local_id: '12676'
   name: Os Monumentais Alpes Escandinavos
-  vnum: '12676'
+  vnum: '010212612676'
 - description: |-
     Você está caminhando pelo temido deserto de gelo.  Os ventos frios e a
     neve que não para de cair fazem desta região uma das mais desérticas da
@@ -1011,10 +1156,15 @@
     deserto de gelo e não encontra mais nada.  Ao nordeste e ao noroeste você
     observa o deserto de gelo da Suécia e ao sul você observa o rio Angerman.
   exits:
+    northeast:
+      target_vnum: 010212612689
+    northwest:
+      target_vnum: 010212612690
     south:
-      target_vnum: '12668'
+      target_vnum: 010212612668
+  local_id: '12677'
   name: O Deserto Escandinavo de Gelo
-  vnum: '12677'
+  vnum: '010212612677'
 - description: |-
     Você está caminhando numa planície coberta de neve.  Ao seu redor você
     observa grandes vikings desafiando uns aos outros num jogo de arremesso de
@@ -1023,18 +1173,20 @@
     escandinava.
   exits:
     south:
-      target_vnum: '12672'
+      target_vnum: '010212612672'
+  local_id: '12678'
   name: Uma Bela Planície Coberta de Neve
-  vnum: '12678'
+  vnum: 010212612678
 - description: |-
     Você está dentro do grande armazém da vila viking.  Ao seu redor você
     observa suprimentos que daria para alimentar a vila toda por um longo
     período de tempo.  Ao sul você observa o centro da vila viking.
   exits:
     south:
-      target_vnum: '12673'
+      target_vnum: '010212612673'
+  local_id: '12679'
   name: O Armazém da Vila
-  vnum: '12679'
+  vnum: 010212612679
 - description: |-
     Você está caminhando numa bela planície coberta de neve.  Ao seu redor
     você observa lindas flores azuis em meio a muita neve e gelo.  Ao norte você
@@ -1042,11 +1194,14 @@
     ao sudoeste você observa o centro da vila viking.
   exits:
     east:
-      target_vnum: '12681'
+      target_vnum: 010212612681
     north:
-      target_vnum: '12683'
+      target_vnum: 010212612683
+    southwest:
+      target_vnum: '010212612673'
+  local_id: '12680'
   name: Uma Vila Viking Norueguesa
-  vnum: '12680'
+  vnum: 010212612680
 - description: |-
     Você está dentro da cabana do ferreiro viking.  Ao seu redor ferramentas
     e uma enorme lareira.  Você observa armas espalhadas por todos os cantos da
@@ -1055,9 +1210,10 @@
     uma bela planície escandinava coberta de neve.
   exits:
     west:
-      target_vnum: '12680'
+      target_vnum: 010212612680
+  local_id: '12681'
   name: A Cabana do Ferreiro Viking
-  vnum: '12681'
+  vnum: 010212612681
 - description: |-
     Você está navegando nas gélidas águas do magnífico rio Namse.  A neve não
     para de cair, as águas do rio em algumas partes já estão completamente
@@ -1065,9 +1221,12 @@
     você observa as frias águas do rio Namse.
   exits:
     east:
-      target_vnum: '12683'
+      target_vnum: 010212612683
+    northeast:
+      target_vnum: 010212612685
+  local_id: '12682'
   name: O Rio Namse
-  vnum: '12682'
+  vnum: 010212612682
 - description: |-
     Você está navegando pelas frias e congelantes águas do rio Namse.  Os
     ventos vindos do norte são de causar arrepios.  Ao norte você observa o
@@ -1076,24 +1235,26 @@
     escandinava coberta de neve.
   exits:
     east:
-      target_vnum: '12684'
+      target_vnum: 010212612684
     north:
-      target_vnum: '12687'
+      target_vnum: 010212612687
     south:
-      target_vnum: '12680'
+      target_vnum: 010212612680
     west:
-      target_vnum: '12682'
+      target_vnum: 010212612682
+  local_id: '12683'
   name: O Rio Namse
-  vnum: '12683'
+  vnum: 010212612683
 - description: |-
     Você está navegando pelas congelantes águas do rio Namse.  Uma forte
     neblina surge vinda do leste e ventos frios vindos do norte lhe causam
     arrepios.  Ao oeste você observa as águas frias do rio Namse.
   exits:
     west:
-      target_vnum: '12683'
+      target_vnum: 010212612683
+  local_id: '12684'
   name: O Rio Namse
-  vnum: '12684'
+  vnum: 010212612684
 - description: |-
     Você está navegando pelas frias e temidas águas de dominação dos Vikings
     noruegueses do mar da Noruega.  Ao norte e ao sul você observa o mar da
@@ -1101,11 +1262,14 @@
     Namse.
   exits:
     north:
-      target_vnum: '12691'
+      target_vnum: 010212612691
     south:
-      target_vnum: '12670'
+      target_vnum: '010212612670'
+    southeast:
+      target_vnum: 010212612682
+  local_id: '12685'
   name: O Mar da Noruega
-  vnum: '12685'
+  vnum: 010212612685
 - description: |-
     Você está caminhando com muita dificuldade e por muitas horas neste
     desértico lugar.  A neve não para de cair e os ventos frios lhe causam
@@ -1113,8 +1277,9 @@
     céu o sol brilhando como se as horas não passassem, porém o tempo aqui não
     parou.  Ao seu redor a neve e o gelo formam a realeza dessa terra.
   exits: {}
+  local_id: '12686'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12686'
+  vnum: 010212612686
 - description: |-
     Você chegou numa das regiões mais gélidas e desérticas de toda a
     península escandinava.  Você observa a linha do horizonte com muita
@@ -1126,9 +1291,10 @@
     você observa as águas do rio Namse.
   exits:
     south:
-      target_vnum: '12683'
+      target_vnum: 010212612683
+  local_id: '12687'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12687'
+  vnum: 010212612687
 - description: |-
     Você está caminhando com muita dificuldade e por muitas horas neste
     desértico lugar.  A neve não para de cair e os ventos frios lhe causam
@@ -1136,36 +1302,54 @@
     céu o sol brilhando como se as horas não passassem, porém o tempo aqui não
     parou.  Ao seu redor a neve e o gelo formam a realeza dessa terra.
   exits: {}
+  local_id: '12688'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12688'
+  vnum: 010212612688
 - description: |-
     Você está caminhando pelo temido deserto de gelo.  Os ventos frios e a
     neve que não para de cair fazem desta região uma das mais desérticas da
     península escandinava.  Ao seu redor você observa na linha do horizonte o
     deserto de gelo e não encontra mais nada.  Ao nordeste, noroeste e sudeste
     você observa o deserto de gelo da Suécia.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010212612695
+    northwest:
+      target_vnum: 010212612696
+    southeast:
+      target_vnum: '010212612677'
+  local_id: '12689'
   name: O Deserto Escandinavo de Gelo
-  vnum: '12689'
+  vnum: 010212612689
 - description: |-
     Você está caminhando pelo temido deserto de gelo.  Os ventos frios e a
     neve que não para de cair fazem desta região uma das mais desérticas da
     península escandinava.  Ao seu redor você observa na linha do horizonte o
     deserto de gelo e não encontra mais nada.  Ao nordeste, noroeste e sudoeste
     você observa o deserto de gelo da Suécia.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010212612696
+    northwest:
+      target_vnum: 010212612697
+    southwest:
+      target_vnum: '010212612677'
+  local_id: '12690'
   name: O Deserto Escandinavo de Gelo
-  vnum: '12690'
+  vnum: 010212612690
 - description: "Você está navegando pelas frias e temidas águas de dominação dos Vikings\n\
     noruegueses do mar da Noruega.  A paisagem da costa escandinava é belíssima\n\
     e monumental, seus fiordes transformam a península escandinava numa\nverdadeira\
     \ fortaleza natural.  Ao nordeste você observa o congelante mar\nglacial Ã\x81\
-    rtico e ao sul vocÃª observa o temido mar da Noruega."
+    rtico e ao sul você observa o temido mar da Noruega."
   exits:
+    northwest:
+      target_vnum: '010212612700'
     south:
-      target_vnum: '12685'
+      target_vnum: 010212612685
+  local_id: '12691'
   name: O Mar da Noruega
-  vnum: '12691'
+  vnum: 010212612691
 - description: |-
     Você está caminhando com muita dificuldade e por muitas horas neste
     desértico lugar.  A neve não para de cair e os ventos frios lhe causam
@@ -1173,8 +1357,9 @@
     céu o sol brilhando como se as horas não passassem, porém o tempo aqui não
     parou.  Ao seu redor a neve e o gelo formam a realeza dessa terra.
   exits: {}
+  local_id: '12692'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12692'
+  vnum: 010212612692
 - description: |-
     Você está caminhando com muita dificuldade e por muitas horas neste
     desértico lugar.  A neve não para de cair e os ventos frios lhe causam
@@ -1182,8 +1367,9 @@
     céu o sol brilhando como se as horas não passassem, porém o tempo aqui não
     parou.  Ao seu redor a neve e o gelo formam a realeza dessa terra.
   exits: {}
+  local_id: '12693'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12693'
+  vnum: 010212612693
 - description: |-
     Você está caminhando com muita dificuldade e por muitas horas neste
     desértico lugar.  A neve não para de cair e os ventos frios lhe causam
@@ -1191,8 +1377,9 @@
     céu o sol brilhando como se as horas não passassem, porém o tempo aqui não
     parou.  Ao seu redor a neve e o gelo formam a realeza dessa terra.
   exits: {}
+  local_id: '12694'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12694'
+  vnum: 010212612694
 - description: |-
     Você está caminhando pelo temido deserto de gelo.  Os ventos frios e a
     neve que não para de cair fazem desta região uma das mais desérticas da
@@ -1202,11 +1389,14 @@
     escandinavos.
   exits:
     east:
-      target_vnum: '12696'
+      target_vnum: 010212612696
+    southeast:
+      target_vnum: 010212612689
     up:
-      target_vnum: '12706'
+      target_vnum: '010212612706'
+  local_id: '12695'
   name: O Deserto Escandinavo de Gelo
-  vnum: '12695'
+  vnum: 010212612695
 - description: |-
     Você está caminhando pelo temido deserto de gelo.  Os ventos frios e a
     neve que não para de cair fazem desta região uma das mais desérticas da
@@ -1216,11 +1406,16 @@
     os magníficos Alpes escandinavos.
   exits:
     east:
-      target_vnum: '12697'
+      target_vnum: 010212612697
+    southeast:
+      target_vnum: 010212612690
+    southwest:
+      target_vnum: 010212612689
     west:
-      target_vnum: '12695'
+      target_vnum: 010212612695
+  local_id: '12696'
   name: O Deserto Escandinavo de Gelo
-  vnum: '12696'
+  vnum: 010212612696
 - description: |-
     Você está caminhando pelo temido deserto de gelo.  Os ventos frios e a
     neve que não para de cair fazem desta região uma das mais desérticas da
@@ -1230,11 +1425,14 @@
     escandinava.
   exits:
     east:
-      target_vnum: '12698'
+      target_vnum: 010212612698
+    southwest:
+      target_vnum: 010212612690
     west:
-      target_vnum: '12696'
+      target_vnum: 010212612696
+  local_id: '12697'
   name: O Deserto Escandinavo de Gelo
-  vnum: '12697'
+  vnum: 010212612697
 - description: |-
     Você está caminhando numa pela praia escandinava.  Os ventos frios e a
     neve que cai intensamente, transformam este magnífico lugar num paraíso
@@ -1242,32 +1440,43 @@
     observa o temido deserto de gelo da Suécia.
   exits:
     east:
-      target_vnum: '12699'
+      target_vnum: 010212612699
     west:
-      target_vnum: '12697'
+      target_vnum: 010212612697
+  local_id: '12698'
   name: Uma Bela Praia Escandinava
-  vnum: '12698'
+  vnum: 010212612698
 - description: |-
     Você está navegando pelas tranqüilas águas do golfo de Bothnia.  Ao
     sudoeste você observa as águas do golfo de Bothnia e ao oeste você observa
     uma bela praia escandinava.  Ao leste você observa a Suomi, a terra dos
     mil lagos.
   exits:
+    southwest:
+      target_vnum: 010212612669
     west:
-      target_vnum: '12698'
+      target_vnum: 010212612698
+  local_id: '12699'
   name: O Golfo de Bothnia
-  vnum: '12699'
-- description: "VocÃª estÃ¡ navegando pelas congelantes Ã¡guas do mar glacial Ã\x81\
-    rtico.  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda\
-    \ a sua\nembarcação.  Os fortes ventos frios dificultam sua navegação.  Ao nordeste\n\
-    vocÃª observa as Ã¡guas gÃ©lidas do mar glacial Ã\x81rtico, ao sudoeste vocÃª\n\
-    observa o mar temido da Noruega, ao sudeste você observa um monumental\nfiorde\
-    \ na costa da Noruega e ao oeste você observa o mar da Groenlândia."
+  vnum: 010212612699
+- description: "Você está navegando pelas congelantes águas do mar glacial Ã\x81rtico.\
+    \  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda a sua\n\
+    embarcação.  Os fortes ventos frios dificultam sua navegação.  Ao nordeste\nvocê\
+    \ observa as águas gélidas do mar glacial Ã\x81rtico, ao sudoeste você\nobserva\
+    \ o mar temido da Noruega, ao sudeste você observa um monumental\nfiorde na costa\
+    \ da Noruega e ao oeste você observa o mar da Groenlândia."
   exits:
+    northwest:
+      target_vnum: '010212612707'
+    southeast:
+      target_vnum: '010212612701'
+    southwest:
+      target_vnum: 010212612691
     west:
-      target_vnum: '12878'
+      target_vnum: 010212612878
+  local_id: '12700'
   name: "O Mar Glacial Ã\x81rtico"
-  vnum: '12700'
+  vnum: '010212612700'
 - description: |-
     Você está caminhando com muita dificuldade num belo fiorde na costa da
     Noruega.  A paisagem é simplesmente linda.  Você sente a suprema e magnífica
@@ -1275,9 +1484,12 @@
     da Noruega e ao leste você observa um assustador deserto de gelo.
   exits:
     east:
-      target_vnum: '12702'
+      target_vnum: '010212612702'
+    northeast:
+      target_vnum: '010212612700'
+  local_id: '12701'
   name: Um Monumental Fiorde Norueguês
-  vnum: '12701'
+  vnum: '010212612701'
 - description: "Você chegou numa das regiões mais gélidas e desérticas de toda a\n\
     península escandinava.  Você observa a linha do horizonte com muita\ndificuldade,\
     \ causada pelos fortes ventos frios e pela neve que não para de\ncair.  Ao olhar\
@@ -1288,11 +1500,12 @@
     \ fiorde e ao norte você observa as águas do\nmar glacial Ã\x81rtico."
   exits:
     east:
-      target_vnum: '12701'
+      target_vnum: '010212612701'
     north:
-      target_vnum: '12709'
+      target_vnum: 010212612709
+  local_id: '12702'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12702'
+  vnum: '010212612702'
 - description: |-
     Você está caminhando com muita dificuldade e por muitas horas neste
     desértico lugar.  A neve não para de cair e os ventos frios lhe causam
@@ -1300,8 +1513,9 @@
     céu o sol brilhando como se as horas não passassem, porém o tempo aqui não
     parou.  Ao seu redor a neve e o gelo formam a realeza dessa terra.
   exits: {}
+  local_id: '12703'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12703'
+  vnum: '010212612703'
 - description: |-
     Você está caminhando com muita dificuldade e por muitas horas neste
     desértico lugar.  A neve não para de cair e os ventos frios lhe causam
@@ -1309,8 +1523,9 @@
     céu o sol brilhando como se as horas não passassem, porém o tempo aqui não
     parou.  Ao seu redor a neve e o gelo formam a realeza dessa terra.
   exits: {}
+  local_id: '12704'
   name: A Terra do Sol da Meia-Noite
-  vnum: '12704'
+  vnum: '010212612704'
 - description: |-
     Você está caminhando numa trilha no topo dos Alpes escandinavos.  A
     paisagem das terras escandinavas daqui é magnífica.  Ao oeste você observa
@@ -1321,9 +1536,12 @@
     da Suécia.
   exits:
     down:
-      target_vnum: '12695'
+      target_vnum: 010212612695
+    northeast:
+      target_vnum: '010212612706'
+  local_id: '12705'
   name: Os Monumentais Alpes Escandinavos
-  vnum: '12705'
+  vnum: '010212612705'
 - description: |-
     Você está caminhando numa trilha no topo dos Alpes escandinavos.  A
     paisagem das terras escandinavas daqui é magnífica.  Ao oeste você observa
@@ -1336,43 +1554,55 @@
     você observa uma trilha no topo dos Alpes escandinavos.
   exits:
     down:
-      target_vnum: '12712'
+      target_vnum: '010212612712'
     north:
-      target_vnum: '12711'
+      target_vnum: '010212612711'
     south:
-      target_vnum: '12676'
+      target_vnum: '010212612676'
+    southeast:
+      target_vnum: '010212612705'
     up:
-      target_vnum: '12710'
+      target_vnum: '010212612710'
+  local_id: '12706'
   name: Yggdrasill, o Elo entre os Mundos
-  vnum: '12706'
-- description: "VocÃª estÃ¡ navegando pelas congelantes Ã¡guas do mar glacial Ã\x81\
-    rtico.  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda\
-    \ a sua\nembarcação.  Os fortes ventos frios dificultam sua navegação.  Ao nordeste\n\
-    e sudoeste vocÃª observa as Ã¡guas gÃ©lidas do mar glacial Ã\x81rtico."
-  exits: {}
+  vnum: '010212612706'
+- description: "Você está navegando pelas congelantes águas do mar glacial Ã\x81rtico.\
+    \  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda a sua\n\
+    embarcação.  Os fortes ventos frios dificultam sua navegação.  Ao nordeste\ne\
+    \ sudoeste você observa as águas gélidas do mar glacial Ã\x81rtico."
+  exits:
+    northwest:
+      target_vnum: 010212612708
+    southwest:
+      target_vnum: '010212612700'
+  local_id: '12707'
   name: "O Mar Glacial Ã\x81rtico"
-  vnum: '12707'
-- description: "VocÃª estÃ¡ navegando pelas congelantes Ã¡guas do mar glacial Ã\x81\
-    rtico.  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda\
-    \ a sua\nembarcação.  Os fortes ventos frios dificultam sua navegação.  Ao leste\
-    \ e ao\nsudoeste vocÃª observa as Ã¡guas gÃ©lidas do mar glacial Ã\x81rtico."
+  vnum: '010212612707'
+- description: "Você está navegando pelas congelantes águas do mar glacial Ã\x81rtico.\
+    \  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda a sua\n\
+    embarcação.  Os fortes ventos frios dificultam sua navegação.  Ao leste e ao\n\
+    sudoeste você observa as águas gélidas do mar glacial Ã\x81rtico."
   exits:
     east:
-      target_vnum: '12709'
+      target_vnum: 010212612709
+    southwest:
+      target_vnum: '010212612707'
+  local_id: '12708'
   name: "O Mar Glacial Ã\x81rtico"
-  vnum: '12708'
-- description: "VocÃª estÃ¡ navegando pelas congelantes Ã¡guas do mar glacial Ã\x81\
-    rtico.  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda\
-    \ a sua\nembarcação.  Os fortes ventos frios dificultam sua navegação.  Ao oeste\
-    \ você\nobserva as Ã¡guas gÃ©lidas do mar glacial Ã\x81rtico e ao sul vocÃª observa\
-    \ o\ntemido deserto de gelo da Noruega."
+  vnum: 010212612708
+- description: "Você está navegando pelas congelantes águas do mar glacial Ã\x81rtico.\
+    \  Ao\nseu redor você observa uma paisagem desértica.  A neve invade toda a sua\n\
+    embarcação.  Os fortes ventos frios dificultam sua navegação.  Ao oeste você\n\
+    observa as águas gélidas do mar glacial Ã\x81rtico e ao sul você observa o\ntemido\
+    \ deserto de gelo da Noruega."
   exits:
     south:
-      target_vnum: '12702'
+      target_vnum: '010212612702'
     west:
-      target_vnum: '12708'
+      target_vnum: 010212612708
+  local_id: '12709'
   name: "O Mar Glacial Ã\x81rtico"
-  vnum: '12709'
+  vnum: 010212612709
 - description: |-
     Incrível !  Você está escalando uma monumental raiz.  Ao seu redor você
     observa algumas nuvens e uma sensação de tranqüilidade toma conta do seu
@@ -1380,11 +1610,12 @@
     descendo você observa os monumentais Alpes escandinavos.
   exits:
     down:
-      target_vnum: '12706'
+      target_vnum: '010212612706'
     up:
-      target_vnum: '12713'
+      target_vnum: '010212612713'
+  local_id: '12710'
   name: Uma Raiz Monumental
-  vnum: '12710'
+  vnum: '010212612710'
 - description: |-
     Incrível !  Você está caminhando sobre uma monumental raiz.  Ao seu redor
     você observa algumas nuvens e uma sensação de tranqüilidade toma conta do
@@ -1392,11 +1623,12 @@
     e ao sul você observa os monumentais Alpes escandinavos.
   exits:
     north:
-      target_vnum: '12757'
+      target_vnum: '010212612757'
     south:
-      target_vnum: '12706'
+      target_vnum: '010212612706'
+  local_id: '12711'
   name: Uma Raiz Monumental
-  vnum: '12711'
+  vnum: '010212612711'
 - description: |-
     Incrível !  Você está escalando uma monumental raiz.  Ao seu redor você
     observa algumas nuvens e uma sensação de tranqüilidade toma conta do seu
@@ -1404,11 +1636,12 @@
     gigantesca raiz e para cima você observa os monumentais Alpes escandinavos.
   exits:
     down:
-      target_vnum: '12783'
+      target_vnum: 010212612783
     up:
-      target_vnum: '12706'
+      target_vnum: '010212612706'
+  local_id: '12712'
   name: Uma Raiz Monumental
-  vnum: '12712'
+  vnum: '010212612712'
 - description: |-
     Você está escalando uma monumental raiz, grande como um cinturão de um
     poderoso gigante de gelo.  Ao seu redor você percebe a existência de belas
@@ -1416,11 +1649,12 @@
     baixo você observa a imensa raiz em direção dos Alpes escandinavos.
   exits:
     down:
-      target_vnum: '12710'
+      target_vnum: '010212612710'
     up:
-      target_vnum: '12714'
+      target_vnum: '010212612714'
+  local_id: '12713'
   name: Uma Raiz Monumental
-  vnum: '12713'
+  vnum: '010212612713'
 - description: |-
     Você está caminhando por um majestoso e celestial arco-íris.  Ao seu
     redor uma paisagem que nunca será esquecida por você.  Várias nuvens formam
@@ -1433,13 +1667,14 @@
     e para cima você observa um belo palácio dourado.
   exits:
     down:
-      target_vnum: '12713'
+      target_vnum: '010212612713'
     north:
-      target_vnum: '12715'
+      target_vnum: '010212612715'
     up:
-      target_vnum: '12814'
+      target_vnum: 010212612814
+  local_id: '12714'
   name: O Celestial Bifrost
-  vnum: '12714'
+  vnum: '010212612714'
 - description: |-
     Um brilho intenso atinge seus olhos.  Ao abri-los você observa ao seu
     redor as sagradas terras de Asgard, a morada dos deuses e paraíso dos dignos
@@ -1450,11 +1685,16 @@
     um belo arco-íris.
   exits:
     north:
-      target_vnum: '12717'
+      target_vnum: '010212612717'
+    northeast:
+      target_vnum: '010212612716'
+    northwest:
+      target_vnum: 010212612718
     south:
-      target_vnum: '12714'
+      target_vnum: '010212612714'
+  local_id: '12715'
   name: Asgard, A Morada dos Deuses
-  vnum: '12715'
+  vnum: '010212612715'
 - description: |-
     Você está caminhando pelas sagradas terras de Asgard.  Ao seu redor você
     observa muita neve e gelo.  Sua armadura já está completamente coberta de
@@ -1463,11 +1703,16 @@
     neve.
   exits:
     east:
-      target_vnum: '12717'
+      target_vnum: '010212612717'
     north:
-      target_vnum: '12720'
+      target_vnum: '010212612720'
+    northeast:
+      target_vnum: 010212612719
+    southeast:
+      target_vnum: '010212612715'
+  local_id: '12716'
   name: Uma Planície Coberta de Gelo
-  vnum: '12716'
+  vnum: '010212612716'
 - description: |-
     Você está caminhando pelas sagradas terras de Asgard.  Ao seu redor você
     observa uma paisagem maravilhosa, onde a neve reina sobre o bosque e as
@@ -1476,15 +1721,16 @@
     neve e ao sul você observa uma bela fonte.
   exits:
     east:
-      target_vnum: '12718'
+      target_vnum: 010212612718
     north:
-      target_vnum: '12721'
+      target_vnum: '010212612721'
     south:
-      target_vnum: '12715'
+      target_vnum: '010212612715'
     west:
-      target_vnum: '12716'
+      target_vnum: '010212612716'
+  local_id: '12717'
   name: Uma Planície Coberta de Gelo
-  vnum: '12717'
+  vnum: '010212612717'
 - description: |-
     Você está caminhando pelas sagradas terras de Asgard.  Ao seu redor você
     observa muita neve e gelo, e um brilho dourado vindo do nordeste.  Ao norte
@@ -1493,11 +1739,16 @@
     fonte.
   exits:
     north:
-      target_vnum: '12722'
+      target_vnum: '010212612722'
+    northwest:
+      target_vnum: '010212612723'
+    southwest:
+      target_vnum: '010212612715'
     west:
-      target_vnum: '12717'
+      target_vnum: '010212612717'
+  local_id: '12718'
   name: Uma Planície Coberta de Gelo
-  vnum: '12718'
+  vnum: 010212612718
 - description: |-
     Você está caminhando sobre a neve de uma bela planície.  A paisagem é
     magnífica, ao seu redor você observa um verdadeiro mar de neve.  Ao olhar
@@ -1508,9 +1759,12 @@
     ao sudeste você observa uma planície coberta por um mar de neve.
   exits:
     north:
-      target_vnum: '12724'
+      target_vnum: '010212612724'
+    southeast:
+      target_vnum: '010212612716'
+  local_id: '12719'
   name: Uma Planície Coberta de Neve
-  vnum: '12719'
+  vnum: 010212612719
 - description: |-
     Você está caminhando por entre belas árvores do magnífico bosque de
     Asgard.  A sensação aqui é de tranqüilidade e paz.  Ao norte você observa
@@ -1519,13 +1773,16 @@
     observa uma cúpula de prata.
   exits:
     east:
-      target_vnum: '12721'
+      target_vnum: '010212612721'
     north:
-      target_vnum: '12725'
+      target_vnum: '010212612725'
+    northeast:
+      target_vnum: '010212612724'
     south:
-      target_vnum: '12716'
+      target_vnum: '010212612716'
+  local_id: '12720'
   name: O Bosque de Asgard
-  vnum: '12720'
+  vnum: '010212612720'
 - description: |-
     Você está dentro de uma bela cúpula de cristal.  Ao seu redor você
     observa as belíssimas paredes de cristal e ao olhar para o teto você observa
@@ -1534,15 +1791,16 @@
     uma linda planície coberta de neve.
   exits:
     east:
-      target_vnum: '12722'
+      target_vnum: '010212612722'
     north:
-      target_vnum: '12726'
+      target_vnum: '010212612726'
     south:
-      target_vnum: '12717'
+      target_vnum: '010212612717'
     west:
-      target_vnum: '12720'
+      target_vnum: '010212612720'
+  local_id: '12721'
   name: Uma Bela Cúpula de Cristal
-  vnum: '12721'
+  vnum: '010212612721'
 - description: |-
     Você está caminhando por entre belas árvores do magnífico bosque de
     Asgard.  A sensação aqui é de tranqüilidade e paz.  Ao norte você observa
@@ -1551,13 +1809,16 @@
     observa uma cúpula de ouro.
   exits:
     north:
-      target_vnum: '12727'
+      target_vnum: '010212612727'
+    northwest:
+      target_vnum: 010212612728
     south:
-      target_vnum: '12718'
+      target_vnum: 010212612718
     west:
-      target_vnum: '12721'
+      target_vnum: '010212612721'
+  local_id: '12722'
   name: O Bosque de Asgard
-  vnum: '12722'
+  vnum: '010212612722'
 - description: |-
     Você está caminhando sobre uma bela planície coberta de neve.  OS ventos
     frios lhe causam arrepios e a neve já cobriu completamente sua armadura.  Ao
@@ -1565,9 +1826,12 @@
     linda planície coberta por um imenso mar de neve.
   exits:
     north:
-      target_vnum: '12728'
+      target_vnum: 010212612728
+    southwest:
+      target_vnum: 010212612718
+  local_id: '12723'
   name: Uma Planície Coberta de Neve
-  vnum: '12723'
+  vnum: '010212612723'
 - description: |-
     Você está dentro de uma bela cúpula de prata.  Ao seu redor você observa
     a beleza do teto e das paredes feitas da mais pura e nobre prata.  Você
@@ -1576,11 +1840,14 @@
     belo bosque de Asgard e ao sul você observa uma planície coberta de neve.
   exits:
     north:
-      target_vnum: '12729'
+      target_vnum: 010212612729
     south:
-      target_vnum: '12719'
+      target_vnum: 010212612719
+    southeast:
+      target_vnum: '010212612720'
+  local_id: '12724'
   name: Uma Bela Cúpula de Prata
-  vnum: '12724'
+  vnum: '010212612724'
 - description: |-
     Você está caminhando por entre belas árvores do magnífico bosque de
     Asgard.  A sensação aqui é de tranqüilidade e paz.  Além das belas árvores
@@ -1588,11 +1855,14 @@
     noroeste você observa grandes árvores cobertas de neve.
   exits:
     east:
-      target_vnum: '12726'
+      target_vnum: '010212612726'
+    northeast:
+      target_vnum: 010212612729
     south:
-      target_vnum: '12720'
+      target_vnum: '010212612720'
+  local_id: '12725'
   name: O Bosque de Asgard
-  vnum: '12725'
+  vnum: '010212612725'
 - description: |-
     Você está caminhando entre magníficas e admiráveis árvores do bosque de
     Asgard.  Você possui uma visão de toda a paisagem do bosque e uma visão do
@@ -1602,27 +1872,31 @@
     você observa uma bela cúpula de cristal.
   exits:
     east:
-      target_vnum: '12727'
+      target_vnum: '010212612727'
     north:
-      target_vnum: '12731'
+      target_vnum: '010212612731'
     south:
-      target_vnum: '12721'
+      target_vnum: '010212612721'
     west:
-      target_vnum: '12725'
+      target_vnum: '010212612725'
+  local_id: '12726'
   name: O Coração do Bosque de Asgard
-  vnum: '12726'
+  vnum: '010212612726'
 - description: |-
     Você está caminhando por entre belas árvores do magnífico bosque de
     Asgard.  A sensação aqui é de tranqüilidade e paz.  Além das belas árvores
     ao seu redor você percebe ao norte um belo palácio.  Ao leste, sul e
     nordeste você observa grandes árvores cobertas de neve.
   exits:
+    northwest:
+      target_vnum: '010212612730'
     south:
-      target_vnum: '12722'
+      target_vnum: '010212612722'
     west:
-      target_vnum: '12726'
+      target_vnum: '010212612726'
+  local_id: '12727'
   name: O Bosque de Asgard
-  vnum: '12727'
+  vnum: '010212612727'
 - description: |-
     Você está dentro de uma bela cúpula de ouro.  Ao seu redor você observa
     com muita admiração o belo teto e paredes de ouro.  Uma incrível sensação de
@@ -1632,11 +1906,14 @@
     planície coberta de neve.
   exits:
     north:
-      target_vnum: '12730'
+      target_vnum: '010212612730'
     south:
-      target_vnum: '12723'
+      target_vnum: '010212612723'
+    southwest:
+      target_vnum: '010212612722'
+  local_id: '12728'
   name: Uma Bela Cúpula de Ouro
-  vnum: '12728'
+  vnum: 010212612728
 - description: |-
     Você está caminhando tranqüilamente por entre as belas árvores cobertas
     de neve do magnífico bosque de Asgard.  Ao oeste você observa a festiva
@@ -1644,12 +1921,17 @@
     você observa um imenso mar de neve e ao sudeste você observa o belo bosque
     de Asgard.
   exits:
+    northeast:
+      target_vnum: '010212612732'
     south:
-      target_vnum: '12724'
+      target_vnum: '010212612724'
+    southeast:
+      target_vnum: '010212612725'
     west:
-      target_vnum: '12808'
+      target_vnum: 010212612808
+  local_id: '12729'
   name: O Bosque de Asgard
-  vnum: '12729'
+  vnum: 010212612729
 - description: |-
     Você está caminhando por entre as belas árvores do bosque de Asgard.  Ao
     seu redor muita neve e gelo.  A neve que não para de cair cobre toda a sua
@@ -1658,11 +1940,16 @@
     neve e ao sudoeste você observa o belo bosque de Asgard.
   exits:
     east:
-      target_vnum: '12800'
+      target_vnum: 010212612800
+    northwest:
+      target_vnum: 010212612738
     south:
-      target_vnum: '12728'
+      target_vnum: 010212612728
+    southwest:
+      target_vnum: '010212612727'
+  local_id: '12730'
   name: O Bosque de Asgard
-  vnum: '12730'
+  vnum: '010212612730'
 - description: |-
     Você está caminhando sobre uma planície coberta de neve.  Ao seu redor
     você observa muita neve e gelo.  Contudo uma magnífica paisagem começa a
@@ -1671,11 +1958,12 @@
     dourado e ao sul você observa o bosque de Asgard.
   exits:
     north:
-      target_vnum: '12735'
+      target_vnum: '010212612735'
     south:
-      target_vnum: '12726'
+      target_vnum: '010212612726'
+  local_id: '12731'
   name: Uma Planície Coberta de Gelo
-  vnum: '12731'
+  vnum: '010212612731'
 - description: |-
     Magnífica !  Você está caminhando sobre um imenso mar de neve.  Ao seu
     redor você observa apenas o branco da neve na linha do horizonte.  Ao norte
@@ -1684,11 +1972,14 @@
     você observa um rio de águas congeladas.
   exits:
     east:
-      target_vnum: '12733'
+      target_vnum: '010212612733'
     north:
-      target_vnum: '12753'
+      target_vnum: '010212612753'
+    southeast:
+      target_vnum: 010212612729
+  local_id: '12732'
   name: O Mar de Neve
-  vnum: '12732'
+  vnum: '010212612732'
 - description: |-
     Você está caminhando com muito cuidado sobre a fina superfície do rio de
     águas congeladas de Asgard, qualquer passo-em-falso poderia ser fatal.  Ao
@@ -1699,13 +1990,16 @@
     de neve.
   exits:
     east:
-      target_vnum: '12734'
+      target_vnum: '010212612734'
     north:
-      target_vnum: '12754'
+      target_vnum: '010212612754'
+    southeast:
+      target_vnum: 010212612729
     west:
-      target_vnum: '12732'
+      target_vnum: '010212612732'
+  local_id: '12733'
   name: "As Ã\x81guas Congeladas do Rio de Asgard"
-  vnum: '12733'
+  vnum: '010212612733'
 - description: |-
     Você está caminhando com muito cuidado sobre a fina superfície do rio de
     águas congeladas de Asgard, qualquer passo-em-falso poderia ser fatal.  Ao
@@ -1716,11 +2010,12 @@
     Valhala.
   exits:
     east:
-      target_vnum: '12735'
+      target_vnum: '010212612735'
     west:
-      target_vnum: '12733'
+      target_vnum: '010212612733'
+  local_id: '12734'
   name: "As Ã\x81guas Congeladas do Rio de Asgard"
-  vnum: '12734'
+  vnum: '010212612734'
 - description: |-
     Você está na entrada do mais belo e divino palácio de Asgard.  Ao seu
     redor você observa ao leste e oeste as águas congeladas do rio de Asgard, ao
@@ -1728,15 +2023,16 @@
     o majestoso portão do palácio de Valhala.
   exits:
     east:
-      target_vnum: '12736'
+      target_vnum: '010212612736'
     north:
-      target_vnum: '12739'
+      target_vnum: 010212612739
     south:
-      target_vnum: '12731'
+      target_vnum: '010212612731'
     west:
-      target_vnum: '12734'
+      target_vnum: '010212612734'
+  local_id: '12735'
   name: A Entrada do Esplêndido Valhala
-  vnum: '12735'
+  vnum: '010212612735'
 - description: |-
     Você está caminhando com muito cuidado sobre a fina superfície do rio de
     águas congeladas de Asgard, qualquer passo-em-falso poderia ser fatal.  Ao
@@ -1747,11 +2043,12 @@
     Valhala.
   exits:
     east:
-      target_vnum: '12737'
+      target_vnum: '010212612737'
     west:
-      target_vnum: '12735'
+      target_vnum: '010212612735'
+  local_id: '12736'
   name: "As Ã\x81guas Congeladas do Rio de Asgard"
-  vnum: '12736'
+  vnum: '010212612736'
 - description: |-
     Você está caminhando com muito cuidado sobre a fina superfície do rio de
     águas congeladas de Asgard, qualquer passo-em-falso poderia ser fatal.  Ao
@@ -1762,13 +2059,14 @@
     de neve.
   exits:
     east:
-      target_vnum: '12738'
+      target_vnum: 010212612738
     north:
-      target_vnum: '12755'
+      target_vnum: '010212612755'
     west:
-      target_vnum: '12736'
+      target_vnum: '010212612736'
+  local_id: '12737'
   name: "As Ã\x81guas Congeladas do Rio de Asgard"
-  vnum: '12737'
+  vnum: '010212612737'
 - description: |-
     Magnífica !  Você está caminhando sobre um imenso mar de neve.  Ao seu
     redor você observa apenas o branco da neve na linha do horizonte.  Ao norte
@@ -1777,11 +2075,14 @@
     ao oeste você observa um rio de águas congeladas.
   exits:
     north:
-      target_vnum: '12756'
+      target_vnum: '010212612756'
+    southwest:
+      target_vnum: '010212612730'
     west:
-      target_vnum: '12737'
+      target_vnum: '010212612737'
+  local_id: '12738'
   name: O Mar de Neve
-  vnum: '12738'
+  vnum: 010212612738
 - description: |-
     Você está dentro do celestial palácio Valhala, morada de Odin e dos
     Einherjars, guerreiros que morreram valentemente em combate, pois são
@@ -1794,11 +2095,12 @@
     palácio.
   exits:
     north:
-      target_vnum: '12741'
+      target_vnum: '010212612741'
     south:
-      target_vnum: '12735'
+      target_vnum: '010212612735'
+  local_id: '12739'
   name: O Divino Palácio Valhala
-  vnum: '12739'
+  vnum: 010212612739
 - description: |-
     Você está caminhando por entre belas flores e arbustos dos belos jardins
     do palácio Valhala.  Ao seu redor você observa perfumadas flores azuis e
@@ -1807,11 +2109,14 @@
     nordeste você observa um grande salão dentro do palácio.
   exits:
     east:
-      target_vnum: '12742'
+      target_vnum: '010212612742'
     north:
-      target_vnum: '12751'
+      target_vnum: '010212612751'
+    northwest:
+      target_vnum: '010212612745'
+  local_id: '12740'
   name: Os Jardins do Palácio Valhala
-  vnum: '12740'
+  vnum: '010212612740'
 - description: |-
     Você está caminhando sobre uma bela ponte de ouro, que segue em direção
     de um grande salão dentro do palácio. Ao seu redor você observa os sublimes
@@ -1819,11 +2124,12 @@
     palácio e ao sul você observa a entrada do Valhala.
   exits:
     north:
-      target_vnum: '12745'
+      target_vnum: '010212612745'
     south:
-      target_vnum: '12739'
+      target_vnum: 010212612739
+  local_id: '12741'
   name: A Bela Ponte de Ouro do Valhala
-  vnum: '12741'
+  vnum: '010212612741'
 - description: |-
     Você está caminhando por entre belas flores e arbustos dos belos jardins
     do palácio Valhala.  Ao seu redor você observa perfumadas flores azuis e
@@ -1832,11 +2138,14 @@
     noroeste você observa um grande salão dentro do palácio.
   exits:
     north:
-      target_vnum: '12743'
+      target_vnum: '010212612743'
+    northeast:
+      target_vnum: '010212612745'
     west:
-      target_vnum: '12740'
+      target_vnum: '010212612740'
+  local_id: '12742'
   name: Os Jardins do Palácio Valhala
-  vnum: '12742'
+  vnum: '010212612742'
 - description: |-
     Você está caminhando por entre belas flores e arbustos dos belos jardins
     do palácio Valhala.  Ao seu redor você observa perfumadas flores azuis e
@@ -1844,11 +2153,12 @@
     sul você observa os belos jardins da magnífica morada dos deuses.
   exits:
     north:
-      target_vnum: '12752'
+      target_vnum: '010212612752'
     south:
-      target_vnum: '12742'
+      target_vnum: '010212612742'
+  local_id: '12743'
   name: Os Jardins do Palácio Valhala
-  vnum: '12743'
+  vnum: '010212612743'
 - description: |-
     Você está dentro do magnífico palácio Valhala, a morada de Odin.  Ao seu
     redor você observa várias cadeiras e mesas de madeira, nas paredes pinturas
@@ -1861,11 +2171,12 @@
     ao leste você observa o grande salão do Valhala.
   exits:
     east:
-      target_vnum: '12745'
+      target_vnum: '010212612745'
     north:
-      target_vnum: '12747'
+      target_vnum: '010212612747'
+  local_id: '12744'
   name: O Salão dos Festins do Valhala
-  vnum: '12744'
+  vnum: '010212612744'
 - description: |-
     Você está dentro do esplendoroso salão dos heróis Einherjars.  O supremo
     e senhor deus dos deuses, Odin, desejoso de reunir grande número de heróis a
@@ -1880,15 +2191,20 @@
     jardins do Valhala.
   exits:
     east:
-      target_vnum: '12746'
+      target_vnum: '010212612746'
     north:
-      target_vnum: '12748'
+      target_vnum: 010212612748
     south:
-      target_vnum: '12741'
+      target_vnum: '010212612741'
+    southeast:
+      target_vnum: '010212612742'
+    southwest:
+      target_vnum: '010212612740'
     west:
-      target_vnum: '12744'
+      target_vnum: '010212612744'
+  local_id: '12745'
   name: O Salão dos Einherjars
-  vnum: '12745'
+  vnum: '010212612745'
 - description: |-
     Você está dentro do mais glorioso e desejado lugar que um guerreiro
     viking possa desejar estar.  Você está dentro do palácio Valhala no grande
@@ -1899,11 +2215,12 @@
     norte e ao oeste você observa o grande salão do palácio.
   exits:
     north:
-      target_vnum: '12749'
+      target_vnum: 010212612749
     west:
-      target_vnum: '12745'
+      target_vnum: '010212612745'
+  local_id: '12746'
   name: O Salão dos Festins do Valhala
-  vnum: '12746'
+  vnum: '010212612746'
 - description: |-
     Você está dentro do grande salão dos festins do Valhala.  Ao seu redor
     você observa algumas cadeiras e mesas, nas paredes você observa lindas
@@ -1912,11 +2229,12 @@
     do palácio Valhala.
   exits:
     east:
-      target_vnum: '12748'
+      target_vnum: 010212612748
     south:
-      target_vnum: '12744'
+      target_vnum: '010212612744'
+  local_id: '12747'
   name: O Salão dos Festins do Valhala
-  vnum: '12747'
+  vnum: '010212612747'
 - description: |-
     Você está dentro do celestial salão dos festins do palácio Valhala.  Ao
     seu redor você observa alguns guerreiros vikings, recém ressuscitados e
@@ -1926,15 +2244,16 @@
     do Valhala e para cima você observa uma parte elevada do salão.
   exits:
     east:
-      target_vnum: '12749'
+      target_vnum: 010212612749
     south:
-      target_vnum: '12745'
+      target_vnum: '010212612745'
     up:
-      target_vnum: '12750'
+      target_vnum: '010212612750'
     west:
-      target_vnum: '12747'
+      target_vnum: '010212612747'
+  local_id: '12748'
   name: O Salão dos Einherjars
-  vnum: '12748'
+  vnum: 010212612748
 - description: |-
     Você está dentro do grande salão dos festins do Valhala.  Ao seu redor
     você observa algumas cadeiras e mesas, nas paredes você observa lindas
@@ -1943,11 +2262,12 @@
     do palácio Valhala.
   exits:
     south:
-      target_vnum: '12746'
+      target_vnum: '010212612746'
     west:
-      target_vnum: '12748'
+      target_vnum: 010212612748
+  local_id: '12749'
   name: O Salão dos Festins do Valhala
-  vnum: '12749'
+  vnum: 010212612749
 - description: |-
     Você está na parte mais elevada do grande salão dos Einherjars.  Ao seu
     redor você observa uma belo trono e algumas runas.  Deste lugar você possui
@@ -1955,9 +2275,10 @@
     direção do grande salão do palácio Valhala.
   exits:
     down:
-      target_vnum: '12748'
+      target_vnum: 010212612748
+  local_id: '12750'
   name: A Morada do Supremo
-  vnum: '12750'
+  vnum: '010212612750'
 - description: |-
     Você está caminhando por entre belas flores e arbustos dos belos jardins
     do palácio Valhala.  Ao seu redor você observa perfumadas flores azuis e
@@ -1966,11 +2287,14 @@
     sudeste você observa um grande salão dentro do palácio.
   exits:
     east:
-      target_vnum: '12752'
+      target_vnum: '010212612752'
     south:
-      target_vnum: '12740'
+      target_vnum: '010212612740'
+    southeast:
+      target_vnum: 010212612748
+  local_id: '12751'
   name: Os Jardins do Palácio Valhala
-  vnum: '12751'
+  vnum: '010212612751'
 - description: |-
     Você está caminhando por entre belas flores e arbustos dos belos jardins
     do palácio Valhala.  Ao seu redor você observa perfumadas flores azuis e
@@ -1979,11 +2303,14 @@
     sudoeste você observa um grande salão dentro do palácio.
   exits:
     south:
-      target_vnum: '12743'
+      target_vnum: '010212612743'
+    southwest:
+      target_vnum: 010212612748
     west:
-      target_vnum: '12751'
+      target_vnum: '010212612751'
+  local_id: '12752'
   name: Os Jardins do Palácio Valhala
-  vnum: '12752'
+  vnum: '010212612752'
 - description: |-
     Magnífica !  Você está caminhando sobre um imenso mar de neve.  Ao seu
     redor você observa apenas o branco da neve na linha do horizonte.  Ao sul
@@ -1991,11 +2318,12 @@
     um rio de águas congeladas.
   exits:
     east:
-      target_vnum: '12754'
+      target_vnum: '010212612754'
     south:
-      target_vnum: '12732'
+      target_vnum: '010212612732'
+  local_id: '12753'
   name: O Mar de Neve
-  vnum: '12753'
+  vnum: '010212612753'
 - description: |-
     Você está caminhando com muito cuidado sobre a fina superfície do rio de
     águas congeladas de Asgard, qualquer passo-em-falso poderia ser fatal.  Ao
@@ -2006,13 +2334,14 @@
     de neve.
   exits:
     east:
-      target_vnum: '12755'
+      target_vnum: '010212612755'
     south:
-      target_vnum: '12733'
+      target_vnum: '010212612733'
     west:
-      target_vnum: '12753'
+      target_vnum: '010212612753'
+  local_id: '12754'
   name: "As Ã\x81guas Congeladas do Rio de Asgard"
-  vnum: '12754'
+  vnum: '010212612754'
 - description: |-
     Você está caminhando com muito cuidado sobre a fina superfície do rio de
     águas congeladas de Asgard, qualquer passo-em-falso poderia ser fatal.  Ao
@@ -2023,36 +2352,41 @@
     de neve.
   exits:
     east:
-      target_vnum: '12756'
+      target_vnum: '010212612756'
     south:
-      target_vnum: '12737'
+      target_vnum: '010212612737'
     west:
-      target_vnum: '12754'
+      target_vnum: '010212612754'
+  local_id: '12755'
   name: "As Ã\x81guas Congeladas do Rio de Asgard"
-  vnum: '12755'
+  vnum: '010212612755'
 - description: |-
     Magnífica !  Você está caminhando sobre um imenso mar de neve.  Ao seu
     redor você observa apenas o branco da neve na linha do horizonte.  Ao sul
     você observa uma região totalmente coberta de neve, ao oeste você observa
     um rio de águas congeladas e ao nordeste você observa uma bela floresta.
   exits:
+    northwest:
+      target_vnum: 010212612815
     south:
-      target_vnum: '12738'
+      target_vnum: 010212612738
     west:
-      target_vnum: '12755'
+      target_vnum: '010212612755'
+  local_id: '12756'
   name: O Mar de Neve
-  vnum: '12756'
+  vnum: '010212612756'
 - description: |-
     Você está caminhando sobre uma monumental raiz.  Ao seu redor você
     observa algumas nuvens e na gigantesca raiz alguns galhos e folhas enormes.
     Ao norte e ao sul você observa a continuação da magnífica raiz.
   exits:
     north:
-      target_vnum: '12758'
+      target_vnum: 010212612758
     south:
-      target_vnum: '12711'
+      target_vnum: '010212612711'
+  local_id: '12757'
   name: Uma Raiz Monumental
-  vnum: '12757'
+  vnum: '010212612757'
 - description: |-
     Você está caminhando sobre uma monumental raiz.  Ao seu redor você
     observa algumas nuvens e na gigantesca raiz alguns galhos e folhas enormes.
@@ -2060,11 +2394,12 @@
     uma sublime poço em meio a uma planície de gelo.
   exits:
     north:
-      target_vnum: '12759'
+      target_vnum: 010212612759
     south:
-      target_vnum: '12757'
+      target_vnum: '010212612757'
+  local_id: '12758'
   name: Uma Raiz Monumental
-  vnum: '12758'
+  vnum: 010212612758
 - description: |-
     Você está nas maravilhosas terras de Jotunheim, a morada dos gigantes.
     Criados antes dos deuses, os gigantes representam o caos, que foi eliminado
@@ -2074,19 +2409,29 @@
     floresta de Jotunheim e ao sul você observa uma monumental raiz.
   exits:
     north:
-      target_vnum: '12761'
+      target_vnum: '010212612761'
+    northeast:
+      target_vnum: '010212612760'
+    northwest:
+      target_vnum: '010212612762'
     south:
-      target_vnum: '12758'
+      target_vnum: 010212612758
+  local_id: '12759'
   name: Jotunheim, A Morada dos Gigantes
-  vnum: '12759'
+  vnum: 010212612759
 - description: |-
     Você está caminhando por uma imensa clareira cercada pelo belo bosque
     Jotunheim.  Ao seu redor você observa pegadas enormes no chão coberto de
     neve.  Ao nordeste você observa a bela floresta de Jotunheim e ao sudeste
     você observa um belo poço.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: '010212612763'
+    southeast:
+      target_vnum: 010212612759
+  local_id: '12760'
   name: Uma Enorme Clareira
-  vnum: '12760'
+  vnum: '010212612760'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2096,10 +2441,15 @@
     você observa a magnífica floresta de Jotunheim e ao sul você observa o poço
     de Ymir.
   exits:
+    northeast:
+      target_vnum: '010212612763'
+    northwest:
+      target_vnum: '010212612764'
     south:
-      target_vnum: '12759'
+      target_vnum: 010212612759
+  local_id: '12761'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12761'
+  vnum: '010212612761'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2107,9 +2457,14 @@
     imensas crateras.  Ao seu redor belas árvores grandiosas que de tão
     monumentais você não consegue observa seus topos.  Ao noroeste você observa
     a magnífica floresta de Jotunheim e ao sudoeste você observa o poço de Ymir.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010212612764'
+    southwest:
+      target_vnum: 010212612759
+  local_id: '12762'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12762'
+  vnum: '010212612762'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2118,9 +2473,16 @@
     monumentais você não consegue observa seus topos.  Ao noroeste e ao sudeste
     você observa a magnífica floresta de Jotunheim e ao sudoeste você observa
     uma imensa clareira.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010212612765'
+    southeast:
+      target_vnum: '010212612761'
+    southwest:
+      target_vnum: '010212612760'
+  local_id: '12763'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12763'
+  vnum: '010212612763'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2128,9 +2490,16 @@
     imensas crateras.  Ao seu redor belas árvores grandiosas que de tão
     monumentais você não consegue observa seus topos.  Ao nordeste, sudeste e
     sudoeste você observa a magnífica floresta de Jotunheim.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: '010212612767'
+    southeast:
+      target_vnum: '010212612762'
+    southwest:
+      target_vnum: '010212612761'
+  local_id: '12764'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12764'
+  vnum: '010212612764'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2140,11 +2509,14 @@
     você observa a magnífica floresta de Jotunheim.
   exits:
     east:
-      target_vnum: '12766'
+      target_vnum: '010212612766'
     north:
-      target_vnum: '12768'
+      target_vnum: 010212612768
+    southeast:
+      target_vnum: '010212612763'
+  local_id: '12765'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12765'
+  vnum: '010212612765'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2154,13 +2526,14 @@
     você observa a magnífica floresta de Jotunheim.
   exits:
     east:
-      target_vnum: '12767'
+      target_vnum: '010212612767'
     north:
-      target_vnum: '12769'
+      target_vnum: 010212612769
     west:
-      target_vnum: '12765'
+      target_vnum: '010212612765'
+  local_id: '12766'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12766'
+  vnum: '010212612766'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2171,11 +2544,14 @@
     imensa clareira.
   exits:
     north:
-      target_vnum: '12770'
+      target_vnum: '010212612770'
+    southwest:
+      target_vnum: '010212612764'
     west:
-      target_vnum: '12766'
+      target_vnum: '010212612766'
+  local_id: '12767'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12767'
+  vnum: '010212612767'
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2185,13 +2561,14 @@
     você observa a magnífica floresta de Jotunheim.
   exits:
     east:
-      target_vnum: '12769'
+      target_vnum: 010212612769
     north:
-      target_vnum: '12781'
+      target_vnum: 010212612781
     south:
-      target_vnum: '12765'
+      target_vnum: '010212612765'
+  local_id: '12768'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12768'
+  vnum: 010212612768
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2202,15 +2579,16 @@
     clareira e ao norte você observa a cidade de Utgard.
   exits:
     east:
-      target_vnum: '12770'
+      target_vnum: '010212612770'
     north:
-      target_vnum: '12771'
+      target_vnum: '010212612771'
     south:
-      target_vnum: '12766'
+      target_vnum: '010212612766'
     west:
-      target_vnum: '12768'
+      target_vnum: 010212612768
+  local_id: '12769'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12769'
+  vnum: 010212612769
 - description: |-
     Você está caminhando por uma imensa clareira cercada pelo belo bosque
     Jotunheim.  Ao seu redor você observa pegadas enormes no chão coberto de
@@ -2219,13 +2597,14 @@
     Jotunheim.
   exits:
     north:
-      target_vnum: '12782'
+      target_vnum: 010212612782
     south:
-      target_vnum: '12767'
+      target_vnum: '010212612767'
     west:
-      target_vnum: '12769'
+      target_vnum: 010212612769
+  local_id: '12770'
   name: Uma Enorme Clareira
-  vnum: '12770'
+  vnum: '010212612770'
 - description: |-
     Você chegou a cidade de Utgard.  Ao seu redor você observa monstruosos
     gigantes, cabanas monumentais e belas estatuas dos lendários gigantes e do
@@ -2235,11 +2614,12 @@
     e ao sul você observa o belo bosque de Jotunheim.
   exits:
     north:
-      target_vnum: '12773'
+      target_vnum: '010212612773'
     south:
-      target_vnum: '12769'
+      target_vnum: 010212612769
+  local_id: '12771'
   name: Utgard, a Cidade do Senhor das Ilusões
-  vnum: '12771'
+  vnum: '010212612771'
 - description: |-
     Magníficas !  Você está caminhando por entre monumentais estatuas de
     pedra.  Ao seu redor estão presentes todos os lendários gigantes que estas
@@ -2249,11 +2629,12 @@
     praça da cidade.
   exits:
     east:
-      target_vnum: '12773'
+      target_vnum: '010212612773'
     north:
-      target_vnum: '12775'
+      target_vnum: '010212612775'
+  local_id: '12772'
   name: O Pátio das Estatuas Gigantes
-  vnum: '12772'
+  vnum: '010212612772'
 - description: |-
     Você está caminhando pela praça da cidade de Utgard com todo o cuidado e
     atenção do mundo para não ser esmagado por estas criaturas gigantescas.  Ao
@@ -2263,15 +2644,16 @@
     observa a entrada da cidade de Utgard.
   exits:
     east:
-      target_vnum: '12774'
+      target_vnum: '010212612774'
     north:
-      target_vnum: '12776'
+      target_vnum: '010212612776'
     south:
-      target_vnum: '12771'
+      target_vnum: '010212612771'
     west:
-      target_vnum: '12772'
+      target_vnum: '010212612772'
+  local_id: '12773'
   name: A Praça de Utgard
-  vnum: '12773'
+  vnum: '010212612773'
 - description: |-
     Você está dentro de uma gigantesca taverna.  Ao seu redor vários gigantes
     cantam e bebem, enquanto outros caem na gargalhada ao lembrar das outras
@@ -2281,9 +2663,10 @@
     taverna na praça da cidade.
   exits:
     west:
-      target_vnum: '12773'
+      target_vnum: '010212612773'
+  local_id: '12774'
   name: A Taverna de Utgard
-  vnum: '12774'
+  vnum: '010212612774'
 - description: |-
     Você está no pátio das estatuas, caminhando entre belas estatuas dos
     lendários gigantes que já habitaram estas terras.  Ao seu redor você observa
@@ -2291,9 +2674,10 @@
     sul você observa a continuação do pátio das estatuas.
   exits:
     south:
-      target_vnum: '12772'
+      target_vnum: '010212612772'
+  local_id: '12775'
   name: Ymir, a Lenda da Criação
-  vnum: '12775'
+  vnum: '010212612775'
 - description: |-
     Você está caminhando pela perigosa praça de Utgard, qualquer descuido seu
     pode significar sua vida ou uma bela esmagada.  Ao norte você observa um
@@ -2302,13 +2686,14 @@
     tremer.
   exits:
     east:
-      target_vnum: '12777'
+      target_vnum: '010212612777'
     north:
-      target_vnum: '12779'
+      target_vnum: 010212612779
     south:
-      target_vnum: '12773'
+      target_vnum: '010212612773'
+  local_id: '12776'
   name: A Praça de Utgard
-  vnum: '12776'
+  vnum: '010212612776'
 - description: |-
     Você está caminhando entre as árvores e os arbustos do belo bosque de
     Ymir.  O silêncio é total, nem o vento que sopra frio e forte faz as árvores
@@ -2316,9 +2701,10 @@
     árvores.  Ao oeste você observa a praça de Utgard.
   exits:
     west:
-      target_vnum: '12776'
+      target_vnum: '010212612776'
+  local_id: '12777'
   name: O Bosque de Ymir
-  vnum: '12777'
+  vnum: '010212612777'
 - description: |-
     Você está dentro da sala do tesouro de Utgard-Loki.  Este local foi
     mantido em segredo até a sua chegada.  Você sente um mal presságio e olha
@@ -2327,9 +2713,10 @@
     trono de Utgard-Loki.
   exits:
     east:
-      target_vnum: '12779'
+      target_vnum: 010212612779
+  local_id: '12778'
   name: A Sala do Tesouro de Utgard-Loki
-  vnum: '12778'
+  vnum: 010212612778
 - description: |-
     Você está dentro do sublime palácio de Utgard-Loki.  Ao seu redor você
     observa alguns bancos de madeira, algumas estatuas dos gigantes lutando
@@ -2339,13 +2726,14 @@
     agitada praça de Utgard e alguns gigantes conversando.
   exits:
     east:
-      target_vnum: '12780'
+      target_vnum: 010212612780
     south:
-      target_vnum: '12776'
+      target_vnum: '010212612776'
     west:
-      target_vnum: '12778'
+      target_vnum: 010212612778
+  local_id: '12779'
   name: O Palácio de Utgard-Loki
-  vnum: '12779'
+  vnum: 010212612779
 - description: |-
     Você está dentro dos aposentos do rei de Utgard.  Ao seu redor você
     observa uma imensa cama de madeira e alguns bancos e baús de madeira.
@@ -2353,9 +2741,10 @@
     sua altura.  Ao oeste você observa o trono de Utgard-Loki.
   exits:
     west:
-      target_vnum: '12779'
+      target_vnum: 010212612779
+  local_id: '12780'
   name: Os Aposentos de Utgard-Loki
-  vnum: '12780'
+  vnum: 010212612780
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2365,11 +2754,12 @@
     observa a magnífica floresta de Jotunheim.
   exits:
     east:
-      target_vnum: '12782'
+      target_vnum: 010212612782
     south:
-      target_vnum: '12768'
+      target_vnum: 010212612768
+  local_id: '12781'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12781'
+  vnum: 010212612781
 - description: |-
     Você está caminhando por entre gigantescas árvores cobertas de neve e
     gelo.  A dificuldade de seguir pelas trilhas que se abrem entre as árvores
@@ -2379,11 +2769,12 @@
     magnífica floresta de Jotunheim e ao sul você percebe uma imensa clareira.
   exits:
     south:
-      target_vnum: '12770'
+      target_vnum: '010212612770'
     west:
-      target_vnum: '12781'
+      target_vnum: 010212612781
+  local_id: '12782'
   name: A Monumental Floresta de Jotunheim
-  vnum: '12782'
+  vnum: 010212612782
 - description: |-
     Incrível !  Você está escalando uma monumental raiz.  Ao seu redor você
     observa as paredes negras e sombrias de um abismo.  Descendo em direção de
@@ -2391,22 +2782,24 @@
     você observa também a continuação da imensa raiz.
   exits:
     down:
-      target_vnum: '12784'
+      target_vnum: 010212612784
     up:
-      target_vnum: '12712'
+      target_vnum: '010212612712'
+  local_id: '12783'
   name: Uma Raiz Monumental
-  vnum: '12783'
+  vnum: 010212612783
 - description: |-
     Incrível !  Você está escalando uma monumental raiz.  Ao seu redor você
     observa as paredes negras e sombrias de um abismo.  Para cima você observa a
     continuação da gigantesca raiz e ao norte você observa uma sombria fonte.
   exits:
     north:
-      target_vnum: '12785'
+      target_vnum: 010212612785
     up:
-      target_vnum: '12783'
+      target_vnum: 010212612783
+  local_id: '12784'
   name: Uma Raiz Monumental
-  vnum: '12784'
+  vnum: 010212612784
 - description: |-
     A escuridão toma conta de seus olhos e sua mente se enche de terror.  Ao
     seu redor paisagens horríveis e sombrias.  As trevas e o frio reinam
@@ -2417,11 +2810,12 @@
     observa uma raiz monumental sendo corroída pela Anidhogge.
   exits:
     north:
-      target_vnum: '12787'
+      target_vnum: 010212612787
     south:
-      target_vnum: '12784'
+      target_vnum: 010212612784
+  local_id: '12785'
   name: Niffleheim, a Terra das Trevas e do Frio
-  vnum: '12785'
+  vnum: 010212612785
 - description: |-
     Você está caminhando pelas escuras terras de Niffleheim.  Fortes ventos
     frios sopram na sua direção.  Ao seu redor imagens de guerreiros mortos e
@@ -2429,9 +2823,10 @@
     Ao leste você observa as trevas e os seus moradores.
   exits:
     east:
-      target_vnum: '12787'
+      target_vnum: 010212612787
+  local_id: '12786'
   name: As Trevas de Niffleheim
-  vnum: '12786'
+  vnum: 010212612786
 - description: |-
     Você está caminhando nas assustadoras terras de Niffleheim.  Ao seu redor
     você observa alguns guerreiros recém chegados as trevas de Niffleheim, em
@@ -2441,15 +2836,16 @@
     e ao sul você observa uma fonte escura.
   exits:
     east:
-      target_vnum: '12788'
+      target_vnum: 010212612788
     north:
-      target_vnum: '12789'
+      target_vnum: 010212612789
     south:
-      target_vnum: '12785'
+      target_vnum: 010212612785
     west:
-      target_vnum: '12786'
+      target_vnum: 010212612786
+  local_id: '12787'
   name: As Trevas de Niffleheim
-  vnum: '12787'
+  vnum: 010212612787
 - description: |-
     Você está caminhando pelas escuras terras de Niffleheim.  Fortes ventos
     frios sopram na sua direção.  Ao seu redor imagens de guerreiros mortos e
@@ -2458,11 +2854,12 @@
     observa a entrada de uma câmara subterrânea.
   exits:
     down:
-      target_vnum: '12825'
+      target_vnum: 010212612825
     west:
-      target_vnum: '12787'
+      target_vnum: 010212612787
+  local_id: '12788'
   name: As Trevas de Niffleheim
-  vnum: '12788'
+  vnum: 010212612788
 - description: |-
     Você está dentro do palácio de Hela, lugar repleto de mortos.  Cada
     detalhe deste palácio lembra as trevas e a morte.  Ao seu redor você observa
@@ -2476,11 +2873,16 @@
     observa a floresta de morta de Niffleheim.
   exits:
     north:
-      target_vnum: '12791'
+      target_vnum: 010212612791
+    northeast:
+      target_vnum: 010212612790
+    northwest:
+      target_vnum: 010212612792
     south:
-      target_vnum: '12787'
+      target_vnum: 010212612787
+  local_id: '12789'
   name: Elvinder, o Palácio de Hela
-  vnum: '12789'
+  vnum: 010212612789
 - description: |-
     Você está caminhando aterrorizado pela floresta da escuridão.  Ao seu
     redor troncos negros e arbustos mortos.  A floresta está totalmente morta.
@@ -2489,11 +2891,14 @@
     Niffleheim e ao sudeste você observa a entrada do palácio Elvinder.
   exits:
     east:
-      target_vnum: '12792'
+      target_vnum: 010212612792
     north:
-      target_vnum: '12796'
+      target_vnum: 010212612796
+    southeast:
+      target_vnum: 010212612789
+  local_id: '12790'
   name: A Floresta da Escuridão
-  vnum: '12790'
+  vnum: 010212612790
 - description: |-
     Você está dentro do palácio Elvinder.  Ao seu redor você observa vários
     corpos pelo chão em decomposição e algumas lamas perdidas em pânico.  Vindos
@@ -2502,11 +2907,12 @@
     ao sul você observa a entrada do palácio.
   exits:
     north:
-      target_vnum: '12794'
+      target_vnum: 010212612794
     south:
-      target_vnum: '12789'
+      target_vnum: 010212612789
+  local_id: '12791'
   name: O Salão dos Mortos
-  vnum: '12791'
+  vnum: 010212612791
 - description: |-
     Você está caminhando aterrorizado pela floresta da escuridão.  Ao seu
     redor troncos negros e arbustos mortos.  A floresta está totalmente morta.
@@ -2515,11 +2921,14 @@
     Niffleheim e ao sudoeste você observa a entrada do palácio Elvinder.
   exits:
     north:
-      target_vnum: '12798'
+      target_vnum: 010212612798
+    southwest:
+      target_vnum: 010212612789
     west:
-      target_vnum: '12790'
+      target_vnum: 010212612790
+  local_id: '12792'
   name: A Floresta da Escuridão
-  vnum: '12792'
+  vnum: 010212612792
 - description: |-
     Você está dentro de um salão escuro.  Ao seu redor você observa dez
     tumbas e em cada uma delas você observa o nome de um dos deuses que moram em
@@ -2529,9 +2938,10 @@
     Elvinder.
   exits:
     east:
-      target_vnum: '12794'
+      target_vnum: 010212612794
+  local_id: '12793'
   name: A Morte
-  vnum: '12793'
+  vnum: 010212612793
 - description: |-
     Você está dentro do temido salão dos mortos do Elvinder, a fortaleza de
     Hela.  A cada passo na direção norte, você percebe que o salão fica mais
@@ -2542,15 +2952,16 @@
     observa uma sala escura e ao sul você observa o salão dos mortos.
   exits:
     east:
-      target_vnum: '12795'
+      target_vnum: 010212612795
     north:
-      target_vnum: '12797'
+      target_vnum: 010212612797
     south:
-      target_vnum: '12791'
+      target_vnum: 010212612791
     west:
-      target_vnum: '12793'
+      target_vnum: 010212612793
+  local_id: '12794'
   name: O Salão dos Mortos e das Trevas
-  vnum: '12794'
+  vnum: 010212612794
 - description: |-
     Você está dentro de uma cúpula negra.  O silêncio e a escuridão lhe deixa
     atento e assustado com qualquer som estranho.  Ao seu redor você observa
@@ -2559,9 +2970,10 @@
     Elvinder.
   exits:
     west:
-      target_vnum: '12794'
+      target_vnum: 010212612794
+  local_id: '12795'
   name: A Cúpula Negra de Balder
-  vnum: '12795'
+  vnum: 010212612795
 - description: |-
     Você está caminhando aterrorizado pela floresta da escuridão.  Ao seu
     redor troncos negros e arbustos mortos.  A floresta está totalmente morta.
@@ -2570,11 +2982,14 @@
     Niffleheim e ao nordeste você observa a cidadela de Hel.
   exits:
     east:
-      target_vnum: '12798'
+      target_vnum: 010212612798
+    northwest:
+      target_vnum: 010212612799
     south:
-      target_vnum: '12790'
+      target_vnum: 010212612790
+  local_id: '12796'
   name: A Floresta da Escuridão
-  vnum: '12796'
+  vnum: 010212612796
 - description: |-
     Você está dentro do palácio Elvinder.  Ao seu redor você observa vários
     corpos em decomposição e almas perdidas em pânico.  A sua frente você
@@ -2583,11 +2998,12 @@
     Hel.
   exits:
     north:
-      target_vnum: '12799'
+      target_vnum: 010212612799
     south:
-      target_vnum: '12794'
+      target_vnum: 010212612794
+  local_id: '12797'
   name: O Trono das Trevas
-  vnum: '12797'
+  vnum: 010212612797
 - description: |-
     Você está caminhando aterrorizado pela floresta da escuridão.  Ao seu
     redor troncos negros e arbustos mortos.  A floresta está totalmente morta.
@@ -2595,12 +3011,15 @@
     sopram em sua direção.  Ao sul e ao oeste você observa a floresta de
     Niffleheim e ao noroeste você observa a cidadela de Hel.
   exits:
+    northeast:
+      target_vnum: 010212612799
     south:
-      target_vnum: '12792'
+      target_vnum: 010212612792
     west:
-      target_vnum: '12796'
+      target_vnum: 010212612796
+  local_id: '12798'
   name: A Floresta da Escuridão
-  vnum: '12798'
+  vnum: 010212612798
 - description: |-
     Você está na cidadela de Hel, o reino dos mortos.  Os mortos em geral vão
     para Niffleheim, mas os maus vão direto para a cidadela de Hel e ficam aqui
@@ -2609,8 +3028,9 @@
     ...bem vindo a cidadela de Hel, sua estadia será eterna.
     ...Você está morto !
   exits: {}
+  local_id: '12799'
   name: A Cidadela de Hel
-  vnum: '12799'
+  vnum: 010212612799
 - description: |-
     Você está caminhando sobre uma bela e tranqüila planície coberta de neve
     das sagradas terras de Asgard.  Ao olhar para o céu nórdico você observa um
@@ -2620,11 +3040,16 @@
     observa o bosque de Asgard.
   exits:
     east:
-      target_vnum: '12804'
+      target_vnum: 010212612804
+    northwest:
+      target_vnum: 010212612801
+    southeast:
+      target_vnum: 010212612803
     west:
-      target_vnum: '12730'
+      target_vnum: '010212612730'
+  local_id: '12800'
   name: A Planície de Vigrid
-  vnum: '12800'
+  vnum: 010212612800
 - description: |-
     Você está caminhando sobre uma bela e tranqüila planície coberta de neve
     das sagradas terras de Asgard.  Ao olhar para o céu nórdico você observa um
@@ -2632,10 +3057,15 @@
     gelada.  Ao nordeste e ao noroeste você observa a planície de Vigrid e ao
     sul você observa as águas do grande lago Amsvartnir.
   exits:
+    northeast:
+      target_vnum: 010212612800
+    northwest:
+      target_vnum: 010212612802
     south:
-      target_vnum: '12804'
+      target_vnum: 010212612804
+  local_id: '12801'
   name: A Planície de Vigrid
-  vnum: '12801'
+  vnum: 010212612801
 - description: |-
     Você está caminhando sobre uma bela e tranqüila planície coberta de neve
     das sagradas terras de Asgard.  Ao olhar para o céu nórdico você observa um
@@ -2645,10 +3075,19 @@
     observa um belo palácio de ouro e prata e ao sudeste você observa um palácio
     de cristal.
   exits:
+    northeast:
+      target_vnum: 010212612803
+    northwest:
+      target_vnum: 010212612806
+    southeast:
+      target_vnum: 010212612807
+    southwest:
+      target_vnum: 010212612801
     west:
-      target_vnum: '12804'
+      target_vnum: 010212612804
+  local_id: '12802'
   name: A Planície de Vigrid
-  vnum: '12802'
+  vnum: 010212612802
 - description: |-
     Você está caminhando sobre uma bela e tranqüila planície coberta de neve
     das sagradas terras de Asgard.  Ao olhar para o céu nórdico você observa um
@@ -2657,9 +3096,14 @@
     você observa as águas do grande lago Amsvartnir.
   exits:
     south:
-      target_vnum: '12804'
+      target_vnum: 010212612804
+    southeast:
+      target_vnum: 010212612802
+    southwest:
+      target_vnum: 010212612800
+  local_id: '12803'
   name: A Planície de Vigrid
-  vnum: '12803'
+  vnum: 010212612803
 - description: |-
     Você está nadando nas perfumadas e tranqüilas águas do lago Amsvartnir.
     Uma sensação de vitalidade e calma toma conta do seu corpo.  Ao seu redor
@@ -2668,17 +3112,18 @@
     planície de Vigrid e rumo ao centro do lago você observa uma pequena ilha.
   exits:
     east:
-      target_vnum: '12802'
+      target_vnum: 010212612802
     north:
-      target_vnum: '12803'
+      target_vnum: 010212612803
     south:
-      target_vnum: '12801'
+      target_vnum: 010212612801
     up:
-      target_vnum: '12805'
+      target_vnum: 010212612805
     west:
-      target_vnum: '12800'
+      target_vnum: 010212612800
+  local_id: '12804'
   name: "As Ã\x81guas do Lago Amsvartnir"
-  vnum: '12804'
+  vnum: 010212612804
 - description: |-
     Você está caminhando sobre as terras da pequena ilha de Lyngvi.  Ao seu
     redor você observa várias pegadas enormes de alguma criatura estranha.  A
@@ -2686,26 +3131,33 @@
     Para baixo você observa as águas do lago Amsvartnir.
   exits:
     down:
-      target_vnum: '12804'
+      target_vnum: 010212612804
+  local_id: '12805'
   name: A Pequena Ilha de Lyngvi
-  vnum: '12805'
+  vnum: 010212612805
 - description: |-
     Você está dentro do magnífico palácio de ouro e prata do poderoso senhor
     dos trovões, filho mais velho de Odin e o ser mais forte entre os deuses e
     os homens.  Ao seu redor você observa móveis belíssimos feitos pelas mãos
     habilidosas dos anões que vivem nas câmaras subterrâneas de Niffelheim.  Ao
     sudoeste você observa a calma planície de Vigrid.
-  exits: {}
+  exits:
+    southwest:
+      target_vnum: 010212612802
+  local_id: '12806'
   name: O Belo Palácio Bilskirnir
-  vnum: '12806'
+  vnum: 010212612806
 - description: |-
     Você está dentro do majestoso palácio Brudablik.  Todo feito de cristal,
     o palácio pertence ao Deus Balder, o bom.  Ao seu redor você observa móveis
     belíssimos feitos de cristais de várias cores.  Ao nordeste você observa a
     planície de Vigrid.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010212612802
+  local_id: '12807'
   name: O Palácio Brudablik
-  vnum: '12807'
+  vnum: 010212612807
 - description: |-
     Você está caminhando sobre uma bela planície coberta de neve.  Ao seu
     redor você observa vários Einherjars sorrindo e com uma expressão nos seus
@@ -2714,11 +3166,16 @@
     você observa um belo santuário.
   exits:
     east:
-      target_vnum: '12729'
+      target_vnum: 010212612729
+    northeast:
+      target_vnum: 010212612811
+    southwest:
+      target_vnum: 010212612809
     west:
-      target_vnum: '12812'
+      target_vnum: 010212612812
+  local_id: '12808'
   name: A Planície de Ida
-  vnum: '12808'
+  vnum: 010212612808
 - description: |-
     Você está caminhando pelas terras da magnífica planície de Ida, dentro
     das sagradas terras de Asgard.  A neve continua caindo impiedosamente,
@@ -2726,9 +3183,14 @@
     e ao nordeste e noroeste você observa as terras da planície de Ida.
   exits:
     north:
-      target_vnum: '12812'
+      target_vnum: 010212612812
+    northeast:
+      target_vnum: 010212612810
+    northwest:
+      target_vnum: 010212612808
+  local_id: '12809'
   name: A Planície de Ida
-  vnum: '12809'
+  vnum: 010212612809
 - description: |-
     Você está caminhando sobre uma bela planície coberta de neve.  Ao seu
     redor você observa vários Einherjars sorrindo e com uma expressão nos seus
@@ -2736,9 +3198,14 @@
     planície de Ida e ao leste você observa um belo santuário.
   exits:
     east:
-      target_vnum: '12812'
+      target_vnum: 010212612812
+    northwest:
+      target_vnum: 010212612811
+    southeast:
+      target_vnum: 010212612809
+  local_id: '12810'
   name: A Planície de Ida
-  vnum: '12810'
+  vnum: 010212612810
 - description: |-
     Você está caminhando pelas terras da magnífica planície de Ida, dentro
     das sagradas terras de Asgard.  A neve continua caindo impiedosamente,
@@ -2747,11 +3214,16 @@
     as terras da planície de Ida.
   exits:
     north:
-      target_vnum: '12813'
+      target_vnum: 010212612813
     south:
-      target_vnum: '12812'
+      target_vnum: 010212612812
+    southeast:
+      target_vnum: 010212612808
+    southwest:
+      target_vnum: 010212612810
+  local_id: '12811'
   name: A Planície de Ida
-  vnum: '12811'
+  vnum: 010212612811
 - description: |-
     Você está no santuário da alegria, lugar onde os heróis e deuses de
     Asgard visitam trazendo e semeando a alegria.  Ao seu redor você observa
@@ -2760,15 +3232,16 @@
     observa as terras feéricas da planície de Ida.
   exits:
     east:
-      target_vnum: '12808'
+      target_vnum: 010212612808
     north:
-      target_vnum: '12811'
+      target_vnum: 010212612811
     south:
-      target_vnum: '12809'
+      target_vnum: 010212612809
     west:
-      target_vnum: '12810'
+      target_vnum: 010212612810
+  local_id: '12812'
   name: Gladsheim, O Santuário da Alegria
-  vnum: '12812'
+  vnum: 010212612812
 - description: |-
     Você está dentro de um belo palácio de prata todo ornamentado de flores
     de todas as cores e perfumes.  O palácio Sessrumir pertence a Fréia, deusa
@@ -2776,9 +3249,10 @@
     belíssimas terras cobertas de neve da planície de Ida.
   exits:
     south:
-      target_vnum: '12811'
+      target_vnum: 010212612811
+  local_id: '12813'
   name: Sessrumir, o Palácio das Flores
-  vnum: '12813'
+  vnum: 010212612813
 - description: |-
     Você está dentro do magnífico palácio todo feito em ouro do deus guardião
     Heindall.  Ao seu redor você observa os belos móveis dourados feitos pelas
@@ -2787,9 +3261,10 @@
     seus visitantes.  Para baixo você observa um belo arco-íris.
   exits:
     down:
-      target_vnum: '12714'
+      target_vnum: '010212612714'
+  local_id: '12814'
   name: Himinbjorg, o Penhasco do Céu
-  vnum: '12814'
+  vnum: 010212612814
 - description: |-
     Você está na floresta dourada de Alfheim.  Por alguns momentos a neve que
     caia sem parar, deu uma trégua.  Os raios solares ao atingirem as belas
@@ -2799,19 +3274,27 @@
     observa uma planície coberta de neve.
   exits:
     east:
-      target_vnum: '12816'
+      target_vnum: 010212612816
+    southwest:
+      target_vnum: '010212612756'
+  local_id: '12815'
   name: Alfheim, o Domínio de Freyr
-  vnum: '12815'
+  vnum: 010212612815
 - description: |-
     Você está caminhando entre as belas árvores da floresta de Alfheim.  Ao
     seu redor você observa que a neve não chegou aqui.  Ao olhar para o chão
     você percebe pegadas de alguma pequena criatura.  Ao nordeste, sudeste e ao
     oeste você observa as árvores da floresta dourada de Alfheim.
   exits:
+    northwest:
+      target_vnum: 010212612817
+    southeast:
+      target_vnum: 010212612819
     west:
-      target_vnum: '12815'
+      target_vnum: 010212612815
+  local_id: '12816'
   name: A Floresta Dourada de Alfheim
-  vnum: '12816'
+  vnum: 010212612816
 - description: |-
     Você está caminhando por entre as belas árvores da floresta de Alfheim,
     morada dos espíritos brancos e domínio do Deus Freyr, o deus do sol.  Ao seu
@@ -2820,9 +3303,12 @@
     leste e ao sudoeste você observa trilhas na floresta de Alfheim.
   exits:
     east:
-      target_vnum: '12818'
+      target_vnum: 010212612818
+    southwest:
+      target_vnum: 010212612816
+  local_id: '12817'
   name: A Floresta Dourada de Alfheim
-  vnum: '12817'
+  vnum: 010212612817
 - description: |-
     Você está caminhando entre as belas árvores da floresta de Alfheim.  Ao
     seu redor você observa que a neve não chegou aqui.  Ao olhar para o chão
@@ -2830,18 +3316,26 @@
     árvores da floresta dourada de Alfheim.
   exits:
     west:
-      target_vnum: '12817'
+      target_vnum: 010212612817
+  local_id: '12818'
   name: A Floresta Dourada de Aflheim
-  vnum: '12818'
+  vnum: 010212612818
 - description: |-
     Você está caminhando pelas trilhas da majestosa floresta dourada de
     Alfheim.  Ao seu redor você observa belas árvores e ao olhar para o chão
     você percebe algumas pequeninas pegadas de alguma criatura da floresta.  Ao
     nordeste, sudeste e noroeste você observa trilhas por entre as árvores da
     floresta dourada de Alfheim.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010212612816
+    northwest:
+      target_vnum: 010212612820
+    southeast:
+      target_vnum: 010212612823
+  local_id: '12819'
   name: A Floresta Dourada de Alfheim
-  vnum: '12819'
+  vnum: 010212612819
 - description: |-
     Você está caminhando por entre as belas árvores da floresta de Alfheim,
     morada dos espíritos brancos e domínio do Deus Freyr, o deus do sol.  Ao seu
@@ -2850,9 +3344,12 @@
     sul e ao sudoeste você observa trilhas na floresta de Alfheim.
   exits:
     south:
-      target_vnum: '12821'
+      target_vnum: 010212612821
+    southwest:
+      target_vnum: 010212612819
+  local_id: '12820'
   name: A Floresta Dourada de Alfheim
-  vnum: '12820'
+  vnum: 010212612820
 - description: |-
     Você está caminhando na floresta dourada de Alfheim.  Ao seu redor você
     observa as monumentais árvores douradas e uma enorme bola de fogo.  O sol
@@ -2863,34 +3360,48 @@
     trilha na divina floresta de Alfheim.
   exits:
     north:
-      target_vnum: '12820'
+      target_vnum: 010212612820
+  local_id: '12821'
   name: O Sol, o Coração de Alfheim
-  vnum: '12821'
+  vnum: 010212612821
 - description: |-
     Você está caminhando entre as belas árvores da floresta de Alfheim.  Ao
     seu redor você observa que a neve não chegou aqui.  Ao olhar para o chão
     você percebe pegadas de alguma pequena criatura.  Ao sudoeste você observa
     as árvores da floresta dourada de Alfheim.
-  exits: {}
+  exits:
+    southwest:
+      target_vnum: 010212612823
+  local_id: '12822'
   name: A Floresta Dourada de Aflheim
-  vnum: '12822'
+  vnum: 010212612822
 - description: |-
     Você está caminhando entre as belas árvores da floresta de Alfheim.  Ao
     seu redor você observa que a neve não chegou aqui.  Ao olhar para o chão
     você percebe pegadas de alguma pequena criatura.  Ao nordeste, sudeste e ao
     noroeste você observa as árvores da floresta dourada de Alfheim.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010212612819
+    northwest:
+      target_vnum: 010212612822
+    southeast:
+      target_vnum: 010212612824
+  local_id: '12823'
   name: A Floresta Dourada de Aflheim
-  vnum: '12823'
+  vnum: 010212612823
 - description: |-
     Você está caminhando por entre as belas árvores da floresta de Alfheim,
     morada dos espíritos brancos e domínio do Deus Freyr, o deus do sol.  Ao seu
     redor a majestosa floresta emite das suas árvores um brilho intenso e
     celestial, que atinge seus olhos, deixando você cego por algum tempo.  Ao
     noroeste você observa trilhas na floresta de Alfheim.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010212612823
+  local_id: '12824'
   name: A Floresta Dourada de Alfheim
-  vnum: '12824'
+  vnum: 010212612824
 - description: |-
     Você está caminhando com bastante dificuldade dentro de uma câmara
     subterrânea de Niffleheim.  A escuridão é quase que total, as paredes são
@@ -2899,11 +3410,12 @@
     oeste você observa um corredor bastante escuro.
   exits:
     east:
-      target_vnum: '12826'
+      target_vnum: 010212612826
     up:
-      target_vnum: '12788'
+      target_vnum: 010212612788
+  local_id: '12825'
   name: Uma Câmara Subterrânea
-  vnum: '12825'
+  vnum: 010212612825
 - description: |-
     Você está caminhando dentro da câmara subterrânea num corredor bastante
     escuro e sujo.  Ao seu redor você observa as lisas paredes da câmara e ao
@@ -2912,11 +3424,12 @@
     oeste você observa a saída.
   exits:
     east:
-      target_vnum: '12827'
+      target_vnum: 010212612827
     west:
-      target_vnum: '12825'
+      target_vnum: 010212612825
+  local_id: '12826'
   name: Um Corredor Escuro
-  vnum: '12826'
+  vnum: 010212612826
 - description: |-
     Você está caminhando dentro da câmara subterrânea num corredor bastante
     escuro e sujo.  Ao seu redor você observa as lisas paredes da câmara e ao
@@ -2926,11 +3439,12 @@
     paredes.
   exits:
     down:
-      target_vnum: '12828'
+      target_vnum: 010212612828
     west:
-      target_vnum: '12826'
+      target_vnum: 010212612826
+  local_id: '12827'
   name: Um Corredor Escuro
-  vnum: '12827'
+  vnum: 010212612827
 - description: |-
     Oooh!  Que sujeira!  Que odor terrível!  Você chegou num grande pátio
     completamente sujo.  Ao seu redor algumas tochas nas paredes dão um pouco de
@@ -2940,13 +3454,14 @@
     e ao leste você observa estreitos corredores.
   exits:
     down:
-      target_vnum: '12833'
+      target_vnum: 010212612833
     east:
-      target_vnum: '12829'
+      target_vnum: 010212612829
     up:
-      target_vnum: '12827'
+      target_vnum: 010212612827
+  local_id: '12828'
   name: O Pátio da Escuridão
-  vnum: '12828'
+  vnum: 010212612828
 - description: |-
     Você está caminhando dentro da câmara subterrânea num corredor bastante
     escuro e sujo.  Ao seu redor você observa as lisas paredes da câmara e ao
@@ -2955,11 +3470,12 @@
     você observa o final do corredor.
   exits:
     east:
-      target_vnum: '12830'
+      target_vnum: 010212612830
     west:
-      target_vnum: '12828'
+      target_vnum: 010212612828
+  local_id: '12829'
   name: Um Corredor Escuro
-  vnum: '12829'
+  vnum: 010212612829
 - description: |-
     Você chegou ao final do corredor escuro e bastante sujo.  Ao seu redor
     você observa algumas ferramentas de ferreiros sujas no chão e uma grande
@@ -2967,9 +3483,10 @@
     oeste você observa um corredor escuro.
   exits:
     west:
-      target_vnum: '12829'
+      target_vnum: 010212612829
+  local_id: '12830'
   name: O Fim do Corredor Escuro
-  vnum: '12830'
+  vnum: 010212612830
 - description: |-
     Você chegou num espaço mais amplo que os corredores, porém bastante sujo
     e escuro.  Ao seu redor você observa um pátio cheio de lama e com as paredes
@@ -2978,11 +3495,12 @@
     você observa um corredor bastante escuro.
   exits:
     down:
-      target_vnum: '12834'
+      target_vnum: 010212612834
     east:
-      target_vnum: '12832'
+      target_vnum: 010212612832
+  local_id: '12831'
   name: O Pátio da Podridão
-  vnum: '12831'
+  vnum: 010212612831
 - description: |-
     Você está caminhando dentro da câmara subterrânea num corredor bastante
     escuro e sujo.  Ao seu redor você observa as lisas paredes da câmara e ao
@@ -2991,11 +3509,12 @@
     e bastante sujo.
   exits:
     east:
-      target_vnum: '12833'
+      target_vnum: 010212612833
     west:
-      target_vnum: '12831'
+      target_vnum: 010212612831
+  local_id: '12832'
   name: Um Corredor Escuro
-  vnum: '12832'
+  vnum: 010212612832
 - description: |-
     Você está caminhando dentro da câmara subterrânea num corredor bastante
     escuro e sujo.  Ao seu redor você observa as lisas paredes da câmara e ao
@@ -3004,11 +3523,12 @@
     algumas tochas nas paredes.
   exits:
     up:
-      target_vnum: '12828'
+      target_vnum: 010212612828
     west:
-      target_vnum: '12832'
+      target_vnum: 010212612832
+  local_id: '12833'
   name: Um Corredor Escuro
-  vnum: '12833'
+  vnum: 010212612833
 - description: |-
     Você está dentro de uma profunda câmara subterrânea das trevas de
     Niffleheim.  A iluminação neste lugar é mínima e se não fosse pelo seu
@@ -3016,11 +3536,12 @@
     assustador e para cima você observa um pátio bastante sujo.
   exits:
     east:
-      target_vnum: '12835'
+      target_vnum: 010212612835
     up:
-      target_vnum: '12831'
+      target_vnum: 010212612831
+  local_id: '12834'
   name: Nas Profundezas de Niffleheim
-  vnum: '12834'
+  vnum: 010212612834
 - description: |-
     Você está caminhando dentro da câmara subterrânea num corredor bastante
     escuro e sujo.  Ao seu redor você observa as lisas paredes da câmara e ao
@@ -3028,11 +3549,12 @@
     oeste você observa um corredor bastante escuro.
   exits:
     east:
-      target_vnum: '12836'
+      target_vnum: 010212612836
     west:
-      target_vnum: '12834'
+      target_vnum: 010212612834
+  local_id: '12835'
   name: Um Corredor Escuro
-  vnum: '12835'
+  vnum: 010212612835
 - description: |-
     Você está caminhando dentro da câmara subterrânea num corredor bastante
     escuro e sujo.  Ao seu redor você observa as lisas paredes da câmara e ao
@@ -3041,11 +3563,12 @@
     buraco.
   exits:
     down:
-      target_vnum: '12837'
+      target_vnum: 010212612837
     west:
-      target_vnum: '12835'
+      target_vnum: 010212612835
+  local_id: '12836'
   name: Um Corredor Escuro
-  vnum: '12836'
+  vnum: 010212612836
 - description: |-
     Você está dentro de uma câmara subterrânea das trevas de Niffleheim.  Ao
     seu redor você observa alguns ossos da última refeição dos moradores desta
@@ -3053,8 +3576,9 @@
     ferro e madeira.  O odor aqui é insuportável.  Você olha para todos os lados
     ,mas não encontra uma saída deste local.
   exits: {}
+  local_id: '12837'
   name: A Depressão das Trevas
-  vnum: '12837'
+  vnum: 010212612837
 - description: |-
     Você está navegando pelas gélidas e temidas águas do oceano Atlântico
     Norte.  Ao seu redor além da proa da sua embarcação, você observa ansioso a
@@ -3063,28 +3587,41 @@
     ao sudeste você observa as águas do oceano Atlântico.
   exits:
     north:
-      target_vnum: '12839'
-  name: "As Frias Ã\x81guas do Oceano AtlÃ¢ntico Norte"
-  vnum: '12838'
+      target_vnum: 010212612839
+    southeast:
+      target_vnum: '010212612601'
+  local_id: '12838'
+  name: "As Frias Ã\x81guas do Oceano Atlântico Norte"
+  vnum: 010212612838
 - description: |-
     Você está navegando pelas águas frias do oceano Atlântico Norte.  Em cada
     porto, em cada nova cidade que você chega as lendas sobre este imenso oceano
     fazem sua imaginação saltitar.  Ao nordeste, noroeste e ao sul você observa
     as águas do oceano Atlântico Norte.
   exits:
+    northeast:
+      target_vnum: 010212612840
+    northwest:
+      target_vnum: 010212612880
     south:
-      target_vnum: '12838'
-  name: "As Ã\x81guas do Oceano AtlÃ¢ntico Norte"
-  vnum: '12839'
+      target_vnum: 010212612838
+  local_id: '12839'
+  name: "As Ã\x81guas do Oceano Atlântico Norte"
+  vnum: 010212612839
 - description: |-
     Você está navegando pelas temidas e lendárias águas gélidas do oceano
     Atlântico Norte.  Ao seu redor você observa apenas a imensidão do oceano e
     a vela da sua embarcação tremulando por causa dos ventos frios, que lhe
     causam arrepios.  Ao noroeste e ao sudeste você observa as águas do oceano
     Atlântico Norte.
-  exits: {}
-  name: "As Ã\x81guas do Oceano AtlÃ¢ntico Norte"
-  vnum: '12840'
+  exits:
+    northeast:
+      target_vnum: 010212612841
+    southeast:
+      target_vnum: 010212612839
+  local_id: '12840'
+  name: "As Ã\x81guas do Oceano Atlântico Norte"
+  vnum: 010212612840
 - description: |-
     Você está navegando pelas gélidas e desérticas águas do oceano Atlântico
     Norte.  Ao seu redor além das frias águas do oceano Atlântico Norte e dos
@@ -3093,9 +3630,12 @@
     percebe a existência de uma magnífica ilha de gelo.
   exits:
     north:
-      target_vnum: '12842'
-  name: "As Ã\x81guas do Oceano AtlÃ¢ntico Norte"
-  vnum: '12841'
+      target_vnum: 010212612842
+    southeast:
+      target_vnum: 010212612840
+  local_id: '12841'
+  name: "As Ã\x81guas do Oceano Atlântico Norte"
+  vnum: 010212612841
 - description: |-
     Você encontrou a magnífica terra do gelo, a Islândia.  Ao seu redor você
     observa grandes calotas de gelo, contrastando com as erupções ferventes dos
@@ -3108,11 +3648,12 @@
     de gelo.
   exits:
     north:
-      target_vnum: '12843'
+      target_vnum: 010212612843
     south:
-      target_vnum: '12841'
+      target_vnum: 010212612841
+  local_id: '12842'
   name: Islândia, a Terra do Gelo
-  vnum: '12842'
+  vnum: 010212612842
 - description: |-
     Você está caminhando com muita dificuldade sob o gelo e a neve que cai
     constantemente.  Ao seu redor você observa uma paisagem desértica, porém
@@ -3120,29 +3661,42 @@
     vulcões ao noroeste e sente alguns tremores de terra.  Ao sul, noroeste e ao
     nordeste você observa uma grande calota de gelo.
   exits:
+    northeast:
+      target_vnum: 010212612844
+    northwest:
+      target_vnum: 010212612845
     south:
-      target_vnum: '12842'
+      target_vnum: 010212612842
+  local_id: '12843'
   name: Uma Monumental Calota de Gelo
-  vnum: '12843'
+  vnum: 010212612843
 - description: |-
     Você está caminhando sob uma magnífica calota de gelo.  Ao seu redor o
     gelo e a neve reinam como supremos, os ventos gélidos atingem você como
     flechas e os tremores de terra não cessam.  Ao oeste e ao sudeste você
     observa a extensa calota de gelo.
   exits:
+    southeast:
+      target_vnum: 010212612843
     west:
-      target_vnum: '12846'
+      target_vnum: 010212612846
+  local_id: '12844'
   name: Uma Monumental Calota de Gelo
-  vnum: '12844'
+  vnum: 010212612844
 - description: |-
     Você está caminhando sob uma magnífica e desértica calota de gelo nas
     belíssimas terras da Islândia.  Ao seu redor você observa uma imensa calota
     de gelo e ao olhar para o solo coberto de gelo e neve você percebe algumas
     pegadas semelhantes a de seres humanos.  Ao nordeste você observa um campo
     de vegetação rasteira e ao sudoeste você observa a extensa calota de gelo.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 010212612883
+    southwest:
+      target_vnum: 010212612843
+  local_id: '12845'
   name: Uma Monumental Calota de Gelo
-  vnum: '12845'
+  vnum: 010212612845
 - description: |-
     Você está caminhando sob as monumentais calotas de gelo das incríveis
     terras da Islandesas.  Ao seu redor você observa uma grande calota de gelo
@@ -3150,11 +3704,12 @@
     extensa calota de gelo e ao norte você observa um enorme vulcão.
   exits:
     east:
-      target_vnum: '12844'
+      target_vnum: 010212612844
     north:
-      target_vnum: '12848'
+      target_vnum: 010212612848
+  local_id: '12846'
   name: Uma Monumental Calota de Gelo
-  vnum: '12846'
+  vnum: 010212612846
 - description: |-
     Você está no assustador deserto de lava vulcânica.  O calor neste lugar é
     insuportável.  Ao seu redor você observa um mar de lava que desce dos
@@ -3164,9 +3719,10 @@
     está em qualquer lugar.  Ao oeste você observa um grande vulcão.
   exits:
     west:
-      target_vnum: '12848'
+      target_vnum: 010212612848
+  local_id: '12847'
   name: O Deserto de Lava Vulcânica
-  vnum: '12847'
+  vnum: 010212612847
 - description: |-
     Você está escalando o poderoso e magnífico vulcão Askja, o rei e soberano
     supremo do deserto de lava das terras da Islândia.  Ao seu redor você
@@ -3176,15 +3732,16 @@
     observa uma monumental calota de gelo.
   exits:
     east:
-      target_vnum: '12847'
+      target_vnum: 010212612847
     south:
-      target_vnum: '12846'
+      target_vnum: 010212612846
     up:
-      target_vnum: '12849'
+      target_vnum: 010212612849
     west:
-      target_vnum: '12851'
+      target_vnum: 010212612851
+  local_id: '12848'
   name: A Base do Grande Vulcão Askja
-  vnum: '12848'
+  vnum: 010212612848
 - description: |-
     Você está escalando o monumental vulcão Askja.  O perigo de uma nova
     erupção pode surgir a qualquer momento.  Ao seu redor você observa duas
@@ -3193,11 +3750,12 @@
     trilha íngreme em direção a base do vulcão.
   exits:
     down:
-      target_vnum: '12848'
+      target_vnum: 010212612848
     up:
-      target_vnum: '12850'
+      target_vnum: 010212612850
+  local_id: '12849'
   name: O Vulcão Askja
-  vnum: '12849'
+  vnum: 010212612849
 - description: |-
     Você chegou no lugar que tanto desejava, o topo do vulcão Askja.  Ao seu
     redor você observa a majestosa ilha da Islândia e seus segredos.  Um forte
@@ -3208,8 +3766,9 @@
     ...Sua inocência lhe custou muito caro você está morto e imortalizado para
     sempre, quando o mar de lava vulcânica que lhe cobriu secar.
   exits: {}
+  local_id: '12850'
   name: O Topo do Poderoso Askja
-  vnum: '12850'
+  vnum: 010212612850
 - description: |-
     Você está no assustador deserto de lava vulcânica.  O calor neste lugar é
     insuportável.  Ao seu redor você observa um mar de lava que desce dos
@@ -3220,11 +3779,12 @@
     poderosos e magníficos vulcões.
   exits:
     east:
-      target_vnum: '12848'
+      target_vnum: 010212612848
     west:
-      target_vnum: '12852'
+      target_vnum: 010212612852
+  local_id: '12851'
   name: O Deserto de Lava Vulcânica
-  vnum: '12851'
+  vnum: 010212612851
 - description: |-
     Você está escalando o poderoso e magnífico vulcão Hekla.  Ao seu redor
     você observa duas paisagens incríveis:  O deserto de lava e as calotas de
@@ -3233,13 +3793,14 @@
     observa uma monumental calota de gelo.
   exits:
     down:
-      target_vnum: '12855'
+      target_vnum: 010212612855
     east:
-      target_vnum: '12851'
+      target_vnum: 010212612851
     up:
-      target_vnum: '12853'
+      target_vnum: 010212612853
+  local_id: '12852'
   name: A Base do Grande Vulcão Hekla
-  vnum: '12852'
+  vnum: 010212612852
 - description: |-
     Você está escalando o monumental vulcão Hekla.  O perigo de uma nova
     erupção pode surgir a qualquer momento.  Ao seu redor você observa duas
@@ -3248,11 +3809,12 @@
     trilha íngreme em direção a base do vulcão.
   exits:
     down:
-      target_vnum: '12852'
+      target_vnum: 010212612852
     up:
-      target_vnum: '12854'
+      target_vnum: 010212612854
+  local_id: '12853'
   name: O Vulcão Hekla
-  vnum: '12853'
+  vnum: 010212612853
 - description: |-
     Você chegou no lugar que tanto desejava, o topo do vulcão Hekla.  Ao seu
     redor você observa a majestosa ilha da Islândia e seus segredos.  Um forte
@@ -3263,8 +3825,9 @@
     ...Sua inocência lhe custou muito caro você está morto e imortalizado para
     sempre, quando o mar de lava vulcânica que lhe cobriu secar.
   exits: {}
+  local_id: '12854'
   name: O Topo do Magnífico Hekla
-  vnum: '12854'
+  vnum: 010212612854
 - description: |-
     Você está caminhando com muita dificuldade sob o gelo e a neve que cai
     constantemente.  Ao seu redor você observa uma paisagem desértica, porém
@@ -3274,11 +3837,12 @@
     cheio de cavalos selvagens.
   exits:
     north:
-      target_vnum: '12856'
+      target_vnum: 010212612856
     up:
-      target_vnum: '12852'
+      target_vnum: 010212612852
+  local_id: '12855'
   name: Uma Monumental Calota de Gelo
-  vnum: '12855'
+  vnum: 010212612855
 - description: |-
     Você está caminhando num belo campo verde.  O gelo e a neve não chegaram
     ainda aqui.  Ao seu redor vários cavalos selvagens e uma vegetação rasteira
@@ -3288,10 +3852,13 @@
     observa uma imensa calota de gelo e ao noroeste você observa um belo campo
     verde.
   exits:
+    northeast:
+      target_vnum: 010212612857
     south:
-      target_vnum: '12855'
+      target_vnum: 010212612855
+  local_id: '12856'
   name: Um Grande Campo Verde
-  vnum: '12856'
+  vnum: 010212612856
 - description: |-
     Você está caminhando num belo campo verde, onde a neve e o gelo não
     chegaram ainda.  Ao seu redor você observa a entrada de uma vila viking,
@@ -3302,15 +3869,18 @@
     cercado feito de rochas.
   exits:
     east:
-      target_vnum: '12867'
+      target_vnum: 010212612867
     north:
-      target_vnum: '12864'
+      target_vnum: 010212612864
     south:
-      target_vnum: '12858'
+      target_vnum: 010212612858
+    southeast:
+      target_vnum: 010212612856
     west:
-      target_vnum: '12862'
+      target_vnum: 010212612862
+  local_id: '12857'
   name: Um Campo Verde
-  vnum: '12857'
+  vnum: 010212612857
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3318,9 +3888,10 @@
     observa alguns vikings caminhando no belo campo verde.
   exits:
     north:
-      target_vnum: '12857'
+      target_vnum: 010212612857
+  local_id: '12858'
   name: Uma Pequena Cabana Viking
-  vnum: '12858'
+  vnum: 010212612858
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3329,18 +3900,20 @@
     do poderoso deus Thor.
   exits:
     north:
-      target_vnum: '12862'
+      target_vnum: 010212612862
+  local_id: '12859'
   name: Uma Pequena Cabana Viking
-  vnum: '12859'
+  vnum: 010212612859
 - description: |-
     Você está dentro de uma grande cabana feita de rochas vulcânicas e feno.
     Ao seu redor pilhas de suprimentos estão guardados aqui.  Ao norte você
     observa alguns vikings conversando num belo campo verde.
   exits:
     north:
-      target_vnum: '12863'
+      target_vnum: 010212612863
+  local_id: '12860'
   name: O Armazém da Vila Viking
-  vnum: '12860'
+  vnum: 010212612860
 - description: |-
     Você está dentro de uma longa cabana viking feita de rochas vulcânicas e
     feno.  Ao seu redor você observa uma longa mesa de madeira e várias cadeiras
@@ -3351,9 +3924,10 @@
     observa um belo campo verde.
   exits:
     east:
-      target_vnum: '12863'
+      target_vnum: 010212612863
+  local_id: '12861'
   name: A Longa Cabana da Vila Viking
-  vnum: '12861'
+  vnum: 010212612861
 - description: |-
     Você está caminhando num belo campo verde, situado bem no centro da vila
     viking.  Ao seu redor você percebe várias cabanas de rochas vulcânicas e
@@ -3363,15 +3937,16 @@
     você observa pequenas cabanas.
   exits:
     east:
-      target_vnum: '12857'
+      target_vnum: 010212612857
     north:
-      target_vnum: '12865'
+      target_vnum: 010212612865
     south:
-      target_vnum: '12859'
+      target_vnum: 010212612859
     west:
-      target_vnum: '12863'
+      target_vnum: 010212612863
+  local_id: '12862'
   name: O Centro da Vila Viking
-  vnum: '12862'
+  vnum: 010212612862
 - description: |-
     Você está caminhando num belo campo verde, onde a neve e o gelo não
     chegaram ainda.  Ao seu redor você observa várias cabanas de rochas
@@ -3381,15 +3956,16 @@
     bela estatua do deus Thor, o senhor dos trovões.
   exits:
     east:
-      target_vnum: '12862'
+      target_vnum: 010212612862
     north:
-      target_vnum: '12866'
+      target_vnum: 010212612866
     south:
-      target_vnum: '12860'
+      target_vnum: 010212612860
     west:
-      target_vnum: '12861'
+      target_vnum: 010212612861
+  local_id: '12863'
   name: Um Campo Verde
-  vnum: '12863'
+  vnum: 010212612863
 - description: |-
     Você está dentro de uma pequena cabana viking.  Ao seu redor você observa
     várias ferramentas, armas e um pequena fogueira.  O calor dentro da cabana é
@@ -3397,9 +3973,10 @@
     verde.
   exits:
     south:
-      target_vnum: '12857'
+      target_vnum: 010212612857
+  local_id: '12864'
   name: A Cabana do Ferreiro Viking
-  vnum: '12864'
+  vnum: 010212612864
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3408,9 +3985,10 @@
     do poderoso deus Thor.
   exits:
     south:
-      target_vnum: '12862'
+      target_vnum: 010212612862
+  local_id: '12865'
   name: Uma Pequena Cabana Viking
-  vnum: '12865'
+  vnum: 010212612865
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3418,9 +3996,10 @@
     observa um belo campo verde, situado na vila viking.
   exits:
     south:
-      target_vnum: '12863'
+      target_vnum: 010212612863
+  local_id: '12866'
   name: Uma Pequena Cabana Viking
-  vnum: '12866'
+  vnum: 010212612866
 - description: |-
     Você está caminhando sob uma magnífica e desértica calota de gelo nas
     belíssimas terras da Islândia.  Ao seu redor você observa uma imensa calota
@@ -3429,19 +4008,23 @@
     verde e ao leste você observa o majestoso rio Blanda.
   exits:
     east:
-      target_vnum: '12869'
+      target_vnum: 010212612869
     west:
-      target_vnum: '12857'
+      target_vnum: 010212612857
+  local_id: '12867'
   name: Uma Monumental Calota de Gelo
-  vnum: '12867'
+  vnum: 010212612867
 - description: |-
     Você está navegando nas frias águas do rio Blanda.  Ao seu redor além das
     águas congelantes do rio Blanda e dos arrepiantes ventos, você observa uma
     imensa calota de gelo que margeia todo o rio.  Ao nordeste você observa as
     águas do rio Blanda.
-  exits: {}
-  name: "As Ã\x81guas GÃ©lidas do Rio Blanda"
-  vnum: '12868'
+  exits:
+    northwest:
+      target_vnum: 010212612869
+  local_id: '12868'
+  name: "As Ã\x81guas Gélidas do Rio Blanda"
+  vnum: 010212612868
 - description: |-
     Você está navegando nas frias águas do rio Blanda.  Ao seu redor além das
     águas congelantes do rio Blanda e dos arrepiantes ventos, você observa uma
@@ -3450,29 +4033,42 @@
     calota de gelo.
   exits:
     north:
-      target_vnum: '12870'
+      target_vnum: 010212612870
+    southeast:
+      target_vnum: 010212612895
+    southwest:
+      target_vnum: 010212612868
     west:
-      target_vnum: '12867'
-  name: "As Ã\x81guas GÃ©lidas do Rio Blanda"
-  vnum: '12869'
+      target_vnum: 010212612867
+  local_id: '12869'
+  name: "As Ã\x81guas Gélidas do Rio Blanda"
+  vnum: 010212612869
 - description: |-
     Você está navegando nas frias águas do rio Blanda.  Ao seu redor além das
     águas congelantes do rio Blanda e dos arrepiantes ventos, você observa uma
     imensa calota de gelo que margeia todo o rio.  Ao sul e ao noroeste você
     observa as águas do rio Blanda.
   exits:
+    northeast:
+      target_vnum: 010212612871
     south:
-      target_vnum: '12869'
-  name: "As Ã\x81guas GÃ©lidas do Rio Blanda"
-  vnum: '12870'
+      target_vnum: 010212612869
+  local_id: '12870'
+  name: "As Ã\x81guas Gélidas do Rio Blanda"
+  vnum: 010212612870
 - description: |-
     Você está navegando nas frias águas do rio Blanda.  Ao seu redor além das
     águas congelantes do rio Blanda e dos arrepiantes ventos, você observa uma
     imensa calota de gelo que margeia todo o rio.  Ao sudeste e ao nordeste você
     observa as águas do rio Blanda.
-  exits: {}
-  name: "As Ã\x81guas GÃ©lidas do Rio Blanda"
-  vnum: '12871'
+  exits:
+    northwest:
+      target_vnum: 010212612872
+    southeast:
+      target_vnum: 010212612870
+  local_id: '12871'
+  name: "As Ã\x81guas Gélidas do Rio Blanda"
+  vnum: 010212612871
 - description: |-
     Você está navegando nas frias águas do rio Blanda.  Ao seu redor além das
     águas congelantes do rio Blanda e dos arrepiantes ventos, você observa uma
@@ -3480,9 +4076,12 @@
     águas do rio Blanda e ao norte você observa o mar da Groenlândia.
   exits:
     north:
-      target_vnum: '12873'
-  name: "As Ã\x81guas GÃ©lidas do Rio Blanda"
-  vnum: '12872'
+      target_vnum: 010212612873
+    southwest:
+      target_vnum: 010212612871
+  local_id: '12872'
+  name: "As Ã\x81guas Gélidas do Rio Blanda"
+  vnum: 010212612872
 - description: |-
     Você está navegando pelas congelantes e desérticas águas do mar da
     Groenlândia.  O mar da Groenlândia só não é temido pelos habilidosos
@@ -3492,21 +4091,25 @@
     Blanda e ao leste você observa a imensidão do mar da Groenlândia.
   exits:
     east:
-      target_vnum: '12874'
+      target_vnum: 010212612874
     south:
-      target_vnum: '12872'
+      target_vnum: 010212612872
+  local_id: '12873'
   name: O Mar da Groenlândia
-  vnum: '12873'
+  vnum: 010212612873
 - description: |-
     Você está navegando pelas congelantes águas do temido mar da Groenlândia.
     Ao seu redor você observa a imensidão deste silencioso mar.  Os ventos frios
     fazem as velas da sua embarcação tremularem fortemente.  Ao sudeste e ao
     oeste você observa as águas do mar da Groenlândia.
   exits:
+    southeast:
+      target_vnum: 010212612875
     west:
-      target_vnum: '12873'
+      target_vnum: 010212612873
+  local_id: '12874'
   name: O Mar da Groenlândia
-  vnum: '12874'
+  vnum: 010212612874
 - description: |-
     Você está navegando pelas gélidas águas do temido mar da Groenlândia.  Ao
     seu redor você observa além das silenciosas e calmas águas do mar da
@@ -3515,28 +4118,39 @@
     Groenlândia.
   exits:
     east:
-      target_vnum: '12876'
+      target_vnum: 010212612876
+    northeast:
+      target_vnum: 010212612874
+  local_id: '12875'
   name: O Mar da Groenlândia
-  vnum: '12875'
+  vnum: 010212612875
 - description: |-
     Você está navegando pelas congelantes águas do temido mar da Groenlândia.
     Ao seu redor você observa a imensidão deste silencioso mar.  Os ventos frios
     fazem as velas da sua embarcação tremularem fortemente.  Ao sudeste e ao
     oeste você observa as águas do mar da Groenlândia.
   exits:
+    southeast:
+      target_vnum: 010212612877
     west:
-      target_vnum: '12875'
+      target_vnum: 010212612875
+  local_id: '12876'
   name: O Mar da Groenlândia
-  vnum: '12876'
+  vnum: 010212612876
 - description: |-
     Você está navegando pelas gélidas águas do temido mar da Groenlândia.  Ao
     seu redor você observa além das silenciosas e calmas águas do mar da
     Groenlândia, os belíssimos fiordes existentes em toda a ilha da Islândia.
     Ao sudeste e ao noroeste você observa as congelantes águas do mar da
     Groenlândia.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010212612876
+    southeast:
+      target_vnum: 010212612878
+  local_id: '12877'
   name: O Mar da Groenlândia
-  vnum: '12877'
+  vnum: 010212612877
 - description: "Você está navegando pelas congelantes e desérticas águas do mar da\n\
     Groenlândia.  O mar da Groenlândia só não é temido pelos habilidosos\nnavegadores\
     \ vikings.  Ao seu redor você observa as águas silenciosas e\nfrias do mar da\
@@ -3545,9 +4159,14 @@
     \ da Groenlândia e ao leste você observa o mar\nGlacial Ã\x81rtico."
   exits:
     east:
-      target_vnum: '12700'
+      target_vnum: '010212612700'
+    northeast:
+      target_vnum: 010212612877
+    southeast:
+      target_vnum: 010212612879
+  local_id: '12878'
   name: O Mar da Groenlândia
-  vnum: '12878'
+  vnum: 010212612878
 - description: |-
     Você está navegando pelas congelantes águas do temido mar da Groenlândia.
     Ao seu redor você observa a imensidão deste silencioso mar.  Os ventos frios
@@ -3555,10 +4174,13 @@
     observa as águas do mar da Groenlândia e ao sul você observa as águas do
     oceano Atlântico Norte.
   exits:
+    northeast:
+      target_vnum: 010212612878
     south:
-      target_vnum: '12880'
+      target_vnum: 010212612880
+  local_id: '12879'
   name: O Mar da Groenlândia
-  vnum: '12879'
+  vnum: 010212612879
 - description: |-
     Você está navegando pelas temidas e lendárias águas gélidas do oceano
     Atlântico Norte.  Ao seu redor você observa apenas a imensidão do oceano e
@@ -3567,9 +4189,12 @@
     Norte e ao norte você observa as águas do mar da Groenlândia.
   exits:
     north:
-      target_vnum: '12879'
-  name: "As Ã\x81guas do Oceano AtlÃ¢ntico Norte"
-  vnum: '12880'
+      target_vnum: 010212612879
+    southwest:
+      target_vnum: 010212612839
+  local_id: '12880'
+  name: "As Ã\x81guas do Oceano Atlântico Norte"
+  vnum: 010212612880
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3577,9 +4202,10 @@
     observa alguns vikings caminhando numa bela planície de vegetação rasteira.
   exits:
     north:
-      target_vnum: '12884'
+      target_vnum: 010212612884
+  local_id: '12881'
   name: Uma Pequena Cabana Viking
-  vnum: '12881'
+  vnum: 010212612881
 - description: |-
     Você está dentro de uma pequena cabana viking.  Ao seu redor você observa
     várias ferramentas, armas e um pequena fogueira.  O calor dentro da cabana é
@@ -3587,9 +4213,10 @@
     planície de vegetação rasteira.
   exits:
     north:
-      target_vnum: '12885'
+      target_vnum: 010212612885
+  local_id: '12882'
   name: A Cabana do Ferreiro Viking
-  vnum: '12882'
+  vnum: 010212612882
 - description: |-
     Você está caminhando sob um maravilhoso campo coberto de vegetação
     rasteira, onde a neve e o gelo não chegaram ainda.  Ao seu redor você
@@ -3598,11 +4225,16 @@
     rasteira e ao sudoeste você observa uma bela calota de gelo.
   exits:
     east:
-      target_vnum: '12884'
+      target_vnum: 010212612884
     north:
-      target_vnum: '12887'
+      target_vnum: 010212612887
+    northwest:
+      target_vnum: 010212612888
+    southwest:
+      target_vnum: 010212612845
+  local_id: '12883'
   name: Um Belo Campo Verde
-  vnum: '12883'
+  vnum: 010212612883
 - description: |-
     Você está caminhando sob um belíssimo campo de vegetação rasteira nas
     majestosas terras da Islândia.  Ao seu redor você observa várias cabanas e
@@ -3611,13 +4243,14 @@
     chegaram e ao sul você observa uma pequena cabana.
   exits:
     east:
-      target_vnum: '12885'
+      target_vnum: 010212612885
     south:
-      target_vnum: '12881'
+      target_vnum: 010212612881
     west:
-      target_vnum: '12883'
+      target_vnum: 010212612883
+  local_id: '12884'
   name: Um Belo Campo Verde
-  vnum: '12884'
+  vnum: 010212612884
 - description: |-
     Você está caminhando sob um belíssimo campo de vegetação rasteira nas
     majestosas terras da Islândia.  Ao seu redor você observa várias cabanas e
@@ -3626,11 +4259,12 @@
     ao sul você observa uma pequena cabana cheia de ferramentas.
   exits:
     south:
-      target_vnum: '12882'
+      target_vnum: 010212612882
     west:
-      target_vnum: '12884'
+      target_vnum: 010212612884
+  local_id: '12885'
   name: Um Belo Campo Verde
-  vnum: '12885'
+  vnum: 010212612885
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3638,9 +4272,10 @@
     observa alguns vikings caminhando numa bela planície de vegetação rasteira.
   exits:
     east:
-      target_vnum: '12887'
+      target_vnum: 010212612887
+  local_id: '12886'
   name: Uma Pequena Cabana Viking
-  vnum: '12886'
+  vnum: 010212612886
 - description: |-
     Você está caminhando sob uma bela planície de vegetação rasteira nas
     magníficas terras da Islândia.  Ao seu redor você observa a vila viking com
@@ -3649,13 +4284,14 @@
     belo campo de vegetação rasteira e ao oeste você observa uma pequena cabana.
   exits:
     north:
-      target_vnum: '12892'
+      target_vnum: 010212612892
     south:
-      target_vnum: '12883'
+      target_vnum: 010212612883
     west:
-      target_vnum: '12886'
+      target_vnum: 010212612886
+  local_id: '12887'
   name: Um Belo Campo Verde
-  vnum: '12887'
+  vnum: 010212612887
 - description: |-
     Você está caminhando sob um belo campo verde numa agitada vila viking.
     Ao seu redor você observa várias cabanas feitas de rochas vulcânicas e feno,
@@ -3666,11 +4302,16 @@
     conquistaram e ao nordeste você observa uma longa cabana viking.
   exits:
     east:
-      target_vnum: '12889'
+      target_vnum: 010212612889
     north:
-      target_vnum: '12893'
+      target_vnum: 010212612893
+    northwest:
+      target_vnum: 010212612894
+    southwest:
+      target_vnum: 010212612883
+  local_id: '12888'
   name: A Monumental Estatua do Senhor dos Trovões
-  vnum: '12888'
+  vnum: 010212612888
 - description: |-
     Você está caminhando sob um belo campo verde na movimentada vila viking.
     Ao seu redor várias cabanas feitas de rochas vulcânicas e feno, alguns
@@ -3679,11 +4320,12 @@
     vegetação rasteira, onde a neve e o gelo ainda não chegaram.
   exits:
     east:
-      target_vnum: '12890'
+      target_vnum: 010212612890
     west:
-      target_vnum: '12888'
+      target_vnum: 010212612888
+  local_id: '12889'
   name: Um Belo Campo Verde
-  vnum: '12889'
+  vnum: 010212612889
 - description: |-
     Você está dentro de uma grande cabana feita de rochas vulcânicas e feno.
     Ao seu redor pilhas de suprimentos estão guardados aqui, aguardando o mais
@@ -3691,9 +4333,10 @@
     belo campo verde.
   exits:
     west:
-      target_vnum: '12889'
+      target_vnum: 010212612889
+  local_id: '12890'
   name: O Armazém da Vila Viking
-  vnum: '12890'
+  vnum: 010212612890
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3701,9 +4344,10 @@
     observa alguns vikings caminhando numa bela planície de vegetação rasteira.
   exits:
     east:
-      target_vnum: '12892'
+      target_vnum: 010212612892
+  local_id: '12891'
   name: Uma Pequena Cabana Viking
-  vnum: '12891'
+  vnum: 010212612891
 - description: |-
     Você está caminhando sob a vegetação rasteira de uma majestosa planície
     das terras da Islândia.  Ao seu redor você observa a vila viking e sua
@@ -3713,13 +4357,14 @@
     não conquistaram.
   exits:
     north:
-      target_vnum: '12895'
+      target_vnum: 010212612895
     south:
-      target_vnum: '12887'
+      target_vnum: 010212612887
     west:
-      target_vnum: '12891'
+      target_vnum: 010212612891
+  local_id: '12892'
   name: Um Belo Campo Verde
-  vnum: '12892'
+  vnum: 010212612892
 - description: |-
     Você está caminhando sob um belíssimo campo de vegetação rasteira nas
     majestosas terras da Islândia.  Ao seu redor você observa várias cabanas e
@@ -3728,11 +4373,12 @@
     norte você observa uma pequena cabana viking.
   exits:
     north:
-      target_vnum: '12896'
+      target_vnum: 010212612896
     south:
-      target_vnum: '12888'
+      target_vnum: 010212612888
+  local_id: '12893'
   name: Um Belo Campo Verde
-  vnum: '12893'
+  vnum: 010212612893
 - description: |-
     Você está dentro de uma longa cabana viking feita de rochas vulcânicas e
     feno.  Ao seu redor você observa uma enorme mesa de pedra e algumas cadeiras
@@ -3743,10 +4389,13 @@
     salão da alta cúpula do parlamento de Althing.  Ao sudoeste você observa um
     campo verde, onde a neve e o gelo ainda não conquistaram.
   exits:
+    southwest:
+      target_vnum: 010212612888
     up:
-      target_vnum: '12897'
+      target_vnum: 010212612897
+  local_id: '12894'
   name: A Longa Cabana Viking
-  vnum: '12894'
+  vnum: 010212612894
 - description: |-
     Você está caminhando com muita dificuldade sob o gelo e a neve que cai
     constantemente.  Ao seu redor você observa uma paisagem desértica, porém
@@ -3755,10 +4404,15 @@
     observa as águas congelantes do rio Blanda e ao nordeste você observa
     grandes erupções de água fervente, que surgem dos géiseres.
   exits:
+    northeast:
+      target_vnum: 010212612869
+    northwest:
+      target_vnum: 010212612898
     south:
-      target_vnum: '12892'
+      target_vnum: 010212612892
+  local_id: '12895'
   name: Uma Monumental Calota de Gelo
-  vnum: '12895'
+  vnum: 010212612895
 - description: |-
     Você está dentro de uma pequena cabana viking, feita de rocha vulcânica e
     feno.  Ao seu redor você observa uma cama de pedra coberta de feno, uma mesa
@@ -3766,9 +4420,10 @@
     observa alguns vikings caminhando numa bela planície de vegetação rasteira.
   exits:
     south:
-      target_vnum: '12893'
+      target_vnum: 010212612893
+  local_id: '12896'
   name: Uma Pequena Cabana Viking
-  vnum: '12896'
+  vnum: 010212612896
 - description: |-
     Você está dentro do mais antigo parlamento das gloriosas terras de
     Vitália.  O parlamento de Althing foi criado a partir da união dos vários
@@ -3780,9 +4435,10 @@
     baixo na direção do grande salão social viking.
   exits:
     down:
-      target_vnum: '12894'
+      target_vnum: 010212612894
+  local_id: '12897'
   name: O Parlamento de Althing
-  vnum: '12897'
+  vnum: 010212612897
 - description: |-
     Você está caminhando com bastante atenção entre as monumentais fontes de
     águas ferventes, os géiseres.  Ao seu redor o vapor que surge das erupções
@@ -3793,9 +4449,12 @@
     calota de gelo e ao leste você observa um lago de águas estranhas.
   exits:
     east:
-      target_vnum: '12899'
+      target_vnum: 010212612899
+    southwest:
+      target_vnum: 010212612895
+  local_id: '12898'
   name: Os Géiseres da Islândia
-  vnum: '12898'
+  vnum: 010212612898
 - description: |-
     Você está nadando nas fedorentas e estranhas águas amarelas de um
     tenebroso lago de enxofre.  Ao seu redor você observa nas margens do lago
@@ -3804,6 +4463,7 @@
     que estão neste espaço.  Ao oeste você observa algumas erupções de géiseres.
   exits:
     west:
-      target_vnum: '12898'
+      target_vnum: 010212612898
+  local_id: '12899'
   name: Um Lago de Enxofre
-  vnum: '12899'
+  vnum: 010212612899

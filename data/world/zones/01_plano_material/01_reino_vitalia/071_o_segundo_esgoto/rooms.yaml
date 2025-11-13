@@ -6,11 +6,12 @@
     a partir daqui.
   exits:
     north:
-      target_vnum: '8328'
+      target_vnum: 01010718328
     up:
-      target_vnum: '7000'
+      target_vnum: '01010717000'
+  local_id: '7100'
   name: "A Margem da Ã\x81gua"
-  vnum: '7100'
+  vnum: '01010717100'
 - description: |-
     Você está numa pequena sala com uma grande rachadura no teto.  Da rachadura
     há lama caindo  em grande quantidade.  ARGH!.  Você pode sentir o
@@ -19,45 +20,49 @@
     absolutamente impossível forçar a descida por este caminho lamaçento.
   exits:
     east:
-      target_vnum: '7103'
+      target_vnum: '01010717103'
+  local_id: '7101'
   name: Abaixo do Buraco de Lama
-  vnum: '7101'
+  vnum: '01010717101'
 - description: |-
     Você encontrou um bom lugar.  Você está no centro de uma sala com apenas
     duas saídas, para cima e para leste.  Uma escada alta foi deixada aqui para
     que você possa subir para fora do poço sem precisar usar uma corda.
   exits:
     down:
-      target_vnum: '7300'
+      target_vnum: '01010717300'
     east:
-      target_vnum: '7104'
+      target_vnum: '01010717104'
     up:
-      target_vnum: '7004'
+      target_vnum: '01010717004'
+  local_id: '7102'
   name: Abaixo do Poço Escuro
-  vnum: '7102'
+  vnum: '01010717102'
 - description: |-
     Você está no que parece ser uma curva no sistema de canos de esgoto.  O
     "chão" está completamente coberto pela lama!  Isso inclui suas pernas e
     joelhos também.  O cano leva a oeste e sul.
   exits:
     south:
-      target_vnum: '7104'
+      target_vnum: '01010717104'
     west:
-      target_vnum: '7101'
+      target_vnum: '01010717101'
+  local_id: '7103'
   name: Uma Curva Lamaçenta no Sistema de Esgoto
-  vnum: '7103'
+  vnum: '01010717103'
 - description: |-
     Você está no centro do que parece ser uma junção de canos tripla indo
     para leste, oeste e norte.
   exits:
     east:
-      target_vnum: '7112'
+      target_vnum: '01010717112'
     north:
-      target_vnum: '7103'
+      target_vnum: '01010717103'
     west:
-      target_vnum: '7102'
+      target_vnum: '01010717102'
+  local_id: '7104'
   name: Uma Junção nos Canos de Esgoto
-  vnum: '7104'
+  vnum: '01010717104'
 - description: |-
     Você está pendurado nas bordas escorregadias da velha fonte que leva
     para baixo e para cima.  O único ponto seguro aqui são as barras de metal
@@ -66,9 +71,10 @@
     cima.
   exits:
     up:
-      target_vnum: '7015'
+      target_vnum: '01010717015'
+  local_id: '7105'
   name: Abaixo da Velha Fonte
-  vnum: '7105'
+  vnum: '01010717105'
 - description: |-
     Você está, inclinado para fora do peitoril, com apenas duas polegadas de
     segurança.  O peitoril continua para leste mas não volta para o sul.  O
@@ -76,104 +82,112 @@
     continuar a seguir em frente.
   exits:
     down:
-      target_vnum: '7279'
+      target_vnum: 01010717279
     east:
-      target_vnum: '7113'
+      target_vnum: '01010717113'
     south:
-      target_vnum: '7107'
+      target_vnum: '01010717107'
+  local_id: '7106'
   name: O Canto Noroeste do Peitoril
-  vnum: '7106'
+  vnum: '01010717106'
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes
     chances de uma sessão de quedas livres.
   exits:
     east:
-      target_vnum: '7190'
+      target_vnum: 01010717190
     north:
-      target_vnum: '7106'
+      target_vnum: '01010717106'
     south:
-      target_vnum: '7108'
+      target_vnum: 01010717108
+  local_id: '7107'
   name: O Estreito Peitoril
-  vnum: '7107'
+  vnum: '01010717107'
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes
     chances de uma sessão de quedas livres.
   exits:
     east:
-      target_vnum: '7190'
+      target_vnum: 01010717190
     north:
-      target_vnum: '7107'
+      target_vnum: '01010717107'
     south:
-      target_vnum: '7109'
+      target_vnum: 01010717109
+  local_id: '7108'
   name: O Estreito Peitoril
-  vnum: '7108'
+  vnum: 01010717108
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes
     chances de uma sessão de quedas livres.
   exits:
     east:
-      target_vnum: '7190'
+      target_vnum: 01010717190
     north:
-      target_vnum: '7108'
+      target_vnum: 01010717108
     south:
-      target_vnum: '7110'
+      target_vnum: '01010717110'
+  local_id: '7109'
   name: O Estreito Peitoril
-  vnum: '7109'
+  vnum: 01010717109
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Existe uma
     OUTRA saída daqui mas leva diretamente para o Passo-Em-Falso e com grandes
     chances de uma sucessão de quedas livres.
   exits:
     east:
-      target_vnum: '7190'
+      target_vnum: 01010717190
     north:
-      target_vnum: '7107'
+      target_vnum: '01010717107'
     south:
-      target_vnum: '7111'
+      target_vnum: '01010717111'
+  local_id: '7110'
   name: O Estreito Peitoril
-  vnum: '7110'
+  vnum: '01010717110'
 - description: |-
     Este peitoril parece ser mais largo que o outro ao norte daqui.  O peitoril
     parece levar a um tipo de abismo na total escuridão.  O peitoril parece ter
     uma margem aparentemente estranha.
   exits:
     down:
-      target_vnum: '7279'
+      target_vnum: 01010717279
     east:
-      target_vnum: '7115'
+      target_vnum: '01010717115'
     north:
-      target_vnum: '7110'
+      target_vnum: '01010717110'
     south:
-      target_vnum: '7112'
+      target_vnum: '01010717112'
+  local_id: '7111'
   name: O Canto Sudoeste do Peitoril
-  vnum: '7111'
+  vnum: '01010717111'
 - description: |-
     Você está numa estranha intersecção de canos de esgoto.  Os canos realmente
     não parecem ser canos de esgoto.  Eles parecem ser um túnel de pedra ou uma
     passagem talhada na rocha.  Os caminhos daqui levam ao norte, leste e oeste.
   exits:
     east:
-      target_vnum: '7122'
+      target_vnum: '01010717122'
     north:
-      target_vnum: '7111'
+      target_vnum: '01010717111'
     west:
-      target_vnum: '7104'
+      target_vnum: '01010717104'
+  local_id: '7112'
   name: Uma Estranha Intersecção
-  vnum: '7112'
+  vnum: '01010717112'
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes chances de
     uma sucessão de quedas livres.
   exits:
     east:
-      target_vnum: '7116'
+      target_vnum: '01010717116'
     south:
-      target_vnum: '7190'
+      target_vnum: 01010717190
+  local_id: '7113'
   name: O Estreiro Peitoril Indo do Leste para o Oeste
-  vnum: '7113'
+  vnum: '01010717113'
 - description: |-
     Você simplesmente pisou na mais azarada posição de todo Mundo de Vitália.
     O resultado de um ato tão tolo deverá ser punido com a morte, você sabe
@@ -182,17 +196,18 @@
     embaixo continua sendo um mistério.  Adeus mundo cruel...
   exits:
     east:
-      target_vnum: '7118'
+      target_vnum: 01010717118
     north:
-      target_vnum: '7119'
+      target_vnum: 01010717119
     south:
-      target_vnum: '7120'
+      target_vnum: '01010717120'
     up:
-      target_vnum: '7115'
+      target_vnum: '01010717115'
     west:
-      target_vnum: '7117'
+      target_vnum: '01010717117'
+  local_id: '7114'
   name: Passo-Em-Falso
-  vnum: '7114'
+  vnum: '01010717114'
 - description: |-
     Você está num peitoril que parece ser bem maior que o resto.  Este leva
     para o oeste e leste e ainda tem uma saída para o sul.  Talvez você pudesse
@@ -200,28 +215,30 @@
     sul está na mais completa escuridão.
   exits:
     east:
-      target_vnum: '7121'
+      target_vnum: '01010717121'
     north:
-      target_vnum: '7114'
+      target_vnum: '01010717114'
     south:
-      target_vnum: '7129'
+      target_vnum: 01010717129
     west:
-      target_vnum: '7111'
+      target_vnum: '01010717111'
+  local_id: '7115'
   name: O Largo Peitoril
-  vnum: '7115'
+  vnum: '01010717115'
 - description: |-
     Você está pendurado no peitoril, com apenas algumas polegadas de segurança,
     há um peitoril sólido abaixo dos seus pés.  O peitoril continua para o oeste e
     leva ao sul daqui para a escuridão.
   exits:
     down:
-      target_vnum: '7280'
+      target_vnum: 01010717280
     south:
-      target_vnum: '7117'
+      target_vnum: '01010717117'
     west:
-      target_vnum: '7113'
+      target_vnum: '01010717113'
+  local_id: '7116'
   name: O Canto Nordeste do Peitoril
-  vnum: '7116'
+  vnum: '01010717116'
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
@@ -229,11 +246,12 @@
     cuidado por onde pisa.
   exits:
     south:
-      target_vnum: '7118'
+      target_vnum: 01010717118
     west:
-      target_vnum: '7114'
+      target_vnum: '01010717114'
+  local_id: '7117'
   name: O Estreito Peitoril
-  vnum: '7117'
+  vnum: '01010717117'
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
@@ -241,11 +259,12 @@
     cuidado por onde pisa.
   exits:
     south:
-      target_vnum: '7119'
+      target_vnum: 01010717119
     west:
-      target_vnum: '7114'
+      target_vnum: '01010717114'
+  local_id: '7118'
   name: O Estreito Peitoril Leste
-  vnum: '7118'
+  vnum: 01010717118
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
@@ -253,11 +272,12 @@
     cuidado por onde pisa.
   exits:
     south:
-      target_vnum: '7120'
+      target_vnum: '01010717120'
     west:
-      target_vnum: '7114'
+      target_vnum: '01010717114'
+  local_id: '7119'
   name: O Estreito Peitoril Leste
-  vnum: '7119'
+  vnum: 01010717119
 - description: |-
     Você está começando a caminhar no peitoril, não há como voltar.  Há uma
     outra saída daqui mas leva diretamente para o meio-ar e com grandes chances
@@ -265,53 +285,58 @@
     cuidado por onde pisa.  Você vê uma pequena abertura ao leste.
   exits:
     east:
-      target_vnum: '7123'
+      target_vnum: '01010717123'
     south:
-      target_vnum: '7121'
+      target_vnum: '01010717121'
     west:
-      target_vnum: '7114'
+      target_vnum: '01010717114'
+  local_id: '7120'
   name: O Estreito Peitoril Leste
-  vnum: '7120'
+  vnum: '01010717120'
 - description: |-
     Este peitoril parece ser um pouco mais largo que o que fica ao norte
     daqui.  O Peitoril parece levar a um tipo de abismo totalmente escuro.
   exits:
     down:
-      target_vnum: '7279'
+      target_vnum: 01010717279
     north:
-      target_vnum: '7120'
+      target_vnum: '01010717120'
     west:
-      target_vnum: '7115'
+      target_vnum: '01010717115'
+  local_id: '7121'
   name: O Canto Sudeste do Peitoril
-  vnum: '7121'
+  vnum: '01010717121'
 - description: |-
     Você está numa caverna na completa escuridão que leva a oeste.  A parede
     parece ser sobrenatural.
   exits:
     west:
-      target_vnum: '7112'
+      target_vnum: '01010717112'
+  local_id: '7122'
   name: Abaixo do Poço
-  vnum: '7122'
+  vnum: '01010717122'
 - description: |-
     Uma escada leva para cima pelo poço.  Uma pequena abertura leva a oeste
     daqui.
   exits:
     up:
-      target_vnum: '7041'
+      target_vnum: '01010717041'
     west:
-      target_vnum: '7120'
+      target_vnum: '01010717120'
+  local_id: '7123'
   name: Abaixo do Poço
-  vnum: '7123'
+  vnum: '01010717123'
 - description: |-
     Você está numa parte estreita do esgoto.  Abaixo o esgoto continua e ao
     norte está o peitoril.
   exits:
     down:
-      target_vnum: '7221'
+      target_vnum: '01010717221'
     north:
-      target_vnum: '7115'
+      target_vnum: '01010717115'
+  local_id: '7129'
   name: A Linha do Esgoto
-  vnum: '7129'
+  vnum: 01010717129
 - description: |-
     Você simplesmente pisou na mais azarada posição de todo Mundo de Vitália.
     O resultado de um ato tão tolo deverá ser punido com a morte, você sabe.
@@ -320,14 +345,15 @@
     um mistério.  Adeus mundo cruel.
   exits:
     east:
-      target_vnum: '7108'
+      target_vnum: 01010717108
     north:
-      target_vnum: '7109'
+      target_vnum: 01010717109
     south:
-      target_vnum: '7110'
+      target_vnum: '01010717110'
     up:
-      target_vnum: '7113'
+      target_vnum: '01010717113'
     west:
-      target_vnum: '7107'
+      target_vnum: '01010717107'
+  local_id: '7190'
   name: Passo-Em-Falso
-  vnum: '7190'
+  vnum: 01010717190

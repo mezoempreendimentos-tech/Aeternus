@@ -6,11 +6,12 @@
     brilhante, emanando de uma grande torre.
   exits:
     east:
-      target_vnum: '301'
+      target_vnum: '01010030301'
     up:
-      target_vnum: '341'
+      target_vnum: '01010030341'
+  local_id: '300'
   name: O Caminho Para Bandar, A Cidade Maldita
-  vnum: '300'
+  vnum: '01010030300'
 - description: |-
     Um enorme portão enferrujado se ergue diante de seus olhos.  Agora você
     pode ver a cidade você percebe que ela é mais simples do que você pensava.
@@ -19,11 +20,12 @@
     história que eles contam é a morte.
   exits:
     east:
-      target_vnum: '302'
+      target_vnum: '01010030302'
     west:
-      target_vnum: '300'
+      target_vnum: '01010030300'
+  local_id: '301'
   name: Os Portões de Bandar
-  vnum: '301'
+  vnum: '01010030301'
 - description: |-
     Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
     atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
@@ -32,11 +34,12 @@
     malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
   exits:
     east:
-      target_vnum: '303'
+      target_vnum: '01010030303'
     west:
-      target_vnum: '301'
+      target_vnum: '01010030301'
+  local_id: '302'
   name: A Estrada Principal
-  vnum: '302'
+  vnum: '01010030302'
 - description: |-
     Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
     atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
@@ -45,11 +48,12 @@
     malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
   exits:
     east:
-      target_vnum: '304'
+      target_vnum: '01010030304'
     west:
-      target_vnum: '302'
+      target_vnum: '01010030302'
+  local_id: '303'
   name: A Estrada Principal
-  vnum: '303'
+  vnum: '01010030303'
 - description: |-
     Você está em uma parte da estrada principal que parece ter sido um centro
     à parte do comercio.  As tavernas ao longo da estrada estão todas
@@ -58,13 +62,14 @@
     amaldiçoada.
   exits:
     east:
-      target_vnum: '305'
+      target_vnum: '01010030305'
     north:
-      target_vnum: '320'
+      target_vnum: '01010030320'
     west:
-      target_vnum: '303'
+      target_vnum: '01010030303'
+  local_id: '304'
   name: Diante da Grande Torre
-  vnum: '304'
+  vnum: '01010030304'
 - description: |-
     Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
     atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
@@ -73,11 +78,12 @@
     malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
   exits:
     east:
-      target_vnum: '306'
+      target_vnum: '01010030306'
     west:
-      target_vnum: '304'
+      target_vnum: '01010030304'
+  local_id: '305'
   name: A Estrada Principal
-  vnum: '305'
+  vnum: '01010030305'
 - description: |-
     Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
     atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
@@ -86,11 +92,12 @@
     malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
   exits:
     east:
-      target_vnum: '307'
+      target_vnum: '01010030307'
     west:
-      target_vnum: '305'
+      target_vnum: '01010030305'
+  local_id: '306'
   name: A Estrada Principal
-  vnum: '306'
+  vnum: '01010030306'
 - description: |-
     Você está em uma rua que parece ter sido bastante usada.  Há muito tempo
     atrás ela pode ter sido a estrada pela qual comerciantes e viajantes usavam
@@ -99,13 +106,14 @@
     malditos, amaldiçoados à vagar por estas ruas por todo o sempre.
   exits:
     east:
-      target_vnum: '309'
+      target_vnum: 01010030309
     south:
-      target_vnum: '308'
+      target_vnum: 01010030308
     west:
-      target_vnum: '306'
+      target_vnum: '01010030306'
+  local_id: '307'
   name: A Estrada Principal
-  vnum: '307'
+  vnum: '01010030307'
 - description: |-
     Até mesmo as instalações desta loja não tem valor.  Até as pinturas nas
     paredes são baratas.  Você se surpreende ao encontrar uma poção mais cara na
@@ -113,9 +121,10 @@
     formas, tamanhos e variedades.
   exits:
     north:
-      target_vnum: '307'
+      target_vnum: '01010030307'
+  local_id: '308'
   name: Guerrand Itens Mágicos
-  vnum: '308'
+  vnum: 01010030308
 - description: |-
     Você está diante do enorme portão leste da Cidade de Bandar.  Há centenas
     de corpos pendurados no portão.  Embora cruel, o castigo parece ter sido
@@ -123,11 +132,12 @@
     tentam te puxar na direção do portão, para receber seu frio flagelo eterno.
   exits:
     south:
-      target_vnum: '310'
+      target_vnum: '01010030310'
     west:
-      target_vnum: '307'
+      target_vnum: '01010030307'
+  local_id: '309'
   name: O Portão Oriental de Bandar
-  vnum: '309'
+  vnum: 01010030309
 - description: |-
     Você afasta as algas e vê um surpreendentemente bem cuidado caminho, em
     relação aos outros, claro.  Ele também é coberto de algas e outras plantas
@@ -136,13 +146,14 @@
     sabe o que se pode encontrar aqui.
   exits:
     east:
-      target_vnum: '311'
+      target_vnum: '01010030311'
     north:
-      target_vnum: '309'
+      target_vnum: 01010030309
     south:
-      target_vnum: '312'
+      target_vnum: '01010030312'
+  local_id: '310'
   name: Fora do Caminho
-  vnum: '310'
+  vnum: '01010030310'
 - description: |-
     Você adentra a caverna e imediatamente seus sentidos são tomados por
     cheiros horríveis, fecais, para ser exato.  Você ouve uma pesada respiração
@@ -152,9 +163,10 @@
     sua mente....  CORRA!
   exits:
     west:
-      target_vnum: '310'
+      target_vnum: '01010030310'
+  local_id: '311'
   name: Uma Pequena Alcova
-  vnum: '311'
+  vnum: '01010030311'
 - description: |-
     Você está em uma enorme floresta de algas e outras plantas.  Normalmente
     estas áreas seriam cheias de vida marinha, mas você pode ver que não há nada
@@ -163,11 +175,12 @@
     matadouro?
   exits:
     east:
-      target_vnum: '313'
+      target_vnum: '01010030313'
     north:
-      target_vnum: '310'
+      target_vnum: '01010030310'
+  local_id: '312'
   name: Nas Profundezas das Algas
-  vnum: '312'
+  vnum: '01010030312'
 - description: |-
     Você começa a perceber que a terra se inclina a medida que você avança.
     Em algum lugar de sua mente, você sabe que grandes predadores do oceano
@@ -177,11 +190,12 @@
     algum repelente de tubarões à seu alcance.
   exits:
     down:
-      target_vnum: '314'
+      target_vnum: '01010030314'
     west:
-      target_vnum: '312'
+      target_vnum: '01010030312'
+  local_id: '313'
   name: Nas Profundezas das Algas
-  vnum: '313'
+  vnum: '01010030313'
 - description: |-
     Olhando em volta você vê que está em um enorme buraco no solo do oceano.
     Pequenos outros buracos servem de lugar de repouso para outras criaturas
@@ -189,13 +203,14 @@
     penetrando estas escuras águas.
   exits:
     down:
-      target_vnum: '317'
+      target_vnum: '01010030317'
     east:
-      target_vnum: '315'
+      target_vnum: '01010030315'
     up:
-      target_vnum: '313'
+      target_vnum: '01010030313'
+  local_id: '314'
   name: Dentro de Uma Fenda
-  vnum: '314'
+  vnum: '01010030314'
 - description: |-
     Você está em uma beirada rochosa e pegajosa, que se ergue da grande
     fresta no solo do oceano.  Você percebe que há uma pequena cabana feita de
@@ -203,11 +218,12 @@
     de comida caseira penetra as paredes de água e alcança suas narinas.
   exits:
     south:
-      target_vnum: '316'
+      target_vnum: '01010030316'
     west:
-      target_vnum: '314'
+      target_vnum: '01010030314'
+  local_id: '315'
   name: Uma Borda Rochosa
-  vnum: '315'
+  vnum: '01010030315'
 - description: |-
     Você está em uma pequena cabana.  Este lugar parece bom demais para ser
     verdade.  Em sua frente há uma pequena mesa cheia das mais finas comidas.
@@ -216,9 +232,10 @@
     servir.
   exits:
     north:
-      target_vnum: '315'
+      target_vnum: '01010030315'
+  local_id: '316'
   name: Uma Cabana
-  vnum: '316'
+  vnum: '01010030316'
 - description: |-
     Ao nadar mais fundo pela fenda, a água se torna mais fria e seus membros
     começam a esfriar, tornando difícil seu movimento.  Você pensa que se não
@@ -227,22 +244,24 @@
     avistar uma luminosidade vinda do leste.
   exits:
     east:
-      target_vnum: '318'
+      target_vnum: 01010030318
     up:
-      target_vnum: '314'
+      target_vnum: '01010030314'
+  local_id: '317'
   name: No Fundo da Fenda
-  vnum: '317'
+  vnum: '01010030317'
 - description: |-
     Você está em uma alcova e nota que a água aqui começa a esquentar
     consideravelmente.  Seus movimentos começam a voltar ao normal.  Ao olhar em
     volta você nota que a luminosidade vem de cima.
   exits:
     north:
-      target_vnum: '319'
+      target_vnum: 01010030319
     west:
-      target_vnum: '317'
+      target_vnum: '01010030317'
+  local_id: '318'
   name: Uma Alcova
-  vnum: '318'
+  vnum: 01010030318
 - description: |-
     Você olha em frente e pode perceber que o calor está a apenas alguns
     passos de você.  Você sente como se estivesse levando horas atravessar
@@ -250,11 +269,12 @@
     mantêm andando em frente.
   exits:
     south:
-      target_vnum: '318'
+      target_vnum: 01010030318
     up:
-      target_vnum: '304'
+      target_vnum: '01010030304'
+  local_id: '319'
   name: Quase Lá
-  vnum: '319'
+  vnum: 01010030319
 - description: |-
     Você está onde todos devem esperar para que comece a aventura.  O lugar é
     bem decorado e mobiliado com bom gosto.  Cada peça da mobília tem seu lugar,
@@ -262,11 +282,12 @@
     purgatório em vida, a espera pelo prêmio e glória.
   exits:
     south:
-      target_vnum: '304'
+      target_vnum: '01010030304'
     up:
-      target_vnum: '321'
+      target_vnum: '01010030321'
+  local_id: '320'
   name: Começando a Grande Aventura!
-  vnum: '320'
+  vnum: '01010030320'
 - description: |-
     Você está em uma sala, sem teto.  A grama embaixo de seus pés é bem
     cuidada e parece fresca.  Pássaros voam a seu redor, abelhas zunem, formigas
@@ -274,11 +295,12 @@
     lugar fechado...estranhamente fechado.
   exits:
     down:
-      target_vnum: '320'
+      target_vnum: '01010030320'
     east:
-      target_vnum: '322'
+      target_vnum: '01010030322'
+  local_id: '321'
   name: O Começo do Labirinto
-  vnum: '321'
+  vnum: '01010030321'
 - description: |-
     A medida que você entra nessa sala você é surpreendido.  Você quase pode
     sentir o cheiro do cachimbo de papai, e o gosto da comida da mamãe.  Cada
@@ -287,11 +309,12 @@
     toda.
   exits:
     east:
-      target_vnum: '323'
+      target_vnum: '01010030323'
     west:
-      target_vnum: '321'
+      target_vnum: '01010030321'
+  local_id: '322'
   name: No Labirinto
-  vnum: '322'
+  vnum: '01010030322'
 - description: |-
     A medida que você entra neste quarto os sentimentos de segurança são
     diluídos.  A fria realidade deste severo ambiente o atinge com grande
@@ -301,11 +324,12 @@
     diante do poder do profundo...
   exits:
     east:
-      target_vnum: '324'
+      target_vnum: '01010030324'
     west:
-      target_vnum: '322'
+      target_vnum: '01010030322'
+  local_id: '323'
   name: No Labirinto
-  vnum: '323'
+  vnum: '01010030323'
 - description: |-
     Você está em uma curva do labirinto.  Você pode seguir a norte e explorar
     mais, ou voltar pelo caminho o qual veio.  Mas há alguma estranha luz azul
@@ -314,11 +338,12 @@
     diz para voltar, mas o bravo em você deseja continuar adiante...  Não é?
   exits:
     north:
-      target_vnum: '325'
+      target_vnum: '01010030325'
     west:
-      target_vnum: '323'
+      target_vnum: '01010030323'
+  local_id: '324'
   name: Uma Esquina
-  vnum: '324'
+  vnum: '01010030324'
 - description: |-
     Você está em um outro corredor que tem suas próprias memórias e
     histórias.  Olhando em volta, todas as pinturas de pessoas nas paredes lhe
@@ -329,11 +354,12 @@
     arriscar assim?
   exits:
     north:
-      target_vnum: '326'
+      target_vnum: '01010030326'
     south:
-      target_vnum: '324'
+      target_vnum: '01010030324'
+  local_id: '325'
   name: Em Um Novo Corredor
-  vnum: '325'
+  vnum: '01010030325'
 - description: |-
     Nesta parte do corredor, um acorde soa fundo em sua alma.  Ele fala de
     perda de pessoas amadas.  Imagens de mães se lamentando vêm a sua cabeça.
@@ -341,52 +367,56 @@
     acabem.  Você suportaria ver sua família assim?  Ousaria continuar?
   exits:
     north:
-      target_vnum: '331'
+      target_vnum: '01010030331'
     south:
-      target_vnum: '325'
+      target_vnum: '01010030325'
     west:
-      target_vnum: '327'
+      target_vnum: '01010030327'
+  local_id: '326'
   name: Ainda Mais do Corredor
-  vnum: '326'
+  vnum: '01010030326'
 - description: |-
     Este corredor parece frio e solitário.  Cada passo ecoa pelas profundezas
     do oceano.  A costumeira onda de emoções não aparece aqui.  Você se sente
     mais nulo do que qualquer outra coisa...
   exits:
     east:
-      target_vnum: '326'
+      target_vnum: '01010030326'
     north:
-      target_vnum: '332'
+      target_vnum: '01010030332'
     west:
-      target_vnum: '328'
+      target_vnum: 01010030328
+  local_id: '327'
   name: Um Corredor Indescritível
-  vnum: '327'
+  vnum: '01010030327'
 - description: |-
     Este corredor parece frio e solitário.  Cada passo ecoa pelas profundezas
     do oceano.  A costumeira onda de emoções não aparece aqui.  Você se sente
     mais nulo do que qualquer outra coisa...
   exits:
     east:
-      target_vnum: '327'
+      target_vnum: '01010030327'
     south:
-      target_vnum: '334'
+      target_vnum: '01010030334'
     west:
-      target_vnum: '329'
+      target_vnum: 01010030329
+  local_id: '328'
   name: Um Corredor Indescritível
-  vnum: '328'
+  vnum: 01010030328
 - description: |-
     Este corredor parece frio e solitário.  Cada passo ecoa pelas profundezas
     do oceano.  A costumeira onda de emoções não aparece aqui.  Você se sente
     mais nulo do que qualquer outra coisa...
   exits:
     east:
-      target_vnum: '328'
+      target_vnum: 01010030328
     north:
-      target_vnum: '335'
+      target_vnum: '01010030335'
     west:
-      target_vnum: '330'
+      target_vnum: '01010030330'
+  local_id: '329'
   name: Um Corredor Indescritível
-  vnum: '329'
+  vnum: 01010030329
 - description: |-
     Finalmente você chegou ao Oráculo!  Centenas de aventureiros falharam
     nesta busca, mas você, poderoso bravo, teve sucesso!  Alegra-te, por tudo o
@@ -395,36 +425,41 @@
     maldição que alguém já proferiu...
   exits:
     east:
-      target_vnum: '329'
+      target_vnum: 01010030329
+  local_id: '330'
   name: O Oráculo
-  vnum: '330'
+  vnum: '01010030330'
 - description: |-
     Você está em outro corredor que parece não um corredor, mas a junção de
     três passagens, então ele tem apenas uma parede.  Todas as direções podem
     guardar novas aventuras, e ainda, armadilhas e terror.
   exits:
     east:
-      target_vnum: '332'
+      target_vnum: '01010030332'
     north:
-      target_vnum: '333'
+      target_vnum: '01010030333'
     south:
-      target_vnum: '326'
+      target_vnum: '01010030326'
+  local_id: '331'
   name: Um Corredor
-  vnum: '331'
+  vnum: '01010030331'
 - description: |-
     CAMINHO ERRADO!!!
     OOPS
   exits: {}
+  local_id: '332'
   name: Um Corredor
-  vnum: '332'
+  vnum: '01010030332'
 - description: "SEM SAÃ\x8DDA!!!\nDUHH!!!!"
   exits: {}
+  local_id: '333'
   name: Um Corredor
-  vnum: '333'
+  vnum: '01010030333'
 - description: "SEM SAÃ\x8DDA!!!\nDUHH!!!!"
   exits: {}
+  local_id: '334'
   name: Um Corredor
-  vnum: '334'
+  vnum: '01010030334'
 - description: |-
     E mais uma vez, você está na junção de corredores.  Este corredor parece
     lhe dar aquela sensação confortável, como se você estivesse em sua casa, lhe
@@ -432,22 +467,24 @@
     relaxar com a família.
   exits:
     east:
-      target_vnum: '336'
+      target_vnum: '01010030336'
     south:
-      target_vnum: '329'
+      target_vnum: 01010030329
+  local_id: '335'
   name: Um Corredor
-  vnum: '335'
+  vnum: '01010030335'
 - description: |-
     E mais uma vez, você está na junção de corredores.  Este corredor parece
     lhe dar aquela sensação confortável, como se você procurasse por sua casa e
     que seu objetivo está a poucos passos daqui...
   exits:
     north:
-      target_vnum: '337'
+      target_vnum: '01010030337'
     west:
-      target_vnum: '335'
+      target_vnum: '01010030335'
+  local_id: '336'
   name: Um Corredor
-  vnum: '336'
+  vnum: '01010030336'
 - description: |-
     Agora você sente como se pudesse alcançar aquela bandeja de bolinhos e
     leite que aguarda junto com sua família, onde todos riem e conversam em
@@ -456,20 +493,22 @@
     esperando que você faça companhia a ela.
   exits:
     north:
-      target_vnum: '338'
+      target_vnum: 01010030338
     south:
-      target_vnum: '336'
+      target_vnum: '01010030336'
+  local_id: '337'
   name: Um Corredor
-  vnum: '337'
+  vnum: '01010030337'
 - description: |-
     Adiante está seu objetivo.  A sala brilha com a mais bela e branca luz de
     todas, lhe chamando para ela.  Até o cheiro da atmosfera mudou para um
     triunfante aroma.  Você tem certeza que conseguiu...
   exits:
     north:
-      target_vnum: '50'
+      target_vnum: '01010030050'
+  local_id: '338'
   name: A Recompensa Final
-  vnum: '338'
+  vnum: 01010030338
 - description: |-
     Você viu uma espécie de buraco na parte rasa da costa, logo abaixo da
     doca, e resolveu investigar.  Um pouco depois, você constata estar em um
@@ -477,30 +516,33 @@
     bastante movimentado, tendo marcas de passagem recente por todos os lados.
   exits:
     down:
-      target_vnum: '340'
+      target_vnum: '01010030340'
     up:
-      target_vnum: '5698'
+      target_vnum: 01010035698
+  local_id: '339'
   name: Sob o Mar
-  vnum: '339'
+  vnum: 01010030339
 - description: |-
     Você está em um túnel subáquatico, nadando entre corais e algas.  O
     caminho parece ser bastante movimentado, tendo marcas de passagem recente
     por todos os lados.
   exits:
     down:
-      target_vnum: '341'
+      target_vnum: '01010030341'
     up:
-      target_vnum: '339'
+      target_vnum: 01010030339
+  local_id: '340'
   name: O Túnel Subaquático
-  vnum: '340'
+  vnum: '01010030340'
 - description: |-
     Você está em um túnel subáquatico, nadando entre corais e algas.  O
     caminho parece ser bastante movimentado, tendo marcas de passagem recente
     por todos os lados.
   exits:
     down:
-      target_vnum: '300'
+      target_vnum: '01010030300'
     up:
-      target_vnum: '340'
+      target_vnum: '01010030340'
+  local_id: '341'
   name: O Túnel Subaquático
-  vnum: '341'
+  vnum: '01010030341'

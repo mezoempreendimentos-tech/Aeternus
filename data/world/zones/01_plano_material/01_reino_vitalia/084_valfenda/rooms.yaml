@@ -4,10 +4,13 @@
     nascem ao longo dos limites da estrada.  Ao oeste e ao sudeste você observa
     a continuação da grande estrada do leste.
   exits:
+    southeast:
+      target_vnum: 01010848401
     west:
-      target_vnum: '14499'
+      target_vnum: 010108414499
+  local_id: '8400'
   name: A Grande Estrada do Leste
-  vnum: '8400'
+  vnum: 01010848400
 - description: |-
     Você está lentamente sobre a velha e grandiosa Estrada do Leste.  Ao seu
     redor você observa pequenos arbustos que crescem ao longo da estrada e
@@ -16,9 +19,14 @@
     e ao leste você observa um estranho e sombrio pântano.
   exits:
     east:
-      target_vnum: '8410'
+      target_vnum: 01010848410
+    northeast:
+      target_vnum: 01010848400
+    southeast:
+      target_vnum: 01010848402
+  local_id: '8401'
   name: A Grande Estrada do Leste
-  vnum: '8401'
+  vnum: 01010848401
 - description: |-
     Você está caminhando sobre a antiga Estrada do Leste, que corta grande
     parte das terras do norte, desde os Portos Cinzentos até Imladris.  Ao seu
@@ -29,10 +37,15 @@
     noroeste você observa a continuação da grande Estrada do Leste.  Ao nordeste
     você observa um misterioso e sombrio pântano.
   exits:
+    northeast:
+      target_vnum: 01010848401
+    northwest:
+      target_vnum: 01010848410
     south:
-      target_vnum: '8403'
+      target_vnum: 01010848403
+  local_id: '8402'
   name: A Grande Estrada do Leste
-  vnum: '8402'
+  vnum: 01010848402
 - description: |-
     Você está sobre a grande Estrada do Leste.  Ao seu redor você observa a
     imensidão da estrada que corta grande parte das terras do norte, no sentido
@@ -41,11 +54,12 @@
     norte você observa a continuação da grande Estrada do Leste.
   exits:
     east:
-      target_vnum: '8404'
+      target_vnum: 01010848404
     north:
-      target_vnum: '8402'
+      target_vnum: 01010848402
+  local_id: '8403'
   name: A Grande Estrada do Leste
-  vnum: '8403'
+  vnum: 01010848403
 - description: |-
     Você está caminhando sobre a grande Estrada do Leste, que corta grande
     parte das terras do norte no sentido leste-oeste.  Ao seu redor você observa
@@ -55,11 +69,12 @@
     observa a continuação da grande Estrada do Leste.
   exits:
     east:
-      target_vnum: '8405'
+      target_vnum: 01010848405
     west:
-      target_vnum: '8403'
+      target_vnum: 01010848403
+  local_id: '8404'
   name: A Grande Estrada do Leste
-  vnum: '8404'
+  vnum: 01010848404
 - description: |-
     Você está andando a passos lentos e calmos sobre a antiga e monumental
     estrada do leste que se estende desde os Portos Cinzentos no extremo oeste
@@ -72,11 +87,12 @@
     leste e ao oeste você observa a continuação da grande estrada do leste.
   exits:
     east:
-      target_vnum: '8406'
+      target_vnum: 01010848406
     west:
-      target_vnum: '8404'
+      target_vnum: 01010848404
+  local_id: '8405'
   name: A Grande Estrada do Leste
-  vnum: '8405'
+  vnum: 01010848405
 - description: |-
     Você está caminhando sobre a grande Estrada do Leste.  Uma estranha
     sensação de temor invade seu coração.  Ao seu redor você observa a estrada
@@ -87,11 +103,16 @@
     Leste.
   exits:
     north:
-      target_vnum: '8418'
+      target_vnum: 01010848418
+    northeast:
+      target_vnum: 01010848417
+    northwest:
+      target_vnum: 01010848407
     west:
-      target_vnum: '8405'
+      target_vnum: 01010848405
+  local_id: '8406'
   name: A Grande Estrada do Leste
-  vnum: '8406'
+  vnum: 01010848406
 - description: |-
     Você está caminhando sobre a antiga Estrada do Leste, que corta grande
     parte das terras do norte no sentido leste-oeste, desde os Portos Cinzentos
@@ -101,9 +122,16 @@
     sudoeste você observa a continuação da grande Estrada do Leste.
   exits:
     north:
-      target_vnum: '8419'
+      target_vnum: 01010848419
+    northeast:
+      target_vnum: 01010848418
+    northwest:
+      target_vnum: 01010848408
+    southwest:
+      target_vnum: 01010848406
+  local_id: '8407'
   name: A Grande Estrada do Leste
-  vnum: '8407'
+  vnum: 01010848407
 - description: |-
     Uma estranha sensação toma conta do seu corpo e da sua mente.  Você está
     caminhando sobre a grande Estrada do Leste, que segue no sentido
@@ -114,9 +142,12 @@
     Leste.
   exits:
     east:
-      target_vnum: '8409'
+      target_vnum: 01010848409
+    southwest:
+      target_vnum: 01010848407
+  local_id: '8408'
   name: A Grande Estrada do Leste
-  vnum: '8408'
+  vnum: 01010848408
 - description: |-
     Você está caminhando sobre a grande Estrada do Leste, que corta grande
     parte das terras do norte no sentido leste-oeste.  Ao seu redor você observa
@@ -126,31 +157,39 @@
     cruzando o sublime rio Fontegris.
   exits:
     east:
-      target_vnum: '8422'
+      target_vnum: 01010848422
     west:
-      target_vnum: '8408'
+      target_vnum: 01010848408
+  local_id: '8409'
   name: A Grande Estrada do Leste
-  vnum: '8409'
+  vnum: 01010848409
 - description: "Você está caminhando entre as negras e apodrecidas árvores do Pântano\
     \ dos\nMosquitos.  ao seu redor você observa um solo extremamente úmido, cheio\
-    \ de\npoças de lama aqui e ali, e grandes trechos de juncos.  Uma horrível\nsensaÃ§Ã£o\
+    \ de\npoças de lama aqui e ali, e grandes trechos de juncos.  Uma horrível\nsensação\
     \ de angustia toma conta da sua mente.  Ã\x80 sua frente uma enorme nuvem\nde\
     \ mosquitos trazem as boas vindas se misturando ao ar e impregnando todo o\nambiente.\
     \  Ao oeste e ao sudoeste você observa a grande Estrada do Leste e\nao norte,\
     \ leste, noroeste e nordeste você observa o agonizante Pântano dos\nMosquitos."
   exits:
     east:
-      target_vnum: '8411'
+      target_vnum: 01010848411
     north:
-      target_vnum: '8415'
+      target_vnum: 01010848415
+    northeast:
+      target_vnum: 01010848412
+    northwest:
+      target_vnum: 01010848413
+    southwest:
+      target_vnum: 01010848402
     west:
-      target_vnum: '8401'
+      target_vnum: 01010848401
+  local_id: '8410'
   name: O Pântano dos Mosquitos
-  vnum: '8410'
+  vnum: 01010848410
 - description: "Você está caminhando aflito entre as torcidas e apodrecidas árvores\
     \ e\njuncos do traiçoeiro Pântano dos Mosquitos.  Ao seu redor você observa\n\
     várias poças de lama e um terreno extremamente úmido.  Alguns galhos negros\n\
-    secos formam uma sombria composiÃ§Ã£o de formas assustadoras e misteriosas.  Ã\x80\
+    secos formam uma sombria composição de formas assustadoras e misteriosas.  Ã\x80\
     \nsua frente e por todo o ambiente inúmeras nuvens de mosquitos se misturam ao\n\
     ar, dificultando sua respiração e sua movimentação.  Você olha para todos os\n\
     lados e percebe que todo o pântano está impregnado de pequeninos mosquitos.\n\
@@ -159,13 +198,18 @@
     \ você observa as horripilantes árvores negras do Pântano dos\nMosquitos."
   exits:
     north:
-      target_vnum: '8416'
+      target_vnum: 01010848416
+    northeast:
+      target_vnum: 01010848413
+    northwest:
+      target_vnum: 01010848414
+  local_id: '8411'
   name: O Pântano dos Mosquitos
-  vnum: '8411'
+  vnum: 01010848411
 - description: "Você está caminhando aflito entre as torcidas e apodrecidas árvores\
     \ e\njuncos do traiçoeiro Pântano dos Mosquitos.  Ao seu redor você observa\n\
     várias poças de lama e um terreno extremamente úmido.  Alguns galhos negros\n\
-    secos formam uma sombria composiÃ§Ã£o de formas assustadoras e misteriosas.  Ã\x80\
+    secos formam uma sombria composição de formas assustadoras e misteriosas.  Ã\x80\
     \nsua frente e por todo o ambiente inúmeras nuvens de mosquitos se misturam ao\n\
     ar, dificultando sua respiração e sua movimentação.  Você olha para todos os\n\
     lados e percebe que todo o pântano está impregnado de pequeninos mosquitos.\n\
@@ -174,13 +218,18 @@
     \ você observa as horripilantes árvores negras do Pântano dos\nMosquitos."
   exits:
     east:
-      target_vnum: '8413'
+      target_vnum: 01010848413
+    northwest:
+      target_vnum: 01010848415
+    southeast:
+      target_vnum: 01010848410
+  local_id: '8412'
   name: O Pântano dos Mosquitos
-  vnum: '8412'
+  vnum: 01010848412
 - description: "Você está caminhando aflito entre as torcidas e apodrecidas árvores\
     \ e\njuncos do traiçoeiro Pântano dos Mosquitos.  Ao seu redor você observa\n\
     várias poças de lama e um terreno extremamente úmido.  Alguns galhos negros\n\
-    secos formam uma sombria composiÃ§Ã£o de formas assustadoras e misteriosas.  Ã\x80\
+    secos formam uma sombria composição de formas assustadoras e misteriosas.  Ã\x80\
     \nsua frente e por todo o ambiente inúmeras nuvens de mosquitos se misturam ao\n\
     ar, dificultando sua respiração e sua movimentação.  Você olha para todos os\n\
     lados e percebe que todo o pântano está impregnado de pequeninos mosquitos.\n\
@@ -190,26 +239,42 @@
     Pântano dos Mosquitos."
   exits:
     east:
-      target_vnum: '8414'
+      target_vnum: 01010848414
+    northeast:
+      target_vnum: 01010848415
+    northwest:
+      target_vnum: 01010848416
+    southeast:
+      target_vnum: 01010848411
+    southwest:
+      target_vnum: 01010848410
     west:
-      target_vnum: '8412'
+      target_vnum: 01010848412
+  local_id: '8413'
   name: O Pântano dos Mosquitos
-  vnum: '8413'
+  vnum: 01010848413
 - description: "Você está caminhando entre as negras e apodrecidas árvores do Pântano\
     \ dos\nMosquitos.  ao seu redor você observa um solo extremamente úmido, cheio\
-    \ de\npoças de lama aqui e ali, e grandes trechos de juncos.  Uma horrível\nsensaÃ§Ã£o\
+    \ de\npoças de lama aqui e ali, e grandes trechos de juncos.  Uma horrível\nsensação\
     \ de angustia toma conta da sua mente.  Ã\x80 sua frente uma enorme nuvem\nde\
     \ mosquitos trazem as boas vindas se misturando ao ar e impregnando todo o\nambiente.\
     \  Ao noroeste e ao sudoeste você observa o agonizante Pântano dos\nMosquitos\
     \ e ao sudeste você observa através de algumas árvores do pântano as\nsuaves Colinas\
     \ do Vento."
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848416
+    southeast:
+      target_vnum: 01010848417
+    southwest:
+      target_vnum: 01010848411
+  local_id: '8414'
   name: O Pântano dos Mosquitos
-  vnum: '8414'
+  vnum: 01010848414
 - description: "Você está caminhando aflito entre as torcidas e apodrecidas árvores\
     \ e\njuncos do traiçoeiro Pântano dos Mosquitos.  Ao seu redor você observa\n\
     várias poças de lama e um terreno extremamente úmido.  Alguns galhos negros\n\
-    secos formam uma sombria composiÃ§Ã£o de formas assustadoras e misteriosas.  Ã\x80\
+    secos formam uma sombria composição de formas assustadoras e misteriosas.  Ã\x80\
     \nsua frente e por todo o ambiente inúmeras nuvens de mosquitos se misturam ao\n\
     ar, dificultando sua respiração e sua movimentação.  Você olha para todos os\n\
     lados e percebe que todo o pântano está impregnado de pequeninos mosquitos.\n\
@@ -218,15 +283,20 @@
     \ você observa as horripilantes árvores negras do Pântano dos\nMosquitos."
   exits:
     east:
-      target_vnum: '8416'
+      target_vnum: 01010848416
     south:
-      target_vnum: '8410'
+      target_vnum: 01010848410
+    southeast:
+      target_vnum: 01010848413
+    southwest:
+      target_vnum: 01010848412
+  local_id: '8415'
   name: O Pântano dos Mosquitos
-  vnum: '8415'
+  vnum: 01010848415
 - description: "Você está caminhando aflito entre as torcidas e apodrecidas árvores\
     \ e\njuncos do traiçoeiro Pântano dos Mosquitos.  Ao seu redor você observa\n\
     várias poças de lama e um terreno extremamente úmido.  Alguns galhos negros\n\
-    secos formam uma sombria composiÃ§Ã£o de formas assustadoras e misteriosas.  Ã\x80\
+    secos formam uma sombria composição de formas assustadoras e misteriosas.  Ã\x80\
     \nsua frente e por todo o ambiente inúmeras nuvens de mosquitos se misturam ao\n\
     ar, dificultando sua respiração e sua movimentação.  Você olha para todos os\n\
     lados e percebe que todo o pântano está impregnado de pequeninos mosquitos.\n\
@@ -235,11 +305,16 @@
     \ você observa as horripilantes árvores negras do Pântano dos\nMosquitos."
   exits:
     south:
-      target_vnum: '8411'
+      target_vnum: 01010848411
+    southeast:
+      target_vnum: 01010848414
+    southwest:
+      target_vnum: 01010848413
     west:
-      target_vnum: '8415'
+      target_vnum: 01010848415
+  local_id: '8416'
   name: O Pântano dos Mosquitos
-  vnum: '8416'
+  vnum: 01010848416
 - description: |-
     Você está caminhando sobre as suaves Colinas do Vento.  Ao seu redor você
     uma paisagem fantástica e monumental.  Um sublime mar verde é formado pelas
@@ -250,9 +325,14 @@
     apodrecidas.  Ao sudeste você observa a grande Estrada do leste.
   exits:
     east:
-      target_vnum: '8419'
+      target_vnum: 01010848419
+    northeast:
+      target_vnum: 01010848414
+    southeast:
+      target_vnum: 01010848406
+  local_id: '8417'
   name: As Colinas do Vento
-  vnum: '8417'
+  vnum: 01010848417
 - description: |-
     Magnífica!  Você está na base da grandiosa torre de observação construída
     sobre uma das Colinas do Vento.  A seu redor você observa suaves colinas e
@@ -262,11 +342,14 @@
     uma íngreme trilha você observa o topo da imponente torre de pedra.
   exits:
     south:
-      target_vnum: '8406'
+      target_vnum: 01010848406
+    southeast:
+      target_vnum: 01010848407
     up:
-      target_vnum: '8420'
+      target_vnum: 01010848420
+  local_id: '8418'
   name: A Base da Monumental Torre de Observação
-  vnum: '8418'
+  vnum: 01010848418
 - description: |-
     Você está caminhando sobre as suaves Colinas do Vento.  Ao seu redor você
     uma paisagem fantástica e monumental.  Um sublime mar verde é formado pelas
@@ -276,11 +359,12 @@
     observa a grande Estrada do leste.
   exits:
     south:
-      target_vnum: '8407'
+      target_vnum: 01010848407
     west:
-      target_vnum: '8417'
+      target_vnum: 01010848417
+  local_id: '8419'
   name: As Colinas do Vento
-  vnum: '8419'
+  vnum: 01010848419
 - description: |-
     Você está caminhando lentamente e com bastante atenção sobre umas das
     trilhas íngremes que dão acesso ao topo da magnífica torre de observação.
@@ -294,11 +378,12 @@
     base da monumental torre de observação.
   exits:
     down:
-      target_vnum: '8418'
+      target_vnum: 01010848418
     up:
-      target_vnum: '8421'
-  name: "Um Caminho Ã\x8Dngreme na Torre de ObservaÃ§Ã£o"
-  vnum: '8420'
+      target_vnum: 01010848421
+  local_id: '8420'
+  name: "Um Caminho Ã\x8Dngreme na Torre de Observação"
+  vnum: 01010848420
 - description: |-
     Você chegou ao topo da monumental torre de observação, chamada também de
     Amon Sûl e construída nos dias do Reinado do Norte.  Ao seu redor você
@@ -311,10 +396,11 @@
     da grande torre de observação você observa um trilha íngreme.
   exits:
     down:
-      target_vnum: '8420'
+      target_vnum: 01010848420
+  local_id: '8421'
   name: Amon Sûl, a Magnífica Torre de Observação
-  vnum: '8421'
-- description: "VocÃª estÃ¡ caminhando sobre a Ã\x9Altima Ponte, tambÃ©m chamada pelos\
+  vnum: 01010848421
+- description: "Você está caminhando sobre a Ã\x9Altima Ponte, também chamada pelos\
     \ sublimes\nelfos da Ponte de Mitheithel.  Ao seu redor você observa uma bela\
     \ ponte\nfeita com grandes pedras brancas e sustentada por três esplendorosos\
     \ arcos.\nSob a ponte você observa o veloz rio Fontegris cortando a terra no sentido\n\
@@ -323,15 +409,16 @@
     \ o veloz rio Fontegris."
   exits:
     east:
-      target_vnum: '8432'
+      target_vnum: 01010848432
     north:
-      target_vnum: '8423'
+      target_vnum: 01010848423
     south:
-      target_vnum: '8425'
+      target_vnum: 01010848425
     west:
-      target_vnum: '8409'
+      target_vnum: 01010848409
+  local_id: '8422'
   name: A Ponte de Mitheithel
-  vnum: '8422'
+  vnum: 01010848422
 - description: |-
     Você está dentro do veloz rio Fontegris, também chamado pelos elfos de
     Mitheithel.  As águas do Fontegris são extremamente perigosas devido a
@@ -339,19 +426,27 @@
     Ruidoságua.  Ao nordeste você observa a continuação do poderoso rio
     Fontegris e ao sul você observa uma bela ponte branca de pedra.
   exits:
+    northwest:
+      target_vnum: 01010848424
     south:
-      target_vnum: '8422'
+      target_vnum: 01010848422
+  local_id: '8423'
   name: O Rio Fontegris
-  vnum: '8423'
+  vnum: 01010848423
 - description: |-
     Você está dentro do veloz rio Fontegris, também chamado pelos elfos de
     Mitheithel.  As águas do Fontegris são extremamente perigosas devido a
     velocidade que segue desde a Charneca Etten até o encontro com o rio
     Ruidoságua.  Ao sudoeste você observa a continuação do poderoso rio
     Fontegris e ao nordeste você observa a perigosa Mata dos Trolls.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848422
+    southwest:
+      target_vnum: 01010848423
+  local_id: '8424'
   name: O Rio Fontegris
-  vnum: '8424'
+  vnum: 01010848424
 - description: |-
     Você está dentro do veloz rio Fontegris, também chamado pelos elfos de
     Mitheithel.  As águas do Fontegris são extremamente perigosas devido a
@@ -360,11 +455,12 @@
     ao norte você observa uma bela ponte branca de pedra.
   exits:
     north:
-      target_vnum: '8422'
+      target_vnum: 01010848422
     south:
-      target_vnum: '8426'
+      target_vnum: 01010848426
+  local_id: '8425'
   name: O Rio Fontegris
-  vnum: '8425'
+  vnum: 01010848425
 - description: |-
     Você está dentro do veloz rio Fontegris, também chamado pelos elfos de
     Mitheithel.  As águas do Fontegris são extremamente perigosas devido a
@@ -373,11 +469,12 @@
     ao sul você observa o encontro do rio Fontegris e o rio Ruidoságua.
   exits:
     north:
-      target_vnum: '8425'
+      target_vnum: 01010848425
     south:
-      target_vnum: '8427'
+      target_vnum: 01010848427
+  local_id: '8426'
   name: O Rio Fontegris
-  vnum: '8426'
+  vnum: 01010848426
 - description: |-
     Impressionante!  Você está navegando no encontro dos rios Fontegris e
     Ruidoságua, chamado também de rio Cinzento.  O volume de água é bastante
@@ -389,18 +486,26 @@
     você observa as águas volumosas do rio Cinzento.
   exits:
     north:
-      target_vnum: '8426'
+      target_vnum: 01010848426
+    northwest:
+      target_vnum: 01010848429
+    southwest:
+      target_vnum: 01010848428
+  local_id: '8427'
   name: O Rio Cinzento
-  vnum: '8427'
+  vnum: 01010848427
 - description: |-
     Você está navegando sobre as volumosas águas do rio Cinzento, formado do
     encontro dos rios Fontegris e Ruidoságua.  Ao seu redor você observa as
     belas águas do rio Cinzento e o poderoso som emitido pelas suas águas que
     correm rapidamente na direção do grande Mar.  Ao nordeste você observa o
     encontro dos rios Fontegris e Ruidoságua.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848427
+  local_id: '8428'
   name: O Rio Cinzento
-  vnum: '8428'
+  vnum: 01010848428
 - description: |-
     Você está navegando sobre as águas do maravilhoso rio Ruidoságua, também
     chamado pelos celestiais elfos de Bruinen.  Ao seu redor você observa as
@@ -408,18 +513,28 @@
     até o encontro com o veloz rio Fontegris.  Ao nordeste você observa as águas
     do rio Ruidoságua e ao sudoeste você observa o encontro dos rios Fontegris e
     Ruidoságua.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848430
+    southwest:
+      target_vnum: 01010848427
+  local_id: '8429'
   name: O Rio Ruidoságua
-  vnum: '8429'
+  vnum: 01010848429
 - description: |-
     Você está navegando sobre as águas do maravilhoso rio Ruidoságua, também
     chamado pelos celestiais elfos de Bruinen.  Ao seu redor você observa as
     águas do Ruidoságua, que nascem em Valfenda e seguem pelo Vau de Bruinen até
     o encontro com o veloz rio Fontegris.  Ao nordeste e sudoeste você observa
     as águas do rio Ruidoságua.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848431
+    southwest:
+      target_vnum: 01010848429
+  local_id: '8430'
   name: O Rio Ruidoságua
-  vnum: '8430'
+  vnum: 01010848430
 - description: |-
     Você está navegando sobre as águas do maravilhoso rio Ruidoságua, também
     chamado pelos celestiais elfos de Bruinen.  Ao seu redor você observa as
@@ -427,9 +542,14 @@
     Bruinen e seguem até o encontro com o veloz rio Fontegris.  Ao sudoeste você
     observa as águas do rio Ruidoságua e ao nordeste você observa o magnífico
     Vau de Bruinen.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848451
+    southwest:
+      target_vnum: 01010848430
+  local_id: '8431'
   name: O Rio Ruidoságua
-  vnum: '8431'
+  vnum: 01010848431
 - description: |-
     Você está caminhando sobre a grande Estrada do Leste, que corta grande
     parte das terras do norte no sentido leste-oeste.  Ao seu redor você observa
@@ -438,10 +558,13 @@
     cruzando o sublime rio Fontegris e ao sudeste você observa a continuação da
     grande Estrada do leste.
   exits:
+    southeast:
+      target_vnum: 01010848433
     west:
-      target_vnum: '8422'
+      target_vnum: 01010848422
+  local_id: '8432'
   name: A Grande Estrada do Leste
-  vnum: '8432'
+  vnum: 01010848432
 - description: |-
     Você está caminhando sobre a longa Estrada do Leste.  Ao seu redor o
     silêncio reina absoluto.  A estrada neste ponto parece ter ficado com ares
@@ -451,11 +574,14 @@
     Estrada do Leste.
   exits:
     east:
-      target_vnum: '8434'
+      target_vnum: 01010848434
     north:
-      target_vnum: '8442'
+      target_vnum: 01010848442
+    northeast:
+      target_vnum: 01010848432
+  local_id: '8433'
   name: A Grande Estrada do Leste
-  vnum: '8433'
+  vnum: 01010848433
 - description: |-
     Você está caminhando sobre a longa Estrada do Leste.  Ao seu redor o
     silêncio reina absoluto.  A estrada neste ponto parece ter ficado com ares
@@ -465,13 +591,14 @@
     do Leste.
   exits:
     east:
-      target_vnum: '8435'
+      target_vnum: 01010848435
     north:
-      target_vnum: '8443'
+      target_vnum: 01010848443
     west:
-      target_vnum: '8433'
+      target_vnum: 01010848433
+  local_id: '8434'
   name: A Grande Estrada do Leste
-  vnum: '8434'
+  vnum: 01010848434
 - description: |-
     Você está caminhando sobre a grande Estrada do Leste, que corta grande
     parte das terras do norte no sentido leste-oeste.  Ao seu redor você observa
@@ -481,10 +608,13 @@
     Fontegris.  Ao oeste e ao nordeste você observa a continuação da grande
     Estrada do Leste.
   exits:
+    northwest:
+      target_vnum: 01010848436
     west:
-      target_vnum: '8434'
+      target_vnum: 01010848434
+  local_id: '8435'
   name: A Grande Estrada do Leste
-  vnum: '8435'
+  vnum: 01010848435
 - description: |-
     Você está sobre a longa Estrada do Leste, que corta grande parte das
     terras do norte no sentido oeste-leste, desde os Portos Cinzentos até as
@@ -495,9 +625,12 @@
     oeste e ao leste você observa um imenso campo verde.
   exits:
     east:
-      target_vnum: '8437'
+      target_vnum: 01010848437
+    southwest:
+      target_vnum: 01010848435
+  local_id: '8436'
   name: O Início da Monumental Estrada do Leste no Extremo Leste
-  vnum: '8436'
+  vnum: 01010848436
 - description: |-
     Você está caminhando sobre um imenso campo aberto.  Ao seu redor você
     observa grandes manchas verdes de vegetação rasteira cobrindo o campo e
@@ -510,11 +643,12 @@
     campo aberto.
   exits:
     east:
-      target_vnum: '8438'
+      target_vnum: 01010848438
     west:
-      target_vnum: '8436'
+      target_vnum: 01010848436
+  local_id: '8437'
   name: Um Imenso Campo Aberto
-  vnum: '8437'
+  vnum: 01010848437
 - description: |-
     Você está andando sobre um magnífico campo aberto.  Ao seu redor você
     observa algumas árvores espalhadas aleatoriamente e grandes manchas verdes
@@ -522,10 +656,13 @@
     rochas e poções de areia.  Ao leste você observa as monumentais Montanhas
     Sombrias.  Ao oeste e ao nordeste você observa o gigantesco campo aberto.
   exits:
+    northwest:
+      target_vnum: 01010848439
     west:
-      target_vnum: '8437'
+      target_vnum: 01010848437
+  local_id: '8438'
   name: Um Imenso Campo Aberto
-  vnum: '8438'
+  vnum: 01010848438
 - description: |-
     Você está sobre um grande campo aberto.  Ao seu redor você observa
     algumas árvores espalhadas sobre o campo formando confortáveis sombras
@@ -537,27 +674,40 @@
     continuação do monumental campo aberto.
   exits:
     east:
-      target_vnum: '8451'
+      target_vnum: 01010848451
+    southeast:
+      target_vnum: 01010848440
+    southwest:
+      target_vnum: 01010848438
+  local_id: '8439'
   name: Um Imenso Campo Aberto
-  vnum: '8439'
+  vnum: 01010848439
 - description: |-
     Você está caminhando calmamente sobre um confortável campo coberto por
     uma perfumada camada de grama e flores.  Ao seu redor você observa algumas
     árvores com belos frutos e pequenos ninhos de pássaros.  Ao leste você
     observa as Montanhas Sombrias e seus picos.  Ao noroeste você observa um
     imenso campo aberto e ao sudeste você observa um tranqüilo campo verde.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848439
+    southeast:
+      target_vnum: 01010848441
+  local_id: '8440'
   name: Um Campo Verde
-  vnum: '8440'
+  vnum: 01010848440
 - description: |-
     Você está sobre um maravilhoso e agradável campo verde.  Ao seu redor
     você observa cobrindo todo o campo uma bela camada de grama e algumas
     árvores frondosas.  Confortáveis brisas vindas do sul deixam o ambiente
     ainda mais agradável.  Ao leste você observa as Montanhas Sombrias e seus
     imponentes picos.  Ao noroeste você observa um lindo campo verde.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848440
+  local_id: '8441'
   name: Um Campo Verde
-  vnum: '8441'
+  vnum: 01010848441
 - description: |-
     Você está caminhando entre frondosas árvores e alguns galhos da grande
     Mata dos Trolls.  Ao seu redor você observa centenas de árvores silvestres,
@@ -569,10 +719,15 @@
     noroeste e ao nordeste você observa as árvores silvestres da Mata dos
     Trolls.  Ao sul você observa a grande Estrada do Leste.
   exits:
+    northeast:
+      target_vnum: 01010848444
+    northwest:
+      target_vnum: 01010848445
     south:
-      target_vnum: '8433'
+      target_vnum: 01010848433
+  local_id: '8442'
   name: A Mata dos Trolls
-  vnum: '8442'
+  vnum: 01010848442
 - description: |-
     Você está caminhando entre frondosas árvores e alguns galhos da grande
     Mata dos Trolls.  Ao seu redor você observa centenas de árvores silvestres,
@@ -584,10 +739,15 @@
     noroeste e ao nordeste você observa as árvores silvestres da Mata dos
     Trolls.  Ao sul você observa a grande Estrada do Leste.
   exits:
+    northeast:
+      target_vnum: 01010848445
+    northwest:
+      target_vnum: 01010848446
     south:
-      target_vnum: '8434'
+      target_vnum: 01010848434
+  local_id: '8443'
   name: A Mata dos Trolls
-  vnum: '8443'
+  vnum: 01010848443
 - description: |-
     Você está andando entre as belas árvores e alguns galhos da grande Mata
     dos Trolls.  Ao seu redor você observa alguns imponentes e antigos pinheiros
@@ -597,9 +757,14 @@
     melhor palco e da maior platéia para a sua melodia.  Ao nordeste e ao
     sudeste você observa você observa as maravilhosas e frondosas árvores
     silvestres da Mata dos Trolls.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848448
+    southeast:
+      target_vnum: 01010848442
+  local_id: '8444'
   name: A Mata dos Trolls
-  vnum: '8444'
+  vnum: 01010848444
 - description: |-
     Você está andando entre as belas árvores e alguns galhos da grande Mata
     dos Trolls.  Ao seu redor você observa alguns imponentes e antigos pinheiros
@@ -612,9 +777,14 @@
     Ao norte você observa uma estranha toca pedras.
   exits:
     north:
-      target_vnum: '8447'
+      target_vnum: 01010848447
+    southeast:
+      target_vnum: 01010848443
+    southwest:
+      target_vnum: 01010848442
+  local_id: '8445'
   name: A Mata dos Trolls
-  vnum: '8445'
+  vnum: 01010848445
 - description: |-
     Você está andando entre as belas árvores e alguns galhos da grande Mata
     dos Trolls.  Ao seu redor você observa alguns imponentes e antigos pinheiros
@@ -624,9 +794,14 @@
     melhor palco e da maior platéia para a sua melodia.  Ao noroeste e ao
     sudoeste você observa você observa as maravilhosas e frondosas árvores
     silvestres da Mata dos Trolls.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848449
+    southwest:
+      target_vnum: 01010848443
+  local_id: '8446'
   name: A Mata dos Trolls
-  vnum: '8446'
+  vnum: 01010848446
 - description: |-
     Você está dentro de uma grande toca rochosa.  Ao seu redor você observa
     vários ossos velhos, grandes vasilhas vazias e alguns potes quebrados.  Nas
@@ -635,9 +810,10 @@
     vindo da Mata dos Trolls.
   exits:
     south:
-      target_vnum: '8445'
+      target_vnum: 01010848445
+  local_id: '8447'
   name: A Toca dos Trolls
-  vnum: '8447'
+  vnum: 01010848447
 - description: |-
     Você está caminhando entre frondosas árvores e alguns galhos da grande
     Mata dos Trolls.  Ao seu redor você observa centenas de árvores silvestres,
@@ -650,9 +826,14 @@
     Trolls.
   exits:
     east:
-      target_vnum: '8449'
+      target_vnum: 01010848449
+    northwest:
+      target_vnum: 01010848450
+    southwest:
+      target_vnum: 01010848444
+  local_id: '8448'
   name: A Mata dos Trolls
-  vnum: '8448'
+  vnum: 01010848448
 - description: |-
     Você está andando entre as belas árvores e alguns galhos da grande Mata
     dos Trolls.  Ao seu redor você observa alguns imponentes e antigos pinheiros
@@ -663,22 +844,32 @@
     sudeste você observa você observa as maravilhosas e frondosas árvores
     silvestres da Mata dos Trolls.
   exits:
+    northeast:
+      target_vnum: 01010848450
+    southeast:
+      target_vnum: 01010848446
     west:
-      target_vnum: '8448'
+      target_vnum: 01010848448
+  local_id: '8449'
   name: A Mata dos Trolls
-  vnum: '8449'
+  vnum: 01010848449
 - description: "Você está caminhando tranqüilamente entre as frondosas e esplendorosas\n\
     árvores silvestres da Mata dos Trolls.  Ao seu redor você observa formosas\nárvores,\
     \ alguns pequenos arbustos verdes e sobre o solo da mata uma bela\ncamada verde\
     \ de grama coberta em algumas partes por várias folhas secas.\nSobre as árvores\
     \ em seus galhos, você observa agitados ninhos cheios de\nfilhotes de pequeninos\
     \ e curiosos pássaros, que procuram o melhor palco para\ncantarem as suas suaves\
-    \ melodias.  Ã\x80 sua frente vocÃª observa trÃªs terrÃ­veis\ntrolls prestes a\
-    \ lhe atacar.  Ao sudeste e ao sudoeste você observa as\nlindas árvores silvestres\
+    \ melodias.  Ã\x80 sua frente você observa três terríveis\ntrolls prestes a lhe\
+    \ atacar.  Ao sudeste e ao sudoeste você observa as\nlindas árvores silvestres\
     \ da Mata dos trolls."
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 01010848449
+    southwest:
+      target_vnum: 01010848448
+  local_id: '8450'
   name: A Mata dos Trolls
-  vnum: '8450'
+  vnum: 01010848450
 - description: |-
     Você está sobre as tranqüilas águas do rio ruidoságua no magnífico Vau de
     Bruinen.  Ao seu redor você observa inúmeras árvores frondosas nas encostas
@@ -690,13 +881,16 @@
     do rio ruidoságua, seguindo rumo ao encontro com o rio Fontegris.
   exits:
     north:
-      target_vnum: '8452'
+      target_vnum: 01010848452
     south:
-      target_vnum: '8453'
+      target_vnum: 01010848453
+    southwest:
+      target_vnum: 01010848431
     west:
-      target_vnum: '8439'
+      target_vnum: 01010848439
+  local_id: '8451'
   name: O Esplendoroso Vau de Bruinen
-  vnum: '8451'
+  vnum: 01010848451
 - description: |-
     Você está caminhando sobre a encosta de uma das monumentais montanhas que
     formam o Vau de Bruinen.  Ao seu redor você observa várias árvores e muitas
@@ -706,9 +900,10 @@
     Bruinen.
   exits:
     south:
-      target_vnum: '8451'
+      target_vnum: 01010848451
+  local_id: '8452'
   name: A Encosta da Montanha no Vau de Bruinen
-  vnum: '8452'
+  vnum: 01010848452
 - description: |-
     Você está escalando com muita dificuldade a encosta de uma das montanhas
     que formam mais a baixo o Vau de Bruinen.  Ao seu redor você observa
@@ -718,11 +913,12 @@
     uma íngreme e perigosa trilha rumo ao topo da grandiosa montanha.
   exits:
     north:
-      target_vnum: '8451'
+      target_vnum: 01010848451
     up:
-      target_vnum: '8454'
+      target_vnum: 01010848454
+  local_id: '8453'
   name: A Encosta da Montanha no Vau de Bruinen
-  vnum: '8453'
+  vnum: 01010848453
 - description: |-
     Você está caminhando cuidadosamente sobre uma íngreme trilha numa das
     montanhas que formam o maravilhoso Vau de Bruinen.  Ao seu redor você
@@ -738,11 +934,12 @@
     seguindo rumo ao topo da montanha.
   exits:
     down:
-      target_vnum: '8453'
+      target_vnum: 01010848453
     up:
-      target_vnum: '8455'
-  name: "Uma Perigosa Trilha Ã\x8Dngreme na MagnÃ­fica Montanha"
-  vnum: '8454'
+      target_vnum: 01010848455
+  local_id: '8454'
+  name: "Uma Perigosa Trilha Ã\x8Dngreme na Magnífica Montanha"
+  vnum: 01010848454
 - description: |-
     Você está caminhando com muito cuidado sobre uma perigosa trilha íngreme
     que corta desde a base uma das montanhas que dão forma ao Vau de Bruinen.
@@ -758,10 +955,13 @@
     nordeste você observa uma outra trilha, um pouco mais estreita, aberta na
     encosta da montanha.
   exits:
+    northwest:
+      target_vnum: 01010848456
     up:
-      target_vnum: '8454'
-  name: "Uma Perigosa Trilha Ã\x8Dngreme na MagnÃ­fica Montanha"
-  vnum: '8455'
+      target_vnum: 01010848454
+  local_id: '8455'
+  name: "Uma Perigosa Trilha Ã\x8Dngreme na Magnífica Montanha"
+  vnum: 01010848455
 - description: |-
     Você está caminhando sobre uma estreita trilha aberta na encosta da
     montanha.  Ao seu redor você observa algumas árvores e grandes pinheiros,
@@ -771,9 +971,14 @@
     maravilhosa melodia.  Ao nordeste você observa a continuação da estreita
     trilha e ao sudoeste você observa uma perigosa trilha íngreme na encosta da
     montanha.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848457
+    southwest:
+      target_vnum: 01010848455
+  local_id: '8456'
   name: Uma Estreita Trilha na Encosta da Montanha
-  vnum: '8456'
+  vnum: 01010848456
 - description: |-
     Você está caminhando sobre uma estreita trilha aberta na encosta da
     montanha.  Ao seu redor você observa algumas árvores e grandes pinheiros,
@@ -788,9 +993,12 @@
     Valfenda.
   exits:
     north:
-      target_vnum: '8458'
+      target_vnum: 01010848458
+    southwest:
+      target_vnum: 01010848456
+  local_id: '8457'
   name: Uma Estreita Trilha na Encosta da Montanha
-  vnum: '8457'
+  vnum: 01010848457
 - description: |-
     Você está caminhando sobre uma maravilhosa ponte de pedra, que liga a
     encosta da grande montanha a celestial Valfenda.  Ao seu redor você observa
@@ -804,10 +1012,13 @@
     desenhos em alto relevo de folhas e caules, que cerca este esplendoroso
     paraíso.
   exits:
+    northwest:
+      target_vnum: 01010848459
     south:
-      target_vnum: '8457'
+      target_vnum: 01010848457
+  local_id: '8458'
   name: A Ponte de Pedra
-  vnum: '8458'
+  vnum: 01010848458
 - description: |-
     Magnífica!  Você está dentro da celestial Valfenda, casa do sábio elfo
     Elrond e dos senhores de Eldar, imponentes elfos que não temem o poder e nem
@@ -824,9 +1035,16 @@
     você observa o grande portão de madeira de Valfenda.
   exits:
     east:
-      target_vnum: '8460'
+      target_vnum: 01010848460
+    northeast:
+      target_vnum: 01010848462
+    northwest:
+      target_vnum: 01010848465
+    southwest:
+      target_vnum: 01010848458
+  local_id: '8459'
   name: Valfenda, a Casa dos Senhores de Eldar
-  vnum: '8459'
+  vnum: 01010848459
 - description: |-
     Você está caminhando sobre o belíssimo e amplo pátio de entrada da
     gloriosa Valfenda.  Ao seu redor você observa inúmeras cachoeiras que brotam
@@ -839,10 +1057,17 @@
     ao sudeste você observa maravilhosos e bem cuidados jardins.  Ao noroeste
     você observa uma passarela de pedras.
   exits:
+    northeast:
+      target_vnum: 01010848465
+    northwest:
+      target_vnum: 01010848464
+    southeast:
+      target_vnum: 01010848461
     west:
-      target_vnum: '8459'
+      target_vnum: 01010848459
+  local_id: '8460'
   name: O Majestoso Pátio de Entrada
-  vnum: '8460'
+  vnum: 01010848460
 - description: "Você está caminhando entre as belíssimas e perfumadas flores e arbustos\n\
     dos maravilhosos jardins de Valfenda.  Ao seu redor você observa sublimes\nflores\
     \ de todos os tamanhos, formas e perfumes, e belos arbustos verdes.  Ã\x80\nsua\
@@ -852,9 +1077,14 @@
     \ forte.  Alguns pássaros sobrevoam o encantador jardim e outros\npousam em suas\
     \ flores.  Ao noroeste você observa o amplo pátio de entrada da\nbela Valfenda\
     \ e ao nordeste você observa lindas cachoeiras."
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848460
+    northwest:
+      target_vnum: 01010848463
+  local_id: '8461'
   name: Os Esplendorosos Jardins de Valfenda
-  vnum: '8461'
+  vnum: 01010848461
 - description: "Você está caminhando entre as belíssimas e perfumadas flores e arbustos\n\
     dos maravilhosos jardins de Valfenda.  Ao seu redor você observa sublimes\nflores\
     \ de todos os tamanhos, formas e perfumes, e belos arbustos verdes.  Ã\x80\nsua\
@@ -863,9 +1093,12 @@
     \ que brotam das grandes montanhas que protegem Valfenda, fica\ncada vez mais\
     \ forte.  Alguns pássaros sobrevoam o encantador jardim e outros\npousam em suas\
     \ flores.  Ao sudeste você observa o amplo pátio de entrada de\nValfenda."
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 01010848459
+  local_id: '8462'
   name: Os Esplendorosos Jardins de Valfenda
-  vnum: '8462'
+  vnum: 01010848462
 - description: |-
     Você está sob as agradáveis águas das belas cachoeiras de Valfenda, que
     brotam das grandes montanhas e seguem até o Vau de Bruinen.  Ao seu redor
@@ -876,9 +1109,14 @@
     aos pés das montanhas, pelo sublime rio Ruidoságua cortando o Vau de
     Bruinen.  Ao noroeste e ao sudoeste você observa os majestosos jardins de
     Valfenda.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848464
+    southwest:
+      target_vnum: 01010848461
+  local_id: '8463'
   name: As Monumentais Cachoeiras de Valfenda
-  vnum: '8463'
+  vnum: 01010848463
 - description: "Você está caminhando entre as belíssimas e perfumadas flores e arbustos\n\
     dos maravilhosos jardins de Valfenda.  Ao seu redor você observa sublimes\nflores\
     \ de todos os tamanhos, formas e perfumes, e belos arbustos verdes.  Ã\x80\nsua\
@@ -888,9 +1126,14 @@
     \  Alguns pássaros sobrevoam o encantador jardim e outros\npousam em suas flores.\
     \  Ao sudeste você observa lindas cachoeiras e ao\nsudoeste você observa o amplo\
     \ pátio de entrada de Valfenda."
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 01010848463
+    southwest:
+      target_vnum: 01010848460
+  local_id: '8464'
   name: Os Esplendorosos Jardins de Valfenda
-  vnum: '8464'
+  vnum: 01010848464
 - description: |-
     Você está caminhando sobre uma maravilhosa passarela feita com lindas
     pedras brancas majestosamente esculpidas.  Ao seu redor você observa a
@@ -904,9 +1147,14 @@
     celestial cidade de Valfenda.
   exits:
     north:
-      target_vnum: '8466'
+      target_vnum: 01010848466
+    southeast:
+      target_vnum: 01010848460
+    southwest:
+      target_vnum: 01010848459
+  local_id: '8465'
   name: Uma Bela Passarela de Pedras Brancas
-  vnum: '8465'
+  vnum: 01010848465
 - description: |-
     Você está caminhando sobre uma maravilhosa passarela feita com lindas
     pedras brancas majestosamente esculpidas.  Ao seu redor você observa a
@@ -919,11 +1167,12 @@
     sul você observa a continuação da passarela de pedras.
   exits:
     north:
-      target_vnum: '8467'
+      target_vnum: 01010848467
     south:
-      target_vnum: '8465'
+      target_vnum: 01010848465
+  local_id: '8466'
   name: Uma Bela Passarela de Pedras Brancas
-  vnum: '8466'
+  vnum: 01010848466
 - description: |-
     Você está andando entre perfumadas e coloridas flores de umas das
     magníficas praças de Valfenda.  Ao seu redor você observa alguns bancos de
@@ -934,13 +1183,18 @@
     belas casas com monumentais detalhes em forma de caules e folhas.
   exits:
     east:
-      target_vnum: '8469'
+      target_vnum: 01010848469
     north:
-      target_vnum: '8470'
+      target_vnum: 01010848470
+    northwest:
+      target_vnum: 01010848471
     south:
-      target_vnum: '8466'
+      target_vnum: 01010848466
+    southeast:
+      target_vnum: 01010848468
+  local_id: '8467'
   name: Uma Maravilhosa Praça Florida
-  vnum: '8467'
+  vnum: 01010848467
 - description: |-
     Você está dentro de uma maravilhosa casa élfica da celestial cidade de
     Imladris.  Ao seu redor você observa magníficos móveis feitos de madeira com
@@ -950,9 +1204,12 @@
     seus olhos através de uma ampla janela, você observa suaves cachoeiras e a
     exuberante vegetação nas encostas das montanhas.  Ao noroeste você observa
     uma linda porta de madeira.
-  exits: {}
-  name: "Uma BelÃ­ssima Casa Ã\x89lfica"
-  vnum: '8468'
+  exits:
+    northeast:
+      target_vnum: 01010848467
+  local_id: '8468'
+  name: "Uma Belíssima Casa Ã\x89lfica"
+  vnum: 01010848468
 - description: |-
     Você está dentro de uma belíssima casa élfica.  Ao seu redor você observa
     alguns móveis feitos de um tipo de madeira de tom bastante claro, no chão
@@ -964,9 +1221,10 @@
     madeira.
   exits:
     west:
-      target_vnum: '8467'
+      target_vnum: 01010848467
+  local_id: '8469'
   name: "Uma Esplendorosa Casa Ã\x89lfica"
-  vnum: '8469'
+  vnum: 01010848469
 - description: |-
     Uma agradável sensação toma conta da sua mente!  Você está caminhando
     entre milhares de flores de várias formas, cores e perfumes.  Você está na
@@ -978,11 +1236,12 @@
     das flores e ao sul você observa uma bela praça florida.
   exits:
     north:
-      target_vnum: '8472'
+      target_vnum: 01010848472
     south:
-      target_vnum: '8467'
+      target_vnum: 01010848467
+  local_id: '8470'
   name: A Alameda das Flores
-  vnum: '8470'
+  vnum: 01010848470
 - description: |-
     Você está dentro de uma maravilhosa casa élfica da celestial cidade de
     Imladris.  Ao seu redor você observa magníficos móveis feitos de madeira com
@@ -992,9 +1251,12 @@
     seus olhos através de uma ampla janela, você observa suaves cachoeiras e a
     exuberante vegetação nas encostas das montanhas.  Ao noroeste você observa
     uma linda porta de madeira.
-  exits: {}
-  name: "Uma MagnÃ­fica Casa Ã\x89lfica"
-  vnum: '8471'
+  exits:
+    southwest:
+      target_vnum: 01010848467
+  local_id: '8471'
+  name: "Uma Magnífica Casa Ã\x89lfica"
+  vnum: 01010848471
 - description: |-
     Uma agradável sensação toma conta da sua mente!  Você está caminhando
     entre milhares de flores de várias formas, cores e perfumes.  Você está na
@@ -1005,10 +1267,13 @@
     melodia produzida pelas suas águas.  Ao nordeste você observa a continuação
     da passarela branca e ao sul você observa a extensa alameda das flores.
   exits:
+    northwest:
+      target_vnum: 01010848474
     south:
-      target_vnum: '8470'
+      target_vnum: 01010848470
+  local_id: '8472'
   name: A Alameda das Flores
-  vnum: '8472'
+  vnum: 01010848472
 - description: |-
     Você está dentro de uma maravilhosa casa élfica da celestial cidade de
     Imladris.  Ao seu redor você observa magníficos móveis feitos de madeira com
@@ -1018,9 +1283,12 @@
     seus olhos através de uma ampla janela, você observa suaves cachoeiras e a
     exuberante vegetação nas encostas das montanhas.  Ao noroeste você observa
     uma linda porta de madeira.
-  exits: {}
-  name: "Uma BelÃ­ssima Casa Ã\x89lfica"
-  vnum: '8473'
+  exits:
+    northeast:
+      target_vnum: 01010848474
+  local_id: '8473'
+  name: "Uma Belíssima Casa Ã\x89lfica"
+  vnum: 01010848473
 - description: |-
     Você está caminhando sobre uma maravilhosa passarela feita com lindas
     pedras brancas majestosamente esculpidas.  Ao seu redor você observa a
@@ -1032,9 +1300,16 @@
     veloz rio Fontegris.  Ao nordeste você observa a continuação da passarela
     de pedras, ao sudoeste você observa uma linda alameda de flores e ao sudeste
     você observa uma majestosa casa élfica.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848475
+    southeast:
+      target_vnum: 01010848473
+    southwest:
+      target_vnum: 01010848472
+  local_id: '8474'
   name: Uma Magnífica Passarela de Pedras Brancas
-  vnum: '8474'
+  vnum: 01010848474
 - description: |-
     Você está caminhando sobre uma maravilhosa passarela feita com lindas
     pedras brancas majestosamente esculpidas.  Ao seu redor você observa a
@@ -1045,9 +1320,14 @@
     passarela o belo rio Ruidoságua seguindo pelo Vau Bruinen ao encontro do
     veloz rio Fontegris.  Ao sudoeste você observa a continuação da passarela de
     pedras e ao nordeste você observa um amplo pátio aberto.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848478
+    southwest:
+      target_vnum: 01010848474
+  local_id: '8475'
   name: Uma Magnífica Passarela de Pedras Brancas
-  vnum: '8475'
+  vnum: 01010848475
 - description: |-
     Você está dentro de uma belíssima casa élfica.  Ao seu redor você observa
     alguns móveis feitos de um tipo de madeira de tom bastante claro, no chão
@@ -1059,9 +1339,10 @@
     madeira.
   exits:
     north:
-      target_vnum: '8478'
+      target_vnum: 01010848478
+  local_id: '8476'
   name: "Uma Esplendorosa Casa Ã\x89lfica"
-  vnum: '8476'
+  vnum: 01010848476
 - description: |-
     Você está dentro de uma maravilhosa casa élfica da celestial cidade de
     Imladris.  Ao seu redor você observa magníficos móveis feitos de madeira com
@@ -1071,9 +1352,12 @@
     seus olhos através de uma ampla janela, você observa suaves cachoeiras e a
     exuberante vegetação nas encostas das montanhas.  Ao noroeste você observa
     uma linda porta de madeira.
-  exits: {}
-  name: "Uma BelÃ­ssima Casa Ã\x89lfica"
-  vnum: '8477'
+  exits:
+    northeast:
+      target_vnum: 01010848478
+  local_id: '8477'
+  name: "Uma Belíssima Casa Ã\x89lfica"
+  vnum: 01010848477
 - description: |-
     Você está num confortável e agradável pátio no centro de Valfenda.  Ao
     seu redor você observa imensas e frondosas árvores que circundam o pátio.
@@ -1085,13 +1369,20 @@
     élficas.  Ao sudoeste você observa uma bela passarela de pedras.
   exits:
     east:
-      target_vnum: '8479'
+      target_vnum: 01010848479
     north:
-      target_vnum: '8481'
+      target_vnum: 01010848481
+    northwest:
+      target_vnum: 01010848480
     south:
-      target_vnum: '8476'
+      target_vnum: 01010848476
+    southeast:
+      target_vnum: 01010848477
+    southwest:
+      target_vnum: 01010848475
+  local_id: '8478'
   name: Um Amplo Pátio no Centro de Imladris
-  vnum: '8478'
+  vnum: 01010848478
 - description: |-
     Você está dentro de uma maravilhosa casa élfica da celestial cidade de
     Imladris.  Ao seu redor você observa magníficos móveis feitos de madeira com
@@ -1103,9 +1394,10 @@
     linda porta de madeira.
   exits:
     west:
-      target_vnum: '8478'
-  name: "Uma MagnÃ­fica Casa Ã\x89lfica"
-  vnum: '8479'
+      target_vnum: 01010848478
+  local_id: '8479'
+  name: "Uma Magnífica Casa Ã\x89lfica"
+  vnum: 01010848479
 - description: |-
     Você está dentro de uma belíssima casa élfica.  Ao seu redor você observa
     alguns móveis feitos de um tipo de madeira de tom bastante claro, no chão
@@ -1115,9 +1407,12 @@
     suavemente a tranqüilizante melodia emitida pelas brilhantes cachoeiras que
     cercam toda a gloriosa Valfenda.  Ao sudoeste você observa uma bela porta de
     madeira.
-  exits: {}
+  exits:
+    southwest:
+      target_vnum: 01010848478
+  local_id: '8480'
   name: "Uma Esplendorosa Casa Ã\x89lfica"
-  vnum: '8480'
+  vnum: 01010848480
 - description: |-
     Magnífica!  Você está dentro da imponente e celestial casa do senhor de
     Valfenda, poderoso entre os elfos e os homens.  Ao seu redor você observa um
@@ -1132,11 +1427,16 @@
     observa os jardins de Elrond.  Ao sul você observa um agradável pátio.
   exits:
     north:
-      target_vnum: '8484'
+      target_vnum: 01010848484
+    northeast:
+      target_vnum: 01010848482
+    northwest:
+      target_vnum: 01010848483
     south:
-      target_vnum: '8478'
+      target_vnum: 01010848478
+  local_id: '8481'
   name: A Monumental Casa do Senhor de Valfenda
-  vnum: '8481'
+  vnum: 01010848481
 - description: |-
     Você está caminhando lentamente sobre uma agradável e perfumada camada de
     grama, circundada por milhares de flores brancas, azuis e amarelas.  Ao seu
@@ -1144,9 +1444,14 @@
     encosta íngreme da montanha trazendo o verde intenso e o perfume da natureza
     para o magnífico jardim alto do senhor de Valfenda.  Ao nordeste e ao
     sudeste você observa o grande salão da casa de Elrond.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010848484
+    southeast:
+      target_vnum: 01010848481
+  local_id: '8482'
   name: Os Monumentais Jardins de Elrond
-  vnum: '8482'
+  vnum: 01010848482
 - description: |-
     Você está caminhando lentamente sobre uma agradável e perfumada camada de
     grama, circundada por milhares de flores brancas, azuis e amarelas.  Ao seu
@@ -1154,9 +1459,14 @@
     encosta íngreme da montanha trazendo o verde intenso e o perfume da natureza
     para o magnífico jardim alto do senhor de Valfenda.  Ao noroeste e ao
     sudoeste você observa o grande salão da casa de Elrond.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848484
+    southwest:
+      target_vnum: 01010848481
+  local_id: '8483'
   name: Os Monumentais Jardins de Elrond
-  vnum: '8483'
+  vnum: 01010848483
 - description: |-
     Você está dentro da celestial casa do senhor de Valfenda, Elrond,
     poderoso entre os elfos e os homens.  Ao seu redor você observa uma bela
@@ -1170,13 +1480,20 @@
     observa um corredor.  Ao sul você observa o grande salão da casa de Elrond.
   exits:
     north:
-      target_vnum: '8485'
+      target_vnum: 01010848485
+    northwest:
+      target_vnum: 01010848490
     south:
-      target_vnum: '8481'
+      target_vnum: 01010848481
+    southeast:
+      target_vnum: 01010848483
+    southwest:
+      target_vnum: 01010848482
     up:
-      target_vnum: '8486'
+      target_vnum: 01010848486
+  local_id: '8484'
   name: O Grande Salão da Casa de Elrond
-  vnum: '8484'
+  vnum: 01010848484
 - description: |-
     Você está caminhando sobre uma bela passarela de pedra.  Ao seu redor
     você observa todo o esplendor do grande salão da casa do senhor de Valfenda.
@@ -1185,11 +1502,12 @@
     tranqüila varanda.
   exits:
     south:
-      target_vnum: '8484'
+      target_vnum: 01010848484
     up:
-      target_vnum: '8495'
+      target_vnum: 01010848495
+  local_id: '8485'
   name: Uma Pequena Passarela Branca
-  vnum: '8485'
+  vnum: 01010848485
 - description: |-
     Você está dentro da magnífica casa do senhor de Valfenda, poderoso entre
     os elfos e os homens.  Ao seu redor você observa um longo corredor e
@@ -1198,15 +1516,18 @@
     noroeste e ao oeste você observa portas de madeira.
   exits:
     down:
-      target_vnum: '8484'
+      target_vnum: 01010848484
     north:
-      target_vnum: '8489'
+      target_vnum: 01010848489
+    northeast:
+      target_vnum: 01010848488
     up:
-      target_vnum: '8495'
+      target_vnum: 01010848495
     west:
-      target_vnum: '8487'
+      target_vnum: 01010848487
+  local_id: '8486'
   name: Um Longo Corredor
-  vnum: '8486'
+  vnum: 01010848486
 - description: |-
     Você está dentro da majestosa casa do senhor de Valfenda.  Ao seu redor
     você observa um belíssimo e confortável quarto.  No canto norte do quarto
@@ -1218,9 +1539,10 @@
     e suas belas cachoeiras.  Ao leste você observa uma bela porta de madeira.
   exits:
     east:
-      target_vnum: '8486'
+      target_vnum: 01010848486
+  local_id: '8487'
   name: Um Belo Quarto
-  vnum: '8487'
+  vnum: 01010848487
 - description: |-
     Você está dentro de uma belíssima sala na casa do senhor de Valfenda,
     Elrond, poderoso entre os elfos e os homens.  Ao seu redor você observa uma
@@ -1230,9 +1552,12 @@
     Imladris invadem a sala, trazendo paz e tranqüilidade.  No extremo sul da
     sala você observa três lindas cúpulas de cristal.  Ao sudeste você observa
     uma bela porta de madeira.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 01010848486
+  local_id: '8488'
   name: A Gloriosa Sala das Heranças
-  vnum: '8488'
+  vnum: 01010848488
 - description: |-
     Você está dentro da majestosa casa do senhor de Valfenda.  Ao seu redor
     você observa um belíssimo e confortável quarto.  No canto leste do quarto
@@ -1244,9 +1569,10 @@
     e suas belas cachoeiras.  Ao sul você observa uma bela porta de madeira.
   exits:
     south:
-      target_vnum: '8486'
+      target_vnum: 01010848486
+  local_id: '8489'
   name: Um Maravilhoso Quarto
-  vnum: '8489'
+  vnum: 01010848489
 - description: |-
     Você está caminhando tranqüilamente num longo corredor dentro da
     celestial casa do senhor de Valfenda.  Ao seu redor você observa belíssimos
@@ -1256,9 +1582,14 @@
     você observa a continuação do longo corredor.
   exits:
     east:
-      target_vnum: '8491'
+      target_vnum: 01010848491
+    southeast:
+      target_vnum: 01010848493
+    southwest:
+      target_vnum: 01010848484
+  local_id: '8490'
   name: Um Longo Corredor no Interior da Casa do Senhor de Valfenda
-  vnum: '8490'
+  vnum: 01010848490
 - description: |-
     Você está caminhando tranqüilamente num longo corredor da magnífica casa
     do senhor de Valfenda, Elrond, poderoso entre os elfos e os homens.  Ao seu
@@ -1271,18 +1602,24 @@
     Ao sudeste você observa um intenso brilho dourado iluminando um belo salão e
     ao oeste você observa a continuação do longo corredor.
   exits:
+    southeast:
+      target_vnum: 01010848492
     west:
-      target_vnum: '8490'
+      target_vnum: 01010848490
+  local_id: '8491'
   name: Um Longo Corredor no Interior da Casa do Senhor de Valfenda
-  vnum: '8491'
+  vnum: 01010848491
 - description: |-
     Você está dentro da magnífica e celestial casa do senhor de Valfenda, num
     grande e tranqüilo salão.  Ao seu redor você observa a total ausência de
     móveis, apenas uma fogueira acesa numa grande lareira, em meio a dois
     pilares entalhados.  Ao noroeste você observa um longo e largo corredor.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 01010848491
+  local_id: '8492'
   name: O Salão do Fogo
-  vnum: '8492'
+  vnum: 01010848492
 - description: |-
     Magnífico!  Você chegou num lugar mágico e glorioso.  Você está no
     conselho de Elrond, onde são discutidos os mais importantes assuntos para a
@@ -1298,9 +1635,12 @@
     passarela que segue na direção de uma majestosa cachoeira.
   exits:
     east:
-      target_vnum: '8494'
+      target_vnum: 01010848494
+    northeast:
+      target_vnum: 01010848490
+  local_id: '8493'
   name: O Conselho de Elrond
-  vnum: '8493'
+  vnum: 01010848493
 - description: |-
     Você está sob as agradáveis águas de uma bela cachoeira de Valfenda, que
     brota da grande montanha e segue até o Vau de Bruinen.  Ao seu redor você
@@ -1313,9 +1653,10 @@
     Elrond.
   exits:
     west:
-      target_vnum: '8493'
+      target_vnum: 01010848493
+  local_id: '8494'
   name: Uma Maravilhosa Cachoeira de Valfenda
-  vnum: '8494'
+  vnum: 01010848494
 - description: |-
     Você está dentro da magnífica casa do senhor de Valfenda, caminhando e
     observando tranqüilamente a belíssima paisagem da monumental Imladris.  Ao
@@ -1324,9 +1665,12 @@
     pedra.
   exits:
     down:
-      target_vnum: '8486'
+      target_vnum: 01010848486
+    northwest:
+      target_vnum: 01010848496
+  local_id: '8495'
   name: Uma Ampla Varanda na Casa de Elrond
-  vnum: '8495'
+  vnum: 01010848495
 - description: |-
     Você está dentro da magnífica casa do senhor de Valfenda, caminhando e
     observando tranqüilamente a belíssima paisagem da monumental Imladris.  Ao
@@ -1335,11 +1679,16 @@
     de madeira.
   exits:
     east:
-      target_vnum: '8498'
+      target_vnum: 01010848498
+    northwest:
+      target_vnum: 01010848497
     south:
-      target_vnum: '8499'
+      target_vnum: 01010848499
+    southwest:
+      target_vnum: 01010848495
+  local_id: '8496'
   name: Uma Ampla Varanda na Casa de Elrond
-  vnum: '8496'
+  vnum: 01010848496
 - description: |-
     Você está dentro de um majestoso quarto da casa do senhor de Valfenda.
     Ao seu redor você observa uma belíssima cama de madeira, esculpida
@@ -1348,9 +1697,12 @@
     do quarto, você observa alguns cálices de prata sobre uma bela mesa de
     madeira, cercada por três cadeiras.  Ao sudoeste você observa uma linda
     porta de madeira.
-  exits: {}
+  exits:
+    southwest:
+      target_vnum: 01010848496
+  local_id: '8497'
   name: Um Belo Quarto
-  vnum: '8497'
+  vnum: 01010848497
 - description: |-
     Você está dentro de um magnífico quarto.  Ao seu redor você observa belas
     estatuas de pedra, que iluminam o ambiente com imponente bacias de fogo.  Na
@@ -1362,9 +1714,10 @@
     livros feita de madeira.  Ao oeste você observa uma linda porta de madeira.
   exits:
     west:
-      target_vnum: '8496'
+      target_vnum: 01010848496
+  local_id: '8498'
   name: Os Aposentos de Elrond
-  vnum: '8498'
+  vnum: 01010848498
 - description: |-
     Você está dentro de um majestoso quarto.  Ao seu redor você observa belas
     estatuas de pedra, que iluminam o ambiente com belíssimas bacias de fogo.
@@ -1374,6 +1727,7 @@
     você observa uma bela porta de madeira.
   exits:
     north:
-      target_vnum: '8496'
+      target_vnum: 01010848496
+  local_id: '8499'
   name: O Quarto da Bela Arwen Undómiel
-  vnum: '8499'
+  vnum: 01010848499

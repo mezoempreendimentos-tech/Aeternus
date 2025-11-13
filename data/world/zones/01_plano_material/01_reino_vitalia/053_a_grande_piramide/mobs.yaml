@@ -1,10 +1,11 @@
-- description: "Ã\x89 uma pequena cobra, com escamas lisas como se fosse cerÃ¢mica.\
+- description: "Ã\x89 uma pequena cobra, com escamas lisas como se fosse cerâmica.\
     \  A mordida\nvenenosa desta cobra derrubou muitos faraós poderosos."
   keywords:
   - venenosa
   - cobra
+  long_desc: Uma pequena cobra venenosa serpenteia a seu redor.
   name: a horrível cobra
-  vnum: '5300'
+  vnum: '01010535300'
 - description: |-
     A cobra naja movimenta-se de forma sinuosa, rastejando de um lado para o
     outro, bem diante de você, exibindo sua incrível cabeça totalmente aberta,
@@ -13,16 +14,20 @@
   keywords:
   - cobra
   - naja
+  long_desc: |-
+    Uma enorme cobra naja ergue-se à sua frente e lentamente vai mostrando sua
+    explendorosa cabeça, que se abre como se fôra um enorme leque de escamas.
   name: a cobra naja
-  vnum: '5301'
+  vnum: '01010535301'
 - description: |-
     O mangusto é um roedor manhoso, um rápido caçador de perigosas cobras
     venenosas.  Ela cheira você, parecendo estar a procura de comida em suas
     mãos.
   keywords:
   - mangusto
+  long_desc: Um pequeno mangusto se esquiva pelo chão, caçando cobras.
   name: o pequeno mangusto
-  vnum: '5302'
+  vnum: '01010535302'
 - description: |-
     O guardião da pirâmide fez um juramento para destruir todos os ladrões de
     tumbas dos faraós.  Ele está totalmente vestido, dos pés a cabeça, com
@@ -30,14 +35,16 @@
   keywords:
   - guardiao
   - piramide
+  long_desc: O guardião da pirâmide protege as tumbas dos intrusos.
   name: o guardião da pirâmide
-  vnum: '5303'
+  vnum: '01010535303'
 - description: O ladrão esbarra em você, e em seguida volta a se esconder na escuridão.
   keywords:
   - ladrao
   - tumba
+  long_desc: Um furtivo ladrão de tumba está a procura do tesouro.
   name: um ladrão de tumba
-  vnum: '5304'
+  vnum: '01010535304'
 - description: |-
     Você vê um homem alto, barbado, com olhos ambiciosos.  Ali Babá passou a sua
     vida roubando os outros.  Roubou inclusive recentemente, muitos itens bem
@@ -47,8 +54,9 @@
   - ali
   - baba
   - ladrao
+  long_desc: Ali Babá está aqui, procurando pelo tesouro do faraó.
   name: Ali Babá
-  vnum: '5305'
+  vnum: '01010535305'
 - description: |-
     O tapete é simplesmente lindo, feito de um material sedoso.  Ele parece se
     levantar e tocar seu pé.  Espere, ele esta em pé, a poucos centímetros do
@@ -56,16 +64,18 @@
   keywords:
   - magico
   - tapete
+  long_desc: Um pequeno tapete de tecido se encontra debaixo de seus pés.
   name: o tapete magico
-  vnum: '5306'
+  vnum: '01010535306'
 - description: |-
     Você vê apenas a desfigurada carne humana em decomposição, animada pelo
     etéreo espírito de um morto.
   keywords:
   - mumia
   - cadaver
+  long_desc: Uma múmia vem em sua direção, incomodada com a sua presença.
   name: a múmia
-  vnum: '5307'
+  vnum: '01010535307'
 - description: |-
     O homem de areia é exatamente isso: alguma coisa estranha, formada da areia
     do deserto.  Ele parece ser bastante grande e forte em sua casa de ventos
@@ -73,15 +83,17 @@
   keywords:
   - homem
   - areia
+  long_desc: Um homem de areia brota do chão do deserto.
   name: o homem de areia
-  vnum: '5308'
+  vnum: 01010535308
 - description: |-
     O Efreeti é um poderoso ser, feito de fogo.  Ele contempla você com desdém e
     desprezo, com os braços cruzados sobre seu poderoso peito.
   keywords:
   - efreeti
+  long_desc: O Efreeti está aqui, envolto por uma coluna de fogo.
   name: o Efreeti
-  vnum: '5309'
+  vnum: 01010535309
 - description: |-
     Na coluna foram esculpidas quatro figuras femininas bem formadas.  O arenito
     da cariátide é bem antigo mas você ainda pode ver uma espada letal, de
@@ -89,8 +101,9 @@
   keywords:
   - coluna
   - cariatide
+  long_desc: Uma coluna de arenito esta aqui, esculpida em uma figura feminina.
   name: a cariátide
-  vnum: '5310'
+  vnum: '01010535310'
 - description: |-
     O gênio é um poderoso ser feito do próprio ar e freqüentemente aprisionado
     em uma pequena lâmpada, usada para satisfazer os desejos de quem a encontra.
@@ -98,8 +111,9 @@
     seu cavanhaque.
   keywords:
   - genio
+  long_desc: O gênio surge dos confins de uma pequena lâmpada.
   name: o gênio
-  vnum: '5311'
+  vnum: '01010535311'
 - description: |-
     As hieracoesfinges são criaturas espertas, pequenas, mas sórdidas.  Possuem
     a cabeça de pássaro, com poderosas asas, e quatro patas prontas para rasgar
@@ -108,8 +122,9 @@
   keywords:
   - hieracoesfinge
   - esfinge
+  long_desc: A hieracoesfinge lhe parece muito esperta.
   name: a hieracoesfinge
-  vnum: '5312'
+  vnum: '01010535312'
 - description: |-
     A ginoesfinge é uma criatura tranqüila e amigável, tem o corpo de uma linda
     mulher de pele escura da cintura para cima, asas emplumadas e as hábeis
@@ -118,8 +133,9 @@
   keywords:
   - ginoesfinge
   - esfinge
+  long_desc: Uma ginoesfinge está sentada aqui, entretida por um enigma.
   name: a ginoesfinge
-  vnum: '5313'
+  vnum: '01010535313'
 - description: |-
     A crioesfinge é uma criatura calma e amigável, tendo a cabeça de um carneiro
     sobre o corpo de um felino bem peludo e asas como as de uma águia.  Ela se
@@ -128,8 +144,9 @@
   keywords:
   - crioesfinge
   - esfinge
+  long_desc: Uma crioesfinge observa você calmamente.
   name: a esfinge
-  vnum: '5314'
+  vnum: '01010535314'
 - description: |-
     A poderosa androesfinge é uma criatura gigantesca, com o corpo de um leão,
     cuja face é como a de um homem relativamente simpático e um par volumoso de
@@ -138,8 +155,9 @@
   keywords:
   - androesfinge
   - esfinge
+  long_desc: Uma poderosa androesfinge balança sua juba de leão.
   name: a androesfinge
-  vnum: '5315'
+  vnum: '01010535315'
 - description: |-
     A grande esfinge se sobressai dez pés acima de você, repousando em estado de
     dormência.  Ela se tornou quase indistinguível da areia que a cerca, apesar
@@ -148,8 +166,9 @@
   keywords:
   - grande
   - esfinge
+  long_desc: Uma poderosa esfinge repousa na areia, dormente por séculos.
   name: a grande esfinge
-  vnum: '5316'
+  vnum: '01010535316'
 - description: |-
     Assim que a luz que você carrega ilumina o rosto e o corpo da criatura, você
     pode ver que seus traços vão se definindo, preenchendo, endurecendo, ate que
@@ -159,5 +178,6 @@
   keywords:
   - ramses
   - mumia
+  long_desc: Você despertou o poderoso servo dos faraós, Ramsés.
   name: Ramsés, o Maldito
-  vnum: '5317'
+  vnum: '01010535317'

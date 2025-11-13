@@ -6,8 +6,9 @@
   - cavaleiro
   - cabeca
   - cabeça
+  long_desc: O Cavaleiro sem Cabeça, cavalgando em seu pesadelo, vem em sua direção!
   name: o Cavaleiro sem Cabeça
-  vnum: '700'
+  vnum: '01010070700'
 - description: |-
     Seu corpo parece estar-se decompondo, este cadáver parece ter se esquecido
     de cair, tamanha a podridão de seu corpo.  Talvez você possa ajuda-lo...
@@ -17,38 +18,44 @@
   - morto
   - vivo
   - criatura
+  long_desc: Um corpo está aqui, movendo-se freneticamente ao ritmo desta sinfonia
+    infernal.
   name: a Criatura
-  vnum: '701'
+  vnum: '01010070701'
 - description: "Ã\x89 uma figueira em um vaso, oras."
   keywords:
   - planta
   - figueira
+  long_desc: Uma figueira está aqui, dançando loucamente em seu vaso, radical não?
   name: uma figueira em um vaso
-  vnum: '702'
-- description: "Ã\x89 uma coisa pequena, no mÃ¡ximo com 30 centÃ­metros.   Seu corpo\
+  vnum: '01010070702'
+- description: "Ã\x89 uma coisa pequena, no máximo com 30 centímetros.   Seu corpo\
     \ curvado e\nverde se torce quase incontrolavelmente enquanto ele o esquadrinha,\n\
     tentando avaliar o risco de fazer de você sua próxima refeição."
   keywords:
   - monstrinho
   - menor
   - criatura
+  long_desc: Uma pequena criatura está procurando comida por aqui.
   name: a Criatura Menor
-  vnum: '705'
+  vnum: '01010070705'
 - description: |-
     A criatura de pele acinzentada está rondando aqui. Ele carrega uma
     maça consigo e tem uma expressão sórdida.
   keywords:
   - duende
+  long_desc: Um duende de pele acinzentada está rondando ao redor.
   name: um duende
-  vnum: '706'
+  vnum: '01010070706'
 - description: |-
     Quase invisível contra o fundo rochoso, o monstro de pedra
     passa quase despercebido.   Feito de cristais e minerais ele é lento mas poderoso.
   keywords:
   - cristal
   - monsto
+  long_desc: Um monstro feito de cristal espreita aqui.
   name: o Monstro de Cristal
-  vnum: '707'
+  vnum: '01010070707'
 - description: |-
     Um aracnídeo do tamanho de duas mãos juntas, sua carapaça vermelha proporciona
     proteção a esta criatura enquanto seu ferrão goteja veneno.
@@ -56,8 +63,9 @@
   - escorpião
   - escorpiao
   - vermelho
+  long_desc: Um escorpião vermelho foge pelas pedras no chão.
   name: o escorpião vermelho
-  vnum: '708'
+  vnum: 01010070708
 - description: |-
     Uma armadura de placas é tudo o que veste o guarda.   Como um homem invisível
     em armadura visível ele anda eternamente pelos corredores da Fortaleza,
@@ -65,8 +73,9 @@
   keywords:
   - maldito
   - guarda
+  long_desc: Um dos Guardas malditos da Fortaleza está patrulhando a área aqui.
   name: o Guarda maldito
-  vnum: '710'
+  vnum: '01010070710'
 - description: |-
     Você não o vê até que ele quase esbarra em vocé.   O Guardião é um pesadelo
     que vaga na forma humana.   Ele se torce com movimenta copiosamente e
@@ -75,8 +84,9 @@
   - guardião
   - guardiao
   - guarda
+  long_desc: Um Guardião espreita aqui esperando para chegar a você.
   name: um Guardião
-  vnum: '711'
+  vnum: '01010070711'
 - description: |-
     Ele é a morte em pessoa.   O ceifeiro tem uma aparência muito severa.
     Suas mãos esqueléticas seguram sua foice.   Seu crânio é parcialmente
@@ -85,16 +95,18 @@
   keywords:
   - impiedoso
   - ceifeiro
+  long_desc: O Ceifeiro em pessoa espera por alguém que possa desafiá-lo.
   name: o Ceifeiro Impiedoso
-  vnum: '712'
-- description: "Ã\x89 um corpo apodrecido que se move.   Ã\x89 um dos inÃºmeros soldados,\
+  vnum: '01010070712'
+- description: "Ã\x89 um corpo apodrecido que se move.   Ã\x89 um dos inúmeros soldados,\
     \ o que\nlhes faltam em força corpórea é compensado por seu grande número."
   keywords:
   - zumbi
   - legionario
   - legionário
+  long_desc: Um cabaleante zumbi patrulha a área aqui.
   name: o zumbi legionário
-  vnum: '713'
+  vnum: '01010070713'
 - description: |-
     Esta monstruosa armadura tem mais de dez pés de altura e cinco pés de largura.
     Quatro polegadas de grossura em seu ponto mais fino, a armadura é coberta em
@@ -106,8 +118,9 @@
   - negro
   - tempestuoso
   - armadura
+  long_desc: Uma gigantesca armadura negra está aqui, impedindo sua passagem adiante.
   name: o Tempestuoso Cavaleiro Negro
-  vnum: '714'
+  vnum: '01010070714'
 - description: |-
     Uma massa humana de volumosos músculos verde-acinzentados e dentes amarelados.
     Sempre e para sempre faminto.   Ele parece trazer suas vítimas aqui para comer em paz.
@@ -116,8 +129,9 @@
   - monstro
   - criatura
   - maior
+  long_desc: A Criatura Maior está na varanda roendo um osso de sua última vítima.
   name: a Criatura Maior
-  vnum: '715'
+  vnum: '01010070715'
 - description: |-
     Um pequeno delinqüente.   Distraído com os brinquedos infantis.   Brinca
     com chocalhos e estilingues.   Parece feliz com seu tipo de vida.
@@ -126,16 +140,19 @@
   - encurvada
   - crianca
   - criança
+  long_desc: Uma pequena criança encurvada, arroxeada, descansa aos pés do trono de
+    Ivian.
   name: a criança de Ivian
-  vnum: '716'
+  vnum: '01010070716'
 - description: |-
     Este patético indivíduo não tem sido alimentado há semanas.   Ele está muito
     magro de fome.   Ele olha para você, implorando por clemência.
   keywords:
   - prisioneiro
   - desesperado
+  long_desc: Um prisioneiro desesperado está aqui, acorrentado ã parede.
   name: o Prisioneiro desesperado
-  vnum: '717'
+  vnum: '01010070717'
 - description: "A Senhora do Vazio é bastante alta.  Ela personifica a beleza do céu\
     \ em uma\nnoite sem estrelas.   Ã\x89 uma beleza fria e distante, ainda que imensa\
     \ e poderosa.\nSeu rosto liso parece uma porcelana sem defeitos, esculpida em\
@@ -145,8 +162,10 @@
   keywords:
   - ivian
   - senhora
+  long_desc: Ivian, a Senhora do Vazio Espiritual está sentada em seu trono, fitando
+    você.
   name: Ivian, a Senhora do Vazio Espiritual
-  vnum: '719'
+  vnum: 01010070719
 - description: |-
     Como um homem invisível, em armadura visível, a armadura de placas animada foi rebaixada
     para a patrulha devido a sua inferior qualidade.
@@ -154,50 +173,57 @@
   - guarda
   - condenado
   - armadura
+  long_desc: Um guarda amaldiçoado está patrulhando as paredes exteriores da Fortaleza.
   name: o guarda-condenado
-  vnum: '730'
+  vnum: '01010070730'
 - description: |-
     Uma armadura de placas é tudo o que veste o guarda.   Um homem invisível, vestido com armadura
     visível, ele anda eternamente pelos corredores da Fortaleza protegendo-a de ameaças externas.
   keywords:
   - maldito
   - guarda
+  long_desc: Um dos Guardas malditos da Fortaleza está patrulhando a área aqui.
   name: o Guarda Maldito
-  vnum: '740'
+  vnum: '01010070740'
 - description: Ele é um guerreiro temido por sua sede de sangue. Sua espada e armadura
     estão cobertas pelo sangue de seus inimigos.
   keywords:
   - febre
   - escarlate
+  long_desc: Febre Escarlate está aqui, com sua mão em seu saber.
   name: Febre Escarlate
-  vnum: '750'
-- description: "Ã\x89 uma criatura de pele escura, com todas as finas caracterÃ­sticas\
-    \ de sua raÃ§a.\nSeu cabelo é de um branco pálido.   Ele espreita você, segurando\
+  vnum: '01010070750'
+- description: "Ã\x89 uma criatura de pele escura, com todas as finas características\
+    \ de sua raça.\nSeu cabelo é de um branco pálido.   Ele espreita você, segurando\
     \ sua faca curva."
   keywords:
   - negro
   - drow
   - cacador
   - caçador
+  long_desc: Um drow negro está espreitando pela floresta.
   name: o caçador Drow
-  vnum: '775'
-- description: "Ã\x89 um mosquito, o que mais vocÃª queria?"
+  vnum: '01010070775'
+- description: "Ã\x89 um mosquito, o que mais você queria?"
   keywords:
   - Mosquito
   - inseto
+  long_desc: Um dos muitos insetos que há por aqui, voa ao seu redor, o importunando.
   name: um Mosquito
-  vnum: '780'
-- description: "Ã\x89 uma VÃªnus carnÃ­vora. O que mais vocÃª quer?"
+  vnum: 01010070780
+- description: "Ã\x89 uma Vênus carnívora. O que mais você quer?"
   keywords:
   - planta
   - carnivora
   - venus
   - carnívora
   - vênus
+  long_desc: Uma grande planta carnívora desponta entre as videiras daqui.
   name: a Vênus carnívora
-  vnum: '781'
-- description: "Ã\x89 simplesmente indescritÃ­vel."
+  vnum: 01010070781
+- description: "Ã\x89 simplesmente indescritível."
   keywords:
   - banda
+  long_desc: A Banda Infernal está aqui.
   name: a Banda Infernal
-  vnum: '799'
+  vnum: 01010070799

@@ -3,9 +3,10 @@
     localizado um estranho portal.
   exits:
     up:
-      target_vnum: '50'
+      target_vnum: '01010000050'
+  local_id: '0'
   name: O Vazio
-  vnum: '0'
+  vnum: '01010000000'
 - description: |-
     Você está flutuando em um vazio, sem forma, desprovido de todas as
     sensações da materia tangível, contornado por um furacão de luzes
@@ -14,39 +15,45 @@
     Você vê escrito "SEM GORJETAS" com letras brilhantes, no meio da
     escuridão.
   exits: {}
+  local_id: '1'
   name: Limbo
-  vnum: '1'
+  vnum: '01010000001'
 - description: |-
     Você está em uma sala que serve apenas como depósito interno de
     objetos...  Nada especial, exceto por uma placa no canto dizendo: "Você não
     deveria estar aqui."
   exits: {}
+  local_id: '2'
   name: O Depósito Interno
-  vnum: '2'
+  vnum: '01010000002'
 - description: |-
     As paredes estão completamente vazias...  Não há nada na sala.  Mas...
     absolutamente bizarro e completamente esquisito!  Há um estranho portal
     sobre você, e é como se você visse algum tipo de sala sobre você.
   exits:
     up:
-      target_vnum: '3048'
+      target_vnum: 01010003048
+  local_id: '3'
   name: Uma Sala Totalmente Vazia
-  vnum: '3'
+  vnum: '01010000003'
 - description: |-
     Essa é uma sala usada internamente pelo sistema.  Você não deveria estar
     aqui.  Por favor, reporte pelo comando BUG como você chegou até aqui.
   exits: {}
+  local_id: '50'
   name: R_START
-  vnum: '50'
+  vnum: '01010000050'
 - description: |-
     Essa é uma sala usada internamente pelo sistema.  Você não deveria estar
     aqui.  Por favor, reporte pelo comando BUG como você chegou até aqui.
   exits: {}
+  local_id: '51'
   name: R_DONATION
-  vnum: '51'
+  vnum: '01010000051'
 - description: |-
     Essa é uma sala usada internamente pelo sistema.  Você não deveria estar
     aqui.  Por favor, reporte pelo comando BUG como você chegou até aqui.
   exits: {}
+  local_id: '52'
   name: R_RESSURECT
-  vnum: '52'
+  vnum: '01010000052'

@@ -15,13 +15,14 @@
     cova.
   exits:
     east:
-      target_vnum: '13111'
+      target_vnum: '010213113111'
     up:
-      target_vnum: '13172'
+      target_vnum: '010213113172'
     west:
-      target_vnum: '13102'
+      target_vnum: '010213113102'
+  local_id: '13101'
   name: A Entrada
-  vnum: '13101'
+  vnum: '010213113101'
 - description: |-
     As sombras que o cercam parecem estar em todos lugares. Imagens sombrias
     aparecem e desaparecem em um piscar de olhos. Você consegue olhar muito
@@ -30,26 +31,28 @@
     entrada ao leste.
   exits:
     east:
-      target_vnum: '13101'
+      target_vnum: '010213113101'
     north:
-      target_vnum: '13104'
+      target_vnum: '010213113104'
     west:
-      target_vnum: '13103'
+      target_vnum: '010213113103'
+  local_id: '13102'
   name: O Caminho Oeste
-  vnum: '13102'
+  vnum: '010213113102'
 - description: "Um enorme quarto se abre diante de você. Este quarto está repleto\
     \ com\nestas sombras estranhas. Imediatamente ao entrar você nota que existe algo\n\
     de errado com o seu tato. De repente, em um movimento muito rápido seus\nolhos\
     \ não conseguem acompanhar algo, uma das sombras que você adquiriu\nanteriormente\
     \ está usando a mudança que fez em você, mas que nunca o havia\nperturbado. Ã\x89\
-    \ completamente visÃ­vel que seus olhos estÃ£o ardendo e muito\nvermelho. Você\
-    \ pensa conseguir ver grotescos lábios sorrindo. O único modo\nde sair daqui é\
-    \ por onde você entrou."
+    \ completamente visível que seus olhos estão ardendo e muito\nvermelho. Você pensa\
+    \ conseguir ver grotescos lábios sorrindo. O único modo\nde sair daqui é por onde\
+    \ você entrou."
   exits:
     east:
-      target_vnum: '13102'
+      target_vnum: '010213113102'
+  local_id: '13103'
   name: O Quarto Do Bohemoth
-  vnum: '13103'
+  vnum: '010213113103'
 - description: |-
     O caminho fica obscuro aqui. As imagens criadas pelas sombras ficam cada
     vez menos significativas. Porém, as sombras parecem estar ficando mais
@@ -59,13 +62,14 @@
     sombras ao sul.
   exits:
     east:
-      target_vnum: '13105'
+      target_vnum: '010213113105'
     south:
-      target_vnum: '13102'
+      target_vnum: '010213113102'
+  local_id: '13104'
   name: Ao Longo Do Caminho
-  vnum: '13104'
+  vnum: '010213113104'
 - description: "Você tem agora certeza que está sonhando. No meio do caminho, cercado\n\
-    pelas sombras, existe um banquete para uma refeiÃ§Ã£o real. Ã\x89 um lugar\nestranho\
+    pelas sombras, existe um banquete para uma refeição real. Ã\x89 um lugar\nestranho\
     \ para alguém estar esperando você... ou alguém estava fazendo uma\nsúplica a\
     \ um deus. A mesa parece ser feita somente de sombra. Como pode\nestar sustentando\
     \ a refeição? As sombras parecem estar surgindo do norte,\ncomo se alguém estivesse\
@@ -73,11 +77,12 @@
     \ sombras, ou pelo norte, onde elas estão\npuxando você."
   exits:
     north:
-      target_vnum: '13106'
+      target_vnum: '010213113106'
     west:
-      target_vnum: '13104'
+      target_vnum: '010213113104'
+  local_id: '13105'
   name: O Sonho
-  vnum: '13105'
+  vnum: '010213113105'
 - description: |-
     Aparentemente havia uma emboscada aqui, entretanto deve ter sido a
     muitos anos atrás. Existem somente esqueletos e armas extremamente
@@ -87,11 +92,12 @@
     voltar ao sul.
   exits:
     north:
-      target_vnum: '13107'
+      target_vnum: '010213113107'
     south:
-      target_vnum: '13105'
+      target_vnum: '010213113105'
+  local_id: '13106'
   name: A Emboscada
-  vnum: '13106'
+  vnum: '010213113106'
 - description: |-
     O caminho fica mais iluminado com as sombras diminuindo. As sombras
     estão se retirando, você já não consegue mais sentir o toque delas, mas
@@ -99,11 +105,12 @@
     Fica mais forte ao leste, e as sombras ficam mais fortes para o sul.
   exits:
     east:
-      target_vnum: '13108'
+      target_vnum: 010213113108
     south:
-      target_vnum: '13106'
+      target_vnum: '010213113106'
+  local_id: '13107'
   name: O Começo
-  vnum: '13107'
+  vnum: '010213113107'
 - description: |-
     Você sente uma forte presença ao norte. As sombras já não existem mais
     aqui.  Elas parecem terem recuado desta imensa luz. Os enormes portões são
@@ -114,13 +121,14 @@
     e você gostaria?
   exits:
     north:
-      target_vnum: '13123'
+      target_vnum: '010213113123'
     south:
-      target_vnum: '13109'
+      target_vnum: 010213113109
     west:
-      target_vnum: '13107'
+      target_vnum: '010213113107'
+  local_id: '13108'
   name: Antes Dos Portões
-  vnum: '13108'
+  vnum: 010213113108
 - description: |-
     Com o tempo você nota que a movimentação das sombras aqui é bastante
     intensa.  Você se sente como se estivesse se movendo por uma névoa pesada.
@@ -131,11 +139,12 @@
     consegue ver o caminho ao sul.
   exits:
     north:
-      target_vnum: '13108'
+      target_vnum: 010213113108
     south:
-      target_vnum: '13110'
+      target_vnum: '010213113110'
+  local_id: '13109'
   name: Uma Sombra Nublada
-  vnum: '13109'
+  vnum: 010213113109
 - description: |-
     As sombras aqui lhe passam um ar de cansaço e acaba se sentindo
     hipnotizado. O caminho por onde você veio parece estar muito distante.
@@ -148,13 +157,14 @@
     não muito amigáveis vindo do leste.
   exits:
     east:
-      target_vnum: '13113'
+      target_vnum: '010213113113'
     north:
-      target_vnum: '13109'
+      target_vnum: 010213113109
     south:
-      target_vnum: '13111'
+      target_vnum: '010213113111'
+  local_id: '13110'
   name: Perdendo A Consciência
-  vnum: '13110'
+  vnum: '010213113110'
 - description: |-
     Estranhas imagens de um movimento bastante lento o fazem pensar que
     está se movendo rápido demais. Imagens sombrias aparecem e desaparecem.
@@ -164,13 +174,14 @@
     para o oeste existe uma entrada.
   exits:
     east:
-      target_vnum: '13112'
+      target_vnum: '010213113112'
     north:
-      target_vnum: '13110'
+      target_vnum: '010213113110'
     west:
-      target_vnum: '13101'
+      target_vnum: '010213113101'
+  local_id: '13111'
   name: O Caminho Leste
-  vnum: '13111'
+  vnum: '010213113111'
 - description: |-
     Isto parece ter sido um posto de guarda, mas que está bastante
     danificado. As paredes de pedra estão gastas, e quase se desmoronando, a
@@ -179,9 +190,10 @@
     sair deste lugar é pela entrada, ou seja, ao oeste.
   exits:
     west:
-      target_vnum: '13111'
+      target_vnum: '010213113111'
+  local_id: '13112'
   name: O Posto De Guardas Abandonado
-  vnum: '13112'
+  vnum: '010213113112'
 - description: |-
     Você tem agora certeza que está sonhando. Aonde mais você irá encontrar
     três pessoas que fiquem repetindo para você: "Nós temos que servir o
@@ -192,13 +204,14 @@
     continua ao leste e oeste.
   exits:
     east:
-      target_vnum: '13115'
+      target_vnum: '010213113115'
     north:
-      target_vnum: '13114'
+      target_vnum: '010213113114'
     west:
-      target_vnum: '13110'
+      target_vnum: '010213113110'
+  local_id: '13113'
   name: O Quarto Dos Guardas
-  vnum: '13113'
+  vnum: '010213113113'
 - description: |-
     Hmmm... Você nota que não esteve aqui antes. E tenta expulsar este
     sentimento mas você não consegue. Você quase consegue lembrar de algum
@@ -212,9 +225,10 @@
     única saída é a porta para o sul.
   exits:
     south:
-      target_vnum: '13113'
+      target_vnum: '010213113113'
+  local_id: '13114'
   name: Deja-vu
-  vnum: '13114'
+  vnum: '010213113114'
 - description: |-
     As sombras aqui estão ficando opressivas.  Elas estão tão intensas que
     chegam a impedir o movimento. Você sente como se estivesse se movendo por
@@ -227,11 +241,12 @@
     escapar disto.
   exits:
     east:
-      target_vnum: '13116'
+      target_vnum: '010213113116'
     west:
-      target_vnum: '13113'
+      target_vnum: '010213113113'
+  local_id: '13115'
   name: O Quarto Abarrotado
-  vnum: '13115'
+  vnum: '010213113115'
 - description: |-
     Uma gigantesca praça se estende diante de você. No centro dela existe
     uma monstruosa fonte... isso parece estar produzindo cada vez mais sombras.
@@ -246,15 +261,16 @@
     devesse fazer isto enquanto ainda tiver uma chance de escapar.
   exits:
     east:
-      target_vnum: '13117'
+      target_vnum: '010213113117'
     north:
-      target_vnum: '13118'
+      target_vnum: 010213113118
     south:
-      target_vnum: '13146'
+      target_vnum: '010213113146'
     west:
-      target_vnum: '13115'
+      target_vnum: '010213113115'
+  local_id: '13116'
   name: A Praça
-  vnum: '13116'
+  vnum: '010213113116'
 - description: |-
     Isto é agradável. Não há nenhuma sombra aqui. O lugar parece ser uma
     loja abandonada. Ainda está tudo em ordem. No centro do quarto está uma
@@ -267,9 +283,10 @@
     oeste existe uma porta. Você entrou por lá.
   exits:
     west:
-      target_vnum: '13116'
+      target_vnum: '010213113116'
+  local_id: '13117'
   name: A Loja Silenciosa
-  vnum: '13117'
+  vnum: '010213113117'
 - description: |-
     Estes corredores parecem terem sido invadidos pelas mesmas sombras.
     Parece ter sido um largo corredor usado para comércio, os pequenos postos
@@ -277,11 +294,12 @@
     e ao norte as sombras esconderam tudo.
   exits:
     north:
-      target_vnum: '13119'
+      target_vnum: 010213113119
     south:
-      target_vnum: '13116'
+      target_vnum: '010213113116'
+  local_id: '13118'
   name: O Corredor Sombrio
-  vnum: '13118'
+  vnum: 010213113118
 - description: |-
     A névoa sombria está diminuindo aqui. Você ganha um senso de que tudo
     que está ao oeste amedronta estas sombras. Não há nenhuma sombra ao oeste,
@@ -293,13 +311,14 @@
     confirmar isto.
   exits:
     east:
-      target_vnum: '13114'
+      target_vnum: '010213113114'
     south:
-      target_vnum: '13118'
+      target_vnum: 010213113118
     west:
-      target_vnum: '13120'
+      target_vnum: '010213113120'
+  local_id: '13119'
   name: O Corredor Nublado
-  vnum: '13119'
+  vnum: 010213113119
 - description: |-
     Você está diante de um imenso portão brilhante. Este portão está
     coberto com letras rúnicas e você, sim até mesmo você, pode sentir uma
@@ -309,11 +328,12 @@
     sombras. Para o norte existe um imenso portão.
   exits:
     east:
-      target_vnum: '13119'
+      target_vnum: 010213113119
     north:
-      target_vnum: '13121'
+      target_vnum: '010213113121'
+  local_id: '13120'
   name: Antes Dos Portões
-  vnum: '13120'
+  vnum: '010213113120'
 - description: |-
     Ao entrar neste quarto você é dominado por um incrível senso de temor.
     Aqui diante de você está um guarda bastante alto que aparentemente está
@@ -323,11 +343,12 @@
     elegante. Um sinal foi cuidadosamente fixado na parede.
   exits:
     south:
-      target_vnum: '13120'
+      target_vnum: '010213113120'
     west:
-      target_vnum: '13122'
+      target_vnum: '010213113122'
+  local_id: '13121'
   name: O Quarto Do Portão
-  vnum: '13121'
+  vnum: '010213113121'
 - description: |-
     Quando você entra neste quarto primeiro nota a funcionalidade dele.
     Tudo nisto tem um propósito. Até mesmo os cantos escuros que permitem
@@ -342,11 +363,12 @@
     o quarto do portão ao leste e ao oeste.
   exits:
     east:
-      target_vnum: '13121'
+      target_vnum: '010213113121'
     west:
-      target_vnum: '13123'
+      target_vnum: '010213113123'
+  local_id: '13122'
   name: O Posto De Garin
-  vnum: '13122'
+  vnum: '010213113122'
 - description: |-
     A opulência deste quarto é incrível.  Você nota as belíssimas bordas
     dos portões. Algumas cadeiras de mármore foram espalhadas ao redor do
@@ -358,15 +380,16 @@
     coberto com letras rúnicas.
   exits:
     east:
-      target_vnum: '13122'
+      target_vnum: '010213113122'
     north:
-      target_vnum: '13157'
+      target_vnum: '010213113157'
     south:
-      target_vnum: '13108'
+      target_vnum: 010213113108
     west:
-      target_vnum: '13124'
+      target_vnum: '010213113124'
+  local_id: '13123'
   name: O Quarto Do Portão
-  vnum: '13123'
+  vnum: '010213113123'
 - description: |-
     Uma estranha camada cobre todos os edifícios. Você parece não poder
     adquirir isto. Age como um campo de força impedindo a entrada. Como é
@@ -374,11 +397,12 @@
     cobre as lojas ao sul e oeste. Para o leste está um quarto do portão.
   exits:
     east:
-      target_vnum: '13123'
+      target_vnum: '010213113123'
     north:
-      target_vnum: '13125'
+      target_vnum: '010213113125'
+  local_id: '13124'
   name: Ao Longo Da Avenida
-  vnum: '13124'
+  vnum: '010213113124'
 - description: |-
     Uma loja pequena, porém indistinta está aqui. Embora isto pareça ser uma
     loja muito pequena você nota que os contadores foram feitos em mármore,
@@ -390,11 +414,12 @@
     ser a impressão de uma mão. Ao sul está a entrada da loja.
   exits:
     south:
-      target_vnum: '13124'
+      target_vnum: '010213113124'
     west:
-      target_vnum: '13126'
+      target_vnum: '010213113126'
+  local_id: '13125'
   name: Uma Pequena Loja
-  vnum: '13125'
+  vnum: '010213113125'
 - description: |-
     Você sente estar em uma imensa caverna. Você somente consegue notar as
     paredes quando os fungos nela contido brilham. A caverna continua ao oeste
@@ -402,13 +427,14 @@
     até a loja.
   exits:
     east:
-      target_vnum: '13125'
+      target_vnum: '010213113125'
     south:
-      target_vnum: '13127'
+      target_vnum: '010213113127'
     west:
-      target_vnum: '13129'
+      target_vnum: 010213113129
+  local_id: '13126'
   name: A Grande Caverna
-  vnum: '13126'
+  vnum: '010213113126'
 - description: |-
     Como esta imensa caverna continua você nota a suavidade das paredes,
     a luz esverdeada que a ilumina clareia os limites da caverna. Uma piscina
@@ -418,13 +444,14 @@
     da escuridão. A caverna continua envolver você ao norte, e oeste.
   exits:
     north:
-      target_vnum: '13126'
+      target_vnum: '010213113126'
     south:
-      target_vnum: '13128'
+      target_vnum: 010213113128
     west:
-      target_vnum: '13128'
+      target_vnum: 010213113128
+  local_id: '13127'
   name: A Grande Caverna
-  vnum: '13127'
+  vnum: '010213113127'
 - description: |-
     Você entra nesta parte da imensa caverna e mais uma vez nota os fungos
     brilhando estranhamente e iluminando as paredes de pedra. Mas você também
@@ -434,15 +461,16 @@
     de raspado ao oeste. Para o norte, sul e leste a caverna envolve você.
   exits:
     east:
-      target_vnum: '13127'
+      target_vnum: '010213113127'
     north:
-      target_vnum: '13129'
+      target_vnum: 010213113129
     south:
-      target_vnum: '13127'
+      target_vnum: '010213113127'
     west:
-      target_vnum: '13130'
+      target_vnum: '010213113130'
+  local_id: '13128'
   name: A Grande Caverna
-  vnum: '13128'
+  vnum: 010213113128
 - description: |-
     Aham, você achou outra parede para esta caverna. Quando você olha ao
     seu redor acha muito estranho não conseguir ver nem ao menos a mão em
@@ -455,21 +483,22 @@
     ver que é ou era um túnel, só existe um modo de descobrir.
   exits:
     east:
-      target_vnum: '13126'
+      target_vnum: '010213113126'
     north:
-      target_vnum: '13166'
+      target_vnum: '010213113166'
     south:
-      target_vnum: '13128'
+      target_vnum: 010213113128
+  local_id: '13129'
   name: A Grande Caverna
-  vnum: '13129'
+  vnum: 010213113129
 - description: "Você adquire um sentimento de timidez quando entra nestes corredores.\n\
     Olha ao redor e supera isto com um temor maior.  Este lugar parece ter sido\n\
-    no passado um monastÃ©rio e parece que nada mudou aqui.  Ã\x80 sua direita e\n\
+    no passado um monastério e parece que nada mudou aqui.  Ã\x80 sua direita e\n\
     esquerda estão enfileirados estátuas de granito de gargantuan, com os olhos\n\
     ardentes parecendo que estão lhe observando e seguindo seus movimentos.\nElas\
     \ parecem que querem adquirir vida própria a qualquer momento...  Olhando\npor\
     \ sobre estas estátuas um teto muito enfeitado.  Quando você observa este\nteto\
-    \ percebe que o mural que existe nele estÃ¡ movendo.  Ã\x89 um quadro.  VocÃª\n\
+    \ percebe que o mural que existe nele está movendo.  Ã\x89 um quadro.  Você\n\
     nota que o chão de granito abaixo está estrondeando, parecendo muito com o\nbatimento\
     \ do seu coração.  Você sussurra algo e parece que tudo o que é\nsussurrado é\
     \ absorvido para dentro das paredes.  Você pisa fortemente no\nchão, bate nas\
@@ -477,11 +506,12 @@
     \ criar qualquer tipo de som."
   exits:
     east:
-      target_vnum: '13128'
+      target_vnum: 010213113128
     north:
-      target_vnum: '13131'
+      target_vnum: '010213113131'
+  local_id: '13130'
   name: Os Corredores
-  vnum: '13130'
+  vnum: '010213113130'
 - description: |-
     Parece que você já esteve aqui antes... Lembra-se? Destes corredores.
     Você não está muito seguro mas lembra-se vagamente de já ter vindo aqui.
@@ -495,11 +525,12 @@
     você veio.
   exits:
     south:
-      target_vnum: '13130'
+      target_vnum: '010213113130'
     west:
-      target_vnum: '13132'
+      target_vnum: '010213113132'
+  local_id: '13131'
   name: A Lembrança
-  vnum: '13131'
+  vnum: '010213113131'
 - description: |-
     Você fica imaginando os monges, quando caminhavam por esta interseção
     há muito tempo atrás, em seus passeios sombrios. Quanto mais você fica
@@ -511,15 +542,16 @@
     recentemente cortada. Para o norte e oeste existem mais corredores.
   exits:
     east:
-      target_vnum: '13131'
+      target_vnum: '010213113131'
     north:
-      target_vnum: '13131'
+      target_vnum: '010213113131'
     south:
-      target_vnum: '13135'
+      target_vnum: '010213113135'
     west:
-      target_vnum: '13133'
+      target_vnum: '010213113133'
+  local_id: '13132'
   name: A Antiga Interseção De Pedra
-  vnum: '13132'
+  vnum: '010213113132'
 - description: |-
     Quando você pisa aqui mudanças acontecem neste quarto. Onde antes era
     um quarto vazio e claro, existe agora um quarto ricamente decorado e
@@ -527,11 +559,12 @@
     carvalho ao sul, e para o oeste existe uma interseção vazia.
   exits:
     east:
-      target_vnum: '13132'
+      target_vnum: '010213113132'
     south:
-      target_vnum: '13134'
+      target_vnum: '010213113134'
+  local_id: '13133'
   name: A Sala Do Tesouro
-  vnum: '13133'
+  vnum: '010213113133'
 - description: |-
     Uma estrutura impressionante está diante de você.  Todas as paredes,
     tetos, e chão estão cobertos com espelhos. As únicas formas de sair são
@@ -542,13 +575,14 @@
     estão ao norte e sul, e os corredores continuam ao leste.
   exits:
     east:
-      target_vnum: '13135'
+      target_vnum: '010213113135'
     north:
-      target_vnum: '13133'
+      target_vnum: '010213113133'
     south:
-      target_vnum: '13137'
+      target_vnum: '010213113137'
+  local_id: '13134'
   name: O Quarto Do Portão
-  vnum: '13134'
+  vnum: '010213113134'
 - description: |-
     Estes corredores parecem estar vivos. Você consegue ver as paredes se
     movimentando como se tivessem pulmões. Ao longo destes corredores está
@@ -566,13 +600,14 @@
     portão.
   exits:
     east:
-      target_vnum: '13136'
+      target_vnum: '010213113136'
     north:
-      target_vnum: '13132'
+      target_vnum: '010213113132'
     west:
-      target_vnum: '13134'
+      target_vnum: '010213113134'
+  local_id: '13135'
   name: Os Corredores Vivos
-  vnum: '13135'
+  vnum: '010213113135'
 - description: |-
     Você alcançou um beco sem saída. As paredes ainda estão se movimentando,
     parecendo vivas. As estátuas estão aqui, mas parecem terem chegado ao fim.
@@ -584,11 +619,12 @@
     entrada que você veio... ou continuando através da criatura.
   exits:
     east:
-      target_vnum: '13142'
+      target_vnum: '010213113142'
     west:
-      target_vnum: '13135'
+      target_vnum: '010213113135'
+  local_id: '13136'
   name: O Fim Do Corredor
-  vnum: '13136'
+  vnum: '010213113136'
 - description: |-
     Você gostaria de ter esquecido isto há muito tempo. Sombras estão em
     todos os lugares.  Aqui você está novamente, no meio destas estranhas
@@ -597,11 +633,12 @@
     uma porta bem conservada está ao norte.
   exits:
     north:
-      target_vnum: '13134'
+      target_vnum: '010213113134'
     south:
-      target_vnum: '13140'
+      target_vnum: '010213113140'
+  local_id: '13137'
   name: A Assombração
-  vnum: '13137'
+  vnum: '010213113137'
 - description: |-
     Quando você começa olhar ao seu redor consegue ver um pequeno quarto
     feito de pedras, cadeiras de pedra, uma mesa de pedra, até mesmo xícaras
@@ -612,9 +649,10 @@
     que está ao sul.
   exits:
     south:
-      target_vnum: '13141'
+      target_vnum: '010213113141'
+  local_id: '13138'
   name: O Quarto De Pedra
-  vnum: '13138'
+  vnum: 010213113138
 - description: |-
     O corredor das sombras, você se lembra vagamente dele. As paredes do
     corredor são uma prova da incrível habilidade que os arquitetos e
@@ -630,11 +668,12 @@
     das sombras.
   exits:
     east:
-      target_vnum: '13108'
+      target_vnum: 010213113108
     south:
-      target_vnum: '13142'
+      target_vnum: '010213113142'
+  local_id: '13139'
   name: O Corredor Das Sombras
-  vnum: '13139'
+  vnum: 010213113139
 - description: |-
     As sombras encobrem as paredes, o teto, o chão, na verdade você
     consegue ver muito pouco a sua frente.  Você se sente sufocado, como se
@@ -646,11 +685,12 @@
     nestas sombras, para o norte e leste.
   exits:
     east:
-      target_vnum: '13141'
+      target_vnum: '010213113141'
     north:
-      target_vnum: '13137'
+      target_vnum: '010213113137'
+  local_id: '13140'
   name: A Assombração
-  vnum: '13140'
+  vnum: '010213113140'
 - description: |-
     As sombras encobrem as paredes, o teto, o chão, na verdade você
     consegue ver muito pouco a sua frente.  Você se sente sufocado, como se
@@ -663,15 +703,16 @@
     sólido quarto de pedras.
   exits:
     east:
-      target_vnum: '13142'
+      target_vnum: '010213113142'
     north:
-      target_vnum: '13138'
+      target_vnum: 010213113138
     south:
-      target_vnum: '13143'
+      target_vnum: '010213113143'
     west:
-      target_vnum: '13140'
+      target_vnum: '010213113140'
+  local_id: '13141'
   name: A Assombração
-  vnum: '13141'
+  vnum: '010213113141'
 - description: |-
     O corredor das sombras, você se lembra vagamente dele. As paredes do
     corredor são uma prova da incrível habilidade que os arquitetos e
@@ -685,15 +726,16 @@
     sul, existe uma porta de pedra para o leste e as sombras estão ao oeste.
   exits:
     east:
-      target_vnum: '13136'
+      target_vnum: '010213113136'
     north:
-      target_vnum: '13139'
+      target_vnum: 010213113139
     south:
-      target_vnum: '13144'
+      target_vnum: '010213113144'
     west:
-      target_vnum: '13141'
+      target_vnum: '010213113141'
+  local_id: '13142'
   name: O Corredor Das Sombras
-  vnum: '13142'
+  vnum: '010213113142'
 - description: |-
     O que você vê diante de seus olhos lhe enche de medo.  Há centenas de
     sombras aqui. E não parecem ser amigáveis. Você ouve seus assobios,
@@ -707,9 +749,10 @@
     bloqueado pelas sombras.
   exits:
     north:
-      target_vnum: '13141'
+      target_vnum: '010213113141'
+  local_id: '13143'
   name: O Trono Sombrio
-  vnum: '13143'
+  vnum: '010213113143'
 - description: |-
     Este é um fim estranho para o Grande Corredor das Sombras. As sombras
     são intensas aqui. Elas impedem seu movimento e sua respiração. O quarto
@@ -719,13 +762,14 @@
     muito medo de tentar adivinhar.
   exits:
     north:
-      target_vnum: '13142'
+      target_vnum: '010213113142'
     south:
-      target_vnum: '13138'
+      target_vnum: 010213113138
     west:
-      target_vnum: '13143'
+      target_vnum: '010213113143'
+  local_id: '13144'
   name: Um Fim Estranho
-  vnum: '13144'
+  vnum: '010213113144'
 - description: |-
     Você chega até as câmaras pessoais do grande Lorgeth. Este general do
     exército de Torin é mesmo um legendário. Ele foi um bravo guerreiro.
@@ -738,9 +782,10 @@
     passado aqui havia grandes tapetes cobrindo isto tudo.
   exits:
     north:
-      target_vnum: '13156'
+      target_vnum: '010213113156'
+  local_id: '13145'
   name: A Sala De Lorgeth
-  vnum: '13145'
+  vnum: '010213113145'
 - description: |-
     Estes parece serem quartéis antigos do exército de Torin. Eles estão
     agora habitados pelo exército das sombras. Há beliches enferrujados,
@@ -750,15 +795,16 @@
     destituído de sombras, e para o norte esta uma praça.
   exits:
     east:
-      target_vnum: '13151'
+      target_vnum: '010213113151'
     north:
-      target_vnum: '13116'
+      target_vnum: '010213113116'
     south:
-      target_vnum: '13149'
+      target_vnum: 010213113149
     west:
-      target_vnum: '13147'
+      target_vnum: '010213113147'
+  local_id: '13146'
   name: As Barracas
-  vnum: '13146'
+  vnum: '010213113146'
 - description: |-
     Mais beliches, baús vazios e um chão pardo. No meio dos beliches está
     um aventureiro menos afortunado que você; ele está com a roupa toda
@@ -766,9 +812,10 @@
     único modo de sair daqui é indo mais ao fundo nos quartéis, pelo oeste.
   exits:
     east:
-      target_vnum: '13146'
+      target_vnum: '010213113146'
+  local_id: '13147'
   name: As Barracas
-  vnum: '13147'
+  vnum: '010213113147'
 - description: |-
     Você pode ter certeza que alguém viveu aqui. Em vez do padrão beliche
     verde existe um beliche com uma grande pele (Você acaba rasgando a pele
@@ -780,9 +827,10 @@
     escritura na qual está sentado.
   exits:
     east:
-      target_vnum: '13149'
+      target_vnum: 010213113149
+  local_id: '13148'
   name: O Quarto Do Tenente
-  vnum: '13148'
+  vnum: 010213113148
 - description: |-
     Uma enorme mesa de madeira esta no centro do quarto. Tudo aqui está
     muito velho e apodrecido, até mesmo pedaços de pergaminhos que você supõe
@@ -796,13 +844,14 @@
     oeste, mais quartéis ao norte e o quarto do Chefe ao leste.
   exits:
     east:
-      target_vnum: '13150'
+      target_vnum: '010213113150'
     north:
-      target_vnum: '13146'
+      target_vnum: '010213113146'
     west:
-      target_vnum: '13148'
+      target_vnum: 010213113148
+  local_id: '13149'
   name: O Quarto De Guerra
-  vnum: '13149'
+  vnum: 010213113149
 - description: |-
     Este impressionante e confortável quarto pertenceu ao chefe da Guarda
     da cidade, infelizmente agora está em ruínas. Ele está completamente
@@ -816,9 +865,10 @@
     onde você entrou, pelo o oeste.
   exits:
     west:
-      target_vnum: '13149'
+      target_vnum: 010213113149
+  local_id: '13150'
   name: O Quarto Do Comandante
-  vnum: '13150'
+  vnum: '010213113150'
 - description: |-
     Este pequeno corredor parece que já foi utilizado como quartel, mas
     os beliches foram rasgados e infelizmente você não sabe o motivo. Isto
@@ -831,11 +881,12 @@
     entretanto você pode voltar para a cidade pelo o oeste.
   exits:
     east:
-      target_vnum: '13152'
+      target_vnum: '010213113152'
     west:
-      target_vnum: '13146'
+      target_vnum: '010213113146'
+  local_id: '13151'
   name: O Corredor
-  vnum: '13151'
+  vnum: '010213113151'
 - description: |-
     Agora você pode comentar que as pessoas que construíram estes quartéis
     utilizaram-se de pedras na construção, e que preferiram cavar ao redor.
@@ -846,11 +897,12 @@
     este povo não fora nada melhor do que qualquer grupo de bárbaros.
   exits:
     north:
-      target_vnum: '13153'
+      target_vnum: '010213113153'
     west:
-      target_vnum: '13151'
+      target_vnum: '010213113151'
+  local_id: '13152'
   name: Uma Curva No Corredor
-  vnum: '13152'
+  vnum: '010213113152'
 - description: |-
     Aqui os quartéis se ramificam ao norte e ao leste.  Eles também
     continuam para o sul.  Esta área está completamente vazia, mas parece que
@@ -859,13 +911,14 @@
     sinais recentes de uso. Poderia ser qualquer um que esteve aqui.
   exits:
     east:
-      target_vnum: '13154'
+      target_vnum: '010213113154'
     north:
-      target_vnum: '13155'
+      target_vnum: '010213113155'
     south:
-      target_vnum: '13152'
+      target_vnum: '010213113152'
+  local_id: '13153'
   name: Os Quartéis
-  vnum: '13153'
+  vnum: '010213113153'
 - description: |-
     Um quartel, um corredor, como você deseja chamar este lugar. Pois isto
     se parece muito com as duas opções e continua conduzindo ao leste e oeste.
@@ -873,11 +926,12 @@
     parece, mas mesmo assim parece que nunca foram usados.
   exits:
     east:
-      target_vnum: '13156'
+      target_vnum: '010213113156'
     west:
-      target_vnum: '13153'
+      target_vnum: '010213113153'
+  local_id: '13154'
   name: O Corredor
-  vnum: '13154'
+  vnum: '010213113154'
 - description: |-
     Este beco sem saída parece ter sido cavado parcialmente, e nunca fora
     terminado. Talvez porque os habitantes daqui nunca tiveram uma chance de
@@ -888,9 +942,10 @@
     caminho que você veio, ao sul.
   exits:
     south:
-      target_vnum: '13153'
+      target_vnum: '010213113153'
+  local_id: '13155'
   name: O Fim Das Barracas
-  vnum: '13155'
+  vnum: '010213113155'
 - description: |-
     Aqui você consegue ver pegadas sobre o grosso pó que cobre o chão. Será
     que você já esteve aqui antes? As paredes ao contrário do chão não
@@ -900,11 +955,12 @@
     corredor segue até a parte principal da cidade.
   exits:
     south:
-      target_vnum: '13145'
+      target_vnum: '010213113145'
     west:
-      target_vnum: '13154'
+      target_vnum: '010213113154'
+  local_id: '13156'
   name: Uma Curva No Corredor
-  vnum: '13156'
+  vnum: '010213113156'
 - description: |-
     Este lugar parece totalmente estranho comparado ao resto de Torin.
     Instintivamente você percebe que este lugar é sagrado pelo menos para
@@ -917,11 +973,12 @@
     Câmara dos Porteiros.
   exits:
     east:
-      target_vnum: '13158'
+      target_vnum: 010213113158
     south:
-      target_vnum: '13123'
+      target_vnum: '010213113123'
+  local_id: '13157'
   name: O Começo De Um Lugar Sagrado
-  vnum: '13157'
+  vnum: '010213113157'
 - description: |-
     Aqui a rua está bem limpa, e passou com certeza por uma monstruosa
     limpeza. Uma estrutura bem mantida está ao norte. O estranho e brilhante
@@ -932,13 +989,14 @@
     leste e oeste.
   exits:
     east:
-      target_vnum: '13159'
+      target_vnum: 010213113159
     north:
-      target_vnum: '13165'
+      target_vnum: '010213113165'
     west:
-      target_vnum: '13157'
+      target_vnum: '010213113157'
+  local_id: '13158'
   name: Na Estrada Diante Da Catedral
-  vnum: '13158'
+  vnum: 010213113158
 - description: |-
     Aqui a rua termina. Uma grande parede está sustentando uma estrutura
     ao oeste, e isto bloqueia seu caminho. Para o norte estão duas portas
@@ -947,11 +1005,12 @@
     extremamente limpa e muito bem iluminada.
   exits:
     north:
-      target_vnum: '13160'
+      target_vnum: '010213113160'
     west:
-      target_vnum: '13158'
+      target_vnum: 010213113158
+  local_id: '13159'
   name: O Fim Da Estrada
-  vnum: '13159'
+  vnum: 010213113159
 - description: |-
     Você entra na grande catedral de Torin e és imediatamente amedrontado
     pela presença que você sente ao entrar. O chão aqui é feito de um tipo de
@@ -964,11 +1023,12 @@
     possuem um papel fixado.
   exits:
     north:
-      target_vnum: '13161'
+      target_vnum: '010213113161'
     south:
-      target_vnum: '13159'
+      target_vnum: 010213113159
+  local_id: '13160'
   name: A Grande Catedral
-  vnum: '13160'
+  vnum: '010213113160'
 - description: |-
     Um grande altar ocupa a grande parte deste templo. Você não consegue
     reconhecer para qual deus este altar foi dedicado, entretanto o significado
@@ -977,11 +1037,12 @@
     que conduz mais adiante no templo, talvez para uma câmara privada no templo.
   exits:
     east:
-      target_vnum: '13162'
+      target_vnum: '010213113162'
     south:
-      target_vnum: '13160'
+      target_vnum: '010213113160'
+  local_id: '13161'
   name: O Altar
-  vnum: '13161'
+  vnum: '010213113161'
 - description: |-
     Você entrou em um pequeno, porém temeroso lugar. O lugar é realmente
     muito pouco decorado, possui somente um tapete enfeitando o chão e uma
@@ -993,13 +1054,14 @@
     próprio Templo de Mendo. Para o lado sul um quarto.
   exits:
     east:
-      target_vnum: '13164'
+      target_vnum: '010213113164'
     south:
-      target_vnum: '13163'
+      target_vnum: '010213113163'
     west:
-      target_vnum: '13161'
+      target_vnum: '010213113161'
+  local_id: '13162'
   name: O Aposento de Mendo
-  vnum: '13162'
+  vnum: '010213113162'
 - description: |-
     Quando entra neste quarto nota que é realmente muito simples para uma
     pessoa como ele foi. A primeira coisa que você olha ao entrar são as
@@ -1008,9 +1070,10 @@
     ao norte.
   exits:
     north:
-      target_vnum: '13162'
+      target_vnum: '010213113162'
+  local_id: '13163'
   name: O Quarto De Mendo
-  vnum: '13163'
+  vnum: '010213113163'
 - description: |-
     Antes você achava que isto fosse somente um outro quarto qualquer, mas
     agora nota que existe um gabinete adornado com pequenas jóias. Por outro
@@ -1018,9 +1081,10 @@
     pedra no chão. A única saída está ao oeste.
   exits:
     west:
-      target_vnum: '13162'
+      target_vnum: '010213113162'
+  local_id: '13164'
   name: Um Quarto Pequeno
-  vnum: '13164'
+  vnum: '010213113164'
 - description: |-
     Aqui está um pequeno quarto. Parece ser uma sala de reuniões,
     entretanto você não consegue ter certeza para qual finalidade era
@@ -1029,9 +1093,10 @@
     A única saída deste quarto está ao sul.
   exits:
     south:
-      target_vnum: '13158'
+      target_vnum: 010213113158
+  local_id: '13165'
   name: Um Quarto Pequeno
-  vnum: '13165'
+  vnum: '010213113165'
 - description: |-
     Rastejando por este pequeno túnel você percebe que alguém de fato
     cavou isto como um caminho temporário... não existe nenhum motivo de
@@ -1041,11 +1106,12 @@
     ver uma caverna e para o sul uma outra.
   exits:
     north:
-      target_vnum: '13167'
+      target_vnum: '010213113167'
     south:
-      target_vnum: '13129'
+      target_vnum: 010213113129
+  local_id: '13166'
   name: O Túnel
-  vnum: '13166'
+  vnum: '010213113166'
 - description: |-
     Estas cavernas estão em um estado terrível e você não consegue
     imaginar o tipo de criatura que poderia viver em um lugar como este.
@@ -1055,13 +1121,14 @@
     continuar pela caverna ao leste, oeste e pelo túnel ao sul.
   exits:
     east:
-      target_vnum: '13169'
+      target_vnum: 010213113169
     south:
-      target_vnum: '13166'
+      target_vnum: '010213113166'
     west:
-      target_vnum: '13168'
+      target_vnum: 010213113168
+  local_id: '13167'
   name: O Reino De Melki E Adorin
-  vnum: '13167'
+  vnum: '010213113167'
 - description: |-
     Aqui as paredes da caverna são volumosas e escuras. Vestimentas antigas
     e outras relíquias semelhantes lhe mostram que algum tipo de civilização
@@ -1071,9 +1138,10 @@
     degeneraram. Para o leste está mais uma seção desta pequena caverna.
   exits:
     east:
-      target_vnum: '13167'
+      target_vnum: '010213113167'
+  local_id: '13168'
   name: O Fim Da Caverna
-  vnum: '13168'
+  vnum: 010213113168
 - description: |-
     Aqui você vê mais uma daquelas cavernas que parecem terem sido habitas
     por algum ser. Agora o que apenas vive aqui pode ser considerado de algo
@@ -1086,13 +1154,14 @@
     está ao sul.
   exits:
     east:
-      target_vnum: '13170'
+      target_vnum: '010213113170'
     south:
-      target_vnum: '13171'
+      target_vnum: '010213113171'
     west:
-      target_vnum: '13167'
+      target_vnum: '010213113167'
+  local_id: '13169'
   name: A Caverna
-  vnum: '13169'
+  vnum: 010213113169
 - description: |-
     Um grande quarto está aberto aqui e você não consegue imaginar como
     isto durou por tanto tempo. Uma grande fonte está no centro do quarto e
@@ -1103,9 +1172,10 @@
     da saída ocidental, que é a única saída deste quarto.
   exits:
     west:
-      target_vnum: '13169'
+      target_vnum: 010213113169
+  local_id: '13170'
   name: Um Grande Quarto
-  vnum: '13170'
+  vnum: '010213113170'
 - description: |-
     O chão imundo neste pequeno nicho quase lhe asfixia. Você só consegue
     pensar no tipo de criatura que vive em um lugar como este. Talvez isto
@@ -1114,25 +1184,27 @@
     neles, mas você ainda consegue ver o caminho para sair daqui ao norte.
   exits:
     north:
-      target_vnum: '13169'
+      target_vnum: 010213113169
+  local_id: '13171'
   name: Um Nicho Pequeno
-  vnum: '13171'
+  vnum: '010213113171'
 - description: "Você chega até uma pequena justificação dentro das Arvores Negras.\n\
     Folhas estão espalhadas sobre o chão, depois de terem caído possivelmente\ndas\
     \ árvores que aqui estão. A idade desta floresta se torna muito\nevidente quando\
     \ você nota o tamanho do buraco que as raízes fizeram.\nMas existe somente um\
     \ buraco deste tamanho, porque será que somente UM?\nPoderia ser uma caverna subterrânea?\
-    \  Uma cidade anciã enterrada aqui? Um\ntesouro acumulado de um pequeno dragÃ£o?\
-    \ Ã\x89 difÃ­cil conter a excitaÃ§Ã£o que\nisto lhe proporciona, pois ainda é\
-    \ um mistério.  Entre, se você for\nousado - caso contrÃ¡rio, volte pelo caminho\
-    \ das Ã\x81rvores Negras ao oeste\ne sul."
+    \  Uma cidade anciã enterrada aqui? Um\ntesouro acumulado de um pequeno dragão?\
+    \ Ã\x89 difícil conter a excitação que\nisto lhe proporciona, pois ainda é um\
+    \ mistério.  Entre, se você for\nousado - caso contrário, volte pelo caminho das\
+    \ Ã\x81rvores Negras ao oeste\ne sul."
   exits:
     down:
-      target_vnum: '13101'
+      target_vnum: '010213113101'
     south:
-      target_vnum: '13173'
+      target_vnum: '010213113173'
+  local_id: '13172'
   name: "Uma Ã\x81rea Limpa Na Floresta"
-  vnum: '13172'
+  vnum: '010213113172'
 - description: |-
     Vagando por esta antiga floresta, você começa a se lembrar quando era
     uma criança, de todos os contos que foram lhe contado sobre este lugar.
@@ -1143,11 +1215,12 @@
     existe uma pequena justificação.
   exits:
     north:
-      target_vnum: '13172'
+      target_vnum: '010213113172'
     west:
-      target_vnum: '13174'
+      target_vnum: '010213113174'
+  local_id: '13173'
   name: "As Ã\x81rvores Negras"
-  vnum: '13173'
+  vnum: '010213113173'
 - description: |-
     Você entra em uma floresta que parece ser completamente diferente da
     floresta de Thewster.  Aqui todas as árvores são completamente negras, mas
@@ -1157,11 +1230,12 @@
     caminhar apenas por uma estreita trilha quase desaparecida.
   exits:
     east:
-      target_vnum: '13175'
+      target_vnum: '010213113175'
     west:
-      target_vnum: '13581'
+      target_vnum: 010213113581
+  local_id: '13174'
   name: "A Floresta das Ã\x81rvores Negras"
-  vnum: '13174'
+  vnum: '010213113174'
 - description: |-
     Você está em uma floresta em que todas as árvores são completamente
     negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
@@ -1171,11 +1245,12 @@
     oeste.
   exits:
     east:
-      target_vnum: '13176'
+      target_vnum: '010213113176'
     west:
-      target_vnum: '13174'
+      target_vnum: '010213113174'
+  local_id: '13175'
   name: "A Floresta das Ã\x81rvores Negras"
-  vnum: '13175'
+  vnum: '010213113175'
 - description: |-
     Você está em uma floresta em que todas as árvores são completamente
     negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
@@ -1185,11 +1260,12 @@
     oeste.
   exits:
     east:
-      target_vnum: '13177'
+      target_vnum: '010213113177'
     west:
-      target_vnum: '13175'
+      target_vnum: '010213113175'
+  local_id: '13176'
   name: "A Floresta das Ã\x81rvores Negras"
-  vnum: '13176'
+  vnum: '010213113176'
 - description: |-
     Você está em uma floresta em que todas as árvores são completamente
     negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
@@ -1199,11 +1275,12 @@
     oeste.
   exits:
     east:
-      target_vnum: '13178'
+      target_vnum: 010213113178
     west:
-      target_vnum: '13176'
+      target_vnum: '010213113176'
+  local_id: '13177'
   name: "A Floresta das Ã\x81rvores Negras"
-  vnum: '13177'
+  vnum: '010213113177'
 - description: |-
     Você está em uma floresta em que todas as árvores são completamente
     negras, mas não por terem sido carbonizadas ou algo do tipo, e sim por assim
@@ -1213,8 +1290,9 @@
     oeste.
   exits:
     east:
-      target_vnum: '13173'
+      target_vnum: '010213113173'
     west:
-      target_vnum: '13177'
+      target_vnum: '010213113177'
+  local_id: '13178'
   name: "A Floresta das Ã\x81rvores Negras"
-  vnum: '13178'
+  vnum: 010213113178

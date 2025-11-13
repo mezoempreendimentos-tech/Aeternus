@@ -12,9 +12,10 @@
     heróis possuem.
   exits:
     north:
-      target_vnum: '11001'
+      target_vnum: '010211011001'
+  local_id: '11000'
   name: O Portal Sombrio
-  vnum: '11000'
+  vnum: '010211011000'
 - description: |-
     Você fez a sua escolha e começa a penetrar naquele longo corredor quase
     que absolutamente escuro.  Os muros são altos, feitos com imensos blocos de
@@ -26,11 +27,12 @@
     Vitália.
   exits:
     north:
-      target_vnum: '11002'
+      target_vnum: '010211011002'
     south:
-      target_vnum: '11000'
+      target_vnum: '010211011000'
+  local_id: '11001'
   name: Os Corredores Sombrios
-  vnum: '11001'
+  vnum: '010211011001'
 - description: |-
     Algumas tochas foram presas às paredes de pedra.  O chão de terra batida
     está manchada por uma substância escura que você presume ser sangue.  A luz,
@@ -41,11 +43,12 @@
     temíveis criaturas o acompanham com o olhar.
   exits:
     north:
-      target_vnum: '11003'
+      target_vnum: '010211011003'
     south:
-      target_vnum: '11001'
+      target_vnum: '010211011001'
+  local_id: '11002'
   name: Os Corredores Sombrios
-  vnum: '11002'
+  vnum: '010211011002'
 - description: |-
     Você percebe que está chegando próximo a um local onde a vida e a morte
     são companheiras inseparáveis.  Um cheiro acre penetra em suas narinas,
@@ -58,11 +61,12 @@
     O corredor parece ter chegado ao seu destino.  Seu coração dispara...
   exits:
     north:
-      target_vnum: '11004'
+      target_vnum: '010211011004'
     south:
-      target_vnum: '11002'
+      target_vnum: '010211011002'
+  local_id: '11003'
   name: Os Corredores Sombrios
-  vnum: '11003'
+  vnum: '010211011003'
 - description: "Uma gigantesca arena vai surgindo diante dos seus olhos, dando-lhe\
     \ a\ncerteza absoluta de que aquele lugar teria sido construído por seres\nsuperiores,\
     \ que queriam colocar à prova a coragem e a destreza dos maiores\nguerreiros.\
@@ -72,15 +76,16 @@
     \ famintas, que parecem saber que em pouco tempo irão\nse refestelar sobre banquetes\
     \ vivos e apavorados.  Grandes estandartes foram\ndesfraldados sobre os grandes\
     \ muros da Arena, com os símbolos dos poderosos\nClãs de Vitália.\nÃ\x80s vezes,\
-    \ tem-se a impressÃ£o de ver grandes vultos alados sobrevoando o\nlocal...  Seriam\
+    \ tem-se a impressão de ver grandes vultos alados sobrevoando o\nlocal...  Seriam\
     \ os antigos dragões de Vitália?"
   exits:
     east:
-      target_vnum: '11007'
+      target_vnum: '010211011007'
     south:
-      target_vnum: '11003'
+      target_vnum: '010211011003'
+  local_id: '11004'
   name: A Grande Arena de Vitália
-  vnum: '11004'
+  vnum: '010211011004'
 - description: |-
     Não há um único indício de que aqueles que estão neste local sejam de
     fato homens que lidam com a vida e com a morte.  Suas paredes brancas chegam
@@ -96,11 +101,12 @@
     lutarão bravamente.
   exits:
     east:
-      target_vnum: '11006'
+      target_vnum: '010211011006'
     south:
-      target_vnum: '11016'
+      target_vnum: '010211011016'
+  local_id: '11005'
   name: O Santuário dos Campeões
-  vnum: '11005'
+  vnum: '010211011005'
 - description: |-
     Abrem-se os grandes portões internos da Arena.  Um silêncio sepulcral
     toma conta de todo o ambiente.  A expectativa é grande.  Pouco a pouco os
@@ -114,11 +120,12 @@
     abertos os Torneios de Vitália.
   exits:
     east:
-      target_vnum: '11030'
+      target_vnum: '010211011030'
     west:
-      target_vnum: '11005'
+      target_vnum: '010211011005'
+  local_id: '11006'
   name: O Centro da Grande Arena
-  vnum: '11006'
+  vnum: '010211011006'
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -128,15 +135,18 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
     east:
-      target_vnum: '11008'
+      target_vnum: 010211011008
     north:
-      target_vnum: '11026'
+      target_vnum: '010211011026'
+    southwest:
+      target_vnum: '010211011014'
+  local_id: '11007'
   name: As Arquibancadas da Grande Arena
-  vnum: '11007'
+  vnum: '010211011007'
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -146,15 +156,18 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
     north:
-      target_vnum: '11026'
+      target_vnum: '010211011026'
+    southeast:
+      target_vnum: 010211011009
     west:
-      target_vnum: '11007'
+      target_vnum: '010211011007'
+  local_id: '11008'
   name: As Arquibancadas da Grande Arena
-  vnum: '11008'
+  vnum: 010211011008
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -164,15 +177,18 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
     east:
-      target_vnum: '11027'
+      target_vnum: '010211011027'
+    northeast:
+      target_vnum: 010211011008
     south:
-      target_vnum: '11010'
+      target_vnum: '010211011010'
+  local_id: '11009'
   name: As Arquibancadas da Grande Arena
-  vnum: '11009'
+  vnum: 010211011009
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -182,15 +198,18 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
     east:
-      target_vnum: '11027'
+      target_vnum: '010211011027'
     north:
-      target_vnum: '11009'
+      target_vnum: 010211011009
+    southwest:
+      target_vnum: '010211011011'
+  local_id: '11010'
   name: As Arquibancadas da Grande Arena
-  vnum: '11010'
+  vnum: '010211011010'
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -200,15 +219,18 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
+    northwest:
+      target_vnum: '010211011010'
     south:
-      target_vnum: '11028'
+      target_vnum: 010211011028
     west:
-      target_vnum: '11012'
+      target_vnum: '010211011012'
+  local_id: '11011'
   name: As Arquibancadas da Grande Arena
-  vnum: '11011'
+  vnum: '010211011011'
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -218,15 +240,18 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
     east:
-      target_vnum: '11011'
+      target_vnum: '010211011011'
+    northeast:
+      target_vnum: '010211011013'
     south:
-      target_vnum: '11028'
+      target_vnum: 010211011028
+  local_id: '11012'
   name: As Arquibancadas da Grande Arena
-  vnum: '11012'
+  vnum: '010211011012'
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -236,15 +261,18 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
     north:
-      target_vnum: '11014'
+      target_vnum: '010211011014'
+    southeast:
+      target_vnum: '010211011012'
     west:
-      target_vnum: '11029'
+      target_vnum: 010211011029
+  local_id: '11013'
   name: As Arquibancadas da Grande Arena
-  vnum: '11013'
+  vnum: '010211011013'
 - description: "Corredores circulares com enormes degraus feitos de pedra travertina,\n\
     onde se sentam todos aqueles que vieram até aqui para se divertir.  São\nseres\
     \ humanos que estão ali mas agem como se fossem feras à espreita das\nsuas presas.\
@@ -254,35 +282,40 @@
     \ da arena, acomodando ali os grandes\nchefes dos Clans que podem desta forma,\
     \ ter uma visão total de tudo o que\nali acontece.  Criados apressados, circulam\
     \ em meio à turba, servindo\ncomidas e vinho aos seus senhores.  Ã\x80s vezes,\
-    \ tem-se a impressÃ£o de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
+    \ tem-se a impressão de ver\ngrandes vultos alados sobrevoando o local...  Seriam\
     \ os antigos Dragões de\nVitália?"
   exits:
+    northwest:
+      target_vnum: '010211011007'
     south:
-      target_vnum: '11013'
+      target_vnum: '010211011013'
     west:
-      target_vnum: '11029'
+      target_vnum: 010211011029
+  local_id: '11014'
   name: As Arquibancadas da Grande Arena
-  vnum: '11014'
+  vnum: '010211011014'
 - description: "Corredores circulares com enormes degraus feitos de...  Névoa?  Essa\n\
     parte das arquibancadas é reservada, e aqui os Imortais e Deuses se sentam\npara\
-    \ assistir aos espetÃ¡culos.  Ã\x80s vezes, tem-se a impressÃ£o de ver grandes\n\
+    \ assistir aos espetáculos.  Ã\x80s vezes, tem-se a impressão de ver grandes\n\
     vultos alados sobrevoando o local...  Seriam os antigos Dragões de Vitália?"
   exits:
     east:
-      target_vnum: '1204'
+      target_vnum: '01021101204'
     west:
-      target_vnum: '1204'
+      target_vnum: '01021101204'
+  local_id: '11015'
   name: As Arquibancadas da Grande Arena
-  vnum: '11015'
+  vnum: '010211011015'
 - description: |-
     Corredores circulares com enormes degraus feitos de...  Névoa?  Essa
     parte especial das arquibancadas é reservada, e aqui os Campeões podem se
     sentar para assistir aos espetáculos.
   exits:
     north:
-      target_vnum: '11005'
+      target_vnum: '010211011005'
+  local_id: '11016'
   name: As Arquibancadas da Grande Arena
-  vnum: '11016'
+  vnum: '010211011016'
 - description: |-
     Abrem-se os grandes portões e você se sente empurrado pela multidão, como
     se fosse simples folha ao vento.  Seu coração dispara ao se lembrar das
@@ -294,8 +327,9 @@
     E então ele desaparece...como se jamais tivesse aparecido.  Cuidado!
     Apresse o seu passo e tente se esquecer do que viu.
   exits: {}
+  local_id: '11026'
   name: As Saídas da Grande Arena
-  vnum: '11026'
+  vnum: '010211011026'
 - description: |-
     Abrem-se os grandes portões e você se sente empurrado pela multidão, como
     se fosse simples folha ao vento.  Seu coração dispara ao se lembrar das
@@ -307,8 +341,9 @@
     E então ele desaparece...como se jamais tivesse aparecido.  Cuidado!
     Apresse o seu passo e tente se esquecer do que viu.
   exits: {}
+  local_id: '11027'
   name: As Saídas da Grande Arena
-  vnum: '11027'
+  vnum: '010211011027'
 - description: |-
     Abrem-se os grandes portões e você se sente empurrado pela multidão, como
     se fosse simples folha ao vento.  Seu coração dispara ao se lembrar das
@@ -320,8 +355,9 @@
     E então ele desaparece...como se jamais tivesse aparecido.  Cuidado!
     Apresse o seu passo e tente se esquecer do que viu.
   exits: {}
+  local_id: '11028'
   name: As Saídas da Grande Arena
-  vnum: '11028'
+  vnum: 010211011028
 - description: |-
     Abrem-se os grandes portões e você se sente empurrado pela multidão, como
     se fosse simples folha ao vento.  Seu coração dispara ao se lembrar das
@@ -333,8 +369,9 @@
     E então ele desaparece...como se jamais tivesse aparecido.  Cuidado!
     Apresse o seu passo e tente se esquecer do que viu.
   exits: {}
+  local_id: '11029'
   name: As Saídas da Grande Arena
-  vnum: '11029'
+  vnum: 010211011029
 - description: |-
     Não há um único indício de que aqueles que estão neste local sejam de
     fato homens que lidam com a vida e com a morte.  Suas paredes brancas chegam
@@ -349,6 +386,7 @@
     mais uma vez erguerem o Brasão de Vitália.
   exits:
     west:
-      target_vnum: '11006'
+      target_vnum: '010211011006'
+  local_id: '11030'
   name: O Santuário dos Campeões
-  vnum: '11030'
+  vnum: '010211011030'

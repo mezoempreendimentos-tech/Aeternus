@@ -6,11 +6,12 @@
     rachadura na parede de pedra.
   exits:
     down:
-      target_vnum: '2407'
+      target_vnum: '01010242407'
     west:
-      target_vnum: '2431'
+      target_vnum: '01010242431'
+  local_id: '2400'
   name: Casa do Velho Marinheiro
-  vnum: '2400'
+  vnum: '01010242400'
 - description: |-
     Esta sala parece ter sido usada como um tipo de prisão para membros da
     tripulação que cometeram crimes ou outro tipo de irregularidade.  Há uma
@@ -18,9 +19,10 @@
     claro, pelo cheiro das envelhecidas caveiras.
   exits:
     up:
-      target_vnum: '2414'
+      target_vnum: '01010242414'
+  local_id: '2401'
   name: Sala de Esqueletos
-  vnum: '2401'
+  vnum: '01010242401'
 - description: |-
     Você começa a descer a escada de cordas.  Abaixo de você, há uma névoa
     ocultando tudo exceto um ou dois pés abaixo.  Na verdade, você só consegue
@@ -31,11 +33,12 @@
     cadeiras de balanço ao mesmo tempo.
   exits:
     down:
-      target_vnum: '2408'
+      target_vnum: 01010242408
     up:
-      target_vnum: '2400'
+      target_vnum: '01010242400'
+  local_id: '2407'
   name: Uma Escada de Corda
-  vnum: '2407'
+  vnum: '01010242407'
 - description: |-
     Na medida em que desce pela ladeira, a névoa começa a se dissipar, e o
     que você vê abaixo, toma todo o seu fôlego.
@@ -48,11 +51,12 @@
     talvez, até centenas de anos.
   exits:
     down:
-      target_vnum: '2409'
+      target_vnum: 01010242409
     up:
-      target_vnum: '2407'
+      target_vnum: '01010242407'
+  local_id: '2408'
   name: Fora da Neblina
-  vnum: '2408'
+  vnum: 01010242408
 - description: |-
     Você está em uma pequena plataforma redonda, que circula todo o mastro
     principal.  Uma pequena escada de ferro desce pelo mastro para o convés, no
@@ -61,11 +65,12 @@
     A corda segue para cima, através da névoa.
   exits:
     down:
-      target_vnum: '2410'
+      target_vnum: '01010242410'
     up:
-      target_vnum: '2408'
+      target_vnum: 01010242408
+  local_id: '2409'
   name: Cesto de Vigia - Mastro Principal
-  vnum: '2409'
+  vnum: 01010242409
 - description: |-
     Você está no centro deste inválido navio à velas, gentilmente balançando
     nas águas abaixo.  Você não pode ouvir nada, a não ser o som do chiar do
@@ -75,40 +80,43 @@
     seguem para leste e oeste de você.
   exits:
     east:
-      target_vnum: '2419'
+      target_vnum: 01010242419
     north:
-      target_vnum: '2411'
+      target_vnum: '01010242411'
     south:
-      target_vnum: '2415'
+      target_vnum: '01010242415'
     up:
-      target_vnum: '2409'
+      target_vnum: 01010242409
     west:
-      target_vnum: '2418'
+      target_vnum: 01010242418
+  local_id: '2410'
   name: Passadiço - Meio do Navio
-  vnum: '2410'
+  vnum: '01010242410'
 - description: |-
     Seus passos ecoam de maneira côncava pelo entabuamento, lhe dando a
     sensação de um iminente perigo.  Uma escotilha aqui lhe da acesso ao convés
     inferior.
   exits:
     down:
-      target_vnum: '2420'
+      target_vnum: '01010242420'
     north:
-      target_vnum: '2412'
+      target_vnum: '01010242412'
     south:
-      target_vnum: '2410'
+      target_vnum: '01010242410'
+  local_id: '2411'
   name: Passadiço
-  vnum: '2411'
+  vnum: '01010242411'
 - description: |-
     O mastro de proa se ergue do convés aqui, e o cordame podre ainda selado
     às esfarrapadas velas.  O passadiço segue para norte e sul de você.
   exits:
     north:
-      target_vnum: '2413'
+      target_vnum: '01010242413'
     south:
-      target_vnum: '2411'
+      target_vnum: '01010242411'
+  local_id: '2412'
   name: Passadiço no Mastro de Proa
-  vnum: '2412'
+  vnum: '01010242412'
 - description: |-
     Você está proximo a maior parte do navio, com a parede da caverna
     diretamente em seu rosto.  Agora você pode ver como este navio ficou
@@ -118,33 +126,36 @@
     o navio.
   exits:
     north:
-      target_vnum: '2414'
+      target_vnum: '01010242414'
     south:
-      target_vnum: '2412'
+      target_vnum: '01010242412'
+  local_id: '2413'
   name: Castelo de Proa
-  vnum: '2413'
+  vnum: '01010242413'
 - description: |-
     Você esta bem na parte dianteira do navio.  Há um pequeno buraco de forma
     quadrada aqui seguindo para baixo, ou você pode seguir para sul ao longo do
     passadiço.
   exits:
     down:
-      target_vnum: '2401'
+      target_vnum: '01010242401'
     south:
-      target_vnum: '2413'
+      target_vnum: '01010242413'
+  local_id: '2414'
   name: A Proa
-  vnum: '2414'
+  vnum: '01010242414'
 - description: |-
     Você está no convés da popa, a principal seção desse convés superior,
     onde a maioria das velas devem ter sido feitas, quando este navio ainda não
     tinha sido aprisionado aqui.
   exits:
     north:
-      target_vnum: '2410'
+      target_vnum: '01010242410'
     south:
-      target_vnum: '2416'
+      target_vnum: '01010242416'
+  local_id: '2415'
   name: Convés da Popa
-  vnum: '2415'
+  vnum: '01010242415'
 - description: |-
     A grande roda de madeira que controla o leme do navio continua aqui, sem
     senhum corte ou arranhão.  Há também uma bússola aqui, parecendo estar em
@@ -153,11 +164,12 @@
     para a popa do navio.
   exits:
     north:
-      target_vnum: '2415'
+      target_vnum: '01010242415'
     south:
-      target_vnum: '2417'
+      target_vnum: '01010242417'
+  local_id: '2416'
   name: No Comando do Leme
-  vnum: '2416'
+  vnum: '01010242416'
 - description: |-
     Você está na parte traseira do navio, que se chocou com a parede da
     caverna.  Os pisos aqui ainda parecem estar livres de qualquer tipo de
@@ -165,21 +177,24 @@
     empacado aqui por tanto tempo.
   exits:
     north:
-      target_vnum: '2416'
+      target_vnum: '01010242416'
+  local_id: '2417'
   name: Popa
-  vnum: '2417'
+  vnum: '01010242417'
 - description: Os lados do navio são inacabados, com três pés de altura.
   exits:
     east:
-      target_vnum: '2410'
+      target_vnum: '01010242410'
+  local_id: '2418'
   name: Amurada Bombordo
-  vnum: '2418'
+  vnum: 01010242418
 - description: Os lados do navio são inacabados, com três pés de altura.
   exits:
     west:
-      target_vnum: '2410'
+      target_vnum: '01010242410'
+  local_id: '2419'
   name: Amurada Estibordo
-  vnum: '2419'
+  vnum: 01010242419
 - description: |-
     Você está em um pequeno, e apertado corredor que segue para norte e sul.
     Você percebe portas em alguns momentos, na sua frente e atrás de você, mas
@@ -187,63 +202,68 @@
     nos dois sentidos.
   exits:
     north:
-      target_vnum: '2421'
+      target_vnum: '01010242421'
     south:
-      target_vnum: '2423'
+      target_vnum: '01010242423'
     up:
-      target_vnum: '2411'
+      target_vnum: '01010242411'
+  local_id: '2420'
   name: Em um Corredor - Convés Inferior
-  vnum: '2420'
+  vnum: '01010242420'
 - description: |-
     O corredor acaba a norte de você, em uma porta.  Portas o circulam em seu
     lado oeste e leste.
   exits:
     east:
-      target_vnum: '2429'
+      target_vnum: 01010242429
     north:
-      target_vnum: '2422'
+      target_vnum: '01010242422'
     south:
-      target_vnum: '2420'
+      target_vnum: '01010242420'
     west:
-      target_vnum: '2430'
+      target_vnum: '01010242430'
+  local_id: '2421'
   name: Em um Corredor - Convés Inferior
-  vnum: '2421'
+  vnum: '01010242421'
 - description: |-
     Você está em frente a uma porta fechada no fim do corredor norte.
     Nenhuma marcação ou sinal adorna a porta, portanto poderia guiar para
     qualquer lugar.
   exits:
     north:
-      target_vnum: '2426'
+      target_vnum: '01010242426'
     south:
-      target_vnum: '2421'
+      target_vnum: '01010242421'
+  local_id: '2422'
   name: Fim do Corredor Norte
-  vnum: '2422'
+  vnum: '01010242422'
 - description: |-
     O corredor segue para norte e sul daqui, somente terminando para sul de
     você em uma porta fechada.  Portas orlam por seus lados, leste e oeste, ou
     você pode voltar para norte.
   exits:
     east:
-      target_vnum: '2428'
+      target_vnum: 01010242428
     north:
-      target_vnum: '2420'
+      target_vnum: '01010242420'
     south:
-      target_vnum: '2424'
+      target_vnum: '01010242424'
     west:
-      target_vnum: '2427'
+      target_vnum: '01010242427'
+  local_id: '2423'
   name: Um Corredor - Convés Inferior
-  vnum: '2423'
+  vnum: '01010242423'
 - description: |-
     Você está no final do corredor sul, em frente a uma grande porta de
     carvalho.  Você pode voltar ao norte, ou tentar a porta.
   exits:
     north:
-      target_vnum: '2423'
+      target_vnum: '01010242423'
     south:
-      target_vnum: '2425'
+      target_vnum: '01010242425'
+  local_id: '2424'
   name: Fim do Corredor Sul
-  vnum: '2424'
+  vnum: '01010242424'
 - description: |-
     Esta é, claramente, o maior quarto de todo o convés inferior deste navio,
     mas não tão enorme.  Uma cama grande, e com aspecto confortável, está junto
@@ -251,9 +271,10 @@
     junto a um banquinho.
   exits:
     north:
-      target_vnum: '2424'
+      target_vnum: '01010242424'
+  local_id: '2425'
   name: Alojamento do Capitão
-  vnum: '2425'
+  vnum: '01010242425'
 - description: |-
     Esta sala é onde a maioria da tripulação devia dormir.  Prateleiras
     cravadas junto as paredes, criam pequenas camas para cada marinheiro.  As
@@ -262,9 +283,10 @@
     de nenhum homem.
   exits:
     south:
-      target_vnum: '2422'
+      target_vnum: '01010242422'
+  local_id: '2426'
   name: Dormitório
-  vnum: '2426'
+  vnum: '01010242426'
 - description: |-
     Toda as refeições do navio eram preparadas e comidas nesta sala.  Uma
     pequena, mas eficiente cozinha, está montada no fim da sala, enquanto uma
@@ -272,9 +294,10 @@
     sala.
   exits:
     east:
-      target_vnum: '2423'
+      target_vnum: '01010242423'
+  local_id: '2427'
   name: A Cozinha e o Refeitório
-  vnum: '2427'
+  vnum: '01010242427'
 - description: |-
     Esta sala, apesar de abandonada por muito tempo, ainda possui o mesmo
     cheiro de quando este navio estava em operação.  Uma pequena e imunda bacia
@@ -282,18 +305,20 @@
     desafiando-o a usa-la.
   exits:
     west:
-      target_vnum: '2423'
+      target_vnum: '01010242423'
+  local_id: '2428'
   name: O Banheiro
-  vnum: '2428'
+  vnum: 01010242428
 - description: |-
     Esta longa sala abriga vários apodrecidos bancos de madeira, todos eles
     formando pares com velhos remos.  Que alegria devia ser ficar aqui remando
     quando não havia vento para mover o navio!
   exits:
     west:
-      target_vnum: '2421'
+      target_vnum: '01010242421'
+  local_id: '2429'
   name: Sala do Remo - Estibordo
-  vnum: '2429'
+  vnum: 01010242429
 - description: |-
     Esta longa sala abriga vários apodrecidos bancos de madeira, todos eles
     formando pares com velhos remos.  Você consegue sentir o sofrimento dos
@@ -301,9 +326,10 @@
     navio movendo, em águas calmas e sem ventos.
   exits:
     east:
-      target_vnum: '2421'
+      target_vnum: '01010242421'
+  local_id: '2430'
   name: Sala do Remo - Bombordo
-  vnum: '2430'
+  vnum: '01010242430'
 - description: |-
     Você está na entrada de uma caverna que desce pelo rochedo.  Você vê uma
     bruxuleante luz dentro, que parece ser uma fogueira ou uma lanterna.  Essa
@@ -311,8 +337,9 @@
     cozinhar você!
   exits:
     east:
-      target_vnum: '2400'
+      target_vnum: '01010242400'
     north:
-      target_vnum: '6200'
+      target_vnum: '01010246200'
+  local_id: '2431'
   name: Entrada da Caverna
-  vnum: '2431'
+  vnum: '01010242431'

@@ -17,24 +17,26 @@
     cobrir a boca com seu braço, para tentar minimizar a coisa.
   exits:
     east:
-      target_vnum: '10001'
+      target_vnum: '010210010001'
+  local_id: '10000'
   name: Entrando na Vila
-  vnum: '10000'
+  vnum: '010210010000'
 - description: |-
     Um pequeno caminho sujo leva para leste, norte e sul daqui.
     Para o norte e para sul, você pode ver mais celas, para leste você vê
     algumas cabanas, tendas e construções.
   exits:
     east:
-      target_vnum: '10011'
+      target_vnum: '010210010011'
     north:
-      target_vnum: '10003'
+      target_vnum: '010210010003'
     south:
-      target_vnum: '10002'
+      target_vnum: '010210010002'
     west:
-      target_vnum: '10000'
+      target_vnum: '010210010000'
+  local_id: '10001'
   name: Um Caminho Sujo
-  vnum: '10001'
+  vnum: '010210010001'
 - description: |-
     Esse é o final do caminho que leva para o campo de celas dos
     prisioneiros, uma delas localizada à oeste de você, agora fechada. Para o
@@ -42,26 +44,28 @@
     há outra cela.
   exits:
     north:
-      target_vnum: '10001'
+      target_vnum: '010210010001'
     south:
-      target_vnum: '10008'
+      target_vnum: 010210010008
     west:
-      target_vnum: '10005'
+      target_vnum: '010210010005'
+  local_id: '10002'
   name: Um Caminho Sujo
-  vnum: '10002'
+  vnum: '010210010002'
 - description: |-
     Você se encontra no fim do caminho sujo, ou como Mordecai chama, uma das
     'ruas' da vila.  Uma rude cela de bambu está à oeste, com uma casa bem ao
     norte. Ao sul, mais celas.
   exits:
     north:
-      target_vnum: '10009'
+      target_vnum: 010210010009
     south:
-      target_vnum: '10001'
+      target_vnum: '010210010001'
     west:
-      target_vnum: '10004'
+      target_vnum: '010210010004'
+  local_id: '10003'
   name: Um Caminho Sujo
-  vnum: '10003'
+  vnum: '010210010003'
 - description: |-
     Muito parecida com a sua, essa cela não oferece conforto.  De fato, essa
     cela é MUITO mais desconfortável que a sua.  Sentado perto o suficiente para
@@ -72,18 +76,20 @@
     meio dessa cela - EWWWWWW!
   exits:
     east:
-      target_vnum: '10003'
+      target_vnum: '010210010003'
+  local_id: '10004'
   name: Uma Cela
-  vnum: '10004'
+  vnum: '010210010004'
 - description: |-
     Essa cela parece com todas as outras lá fora. Uma pequena construção
     assemelhando-se a uma casa se encontra a sul, construída bem ao lado
     de uma cela.
   exits:
     east:
-      target_vnum: '10002'
+      target_vnum: '010210010002'
+  local_id: '10005'
   name: Uma Cela
-  vnum: '10005'
+  vnum: '010210010005'
 - description: |-
     Esse pequeno espaço cheira pior que um grande estábulo com 400
     cabeças de gado que não foram soltos por três meses. Esse lugar cheira
@@ -94,64 +100,74 @@
     surpreende com o fato de que esse local REALMENTE FEDE.
   exits:
     east:
-      target_vnum: '10009'
+      target_vnum: 010210010009
+  local_id: '10006'
   name: Uma Casa
-  vnum: '10006'
+  vnum: '010210010006'
 - description: "Essa casa, mal-cheirosa como qualquer casa, mas não tanto como aquela,\n\
     é uma pequeno cubículo 8x8 que dá um alívio para a maioria da vila. Porém,\nesse\
-    \ Ã\x89 o banheiro pÃºblico, e Ã© relativamente conservado, e contra seu\nmelhor\
+    \ Ã\x89 o banheiro público, e é relativamente conservado, e contra seu\nmelhor\
     \ julgamento, você se vê querendo tentar - apenas para ver como é."
   exits:
     east:
-      target_vnum: '10008'
+      target_vnum: 010210010008
+  local_id: '10007'
   name: Uma Casa
-  vnum: '10007'
+  vnum: '010210010007'
 - description: |-
     Esse caminho leva para norte, onde existe uma fileira de celas, ou
     para oeste dentro de uma construção que parece uma casa.
   exits:
     north:
-      target_vnum: '10002'
+      target_vnum: '010210010002'
     west:
-      target_vnum: '10007'
+      target_vnum: '010210010007'
+  local_id: '10008'
   name: Um Caminho Sujo
-  vnum: '10008'
+  vnum: 010210010008
 - description: |-
     Esse caminho leva para sul, onde existe uma fileira de celas, ou
     para oeste dentro de uma construção que cheira MUITO mal, que DEVE
     ser uma casa.
   exits:
     south:
-      target_vnum: '10003'
+      target_vnum: '010210010003'
+    southeast:
+      target_vnum: '010210010010'
     west:
-      target_vnum: '10006'
+      target_vnum: '010210010006'
+  local_id: '10009'
   name: Um Caminho Sujo
-  vnum: '10009'
+  vnum: 010210010009
 - description: |-
     Esse caminho leva para oeste, onde existe uma fila de celas, para o
     leste você entrará na parte principal da vila, e para norte e sul você
     vê construções longas e pequenas que se assemelham a um quartel.
   exits:
     east:
-      target_vnum: '10014'
+      target_vnum: '010210010014'
     north:
-      target_vnum: '10012'
+      target_vnum: '010210010012'
+    northeast:
+      target_vnum: 010210010009
     south:
-      target_vnum: '10013'
+      target_vnum: '010210010013'
     west:
-      target_vnum: '10011'
+      target_vnum: '010210010011'
+  local_id: '10010'
   name: Um Caminho Sujo
-  vnum: '10010'
+  vnum: '010210010010'
 - description: |-
     Esse caminho leva a leste para a parte principal da vila ou oeste
     para uma fila de celas.
   exits:
     east:
-      target_vnum: '10010'
+      target_vnum: '010210010010'
     west:
-      target_vnum: '10001'
+      target_vnum: '010210010001'
+  local_id: '10011'
   name: Um Caminho Sujo
-  vnum: '10011'
+  vnum: '010210010011'
 - description: |-
     Longas e pequenas, nessas casas se encontram os homens e mulheres
     que escolheram lutar pela causa de Mordecai. Duas fileiras de camas
@@ -159,29 +175,32 @@
     por perto.
   exits:
     south:
-      target_vnum: '10010'
+      target_vnum: '010210010010'
+  local_id: '10012'
   name: Quartel
-  vnum: '10012'
+  vnum: '010210010012'
 - description: |-
     Nessas casas encontram-se todos os homens e mulheres que escolheram
     Mordecai como seu salvador e líder. Camas estão perfiladas nas paredes
     em ambos os lados, todas com um prendedor de pé por perto.
   exits:
     north:
-      target_vnum: '10010'
+      target_vnum: '010210010010'
+  local_id: '10013'
   name: Quartel
-  vnum: '10013'
+  vnum: '010210010013'
 - description: |-
     Esse caminho leva para leste para um cruzamento de caminhos
     (possivelmente o centro da vila) e para oeste onde existem pequenas
     construções e uma fileira de celas.
   exits:
     east:
-      target_vnum: '10015'
+      target_vnum: '010210010015'
     west:
-      target_vnum: '10010'
+      target_vnum: '010210010010'
+  local_id: '10014'
   name: Um Caminho Sujo
-  vnum: '10014'
+  vnum: '010210010014'
 - description: |-
     Essa parte do caminho é o mais confuso, nojento e desagradável
     cruzamento em toda cidade. A lama aqui bate nos seus joelhos, tornando a
@@ -190,26 +209,28 @@
     celeiro, enquanto para sul você vê uma grande tenda em uma colina.
   exits:
     east:
-      target_vnum: '10030'
+      target_vnum: '010210010030'
     north:
-      target_vnum: '10016'
+      target_vnum: '010210010016'
     south:
-      target_vnum: '10023'
+      target_vnum: '010210010023'
     west:
-      target_vnum: '10014'
+      target_vnum: '010210010014'
+  local_id: '10015'
   name: Um Cruzamento Lamacento
-  vnum: '10015'
+  vnum: '010210010015'
 - description: |-
     A trilha não parece melhorar aqui. A lama continua profunda como o
     Inferno e, para piorar, começa a cheirar um pouco. Para norte você vê
     um celeiro de feno e para nordeste e noroeste são os galinheiros.
   exits:
     north:
-      target_vnum: '10017'
+      target_vnum: '010210010017'
     south:
-      target_vnum: '10015'
+      target_vnum: '010210010015'
+  local_id: '10016'
   name: A Trilha Lamacenta
-  vnum: '10016'
+  vnum: '010210010016'
 - description: |-
     Droga, a lama está mais funda!
     Tanto para leste como para oeste você vê os galinheiros, ambos com
@@ -217,24 +238,26 @@
     estocado.
   exits:
     east:
-      target_vnum: '10019'
+      target_vnum: 010210010019
     north:
-      target_vnum: '10020'
+      target_vnum: '010210010020'
     south:
-      target_vnum: '10016'
+      target_vnum: '010210010016'
     west:
-      target_vnum: '10018'
+      target_vnum: 010210010018
+  local_id: '10017'
   name: Uma Trilha Lamacenta
-  vnum: '10017'
+  vnum: '010210010017'
 - description: |-
     Você se encontra dentro de um galinheiro, afundado até os joelhos (sem
     ressentimentos) em fezes de galinha. Pequenas galinhas estão correndo
     ciscando aqui e ciscando ali, geralmente sendo um aborrecimento.
   exits:
     east:
-      target_vnum: '10017'
+      target_vnum: '010210010017'
+  local_id: '10018'
   name: Galinheiro
-  vnum: '10018'
+  vnum: 010210010018
 - description: |-
     Você se encontra dentro de um galinheiro, rodeado por muitas
     galinhas aborrecedoras que parecem pensar que você é homem que está
@@ -242,20 +265,22 @@
     A propósito, o que é isso no fundo do seu sapato?
   exits:
     west:
-      target_vnum: '10017'
+      target_vnum: '010210010017'
+  local_id: '10019'
   name: Galinheiro
-  vnum: '10019'
+  vnum: 010210010019
 - description: |-
     Essa estrutura aberta estoca o que aparentemente é todo o suprimento
     de feno da vila. Montanhas sobre montanhas lotam essa construção, até as
     bordas.
   exits:
     north:
-      target_vnum: '10021'
+      target_vnum: '010210010021'
     south:
-      target_vnum: '10017'
+      target_vnum: '010210010017'
+  local_id: '10020'
   name: Celeiro de Feno
-  vnum: '10020'
+  vnum: '010210010020'
 - description: |-
     Isso é o mais fedorento lugar em Vitália! Nem mesmo a loja de animais
     em Jareth é comparável a isso. Os estábulos são enfileirados na parede
@@ -263,31 +288,34 @@
     fecais, obviamente das vacas nos estábulos. Cuidado onde pisa!
   exits:
     north:
-      target_vnum: '10022'
+      target_vnum: '010210010022'
     south:
-      target_vnum: '10020'
+      target_vnum: '010210010020'
+  local_id: '10021'
   name: Celeiro das Vacas
-  vnum: '10021'
+  vnum: '010210010021'
 - description: |-
     Essa pequeno porém sadio e aberto pedaço de terra fornece comida para
     as vacas que estão pastando aqui nesse momento. Fechado, a única saída
     desse pasto é para sul por entre o celeiro fedorento.
   exits:
     south:
-      target_vnum: '10021'
+      target_vnum: '010210010021'
+  local_id: '10022'
   name: Pasto
-  vnum: '10022'
+  vnum: '010210010022'
 - description: |-
     Essa trilha leva a sul para uma grande tenda em montada em cima de uma
     colina. Para o sudeste você vê outra estrutura, um lugar mais firme. Para
     o norte a trilha começa a ficar lamacenta.
   exits:
     north:
-      target_vnum: '10015'
+      target_vnum: '010210010015'
     south:
-      target_vnum: '10024'
+      target_vnum: '010210010024'
+  local_id: '10023'
   name: Uma Trilha Suja
-  vnum: '10023'
+  vnum: '010210010023'
 - description: |-
     A trilha continua a seguir em direção a colina onde se encontra a tenda,
     porém há saídas para leste e oeste aqui. Para o leste você vê uma
@@ -296,15 +324,16 @@
     lugar, você não consegue ver para onde.
   exits:
     east:
-      target_vnum: '10026'
+      target_vnum: '010210010026'
     north:
-      target_vnum: '10023'
+      target_vnum: '010210010023'
     south:
-      target_vnum: '10025'
+      target_vnum: '010210010025'
     west:
-      target_vnum: '10027'
+      target_vnum: '010210010027'
+  local_id: '10024'
   name: Uma Trilha Suja
-  vnum: '10024'
+  vnum: '010210010024'
 - description: |-
     Esse é o lugar onde a vila vem fazer suas refeições, três vezes ao dia.
     Uma grande cadeira, na ponta da longa mesa e maior que todas as outras,
@@ -312,9 +341,10 @@
     aqui.
   exits:
     north:
-      target_vnum: '10024'
+      target_vnum: '010210010024'
+  local_id: '10025'
   name: Tenda da Alimentação
-  vnum: '10025'
+  vnum: '010210010025'
 - description: "Ã\x89 nesse lugar que ficam todos os alimentos para a vila. Filas\
     \ de\ncestas com alguns metros cúbicos de vegetais secos e grãos estão\nencostadas\
     \ nas paredes, enquanto animais mortos estão pendurados sobre\neles, atraindo\
@@ -323,19 +353,21 @@
     \ tipos de temperos e substâncias nas\nprateleiras."
   exits:
     west:
-      target_vnum: '10024'
+      target_vnum: '010210010024'
+  local_id: '10026'
   name: Armazenamento e Preparação de Alimentos
-  vnum: '10026'
+  vnum: '010210010026'
 - description: |-
     Essa trilha adentra algumas árvores para um destino desconhecido, mas
     geralmente para a direção leste.
   exits:
     east:
-      target_vnum: '10024'
+      target_vnum: '010210010024'
     west:
-      target_vnum: '10028'
+      target_vnum: 010210010028
+  local_id: '10027'
   name: Uma Trilha Enrolada
-  vnum: '10027'
+  vnum: '010210010027'
 - description: |-
     A trilha termina aqui, em uma pequena construção de pedra. A entrada
     para o prédio fica ao sul, mas não aparenta que você vai entrar lá tão
@@ -343,53 +375,58 @@
     para você observar.
   exits:
     east:
-      target_vnum: '10027'
+      target_vnum: '010210010027'
     south:
-      target_vnum: '10029'
+      target_vnum: 010210010029
+  local_id: '10028'
   name: Uma Trilha Enrolada
-  vnum: '10028'
+  vnum: 010210010028
 - description: |-
     Vários instrumentos de destruição estão armazenados aqui, apenas
     esperando alguma alma sortuda chegar e abusar deles.
   exits:
     north:
-      target_vnum: '10028'
+      target_vnum: 010210010028
+  local_id: '10029'
   name: Estocagem de Armas
-  vnum: '10029'
+  vnum: 010210010029
 - description: |-
     A trilha continua a leste para o centro da vila. Você começa a observar
     tendas e cabanas cada vez mais leste que você vai. Essas devem ser as
     residências permanentes da vila.
   exits:
     east:
-      target_vnum: '10031'
+      target_vnum: '010210010031'
     west:
-      target_vnum: '10015'
+      target_vnum: '010210010015'
+  local_id: '10030'
   name: Um Caminho Sujo
-  vnum: '10030'
+  vnum: '010210010030'
 - description: |-
     A trilha vai para leste dentro do centro da vila, e para o norte
     e sul, onde você vê tendas grandes o suficiente para abrigar uma
     família ou algumas pessoas.
   exits:
     east:
-      target_vnum: '10032'
+      target_vnum: '010210010032'
     west:
-      target_vnum: '10030'
+      target_vnum: '010210010030'
+  local_id: '10031'
   name: Um Caminho Sujo
-  vnum: '10031'
+  vnum: '010210010031'
 - description: |-
     Aqui duas trilhas principais da vila se encontram. Uma delas vai para o
     oeste e a outra vai para norte e sul.
   exits:
     north:
-      target_vnum: '10044'
+      target_vnum: '010210010044'
     south:
-      target_vnum: '10041'
+      target_vnum: '010210010041'
     west:
-      target_vnum: '10031'
+      target_vnum: '010210010031'
+  local_id: '10032'
   name: O Encontro de Duas Trilhas
-  vnum: '10032'
+  vnum: '010210010032'
 - description: |-
     Essa tenda 10x10 serve como uma residência primária para uma das
     famílias sob os 'cuidados' de Mordecai. Quatro camas se encontram
@@ -397,9 +434,10 @@
     que você observa ser suas posses.
   exits:
     east:
-      target_vnum: '10041'
+      target_vnum: '010210010041'
+  local_id: '10033'
   name: Tenda Residencial
-  vnum: '10033'
+  vnum: '010210010033'
 - description: |-
     Essa tenda 10x10 serve como uma residência primária para uma das
     famílias sob os 'cuidados' de Mordecai. Quatro camas se encontram
@@ -407,9 +445,10 @@
     que você observa ser suas posses.
   exits:
     west:
-      target_vnum: '10041'
+      target_vnum: '010210010041'
+  local_id: '10034'
   name: Tenda Residencial
-  vnum: '10034'
+  vnum: '010210010034'
 - description: |-
     Essa tenda 10x10 serve como uma residência primária para uma das
     famílias sob os 'cuidados' de Mordecai. Quatro camas se encontram
@@ -417,9 +456,10 @@
     que você observa ser suas posses.
   exits:
     west:
-      target_vnum: '10044'
+      target_vnum: '010210010044'
+  local_id: '10035'
   name: Tenda Residencial
-  vnum: '10035'
+  vnum: '010210010035'
 - description: |-
     Essa tenda 10x10 serve como uma residência primária para uma das
     famílias sob os 'cuidados' de Mordecai. Quatro camas se encontram
@@ -427,81 +467,89 @@
     que você observa ser suas posses.
   exits:
     east:
-      target_vnum: '10045'
+      target_vnum: '010210010045'
+  local_id: '10036'
   name: Tenda Residencial
-  vnum: '10036'
+  vnum: '010210010036'
 - description: |-
     Feita de argila e palha, essa pequena cabana serve de residência
     permanente para uma família de quatro. Nesse pequeno espaço 8x8, quatro
     camas e um grande baú ocupam toda a área habitável que ali existia.
   exits:
     west:
-      target_vnum: '10046'
+      target_vnum: '010210010046'
+  local_id: '10037'
   name: Cabana
-  vnum: '10037'
+  vnum: '010210010037'
 - description: |-
     Feita de argila e palha, essa pequena cabana serve de residência
     permanente para uma família de quatro. Nesse pequeno espaço 8x8, quatro
     camas e um grande baú ocupam toda a área habitável que ali existia.
   exits:
     west:
-      target_vnum: '10042'
+      target_vnum: '010210010042'
+  local_id: '10038'
   name: Cabana
-  vnum: '10038'
+  vnum: 010210010038
 - description: |-
     Feita de argila e palha, essa pequena cabana serve de residência
     permanente para uma família de quatro. Nesse pequeno espaço 8x8, quatro
     camas e um grande baú ocupam toda a área habitável que ali existia.
   exits:
     east:
-      target_vnum: '10046'
+      target_vnum: '010210010046'
+  local_id: '10039'
   name: Cabana
-  vnum: '10039'
+  vnum: 010210010039
 - description: |-
     Feita de argila e palha, essa pequena cabana serve de residência
     permanente para uma família de quatro. Nesse pequeno espaço 8x8, quatro
     camas e um grande baú ocupam toda a área habitável que ali existia.
   exits:
     east:
-      target_vnum: '10044'
+      target_vnum: '010210010044'
+  local_id: '10040'
   name: Cabana
-  vnum: '10040'
+  vnum: '010210010040'
 - description: |-
     Essa trilha leva para sul para uma área selvagem, deixando a vila para
     trás. Para o norte a trilha leva para a parte principal da vila.
   exits:
     east:
-      target_vnum: '10034'
+      target_vnum: '010210010034'
     north:
-      target_vnum: '10032'
+      target_vnum: '010210010032'
     south:
-      target_vnum: '10042'
+      target_vnum: '010210010042'
     west:
-      target_vnum: '10033'
+      target_vnum: '010210010033'
+  local_id: '10041'
   name: A Trilha Fora da Cidade
-  vnum: '10041'
+  vnum: '010210010041'
 - description: |-
     A trilha leva para sul dentro de uma área selvagem, agora mais fechada
     pelas árvores. Para o norte você vê a parte principal da vila.
   exits:
     east:
-      target_vnum: '10038'
+      target_vnum: 010210010038
     north:
-      target_vnum: '10041'
+      target_vnum: '010210010041'
     south:
-      target_vnum: '10043'
+      target_vnum: '010210010043'
+  local_id: '10042'
   name: A Trilha Fora da Cidade
-  vnum: '10042'
+  vnum: '010210010042'
 - description: |-
     Você se encontra agora bem longe da vila. Você pode ir para sul ou
     voltar para a parte principal a norte.
   exits:
     north:
-      target_vnum: '10042'
+      target_vnum: '010210010042'
     south:
-      target_vnum: '5628'
+      target_vnum: 01021005628
+  local_id: '10043'
   name: A Trilha Fora da Cidade
-  vnum: '10043'
+  vnum: '010210010043'
 - description: |-
     Essa trilha leva para norte e sul. Para sul ela leva para o encontro
     dessa trilha com outra que vem do oeste. Para o norte existem algumas
@@ -509,27 +557,29 @@
     estruturas mais permanentes.
   exits:
     east:
-      target_vnum: '10035'
+      target_vnum: '010210010035'
     north:
-      target_vnum: '10045'
+      target_vnum: '010210010045'
     south:
-      target_vnum: '10032'
+      target_vnum: '010210010032'
     west:
-      target_vnum: '10040'
+      target_vnum: '010210010040'
+  local_id: '10044'
   name: Uma Trilha Suja
-  vnum: '10044'
+  vnum: '010210010044'
 - description: |-
     A trilha leva para norte e sul, cabanas e tendas estão espalhadas ao
     longo dela.
   exits:
     north:
-      target_vnum: '10046'
+      target_vnum: '010210010046'
     south:
-      target_vnum: '10044'
+      target_vnum: '010210010044'
     west:
-      target_vnum: '10036'
+      target_vnum: '010210010036'
+  local_id: '10045'
   name: Uma Trilha Suja
-  vnum: '10045'
+  vnum: '010210010045'
 - description: |-
     A trilha leva para norte e sul daqui. Para norte você vê o que parece
     ser as principais edificações da vila, possivelmente a residência de
@@ -537,15 +587,16 @@
     povo de Mordecai.
   exits:
     east:
-      target_vnum: '10037'
+      target_vnum: '010210010037'
     north:
-      target_vnum: '10047'
+      target_vnum: '010210010047'
     south:
-      target_vnum: '10045'
+      target_vnum: '010210010045'
     west:
-      target_vnum: '10039'
+      target_vnum: 010210010039
+  local_id: '10046'
   name: Uma Trilha Suja
-  vnum: '10046'
+  vnum: '010210010046'
 - description: |-
     Aqui você se encontra no topo de uma grande colina, que desce para
     leste. Aparentemente se um templo ou lugar de trabalho fosse erguido aqui,
@@ -553,13 +604,14 @@
     de Mordecai, e ao sul existem muitas cabanas e tendas do povo da vila.
   exits:
     east:
-      target_vnum: '10049'
+      target_vnum: 010210010049
     north:
-      target_vnum: '10048'
+      target_vnum: 010210010048
     south:
-      target_vnum: '10046'
+      target_vnum: '010210010046'
+  local_id: '10047'
   name: Uma Trilha Suja
-  vnum: '10047'
+  vnum: '010210010047'
 - description: |-
     Diretamente para o norte fica a casa de Mordecai, uma alta estrutura
     de pedra em um chão inclinado. Aparentemente ele não teme nada do povo,
@@ -568,15 +620,16 @@
     vê outra casa de pedra.
   exits:
     east:
-      target_vnum: '10050'
+      target_vnum: '010210010050'
     north:
-      target_vnum: '10052'
+      target_vnum: '010210010052'
     south:
-      target_vnum: '10047'
+      target_vnum: '010210010047'
     west:
-      target_vnum: '10051'
+      target_vnum: '010210010051'
+  local_id: '10048'
   name: O Fim da Estrada
-  vnum: '10048'
+  vnum: 010210010048
 - description: |-
     Esse pequeno recinto, construído em um lugar de grande tranqüilidade,
     é um local bastante respeitado pelas pessoas da vila. Bancos de madeira
@@ -585,18 +638,20 @@
     Mordecai e seus sermões.
   exits:
     west:
-      target_vnum: '10047'
+      target_vnum: '010210010047'
+  local_id: '10049'
   name: Templo Externo
-  vnum: '10049'
+  vnum: 010210010049
 - description: |-
     Ao Tenente Caspan, o homem de confiança e melhor soldado de Mordecai,
     foi garantido esse lar em reconhecimento à sua lealdade e ele não parece
     estar satisfeito de ver você invadindo seu santuário.
   exits:
     west:
-      target_vnum: '10048'
+      target_vnum: 010210010048
+  local_id: '10050'
   name: A Casa do Tenente Caspan
-  vnum: '10050'
+  vnum: '010210010050'
 - description: |-
     O interior dessa casa cheira a um perfume barato e a peixe.
     Mordecai mantém a suas favoritas do mês nesse lugar, em aparente 'luxúria',
@@ -606,9 +661,10 @@
     sala.
   exits:
     east:
-      target_vnum: '10048'
+      target_vnum: 010210010048
+  local_id: '10051'
   name: As Esposas
-  vnum: '10051'
+  vnum: '010210010051'
 - description: |-
     Esse é o lar do Grande Mordecai?  Uma cama, um pequeno chuveiro (seco e
     aparentemente não usado há tempos), e um armário na parede leste é tudo que
@@ -616,58 +672,64 @@
     teria um pouco mais de luxo.
   exits:
     east:
-      target_vnum: '10054'
+      target_vnum: '010210010054'
     north:
-      target_vnum: '10053'
+      target_vnum: '010210010053'
     south:
-      target_vnum: '10048'
+      target_vnum: 010210010048
+  local_id: '10052'
   name: A Casa de Mordecai
-  vnum: '10052'
+  vnum: '010210010052'
 - description: |-
     Ah, a pobre Penelope, filha do Senhor de Jareth. Uma esplêndida visão,
     em toda sua beleza e delicadeza...E muito bem guardada!
   exits:
     south:
-      target_vnum: '10052'
+      target_vnum: '010210010052'
+  local_id: '10053'
   name: A Cela de Penelope
-  vnum: '10053'
+  vnum: '010210010053'
 - description: |-
     Você finalmente descobriu porque Mordecai não possui coisas valiosas
     em sua casa. Está tudo aqui. Uma bonita e grande cadeira foi colocada
     no meio da sala, obviamente onde Mordecai aproveita a maior parte do tempo.
   exits:
     west:
-      target_vnum: '10052'
+      target_vnum: '010210010052'
+  local_id: '10054'
   name: O Tesouro de Mordecai
-  vnum: '10054'
+  vnum: '010210010054'
 - description: |-
     Esse é o fim do túnel. Sobre você, uma pequena luz atravessa as falhas
     de um alçapão.
   exits:
     south:
-      target_vnum: '10056'
+      target_vnum: '010210010056'
     up:
-      target_vnum: '10053'
+      target_vnum: '010210010053'
+  local_id: '10055'
   name: Um Túnel Escuro e Sujo
-  vnum: '10055'
+  vnum: '010210010055'
 - description: |-
     O túnel continua em seu caminho escuro e sujo levando para algum lugar
     que apenas aquele que construiu sabe.
   exits:
     north:
-      target_vnum: '10055'
+      target_vnum: '010210010055'
     south:
-      target_vnum: '10057'
+      target_vnum: '010210010057'
+  local_id: '10056'
   name: Um Túnel Escuro e Sujo
-  vnum: '10056'
+  vnum: '010210010056'
 - description: Continua escuro. Continua sujo. E desembocou num local bem desagradável.
   exits:
     east:
-      target_vnum: '5547'
+      target_vnum: '01021005547'
     north:
-      target_vnum: '10056'
+      target_vnum: '010210010056'
+  local_id: '10057'
   name: Um Túnel Escuro e Sujo
-  vnum: '10057'
+  vnum: '010210010057'
 - description: |-
     Você está na entrada de um denso bosque que ocupa o lado oeste da
     estrada.  A escuridão cobre todo lugar, sendo difícil encontrar algum
@@ -675,11 +737,12 @@
     bosque adentro.
   exits:
     east:
-      target_vnum: '5616'
+      target_vnum: '01021005616'
     west:
-      target_vnum: '10059'
+      target_vnum: 010210010059
+  local_id: '10058'
   name: Um Denso Bosque
-  vnum: '10058'
+  vnum: 010210010058
 - description: |-
     Você seguindo uma trilha dentro de um denso bosque que ocupa o lado oeste
     da estrada.  A escuridão cobre todo lugar, sendo difícil acompanhar o
@@ -687,11 +750,12 @@
     barulho algum além de seus passos e do ocasional farfalhar de folhas.
   exits:
     east:
-      target_vnum: '10058'
+      target_vnum: 010210010058
     north:
-      target_vnum: '10060'
+      target_vnum: '010210010060'
+  local_id: '10059'
   name: Um Denso Bosque
-  vnum: '10059'
+  vnum: 010210010059
 - description: |-
     Você seguindo uma trilha dentro de um denso bosque que ocupa o lado oeste
     da estrada.  A escuridão cobre todo lugar, sendo difícil acompanhar o
@@ -699,11 +763,12 @@
     barulho algum além de seus passos e do ocasional farfalhar de folhas.
   exits:
     north:
-      target_vnum: '10061'
+      target_vnum: '010210010061'
     south:
-      target_vnum: '10059'
+      target_vnum: 010210010059
+  local_id: '10060'
   name: Um Denso Bosque
-  vnum: '10060'
+  vnum: '010210010060'
 - description: |-
     Você seguindo uma trilha dentro de um denso bosque que ocupa o lado oeste
     da estrada.  A escuridão cobre todo lugar, sendo difícil acompanhar o
@@ -711,11 +776,12 @@
     barulho algum além de seus passos e do ocasional farfalhar de folhas.
   exits:
     south:
-      target_vnum: '10060'
+      target_vnum: '010210010060'
     west:
-      target_vnum: '10062'
+      target_vnum: '010210010062'
+  local_id: '10061'
   name: Um Denso Bosque
-  vnum: '10061'
+  vnum: '010210010061'
 - description: |-
     Você seguindo uma trilha dentro de um denso bosque que ocupa o lado oeste
     da estrada.  A escuridão cobre todo lugar, sendo difícil acompanhar o
@@ -723,11 +789,12 @@
     barulho algum além de seus passos e do ocasional farfalhar de folhas.
   exits:
     east:
-      target_vnum: '10061'
+      target_vnum: '010210010061'
     west:
-      target_vnum: '10063'
+      target_vnum: '010210010063'
+  local_id: '10062'
   name: Um Denso Bosque
-  vnum: '10062'
+  vnum: '010210010062'
 - description: |-
     Você seguindo uma trilha dentro de um denso bosque que ocupa o lado oeste
     da estrada.  A escuridão cobre todo lugar, sendo difícil acompanhar o
@@ -735,11 +802,12 @@
     barulho algum além de seus passos e do ocasional farfalhar de folhas.
   exits:
     east:
-      target_vnum: '10062'
+      target_vnum: '010210010062'
     north:
-      target_vnum: '10064'
+      target_vnum: '010210010064'
+  local_id: '10063'
   name: Um Denso Bosque
-  vnum: '10063'
+  vnum: '010210010063'
 - description: |-
     Você seguindo uma trilha dentro de um denso bosque que ocupa o lado oeste
     da estrada.  A escuridão cobre todo lugar, sendo difícil acompanhar o
@@ -747,8 +815,9 @@
     barulho algum além de seus passos e do ocasional farfalhar de folhas.
   exits:
     north:
-      target_vnum: '10000'
+      target_vnum: '010210010000'
     south:
-      target_vnum: '10063'
+      target_vnum: '010210010063'
+  local_id: '10064'
   name: Um Denso Bosque
-  vnum: '10064'
+  vnum: '010210010064'

@@ -9,13 +9,14 @@
     Há um grande aviso aqui.
   exits:
     east:
-      target_vnum: '2217'
+      target_vnum: '01010222217'
     north:
-      target_vnum: '1100'
+      target_vnum: '01010221100'
     south:
-      target_vnum: '2201'
+      target_vnum: '01010222201'
+  local_id: '2200'
   name: A Entrada Para o Safári no Covil Dos Lagartos
-  vnum: '2200'
+  vnum: '01010222200'
 - description: |-
     Nesta sala existem vários itens de preparação para o início da busca.
     Um guia explica a você qual é o objetivo:  Recuperar o ouro.
@@ -26,52 +27,57 @@
     fáceis e muito mais leves. O guia desaparece de repente e você começa a busca.
   exits:
     down:
-      target_vnum: '2202'
+      target_vnum: '01010222202'
+  local_id: '2201'
   name: A Sala Preparatória Para A Busca
-  vnum: '2201'
+  vnum: '01010222201'
 - description: |-
     Este túnel está repleto de água e a luz vai enfraquecendo, chegando a perder a
     luminosidade. Existem duas saídas.  Uma está a leste e outra sobre você.
   exits:
     east:
-      target_vnum: '2203'
+      target_vnum: '01010222203'
     north:
-      target_vnum: '2216'
+      target_vnum: '01010222216'
     up:
-      target_vnum: '2215'
+      target_vnum: '01010222215'
+  local_id: '2202'
   name: Um Túnel
-  vnum: '2202'
+  vnum: '01010222202'
 - description: |-
     Este túnel está repleto de água.  Existem duas saídas para o leste e para
     o oeste.
     O túnel continua em ambas as direções.
   exits:
     east:
-      target_vnum: '2204'
+      target_vnum: '01010222204'
     west:
-      target_vnum: '2202'
+      target_vnum: '01010222202'
+  local_id: '2203'
   name: Um Túnel
-  vnum: '2203'
+  vnum: '01010222203'
 - description: |-
     A medida que o túnel termina, dá para ver uma parede de pedra, exatamente
     à sua frente.  Felizmente, existem duas saídas, uma para o oeste e outra por
     um buraco no chão.
   exits:
     down:
-      target_vnum: '2205'
+      target_vnum: '01010222205'
     west:
-      target_vnum: '2203'
+      target_vnum: '01010222203'
+  local_id: '2204'
   name: Um Túnel
-  vnum: '2204'
+  vnum: '01010222204'
 - description: O túnel termina aqui. Existe um buraco no teto e uma grande porta a
     oeste.
   exits:
     up:
-      target_vnum: '2204'
+      target_vnum: '01010222204'
     west:
-      target_vnum: '2206'
+      target_vnum: '01010222206'
+  local_id: '2205'
   name: Fim do Túnel
-  vnum: '2205'
+  vnum: '01010222205'
 - description: |-
     Esta grande sala está dominada pelo redemoinho.  Existem duas saídas.  Para
     o leste, você consegue ver uma porta e para o oeste você vê um corredor
@@ -79,15 +85,16 @@
     certeza que se afogaria.
   exits:
     down:
-      target_vnum: '2207'
+      target_vnum: '01010222207'
     east:
-      target_vnum: '2205'
+      target_vnum: '01010222205'
     north:
-      target_vnum: '2218'
+      target_vnum: 01010222218
     west:
-      target_vnum: '2208'
+      target_vnum: 01010222208
+  local_id: '2206'
   name: A Câmara De Magias
-  vnum: '2206'
+  vnum: '01010222206'
 - description: |-
     Não foi uma boa idéia ter vindo aqui.
 
@@ -100,44 +107,49 @@
     R . I . P .
   exits:
     up:
-      target_vnum: '2206'
+      target_vnum: '01010222206'
+  local_id: '2207'
   name: "O Redemoinho de Ã\x81gua"
-  vnum: '2207'
+  vnum: '01010222207'
 - description: |-
     O corredor naturalmente se curva de um modo que parece ir para leste e
     abaixo, mas não parecendo se curvar em qualquer direção.
   exits:
     down:
-      target_vnum: '2209'
+      target_vnum: 01010222209
     east:
-      target_vnum: '2206'
+      target_vnum: '01010222206'
+  local_id: '2208'
   name: Um Corredor
-  vnum: '2208'
+  vnum: 01010222208
 - description: O corredor aqui se abre num grande caminho que sobe para leste.
   exits:
     east:
-      target_vnum: '2211'
+      target_vnum: '01010222211'
     up:
-      target_vnum: '2208'
+      target_vnum: 01010222208
+  local_id: '2209'
   name: Um Corredor
-  vnum: '2209'
+  vnum: 01010222209
 - description: |-
     Esta sala foi feita para confundir os que se acham espertos.   E se você está aqui parado,
     lendo o que foi escrito nestas paredes...sorria: Você não é nada esperto!
   exits: {}
+  local_id: '2210'
   name: Uma Sala Completamente Inútil
-  vnum: '2210'
+  vnum: '01010222210'
 - description: |-
     Esta é a entrada para a sala do Trono sendo que segue para o leste.   Um
     saguão inicia a oeste.  A sala é bastante luxuosa e decorada mas não há
     muito o que se observar.
   exits:
     east:
-      target_vnum: '2212'
+      target_vnum: '01010222212'
     west:
-      target_vnum: '2209'
+      target_vnum: 01010222209
+  local_id: '2211'
   name: A Sala Do Trono Anexo
-  vnum: '2211'
+  vnum: '01010222211'
 - description: |-
     Esta grande sala é bastante extensa.  Um trono está situado na parede
     leste, debaixo de um buraco no teto.  O trono quase preenche toda a sala.
@@ -145,11 +157,12 @@
     sala.  O anexo está a oeste você ainda não tem certeza do que se trata.
   exits:
     up:
-      target_vnum: '2213'
+      target_vnum: '01010222213'
     west:
-      target_vnum: '2211'
+      target_vnum: '01010222211'
+  local_id: '2212'
   name: Sala do Trono
-  vnum: '2212'
+  vnum: '01010222212'
 - description: |-
     Este é o templo do maléfico deus Homem Lagarto, Morgash. Ele é bastante
     feio. Pelo menos é o que você acha... você tem certeza que o homem lagarto
@@ -157,51 +170,57 @@
     porta a leste.
   exits:
     down:
-      target_vnum: '2212'
+      target_vnum: '01010222212'
     east:
-      target_vnum: '2214'
+      target_vnum: '01010222214'
+  local_id: '2213'
   name: Templo De Morgash
-  vnum: '2213'
+  vnum: '01010222213'
 - description: "Você completou a busca!\n\nPARABÃ\x89NS!!\n\nExistem duas saídas que\
     \ retrocedem para a busca e pela porta que está a\nleste você retornará para o\
     \ mundo exterior."
   exits:
     east:
-      target_vnum: '2217'
+      target_vnum: '01010222217'
     west:
-      target_vnum: '2213'
+      target_vnum: '01010222213'
+  local_id: '2214'
   name: O Fim Da Busca
-  vnum: '2214'
+  vnum: '01010222214'
 - description: Esta sala está exatamente como você a deixou.  Uma saída... abaixo...
   exits:
     down:
-      target_vnum: '2202'
+      target_vnum: '01010222202'
+  local_id: '2215'
   name: A Sala Preparatória Da Busca
-  vnum: '2215'
+  vnum: '01010222215'
 - description: |-
     Esta sala está vazia.  Existe um SORTUDO bloqueando seu caminho a sul.
     Existe um sinal na parede.
   exits:
     south:
-      target_vnum: '2202'
+      target_vnum: '01010222202'
+  local_id: '2216'
   name: SORTUDO
-  vnum: '2216'
+  vnum: '01010222216'
 - description: "Este é o ponto onde o mundo real termina...\n\nCONTINUE PELO SEU PRÃ\x93\
     PRIO RISCO!\n\nA entrada para o Safári no Covil dos Lagartos é para o oeste.\n\
     Existe uma enorme porta de metal ao sul."
   exits:
     south:
-      target_vnum: '3700'
+      target_vnum: '01010223700'
     west:
-      target_vnum: '2200'
+      target_vnum: '01010222200'
+  local_id: '2217'
   name: O Mundo Real Termina Aqui
-  vnum: '2217'
+  vnum: '01010222217'
 - description: |-
     Esta é uma amigável loja de conveniências do bairro e também um
     restaurante.
     Existem muitas coisas interessantes que você pode comprar aqui.
   exits:
     south:
-      target_vnum: '2206'
+      target_vnum: '01010222206'
+  local_id: '2218'
   name: A Loja do Sr. Hooper
-  vnum: '2218'
+  vnum: 01010222218

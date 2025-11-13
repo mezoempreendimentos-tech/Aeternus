@@ -7,15 +7,16 @@
     A estrada retorna ao Templo pela direção oeste.
   exits:
     east:
-      target_vnum: '1105'
+      target_vnum: '01010111105'
     north:
-      target_vnum: '1101'
+      target_vnum: '01010111101'
     south:
-      target_vnum: '2200'
+      target_vnum: '01010112200'
     west:
-      target_vnum: '3063'
+      target_vnum: '01010113063'
+  local_id: '1100'
   name: Uma Trilha Esquecida
-  vnum: '1100'
+  vnum: '01010111100'
 - description: |-
     De perto, a árvore parece muito maior do que vista de longe.  Ela
     permanece aqui, como eterna protetora dessa região de vegetação ainda
@@ -27,11 +28,12 @@
     Para sul, uma trilha leva de volta à estrada de terra fofa.
   exits:
     south:
-      target_vnum: '1100'
+      target_vnum: '01010111100'
     up:
-      target_vnum: '1102'
-  name: "A Ã\x81rvore SolitÃ¡ria"
-  vnum: '1101'
+      target_vnum: '01010111102'
+  local_id: '1101'
+  name: "A Ã\x81rvore Solitária"
+  vnum: '01010111101'
 - description: |-
     Ufa!  Essa arvore bem que poderia ser mais baixa...
     Você está na copa da árvore.  Olhando para baixo, você sente um pouco de
@@ -42,11 +44,12 @@
     você pode se arriscar a subir lá e pegar alguns dos frutos...
   exits:
     down:
-      target_vnum: '1101'
+      target_vnum: '01010111101'
     up:
-      target_vnum: '1103'
+      target_vnum: '01010111103'
+  local_id: '1102'
   name: "A Copa da Ã\x81rvore"
-  vnum: '1102'
+  vnum: '01010111102'
 - description: |-
     A visão daqui é incrível.  Você consegue ver a cidade de Midgaard quase
     que inteira daqui, e toda a paisagem que a rodeia.  Ao leste, uma pequena
@@ -61,22 +64,24 @@
     precisaria voar para chegar até ele.
   exits:
     down:
-      target_vnum: '1102'
+      target_vnum: '01010111102'
     east:
-      target_vnum: '1104'
+      target_vnum: '01010111104'
+  local_id: '1103'
   name: "A Copa Superior da Ã\x81rvore"
-  vnum: '1103'
+  vnum: '01010111103'
 - description: |-
     Voando, você se arrisca até o galho, onde o fruto está.  Daqui, você pode
     voltar pelo mesmo galho ou já que voce esta voando, descer atá a base da
     árvore.
   exits:
     down:
-      target_vnum: '1101'
+      target_vnum: '01010111101'
     west:
-      target_vnum: '1103'
+      target_vnum: '01010111103'
+  local_id: '1104'
   name: O Fruto Sagrado
-  vnum: '1104'
+  vnum: '01010111104'
 - description: |-
     A trilha fica ainda mais estreita nesse trecho.  Aqui vegetação invadiu a
     trilha quase que inteiramente.  Parece que ninguém usa essa trilha a anos...
@@ -86,13 +91,14 @@
     A oeste, a trilha retorna em direção ao templo de Midgaard.
   exits:
     east:
-      target_vnum: '1106'
+      target_vnum: '01010111106'
     north:
-      target_vnum: '5700'
+      target_vnum: '01010115700'
     west:
-      target_vnum: '1100'
+      target_vnum: '01010111100'
+  local_id: '1105'
   name: Uma Trilha Esquecida
-  vnum: '1105'
+  vnum: '01010111105'
 - description: |-
     Aqui a vegetação já cobriu por completo a antiga trilha.  A partir daqui
     o caminho fica mais difícil e cansativo.
@@ -100,13 +106,14 @@
     cada passo, ou retornar ao Templo, voltando pela trilha, para oeste.
   exits:
     east:
-      target_vnum: '1107'
+      target_vnum: '01010111107'
     north:
-      target_vnum: '2150'
+      target_vnum: '01010112150'
     west:
-      target_vnum: '1105'
+      target_vnum: '01010111105'
+  local_id: '1106'
   name: O Final da Trilha
-  vnum: '1106'
+  vnum: '01010111106'
 - description: |-
     Não há mais trilha nenhuma aqui para seguir.  A vegetação aqui é mais
     alta, chegando a cobrir seu corpo até os ombros.  Folhagens e espinhais
@@ -117,13 +124,14 @@
     folhagem parece abrir caminho para algum lugar.
   exits:
     east:
-      target_vnum: '2300'
+      target_vnum: '01010112300'
     south:
-      target_vnum: '1108'
+      target_vnum: 01010111108
     west:
-      target_vnum: '1106'
+      target_vnum: '01010111106'
+  local_id: '1107'
   name: Uma Passagem Entre Arbustos
-  vnum: '1107'
+  vnum: '01010111107'
 - description: |-
     Você escorregou em alguma coisa viscosa que estava no chão e acabou
     caindo dentro de uma lagoa, de águas escuras e que exalam um odor podre no
@@ -137,32 +145,35 @@
     baixo...
   exits:
     down:
-      target_vnum: '1109'
+      target_vnum: 01010111109
+  local_id: '1108'
   name: A Lagoa Escura
-  vnum: '1108'
-- description: "Ã\x89 realmente escuro aqui em baixo, e mesmo com magia nÃ£o Ã© possivel\
+  vnum: 01010111108
+- description: "Ã\x89 realmente escuro aqui em baixo, e mesmo com magia não é possivel\
     \ ver\nmuito além. Sem poder ver muito, suas únicas opções são voltar à superficie,\n\
     ou nadar até o fundo da lagoa."
   exits:
     down:
-      target_vnum: '1110'
+      target_vnum: '01010111110'
     up:
-      target_vnum: '1108'
+      target_vnum: 01010111108
+  local_id: '1109'
   name: Dentro da Lagoa Escura
-  vnum: '1109'
+  vnum: 01010111109
 - description: |-
     Você continua nadando, sem com isso chegar ao fundo da lagoa.  Você nota
     a uma grande tubulação desembocando aquí, vindo do leste.
     Você ainda pode voltar a superficie deste ponto.
   exits:
     down:
-      target_vnum: '9700'
+      target_vnum: 01010119700
     east:
-      target_vnum: '1111'
+      target_vnum: '01010111111'
     up:
-      target_vnum: '1109'
+      target_vnum: 01010111109
+  local_id: '1110'
   name: Dentro da Lagoa Escura
-  vnum: '1110'
+  vnum: '01010111110'
 - description: |-
     Você está diante de um tubo de mais ou menos 2 metros de diâmetro, muito
     velho, que não é usado a anos.  Na sua entrada, tem uma grade com um cadeado
@@ -170,11 +181,12 @@
     um jeito neste cadeado.
   exits:
     north:
-      target_vnum: '1112'
+      target_vnum: '01010111112'
     west:
-      target_vnum: '1110'
+      target_vnum: '01010111110'
+  local_id: '1111'
   name: A Entrada da Tubulação
-  vnum: '1111'
+  vnum: '01010111111'
 - description: |-
     Você segue nadando dentro do tubo até chegar a um lugar seco.  Parece que
     nessa parte o cano esta acima do nivel da lagoa.  Ugh!  O cheiro daqui é
@@ -183,8 +195,9 @@
     bifurcação que leva para baixo, ou retornar nadando até a lagoa.
   exits:
     down:
-      target_vnum: '7022'
+      target_vnum: '01010117022'
     south:
-      target_vnum: '1111'
+      target_vnum: '01010111111'
+  local_id: '1112'
   name: Dentro da Tubulacao
-  vnum: '1112'
+  vnum: '01010111112'

@@ -7,11 +7,12 @@
     \ uma alta torre em estilo greco-romano."
   exits:
     east:
-      target_vnum: '401'
+      target_vnum: '01010040401'
     west:
-      target_vnum: '3054'
+      target_vnum: '01010043054'
+  local_id: '400'
   name: Uma Estrada Lateral
-  vnum: '400'
+  vnum: '01010040400'
 - description: |-
     Os arbustos que cercavam a estrada parecem se abrir para alargar a
     estrada, e circundam a grande Torre à sua frente.  Entre os pilares de
@@ -23,11 +24,12 @@
     e o para leste, você tem o portão de entrada para a Embaixada.
   exits:
     east:
-      target_vnum: '402'
+      target_vnum: '01010040402'
     west:
-      target_vnum: '400'
+      target_vnum: '01010040400'
+  local_id: '401'
   name: Sob a Grande Laje da Entrada da Embaixada
-  vnum: '401'
+  vnum: '01010040401'
 - description: |-
     Finalmente você chega à entrada da Embaixada dos Clãs de Vitália.  Dois
     imensos portões, feitos em madeira de lei maciça, com belíssimos entalhes,
@@ -40,11 +42,12 @@
     grande Torre.
   exits:
     east:
-      target_vnum: '403'
+      target_vnum: '01010040403'
     west:
-      target_vnum: '401'
+      target_vnum: '01010040401'
+  local_id: '402'
   name: Os Grandes Portões da Entrada da Embaixada
-  vnum: '402'
+  vnum: '01010040402'
 - description: |-
     Um bonito salão se ergue ao seu redor, envolto por uma atmosfera suave
     e tranquila.  Sob seus pés, grandes lajotas de marfim foram dispostas
@@ -55,11 +58,12 @@
     frente há uma grande escada que leva para cima.
   exits:
     up:
-      target_vnum: '404'
+      target_vnum: '01010040404'
     west:
-      target_vnum: '402'
+      target_vnum: '01010040402'
+  local_id: '403'
   name: O Saguão Principal do Andar Térreo
-  vnum: '403'
+  vnum: '01010040403'
 - description: |-
     Um bonito salão se ergue ao seu redor, envolto por uma atmosfera
     dourada.  Sob seus pés, grandes lajotas de ouro foram dispostas
@@ -74,19 +78,20 @@
     Cavaleiros da Virtude.
   exits:
     down:
-      target_vnum: '403'
+      target_vnum: '01010040403'
     east:
-      target_vnum: '406'
+      target_vnum: '01010040406'
     north:
-      target_vnum: '405'
+      target_vnum: '01010040405'
     south:
-      target_vnum: '407'
+      target_vnum: '01010040407'
     up:
-      target_vnum: '409'
+      target_vnum: 01010040409
     west:
-      target_vnum: '408'
+      target_vnum: 01010040408
+  local_id: '404'
   name: O Saguão do Primeiro Andar da Embaixada
-  vnum: '404'
+  vnum: '01010040404'
 - description: |-
     Você entra em uma enorme sala!  Ela é toda feita com enormes blocos de
     uma pedra branca como a neve, vários quadros estão decorando as paredes,
@@ -104,9 +109,10 @@
     inspiram.
   exits:
     south:
-      target_vnum: '404'
+      target_vnum: '01010040404'
+  local_id: '405'
   name: Sala do Clã Discípulos da Luz
-  vnum: '405'
+  vnum: '01010040405'
 - description: |-
     Ao entrar você se depara com um ambiente que lhe inspira um certo
     temor.  Austera como a cela de um monge, eis a Sala dos Atlantes, a sua
@@ -114,9 +120,10 @@
     pés está um livro, no qual estão gravados, a fogo, os preceitos deste Clã.
   exits:
     west:
-      target_vnum: '404'
+      target_vnum: '01010040404'
+  local_id: '406'
   name: Os Guardiões do Legado de Atlântida
-  vnum: '406'
+  vnum: '01010040406'
 - description: "A iluminação dessa sala é fraca, mas de alguma maneira isso não impede\n\
     que você veja a sublimidade de tudo a sua volta.  São quatro paredes e, no\nmeio\
     \ delas, caindo e revestindo o chão como um tapete, você observa um belo\ntecido\
@@ -125,8 +132,8 @@
     \ da parede de onde pende o tecido vermelho.  Na parede à\nsua esquerda você percebe\
     \ uma espada aparentemente preciosa, e que parece\nignorar o passar dos anos.\
     \  Ao lado existem dois painéis emoldurados em\nprofundo amarelo, retratando o\
-    \ que parece ter sido uma árdua e dolorosa\nbatalha em um passado nÃ£o muito distante.\
-    \  Ã\x80 sua direita estÃ¡ uma cruz e,\ncomo a espada, possui dois painéis, um\
+    \ que parece ter sido uma árdua e dolorosa\nbatalha em um passado não muito distante.\
+    \  Ã\x80 sua direita está uma cruz e,\ncomo a espada, possui dois painéis, um\
     \ de cada lado.  Dessa vez eles estão\nmostrando os mais singelos atos de humildade\
     \ e compaixão.  São as mesmas\npessoas dos outros painéis, e alguns você até pode\
     \ reconhecer.  Outras\nestão sumidas a algum tempo, mas é certo que todas elas\
@@ -137,24 +144,26 @@
     \ sentir tão protegido quanto qualquer magia jamais sonhou em deixar."
   exits:
     north:
-      target_vnum: '404'
+      target_vnum: '01010040404'
+  local_id: '407'
   name: Os Olhos de Mitra
-  vnum: '407'
+  vnum: '01010040407'
 - description: "Ao entrar pela porta, você se surpreende com a simplicidade dos adornos\n\
     que enfeitam esta sala, contudo a importância dela fica evidenciada em cada\n\
     peça.  Depois de olhar em volta, você entende porque a Humildade é a mais\nimportante\
-    \ Virtude deste ClÃ£.  Ã\x80 esquerda, vocÃª vÃª um grande quadro com\nmuitas\
-    \ mensagens fixadas nele, o que instiga sua curiosidade de lê-lo.\nNestes poucos\
-    \ minutos que você está nesta sala já percebeu várias pessoas\nentrando e saindo.\
-    \  Muitos deles membros conhecidos do Clã Virtudes, todos\nlhe cumprimentaram\
-    \ com um largo sorriso e um deles lhe disse que se você\nprecisasse de alguma\
-    \ coisa que procurasse os Justos, Sábios e Humildes do\nClã para que possamos,\
-    \ na medida do possível, lhe ajudar."
+    \ Virtude deste Clã.  Ã\x80 esquerda, você vê um grande quadro com\nmuitas mensagens\
+    \ fixadas nele, o que instiga sua curiosidade de lê-lo.\nNestes poucos minutos\
+    \ que você está nesta sala já percebeu várias pessoas\nentrando e saindo.  Muitos\
+    \ deles membros conhecidos do Clã Virtudes, todos\nlhe cumprimentaram com um largo\
+    \ sorriso e um deles lhe disse que se você\nprecisasse de alguma coisa que procurasse\
+    \ os Justos, Sábios e Humildes do\nClã para que possamos, na medida do possível,\
+    \ lhe ajudar."
   exits:
     east:
-      target_vnum: '404'
+      target_vnum: '01010040404'
+  local_id: '408'
   name: Os Cavaleiros da Virtude
-  vnum: '408'
+  vnum: 01010040408
 - description: |-
     Um bonito salão se ergue ao seu redor, mergulhada em um ar azulado
     brilhante.  Embaixo de seus pés há lajotas de safira dispostas
@@ -169,17 +178,18 @@
     JVKB.
   exits:
     down:
-      target_vnum: '404'
+      target_vnum: '01010040404'
     east:
-      target_vnum: '411'
+      target_vnum: '01010040411'
     north:
-      target_vnum: '410'
+      target_vnum: '01010040410'
     up:
-      target_vnum: '414'
+      target_vnum: '01010040414'
     west:
-      target_vnum: '412'
+      target_vnum: '01010040412'
+  local_id: '409'
   name: O Saguão do Segundo Andar da Embaixada
-  vnum: '409'
+  vnum: 01010040409
 - description: |-
     Estranhamente tudo ao seu redor pareceu mudar quando você passou pela
     porta.  A beleza e perfeição que estrutura a base da Torre desapareceu,
@@ -198,9 +208,10 @@
     Númenor sofreu.
   exits:
     south:
-      target_vnum: '409'
+      target_vnum: 01010040409
+  local_id: '410'
   name: Os Remanescentes Cavaleiros de Númenor
-  vnum: '410'
+  vnum: '01010040410'
 - description: |-
     Você acaba de entrar em uma sala não muito grande, porém magnifica.  A
     sala é inteira branca, feita de algo que você desconhece, e neste puro
@@ -211,9 +222,10 @@
     corpo, juntamente com um calor confortável.
   exits:
     west:
-      target_vnum: '409'
+      target_vnum: 01010040409
+  local_id: '411'
   name: A Tribo Seguidora do Sol
-  vnum: '411'
+  vnum: '01010040411'
 - description: |-
     Abruptamente as caprichosas paredes da construção se fecham em uma
     imensa caverna.  O secular altar central e todo o gigantesco salão é
@@ -225,22 +237,24 @@
     de pedra: JVKB, será essa a chave para um mundo perdido?
   exits:
     east:
-      target_vnum: '409'
+      target_vnum: 01010040409
+  local_id: '412'
   name: Os Guardiões do Segredo dos JVKB
-  vnum: '412'
+  vnum: '01010040412'
 - description: "Uma quantidade imensa de estantes antigas, escrivaninhas, livros e\n\
     pergaminhos estão nesta sala.  Considerada por alguns como uma saleta\ndispensável,\
-    \ este aposento é uma das peças mais importantes da vida e\npermanÃªncia dos ClÃ£s\
-    \ em VitÃ¡lia.  Ã\x89 aqui, em meio a grande profusÃ£o de\nvelas e em meio ao\
-    \ ar viciado, que parece estar aqui há séculos, que estão\nassentadas as idéias\
-    \ e premissas de cada uma das famílias.  Aqui descansam\nos pesados livros que\
-    \ contam as histórias e as glórias de cada clã, todos\nalocados estranhamente\
-    \ ordenados em uma grande prateleira imponente na\nparede adjacente à porta."
+    \ este aposento é uma das peças mais importantes da vida e\npermanência dos Clãs\
+    \ em Vitália.  Ã\x89 aqui, em meio a grande profusão de\nvelas e em meio ao ar\
+    \ viciado, que parece estar aqui há séculos, que estão\nassentadas as idéias e\
+    \ premissas de cada uma das famílias.  Aqui descansam\nos pesados livros que contam\
+    \ as histórias e as glórias de cada clã, todos\nalocados estranhamente ordenados\
+    \ em uma grande prateleira imponente na\nparede adjacente à porta."
   exits:
     north:
-      target_vnum: '414'
+      target_vnum: '01010040414'
+  local_id: '413'
   name: O Aposento dos Livros
-  vnum: '413'
+  vnum: '01010040413'
 - description: |-
     Um bonito salão se ergue ao seu redor.  Embaixo de seus pés há lajotas
     marfim dispostas transversalmente.  Três grandes arcos de um prateado fosco
@@ -251,13 +265,14 @@
     para baixo, voltando ao piso inferior.
   exits:
     down:
-      target_vnum: '409'
+      target_vnum: 01010040409
     south:
-      target_vnum: '413'
+      target_vnum: '01010040413'
     up:
-      target_vnum: '415'
+      target_vnum: '01010040415'
+  local_id: '414'
   name: O Saguão do Terceiro Andar da Embaixada
-  vnum: '414'
+  vnum: '01010040414'
 - description: "Um bonito salão se ergue ao seu redor.  Embaixo de seus pés há lajotas\n\
     marfim dispostas transversalmente.  Três grandes arcos de um prateado\nfosco cruzam-se\
     \ no alto do teto formando uma belíssima estrela de seis\npontas.  Suas bases\
@@ -268,17 +283,18 @@
     \ Suicida de Vitália; e ao oeste, Os\nVingadores de Ã\x8Dris."
   exits:
     down:
-      target_vnum: '414'
+      target_vnum: '01010040414'
     east:
-      target_vnum: '417'
+      target_vnum: '01010040417'
     north:
-      target_vnum: '416'
+      target_vnum: '01010040416'
     up:
-      target_vnum: '419'
+      target_vnum: 01010040419
     west:
-      target_vnum: '418'
+      target_vnum: 01010040418
+  local_id: '415'
   name: O Terceiro Andar da Embaixada
-  vnum: '415'
+  vnum: '01010040415'
 - description: |-
     Você adentra em uma sala totalmente fechada, construída com gigantescos
     monólitos de arenito, onde o ar é muito seco e o ambiente é muito mal
@@ -287,9 +303,10 @@
     oferendas a frente de uma magnífica estátua, que parece ser de Seth.
   exits:
     south:
-      target_vnum: '415'
+      target_vnum: '01010040415'
+  local_id: '416'
   name: Os Filhos de Seth
-  vnum: '416'
+  vnum: '01010040416'
 - description: |-
     Você adentra em um grande salão circular em arquitetura Gótica,
     pode-se sentir a presença gelada da Morte aqui.  Pelas paredes percebe-se
@@ -298,23 +315,25 @@
     Suicidas está fazendo algumas anotações.
   exits:
     west:
-      target_vnum: '415'
+      target_vnum: '01010040415'
+  local_id: '417'
   name: Exército Suicida de Vitália
-  vnum: '417'
+  vnum: '01010040417'
 - description: "Todos que entram nesta sala ficam chocados e maravilhados ao mesmo\n\
     tempo com a beleza desta sala.  Uma sala feita de mármore branco, com\ngrandes\
     \ castiçais encostados nos cantos das paredes, dando um ar\nmisterioso à sala.\
     \  Ao lado da porta, duas tochas iluminam melhor a\nentrada e permitem uma melhor\
-    \ visão para quem entra.  Na parede a direita\nda entrada, vocÃª observa uma bela\
+    \ visão para quem entra.  Na parede a direita\nda entrada, você observa uma bela\
     \ pintura da Rainha Ã\x8Dris, com toda sua\nbeleza e seu ar majestoso.  Na parede\
     \ esquerda da entrada você observa\noutra pintura, da Deusa Miuma lutando para\
     \ honrar a Rainha Ã\x8Dris.  Na\nparede oposta a entrada, você encontra um quadro\
     \ cheio de mensagens que\nchama a sua atenção."
   exits:
     east:
-      target_vnum: '415'
+      target_vnum: '01010040415'
+  local_id: '418'
   name: "Os Vingadores de Ã\x8Dris"
-  vnum: '418'
+  vnum: 01010040418
 - description: |-
     Um bonito salão se ergue ao seu redor, densamente preenchida por um vapor
     vermelho vivo.  Embaixo de seus pés há lajotas de rubi dispostas
@@ -329,19 +348,20 @@
     e ao oeste A Eterna Sociedade da Luz.
   exits:
     down:
-      target_vnum: '415'
+      target_vnum: '01010040415'
     east:
-      target_vnum: '425'
+      target_vnum: '01010040425'
     north:
-      target_vnum: '424'
+      target_vnum: '01010040424'
     south:
-      target_vnum: '426'
+      target_vnum: '01010040426'
     up:
-      target_vnum: '421'
+      target_vnum: '01010040421'
     west:
-      target_vnum: '420'
+      target_vnum: '01010040420'
+  local_id: '419'
   name: O Quarto Andar da Embaixada
-  vnum: '419'
+  vnum: 01010040419
 - description: |-
     Ao adentrar a sala, você nota algo muito estranho: Não há nada aqui além
     das paredes de rocha com algumas gravuras.  Repentinamente uma energia
@@ -356,9 +376,10 @@
     o mar, caminharei por sobre as águas."
   exits:
     east:
-      target_vnum: '419'
+      target_vnum: 01010040419
+  local_id: '420'
   name: A Eterna Sociedade da Luz
-  vnum: '420'
+  vnum: '01010040420'
 - description: |-
     Um bonito salão se ergue ao seu redor, densamente preenchida por um vapor
     vermelho vivo.  Embaixo de seus pés há lajotas de rubi dispostas
@@ -372,17 +393,18 @@
     Disciplina das Trevas; ao sul, Os Cavaleiros da família Dragoon.
   exits:
     down:
-      target_vnum: '419'
+      target_vnum: 01010040419
     east:
-      target_vnum: '427'
+      target_vnum: '01010040427'
     north:
-      target_vnum: '422'
+      target_vnum: '01010040422'
     south:
-      target_vnum: '428'
+      target_vnum: 01010040428
     up:
-      target_vnum: '423'
+      target_vnum: '01010040423'
+  local_id: '421'
   name: O Quinto Andar da Embaixada
-  vnum: '421'
+  vnum: '01010040421'
 - description: |-
     Uma bela sala que lhe lembra muito as aldeias do sul da Escócia, você
     observa vários adornos nas paredes e pinturas das várias gerações que já
@@ -391,10 +413,11 @@
     Há uma bela estátua de O'Connel Mclaud aqui.
   exits:
     south:
-      target_vnum: '421'
+      target_vnum: '01010040421'
+  local_id: '422'
   name: Os Protetores da Família Mclaud
-  vnum: '422'
-- description: "A escada sobe atÃ© esta sala.  Ã\x89 uma sala perfeitamente redonda,\
+  vnum: '01010040422'
+- description: "A escada sobe até esta sala.  Ã\x89 uma sala perfeitamente redonda,\
     \ com\nadornos prateados sobre as paredes de mármore negro.  Pequenas runas fazem\n\
     um círculo à dois pés do chão, entalhadas na parede, e dão origem a três\nfiletes\
     \ de runas maiores que vão subindo pelas paredes diagonalmente até\nencontrarem-se\
@@ -414,11 +437,12 @@
     \ e voltando para baixo."
   exits:
     down:
-      target_vnum: '421'
+      target_vnum: '01010040421'
     up:
-      target_vnum: '429'
+      target_vnum: 01010040429
+  local_id: '423'
   name: A Sagrada Sala de Reuniões
-  vnum: '423'
+  vnum: '01010040423'
 - description: |-
     Ao adentrar no salão, você sente como se o mundo la fora deixasse de
     existir, onde o mal nunca conseguiria aguentar os fluídos aqui presente.  As
@@ -426,10 +450,11 @@
     cantos da sala você percebe alguns querubins esculpidos em mármore.
   exits:
     south:
-      target_vnum: '419'
+      target_vnum: 01010040419
+  local_id: '424'
   name: Os Senhores da Tempestade
-  vnum: '424'
-- description: "Ã\x89 um templo majestoso e imponente, com altas colunas de mÃ¡rmore\n\
+  vnum: '01010040424'
+- description: "Ã\x89 um templo majestoso e imponente, com altas colunas de mármore\n\
     sustentando suas grossas paredes feitas com uma rocha que parece cintilar.\nEste\
     \ é um lugar onde a paz e a harmonia prevalecem, e estranhamente, você se\nsente\
     \ muito mais bondoso e com o coração cheio de alegria e júbilo.  Por\nalguns momentos\
@@ -438,9 +463,10 @@
     \ de Breyldon, que parecem estar zelando\npor este verdadeiro santuário."
   exits:
     west:
-      target_vnum: '419'
+      target_vnum: 01010040419
+  local_id: '425'
   name: Seguidores da Dinastia Breyldon
-  vnum: '425'
+  vnum: '01010040425'
 - description: |-
     Ao entrar nessa sala você vê suas feridas e cicatrizes desaparecerem.
     Esse é um santuário muito lindo e enfeitado, o cheiro daqui é muito bom e
@@ -448,9 +474,10 @@
     estátua sobre ele.
   exits:
     north:
-      target_vnum: '419'
+      target_vnum: 01010040419
+  local_id: '426'
   name: Os Guardiões da Prisão de Kildner
-  vnum: '426'
+  vnum: '01010040426'
 - description: |-
     Este é o altar do templo de Tenebra.  Muitos devotos fazem orações a
     Deusa das Trevas.  No topo do altar se encontra a estátua de Tenebra, uma
@@ -459,9 +486,10 @@
     seus olhos encantam a todos.
   exits:
     west:
-      target_vnum: '421'
+      target_vnum: '01010040421'
+  local_id: '427'
   name: Os Seguidores da Disciplina das Trevas
-  vnum: '427'
+  vnum: '01010040427'
 - description: |-
     Você repara que as paredes da proximidade estão cheias de desenhos
     enigmáticos, esculpidos com muito cuidado e precisão, que parecem
@@ -471,9 +499,10 @@
     vidas.
   exits:
     north:
-      target_vnum: '421'
+      target_vnum: '01010040421'
+  local_id: '428'
   name: Os Cavaleiros da Família Dragoon
-  vnum: '428'
+  vnum: 01010040428
 - description: |-
     Esta é uma sala diferente de todas que já viu.  Daqui é possível sentir a
     essência divina à sua volta.  Este lugar se assemelha muito aos Espaços
@@ -483,6 +512,7 @@
     branco e não se consegue ver de onde vem a luz que ilumina este quarto.
   exits:
     down:
-      target_vnum: '423'
+      target_vnum: '01010040423'
+  local_id: '429'
   name: A Câmara das Comunicações
-  vnum: '429'
+  vnum: 01010040429

@@ -9,11 +9,12 @@
     você vai avançando.
   exits:
     east:
-      target_vnum: '9403'
+      target_vnum: 02012229403
     south:
-      target_vnum: '22201'
+      target_vnum: '020122222201'
+  local_id: '22200'
   name: O Caminho da Glória
-  vnum: '22200'
+  vnum: '020122222200'
 - description: |-
     Você sente que finalmente chegou.  Imensos gradis surgem à sua frente,
     imponentes e majestosos.  Você olha para cima e percebe uma espécie de
@@ -23,9 +24,10 @@
     emocionado ao perceber que conseguiu chegar até aqui.
   exits:
     south:
-      target_vnum: '22202'
+      target_vnum: '020122222202'
+  local_id: '22201'
   name: Os Portais da Glória
-  vnum: '22201'
+  vnum: '020122222201'
 - description: |-
     Você está entrando na Grande Valhala, onde os bravos vivem para sempre!
     E sente a enorme responsabilidade que terá daqui para frente, pois está
@@ -38,9 +40,10 @@
     bela placa em uma das torres.
   exits:
     south:
-      target_vnum: '22203'
+      target_vnum: '020122222203'
+  local_id: '22202'
   name: Cruzando os Portais da Glória
-  vnum: '22202'
+  vnum: '020122222202'
 - description: |-
     Este é provavelmente o lugar mais lindo que você já viu!  Inúmeras
     pessoas e aventureiros passeiam por aqui em busca de inspiração.  Alguns
@@ -48,9 +51,10 @@
     sobre grandes feitos.  Um enorme templo reflete a luz do Sol, ao oeste.
   exits:
     west:
-      target_vnum: '22204'
+      target_vnum: '020122222204'
+  local_id: '22203'
   name: As Grandes Planícies
-  vnum: '22203'
+  vnum: '020122222203'
 - description: |-
     Você não tem pressa.  Caminha devagar, absorto em suas mémorias,
     lembrando-se do passado, de cada história vivida.  Sente seu coração
@@ -60,11 +64,12 @@
     para cima, emocionado e agradecido por poder estar vivenciando este momento.
   exits:
     east:
-      target_vnum: '22203'
+      target_vnum: '020122222203'
     west:
-      target_vnum: '22205'
+      target_vnum: '020122222205'
+  local_id: '22204'
   name: A Caminho da Glória
-  vnum: '22204'
+  vnum: '020122222204'
 - description: |-
     Você não tem pressa.  Caminha devagar, absorto em suas mémorias,
     lembrando-se do passado, de cada história vivida.  Sente seu coração
@@ -75,11 +80,12 @@
     Ao longe você vê uma construção imensa.
   exits:
     east:
-      target_vnum: '22204'
+      target_vnum: '020122222204'
     west:
-      target_vnum: '22206'
+      target_vnum: '020122222206'
+  local_id: '22205'
   name: A Caminho da Glória
-  vnum: '22205'
+  vnum: '020122222205'
 - description: |-
     Você não tem pressa.  Caminha devagar, absorto em suas mémorias,
     lembrando-se do passado, de cada história vivida.  Sente seu coração
@@ -90,28 +96,30 @@
     Você está chegando próximo a uma construção maravilhosa.
   exits:
     east:
-      target_vnum: '22205'
+      target_vnum: '020122222205'
     west:
-      target_vnum: '22207'
+      target_vnum: '020122222207'
+  local_id: '22206'
   name: A Caminho da Glória
-  vnum: '22206'
+  vnum: '020122222206'
 - description: "E você pára.  Seu corpo parece não mais obedecer aos seus comandos,\n\
     tamanha emoção o envolve.  Lentamente você penetra neste lugar sagrado e\nsabe\
     \ que a partir de agora nada será como foi.  Imenso e glorioso, tem as\nparedes\
-    \ totamente cobertas por um material absolutamente branco, que você\nnÃ£o sabe\
-    \ definir se Ã© mÃ¡rmore ou nÃ£o.  Ã\x89 aqui, neste Templo esplendoroso,\nonde\
-    \ estão gravadas as glórias de todo o passado e onde se registrarão as do\nfuturo.\
-    \  Em algumas paredes, imensas pinturas ilustram as conquistas de\ntodos os bravos\
+    \ totamente cobertas por um material absolutamente branco, que você\nnão sabe\
+    \ definir se é mármore ou não.  Ã\x89 aqui, neste Templo esplendoroso,\nonde estão\
+    \ gravadas as glórias de todo o passado e onde se registrarão as do\nfuturo. \
+    \ Em algumas paredes, imensas pinturas ilustram as conquistas de\ntodos os bravos\
     \ e você fica impressionado com as cenas ali perpetuadas.\nEstranhamente, você\
     \ consegue ver através das paredes brancas e percebe que\nlá fora, em um grande\
     \ vale, há um número infinito de belíssimas estátuas."
   exits:
     east:
-      target_vnum: '22206'
+      target_vnum: '020122222206'
     south:
-      target_vnum: '22208'
+      target_vnum: 020122222208
+  local_id: '22207'
   name: O Templo das Glórias
-  vnum: '22207'
+  vnum: '020122222207'
 - description: "Você deixou o Templo e segue em direção ao vale.  Tudo aqui parece\n\
     lembrar o quanto este lugar é especial e sagrado.  E você olha com respeito\n\
     para o imenso círculo de estátuas, que esculpidas com perfeição, revelam as\n\
@@ -123,15 +131,18 @@
     \ que se fizer parte desta imensa galeria, terá\ndeixado o maior de todos os legados:\
     \ o seu exemplo.  Você sabe que terá que\nlutar muito.  Não com pressa.  Nem por\
     \ ambição.  Mas porque quer deixar\nregistrado para todo o sempre que você também\
-    \ lutou pela @CHONRA, DIGNIDADE e\nFRATERNIDADE@n.  Chegou a hora, vocÃª sente\
+    \ lutou pela @CHONRA, DIGNIDADE e\nFRATERNIDADE@n.  Chegou a hora, você sente\
     \ isso!  Ã\x89 hora de fazer uma prece\naos Deuses pedindo suas bençãos e partir\
     \ para a luta!\nHá uma floresta a sudeste e além dela, parece haver uma interessante\n\
     construção."
   exits:
     north:
-      target_vnum: '22207'
+      target_vnum: '020122222207'
+    southeast:
+      target_vnum: 020122222209
+  local_id: '22208'
   name: O Vale das Glórias
-  vnum: '22208'
+  vnum: 020122222208
 - description: |-
     Lentamente você vai saindo deste lugar sagrado.  Seu coração está em paz,
     bem como a sua consciência.  Você sabe que daqui para frente será outra
@@ -140,9 +151,14 @@
     visitar aqueles que, de alguma forma, serviram de inspiração para a sua
     própria jornada.
     Há uma floresta a sudeste e uma interessante construção ao longe.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 020122222208
+    southeast:
+      target_vnum: '020122222210'
+  local_id: '22209'
   name: Saindo do Vale das Glórias
-  vnum: '22209'
+  vnum: 020122222209
 - description: |-
     Você continua sua caminhada.  Seu coração está em paz, bem como a sua
     consciência.  Você sabe que daqui para frente será outra pessoa.  Alguém
@@ -150,9 +166,14 @@
     vento continua lhe instigando a visitar aqueles que, de alguma forma,
     serviram de inspiração para a sua própria jornada.
     A floresta fica a sudeste e uma interessante construção surge ao longe.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 020122222209
+    southeast:
+      target_vnum: '020122222211'
+  local_id: '22210'
   name: A Caminho da Floresta
-  vnum: '22210'
+  vnum: '020122222210'
 - description: |-
     E você segue em sua caminhada.  Seu coração está em paz, bem como a sua
     consciência.  Você sabe que daqui para frente será outra pessoa.  Alguém
@@ -161,9 +182,14 @@
     serviram de inspiração para a sua própria jornada.
     A floresta está bem próxima e uma interessante construção vai tomando
     forma.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '020122222210'
+    southeast:
+      target_vnum: '020122222212'
+  local_id: '22211'
   name: A Caminho da Floresta
-  vnum: '22211'
+  vnum: '020122222211'
 - description: |-
     O nome não é estranho aos seus ouvidos...Floresta de Sherwood.  São
     tantas as lendas a respeito deste lugar...não é?  Dizem que sob a proteção
@@ -174,9 +200,12 @@
     como você?
   exits:
     east:
-      target_vnum: '22213'
+      target_vnum: '020122222213'
+    northeast:
+      target_vnum: '020122222211'
+  local_id: '22212'
   name: Dentro da Floresta
-  vnum: '22212'
+  vnum: '020122222212'
 - description: |-
     Engraçado...você está sorrindo, pensando em como tudo poderia ser
     diferente se as pessoas não fossem tão mesquinhas, tão egoístas.  Ainda bem
@@ -184,9 +213,10 @@
     porto e pensa: "Será que vale a pena caminhar até lá?".
   exits:
     east:
-      target_vnum: '22214'
+      target_vnum: '020122222214'
+  local_id: '22213'
   name: Saindo da Floresta
-  vnum: '22213'
+  vnum: '020122222213'
 - description: |-
     E você segue em sua caminhada.  Seu coração está em paz, bem como a sua
     consciência.  Você sabe que daqui para frente será outra pessoa.  Alguém
@@ -197,9 +227,10 @@
     que ao leste existe uma grande festa acontecendo.
   exits:
     east:
-      target_vnum: '22215'
+      target_vnum: '020122222215'
+  local_id: '22214'
   name: A Caminho do Cais
-  vnum: '22214'
+  vnum: '020122222214'
 - description: |-
     Você acabou de chegar e percebe que uma verdadeira festa parece estar
     acontecendo aqui.  Todos estão felizes e sorridentes com a chegada de outra
@@ -210,9 +241,10 @@
     naquela direção, bem perto dali, outra festa está acontecendo.
   exits:
     south:
-      target_vnum: '22216'
+      target_vnum: '020122222216'
+  local_id: '22215'
   name: No Cais
-  vnum: '22215'
+  vnum: '020122222215'
 - description: |-
     Que maravilha!!!  A grande multidão parece estar vivendo um grande
     momento!  Outra festa está acontecendo!  Uma grande fogueira está iluminando
@@ -226,11 +258,12 @@
     guerreiros também.
   exits:
     north:
-      target_vnum: '22215'
+      target_vnum: '020122222215'
     south:
-      target_vnum: '22217'
+      target_vnum: '020122222217'
+  local_id: '22216'
   name: A Comemoração!
-  vnum: '22216'
+  vnum: '020122222216'
 - description: |-
     Você sabe que precisa prosseguir e deixa aquele local com a certeza de
     que mais uma lição valorosa foi aprendida aqui.  O ar frio traz consigo uma
@@ -239,11 +272,12 @@
     direção à floresta.
   exits:
     north:
-      target_vnum: '22216'
+      target_vnum: '020122222216'
     south:
-      target_vnum: '22218'
+      target_vnum: 020122222218
+  local_id: '22217'
   name: Saindo da Festa
-  vnum: '22217'
+  vnum: '020122222217'
 - description: |-
     Você sai do porto e seus passos seguem firmes, em direção à floresta.
     Seu espírito está confiante, ciente de que o aprendizado é grande, porém
@@ -251,9 +285,10 @@
     alma de aventureiro o impulsiona em direção sul.
   exits:
     south:
-      target_vnum: '22219'
+      target_vnum: 020122222219
+  local_id: '22218'
   name: Deixando o Porto
-  vnum: '22218'
+  vnum: 020122222218
 - description: |-
     Você está alegre, feliz e seus passos seguem firmes.  Seu espírito está
     confiante, ciente de que o aprendizado é grande, porém precioso e
@@ -261,9 +296,10 @@
     que sua alma de aventureiro está mais viva do que nunca.
   exits:
     south:
-      target_vnum: '22220'
+      target_vnum: '020122222220'
+  local_id: '22219'
   name: Na Floresta
-  vnum: '22219'
+  vnum: 020122222219
 - description: |-
     Seus passos seguem firmes, confiantes, cientes de que o aprendizado é
     grande, porém precioso e importante.  Uma construção rústica está bem
@@ -271,11 +307,12 @@
     estivesse prevendo alguma coisa importante que está para acontecer.
   exits:
     north:
-      target_vnum: '22219'
+      target_vnum: 020122222219
     south:
-      target_vnum: '22221'
+      target_vnum: '020122222221'
+  local_id: '22220'
   name: Em Direção à Cabana Rústica
-  vnum: '22220'
+  vnum: '020122222220'
 - description: |-
     Você entra em uma casa muito bem decorada com rica mobília.  Quadros e
     esculturas enfeitam o lugar e grandes tapeçarias narrando as conquistas e as
@@ -291,9 +328,10 @@
     vento parece estar lhe chamando.
   exits:
     north:
-      target_vnum: '22222'
+      target_vnum: '020122222222'
+  local_id: '22221'
   name: A Cabana Rústica
-  vnum: '22221'
+  vnum: '020122222221'
 - description: "Você deixa aquela casa com a certeza de que mais uma lição valorosa\
     \ foi\naprendida aqui.  Ã\x89 preciso levar aos outros a sua boa-nova.  Ã\x89\
     \ preciso\nrepartir o conhecimento e difundí-lo para que assim, todos possam de\
@@ -304,6 +342,7 @@
     \ confiantes, na direção daquela luz."
   exits:
     north:
-      target_vnum: '50'
+      target_vnum: '02012220050'
+  local_id: '22222'
   name: Fora da Cabana Rústica
-  vnum: '22222'
+  vnum: '020122222222'

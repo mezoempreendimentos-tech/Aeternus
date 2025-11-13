@@ -6,11 +6,12 @@
     todos.  Um caminho segue a leste para dentro da floresta.
   exits:
     east:
-      target_vnum: '701'
+      target_vnum: '01010070701'
     south:
-      target_vnum: '10832'
+      target_vnum: 010100710832
+  local_id: '700'
   name: A Colina Perto da Floresta Sombria
-  vnum: '700'
+  vnum: '01010070700'
 - description: |-
     Um vento congelante vem de dentro da floresta.   Você está perto das árvores
     externas que revestem duas trilhas que levam ao coração da floresta.   Sua
@@ -18,11 +19,12 @@
     Lembre-se: Você foi avisado!
   exits:
     east:
-      target_vnum: '702'
+      target_vnum: '01010070702'
     west:
-      target_vnum: '700'
+      target_vnum: '01010070700'
+  local_id: '701'
   name: Do Lado de Fora da Floresta Sombria
-  vnum: '701'
+  vnum: '01010070701'
 - description: |-
     Um pouco de luz penetra na folhagem da floresta.   Quase nenhuma planta
     ocupa o chão duro e rochoso.   Continuando adiante nesta floresta condenada,
@@ -32,15 +34,16 @@
     Ou você pode fugir daqui...
   exits:
     east:
-      target_vnum: '707'
+      target_vnum: '01010070707'
     north:
-      target_vnum: '703'
+      target_vnum: '01010070703'
     south:
-      target_vnum: '704'
+      target_vnum: '01010070704'
     west:
-      target_vnum: '701'
+      target_vnum: '01010070701'
+  local_id: '702'
   name: Os Arredores da Floresta Sombria
-  vnum: '702'
+  vnum: '01010070702'
 - description: |-
     Você está em uma cabana na floresta.   O tempo não foi gentil com esta
     estrutura.   Os troncos que compõem as paredes estão começando a apodrecer e
@@ -49,9 +52,10 @@
     Mas se você se aproximar, pode achar algo útil.
   exits:
     south:
-      target_vnum: '702'
+      target_vnum: '01010070702'
+  local_id: '703'
   name: Uma Cabana Deserta
-  vnum: '703'
+  vnum: '01010070703'
 - description: |-
     A trilha seguida por você o levou a lugar algum.   Freqüentemente você pensa
     ver algum movimento atrás das árvores com o canto de seu olho.   Enquanto você
@@ -60,30 +64,33 @@
     sua nuca.
   exits:
     north:
-      target_vnum: '702'
+      target_vnum: '01010070702'
     south:
-      target_vnum: '705'
+      target_vnum: '01010070705'
+  local_id: '704'
   name: A Floresta Sombria
-  vnum: '704'
+  vnum: '01010070704'
 - description: Você está na Floresta Sombria.   Tenha um Bom Dia.
   exits:
     east:
-      target_vnum: '710'
+      target_vnum: '01010070710'
     north:
-      target_vnum: '704'
+      target_vnum: '01010070704'
     south:
-      target_vnum: '706'
+      target_vnum: '01010070706'
+  local_id: '705'
   name: A Floresta Sombria
-  vnum: '705'
+  vnum: '01010070705'
 - description: |-
     Você saiu da trilha que seguia e agora esta DESESPERADAMENTE PERDIDO!
 
     Não fique com medo.  EXISTE uma saída mas, será que você consegue encontrar?
   exits:
     south:
-      target_vnum: '720'
+      target_vnum: '01010070720'
+  local_id: '706'
   name: Desesperadamente Perdido
-  vnum: '706'
+  vnum: '01010070706'
 - description: |-
     Esta é a maior árvore da floresta.   Ela é bem alta.   O limbo áspero se
     pendura dos galhos como ávidas mãos prontas para lhe estrangular até que o
@@ -92,35 +99,38 @@
     decapitado.
   exits:
     east:
-      target_vnum: '712'
+      target_vnum: '01010070712'
     north:
-      target_vnum: '708'
+      target_vnum: 01010070708
     west:
-      target_vnum: '702'
+      target_vnum: '01010070702'
+  local_id: '707'
   name: O Grande Carvalho
-  vnum: '707'
+  vnum: '01010070707'
 - description: |-
     As árvores se tornam mais largas pela frente.   Você tem que se espremer
     para seguir adiante.   Freqüentemente as árvores carregam antigas manchas de
     sangue em seus troncos.
   exits:
     north:
-      target_vnum: '709'
+      target_vnum: 01010070709
     south:
-      target_vnum: '707'
+      target_vnum: '01010070707'
     west:
-      target_vnum: '706'
+      target_vnum: '01010070706'
+  local_id: '708'
   name: O Denso Bosque
-  vnum: '708'
-- description: "VocÃª descobriu uma porÃ§Ã£o da parede exterior da Fortaleza de Ivian.\
+  vnum: 01010070708
+- description: "Você descobriu uma porção da parede exterior da Fortaleza de Ivian.\
     \  Ã\x81rvores\nao seu redor o impedem de explorar a parede, que é uma imponente\
     \ massa de\ngranito frio, negro e liso.   Assim que você se aproxima desta vil\
     \ Fortaleza,\nsua alma sabe que este não é um bom lugar para ser pego."
   exits:
     south:
-      target_vnum: '708'
+      target_vnum: 01010070708
+  local_id: '709'
   name: Caminho Sem Saída
-  vnum: '709'
+  vnum: 01010070709
 - description: |-
     Esta raquítica ponte coberta, cobre um bom pedaço do chão da floresta.
     Iluminada apenas por duas lanternas enferrujadas que saem de cavidades na
@@ -129,13 +139,14 @@
     encontrar alguma proteção dos males da floresta.
   exits:
     down:
-      target_vnum: '711'
+      target_vnum: '01010070711'
     east:
-      target_vnum: '719'
+      target_vnum: 01010070719
     west:
-      target_vnum: '705'
+      target_vnum: '01010070705'
+  local_id: '710'
   name: A Ponte
-  vnum: '710'
+  vnum: '01010070710'
 - description: |-
     Você está em um desfiladeiro rochoso debaixo da ponte.   Vegetações esparsas
     crescem pelo solo intemperado.   A natureza criou declives que fazem da
@@ -144,34 +155,37 @@
     estiver aqui.
   exits:
     south:
-      target_vnum: '733'
+      target_vnum: '01010070733'
     up:
-      target_vnum: '710'
+      target_vnum: '01010070710'
+  local_id: '711'
   name: Debaixo da Ponte
-  vnum: '711'
+  vnum: '01010070711'
 - description: |-
     Quanto mais fundo você alcança, mais você duvida da sanidade de sua escolha.
     Mas você sabe que há grandes riscos em voltar.
   exits:
     east:
-      target_vnum: '715'
+      target_vnum: '01010070715'
     south:
-      target_vnum: '713'
+      target_vnum: '01010070713'
     west:
-      target_vnum: '707'
+      target_vnum: '01010070707'
+  local_id: '712'
   name: Mais Fundo na Floresta Sombria
-  vnum: '712'
+  vnum: '01010070712'
 - description: |-
     O que este lugar está fazendo aqui? Iluminadas por algumas tochas, pessoas
     dançam pela noite ao som de uma música (??), ensurdecedora e diabólica que
     parece vir de lugar algum.   Você começa a duvidar de sua sanidade...
   exits:
     north:
-      target_vnum: '712'
+      target_vnum: '01010070712'
     south:
-      target_vnum: '714'
+      target_vnum: '01010070714'
+  local_id: '713'
   name: O Palácio das Ilusões
-  vnum: '713'
+  vnum: '01010070713'
 - description: |-
     Você agora está na pista de dança deste palácio infernal.   A luminosidade
     mal chega aqui, você está cercado de corpos, aparentemente sem vida, que se
@@ -179,13 +193,14 @@
     seus ouvidos.
   exits:
     north:
-      target_vnum: '713'
+      target_vnum: '01010070713'
     south:
-      target_vnum: '718'
+      target_vnum: 01010070718
     west:
-      target_vnum: '744'
+      target_vnum: '01010070744'
+  local_id: '714'
   name: A Pista de Dança
-  vnum: '714'
+  vnum: '01010070714'
 - description: |-
     No coração da floresta, as coisas estão estranhamente calmas.   Mas a
     calmaria sempre precede a tormenta.   Na terra fofa, você vê claramente pegadas
@@ -194,13 +209,14 @@
     quer que seja que deixou as pegadas.   E perdeu.
   exits:
     east:
-      target_vnum: '716'
+      target_vnum: '01010070716'
     north:
-      target_vnum: '743'
+      target_vnum: '01010070743'
     west:
-      target_vnum: '712'
+      target_vnum: '01010070712'
+  local_id: '715'
   name: O Sombrio Coração da Floresta
-  vnum: '715'
+  vnum: '01010070715'
 - description: |-
     As árvores abrem uma clareira aqui.   Há um enervante silêncio ao redor.
     Você olha para a clareira a medida que se aproxima e a reconhece pelo que ela é.
@@ -208,13 +224,14 @@
     infelizes.
   exits:
     east:
-      target_vnum: '717'
+      target_vnum: '01010070717'
     north:
-      target_vnum: '706'
+      target_vnum: '01010070706'
     west:
-      target_vnum: '715'
+      target_vnum: '01010070715'
+  local_id: '716'
   name: Se Aproximando da Clareira
-  vnum: '716'
+  vnum: '01010070716'
 - description: |-
     Você está em uma clareira. A grama alcança seu joelho, embora ela tenha sido
     pisoteada em alguns lugares onde alguma criatura infeliz foi perseguida por
@@ -223,103 +240,113 @@
     seu corpo se arrepiarem.
   exits:
     east:
-      target_vnum: '727'
+      target_vnum: '01010070727'
     north:
-      target_vnum: '742'
+      target_vnum: '01010070742'
     south:
-      target_vnum: '726'
+      target_vnum: '01010070726'
     west:
-      target_vnum: '716'
+      target_vnum: '01010070716'
+  local_id: '717'
   name: A Clareira Gramínea
-  vnum: '717'
+  vnum: '01010070717'
 - description: "Neste pequeno alongamento da pista de dança, algumas pessoas (se é\
     \ que se\npode chamar estes corpos de pessoas) se aglomeram.   Ao se aproximar,\
     \ você\npode notar um corpo ainda quente, de um homem em sua armadura de prata,\
     \ sendo\nbrutalmente esquartejado. Ã\x89 hora da Festa!"
   exits:
     north:
-      target_vnum: '714'
+      target_vnum: '01010070714'
+  local_id: '718'
   name: Hora da Festa!
-  vnum: '718'
+  vnum: 01010070718
 - description: "Você caminha através de um pequeno fluxo de água, que silenciosamente\
     \ varre\nas folhas mortas e outros pequenos escombros.   Ã\x89 uma pena que ela\
-    \ nÃ£o possa\nvarrer seu medo e tremor.   Você pode seguir ao leste daqui ou fugir\
+    \ não possa\nvarrer seu medo e tremor.   Você pode seguir ao leste daqui ou fugir\
     \ para o\noeste, para a segurança da ponte.   Outra opção é seguir este pequeno\
     \ rio até\no fim."
   exits:
     east:
-      target_vnum: '726'
+      target_vnum: '01010070726'
     south:
-      target_vnum: '746'
+      target_vnum: '01010070746'
     west:
-      target_vnum: '710'
+      target_vnum: '01010070710'
+  local_id: '719'
   name: "Um Pequeno Fluxo de Ã\x81gua"
-  vnum: '719'
+  vnum: 01010070719
 - description: Você está DESESPERADAMENTE PERDIDO!
   exits:
     east:
-      target_vnum: '721'
+      target_vnum: '01010070721'
     south:
-      target_vnum: '723'
+      target_vnum: '01010070723'
+  local_id: '720'
   name: Desesperadamente Perdido
-  vnum: '720'
+  vnum: '01010070720'
 - description: Você está DESESPERADAMENTE PERDIDO!
   exits:
     south:
-      target_vnum: '722'
+      target_vnum: '01010070722'
     west:
-      target_vnum: '724'
+      target_vnum: '01010070724'
+  local_id: '721'
   name: Desesperadamente Perdido
-  vnum: '721'
+  vnum: '01010070721'
 - description: Você está DESESPERADAMENTE PERDIDO!
   exits:
     north:
-      target_vnum: '721'
+      target_vnum: '01010070721'
     west:
-      target_vnum: '723'
+      target_vnum: '01010070723'
+  local_id: '722'
   name: Desesperadamente Perdido
-  vnum: '722'
+  vnum: '01010070722'
 - description: Você está DESESPERADAMENTE PERDIDO!
   exits:
     east:
-      target_vnum: '722'
+      target_vnum: '01010070722'
     north:
-      target_vnum: '720'
+      target_vnum: '01010070720'
+  local_id: '723'
   name: Desesperadamente Perdido
-  vnum: '723'
+  vnum: '01010070723'
 - description: Você está DESESPERADAMENTE PERDIDO!
   exits:
     east:
-      target_vnum: '721'
+      target_vnum: '01010070721'
     south:
-      target_vnum: '725'
+      target_vnum: '01010070725'
+  local_id: '724'
   name: Desesperadamente Perdido
-  vnum: '724'
+  vnum: '01010070724'
 - description: Você está DESESPERADAMENTE PERDIDO!
   exits:
     south:
-      target_vnum: '704'
+      target_vnum: '01010070704'
+  local_id: '725'
   name: Desesperadamente Perdido
-  vnum: '725'
-- description: "VocÃª protege seu pescoÃ§o do vento frio que sopra aqui.   Ã\x89 quando\
-    \ vocÃª nota,\nnão mais de 200 jardas a frente, a infernal estrutura que é a Fortaleza.\
+  vnum: '01010070725'
+- description: "Você protege seu pescoço do vento frio que sopra aqui.   Ã\x89 quando\
+    \ você nota,\nnão mais de 200 jardas a frente, a infernal estrutura que é a Fortaleza.\
     \  Você\nsussurra uma oração de agradecimento por existirem ainda algumas árvores\
-    \ para\nservirem de esconderijo.   Ã\x89 melhor que os residentes do lugar nÃ£o\
+    \ para\nservirem de esconderijo.   Ã\x89 melhor que os residentes do lugar não\
     \ saibam da\nsua presença.   Uma força incontrolável o obriga a fitar a Fortaleza\
     \ e você\ntenta resistir...é inútil.   A oeste está um pequeno córrego.   Ao norte\
     \ fica a\nclareira, ao sul há uma pequena trilha que leva a um pequeno abrigo\
     \ em ruínas."
   exits:
     east:
-      target_vnum: '729'
+      target_vnum: 01010070729
     north:
-      target_vnum: '717'
+      target_vnum: '01010070717'
     south:
-      target_vnum: '734'
+      target_vnum: '01010070734'
     west:
-      target_vnum: '719'
+      target_vnum: 01010070719
+  local_id: '726'
   name: Na Sombra da Fortaleza
-  vnum: '726'
+  vnum: '01010070726'
 - description: |-
     Você encontrou uma parte da parede exterior. As árvores foram podadas,
     fazendo um caminho ao redor do lugar que pertence à Senhora do Vazio interior,
@@ -327,13 +354,14 @@
     desaparece na escuridão da Floresta Sombria.
   exits:
     north:
-      target_vnum: '730'
+      target_vnum: '01010070730'
     south:
-      target_vnum: '728'
+      target_vnum: 01010070728
     west:
-      target_vnum: '717'
+      target_vnum: '01010070717'
+  local_id: '727'
   name: Contra a Parede
-  vnum: '727'
+  vnum: '01010070727'
 - description: |-
     Você encontrou uma parte da parede exterior.  As árvores foram podadas,
     fazendo um caminho ao redor do lugar que pertence à Senhora do Vazio
@@ -341,13 +369,14 @@
     a parede desaparece na escuridão da Floresta Sombria.
   exits:
     north:
-      target_vnum: '727'
+      target_vnum: '01010070727'
     south:
-      target_vnum: '729'
+      target_vnum: 01010070729
     west:
-      target_vnum: '706'
+      target_vnum: '01010070706'
+  local_id: '728'
   name: Contra a Parede
-  vnum: '728'
+  vnum: 01010070728
 - description: |-
     Você alcançou o Portão da Fortaleza de Ivian.  As altas e negras paredes de
     granito são bastante lisas.  O Portão é enorme, feito de ferro, brazonado com
@@ -355,13 +384,14 @@
     entrar neste lugar terrível.  Há um portão ao leste.
   exits:
     east:
-      target_vnum: '750'
+      target_vnum: '01010070750'
     north:
-      target_vnum: '728'
+      target_vnum: 01010070728
     west:
-      target_vnum: '726'
+      target_vnum: '01010070726'
+  local_id: '729'
   name: O Portão Frontal
-  vnum: '729'
+  vnum: 01010070729
 - description: |-
     Você encontrou uma parte da parede exterior.  As árvores foram podadas,
     fazendo um caminho ao redor do lugar que pertence à Senhora do Vazio interior,
@@ -369,13 +399,14 @@
     desaparece na escuridão da Floresta Sombria.
   exits:
     north:
-      target_vnum: '731'
+      target_vnum: '01010070731'
     south:
-      target_vnum: '727'
+      target_vnum: '01010070727'
     west:
-      target_vnum: '742'
+      target_vnum: '01010070742'
+  local_id: '730'
   name: Contra a Parede
-  vnum: '730'
+  vnum: '01010070730'
 - description: |-
     Você encontrou uma parte da parede exterior.  As árvores foram podadas,
     fazendo um caminho ao redor do lugar que pertence à Senhora do Vazio interior,
@@ -383,11 +414,12 @@
     desaparece na escuridão da Floresta Sombria.
   exits:
     north:
-      target_vnum: '732'
+      target_vnum: '01010070732'
     south:
-      target_vnum: '730'
+      target_vnum: '01010070730'
+  local_id: '731'
   name: Você Tem Certeza de que Seja uma Boa Idéia?
-  vnum: '731'
+  vnum: '01010070731'
 - description: |-
     Você caminhou através da parede e agora está em uma pequena alcova.  A
     risada do demônio faz você saltar assustado.  Ela vem bem detrás de você!
@@ -399,17 +431,19 @@
 
     Tragicamente, sua história e sua vida terminam aqui.
   exits: {}
+  local_id: '732'
   name: Emboscado Como um Rato!
-  vnum: '732'
+  vnum: '01010070732'
 - description: |-
     Este é um áspero desfiladeiro.  Ele poderia ser o paraíso daqueles homens
     que estudam as pedras, estranhos não é mesmo?  Amostras de quartzo, feldspato,
     pedra calcária e outros minerais podem ser vistos.
   exits:
     north:
-      target_vnum: '711'
+      target_vnum: '01010070711'
+  local_id: '733'
   name: O Desfiladeiro Rochoso
-  vnum: '733'
+  vnum: '01010070733'
 - description: |-
     Você tropeçou em um rastro que a floresta ainda há de terminar.  Se você
     olhar ao redor, você mal pode notar o que sobrou de um pequeno abrigo em
@@ -417,13 +451,14 @@
     Evidentemente este abrigo foi desperdiçado pelas forças da Fortaleza.  Pena.
   exits:
     east:
-      target_vnum: '720'
+      target_vnum: '01010070720'
     north:
-      target_vnum: '726'
+      target_vnum: '01010070726'
     south:
-      target_vnum: '735'
+      target_vnum: '01010070735'
+  local_id: '734'
   name: Em um Caminho Para as Ruínas
-  vnum: '734'
+  vnum: '01010070734'
 - description: |-
     Apenas uma concha quebrada restou do que já foi um bastião do bem.  Poucas
     paredes despedaçadas restaram como testemunhas do que fora em um tempo antigo;
@@ -431,15 +466,16 @@
     oferecem algum abrigo do incessante vento.
   exits:
     east:
-      target_vnum: '737'
+      target_vnum: '01010070737'
     north:
-      target_vnum: '734'
+      target_vnum: '01010070734'
     south:
-      target_vnum: '736'
+      target_vnum: '01010070736'
     west:
-      target_vnum: '745'
+      target_vnum: '01010070745'
+  local_id: '735'
   name: O Castelo em Ruínas
-  vnum: '735'
+  vnum: '01010070735'
 - description: |-
     Há muito tempo atrás, aqui era o lugar de adoração, mas aparentemente os
     seres para o qual este lugar foi consagrado, escolheram não poupar mais do que
@@ -449,11 +485,12 @@
     castelo, e dividiram seus destinos.
   exits:
     north:
-      target_vnum: '735'
+      target_vnum: '01010070735'
     west:
-      target_vnum: '738'
+      target_vnum: 01010070738
+  local_id: '736'
   name: A Capela Arruinada
-  vnum: '736'
+  vnum: '01010070736'
 - description: |-
     Embora os estábulos estejam em ruínas, eles ainda possuem a estrutura, ou
     parte dela.  A parte ocidental nada mais é que uma pilha de escombros podres.
@@ -464,9 +501,10 @@
     ainda usa este lugar.
   exits:
     west:
-      target_vnum: '735'
+      target_vnum: '01010070735'
+  local_id: '737'
   name: Os Estábulos Arruinados
-  vnum: '737'
+  vnum: '01010070737'
 - description: |-
     Este costumava ser o grande corredor do castelo, agora não está em melhores
     condições do que o resto do lugar.  O antes duramente polido chão de mármore,
@@ -478,13 +516,14 @@
     abaixo a qualquer momento.
   exits:
     east:
-      target_vnum: '736'
+      target_vnum: '01010070736'
     north:
-      target_vnum: '745'
+      target_vnum: '01010070745'
     west:
-      target_vnum: '739'
+      target_vnum: 01010070739
+  local_id: '738'
   name: O Grande Corredor Arruinado
-  vnum: '738'
+  vnum: 01010070738
 - description: |-
     Esta uma vez foi uma alta torre que abrigava um sino de advertência.  Ele
     era tocado para alertar os moradores de qualquer ameaça, mas hoje em dia ele
@@ -493,9 +532,10 @@
     bronze retorcido misturado aos escombros.
   exits:
     east:
-      target_vnum: '738'
+      target_vnum: 01010070738
+  local_id: '739'
   name: A Arruinada Torre do Sino
-  vnum: '739'
+  vnum: 01010070739
 - description: |-
     Adjacente ao calabouço fica a câmara de tortura da Fortaleza.  Enquanto o
     calabouço tem rudimentares artigos de tortura, este quarto tem os objetos
@@ -504,50 +544,57 @@
     tortura chinesa.  Cada um designado para causar mais dor possível.
   exits:
     north:
-      target_vnum: '781'
+      target_vnum: 01010070781
+  local_id: '740'
   name: A Câmara de Tortura
-  vnum: '740'
+  vnum: '01010070740'
 - description: |-
     A antecâmara serve de passagem para a torre da capela.  Do lado de fora há
     uma fila de cavilhas onde alguns robes estão pendurados.
   exits:
+    northwest:
+      target_vnum: 01010070780
     up:
-      target_vnum: '782'
+      target_vnum: 01010070782
+  local_id: '741'
   name: A Antecâmara
-  vnum: '741'
+  vnum: '01010070741'
 - description: Você está na Floresta Sombria.   Ahm, sério?!
   exits:
     east:
-      target_vnum: '730'
+      target_vnum: '01010070730'
     north:
-      target_vnum: '720'
+      target_vnum: '01010070720'
     south:
-      target_vnum: '717'
+      target_vnum: '01010070717'
     west:
-      target_vnum: '743'
+      target_vnum: '01010070743'
+  local_id: '742'
   name: A Floresta Sombria
-  vnum: '742'
+  vnum: '01010070742'
 - description: |-
     A Floresta Sombria se extende até onde seus olhos alcançam.  O que não é
     tão longe assim, dado que é uma floresta muito densa.
   exits:
     east:
-      target_vnum: '742'
+      target_vnum: '01010070742'
     north:
-      target_vnum: '748'
+      target_vnum: 01010070748
     south:
-      target_vnum: '715'
+      target_vnum: '01010070715'
+  local_id: '743'
   name: Mais da Floresta Sombria
-  vnum: '743'
+  vnum: '01010070743'
 - description: |-
     Está é a pista mais quente do Palácio das Ilusões.  Você pode dançar a
     noite toda até seus pés sangrarem ou você pode apenas apreciar o sofrimento
     alheio, matando (sem trocadilhos), sua curiosidade.
   exits:
     east:
-      target_vnum: '714'
+      target_vnum: '01010070714'
+  local_id: '744'
   name: Pista de Dança Inferno
-  vnum: '744'
+  vnum: '01010070744'
 - description: |-
     Há muito tempo atrás era a mais segura área do castelo do bom Rei
     Desfigurado.  Agora as forças da Fortaleza profanaram e saquearam o lugar.  As
@@ -555,11 +602,12 @@
     devastação dos elementos naturais.
   exits:
     east:
-      target_vnum: '735'
+      target_vnum: '01010070735'
     south:
-      target_vnum: '738'
+      target_vnum: 01010070738
+  local_id: '745'
   name: O Abrigo Arruínado do Castelo
-  vnum: '745'
+  vnum: '01010070745'
 - description: |-
     Este córrego segue para uma lagoa natural.  Não é uma lagoa pura ou clara,
     o lodo forma uma espuma sobre a água.  Este lugar se aproxima mais de um
@@ -567,30 +615,33 @@
     outros insetos que zunem em seus ouvidos.
   exits:
     north:
-      target_vnum: '719'
+      target_vnum: 01010070719
     south:
-      target_vnum: '747'
+      target_vnum: '01010070747'
+  local_id: '746'
   name: O Lodo
-  vnum: '746'
+  vnum: '01010070746'
 - description: |-
     Este é um pequeno pedaço de chão que sobressai ao lodo.  Não é mais que uma
     pequena ilhota rochosa coberta com sumagre-venenoso.  Há pouca terra, mas de
     alguma forma as videiras ainda sobrevivem.
   exits:
     north:
-      target_vnum: '746'
+      target_vnum: '01010070746'
+  local_id: '747'
   name: Ilha de Hera
-  vnum: '747'
+  vnum: '01010070747'
 - description: |-
     A esta altura você já conhece bem o lugar, e quando você pensa que não
     encontrará nada de novo, algo surpreende você!  Você está certo!
   exits:
     north:
-      target_vnum: '749'
+      target_vnum: 01010070749
     south:
-      target_vnum: '743'
+      target_vnum: '01010070743'
+  local_id: '748'
   name: Ainda Mais da Floresta Sombria
-  vnum: '748'
+  vnum: 01010070748
 - description: |-
     Esta floresta amaldiçoada nunca termina?  Você penetra cada vez mais fundo
     no aparentemente sem fim emaranhado de carvalhos que guardam este lugar
@@ -598,13 +649,14 @@
     de volta.
   exits:
     east:
-      target_vnum: '720'
+      target_vnum: '01010070720'
     north:
-      target_vnum: '799'
+      target_vnum: 01010070799
     south:
-      target_vnum: '748'
+      target_vnum: 01010070748
+  local_id: '749'
   name: Ainda Mais da Floresta Sombria
-  vnum: '749'
+  vnum: 01010070749
 - description: |-
     Essa sala serve como uma antecâmara de entrada para a fortaleza.  As
     paredes de granito negro parecem absorver a luz, mas estranhamente você ainda
@@ -613,48 +665,52 @@
     Fortaleza, com sua expressão imponente.
   exits:
     east:
-      target_vnum: '751'
+      target_vnum: '01010070751'
     west:
-      target_vnum: '729'
+      target_vnum: 01010070729
+  local_id: '750'
   name: A Antecâmara da Fortaleza
-  vnum: '750'
+  vnum: '01010070750'
 - description: |-
     Seus passos ecoam nas paredes conforme você atravessa as salas.  A concha
     externa da fortaleza serve como proteção e segurança dessa construção
     diabólica.
   exits:
     east:
-      target_vnum: '760'
+      target_vnum: '01010070760'
     north:
-      target_vnum: '752'
+      target_vnum: '01010070752'
     south:
-      target_vnum: '757'
+      target_vnum: '01010070757'
     west:
-      target_vnum: '750'
+      target_vnum: '01010070750'
+  local_id: '751'
   name: Dentro da Fortaleza
-  vnum: '751'
+  vnum: '01010070751'
 - description: |-
     Esse é um longo salão.  As paredes foram cobertas com espelhos.  Isso dá à
     sala aparência de ser inúmeras vezes maior do que é.  Há umas poucas tochas
     fixadas pelas paredes.  A sala se extende para norte.
   exits:
     north:
-      target_vnum: '753'
+      target_vnum: '01010070753'
     south:
-      target_vnum: '751'
+      target_vnum: '01010070751'
+  local_id: '752'
   name: O Final Sul do Salão dos Espelhos
-  vnum: '752'
+  vnum: '01010070752'
 - description: |-
     Este é um longo salão.  As paredes foram cobertas com espelhos.  Isso dá à
     sala aparência de ser inúmeras vezes maior do que é.  Há umas poucas tochas
     fixadas pelas paredes.  A sala se extende para sul.
   exits:
     north:
-      target_vnum: '754'
+      target_vnum: '01010070754'
     south:
-      target_vnum: '752'
+      target_vnum: '01010070752'
+  local_id: '753'
   name: O Final Norte do Salão dos Espelhos
-  vnum: '753'
+  vnum: '01010070753'
 - description: |-
     Essa câmara na fortaleza é completamente preenchida por filas e filas de
     estantes.  A maioria com grossos tomos encadernados em couro.  E parecem que
@@ -662,11 +718,12 @@
     solo ladrilhado parece imaculado.
   exits:
     east:
-      target_vnum: '756'
+      target_vnum: '01010070756'
     south:
-      target_vnum: '753'
+      target_vnum: '01010070753'
+  local_id: '754'
   name: A Biblioteca
-  vnum: '754'
+  vnum: '01010070754'
 - description: |-
     Este é o lugar onde Durlak, o armeiro da fortaleza, trabalha.  O lugar é
     desconfortavelmente quente devido à forja.  As paredes são revestidas com os
@@ -674,11 +731,12 @@
     de conserto, para serem reparados por Durlak.
   exits:
     east:
-      target_vnum: '771'
+      target_vnum: '01010070771'
     north:
-      target_vnum: '751'
+      target_vnum: '01010070751'
+  local_id: '755'
   name: A Oficina do Mestre Armeiro
-  vnum: '755'
+  vnum: '01010070755'
 - description: |-
     O longo salão se extende à direção leste-oeste.  Ela serve para conectar o
     complexo Oriental e Ocidental.  Seus passos ecoam nas paredes, reverberando,
@@ -689,11 +747,12 @@
     alcançam todo o corredor.
   exits:
     east:
-      target_vnum: '757'
+      target_vnum: '01010070757'
     west:
-      target_vnum: '754'
+      target_vnum: '01010070754'
+  local_id: '756'
   name: Os Salões da Fortaleza
-  vnum: '756'
+  vnum: '01010070756'
 - description: |-
     O longo salão se estende à direção leste-oeste.  Ela serve para conectar o
     complexo Oriental e Ocidental.  Seus passos ecoam nas paredes, reverberando,
@@ -704,13 +763,14 @@
     alcançam todo o corredor.
   exits:
     east:
-      target_vnum: '758'
+      target_vnum: 01010070758
     north:
-      target_vnum: '709'
+      target_vnum: 01010070709
     west:
-      target_vnum: '756'
+      target_vnum: '01010070756'
+  local_id: '757'
   name: Os Salões da Fortaleza
-  vnum: '757'
+  vnum: '01010070757'
 - description: |-
     Esta é uma galeria marmórea.  Uma grande sala quadrangular com estátuas de
     todos os tipos.  Abstratas, em baixo relevo, estas esculturas quase vivas estão
@@ -720,11 +780,12 @@
     sua agonia para que todos vejam.
   exits:
     south:
-      target_vnum: '788'
+      target_vnum: 01010070788
     west:
-      target_vnum: '757'
+      target_vnum: '01010070757'
+  local_id: '758'
   name: A Galeria
-  vnum: '758'
+  vnum: 01010070758
 - description: |-
     Essa é uma grande sala cilíndrica, feita de uma pedra, de alguma forma,
     bronzeada.  Há um grande osso queimando no meio da sala, o osso queima com uma
@@ -732,13 +793,14 @@
     câmara de observação.
   exits:
     north:
-      target_vnum: '788'
+      target_vnum: 01010070788
     south:
-      target_vnum: '774'
+      target_vnum: '01010070774'
     up:
-      target_vnum: '770'
+      target_vnum: '01010070770'
+  local_id: '759'
   name: A Torre de Observação
-  vnum: '759'
+  vnum: 01010070759
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -746,11 +808,12 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '764'
+      target_vnum: '01010070764'
     west:
-      target_vnum: '751'
+      target_vnum: '01010070751'
+  local_id: '760'
   name: A Sala de 10.000 Pilares
-  vnum: '760'
+  vnum: '01010070760'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -758,11 +821,12 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '762'
+      target_vnum: '01010070762'
     north:
-      target_vnum: '764'
+      target_vnum: '01010070764'
+  local_id: '761'
   name: A Sala de 10.000 Pilares
-  vnum: '761'
+  vnum: '01010070761'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -770,13 +834,14 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '763'
+      target_vnum: '01010070763'
     north:
-      target_vnum: '765'
+      target_vnum: '01010070765'
     west:
-      target_vnum: '761'
+      target_vnum: '01010070761'
+  local_id: '762'
   name: A Sala de 10.000 Pilares
-  vnum: '762'
+  vnum: '01010070762'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -784,11 +849,12 @@
     sua luz não alcança.
   exits:
     north:
-      target_vnum: '766'
+      target_vnum: '01010070766'
     west:
-      target_vnum: '762'
+      target_vnum: '01010070762'
+  local_id: '763'
   name: A Sala de 10.000 Pilares
-  vnum: '763'
+  vnum: '01010070763'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -796,15 +862,16 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '765'
+      target_vnum: '01010070765'
     north:
-      target_vnum: '767'
+      target_vnum: '01010070767'
     south:
-      target_vnum: '761'
+      target_vnum: '01010070761'
     west:
-      target_vnum: '760'
+      target_vnum: '01010070760'
+  local_id: '764'
   name: A Sala de 10.000 Pilares
-  vnum: '764'
+  vnum: '01010070764'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -812,15 +879,16 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '766'
+      target_vnum: '01010070766'
     north:
-      target_vnum: '768'
+      target_vnum: 01010070768
     south:
-      target_vnum: '762'
+      target_vnum: '01010070762'
     west:
-      target_vnum: '764'
+      target_vnum: '01010070764'
+  local_id: '765'
   name: A Sala de 10.000 Pilares
-  vnum: '765'
+  vnum: '01010070765'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -828,15 +896,16 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '780'
+      target_vnum: 01010070780
     north:
-      target_vnum: '769'
+      target_vnum: 01010070769
     south:
-      target_vnum: '763'
+      target_vnum: '01010070763'
     west:
-      target_vnum: '765'
+      target_vnum: '01010070765'
+  local_id: '766'
   name: A Sala de 10.000 Pilares
-  vnum: '766'
+  vnum: '01010070766'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -844,11 +913,12 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '768'
+      target_vnum: 01010070768
     south:
-      target_vnum: '764'
+      target_vnum: '01010070764'
+  local_id: '767'
   name: A Sala de 10.000 Pilares
-  vnum: '767'
+  vnum: '01010070767'
 - description: |-
     Ao seu redor estão filas e filas de colunas de mármores, uniformemente
     alinhadas.  Organizadas em um perfeito manancial, os grossos pilares
@@ -856,21 +926,23 @@
     sua luz não alcança.
   exits:
     east:
-      target_vnum: '769'
+      target_vnum: 01010070769
     south:
-      target_vnum: '765'
+      target_vnum: '01010070765'
     west:
-      target_vnum: '767'
+      target_vnum: '01010070767'
+  local_id: '768'
   name: A Sala de 10.000 Pilares
-  vnum: '768'
+  vnum: 01010070768
 - description: Você está em uma sala com 10.000 pilares de mármore. Tenha um bom dia.
   exits:
     east:
-      target_vnum: '768'
+      target_vnum: 01010070768
     south:
-      target_vnum: '766'
+      target_vnum: '01010070766'
+  local_id: '769'
   name: A Sala de 10.000 Pilares
-  vnum: '769'
+  vnum: 01010070769
 - description: |-
     Esta é a câmara de observação no topo da torre de observação.  Há um grande
     telescópio montado próximo à parede, proporcionando uma bela visão.  O centro
@@ -878,9 +950,10 @@
     e desenhos.  Uma escadaria em espiral conduz para baixo.
   exits:
     down:
-      target_vnum: '759'
+      target_vnum: 01010070759
+  local_id: '770'
   name: A Câmara de Observação
-  vnum: '770'
+  vnum: '01010070770'
 - description: |-
     O longo salão se estende à direção leste-oeste.  Ela serve para conectar o
     complexo Oriental e Ocidental.  Seus passos ecoam nas paredes, reverberando,
@@ -891,11 +964,12 @@
     alcançam todo o corredor.
   exits:
     east:
-      target_vnum: '772'
+      target_vnum: '01010070772'
     west:
-      target_vnum: '755'
+      target_vnum: '01010070755'
+  local_id: '771'
   name: Os Salões da Fortaleza
-  vnum: '771'
+  vnum: '01010070771'
 - description: |-
     O longo salão se estende à direção leste-oeste.  Ela serve para conectar o
     complexo Oriental e Ocidental.  Seus passos ecoam nas paredes, reverberando,
@@ -906,11 +980,12 @@
     alcançam todo o corredor.
   exits:
     east:
-      target_vnum: '773'
+      target_vnum: '01010070773'
     west:
-      target_vnum: '771'
+      target_vnum: '01010070771'
+  local_id: '772'
   name: Os Salões da Fortaleza
-  vnum: '772'
+  vnum: '01010070772'
 - description: |-
     Você entrou na torre do relógio.  Assim que você olha para cima, você vê
     inúmeras engrenagens, peças, e outras partes internas de um relógio, girando,
@@ -918,21 +993,23 @@
     permite acesso aos intrigantes mecanismos acima, se você quiser subir lá.
   exits:
     north:
-      target_vnum: '774'
+      target_vnum: '01010070774'
     up:
-      target_vnum: '775'
+      target_vnum: '01010070775'
     west:
-      target_vnum: '772'
+      target_vnum: '01010070772'
+  local_id: '773'
   name: A Torre do Relógio
-  vnum: '773'
+  vnum: '01010070773'
 - description: Você está na Fortaleza. Tenha um bom dia.
   exits:
     north:
-      target_vnum: '759'
+      target_vnum: 01010070759
     south:
-      target_vnum: '773'
+      target_vnum: '01010070773'
+  local_id: '774'
   name: Um Corredor
-  vnum: '774'
+  vnum: '01010070774'
 - description: |-
     Você está na parte baixa dos mecanismos internos do relógio da fortaleza.
     Engrenagens enredam-se, giram e se movem por todos os lados que você olha.
@@ -941,24 +1018,26 @@
     que escalar pelas engrenagens.
   exits:
     down:
-      target_vnum: '773'
+      target_vnum: '01010070773'
     up:
-      target_vnum: '776'
+      target_vnum: '01010070776'
+  local_id: '775'
   name: Na Torre do Relógio
-  vnum: '775'
+  vnum: '01010070775'
 - description: |-
     Você está brincando de equilíbrio em corda sobre estacas.  Saltando pelas
     engrenagens, apoiando-se em estruturas móveis em um momento, escalando em
     engrenagens no outro.
   exits:
     down:
-      target_vnum: '775'
+      target_vnum: '01010070775'
     north:
-      target_vnum: '777'
+      target_vnum: '01010070777'
     up:
-      target_vnum: '778'
+      target_vnum: 01010070778
+  local_id: '776'
   name: Entre os Dentes das Engrenagens
-  vnum: '776'
+  vnum: '01010070776'
 - description: |-
     Você pula para uma engrenagem parada para recuperar o fôlego.  O movimento
     constante das engrenagens ao seu redor é atordoante.  Por um momento você
@@ -967,19 +1046,21 @@
     dentes de duas engrenagens.  Seu corpo é mastigado e moído, e você morre
     instantaneamente.  Tragicamente sua vida e sua busca acabam aqui.
   exits: {}
+  local_id: '777'
   name: Entre as Engrenagens
-  vnum: '777'
+  vnum: '01010070777'
 - description: |-
     Você está acima de centenas de mecanismos.  Em uma pequena sacada, de onde
     você obtém uma boa visão.  Você pode bravamente tentar descer pelas
     engrenagens, ou pode ir até a face do relógio.
   exits:
     down:
-      target_vnum: '776'
+      target_vnum: '01010070776'
     west:
-      target_vnum: '779'
+      target_vnum: 01010070779
+  local_id: '778'
   name: O Topo da Torre do Relógio
-  vnum: '778'
+  vnum: 01010070778
 - description: |-
     Você está no eixo central do relógio.  Um vento congelante sopra de
     repente..  Quase alcançando sua alma.  Olhando ao redor você vê os topos dos
@@ -989,22 +1070,24 @@
     sua longa sombra através da Floresta Sombria.
   exits:
     east:
-      target_vnum: '778'
+      target_vnum: 01010070778
+  local_id: '779'
   name: Na Face do Relógio
-  vnum: '779'
+  vnum: 01010070779
 - description: |-
     Você chegou ao pináculo da fortaleza.  Uma grande sala.  Que não é nada
     mais do que um poço escuro.  A única coisa que quebra a monotonia é uma
     escadaria que se estende para cima e para baixo.
   exits:
     down:
-      target_vnum: '781'
+      target_vnum: 01010070781
     up:
-      target_vnum: '741'
+      target_vnum: '01010070741'
     west:
-      target_vnum: '766'
+      target_vnum: '01010070766'
+  local_id: '780'
   name: O Térreo do Pináculo
-  vnum: '780'
+  vnum: 01010070780
 - description: |-
     Você chegou a um úmido calabouço abaixo do Pináculo.  Um estranho musgo
     cresce nas rachaduras das ásperas paredes, e iluminam o lugar com sua estranha
@@ -1015,11 +1098,12 @@
     horríveis, velhos, infectados e enferrujados pelo tempo.
   exits:
     south:
-      target_vnum: '740'
+      target_vnum: '01010070740'
     up:
-      target_vnum: '780'
+      target_vnum: 01010070780
+  local_id: '781'
   name: O Calabouço
-  vnum: '781'
+  vnum: 01010070781
 - description: |-
     Este é um caminho que conduz à torre e à capela dedicada à Senhora da Torre
     e do Vazio Interior.  O lugar é circular com um altar feito de um estranho
@@ -1028,11 +1112,12 @@
     circula a capela, continua para cima e para baixo.
   exits:
     down:
-      target_vnum: '741'
+      target_vnum: '01010070741'
     up:
-      target_vnum: '783'
+      target_vnum: 01010070783
+  local_id: '782'
   name: O Altar Diabólico
-  vnum: '782'
+  vnum: 01010070782
 - description: |-
     Acima do altar, a torre aprofunda-se e você está em uma câmara gigante.  No
     centro da coluna oca há um par de escadarias em espiral, trançando-se e
@@ -1042,11 +1127,12 @@
     você dê, mais próximo estará...Dela.
   exits:
     down:
-      target_vnum: '782'
+      target_vnum: 01010070782
     up:
-      target_vnum: '784'
+      target_vnum: 01010070784
+  local_id: '783'
   name: A Grande Escadaria em Espiral
-  vnum: '783'
+  vnum: 01010070783
 - description: |-
     Você está no meio da grande escadaria.  Os degraus de mármore negro
     continuam em espiral à frente, entrelaçando-se.  A sua luz se enfraquece
@@ -1055,32 +1141,36 @@
     Descer é afastar-se do terror no topo.
   exits:
     down:
-      target_vnum: '783'
+      target_vnum: 01010070783
     up:
-      target_vnum: '785'
+      target_vnum: 01010070785
+  local_id: '784'
   name: A Grande Escadaria em Espiral
-  vnum: '784'
+  vnum: 01010070784
 - description: |-
     Acima da grande escadaria.  Você entrou em uma sala completamente nebulosa.
     Há duas saídas, e para seguir adiante você tem que fazer uma escolha.  Pense
     bem antes de fazer a sua escolha.
   exits:
     down:
-      target_vnum: '789'
+      target_vnum: 01010070789
     north:
-      target_vnum: '786'
+      target_vnum: 01010070786
     south:
-      target_vnum: '787'
+      target_vnum: 01010070787
+  local_id: '785'
   name: A Escolha
-  vnum: '785'
+  vnum: 01010070785
 - description: Você fez sua escolha, agora morra com ela.
   exits: {}
+  local_id: '786'
   name: A Condenação
-  vnum: '786'
+  vnum: 01010070786
 - description: Você fez sua escolha, agora morra com ela.
   exits: {}
+  local_id: '787'
   name: A Maldição
-  vnum: '787'
+  vnum: 01010070787
 - description: |-
     Esta espaçosa sala é preenchida por diversos instrumentos musicais.  A
     principal característica da sala é o órgão.  Ele ocupa mais da metade da sala.
@@ -1090,21 +1180,23 @@
     tocando em alguma dimensão perdida, sua musica de alguma forma chega até você.
   exits:
     north:
-      target_vnum: '758'
+      target_vnum: 01010070758
     south:
-      target_vnum: '759'
+      target_vnum: 01010070759
+  local_id: '788'
   name: A Infernal Sala Musical
-  vnum: '788'
+  vnum: 01010070788
 - description: |-
     Parabéns.  Você fez a escolha certa.  Talvez você tenha uma chance afinal,
     mas se você tiver um pouco de bom senso, evitará ir lá novamente.
   exits:
     down:
-      target_vnum: '784'
+      target_vnum: 01010070784
     up:
-      target_vnum: '790'
+      target_vnum: 01010070790
+  local_id: '789'
   name: A Grande Escadaria em Espiral
-  vnum: '789'
+  vnum: 01010070789
 - description: |-
     Você foi sábio (ou sortudo) o suficiente para sobreviver à Escolha,
     chegando à Porta da Morte.  A grande porta de ferro dupla se põe como um
@@ -1113,11 +1205,12 @@
     Há uma porta ao norte.
   exits:
     down:
-      target_vnum: '789'
+      target_vnum: 01010070789
     north:
-      target_vnum: '791'
+      target_vnum: 01010070791
+  local_id: '790'
   name: Na Porta da Morte
-  vnum: '790'
+  vnum: 01010070790
 - description: |-
     Além da Porta da Morte há uma estreita escadaria.  O ar está estranhamente
     úmido e as paredes cobertas por musgos.  Conforme você segue acima, seu
@@ -1126,20 +1219,22 @@
     demais para voltar.
   exits:
     south:
-      target_vnum: '790'
+      target_vnum: 01010070790
     up:
-      target_vnum: '792'
+      target_vnum: 01010070792
+  local_id: '791'
   name: A Ascensão Final
-  vnum: '791'
+  vnum: 01010070791
 - description: |-
     Como o nome insinua, você passou o caminho sem volta.  A única saída é
     através da Senhora do Vazio Interior, Ivian.  A menos que você resolva
     facilitar as coisas e morrer agora mesmo.
   exits:
     up:
-      target_vnum: '793'
+      target_vnum: 01010070793
+  local_id: '792'
   name: Além do Caminho Sem Volta
-  vnum: '792'
+  vnum: 01010070792
 - description: |-
     Após deixar o caminho sem volta para trás, você chega a um grande câmara
     com diversos pilares portando as suas histórias finais.  Sem nada para
@@ -1149,13 +1244,14 @@
     centro, e desafiar a Senhora da Fortaleza.
   exits:
     down:
-      target_vnum: '792'
+      target_vnum: 01010070792
     east:
-      target_vnum: '794'
+      target_vnum: 01010070794
     up:
-      target_vnum: '796'
-  name: "PrÃ³ximo Ã\x80 Sacada"
-  vnum: '793'
+      target_vnum: 01010070796
+  local_id: '793'
+  name: "Próximo Ã\x80 Sacada"
+  vnum: 01010070793
 - description: |-
     Você está na alta sacada do pináculo, que repousa acima do enorme símbolo
     que você viu quando atravessava os bosques.  Olhando ao redor, você vê a torre
@@ -1166,11 +1262,12 @@
     Não há grade e o primeiro degrau é traiçoeiro.
   exits:
     south:
-      target_vnum: '795'
+      target_vnum: 01010070795
     west:
-      target_vnum: '793'
+      target_vnum: 01010070793
+  local_id: '794'
   name: A Alta Sacada
-  vnum: '794'
+  vnum: 01010070794
 - description: |-
     Você está no limite da sacada, com um enorme abismo sob seus pés.  Uma
     rajada de vento inesperada faz você perder o equilíbrio, mas você consegue se
@@ -1178,9 +1275,10 @@
     estranhamente calmo.
   exits:
     north:
-      target_vnum: '794'
+      target_vnum: 01010070794
+  local_id: '795'
   name: Olhe Antes de Pular
-  vnum: '795'
+  vnum: 01010070795
 - description: |-
     Esta sala próxima ao topo da torre é decorada com inúmeras correntes que
     escondem as paredes.  Você sente a força total do demônio se irradiando através
@@ -1189,11 +1287,12 @@
     Cavaleiro Negro!
   exits:
     down:
-      target_vnum: '793'
+      target_vnum: 01010070793
     north:
-      target_vnum: '797'
+      target_vnum: 01010070797
+  local_id: '796'
   name: O Guardião da Câmara
-  vnum: '796'
+  vnum: 01010070796
 - description: |-
     Enfim você chegou.  Eu não estou certo se isso é uma coisa boa ou ruim.
     Mas depois de tantas provações e lutas você chegou ao topo da fortaleza de
@@ -1204,19 +1303,21 @@
     se você é significante o suficiente para preocupações.
   exits:
     down:
-      target_vnum: '798'
+      target_vnum: 01010070798
     south:
-      target_vnum: '796'
+      target_vnum: 01010070796
+  local_id: '797'
   name: A Sala do Trono de Ivian
-  vnum: '797'
+  vnum: 01010070797
 - description: |-
     Fugindo rapidamente, você deixa o trono para trás e segue abaixo por uma
     escadaria secreta.
   exits:
     down:
-      target_vnum: '780'
+      target_vnum: 01010070780
+  local_id: '798'
   name: A Saída
-  vnum: '798'
+  vnum: 01010070798
 - description: |-
     Essa detestável floresta nunca acaba?  Você avança mais e mais na
     aparentemente interminável estrutura de carvalhos que se põem como guardiões
@@ -1224,10 +1325,11 @@
     volta.
   exits:
     east:
-      target_vnum: '720'
+      target_vnum: '01010070720'
     north:
-      target_vnum: '749'
+      target_vnum: 01010070749
     south:
-      target_vnum: '749'
+      target_vnum: 01010070749
+  local_id: '799'
   name: Mais da Floresta Sombria
-  vnum: '799'
+  vnum: 01010070799

@@ -4,54 +4,59 @@
     continuar eternamente.
   exits:
     down:
-      target_vnum: '13201'
+      target_vnum: '010213213201'
+  local_id: '13200'
   name: Os Degraus que Descem Para o Mar
-  vnum: '13200'
+  vnum: '010213213200'
 - description: |-
     Os degraus continuam descendo em direção ao mar, ou voltando para o topo
     do penhasco, dependendo para onde você vá.  Parece que talvez exista alguma
     espécie de caverna lá embaixo.
   exits:
     down:
-      target_vnum: '13202'
+      target_vnum: '010213213202'
     up:
-      target_vnum: '13200'
+      target_vnum: '010213213200'
+  local_id: '13201'
   name: Descendo os Degraus Rochosos
-  vnum: '13201'
+  vnum: '010213213201'
 - description: |-
     As escadas continuam, entretanto você está mais perto da base agora.
     Parece que há uma abertura na rocha à leste.  Talvez seja apenas uma fenda
     simples, mas e depois, quem sabe?
   exits:
     down:
-      target_vnum: '13203'
+      target_vnum: '010213213203'
     up:
-      target_vnum: '13201'
+      target_vnum: '010213213201'
+  local_id: '13202'
   name: A Face do Penhasco
-  vnum: '13202'
+  vnum: '010213213202'
 - description: |-
     Perto da base você realmente já pode sentir uma leve brisa trazendo o
     cheiro do mar, e agitando suas roupas.  Você começa a sentir que o seu dia
     vai melhorar - o mar pode fazer isso com as pessoas.
   exits:
     down:
-      target_vnum: '13204'
+      target_vnum: '010213213204'
     up:
-      target_vnum: '13202'
+      target_vnum: '010213213202'
+  local_id: '13203'
   name: Nos Degraus
-  vnum: '13203'
+  vnum: '010213213203'
 - description: |-
     Você está na base de uma série de degraus que levam ao topo de um
     penhasco.  A praia se extende para leste e oeste além da sua visão.
   exits:
     east:
-      target_vnum: '13207'
+      target_vnum: '010213213207'
     up:
-      target_vnum: '13203'
+      target_vnum: '010213213203'
     west:
-      target_vnum: '13205'
+      target_vnum: '010213213205'
+  local_id: '13204'
   name: A Base dos Degraus
-  vnum: '13204'
+  vnum: '010213213204'
 - description: |-
     Você está caminhando numa praia muito extensa, tanto para leste como
     oeste.  As ondas, não muito grandes, chegam levemente até os seus pés,
@@ -60,13 +65,14 @@
     horizonte.
   exits:
     east:
-      target_vnum: '13204'
+      target_vnum: '010213213204'
     south:
-      target_vnum: '4293'
+      target_vnum: 01021324293
     west:
-      target_vnum: '13206'
+      target_vnum: '010213213206'
+  local_id: '13205'
   name: Ao Longo da Praia
-  vnum: '13205'
+  vnum: '010213213205'
 - description: |-
     Você está andando numa praia que se extende para leste e oeste, além de
     onde sua visão pode chegar.  Uma mistura de pedras pequenas cobrem o
@@ -75,11 +81,12 @@
     encontra-se mais pedras pela praia, enquanto ao leste tudo é mais plano.
   exits:
     east:
-      target_vnum: '13205'
+      target_vnum: '010213213205'
     west:
-      target_vnum: '13211'
+      target_vnum: '010213213211'
+  local_id: '13206'
   name: Ao Longo da Praia
-  vnum: '13206'
+  vnum: '010213213206'
 - description: |-
     Você está na areia da praia que se estende de leste a oeste.  Para o
     leste você pode ver com alguma dificuldade o teto das casas de uma grande
@@ -88,11 +95,12 @@
     degraus levam ao topo de um penhasco a oeste de você.
   exits:
     east:
-      target_vnum: '13208'
+      target_vnum: 010213213208
     west:
-      target_vnum: '13204'
+      target_vnum: '010213213204'
+  local_id: '13207'
   name: Areia da Praia
-  vnum: '13207'
+  vnum: '010213213207'
 - description: |-
     A praia continua a leste, seguindo para uma grande cidade litorânea.  Há
     também um largo cais, onde você pode ver pequenos pontos no horizonte do
@@ -100,11 +108,12 @@
     longo da praia.
   exits:
     east:
-      target_vnum: '13209'
+      target_vnum: 010213213209
     west:
-      target_vnum: '13207'
+      target_vnum: '010213213207'
+  local_id: '13208'
   name: Areia da Praia
-  vnum: '13208'
+  vnum: 010213213208
 - description: |-
     A praia continua subindo uma pequena ladeira, até chegar à cidade no
     leste, totalmente plana.  Você pode ouvir agora o barulho das vozes de uma
@@ -113,11 +122,12 @@
     você pode ver o horizonte.
   exits:
     east:
-      target_vnum: '13210'
+      target_vnum: '010213213210'
     west:
-      target_vnum: '13208'
+      target_vnum: 010213213208
+  local_id: '13209'
   name: Areia da Praia
-  vnum: '13209'
+  vnum: 010213213209
 - description: |-
     Você está à margem do mar, onde começa uma cadeia rochosa que pode ser
     descrita como um planalto acima do oceano cercado por muralhas.  Para o
@@ -125,106 +135,116 @@
     Para oeste o caminho continua ao longo da praia por uma longa distância.
   exits:
     north:
-      target_vnum: '13236'
+      target_vnum: '010213213236'
     west:
-      target_vnum: '13209'
+      target_vnum: 010213213209
+  local_id: '13210'
   name: A Base da Cidade
-  vnum: '13210'
+  vnum: '010213213210'
 - description: |-
     O caminho aqui é muito rochoso para você continuar, entretanto você pode
     perceber que há um caminho a sudoeste.
   exits:
     east:
-      target_vnum: '13206'
+      target_vnum: '010213213206'
     west:
-      target_vnum: '13212'
+      target_vnum: '010213213212'
+  local_id: '13211'
   name: Ao Longo da Praia Rochosa
-  vnum: '13211'
+  vnum: '010213213211'
 - description: |-
     Este caminho da praia é totalmente rochoso.  Um farol pode ser visto um
     pouco longe no final do quebra-mar, e sua luz gentil guia os navegadores
     por este mar rochoso.
   exits:
     east:
-      target_vnum: '13211'
+      target_vnum: '010213213211'
     south:
-      target_vnum: '13213'
+      target_vnum: '010213213213'
+  local_id: '13212'
   name: Caminho Rochoso
-  vnum: '13212'
+  vnum: '010213213212'
 - description: |-
     O caminho continua a sudoeste até o farol, e você pode voltar para a
     praia menos rochosa.
   exits:
     north:
-      target_vnum: '13212'
+      target_vnum: '010213213212'
     west:
-      target_vnum: '13214'
+      target_vnum: '010213213214'
+  local_id: '13213'
   name: Caminho Rochoso
-  vnum: '13213'
+  vnum: '010213213213'
 - description: |-
     O caminho segue para leste e oeste, uma verdadeira mistura de pedras e
     areia.  O farol está no final do quebra-mar, seguindo a oeste.  Para o
     leste, o caminho faz curvas ao longo da praia.
   exits:
     east:
-      target_vnum: '13213'
+      target_vnum: '010213213213'
     west:
-      target_vnum: '13215'
+      target_vnum: '010213213215'
+  local_id: '13214'
   name: Caminho Rochoso
-  vnum: '13214'
+  vnum: '010213213214'
 - description: |-
     O caminho continua para seguindo para o leste e oeste.  O quebra-mar
     segue sempre o caminho ao sul, com um farol bastante resistente em seu fim.
   exits:
     east:
-      target_vnum: '13214'
+      target_vnum: '010213213214'
     south:
-      target_vnum: '13217'
+      target_vnum: '010213213217'
     west:
-      target_vnum: '13216'
+      target_vnum: '010213213216'
+  local_id: '13215'
   name: Caminho Rochoso no Quebra-mar do Takker
-  vnum: '13215'
+  vnum: '010213213215'
 - description: "O caminho para leste e oeste continua rochoso, e difícil de se navegar.\n\
-    Logo a leste, o quebra-mar hospeda um farol.  Ã\x80 oeste hÃ¡ apenas rochas,\n\
+    Logo a leste, o quebra-mar hospeda um farol.  Ã\x80 oeste há apenas rochas,\n\
     onde pode haver alguma caverna."
   exits:
     east:
-      target_vnum: '13215'
+      target_vnum: '010213213215'
     west:
-      target_vnum: '13231'
+      target_vnum: '010213213231'
+  local_id: '13216'
   name: Caminho Rochoso
-  vnum: '13216'
+  vnum: '010213213216'
 - description: |-
     O quebra-mar leva ao sul, em direção ao mar, terminando em um farol.  Ao
     longo do seu caminho, você pode ver alguns pescadores tentando pescar algo.
   exits:
     north:
-      target_vnum: '13215'
+      target_vnum: '010213213215'
     south:
-      target_vnum: '13218'
+      target_vnum: 010213213218
+  local_id: '13217'
   name: Quebra-mar do Takker
-  vnum: '13217'
+  vnum: '010213213217'
 - description: |-
     Ao longo do quebra-mar, homens relaxam no sol sentados em vãos
     confortáveis, enquanto contam divertidas histórias sobre 'os peixes que já
     pegaram', e tentando pescar algo.
   exits:
     north:
-      target_vnum: '13217'
+      target_vnum: '010213213217'
     south:
-      target_vnum: '13219'
+      target_vnum: 010213213219
+  local_id: '13218'
   name: Quebra-mar do Takker
-  vnum: '13218'
+  vnum: 010213213218
 - description: |-
     Você está na entrada do farol.  Na parede redonda ao sul, há uma porta
     de carvalho, e para o norte, o quebra-mar leva à ilha.
   exits:
     north:
-      target_vnum: '13218'
+      target_vnum: 010213213218
     south:
-      target_vnum: '13220'
+      target_vnum: '010213213220'
+  local_id: '13219'
   name: Próximo ao Farol
-  vnum: '13219'
+  vnum: 010213213219
 - description: |-
     Você está em uma pequena sala logo após a porta do farol.  Logo ao sul,
     depois destas paredes, encontra-se uma sala principal.  Você pode ouvir e
@@ -233,11 +253,12 @@
     do quarto ao lado.
   exits:
     north:
-      target_vnum: '13219'
+      target_vnum: 010213213219
     south:
-      target_vnum: '13221'
+      target_vnum: '010213213221'
+  local_id: '13220'
   name: Dentro do Farol
-  vnum: '13220'
+  vnum: '010213213220'
 - description: |-
     Essa é uma larga sala que parece acomodar o Guardião do Farol e sua
     família, na maior parte do tempo.  A mesa de jantar parece que sempre tem
@@ -248,26 +269,28 @@
     do Farol, onde o Guardião deve passar uma grande parte de seu tempo.
   exits:
     east:
-      target_vnum: '13222'
+      target_vnum: '010213213222'
     north:
-      target_vnum: '13220'
+      target_vnum: '010213213220'
     up:
-      target_vnum: '13223'
+      target_vnum: '010213213223'
     west:
-      target_vnum: '13224'
+      target_vnum: '010213213224'
+  local_id: '13221'
   name: "Ã\x81rea Principal do Farol"
-  vnum: '13221'
+  vnum: '010213213221'
 - description: |-
     No centro da sala há uma cama larga e macia, coberta com lençol de
     cetim.  Uma penteadeira de mogno com espelho, e uma escrivaninha podem ser
     vistas na sala também.  Este Guardião do Farol parece ser bem vaidoso.
   exits:
     down:
-      target_vnum: '13225'
+      target_vnum: '010213213225'
     west:
-      target_vnum: '13221'
+      target_vnum: '010213213221'
+  local_id: '13222'
   name: O Quarto do Guardião
-  vnum: '13222'
+  vnum: '010213213222'
 - description: |-
     Esta sala é menor e mais apertada que as outras.  Um estreito caminho
     rodeia a luz do farol, logo, a luz pode ser manejada.  Algumas prateleiras
@@ -276,18 +299,20 @@
     navios se choquem com as rochas.
   exits:
     down:
-      target_vnum: '13221'
+      target_vnum: '010213213221'
+  local_id: '13223'
   name: A Sala do Farol
-  vnum: '13223'
+  vnum: '010213213223'
 - description: |-
     Que quartinho engraçadinho e pequeno!  Aqui há duas caminhas com
     cobertores rosa, uma impressionate coleção de bonecas e muitos outros
     brinquedinhos nas prateleiras, tudo organizado por ordem de cores.
   exits:
     east:
-      target_vnum: '13221'
+      target_vnum: '010213213221'
+  local_id: '13224'
   name: O Quarto da Filha do Guardião do Farol
-  vnum: '13224'
+  vnum: '010213213224'
 - description: |-
     Você começa a descer para a base do farol.  Você fica espantado com o
     que vê neste "porão", e ja de cara pensa 'o que é isso na sua frente?'.
@@ -298,11 +323,12 @@
     do Farol?
   exits:
     down:
-      target_vnum: '13226'
+      target_vnum: '010213213226'
     up:
-      target_vnum: '13222'
+      target_vnum: '010213213222'
+  local_id: '13225'
   name: Nas Escadas em Espiral
-  vnum: '13225'
+  vnum: '010213213225'
 - description: |-
     Você pode ver mais do que o que viu das escadas.  Quatro celas, cada uma
     com algum preso chorando dentro.  Há muitos diagramas anotados na parede, e
@@ -311,17 +337,18 @@
     pensam sobre ele...
   exits:
     east:
-      target_vnum: '13228'
+      target_vnum: 010213213228
     north:
-      target_vnum: '13227'
+      target_vnum: '010213213227'
     south:
-      target_vnum: '13229'
+      target_vnum: 010213213229
     up:
-      target_vnum: '13225'
+      target_vnum: '010213213225'
     west:
-      target_vnum: '13230'
+      target_vnum: '010213213230'
+  local_id: '13226'
   name: A Sala de Operações do Guardião do Farol
-  vnum: '13226'
+  vnum: '010213213226'
 - description: |-
     Esta pequena sala é igual às outras salas de operação, entretanto a
     natureza aqui é outra; este lugar é mais arrumado.  Uma larga cama de
@@ -329,43 +356,48 @@
     tortura estão espalhados pela cama.
   exits:
     south:
-      target_vnum: '13226'
+      target_vnum: '010213213226'
+  local_id: '13227'
   name: Quarto de Diversão do Guardião
-  vnum: '13227'
+  vnum: '010213213227'
 - description: |-
     Esta cela é fria e grotesca, totalmente desconfortável.  Há um pequeno
     buraco no canto da cela, onde devem ser feitas as necessidades dos presos.
   exits:
     west:
-      target_vnum: '13226'
+      target_vnum: '010213213226'
+  local_id: '13228'
   name: A Cela
-  vnum: '13228'
+  vnum: 010213213228
 - description: |-
     Esta cela é fria e grotesca, totalmente desconfortável.  Há um pequeno
     buraco no canto da cela, onde devem ser feitas as necessidades dos presos.
   exits:
     north:
-      target_vnum: '13226'
+      target_vnum: '010213213226'
+  local_id: '13229'
   name: A Cela
-  vnum: '13229'
+  vnum: 010213213229
 - description: |-
     Esta cela é fria e grotesca, totalmente desconfortável.  Há um pequeno
     buraco no canto da cela, onde devem ser feitas as necessidades dos presos.
   exits:
     east:
-      target_vnum: '13226'
+      target_vnum: '010213213226'
+  local_id: '13230'
   name: A Cela
-  vnum: '13230'
+  vnum: '010213213230'
 - description: |-
     O caminho continua ao longo da praia, cheio de rochas.  Você pode seguir
     para leste ou oeste.
   exits:
     east:
-      target_vnum: '13216'
+      target_vnum: '010213213216'
     west:
-      target_vnum: '13232'
+      target_vnum: '010213213232'
+  local_id: '13231'
   name: Caminho Rochoso
-  vnum: '13231'
+  vnum: '010213213231'
 - description: |-
     Você está em um caminho rochoso da praia, perto da entrada de uma
     caverna.  A entrada é larga, parecendo ter uns trinta pés de altura.  Não
@@ -373,13 +405,14 @@
     mas nunca se sabe...
   exits:
     east:
-      target_vnum: '13231'
+      target_vnum: '010213213231'
     north:
-      target_vnum: '13233'
+      target_vnum: '010213213233'
     west:
-      target_vnum: '13235'
+      target_vnum: '010213213235'
+  local_id: '13232'
   name: Caminho Rochoso
-  vnum: '13232'
+  vnum: '010213213232'
 - description: |-
     No momento em que entra nesta caverna, você sente vontade de explora-la
     até os seus confins, mas para isso teria que se molhar.  Quando você
@@ -387,34 +420,38 @@
     uma ideia muito inteligente.
   exits:
     north:
-      target_vnum: '13234'
+      target_vnum: '010213213234'
     south:
-      target_vnum: '13232'
+      target_vnum: '010213213232'
+  local_id: '13233'
   name: Entrada da Caverna
-  vnum: '13233'
+  vnum: '010213213233'
 - description: |-
     Alguma coisa está errada aqui, muito errada.  A água está se movendo em
     um determinado ponto.  TODA a água esta borbulhando em razão de alguma
     força monstruosa.
   exits:
     south:
-      target_vnum: '13233'
+      target_vnum: '010213213233'
+  local_id: '13234'
   name: A Toca do Kracken
-  vnum: '13234'
+  vnum: '010213213234'
 - description: |-
     Você chegou ao fim do caminho rochoso que segue ao longo do mar.  Ao sul
     encontra-se o mar, e a oeste você tem a visão de uma rocha coberta de
     musgos.  Ao norte o caminho está obstruido.
   exits:
     east:
-      target_vnum: '13232'
+      target_vnum: '010213213232'
+  local_id: '13235'
   name: O Fim do Caminho Rochoso
-  vnum: '13235'
+  vnum: '010213213235'
 - description: "O caminho não vai muito longe.  Você está de frente para o penhasco,\
-    \ e\nainda hÃ¡ o caminho da praia Ã  oeste e leste daqui.  Ã\x89 estranho pensar\
+    \ e\nainda há o caminho da praia Ã  oeste e leste daqui.  Ã\x89 estranho pensar\
     \ que\num caminho possa acabar assim, de repente, sem levar a lugar algum..."
   exits:
     south:
-      target_vnum: '13210'
+      target_vnum: '010213213210'
+  local_id: '13236'
   name: O Fim do Caminho
-  vnum: '13236'
+  vnum: '010213213236'

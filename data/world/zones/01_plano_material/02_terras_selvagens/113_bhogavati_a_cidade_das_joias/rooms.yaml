@@ -5,11 +5,12 @@
     subindo, ou descer ainda mais, para o fundo do rio.
   exits:
     down:
-      target_vnum: '11301'
+      target_vnum: '010211311301'
     up:
-      target_vnum: '11577'
+      target_vnum: '010211311577'
+  local_id: '11300'
   name: "Sob as Ã\x81guas"
-  vnum: '11300'
+  vnum: '010211311300'
 - description: "Você está nadando próximo ao fundo do rio, muito aturdido pois ele\
     \ é\nmuito mais profundo do que você imaginaria: seriam necessários mais de vinte\n\
     homens altos para cobrir toda sua profundidade.  O solo do fundo é coberto\npor\
@@ -19,17 +20,18 @@
     \ das flores que cobrem o fundo: lótus de pétalas violácea que\ncintilam intensamente.\
     \  Esses lótus formam um círculo que parece demarcar a\nárea mais branda do Ikshumati,\
     \ emitindo o brilho suave que tanto o intrigara\nna superfície.  A partir do círculo\
-    \ você vê ainda que os lótus,\nenfileirados, seguem oeste.  Ã\x89 possÃ­vel ainda\
+    \ você vê ainda que os lótus,\nenfileirados, seguem oeste.  Ã\x89 possível ainda\
     \ nadar para norte ou para cima."
   exits:
     north:
-      target_vnum: '11307'
+      target_vnum: '010211311307'
     up:
-      target_vnum: '11300'
+      target_vnum: '010211311300'
     west:
-      target_vnum: '11302'
+      target_vnum: '010211311302'
+  local_id: '11301'
   name: O Fundo do Rio
-  vnum: '11301'
+  vnum: '010211311301'
 - description: |-
     Você está nadando muito próximo ao fundo do rio, seguindo de perto uma
     trilha de flores de lótus cintilantes que crescem sob as águas do Ikshumati.
@@ -39,11 +41,12 @@
     a um local extremamente escuro.
   exits:
     east:
-      target_vnum: '11301'
+      target_vnum: '010211311301'
     west:
-      target_vnum: '11303'
+      target_vnum: '010211311303'
+  local_id: '11302'
   name: A Trilha Subaquática
-  vnum: '11302'
+  vnum: '010211311302'
 - description: |-
     Você está nadando muito próximo ao fundo do rio, seguindo de perto uma
     trilha de flores de lótus cintilantes que crescem sob as águas do Ikshumati.
@@ -53,11 +56,12 @@
     borda do que parece ser um buraco no rio.  Ali você não enxergar luz alguma.
   exits:
     down:
-      target_vnum: '11304'
+      target_vnum: '010211311304'
     east:
-      target_vnum: '11302'
+      target_vnum: '010211311302'
+  local_id: '11303'
   name: A Trilha Subaquática
-  vnum: '11303'
+  vnum: '010211311303'
 - description: |-
     Você está num estreito túnel que desce a partir do fundo do Rio
     Ikshumati.  A iluminação aqui é inexistente, sendo extremamente desagradável
@@ -65,11 +69,12 @@
     vez ou outra. O túnel segue para baixo e para cima.
   exits:
     down:
-      target_vnum: '11305'
+      target_vnum: '010211311305'
     up:
-      target_vnum: '11303'
+      target_vnum: '010211311303'
+  local_id: '11304'
   name: O Túnel Sob o Rio
-  vnum: '11304'
+  vnum: '010211311304'
 - description: |-
     Você está num estreito túnel que desce a partir do fundo do Rio
     Ikshumati.  A iluminação aqui é inexistente, sendo extremamente desagradável
@@ -78,11 +83,12 @@
     está o leito do rio Ikshumati.
   exits:
     up:
-      target_vnum: '11304'
+      target_vnum: '010211311304'
     west:
-      target_vnum: '11306'
+      target_vnum: '010211311306'
+  local_id: '11305'
   name: O Túnel Sob o Rio
-  vnum: '11305'
+  vnum: '010211311305'
 - description: |-
     Você está em uma grande caverna sob o leito do rio Ikshumati, que é
     acessível apenas por um túnel subaquático.  As águas não avançam sobre o
@@ -96,9 +102,10 @@
     guardada.
   exits:
     east:
-      target_vnum: '11305'
+      target_vnum: '010211311305'
+  local_id: '11306'
   name: A Caverna dos Cristais
-  vnum: '11306'
+  vnum: '010211311306'
 - description: |-
     Você está nadando próximo ao fundo do rio, fora do círculo de lótus
     que demarcam a parte que parece ser mais segura do Ikshumati.
@@ -108,11 +115,12 @@
     ser sua única opção.
   exits:
     north:
-      target_vnum: '11308'
+      target_vnum: 010211311308
     south:
-      target_vnum: '11301'
+      target_vnum: '010211311301'
+  local_id: '11307'
   name: "No Fundo do Rio, Sob as Ã\x81guas"
-  vnum: '11307'
+  vnum: '010211311307'
 - description: |-
     Você está nadando próximo ao fundo do rio, fora do círculo de lótus
     que demarcam a parte que parece ser mais segura do Ikshumati.
@@ -122,11 +130,12 @@
     ser sua única opção.
   exits:
     north:
-      target_vnum: '11309'
+      target_vnum: 010211311309
     south:
-      target_vnum: '11307'
+      target_vnum: '010211311307'
+  local_id: '11308'
   name: "No Fundo do Rio, Sob as Ã\x81guas"
-  vnum: '11308'
+  vnum: 010211311308
 - description: |-
     Você está nadando próximo ao fundo do rio, fora do círculo de lótus que
     demarcam a parte que parece ser mais segura do Ikshumati.  O rio está
@@ -137,11 +146,12 @@
     sul são suas únicas opções aqui.
   exits:
     north:
-      target_vnum: '11310'
+      target_vnum: '010211311310'
     south:
-      target_vnum: '11308'
+      target_vnum: 010211311308
+  local_id: '11309'
   name: "No Fundo do Rio, Sob as Ã\x81guas"
-  vnum: '11309'
+  vnum: 010211311309
 - description: |-
     Você está nadando sob as águas do rio Ikshumati, sendo que afastou-se um
     pouco do fundo para poder ver melhor o gigantesco buraco à sua frente.  O
@@ -154,38 +164,42 @@
     pena arriscar?  Se sim, continue a seguir norte.  Se não, nada para sul.
   exits:
     north:
-      target_vnum: '11311'
+      target_vnum: '010211311311'
     south:
-      target_vnum: '11309'
+      target_vnum: 010211311309
+  local_id: '11310'
   name: Em Frente ao Buraco
-  vnum: '11310'
+  vnum: '010211311310'
 - description: |-
     Você não vê quase nada, mas sente que está na atravessando, na verdade,
     um túnel.  Ainda é possível nadar até sul, pois a correnteza que segue norte
     não está tão forte.
   exits:
     north:
-      target_vnum: '11312'
+      target_vnum: '010211311312'
     south:
-      target_vnum: '11310'
+      target_vnum: '010211311310'
+  local_id: '11311'
   name: Atravessando o Buraco
-  vnum: '11311'
+  vnum: '010211311311'
 - description: |-
     Voce nao ve quase nada. A correnteza aqui tornou-se muito intensa, sendo impossivel
     nadar para sul. Voce nao ve saida alguma.
   exits:
     up:
-      target_vnum: '11313'
+      target_vnum: '010211311313'
+  local_id: '11312'
   name: No Tunel
-  vnum: '11312'
+  vnum: '010211311312'
 - description: |-
     Você não vê quase nada. A forte correnteza o atrai cada vez mais para cima.
     Lá, parece haver alguma coisa iluminando um dos lados do túnel.
   exits:
     up:
-      target_vnum: '11314'
+      target_vnum: '010211311314'
+  local_id: '11313'
   name: No Túnel
-  vnum: '11313'
+  vnum: '010211311313'
 - description: |-
     Você sente que perdeu o controle sobre seu corpo, de tão forte se mostra
     a correnteza (levando-o sempre para cima), até que seu corpo bate em uma grade
@@ -195,9 +209,10 @@
     que mais parece uma porta. Parece ser sua única saída.
   exits:
     north:
-      target_vnum: '11315'
+      target_vnum: '010211311315'
+  local_id: '11314'
   name: No Túnel
-  vnum: '11314'
+  vnum: '010211311314'
 - description: |-
     Você está no centro do templo de Bhogavati, que é dedicado a Sesha, o
     Infinito.  O centro é ocupado por um grande lago circular, uma espécie de
@@ -212,17 +227,22 @@
     e pátios a noroeste e sudeste, externos ao templo.
   exits:
     down:
-      target_vnum: '11314'
+      target_vnum: '010211311314'
     east:
-      target_vnum: '11317'
+      target_vnum: '010211311317'
     north:
-      target_vnum: '11316'
+      target_vnum: '010211311316'
+    northeast:
+      target_vnum: '010211311361'
     south:
-      target_vnum: '11318'
+      target_vnum: 010211311318
+    southeast:
+      target_vnum: 010211311384
     west:
-      target_vnum: '11319'
+      target_vnum: 010211311319
+  local_id: '11315'
   name: O Centro do Templo a Sesha
-  vnum: '11315'
+  vnum: '010211311315'
 - description: |-
     Você está na sala de oferendas do templo.  A sala é separada do centro
     por grandes pilares dourados, que por sua vez também sustentam o alto teto
@@ -237,13 +257,14 @@
     Na parede oeste há uma abertura que leva a um pátio.
   exits:
     north:
-      target_vnum: '11320'
+      target_vnum: '010211311320'
     south:
-      target_vnum: '11315'
+      target_vnum: '010211311315'
     west:
-      target_vnum: '11361'
+      target_vnum: '010211311361'
+  local_id: '11316'
   name: A Sala de Oferendas
-  vnum: '11316'
+  vnum: '010211311316'
 - description: |-
     Você está na sala em que qualquer naga de Bhogavati procura quando
     precisa de inspiração, conselhos ou apenas conversar e ter notícias sobre o
@@ -259,13 +280,14 @@
     A parede sul possui uma abertura, esta levando a um pátio.
   exits:
     east:
-      target_vnum: '11330'
+      target_vnum: '010211311330'
     south:
-      target_vnum: '11384'
+      target_vnum: 010211311384
     west:
-      target_vnum: '11315'
+      target_vnum: '010211311315'
+  local_id: '11317'
   name: A Sala dos Sábios
-  vnum: '11317'
+  vnum: '010211311317'
 - description: |-
     Você está em uma sala coberta por aconchegante penumbra.  Isso o deixa
     surpreso, uma vez que a sala é separada do centro por apenas uma fileira de
@@ -281,13 +303,14 @@
     Há, na parede leste, a passagem para um pátio externo ao templo.
   exits:
     east:
-      target_vnum: '11384'
+      target_vnum: 010211311384
     north:
-      target_vnum: '11315'
+      target_vnum: '010211311315'
     south:
-      target_vnum: '11343'
+      target_vnum: '010211311343'
+  local_id: '11318'
   name: A Sala de Meditação
-  vnum: '11318'
+  vnum: 010211311318
 - description: |-
     Você está num grande salão quase vazio.  Pilares dourados separam-no do
     centro do templo, além de sustentar o alto teto abobadado.  Há somente duas
@@ -305,13 +328,14 @@
     Uma passagem, na parede norte, leva a um pátio externo ao templo.
   exits:
     east:
-      target_vnum: '11315'
+      target_vnum: '010211311315'
     north:
-      target_vnum: '11361'
+      target_vnum: '010211311361'
     west:
-      target_vnum: '11350'
+      target_vnum: '010211311350'
+  local_id: '11319'
   name: O Salão da Vida
-  vnum: '11319'
+  vnum: 010211311319
 - description: |-
     Você está sobre as águas do pequeno rio que corre a norte do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -324,13 +348,16 @@
     loja a oeste.
   exits:
     north:
-      target_vnum: '11321'
+      target_vnum: '010211311321'
+    northwest:
+      target_vnum: '010211311376'
     south:
-      target_vnum: '11316'
+      target_vnum: '010211311316'
     west:
-      target_vnum: '11327'
+      target_vnum: '010211311327'
+  local_id: '11320'
   name: A Via Norte
-  vnum: '11320'
+  vnum: '010211311320'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a norte do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -342,15 +369,16 @@
     ou oeste ou entrar em uma grande loja a leste.
   exits:
     east:
-      target_vnum: '11326'
+      target_vnum: '010211311326'
     north:
-      target_vnum: '11322'
+      target_vnum: '010211311322'
     south:
-      target_vnum: '11320'
+      target_vnum: '010211311320'
     west:
-      target_vnum: '11329'
+      target_vnum: 010211311329
+  local_id: '11321'
   name: A Via Norte
-  vnum: '11321'
+  vnum: '010211311321'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a norte do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -362,15 +390,16 @@
     entrar em uma grande loja a leste ou em uma barulhenta loja a oeste.
   exits:
     east:
-      target_vnum: '11325'
+      target_vnum: '010211311325'
     north:
-      target_vnum: '11323'
+      target_vnum: '010211311323'
     south:
-      target_vnum: '11321'
+      target_vnum: '010211311321'
     west:
-      target_vnum: '11328'
+      target_vnum: 010211311328
+  local_id: '11322'
   name: A Via Norte
-  vnum: '11322'
+  vnum: '010211311322'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a norte do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -381,13 +410,14 @@
     pungente, mas todos agradáveis.  Você pode seguir pela via leste e oeste.
   exits:
     east:
-      target_vnum: '11357'
+      target_vnum: '010211311357'
     south:
-      target_vnum: '11322'
+      target_vnum: '010211311322'
     west:
-      target_vnum: '11382'
+      target_vnum: 010211311382
+  local_id: '11323'
   name: A Via Norte
-  vnum: '11323'
+  vnum: '010211311323'
 - description: |-
     Você está na oficina em que alguns dos mais fantásticos artefatos que
     esse mundo já viu foram forjados.  Twashtri passa a maior parte de seus dias
@@ -400,9 +430,14 @@
     incessantemente, os martelos não param nunca de bater, o metal nunca para de
     bilhar aqui.  Não é algo que costume ser bonito, mas a oficina do velho
     artesão consegue ser.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010211311325'
+    southwest:
+      target_vnum: '010211311326'
+  local_id: '11324'
   name: A Oficina de Twashtri
-  vnum: '11324'
+  vnum: '010211311324'
 - description: |-
     Você está na loja de armas de Bhogavati.  Ela é, nada mais nada menos,
     abastecida pela oficina de Twashtri, um dos mais famosos artesãos que já
@@ -415,10 +450,13 @@
     excepcional, os preços também o são.
     A sudeste parece ficar a oficina e a oeste a Via Norte.
   exits:
+    southeast:
+      target_vnum: '010211311324'
     west:
-      target_vnum: '11322'
+      target_vnum: '010211311322'
+  local_id: '11325'
   name: O Arsenal de Twashtri
-  vnum: '11325'
+  vnum: '010211311325'
 - description: |-
     Você está numa ampla loja repleta dos mais variados tipos de armaduras e
     vestimentas.  Abastecida pela oficina do grande artesão Twashtri, essa loja
@@ -433,10 +471,13 @@
     pela armoraria.
     A nordeste parece ficar a oficina e a oeste a Via Norte.
   exits:
+    northwest:
+      target_vnum: '010211311324'
     west:
-      target_vnum: '11321'
+      target_vnum: '010211311321'
+  local_id: '11326'
   name: A Armoraria de Twashtri
-  vnum: '11326'
+  vnum: '010211311326'
 - description: |-
     Você está em uma loja de fachada bastante discreta, tão discreta que nem
     apresenta um nome.  Por dentro ela parece ser um longo corredor que contém
@@ -449,9 +490,10 @@
     que as jóias pareçam ainda mais majestosa do que são, se isso for possível.
   exits:
     east:
-      target_vnum: '11320'
+      target_vnum: '010211311320'
+  local_id: '11327'
   name: A Joalheria
-  vnum: '11327'
+  vnum: '010211311327'
 - description: |-
     Você está na velha loja de artefatos mágicos de Bhogavati.  Ela recebe
     seu nome pois, se reparar bem, a forma do estabelecimento imita à de um
@@ -465,9 +507,10 @@
     A leste fica a Via Norte.
   exits:
     east:
-      target_vnum: '11322'
+      target_vnum: '010211311322'
+  local_id: '11328'
   name: O Caldeirão Dourado
-  vnum: '11328'
+  vnum: 010211311328
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -478,13 +521,14 @@
     encontram caminho para norte, sul e leste.
   exits:
     east:
-      target_vnum: '11321'
+      target_vnum: '010211311321'
     north:
-      target_vnum: '11382'
+      target_vnum: 010211311382
     south:
-      target_vnum: '11367'
+      target_vnum: '010211311367'
+  local_id: '11329'
   name: Um Afluente das Vias
-  vnum: '11329'
+  vnum: 010211311329
 - description: |-
     Você está sobre as águas do pequeno rio que corre a leste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -498,15 +542,16 @@
     furtivo, a sul.
   exits:
     east:
-      target_vnum: '11331'
+      target_vnum: '010211311331'
     north:
-      target_vnum: '11335'
+      target_vnum: '010211311335'
     south:
-      target_vnum: '11337'
+      target_vnum: '010211311337'
     west:
-      target_vnum: '11317'
+      target_vnum: '010211311317'
+  local_id: '11330'
   name: A Via Leste
-  vnum: '11330'
+  vnum: '010211311330'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a leste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -519,15 +564,16 @@
     Bhogavati.
   exits:
     east:
-      target_vnum: '11332'
+      target_vnum: '010211311332'
     north:
-      target_vnum: '11378'
+      target_vnum: 010211311378
     south:
-      target_vnum: '11373'
+      target_vnum: '010211311373'
     west:
-      target_vnum: '11330'
+      target_vnum: '010211311330'
+  local_id: '11331'
   name: A Via Leste
-  vnum: '11331'
+  vnum: '010211311331'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a leste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -540,15 +586,16 @@
     filial da Irmandade dos Magos.
   exits:
     east:
-      target_vnum: '11333'
+      target_vnum: '010211311333'
     north:
-      target_vnum: '11339'
+      target_vnum: 010211311339
     south:
-      target_vnum: '11341'
+      target_vnum: '010211311341'
     west:
-      target_vnum: '11331'
+      target_vnum: '010211311331'
+  local_id: '11332'
   name: A Via Leste
-  vnum: '11332'
+  vnum: '010211311332'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a leste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -560,15 +607,16 @@
     e oeste.
   exits:
     east:
-      target_vnum: '11334'
+      target_vnum: '010211311334'
     north:
-      target_vnum: '11375'
+      target_vnum: '010211311375'
     south:
-      target_vnum: '11374'
+      target_vnum: '010211311374'
     west:
-      target_vnum: '11332'
+      target_vnum: '010211311332'
+  local_id: '11333'
   name: A Via Leste
-  vnum: '11333'
+  vnum: '010211311333'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a leste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -579,24 +627,26 @@
     pungente, mas todos agradáveis. A via segue oeste, norte e sul.
   exits:
     north:
-      target_vnum: '11359'
+      target_vnum: 010211311359
     south:
-      target_vnum: '11360'
+      target_vnum: '010211311360'
     west:
-      target_vnum: '11333'
+      target_vnum: '010211311333'
+  local_id: '11334'
   name: A Via Leste
-  vnum: '11334'
+  vnum: '010211311334'
 - description: |-
     Você está em frente à uma simples casa de madeira pintada de branco
     impecável com portas e janelas de brilhante azul-escuro.  Um pequeno jardim
     floresce às margens da via leste, que está a sul.  A casa fica a norte.
   exits:
     north:
-      target_vnum: '11336'
+      target_vnum: '010211311336'
     south:
-      target_vnum: '11330'
+      target_vnum: '010211311330'
+  local_id: '11335'
   name: A Entrada da Congregação de Clérigos de Bhogavati
-  vnum: '11335'
+  vnum: '010211311335'
 - description: |-
     Você está dentro da rústica casinha branca que abriga a Congregação de
     Clérigos de Bhogavati.  Apesar da cidade ser famosa por suas riquezas, pouca
@@ -606,9 +656,10 @@
     estando aqui por alguns momentos.  A entrada fica a sul.
   exits:
     south:
-      target_vnum: '11335'
+      target_vnum: '010211311335'
+  local_id: '11336'
   name: A Congregação de Clérigos de Bhogavati
-  vnum: '11336'
+  vnum: '010211311336'
 - description: |-
     Você está dentro de uma grande construção de aparência suspeita.  Não que
     você tenha algo contra ladinos, mas os quer bem longe de seu ouro e qualquer
@@ -620,11 +671,12 @@
     corre a via leste.
   exits:
     north:
-      target_vnum: '11330'
+      target_vnum: '010211311330'
     south:
-      target_vnum: '11338'
+      target_vnum: 010211311338
+  local_id: '11337'
   name: A Entrada da Sociedade de Ladinos
-  vnum: '11337'
+  vnum: '010211311337'
 - description: |-
     Você está no centro do local onde os ladinos da região (ou visitantes) se
     encontram.  A iluminação aqui consegue ser pior que a da entrada, deixando-o
@@ -634,9 +686,10 @@
     do centro da sala, facilitando a conversa em uma eventual reunião.
   exits:
     north:
-      target_vnum: '11337'
+      target_vnum: '010211311337'
+  local_id: '11338'
   name: A Sociedade de Ladinos
-  vnum: '11338'
+  vnum: 010211311338
 - description: |-
     Esta é a entrada para a Associação de Guerreiros de Bhogavati, que se
     encontra em uma edificação ampla, de apenas um cômodo, maior que um salão de
@@ -648,11 +701,12 @@
     enquanto a oeste eles reproduzem o que um guerreiro faz tão bem.
   exits:
     south:
-      target_vnum: '11332'
+      target_vnum: '010211311332'
     west:
-      target_vnum: '11340'
+      target_vnum: '010211311340'
+  local_id: '11339'
   name: A Entrada para a Associação de Guerreiros de Bhogavati
-  vnum: '11339'
+  vnum: 010211311339
 - description: |-
     Você está bem no centro da Associação, um espaço amplo, quadrado, onde os
     guerreiros promovem pequenos duelos, como treinamento, praticam luta ou se
@@ -662,9 +716,10 @@
     querem descansar um pouco.
   exits:
     east:
-      target_vnum: '11339'
+      target_vnum: 010211311339
+  local_id: '11340'
   name: O Centro da Associação de Guerreiros
-  vnum: '11340'
+  vnum: '010211311340'
 - description: |-
     Você está num grande terraço fora da irmandade.  De pedra
     verde-acinzentada, ele ocupa toda a frente de uma construção, da mesma
@@ -673,11 +728,12 @@
     interior do lugar.  O terraço desce até a via leste por norte.
   exits:
     east:
-      target_vnum: '11342'
+      target_vnum: '010211311342'
     north:
-      target_vnum: '11332'
+      target_vnum: '010211311332'
+  local_id: '11341'
   name: A Entrada da Irmandade de Magos em Bhogavati
-  vnum: '11341'
+  vnum: '010211311341'
 - description: |-
     Você está no interior da Irmandade dos Magos em Bhogavati.  Aqui são as
     paredes de pedra verde-acizentada, o chão, muito limpo, é de madeira negra,
@@ -689,9 +745,10 @@
     retratam membros ilustres da Irmandade.
   exits:
     west:
-      target_vnum: '11341'
+      target_vnum: '010211311341'
+  local_id: '11342'
   name: A Irmandade dos Magos em Bhogavati
-  vnum: '11342'
+  vnum: '010211311342'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a sul do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -704,13 +761,14 @@
     rio.
   exits:
     north:
-      target_vnum: '11318'
+      target_vnum: 010211311318
     south:
-      target_vnum: '11344'
+      target_vnum: '010211311344'
     west:
-      target_vnum: '11347'
+      target_vnum: '010211311347'
+  local_id: '11343'
   name: A Via Sul
-  vnum: '11343'
+  vnum: '010211311343'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a sul do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -722,15 +780,16 @@
     e a loja de música Sublime Música fica a oeste.
   exits:
     east:
-      target_vnum: '11372'
+      target_vnum: '010211311372'
     north:
-      target_vnum: '11343'
+      target_vnum: '010211311343'
     south:
-      target_vnum: '11345'
+      target_vnum: '010211311345'
     west:
-      target_vnum: '11349'
+      target_vnum: 010211311349
+  local_id: '11344'
   name: A Via Sul
-  vnum: '11344'
+  vnum: '010211311344'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a sul do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -742,15 +801,16 @@
     a leste uma pequena construção sobre um braço do rio.
   exits:
     east:
-      target_vnum: '11348'
+      target_vnum: 010211311348
     north:
-      target_vnum: '11344'
+      target_vnum: '010211311344'
     south:
-      target_vnum: '11346'
+      target_vnum: '010211311346'
     west:
-      target_vnum: '11371'
+      target_vnum: '010211311371'
+  local_id: '11345'
   name: A Via Sul
-  vnum: '11345'
+  vnum: '010211311345'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a sul do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -761,13 +821,14 @@
     pungente, mas todos agradáveis. A via segue norte, leste e oeste.
   exits:
     east:
-      target_vnum: '11362'
+      target_vnum: '010211311362'
     north:
-      target_vnum: '11345'
+      target_vnum: '010211311345'
     west:
-      target_vnum: '11363'
+      target_vnum: '010211311363'
+  local_id: '11346'
   name: A Via Sul
-  vnum: '11346'
+  vnum: '010211311346'
 - description: |-
     Você está dentro de uma grande barco ancorado ao lado da via sul de
     Bhogavati.  Aqui funciona o Serviço Postal, de onde partem velozes
@@ -779,9 +840,10 @@
     seu lado uma bonita mesa de madeira, também marrom-dourada.
   exits:
     east:
-      target_vnum: '11343'
+      target_vnum: '010211311343'
+  local_id: '11347'
   name: Serviço Postal
-  vnum: '11347'
+  vnum: '010211311347'
 - description: |-
     Você está em frente a uma pequena construção feita sobre um dos braços da
     via sul.  Ela parece ser uma casa de paredes externas forradas de pedras
@@ -793,9 +855,10 @@
     de fios de dourado bem escurecido
   exits:
     west:
-      target_vnum: '11345'
+      target_vnum: '010211311345'
+  local_id: '11348'
   name: A Loja de Barcos
-  vnum: '11348'
+  vnum: 010211311348
 - description: |-
     Você está em uma construção de pedra branca cuja entrada, em forma de
     arco, dá diretamente nas águas da Via Sul.  O seu interior é bastante
@@ -807,9 +870,10 @@
     a beleza da união da luz dos céus e com as gotas de chuva, o arco-íris.
   exits:
     east:
-      target_vnum: '11344'
+      target_vnum: '010211311344'
+  local_id: '11349'
   name: Sublime Música
-  vnum: '11349'
+  vnum: 010211311349
 - description: |-
     Você está sobre as águas do pequeno rio que corre a oeste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -821,13 +885,14 @@
     Pedra Preciosa a sul. A via, por sua vez, continua a oeste.
   exits:
     east:
-      target_vnum: '11319'
+      target_vnum: 010211311319
     south:
-      target_vnum: '11354'
+      target_vnum: '010211311354'
     west:
-      target_vnum: '11351'
+      target_vnum: '010211311351'
+  local_id: '11350'
   name: A Via Oeste
-  vnum: '11350'
+  vnum: '010211311350'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a oeste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -839,13 +904,14 @@
     oeste.
   exits:
     east:
-      target_vnum: '11350'
+      target_vnum: '010211311350'
     south:
-      target_vnum: '11368'
+      target_vnum: 010211311368
     west:
-      target_vnum: '11352'
+      target_vnum: '010211311352'
+  local_id: '11351'
   name: A Via Oeste
-  vnum: '11351'
+  vnum: '010211311351'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a oeste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -857,15 +923,16 @@
     a sul a taverna Cobra Voando.
   exits:
     east:
-      target_vnum: '11351'
+      target_vnum: '010211311351'
     north:
-      target_vnum: '11366'
+      target_vnum: '010211311366'
     south:
-      target_vnum: '11355'
+      target_vnum: '010211311355'
     west:
-      target_vnum: '11353'
+      target_vnum: '010211311353'
+  local_id: '11352'
   name: A Via Oeste
-  vnum: '11352'
+  vnum: '010211311352'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a oeste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -877,13 +944,14 @@
     norte fica a loja do senhor Kalidas.
   exits:
     east:
-      target_vnum: '11352'
+      target_vnum: '010211311352'
     north:
-      target_vnum: '11383'
+      target_vnum: 010211311383
     west:
-      target_vnum: '11377'
+      target_vnum: '010211311377'
+  local_id: '11353'
   name: A Via Oeste
-  vnum: '11353'
+  vnum: '010211311353'
 - description: |-
     Você está em uma aconchegante (se é que alguma coisa naga pode ser
     aconchegante para forasteiros) estalagem que parece ter sida esculpida
@@ -899,11 +967,12 @@
     A Via Oeste fica a norte, enquanto que o salão fica a oeste.
   exits:
     north:
-      target_vnum: '11350'
+      target_vnum: '010211311350'
     west:
-      target_vnum: '11356'
+      target_vnum: '010211311356'
+  local_id: '11354'
   name: A Pedra Preciosa
-  vnum: '11354'
+  vnum: '010211311354'
 - description: |-
     A taverna Cobra Voando, um grande estabelecimento cuja fachada lembra uma
     serpente dando o bote, é um lugar bastante movimentado.  Suas paredes de
@@ -916,11 +985,12 @@
     A Via Oeste fica a norte, enquanto o salão fica a leste.
   exits:
     east:
-      target_vnum: '11356'
+      target_vnum: '010211311356'
     north:
-      target_vnum: '11352'
+      target_vnum: '010211311352'
+  local_id: '11355'
   name: A Cobra Voando
-  vnum: '11355'
+  vnum: '010211311355'
 - description: |-
     Você está num salão.  Isso: num salão.  Ele não tem um nome ou uma
     especificação, mas acabou sendo usado para quem quiser tirar uns cochilos e
@@ -937,11 +1007,12 @@
     Preciosa, e a oeste a Cobra Voando.
   exits:
     east:
-      target_vnum: '11354'
+      target_vnum: '010211311354'
     west:
-      target_vnum: '11355'
+      target_vnum: '010211311355'
+  local_id: '11356'
   name: O Salão
-  vnum: '11356'
+  vnum: '010211311356'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -952,11 +1023,14 @@
     para sul, sudeste e oeste.
   exits:
     south:
-      target_vnum: '11376'
+      target_vnum: '010211311376'
+    southeast:
+      target_vnum: 010211311358
     west:
-      target_vnum: '11323'
+      target_vnum: '010211311323'
+  local_id: '11357'
   name: Um Afluente das Vias
-  vnum: '11357'
+  vnum: '010211311357'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -965,9 +1039,16 @@
     afluente.  Essas folhas têm odor forte, uma mistura de menta e canela, e
     brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
     para noroeste, sudeste e sudoeste.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010211311357'
+    southeast:
+      target_vnum: 010211311359
+    southwest:
+      target_vnum: '010211311376'
+  local_id: '11358'
   name: Um Afluente das Vias
-  vnum: '11358'
+  vnum: 010211311358
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -977,12 +1058,15 @@
     brilham lindamente às luzes da Cidade das Jóias.  As águas encontram saída
     para noroeste, sul e oeste.
   exits:
+    northeast:
+      target_vnum: 010211311358
     south:
-      target_vnum: '11334'
+      target_vnum: '010211311334'
     west:
-      target_vnum: '11375'
+      target_vnum: '010211311375'
+  local_id: '11359'
   name: Um Afluente das Vias
-  vnum: '11359'
+  vnum: 010211311359
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -993,11 +1077,14 @@
     para norte, oeste e sudoeste, passando por baixo uma grande ponte.
   exits:
     north:
-      target_vnum: '11334'
+      target_vnum: '010211311334'
+    southwest:
+      target_vnum: '010211311362'
     west:
-      target_vnum: '11374'
+      target_vnum: '010211311374'
+  local_id: '11360'
   name: Um Afluente das Vias
-  vnum: '11360'
+  vnum: '010211311360'
 - description: |-
     Você está em um pequeno pátio gramado fora do templo.  A água das vias
     que passam por Bhogavati encostam em sua borda, mas uma longa ponte que liga
@@ -1006,11 +1093,16 @@
     sul, leste ou sudeste, além de seguir pela ponte noroeste.
   exits:
     east:
-      target_vnum: '11316'
+      target_vnum: '010211311316'
+    northeast:
+      target_vnum: '010211311364'
     south:
-      target_vnum: '11319'
+      target_vnum: 010211311319
+    southeast:
+      target_vnum: '010211311315'
+  local_id: '11361'
   name: Um Pátio Fora do Templo
-  vnum: '11361'
+  vnum: '010211311361'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1021,11 +1113,14 @@
     para norte, oeste e nordeste, passando por baixo uma grande ponte.
   exits:
     north:
-      target_vnum: '11372'
+      target_vnum: '010211311372'
+    northwest:
+      target_vnum: '010211311360'
     west:
-      target_vnum: '11346'
+      target_vnum: '010211311346'
+  local_id: '11362'
   name: Um Afluente das Vias
-  vnum: '11362'
+  vnum: '010211311362'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1036,11 +1131,14 @@
     leste e passam debaixo de uma ponte a noroeste.
   exits:
     east:
-      target_vnum: '11346'
+      target_vnum: '010211311346'
     north:
-      target_vnum: '11370'
+      target_vnum: '010211311370'
+    northeast:
+      target_vnum: '010211311365'
+  local_id: '11363'
   name: Um Afluente das Vias
-  vnum: '11363'
+  vnum: '010211311363'
 - description: |-
     Você está andando sobre a ponte noroeste de Bhogavati, uma bela construção
     em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
@@ -1052,9 +1150,14 @@
     elas muito diferentes entre si, mas sempre utilizando os metais e pedras
     preciosas tão característicos do lugar.
     A ponte segue sudeste e noroeste.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010211311380
+    southeast:
+      target_vnum: '010211311361'
+  local_id: '11364'
   name: A Ponte Noroeste
-  vnum: '11364'
+  vnum: '010211311364'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1066,11 +1169,14 @@
     grande ponte, a sudeste.
   exits:
     east:
-      target_vnum: '11368'
+      target_vnum: 010211311368
     north:
-      target_vnum: '11377'
+      target_vnum: '010211311377'
+    southeast:
+      target_vnum: '010211311363'
+  local_id: '11365'
   name: Um Afluente das Vias
-  vnum: '11365'
+  vnum: '010211311365'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1081,13 +1187,14 @@
     encontram caminho para sul, leste e oeste.
   exits:
     east:
-      target_vnum: '11367'
+      target_vnum: '010211311367'
     south:
-      target_vnum: '11352'
+      target_vnum: '010211311352'
     west:
-      target_vnum: '11381'
+      target_vnum: 010211311381
+  local_id: '11366'
   name: Um Afluente das Vias
-  vnum: '11366'
+  vnum: '010211311366'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1098,13 +1205,14 @@
     encontram caminho para norte, sul e oeste.
   exits:
     north:
-      target_vnum: '11329'
+      target_vnum: 010211311329
     south:
-      target_vnum: '11350'
+      target_vnum: '010211311350'
     west:
-      target_vnum: '11366'
+      target_vnum: '010211311366'
+  local_id: '11367'
   name: Um Afluente das Vias
-  vnum: '11367'
+  vnum: '010211311367'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1115,15 +1223,16 @@
     encontram caminho para leste, oeste, norte e sul.
   exits:
     east:
-      target_vnum: '11369'
+      target_vnum: 010211311369
     north:
-      target_vnum: '11351'
+      target_vnum: '010211311351'
     south:
-      target_vnum: '11370'
+      target_vnum: '010211311370'
     west:
-      target_vnum: '11365'
+      target_vnum: '010211311365'
+  local_id: '11368'
   name: Um Afluente das Vias
-  vnum: '11368'
+  vnum: 010211311368
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1134,11 +1243,12 @@
     encontram caminho para leste e oeste.
   exits:
     east:
-      target_vnum: '11343'
+      target_vnum: '010211311343'
     west:
-      target_vnum: '11368'
+      target_vnum: 010211311368
+  local_id: '11369'
   name: Um Afluente das Vias
-  vnum: '11369'
+  vnum: 010211311369
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1149,11 +1259,14 @@
     se derramam nas direções norte, sul e sudeste.
   exits:
     north:
-      target_vnum: '11369'
+      target_vnum: 010211311369
     south:
-      target_vnum: '11363'
+      target_vnum: '010211311363'
+    southeast:
+      target_vnum: '010211311371'
+  local_id: '11370'
   name: Um Afluente das Vias
-  vnum: '11370'
+  vnum: '010211311370'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1164,9 +1277,12 @@
     seguem por leste e noroeste.
   exits:
     east:
-      target_vnum: '11345'
+      target_vnum: '010211311345'
+    northeast:
+      target_vnum: '010211311370'
+  local_id: '11371'
   name: Um Afluente das Vias
-  vnum: '11371'
+  vnum: '010211311371'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1177,13 +1293,14 @@
     oeste, sul e norte.
   exits:
     north:
-      target_vnum: '11373'
+      target_vnum: '010211311373'
     south:
-      target_vnum: '11362'
+      target_vnum: '010211311362'
     west:
-      target_vnum: '11344'
+      target_vnum: '010211311344'
+  local_id: '11372'
   name: Um Afluente das Vias
-  vnum: '11372'
+  vnum: '010211311372'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1194,13 +1311,14 @@
     caminho para norte, sul e leste.
   exits:
     east:
-      target_vnum: '11374'
+      target_vnum: '010211311374'
     north:
-      target_vnum: '11331'
+      target_vnum: '010211311331'
     south:
-      target_vnum: '11372'
+      target_vnum: '010211311372'
+  local_id: '11373'
   name: Um Afluente das Vias
-  vnum: '11373'
+  vnum: '010211311373'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1211,11 +1329,14 @@
     entre a direção norte, sudeste e leste.
   exits:
     north:
-      target_vnum: '11333'
+      target_vnum: '010211311333'
+    southeast:
+      target_vnum: '010211311360'
     west:
-      target_vnum: '11373'
+      target_vnum: '010211311373'
+  local_id: '11374'
   name: Um Afluente das Vias
-  vnum: '11374'
+  vnum: '010211311374'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1226,13 +1347,14 @@
     por oeste, leste e sul.
   exits:
     east:
-      target_vnum: '11359'
+      target_vnum: 010211311359
     south:
-      target_vnum: '11333'
+      target_vnum: '010211311333'
     west:
-      target_vnum: '11376'
+      target_vnum: '010211311376'
+  local_id: '11375'
   name: Um Afluente das Vias
-  vnum: '11375'
+  vnum: '010211311375'
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1243,11 +1365,16 @@
     para norte, nordeste, leste e sudoeste.
   exits:
     east:
-      target_vnum: '11375'
+      target_vnum: '010211311375'
     north:
-      target_vnum: '11357'
+      target_vnum: '010211311357'
+    northwest:
+      target_vnum: 010211311358
+    southwest:
+      target_vnum: '010211311320'
+  local_id: '11376'
   name: Um Afluente das Vias
-  vnum: '11376'
+  vnum: '010211311376'
 - description: |-
     Você está sobre as águas do pequeno rio que corre a oeste do templo a
     Sesha.  Ele é, na verdade, uma rua um tanto exótica com seu leito de prata e
@@ -1258,14 +1385,15 @@
     pungente, mas todos agradáveis. A via segue norte, sul e leste.
   exits:
     east:
-      target_vnum: '11353'
+      target_vnum: '010211311353'
     north:
-      target_vnum: '11381'
+      target_vnum: 010211311381
     south:
-      target_vnum: '11365'
+      target_vnum: '010211311365'
+  local_id: '11377'
   name: A Via Oeste
-  vnum: '11377'
-- description: "Ã\x80s margens da Via Leste, a entrada da confraria Ã© um bem-cuidado\
+  vnum: '010211311377'
+- description: "Ã\x80s margens da Via Leste, a entrada da confraria é um bem-cuidado\
     \ jardim\nrepleto de variedades com propriedades mágicas e curativas de plantas.\n\
     Pequenos animais passam sossegadamente pelo jardim, entre eles esquilos,\npassarinhos,\
     \ jovens cervos, além de alguns que foram trazidos aqui para se\ncurarem de ferimentos\
@@ -1274,11 +1402,12 @@
     \ passando por sul."
   exits:
     north:
-      target_vnum: '11379'
+      target_vnum: 010211311379
     south:
-      target_vnum: '11331'
+      target_vnum: '010211311331'
+  local_id: '11378'
   name: A Entrada da Confraria dos Druidas de Bhogavati
-  vnum: '11378'
+  vnum: 010211311378
 - description: |-
     Você está dentro de um círculo de enormes e pesadas pedras cinzentas
     encaixadas em fendas cavadas na terra coberta por gramado.  Uma grande mesa,
@@ -1289,9 +1418,10 @@
     experiente druida aqui, zelando pelo pequeno santuário.
   exits:
     south:
-      target_vnum: '11378'
+      target_vnum: 010211311378
+  local_id: '11379'
   name: A Confraria dos Druidas
-  vnum: '11379'
+  vnum: 010211311379
 - description: |-
     Você está andando sobre a ponte noroeste de Bhogavati, uma bela construção
     em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
@@ -1303,9 +1433,14 @@
     elas muito diferentes entre si, mas sempre utilizando os metais e pedras
     preciosas tão característicos do lugar.
     A ponte segue sudeste e noroeste.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010211311389
+    southeast:
+      target_vnum: '010211311364'
+  local_id: '11380'
   name: A Ponte Noroeste
-  vnum: '11380'
+  vnum: 010211311380
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1316,11 +1451,14 @@
     para nordeste, sob uma grande ponte, a leste e a sul.
   exits:
     east:
-      target_vnum: '11366'
+      target_vnum: '010211311366'
+    northwest:
+      target_vnum: 010211311382
     south:
-      target_vnum: '11377'
+      target_vnum: '010211311377'
+  local_id: '11381'
   name: Um Afluente das Vias
-  vnum: '11381'
+  vnum: 010211311381
 - description: |-
     Você está navegando nas calmas águas de um afluente das principais vias
     de Bhogavati.  Seu leito, ao contrário do delas, que é de prata , é dourado
@@ -1331,11 +1469,14 @@
     para sudoeste, sob uma grande ponte, a sul e leste.
   exits:
     east:
-      target_vnum: '11323'
+      target_vnum: '010211311323'
     south:
-      target_vnum: '11329'
+      target_vnum: 010211311329
+    southwest:
+      target_vnum: 010211311381
+  local_id: '11382'
   name: Um Afluente das Vias
-  vnum: '11382'
+  vnum: 010211311382
 - description: |-
     Você está dentro de uma pequena loja repleta das mais variadas
     mercadorias.  Não é possível ver as paredes pois elas estão ocultas por
@@ -1348,9 +1489,10 @@
     além de uma saída a sul, que leva à Via Oeste.
   exits:
     south:
-      target_vnum: '11353'
+      target_vnum: '010211311353'
+  local_id: '11383'
   name: As Antigüidades e Inutilidades do Senhor Kalidas
-  vnum: '11383'
+  vnum: 010211311383
 - description: |-
     Você está em um pequeno pátio gramado fora do templo.  A água das vias
     que passam por Bhogavati encostam em sua borda, mas uma longa ponte que liga
@@ -1359,11 +1501,16 @@
     norte, oeste ou noroeste, além de seguir pela ponte sudeste.
   exits:
     north:
-      target_vnum: '11317'
+      target_vnum: '010211311317'
+    northeast:
+      target_vnum: '010211311315'
+    southeast:
+      target_vnum: 010211311385
     west:
-      target_vnum: '11318'
+      target_vnum: 010211311318
+  local_id: '11384'
   name: Um Pátio Fora do Templo
-  vnum: '11384'
+  vnum: 010211311384
 - description: |-
     Você está andando sobre a ponte sudeste de Bhogavati, uma bela construção
     em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
@@ -1375,9 +1522,14 @@
     elas muito diferentes entre si, mas sempre utilizando os metais e pedras
     preciosas tão característicos do lugar.
     A ponte segue noroeste e sudeste.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010211311384
+    southeast:
+      target_vnum: 010211311386
+  local_id: '11385'
   name: A Ponte Sudeste
-  vnum: '11385'
+  vnum: 010211311385
 - description: |-
     Você está andando sobre a ponte sudeste de Bhogavati, uma bela construção
     em lisa pedra branca, cuja forma lembra uma longa serpente estendida sobre
@@ -1389,9 +1541,14 @@
     elas muito diferentes entre si, mas sempre utilizando os metais e pedras
     preciosas tão característicos do lugar.
     A ponte segue noroeste e sudeste.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010211311385
+    southeast:
+      target_vnum: 010211311387
+  local_id: '11386'
   name: A Ponte Sudeste
-  vnum: '11386'
+  vnum: 010211311386
 - description: |-
     Você está na outra extremidade da ponte sudeste, que termina em um pátio,
     gramado como os do templo, seguido este, a sul, de um alto portão de
@@ -1401,10 +1558,13 @@
     Para seguir pela ponte, vá para noroeste; e para sair da cidade, siga sul,
     pelo portão.
   exits:
+    northeast:
+      target_vnum: 010211311386
     south:
-      target_vnum: '11388'
+      target_vnum: 010211311388
+  local_id: '11387'
   name: O Pátio Sudeste
-  vnum: '11387'
+  vnum: 010211311387
 - description: |-
     Você está do lado de fora da Cidade das Jóias, exatamente em frente a um
     alto portão de cristal negro.  A partir dele, uma estreita estrada de pedra
@@ -1412,11 +1572,12 @@
     vidro até onde a vista alcança.  A cidade fica a norte.
   exits:
     north:
-      target_vnum: '11387'
+      target_vnum: 010211311387
     south:
-      target_vnum: '2998'
+      target_vnum: 01021132998
+  local_id: '11388'
   name: Fora de Bhogavati
-  vnum: '11388'
+  vnum: 010211311388
 - description: |-
     Você está na outra extremidade da ponte noroeste, que termina em um pátio,
     gramado como os do templo, seguido este, a oeste, de um alto portão de
@@ -1426,10 +1587,13 @@
     Indo sudeste você atravessa a ponte, enquanto a oeste está o outro lado do
     portão.
   exits:
+    southeast:
+      target_vnum: 010211311380
     west:
-      target_vnum: '11390'
+      target_vnum: 010211311390
+  local_id: '11389'
   name: O Pátio Noroeste
-  vnum: '11389'
+  vnum: 010211311389
 - description: |-
     Você está do lado de fora da Cidade das Jóias, exatamente em frente a um
     alto portão de cristal negro.  A partir dele, há um pequeno terreno coberto
@@ -1439,9 +1603,10 @@
     está a cidade.
   exits:
     east:
-      target_vnum: '11389'
+      target_vnum: 010211311389
+  local_id: '11390'
   name: Fora de Bhogavati
-  vnum: '11390'
+  vnum: 010211311390
 - description: |-
     Esta área especializada de Bhogavati é dedicada aos artesãos nagas mais
     habilidosos da cidade. Oficinas ornamentadas se alinham ao longo dos canais
@@ -1450,11 +1615,12 @@
     delicadas mistura-se com o murmúrio das águas.
   exits:
     east:
-      target_vnum: '11393'
+      target_vnum: 010211311393
     north:
-      target_vnum: '11392'
+      target_vnum: 010211311392
+  local_id: '11391'
   name: O Distrito dos Artífices Nagas
-  vnum: '11391'
+  vnum: 010211311391
 - description: |-
     Um canal estreito mas profundo onde pequenas embarcações nagas transportam
     materiais preciosos entre as oficinas. As águas aqui têm uma tonalidade
@@ -1462,11 +1628,12 @@
     cuidadosamente filtrados e reaproveitados pelos artesãos nagas.
   exits:
     north:
-      target_vnum: '11394'
+      target_vnum: 010211311394
     south:
-      target_vnum: '11391'
+      target_vnum: 010211311391
+  local_id: '11392'
   name: Canal dos Artífices
-  vnum: '11392'
+  vnum: 010211311392
 - description: |-
     Uma oficina suntuosa onde os mestres joalheiros nagas criam as peças mais
     refinadas da cidade. Bancadas de mármore negro exibem ferramentas de precisão
@@ -1475,9 +1642,10 @@
     em sua verdadeira beleza.
   exits:
     west:
-      target_vnum: '11391'
+      target_vnum: 010211311391
+  local_id: '11393'
   name: Oficina de Joalheria Naga
-  vnum: '11393'
+  vnum: 010211311393
 - description: |-
     Um santuário dedicado às forças que governam a formação de gemas e metais
     preciosos nas profundezas da terra. Estátuas de nagas ancestrais, esculpidas
@@ -1485,11 +1653,12 @@
     deixadas para serem abençoadas antes da lapidação.
   exits:
     east:
-      target_vnum: '11395'
+      target_vnum: 010211311395
     south:
-      target_vnum: '11392'
+      target_vnum: 010211311392
+  local_id: '11394'
   name: Templo das Pedras Preciosas
-  vnum: '11394'
+  vnum: 010211311394
 - description: |-
     Os luxuosos aposentos onde reside a realeza naga de Bhogavati. Cada
     superfície é incrustada com pedras preciosas em padrões que contam a história
@@ -1498,6 +1667,7 @@
     os ambientes.
   exits:
     west:
-      target_vnum: '11394'
+      target_vnum: 010211311394
+  local_id: '11395'
   name: Aposentos Reais dos Nagas
-  vnum: '11395'
+  vnum: 010211311395

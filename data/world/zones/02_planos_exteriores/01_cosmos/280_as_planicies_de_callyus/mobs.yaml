@@ -5,8 +5,9 @@
   keywords:
   - driade
   - ninfa
+  long_desc: Uma dríade está aqui, voando por entre a folhagem.
   name: a dríade
-  vnum: '28001'
+  vnum: 020128028001
 - description: |-
     Você vê um homem não muito jovem.  Os trabalhadores são imigrantes, que
     vieram de outras para Callyus em busca de oportunidades e de fortuna.
@@ -14,8 +15,9 @@
     agora em atividades braçais.
   keywords:
   - trabalhador
+  long_desc: Um trabalhador está aqui, colhendo grãos e plantando novas sementes.
   name: o trabalhador
-  vnum: '28002'
+  vnum: 020128028002
 - description: |-
     Você vê uma mulher vestida de forma modesta.  Os trabalhadores são
     imigrantes, que vieram de outras terras para Callyus em busca de
@@ -23,16 +25,18 @@
     vida callyuni e trabalham agora em atividades braçais.
   keywords:
   - trabalhadora
+  long_desc: Uma trabalhadora está aqui, colhendo grãos e plantando novas sementes.
   name: a trabalhadora
-  vnum: '28003'
+  vnum: 020128028003
 - description: |-
     Esta criatura grotesta é tão asquerosa que fica difícil descrevê-la de forma
     detalhada sem sentir o estômago embrulhar.
   keywords:
   - sanguessuga
   - parasita
+  long_desc: Uma grotesca sanguessuga gigante está aqui, tentando sugar seu sangue.
   name: a grotesca sanguessuga gigante
-  vnum: '28004'
+  vnum: 020128028004
 - description: |-
     O espantalho é uma criatura que foi pobremente vestida, com o objetivo de
     proteger os campos contra os ataques dos pássaros.
@@ -40,25 +44,29 @@
   - espantalho
   - boneco
   - palha
+  long_desc: Um espantalho foi colocado aqui para proteger os campos.
   name: o espantalho
-  vnum: '28005'
+  vnum: 020128028005
 - description: Você vê um goblin com nadadeiras e barbatanas.
   keywords:
   - goblin
+  long_desc: Ali está um estranho goblin nadando.
   name: o goblin aquático
-  vnum: '28006'
+  vnum: 020128028006
 - description: Um pequeno inseto marrom e verde que parece ser extremamente voraz.
   keywords:
   - gafanhoto
   - inseto
+  long_desc: Ali está um gafanhoto, a procura de plantas para comer.
   name: o gafanhoto
-  vnum: '28007'
-- description: "Ã\x89 apenas uma vaca....mas tÃ£o diferente!!!"
+  vnum: 020128028007
+- description: "Ã\x89 apenas uma vaca....mas tão diferente!!!"
   keywords:
   - vaca
   - louca
+  long_desc: Ali está uma vaca louca, usando um chapéu de Viking!
   name: a vaca louca
-  vnum: '28008'
+  vnum: 020128028008
 - description: |-
     Você vê uma placa em sua base.  Há uma inscrição ali:
     "Esta estátua foi feita para celebrar e mostrar a todos os visitantes
@@ -68,39 +76,45 @@
   - idolo
   - metal
   - guerreiro
+  long_desc: A estátua de um guerreiro foi colocada aqui na fonte central.
   name: a estátua de metal
-  vnum: '28009'
+  vnum: 020128028009
 - description: Apenas uma vaquinha...
   keywords:
   - vaca
+  long_desc: Há uma vaca aqui, pastando calmamente.
   name: a vaca
-  vnum: '28010'
-- description: "VocÃª vÃª um magnÃ­fico cavalo Ã\x81rabe."
+  vnum: 020128028010
+- description: "Você vê um magnífico cavalo Ã\x81rabe."
   keywords:
   - cavalo
+  long_desc: Um cavalo está aqui.
   name: o cavalo
-  vnum: '28011'
+  vnum: 020128028011
 - description: Ela é bonita, com traços suaves e olhos sonhadores.
   keywords:
   - mulher
   - vendedora
+  long_desc: Uma jovem mulher está aqui, vendendo pães de viagem.
   name: a jovem vendedora
-  vnum: '28012'
-- description: "O GuardiÃ£o das Ã\x81guas Ã© um ser fluÃ­dico.  Ã\x80 primeira vista,\
+  vnum: 020128028012
+- description: "O Guardião das Ã\x81guas é um ser fluídico.  Ã\x80 primeira vista,\
     \ parece tratar-se\nde uma entidade feminina mas de repente isto vai mudando,\
     \ transformando-se\nem inúmeras outras formas."
   keywords:
   - guardiao
-  name: "o GuardiÃ£o das Ã\x81guas"
-  vnum: '28013'
-- description: "Ã\x89 muito difÃ­cil descrever a aparÃªncia desta entidade.  VocÃª\
-    \ pode ver apenas\numa sombra esfumaçada, movendo-se por entre a folhagem."
+  long_desc: "O Guardião das Ã\x81guas está aqui para proteger os seres aquáticos."
+  name: "o Guardião das Ã\x81guas"
+  vnum: 020128028013
+- description: "Ã\x89 muito difícil descrever a aparência desta entidade.  Você pode\
+    \ ver apenas\numa sombra esfumaçada, movendo-se por entre a folhagem."
   keywords:
   - guardiao
   - florestas
   - floresta
+  long_desc: O Guardião das Florestas está aqui para proteger os seres da floresta.
   name: o Guardião das Florestas
-  vnum: '28014'
+  vnum: 020128028014
 - description: |-
     Aos poucos você nota a presença desta entidade que vai emergindo da
     escuridão e movendo-se, sem tocar o solo, por entre as sombras.  Ainda que
@@ -110,23 +124,26 @@
   - guardiao
   - sombras
   - escuridao
+  long_desc: O Guardião da Escuridão está aqui para proteger as almas perdidas.
   name: o Guardião da Escuridão
-  vnum: '28015'
+  vnum: 020128028015
 - description: |-
     A ninfa é uma criatura das águas.  Ela é uma mulher com corpo e rosto mas
     existe alguma coisa diferente nela e você não consegue saber o que.
   keywords:
   - ninfa
+  long_desc: Uma ninfa está aqui, olhando curiosamente para você.
   name: a ninfa
-  vnum: '28016'
+  vnum: 020128028016
 - description: |-
     Você vê um guerreiro fortemente armado que parece ter sido muito bem
     treinado para proteger os cidadãos callyunis dos problemas e dos rufiões.
   keywords:
   - guarda
   - cally
+  long_desc: Um guarda cally está aqui, procurando por encrenca.
   name: o guarda cally
-  vnum: '28017'
+  vnum: 020128028017
 - description: |-
     O Almirante Dasher é um homem forte, com barba e cabelos brancos.  Suas
     roupas estão cobertas por medalhas e seu chapéu tem o símbolo do Exército de
@@ -134,8 +151,9 @@
   keywords:
   - almirante
   - dasher
+  long_desc: O Almirante Dasher está sentado aqui, desenvolvendo estratégias de guerra.
   name: o Almirante Dasher
-  vnum: '28018'
+  vnum: 020128028018
 - description: |-
     Esta garota é realmente muito esquisita!!!  Cabelos azuis, rosto com pesada
     maquiagem, óculos listrados e uma roupa totalmente cor-de-rosa.  Ela não se
@@ -144,8 +162,11 @@
   keywords:
   - secretaria
   - ginger
+  long_desc: |-
+    Senhorita Ginger, a secretária do Almirante Dasher está sentada aqui,
+    organizando documentos.
   name: senhorita Ginger
-  vnum: '28019'
+  vnum: 020128028019
 - description: |-
     Salomão parece ser um homem velho.  Ele está vestido com um casado azul
     comprido e boné preto.  Enquanto observa Salomão andando, você nota que ele
@@ -155,8 +176,9 @@
   - salomao
   - mestre
   - estaleiro
+  long_desc: Salomão, o mestre do estaleiro está aqui.
   name: Salomão
-  vnum: '28020'
+  vnum: 020128028020
 - description: |-
     Você vê um empregado das docas.  Sua função é auxiliar os comandantes dos
     navios, coordenar os trabalhadores e manter as instalações das docas.
@@ -164,16 +186,19 @@
   - mestre
   - docas
   - estivador
+  long_desc: O mestre das docas está aqui.
   name: o mestre das docas
-  vnum: '28021'
+  vnum: 020128028021
 - description: O estivador é um homem forte.
   keywords:
   - trabalhador
   - estivador
+  long_desc: Um estivador está aqui, carregando mercadorias para embarcar num navio.
   name: estivador
-  vnum: '28022'
+  vnum: 020128028022
 - description: Você vê um homem vestindo uma farda branca.
   keywords:
   - marinheiro
+  long_desc: Um marinheiro está aqui.
   name: o marinheiro
-  vnum: '28023'
+  vnum: 020128028023

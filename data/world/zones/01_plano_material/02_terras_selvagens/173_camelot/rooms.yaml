@@ -3,88 +3,96 @@
     \  Há um pedaço de pergaminho pregado a um velho carvalho."
   exits:
     east:
-      target_vnum: '6209'
+      target_vnum: 01021736209
     north:
-      target_vnum: '17302'
+      target_vnum: '010217317302'
+  local_id: '17301'
   name: Em frente à Floresta Arden
-  vnum: '17301'
+  vnum: '010217317301'
 - description: |-
     Você se encontra no cruzamento entre dois caminhos empoeirados.  Feixes
     de luz solar iluminam a intersecção, e você percebe pegadas de cavalos na
     poeira.  As trilhas seguem nas direções norte, sul, leste e oeste.
   exits:
     east:
-      target_vnum: '17306'
+      target_vnum: '010217317306'
     north:
-      target_vnum: '17305'
+      target_vnum: '010217317305'
     south:
-      target_vnum: '17301'
+      target_vnum: '010217317301'
     west:
-      target_vnum: '17303'
+      target_vnum: '010217317303'
+  local_id: '17302'
   name: A Encruzilhada de Arden
-  vnum: '17302'
+  vnum: '010217317302'
 - description: |-
     Você está em um caminho na grande floresta Arden.  Sinceramente você
     desejaria que não houvessem tantos pernilongos aborrecidos aqui!  A trilha
     segue ao sul e ao leste.
   exits:
     east:
-      target_vnum: '17302'
+      target_vnum: '010217317302'
     south:
-      target_vnum: '17304'
+      target_vnum: '010217317304'
+  local_id: '17303'
   name: A Floresta Arden
-  vnum: '17303'
+  vnum: '010217317303'
 - description: |-
     A trilha se estreita e escurece e você percebe o estranho som de algo
     sendo moído.  Você olha para baixo- OSSOS!  A oeste o caminho se torna ainda
     menos iluminado e ao norte você pode perceber luz.
   exits:
     north:
-      target_vnum: '17303'
+      target_vnum: '010217317303'
     west:
-      target_vnum: '17307'
+      target_vnum: '010217317307'
+  local_id: '17304'
   name: Caminho de Ossos
-  vnum: '17304'
+  vnum: '010217317304'
 - description: |-
     Você está em frente a uma resistente cabana de sapé.  Há capim por todos
     os lados - obviamente este lugar foi abandonado já há algum tempo.  A porta
     da cabana fica a oeste e o caminho empoeirado segue ao sul.
   exits:
     south:
-      target_vnum: '17302'
+      target_vnum: '010217317302'
     west:
-      target_vnum: '17308'
+      target_vnum: 010217317308
+  local_id: '17305'
   name: Uma Cabana na Floresta Arden
-  vnum: '17305'
+  vnum: '010217317305'
 - description: |-
     Você está em uma bifurcação no caminho poeirento na Floresta Arden.  Há
     pegadas de cavalos na terra, e a trilha segue norte, leste e oeste daqui.
   exits:
     east:
-      target_vnum: '17310'
+      target_vnum: '010217317310'
     north:
-      target_vnum: '17309'
+      target_vnum: 010217317309
     west:
-      target_vnum: '17302'
+      target_vnum: '010217317302'
+  local_id: '17306'
   name: Uma bifurcação no caminho empoeirado.
-  vnum: '17306'
+  vnum: '010217317306'
 - description: |-
     Você achou o covil da procurada Besta!  Ossos cobrem o chão por todos os
     lados.  A única saída fica a leste.
   exits:
     east:
-      target_vnum: '17304'
+      target_vnum: '010217317304'
+  local_id: '17307'
   name: O Covil da Besta da Busca.
-  vnum: '17307'
+  vnum: '010217317307'
 - description: |-
     Você está dentro de uma velha e abandonada cabana.  O teto é baixo, e as
     vigas estão cobertas por fuligem.  Há uma bancada de trabalho e uma antiga
     lareira.
   exits:
     east:
-      target_vnum: '17305'
+      target_vnum: '010217317305'
+  local_id: '17308'
   name: Dentro de uma cabana
-  vnum: '17308'
+  vnum: 010217317308
 - description: |-
     Você tem caminhado por uma trilha em declive até uma área arborizada
     coberta por brumas.  As altas e negras silhuetas dos gigantes carvalhos
@@ -92,24 +100,26 @@
     norte e as pegadas de cavalos que seguem sul.
   exits:
     north:
-      target_vnum: '17313'
+      target_vnum: '010217317313'
     south:
-      target_vnum: '17306'
+      target_vnum: '010217317306'
+  local_id: '17309'
   name: Brumas de Arden
-  vnum: '17309'
+  vnum: 010217317309
 - description: |-
     Você se encontra em uma parte da Floresta Arden totalmente coberta por
     árvores.  As sombras se movem, brincando na brisa.  A trilha continua a
     norte, leste e oeste.
   exits:
     east:
-      target_vnum: '17312'
+      target_vnum: '010217317312'
     north:
-      target_vnum: '17311'
+      target_vnum: '010217317311'
     west:
-      target_vnum: '17306'
+      target_vnum: '010217317306'
+  local_id: '17310'
   name: Nas profundezas do Bosque
-  vnum: '17310'
+  vnum: '010217317310'
 - description: |-
     Você entrou em uma clareira na floresta onde toda a vegetação está morta.
     Não há som que indique vida selvagem, nem nenhum raio de luz que consiga
@@ -117,17 +127,19 @@
     de visitar o local.  Talvez você deva descansar por um tempo.
   exits:
     up:
-      target_vnum: '17312'
+      target_vnum: '010217317312'
+  local_id: '17311'
   name: A Clareira Amaldiçoada
-  vnum: '17311'
+  vnum: '010217317311'
 - description: |-
     Você está em uma depressão escura.  O ar é pesado, úmido e opressivo,
     quebrado apenas pelo grasnar de um corvo.  A oeste está a trilha poeirenta.
   exits:
     west:
-      target_vnum: '17310'
+      target_vnum: '010217317310'
+  local_id: '17312'
   name: Uma depressão escura
-  vnum: '17312'
+  vnum: '010217317312'
 - description: |-
     Você adentrou em uma parte clara e alegre da Floresta Arden.  Esquilos
     brincam de pegar uns aos outros ao redor dos antigos carvalhos, e borboletas
@@ -136,24 +148,26 @@
     norte, sul e leste.
   exits:
     east:
-      target_vnum: '17319'
+      target_vnum: 010217317319
     north:
-      target_vnum: '17314'
+      target_vnum: '010217317314'
     south:
-      target_vnum: '17309'
+      target_vnum: 010217317309
+  local_id: '17313'
   name: A Floresta Arden
-  vnum: '17313'
+  vnum: '010217317313'
 - description: |-
     Você parou para beber água no pequeno riacho que corta a trilha.  A sul,
     a floresta se torna clara.  A oeste, ela mergulha na escuridão.  O céu está
     muito azul e os raios do sol se refletem nas águas prateadas.
   exits:
     south:
-      target_vnum: '17313'
+      target_vnum: '010217317313'
     west:
-      target_vnum: '17315'
+      target_vnum: '010217317315'
+  local_id: '17314'
   name: Um riacho na Floresta Arden
-  vnum: '17314'
+  vnum: '010217317314'
 - description: "Ã\x80 sua frente extende-se o cinzento Campo de Batalha de Arden.\n\
     Incontáveis séculos de guerra cobriram o chão com ossos e armas quebradas\ndaqueles\
     \ que ali combateram.  Há sinais de uma recente carnificina\nenvolvendo muitos\
@@ -161,13 +175,14 @@
     \ a leste e oeste e uma sinuosa estrada se\nencontra ao norte."
   exits:
     east:
-      target_vnum: '17314'
+      target_vnum: '010217317314'
     north:
-      target_vnum: '17316'
+      target_vnum: '010217317316'
     west:
-      target_vnum: '17317'
+      target_vnum: '010217317317'
+  local_id: '17315'
   name: Campo de Batalha de Arden
-  vnum: '17315'
+  vnum: '010217317315'
 - description: |-
     Você está em frente a Blackmoor, o refúgio do maléfico Mordred.  Os muros
     que o protegem têm cerca de 25 pés de altura e torres protegem o portão e as
@@ -177,22 +192,24 @@
     extende-se uma sinuosa estrada.
   exits:
     north:
-      target_vnum: '17327'
+      target_vnum: '010217317327'
     south:
-      target_vnum: '17315'
+      target_vnum: '010217317315'
+  local_id: '17316'
   name: Diante Blackmoor
-  vnum: '17316'
+  vnum: '010217317316'
 - description: |-
     Você acaba de adentrar em Blackmoor, a floresta dos malditos.  Espinhos e
     árvores retorcidas arranham e rasgam sua pele, como se estivessem vivos.  O
     bem traçado caminho que você seguia desapareceu e você perde o rumo.
   exits:
     down:
-      target_vnum: '17318'
+      target_vnum: 010217317318
     up:
-      target_vnum: '17315'
+      target_vnum: '010217317315'
+  local_id: '17317'
   name: Floresta Blackmoor
-  vnum: '17317'
+  vnum: '010217317317'
 - description: |-
     Você se encontra em frente a uma cabana que parece ser aconchegante.  A
     fumaça que sai da chaminé chega até você carregando o cheiro de carne de
@@ -202,21 +219,23 @@
     empoeirada segue ao sul.
   exits:
     south:
-      target_vnum: '17317'
+      target_vnum: '010217317317'
     west:
-      target_vnum: '17323'
+      target_vnum: '010217317323'
+  local_id: '17318'
   name: Diante a uma aconchegante cabana
-  vnum: '17318'
-- description: "VocÃª se encontra diante de uma fenda profunda.  Ã\x89 possÃ­vel identificar\
+  vnum: 010217317318
+- description: "Você se encontra diante de uma fenda profunda.  Ã\x89 possível identificar\
     \ os\nrestos das correntes de uma antiga ponte pênsil que, rompida, chega ao fundo\n\
     do abismo.  A oeste está o caminho empoeirado, e a ponte partida leva para\nbaixo."
   exits:
     down:
-      target_vnum: '17320'
+      target_vnum: '010217317320'
     west:
-      target_vnum: '17313'
+      target_vnum: '010217317313'
+  local_id: '17319'
   name: Um precipício
-  vnum: '17319'
+  vnum: 010217317319
 - description: |-
     Você está pendurado ao esgarçado fim da ponte pênsil.  Sua tensão é muito
     grande.  Suas opções são tentar balançar pela brecha até o outro lado da
@@ -224,26 +243,28 @@
     profundezas do abismo.
   exits:
     down:
-      target_vnum: '17324'
+      target_vnum: '010217317324'
     east:
-      target_vnum: '17321'
+      target_vnum: '010217317321'
     up:
-      target_vnum: '17319'
+      target_vnum: 010217317319
+  local_id: '17320'
   name: Preso à ponte pênsil
-  vnum: '17320'
+  vnum: '010217317320'
 - description: |-
     Você continua se segurando ao esgarçado final da ponte pênsil.  Você pode
     tentar balançar-se até o outro lado, a oeste, subir a ponte ou continuar
     para baixo, nas amedrontadoras profundezas do abismo.
   exits:
     down:
-      target_vnum: '17324'
+      target_vnum: '010217317324'
     up:
-      target_vnum: '17322'
+      target_vnum: '010217317322'
     west:
-      target_vnum: '17320'
+      target_vnum: '010217317320'
+  local_id: '17321'
   name: Preso à ponte pênsil
-  vnum: '17321'
+  vnum: '010217317321'
 - description: |-
     Você está à beira de um profundo precipício.  A ponte pênsil que o
     cruzava foi cortada por algum malfeitor de vilarejos e agora permanece caída
@@ -251,11 +272,12 @@
     ou seguir para o campo verdejante a leste.
   exits:
     down:
-      target_vnum: '17321'
+      target_vnum: '010217317321'
     east:
-      target_vnum: '17325'
+      target_vnum: '010217317325'
+  local_id: '17322'
   name: O Precipício
-  vnum: '17322'
+  vnum: '010217317322'
 - description: |-
     Você está dentro de uma cabana aconchegante.  Ao seu redor, o interior é
     bem confortável, completado com cama de plumas e uma lareira.  Uma mesa com
@@ -263,14 +285,16 @@
     vinho.  Uma vela acesa ilumina o ambiente e há apenas uma cadeira à mesa.
   exits:
     east:
-      target_vnum: '17318'
+      target_vnum: 010217317318
+  local_id: '17323'
   name: Dentro da Cabana Aconchegante
-  vnum: '17323'
+  vnum: '010217317323'
 - description: "Azul... NÃ\x83O!!! VERDE!!!\nAHHHHHHHHHHHHHHHH\nAHHHHHHHHHHHHHHHH\n\
     AHHHHHHHHHHHHHHHH\nSPLAAAAT."
   exits: {}
+  local_id: '17324'
   name: As profundezas do Abismo
-  vnum: '17324'
+  vnum: '010217317324'
 - description: |-
     Você está debaixo de um céu límpido no campo verde esmeralda, antes de
     Camelot, que se encontra no topo de uma colina, onde é possível ter uma
@@ -279,164 +303,179 @@
     leste, em direção a Camelot, ou oeste, para o precipício.
   exits:
     east:
-      target_vnum: '17326'
+      target_vnum: '010217317326'
     west:
-      target_vnum: '17322'
+      target_vnum: '010217317322'
+  local_id: '17325'
   name: O campo verdejante antes de Camelot
-  vnum: '17325'
+  vnum: '010217317325'
 - description: |-
     Você está nos portões de Camelot.  Você tem plena visão do verde
     esmeralda do plano abaixo, o campo.  Paredes de granito branco
     imponentemente erguem-se no ar.
   exits:
     east:
-      target_vnum: '17341'
+      target_vnum: '010217317341'
     west:
-      target_vnum: '17325'
+      target_vnum: '010217317325'
+  local_id: '17326'
   name: O Portão Oeste de Camelot
-  vnum: '17326'
+  vnum: '010217317326'
 - description: "Ã\x80 sua frente se encontra a Muralha de Blackmoor.  Uma grande fileira\
     \ de\nburacos assassinos se extende nas paredes e torres que se erguem em frente.\n\
     Ao norte e ao sul estão os portões de ferro negro."
   exits:
     north:
-      target_vnum: '17328'
+      target_vnum: 010217317328
     south:
-      target_vnum: '17316'
+      target_vnum: '010217317316'
+  local_id: '17327'
   name: A Muralha de Blackmoor
-  vnum: '17327'
+  vnum: '010217317327'
 - description: |-
     Você está em uma rua na cortina, a muralha que cerca o castelo.  A
     fortaleza está ao seu norte.  O caminho segue a leste e oeste, e os Portões
     de Ferro Negro ficam ao sul.
   exits:
     east:
-      target_vnum: '17329'
+      target_vnum: 010217317329
     south:
-      target_vnum: '17327'
+      target_vnum: '010217317327'
     west:
-      target_vnum: '17330'
+      target_vnum: '010217317330'
+  local_id: '17328'
   name: Dentro da Cortina
-  vnum: '17328'
+  vnum: 010217317328
 - description: |-
     Você está em uma rua nas muralhas de Blackmoor.  Escadas conduzem até a
     torre leste da muralha.  A estrada continua para norte e para o oeste.
   exits:
     north:
-      target_vnum: '17335'
+      target_vnum: '010217317335'
     up:
-      target_vnum: '17339'
+      target_vnum: 010217317339
     west:
-      target_vnum: '17328'
+      target_vnum: 010217317328
+  local_id: '17329'
   name: Dentro da Cortina
-  vnum: '17329'
+  vnum: 010217317329
 - description: |-
     Você se encontra em um caminho nas muralhas.  Escadas o conduzem à torre
     leste da cortina.  A estrada continua a norte e leste.
   exits:
     east:
-      target_vnum: '17328'
+      target_vnum: 010217317328
     north:
-      target_vnum: '17331'
+      target_vnum: '010217317331'
     up:
-      target_vnum: '17338'
+      target_vnum: 010217317338
+  local_id: '17330'
   name: Dentro da Cortina
-  vnum: '17330'
+  vnum: '010217317330'
 - description: |-
     Você está em uma rua na cortina de muralhas de Blackmoor.  A fortaleza
     está a leste de você.  A estrada ensangüentada segue ao norte e sul.
   exits:
     north:
-      target_vnum: '17332'
+      target_vnum: '010217317332'
     south:
-      target_vnum: '17330'
+      target_vnum: '010217317330'
+  local_id: '17331'
   name: Dentro da Cortina
-  vnum: '17331'
+  vnum: '010217317331'
 - description: |-
     Você está no caminho dentro da cortina de muralhas de Blackmoor.  Escadas
     levam até a Torre Noroeste de Blackmoor.  A estrada segue sul, e a leste
     está a entrada para a fortaleza.
   exits:
     east:
-      target_vnum: '17333'
+      target_vnum: '010217317333'
     south:
-      target_vnum: '17331'
+      target_vnum: '010217317331'
     up:
-      target_vnum: '17336'
+      target_vnum: '010217317336'
+  local_id: '17332'
   name: Dentro da Cortina
-  vnum: '17332'
+  vnum: '010217317332'
 - description: |-
     Você está num caminho na cortina de muralhas de Blackmoor.  Ao sul se
     encontra uma porta de madeira maciça, de onde você ouve sair uma gargalhada
     diabólica.  A estrada continua a leste e oeste.
   exits:
     east:
-      target_vnum: '17334'
+      target_vnum: '010217317334'
     south:
-      target_vnum: '17340'
+      target_vnum: '010217317340'
     west:
-      target_vnum: '17332'
+      target_vnum: '010217317332'
+  local_id: '17333'
   name: A Entrada para a Fortaleza
-  vnum: '17333'
+  vnum: '010217317333'
 - description: |-
     Você está no caminho na cortina de muralhas de Blackmoor.  Escadas o
     levam à Torre Nordeste de Blackmoor.  A estrada segue ao sul e oeste, onde
     se localiza a entrada da fortaleza.
   exits:
     south:
-      target_vnum: '17335'
+      target_vnum: '010217317335'
     up:
-      target_vnum: '17337'
+      target_vnum: '010217317337'
     west:
-      target_vnum: '17333'
+      target_vnum: '010217317333'
+  local_id: '17334'
   name: Dentro da Cortina
-  vnum: '17334'
+  vnum: '010217317334'
 - description: |-
     Você se encontra da rua na cortina de muralhas de Blackmoor.  A oeste
     ergue-se a Fortaleza.  A estrada continua a norte e sul.
   exits:
     north:
-      target_vnum: '17334'
+      target_vnum: '010217317334'
     south:
-      target_vnum: '17329'
+      target_vnum: 010217317329
+  local_id: '17335'
   name: Dentro da Cortina
-  vnum: '17335'
+  vnum: '010217317335'
 - description: |-
     Você está dentro da torre noroeste.  Daqui é possível ter ampla e
     privilegiada visão da fortaleza e até do próprio pântano, ao olhar pela
     vigia.  Escadarias conduzem para baixo.
   exits:
     down:
-      target_vnum: '17332'
+      target_vnum: '010217317332'
+  local_id: '17336'
   name: A Torre Noroeste de Blackmoor
-  vnum: '17336'
+  vnum: '010217317336'
 - description: |-
     Você está no interior da torre nordeste.  Pelas vigias, tem-se uma
     privilegiada visão da fortaleza e do pântano ao redor.  As escadarias levam
     para baixo.
   exits:
     down:
-      target_vnum: '17334'
+      target_vnum: '010217317334'
+  local_id: '17337'
   name: A Torre Nordeste de Blackmoor
-  vnum: '17337'
+  vnum: '010217317337'
 - description: |-
     Você está no interior da torre oeste das muralhas.  Aqui, tem-se uma
     ampla visão da muralha, além de ser possível atirar com uma arma pelo buraco
     assassino.  Escadas levam para baixo.
   exits:
     down:
-      target_vnum: '17330'
+      target_vnum: '010217317330'
+  local_id: '17338'
   name: A Torre Oeste da Muralha
-  vnum: '17338'
+  vnum: 010217317338
 - description: |-
     Você está na torre leste das muralhas.  Tem-se daqui uma ampla visão da
     Cortina, além de ser possível atirar com uma arma pelo buraco assassino.
     Escadas levam para baixo.
   exits:
     down:
-      target_vnum: '17329'
+      target_vnum: 010217317329
+  local_id: '17339'
   name: A Torre Leste da Muralha
-  vnum: '17339'
+  vnum: 010217317339
 - description: |-
     Você se encontra no imundo Salão de Mordred.  A fumaça que saí de uma
     pira em chamas no centro se espiraliza e chega até as vigias.  Armaduras de
@@ -445,9 +484,10 @@
     enquanto passa dançando entre elas.
   exits:
     north:
-      target_vnum: '17333'
+      target_vnum: '010217317333'
+  local_id: '17340'
   name: O Salão Negro de Mordred
-  vnum: '17340'
+  vnum: '010217317340'
 - description: |-
     Você está em uma rua pavimentada com lajes de mármore, dentro das grandes
     muralhas de Camelot.  Pendões tremulam nas altas torres e os edifícios
@@ -455,28 +495,30 @@
     fortaleza, e o Caminho dos Cavaleiros segue norte e sul.
   exits:
     east:
-      target_vnum: '17343'
+      target_vnum: '010217317343'
     north:
-      target_vnum: '17342'
+      target_vnum: '010217317342'
     south:
-      target_vnum: '17344'
+      target_vnum: '010217317344'
     west:
-      target_vnum: '17326'
+      target_vnum: '010217317326'
+  local_id: '17341'
   name: Rua da Vitória e o Caminho dos Cavaleiros
-  vnum: '17341'
+  vnum: '010217317341'
 - description: "Você está na estrada pavimentada com lajes de mármore branco, O Caminho\n\
-    dos Cavaleiros.  Ã\x89 possÃ­vel sentir o cheiro dos cavalos ao leste.  Ao oeste,\n\
+    dos Cavaleiros.  Ã\x89 possível sentir o cheiro dos cavalos ao leste.  Ao oeste,\n\
     erguem-se as altas muralhas de Camelot.  O Caminho dos Cavaleiros continua\npara\
     \ o norte e sul."
   exits:
     east:
-      target_vnum: '17398'
+      target_vnum: 010217317398
     north:
-      target_vnum: '17345'
+      target_vnum: '010217317345'
     south:
-      target_vnum: '17341'
+      target_vnum: '010217317341'
+  local_id: '17342'
   name: O Caminho dos Cavaleiros antes dos estábulos
-  vnum: '17342'
+  vnum: '010217317342'
 - description: |-
     Você se encontra na Rua da Vitória.  Estandartes des cavaleiros estão
     cravados em ambos os lados da estrada, com seus brasão se agitando na
@@ -484,24 +526,26 @@
     continua para leste e oeste.
   exits:
     east:
-      target_vnum: '17347'
+      target_vnum: '010217317347'
     west:
-      target_vnum: '17341'
+      target_vnum: '010217317341'
+  local_id: '17343'
   name: A Rua da Vitória
-  vnum: '17343'
+  vnum: '010217317343'
 - description: |-
     Você está nas lajes de mármore branco que pavimentam o Caminho dos
     Cavaleiros.  A oeste de você, elevam-se as grandiosas muralhas de Camelot, e
     a leste fica o arsenal.  O Caminho dos Cavaleiros continua norte e sul.
   exits:
     east:
-      target_vnum: '17348'
+      target_vnum: 010217317348
     north:
-      target_vnum: '17341'
+      target_vnum: '010217317341'
     south:
-      target_vnum: '17349'
+      target_vnum: 010217317349
+  local_id: '17344'
   name: O Caminho dos Cavaleiros no Depósito de Armas
-  vnum: '17344'
+  vnum: '010217317344'
 - description: |-
     Você está no cruzamento entre o Caminho dos Cavaleiros e a Senda do
     Escudeiro.  Um grande arco é a entrada para uma sólida e robusta torre.
@@ -509,13 +553,14 @@
     continua ao sul, e a Senda do Escudeiro segue leste.
   exits:
     east:
-      target_vnum: '17350'
+      target_vnum: '010217317350'
     south:
-      target_vnum: '17342'
+      target_vnum: '010217317342'
     up:
-      target_vnum: '17351'
+      target_vnum: '010217317351'
+  local_id: '17345'
   name: Cruzamento do Caminho dos Cavaleiros com a Senda do Escudeiro
-  vnum: '17345'
+  vnum: '010217317345'
 - description: |-
     Você teve de lutar para conseguir passar pelas barreiras dos Picts, e
     essa sua aventura o levou até o outro lado das linhas inimigas!  A leste a
@@ -524,9 +569,10 @@
     fujam.
   exits:
     east:
-      target_vnum: '17397'
+      target_vnum: 010217317397
+  local_id: '17346'
   name: Atrás das Linhas dos Picts
-  vnum: '17346'
+  vnum: '010217317346'
 - description: |-
     Aqui a Rua da Vitória termina no grande Pátio de Torneios de Camelot.  Um
     pódio para os vencedores dos torneios está erguido- hoje ele ostenta o
@@ -535,11 +581,12 @@
     Vitória continua a oeste, e o Pátio de Torneios de Camelot está a leste.
   exits:
     east:
-      target_vnum: '17352'
+      target_vnum: '010217317352'
     west:
-      target_vnum: '17343'
+      target_vnum: '010217317343'
+  local_id: '17347'
   name: A Rua da Vitória
-  vnum: '17347'
+  vnum: '010217317347'
 - description: |-
     Você está no Arsenal de Camelot.  O mestre ferreiro e seus três
     aprendizes estão ocupados fabricando a armadura para um cavaleiro.  Várias
@@ -548,9 +595,10 @@
     fica o Caminho dos Cavaleiros.
   exits:
     west:
-      target_vnum: '17344'
+      target_vnum: '010217317344'
+  local_id: '17348'
   name: O Arsenal
-  vnum: '17348'
+  vnum: 010217317348
 - description: |-
     Você está no cruzamento entre o Caminho dos Cavaleiros e a Estrada Nobre.
     Uma torre eleva-se daqui indo por uma sinuosa escadaria.  Há uma inscrição
@@ -558,24 +606,26 @@
     e a Estrada Nobre segue leste.
   exits:
     east:
-      target_vnum: '17354'
+      target_vnum: '010217317354'
     north:
-      target_vnum: '17344'
+      target_vnum: '010217317344'
     up:
-      target_vnum: '17353'
+      target_vnum: '010217317353'
+  local_id: '17349'
   name: Cruzamento do Caminho dos Cavaleiros com a Estrada Nobre
-  vnum: '17349'
+  vnum: 010217317349
 - description: |-
     Você está na Senda do Escudeiro.  Escudeiros apressadamente vêm e vão
     pela rua a serviço de seus senhores.  Você nota um pergaminho no chão.  A
     Senda continua a leste e oeste.
   exits:
     east:
-      target_vnum: '17355'
+      target_vnum: '010217317355'
     west:
-      target_vnum: '17345'
+      target_vnum: '010217317345'
+  local_id: '17350'
   name: A Senda do Escudeiro
-  vnum: '17350'
+  vnum: '010217317350'
 - description: |-
     Você se encontra na Torre da Coragem.  As paredes estão repletas de
     murais representando batalhas, cavaleiros enfrentando-se ou enfrentando
@@ -585,24 +635,26 @@
     abaixo.
   exits:
     down:
-      target_vnum: '17345'
+      target_vnum: '010217317345'
+  local_id: '17351'
   name: A Torre da Coragem
-  vnum: '17351'
+  vnum: '010217317351'
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho - quem sabe você não queira competir também?
   exits:
     east:
-      target_vnum: '17359'
+      target_vnum: 010217317359
     north:
-      target_vnum: '17360'
+      target_vnum: '010217317360'
     south:
-      target_vnum: '17358'
+      target_vnum: 010217317358
     west:
-      target_vnum: '17347'
+      target_vnum: '010217317347'
+  local_id: '17352'
   name: O Pátio de Torneios de Camelot
-  vnum: '17352'
+  vnum: '010217317352'
 - description: |-
     Você se encontra na Torre da Honra.  MURAIS cobrem as paredes e o teto
     abobodado.  Rolos de fumaça saem, misteriosamente envolventes, de buracos
@@ -610,20 +662,22 @@
     formigamento percorre seu corpo.  As escadarias levam à rua abaixo.
   exits:
     down:
-      target_vnum: '17349'
+      target_vnum: 010217317349
+  local_id: '17353'
   name: A Torre da Honra
-  vnum: '17353'
+  vnum: '010217317353'
 - description: |-
     Você se encontra na Estrada Nobre.  A rua foi pavimentada com pedras
     amarelas, dando a impressão de ser ouro nas partes mais úmidas.  Uma estátua
     de Uther Pendragon fica aqui.  A estrada continua a leste e oeste.
   exits:
     east:
-      target_vnum: '17361'
+      target_vnum: '010217317361'
     west:
-      target_vnum: '17349'
+      target_vnum: 010217317349
+  local_id: '17354'
   name: A Estrada Nobre
-  vnum: '17354'
+  vnum: '010217317354'
 - description: |-
     Você se encontra na Senda do Escudeiro.  Um constante tráfego vem e vai
     para o sul, onde os alojamentos dos escudeiros estão.  Ao norte fica o
@@ -632,26 +686,28 @@
     caneca.
   exits:
     east:
-      target_vnum: '17362'
+      target_vnum: '010217317362'
     north:
-      target_vnum: '17356'
+      target_vnum: '010217317356'
     south:
-      target_vnum: '17357'
+      target_vnum: '010217317357'
     west:
-      target_vnum: '17350'
+      target_vnum: '010217317350'
+  local_id: '17355'
   name: A Senda do Escudeiro no Portão Norte
-  vnum: '17355'
+  vnum: '010217317355'
 - description: |-
     Você está em frente ao grande portão norte de Camelot.  Uma estrada de
     terra segue abaixo até a colina onde Camelot repousa serenamente, rodeada
     por verdes campinas ao norte.  Ao sul está a Senda do Escudeiro.
   exits:
     north:
-      target_vnum: '17382'
+      target_vnum: 010217317382
     south:
-      target_vnum: '17355'
+      target_vnum: '010217317355'
+  local_id: '17356'
   name: O Grande Portão Norte de Camelot
-  vnum: '17356'
+  vnum: '010217317356'
 - description: |-
     Você está no alojamento dos escudeiros.  Aqui estão residindo todos os
     servos dos cavaleiros da Távola Redonda enquanto seus senhores estão na
@@ -661,50 +717,54 @@
     de acampamento, com a lista do dia (seu nome não está nela).
   exits:
     north:
-      target_vnum: '17355'
+      target_vnum: '010217317355'
+  local_id: '17357'
   name: O Alojamento dos Escudeiros
-  vnum: '17357'
+  vnum: '010217317357'
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     east:
-      target_vnum: '17363'
+      target_vnum: '010217317363'
     north:
-      target_vnum: '17352'
+      target_vnum: '010217317352'
     south:
-      target_vnum: '17364'
+      target_vnum: '010217317364'
+  local_id: '17358'
   name: O Pátio de Torneios de Camelot
-  vnum: '17358'
+  vnum: 010217317358
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     east:
-      target_vnum: '17370'
+      target_vnum: '010217317370'
     north:
-      target_vnum: '17365'
+      target_vnum: '010217317365'
     south:
-      target_vnum: '17363'
+      target_vnum: '010217317363'
     west:
-      target_vnum: '17352'
+      target_vnum: '010217317352'
+  local_id: '17359'
   name: O Pátio de Torneios de Camelot
-  vnum: '17359'
+  vnum: 010217317359
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     east:
-      target_vnum: '17365'
+      target_vnum: '010217317365'
     north:
-      target_vnum: '17362'
+      target_vnum: '010217317362'
     south:
-      target_vnum: '17352'
+      target_vnum: '010217317352'
+  local_id: '17360'
   name: O Pátio de Torneios de Camelot
-  vnum: '17360'
+  vnum: '010217317360'
 - description: |-
     Você se encontra na Estrada Nobre no Grande Portão Sul de Camelot.  Ao
     norte estão os Aposentos Nobres, onde a nobreza visitante está instalada.  O
@@ -712,80 +772,86 @@
     estátua de um cavaleiro.
   exits:
     east:
-      target_vnum: '17364'
+      target_vnum: '010217317364'
     north:
-      target_vnum: '17366'
+      target_vnum: '010217317366'
     south:
-      target_vnum: '17367'
+      target_vnum: '010217317367'
     west:
-      target_vnum: '17354'
+      target_vnum: '010217317354'
+  local_id: '17361'
   name: A Estrada Nobre no Portão Sul
-  vnum: '17361'
+  vnum: '010217317361'
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     east:
-      target_vnum: '17368'
+      target_vnum: 010217317368
     south:
-      target_vnum: '17360'
+      target_vnum: '010217317360'
     west:
-      target_vnum: '17355'
+      target_vnum: '010217317355'
+  local_id: '17362'
   name: O Pátio de Torneios de Camelot
-  vnum: '17362'
+  vnum: '010217317362'
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     north:
-      target_vnum: '17359'
+      target_vnum: 010217317359
     south:
-      target_vnum: '17369'
+      target_vnum: 010217317369
     west:
-      target_vnum: '17358'
+      target_vnum: 010217317358
+  local_id: '17363'
   name: O Pátio de Torneios de Camelot
-  vnum: '17363'
+  vnum: '010217317363'
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     north:
-      target_vnum: '17358'
+      target_vnum: 010217317358
     west:
-      target_vnum: '17361'
+      target_vnum: '010217317361'
+  local_id: '17364'
   name: O Pátio de Torneios de Camelot
-  vnum: '17364'
+  vnum: '010217317364'
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     north:
-      target_vnum: '17368'
+      target_vnum: 010217317368
     south:
-      target_vnum: '17359'
+      target_vnum: 010217317359
     west:
-      target_vnum: '17360'
+      target_vnum: '010217317360'
+  local_id: '17365'
   name: O Pátio de Torneios de Camelot
-  vnum: '17365'
+  vnum: '010217317365'
 - description: |-
     Você está no interior dos quartos onde os visitantes nobres se instalam.
     Há um vestíbulo com uma fonte no lugar que você está, onde vários quartos
     dão.
   exits:
     east:
-      target_vnum: '17379'
+      target_vnum: 010217317379
     north:
-      target_vnum: '17378'
+      target_vnum: 010217317378
     south:
-      target_vnum: '17361'
+      target_vnum: '010217317361'
     west:
-      target_vnum: '17380'
+      target_vnum: 010217317380
+  local_id: '17366'
   name: Aposentos Nobres
-  vnum: '17366'
+  vnum: '010217317366'
 - description: |-
     Você está em frente ao Grande Portão Sul de Camelot.  Para sul está uma
     estrada pavimentada que segue pelas férteis planícies cultivadas.  Servos
@@ -794,11 +860,12 @@
     cheiro da cidade.
   exits:
     north:
-      target_vnum: '17361'
+      target_vnum: '010217317361'
     south:
-      target_vnum: '17391'
+      target_vnum: 010217317391
+  local_id: '17367'
   name: O Grande Portão Sul
-  vnum: '17367'
+  vnum: '010217317367'
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito ao lugar na Távola Redonda.  Você
@@ -806,22 +873,24 @@
     também?
   exits:
     south:
-      target_vnum: '17365'
+      target_vnum: '010217317365'
     west:
-      target_vnum: '17362'
+      target_vnum: '010217317362'
+  local_id: '17368'
   name: O Pátio de Torneios de Camelot
-  vnum: '17368'
+  vnum: 010217317368
 - description: |-
     Você está no renomado Pátio de Torneios de Camelot.  Aqui, cavaleiros se
     desafiam para reivindicar o direito a lugar na Távola Redonda.  Você percebe
     vários concorrentes a caminho- quem sabe você não queira competir também?
   exits:
     north:
-      target_vnum: '17363'
+      target_vnum: '010217317363'
     west:
-      target_vnum: '17364'
+      target_vnum: '010217317364'
+  local_id: '17369'
   name: O Pátio de Torneios de Camelot
-  vnum: '17369'
+  vnum: 010217317369
 - description: |-
     Você está na lendária corte de Camelot.  Aqui, nos pátios ensolarados,
     nobres e cavaleiros caminham descalços na relva discutindo sobre a cavalaria
@@ -835,15 +904,16 @@
     Salão de Banquetes e para o Pátio de Torneios.
   exits:
     east:
-      target_vnum: '17376'
+      target_vnum: '010217317376'
     north:
-      target_vnum: '17374'
+      target_vnum: '010217317374'
     south:
-      target_vnum: '17371'
+      target_vnum: '010217317371'
     west:
-      target_vnum: '17359'
+      target_vnum: 010217317359
+  local_id: '17370'
   name: A Corte de Camelot
-  vnum: '17370'
+  vnum: '010217317370'
 - description: |-
     Você entrou no salão de banquetes de Camelot.  Você está com sorte.  Um
     banquete está sendo servido.  Há muitas mesas com bancos, com servos
@@ -855,11 +925,12 @@
     das senhoras.
   exits:
     north:
-      target_vnum: '17370'
+      target_vnum: '010217317370'
     south:
-      target_vnum: '17372'
+      target_vnum: '010217317372'
+  local_id: '17371'
   name: O Salão de Banquetes
-  vnum: '17371'
+  vnum: '010217317371'
 - description: |-
     Você está nos aposentos das senhoras.  Espero que você seja uma, ou
     estará em uma grande enrascada!  São muitos os quartos aqui, alguns
@@ -869,11 +940,12 @@
     escadaria subindo para uma torre.
   exits:
     north:
-      target_vnum: '17371'
+      target_vnum: '010217317371'
     up:
-      target_vnum: '17373'
+      target_vnum: '010217317373'
+  local_id: '17372'
   name: Os Aposentos das Senhoras
-  vnum: '17372'
+  vnum: '010217317372'
 - description: |-
     Oh sim, é aqui onde as virginais donzelas da corte residem, longe de seus
     cavaleiros que estão em longas viajem a serviço de Arthur.  A principal
@@ -881,9 +953,10 @@
     feitas.
   exits:
     down:
-      target_vnum: '17372'
+      target_vnum: '010217317372'
+  local_id: '17373'
   name: A Torre das Donzelas
-  vnum: '17373'
+  vnum: '010217317373'
 - description: |-
     Você adentrou no alojamento dos cavaleiros.  Beliches e armaduras lotam o
     lugar.  Alguns cavaleiros estão dormindo e se recuperando de suas feridas de
@@ -893,28 +966,29 @@
     caminho para subir até uma torre.
   exits:
     south:
-      target_vnum: '17370'
+      target_vnum: '010217317370'
     up:
-      target_vnum: '17375'
+      target_vnum: '010217317375'
+  local_id: '17374'
   name: O Alojamento dos Cavaleiros
-  vnum: '17374'
-- description: "VocÃª encontrou a Torre de Merlin.  Ã\x89 uma bagunÃ§a de livros,\
-    \ pergaminhos,\nvarinhas, manuais, etc.  Há também mesas e cadeiras desgastadas,\
-    \ onde está\numa grande variedade de curiosidades.  Merlin possui também muitos\
-    \ animais,\ne muitos recipientes dispostos em estantes de madeira.  De relance\
-    \ você olha\natravés da janela da torre e vê as colinas de Camelot se extenderem\
-    \ até onde\nseu campo de visão permite.  Mas o que mais lhe chama a atenção é\
-    \ um\npulsante pentagrama no centro da sala, brilhando e palpitando no mesmo\n\
-    compasso que as batidas de seu coração.  Há também um SINAL que, com\nsobrenaturais\
-    \ inscrições de um vermelho incandescente, pisca a mensagem\n\"OLHE PARA MIM\"\
-    ."
+  vnum: '010217317374'
+- description: "Você encontrou a Torre de Merlin.  Ã\x89 uma bagunça de livros, pergaminhos,\n\
+    varinhas, manuais, etc.  Há também mesas e cadeiras desgastadas, onde está\numa\
+    \ grande variedade de curiosidades.  Merlin possui também muitos animais,\ne muitos\
+    \ recipientes dispostos em estantes de madeira.  De relance você olha\natravés\
+    \ da janela da torre e vê as colinas de Camelot se extenderem até onde\nseu campo\
+    \ de visão permite.  Mas o que mais lhe chama a atenção é um\npulsante pentagrama\
+    \ no centro da sala, brilhando e palpitando no mesmo\ncompasso que as batidas\
+    \ de seu coração.  Há também um SINAL que, com\nsobrenaturais inscrições de um\
+    \ vermelho incandescente, pisca a mensagem\n\"OLHE PARA MIM\"."
   exits:
     down:
-      target_vnum: '17374'
+      target_vnum: '010217317374'
     up:
-      target_vnum: '17381'
+      target_vnum: 010217317381
+  local_id: '17375'
   name: A Torre de Merlin
-  vnum: '17375'
+  vnum: '010217317375'
 - description: |-
     Você adentrou na Távola Redonda, onde está havendo um conselho de guerra
     entre Arthur e seus companheiros.  A Távola tem 30' de diâmetro, e é feita
@@ -925,11 +999,12 @@
     conduz à Corte de Camelot, a oeste, e uma escadaria leva para cima.
   exits:
     up:
-      target_vnum: '17377'
+      target_vnum: '010217317377'
     west:
-      target_vnum: '17370'
+      target_vnum: '010217317370'
+  local_id: '17376'
   name: A Távola Redonda
-  vnum: '17376'
+  vnum: '010217317376'
 - description: |-
     Você entrou nos aposentos privativos do Rei Arthur.  Uma bandeira de
     dragão que cobre o dossel de uma enorme cama.  O rei possui também em seu
@@ -939,9 +1014,10 @@
     campanhas de unificação adornam as paredes.
   exits:
     down:
-      target_vnum: '17376'
+      target_vnum: '010217317376'
+  local_id: '17377'
   name: Os Aposentos de Arthur
-  vnum: '17377'
+  vnum: '010217317377'
 - description: |-
     Você está caminhando pelos aposentos nobres, chegando a um dos quartos.
     Alguém negligentemente esqueceu de fechar a porta, confiando na honra e
@@ -949,18 +1025,20 @@
     consiste em um quarto comum com muitas camas e uma área de serviço.
   exits:
     south:
-      target_vnum: '17366'
+      target_vnum: '010217317366'
+  local_id: '17378'
   name: Aposentos Nobres
-  vnum: '17378'
+  vnum: 010217317378
 - description: |-
     Você está em um dos quartos desocupados.  Quem sabe você não fique um
     pouco e visite a Corte?  O quarto possui câmaras com muitas camas, uma sala
     de estar e um pequeno jardim.
   exits:
     west:
-      target_vnum: '17366'
+      target_vnum: '010217317366'
+  local_id: '17379'
   name: Aposentos Nobres
-  vnum: '17379'
+  vnum: 010217317379
 - description: |-
     Você está caminhando pelos aposentos nobres, chegando a um dos quartos.
     Este nobre trancou sua porta, antecipando a intrusão da ralé a qual você
@@ -968,17 +1046,19 @@
     serviço.
   exits:
     east:
-      target_vnum: '17366'
+      target_vnum: '010217317366'
+  local_id: '17380'
   name: Aposentos Nobres
-  vnum: '17380'
+  vnum: 010217317380
 - description: |-
     Bem...  Você fez isso.  Você entrou no pentagrama.  Você é arrebatado por
     um calor infernal, e gargalhadas o rodeiam, vindas de todos os lados.  Seu
     corpo inteiro é tomado pela dor, e você ouve a si mesmo gritando e chorando
     infinitamente de horror.  Você está preso aqui para sempre!!!!
   exits: {}
+  local_id: '17381'
   name: O Pentagrama
-  vnum: '17381'
+  vnum: 010217317381
 - description: |-
     Você passou o dia viajando por uma estrada que passa pelas colinas a
     norte de Camelot.  No caminho, encontrou muitas aldeias.  As pessoas que
@@ -987,13 +1067,14 @@
     estrada segue por uma extensa campina.  Camelot está a sul.
   exits:
     east:
-      target_vnum: '17384'
+      target_vnum: 010217317384
     north:
-      target_vnum: '17383'
+      target_vnum: 010217317383
     south:
-      target_vnum: '17356'
+      target_vnum: '010217317356'
+  local_id: '17382'
   name: As Colinas
-  vnum: '17382'
+  vnum: 010217317382
 - description: |-
     Você passou o dia viajando por uma estrada que passa pelas colinas a
     norte de Camelot.  No caminho, encontrou muitas aldeias.  As pessoas que
@@ -1001,11 +1082,12 @@
     terras altas e ao sul, atravessa as colinas.
   exits:
     north:
-      target_vnum: '17385'
+      target_vnum: 010217317385
     south:
-      target_vnum: '17382'
+      target_vnum: 010217317382
+  local_id: '17383'
   name: As Colinas
-  vnum: '17383'
+  vnum: 010217317383
 - description: |-
     Você gastou uma semana viajando por uma enorme planície coberta de grama.
     Durante suas viagens, cruzou por diversas baronias.  Contou muitos
@@ -1016,11 +1098,12 @@
     colinas e oeste pela costa rochosa.
   exits:
     east:
-      target_vnum: '17386'
+      target_vnum: 010217317386
     west:
-      target_vnum: '17382'
+      target_vnum: 010217317382
+  local_id: '17384'
   name: As Campinas
-  vnum: '17384'
+  vnum: 010217317384
 - description: |-
     Você passou o dia viajando pelas terras altas (as Highlands) e está muito
     cansado.  A sua frente fica uma muralha velha, que vai de leste a oeste
@@ -1029,15 +1112,16 @@
     estão as indomadas Highlands escocesas.  Há um posto avançado a leste.
   exits:
     east:
-      target_vnum: '17388'
+      target_vnum: 010217317388
     north:
-      target_vnum: '17387'
+      target_vnum: 010217317387
     up:
-      target_vnum: '2160'
+      target_vnum: '01021732160'
     west:
-      target_vnum: '17383'
+      target_vnum: 010217317383
+  local_id: '17385'
   name: As Terras Altas
-  vnum: '17385'
+  vnum: 010217317385
 - description: |-
     Você escolheu ir pelo caminho que passa pela costa rochosa.  O tempo está
     horrível, e isso influencia seu humor.  A estrada desapareceu a dois dias
@@ -1046,11 +1130,12 @@
     lugar.  Bem longe de você se encontra a praia.
   exits:
     down:
-      target_vnum: '17389'
+      target_vnum: 010217317389
     west:
-      target_vnum: '17384'
+      target_vnum: 010217317384
+  local_id: '17386'
   name: A Costa Rochosa
-  vnum: '17386'
+  vnum: 010217317386
 - description: |-
     Você passou vários dias vagando pelas highlands escocesas.  Também tem
     espiado as moças pastoreando ovelhas, e muitos bandos de saqueadores
@@ -1058,28 +1143,31 @@
     frente, na ribanceira, está um forte.  Você não está certo se deve entrar.
   exits:
     south:
-      target_vnum: '17385'
+      target_vnum: 010217317385
     up:
-      target_vnum: '17390'
+      target_vnum: 010217317390
+  local_id: '17387'
   name: As Highlands Escocesas
-  vnum: '17387'
-- description: "VocÃª estÃ¡ no posto avanÃ§ado para a muralha.  Ã\x89 uma fortaleza\
-    \ de pedra,\nque oferece pouco conforto a quem lá reside.  Há barracas e um salão\n\
+  vnum: 010217317387
+- description: "Você está no posto avançado para a muralha.  Ã\x89 uma fortaleza de\
+    \ pedra,\nque oferece pouco conforto a quem lá reside.  Há barracas e um salão\n\
     principal.  Guardas estão a posto ao longo da muralha.  Sua chegada causou\ngrande\
     \ interesse, já que esses homens da fronteira não vêem muitas pessoas\npor aqui."
   exits:
     west:
-      target_vnum: '17385'
+      target_vnum: 010217317385
+  local_id: '17388'
   name: O Posto Avançado
-  vnum: '17388'
+  vnum: 010217317388
 - description: |-
     Você se encontra na praia rochosa desejando possui um barco.  A subida
     por todas essas fendas foi muito dura.  Há muitas cavernas e grutas aqui.
   exits:
     up:
-      target_vnum: '17386'
+      target_vnum: 010217317386
+  local_id: '17389'
   name: A praia rochosa
-  vnum: '17389'
+  vnum: 010217317389
 - description: |-
     Você está na entrada do forte escocês.  As paredes são cobertas com peles
     de animais.  Mulheres e crianças estão esparramadas entre colchões de peles
@@ -1089,9 +1177,10 @@
     fogo.
   exits:
     down:
-      target_vnum: '17387'
+      target_vnum: 010217317387
+  local_id: '17390'
   name: O Forte dos Escoceses
-  vnum: '17390'
+  vnum: 010217317390
 - description: |-
     Você passou o dia viajando pelos campos de Camelot, seguindo uma estrada
     de pedra pavimentada.  A lavoura está produzindo bem esse ano, e os
@@ -1101,13 +1190,14 @@
     caminho.
   exits:
     north:
-      target_vnum: '17367'
+      target_vnum: '010217317367'
     south:
-      target_vnum: '17392'
+      target_vnum: 010217317392
     west:
-      target_vnum: '17393'
+      target_vnum: 010217317393
+  local_id: '17391'
   name: As Fazendas
-  vnum: '17391'
+  vnum: 010217317391
 - description: |-
     Você passou o dia viajando pelos campos de Camelot, seguindo uma estrada
     de pedra pavimentada.  A lavoura está produzindo bem esse ano, e os
@@ -1116,13 +1206,14 @@
     avistar fumaça e gritos vindos do sul.
   exits:
     north:
-      target_vnum: '17391'
+      target_vnum: 010217317391
     south:
-      target_vnum: '17395'
+      target_vnum: 010217317395
     west:
-      target_vnum: '17394'
+      target_vnum: 010217317394
+  local_id: '17392'
   name: As Fazendas
-  vnum: '17392'
+  vnum: 010217317392
 - description: |-
     Você passou o dia viajando pelos campos de Camelot, seguindo uma estrada
     de pedra pavimentada.  A lavoura está produzindo bem esse ano, e os
@@ -1132,11 +1223,12 @@
     festejos da região.
   exits:
     east:
-      target_vnum: '17391'
+      target_vnum: 010217317391
     south:
-      target_vnum: '17394'
+      target_vnum: 010217317394
+  local_id: '17393'
   name: As Fazendas
-  vnum: '17393'
+  vnum: 010217317393
 - description: |-
     Você passou o dia viajando pelos campos de Camelot, seguindo uma estrada
     de pedra pavimentada.  Essa parte das fazendas não parecem estar indo tão
@@ -1146,13 +1238,14 @@
     norte.
   exits:
     east:
-      target_vnum: '17392'
+      target_vnum: 010217317392
     north:
-      target_vnum: '17393'
+      target_vnum: 010217317393
     west:
-      target_vnum: '17396'
+      target_vnum: 010217317396
+  local_id: '17394'
   name: As Fazendas
-  vnum: '17394'
+  vnum: 010217317394
 - description: |-
     Você está bem no meio do caos de uma invasão de anglos a uma das aldeias
     das fazendas.  Fazendeiros estão tentando se defender dos incursores com
@@ -1162,9 +1255,10 @@
     chamas, e você consegue avistar na costa, a oeste, o navio dos agressores.
   exits:
     north:
-      target_vnum: '17392'
+      target_vnum: 010217317392
+  local_id: '17395'
   name: A Invasão dos Anglos!
-  vnum: '17395'
+  vnum: 010217317395
 - description: |-
     Você alcançou um fortificado porto avançado.  Suas botas afundam na lama
     por onde carroças de provisões passam.  Os guardas lhe advertem sobre os
@@ -1174,11 +1268,12 @@
     estrondo da guerra.
   exits:
     east:
-      target_vnum: '17394'
+      target_vnum: 010217317394
     west:
-      target_vnum: '17397'
+      target_vnum: 010217317397
+  local_id: '17396'
   name: Um posto avançado
-  vnum: '17396'
+  vnum: 010217317396
 - description: |-
     Você está no coração de uma furiosa batalha entre os corajosos cavaleiros
     de Camelot e os bárbaros Picts.  Os cavaleiros levantaram uma trincheira por
@@ -1188,11 +1283,12 @@
     líder covardemente abandonou o campo de batalha.
   exits:
     east:
-      target_vnum: '17396'
+      target_vnum: 010217317396
     west:
-      target_vnum: '17346'
+      target_vnum: '010217317346'
+  local_id: '17397'
   name: Batalha!
-  vnum: '17397'
+  vnum: 010217317397
 - description: |-
     Você se encontra nos vastos estábulos de Camelot.  Fileiras e mais
     fileiras de baias preenchem sua visão.  O cheiro do suor de cavalos
@@ -1202,10 +1298,12 @@
     Cavaleiros.
   exits:
     west:
-      target_vnum: '17342'
+      target_vnum: '010217317342'
+  local_id: '17398'
   name: Os estábulos
-  vnum: '17398'
+  vnum: 010217317398
 - description: Estes sãos os estábulos onde os cavalos à venda são mantidos.
   exits: {}
+  local_id: '17399'
   name: Cocheiras de armazenamento
-  vnum: '17399'
+  vnum: 010217317399

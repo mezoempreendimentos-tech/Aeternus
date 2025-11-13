@@ -7,11 +7,12 @@
     planícies.
   exits:
     north:
-      target_vnum: '2508'
+      target_vnum: 01010252508
     south:
-      target_vnum: '4075'
+      target_vnum: '01010254075'
+  local_id: '2500'
   name: A Entrada do Bosque Sombrio
-  vnum: '2500'
+  vnum: '01010252500'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -20,15 +21,18 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2502'
+      target_vnum: '01010252502'
     north:
-      target_vnum: '2507'
+      target_vnum: '01010252507'
+    northeast:
+      target_vnum: 01010252684
     south:
-      target_vnum: '2504'
+      target_vnum: '01010252504'
     west:
-      target_vnum: '2503'
+      target_vnum: '01010252503'
+  local_id: '2501'
   name: O Bosque Sombrio
-  vnum: '2501'
+  vnum: '01010252501'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -37,15 +41,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2503'
+      target_vnum: '01010252503'
     north:
-      target_vnum: '2511'
+      target_vnum: '01010252511'
     south:
-      target_vnum: '2505'
+      target_vnum: '01010252505'
     west:
-      target_vnum: '2501'
+      target_vnum: '01010252501'
+  local_id: '2502'
   name: O Bosque Sombrio
-  vnum: '2502'
+  vnum: '01010252502'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -54,15 +59,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2501'
+      target_vnum: '01010252501'
     north:
-      target_vnum: '2509'
+      target_vnum: 01010252509
     south:
-      target_vnum: '2506'
+      target_vnum: '01010252506'
     west:
-      target_vnum: '2502'
+      target_vnum: '01010252502'
+  local_id: '2503'
   name: O Bosque Sombrio
-  vnum: '2503'
+  vnum: '01010252503'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -71,15 +77,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2505'
+      target_vnum: '01010252505'
     north:
-      target_vnum: '2501'
+      target_vnum: '01010252501'
     south:
-      target_vnum: '2507'
+      target_vnum: '01010252507'
     west:
-      target_vnum: '2503'
+      target_vnum: '01010252503'
+  local_id: '2504'
   name: O Bosque Sombrio
-  vnum: '2504'
+  vnum: '01010252504'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -88,15 +95,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2506'
+      target_vnum: '01010252506'
     north:
-      target_vnum: '2502'
+      target_vnum: '01010252502'
     south:
-      target_vnum: '2508'
+      target_vnum: 01010252508
     west:
-      target_vnum: '2504'
+      target_vnum: '01010252504'
+  local_id: '2505'
   name: O Bosque Sombrio
-  vnum: '2505'
+  vnum: '01010252505'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -105,15 +113,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2510'
+      target_vnum: '01010252510'
     north:
-      target_vnum: '2503'
+      target_vnum: '01010252503'
     south:
-      target_vnum: '2509'
+      target_vnum: 01010252509
     west:
-      target_vnum: '2511'
+      target_vnum: '01010252511'
+  local_id: '2506'
   name: O Bosque Sombrio
-  vnum: '2506'
+  vnum: '01010252506'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -122,15 +131,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2508'
+      target_vnum: 01010252508
     north:
-      target_vnum: '2504'
+      target_vnum: '01010252504'
     south:
-      target_vnum: '2501'
+      target_vnum: '01010252501'
     west:
-      target_vnum: '2509'
+      target_vnum: 01010252509
+  local_id: '2507'
   name: O Bosque Sombrio
-  vnum: '2507'
+  vnum: '01010252507'
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -139,15 +149,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2509'
+      target_vnum: 01010252509
     north:
-      target_vnum: '2505'
+      target_vnum: '01010252505'
     south:
-      target_vnum: '2500'
+      target_vnum: '01010252500'
     west:
-      target_vnum: '2507'
+      target_vnum: '01010252507'
+  local_id: '2508'
   name: O Bosque Sombrio
-  vnum: '2508'
+  vnum: 01010252508
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -156,15 +167,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2507'
+      target_vnum: '01010252507'
     north:
-      target_vnum: '2506'
+      target_vnum: '01010252506'
     south:
-      target_vnum: '2503'
+      target_vnum: '01010252503'
     west:
-      target_vnum: '2508'
+      target_vnum: 01010252508
+  local_id: '2509'
   name: O Bosque Sombrio
-  vnum: '2509'
+  vnum: 01010252509
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -173,31 +185,33 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2511'
+      target_vnum: '01010252511'
     north:
-      target_vnum: '2507'
+      target_vnum: '01010252507'
     south:
-      target_vnum: '2509'
+      target_vnum: 01010252509
     west:
-      target_vnum: '2502'
+      target_vnum: '01010252502'
+  local_id: '2510'
   name: O Bosque Sombrio
-  vnum: '2510'
+  vnum: '01010252510'
 - description: "Você está numa pequena clareira no bosque sombrio.  Há grama queimada\n\
-    sob seus pÃ©s e sinais de fogo aqui e ali.  Ã\x89 quase como se a vida vegetal\n\
+    sob seus pés e sinais de fogo aqui e ali.  Ã\x89 quase como se a vida vegetal\n\
     evitasse este lugar.  Uma neblina difusa paira por todos os lados,\nobscurecendo\
     \ sua visão do resto do bosque.\nUm pequeno caminho leva a norte para uma estrutura\
     \ difusa.  Todas as\noutras saídas estão envoltas na neblina."
   exits:
     east:
-      target_vnum: '2506'
+      target_vnum: '01010252506'
     north:
-      target_vnum: '2512'
+      target_vnum: '01010252512'
     south:
-      target_vnum: '2502'
+      target_vnum: '01010252502'
     west:
-      target_vnum: '2510'
+      target_vnum: '01010252510'
+  local_id: '2511'
   name: Uma Pequena Clareira
-  vnum: '2511'
+  vnum: '01010252511'
 - description: |-
     Você chegou à entrada da Alta Torre da Magia.  A torre se ergue diante
     de você, alcançando uma altura incrível.  Ela parece desaparecer em meio às
@@ -206,9 +220,10 @@
     desapareceu às suas costas.
   exits:
     north:
-      target_vnum: '2513'
+      target_vnum: '01010252513'
+  local_id: '2512'
   name: A Entrada da Alta Torre
-  vnum: '2512'
+  vnum: '01010252512'
 - description: |-
     Você está dentro da Alta Torre da Magia.  A vista é realmente fantástica.
     Vendo daqui, é óbvio que, de algum modo, a torre é muito maior por dentro
@@ -218,15 +233,16 @@
     leste para um modesto corredor e a sul, de volta ao portão.
   exits:
     east:
-      target_vnum: '2515'
+      target_vnum: '01010252515'
     north:
-      target_vnum: '2514'
+      target_vnum: '01010252514'
     south:
-      target_vnum: '2512'
+      target_vnum: '01010252512'
     west:
-      target_vnum: '2516'
+      target_vnum: '01010252516'
+  local_id: '2513'
   name: Dentro da Alta Torre da Magia
-  vnum: '2513'
+  vnum: '01010252513'
 - description: |-
     Você está na sala comum.  Há muitos aprendizes de conjuradores falando,
     descansando, jogando jogos e comparando notas por aqui.  Obviamente, eles
@@ -235,25 +251,27 @@
     Há saídas levando para todas as direções.
   exits:
     east:
-      target_vnum: '2518'
+      target_vnum: 01010252518
     north:
-      target_vnum: '2517'
+      target_vnum: '01010252517'
     south:
-      target_vnum: '2513'
+      target_vnum: '01010252513'
     west:
-      target_vnum: '2519'
+      target_vnum: 01010252519
+  local_id: '2514'
   name: A Sala Comum
-  vnum: '2514'
+  vnum: '01010252514'
 - description: |-
     Você está num longo corredor, ele lhe parece bastante normal.  O corredor
     continua a leste e de volta, a oeste.
   exits:
     east:
-      target_vnum: '2530'
+      target_vnum: '01010252530'
     west:
-      target_vnum: '2513'
+      target_vnum: '01010252513'
+  local_id: '2515'
   name: Um Corredor
-  vnum: '2515'
+  vnum: '01010252515'
 - description: |-
     Você está na área de jantar dos estudantes de magia.  Pelo número de
     Mesas e cadeiras, você pode concluir que esta sala poderia facilmente
@@ -262,11 +280,12 @@
     As saídas levam a oeste, para a cozinha e de volta a leste.
   exits:
     east:
-      target_vnum: '2513'
+      target_vnum: '01010252513'
     west:
-      target_vnum: '2520'
+      target_vnum: '01010252520'
+  local_id: '2516'
   name: A Sala de Jantar
-  vnum: '2516'
+  vnum: '01010252516'
 - description: |-
     Você está num corredor sombrio.  Aparentemente, esta área é raramente
     usada pelos ocupantes habituais da torre.  Há poeira cobrindo o chão por
@@ -274,11 +293,12 @@
     O tênue contorno de um alçapão pode ser visto em meio à poeira.
   exits:
     down:
-      target_vnum: '2521'
+      target_vnum: '01010252521'
     south:
-      target_vnum: '2514'
+      target_vnum: '01010252514'
+  local_id: '2517'
   name: Um Corredor Sombrio
-  vnum: '2517'
+  vnum: '01010252517'
 - description: |-
     Você está na taverna dos magos.  O ar é esfumaçado e cheio dos aromas de
     comidas e bebidas diferentes.  Os outros ocupantes da taverna prestam pouca
@@ -287,18 +307,20 @@
     A única saída leva de volta a oeste.
   exits:
     west:
-      target_vnum: '2514'
+      target_vnum: '01010252514'
+  local_id: '2518'
   name: A Taverna dos Magos
-  vnum: '2518'
+  vnum: 01010252518
 - description: |-
     Você está na loja de magia da Alta Torre.  Este lugar vende todos os
     tipos de ervas, pergaminhos e outros reagentes usados em estudos mágicos.
     A única saída leva de volta a leste, para a sala comum.
   exits:
     east:
-      target_vnum: '2514'
+      target_vnum: '01010252514'
+  local_id: '2519'
   name: A Loja de Magia
-  vnum: '2519'
+  vnum: 01010252519
 - description: |-
     Você está numa pequena cozinha.  Todos os tipos de utensílios e
     equipamentos normais de uma cozinha estão aqui, incluindo alguns não tão
@@ -310,9 +332,10 @@
     uma prateleira de especiarias.
   exits:
     east:
-      target_vnum: '2516'
+      target_vnum: '01010252516'
+  local_id: '2520'
   name: A Cozinha
-  vnum: '2520'
+  vnum: '01010252520'
 - description: |-
     Você está sob o alçapão.  Está bastante escuro e empoeirado aqui, muito
     pouca luz penetra o teto, vinda de cima.  Um tênue som de gotejo de água
@@ -320,11 +343,12 @@
     Uma escada de corda leva para baixo.
   exits:
     down:
-      target_vnum: '2522'
+      target_vnum: '01010252522'
     up:
-      target_vnum: '2517'
+      target_vnum: '01010252517'
+  local_id: '2521'
   name: Sob O Alçapão
-  vnum: '2521'
+  vnum: '01010252521'
 - description: |-
     Você está numa úmida interseção do que parece ser o porão da torre.  O
     som de água corrente pode ser ouvido vindo do sul, além disso, um silêncio
@@ -332,28 +356,30 @@
     Galerias levam para todas as direções e uma escada leva para cima.
   exits:
     east:
-      target_vnum: '2524'
+      target_vnum: '01010252524'
     north:
-      target_vnum: '2523'
+      target_vnum: '01010252523'
     south:
-      target_vnum: '2525'
+      target_vnum: '01010252525'
     up:
-      target_vnum: '2521'
+      target_vnum: '01010252521'
     west:
-      target_vnum: '2526'
-  name: "Uma Ã\x9Amida InterseÃ§Ã£o"
-  vnum: '2522'
+      target_vnum: '01010252526'
+  local_id: '2522'
+  name: "Uma Ã\x9Amida Interseção"
+  vnum: '01010252522'
 - description: |-
     Você está no fim de uma galeria escura, que termina numa sólida porta de
     madeira.  Além da porta, a única saída aparente é voltar pelo caminho por
     onde você veio.
   exits:
     north:
-      target_vnum: '2527'
+      target_vnum: '01010252527'
     south:
-      target_vnum: '2522'
+      target_vnum: '01010252522'
+  local_id: '2523'
   name: Uma Galeria Escura
-  vnum: '2523'
+  vnum: '01010252523'
 - description: |-
     Você está no fim de uma galeria escura.  Uma porta entreaberta está a
     leste, deixando vazar uma luz suave pelas bordas.  Tênues sons de roncos
@@ -361,11 +387,12 @@
     Saídas levam a leste pela porta, ou de volta a oeste.
   exits:
     east:
-      target_vnum: '2528'
+      target_vnum: 01010252528
     west:
-      target_vnum: '2522'
+      target_vnum: '01010252522'
+  local_id: '2524'
   name: Uma Galeria Escura
-  vnum: '2524'
+  vnum: '01010252524'
 - description: |-
     Você está à borda de um lago de água estagnada.  O odor aqui é bastante
     nauseante.  Parece ser aqui o lugar onde os ocupantes da torre jogam seus
@@ -375,19 +402,21 @@
     dentro do lago.
   exits:
     down:
-      target_vnum: '2529'
+      target_vnum: 01010252529
     north:
-      target_vnum: '2522'
+      target_vnum: '01010252522'
+  local_id: '2525'
   name: O Lago Estagnado
-  vnum: '2525'
+  vnum: '01010252525'
 - description: "Você está numa galeria escura, que chega a um súbito fim no que parece\n\
-    ser um desmoronamento a oeste.  Ã\x89 certamente intransponÃ­vel e talvez\nbastante\
+    ser um desmoronamento a oeste.  Ã\x89 certamente intransponível e talvez\nbastante\
     \ perigoso ficar tão perto.\nA única saída leva de volta a leste."
   exits:
     east:
-      target_vnum: '2522'
+      target_vnum: '01010252522'
+  local_id: '2526'
   name: Uma Galeria Escura
-  vnum: '2526'
+  vnum: '01010252526'
 - description: |-
     Você está numa cela escura.  Sujeira e palha cobrem o chão deste lugar, é
     bastante escuro.  Alguém, ou alguma coisa, parece estar acorrentado à parede
@@ -395,9 +424,10 @@
     A única saída é voltar ao sul.
   exits:
     south:
-      target_vnum: '2523'
+      target_vnum: '01010252523'
+  local_id: '2527'
   name: Uma Cela Escura
-  vnum: '2527'
+  vnum: '01010252527'
 - description: |-
     Você está na sala do Carcereiro.  Está um tanto quanto bagunçado por
     aqui.  Julgando pela habilidade que o Carcereiro demonstra, de dormir em
@@ -406,9 +436,10 @@
     A única saída leva de volta ao oeste.
   exits:
     west:
-      target_vnum: '2524'
+      target_vnum: '01010252524'
+  local_id: '2528'
   name: O Escritório do Carcereiro
-  vnum: '2528'
+  vnum: 01010252528
 - description: |-
     A medida que você mergulha nas águas pútridas, você sente um forte puxão
     e um redemoinho lhe arrasta para baixo.  Você é sugado para a escuridão.
@@ -416,45 +447,49 @@
     sente que sua vida está se esvaindo, você nota uma mudança de direção... e
     é sugado por uma corrente mais forte.
   exits: {}
+  local_id: '2529'
   name: Sob O Lago Estagnado
-  vnum: '2529'
+  vnum: 01010252529
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico fornece luz suficiente para se ver o caminho.
   exits:
     east:
-      target_vnum: '2531'
+      target_vnum: '01010252531'
     north:
-      target_vnum: '2532'
+      target_vnum: '01010252532'
     south:
-      target_vnum: '2533'
+      target_vnum: '01010252533'
     west:
-      target_vnum: '2515'
+      target_vnum: '01010252515'
+  local_id: '2530'
   name: Um Corredor
-  vnum: '2530'
+  vnum: '01010252530'
 - description: |-
     Você está numa curva do corredor. As paredes emitem um tênue brilho
     mágico que fornece luz suficiente para se ver o caminho.
   exits:
     east:
-      target_vnum: '2536'
+      target_vnum: '01010252536'
     north:
-      target_vnum: '2534'
+      target_vnum: '01010252534'
     south:
-      target_vnum: '2535'
+      target_vnum: '01010252535'
     west:
-      target_vnum: '2530'
+      target_vnum: '01010252530'
+  local_id: '2531'
   name: Uma Curva No Corredor
-  vnum: '2531'
+  vnum: '01010252531'
 - description: |-
     Você está num pequeno depósito.  Várias coisas estranhas e sem utilidade
     aparente estão empilhadas em prateleiras e encostadas nas paredes.
     A única saída aparente é voltar para o sul.
   exits:
     south:
-      target_vnum: '2530'
+      target_vnum: '01010252530'
+  local_id: '2532'
   name: Um Depósito
-  vnum: '2532'
+  vnum: '01010252532'
 - description: |-
     Você está num escuros armário de vassouras.  Muitas vassouras de palha e
     outros instrumentos de limpeza foram deixados aqui, aparentemente intocados
@@ -462,29 +497,32 @@
     A saída leva de volta ao norte, para o corredor.
   exits:
     north:
-      target_vnum: '2530'
+      target_vnum: '01010252530'
+  local_id: '2533'
   name: Um Armário de Vassouras
-  vnum: '2533'
+  vnum: '01010252533'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     east:
-      target_vnum: '2537'
+      target_vnum: '01010252537'
     north:
-      target_vnum: '2538'
+      target_vnum: 01010252538
     south:
-      target_vnum: '2531'
+      target_vnum: '01010252531'
+  local_id: '2534'
   name: Um Corredor
-  vnum: '2534'
-- description: "VocÃª estÃ¡ na cÃ¢mara dos guardiÃµes da torre.  Ã\x89 esparsamente\
-    \ mobiliada,\nmas parece que os estranhos ocupantes não precisam de mobília. Aqui\
-    \ e ali\num par de mãos sem corpo esvoaçam."
+  vnum: '01010252534'
+- description: "Você está na câmara dos guardiões da torre.  Ã\x89 esparsamente mobiliada,\n\
+    mas parece que os estranhos ocupantes não precisam de mobília. Aqui e ali\num\
+    \ par de mãos sem corpo esvoaçam."
   exits:
     north:
-      target_vnum: '2531'
+      target_vnum: '01010252531'
+  local_id: '2535'
   name: A Câmara do Guardião
-  vnum: '2535'
+  vnum: '01010252535'
 - description: |-
     Você está num pequeno quarto de hóspedes.  Um pequeno catre ocupa um dos
     cantos e um espelho empoeirado, uma parede.  Além disso, o quarto parece ser
@@ -492,9 +530,10 @@
     A única saída aparente leva a oeste, de volta ao corredor.
   exits:
     west:
-      target_vnum: '2531'
+      target_vnum: '01010252531'
+  local_id: '2536'
   name: Um Quarto de Hóspedes
-  vnum: '2536'
+  vnum: '01010252536'
 - description: |-
     Você está num quarto aparentemente confortável.  Um pequeno globo de
     energia mágica flutua acima de sua cabeça, provendo luz.  Um pequeno catre
@@ -503,22 +542,24 @@
     A única saída aparente leva a oeste, de volta ao corredor.
   exits:
     west:
-      target_vnum: '2534'
+      target_vnum: '01010252534'
+  local_id: '2537'
   name: Um Quarto de Hóspedes
-  vnum: '2537'
+  vnum: '01010252537'
 - description: |-
     Você está num longo corredor vindo do sul.  As paredes emitem um tênue
     brilho mágico que fornece luz suficiente para se ver o caminho.
     Escadas levam para cima e o corredor, de volta para o sul.
   exits:
     east:
-      target_vnum: '2539'
+      target_vnum: 01010252539
     south:
-      target_vnum: '2534'
+      target_vnum: '01010252534'
     up:
-      target_vnum: '2540'
+      target_vnum: '01010252540'
+  local_id: '2538'
   name: Um Corredor
-  vnum: '2538'
+  vnum: 01010252538
 - description: |-
     Você está no que parece ter sido um quarto de hóspedes.  As paredes estão
     enegrecidas e queimadas pelo que você imagina ter sido fogo mágico. Não há
@@ -526,9 +567,10 @@
     A única saída leva a oeste, de volta ao corredor.
   exits:
     west:
-      target_vnum: '2538'
+      target_vnum: 01010252538
+  local_id: '2539'
   name: O Quarto Queimado
-  vnum: '2539'
+  vnum: 01010252539
 - description: |-
     Você está num longo corredor levando a oeste daqui.  As paredes emitem um
     tênue brilho mágico que fornece luz suficiente para se ver o caminho.  Algo
@@ -536,15 +578,16 @@
     O corredor continua a oeste e escadas levam para baixo.
   exits:
     down:
-      target_vnum: '2538'
+      target_vnum: 01010252538
     east:
-      target_vnum: '2541'
+      target_vnum: '01010252541'
     north:
-      target_vnum: '2542'
+      target_vnum: '01010252542'
     west:
-      target_vnum: '2543'
+      target_vnum: '01010252543'
+  local_id: '2540'
   name: Um Corredor
-  vnum: '2540'
+  vnum: '01010252540'
 - description: |-
     Você está num pequeno beco sem saída.  Uma janela a leste permite a
     entrada do luar e uma agradável brisa.  Pela janela, os campos à volta da
@@ -552,20 +595,22 @@
     A única saída aparente leva de volta a oeste para o corredor.
   exits:
     west:
-      target_vnum: '2540'
+      target_vnum: '01010252540'
+  local_id: '2541'
   name: Um Beco Sem Saída
-  vnum: '2541'
+  vnum: '01010252541'
 - description: |-
     Você está nos alojamentos dos magos aprendizes.  Aqui e ali, um jovem
     aprendiz se encontra sentado, absorto em estudos mágicos, ou praticando uma
     fraca rotina mágica.  Catres se alinham às paredes e a sala segue a oeste.
   exits:
     south:
-      target_vnum: '2540'
+      target_vnum: '01010252540'
     west:
-      target_vnum: '2544'
+      target_vnum: '01010252544'
+  local_id: '2542'
   name: O Alojamento dos Aprendizes
-  vnum: '2542'
+  vnum: '01010252542'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
@@ -573,37 +618,40 @@
     leste.
   exits:
     east:
-      target_vnum: '2540'
+      target_vnum: '01010252540'
     north:
-      target_vnum: '2544'
+      target_vnum: '01010252544'
     west:
-      target_vnum: '2545'
+      target_vnum: '01010252545'
+  local_id: '2543'
   name: Um Corredor
-  vnum: '2543'
+  vnum: '01010252543'
 - description: |-
     Você está nos alojamentos dos magos aprendizes.  Aqui e ali, um jovem
     aprendiz se encontra sentado, absorto em estudos mágicos, ou praticando uma
     fraca rotina mágica.  Catres se alinham às paredes e a sala segue a leste.
   exits:
     east:
-      target_vnum: '2542'
+      target_vnum: '01010252542'
     south:
-      target_vnum: '2543'
+      target_vnum: '01010252543'
+  local_id: '2544'
   name: O Alojamento dos Aprendizes
-  vnum: '2544'
+  vnum: '01010252544'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     Um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Flashes de luz podem ser vistos por sob a porta ao norte.
   exits:
     east:
-      target_vnum: '2543'
+      target_vnum: '01010252543'
     north:
-      target_vnum: '2546'
+      target_vnum: '01010252546'
     west:
-      target_vnum: '2547'
+      target_vnum: '01010252547'
+  local_id: '2545'
   name: Um Corredor
-  vnum: '2545'
+  vnum: '01010252545'
 - description: |-
     Você está numa pequena oficina.  Utensílios de escrita e pergaminhos
     estão espalhados sobre algumas mesas de trabalho.  No canto mais distante,
@@ -612,33 +660,36 @@
     A única saída aparente leva de volta ao sul, para o corredor.
   exits:
     south:
-      target_vnum: '2545'
+      target_vnum: '01010252545'
+  local_id: '2546'
   name: A Oficina dos Aprendizes
-  vnum: '2546'
+  vnum: '01010252546'
 - description: |-
     Você está numa curva do corredor.  As paredes emitem um tênue brilho
     mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua a sul e de volta ao leste.
   exits:
     east:
-      target_vnum: '2545'
+      target_vnum: '01010252545'
     south:
-      target_vnum: '2548'
+      target_vnum: 01010252548
+  local_id: '2547'
   name: Uma Curva No Corredor
-  vnum: '2547'
+  vnum: '01010252547'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem um
     tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Há uma porta de metal a oeste.
   exits:
     north:
-      target_vnum: '2547'
+      target_vnum: '01010252547'
     south:
-      target_vnum: '2550'
+      target_vnum: '01010252550'
     west:
-      target_vnum: '2549'
+      target_vnum: 01010252549
+  local_id: '2548'
   name: O Corredor
-  vnum: '2548'
+  vnum: 01010252548
 - description: |-
     Você está numa grande sala de aula cheia de entediados estudantes da
     arte da magia.  Com sua entrada, o instrutor interrompe sua aula sobre os
@@ -646,33 +697,36 @@
     A única saída aparente é para o leste, de volta para o corredor.
   exits:
     east:
-      target_vnum: '2548'
+      target_vnum: 01010252548
+  local_id: '2549'
   name: Uma Sala de Aula
-  vnum: '2549'
+  vnum: 01010252549
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     Um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2548'
+      target_vnum: 01010252548
     south:
-      target_vnum: '2551'
+      target_vnum: '01010252551'
     west:
-      target_vnum: '2552'
+      target_vnum: '01010252552'
+  local_id: '2550'
   name: Um Corredor
-  vnum: '2550'
+  vnum: '01010252550'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     Um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2550'
+      target_vnum: '01010252550'
     south:
-      target_vnum: '2553'
+      target_vnum: '01010252553'
     west:
-      target_vnum: '2554'
+      target_vnum: '01010252554'
+  local_id: '2551'
   name: Um Corredor
-  vnum: '2551'
+  vnum: '01010252551'
 - description: |-
     Você está numa sala de aula vazia.  Algumas runas estranhas estão
     escritas num quadro-negro que está flutuando no ar.  Além de algumas mesas,
@@ -680,20 +734,22 @@
     A única saída aparente leva ao leste, de volta ao corredor.
   exits:
     east:
-      target_vnum: '2550'
+      target_vnum: '01010252550'
+  local_id: '2552'
   name: Uma Sala de Aula Vazia
-  vnum: '2552'
+  vnum: '01010252552'
 - description: |-
     Você está numa curva do corredor.  As paredes emitem um tênue brilho
     mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua a leste e ao norte.
   exits:
     east:
-      target_vnum: '2555'
+      target_vnum: '01010252555'
     north:
-      target_vnum: '2551'
+      target_vnum: '01010252551'
+  local_id: '2553'
   name: Uma Curva No Corredor
-  vnum: '2553'
+  vnum: '01010252553'
 - description: |-
     Você está numa sala de aula aparentemente vazia.  Você tem uma estranha
     sensação de estar sendo observado, e pode escutar um fraco som de robes
@@ -701,35 +757,38 @@
     A única saída aparente é para o leste, de volta ao corredor.
   exits:
     east:
-      target_vnum: '2551'
+      target_vnum: '01010252551'
+  local_id: '2554'
   name: Um Sala de Aula Vazia
-  vnum: '2554'
+  vnum: '01010252554'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de ferro compacto pode ser vista para o sul.
   exits:
     east:
-      target_vnum: '2556'
+      target_vnum: '01010252556'
     south:
-      target_vnum: '2557'
+      target_vnum: '01010252557'
     west:
-      target_vnum: '2553'
+      target_vnum: '01010252553'
+  local_id: '2555'
   name: Um Corredor
-  vnum: '2555'
+  vnum: '01010252555'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Há uma grande porta de carvalho ao sul.
   exits:
     east:
-      target_vnum: '2558'
+      target_vnum: 01010252558
     south:
-      target_vnum: '2559'
+      target_vnum: 01010252559
     west:
-      target_vnum: '2555'
+      target_vnum: '01010252555'
+  local_id: '2556'
   name: Um Corredor
-  vnum: '2556'
+  vnum: '01010252556'
 - description: |-
     Você esta num pequeno anfiteatro.  Fileiras de cadeiras aparentemente
     confortáveis circundam um grande pódio.  Os ecos de seus passos soam com
@@ -737,42 +796,46 @@
     A única saída aparente leva a norte, para o corredor.
   exits:
     north:
-      target_vnum: '2555'
+      target_vnum: '01010252555'
+  local_id: '2557'
   name: O Anfiteatro
-  vnum: '2557'
+  vnum: '01010252557'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma pequena porta pode ser vista a sul.
   exits:
     east:
-      target_vnum: '2560'
+      target_vnum: '01010252560'
     south:
-      target_vnum: '2561'
+      target_vnum: '01010252561'
     west:
-      target_vnum: '2556'
+      target_vnum: '01010252556'
+  local_id: '2558'
   name: Um Corredor
-  vnum: '2558'
+  vnum: 01010252558
 - description: |-
     Você está numa grande sala de treinamento.  Está cheia de bonecos cheios
     de marcas de batalha, além de muitos outros aparatos usados para treinar
     técnicas de combate.
   exits:
     north:
-      target_vnum: '2556'
+      target_vnum: '01010252556'
+  local_id: '2559'
   name: A Sala de Treinamento
-  vnum: '2559'
+  vnum: 01010252559
 - description: |-
     Você está numa curva do corredor.  As paredes emitem um tênue brilho
     mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua a norte e a oeste.
   exits:
     north:
-      target_vnum: '2562'
+      target_vnum: '01010252562'
     west:
-      target_vnum: '2558'
+      target_vnum: 01010252558
+  local_id: '2560'
   name: Uma Curva no Corredor
-  vnum: '2560'
+  vnum: '01010252560'
 - description: |-
     Você está numa grande sala usada para duelos arcanos.  As paredes, piso e
     teto, apesar de marcados por muitos feitiços flamejantes, ainda parecer ser
@@ -780,35 +843,38 @@
     A única saída aparente leva a norte, para o corredor.
   exits:
     north:
-      target_vnum: '2558'
+      target_vnum: 01010252558
+  local_id: '2561'
   name: Uma Sala de Duelo
-  vnum: '2561'
+  vnum: '01010252561'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma entrada pode ser vista ao leste.
   exits:
     east:
-      target_vnum: '2564'
+      target_vnum: '01010252564'
     north:
-      target_vnum: '2563'
+      target_vnum: '01010252563'
     south:
-      target_vnum: '2560'
+      target_vnum: '01010252560'
+  local_id: '2562'
   name: Um Corredor
-  vnum: '2562'
+  vnum: '01010252562'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de madeira pode ser vista a leste.
   exits:
     east:
-      target_vnum: '2565'
+      target_vnum: '01010252565'
     north:
-      target_vnum: '2566'
+      target_vnum: '01010252566'
     south:
-      target_vnum: '2562'
+      target_vnum: '01010252562'
+  local_id: '2563'
   name: Um Corredor
-  vnum: '2563'
+  vnum: '01010252563'
 - description: |-
     Você está numa grande e confortável sala de estar.  Professores de magia
     em período livre estão aqui relaxando até a próxima aula.  Uma grande
@@ -816,9 +882,10 @@
     A única saída aparente leva a oeste, de volta ao corredor.
   exits:
     west:
-      target_vnum: '2562'
+      target_vnum: '01010252562'
+  local_id: '2564'
   name: A Sala de Descanso dos Mestres
-  vnum: '2564'
+  vnum: '01010252564'
 - description: |-
     Você está num grande quarto de pelúcia.  O dono obviamente é alguém de
     Grande importância na comunidade local de magos.  Um espelho de gelo está
@@ -827,22 +894,24 @@
     A única saída leva a oeste, de volta ao corredor.
   exits:
     west:
-      target_vnum: '2563'
+      target_vnum: '01010252563'
+  local_id: '2565'
   name: Um Quarto
-  vnum: '2565'
+  vnum: '01010252565'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de vidro pode ser vista a leste.
   exits:
     east:
-      target_vnum: '2567'
+      target_vnum: '01010252567'
     north:
-      target_vnum: '2568'
+      target_vnum: 01010252568
     south:
-      target_vnum: '2563'
+      target_vnum: '01010252563'
+  local_id: '2566'
   name: Um Corredor
-  vnum: '2566'
+  vnum: '01010252566'
 - description: |-
     Você está num pequeno estúdio bem cuidado.  Tomos antigos estão em
     prateleiras nas paredes.  Uma mesa enorme se encontra no meio da sala, com
@@ -851,9 +920,10 @@
     A única saída aparente leva de volta a oeste, para o corredor.
   exits:
     west:
-      target_vnum: '2566'
+      target_vnum: '01010252566'
+  local_id: '2567'
   name: O Estúdio
-  vnum: '2567'
+  vnum: '01010252567'
 - description: |-
     Você está no fim de um longo corredor.  As paredes emitem um tênue brilho
     mágico que fornece luz suficiente para se ver o caminho.  Um guardião menor
@@ -861,11 +931,12 @@
     Degraus levam para cima e o corredor segue de volta para o sul.
   exits:
     south:
-      target_vnum: '2566'
+      target_vnum: '01010252566'
     up:
-      target_vnum: '2569'
+      target_vnum: 01010252569
+  local_id: '2568'
   name: Sob A Escadaria
-  vnum: '2568'
+  vnum: 01010252568
 - description: |-
     Você está no topo da escadaria.  Estas salas parecem um pouco menos
     usadas do que aquelas abaixo.  Obviamente, o acesso a estes corredores que
@@ -874,11 +945,12 @@
     O corredor leva a oeste daqui e degraus seguem para baixo.
   exits:
     down:
-      target_vnum: '2568'
+      target_vnum: 01010252568
     west:
-      target_vnum: '2570'
+      target_vnum: '01010252570'
+  local_id: '2569'
   name: O Topo da Escadaria
-  vnum: '2569'
+  vnum: 01010252569
 - description: |-
     Você está num longo corredor que se estende de leste a oeste.  As paredes
     emitem uma tênue energia mágica, que fornece luz suficiente para se ver o
@@ -886,13 +958,14 @@
     A uma porta de madeira aparentemente espessa ao norte.
   exits:
     east:
-      target_vnum: '2569'
+      target_vnum: 01010252569
     north:
-      target_vnum: '2571'
+      target_vnum: '01010252571'
     west:
-      target_vnum: '2572'
+      target_vnum: '01010252572'
+  local_id: '2570'
   name: Um Corredor
-  vnum: '2570'
+  vnum: '01010252570'
 - description: |-
     Você está num pequeno escritório.  Parece mais um estúdio de um
     calígrafo, há penas, tinteiros e pergaminhos espalhados sobre as mesas e
@@ -901,21 +974,23 @@
     bruxeleante de uma vela pode ser vista por detrás da cortina.
   exits:
     south:
-      target_vnum: '2570'
+      target_vnum: '01010252570'
     west:
-      target_vnum: '2573'
+      target_vnum: '01010252573'
+  local_id: '2571'
   name: Um Pequeno Escritório
-  vnum: '2571'
+  vnum: '01010252571'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     east:
-      target_vnum: '2570'
+      target_vnum: '01010252570'
     west:
-      target_vnum: '2574'
+      target_vnum: '01010252574'
+  local_id: '2572'
   name: Um Corredor
-  vnum: '2572'
+  vnum: '01010252572'
 - description: |-
     Você está na oficina do mestre escrivão da torre.  Muitos pergaminhos
     meio terminados repousam sobre a escrivaninha no meio da sala. Uma vela
@@ -923,67 +998,73 @@
     A única saída aparente é voltar por onde você veio.
   exits:
     east:
-      target_vnum: '2571'
+      target_vnum: '01010252571'
+  local_id: '2573'
   name: A Oficina do Escrivão-Mor
-  vnum: '2573'
+  vnum: '01010252573'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta entreaberta pode ser vista ao norte.
   exits:
     east:
-      target_vnum: '2572'
+      target_vnum: '01010252572'
     north:
-      target_vnum: '2575'
+      target_vnum: '01010252575'
     west:
-      target_vnum: '2576'
+      target_vnum: '01010252576'
+  local_id: '2574'
   name: Um Corredor
-  vnum: '2574'
+  vnum: '01010252574'
 - description: |-
     Você está num pequeno depósito escuro.  Alguns itens comuns estão
     empilhados nas prateleiras, mas muito poucos parecem interessantes.
   exits:
     south:
-      target_vnum: '2574'
+      target_vnum: '01010252574'
+  local_id: '2575'
   name: Um Depósito
-  vnum: '2575'
+  vnum: '01010252575'
 - description: |-
     Você está numa curva do longo corredor.  As paredes emitem um tênue
     brilho mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua ao sul e a leste daqui.
   exits:
     east:
-      target_vnum: '2574'
+      target_vnum: '01010252574'
     south:
-      target_vnum: '2577'
+      target_vnum: '01010252577'
+  local_id: '2576'
   name: Uma Curva No Corredor
-  vnum: '2576'
+  vnum: '01010252576'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta restrita de ferro pode ser vista a oeste.
   exits:
     north:
-      target_vnum: '2576'
+      target_vnum: '01010252576'
     south:
-      target_vnum: '2578'
+      target_vnum: 01010252578
     west:
-      target_vnum: '2579'
+      target_vnum: 01010252579
+  local_id: '2577'
   name: Um Corredor
-  vnum: '2577'
+  vnum: '01010252577'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     O som agudo de metal contra metal pode ser ouvido a oeste.
   exits:
     north:
-      target_vnum: '2577'
+      target_vnum: '01010252577'
     south:
-      target_vnum: '2580'
+      target_vnum: 01010252580
     west:
-      target_vnum: '2581'
+      target_vnum: 01010252581
+  local_id: '2578'
   name: Um Corredor
-  vnum: '2578'
+  vnum: 01010252578
 - description: |-
     Você está num grande depósito.  Caixas de minerais, minérios e outros
     materiais raros estão aqui, junto com várias pilhas bem arrumadas de metais
@@ -991,21 +1072,23 @@
     grande armário com runas de proteção está aparafusado numa parede.
   exits:
     east:
-      target_vnum: '2577'
+      target_vnum: '01010252577'
     south:
-      target_vnum: '2581'
+      target_vnum: 01010252581
+  local_id: '2579'
   name: Um Depósito
-  vnum: '2579'
+  vnum: 01010252579
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2578'
+      target_vnum: 01010252578
     south:
-      target_vnum: '2583'
+      target_vnum: 01010252583
+  local_id: '2580'
   name: Um Corredor
-  vnum: '2580'
+  vnum: 01010252580
 - description: |-
     Você está numa sala muito quente.  Contra uma das paredes está uma grande
     forja,  chamas mágicas crepitam ali dentro e uma espessa fumaça azul escapa
@@ -1015,15 +1098,16 @@
     suspensa por alguma força própria.
   exits:
     east:
-      target_vnum: '2578'
+      target_vnum: 01010252578
     north:
-      target_vnum: '2579'
+      target_vnum: 01010252579
     south:
-      target_vnum: '2582'
+      target_vnum: 01010252582
     up:
-      target_vnum: '2612'
+      target_vnum: '01010252612'
+  local_id: '2581'
   name: Uma Sala Muito Quente
-  vnum: '2581'
+  vnum: 01010252581
 - description: |-
     Você entrou na câmara do Mestre Encantador.  Sobre todas as paredes
     estão estantes de armas finamente forjadas.  Um baú enorme com um cadeado
@@ -1031,43 +1115,47 @@
     pequena mesa de trabalho.
   exits:
     north:
-      target_vnum: '2581'
+      target_vnum: 01010252581
+  local_id: '2582'
   name: A Câmara do Mestre Encantador
-  vnum: '2582'
+  vnum: 01010252582
 - description: |-
     Você está numa curva do longo corredor.  As paredes emitem um tênue
     brilho mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua para o norte e para o leste.
   exits:
     east:
-      target_vnum: '2584'
+      target_vnum: 01010252584
     north:
-      target_vnum: '2580'
+      target_vnum: 01010252580
+  local_id: '2583'
   name: Uma Curva No Corredor
-  vnum: '2583'
+  vnum: 01010252583
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de aço pode ser vista ao sul.
   exits:
     east:
-      target_vnum: '2585'
+      target_vnum: 01010252585
     south:
-      target_vnum: '2586'
+      target_vnum: 01010252586
     west:
-      target_vnum: '2583'
+      target_vnum: 01010252583
+  local_id: '2584'
   name: Um Corredor
-  vnum: '2584'
+  vnum: 01010252584
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     east:
-      target_vnum: '2587'
+      target_vnum: 01010252587
     west:
-      target_vnum: '2584'
+      target_vnum: 01010252584
+  local_id: '2585'
   name: Um Corredor
-  vnum: '2585'
+  vnum: 01010252585
 - description: |-
     Você está num pequeno laboratório.  Muitos instrumentos estranhos, tubos
     de ensaio, garrafas e algumas anotações rabiscadas estão empilhados sobre
@@ -1076,24 +1164,26 @@
     As únicas saídas aparentes levam a leste e a norte.
   exits:
     east:
-      target_vnum: '2588'
+      target_vnum: 01010252588
     north:
-      target_vnum: '2584'
+      target_vnum: 01010252584
+  local_id: '2586'
   name: Um Laboratório
-  vnum: '2586'
+  vnum: 01010252586
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Você pode ver uma porta de aço ao sul.
   exits:
     east:
-      target_vnum: '2589'
+      target_vnum: 01010252589
     south:
-      target_vnum: '2590'
+      target_vnum: 01010252590
     west:
-      target_vnum: '2585'
+      target_vnum: 01010252585
+  local_id: '2587'
   name: Um Corredor
-  vnum: '2587'
+  vnum: 01010252587
 - description: |-
     Você está na sala de trabalho do Alquimista Louco.  Braseiros
     borbulhantes, longos tubos de vidro e suportes com garrafas e tubos de
@@ -1103,113 +1193,124 @@
     A única saída aparente é aquela por onde você entrou.
   exits:
     west:
-      target_vnum: '2586'
+      target_vnum: 01010252586
+  local_id: '2588'
   name: A Sala de Trabalho do Alquimista Louco
-  vnum: '2588'
+  vnum: 01010252588
 - description: |-
     Você está numa curva do longo corredor.  As paredes emitem um tênue
     brilho mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua para o norte e para oeste.
   exits:
     north:
-      target_vnum: '2591'
+      target_vnum: 01010252591
     west:
-      target_vnum: '2587'
+      target_vnum: 01010252587
+  local_id: '2589'
   name: Uma Curva No Corredor
-  vnum: '2589'
+  vnum: 01010252589
 - description: |-
     Você está numa grande sala com uma estrela de cinco pontas gravada no
     chão.  Um campo de energia crepitante pode ser visto ao sul, parece ser
     bastante perigoso.
   exits:
     north:
-      target_vnum: '2587'
+      target_vnum: 01010252587
     south:
-      target_vnum: '2592'
+      target_vnum: 01010252592
+  local_id: '2590'
   name: A Câmara do Pentagrama
-  vnum: '2590'
+  vnum: 01010252590
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de bronze pode ser vista a leste.
   exits:
     east:
-      target_vnum: '2594'
+      target_vnum: 01010252594
     north:
-      target_vnum: '2593'
+      target_vnum: 01010252593
     south:
-      target_vnum: '2589'
+      target_vnum: 01010252589
+  local_id: '2591'
   name: Um Corredor
-  vnum: '2591'
+  vnum: 01010252591
 - description: |-
     Você sente seu estômago se revirar enquanto entra no campo de energia.
     Boa viagem!  Agora é só esperar até que o mago que construiu esta armadilha
     Volte para aprisionar sua alma, como fez com seu corpo.
   exits: {}
+  local_id: '2592'
   name: Dentro do Campo de Energia
-  vnum: '2592'
+  vnum: 01010252592
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de bronze pode ser vista a leste.
   exits:
     east:
-      target_vnum: '2595'
+      target_vnum: 01010252595
     north:
-      target_vnum: '2596'
+      target_vnum: 01010252596
     south:
-      target_vnum: '2591'
+      target_vnum: 01010252591
+  local_id: '2593'
   name: Um Corredor
-  vnum: '2593'
+  vnum: 01010252593
 - description: |-
     Você está numa sala vazia.  Ela é bastante calma e confortável.  Parece
     um lugar seguro para descansar.
   exits:
     west:
-      target_vnum: '2591'
+      target_vnum: 01010252591
+  local_id: '2594'
   name: Uma Sala Vazia
-  vnum: '2594'
+  vnum: 01010252594
 - description: |-
     Você está nos aposentos do Mestre dos Feitiços da torre.  Palha e sujeira
     cobrem o chão, fazendo a sala parecer que foi usada por animais selvagens.
     Sons estranhos podem ser ouvidos vindo detrás das barras ao norte
   exits:
     north:
-      target_vnum: '2597'
+      target_vnum: 01010252597
     west:
-      target_vnum: '2593'
+      target_vnum: 01010252593
+  local_id: '2595'
   name: A Câmara do Mestre Feiticeiro
-  vnum: '2595'
+  vnum: 01010252595
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2598'
+      target_vnum: 01010252598
     south:
-      target_vnum: '2593'
+      target_vnum: 01010252593
+  local_id: '2596'
   name: Um Corredor
-  vnum: '2596'
+  vnum: 01010252596
 - description: |-
     Você está nas jaulas dos animais.  Muitos dos animais presos estão
     infelizes.  Eles certamente estão destinados a serem escravizados, ou
     usados em alguma cruel experiência mágica.
   exits:
     south:
-      target_vnum: '2595'
+      target_vnum: 01010252595
+  local_id: '2597'
   name: As Jaulas dos Animais
-  vnum: '2597'
+  vnum: 01010252597
 - description: |-
     Você está no fim de um longo corredor norte-sul.  As paredes emitem um
     tênue brilho mágico que fornece luz suficiente para se ver o caminho
     Degraus levam para o próximo andar, acima, e o corredor continua a sul
   exits:
     south:
-      target_vnum: '2596'
+      target_vnum: 01010252596
     up:
-      target_vnum: '2599'
+      target_vnum: 01010252599
+  local_id: '2598'
   name: O Fim do Corredor
-  vnum: '2598'
+  vnum: 01010252598
 - description: |-
     Você está no topo da escadaria que leva aos andares superiores da alta
     torre.  As paredes emitem um tênue brilho que fornece luz suficiente para
@@ -1217,24 +1318,26 @@
     Um corredor leva a oeste daqui, e a escadaria leva para baixo.
   exits:
     down:
-      target_vnum: '2598'
+      target_vnum: 01010252598
     west:
-      target_vnum: '2600'
+      target_vnum: '01010252600'
+  local_id: '2599'
   name: O Topo da Escadaria
-  vnum: '2599'
+  vnum: 01010252599
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de prata pode ser vista a norte.
   exits:
     east:
-      target_vnum: '2599'
+      target_vnum: 01010252599
     north:
-      target_vnum: '2601'
+      target_vnum: '01010252601'
     west:
-      target_vnum: '2604'
+      target_vnum: '01010252604'
+  local_id: '2600'
   name: Um Corredor
-  vnum: '2600'
+  vnum: '01010252600'
 - description: |-
     Você está num grande depósito.  Matérias-primas estão organizadas e
     empilhadas aqui e ali.  Muitos cajados mágicos recentemente cortados e
@@ -1242,11 +1345,12 @@
     Você pode ver uma porta de prata a oeste.
   exits:
     south:
-      target_vnum: '2600'
+      target_vnum: '01010252600'
     west:
-      target_vnum: '2602'
+      target_vnum: '01010252602'
+  local_id: '2601'
   name: Um Depósito
-  vnum: '2601'
+  vnum: '01010252601'
 - description: |-
     Você está nos aposentos do Mestre Orador.  Diferente das outras oficinas
     de natureza similar, esta é desprovida de mobília ou ferramentas.  O Mestre
@@ -1254,163 +1358,178 @@
     Uma porta de prata pode ser vista a oeste.
   exits:
     east:
-      target_vnum: '2601'
+      target_vnum: '01010252601'
     west:
-      target_vnum: '2603'
+      target_vnum: '01010252603'
+  local_id: '2602'
   name: A Câmara do Mestre Orador
-  vnum: '2602'
+  vnum: '01010252602'
 - description: |-
     Você descobriu as reservas do Mestre Orador.  Há três grandes armários
     com gravuras prateadas.  Além disso, a sala está vazia.
     Uma porta de prata pode ser vista a sul
   exits:
     east:
-      target_vnum: '2602'
+      target_vnum: '01010252602'
     south:
-      target_vnum: '2605'
+      target_vnum: '01010252605'
+  local_id: '2603'
   name: A Reserva do Mestre Orador
-  vnum: '2603'
+  vnum: '01010252603'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     east:
-      target_vnum: '2600'
+      target_vnum: '01010252600'
     west:
-      target_vnum: '2605'
+      target_vnum: '01010252605'
+  local_id: '2604'
   name: Um Corredor
-  vnum: '2604'
+  vnum: '01010252604'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de prata pode ser vista a norte.
   exits:
     east:
-      target_vnum: '2604'
+      target_vnum: '01010252604'
     north:
-      target_vnum: '2603'
+      target_vnum: '01010252603'
     west:
-      target_vnum: '2606'
+      target_vnum: '01010252606'
+  local_id: '2605'
   name: Um Corredor
-  vnum: '2605'
+  vnum: '01010252605'
 - description: |-
     Você está numa curva do longo corredor.  As paredes emitem um tênue
     brilho mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua para o leste e ao sul.
   exits:
     east:
-      target_vnum: '2605'
+      target_vnum: '01010252605'
     south:
-      target_vnum: '2607'
+      target_vnum: '01010252607'
+  local_id: '2606'
   name: Uma Curva No Corredor
-  vnum: '2606'
+  vnum: '01010252606'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2606'
+      target_vnum: '01010252606'
     south:
-      target_vnum: '2608'
+      target_vnum: 01010252608
+  local_id: '2607'
   name: Um Corredor
-  vnum: '2607'
+  vnum: '01010252607'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma velha porta enferrujada pode ser vista a oeste.
   exits:
     north:
-      target_vnum: '2607'
+      target_vnum: '01010252607'
     south:
-      target_vnum: '2613'
+      target_vnum: '01010252613'
     west:
-      target_vnum: '2609'
+      target_vnum: 01010252609
+  local_id: '2608'
   name: Um Corredor
-  vnum: '2608'
+  vnum: 01010252608
 - description: |-
     Você está na oficina do mestre dos golems.  Umas poucas formas humanóides
     ainda por terminar, feitas de modos diferentes, estão aqui.  Algumas se
     movendo, algumas não.  As formas animadas disparam para lhe atacar.
   exits:
     down:
-      target_vnum: '2612'
+      target_vnum: '01010252612'
     east:
-      target_vnum: '2608'
+      target_vnum: 01010252608
     north:
-      target_vnum: '2610'
+      target_vnum: '01010252610'
     south:
-      target_vnum: '2611'
+      target_vnum: '01010252611'
+  local_id: '2609'
   name: A Oficina do Mestre dos Golems
-  vnum: '2609'
+  vnum: 01010252609
 - description: |-
     Você está num pequeno depósito.  Pedaços grandes de barro, pedra, madeira
     e muitas outras matérias-primas estão aqui.
   exits:
     south:
-      target_vnum: '2609'
+      target_vnum: 01010252609
+  local_id: '2610'
   name: Um Depósito
-  vnum: '2610'
+  vnum: '01010252610'
 - description: |-
     Você está na câmara dos golems.  Golems feitos de todos os materiais
     imagináveis estão aqui, variando em tamanho desde um palmo de altura, até
     quase alcançar o teto.  Todos eles parecem estar dormindo.
   exits:
     north:
-      target_vnum: '2609'
+      target_vnum: 01010252609
+  local_id: '2611'
   name: A Câmara dos Golems
-  vnum: '2611'
+  vnum: '01010252611'
 - description: Está muito escuro aqui...
   exits:
     down:
-      target_vnum: '2581'
+      target_vnum: 01010252581
     up:
-      target_vnum: '2609'
+      target_vnum: 01010252609
+  local_id: '2612'
   name: Está Muito Escuro Aqui...
-  vnum: '2612'
+  vnum: '01010252612'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2608'
+      target_vnum: 01010252608
     south:
-      target_vnum: '2614'
+      target_vnum: '01010252614'
+  local_id: '2613'
   name: Um Corredor
-  vnum: '2613'
+  vnum: '01010252613'
 - description: |-
     Você está numa curva do longo corredor.  As paredes emitem um tênue
     brilho mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua a norte e leste daqui.
   exits:
     east:
-      target_vnum: '2615'
+      target_vnum: '01010252615'
     north:
-      target_vnum: '2613'
+      target_vnum: '01010252613'
+  local_id: '2614'
   name: Uma Curva No Corredor
-  vnum: '2614'
+  vnum: '01010252614'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     east:
-      target_vnum: '2616'
+      target_vnum: '01010252616'
     west:
-      target_vnum: '2614'
+      target_vnum: '01010252614'
+  local_id: '2615'
   name: Um Corredor
-  vnum: '2615'
+  vnum: '01010252615'
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de esmeralda pode ser vista a sul.
   exits:
     east:
-      target_vnum: '2619'
+      target_vnum: 01010252619
     south:
-      target_vnum: '2617'
+      target_vnum: '01010252617'
     west:
-      target_vnum: '2615'
+      target_vnum: '01010252615'
+  local_id: '2616'
   name: Um Corredor
-  vnum: '2616'
+  vnum: '01010252616'
 - description: |-
     Você está nos aposentos do Mestre das Ilusões.  As paredes estão sempre
     mudando de cor e textura, como se estivessem se reformando diante de seus
@@ -1418,11 +1537,12 @@
     pilhas, ou ao menos parecem ser tesouros...
   exits:
     north:
-      target_vnum: '2616'
+      target_vnum: '01010252616'
     west:
-      target_vnum: '2618'
+      target_vnum: 01010252618
+  local_id: '2617'
   name: A Câmara do Mestre Ilusionista
-  vnum: '2617'
+  vnum: '01010252617'
 - description: |-
     Você está no quarto do Mestre das Ilusões.  Itens e artefatos estranhos
     flutuam aqui e ali, pelo ar.  Ondas de magia poderosa podem ser sentidas por
@@ -1430,72 +1550,78 @@
     A sala parece ser muito maior do que aparenta...
   exits:
     east:
-      target_vnum: '2617'
+      target_vnum: '01010252617'
     north:
-      target_vnum: '2618'
+      target_vnum: 01010252618
     south:
-      target_vnum: '2618'
+      target_vnum: 01010252618
     west:
-      target_vnum: '2618'
+      target_vnum: 01010252618
+  local_id: '2618'
   name: Um Quarto
-  vnum: '2618'
+  vnum: 01010252618
 - description: |-
     Você está num longo corredor que vai de leste a oeste.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta de vidro pode ser vista a sul.
   exits:
     east:
-      target_vnum: '2621'
+      target_vnum: '01010252621'
     south:
-      target_vnum: '2620'
+      target_vnum: '01010252620'
     west:
-      target_vnum: '2616'
+      target_vnum: '01010252616'
+  local_id: '2619'
   name: Um Corredor
-  vnum: '2619'
+  vnum: 01010252619
 - description: |-
     Você está numa câmara de meditação.  O silêncio é enorme, afinal, você
     nem consegue ouvir seus próprios passos no chão.
     Você se sente muito pacífico.
   exits:
     north:
-      target_vnum: '2619'
+      target_vnum: 01010252619
+  local_id: '2620'
   name: A Câmara de Meditação
-  vnum: '2620'
+  vnum: '01010252620'
 - description: |-
     Você está numa curva do longo corredor.  As paredes emitem um tênue
     brilho mágico que fornece luz suficiente para se ver o caminho.
     O corredor continua a norte e a oeste daqui.
   exits:
     north:
-      target_vnum: '2622'
+      target_vnum: '01010252622'
     west:
-      target_vnum: '2619'
+      target_vnum: 01010252619
+  local_id: '2621'
   name: Uma Curva No Corredor
-  vnum: '2621'
+  vnum: '01010252621'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
     Uma porta escura pode ser vista a leste
   exits:
     east:
-      target_vnum: '2623'
+      target_vnum: '01010252623'
     north:
-      target_vnum: '2626'
+      target_vnum: '01010252626'
     south:
-      target_vnum: '2621'
+      target_vnum: '01010252621'
+  local_id: '2622'
   name: Um Corredor
-  vnum: '2622'
+  vnum: '01010252622'
 - description: |-
     Você está numa grande sala sombria.  O ar aqui parece estar viciado e uma
     sensação de pavor extremo toma conta de você.  O fedor de carne apodrecida
     parece estar emanando da passagem aberta ao norte.
   exits:
     north:
-      target_vnum: '2624'
+      target_vnum: '01010252624'
     west:
-      target_vnum: '2622'
+      target_vnum: '01010252622'
+  local_id: '2623'
   name: Uma Sala Sombria
-  vnum: '2623'
+  vnum: '01010252623'
 - description: |-
     Você está numa grande sala sombria.  O fedor que empesteia o ar faz você
     prender a respiração, nauseado.  Há partes de corpos e cadáveres meio
@@ -1504,11 +1630,12 @@
     Gritos de alguém sob tortura parecem vir do aposento ao norte.
   exits:
     north:
-      target_vnum: '2625'
+      target_vnum: '01010252625'
     south:
-      target_vnum: '2623'
+      target_vnum: '01010252623'
+  local_id: '2624'
   name: Uma Sala Sombria
-  vnum: '2624'
+  vnum: '01010252624'
 - description: |-
     Você está no lar do maligno Necromante.  Servos mortos-vivos de todos os
     tipos, humanos ou não, estão aqui esperando para seguir as ordens de seu
@@ -1516,29 +1643,32 @@
     dúvida para proteger o mestre maligno de suas próprias criações profanas.
   exits:
     south:
-      target_vnum: '2624'
+      target_vnum: '01010252624'
+  local_id: '2625'
   name: O Lar do Necromante
-  vnum: '2625'
+  vnum: '01010252625'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2627'
+      target_vnum: '01010252627'
     south:
-      target_vnum: '2622'
+      target_vnum: '01010252622'
+  local_id: '2626'
   name: Um Corredor
-  vnum: '2626'
+  vnum: '01010252626'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  As paredes emitem
     um tênue brilho mágico que fornece luz suficiente para se ver o caminho.
   exits:
     north:
-      target_vnum: '2628'
+      target_vnum: 01010252628
     south:
-      target_vnum: '2626'
+      target_vnum: '01010252626'
+  local_id: '2627'
   name: Um Corredor
-  vnum: '2627'
+  vnum: '01010252627'
 - description: |-
     Você está no fim de um longo corredor.  As paredes brilham com uma tênue
     energia mágica que fornece luz em abundância.
@@ -1546,11 +1676,12 @@
     segue para o sul.
   exits:
     south:
-      target_vnum: '2627'
+      target_vnum: '01010252627'
     up:
-      target_vnum: '2629'
+      target_vnum: 01010252629
+  local_id: '2628'
   name: O Fim do Corredor
-  vnum: '2628'
+  vnum: 01010252628
 - description: |-
     Você está no extremo leste de um longo corredor.  Paredes de obsidiana
     gravadas com antigas runas de poder se estendem diante de você.  Energias
@@ -1558,11 +1689,12 @@
     muito esquecidas, quase como se o próprio corredor estivesse vivo.
   exits:
     down:
-      target_vnum: '2628'
+      target_vnum: 01010252628
     west:
-      target_vnum: '2630'
+      target_vnum: '01010252630'
+  local_id: '2629'
   name: Um Corredor
-  vnum: '2629'
+  vnum: 01010252629
 - description: |-
     Você está num longo corredor.  Paredes de obsidiana gravadas com antigas
     runas de poder se estendem diante de você.  Energias mágicas parecem estalar
@@ -1570,11 +1702,12 @@
     como se o próprio corredor estivesse vivo.
   exits:
     east:
-      target_vnum: '2629'
+      target_vnum: 01010252629
     west:
-      target_vnum: '2631'
+      target_vnum: '01010252631'
+  local_id: '2630'
   name: Um Corredor
-  vnum: '2630'
+  vnum: '01010252630'
 - description: |-
     Você está numa curva de um longo corredor.  Paredes de obsidiana
     gravadas com antigas runas de poder se estendem diante de você.  Energias
@@ -1582,11 +1715,12 @@
     muito esquecidas, quase como se o próprio corredor estivesse vivo.
   exits:
     east:
-      target_vnum: '2630'
+      target_vnum: '01010252630'
     south:
-      target_vnum: '2632'
+      target_vnum: '01010252632'
+  local_id: '2631'
   name: Uma Curva no Corredor
-  vnum: '2631'
+  vnum: '01010252631'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  Paredes de
     obsidiana gravadas com antigas runas de poder se estendem diante de você.
@@ -1594,25 +1728,27 @@
     línguas há muito esquecidas, como se o próprio corredor estivesse vivo.
   exits:
     north:
-      target_vnum: '2631'
+      target_vnum: '01010252631'
     south:
-      target_vnum: '2633'
+      target_vnum: '01010252633'
+  local_id: '2632'
   name: Um Corredor
-  vnum: '2632'
+  vnum: '01010252632'
 - description: |-
     Você está numa interseção no corredor.  Os corredores de obsidiana saem
     daqui para todas as direções, pulsando com o poder de suas runas antigas.
   exits:
     east:
-      target_vnum: '2634'
+      target_vnum: '01010252634'
     north:
-      target_vnum: '2632'
+      target_vnum: '01010252632'
     south:
-      target_vnum: '2646'
+      target_vnum: '01010252646'
     west:
-      target_vnum: '2636'
+      target_vnum: '01010252636'
+  local_id: '2633'
   name: Uma Interseção
-  vnum: '2633'
+  vnum: '01010252633'
 - description: |-
     Você está no fim de um longo corredor.  Paredes de obsidiana gravadas
     com antigas runas de poder se estendem diante de você.  Uma porta escura
@@ -1620,13 +1756,14 @@
     da porta.
   exits:
     east:
-      target_vnum: '2635'
+      target_vnum: '01010252635'
     west:
-      target_vnum: '2633'
+      target_vnum: '01010252633'
+  local_id: '2634'
   name: Um Corredor
-  vnum: '2634'
-- description: "VocÃª estÃ¡ na cÃ¢mara de observaÃ§Ã£o da Alta Torre da magia.  Ã\x89\
-    \ aqui que\nrituais arcanos são realizados para permitir que os magos que compartilham\n\
+  vnum: '01010252634'
+- description: "Você está na câmara de observação da Alta Torre da magia.  Ã\x89 aqui\
+    \ que\nrituais arcanos são realizados para permitir que os magos que compartilham\n\
     desta arte vejam os habitantes do mundo e espionar seus segredos mais\nsombrios.\
     \  Um enorme caldeirão negro está no centro da sala, borbulhando e\ngorgolejando,\
     \ ele libera uma torrente constante de neblina fumacenta no ar,\nsobre você. \
@@ -1634,20 +1771,22 @@
     \ de formatos bizarros."
   exits:
     west:
-      target_vnum: '2634'
+      target_vnum: '01010252634'
+  local_id: '2635'
   name: A Câmara de Observação
-  vnum: '2635'
+  vnum: '01010252635'
 - description: |-
     Você alcançou um fim do longo corredor.  Paredes de obsidiana gravadas
     com antigas runas de poder se estendem diante de você.  Um som de ronco
     mal pode ser ouvido detrás da porta a oeste
   exits:
     east:
-      target_vnum: '2633'
+      target_vnum: '01010252633'
     west:
-      target_vnum: '2637'
+      target_vnum: '01010252637'
+  local_id: '2636'
   name: Um Corredor
-  vnum: '2636'
+  vnum: '01010252636'
 - description: |-
     Você está na entrada da grande biblioteca de magia.  Uma escrivaninha
     gigante está aqui, coberta com livros e pergaminhos.  Longas estantes
@@ -1655,15 +1794,16 @@
     onde a vista alcança
   exits:
     east:
-      target_vnum: '2636'
+      target_vnum: '01010252636'
     north:
-      target_vnum: '2639'
+      target_vnum: 01010252639
     south:
-      target_vnum: '2640'
+      target_vnum: '01010252640'
     west:
-      target_vnum: '2638'
+      target_vnum: 01010252638
+  local_id: '2637'
   name: A Entrada da Biblioteca
-  vnum: '2637'
+  vnum: '01010252637'
 - description: |-
     Você está na grande biblioteca de magia.  Um forte odor de mofo permeia
     toda a área.  Sobre prateleiras que flutuam logo além do alcance da mão
@@ -1673,15 +1813,16 @@
     é deveras silencioso.
   exits:
     east:
-      target_vnum: '2637'
+      target_vnum: '01010252637'
     north:
-      target_vnum: '2641'
+      target_vnum: '01010252641'
     south:
-      target_vnum: '2642'
+      target_vnum: '01010252642'
     west:
-      target_vnum: '2643'
+      target_vnum: '01010252643'
+  local_id: '2638'
   name: Na Biblioteca
-  vnum: '2638'
+  vnum: 01010252638
 - description: |-
     Você está na grande biblioteca de magia.  Um forte odor de mofo permeia
     toda a área.  Sobre prateleiras que flutuam logo além do alcance da mão
@@ -1691,15 +1832,16 @@
     é deveras silencioso.
   exits:
     east:
-      target_vnum: '2642'
+      target_vnum: '01010252642'
     north:
-      target_vnum: '2640'
+      target_vnum: '01010252640'
     south:
-      target_vnum: '2637'
+      target_vnum: '01010252637'
     west:
-      target_vnum: '2641'
+      target_vnum: '01010252641'
+  local_id: '2639'
   name: Na Biblioteca
-  vnum: '2639'
+  vnum: 01010252639
 - description: |-
     Você está na grande biblioteca de magia.  Um forte odor de mofo permeia
     toda a área.  Sobre prateleiras que flutuam logo além do alcance da mão
@@ -1709,15 +1851,16 @@
     é deveras silencioso.
   exits:
     east:
-      target_vnum: '2641'
+      target_vnum: '01010252641'
     north:
-      target_vnum: '2637'
+      target_vnum: '01010252637'
     south:
-      target_vnum: '2639'
+      target_vnum: 01010252639
     west:
-      target_vnum: '2642'
+      target_vnum: '01010252642'
+  local_id: '2640'
   name: Na Biblioteca
-  vnum: '2640'
+  vnum: '01010252640'
 - description: |-
     Você está na grande biblioteca de magia.  Um forte odor de mofo permeia
     toda a área.  Sobre prateleiras que flutuam logo além do alcance da mão
@@ -1727,15 +1870,16 @@
     é deveras silencioso.
   exits:
     east:
-      target_vnum: '2639'
+      target_vnum: 01010252639
     north:
-      target_vnum: '2642'
+      target_vnum: '01010252642'
     south:
-      target_vnum: '2638'
+      target_vnum: 01010252638
     west:
-      target_vnum: '2640'
+      target_vnum: '01010252640'
+  local_id: '2641'
   name: Na Biblioteca
-  vnum: '2641'
+  vnum: '01010252641'
 - description: |-
     Você está na grande biblioteca de magia.  Um forte odor de mofo permeia
     toda a área.  Sobre prateleiras que flutuam logo além do alcance da mão
@@ -1745,15 +1889,16 @@
     é deveras silencioso.
   exits:
     east:
-      target_vnum: '2640'
+      target_vnum: '01010252640'
     north:
-      target_vnum: '2638'
+      target_vnum: 01010252638
     south:
-      target_vnum: '2641'
+      target_vnum: '01010252641'
     west:
-      target_vnum: '2639'
+      target_vnum: 01010252639
+  local_id: '2642'
   name: Na Biblioteca
-  vnum: '2642'
+  vnum: '01010252642'
 - description: |-
     Você está na grande biblioteca de magia.  Um forte odor de mofo permeia
     toda a área.  Sobre prateleiras que flutuam logo além do alcance da mão
@@ -1763,11 +1908,12 @@
     é deveras silencioso.
   exits:
     east:
-      target_vnum: '2638'
+      target_vnum: 01010252638
     west:
-      target_vnum: '2644'
+      target_vnum: '01010252644'
+  local_id: '2643'
   name: Na Biblioteca
-  vnum: '2643'
+  vnum: '01010252643'
 - description: |-
     Você está na grande biblioteca de magia.  As prateleiras parecem-lhe
     desconfortavelmente próximas, você mal pode se mover entre elas.  O odor
@@ -1776,11 +1922,12 @@
     Um tênue bruxelear de luz parece emanar do norte.
   exits:
     east:
-      target_vnum: '2643'
+      target_vnum: '01010252643'
     north:
-      target_vnum: '2645'
+      target_vnum: '01010252645'
+  local_id: '2644'
   name: Entre As Prateleiras
-  vnum: '2644'
+  vnum: '01010252644'
 - description: |-
     Você está numa pequena sala completamente despojada de mobília.  A única
     coisa que há aqui é um enorme tomo, que repousa aberto, sobre o chão.  O
@@ -1790,9 +1937,10 @@
     Algo parece estar cunhado entre as páginas.
   exits:
     south:
-      target_vnum: '2644'
+      target_vnum: '01010252644'
+  local_id: '2645'
   name: A Sala de Leitura
-  vnum: '2645'
+  vnum: '01010252645'
 - description: |-
     Você está num longo corredor que vai de norte a sul.  Paredes de
     obsidiana gravadas com antigas runas de poder se estendem diante de você.
@@ -1800,11 +1948,12 @@
     línguas há muito esquecidas, como se o próprio corredor estivesse vivo.
   exits:
     north:
-      target_vnum: '2633'
+      target_vnum: '01010252633'
     south:
-      target_vnum: '2647'
+      target_vnum: '01010252647'
+  local_id: '2646'
   name: Um Corredor
-  vnum: '2646'
+  vnum: '01010252646'
 - description: |-
     Você está no fim do longo corredor.  As paredes de obsidiana chegam a um
     súbito fim à borda de um arco dourado.  O zumbido do poder é tão forte que
@@ -1812,11 +1961,12 @@
     O arco repousa à sua frente, brilhando e pulsando com energia.
   exits:
     north:
-      target_vnum: '2646'
+      target_vnum: '01010252646'
     south:
-      target_vnum: '2648'
+      target_vnum: 01010252648
+  local_id: '2647'
   name: O Fim do Corredor
-  vnum: '2647'
+  vnum: '01010252647'
 - description: |-
     Você ouve um leve zunido, enquanto passa pelo arco, como se suas energias
     mágicas entrassem infundindo seu corpo, achassem-no deficiente e fossem
@@ -1824,11 +1974,12 @@
     você consegue distinguir uma escadaria levando para cima.
   exits:
     north:
-      target_vnum: '2647'
+      target_vnum: '01010252647'
     up:
-      target_vnum: '2649'
+      target_vnum: 01010252649
+  local_id: '2648'
   name: A Entrada Em Arco
-  vnum: '2648'
+  vnum: 01010252648
 - description: |-
     Você está num pequeno patamar no meio da longa escadaria que leva para
     cima.  Seus sentidos parecem estar nublados, nenhum som ou cheiro podem ser
@@ -1836,11 +1987,12 @@
     olhe, é uma escadaria interminável.
   exits:
     down:
-      target_vnum: '2648'
+      target_vnum: 01010252648
     up:
-      target_vnum: '2650'
+      target_vnum: '01010252650'
+  local_id: '2649'
   name: O Patamar
-  vnum: '2649'
+  vnum: 01010252649
 - description: |-
     Você está numa interseção de vários corredores.  Você sente que
     estranhas forças místicas estão empurrando-se e puxando-se umas às outras
@@ -1851,28 +2003,30 @@
     padrões rodopiantes quase irreconhecíveis leva para o norte.
   exits:
     down:
-      target_vnum: '2649'
+      target_vnum: 01010252649
     east:
-      target_vnum: '2658'
+      target_vnum: 01010252658
     north:
-      target_vnum: '2673'
+      target_vnum: '01010252673'
     south:
-      target_vnum: '2651'
+      target_vnum: '01010252651'
     west:
-      target_vnum: '2665'
+      target_vnum: '01010252665'
+  local_id: '2650'
   name: Uma Interseção
-  vnum: '2650'
+  vnum: '01010252650'
 - description: |-
     Você está num corredor de ladrilhos cinza que vai de norte a sul.
     Fracas bolas de energia flutuam aqui e ali, emitindo uma luz morna e
     mostrando o caminho.  Uma sensação de paz e equilíbrio lhe toma conta.
   exits:
     north:
-      target_vnum: '2650'
+      target_vnum: '01010252650'
     south:
-      target_vnum: '2652'
+      target_vnum: '01010252652'
+  local_id: '2651'
   name: Um Corredor de Ladrilhos Cinza
-  vnum: '2651'
+  vnum: '01010252651'
 - description: |-
     Você está num corredor de ladrilhos cinza que vai de norte a sul.
     Fracas bolas de energia flutuam aqui e ali, emitindo uma luz morna e
@@ -1880,11 +2034,12 @@
     Uma Porta dupla grande, de metal cinzento pode ser vista à sul.
   exits:
     north:
-      target_vnum: '2651'
+      target_vnum: '01010252651'
     south:
-      target_vnum: '2653'
+      target_vnum: '01010252653'
+  local_id: '2652'
   name: Um Corredor de Ladrilhos Cinza
-  vnum: '2652'
+  vnum: '01010252652'
 - description: |-
     Você está na antecâmara do Mago Mestre da Luz Cinza. Uma sensação de
     magia poderosa flutua no ar sobre você, é quase como se você pudesse provar
@@ -1893,11 +2048,12 @@
     uma sala maior ao sul.
   exits:
     north:
-      target_vnum: '2652'
+      target_vnum: '01010252652'
     south:
-      target_vnum: '2654'
+      target_vnum: '01010252654'
+  local_id: '2653'
   name: A Antecâmara
-  vnum: '2653'
+  vnum: '01010252653'
 - description: |-
     Uma sensação de tranqüilidade toma conta de você à medida em que entra
     na câmara principal da Neutralidade.  Alguns Some artefatos estão pendurados
@@ -1906,15 +2062,16 @@
     Neutralidade presta audiências.
   exits:
     east:
-      target_vnum: '2656'
+      target_vnum: '01010252656'
     north:
-      target_vnum: '2653'
+      target_vnum: '01010252653'
     south:
-      target_vnum: '2657'
+      target_vnum: '01010252657'
     west:
-      target_vnum: '2655'
+      target_vnum: '01010252655'
+  local_id: '2654'
   name: A Câmara Principal
-  vnum: '2654'
+  vnum: '01010252654'
 - description: |-
     Você está num grande estúdio.  Prateleiras repletas de livros e
     conhecimentos arcanos ocupam cada parede.  Uma grande escrivaninha de
@@ -1924,59 +2081,65 @@
     sem dúvida alguma, um sinal da neutralidade do Mestre.
   exits:
     east:
-      target_vnum: '2654'
+      target_vnum: '01010252654'
+  local_id: '2655'
   name: O Estúdio
-  vnum: '2655'
+  vnum: '01010252655'
 - description: |-
     Você está num pequeno armário embutido.  Está cheio de mantos, além de
     algumas outras vestimentas.
   exits:
     west:
-      target_vnum: '2654'
+      target_vnum: '01010252654'
+  local_id: '2656'
   name: Um Armário Embutido
-  vnum: '2656'
+  vnum: '01010252656'
 - description: |-
     Você está no quarto de dormir do Mago Mestre da Neutralidade.  Janelas
     cortinadas podem ser vistas à parede sul.  Uma grande cama de aparência
     confortável ocupa a maior parte do aposento.
   exits:
     north:
-      target_vnum: '2654'
+      target_vnum: '01010252654'
+  local_id: '2657'
   name: Um Quarto de Dormir
-  vnum: '2657'
+  vnum: '01010252657'
 - description: |-
     Você está num longo corredor escuro que liga leste a oeste.  Não há muito
     que se possa ver nesta escuridão sobrenatural, mas você tem uma profunda
     sensação de pavor à medida que avança.
   exits:
     east:
-      target_vnum: '2659'
+      target_vnum: 01010252659
     west:
-      target_vnum: '2650'
+      target_vnum: '01010252650'
+  local_id: '2658'
   name: Um Corredor Escuro
-  vnum: '2658'
+  vnum: 01010252658
 - description: |-
     Você está num longo corredor escuro que liga leste a oeste.  Não há muito
     que se possa ver nesta escuridão sobrenatural, mas você tem uma profunda
     sensação de pavor à medida que avança.
   exits:
     east:
-      target_vnum: '2660'
+      target_vnum: '01010252660'
     west:
-      target_vnum: '2658'
+      target_vnum: 01010252658
+  local_id: '2659'
   name: Um Corredor Escuro
-  vnum: '2659'
+  vnum: 01010252659
 - description: |-
     Você está no fim do longo corredor escuro.  A escuridão é quase tangível
     em sua densidade.  Medo e repugnância profundos mesclam-se em seu peito.
     Um par de portas de obsidiana estão ao leste.
   exits:
     east:
-      target_vnum: '2661'
+      target_vnum: '01010252661'
     west:
-      target_vnum: '2659'
+      target_vnum: 01010252659
+  local_id: '2660'
   name: O Fim do Corredor
-  vnum: '2660'
+  vnum: '01010252660'
 - description: |-
     Você está numa câmara vasta.  As paredes se perdem em trevas, dando a
     você apenas uma idéia muito vaga do tamanho real do aposento.  Girando aqui
@@ -1984,21 +2147,23 @@
     deixar a sala ainda mais escura.
   exits:
     east:
-      target_vnum: '2664'
+      target_vnum: '01010252664'
     north:
-      target_vnum: '2662'
+      target_vnum: '01010252662'
     south:
-      target_vnum: '2663'
+      target_vnum: '01010252663'
     west:
-      target_vnum: '2660'
+      target_vnum: '01010252660'
+  local_id: '2661'
   name: A Câmara das Trevas
-  vnum: '2661'
+  vnum: '01010252661'
 - description: Está muito escuro aqui...
   exits:
     south:
-      target_vnum: '2661'
+      target_vnum: '01010252661'
+  local_id: '2662'
   name: Está Muito Escuro Aqui...
-  vnum: '2662'
+  vnum: '01010252662'
 - description: |-
     Você está numa câmara fracamente iluminada.  Instrumentos de tortura
     pendem de uma estante na parede, parecendo estremecer de antecipação por
@@ -2007,9 +2172,10 @@
     Uma sensação de mal extremo permeia toda a área.
   exits:
     north:
-      target_vnum: '2661'
+      target_vnum: '01010252661'
+  local_id: '2663'
   name: Uma Câmara de Tortura
-  vnum: '2663'
+  vnum: '01010252663'
 - description: |-
     Você está numa pequena câmara negra.  Pelas paredes há símbolos
     brilhantes de poder sombrio, rabiscados e traçados numa linguagem maligna há
@@ -2018,9 +2184,10 @@
     ambiente.
   exits:
     west:
-      target_vnum: '2661'
+      target_vnum: '01010252661'
+  local_id: '2664'
   name: A Câmara Interna
-  vnum: '2664'
+  vnum: '01010252664'
 - description: |-
     Você está num corredor longo e bem iluminado que liga leste a oeste.
     Suas paredes são de um branco leitoso e brilham com uma luminescência morna,
@@ -2028,11 +2195,12 @@
     sentir indigno de pisar sobre este solo sagrado.
   exits:
     east:
-      target_vnum: '2650'
+      target_vnum: '01010252650'
     west:
-      target_vnum: '2666'
+      target_vnum: '01010252666'
+  local_id: '2665'
   name: Um Corredor Brilhante
-  vnum: '2665'
+  vnum: '01010252665'
 - description: |-
     Você está num corredor longo e bem iluminado que liga leste a oeste.
     Suas paredes são de um branco leitoso e brilham com uma luminescência morna,
@@ -2041,22 +2209,24 @@
     Uma enorme porta dupla de marfim finamente trabalhado está a oeste.
   exits:
     east:
-      target_vnum: '2665'
+      target_vnum: '01010252665'
     west:
-      target_vnum: '2667'
+      target_vnum: '01010252667'
+  local_id: '2666'
   name: Um Corredor Brilhante
-  vnum: '2666'
+  vnum: '01010252666'
 - description: "Você está numa pequena antecâmara.  Está bem iluminada, embora a fonte\n\
-    da luz nÃ£o possa ser vista.  Ã\x89 quase como se o prÃ³prio aposento exalasse\n\
+    da luz não possa ser vista.  Ã\x89 quase como se o próprio aposento exalasse\n\
     um brilho quente de bondade.  Uma câmara maior pode ser vista mais para o\noeste,\
     \ mas você não se sente digno de ir até lá."
   exits:
     east:
-      target_vnum: '2666'
+      target_vnum: '01010252666'
     west:
-      target_vnum: '2669'
+      target_vnum: 01010252669
+  local_id: '2667'
   name: Uma Antecâmara
-  vnum: '2667'
+  vnum: '01010252667'
 - description: |-
     Você está numa câmara vasta, de paredes, chão e teto feitos de um
     material metálico desconhecido, excepcionalmente branco, quase que
@@ -2065,42 +2235,46 @@
     sente um leve puxar sobre seu ser quando a chama tremula em sua direção.
   exits:
     east:
-      target_vnum: '2667'
+      target_vnum: '01010252667'
     north:
-      target_vnum: '2670'
+      target_vnum: '01010252670'
     south:
-      target_vnum: '2671'
+      target_vnum: '01010252671'
     west:
-      target_vnum: '2672'
+      target_vnum: '01010252672'
+  local_id: '2669'
   name: A Câmara da Luz Branca
-  vnum: '2669'
+  vnum: 01010252669
 - description: |-
     Você está numa pequena câmara de meditação.  Almofadas de seda branca
     estão por toda a parte, parecendo muito confortáveis.  Você facilmente se
     sente pacífico e relaxado, quase fazendo com que você se deite e adormeça.
   exits:
     south:
-      target_vnum: '2669'
+      target_vnum: 01010252669
+  local_id: '2670'
   name: A Câmara de Meditação
-  vnum: '2670'
+  vnum: '01010252670'
 - description: |-
     Você está num estúdio espaçoso.  Tudo aqui está extremamente organizado
     de uma maneira quase que anti-séptica.  Qualquer um imaginaria como alguém
     pode estudar sem uma banguça ao redor, o mestre desta câmara obviamente pode.
   exits:
     north:
-      target_vnum: '2669'
+      target_vnum: 01010252669
+  local_id: '2671'
   name: Um Estúdio
-  vnum: '2671'
+  vnum: '01010252671'
 - description: |-
     Você está num pequeno armário embutido.  Mantos e vestes que pendem de
     ganchos na parede e umas botas velhas são tudo o que se pode ver aqui.
     Tudo bastante descaracterizado.
   exits:
     east:
-      target_vnum: '2669'
+      target_vnum: 01010252669
+  local_id: '2672'
   name: Um Armário Embutido
-  vnum: '2672'
+  vnum: '01010252672'
 - description: |-
     Você está num corredor amplo, largo o suficiente para acomodar muitas
     pessoas lado a lado.  O chão é um redemoinho de padrões multicoloridos em
@@ -2109,11 +2283,12 @@
     ser bastante resistente.
   exits:
     north:
-      target_vnum: '2674'
+      target_vnum: '01010252674'
     south:
-      target_vnum: '2650'
+      target_vnum: '01010252650'
+  local_id: '2673'
   name: Um Corredor Amplo
-  vnum: '2673'
+  vnum: '01010252673'
 - description: |-
     Você está num corredor amplo, largo o suficiente para acomodar muitas
     pessoas lado a lado.  O chão é um redemoinho de padrões multicoloridos em
@@ -2122,11 +2297,12 @@
     parece ser bastante resistente.
   exits:
     north:
-      target_vnum: '2675'
+      target_vnum: '01010252675'
     south:
-      target_vnum: '2673'
+      target_vnum: '01010252673'
+  local_id: '2674'
   name: Um Corredor Amplo
-  vnum: '2674'
+  vnum: '01010252674'
 - description: |-
     Você está num corredor amplo, largo o suficiente para acomodar muitas
     pessoas lado a lado.  O chão é um redemoinho de padrões multicoloridos em
@@ -2135,11 +2311,12 @@
     parece ser bastante resistente.
   exits:
     north:
-      target_vnum: '2676'
+      target_vnum: '01010252676'
     south:
-      target_vnum: '2674'
+      target_vnum: '01010252674'
+  local_id: '2675'
   name: Um Corredor Amplo
-  vnum: '2675'
+  vnum: '01010252675'
 - description: |-
     Você está na entrada da câmara de audiência do Grande Mestre da Magia.
     Belas tapeçarias penduradas nas paredes ilustram os antigos mestres do
@@ -2147,11 +2324,12 @@
     que parece farfalhar e se mover ao toque de suas botas.
   exits:
     north:
-      target_vnum: '2677'
+      target_vnum: '01010252677'
     south:
-      target_vnum: '2675'
+      target_vnum: '01010252675'
+  local_id: '2676'
   name: A Entrada
-  vnum: '2676'
+  vnum: '01010252676'
 - description: |-
     Você está numa grande câmara.  Pequenos raios de energia pulam de parede
     em parede, estalado de poder.  O chão é um redemoinho de cores indefinidas
@@ -2161,15 +2339,16 @@
     esculpido a partir de uma única e enorme esmeralda.
   exits:
     east:
-      target_vnum: '2678'
+      target_vnum: 01010252678
     north:
-      target_vnum: '2680'
+      target_vnum: 01010252680
     south:
-      target_vnum: '2676'
+      target_vnum: '01010252676'
     west:
-      target_vnum: '2679'
+      target_vnum: 01010252679
+  local_id: '2677'
   name: A Câmara de Audiência
-  vnum: '2677'
+  vnum: '01010252677'
 - description: |-
     Você está num vestiário de pelúcia.  Finas vestimentas de vários estilos
     e de algumas cores exóticas pendem de um suporte suspenso em pleno ar à
@@ -2177,9 +2356,10 @@
     grande espelho de prata sobre um pedestal de ouro finamente trabalhado.
   exits:
     west:
-      target_vnum: '2677'
+      target_vnum: '01010252677'
+  local_id: '2678'
   name: Um Vestiário
-  vnum: '2678'
+  vnum: 01010252678
 - description: |-
     Você está numa pequena e aconchegante biblioteca.  Alguns livros bem
     feitos ocupam as prateleiras que se espalham por cada parede.  Uma grande
@@ -2188,9 +2368,10 @@
     um lampião a óleo bastante mundano.
   exits:
     east:
-      target_vnum: '2677'
+      target_vnum: '01010252677'
+  local_id: '2679'
   name: A Biblioteca
-  vnum: '2679'
+  vnum: 01010252679
 - description: |-
     Você está numa pequena capela construída em torno de um altar dourado
     maravilhosamente esculpido.  Muitos ícones de divindades menores alinham-se
@@ -2198,21 +2379,23 @@
     altar, que esta sala foi feita para a adoração de Mystra, deusa da magia.
   exits:
     east:
-      target_vnum: '2681'
+      target_vnum: 01010252681
     south:
-      target_vnum: '2677'
+      target_vnum: '01010252677'
     west:
-      target_vnum: '2682'
+      target_vnum: 01010252682
+  local_id: '2680'
   name: O Altar
-  vnum: '2680'
+  vnum: 01010252680
 - description: |-
     Você está numa pequena câmara.  O ar viciado prova o fato de que o
     tesouro esteve intocado por muitos anos.
   exits:
     west:
-      target_vnum: '2680'
+      target_vnum: 01010252680
+  local_id: '2681'
   name: O Cofre do Tesouro
-  vnum: '2681'
+  vnum: 01010252681
 - description: |-
     Você está numa pequena e escura passagem, que seria comum, se não fosse
     por terminar numa cegante luz azul ao oeste.  Em ganchos fixos na parede
@@ -2221,11 +2404,12 @@
     para uma evacuação.
   exits:
     east:
-      target_vnum: '2680'
+      target_vnum: 01010252680
     west:
-      target_vnum: '2683'
+      target_vnum: 01010252683
+  local_id: '2682'
   name: Uma Passagem
-  vnum: '2682'
+  vnum: 01010252682
 - description: |-
     Você parece estar flutuando num campo de energia mágica, embora você não
     consiga ver a fonte da energia, pode sentir seu poder pressionando-o por
@@ -2234,9 +2418,10 @@
     ser uma saída.
   exits:
     up:
-      target_vnum: '50'
+      target_vnum: '01010250050'
+  local_id: '2683'
   name: Dentro da Luz
-  vnum: '2683'
+  vnum: 01010252683
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -2245,15 +2430,18 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2687'
+      target_vnum: 01010252687
     north:
-      target_vnum: '2685'
+      target_vnum: 01010252685
     south:
-      target_vnum: '2686'
+      target_vnum: 01010252686
+    southeast:
+      target_vnum: '01010252604'
     west:
-      target_vnum: '2688'
+      target_vnum: 01010252688
+  local_id: '2684'
   name: O Bosque Sombrio
-  vnum: '2684'
+  vnum: 01010252684
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -2262,15 +2450,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso.
   exits:
     east:
-      target_vnum: '2688'
+      target_vnum: 01010252688
     north:
-      target_vnum: '2686'
+      target_vnum: 01010252686
     south:
-      target_vnum: '2684'
+      target_vnum: 01010252684
     west:
-      target_vnum: '2687'
+      target_vnum: 01010252687
+  local_id: '2685'
   name: O Bosque Sombrio
-  vnum: '2685'
+  vnum: 01010252685
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -2279,15 +2468,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso
   exits:
     east:
-      target_vnum: '2684'
+      target_vnum: 01010252684
     north:
-      target_vnum: '2609'
+      target_vnum: 01010252609
     south:
-      target_vnum: '2687'
+      target_vnum: 01010252687
     west:
-      target_vnum: '2684'
+      target_vnum: 01010252684
+  local_id: '2686'
   name: O Bosque Sombrio
-  vnum: '2686'
+  vnum: 01010252686
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -2296,15 +2486,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso
   exits:
     east:
-      target_vnum: '2685'
+      target_vnum: 01010252685
     north:
-      target_vnum: '2607'
+      target_vnum: '01010252607'
     south:
-      target_vnum: '2684'
+      target_vnum: 01010252684
     west:
-      target_vnum: '2686'
+      target_vnum: 01010252686
+  local_id: '2687'
   name: O Bosque Sombrio
-  vnum: '2687'
+  vnum: 01010252687
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -2313,15 +2504,16 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso
   exits:
     east:
-      target_vnum: '2688'
+      target_vnum: 01010252688
     north:
-      target_vnum: '2689'
+      target_vnum: 01010252689
     south:
-      target_vnum: '2686'
+      target_vnum: 01010252686
     west:
-      target_vnum: '2684'
+      target_vnum: 01010252684
+  local_id: '2688'
   name: O Bosque Sombrio
-  vnum: '2688'
+  vnum: 01010252688
 - description: |-
     Você está dentro do bosque sombrio.  As árvores gigantescas a sua volta
     parecem estar observando você por todos os lados.  Uma neblina difusa
@@ -2331,12 +2523,15 @@
     Todas as saídas levam para dentro das sombras, você está muito confuso
   exits:
     east:
-      target_vnum: '2688'
+      target_vnum: 01010252688
     north:
-      target_vnum: '2687'
+      target_vnum: 01010252687
     south:
-      target_vnum: '2686'
+      target_vnum: 01010252686
+    southwest:
+      target_vnum: '01010250000'
     west:
-      target_vnum: '2685'
+      target_vnum: 01010252685
+  local_id: '2689'
   name: O Bosque Sombrio
-  vnum: '2689'
+  vnum: 01010252689

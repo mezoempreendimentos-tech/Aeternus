@@ -7,11 +7,12 @@
     passeio continua para o sul, se encontrando com uma estreita rua a norte.
   exits:
     north:
-      target_vnum: '5214'
+      target_vnum: '01010755214'
     south:
-      target_vnum: '7501'
+      target_vnum: '01010757501'
+  local_id: '7500'
   name: Um Grande Passeio Pelos Pedregulhos
-  vnum: '7500'
+  vnum: '01010757500'
 - description: |-
     Você está em uma longa via calçada por pedregulhos.  As grandes pedras de
     granito foram firmemente ajustadas no chão e à medida em que você caminha,
@@ -21,11 +22,12 @@
     passeio continua do norte para o sul.
   exits:
     north:
-      target_vnum: '7500'
+      target_vnum: '01010757500'
     south:
-      target_vnum: '7502'
+      target_vnum: '01010757502'
+  local_id: '7501'
   name: Um Grande Passeio Pelos Pedregulhos
-  vnum: '7501'
+  vnum: '01010757501'
 - description: |-
     Você está em uma longa via calçada por pedregulhos.  As grandes pedras de
     granito foram firmemente ajustadas no chão e à medida em que você caminha,
@@ -35,11 +37,12 @@
     passeio continua do norte para o oeste.
   exits:
     north:
-      target_vnum: '7501'
+      target_vnum: '01010757501'
     west:
-      target_vnum: '7503'
+      target_vnum: '01010757503'
+  local_id: '7502'
   name: Um Grande Passeio Pelos Pedregulhos
-  vnum: '7502'
+  vnum: '01010757502'
 - description: |-
     Você está em uma longa via calçada por pedregulhos.  As grandes pedras de
     granito foram firmemente ajustadas no chão e à medida em que você caminha,
@@ -49,11 +52,12 @@
     passeio continua do sul para o leste.
   exits:
     east:
-      target_vnum: '7502'
+      target_vnum: '01010757502'
     south:
-      target_vnum: '7504'
+      target_vnum: '01010757504'
+  local_id: '7503'
   name: Um Grande Passeio Pelos Pedregulhos
-  vnum: '7503'
+  vnum: '01010757503'
 - description: |-
     Você está em uma longa via calçada por pedregulhos.  As grandes pedras de
     granito foram firmemente ajustadas no chão e à medida em que você caminha,
@@ -63,11 +67,12 @@
     passeio continua do norte para o sul.
   exits:
     north:
-      target_vnum: '7503'
+      target_vnum: '01010757503'
     south:
-      target_vnum: '7505'
+      target_vnum: '01010757505'
+  local_id: '7504'
   name: Um Grande Passeio Pelos Pedregulhos
-  vnum: '7504'
+  vnum: '01010757504'
 - description: |-
     Você está em uma longa via calçada por pedregulhos.  As grandes pedras de
     granito foram firmemente ajustadas no chão e à medida em que você caminha,
@@ -78,11 +83,12 @@
     clareira bem como o topo de um edifício sobre os arbustos.
   exits:
     north:
-      target_vnum: '7504'
+      target_vnum: '01010757504'
     south:
-      target_vnum: '7506'
+      target_vnum: '01010757506'
+  local_id: '7505'
   name: Um Grande Passeio Pelos Pedregulhos
-  vnum: '7505'
+  vnum: '01010757505'
 - description: |-
     O paralelepípedo parece estar bastante gasto.  As pedras estão bastante
     juntas, mas o constante tráfico por todos os lados acabou criando vários
@@ -94,15 +100,16 @@
     Darwin voa sobre a porta de ferro.
   exits:
     east:
-      target_vnum: '7508'
+      target_vnum: 01010757508
     north:
-      target_vnum: '7505'
+      target_vnum: '01010757505'
     south:
-      target_vnum: '7537'
+      target_vnum: '01010757537'
     west:
-      target_vnum: '7507'
+      target_vnum: '01010757507'
+  local_id: '7506'
   name: Um Pátio De Paralelepípedo
-  vnum: '7506'
+  vnum: '01010757506'
 - description: |-
     O caminho com cascalho conduz você do pátio com paralelepípedo para o
     leste onde existe um grande portão na parede.  Por causa de tantos buracos
@@ -114,11 +121,12 @@
     suportar a maioria dos ataques dos não-militares com bastante facilidade.
   exits:
     east:
-      target_vnum: '7506'
+      target_vnum: '01010757506'
     south:
-      target_vnum: '7510'
+      target_vnum: '01010757510'
+  local_id: '7507'
   name: Um Caminho Com Cascalho
-  vnum: '7507'
+  vnum: '01010757507'
 - description: |-
     Você está caminhando por um corredor coberto.  As colunas de pedra
     sustentam um telhado feito de palha.  O caminho está coberto com pedras
@@ -126,11 +134,12 @@
     paralelepípedo e também um portão na parede de pedras ao sul.
   exits:
     south:
-      target_vnum: '7523'
+      target_vnum: '01010757523'
     west:
-      target_vnum: '7506'
+      target_vnum: '01010757506'
+  local_id: '7508'
   name: Um Caminho Coberto
-  vnum: '7508'
+  vnum: 01010757508
 - description: |-
     Você está caminhando com muito cuidado por este chão.  Os arbustos foram
     podados muito recentemente e a grama está bastante curta.  Ao pisar na grama
@@ -139,9 +148,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '7510'
+      target_vnum: '01010757510'
+  local_id: '7509'
   name: Caminhando Pelo Gramado
-  vnum: '7509'
+  vnum: 01010757509
 - description: |-
     Um caminho de cascalho se estende para o oeste.  Para o norte um portão
     foi fixado em uma parede de pedra.  Para o sul, um gramado que parece ter
@@ -149,15 +159,16 @@
     algumas construções.
   exits:
     east:
-      target_vnum: '7509'
+      target_vnum: 01010757509
     north:
-      target_vnum: '7507'
+      target_vnum: '01010757507'
     south:
-      target_vnum: '7513'
+      target_vnum: '01010757513'
     west:
-      target_vnum: '7511'
+      target_vnum: '01010757511'
+  local_id: '7510'
   name: Um Caminho Com Cascalho
-  vnum: '7510'
+  vnum: '01010757510'
 - description: |-
     Um caminho de cascalho se estende para o oeste.  Para o noroeste, um
     portão foi fixado em uma parede de pedras muito alto.  Para o sul, um
@@ -165,13 +176,14 @@
     caminho continua ate algumas construções.
   exits:
     east:
-      target_vnum: '7510'
+      target_vnum: '01010757510'
     south:
-      target_vnum: '7514'
+      target_vnum: '01010757514'
     west:
-      target_vnum: '7512'
+      target_vnum: '01010757512'
+  local_id: '7511'
   name: Um Caminho Com Cascalho
-  vnum: '7511'
+  vnum: '01010757511'
 - description: |-
     Um caminho de cascalho se estende para o oeste.  Para o noroeste, um
     portão foi fixado em uma parede de pedras muito alto.  Para o sul, um
@@ -179,11 +191,12 @@
     caminho continua ate algumas construções.
   exits:
     east:
-      target_vnum: '7511'
+      target_vnum: '01010757511'
     south:
-      target_vnum: '7515'
+      target_vnum: '01010757515'
+  local_id: '7512'
   name: Um Caminho Com Cascalho
-  vnum: '7512'
+  vnum: '01010757512'
 - description: |-
     Você está caminhando com muito cuidado por este chão.  Os arbustos foram
     podados muito recentemente e a grama está bastante curta.  Ao pisar na grama
@@ -192,11 +205,12 @@
     norte e oeste.
   exits:
     north:
-      target_vnum: '7510'
+      target_vnum: '01010757510'
     west:
-      target_vnum: '7514'
+      target_vnum: '01010757514'
+  local_id: '7513'
   name: O Gramado Oeste
-  vnum: '7513'
+  vnum: '01010757513'
 - description: |-
     Você está caminhando com muito cuidado por este chão.  Os arbustos foram
     podados muito recentemente e a grama está bastante curta.  Ao pisar na grama
@@ -205,13 +219,14 @@
     e oeste.
   exits:
     east:
-      target_vnum: '7513'
+      target_vnum: '01010757513'
     north:
-      target_vnum: '7511'
+      target_vnum: '01010757511'
     west:
-      target_vnum: '7515'
+      target_vnum: '01010757515'
+  local_id: '7514'
   name: O Gramado Oeste
-  vnum: '7514'
+  vnum: '01010757514'
 - description: |-
     Um caminho de cascalho se estende para o oeste.  Para o nordeste, um
     portão foi fixado em uma parede de pedras muito alto.  Para o sul e leste,
@@ -219,15 +234,16 @@
     caminho segue junto a varias construções ate um ponto onde elas terminam.
   exits:
     east:
-      target_vnum: '7514'
+      target_vnum: '01010757514'
     north:
-      target_vnum: '7512'
+      target_vnum: '01010757512'
     south:
-      target_vnum: '7520'
+      target_vnum: '01010757520'
     west:
-      target_vnum: '7516'
+      target_vnum: '01010757516'
+  local_id: '7515'
   name: Um Caminho Com Cascalho
-  vnum: '7515'
+  vnum: '01010757515'
 - description: |-
     Um caminho de cascalho se estende para o oeste.  Para o nordeste, um
     portão foi fixado em uma parede de pedras muito alto.  Para o leste, um
@@ -236,22 +252,24 @@
     terminando perto de um curral e uma ferraria.
   exits:
     east:
-      target_vnum: '7515'
+      target_vnum: '01010757515'
     south:
-      target_vnum: '7519'
+      target_vnum: 01010757519
     west:
-      target_vnum: '7517'
+      target_vnum: '01010757517'
+  local_id: '7516'
   name: Antes da Estalagem para Carruagens
-  vnum: '7516'
+  vnum: '01010757516'
 - description: |-
     Este local foi feito especialmente para as carruagens dos nobres que aqui
     vêm visitar.  Agora existe somente uma carruagem que pertence ao Barão.  A
     grande porta da construção está localizada ao leste.
   exits:
     east:
-      target_vnum: '7516'
+      target_vnum: '01010757516'
+  local_id: '7517'
   name: A Estalagem para Carruagens
-  vnum: '7517'
+  vnum: '01010757517'
 - description: |-
     Os estábulos estão sendo mantidos bem limpos.  Ferraduras para os cavalos
     foram empilhados e pendurados ao longo da parede leste.  Existem várias
@@ -259,9 +277,10 @@
     portas ao leste.
   exits:
     east:
-      target_vnum: '7519'
+      target_vnum: 01010757519
+  local_id: '7518'
   name: Os Estábulos
-  vnum: '7518'
+  vnum: 01010757518
 - description: |-
     Você está no fim do grande caminho com cascalho.  Os estábulos estão para
     o oeste, sendo que estão juntos ao curral que está ao sul.  Consegue-se ver
@@ -269,15 +288,16 @@
     direção do curral, ou seja, ao sul.
   exits:
     east:
-      target_vnum: '7520'
+      target_vnum: '01010757520'
     north:
-      target_vnum: '7516'
+      target_vnum: '01010757516'
     south:
-      target_vnum: '7522'
+      target_vnum: '01010757522'
     west:
-      target_vnum: '7518'
+      target_vnum: 01010757518
+  local_id: '7519'
   name: O Fim Do Caminho Com Pedregulho
-  vnum: '7519'
+  vnum: 01010757519
 - description: |-
     Você está caminhando com muito cuidado por este chão.  Os arbustos foram
     podados muito recentemente e a grama está bastante curta.  Ao pisar na grama
@@ -285,13 +305,14 @@
     para o leste e um caminho de pedregulhos limita o gramado para o lado oeste.
   exits:
     north:
-      target_vnum: '7515'
+      target_vnum: '01010757515'
     south:
-      target_vnum: '7521'
+      target_vnum: '01010757521'
     west:
-      target_vnum: '7519'
+      target_vnum: 01010757519
+  local_id: '7520'
   name: O Gramado Oeste
-  vnum: '7520'
+  vnum: '01010757520'
 - description: |-
     A ferraria possui uma grande forja localizada bem no centro da sala.  A
     forja está aparentemente gasta e não parece ter qualquer sinal de ter sido
@@ -301,11 +322,12 @@
     e uma porta menor para o norte.
   exits:
     north:
-      target_vnum: '7520'
+      target_vnum: '01010757520'
     west:
-      target_vnum: '7522'
+      target_vnum: '01010757522'
+  local_id: '7521'
   name: A Ferraria
-  vnum: '7521'
+  vnum: '01010757521'
 - description: |-
     O curral está bastante sujo e parece não ter sido limpo faz muito tempo.
     Existe um portão ao norte que não está muito distante.  Para o leste há uma
@@ -313,11 +335,12 @@
     norte existe um caminho com cascalho que segue para o lado ocidental.
   exits:
     east:
-      target_vnum: '7521'
+      target_vnum: '01010757521'
     north:
-      target_vnum: '7519'
+      target_vnum: 01010757519
+  local_id: '7522'
   name: O Curral
-  vnum: '7522'
+  vnum: '01010757522'
 - description: |-
     Você está se movendo por um caminho coberto.  As colunas de pedra
     sustentam um telhado feito de palha.  O caminho está coberto com pedras que
@@ -325,11 +348,12 @@
     o caminho continua ao leste.
   exits:
     east:
-      target_vnum: '7524'
+      target_vnum: '01010757524'
     north:
-      target_vnum: '7508'
+      target_vnum: 01010757508
+  local_id: '7523'
   name: Um Caminho Coberto
-  vnum: '7523'
+  vnum: '01010757523'
 - description: |-
     Você está se movendo por um caminho coberto.  As colunas de pedra
     sustentam um telhado feito de palha.  O caminho está coberto com pedras que
@@ -337,13 +361,14 @@
     sul pode ser visto uma grande área gramínea.
   exits:
     east:
-      target_vnum: '7527'
+      target_vnum: '01010757527'
     south:
-      target_vnum: '7525'
+      target_vnum: '01010757525'
     west:
-      target_vnum: '7523'
+      target_vnum: '01010757523'
+  local_id: '7524'
   name: Um Caminho Coberto
-  vnum: '7524'
+  vnum: '01010757524'
 - description: |-
     Você está caminhando com muito cuidado por este chão.  Os arbustos foram
     podados muito recentemente e a grama está bastante curta.  Ao pisar na grama
@@ -352,24 +377,26 @@
     norte e um caminho bastante usado pode ser visto ao leste.
   exits:
     east:
-      target_vnum: '7526'
+      target_vnum: '01010757526'
     north:
-      target_vnum: '7524'
+      target_vnum: '01010757524'
+  local_id: '7525'
   name: Caminhando Pelo Gramado
-  vnum: '7525'
+  vnum: '01010757525'
 - description: |-
     O caminho mostra sinais de ser bastante utilizado.  Há um caminho coberto
     para o norte e uma construção para o leste.  Para o oeste, uma grande área
     gramada.
   exits:
     east:
-      target_vnum: '7529'
+      target_vnum: 01010757529
     north:
-      target_vnum: '7527'
+      target_vnum: '01010757527'
     west:
-      target_vnum: '7525'
+      target_vnum: '01010757525'
+  local_id: '7526'
   name: Um Largo Caminho
-  vnum: '7526'
+  vnum: '01010757526'
 - description: |-
     Você está no fim do caminho coberto.  As colunas de pedra sustentam um
     telhado feito de palha.  O caminho está coberto com pedras que foram
@@ -379,54 +406,59 @@
     intenso.
   exits:
     east:
-      target_vnum: '7528'
+      target_vnum: 01010757528
     south:
-      target_vnum: '7526'
+      target_vnum: '01010757526'
     west:
-      target_vnum: '7524'
+      target_vnum: '01010757524'
+  local_id: '7527'
   name: O Fim Do Caminho Coberto
-  vnum: '7527'
+  vnum: '01010757527'
 - description: |-
     A loja está muito limpa.  Uma grande mesa de trabalho ocupa grande parte
     desta sala.  Existe uma porta ao oeste.
   exits:
     west:
-      target_vnum: '7527'
+      target_vnum: '01010757527'
+  local_id: '7528'
   name: A Loja Do Joalheiro
-  vnum: '7528'
+  vnum: 01010757528
 - description: |-
     Este ambiente possui um cheiro intenso de fuligem e metal aquecido.  Há
     marcas de queimado em toda a parede norte que parece ter sido feito por
     fogo.  Você vê uma porta ao oeste.
   exits:
     south:
-      target_vnum: '7530'
+      target_vnum: '01010757530'
     west:
-      target_vnum: '7526'
+      target_vnum: '01010757526'
+  local_id: '7529'
   name: A Loja da Ourives
-  vnum: '7529'
+  vnum: 01010757529
 - description: |-
     A passagem é bastante estreita e escura.  Existe um caminho bastante
     gasto que se estende da parede ao norte até uma parede feita de pedras ao
     sul.
   exits:
     north:
-      target_vnum: '7529'
+      target_vnum: 01010757529
     south:
-      target_vnum: '7531'
+      target_vnum: '01010757531'
+  local_id: '7530'
   name: Uma Passagem Estreita
-  vnum: '7530'
+  vnum: '01010757530'
 - description: |-
     As altas paredes ao seu redor sustentam toda a elevação acima.  Para o
     sul, consegue-se ouvir través de uma grande abertura gritos de alguém
     excitado tocando no ar.
   exits:
     north:
-      target_vnum: '7530'
+      target_vnum: '01010757530'
     south:
-      target_vnum: '7532'
+      target_vnum: '01010757532'
+  local_id: '7531'
   name: Próximo A Uma Parede De Pedras
-  vnum: '7531'
+  vnum: '01010757531'
 - description: |-
     Você está em uma grande área aberta.  Consegue-se ver os equipamentos
     necessários para o treinamento dos soldados.  Alguns bonecos feitos de pano
@@ -434,22 +466,24 @@
     troncos de madeira fincados no chão.
   exits:
     north:
-      target_vnum: '7531'
+      target_vnum: '01010757531'
     south:
-      target_vnum: '7534'
+      target_vnum: '01010757534'
+  local_id: '7532'
   name: "A Ã\x81rea De Treinamento"
-  vnum: '7532'
+  vnum: '01010757532'
 - description: |-
     Este é o abrigo das armaduras.  Um aprendiz veio aqui para trocar a
     armadura antes de ir para o campo de treinamento.  O desagradável cheiro de
     suor infesta todo o ar do abrigo.  Existe uma porta ao sul.
   exits:
     down:
-      target_vnum: '7586'
+      target_vnum: 01010757586
     south:
-      target_vnum: '7535'
+      target_vnum: '01010757535'
+  local_id: '7533'
   name: O Abrigo Das Armaduras
-  vnum: '7533'
+  vnum: '01010757533'
 - description: |-
     Você está em uma grande área aberta.  Consegue-se ver os equipamentos
     necessários para o treinamento dos soldados.  Alguns bonecos feitos de pano
@@ -457,11 +491,12 @@
     troncos de madeira fincados no chão.
   exits:
     north:
-      target_vnum: '7532'
+      target_vnum: '01010757532'
     west:
-      target_vnum: '7535'
+      target_vnum: '01010757535'
+  local_id: '7534'
   name: "A Ã\x81rea De Treinamento"
-  vnum: '7534'
+  vnum: '01010757534'
 - description: |-
     Você está em uma grande área aberta.  Consegue-se ver os equipamentos
     necessários para o treinamento dos soldados.  Alguns bonecos feitos de pano
@@ -470,13 +505,14 @@
     norte.
   exits:
     east:
-      target_vnum: '7534'
+      target_vnum: '01010757534'
     north:
-      target_vnum: '7533'
+      target_vnum: '01010757533'
     west:
-      target_vnum: '7536'
+      target_vnum: '01010757536'
+  local_id: '7535'
   name: "A Ã\x81rea De Treinamento"
-  vnum: '7535'
+  vnum: '01010757535'
 - description: |-
     As altas paredes ao seu redor sustentam toda a elevação acima.
     Consegue-se ver os equipamentos necessários para o treinamento dos soldados.
@@ -485,9 +521,10 @@
     campo se alarga ao leste.
   exits:
     east:
-      target_vnum: '7535'
+      target_vnum: '01010757535'
+  local_id: '7536'
   name: "A Ã\x81rea De Treinamento"
-  vnum: '7536'
+  vnum: '01010757536'
 - description: |-
     Esta entrada está bastante desgastada.  Os buracos no teto e algumas
     rachaduras ao longo das paredes faz parecer este lugar muito antigo.
@@ -497,11 +534,12 @@
     passagem.
   exits:
     north:
-      target_vnum: '7506'
+      target_vnum: '01010757506'
     south:
-      target_vnum: '7538'
+      target_vnum: 01010757538
+  local_id: '7537'
   name: Um Modo De Entrar
-  vnum: '7537'
+  vnum: '01010757537'
 - description: |-
     O corredor da recepção do Barão Darwin é todo em estilo espartano.
     Caríssimos carpetes foram postos tanto no chão quanto nas paredes.  O
@@ -510,11 +548,12 @@
     consegue-se enxergar seu interior.
   exits:
     north:
-      target_vnum: '7537'
+      target_vnum: '01010757537'
     south:
-      target_vnum: '7539'
+      target_vnum: 01010757539
+  local_id: '7538'
   name: A Recepção
-  vnum: '7538'
+  vnum: 01010757538
 - description: |-
     O Corredor foi generosamente decorado.  Caríssimos carpetes foram postos
     tanto no chão quanto nas paredes.  Pinturas de pessoas dignas foram desenhas
@@ -525,23 +564,25 @@
     corredor.
   exits:
     east:
-      target_vnum: '7541'
+      target_vnum: '01010757541'
     north:
-      target_vnum: '7538'
+      target_vnum: 01010757538
     south:
-      target_vnum: '7542'
+      target_vnum: '01010757542'
     west:
-      target_vnum: '7540'
+      target_vnum: '01010757540'
+  local_id: '7539'
   name: O Corredor Decorado
-  vnum: '7539'
+  vnum: 01010757539
 - description: |-
     Este pequeno quarto possui alguns cabides fixado em suas paredes.  Nestes
     cabides estão pendurados alguns mantos e capas.  Existe uma porta ao leste.
   exits:
     east:
-      target_vnum: '7539'
+      target_vnum: 01010757539
+  local_id: '7540'
   name: O Quarto Dos Mantos
-  vnum: '7540'
+  vnum: '01010757540'
 - description: |-
     A decoração desta sala é da mais alta qualidade. As grandes cadeiras
     de couro têm ouro nas pernas e nos descansos. A mesinha de carvalho
@@ -550,9 +591,10 @@
     esperam pelo Barão. A única saída é ao oeste por uma porta.
   exits:
     west:
-      target_vnum: '7539'
+      target_vnum: 01010757539
+  local_id: '7541'
   name: Sala De Espera
-  vnum: '7541'
+  vnum: '01010757541'
 - description: |-
     O corredor foi generosamente decorado.  Caríssimos carpetes e tapeçarias
     estão pendurados ao longo das paredes em ambos os lados.  As paredes de
@@ -560,13 +602,14 @@
     norte e para sul o corredor continua e ao oeste há porta de carvalho.
   exits:
     north:
-      target_vnum: '7539'
+      target_vnum: 01010757539
     south:
-      target_vnum: '7545'
+      target_vnum: '01010757545'
     west:
-      target_vnum: '7543'
+      target_vnum: '01010757543'
+  local_id: '7542'
   name: O Corredor Decorado
-  vnum: '7542'
+  vnum: '01010757542'
 - description: |-
     A decoração desta sala é da mais alta qualidade.  As largas cadeiras de
     couro têm ouro nas pernas e nos descansos.  A pequena mesa de carvalho
@@ -575,9 +618,10 @@
     o Barão.  A única saída fica para o leste.
   exits:
     east:
-      target_vnum: '7542'
+      target_vnum: '01010757542'
+  local_id: '7543'
   name: Sala De Espera
-  vnum: '7543'
+  vnum: '01010757543'
 - description: |-
     A sala de reuniões é muito espaçosa. Uma larga mesa de madeira com
     várias cadeiras alinhadas em volta dela estão aqui. Uma cadeira feita
@@ -586,9 +630,10 @@
     aqui na parede ao leste, embora esteja apagada.
   exits:
     west:
-      target_vnum: '7545'
+      target_vnum: '01010757545'
+  local_id: '7544'
   name: Sala De Reuniões
-  vnum: '7544'
+  vnum: '01010757544'
 - description: |-
     O corredor foi generosamente decorado.  Caríssimos carpetes foram postos
     tanto no chão quanto nas paredes.  As paredes de pedra foram cobertas com
@@ -596,13 +641,14 @@
     sul o corredor continua e para o leste há uma porta de carvalho.
   exits:
     east:
-      target_vnum: '7544'
+      target_vnum: '01010757544'
     north:
-      target_vnum: '7542'
+      target_vnum: '01010757542'
     south:
-      target_vnum: '7546'
+      target_vnum: '01010757546'
+  local_id: '7545'
   name: O Corredor Decorado
-  vnum: '7545'
+  vnum: '01010757545'
 - description: |-
     A intercessão tem corredores que dão para todos os quatro pontos
     cardeais.  Os corredores do leste e oeste são muito simples, já os
@@ -611,15 +657,16 @@
     madeira podem ser ouvidos.
   exits:
     east:
-      target_vnum: '7547'
+      target_vnum: '01010757547'
     north:
-      target_vnum: '7545'
+      target_vnum: '01010757545'
     south:
-      target_vnum: '7568'
+      target_vnum: 01010757568
     west:
-      target_vnum: '7554'
+      target_vnum: '01010757554'
+  local_id: '7546'
   name: Cruzamento De Corredores
-  vnum: '7546'
+  vnum: '01010757546'
 - description: |-
     A fraca luz do corredor de pedra parece não iluminar nada.  Aqui há um
     velho tapete que foi posto na parede, sua qualidade não é nada comparado as
@@ -627,11 +674,12 @@
     o leste e uma intercessão fica para o oeste.
   exits:
     east:
-      target_vnum: '7548'
+      target_vnum: 01010757548
     west:
-      target_vnum: '7546'
+      target_vnum: '01010757546'
+  local_id: '7547'
   name: O Corredor Dos Criados
-  vnum: '7547'
+  vnum: '01010757547'
 - description: |-
     A fraca luz do corredor de pedra parece não iluminar nada.  Aqui há um
     velho tapete que foi posto na parede, sua qualidade não é nada comparado às
@@ -639,15 +687,16 @@
     vidro.
   exits:
     east:
-      target_vnum: '7550'
+      target_vnum: '01010757550'
     north:
-      target_vnum: '7549'
+      target_vnum: 01010757549
     south:
-      target_vnum: '7551'
+      target_vnum: '01010757551'
     west:
-      target_vnum: '7547'
+      target_vnum: '01010757547'
+  local_id: '7548'
   name: O Corredor Dos Criados
-  vnum: '7548'
+  vnum: 01010757548
 - description: |-
     Este quarto é razoavelmente grande (para um criado).  Uma coisa que é
     incomum é que a sala tem sua própria lareira posta na parede norte.  Uma
@@ -655,9 +704,10 @@
     uma cama e um criado-mudo.  Há uma porta na parede sul.
   exits:
     south:
-      target_vnum: '7548'
+      target_vnum: 01010757548
+  local_id: '7549'
   name: O Quarto do Criado Mestre
-  vnum: '7549'
+  vnum: 01010757549
 - description: |-
     Este quarto é muito pequeno.  Uma grande cama com dossel foi posta na
     sala com uma cortina de renda em volta dela com um sofisticado laço.  Há uma
@@ -665,9 +715,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '7548'
+      target_vnum: 01010757548
+  local_id: '7550'
   name: O Quarto Dos Empregados
-  vnum: '7550'
+  vnum: '01010757550'
 - description: |-
     Você chegou ao fim de um corredor iluminado e plano feito de pedras.  Em
     todos os cantos existem velhas tapeçarias penduradas na parede, entretanto,
@@ -676,31 +727,34 @@
     portas planas.
   exits:
     east:
-      target_vnum: '7552'
+      target_vnum: '01010757552'
     north:
-      target_vnum: '7548'
+      target_vnum: 01010757548
     south:
-      target_vnum: '7553'
+      target_vnum: '01010757553'
+  local_id: '7551'
   name: O Fim Do Corredor Dos Criados
-  vnum: '7551'
+  vnum: '01010757551'
 - description: |-
     Este quarto é muito estreito mas ao mesmo tempo é bastante comprido.  Uma
     pequena cama com uma grande cabeceira está encostada na parede sul e leste
     do quarto.  A porta na parede oeste parece ser a única saída deste quarto.
   exits:
     west:
-      target_vnum: '7551'
+      target_vnum: '01010757551'
+  local_id: '7552'
   name: O Quarto Do Mordomo
-  vnum: '7552'
+  vnum: '01010757552'
 - description: |-
     O pequeno quarto é simples.  Apenas uma cama estreita foi colocada
     próxima à parede sul.  Uma cômoda de madeira foi empurrada junto a parede
     leste.  Existe uma porta ao norte que com certeza é a única saída do quarto.
   exits:
     north:
-      target_vnum: '7551'
+      target_vnum: '01010757551'
+  local_id: '7553'
   name: O Quarto De Um Criado
-  vnum: '7553'
+  vnum: '01010757553'
 - description: |-
     Podem ser ouvidos os sons de alguém meio longe no corredor ao oeste
     serrando madeira.  Tapeçarias que descrevem soldados nas batalhas em todos
@@ -710,13 +764,14 @@
     corredores pode sido visto ao leste.
   exits:
     east:
-      target_vnum: '7546'
+      target_vnum: '01010757546'
     north:
-      target_vnum: '7576'
+      target_vnum: '01010757576'
     west:
-      target_vnum: '7555'
+      target_vnum: '01010757555'
+  local_id: '7554'
   name: Um Corredor Iluminado
-  vnum: '7554'
+  vnum: '01010757554'
 - description: |-
     Podem ser ouvidos os sons de alguém serrando madeira por detrás da porta
     de madeira na parede norte.  Tapeçarias que descrevem soldados nas batalha
@@ -725,15 +780,16 @@
     madeira ao norte e oeste.  O corredor continua ao leste e sul.
   exits:
     east:
-      target_vnum: '7554'
+      target_vnum: '01010757554'
     north:
-      target_vnum: '7556'
+      target_vnum: '01010757556'
     south:
-      target_vnum: '7559'
+      target_vnum: 01010757559
     west:
-      target_vnum: '7557'
+      target_vnum: '01010757557'
+  local_id: '7555'
   name: Um Corredor Iluminado
-  vnum: '7555'
+  vnum: '01010757555'
 - description: |-
     Várias beliches estão encostadas nas paredes deste quarto.  Alguns
     pedaços de armaduras que estão precisando de conserto foram colocados contra
@@ -742,9 +798,10 @@
     conduz do quarto para o sul.
   exits:
     south:
-      target_vnum: '7555'
+      target_vnum: '01010757555'
+  local_id: '7556'
   name: A Alojamento Dos Guardas
-  vnum: '7556'
+  vnum: '01010757556'
 - description: |-
     Duas camas e dois baús ocupam a maior parte deste quarto.  Há uma cama e
     um baú nas paredes norte e sul, com um pequena mesa e duas cadeiras nos
@@ -752,9 +809,10 @@
     colocada sobre uma mesa de madeira.  Existe uma porta na parede leste.
   exits:
     east:
-      target_vnum: '7555'
+      target_vnum: '01010757555'
+  local_id: '7557'
   name: O Quarto Do Sargento Dos Guardas
-  vnum: '7557'
+  vnum: '01010757557'
 - description: |-
     Este espaçoso quarto possui uma grande cama de pena no canto sudoeste.
     Um baú completamente vazio está perto ao pé da cama.  Uma pequena e redonda
@@ -763,9 +821,10 @@
     parede leste.
   exits:
     east:
-      target_vnum: '7559'
+      target_vnum: 01010757559
+  local_id: '7558'
   name: O Quarto De Mullins
-  vnum: '7558'
+  vnum: 01010757558
 - description: |-
     Você chegou ao fim de um longo corredor iluminado.  Tapeçarias que
     descrevem soldados nas batalhas em todos os tipos de terreno foram
@@ -774,13 +833,14 @@
     corredor continua ao norte.
   exits:
     north:
-      target_vnum: '7555'
+      target_vnum: '01010757555'
     south:
-      target_vnum: '7560'
+      target_vnum: '01010757560'
     west:
-      target_vnum: '7558'
+      target_vnum: 01010757558
+  local_id: '7559'
   name: Fim Do Corredor Iluminado
-  vnum: '7559'
+  vnum: 01010757559
 - description: |-
     Este é o quarto do Capitão dos Guardas.  Uma grande cama com um
     confortável colchão de penas foi colocada no canto sudoeste do quarto.  Uma
@@ -788,18 +848,20 @@
     quarto fica ao norte através de uma porta de madeira.
   exits:
     north:
-      target_vnum: '7559'
+      target_vnum: 01010757559
+  local_id: '7560'
   name: O Quarto do Capitão Thewin
-  vnum: '7560'
+  vnum: '01010757560'
 - description: |-
     Este pequeno abrigo está repleto de instrumentos para jardinagem.  Não
     existe janela aqui e você sente um cheiro forte, como se fosse algo que
     estivesse apodrecendo.  Existe uma porta ao oeste.
   exits:
     west:
-      target_vnum: '7562'
+      target_vnum: '01010757562'
+  local_id: '7561'
   name: A Cabana De Jardineiro
-  vnum: '7561'
+  vnum: '01010757561'
 - description: |-
     Os jardins têm uma brisa muito refrescante que sopra por cima dos
     arbustos aparados.  O som de alguém podando algo pode ser ouvido daqui,
@@ -808,13 +870,14 @@
     sul e oeste.
   exits:
     east:
-      target_vnum: '7561'
+      target_vnum: '01010757561'
     south:
-      target_vnum: '7565'
+      target_vnum: '01010757565'
     west:
-      target_vnum: '7563'
+      target_vnum: '01010757563'
+  local_id: '7562'
   name: Caminhando Pelos Jardins
-  vnum: '7562'
+  vnum: '01010757562'
 - description: |-
     Os jardins têm uma brisa muito refrescante que sopra por cima dos
     arbustos aparados.  O som de alguém podando algo pode ser ouvido daqui,
@@ -822,11 +885,12 @@
     oeste.  O caminho de pedregulho segue para o sul e leste.
   exits:
     east:
-      target_vnum: '7562'
+      target_vnum: '01010757562'
     south:
-      target_vnum: '7564'
+      target_vnum: '01010757564'
+  local_id: '7563'
   name: Um Canto Do Jardim
-  vnum: '7563'
+  vnum: '01010757563'
 - description: |-
     Os jardins têm uma brisa muito refrescante que sopra por cima dos
     arbustos aparados.  O som de alguém podando algo pode ser ouvido daqui,
@@ -834,11 +898,12 @@
     oeste.  O caminho de pedregulho segue para o norte e leste.
   exits:
     east:
-      target_vnum: '7565'
+      target_vnum: '01010757565'
     north:
-      target_vnum: '7563'
+      target_vnum: '01010757563'
+  local_id: '7564'
   name: Caminhando Pelos Jardins
-  vnum: '7564'
+  vnum: '01010757564'
 - description: |-
     Os jardins têm uma brisa muito refrescante que sopra por cima dos
     arbustos aparados.  O som de alguém podando algo pode ser ouvido daqui,
@@ -846,13 +911,14 @@
     caminho de pedregulho segue para o norte, oeste e leste.
   exits:
     east:
-      target_vnum: '7566'
+      target_vnum: '01010757566'
     north:
-      target_vnum: '7562'
+      target_vnum: '01010757562'
     west:
-      target_vnum: '7564'
+      target_vnum: '01010757564'
+  local_id: '7565'
   name: Caminhando Pelos Jardins
-  vnum: '7565'
+  vnum: '01010757565'
 - description: |-
     Os jardins têm uma brisa muito refrescante que sopra por cima dos
     arbustos aparados.  O som de alguém podando algo pode ser ouvido daqui,
@@ -860,11 +926,12 @@
     e oeste entre a parede exterior e a parede reforçada.
   exits:
     east:
-      target_vnum: '7567'
+      target_vnum: '01010757567'
     west:
-      target_vnum: '7565'
+      target_vnum: '01010757565'
+  local_id: '7566'
   name: Caminhando Pelos Jardins
-  vnum: '7566'
+  vnum: '01010757566'
 - description: |-
     Os jardins têm uma brisa muito refrescante que sopra por cima dos
     arbustos aparados.  O som de alguém podando algo pode ser ouvido daqui,
@@ -873,11 +940,12 @@
     podem ser vistas ao término do caminho ao leste.
   exits:
     east:
-      target_vnum: '7574'
+      target_vnum: '01010757574'
     west:
-      target_vnum: '7566'
+      target_vnum: '01010757566'
+  local_id: '7567'
   name: Caminhando Pelos Jardins
-  vnum: '7567'
+  vnum: '01010757567'
 - description: |-
     O Corredor foi generosamente decorado.  Caríssimos carpetes foram postos
     tanto no chão quanto nas paredes.  As paredes de pedra foram cobertas com
@@ -886,22 +954,24 @@
     vários corredores se encontram em uma grande interseção.
   exits:
     east:
-      target_vnum: '7572'
+      target_vnum: '01010757572'
     north:
-      target_vnum: '7546'
+      target_vnum: '01010757546'
     south:
-      target_vnum: '7571'
+      target_vnum: '01010757571'
+  local_id: '7568'
   name: O Corredor Decorado
-  vnum: '7568'
+  vnum: 01010757568
 - description: |-
     A despensa está bem cheia.  Barris de farinha, açúcar, sal e outros
     produtos essenciais para se cozinhar, foram estocados em grande quantidade.
     Existe uma porta ao sul.
   exits:
     south:
-      target_vnum: '7570'
+      target_vnum: '01010757570'
+  local_id: '7569'
   name: A Despensa
-  vnum: '7569'
+  vnum: 01010757569
 - description: |-
     A cozinha é imensa.  Grandes fornos ao longo da parede ocidental exalam
     um ar quente em toda a cozinha.  Longas mesas de madeira estão repletas com
@@ -910,13 +980,14 @@
     portas para o leste, sul e norte.
   exits:
     east:
-      target_vnum: '7571'
+      target_vnum: '01010757571'
     north:
-      target_vnum: '7569'
+      target_vnum: 01010757569
     south:
-      target_vnum: '7574'
+      target_vnum: '01010757574'
+  local_id: '7570'
   name: A Cozinha
-  vnum: '7570'
+  vnum: '01010757570'
 - description: |-
     O corredor foi generosamente decorado.  Caríssimos carpetes e tapeçarias
     estão pendurados ao longo das paredes em ambos os lados.  As paredes de
@@ -925,22 +996,24 @@
     porta de carvalho.
   exits:
     north:
-      target_vnum: '7568'
+      target_vnum: 01010757568
     south:
-      target_vnum: '7573'
+      target_vnum: '01010757573'
     west:
-      target_vnum: '7570'
+      target_vnum: '01010757570'
+  local_id: '7571'
   name: O Corredor Decorado
-  vnum: '7571'
+  vnum: '01010757571'
 - description: |-
     Este lugar foi classificado como um corredor de grandes bagunças.  Uma
     fila dupla de mesas de madeira e outros objetos como bancos estão virados de
     perna para cima.  Uma porta segue de um quarto ao oeste.
   exits:
     west:
-      target_vnum: '7568'
+      target_vnum: 01010757568
+  local_id: '7572'
   name: Um Corredor Desarrumado
-  vnum: '7572'
+  vnum: '01010757572'
 - description: |-
     Você está ao término de um corredor que foi generosamente decorado.
     Caríssimos carpetes e tapeçarias estão pendurados ao longo das paredes em
@@ -949,11 +1022,12 @@
     uma porta de madeira dupla.
   exits:
     north:
-      target_vnum: '7571'
+      target_vnum: '01010757571'
     south:
-      target_vnum: '7574'
+      target_vnum: '01010757574'
+  local_id: '7573'
   name: Fim Do Corredor
-  vnum: '7573'
+  vnum: '01010757573'
 - description: |-
     A longa mesa de madeira no centro deste quarto está manchada com uma cor
     escura.  Castiçais prateados com velas de cera foram arrumados com um espaço
@@ -962,13 +1036,14 @@
     sul, uma porta dupla de madeira e uma porta pequena.
   exits:
     east:
-      target_vnum: '7575'
+      target_vnum: '01010757575'
     north:
-      target_vnum: '7570'
+      target_vnum: '01010757570'
     west:
-      target_vnum: '7567'
+      target_vnum: '01010757567'
+  local_id: '7574'
   name: A Sala De Jantar
-  vnum: '7574'
+  vnum: '01010757574'
 - description: |-
     Três grandes lustres com velas estão prontos e acesos.  No chão existem
     azulejos pretos revezado com brancos.  No canto sudeste do salão existe um
@@ -977,20 +1052,22 @@
     parede oeste.
   exits:
     west:
-      target_vnum: '7574'
+      target_vnum: '01010757574'
+  local_id: '7575'
   name: O Salão De Festas
-  vnum: '7575'
+  vnum: '01010757575'
 - description: |-
     Este é o fim de uma escadaria espiral.  Os poucos abajures que estão
     sendo usados é capaz de fazer sombra ao longo da escadaria.  As escadarias
     conduzem acima e também existe uma pequena porta ao sul.
   exits:
     south:
-      target_vnum: '7554'
+      target_vnum: '01010757554'
     up:
-      target_vnum: '7577'
+      target_vnum: '01010757577'
+  local_id: '7576'
   name: Uma Escada Em Espiral
-  vnum: '7576'
+  vnum: '01010757576'
 - description: |-
     Este é o topo de uma escadaria espiral. Os poucos abajures que estão
     sendo usados é capaz de fazer sombra ao longo da escadaria. As
@@ -998,13 +1075,14 @@
     oeste.
   exits:
     down:
-      target_vnum: '7576'
+      target_vnum: '01010757576'
     up:
-      target_vnum: '7585'
+      target_vnum: 01010757585
     west:
-      target_vnum: '7578'
+      target_vnum: 01010757578
+  local_id: '7577'
   name: O Topo Da Escada Em Espiral
-  vnum: '7577'
+  vnum: '01010757577'
 - description: |-
     Este corredor é estreito, com um enorme tapete persa no chão.  Abajures
     dourados iluminam o corredor com um brilho intenso.  O corredor que conduz
@@ -1012,11 +1090,12 @@
     oeste.
   exits:
     east:
-      target_vnum: '7577'
+      target_vnum: '01010757577'
     north:
-      target_vnum: '7579'
+      target_vnum: 01010757579
+  local_id: '7578'
   name: Um Corredor Iluminado
-  vnum: '7578'
+  vnum: 01010757578
 - description: |-
     Este corredor é estreito, com um enorme tapete persa no chão.  Abajures
     dourados iluminam o corredor com um brilho intenso.  A pintura de uma bela
@@ -1024,11 +1103,12 @@
     para o oeste e norte.
   exits:
     north:
-      target_vnum: '7580'
+      target_vnum: 01010757580
     south:
-      target_vnum: '7578'
+      target_vnum: 01010757578
+  local_id: '7579'
   name: Um Corredor Iluminado
-  vnum: '7579'
+  vnum: 01010757579
 - description: |-
     Você está ao fim de um estreito corredor.  Existe um enorme tapete persa
     no chão.  Abajures dourados iluminam o corredor com um brilho intenso.
@@ -1036,22 +1116,24 @@
     acaba ao sul.
   exits:
     east:
-      target_vnum: '7582'
+      target_vnum: 01010757582
     south:
-      target_vnum: '7579'
+      target_vnum: 01010757579
     west:
-      target_vnum: '7583'
+      target_vnum: 01010757583
+  local_id: '7580'
   name: O Fim Do Corredor Escuro
-  vnum: '7580'
+  vnum: 01010757580
 - description: |-
     As mesas deste quarto escondido estão empilhadas com mapas de edifícios.
     Estranhamente, estes mapas mostram janelas, portas e outros pontos de acesso
     com anotações próximo a eles.  A parede segue ao norte.
   exits:
     north:
-      target_vnum: '7582'
+      target_vnum: 01010757582
+  local_id: '7581'
   name: O Quarto De Planejamento
-  vnum: '7581'
+  vnum: 01010757581
 - description: |-
     As paredes do quarto estão forradas com livros e estantes.  Uma mesa
     baixa com um castiçal foi colocado perto da parede norte.  Várias cadeiras
@@ -1059,11 +1141,12 @@
     ao oeste.
   exits:
     south:
-      target_vnum: '7581'
+      target_vnum: 01010757581
     west:
-      target_vnum: '7580'
+      target_vnum: 01010757580
+  local_id: '7582'
   name: O Estúdio do Barão
-  vnum: '7582'
+  vnum: 01010757582
 - description: |-
     Este é o quarto privativo do Barão Darwin.  Uma grande lareira foi
     construída na parede norte.  O chão está coberto com um tapete persa que
@@ -1072,11 +1155,12 @@
     quarto fica ao sul e ao leste.
   exits:
     east:
-      target_vnum: '7580'
+      target_vnum: 01010757580
     south:
-      target_vnum: '7584'
+      target_vnum: 01010757584
+  local_id: '7583'
   name: O Quarto Privativo Do Barão Darwin
-  vnum: '7583'
+  vnum: 01010757583
 - description: |-
     O quarto possui vários sofás que estão espalhados pela sala.  Tapeçarias
     enfileiradas nas paredes e o chão está coberto com tapetes.  No canto
@@ -1086,9 +1170,10 @@
     não ter sido usado por um longo tempo.
   exits:
     north:
-      target_vnum: '7583'
+      target_vnum: 01010757583
+  local_id: '7584'
   name: O Quarto de Descanço
-  vnum: '7584'
+  vnum: 01010757584
 - description: |-
     O topo desta pequena torre foi coberto com um telhado.  Dela você
     consegue ter uma visão ampla ao seu redor, sendo que, ao longe consegues
@@ -1096,40 +1181,44 @@
     densas arvores.
   exits:
     down:
-      target_vnum: '7577'
+      target_vnum: '01010757577'
+  local_id: '7585'
   name: O Posto dos Vigias
-  vnum: '7585'
+  vnum: 01010757585
 - description: |-
     O porão é bastante pequeno, mofado e escuro.  O intenso cheiro de mofo
     paira no ar como um poeira.  Uma escada com um corrimão conduz até um
     abrigo.
   exits:
     up:
-      target_vnum: '7533'
+      target_vnum: '01010757533'
     west:
-      target_vnum: '7587'
+      target_vnum: 01010757587
+  local_id: '7586'
   name: Um Minúsculo Porão Mofado
-  vnum: '7586'
+  vnum: 01010757586
 - description: |-
     Um posto de guarda foi colocado para uma maior proteção em frente às
     portas ao leste.  Existem portas para o leste, norte e sul.
   exits:
     east:
-      target_vnum: '7586'
+      target_vnum: 01010757586
     north:
-      target_vnum: '7598'
+      target_vnum: 01010757598
     south:
-      target_vnum: '7589'
+      target_vnum: 01010757589
+  local_id: '7587'
   name: O Posto Dos Guardas
-  vnum: '7587'
+  vnum: 01010757587
 - description: |-
     A abóbada é muito pequena e sufocante.  Surpreendentemente parece estar
     vazia.  Aparentemente o dinheiro do Barão é mantido em outro lugar.
   exits:
     west:
-      target_vnum: '7598'
+      target_vnum: 01010757598
+  local_id: '7588'
   name: A Abóbada
-  vnum: '7588'
+  vnum: 01010757588
 - description: |-
     Você está em um lugar que foi escavado a muito tempo.  Não se consegue
     ver o teto em meio a tanta escuridão.  Você somente consegue enxergar
@@ -1137,24 +1226,26 @@
     portas para o norte, leste e sul.
   exits:
     east:
-      target_vnum: '7590'
+      target_vnum: 01010757590
     north:
-      target_vnum: '7587'
+      target_vnum: 01010757587
     south:
-      target_vnum: '7592'
+      target_vnum: 01010757592
+  local_id: '7589'
   name: Um Quarto Cavernoso
-  vnum: '7589'
+  vnum: 01010757589
 - description: |-
     Uma pequena sala de aula foi organizada aqui.  Os estudantes que assistem
     as aulas dadas aqui não possuem muita sabedoria.  Vários mapas de edifícios
     estão espalhados sobre as escrivaninhas.  Existe uma porta ao oeste.
   exits:
     south:
-      target_vnum: '7591'
+      target_vnum: 01010757591
     west:
-      target_vnum: '7589'
+      target_vnum: 01010757589
+  local_id: '7590'
   name: Uma Sala De Aula
-  vnum: '7590'
+  vnum: 01010757590
 - description: |-
     O arsenal possui muitas armas.  Elas são muito variadas...  Muito próximo
     de você existe um espada, em uma estante ao sul estão os punhais.  As
@@ -1162,9 +1253,10 @@
     perecem muito bem cuidadas.
   exits:
     north:
-      target_vnum: '7590'
+      target_vnum: 01010757590
+  local_id: '7591'
   name: O Arsenal
-  vnum: '7591'
+  vnum: 01010757591
 - description: |-
     Você está em um quarto que foi escavado a muito tempo.  Não se consegue
     ver o teto em meio a tanta escuridão.  Você somente consegue enxergar
@@ -1172,11 +1264,12 @@
     portas ao norte e oeste.
   exits:
     north:
-      target_vnum: '7589'
+      target_vnum: 01010757589
     west:
-      target_vnum: '7593'
+      target_vnum: 01010757593
+  local_id: '7592'
   name: Um Quarto Cavernoso
-  vnum: '7592'
+  vnum: 01010757592
 - description: |-
     O quarto possui muitos guarda-roupas que são somente prateleiras fixadas
     contra as paredes.  Uma grande mesa foi colocada no centro da sala e sobre
@@ -1184,44 +1277,48 @@
     norte e ao leste existe uma porta.
   exits:
     east:
-      target_vnum: '7592'
+      target_vnum: 01010757592
     north:
-      target_vnum: '7594'
+      target_vnum: 01010757594
+  local_id: '7593'
   name: O Quarto De Fantasias
-  vnum: '7593'
+  vnum: 01010757593
 - description: |-
     O quarto é longo e estreito.  Foram construídas alguns vestiários de pano
     feito de linho que provê uma divisória para os ocupantes.  Uma cortina fecha
     uma passagem na parede sul.
   exits:
     north:
-      target_vnum: '7595'
+      target_vnum: 01010757595
     south:
-      target_vnum: '7593'
+      target_vnum: 01010757593
+  local_id: '7594'
   name: O Vestiário
-  vnum: '7594'
+  vnum: 01010757594
 - description: |-
     Este túnel é muito escuro e estreito.  Um sussurro é ouvido trazido pelo
     vento, e em algum lugar existe algum líquido gotejando.  O túnel continua
     para o norte.
   exits:
     north:
-      target_vnum: '7596'
+      target_vnum: 01010757596
     south:
-      target_vnum: '7594'
+      target_vnum: 01010757594
+  local_id: '7595'
   name: Uma Passagem Secreta
-  vnum: '7595'
+  vnum: 01010757595
 - description: |-
     Este túnel é muito escuro e estreito.  Um sussurro é ouvido trazido pelo
     vento, e em algum lugar existe algum líquido gotejando.  O túnel continua
     para o sul e oeste.
   exits:
     south:
-      target_vnum: '7595'
+      target_vnum: 01010757595
     west:
-      target_vnum: '7597'
+      target_vnum: 01010757597
+  local_id: '7596'
   name: Uma Passagem Secreta
-  vnum: '7596'
+  vnum: 01010757596
 - description: |-
     Sobre uma longa mesa estão instrumentos manchados de sangue.  Olhando
     diretamente para esta mesa você observa um tipo de espada que jamais havia
@@ -1230,22 +1327,24 @@
     vermelho.  Será Sangue?  Existem saídas para o leste e sul.
   exits:
     east:
-      target_vnum: '7596'
+      target_vnum: 01010757596
     south:
-      target_vnum: '7599'
+      target_vnum: 01010757599
+  local_id: '7597'
   name: A Sala Para Interrogatórios
-  vnum: '7597'
+  vnum: 01010757597
 - description: |-
     O quarto possui uma longa mesa e uma escrivaninha de escritura ao longo
     da parede norte.  Na mesa estão espalhados pilhas de papéis e na
     escrivaninha consegue-se ver tinta e penas.  Existe uma porta ao sul.
   exits:
     east:
-      target_vnum: '7588'
+      target_vnum: 01010757588
     south:
-      target_vnum: '7587'
+      target_vnum: 01010757587
+  local_id: '7598'
   name: A Sala do Contador
-  vnum: '7598'
+  vnum: 01010757598
 - description: |-
     Esta passagem é muito escura e estreita.  Um sussurro é ouvido trazido
     pelo vento, e em algum lugar existe algum líquido gotejando.  O túnel
@@ -1253,8 +1352,9 @@
     sul.
   exits:
     north:
-      target_vnum: '7597'
+      target_vnum: 01010757597
     up:
-      target_vnum: '7500'
+      target_vnum: '01010757500'
+  local_id: '7599'
   name: Uma Passagem Secreta
-  vnum: '7599'
+  vnum: 01010757599

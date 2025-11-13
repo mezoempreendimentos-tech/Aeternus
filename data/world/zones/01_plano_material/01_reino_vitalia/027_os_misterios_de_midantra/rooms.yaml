@@ -7,15 +7,16 @@
     você pode deixá-lo indo para o sul.
   exits:
     east:
-      target_vnum: '2706'
+      target_vnum: '01010272706'
     north:
-      target_vnum: '2701'
+      target_vnum: '01010272701'
     south:
-      target_vnum: '2720'
+      target_vnum: '01010272720'
     west:
-      target_vnum: '2707'
+      target_vnum: '01010272707'
+  local_id: '2700'
   name: A Ponte Levadiça
-  vnum: '2700'
+  vnum: '01010272700'
 - description: |-
     Esta pequena península de terra que sai do continente do castelo e
     dirigi-se para o canal serve como posto de comando.  Visitantes vindos de
@@ -24,15 +25,16 @@
     direção norte, ou você pode deixá-lo indo para o sul.
   exits:
     east:
-      target_vnum: '2709'
+      target_vnum: 01010272709
     north:
-      target_vnum: '2702'
+      target_vnum: '01010272702'
     south:
-      target_vnum: '2700'
+      target_vnum: '01010272700'
     west:
-      target_vnum: '2708'
+      target_vnum: 01010272708
+  local_id: '2701'
   name: A Primeira Entrada Para o Castelo
-  vnum: '2701'
+  vnum: '01010272701'
 - description: |-
     Esta é a Grande Entrada do castelo.  Estandartes coloridos mostrando
     todos os emblemas dos aliados do castelo balançam alegremente no topo.
@@ -40,15 +42,16 @@
     entre as paredes do castelo começam para o leste e oeste.
   exits:
     east:
-      target_vnum: '2710'
+      target_vnum: '01010272710'
     north:
-      target_vnum: '2703'
+      target_vnum: '01010272703'
     south:
-      target_vnum: '2701'
+      target_vnum: '01010272701'
     west:
-      target_vnum: '2760'
+      target_vnum: '01010272760'
+  local_id: '2702'
   name: A Grande Entrada do Castelo
-  vnum: '2702'
+  vnum: '01010272702'
 - description: |-
     Esta é uma pequena rua de direção norte/sul que passa pelo castelo.  Na
     verdade esta é a única rua aqui.  Ao longo dela você vê várias pessoas
@@ -57,15 +60,16 @@
     Principal.
   exits:
     east:
-      target_vnum: '2739'
+      target_vnum: 01010272739
     north:
-      target_vnum: '2704'
+      target_vnum: '01010272704'
     south:
-      target_vnum: '2702'
+      target_vnum: '01010272702'
     west:
-      target_vnum: '2712'
+      target_vnum: '01010272712'
+  local_id: '2703'
   name: A Rua Principal
-  vnum: '2703'
+  vnum: '01010272703'
 - description: |-
     Esta é uma pequena rua de direção norte/sul que passa pelo castelo.  Na
     verdade esta é a única rua aqui.  Ao longo dela você vê muitas pessoas
@@ -74,13 +78,14 @@
     Principal.
   exits:
     east:
-      target_vnum: '2756'
+      target_vnum: '01010272756'
     north:
-      target_vnum: '2705'
+      target_vnum: '01010272705'
     south:
-      target_vnum: '2703'
+      target_vnum: '01010272703'
+  local_id: '2704'
   name: A Rua Principal
-  vnum: '2704'
+  vnum: '01010272704'
 - description: |-
     Esta é uma pequena rua de direção norte/sul que passa pelo castelo.  Na
     verdade esta é a única rua aqui.  Ao longo dela você vê muitas pessoas
@@ -89,13 +94,14 @@
     Principal.
   exits:
     east:
-      target_vnum: '2711'
+      target_vnum: '01010272711'
     south:
-      target_vnum: '2704'
+      target_vnum: '01010272704'
     west:
-      target_vnum: '2753'
+      target_vnum: '01010272753'
+  local_id: '2705'
   name: O Fim da Rua Principal
-  vnum: '2705'
+  vnum: '01010272705'
 - description: |-
     A água do canal é estagnada e tem um cheiro nojento.  A água preta e
     turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
@@ -104,11 +110,12 @@
     cercam todo o castelo.
   exits:
     north:
-      target_vnum: '2709'
+      target_vnum: 01010272709
     west:
-      target_vnum: '2741'
+      target_vnum: '01010272741'
+  local_id: '2706'
   name: O Canal
-  vnum: '2706'
+  vnum: '01010272706'
 - description: |-
     A água do canal é estagnada e tem um cheiro nojento.  A água preta e
     turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
@@ -117,11 +124,12 @@
     cercam todo o castelo.
   exits:
     east:
-      target_vnum: '2741'
+      target_vnum: '01010272741'
     north:
-      target_vnum: '2708'
+      target_vnum: 01010272708
+  local_id: '2707'
   name: O Canal
-  vnum: '2707'
+  vnum: '01010272707'
 - description: |-
     A água do canal é estagnada e tem um cheiro nojento.  A água preta e
     turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
@@ -130,9 +138,10 @@
     cercam todo o castelo.
   exits:
     south:
-      target_vnum: '2707'
+      target_vnum: '01010272707'
+  local_id: '2708'
   name: O Canal
-  vnum: '2708'
+  vnum: 01010272708
 - description: |-
     A água do canal é estagnada e tem um cheiro nojento.  A água preta e
     turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
@@ -146,11 +155,12 @@
     direção ao rio ou voltar, pelo canal, para a passagem do castelo.
   exits:
     south:
-      target_vnum: '2706'
+      target_vnum: '01010272706'
     west:
-      target_vnum: '2701'
+      target_vnum: '01010272701'
+  local_id: '2709'
   name: O Canal
-  vnum: '2709'
+  vnum: 01010272709
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -159,11 +169,12 @@
     inimigos.
   exits:
     east:
-      target_vnum: '2775'
+      target_vnum: '01010272775'
     west:
-      target_vnum: '2702'
+      target_vnum: '01010272702'
+  local_id: '2710'
   name: Entre as Fortificações do Castelo
-  vnum: '2710'
+  vnum: '01010272710'
 - description: |-
     Tendas estão montadas por toda essa fileira.  Produtos de todos os tipos
     podem ser comprados aqui pela população local.  Pessoas correm ao redor de
@@ -171,11 +182,12 @@
     realmente o paraíso dos compradores.
   exits:
     east:
-      target_vnum: '2743'
+      target_vnum: '01010272743'
     west:
-      target_vnum: '2705'
+      target_vnum: '01010272705'
+  local_id: '2711'
   name: A Fileira do Regateador
-  vnum: '2711'
+  vnum: '01010272711'
 - description: |-
     A Torre do Rei levanta-se acima de você, bloqueando o sol.  Velhas
     edificações ainda aguentam firme e, claro, desgostam a abundância do musgo
@@ -183,30 +195,32 @@
     Esta é a casa da família governante do castelo.
   exits:
     east:
-      target_vnum: '2703'
+      target_vnum: '01010272703'
     north:
-      target_vnum: '2752'
+      target_vnum: '01010272752'
     up:
-      target_vnum: '2713'
+      target_vnum: '01010272713'
+  local_id: '2712'
   name: A Base da Torre do Rei
-  vnum: '2712'
+  vnum: '01010272712'
 - description: |-
     Este é o centro da torre que foi obviamente construida por finos
     construtores.  Tapetes vermelhos estendem-se pelo chão e tapeçarias cobrem
     as paredes.  Membros da família real têm seus quartos aqui.
   exits:
     down:
-      target_vnum: '2712'
+      target_vnum: '01010272712'
     north:
-      target_vnum: '2750'
+      target_vnum: '01010272750'
     south:
-      target_vnum: '2715'
+      target_vnum: '01010272715'
     up:
-      target_vnum: '2719'
+      target_vnum: 01010272719
     west:
-      target_vnum: '2714'
+      target_vnum: '01010272714'
+  local_id: '2713'
   name: A Torre para o Quarto do Rei
-  vnum: '2713'
+  vnum: '01010272713'
 - description: |-
     Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
     chão que estende-se por todo o comprimento do saguão.  Há também duas
@@ -214,9 +228,10 @@
     fornecem luz paras as pessoas verem.
   exits:
     east:
-      target_vnum: '2713'
+      target_vnum: '01010272713'
+  local_id: '2714'
   name: O Saguão Real
-  vnum: '2714'
+  vnum: '01010272714'
 - description: |-
     Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
     chão que estende-se por todo o comprimento do saguão.  Há também duas
@@ -224,11 +239,12 @@
     fornecem luz paras as pessoas verem.
   exits:
     east:
-      target_vnum: '2716'
+      target_vnum: '01010272716'
     north:
-      target_vnum: '2713'
+      target_vnum: '01010272713'
+  local_id: '2715'
   name: O Saguão Real
-  vnum: '2715'
+  vnum: '01010272715'
 - description: |-
     Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
     chão que estende-se por todo o comprimento do saguão.  Há também duas
@@ -236,13 +252,14 @@
     fornecem luz paras as pessoas verem.
   exits:
     east:
-      target_vnum: '2717'
+      target_vnum: '01010272717'
     north:
-      target_vnum: '2718'
+      target_vnum: 01010272718
     west:
-      target_vnum: '2715'
+      target_vnum: '01010272715'
+  local_id: '2716'
   name: O Saguão Real
-  vnum: '2716'
+  vnum: '01010272716'
 - description: |-
     Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
     chão que estende-se por todo o comprimento do saguão.  Há também duas
@@ -250,9 +267,10 @@
     fornecem luz paras as pessoas verem.
   exits:
     west:
-      target_vnum: '2716'
+      target_vnum: '01010272716'
+  local_id: '2717'
   name: O Fim do Saguão Real
-  vnum: '2717'
+  vnum: '01010272717'
 - description: |-
     Tudo neste grande quarto é portátil.  Beliches em estilo militar estão no
     fundo do quarto.  Uniformes estão pendurados organizadamente em um pequeno
@@ -260,9 +278,10 @@
     dormem.
   exits:
     south:
-      target_vnum: '2716'
+      target_vnum: '01010272716'
+  local_id: '2718'
   name: Os Quartos do Guardas Reais
-  vnum: '2718'
+  vnum: 01010272718
 - description: |-
     Uma grande clarabóia permite que a luz do sol entre nesse quarto
     abundantemente mobiliado.  Ouro adorna o teto e espelhos presos às paredes.
@@ -271,11 +290,12 @@
     é o aposento do Rei!
   exits:
     down:
-      target_vnum: '2713'
+      target_vnum: '01010272713'
     north:
-      target_vnum: '2757'
+      target_vnum: '01010272757'
+  local_id: '2719'
   name: O Quarto do Rei
-  vnum: '2719'
+  vnum: 01010272719
 - description: |-
     Este largo caminho foi bem mantido durante os anos.  Diferente de vários
     outros caminhos e estradas, ele oferece uma viagem estável e confortável.
@@ -283,24 +303,26 @@
     castelo situa-se ao norte.
   exits:
     east:
-      target_vnum: '2721'
+      target_vnum: '01010272721'
     north:
-      target_vnum: '2700'
+      target_vnum: '01010272700'
+  local_id: '2720'
   name: O Caminho para o Castelo
-  vnum: '2720'
+  vnum: '01010272720'
 - description: |-
     Existem três caminhos, uma pode ir deste ponto.  O caminhos bem mantido
     para o castelo é para o oeste.  Um caminho muito utilizado vai para o sul.
     Um caminho sujo em direção a uma clareira fica ao leste.
   exits:
     east:
-      target_vnum: '2783'
+      target_vnum: 01010272783
     south:
-      target_vnum: '2722'
+      target_vnum: '01010272722'
     west:
-      target_vnum: '2720'
+      target_vnum: '01010272720'
+  local_id: '2721'
   name: Um Cruzamento em T
-  vnum: '2721'
+  vnum: '01010272721'
 - description: |-
     As pisadas de incontáveis pés maltrataram a vegetação daqui, mantando-a.
     Tudo que restou ao longo deste caminho são escassas ervas daninhas que
@@ -308,24 +330,26 @@
     ouvidos, vindos do leste.  O caminho segue ao norte e ao sul.
   exits:
     east:
-      target_vnum: '2723'
+      target_vnum: '01010272723'
     north:
-      target_vnum: '2721'
+      target_vnum: '01010272721'
     south:
-      target_vnum: '2724'
+      target_vnum: '01010272724'
+  local_id: '2722'
   name: Um Caminho Bastante Utilizado
-  vnum: '2722'
+  vnum: '01010272722'
 - description: |-
     Um caminho pedrego vai em direção à origem dos gritos e sons que ressoam,
     ao leste.  O castelo e os campos de treino situam-se à oeste.  Gotas de
     sangue recentes e secas podem ser vistas aqui, respingadas entre as pedras.
   exits:
     east:
-      target_vnum: '2725'
+      target_vnum: '01010272725'
     west:
-      target_vnum: '2722'
+      target_vnum: '01010272722'
+  local_id: '2723'
   name: O Caminho para os Campos de Guerra
-  vnum: '2723'
+  vnum: '01010272723'
 - description: |-
     O caminho não é tão utilizada como era ao norte.  Gramas crescem verdes e
     fortes aqui, devido aos poucos pisões recebidos.  Pode-se dizer que cavalos
@@ -333,39 +357,42 @@
     o sul, você pode ver claramente coloridas tendas motadas em um grande campo.
   exits:
     north:
-      target_vnum: '2722'
+      target_vnum: '01010272722'
     south:
-      target_vnum: '2727'
+      target_vnum: '01010272727'
+  local_id: '2724'
   name: O Caminho para os Campos de Treino dos Cavaleiros
-  vnum: '2724'
+  vnum: '01010272724'
 - description: |-
     Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
     vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
     o treino.  Fique em guarda, acidentes acontecem.
   exits:
     east:
-      target_vnum: '2736'
+      target_vnum: '01010272736'
     north:
-      target_vnum: '2738'
+      target_vnum: 01010272738
     south:
-      target_vnum: '2726'
+      target_vnum: '01010272726'
     west:
-      target_vnum: '2723'
+      target_vnum: '01010272723'
+  local_id: '2725'
   name: Um Caminho pelos Campos de Extermínio
-  vnum: '2725'
+  vnum: '01010272725'
 - description: |-
     Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
     vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
     o treino.  Fique em guarda, acidentes acontecem.
   exits:
     east:
-      target_vnum: '2734'
+      target_vnum: '01010272734'
     north:
-      target_vnum: '2725'
+      target_vnum: '01010272725'
     south:
-      target_vnum: '2782'
+      target_vnum: 01010272782
+  local_id: '2726'
   name: Um Caminho pelos Campos de Extermínio
-  vnum: '2726'
+  vnum: '01010272726'
 - description: |-
     Cavaleiros de todo o campo vêm aqui praticar suas habilidades na
     esperança de ser famoso algum dia.  Meday.  Lutas com lanças, boxe,
@@ -374,15 +401,16 @@
     vê entradas para grandes tendas à direita e à esquerda.
   exits:
     east:
-      target_vnum: '2728'
+      target_vnum: 01010272728
     north:
-      target_vnum: '2724'
+      target_vnum: '01010272724'
     south:
-      target_vnum: '2730'
+      target_vnum: '01010272730'
     west:
-      target_vnum: '2729'
+      target_vnum: 01010272729
+  local_id: '2727'
   name: Os Campos de Treino dos Cavaleiros
-  vnum: '2727'
+  vnum: '01010272727'
 - description: |-
     Esta grande tenda é a casa do Cavaleiro da Rosa Branca.  Tudo ao seu
     redor é de cor branca e carregam a insígnia da Rosa Branca.  Maravilhosas
@@ -391,18 +419,20 @@
     serem vestidas.
   exits:
     west:
-      target_vnum: '2727'
+      target_vnum: '01010272727'
+  local_id: '2728'
   name: Uma Tenda dos Cavaleiros Leais
-  vnum: '2728'
+  vnum: 01010272728
 - description: |-
     A tenda é pequena e pouco mobiliada.  Uma mesa com uma vela em cima está
     no meio do quarto.  Uma cama está atrás.  Pilhas de farrapos usados para
     limpar e polir utensílios dos cavaleiro estão espalhados pelo chão.
   exits:
     east:
-      target_vnum: '2727'
+      target_vnum: '01010272727'
+  local_id: '2729'
   name: Uma Tenda de um Escudeiro
-  vnum: '2729'
+  vnum: 01010272729
 - description: |-
     Cavaleiros de todo o campo vêm aqui praticar suas habilidades na
     esperança de ser famoso algum dia.  Meday.  Lutas com lanças, boxe,
@@ -411,15 +441,16 @@
     vê entradas para grandes tendas à direita e à esquerda.
   exits:
     east:
-      target_vnum: '2731'
+      target_vnum: '01010272731'
     north:
-      target_vnum: '2727'
+      target_vnum: '01010272727'
     south:
-      target_vnum: '2733'
+      target_vnum: '01010272733'
     west:
-      target_vnum: '2732'
+      target_vnum: '01010272732'
+  local_id: '2730'
   name: Os Campos de Treino dos Cavaleiros
-  vnum: '2730'
+  vnum: '01010272730'
 - description: |-
     A tenda é esplendidamente decorada, dando a impressão de que pertence a
     alguém de altíssimo nível.  Travesseiros de veludo sobre tapetes persas faz
@@ -428,18 +459,20 @@
     quarto.  Incensos perfumados queimam de apoios presos ao teto da tenda.
   exits:
     west:
-      target_vnum: '2730'
+      target_vnum: '01010272730'
+  local_id: '2731'
   name: A Tenda da Paladina
-  vnum: '2731'
+  vnum: '01010272731'
 - description: |-
     A tenda é pequena e pouco mobiliada.  Uma mesa com uma vela em cima está
     no meio do quarto.  Uma cama está atrás.  Pilhas de farrapos usados para
     limpar e polir utensílios dos cavaleiro estão espalhados pelo chão.
   exits:
     east:
-      target_vnum: '2730'
+      target_vnum: '01010272730'
+  local_id: '2732'
   name: A Tenda de um Escudeiro
-  vnum: '2732'
+  vnum: '01010272732'
 - description: |-
     Remédios e extratos de ervas demarcam as prateleiras organizadas da
     melhor forma possível, nesta tenda.  Uma cama médica encontra-se no centro
@@ -447,33 +480,36 @@
     grande buraco no topo da tenda permite a entrada da luz do sol.
   exits:
     north:
-      target_vnum: '2730'
+      target_vnum: '01010272730'
+  local_id: '2733'
   name: A Tenda dos Treinadores
-  vnum: '2733'
+  vnum: '01010272733'
 - description: |-
     Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
     vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
     o treino.  Fique em guarda, acidentes acontecem.
   exits:
     east:
-      target_vnum: '2735'
+      target_vnum: '01010272735'
     north:
-      target_vnum: '2736'
+      target_vnum: '01010272736'
     west:
-      target_vnum: '2726'
+      target_vnum: '01010272726'
+  local_id: '2734'
   name: Os Campos de Extermínio
-  vnum: '2734'
+  vnum: '01010272734'
 - description: |-
     Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
     vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
     o treino.  Fique em guarda, acidentes acontecem.
   exits:
     north:
-      target_vnum: '2737'
+      target_vnum: '01010272737'
     west:
-      target_vnum: '2734'
+      target_vnum: '01010272734'
+  local_id: '2735'
   name: Um Caminho pelos Campos de Extermínio
-  vnum: '2735'
+  vnum: '01010272735'
 - description: |-
     Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
     oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
@@ -481,28 +517,30 @@
     é enlouquecedor.  Estes são realmente os Campos de Extermínio!
   exits:
     east:
-      target_vnum: '2737'
+      target_vnum: '01010272737'
     north:
-      target_vnum: '2779'
+      target_vnum: 01010272779
     south:
-      target_vnum: '2734'
+      target_vnum: '01010272734'
     west:
-      target_vnum: '2725'
+      target_vnum: '01010272725'
+  local_id: '2736'
   name: Os Campos de Extermínio
-  vnum: '2736'
+  vnum: '01010272736'
 - description: |-
     Tudo ao seu redor são os Campos de Extermínio, onde treinos reais e ao
     vivo acontecem.  Algumas pessoas estão aqui pelo prazer da luta, outras para
     o treino.  Fique em guarda, acidentes acontecem.
   exits:
     north:
-      target_vnum: '2780'
+      target_vnum: 01010272780
     south:
-      target_vnum: '2735'
+      target_vnum: '01010272735'
     west:
-      target_vnum: '2736'
+      target_vnum: '01010272736'
+  local_id: '2737'
   name: Um Caminho pelos Campos de Extermínio
-  vnum: '2737'
+  vnum: '01010272737'
 - description: |-
     Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
     oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
@@ -510,11 +548,12 @@
     é enlouquecedor.  Estes são realmente os Campos de Extermínio!
   exits:
     east:
-      target_vnum: '2737'
+      target_vnum: '01010272737'
     south:
-      target_vnum: '2725'
+      target_vnum: '01010272725'
+  local_id: '2738'
   name: Os Campos de Extermínio
-  vnum: '2738'
+  vnum: 01010272738
 - description: |-
     Conforme você entra pela entrada de granito, você pára um momento
     deixando que seus olhos acostumem com a escura sala.  Você nota uma
@@ -525,11 +564,12 @@
     deva apenas voltar...
   exits:
     east:
-      target_vnum: '2740'
+      target_vnum: '01010272740'
     west:
-      target_vnum: '2703'
+      target_vnum: '01010272703'
+  local_id: '2739'
   name: Um Quartel
-  vnum: '2739'
+  vnum: 01010272739
 - description: |-
     Cuidadosamente entrando no escritório do Carcereiro, você dá uma rápida
     olhada pela sala.  Parece como se ela acabasse de sair...  Um copo fumegante
@@ -538,11 +578,12 @@
     conduzindo para baixo.
   exits:
     down:
-      target_vnum: '2742'
+      target_vnum: '01010272742'
     west:
-      target_vnum: '2739'
+      target_vnum: 01010272739
+  local_id: '2740'
   name: O Escritório do Carcereiro
-  vnum: '2740'
+  vnum: '01010272740'
 - description: |-
     A água do canal é estagnada e tem um cheiro nojento.  A água preta e
     turva forma redemoinhos enquanto coisas nunca vistas nadam envolta.  Sob a
@@ -551,11 +592,12 @@
     cercam todo o castelo.
   exits:
     east:
-      target_vnum: '2706'
+      target_vnum: '01010272706'
     west:
-      target_vnum: '2707'
+      target_vnum: '01010272707'
+  local_id: '2741'
   name: Embaixo da Ponte Levadiça do Canal
-  vnum: '2741'
+  vnum: '01010272741'
 - description: |-
     Localizado na base das escadas, você analiza o quarto sem janelas,
     procurando por seus ocupantes.  A lâmpada, suspensa do teto, está balançando
@@ -565,20 +607,22 @@
     suas cinturas rompem o silêncio
   exits:
     north:
-      target_vnum: '2745'
+      target_vnum: '01010272745'
     up:
-      target_vnum: '2740'
+      target_vnum: '01010272740'
+  local_id: '2742'
   name: O Quarto do Carcereiro
-  vnum: '2742'
+  vnum: '01010272742'
 - description: |-
     Estes são os estábulos.  Palha cobre o chão e cercados limpos, cheios de
     animais, podem ser vistos aqui.  Toda noite os animais do castelo são
     reunidos e trnacados aqui para evitar qualquer dano causado por eles.
   exits:
     west:
-      target_vnum: '2711'
+      target_vnum: '01010272711'
+  local_id: '2743'
   name: Os Estábulos
-  vnum: '2743'
+  vnum: '01010272743'
 - description: |-
     Vários utensílios de dor e tortura estão pendurados nas paredes aqui...
     Chicotes de couro...  Pequenos ganchos visíveis fazem um zig-zag em todo seu
@@ -586,9 +630,10 @@
     sobre várias mortes.
   exits:
     west:
-      target_vnum: '2746'
+      target_vnum: '01010272746'
+  local_id: '2744'
   name: A Cela
-  vnum: '2744'
+  vnum: '01010272744'
 - description: |-
     O escuro e úmido corredor parece ser infinito, interrompido apenas por
     uma ocasional entrada.  Você pode ver barras cobrindo as portas, mas nada
@@ -596,28 +641,30 @@
     caindo no vácuo escuro.
   exits:
     east:
-      target_vnum: '2747'
+      target_vnum: '01010272747'
     north:
-      target_vnum: '2746'
+      target_vnum: '01010272746'
     south:
-      target_vnum: '2742'
+      target_vnum: '01010272742'
     west:
-      target_vnum: '2748'
+      target_vnum: 01010272748
+  local_id: '2745'
   name: O Corredor do Calabouço
-  vnum: '2745'
+  vnum: '01010272745'
 - description: |-
     Aventurando-se mais abaixo pelo corredor escurecido, você não consegue
     nem imaginar que outros horrores irá encontrar aqui...  Sua mente clama para
     que você volte.
   exits:
     east:
-      target_vnum: '2744'
+      target_vnum: '01010272744'
     south:
-      target_vnum: '2745'
+      target_vnum: '01010272745'
     west:
-      target_vnum: '2749'
+      target_vnum: 01010272749
+  local_id: '2746'
   name: Corredor do Calabouço
-  vnum: '2746'
+  vnum: '01010272746'
 - description: |-
     Os ossos de vários homens estão esparramados pelo chão ensanguentado.  As
     correntes presas no alto da parede contam sobre torturas e dores
@@ -625,9 +672,10 @@
     escuras de sangue seco que marcam a parede...
   exits:
     west:
-      target_vnum: '2745'
+      target_vnum: '01010272745'
+  local_id: '2747'
   name: A Cela
-  vnum: '2747'
+  vnum: '01010272747'
 - description: |-
     Uma grande mesa domina a sala.  Grandes cabos em um dos fins não deixam
     dúvidas sobre onde era utilizado.  Conforme você olha mais de perto para as
@@ -636,9 +684,10 @@
     podre e morte penetra em seus sentidos...
   exits:
     east:
-      target_vnum: '2745'
+      target_vnum: '01010272745'
+  local_id: '2748'
   name: A Cela
-  vnum: '2748'
+  vnum: 01010272748
 - description: |-
     Ao entrar nesta cela eus sentidos são imediatamente assaltados pelo forte
     cheiro de carne podre.  Você rapidamente descobre a origem do cheiro
@@ -646,9 +695,10 @@
     correntes presas nas paredes...
   exits:
     east:
-      target_vnum: '2746'
+      target_vnum: '01010272746'
+  local_id: '2749'
   name: A Cela
-  vnum: '2749'
+  vnum: 01010272749
 - description: |-
     Você entrou em um grande saguão.  Há uma grande manta de ornamento, no
     chão que estende-se por todo o comprimento do saguão.  Há também duas
@@ -656,11 +706,12 @@
     fornecem luz paras as pessoas verem.
   exits:
     south:
-      target_vnum: '2713'
+      target_vnum: '01010272713'
     up:
-      target_vnum: '2757'
+      target_vnum: '01010272757'
+  local_id: '2750'
   name: O Saguão Real
-  vnum: '2750'
+  vnum: '01010272750'
 - description: |-
     Olhando da torre de guarda você pode ver o campo que a cerca por muitas
     milhas.  Um inimigo teria dificuldades tentando se aproximar sem ser notado.
@@ -668,9 +719,10 @@
     ao sul.  As árvores da Floresta Midan cobrem as terras a leste.
   exits:
     down:
-      target_vnum: '2765'
+      target_vnum: '01010272765'
+  local_id: '2751'
   name: No Topo da Torre de Guarda
-  vnum: '2751'
+  vnum: '01010272751'
 - description: |-
     Todos os criados do Rei moram aqui.  Sob o olho atento de experientes
     chefs, os criados levam e trazem comida da torre.  Eles obedientemente
@@ -680,9 +732,10 @@
     neste quarto são planas e simples
   exits:
     south:
-      target_vnum: '2712'
+      target_vnum: '01010272712'
+  local_id: '2752'
   name: As Moradias dos Criados
-  vnum: '2752'
+  vnum: '01010272752'
 - description: |-
     Um pequeno pátio situa-se entre estas parede, oferecendo um refugio dos
     rigores da vida no castelo.  Pequenas árvores e arbustos trazem um pouco do
@@ -690,9 +743,10 @@
     se encontre com o lago do peixe dourado, no meio do pátio.
   exits:
     east:
-      target_vnum: '2705'
+      target_vnum: '01010272705'
+  local_id: '2753'
   name: Um pequeno Pátio
-  vnum: '2753'
+  vnum: '01010272753'
 - description: |-
     Ferrugem preta cobre as paredes daqui.  Uma fornalha fervendo está a
     leste, no fim da sala.  Pedaços de metal estão espalhados por toda a grande
@@ -700,11 +754,12 @@
     Escadas ao longo da parede norte levam ao andar superior, para outras lojas.
   exits:
     up:
-      target_vnum: '2758'
+      target_vnum: 01010272758
     west:
-      target_vnum: '2756'
+      target_vnum: '01010272756'
+  local_id: '2754'
   name: A Loja do Ferreiro
-  vnum: '2754'
+  vnum: '01010272754'
 - description: |-
     Olhando da torre de guarda você pode ver o campo que a cerca por muitas
     milhas.  Um inimigo teria dificuldades tentando se aproximar sem ser notado.
@@ -712,9 +767,10 @@
     ao sul.  As árvores da Floresta Midan cobrem as terras a leste.
   exits:
     down:
-      target_vnum: '2770'
+      target_vnum: '01010272770'
+  local_id: '2755'
   name: No Topo da Torre de Guarda
-  vnum: '2755'
+  vnum: '01010272755'
 - description: |-
     Um velho homem e sua mulher estão atrás de uma bancada vendendo suas
     mercadorias assadas.  Um agradável odor de canela toma conta da sala.
@@ -722,11 +778,12 @@
     menor qualidade é mandada para alimentar os animais do estábulo.
   exits:
     east:
-      target_vnum: '2754'
+      target_vnum: '01010272754'
     west:
-      target_vnum: '2704'
+      target_vnum: '01010272704'
+  local_id: '2756'
   name: A Padaria do Castelo
-  vnum: '2756'
+  vnum: '01010272756'
 - description: |-
     Este é o quarto da Rainha.  Aqui é onde todas as damas de espera tendem
     às suas necessidades.  Uma grande cadeira de veludo, uma pia elegante, um
@@ -734,11 +791,12 @@
     ao sul.
   exits:
     down:
-      target_vnum: '2750'
+      target_vnum: '01010272750'
     south:
-      target_vnum: '2719'
+      target_vnum: 01010272719
+  local_id: '2757'
   name: O Quarto da Rainha
-  vnum: '2757'
+  vnum: '01010272757'
 - description: |-
     Mostruários exibem todos os tipo de armas, pendurados nas paredes da
     sala.  Qualquer arma que você poderá percisar pode ser obtida aqui.  Se por
@@ -747,20 +805,22 @@
     para cima e para baixo.
   exits:
     down:
-      target_vnum: '2754'
+      target_vnum: '01010272754'
     up:
-      target_vnum: '2759'
+      target_vnum: 01010272759
+  local_id: '2758'
   name: A Loja de Armas
-  vnum: '2758'
+  vnum: 01010272758
 - description: |-
     Manequins usando o que há de mais recente em armaduras estão pela sala.
     Armaduras dos melhores artesãos podem ser compradas aqui.  Olhando ao redor
     você a única saída, que é descer as escadas.
   exits:
     down:
-      target_vnum: '2758'
+      target_vnum: 01010272758
+  local_id: '2759'
   name: O Depósito de Armaduras
-  vnum: '2759'
+  vnum: 01010272759
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -769,11 +829,12 @@
     inimigos.
   exits:
     east:
-      target_vnum: '2702'
+      target_vnum: '01010272702'
     west:
-      target_vnum: '2761'
+      target_vnum: '01010272761'
+  local_id: '2760'
   name: Entre as Fortificações do Castelo
-  vnum: '2760'
+  vnum: '01010272760'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -782,11 +843,12 @@
     inimigos.
   exits:
     east:
-      target_vnum: '2760'
+      target_vnum: '01010272760'
     north:
-      target_vnum: '2762'
+      target_vnum: '01010272762'
+  local_id: '2761'
   name: O Canto Sudoeste
-  vnum: '2761'
+  vnum: '01010272761'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -795,11 +857,12 @@
     inimigos.
   exits:
     north:
-      target_vnum: '2763'
+      target_vnum: '01010272763'
     south:
-      target_vnum: '2761'
+      target_vnum: '01010272761'
+  local_id: '2762'
   name: Entre as Fortificações do Castelo
-  vnum: '2762'
+  vnum: '01010272762'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -808,11 +871,12 @@
     inimigos.
   exits:
     north:
-      target_vnum: '2764'
+      target_vnum: '01010272764'
     south:
-      target_vnum: '2762'
+      target_vnum: '01010272762'
+  local_id: '2763'
   name: Entre as Fortificações do Castelo
-  vnum: '2763'
+  vnum: '01010272763'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -821,11 +885,12 @@
     inimigos.
   exits:
     north:
-      target_vnum: '2765'
+      target_vnum: '01010272765'
     south:
-      target_vnum: '2763'
+      target_vnum: '01010272763'
+  local_id: '2764'
   name: Entre as Fortificações do Castelo
-  vnum: '2764'
+  vnum: '01010272764'
 - description: |-
     Pesadas tábuas de madeira foram construídas para ligar as duas
     fortificações daqui.  Olhando para cima você pode ver que uma torre de
@@ -833,13 +898,14 @@
     interna leva para a torre de guarda acima.
   exits:
     east:
-      target_vnum: '2766'
+      target_vnum: '01010272766'
     south:
-      target_vnum: '2764'
+      target_vnum: '01010272764'
     up:
-      target_vnum: '2751'
+      target_vnum: '01010272751'
+  local_id: '2765'
   name: A Torre de Guarda Noroeste
-  vnum: '2765'
+  vnum: '01010272765'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -848,11 +914,12 @@
     inimigos.
   exits:
     east:
-      target_vnum: '2767'
+      target_vnum: '01010272767'
     west:
-      target_vnum: '2765'
+      target_vnum: '01010272765'
+  local_id: '2766'
   name: Entre as Fortificações do Castelo
-  vnum: '2766'
+  vnum: '01010272766'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -861,11 +928,12 @@
     inimigos.
   exits:
     east:
-      target_vnum: '2768'
+      target_vnum: 01010272768
     west:
-      target_vnum: '2766'
+      target_vnum: '01010272766'
+  local_id: '2767'
   name: Entre as Fortificações do Castelo
-  vnum: '2767'
+  vnum: '01010272767'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -874,11 +942,12 @@
     inimigos.
   exits:
     east:
-      target_vnum: '2769'
+      target_vnum: 01010272769
     west:
-      target_vnum: '2767'
+      target_vnum: '01010272767'
+  local_id: '2768'
   name: Entre as Fortificações do Castelo
-  vnum: '2768'
+  vnum: 01010272768
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -887,11 +956,12 @@
     inimigos.1
   exits:
     east:
-      target_vnum: '2770'
+      target_vnum: '01010272770'
     west:
-      target_vnum: '2768'
+      target_vnum: 01010272768
+  local_id: '2769'
   name: Entre as Fortificações do Castelo
-  vnum: '2769'
+  vnum: 01010272769
 - description: |-
     Pesadas tábuas de madeira foram construídas para ligar as duas
     fortificações daqui.  Olhando para cima você pode ver que uma torre de
@@ -899,13 +969,14 @@
     interna leva para a torre de guarda acima.
   exits:
     south:
-      target_vnum: '2771'
+      target_vnum: '01010272771'
     up:
-      target_vnum: '2755'
+      target_vnum: '01010272755'
     west:
-      target_vnum: '2769'
+      target_vnum: 01010272769
+  local_id: '2770'
   name: A Torre Nordeste
-  vnum: '2770'
+  vnum: '01010272770'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -914,11 +985,12 @@
     inimigos.
   exits:
     north:
-      target_vnum: '2770'
+      target_vnum: '01010272770'
     south:
-      target_vnum: '2772'
+      target_vnum: '01010272772'
+  local_id: '2771'
   name: Entre as Fortificações do Castelo
-  vnum: '2771'
+  vnum: '01010272771'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -927,11 +999,12 @@
     inimigos.
   exits:
     north:
-      target_vnum: '2771'
+      target_vnum: '01010272771'
     south:
-      target_vnum: '2773'
+      target_vnum: '01010272773'
+  local_id: '2772'
   name: Entre as Fortificações do Castelo
-  vnum: '2772'
+  vnum: '01010272772'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -940,11 +1013,12 @@
     inimigos.
   exits:
     north:
-      target_vnum: '2772'
+      target_vnum: '01010272772'
     south:
-      target_vnum: '2774'
+      target_vnum: '01010272774'
+  local_id: '2773'
   name: Entre as Fortificações do Castelo
-  vnum: '2773'
+  vnum: '01010272773'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -953,11 +1027,12 @@
     inimigos.
   exits:
     north:
-      target_vnum: '2773'
+      target_vnum: '01010272773'
     west:
-      target_vnum: '2775'
+      target_vnum: '01010272775'
+  local_id: '2774'
   name: O Canto Sudeste
-  vnum: '2774'
+  vnum: '01010272774'
 - description: |-
     Pedras cinzas do interior e exterior das fortificações demarcam a
     passagem.  Fendas através das paredes de ambos os lados permitem que
@@ -966,11 +1041,12 @@
     inimigos.
   exits:
     east:
-      target_vnum: '2774'
+      target_vnum: '01010272774'
     west:
-      target_vnum: '2710'
+      target_vnum: '01010272710'
+  local_id: '2775'
   name: Entre as Fortificações do Castelo
-  vnum: '2775'
+  vnum: '01010272775'
 - description: |-
     Abaixo de uma grande quantidade de rochas está a caverna do urso.  Mesmo
     com a fraca luz do sol na entrada da caverna aqui eh escuro.  Uma briga pode
@@ -978,9 +1054,10 @@
     silenciosamente e voltar por onde veio.
   exits:
     west:
-      target_vnum: '2798'
+      target_vnum: 01010272798
+  local_id: '2776'
   name: A Caverna do Urso
-  vnum: '2776'
+  vnum: '01010272776'
 - description: |-
     A trilha faz uma suave curva aqui conforme você caminha pela floresta.
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
@@ -989,11 +1066,12 @@
     tranquilizantes para a alma do viajante.
   exits:
     east:
-      target_vnum: '2797'
+      target_vnum: 01010272797
     north:
-      target_vnum: '2778'
+      target_vnum: 01010272778
+  local_id: '2777'
   name: Uma trilha através da Floresta Midan
-  vnum: '2777'
+  vnum: '01010272777'
 - description: |-
     Raios de sol passam pelas folhas das árvores crescendo acima de você.
     Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
@@ -1002,11 +1080,12 @@
     para o sul.
   exits:
     north:
-      target_vnum: '2789'
+      target_vnum: 01010272789
     south:
-      target_vnum: '2777'
+      target_vnum: '01010272777'
+  local_id: '2778'
   name: Uma trilha através da Floresta Midan
-  vnum: '2778'
+  vnum: 01010272778
 - description: |-
     Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
     oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
@@ -1014,13 +1093,14 @@
     é enlouquecedor.  Estes são realmente os Campos de Extermínio!
   exits:
     east:
-      target_vnum: '2780'
+      target_vnum: 01010272780
     south:
-      target_vnum: '2736'
+      target_vnum: '01010272736'
     west:
-      target_vnum: '2738'
+      target_vnum: 01010272738
+  local_id: '2779'
   name: Os Campos de Extermínio
-  vnum: '2779'
+  vnum: 01010272779
 - description: |-
     Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
     oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
@@ -1029,13 +1109,14 @@
     tenda emanando uma fraca aura preta está a leste.
   exits:
     east:
-      target_vnum: '2781'
+      target_vnum: 01010272781
     south:
-      target_vnum: '2737'
+      target_vnum: '01010272737'
     west:
-      target_vnum: '2779'
+      target_vnum: 01010272779
+  local_id: '2780'
   name: Os Campos de Extermínio
-  vnum: '2780'
+  vnum: 01010272780
 - description: |-
     Após entrar na tenda, um sentimento de intensa maldade desloca sua alma.
     Valiosos panos de seda preta guarnece sobre tudo e travesseiros de veludo
@@ -1044,9 +1125,10 @@
     Extermínio.
   exits:
     west:
-      target_vnum: '2780'
+      target_vnum: 01010272780
+  local_id: '2781'
   name: A Tenda do Cavaleiro do Espinho Negro
-  vnum: '2781'
+  vnum: 01010272781
 - description: |-
     Tudo ao seu redor é grama que foi atropelada até morrer.  Nada aqui irá
     oferecer proteção contra os atacantes.  Sangue pinta o chão e pedaços de
@@ -1054,9 +1136,10 @@
     é enlouquecedor.  Estes são realmente os Campos de Extermínio!
   exits:
     north:
-      target_vnum: '2726'
+      target_vnum: '01010272726'
+  local_id: '2782'
   name: Os Campos de Extermínio
-  vnum: '2782'
+  vnum: 01010272782
 - description: |-
     Esta clareira é ampla e espaçosa.  A grama alta ondula com a suave brisa.
     Borboletas de todos os tipos voam entre as coloridas flores selvagens que
@@ -1064,11 +1147,12 @@
     Floresta Midan.  A oeste está um caminho mais utilizado.
   exits:
     north:
-      target_vnum: '2784'
+      target_vnum: 01010272784
     west:
-      target_vnum: '2721'
+      target_vnum: '01010272721'
+  local_id: '2783'
   name: Um Caminho Através da Clareira
-  vnum: '2783'
+  vnum: 01010272783
 - description: |-
     A trilha faz uma suave curva aqui conforme você caminha pela floresta.
     Raios de sol passam pelas folhas das árvores que crescem acima de você.  As
@@ -1076,11 +1160,12 @@
     alta.  Uma clareira abriu-se ao o sul, enquanto a floresta está a leste.
   exits:
     east:
-      target_vnum: '2785'
+      target_vnum: 01010272785
     south:
-      target_vnum: '2783'
+      target_vnum: 01010272783
+  local_id: '2784'
   name: Uma trilha através da Floresta Midan
-  vnum: '2784'
+  vnum: 01010272784
 - description: |-
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
     Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
@@ -1088,11 +1173,12 @@
     tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
   exits:
     east:
-      target_vnum: '2786'
+      target_vnum: 01010272786
     west:
-      target_vnum: '2784'
+      target_vnum: 01010272784
+  local_id: '2785'
   name: Uma trilha através da Floresta Midan
-  vnum: '2785'
+  vnum: 01010272785
 - description: |-
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
     Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
@@ -1100,11 +1186,12 @@
     tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
   exits:
     east:
-      target_vnum: '2787'
+      target_vnum: 01010272787
     west:
-      target_vnum: '2785'
+      target_vnum: 01010272785
+  local_id: '2786'
   name: Uma trilha através da Floresta Midan
-  vnum: '2786'
+  vnum: 01010272786
 - description: |-
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
     Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
@@ -1112,11 +1199,12 @@
     tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
   exits:
     east:
-      target_vnum: '2788'
+      target_vnum: 01010272788
     west:
-      target_vnum: '2786'
+      target_vnum: 01010272786
+  local_id: '2787'
   name: Uma trilha através da Floresta Midan
-  vnum: '2787'
+  vnum: 01010272787
 - description: |-
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
     Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
@@ -1124,11 +1212,12 @@
     tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
   exits:
     east:
-      target_vnum: '2789'
+      target_vnum: 01010272789
     west:
-      target_vnum: '2787'
+      target_vnum: 01010272787
+  local_id: '2788'
   name: Uma trilha através da Floresta Midan
-  vnum: '2788'
+  vnum: 01010272788
 - description: |-
     A trilha faz uma suave curva aqui conforme você caminha pela floresta.
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
@@ -1137,11 +1226,12 @@
     tranquilizantes para a alma do viajante.
   exits:
     south:
-      target_vnum: '2778'
+      target_vnum: 01010272778
     west:
-      target_vnum: '2788'
+      target_vnum: 01010272788
+  local_id: '2789'
   name: Uma trilha através da Floresta Midan
-  vnum: '2789'
+  vnum: 01010272789
 - description: |-
     A trilha faz uma suave curva aqui conforme você caminha pela floresta.
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
@@ -1150,11 +1240,12 @@
     tranquilizantes para a alma do viajante.
   exits:
     east:
-      target_vnum: '2792'
+      target_vnum: 01010272792
     south:
-      target_vnum: '2797'
+      target_vnum: 01010272797
+  local_id: '2790'
   name: Uma trilha através da Floresta Midan
-  vnum: '2790'
+  vnum: 01010272790
 - description: "As ávores crescem adiante daqui, criando uma clareira.  A grama baixa\n\
     atapetam o chão.  Uma pequena nascente borbulha para fora do chão, saindo\ndentre\
     \ algumas pedras recobertas de musgo.  Uma pequena cascata é criada\nconforme\
@@ -1163,13 +1254,14 @@
     \ tranqüilo, um onde um viajante pode descansar sem se preocupar."
   exits:
     north:
-      target_vnum: '2792'
+      target_vnum: 01010272792
     south:
-      target_vnum: '2798'
+      target_vnum: 01010272798
     west:
-      target_vnum: '2797'
+      target_vnum: 01010272797
+  local_id: '2791'
   name: Uma Clareira Dentro da Floresta
-  vnum: '2791'
+  vnum: 01010272791
 - description: |-
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
     Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
@@ -1178,13 +1270,14 @@
     sul.
   exits:
     east:
-      target_vnum: '2793'
+      target_vnum: 01010272793
     south:
-      target_vnum: '2791'
+      target_vnum: 01010272791
     west:
-      target_vnum: '2790'
+      target_vnum: 01010272790
+  local_id: '2792'
   name: Uma trilha através da Floresta Midan
-  vnum: '2792'
+  vnum: 01010272792
 - description: |-
     A trilha faz uma suave curva aqui conforme você caminha pela floresta.
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
@@ -1193,11 +1286,12 @@
     tranquilizantes para a alma do viajante.
   exits:
     south:
-      target_vnum: '2794'
+      target_vnum: 01010272794
     west:
-      target_vnum: '2792'
+      target_vnum: 01010272792
+  local_id: '2793'
   name: Uma trilha através da Floresta Midan
-  vnum: '2793'
+  vnum: 01010272793
 - description: |-
     A trilha faz uma suave curva aqui conforme você caminha pela floresta.
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
@@ -1207,11 +1301,12 @@
     encostas que podem cair.
   exits:
     east:
-      target_vnum: '2795'
+      target_vnum: 01010272795
     north:
-      target_vnum: '2793'
+      target_vnum: 01010272793
+  local_id: '2794'
   name: Uma curva na Trilha
-  vnum: '2794'
+  vnum: 01010272794
 - description: |-
     Raios de sol passam pelas folhas das árvores que crescem acima de você.
     Algumas folhas, tiradas de grandes galhos pela suave brisa, caem
@@ -1219,11 +1314,12 @@
     tranquilizantes para a alma do viajante.  A trilha vai para leste e oeste.
   exits:
     east:
-      target_vnum: '2796'
+      target_vnum: 01010272796
     west:
-      target_vnum: '2794'
+      target_vnum: 01010272794
+  local_id: '2795'
   name: Uma trilha através da Floresta Midan
-  vnum: '2795'
+  vnum: 01010272795
 - description: |-
     Os confortos de Midgaard cedem lugar para uma região selvagem, aqui.
     Altos carvalhos, agradáveis borbos, vidoeiros brancos descascados, e uma
@@ -1232,11 +1328,12 @@
     leste.
   exits:
     north:
-      target_vnum: '6090'
+      target_vnum: 01010276090
     west:
-      target_vnum: '2795'
+      target_vnum: 01010272795
+  local_id: '2796'
   name: A Entrada para a Floresta Midan
-  vnum: '2796'
+  vnum: 01010272796
 - description: |-
     A trilha faz uma suave curva aqui conforme você caminha pela floresta.
     Raios de sol passam pelas folhas das árvores que crescem acima de você.  Uma
@@ -1244,15 +1341,16 @@
     continua ao norte e oeste.
   exits:
     east:
-      target_vnum: '2791'
+      target_vnum: 01010272791
     north:
-      target_vnum: '2790'
+      target_vnum: 01010272790
     south:
-      target_vnum: '2799'
+      target_vnum: 01010272799
     west:
-      target_vnum: '2777'
+      target_vnum: '01010272777'
+  local_id: '2797'
   name: Uma Trilha através da Floresta Midan
-  vnum: '2797'
+  vnum: 01010272797
 - description: |-
     A luz do sol é bloqueada pela copa das fortes árvores que crescem aqui.
     Uma árvore bastante cicatrizada está a sua frente.  Ela parece ter sido
@@ -1261,21 +1359,23 @@
     caçadores está a oeste.
   exits:
     east:
-      target_vnum: '2776'
+      target_vnum: '01010272776'
     north:
-      target_vnum: '2791'
+      target_vnum: 01010272791
     west:
-      target_vnum: '2799'
+      target_vnum: 01010272799
+  local_id: '2798'
   name: A Mata Fechada na Floresta Midan
-  vnum: '2798'
+  vnum: 01010272798
 - description: |-
     A luz do sol é bloqueada pela copa das fortes árvores que crescem aqui.
     A vegetação daqui é tão densa que a única saída é voltando de onde veio ou
     indo para leste na trilha dos caçadores.
   exits:
     east:
-      target_vnum: '2798'
+      target_vnum: 01010272798
     north:
-      target_vnum: '2797'
+      target_vnum: 01010272797
+  local_id: '2799'
   name: A Mata Fechada na Floresta Midan
-  vnum: '2799'
+  vnum: 01010272799

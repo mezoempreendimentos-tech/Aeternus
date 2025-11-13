@@ -8,15 +8,16 @@
     tranqüila rua; ao leste e oeste há belas construções.
   exits:
     east:
-      target_vnum: '1310'
+      target_vnum: '01010131310'
     north:
-      target_vnum: '1301'
+      target_vnum: '01010131301'
     south:
-      target_vnum: '3077'
+      target_vnum: '01010133077'
     west:
-      target_vnum: '1312'
+      target_vnum: '01010131312'
+  local_id: '1300'
   name: Rua Residencial Midgaard
-  vnum: '1300'
+  vnum: '01010131300'
 - description: |-
     Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
     construções variadas podem ser observadas por toda a sua extensão.  Mesmo
@@ -27,15 +28,16 @@
     construções, enquanto que ao norte há uma praça.
   exits:
     east:
-      target_vnum: '1314'
+      target_vnum: '01010131314'
     north:
-      target_vnum: '1302'
+      target_vnum: '01010131302'
     south:
-      target_vnum: '1300'
+      target_vnum: '01010131300'
     west:
-      target_vnum: '1316'
+      target_vnum: '01010131316'
+  local_id: '1301'
   name: Rua Residencial Midgaard
-  vnum: '1301'
+  vnum: '01010131301'
 - description: |-
     Esta é a bela praça onde os habitantes de Midgaard e seus visitantes
     reúnem-se para confraternizar e, também, recuperar as energias para viver
@@ -46,15 +48,16 @@
     saciar a sede.
   exits:
     east:
-      target_vnum: '1306'
+      target_vnum: '01010131306'
     north:
-      target_vnum: '1303'
+      target_vnum: '01010131303'
     south:
-      target_vnum: '1301'
+      target_vnum: '01010131301'
     west:
-      target_vnum: '1308'
+      target_vnum: 01010131308
+  local_id: '1302'
   name: A Praça Central
-  vnum: '1302'
+  vnum: '01010131302'
 - description: |-
     Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
     construções variadas podem ser observadas por toda a sua extensão.  Mesmo
@@ -65,15 +68,16 @@
     construções, enquanto que ao sul há uma praça.
   exits:
     east:
-      target_vnum: '1318'
+      target_vnum: 01010131318
     north:
-      target_vnum: '1304'
+      target_vnum: '01010131304'
     south:
-      target_vnum: '1302'
+      target_vnum: '01010131302'
     west:
-      target_vnum: '1320'
+      target_vnum: '01010131320'
+  local_id: '1303'
   name: Rua Residencial Midgaard
-  vnum: '1303'
+  vnum: '01010131303'
 - description: |-
     Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
     construções variadas podem ser observadas por toda a sua extensão.  Mesmo
@@ -84,15 +88,16 @@
     belas construções.
   exits:
     east:
-      target_vnum: '1322'
+      target_vnum: '01010131322'
     north:
-      target_vnum: '1305'
+      target_vnum: '01010131305'
     south:
-      target_vnum: '1303'
+      target_vnum: '01010131303'
     west:
-      target_vnum: '1324'
+      target_vnum: '01010131324'
+  local_id: '1304'
   name: Rua Residencial Midgaard
-  vnum: '1304'
+  vnum: '01010131304'
 - description: |-
     Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
     construções variadas podem ser observadas por toda a sua extensão.  Mesmo
@@ -103,13 +108,14 @@
     construções.
   exits:
     east:
-      target_vnum: '1326'
+      target_vnum: '01010131326'
     south:
-      target_vnum: '1304'
+      target_vnum: '01010131304'
     west:
-      target_vnum: '1328'
+      target_vnum: 01010131328
+  local_id: '1305'
   name: Rua Residencial Midgaard
-  vnum: '1305'
+  vnum: '01010131305'
 - description: |-
     Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
     construções variadas podem ser observadas por toda a sua extensão.  Mesmo
@@ -118,13 +124,14 @@
     bem vindo ao lar das nobres famílias de Vitália.
   exits:
     east:
-      target_vnum: '1307'
+      target_vnum: '01010131307'
     north:
-      target_vnum: '1330'
+      target_vnum: '01010131330'
     west:
-      target_vnum: '1302'
+      target_vnum: '01010131302'
+  local_id: '1306'
   name: Rua Residencial Midgaard
-  vnum: '1306'
+  vnum: '01010131306'
 - description: |-
     Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
     construções variadas podem ser observadas por toda a sua extensão.  Mesmo
@@ -133,22 +140,10 @@
     bem vindo ao lar das nobres famílias de Vitália.
   exits:
     west:
-      target_vnum: '1306'
+      target_vnum: '01010131306'
+  local_id: '1307'
   name: Rua Residencial Midgaard
-  vnum: '1307'
-- description: |-
-    Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
-    construções variadas podem ser observadas por toda a sua extensão.  Mesmo
-    com o contraste entre todas estas edificações, você sente um clima de paz e
-    amizade no ar.  Uma suave voz o convida a entrar em cada residência, pois és
-    bem vindo ao lar das nobres famílias de Vitália.
-  exits:
-    east:
-      target_vnum: '1302'
-    west:
-      target_vnum: '1309'
-  name: Rua Residencial Midgaard
-  vnum: '1308'
+  vnum: '01010131307'
 - description: |-
     Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
     construções variadas podem ser observadas por toda a sua extensão.  Mesmo
@@ -157,9 +152,24 @@
     bem vindo ao lar das nobres famílias de Vitália.
   exits:
     east:
-      target_vnum: '1308'
+      target_vnum: '01010131302'
+    west:
+      target_vnum: 01010131309
+  local_id: '1308'
   name: Rua Residencial Midgaard
-  vnum: '1309'
+  vnum: 01010131308
+- description: |-
+    Você está caminhando em uma limpa e arborizada rua da cidade de Midgaard,
+    construções variadas podem ser observadas por toda a sua extensão.  Mesmo
+    com o contraste entre todas estas edificações, você sente um clima de paz e
+    amizade no ar.  Uma suave voz o convida a entrar em cada residência, pois és
+    bem vindo ao lar das nobres famílias de Vitália.
+  exits:
+    east:
+      target_vnum: 01010131308
+  local_id: '1309'
+  name: Rua Residencial Midgaard
+  vnum: 01010131309
 - description: |-
     Adentrando os portões deste muito bem cuidado jardim élfico, você não
     poderia imaginar que tanta paz e serenidade pudessem existir no meio desta
@@ -173,11 +183,12 @@
     Midgaard.
   exits:
     north:
-      target_vnum: '1311'
+      target_vnum: '01010131311'
     west:
-      target_vnum: '1300'
+      target_vnum: '01010131300'
+  local_id: '1310'
   name: Os Jardins da Família Lindyhurst
-  vnum: '1310'
+  vnum: '01010131310'
 - description: |-
     Ao adentrar nesta casa simples, feita de carvalho, com belas janelas para
     o jardim e na parede oposta por sobre a lareira, um belo Brasão da Família
@@ -194,9 +205,10 @@
     escrito em élfico e adornado com pedras preciosas.
   exits:
     south:
-      target_vnum: '1310'
+      target_vnum: '01010131310'
+  local_id: '1311'
   name: A Casa da Família Lindyhurst
-  vnum: '1311'
+  vnum: '01010131311'
 - description: |-
     Nos tempos antigos, há muitos e muitos anos esta casa pertenceu aos
     ancestrais da família Ravenloft que já haviam se aventurado por terras além
@@ -209,11 +221,12 @@
     família.  Definitivamente, um ótimo lugar para se morar.
   exits:
     east:
-      target_vnum: '1300'
+      target_vnum: '01010131300'
     up:
-      target_vnum: '1313'
+      target_vnum: '01010131313'
+  local_id: '1312'
   name: Mansão Ravenloft
-  vnum: '1312'
+  vnum: '01010131312'
 - description: |-
     Está é uma sala decorada com uma mobília séria, porém mantém o tom de harmonia
     e paz.  Nos antepassados, nesta sala, foram tomadas decisões muito importantes
@@ -224,9 +237,10 @@
     por um fino vidro... ele parece importante.
   exits:
     down:
-      target_vnum: '1312'
+      target_vnum: '01010131312'
+  local_id: '1313'
   name: Sala de Reuniões da Família
-  vnum: '1313'
+  vnum: '01010131313'
 - description: |-
     São muitas estátuas enfileiradas dos dois lados formando um corredor a
     campo aberto.  Você percebe que muitas dessas estátuas são de falecidos
@@ -234,11 +248,12 @@
     acaba, pois há Duas Estátuas barrando sua passagem.
   exits:
     east:
-      target_vnum: '1315'
+      target_vnum: '01010131315'
     west:
-      target_vnum: '1301'
+      target_vnum: '01010131301'
+  local_id: '1314'
   name: Corredor dos Iergonov
-  vnum: '1314'
+  vnum: '01010131314'
 - description: |-
     Logo ao entrar você vê muitas pedras negras formando uma espécie de arco,
     são duas pedras como trave e uma como travessão, todas formando um circulo em
@@ -248,9 +263,10 @@
     conversando um com o outro.
   exits:
     west:
-      target_vnum: '1314'
+      target_vnum: '01010131314'
+  local_id: '1315'
   name: Santuário de Pedras dos Iergonov
-  vnum: '1315'
+  vnum: '01010131315'
 - description: |-
     Você se encontra em um grande salão muito bem decorado, que parece ser
     para receber os visitantes.  Há lindos tapetes cobrindo todo o chão e alguns
@@ -259,11 +275,12 @@
     Valeth.
   exits:
     east:
-      target_vnum: '1301'
+      target_vnum: '01010131301'
     west:
-      target_vnum: '1317'
+      target_vnum: '01010131317'
+  local_id: '1316'
   name: O Hall de Entrada da Família Valeth
-  vnum: '1316'
+  vnum: '01010131316'
 - description: |-
     Esta é a sala onde os membros da família Valeth se reúnem para conversar
     e se descontrair um pouco.  Há uma bela estante com vários livros para ler,
@@ -271,9 +288,10 @@
     vinhos e uma grande mesa para os banquetes.
   exits:
     east:
-      target_vnum: '1316'
+      target_vnum: '01010131316'
+  local_id: '1317'
   name: A Sala de Estar da Família Valeth
-  vnum: '1317'
+  vnum: '01010131317'
 - description: |-
     Você está diante de uma bela cachoeira, e escuta apenas o som da água
     batendo nas pedras e correndo pelo riacho e o piado de alguns passarinhos
@@ -282,11 +300,12 @@
     Família Amarillis.
   exits:
     east:
-      target_vnum: '1319'
+      target_vnum: 01010131319
     west:
-      target_vnum: '1303'
+      target_vnum: '01010131303'
+  local_id: '1318'
   name: Uma Bela Cachoeira
-  vnum: '1318'
+  vnum: 01010131318
 - description: |-
     Você fica surpreso com o tamanho da gruta ao entrar.  Tudo é muito claro,
     pois em toda parte existem cristais que refletem a luz que entra por uma
@@ -295,9 +314,10 @@
     com antigos livros e pergaminhos foram simetricamente colocadas na sala.
   exits:
     west:
-      target_vnum: '1318'
+      target_vnum: 01010131318
+  local_id: '1319'
   name: Dentro da Gruta
-  vnum: '1319'
+  vnum: 01010131319
 - description: |-
     Ao passar por aqui você nota um grande brasão dourado com a letra "p" em
     relevo no centro, com as palavras Honra, Sabedoria, Dignidade e Respeito
@@ -306,11 +326,12 @@
     dentre as mais honradas famílias de Vitália.
   exits:
     east:
-      target_vnum: '1303'
+      target_vnum: '01010131303'
     west:
-      target_vnum: '1321'
+      target_vnum: '01010131321'
+  local_id: '1320'
   name: Entrada da Confraria da Família Paice
-  vnum: '1320'
+  vnum: '01010131320'
 - description: |-
     Esta sala parecia simples como qualquer outra, com uma grande mesa
     circular ao centro e várias cadeiras ao redor, mas ao entrar você tem uma
@@ -322,9 +343,10 @@
     Certamente uma alma poderosa reservou este lugar para você.  Sente-se.
   exits:
     east:
-      target_vnum: '1320'
+      target_vnum: '01010131320'
+  local_id: '1321'
   name: Sala de Reunião da Família Paice
-  vnum: '1321'
+  vnum: '01010131321'
 - description: |-
     Essa é uma sala grande, com várias poltronas e cadeiras.  No centro há
     uma mesa.  As paredes estão decoradas com alguns quadros de familiares Depok
@@ -333,20 +355,22 @@
     acima dela há o brasão da família.
   exits:
     east:
-      target_vnum: '1323'
+      target_vnum: '01010131323'
     west:
-      target_vnum: '1304'
+      target_vnum: '01010131304'
+  local_id: '1322'
   name: A Sala de Visitas
-  vnum: '1322'
+  vnum: '01010131322'
 - description: |-
     Esta sala é enorme, com uma mesa comprida e várias cadeiras no centro.
     Na parede há uma árvore genealógica da família, várias armas e armaduras com
     o brasão da família.  Essa sala é usada para reuniões.
   exits:
     west:
-      target_vnum: '1322'
+      target_vnum: '01010131322'
+  local_id: '1323'
   name: A Sala de Estar
-  vnum: '1323'
+  vnum: '01010131323'
 - description: |-
     Olhando para cima, você não consegue localizar o final desta escadaria.
     Olhando em volta, nos claros vazios, você vê cenas de guerreiros lutando
@@ -358,11 +382,12 @@
     volte!!!´.
   exits:
     east:
-      target_vnum: '1304'
+      target_vnum: '01010131304'
     up:
-      target_vnum: '1325'
+      target_vnum: '01010131325'
+  local_id: '1324'
   name: Nas Escadarias de Mármore
-  vnum: '1324'
+  vnum: '01010131324'
 - description: |-
     Chegando ao topo, algo faz o claro vazio se dissipar e logo você vê um
     belo e enorme jardim.  No meio do jardim existe um grande altar com uma
@@ -377,9 +402,10 @@
     Uma nova vida brilha sobre Vitália, e, cabe a você protege-la.
   exits:
     down:
-      target_vnum: '1324'
+      target_vnum: '01010131324'
+  local_id: '1325'
   name: No Altar
-  vnum: '1325'
+  vnum: '01010131325'
 - description: |-
     Você encontra um salão bastante amplo em madeira de lei.  No centro há
     um grande tapete vermelho.  Este tapete vem da entrada até uma escada
@@ -393,11 +419,12 @@
     sua bandeja.
   exits:
     up:
-      target_vnum: '1327'
+      target_vnum: '01010131327'
     west:
-      target_vnum: '1305'
+      target_vnum: '01010131305'
+  local_id: '1326'
   name: O Hall Guireli
-  vnum: '1326'
+  vnum: '01010131326'
 - description: |-
     Nesta sala existem camas e uma bela adega de vinho, onde os Guireli
     compartilham juntos em seu momento em família.
@@ -407,13 +434,14 @@
     é um lugar de sossego e paz, depois de uma dura jornada.
   exits:
     down:
-      target_vnum: '1326'
+      target_vnum: '01010131326'
+  local_id: '1327'
   name: Aconchego Guireli
-  vnum: '1327'
+  vnum: '01010131327'
 - description: "Você está num campo aberto, cheio de árvores.  Ao pé delas, e por\
     \ toda a\nvolta, o gramado está salpicado de pequenas flores douradas, com o formato\n\
     de estrelas - são as Elanores e Niphredil.\nVocê vê uma gigantesca árvore, com\
-    \ uma enorme escadaria que a circunda.\nÃ\x89 um Mallorn, Ã¡rvore onde moram os\
+    \ uma enorme escadaria que a circunda.\nÃ\x89 um Mallorn, árvore onde moram os\
     \ Elfos e os seus descendentes.  Os galhos\nbrotam quase em ângulo reto com o\
     \ tronco, mas perto da copa o galho principal\nramifica-se numa coroa de muitos\
     \ ramos; em meio a estes você vê que existe\numa construção, que parece ser um\
@@ -421,26 +449,28 @@
     \ e uma inscrição na árvore."
   exits:
     east:
-      target_vnum: '1305'
+      target_vnum: '01010131305'
     up:
-      target_vnum: '1329'
+      target_vnum: 01010131329
+  local_id: '1328'
   name: A Casa da Família Celebithil
-  vnum: '1328'
+  vnum: 01010131328
 - description: "Nossa! Quantos degraus havia nessa escada! Você parece realmente cansado,\n\
-    mas outra emoÃ§Ã£o toma conta de sua pessoa: a beleza deste salÃ£o.  Ã\x89 um\
-    \ cÃ´modo\noval, no meio do qual cresce o tronco do grande Mallorn.  Repleto de\
-    \ uma luz\nsuave, suas paredes são verdes e prateadas.\nO teto, por alguma magia\
-    \ élfica, é azul como a noite, e tem estrelas tão\nbrilhantes quanto as de verdade.\
-    \  Uma grande Lua prateada, Brasão da Família\nCelebithil está nesse maravilhoso\
-    \ teto.\nUma grande mesa oval com muitas cadeiras está aqui, esperando pelo próximo\n\
-    encontro dos Celebithil.  Uma estante com livros está aqui.  Existem diversos\n\
-    retratos dos integrantes da família.  Um livro, com a história da Família\nCelebithil\
+    mas outra emoção toma conta de sua pessoa: a beleza deste salão.  Ã\x89 um cômodo\n\
+    oval, no meio do qual cresce o tronco do grande Mallorn.  Repleto de uma luz\n\
+    suave, suas paredes são verdes e prateadas.\nO teto, por alguma magia élfica,\
+    \ é azul como a noite, e tem estrelas tão\nbrilhantes quanto as de verdade.  Uma\
+    \ grande Lua prateada, Brasão da Família\nCelebithil está nesse maravilhoso teto.\n\
+    Uma grande mesa oval com muitas cadeiras está aqui, esperando pelo próximo\nencontro\
+    \ dos Celebithil.  Uma estante com livros está aqui.  Existem diversos\nretratos\
+    \ dos integrantes da família.  Um livro, com a história da Família\nCelebithil\
     \ está aqui."
   exits:
     down:
-      target_vnum: '1328'
+      target_vnum: 01010131328
+  local_id: '1329'
   name: O Salão de Reuniões da Família Celebithil
-  vnum: '1329'
+  vnum: 01010131329
 - description: |-
     Ao adentrar na sala você se depara com uma visão radiante que enche seu
     coração de glória e tristeza.  Olhando ao redor você vê uma fortaleza com
@@ -452,11 +482,12 @@
     Aqui você pode ver uma linda estátua.
   exits:
     south:
-      target_vnum: '1306'
+      target_vnum: '01010131306'
     up:
-      target_vnum: '1331'
+      target_vnum: '01010131331'
+  local_id: '1330'
   name: A Grande Fortaleza Galad
-  vnum: '1330'
+  vnum: '01010131330'
 - description: |-
     Ao adentrar nesta sala seus olhos brilham e você se sente um imperador ao
     meio de tanta riqueza, você olha ao redor e vê que tudo é adornado por ouro
@@ -469,6 +500,7 @@
     começam a cicatrizar.
   exits:
     down:
-      target_vnum: '1330'
+      target_vnum: '01010131330'
+  local_id: '1331'
   name: A Sala Superior
-  vnum: '1331'
+  vnum: '01010131331'

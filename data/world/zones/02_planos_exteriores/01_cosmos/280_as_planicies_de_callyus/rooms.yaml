@@ -5,11 +5,12 @@
     diferente de todas as outras montanhas que você já viu.
   exits:
     north:
-      target_vnum: '28001'
+      target_vnum: 020128028001
     west:
-      target_vnum: '6011'
+      target_vnum: 02012806011
+  local_id: '28000'
   name: Uma Pequena Floresta
-  vnum: '28000'
+  vnum: 020128028000
 - description: |-
     Você está em uma trilha na floresta.  Existem muitas árvores à sua volta.
     O solo está bastante úmido e seus pés afundam no chão, à medida que você
@@ -17,11 +18,12 @@
     trilha.
   exits:
     north:
-      target_vnum: '28002'
+      target_vnum: 020128028002
     south:
-      target_vnum: '28000'
+      target_vnum: 020128028000
+  local_id: '28001'
   name: Uma Trilha na Floresta
-  vnum: '28001'
+  vnum: 020128028001
 - description: |-
     Neste ponto a trilha se divide.  Um caminho segue para o norte e o outro
     para o leste, em direção a um barulho de água caindo.  Pequenos vãos entre
@@ -29,13 +31,14 @@
     silhueta de uma enorme montanha ao norte.
   exits:
     east:
-      target_vnum: '28004'
+      target_vnum: 020128028004
     north:
-      target_vnum: '28003'
+      target_vnum: 020128028003
     south:
-      target_vnum: '28001'
+      target_vnum: 020128028001
+  local_id: '28002'
   name: A Encruzilhada da Trilha
-  vnum: '28002'
+  vnum: 020128028002
 - description: |-
     Um grande número de árvores foram cortadas recentemente aqui.  Arbustos e
     troncos estão jogados sobre o solo úmido.  Alguns pequenos insetos passeiam
@@ -43,9 +46,10 @@
     Não existe nenhuma saída a não ser voltar.
   exits:
     south:
-      target_vnum: '28002'
+      target_vnum: 020128028002
+  local_id: '28003'
   name: O Final da Trilha
-  vnum: '28003'
+  vnum: 020128028003
 - description: |-
     Este lugar parece ser ideal para um descanso.  Não há nada encobrindo a
     sua visão do céu além de alguns pequeninos passarinhos, que traçam vôos
@@ -57,11 +61,12 @@
     perturbando seu descanso.
   exits:
     east:
-      target_vnum: '28005'
+      target_vnum: 020128028005
     west:
-      target_vnum: '28002'
+      target_vnum: 020128028002
+  local_id: '28004'
   name: Uma Clareira na Floresta
-  vnum: '28004'
+  vnum: 020128028004
 - description: |-
     Este lago de águas tão claras parece um enorme espelho, quando visto de
     cima.  O reflexo das nuvens em sua superfície mistura-se à silhueta dos
@@ -70,11 +75,12 @@
     poderosa cachoeira está bem próxima, ao norte.
   exits:
     north:
-      target_vnum: '28006'
+      target_vnum: 020128028006
     west:
-      target_vnum: '28004'
+      target_vnum: 020128028004
+  local_id: '28005'
   name: "Lago das Ã\x81guas Cristalinas"
-  vnum: '28005'
+  vnum: 020128028005
 - description: |-
     Uma esplêndida cachoeira pulveriza água em seu rosto.  A sensação é
     deliciosa e refrescante e uma suave brisa o envolve, dando ao lugar uma
@@ -84,33 +90,35 @@
     desperta em você a curiosidade.
   exits:
     north:
-      target_vnum: '28007'
+      target_vnum: 020128028007
     south:
-      target_vnum: '28005'
+      target_vnum: 020128028005
+  local_id: '28006'
   name: Uma Poderosa Cachoeira Entre Sólidas Rochas
-  vnum: '28006'
-- description: "Ã\x81gua, Ã¡gua e Ã¡gua.  VocÃª nunca viu tanta Ã¡gua caindo sobre\
-    \ sua cabeÃ§a.\nSuas roupas e equipamentos estão ensopados e apesar disso, você\
-    \ não se\nimporta, afinal a visão do maravilhoso arco-íris compensa qualquer\n\
-    sacrifício.  Talvez seja uma boa idéia retornar antes que você se resfrie e\n\
-    pegue uma pneumonia."
+  vnum: 020128028006
+- description: "Ã\x81gua, água e água.  Você nunca viu tanta água caindo sobre sua\
+    \ cabeça.\nSuas roupas e equipamentos estão ensopados e apesar disso, você não\
+    \ se\nimporta, afinal a visão do maravilhoso arco-íris compensa qualquer\nsacrifício.\
+    \  Talvez seja uma boa idéia retornar antes que você se resfrie e\npegue uma pneumonia."
   exits:
     north:
-      target_vnum: '28008'
+      target_vnum: 020128028008
     south:
-      target_vnum: '28006'
+      target_vnum: 020128028006
+  local_id: '28007'
   name: Sob a Cachoeira
-  vnum: '28007'
+  vnum: 020128028007
 - description: "Então é para cá que toda a água vai!!  Um lago escondido pela grande\n\
-    cachoeira.  Ã\x80 primeira vista, este lugar parece ser uma galeria subterrÃ¢nea,\n\
+    cachoeira.  Ã\x80 primeira vista, este lugar parece ser uma galeria subterrânea,\n\
     com formações calcáreas bastante interessantes em seu lado oeste.  A água\ndesce\
     \ para cá passando pela rede e cria uma segunda queda, que é menor do\nque aquela\
     \ que esta lá fora mas suficientemente alta para obstruir seu\ncaminho de volta."
   exits:
     west:
-      target_vnum: '28009'
+      target_vnum: 020128028009
+  local_id: '28008'
   name: Um Lago Escondido Atrás da Cachoeira
-  vnum: '28008'
+  vnum: 020128028008
 - description: |-
     Um número imenso de colunas de calcáreo estão espalhadas pela sala.
     Estas colunas foram formadas há séculos, através de um paciente e constante
@@ -121,11 +129,12 @@
     Você sente que a água corre com mais força ao oeste.
   exits:
     east:
-      target_vnum: '28008'
+      target_vnum: 020128028008
     west:
-      target_vnum: '28010'
+      target_vnum: 020128028010
+  local_id: '28009'
   name: Formações Calcáreas do Lago
-  vnum: '28009'
+  vnum: 020128028009
 - description: |-
     Você está em um canal que foi construído por mãos humanas.  Você precisa
     de muita habilidade para manter sua estabilidade e para não se chocar contra
@@ -133,11 +142,12 @@
     você o atravesse rápidamente.
   exits:
     east:
-      target_vnum: '28009'
+      target_vnum: 020128028009
     north:
-      target_vnum: '28011'
+      target_vnum: 020128028011
+  local_id: '28010'
   name: Um Canal com Forte Correnteza
-  vnum: '28010'
+  vnum: 020128028010
 - description: |-
     Um lugar bastante estranho para se encontrar uma piscina.  Você chega até
     sua borda com um certo cuidado pois percebe algo muito peculiar acontecendo.
@@ -148,11 +158,12 @@
     que esta água está indo?
   exits:
     down:
-      target_vnum: '28012'
+      target_vnum: 020128028012
     south:
-      target_vnum: '28010'
+      target_vnum: 020128028010
+  local_id: '28011'
   name: Uma Estranha Piscina
-  vnum: '28011'
+  vnum: 020128028011
 - description: |-
     Woooooow!!!!!  Repentinamente você é tragado por um poderoso turbilhão.
     Você passa por um longo tubo a uma velocidade impressionante e embora tente
@@ -166,18 +177,20 @@
     voltar.
   exits:
     north:
-      target_vnum: '28013'
+      target_vnum: 020128028013
+  local_id: '28012'
   name: O Rio dos Heróis
-  vnum: '28012'
+  vnum: 020128028012
 - description: |-
     Você passou por uma cachoeira.  Você vê nas margens do rio um grande
     número de canos.  Estes canos levam a água para alguns povoados da região.
     Além do aqueduto estão algumas árvores e um pequeno prédio ao nordeste.
   exits:
     north:
-      target_vnum: '28014'
+      target_vnum: 020128028014
+  local_id: '28013'
   name: O Rio dos Heróis
-  vnum: '28013'
+  vnum: 020128028013
 - description: |-
     O rio começa a fazer uma curva aqui.  Um estranho ruído chega do leste,
     como se fossem inúmeros tambores.  O som parece estar vindo daquele pequeno
@@ -185,11 +198,12 @@
     gotas que refletem a luz.
   exits:
     east:
-      target_vnum: '28015'
+      target_vnum: 020128028015
     north:
-      target_vnum: '28019'
+      target_vnum: 020128028019
+  local_id: '28014'
   name: O Rio dos Heróis
-  vnum: '28014'
+  vnum: 020128028014
 - description: |-
     Você está do lado de fora do pequeno prédio.  A construção é branca e
     possui uma torre de observação.  Canos vindos do sul entram no prédio e saem
@@ -198,11 +212,12 @@
     porta de ferro no leste.
   exits:
     east:
-      target_vnum: '28016'
+      target_vnum: 020128028016
     west:
-      target_vnum: '28014'
+      target_vnum: 020128028014
+  local_id: '28015'
   name: Fora do Pequeno Prédio da Margem do Rio
-  vnum: '28015'
+  vnum: 020128028015
 - description: |-
     Que som terrível!  Há uma enorme máquina que vibra tremendamente e
     bombeia a água.  Esta máquina foi construída com centenas de engrenagens e
@@ -211,22 +226,24 @@
     suficientes para iluminar apenas pequenas partes da sala.
   exits:
     south:
-      target_vnum: '28017'
+      target_vnum: 020128028017
     up:
-      target_vnum: '28018'
+      target_vnum: 020128028018
     west:
-      target_vnum: '28015'
-  name: "Dentro do PrÃ©dio da Bomba D'Ã\x81gua"
-  vnum: '28016'
-- description: "VocÃª estÃ¡ dentro de um pequeno quarto.  Ã\x89 muito mal iluminado\
-    \ e vocÃª pode\nver apenas algumas ferramentas, canos e alguns utensílios mecânicos.\
+      target_vnum: 020128028015
+  local_id: '28016'
+  name: "Dentro do Prédio da Bomba D'Ã\x81gua"
+  vnum: 020128028016
+- description: "Você está dentro de um pequeno quarto.  Ã\x89 muito mal iluminado\
+    \ e você pode\nver apenas algumas ferramentas, canos e alguns utensílios mecânicos.\
     \  Nas\nparedes estão presos alguns mapas e esquemas de máquinas para explicar\
     \ como\nrepará-las."
   exits:
     north:
-      target_vnum: '28016'
-  name: "O DepÃ³sito do PrÃ©dio da Bomba D'Ã\x81gua"
-  vnum: '28017'
+      target_vnum: 020128028016
+  local_id: '28017'
+  name: "O Depósito do Prédio da Bomba D'Ã\x81gua"
+  vnum: 020128028017
 - description: |-
     A luz de fora repentinamente preenche este lugar.  Você nota que está na
     torre de vigia.  Aqui você pode ver toda a amplidão da paisagem à sua volta.
@@ -236,9 +253,10 @@
     de um enorme vulcão.
   exits:
     down:
-      target_vnum: '28016'
+      target_vnum: 020128028016
+  local_id: '28018'
   name: A Torre de Vigia do Prédio
-  vnum: '28018'
+  vnum: 020128028018
 - description: |-
     Neste lugar, a água parece ser calma e alguns insetos dão mergulhos em
     sua superfície.  Existem apenas umas três árvores na margem e alguns canos.
@@ -246,11 +264,12 @@
     bonitas construções.  Você tem certeza de que aquilo é uma cidade.
   exits:
     north:
-      target_vnum: '28020'
+      target_vnum: 020128028020
     south:
-      target_vnum: '28014'
+      target_vnum: 020128028014
+  local_id: '28019'
   name: O Rio dos Heróis
-  vnum: '28019'
+  vnum: 020128028019
 - description: |-
     Você está em um lugar curioso.  Existem três rios que convergem para cá.
     Ao sul está o Rio dos Heróis, ao leste, o Rio dos Vencedores e ao oeste está
@@ -258,26 +277,28 @@
     há um pequeno porto e uma praça.
   exits:
     east:
-      target_vnum: '28058'
+      target_vnum: 020128028058
     north:
-      target_vnum: '28078'
+      target_vnum: 020128028078
     south:
-      target_vnum: '28019'
+      target_vnum: 020128028019
     west:
-      target_vnum: '28021'
+      target_vnum: 020128028021
+  local_id: '28020'
   name: O Rio dos Heróis
-  vnum: '28020'
+  vnum: 020128028020
 - description: |-
     A água está mais clara aqui.  Você se pergunta se isso é devido ao fato
     do rio fazer ser bem mais estreito aqui e das margens estarem mais próximas
     uma da outra do que ao oeste.
   exits:
     east:
-      target_vnum: '28020'
+      target_vnum: 020128028020
     west:
-      target_vnum: '28022'
+      target_vnum: 020128028022
+  local_id: '28021'
   name: O Rio dos Vencedores
-  vnum: '28021'
+  vnum: 020128028021
 - description: |-
     As margens do rio estão realmente bem mais próximas uma da outra, a ponto
     de se concluir que a navegação com grandes embarcações deve ser práticamente
@@ -287,11 +308,12 @@
     pequenas árvores.
   exits:
     east:
-      target_vnum: '28021'
+      target_vnum: 020128028021
     south:
-      target_vnum: '28023'
+      target_vnum: 020128028023
+  local_id: '28022'
   name: O Rio dos Vencedores
-  vnum: '28022'
+  vnum: 020128028022
 - description: |-
     Você percebe com surpresa porque o rio é tão raso e tão estreito: ele foi
     canalizado por alguém.  Por causa disso e pelo fato da terra ser tão plana,
@@ -299,11 +321,12 @@
     algum tipo de planta cultivada e irrigada pelo rio.
   exits:
     north:
-      target_vnum: '28022'
+      target_vnum: 020128028022
     south:
-      target_vnum: '28024'
+      target_vnum: 020128028024
+  local_id: '28023'
   name: A Parte Canalizada do Rio dos Vencedores
-  vnum: '28023'
+  vnum: 020128028023
 - description: |-
     O rio que na verdade é um canal, se divide em dois braços.  Para o leste,
     o rio penetra naquilo que parece ser um campo de arroz.  Para o oeste, ele
@@ -311,15 +334,16 @@
     principal segue para o norte e o sul.
   exits:
     east:
-      target_vnum: '28032'
+      target_vnum: 020128028032
     north:
-      target_vnum: '28023'
+      target_vnum: 020128028023
     south:
-      target_vnum: '28025'
+      target_vnum: 020128028025
     west:
-      target_vnum: '28041'
+      target_vnum: 020128028041
+  local_id: '28024'
   name: A Parte Canalizada do Rio dos Vencedores
-  vnum: '28024'
+  vnum: 020128028024
 - description: |-
     Ao prosseguir pelo canal, você percebe que provavelmente este seja um
     local agrícola: existem muitos campos cultivados em todas as margens do rio.
@@ -328,26 +352,28 @@
     e...  Matanças!
   exits:
     north:
-      target_vnum: '28024'
+      target_vnum: 020128028024
     south:
-      target_vnum: '28026'
+      target_vnum: 020128028026
+  local_id: '28025'
   name: A Parte Canalizada do Rio dos Vencedores
-  vnum: '28025'
+  vnum: 020128028025
 - description: |-
     O canal novamente se divide em dois braços.  Para o leste o rio penetra
     naquilo que parece ser um campo de soja.  E para o oeste, ele segue na
     direção de um campo de aveia.  O canal também continua para o norte e sul.
   exits:
     east:
-      target_vnum: '28035'
+      target_vnum: 020128028035
     north:
-      target_vnum: '28025'
+      target_vnum: 020128028025
     south:
-      target_vnum: '28027'
+      target_vnum: 020128028027
     west:
-      target_vnum: '28044'
+      target_vnum: 020128028044
+  local_id: '28026'
   name: A Parte Canalizada do Rio dos Vencedores
-  vnum: '28026'
+  vnum: 020128028026
 - description: |-
     Ao prosseguir pelo canal, você percebe que realmente este é um local
     agrícola: existem muitos campos cultivados em todas as margens do rio.  Você
@@ -356,11 +382,12 @@
     Matanças!
   exits:
     north:
-      target_vnum: '28026'
+      target_vnum: 020128028026
     south:
-      target_vnum: '28028'
+      target_vnum: 020128028028
+  local_id: '28027'
   name: A Parte Canalizada do Rio dos Vencedores
-  vnum: '28027'
+  vnum: 020128028027
 - description: |-
     O canal novamente se divide em dois braços.  Para o leste, o rio penetra
     naquilo que parece ser um campo de milho...e isto o faz se lembrar do quanto
@@ -370,15 +397,16 @@
     para o norte e sul.
   exits:
     east:
-      target_vnum: '28038'
+      target_vnum: 020128028038
     north:
-      target_vnum: '28027'
+      target_vnum: 020128028027
     south:
-      target_vnum: '28029'
+      target_vnum: 020128028029
     west:
-      target_vnum: '28047'
+      target_vnum: 020128028047
+  local_id: '28028'
   name: A Parte Canalizada do Rio dos Vencedores
-  vnum: '28028'
+  vnum: 020128028028
 - description: |-
     Enquanto você segue através do canal, você começa a pensar que isto é
     realmente um lugar muito entediante....apenas água e campos cultivados...e
@@ -387,30 +415,33 @@
     interessante pela frente.
   exits:
     north:
-      target_vnum: '28028'
+      target_vnum: 020128028028
     south:
-      target_vnum: '28030'
+      target_vnum: 020128028030
+  local_id: '28029'
   name: A Parte Canalizada do Rio dos Vencedores
-  vnum: '28029'
+  vnum: 020128028029
 - description: |-
     As margens do canal estão repletas de plantas cultivadas.  A cor da água
     é bem clara, ficando mais clara ao norte e mais escura ao sul.  A terra é
     plana e o ar está impregnado com o cheiro de seiva das plantas.
   exits:
     north:
-      target_vnum: '28029'
+      target_vnum: 020128028029
     south:
-      target_vnum: '28031'
+      target_vnum: 020128028031
+  local_id: '28030'
   name: O Rio dos Vencedores
-  vnum: '28030'
+  vnum: 020128028030
 - description: |-
     O rio termina aqui.  Este local é muito calmo e apenas pequeninos
     pássaros quebram a serenidade do lugar.
   exits:
     north:
-      target_vnum: '28030'
+      target_vnum: 020128028030
+  local_id: '28031'
   name: O Rio dos Vencedores
-  vnum: '28031'
+  vnum: 020128028031
 - description: |-
     Você está em um canal muito estreito entre dois campos de arroz.  Você
     não consegue ver muita coisa dos campos porque as margens são muito altas.
@@ -419,13 +450,14 @@
     principal.
   exits:
     north:
-      target_vnum: '28033'
+      target_vnum: 020128028033
     south:
-      target_vnum: '28034'
+      target_vnum: 020128028034
     west:
-      target_vnum: '28024'
+      target_vnum: 020128028024
+  local_id: '28032'
   name: O Canal Estreito Entre Campos de Arroz
-  vnum: '28032'
+  vnum: 020128028032
 - description: |-
     Você está no lado norte de um campo de arroz.  Os pés de arroz são
     plantas altas e mesmo sem você saber muita coisa sobre agricultura, você
@@ -433,9 +465,10 @@
     dos insetos parece tomar conta do lugar.
   exits:
     south:
-      target_vnum: '28032'
+      target_vnum: 020128028032
+  local_id: '28033'
   name: O Lado Norte do Campo de Arroz
-  vnum: '28033'
+  vnum: 020128028033
 - description: |-
     Você está no lado norte de um campo de arroz.  Ao norte está um canal
     estreito separando a plantação de arroz em dois campos distintos.  Ao sul, a
@@ -443,11 +476,12 @@
     para as plantas, você imagina onde estariam as pessoas que fazem a colheita.
   exits:
     north:
-      target_vnum: '28032'
+      target_vnum: 020128028032
     south:
-      target_vnum: '28036'
+      target_vnum: 020128028036
+  local_id: '28034'
   name: O Lado Sul do Campo de Arroz
-  vnum: '28034'
+  vnum: 020128028034
 - description: |-
     Você está em um canal estreito entre dois campos de soja.  Você não pode
     ver muito da soja porque as margens são bem altas.  Contudo, você pode
@@ -455,13 +489,14 @@
     outra alternativa é ir para o oeste, para o canal principal.
   exits:
     north:
-      target_vnum: '28036'
+      target_vnum: 020128028036
     south:
-      target_vnum: '28037'
+      target_vnum: 020128028037
     west:
-      target_vnum: '28026'
+      target_vnum: 020128028026
+  local_id: '28035'
   name: O Canal Estreito Entre Campos de Soja
-  vnum: '28035'
+  vnum: 020128028035
 - description: |-
     Você está no lado norte de um campo de soja.  Ao sul está um canal
     estreito separando a plantação de soja em dois campos distintos.  Ao norte,
@@ -470,11 +505,12 @@
     pronta para ser colhida.
   exits:
     north:
-      target_vnum: '28034'
+      target_vnum: 020128028034
     south:
-      target_vnum: '28035'
+      target_vnum: 020128028035
+  local_id: '28036'
   name: O Lado Norte do Campo de Soja
-  vnum: '28036'
+  vnum: 020128028036
 - description: |-
     Você está no lado sul de um campo de soja.  Ao norte está um canal
     estreito separando a plantação de soja em dois campos distintos.  Ao sul, a
@@ -483,11 +519,12 @@
     responsáveis pela colheita.
   exits:
     north:
-      target_vnum: '28035'
+      target_vnum: 020128028035
     south:
-      target_vnum: '28039'
+      target_vnum: 020128028039
+  local_id: '28037'
   name: O Lado Sul do Campo de Soja
-  vnum: '28037'
+  vnum: 020128028037
 - description: |-
     Você está em um canal estreito entre dois campos de milho.  Você consegue
     ver os altos pés-de-milho que estão ao norte, sul e leste.  Você pensa que
@@ -496,15 +533,16 @@
     será que dariam?
   exits:
     east:
-      target_vnum: '9100'
+      target_vnum: 02012809100
     north:
-      target_vnum: '28039'
+      target_vnum: 020128028039
     south:
-      target_vnum: '28040'
+      target_vnum: 020128028040
     west:
-      target_vnum: '28028'
+      target_vnum: 020128028028
+  local_id: '28038'
   name: O Canal Estreito Entre Campos de Milho
-  vnum: '28038'
+  vnum: 020128028038
 - description: |-
     Você está no lado norte de um campo de milho.  Ao sul está um canal
     estreito separando a plantação de milho em dois campos distintos.  Ao norte,
@@ -512,11 +550,12 @@
     para as plantas, você imagina onde estariam as pessoas que fazem a colheita.
   exits:
     north:
-      target_vnum: '28037'
+      target_vnum: 020128028037
     south:
-      target_vnum: '28038'
+      target_vnum: 020128028038
+  local_id: '28039'
   name: O Lado Norte do Campo de Milho
-  vnum: '28039'
+  vnum: 020128028039
 - description: |-
     Você está no lado sul de um campo de milho.  Os pés-de-milho são altos,
     as espigas são grandes.  Tudo o que você entende sobre milho se consiste em
@@ -526,9 +565,10 @@
     para o canal
   exits:
     north:
-      target_vnum: '28038'
+      target_vnum: 020128028038
+  local_id: '28040'
   name: O Lado Sul do Campo de Milho
-  vnum: '28040'
+  vnum: 020128028040
 - description: |-
     Você está em um canal estreito entre dois campos de trigo.  Você não pode
     ver muito do trigo porque as margens são bem altas.  Contudo, você pode
@@ -537,15 +577,16 @@
     pequeno desce o rio para o oeste.
   exits:
     east:
-      target_vnum: '28024'
+      target_vnum: 020128028024
     north:
-      target_vnum: '28042'
+      target_vnum: 020128028042
     south:
-      target_vnum: '28043'
+      target_vnum: 020128028043
     west:
-      target_vnum: '28050'
+      target_vnum: 020128028050
+  local_id: '28041'
   name: O Canal Estreito Entre Campos de Trigo
-  vnum: '28041'
+  vnum: 020128028041
 - description: |-
     Um imenso campo de trigo se extende em direção ao norte.  A plantação
     cobre completamente cada centímetro da terra, criando um vasto tapete que
@@ -553,9 +594,10 @@
     trabalhadores que irão fazer a colheita do trigo.
   exits:
     south:
-      target_vnum: '28041'
+      target_vnum: 020128028041
+  local_id: '28042'
   name: O Lado Norte do Campo de Trigo
-  vnum: '28042'
+  vnum: 020128028042
 - description: |-
     Trigo é o ingrediente básico para se fazer pão.  Você percebe que o trigo
     usado para fazer os famosos pães romanos e Midgaardianos pode ter sido
@@ -563,11 +605,12 @@
     luz do sol incide sobre o trigal, este brilha como se fosse ouro.
   exits:
     north:
-      target_vnum: '28041'
+      target_vnum: 020128028041
     south:
-      target_vnum: '28045'
+      target_vnum: 020128028045
+  local_id: '28043'
   name: O Lado Sul do Campo de Trigo
-  vnum: '28043'
+  vnum: 020128028043
 - description: |-
     Você está em um canal estreito entre dois campos de aveia.  Você não pode
     ver muito da aveia porque as margens são bem altas.  Contudo, você pode
@@ -575,13 +618,14 @@
     outra alternativa é ir para o leste, para o canal principal.
   exits:
     east:
-      target_vnum: '28026'
+      target_vnum: 020128028026
     north:
-      target_vnum: '28045'
+      target_vnum: 020128028045
     south:
-      target_vnum: '28046'
+      target_vnum: 020128028046
+  local_id: '28044'
   name: O Canal Estreito Entre Campos de Aveia
-  vnum: '28044'
+  vnum: 020128028044
 - description: |-
     Enquanto você vê este campo de aveia, você se lembra de quando era uma
     linda criança e sua queria mãe sempre lhe dizia para comer aveia para ficar
@@ -590,22 +634,24 @@
     estado normal, esquecendo todas essas bobagens sentimentais.
   exits:
     north:
-      target_vnum: '28043'
+      target_vnum: 020128028043
     south:
-      target_vnum: '28044'
+      target_vnum: 020128028044
+  local_id: '28045'
   name: O Lado Norte do Campo de Aveia
-  vnum: '28045'
+  vnum: 020128028045
 - description: |-
     O campo de aveia parece terminar.  As plantas dançam ao vento.  Você vê
     inúmeros homens e mulheres trabalhando, colhendo e carregando várias
     carroças com a aveia colhida.
   exits:
     north:
-      target_vnum: '28044'
+      target_vnum: 020128028044
     south:
-      target_vnum: '28048'
+      target_vnum: 020128028048
+  local_id: '28046'
   name: O Lado Sul do Campo de Aveia
-  vnum: '28046'
+  vnum: 020128028046
 - description: |-
     Você está em um canal estreito entre dois campos de cevada.  Você não
     pode ver muito da aveia porque as margens são bem altas.  Contudo, você pode
@@ -613,13 +659,14 @@
     outra alternativa é ir para o leste, para o canal principal.
   exits:
     east:
-      target_vnum: '28028'
+      target_vnum: 020128028028
     north:
-      target_vnum: '28048'
+      target_vnum: 020128028048
     south:
-      target_vnum: '28049'
+      target_vnum: 020128028049
+  local_id: '28047'
   name: O Canal Estreito Entre Campos de Cevada
-  vnum: '28047'
+  vnum: 020128028047
 - description: |-
     Você está no lado norte de um campo de cevada.  Ao sul está um canal
     estreito separando a plantação de cevada em dois campos distintos.  Ao
@@ -628,11 +675,12 @@
     cevada está pronta para ser colhida.
   exits:
     north:
-      target_vnum: '28046'
+      target_vnum: 020128028046
     south:
-      target_vnum: '28047'
+      target_vnum: 020128028047
+  local_id: '28048'
   name: O Lado Norte do Campo de Cevada
-  vnum: '28048'
+  vnum: 020128028048
 - description: |-
     Um imenso campo de cevada segue daqui e se extende para o sul.  A
     plantação cobre completamente cada centímetro da terra, criando um tapete
@@ -640,19 +688,21 @@
     pelos trabalhadores que irão fazer a colheita da cevada.
   exits:
     north:
-      target_vnum: '28047'
+      target_vnum: 020128028047
+  local_id: '28049'
   name: O Lado Sul do Campo de Cevada
-  vnum: '28049'
+  vnum: 020128028049
 - description: "Há um caminho estreito que segue rumo ao norte.  Em um dos lados da\n\
-    estradinha, vocÃª vÃª uma placa onde esta escrito \"Ã\x81rea de Pastagem\".  O\n\
+    estradinha, você vê uma placa onde esta escrito \"Ã\x81rea de Pastagem\".  O\n\
     caminho parece ser precariamente mantido, indicando que talvez esteja\nabandonado."
   exits:
     east:
-      target_vnum: '28041'
+      target_vnum: 020128028041
     north:
-      target_vnum: '28051'
+      target_vnum: 020128028051
+  local_id: '28050'
   name: Caminho das Pastagens
-  vnum: '28050'
+  vnum: 020128028050
 - description: |-
     Você está perto da área de pastagem.  Não há nada de interessante aqui,
     apenas algumas ferramentas de madeira jogadas ao longo do caminho e algumas
@@ -661,23 +711,25 @@
     neste lugar.
   exits:
     north:
-      target_vnum: '28052'
+      target_vnum: 020128028052
     south:
-      target_vnum: '28050'
+      target_vnum: 020128028050
+  local_id: '28051'
   name: No Caminho Perto das Pastagens
-  vnum: '28051'
+  vnum: 020128028051
 - description: |-
     Este pasto está pobremente plantado.  A grama é rara e pouca e parece que
     a terra está a espera de alguém que a plante.
   exits:
     east:
-      target_vnum: '28054'
+      target_vnum: 020128028054
     north:
-      target_vnum: '28053'
+      target_vnum: 020128028053
     south:
-      target_vnum: '28051'
+      target_vnum: 020128028051
+  local_id: '28052'
   name: A Pastagem Descoberta
-  vnum: '28052'
+  vnum: 020128028052
 - description: |-
     Um número imenso de cabeças de gado se espalham pelo rico verde do pasto.
     Alguns trabalhadores estão aqui, lidando com os bois e vacas que comem sem
@@ -685,11 +737,12 @@
     ferramentas dos camponeses.  Um dos tonéis parece estar cheio.
   exits:
     east:
-      target_vnum: '28055'
+      target_vnum: 020128028055
     south:
-      target_vnum: '28052'
+      target_vnum: 020128028052
+  local_id: '28053'
   name: A Pastagem
-  vnum: '28053'
+  vnum: 020128028053
 - description: |-
     Este lugar é uma rica área para pastagem.  Está dividido em diversas
     áreas menores, que estão divididas para as diferentes espécies de animais.
@@ -698,11 +751,12 @@
     suculento assado?
   exits:
     north:
-      target_vnum: '28055'
+      target_vnum: 020128028055
     west:
-      target_vnum: '28052'
+      target_vnum: 020128028052
+  local_id: '28054'
   name: A Pastagem Perto do Rio
-  vnum: '28054'
+  vnum: 020128028054
 - description: |-
     Há um grande número de cavalos aqui.  Alguns são realmente maravilhosos,
     fortes e parecem excelentes para cavalgar.  Em uma das extremidades do
@@ -711,13 +765,14 @@
     cavalos produz excelente animais, extremamente vigorosos e velozes.
   exits:
     east:
-      target_vnum: '28056'
+      target_vnum: 020128028056
     south:
-      target_vnum: '28054'
+      target_vnum: 020128028054
     west:
-      target_vnum: '28053'
+      target_vnum: 020128028053
+  local_id: '28055'
   name: A Pastagem
-  vnum: '28055'
+  vnum: 020128028055
 - description: |-
     Você está em uma estrada bastante estreita, perto da área de pastagem.
     Você vê algumas cabeças de gado e trabalhadores lidando com eles no pasto.
@@ -729,11 +784,12 @@
     plantação.
   exits:
     east:
-      target_vnum: '28057'
+      target_vnum: 020128028057
     west:
-      target_vnum: '28055'
+      target_vnum: 020128028055
+  local_id: '28056'
   name: A Estrada Paralela à Margem do Rio
-  vnum: '28056'
+  vnum: 020128028056
 - description: |-
     Essa estrada estreita segue para o leste.  Você pode ver daqui uma linda
     vista, com ricas colinas, vales e uma grande área de pastos.  Estão bem
@@ -742,11 +798,12 @@
     olhando para o melhor gado que você jamais viu.
   exits:
     east:
-      target_vnum: '28078'
+      target_vnum: 020128028078
     west:
-      target_vnum: '28056'
+      target_vnum: 020128028056
+  local_id: '28057'
   name: A Estrada Paralela à Margem do Rio
-  vnum: '28057'
+  vnum: 020128028057
 - description: |-
     Você está chegando perto de um cais e pode ver diversos navios mercantes,
     bem como navios de batalha, que estão ancorados ao longo do porto.  O rio é
@@ -755,11 +812,12 @@
     leste.
   exits:
     east:
-      target_vnum: '28059'
+      target_vnum: 020128028059
     west:
-      target_vnum: '28020'
+      target_vnum: 020128028020
+  local_id: '28058'
   name: O Rio dos Bravos
-  vnum: '28058'
+  vnum: 020128028058
 - description: |-
     O rio se torna mais largo e mais poluído aqui.  Na estrada paralela à
     margem do rio, você pode ver alguns marinheiros que estão à procura de
@@ -768,11 +826,12 @@
     imaginar.
   exits:
     east:
-      target_vnum: '28060'
+      target_vnum: 020128028060
     west:
-      target_vnum: '28058'
+      target_vnum: 020128028058
+  local_id: '28059'
   name: O Rio dos Bravos
-  vnum: '28059'
+  vnum: 020128028059
 - description: |-
     Você está em um estuário.  A água do rio se mistura à água do oceano.  Ao
     leste você vê apenas uma quantidade imensa de água.  Ao norte existe uma
@@ -780,28 +839,30 @@
     grande, que parece ser um galpão.
   exits:
     east:
-      target_vnum: '28077'
+      target_vnum: 020128028077
     north:
-      target_vnum: '28061'
+      target_vnum: 020128028061
     west:
-      target_vnum: '28059'
+      target_vnum: 020128028059
+  local_id: '28060'
   name: O Rio dos Bravos
-  vnum: '28060'
+  vnum: 020128028060
 - description: |-
     Você está se encontra em um pequeno pátio.  Há um grande prédio aqui onde
     as pessoas entram e saem.  Atravessando o pátio existe uma rua bastante
     larga com um grande número de galpões.
   exits:
     east:
-      target_vnum: '28062'
+      target_vnum: 020128028062
     north:
-      target_vnum: '28067'
+      target_vnum: 020128028067
     south:
-      target_vnum: '28060'
+      target_vnum: 020128028060
     west:
-      target_vnum: '28065'
+      target_vnum: 020128028065
+  local_id: '28061'
   name: As Docas de Calyus
-  vnum: '28061'
+  vnum: 020128028061
 - description: |-
     Há uma pequena quantidade de pessoas neste lugar.  A maioria são
     guerreiros locais que se alistaram para defender sua terra natal.  Nas
@@ -809,11 +870,12 @@
     terem estado em grandes batalhas.
   exits:
     east:
-      target_vnum: '28063'
+      target_vnum: 020128028063
     west:
-      target_vnum: '28061'
+      target_vnum: 020128028061
+  local_id: '28062'
   name: A Rua Leste das Docas
-  vnum: '28062'
+  vnum: 020128028062
 - description: |-
     Você está em uma rua muito larga.  Esta área parece ser zona militar
     porque em suas margens estão ancorados apenas navios de guerra.  Em um dos
@@ -822,19 +884,21 @@
     entram e saem dos navios.
   exits:
     east:
-      target_vnum: '28064'
+      target_vnum: 020128028064
     west:
-      target_vnum: '28062'
+      target_vnum: 020128028062
+  local_id: '28063'
   name: A Rua Leste das Docas
-  vnum: '28063'
+  vnum: 020128028063
 - description: |-
     A rua termina aqui.  Esta área parece estar reservada para futuras
     expansões.  Apenas alguns galpões foram construídos aqui.
   exits:
     west:
-      target_vnum: '28063'
+      target_vnum: 020128028063
+  local_id: '28064'
   name: A Rua Leste das Docas
-  vnum: '28064'
+  vnum: 020128028064
 - description: |-
     Você vê um grupo de galpões ao longo da rua.  Alguns estão com suas
     portas abertas, permitindo que se possa ver o que guardam em seus
@@ -846,11 +910,12 @@
     pãezinhos de viagem.
   exits:
     east:
-      target_vnum: '28061'
+      target_vnum: 020128028061
     west:
-      target_vnum: '28066'
+      target_vnum: 020128028066
+  local_id: '28065'
   name: A Rua Oeste das Docas
-  vnum: '28065'
+  vnum: 020128028065
 - description: |-
     Esta é uma rua bastante comprida, calçada com pequenos blocos de pedras e
     que segue em direção ao leste.  Os navios mercantes estão ancorados lado a
@@ -861,11 +926,12 @@
     dezenas de vendedores oferecem suas mercadorias.  Há uma bonita fonte ali.
   exits:
     east:
-      target_vnum: '28065'
+      target_vnum: 020128028065
     west:
-      target_vnum: '28078'
+      target_vnum: 020128028078
+  local_id: '28066'
   name: A Rua Oeste das Docas
-  vnum: '28066'
+  vnum: 020128028066
 - description: |-
     A recepção é um lugar bastante movimentado.  Ali estão trabalhadores,
     vendedores, marinheiros, guerreiros e guardas.  Você vê uma grande mesa no
@@ -874,13 +940,14 @@
     Ao leste há uma porta e ao oeste um corredor.
   exits:
     east:
-      target_vnum: '28070'
+      target_vnum: 020128028070
     south:
-      target_vnum: '28061'
+      target_vnum: 020128028061
     west:
-      target_vnum: '28068'
+      target_vnum: 020128028068
+  local_id: '28067'
   name: O Escritório Central das Docas de Calyus
-  vnum: '28067'
+  vnum: 020128028067
 - description: |-
     Este corredor se extende para o leste.  Suas paredes são limpas e claras
     e alguns quadros com a figura de militares foram penduradas ali.  O chão
@@ -889,23 +956,25 @@
     ambiente uma sensação de paz.
   exits:
     east:
-      target_vnum: '28067'
+      target_vnum: 020128028067
     west:
-      target_vnum: '28069'
+      target_vnum: 020128028069
+  local_id: '28068'
   name: O Corredor
-  vnum: '28068'
+  vnum: 020128028068
 - description: "O corredor faz uma curva aqui.  Há um bonito quadro a óleo pendurado\
     \ em\numa de suas paredes pendurado aqui.  Ã\x89 a figura de uma baleia azul.\
     \  As\nescadas sobem até o segundo andar."
   exits:
     east:
-      target_vnum: '28068'
+      target_vnum: 020128028068
     north:
-      target_vnum: '28072'
+      target_vnum: 020128028072
+  local_id: '28069'
   name: O Corredor
-  vnum: '28069'
+  vnum: 020128028069
 - description: "Esse quarto é bem amplo, com prateleiras nas paredes, umas mesinhas\
-    \ e\ncadeiras.  Ã\x89 um comodo bem claro e foi decorado com um grande nÃºmero\
+    \ e\ncadeiras.  Ã\x89 um comodo bem claro e foi decorado com um grande número\
     \ de\ngravuras de peixes.  Há uma interessante escultura de metal de um tubarão\n\
     baleia em um dos cantos do ambiente.  Deve ter uns 8 pés de comprimento e\nparece\
     \ bem real.  Existem muitas folhas de papel espalhadas sobre a mesa e\nalgumas\
@@ -913,11 +982,12 @@
     \ atenção."
   exits:
     east:
-      target_vnum: '28071'
+      target_vnum: 020128028071
     west:
-      target_vnum: '28067'
+      target_vnum: 020128028067
+  local_id: '28070'
   name: O Escritório do Mestre do Estaleiro
-  vnum: '28070'
+  vnum: 020128028070
 - description: |-
     Sim!  O quarto do Mestre!  Exatamente aquilo que você procurava.  O
     quarto é pequeno mas parece ser bem confortável.  Há uma mesa, uma linda
@@ -927,9 +997,10 @@
     descobrir...
   exits:
     west:
-      target_vnum: '28070'
+      target_vnum: 020128028070
+  local_id: '28071'
   name: O Quarto do Mestre do Estaleiro
-  vnum: '28071'
+  vnum: 020128028071
 - description: |-
     As escadas sobem para o segundo andar.  Ao longo da escadaria, existem
     janelinhas redondas e alguns painéis pendurados na parede.  Você percebe que
@@ -937,11 +1008,12 @@
     que apenas pessoas autorizadas podem subir.
   exits:
     south:
-      target_vnum: '28069'
+      target_vnum: 020128028069
     up:
-      target_vnum: '28073'
+      target_vnum: 020128028073
+  local_id: '28072'
   name: A Escadaria para o Segundo Andar
-  vnum: '28072'
+  vnum: 020128028072
 - description: |-
     Estas escadas vão para o andar térreo.  Acima de sua cabeça foram
     colocadas pinturas a óleo de golfinhos e ao sul você pode ver um pequeno
@@ -950,11 +1022,12 @@
     fresca entre e refresque o ambiente um pouco.
   exits:
     down:
-      target_vnum: '28072'
+      target_vnum: 020128028072
     south:
-      target_vnum: '28074'
+      target_vnum: 020128028074
+  local_id: '28073'
   name: A Escadaria para o Andar Térreo
-  vnum: '28073'
+  vnum: 020128028073
 - description: |-
     Este é um cômodo realmente luxuoso.  As paredes são revestidas por placas
     de mármore rosado e tapetes persas ornamentam o chão, cuja iluminação chega
@@ -962,11 +1035,12 @@
     envidraçada que descortina o cenário magnífico de todo o estaleiro.
   exits:
     east:
-      target_vnum: '28075'
+      target_vnum: 020128028075
     north:
-      target_vnum: '28073'
+      target_vnum: 020128028073
+  local_id: '28074'
   name: O Vestíbulo
-  vnum: '28074'
+  vnum: 020128028074
 - description: |-
     Você está dentro de um pequeno quarto.  Há uma mesa, uma estante de
     livros e um grande vaso com rosas vermelhas.  Sobre a mesa estão vários
@@ -975,11 +1049,12 @@
     gavetas abertas existem um espelho e alguns batons.
   exits:
     east:
-      target_vnum: '28076'
+      target_vnum: 020128028076
     west:
-      target_vnum: '28074'
+      target_vnum: 020128028074
+  local_id: '28075'
   name: A Antecâmara dos Aposentos do Almirante
-  vnum: '28075'
+  vnum: 020128028075
 - description: |-
     Este é um lugar soberbo.  As paredes estão cobertas por madeira escura,
     de lei, o chão coberto por um felpudo tapete vermelho e o teto iluminado por
@@ -991,17 +1066,19 @@
     dos aposentos do chefão e que talvez possa haver alguma ação aqui.
   exits:
     west:
-      target_vnum: '28075'
+      target_vnum: 020128028075
+  local_id: '28076'
   name: Os Aposentos do Almirante
-  vnum: '28076'
+  vnum: 020128028076
 - description: |-
     O oceano começa aqui.  Além de água, você só consegue ver navios partindo
     em direção a terras desconhecidas.
   exits:
     west:
-      target_vnum: '28060'
+      target_vnum: 020128028060
+  local_id: '28077'
   name: A Baia de Calyus
-  vnum: '28077'
+  vnum: 020128028077
 - description: |-
     Você se encontra em uma grande praça central.  Algumas crianças estão
     cantando cânticos natalinos, um grande número de vendedores oferecem seus
@@ -1011,10 +1088,11 @@
     direção às docas.
   exits:
     east:
-      target_vnum: '28066'
+      target_vnum: 020128028066
     south:
-      target_vnum: '28020'
+      target_vnum: 020128028020
     west:
-      target_vnum: '28057'
+      target_vnum: 020128028057
+  local_id: '28078'
   name: A Praça do Porto
-  vnum: '28078'
+  vnum: 020128028078

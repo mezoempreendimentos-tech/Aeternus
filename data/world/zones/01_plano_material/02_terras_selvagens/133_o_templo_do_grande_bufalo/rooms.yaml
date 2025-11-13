@@ -5,22 +5,24 @@
     paredes brancas brilham com a luz do sol.
   exits:
     north:
-      target_vnum: '13302'
+      target_vnum: '010213313302'
     south:
-      target_vnum: '3584'
+      target_vnum: 01021333584
+  local_id: '13301'
   name: Um Campo Verdejante
-  vnum: '13301'
+  vnum: '010213313301'
 - description: |-
     A brancura deslumbrante dos muros do Templo cegam você momentaneamente.
     Enormes colunas circundam homogeneamente o perímetro do Templo e uma abóboda
     em forma de arco o convida a entrar.
   exits:
     north:
-      target_vnum: '13303'
+      target_vnum: '010213313303'
     south:
-      target_vnum: '13301'
+      target_vnum: '010213313301'
+  local_id: '13302'
   name: Antes do Templo
-  vnum: '13302'
+  vnum: '010213313302'
 - description: |-
     Seus olhos lentamente se ajustam ao nível de escuridão projetada pela
     sombra do enorme arco.  Ao norte há uma grande porta de mármore, que parece
@@ -29,55 +31,60 @@
     repentinamente uma estranha sensação de estar sendo observado o invade.
   exits:
     north:
-      target_vnum: '13305'
+      target_vnum: '010213313305'
     south:
-      target_vnum: '13302'
+      target_vnum: '010213313302'
+  local_id: '13303'
   name: Sob o Grande Arco
-  vnum: '13303'
+  vnum: '010213313303'
 - description: |-
     O eco de suas passadas reverberam por todo o Templo.  Tudo é branco, o
     piso do chão, os muros, o teto...
   exits:
     east:
-      target_vnum: '13305'
+      target_vnum: '010213313305'
     north:
-      target_vnum: '13307'
+      target_vnum: '010213313307'
+  local_id: '13304'
   name: O Templo
-  vnum: '13304'
+  vnum: '010213313304'
 - description: |-
     O eco de suas passadas reverberam por todo o Templo.  Tudo é branco, o
     piso do chão, os muros, o teto...
   exits:
     east:
-      target_vnum: '13306'
+      target_vnum: '010213313306'
     south:
-      target_vnum: '13303'
+      target_vnum: '010213313303'
     west:
-      target_vnum: '13304'
+      target_vnum: '010213313304'
+  local_id: '13305'
   name: O Templo
-  vnum: '13305'
+  vnum: '010213313305'
 - description: |-
     O eco de suas passadas reverberam por todo o Templo.  Tudo é branco, o
     piso do chão, os muros, o teto...
   exits:
     north:
-      target_vnum: '13309'
+      target_vnum: 010213313309
     west:
-      target_vnum: '13305'
+      target_vnum: '010213313305'
+  local_id: '13306'
   name: O Templo
-  vnum: '13306'
+  vnum: '010213313306'
 - description: |-
     O eco de suas passadas reverberam por todo o Templo.  Tudo é branco, o
     piso do chão, os muros, o teto...
   exits:
     east:
-      target_vnum: '13308'
+      target_vnum: 010213313308
     north:
-      target_vnum: '13310'
+      target_vnum: '010213313310'
     south:
-      target_vnum: '13304'
+      target_vnum: '010213313304'
+  local_id: '13307'
   name: O Templo
-  vnum: '13307'
+  vnum: '010213313307'
 - description: |-
     Uma brisa é gerada pelas belas folhas verdes cercadas por varas de bambus
     deixadas viradas para captar melhor os raios solares do céu aberto.  O
@@ -85,52 +92,57 @@
     seus pés.
   exits:
     east:
-      target_vnum: '13309'
+      target_vnum: 010213313309
     north:
-      target_vnum: '13311'
+      target_vnum: '010213313311'
     west:
-      target_vnum: '13307'
+      target_vnum: '010213313307'
+  local_id: '13308'
   name: "O Ã\x81trio e o Jardim"
-  vnum: '13308'
+  vnum: 010213313308
 - description: |-
     O eco de suas passadas reverberam por todo o Templo.  Tudo é branco, o
     piso do chão, os muros, o teto...
   exits:
     north:
-      target_vnum: '13312'
+      target_vnum: '010213313312'
     south:
-      target_vnum: '13306'
+      target_vnum: '010213313306'
     west:
-      target_vnum: '13308'
+      target_vnum: 010213313308
+  local_id: '13309'
   name: O Templo
-  vnum: '13309'
-- description: "Ã\x89 uma bela escada em espiral conduzindo vocÃª para um plano mais\
+  vnum: 010213313309
+- description: "Ã\x89 uma bela escada em espiral conduzindo você para um plano mais\
     \ elevado.\nParece ter sido esculpida diretamente da pedra."
   exits:
     south:
-      target_vnum: '13307'
+      target_vnum: '010213313307'
     up:
-      target_vnum: '13313'
+      target_vnum: '010213313313'
+  local_id: '13310'
   name: As Escadarias
-  vnum: '13310'
+  vnum: '010213313310'
 - description: |-
     O eco de suas passadas reverberam por todo o Templo.  Tudo é branco, o
     piso do chão, os muros, o teto...  Há uma bela placa emoldurada na parede
     norte.
   exits:
     south:
-      target_vnum: '13308'
+      target_vnum: 010213313308
+  local_id: '13311'
   name: O Templo
-  vnum: '13311'
-- description: "Ã\x89 uma bela escada em espiral conduzindo vocÃª para um plano mais\
+  vnum: '010213313311'
+- description: "Ã\x89 uma bela escada em espiral conduzindo você para um plano mais\
     \ elevado.\nParece ter sido esculpida diretamente na pedra."
   exits:
     south:
-      target_vnum: '13309'
+      target_vnum: 010213313309
     up:
-      target_vnum: '13315'
+      target_vnum: '010213313315'
+  local_id: '13312'
   name: As Escadarias
-  vnum: '13312'
+  vnum: '010213313312'
 - description: |-
     Você se encontra em uma pequena sala no topo da escada.  Esta parte do
     Templo tem decorações bastante estranhas.  As paredes são cobertas com
@@ -138,42 +150,46 @@
     pela escada.
   exits:
     down:
-      target_vnum: '13310'
+      target_vnum: '010213313310'
     south:
-      target_vnum: '13316'
+      target_vnum: '010213313316'
+  local_id: '13313'
   name: A Parte Superior do Templo
-  vnum: '13313'
+  vnum: '010213313313'
 - description: |-
     Você se encontra em um pequeno e apertado quarto.  Há uma janela na
     parede norte e um grande porta de carvalho está a oeste.
   exits:
     east:
-      target_vnum: '13315'
+      target_vnum: '010213313315'
+  local_id: '13314'
   name: O Quarto de Mateon
-  vnum: '13314'
+  vnum: '010213313314'
 - description: |-
     Você se encontra no topo de um lance de escada.  Uma enorme porta de
     carvalho está a oeste, um corredor começa ao sul e a escada continua sendo
     uma opção para levá-lo para baixo.
   exits:
     down:
-      target_vnum: '13312'
+      target_vnum: '010213313312'
     south:
-      target_vnum: '13318'
+      target_vnum: 010213313318
     west:
-      target_vnum: '13314'
+      target_vnum: '010213313314'
+  local_id: '13315'
   name: A Parte Superior do Templo
-  vnum: '13315'
+  vnum: '010213313315'
 - description: |-
     Você está parado em um frio corredor.  Há uma janela posta na parede
     oeste e uma sacada a leste o protege de uma queda nos jardins.
   exits:
     north:
-      target_vnum: '13313'
+      target_vnum: '010213313313'
     south:
-      target_vnum: '13319'
+      target_vnum: 010213313319
+  local_id: '13316'
   name: O Corredor
-  vnum: '13316'
+  vnum: '010213313316'
 - description: |-
     Você está diante de um quarto confortavel.  A luz do sol entra
     diretamente pela janela aberta e uma agradável e quente brisa primaveril
@@ -182,26 +198,29 @@
     junto à parede.  Você olha pela janela e se surpreende ao notar que não
     consegue ver o chão por ela.
   exits: {}
+  local_id: '13317'
   name: O Quarto de Aten
-  vnum: '13317'
+  vnum: '010213313317'
 - description: |-
     Você está parado em um frio corredor.  Há uma janela posta na parede
     leste e uma sacada a oeste o protege de uma queda nos jardins.
   exits:
     north:
-      target_vnum: '13315'
+      target_vnum: '010213313315'
     south:
-      target_vnum: '13321'
+      target_vnum: '010213313321'
+  local_id: '13318'
   name: O Corredor
-  vnum: '13318'
+  vnum: 010213313318
 - description: |-
     O Corredor termina abruptamente aqui e a única saída parece ser a volta
     pelo caminho por onde você veio.
   exits:
     north:
-      target_vnum: '13316'
+      target_vnum: '010213313316'
+  local_id: '13319'
   name: O Beco sem Saída
-  vnum: '13319'
+  vnum: 010213313319
 - description: |-
     Este quarto está em TOTAL desalinho.  Os móveis parecem ter sido atirados
     das inúmeras prateleiras diretamente para o chão.  O quarto tem um cheiro
@@ -210,27 +229,30 @@
     leste.
   exits:
     east:
-      target_vnum: '13321'
+      target_vnum: '010213313321'
     south:
-      target_vnum: '13322'
+      target_vnum: '010213313322'
+  local_id: '13320'
   name: O Quarto de Wabat
-  vnum: '13320'
+  vnum: '010213313320'
 - description: |-
     Você está em um tenebroso quarto e os pelos de sua nuca chegam a se
     eriçar.  Há tão pouca luz neste quarto que você começa a imaginar coisas..
     Você tem certeza que havia uma porta quando você entrou.
   exits:
     north:
-      target_vnum: '13318'
+      target_vnum: 010213313318
     west:
-      target_vnum: '13320'
+      target_vnum: '010213313320'
+  local_id: '13321'
   name: O Quarto Sombrio
-  vnum: '13321'
+  vnum: '010213313321'
 - description: |-
     Você parece ter terminado sua jornada.  A sacada dá ua ampla visão do
     campo verdejante.  Os raios de sol cegam você e você ouve um estranho ruído.
   exits:
     north:
-      target_vnum: '13320'
+      target_vnum: '010213313320'
+  local_id: '13322'
   name: A Sacada
-  vnum: '13322'
+  vnum: '010213313322'

@@ -1,14 +1,15 @@
-- description: "VocÃª estÃ¡ na entrada da prisÃ£o.  Ã\x89 uma forte construÃ§Ã£o,\
-    \ feita de grandes\nblocos, presos por um tipo de cimento.  No alto da construção,\
-    \ vários\narqueiros estão prontos para atacar.  A leste você vê o deserto, e a\
-    \ oeste\nestá o grande portão da prisão."
+- description: "Você está na entrada da prisão.  Ã\x89 uma forte construção, feita\
+    \ de grandes\nblocos, presos por um tipo de cimento.  No alto da construção, vários\n\
+    arqueiros estão prontos para atacar.  A leste você vê o deserto, e a oeste\nestá\
+    \ o grande portão da prisão."
   exits:
     east:
-      target_vnum: '9422'
+      target_vnum: 01010069422
     west:
-      target_vnum: '601'
+      target_vnum: '01010060601'
+  local_id: '600'
   name: A Entrada Para a Prisão
-  vnum: '600'
+  vnum: '01010060600'
 - description: |-
     Você está no interior das grandes muralhas da prisão.  Não há nada em
     volta, apenas areia e grandes rochas espalhadas.  Curiosamente há uma abertura
@@ -16,11 +17,12 @@
     está o portão da prisão.
   exits:
     down:
-      target_vnum: '602'
+      target_vnum: '01010060602'
     east:
-      target_vnum: '600'
+      target_vnum: '01010060600'
+  local_id: '601'
   name: Dentro da Prisão
-  vnum: '601'
+  vnum: '01010060601'
 - description: |-
     Você está à base da escada do subterrâneo da prisão.  Aqui é tudo muito
     escuro, com uma fraca iluminação pelas tochas que estão afixadas ao longo das
@@ -30,11 +32,12 @@
     prisão.
   exits:
     up:
-      target_vnum: '601'
+      target_vnum: '01010060601'
     west:
-      target_vnum: '603'
+      target_vnum: '01010060603'
+  local_id: '602'
   name: Na Entrada do Subterrâneo
-  vnum: '602'
+  vnum: '01010060602'
 - description: |-
     Você está caminhando pelos corredores da prisão.  Há saídas para as quatro
     direções.  Sentinelas, cozinheiras e serviçais caminham pelos corredores.  Ao
@@ -44,15 +47,16 @@
     calabouços.
   exits:
     east:
-      target_vnum: '602'
+      target_vnum: '01010060602'
     north:
-      target_vnum: '616'
+      target_vnum: '01010060616'
     south:
-      target_vnum: '617'
+      target_vnum: '01010060617'
     west:
-      target_vnum: '604'
+      target_vnum: '01010060604'
+  local_id: '603'
   name: Um Cruzamento de Corredores
-  vnum: '603'
+  vnum: '01010060603'
 - description: |-
     Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
@@ -60,15 +64,16 @@
     ver calabouços.  O corredor continua a leste e oeste.
   exits:
     east:
-      target_vnum: '603'
+      target_vnum: '01010060603'
     north:
-      target_vnum: '632'
+      target_vnum: '01010060632'
     south:
-      target_vnum: '633'
+      target_vnum: '01010060633'
     west:
-      target_vnum: '605'
+      target_vnum: '01010060605'
+  local_id: '604'
   name: O Corredor dos Calabouços
-  vnum: '604'
+  vnum: '01010060604'
 - description: |-
     Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
@@ -76,15 +81,16 @@
     ver calabouços.  O corredor continua a leste e oeste.
   exits:
     east:
-      target_vnum: '604'
+      target_vnum: '01010060604'
     north:
-      target_vnum: '634'
+      target_vnum: '01010060634'
     south:
-      target_vnum: '635'
+      target_vnum: '01010060635'
     west:
-      target_vnum: '606'
+      target_vnum: '01010060606'
+  local_id: '605'
   name: O Corredor dos Calabouços
-  vnum: '605'
+  vnum: '01010060605'
 - description: |-
     Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
@@ -92,15 +98,16 @@
     ver calabouços.  O corredor continua a leste e oeste.
   exits:
     east:
-      target_vnum: '605'
+      target_vnum: '01010060605'
     north:
-      target_vnum: '636'
+      target_vnum: '01010060636'
     south:
-      target_vnum: '637'
+      target_vnum: '01010060637'
     west:
-      target_vnum: '607'
+      target_vnum: '01010060607'
+  local_id: '606'
   name: O Corredor dos Calabouços
-  vnum: '606'
+  vnum: '01010060606'
 - description: |-
     Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
@@ -108,15 +115,16 @@
     ver calabouços.  O corredor continua a leste e oeste.
   exits:
     east:
-      target_vnum: '606'
+      target_vnum: '01010060606'
     north:
-      target_vnum: '638'
+      target_vnum: 01010060638
     south:
-      target_vnum: '639'
+      target_vnum: 01010060639
     west:
-      target_vnum: '608'
+      target_vnum: 01010060608
+  local_id: '607'
   name: O Corredor dos Calabouços
-  vnum: '607'
+  vnum: '01010060607'
 - description: |-
     Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
@@ -124,15 +132,16 @@
     pode ver calabouços.  O corredor continua a leste.
   exits:
     east:
-      target_vnum: '607'
+      target_vnum: '01010060607'
     north:
-      target_vnum: '640'
+      target_vnum: '01010060640'
     south:
-      target_vnum: '641'
+      target_vnum: '01010060641'
     west:
-      target_vnum: '642'
+      target_vnum: '01010060642'
+  local_id: '608'
   name: O Corredor dos Calabouços
-  vnum: '608'
+  vnum: 01010060608
 - description: |-
     Você está na cozinha desta prisão.  O odor na sala é típico de uma fossa,
     nojento...  Por uma pequena abertura na parede escorre água, que cai em um
@@ -140,9 +149,10 @@
     para o sul.
   exits:
     south:
-      target_vnum: '603'
+      target_vnum: '01010060603'
+  local_id: '616'
   name: A Cozinha
-  vnum: '616'
+  vnum: '01010060616'
 - description: |-
     Esta é uma sala menos movimentada da prisão.  Aqui os sentinelas guardam
     espadas, atiradeiras, arcos e flechas, e até as grandes bolas-de-ferro que são
@@ -150,11 +160,12 @@
     oeste você vê uma outra sala.
   exits:
     north:
-      target_vnum: '603'
+      target_vnum: '01010060603'
     west:
-      target_vnum: '618'
+      target_vnum: 01010060618
+  local_id: '617'
   name: A Sala de Armamentos
-  vnum: '617'
+  vnum: '01010060617'
 - description: |-
     Você está em uma sala não muito interessante...  Você vê alguns artefatos
     diferentes por todos os lados, você reconhece uma guilhotina em um dos cantos
@@ -163,11 +174,12 @@
     e você sente um calafrio ao pensar o que deve haver lá embaixo.
   exits:
     down:
-      target_vnum: '619'
+      target_vnum: 01010060619
     east:
-      target_vnum: '617'
+      target_vnum: '01010060617'
+  local_id: '618'
   name: A Sala de Condenação
-  vnum: '618'
+  vnum: 01010060618
 - description: |-
     Você cai no fosso de crocodilos...  Eles são muitos, e vem em sua direção,
     famintos...  Você entra em pânico e tenta escapar daqui de qualquer forma, mas
@@ -175,105 +187,117 @@
     direção, e sem chances de escapar, você acaba virando almoço de crocodilo...
   exits:
     up:
-      target_vnum: '618'
+      target_vnum: 01010060618
+  local_id: '619'
   name: O Fosso
-  vnum: '619'
+  vnum: 01010060619
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     south:
-      target_vnum: '604'
+      target_vnum: '01010060604'
+  local_id: '632'
   name: O Calabouço
-  vnum: '632'
+  vnum: '01010060632'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     north:
-      target_vnum: '604'
+      target_vnum: '01010060604'
+  local_id: '633'
   name: O Calabouço
-  vnum: '633'
+  vnum: '01010060633'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     south:
-      target_vnum: '605'
+      target_vnum: '01010060605'
+  local_id: '634'
   name: O Calabouço
-  vnum: '634'
+  vnum: '01010060634'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     north:
-      target_vnum: '605'
+      target_vnum: '01010060605'
+  local_id: '635'
   name: O Calabouço
-  vnum: '635'
+  vnum: '01010060635'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     south:
-      target_vnum: '606'
+      target_vnum: '01010060606'
+  local_id: '636'
   name: O Calabouço
-  vnum: '636'
+  vnum: '01010060636'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     north:
-      target_vnum: '606'
+      target_vnum: '01010060606'
+  local_id: '637'
   name: O Calabouço
-  vnum: '637'
+  vnum: '01010060637'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     south:
-      target_vnum: '607'
+      target_vnum: '01010060607'
+  local_id: '638'
   name: O Calabouço
-  vnum: '638'
+  vnum: 01010060638
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     north:
-      target_vnum: '607'
+      target_vnum: '01010060607'
+  local_id: '639'
   name: O Calabouço
-  vnum: '639'
+  vnum: 01010060639
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     south:
-      target_vnum: '608'
+      target_vnum: 01010060608
+  local_id: '640'
   name: O Calabouço
-  vnum: '640'
+  vnum: '01010060640'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     north:
-      target_vnum: '608'
+      target_vnum: 01010060608
+  local_id: '641'
   name: O Calabouço
-  vnum: '641'
+  vnum: '01010060641'
 - description: "Você está dentro do calabouço.  O chão e as paredes parecem fazer\
-    \ séculos\nque nÃ£o sÃ£o lavadas.  Ã\x89 ligeiramente escuro, pois nÃ£o hÃ¡ aberturas\
+    \ séculos\nque não são lavadas.  Ã\x89 ligeiramente escuro, pois não há aberturas\
     \ que tragam\na luz solar para cá, e a luz fornecida pelas tochas presas às paredes\
     \ iluminam\nmuito pouco."
   exits:
     east:
-      target_vnum: '608'
+      target_vnum: 01010060608
+  local_id: '642'
   name: O Calabouço
-  vnum: '642'
+  vnum: '01010060642'

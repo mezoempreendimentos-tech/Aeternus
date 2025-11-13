@@ -5,11 +5,12 @@
     aqui, seguindo ao norte e leste.
   exits:
     east:
-      target_vnum: '13501'
+      target_vnum: '010213513501'
     south:
-      target_vnum: '13505'
+      target_vnum: '010213513505'
+  local_id: '13500'
   name: O Caminho de Nirin
-  vnum: '13500'
+  vnum: '010213513500'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -17,13 +18,14 @@
     aqui, seguindo ao oeste e ao sul.
   exits:
     east:
-      target_vnum: '13502'
+      target_vnum: '010213513502'
     south:
-      target_vnum: '13506'
+      target_vnum: '010213513506'
     west:
-      target_vnum: '13500'
+      target_vnum: '010213513500'
+  local_id: '13501'
   name: O Caminho de Nirin
-  vnum: '13501'
+  vnum: '010213513501'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -31,15 +33,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13503'
+      target_vnum: '010213513503'
     north:
-      target_vnum: '3207'
+      target_vnum: '01021353207'
     south:
-      target_vnum: '13507'
+      target_vnum: '010213513507'
     west:
-      target_vnum: '13501'
+      target_vnum: '010213513501'
+  local_id: '13502'
   name: A Floresta
-  vnum: '13502'
+  vnum: '010213513502'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -47,23 +50,25 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13504'
+      target_vnum: '010213513504'
     south:
-      target_vnum: '13508'
+      target_vnum: 010213513508
     west:
-      target_vnum: '13502'
+      target_vnum: '010213513502'
+  local_id: '13503'
   name: A Floresta
-  vnum: '13503'
+  vnum: '010213513503'
 - description: |-
     Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
     gorjeiam. Do sul vem o cheiro de algo morto.
   exits:
     south:
-      target_vnum: '13509'
+      target_vnum: 010213513509
     west:
-      target_vnum: '13503'
+      target_vnum: '010213513503'
+  local_id: '13504'
   name: A Floresta
-  vnum: '13504'
+  vnum: '010213513504'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -71,13 +76,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13506'
+      target_vnum: '010213513506'
     north:
-      target_vnum: '13500'
+      target_vnum: '010213513500'
     south:
-      target_vnum: '13511'
+      target_vnum: '010213513511'
+  local_id: '13505'
   name: A Floresta
-  vnum: '13505'
+  vnum: '010213513505'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -85,15 +91,16 @@
     aqui, seguindo ao norte e leste.
   exits:
     east:
-      target_vnum: '13507'
+      target_vnum: '010213513507'
     north:
-      target_vnum: '13501'
+      target_vnum: '010213513501'
     south:
-      target_vnum: '13512'
+      target_vnum: '010213513512'
     west:
-      target_vnum: '13505'
+      target_vnum: '010213513505'
+  local_id: '13506'
   name: O Caminho de Nirin
-  vnum: '13506'
+  vnum: '010213513506'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -101,29 +108,31 @@
     aqui, seguindo ao sul e ao oeste.
   exits:
     east:
-      target_vnum: '13508'
+      target_vnum: 010213513508
     north:
-      target_vnum: '13502'
+      target_vnum: '010213513502'
     south:
-      target_vnum: '13513'
+      target_vnum: '010213513513'
     west:
-      target_vnum: '13506'
+      target_vnum: '010213513506'
+  local_id: '13507'
   name: O Caminho de Nirin
-  vnum: '13507'
+  vnum: '010213513507'
 - description: |-
     Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
     gorjeiam. Do leste vem o cheiro de algo morto.
   exits:
     east:
-      target_vnum: '13509'
+      target_vnum: 010213513509
     north:
-      target_vnum: '13503'
+      target_vnum: '010213513503'
     south:
-      target_vnum: '13514'
+      target_vnum: '010213513514'
     west:
-      target_vnum: '13507'
+      target_vnum: '010213513507'
+  local_id: '13508'
   name: A Floresta
-  vnum: '13508'
+  vnum: 010213513508
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -131,25 +140,27 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13510'
+      target_vnum: '010213513510'
     north:
-      target_vnum: '13504'
+      target_vnum: '010213513504'
     south:
-      target_vnum: '13515'
+      target_vnum: '010213513515'
     west:
-      target_vnum: '13508'
+      target_vnum: 010213513508
+  local_id: '13509'
   name: A Floresta
-  vnum: '13509'
+  vnum: 010213513509
 - description: |-
     Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
     gorjeiam. Do oeste vem o cheiro de algo morto.
   exits:
     south:
-      target_vnum: '13516'
+      target_vnum: '010213513516'
     west:
-      target_vnum: '13509'
+      target_vnum: 010213513509
+  local_id: '13510'
   name: A Floresta
-  vnum: '13510'
+  vnum: '010213513510'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -157,13 +168,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13512'
+      target_vnum: '010213513512'
     north:
-      target_vnum: '13505'
+      target_vnum: '010213513505'
     south:
-      target_vnum: '13522'
+      target_vnum: '010213513522'
+  local_id: '13511'
   name: A Floresta
-  vnum: '13511'
+  vnum: '010213513511'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -171,15 +183,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13513'
+      target_vnum: '010213513513'
     north:
-      target_vnum: '13506'
+      target_vnum: '010213513506'
     south:
-      target_vnum: '13523'
+      target_vnum: '010213513523'
     west:
-      target_vnum: '13511'
+      target_vnum: '010213513511'
+  local_id: '13512'
   name: A Floresta
-  vnum: '13512'
+  vnum: '010213513512'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -187,15 +200,16 @@
     aqui, seguindo ao norte e ao sul.
   exits:
     east:
-      target_vnum: '13514'
+      target_vnum: '010213513514'
     north:
-      target_vnum: '13507'
+      target_vnum: '010213513507'
     south:
-      target_vnum: '13524'
+      target_vnum: '010213513524'
     west:
-      target_vnum: '13512'
+      target_vnum: '010213513512'
+  local_id: '13513'
   name: O Caminho de Nirin
-  vnum: '13513'
+  vnum: '010213513513'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -203,29 +217,31 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13515'
+      target_vnum: '010213513515'
     north:
-      target_vnum: '13508'
+      target_vnum: 010213513508
     south:
-      target_vnum: '13525'
+      target_vnum: '010213513525'
     west:
-      target_vnum: '13513'
+      target_vnum: '010213513513'
+  local_id: '13514'
   name: A Floresta
-  vnum: '13514'
+  vnum: '010213513514'
 - description: |-
     Você  está  na  Floresta  de  Thewster  onde  grilos  e pequenos pássaros
     gorjeiam. Do norte vem o cheiro de algo morto.
   exits:
     east:
-      target_vnum: '13516'
+      target_vnum: '010213513516'
     north:
-      target_vnum: '13509'
+      target_vnum: 010213513509
     south:
-      target_vnum: '13526'
+      target_vnum: '010213513526'
     west:
-      target_vnum: '13514'
+      target_vnum: '010213513514'
+  local_id: '13515'
   name: A Floresta
-  vnum: '13515'
+  vnum: '010213513515'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -233,15 +249,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13517'
+      target_vnum: '010213513517'
     north:
-      target_vnum: '13510'
+      target_vnum: '010213513510'
     south:
-      target_vnum: '13527'
+      target_vnum: '010213513527'
     west:
-      target_vnum: '13515'
+      target_vnum: '010213513515'
+  local_id: '13516'
   name: A Floresta
-  vnum: '13516'
+  vnum: '010213513516'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -249,13 +266,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13518'
+      target_vnum: 010213513518
     south:
-      target_vnum: '13528'
+      target_vnum: 010213513528
     west:
-      target_vnum: '13516'
+      target_vnum: '010213513516'
+  local_id: '13517'
   name: A Floresta
-  vnum: '13517'
+  vnum: '010213513517'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -263,13 +281,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13519'
+      target_vnum: 010213513519
     south:
-      target_vnum: '13529'
+      target_vnum: 010213513529
     west:
-      target_vnum: '13517'
+      target_vnum: '010213513517'
+  local_id: '13518'
   name: A Floresta
-  vnum: '13518'
+  vnum: 010213513518
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -277,13 +296,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13520'
+      target_vnum: '010213513520'
     south:
-      target_vnum: '13530'
+      target_vnum: '010213513530'
     west:
-      target_vnum: '13518'
+      target_vnum: 010213513518
+  local_id: '13519'
   name: A Floresta
-  vnum: '13519'
+  vnum: 010213513519
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -291,13 +311,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13521'
+      target_vnum: '010213513521'
     south:
-      target_vnum: '13531'
+      target_vnum: '010213513531'
     west:
-      target_vnum: '13519'
+      target_vnum: 010213513519
+  local_id: '13520'
   name: A Floresta
-  vnum: '13520'
+  vnum: '010213513520'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -305,11 +326,12 @@
     galhos emaranhados até chegar ao solo.
   exits:
     south:
-      target_vnum: '13532'
+      target_vnum: '010213513532'
     west:
-      target_vnum: '13520'
+      target_vnum: '010213513520'
+  local_id: '13521'
   name: A Floresta
-  vnum: '13521'
+  vnum: '010213513521'
 - description: |-
     Você caminha ao longo de uma estrada empoeirada, que não parece ser usada
     com  freqüência. A poeira sobe do chão a medida que seus pés tocam o mesmo.
@@ -317,13 +339,14 @@
     através das folhas, te observando.
   exits:
     east:
-      target_vnum: '13523'
+      target_vnum: '010213513523'
     north:
-      target_vnum: '13511'
+      target_vnum: '010213513511'
     west:
-      target_vnum: '13583'
+      target_vnum: 010213513583
+  local_id: '13522'
   name: Um Caminho Sujo e Empoeirado
-  vnum: '13522'
+  vnum: '010213513522'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -331,13 +354,14 @@
     oeste.
   exits:
     east:
-      target_vnum: '13524'
+      target_vnum: '010213513524'
     north:
-      target_vnum: '13512'
+      target_vnum: '010213513512'
     west:
-      target_vnum: '13522'
+      target_vnum: '010213513522'
+  local_id: '13523'
   name: O Caminho de Nirin
-  vnum: '13523'
+  vnum: '010213513523'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -345,15 +369,16 @@
     aqui, seguindo ao norte e leste.
   exits:
     east:
-      target_vnum: '13525'
+      target_vnum: '010213513525'
     north:
-      target_vnum: '13513'
+      target_vnum: '010213513513'
     south:
-      target_vnum: '13535'
+      target_vnum: '010213513535'
     west:
-      target_vnum: '13523'
+      target_vnum: '010213513523'
+  local_id: '13524'
   name: O Caminho de Nirin
-  vnum: '13524'
+  vnum: '010213513524'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -361,15 +386,16 @@
     interseção com um outro caminho, seguindo a leste, oeste e ao sul.
   exits:
     east:
-      target_vnum: '13526'
+      target_vnum: '010213513526'
     north:
-      target_vnum: '13514'
+      target_vnum: '010213513514'
     south:
-      target_vnum: '13536'
+      target_vnum: '010213513536'
     west:
-      target_vnum: '13524'
+      target_vnum: '010213513524'
+  local_id: '13525'
   name: O Caminho de Nirin
-  vnum: '13525'
+  vnum: '010213513525'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -377,15 +403,16 @@
     ser vistas algumas montanhas.
   exits:
     east:
-      target_vnum: '13527'
+      target_vnum: '010213513527'
     north:
-      target_vnum: '13515'
+      target_vnum: '010213513515'
     south:
-      target_vnum: '13537'
+      target_vnum: '010213513537'
     west:
-      target_vnum: '13525'
+      target_vnum: '010213513525'
+  local_id: '13526'
   name: O Caminho de Nirin
-  vnum: '13526'
+  vnum: '010213513526'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -393,15 +420,16 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13528'
+      target_vnum: 010213513528
     north:
-      target_vnum: '13516'
+      target_vnum: '010213513516'
     south:
-      target_vnum: '13538'
+      target_vnum: 010213513538
     west:
-      target_vnum: '13526'
+      target_vnum: '010213513526'
+  local_id: '13527'
   name: O Caminho de Nirin
-  vnum: '13527'
+  vnum: '010213513527'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -409,15 +437,16 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13529'
+      target_vnum: 010213513529
     north:
-      target_vnum: '13517'
+      target_vnum: '010213513517'
     south:
-      target_vnum: '13539'
+      target_vnum: 010213513539
     west:
-      target_vnum: '13527'
+      target_vnum: '010213513527'
+  local_id: '13528'
   name: O Caminho de Nirin
-  vnum: '13528'
+  vnum: 010213513528
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -425,13 +454,14 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13530'
+      target_vnum: '010213513530'
     north:
-      target_vnum: '13518'
+      target_vnum: 010213513518
     west:
-      target_vnum: '13528'
+      target_vnum: 010213513528
+  local_id: '13529'
   name: O Caminho de Nirin
-  vnum: '13529'
+  vnum: 010213513529
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -439,13 +469,14 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13531'
+      target_vnum: '010213513531'
     north:
-      target_vnum: '13519'
+      target_vnum: 010213513519
     west:
-      target_vnum: '13529'
+      target_vnum: 010213513529
+  local_id: '13530'
   name: O Caminho de Nirin
-  vnum: '13530'
+  vnum: '010213513530'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -453,13 +484,14 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13532'
+      target_vnum: '010213513532'
     north:
-      target_vnum: '13520'
+      target_vnum: '010213513520'
     west:
-      target_vnum: '13530'
+      target_vnum: '010213513530'
+  local_id: '13531'
   name: O Caminho de Nirin
-  vnum: '13531'
+  vnum: '010213513531'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -467,13 +499,14 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13533'
+      target_vnum: '010213513533'
     north:
-      target_vnum: '13521'
+      target_vnum: '010213513521'
     west:
-      target_vnum: '13531'
+      target_vnum: '010213513531'
+  local_id: '13532'
   name: O Caminho de Nirin
-  vnum: '13532'
+  vnum: '010213513532'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -481,11 +514,12 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13534'
+      target_vnum: '010213513534'
     west:
-      target_vnum: '13532'
+      target_vnum: '010213513532'
+  local_id: '13533'
   name: O Caminho de Nirin
-  vnum: '13533'
+  vnum: '010213513533'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -493,11 +527,14 @@
     vilarejo bloqueia sua passagem ao leste.
   exits:
     north:
-      target_vnum: '13582'
+      target_vnum: 010213513582
+    southeast:
+      target_vnum: '01021354401'
     west:
-      target_vnum: '13533'
+      target_vnum: '010213513533'
+  local_id: '13534'
   name: O Caminho de Nirin
-  vnum: '13534'
+  vnum: '010213513534'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -505,13 +542,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13536'
+      target_vnum: '010213513536'
     north:
-      target_vnum: '13524'
+      target_vnum: '010213513524'
     south:
-      target_vnum: '13540'
+      target_vnum: '010213513540'
+  local_id: '13535'
   name: A Floresta
-  vnum: '13535'
+  vnum: '010213513535'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -519,15 +557,16 @@
     ao sul.
   exits:
     east:
-      target_vnum: '13537'
+      target_vnum: '010213513537'
     north:
-      target_vnum: '13525'
+      target_vnum: '010213513525'
     south:
-      target_vnum: '13541'
+      target_vnum: '010213513541'
     west:
-      target_vnum: '13535'
+      target_vnum: '010213513535'
+  local_id: '13536'
   name: O Caminho de Nirin
-  vnum: '13536'
+  vnum: '010213513536'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -535,15 +574,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13538'
+      target_vnum: 010213513538
     north:
-      target_vnum: '13526'
+      target_vnum: '010213513526'
     south:
-      target_vnum: '13542'
+      target_vnum: '010213513542'
     west:
-      target_vnum: '13536'
+      target_vnum: '010213513536'
+  local_id: '13537'
   name: A Floresta
-  vnum: '13537'
+  vnum: '010213513537'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -551,15 +591,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13539'
+      target_vnum: 010213513539
     north:
-      target_vnum: '13527'
+      target_vnum: '010213513527'
     south:
-      target_vnum: '13543'
+      target_vnum: '010213513543'
     west:
-      target_vnum: '13537'
+      target_vnum: '010213513537'
+  local_id: '13538'
   name: A Floresta
-  vnum: '13538'
+  vnum: 010213513538
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -567,11 +608,12 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13528'
+      target_vnum: 010213513528
     west:
-      target_vnum: '13538'
+      target_vnum: 010213513538
+  local_id: '13539'
   name: A Floresta
-  vnum: '13539'
+  vnum: 010213513539
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -579,13 +621,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13541'
+      target_vnum: '010213513541'
     north:
-      target_vnum: '13535'
+      target_vnum: '010213513535'
     south:
-      target_vnum: '13544'
+      target_vnum: '010213513544'
+  local_id: '13540'
   name: A Floresta
-  vnum: '13540'
+  vnum: '010213513540'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -593,15 +636,16 @@
     ao sul.
   exits:
     east:
-      target_vnum: '13542'
+      target_vnum: '010213513542'
     north:
-      target_vnum: '13536'
+      target_vnum: '010213513536'
     south:
-      target_vnum: '13545'
+      target_vnum: '010213513545'
     west:
-      target_vnum: '13540'
+      target_vnum: '010213513540'
+  local_id: '13541'
   name: O Caminho de Nirin
-  vnum: '13541'
+  vnum: '010213513541'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -609,15 +653,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13543'
+      target_vnum: '010213513543'
     north:
-      target_vnum: '13537'
+      target_vnum: '010213513537'
     south:
-      target_vnum: '13546'
+      target_vnum: '010213513546'
     west:
-      target_vnum: '13541'
+      target_vnum: '010213513541'
+  local_id: '13542'
   name: A Floresta
-  vnum: '13542'
+  vnum: '010213513542'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -625,13 +670,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13538'
+      target_vnum: 010213513538
     south:
-      target_vnum: '13547'
+      target_vnum: '010213513547'
     west:
-      target_vnum: '13542'
+      target_vnum: '010213513542'
+  local_id: '13543'
   name: A Floresta
-  vnum: '13543'
+  vnum: '010213513543'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -639,13 +685,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13545'
+      target_vnum: '010213513545'
     north:
-      target_vnum: '13540'
+      target_vnum: '010213513540'
     south:
-      target_vnum: '13548'
+      target_vnum: 010213513548
+  local_id: '13544'
   name: A Floresta
-  vnum: '13544'
+  vnum: '010213513544'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -653,15 +700,16 @@
     ao sul.
   exits:
     east:
-      target_vnum: '13546'
+      target_vnum: '010213513546'
     north:
-      target_vnum: '13541'
+      target_vnum: '010213513541'
     south:
-      target_vnum: '13549'
+      target_vnum: 010213513549
     west:
-      target_vnum: '13544'
+      target_vnum: '010213513544'
+  local_id: '13545'
   name: O Caminho de Nirin
-  vnum: '13545'
+  vnum: '010213513545'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -669,15 +717,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13547'
+      target_vnum: '010213513547'
     north:
-      target_vnum: '13542'
+      target_vnum: '010213513542'
     south:
-      target_vnum: '13550'
+      target_vnum: '010213513550'
     west:
-      target_vnum: '13545'
+      target_vnum: '010213513545'
+  local_id: '13546'
   name: A Floresta
-  vnum: '13546'
+  vnum: '010213513546'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -685,13 +734,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13543'
+      target_vnum: '010213513543'
     south:
-      target_vnum: '13551'
+      target_vnum: '010213513551'
     west:
-      target_vnum: '13546'
+      target_vnum: '010213513546'
+  local_id: '13547'
   name: A Floresta
-  vnum: '13547'
+  vnum: '010213513547'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -699,13 +749,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13549'
+      target_vnum: 010213513549
     north:
-      target_vnum: '13544'
+      target_vnum: '010213513544'
     south:
-      target_vnum: '13554'
+      target_vnum: '010213513554'
+  local_id: '13548'
   name: A Floresta
-  vnum: '13548'
+  vnum: 010213513548
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -713,15 +764,16 @@
     ao sul.
   exits:
     east:
-      target_vnum: '13550'
+      target_vnum: '010213513550'
     north:
-      target_vnum: '13545'
+      target_vnum: '010213513545'
     south:
-      target_vnum: '13555'
+      target_vnum: '010213513555'
     west:
-      target_vnum: '13548'
+      target_vnum: 010213513548
+  local_id: '13549'
   name: O Caminho de Nirin
-  vnum: '13549'
+  vnum: 010213513549
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -729,15 +781,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13551'
+      target_vnum: '010213513551'
     north:
-      target_vnum: '13546'
+      target_vnum: '010213513546'
     south:
-      target_vnum: '13556'
+      target_vnum: '010213513556'
     west:
-      target_vnum: '13549'
+      target_vnum: 010213513549
+  local_id: '13550'
   name: A Floresta
-  vnum: '13550'
+  vnum: '010213513550'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -745,27 +798,29 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13547'
+      target_vnum: '010213513547'
     south:
-      target_vnum: '13557'
+      target_vnum: '010213513557'
     west:
-      target_vnum: '13550'
+      target_vnum: '010213513550'
+  local_id: '13551'
   name: A Floresta
-  vnum: '13551'
+  vnum: '010213513551'
 - description: "Você esta na entrada da uma pequena caverna, pequenos e brilhantes\
-    \ olhos o\nencaram  firmemente.  Ã\x89  realmente  escuro  lÃ¡ dentro, vocÃª irÃ¡\
+    \ olhos o\nencaram  firmemente.  Ã\x89  realmente  escuro  lá dentro, você irá\
     \ precisar de\nalguma fonte de luz."
   exits:
     down:
-      target_vnum: '13443'
+      target_vnum: '010213513443'
     east:
-      target_vnum: '13553'
+      target_vnum: '010213513553'
     south:
-      target_vnum: '13558'
+      target_vnum: 010213513558
     west:
-      target_vnum: '13609'
+      target_vnum: 010213513609
+  local_id: '13552'
   name: A Clareira
-  vnum: '13552'
+  vnum: '010213513552'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -773,11 +828,12 @@
     galhos emaranhados até chegar ao solo.
   exits:
     south:
-      target_vnum: '13559'
+      target_vnum: 010213513559
     west:
-      target_vnum: '13552'
+      target_vnum: '010213513552'
+  local_id: '13553'
   name: A Floresta
-  vnum: '13553'
+  vnum: '010213513553'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -785,13 +841,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13555'
+      target_vnum: '010213513555'
     north:
-      target_vnum: '13548'
+      target_vnum: 010213513548
     south:
-      target_vnum: '13560'
+      target_vnum: '010213513560'
+  local_id: '13554'
   name: A Floresta
-  vnum: '13554'
+  vnum: '010213513554'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -799,15 +856,16 @@
     ao sul.
   exits:
     east:
-      target_vnum: '13556'
+      target_vnum: '010213513556'
     north:
-      target_vnum: '13549'
+      target_vnum: 010213513549
     south:
-      target_vnum: '13561'
+      target_vnum: '010213513561'
     west:
-      target_vnum: '13554'
+      target_vnum: '010213513554'
+  local_id: '13555'
   name: O Caminho de Nirin
-  vnum: '13555'
+  vnum: '010213513555'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -815,15 +873,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13557'
+      target_vnum: '010213513557'
     north:
-      target_vnum: '13550'
+      target_vnum: '010213513550'
     south:
-      target_vnum: '13562'
+      target_vnum: '010213513562'
     west:
-      target_vnum: '13555'
+      target_vnum: '010213513555'
+  local_id: '13556'
   name: A Floresta
-  vnum: '13556'
+  vnum: '010213513556'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -831,27 +890,29 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13551'
+      target_vnum: '010213513551'
     south:
-      target_vnum: '13563'
+      target_vnum: '010213513563'
     west:
-      target_vnum: '13556'
+      target_vnum: '010213513556'
+  local_id: '13557'
   name: A Floresta
-  vnum: '13557'
+  vnum: '010213513557'
 - description: |-
     Você  está  em  uma  grande  clareira na floresta, ao norte você vê o que
     parece ser a entrada de uma caverna.
   exits:
     east:
-      target_vnum: '13559'
+      target_vnum: 010213513559
     north:
-      target_vnum: '13552'
+      target_vnum: '010213513552'
     south:
-      target_vnum: '13564'
+      target_vnum: '010213513564'
     west:
-      target_vnum: '13609'
+      target_vnum: 010213513609
+  local_id: '13558'
   name: A Clareira
-  vnum: '13558'
+  vnum: 010213513558
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -859,15 +920,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13560'
+      target_vnum: '010213513560'
     north:
-      target_vnum: '13553'
+      target_vnum: '010213513553'
     south:
-      target_vnum: '13565'
+      target_vnum: '010213513565'
     west:
-      target_vnum: '13558'
+      target_vnum: 010213513558
+  local_id: '13559'
   name: A Floresta
-  vnum: '13559'
+  vnum: 010213513559
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -875,15 +937,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13561'
+      target_vnum: '010213513561'
     north:
-      target_vnum: '13554'
+      target_vnum: '010213513554'
     south:
-      target_vnum: '13566'
+      target_vnum: '010213513566'
     west:
-      target_vnum: '13559'
+      target_vnum: 010213513559
+  local_id: '13560'
   name: A Floresta
-  vnum: '13560'
+  vnum: '010213513560'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -891,15 +954,16 @@
     ao sul.
   exits:
     east:
-      target_vnum: '13562'
+      target_vnum: '010213513562'
     north:
-      target_vnum: '13555'
+      target_vnum: '010213513555'
     south:
-      target_vnum: '13567'
+      target_vnum: '010213513567'
     west:
-      target_vnum: '13560'
+      target_vnum: '010213513560'
+  local_id: '13561'
   name: O Caminho de Nirin
-  vnum: '13561'
+  vnum: '010213513561'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -907,15 +971,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13563'
+      target_vnum: '010213513563'
     north:
-      target_vnum: '13556'
+      target_vnum: '010213513556'
     south:
-      target_vnum: '13568'
+      target_vnum: 010213513568
     west:
-      target_vnum: '13561'
+      target_vnum: '010213513561'
+  local_id: '13562'
   name: A Floresta
-  vnum: '13562'
+  vnum: '010213513562'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -923,27 +988,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13557'
+      target_vnum: '010213513557'
     south:
-      target_vnum: '13569'
+      target_vnum: 010213513569
     west:
-      target_vnum: '13562'
+      target_vnum: '010213513562'
+  local_id: '13563'
   name: A Floresta
-  vnum: '13563'
-- description: |-
-    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
-    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
-    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
-    galhos emaranhados até chegar ao solo.
-  exits:
-    east:
-      target_vnum: '13565'
-    north:
-      target_vnum: '13558'
-    south:
-      target_vnum: '13570'
-  name: A Floresta
-  vnum: '13564'
+  vnum: '010213513563'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -951,15 +1003,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13566'
+      target_vnum: '010213513565'
     north:
-      target_vnum: '13559'
+      target_vnum: 010213513558
     south:
-      target_vnum: '13571'
-    west:
-      target_vnum: '13564'
+      target_vnum: '010213513570'
+  local_id: '13564'
   name: A Floresta
-  vnum: '13565'
+  vnum: '010213513564'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -967,15 +1018,33 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13567'
+      target_vnum: '010213513566'
     north:
-      target_vnum: '13560'
+      target_vnum: 010213513559
     south:
-      target_vnum: '13572'
+      target_vnum: '010213513571'
     west:
-      target_vnum: '13565'
+      target_vnum: '010213513564'
+  local_id: '13565'
   name: A Floresta
-  vnum: '13566'
+  vnum: '010213513565'
+- description: |-
+    Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
+    caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
+    por  alguma  abertura  entre  as folhas, e ainda mais sorte se passar pelos
+    galhos emaranhados até chegar ao solo.
+  exits:
+    east:
+      target_vnum: '010213513567'
+    north:
+      target_vnum: '010213513560'
+    south:
+      target_vnum: '010213513572'
+    west:
+      target_vnum: '010213513565'
+  local_id: '13566'
+  name: A Floresta
+  vnum: '010213513566'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -983,15 +1052,16 @@
     ao sul.
   exits:
     east:
-      target_vnum: '13568'
+      target_vnum: 010213513568
     north:
-      target_vnum: '13561'
+      target_vnum: '010213513561'
     south:
-      target_vnum: '13573'
+      target_vnum: '010213513573'
     west:
-      target_vnum: '13566'
+      target_vnum: '010213513566'
+  local_id: '13567'
   name: O Caminho de Nirin
-  vnum: '13567'
+  vnum: '010213513567'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -999,15 +1069,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13569'
+      target_vnum: 010213513569
     north:
-      target_vnum: '13562'
+      target_vnum: '010213513562'
     south:
-      target_vnum: '13574'
+      target_vnum: '010213513574'
     west:
-      target_vnum: '13567'
+      target_vnum: '010213513567'
+  local_id: '13568'
   name: A Floresta
-  vnum: '13568'
+  vnum: 010213513568
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -1015,13 +1086,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13563'
+      target_vnum: '010213513563'
     south:
-      target_vnum: '13575'
+      target_vnum: '010213513575'
     west:
-      target_vnum: '13568'
+      target_vnum: 010213513568
+  local_id: '13569'
   name: A Floresta
-  vnum: '13569'
+  vnum: 010213513569
 - description: |-
     O caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -1029,30 +1101,32 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13571'
+      target_vnum: '010213513571'
     north:
-      target_vnum: '13564'
+      target_vnum: '010213513564'
     west:
-      target_vnum: '13628'
+      target_vnum: 010213513628
+  local_id: '13570'
   name: O Caminho de Nirin
-  vnum: '13570'
+  vnum: '010213513570'
 - description: |-
     A estrada de Nirin se alarga aqui e parece ser bem cuidada. Os galhos aqui
     crescem  de  modo  a formar degraus que seguem para cima, ao sul você vê um
     estábulo. A oeste e leste, a estrada de Nirin continua.
   exits:
     east:
-      target_vnum: '13572'
+      target_vnum: '010213513572'
     north:
-      target_vnum: '13565'
+      target_vnum: '010213513565'
     south:
-      target_vnum: '13577'
+      target_vnum: '010213513577'
     up:
-      target_vnum: '13402'
+      target_vnum: '010213513402'
     west:
-      target_vnum: '13570'
+      target_vnum: '010213513570'
+  local_id: '13571'
   name: Os Degraus
-  vnum: '13571'
+  vnum: '010213513571'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -1060,15 +1134,16 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '13573'
+      target_vnum: '010213513573'
     north:
-      target_vnum: '13566'
+      target_vnum: '010213513566'
     south:
-      target_vnum: '13578'
+      target_vnum: 010213513578
     west:
-      target_vnum: '13571'
+      target_vnum: '010213513571'
+  local_id: '13572'
   name: O Caminho de Nirin
-  vnum: '13572'
+  vnum: '010213513572'
 - description: |-
     O  caminho é feito de largas pedras no meio de uma trincheira. A floresta
     que  o  cerca se fecha até onde seus olhos podem ver, formando um túnel. Os
@@ -1076,15 +1151,16 @@
     ao oeste. O caminho faz uma volta aqui e agora vai de norte a oeste.
   exits:
     east:
-      target_vnum: '13574'
+      target_vnum: '010213513574'
     north:
-      target_vnum: '13567'
+      target_vnum: '010213513567'
     south:
-      target_vnum: '13579'
+      target_vnum: 010213513579
     west:
-      target_vnum: '13572'
+      target_vnum: '010213513572'
+  local_id: '13573'
   name: O Caminho de Nirin
-  vnum: '13573'
+  vnum: '010213513573'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -1092,15 +1168,16 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13575'
+      target_vnum: '010213513575'
     north:
-      target_vnum: '13568'
+      target_vnum: 010213513568
     south:
-      target_vnum: '13580'
+      target_vnum: 010213513580
     west:
-      target_vnum: '13573'
+      target_vnum: '010213513573'
+  local_id: '13574'
   name: A Floresta
-  vnum: '13574'
+  vnum: '010213513574'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -1108,26 +1185,29 @@
     galhos emaranhados até chegar ao solo.
   exits:
     north:
-      target_vnum: '13569'
+      target_vnum: 010213513569
     south:
-      target_vnum: '13581'
+      target_vnum: 010213513581
     west:
-      target_vnum: '13574'
+      target_vnum: '010213513574'
+  local_id: '13575'
   name: A Floresta
-  vnum: '13575'
-- description: "O que hÃ¡ para ser dito? Ã\x89 um tedioso estÃ¡bulo."
+  vnum: '010213513575'
+- description: "O que há para ser dito? Ã\x89 um tedioso estábulo."
   exits: {}
+  local_id: '13576'
   name: Os Estábulos
-  vnum: '13576'
+  vnum: '010213513576'
 - description: |-
     Você  está nos fétidos e sujos estábulos. Selas repousam sobre cavalos de
     madeira  e  ferraduras  podem  ser  vistas, penduradas nas paredes. A única
     saída é ao norte para os degraus.
   exits:
     north:
-      target_vnum: '13571'
+      target_vnum: '010213513571'
+  local_id: '13577'
   name: Os Estábulos
-  vnum: '13577'
+  vnum: '010213513577'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -1135,11 +1215,12 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13579'
+      target_vnum: 010213513579
     north:
-      target_vnum: '13572'
+      target_vnum: '010213513572'
+  local_id: '13578'
   name: A Floresta
-  vnum: '13578'
+  vnum: 010213513578
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -1147,13 +1228,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13580'
+      target_vnum: 010213513580
     north:
-      target_vnum: '13573'
+      target_vnum: '010213513573'
     west:
-      target_vnum: '13578'
+      target_vnum: 010213513578
+  local_id: '13579'
   name: A Floresta
-  vnum: '13579'
+  vnum: 010213513579
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -1161,13 +1243,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13581'
+      target_vnum: 010213513581
     north:
-      target_vnum: '13574'
+      target_vnum: '010213513574'
     west:
-      target_vnum: '13579'
+      target_vnum: 010213513579
+  local_id: '13580'
   name: A Floresta
-  vnum: '13580'
+  vnum: 010213513580
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho  verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -1175,21 +1258,23 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: '13174'
+      target_vnum: '010213513174'
     north:
-      target_vnum: '13575'
+      target_vnum: '010213513575'
     west:
-      target_vnum: '13580'
+      target_vnum: 010213513580
+  local_id: '13581'
   name: A Floresta
-  vnum: '13581'
+  vnum: 010213513581
 - description: |-
     Você  está  em uma pequena cabana circular ao norte do caminho, parece um
     bom lugar para descansar antes de viajar mais adiante.
   exits:
     south:
-      target_vnum: '13534'
+      target_vnum: '010213513534'
+  local_id: '13582'
   name: Uma Cabana
-  vnum: '13582'
+  vnum: 010213513582
 - description: |-
     Os  volumosos  portões de Silverthorne fica ao oeste, formando uma grande
     sombra  sobre  você.  A  estrada  pela  qual  você  está andando é bastante
@@ -1198,11 +1283,12 @@
     sul. O caminho sujo e empoeirado segue pelo leste.
   exits:
     east:
-      target_vnum: '13584'
+      target_vnum: 010213513584
     west:
-      target_vnum: '3207'
+      target_vnum: '01021353207'
+  local_id: '13583'
   name: Um Caminho Sujo e Empoeirado
-  vnum: '13583'
+  vnum: 010213513583
 - description: |-
     A  estrada  pela  qual  você está andando é bastante estreita e nuvens de
     poeira  sopram com a brisa. Ocasionalmente uma larga folha se desprende das
@@ -1210,11 +1296,12 @@
     ao oeste, de onde também pode-se ver os muros de uma cidade.
   exits:
     east:
-      target_vnum: '13585'
+      target_vnum: 010213513585
     west:
-      target_vnum: '13583'
+      target_vnum: 010213513583
+  local_id: '13584'
   name: Um Caminho Sujo e Empoeirado
-  vnum: '13584'
+  vnum: 010213513584
 - description: |-
     A estrada  pela  qual  você está andando é bastante estreita e nuvens de
     poeira  sopram  com  a brisa. A floresta de altas árvores com largas folhas
@@ -1222,11 +1309,12 @@
     criaturas podem ser ouvidas. O Caminho sujo continua a leste e oeste.
   exits:
     east:
-      target_vnum: '13586'
+      target_vnum: 010213513586
     west:
-      target_vnum: '13584'
+      target_vnum: 010213513584
+  local_id: '13585'
   name: Um Caminho Sujo e Empoeirado
-  vnum: '13585'
+  vnum: 010213513585
 - description: |-
     A  estrada  pela  qual  você está andando é bastante estreita e nuvens de
     poeira  sopram com a brisa. Ocasionalmente uma larga folha se desprende das
@@ -1234,34 +1322,37 @@
     ao oeste, de onde também pode-se ver os muros de uma cidade.
   exits:
     east:
-      target_vnum: '13522'
+      target_vnum: '010213513522'
     west:
-      target_vnum: '13585'
+      target_vnum: 010213513585
+  local_id: '13586'
   name: Um Caminho Sujo e Empoeirado
-  vnum: '13586'
+  vnum: 010213513586
 - description: Saia já daqui!
   exits:
     east:
-      target_vnum: '13530'
+      target_vnum: '010213513530'
     north:
-      target_vnum: '13500'
+      target_vnum: '010213513500'
     south:
-      target_vnum: '13540'
+      target_vnum: '010213513540'
     up:
-      target_vnum: '13570'
+      target_vnum: '010213513570'
     west:
-      target_vnum: '13560'
+      target_vnum: '010213513560'
+  local_id: '13587'
   name: Uma Sala Muito Estranha
-  vnum: '13587'
+  vnum: 010213513587
 - description: Saia já daqui!
   exits:
     east:
-      target_vnum: '13530'
+      target_vnum: '010213513530'
     north:
-      target_vnum: '13510'
+      target_vnum: '010213513510'
     south:
-      target_vnum: '13550'
+      target_vnum: '010213513550'
     west:
-      target_vnum: '13570'
+      target_vnum: '010213513570'
+  local_id: '13588'
   name: Uma Sala Muito Estranha
-  vnum: '13588'
+  vnum: 010213513588

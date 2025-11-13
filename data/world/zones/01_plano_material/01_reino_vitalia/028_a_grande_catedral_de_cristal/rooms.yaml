@@ -7,9 +7,10 @@
     direção aos céus de @yVitália@n.
   exits:
     up:
-      target_vnum: '2801'
+      target_vnum: 01010282801
+  local_id: '2800'
   name: Entrando na Luz
-  vnum: '2800'
+  vnum: 01010282800
 - description: |-
     O caminho continua subindo até onde seus olhos conseguem ver,
     ultrapassando lentamente as nuvens e seguindo cada vez mais para cima.  O
@@ -20,9 +21,10 @@
     você prossegue subindo.
   exits:
     up:
-      target_vnum: '2802'
+      target_vnum: 01010282802
+  local_id: '2801'
   name: Subindo o Caminho de Luz
-  vnum: '2801'
+  vnum: 01010282801
 - description: |-
     O caminho continua subindo até onde seus olhos conseguem ver,
     ultrapassando lentamente as nuvens e seguindo cada vez mais para cima.  O
@@ -33,9 +35,10 @@
     você prossegue subindo.
   exits:
     up:
-      target_vnum: '2803'
+      target_vnum: 01010282803
+  local_id: '2802'
   name: Subindo o Caminho de Luz
-  vnum: '2802'
+  vnum: 01010282802
 - description: |-
     Você está acima de todas as luzes de Vitália e se sente extasiado com
     a imensa beleza e explendor desse imenso mundo.   Olhando para baixo, você
@@ -47,9 +50,10 @@
     continua seguindo para cima, atravessando outra grande camada de nuvens.
   exits:
     up:
-      target_vnum: '2804'
+      target_vnum: 01010282804
+  local_id: '2803'
   name: Acima de Todas as Luzes
-  vnum: '2803'
+  vnum: 01010282803
 - description: |-
     Você está acima de todas as luzes de Vitália e se sente extasiado com
     a imensa beleza e explendor desse imenso mundo.   Imensa névoa branca,
@@ -62,9 +66,10 @@
     haverá alem dessas imensas e compactas nuvens?
   exits:
     up:
-      target_vnum: '2805'
+      target_vnum: 01010282805
+  local_id: '2804'
   name: Acima de Todas as Luzes
-  vnum: '2804'
+  vnum: 01010282804
 - description: |-
     Magnífico!!! Estonteante!!! Lindíssimo!!!  São estas as únicas palavras
     que ocorrem à sua mente após se deparar com o incrível espetáculo que se
@@ -81,9 +86,10 @@
     que não se consegue perceber onde terminam.
   exits:
     north:
-      target_vnum: '2806'
+      target_vnum: 01010282806
+  local_id: '2805'
   name: Atingindo os Céus de Vitália
-  vnum: '2805'
+  vnum: 01010282805
 - description: |-
     Andar trôpego, peito arfante, pouco a pouco você se aproxima.  Sabe bem que
     estar diante desta Maravilha é realmente uma honra e um privilégio.
@@ -97,9 +103,10 @@
     como se estivessem celebrando algo deveras importante.
   exits:
     north:
-      target_vnum: '2807'
+      target_vnum: 01010282807
+  local_id: '2806'
   name: Em Frente à Grande Catedral de Cristal
-  vnum: '2806'
+  vnum: 01010282806
 - description: |-
     Você continua fascinado com tudo o que se encontra ao seu redor.  Há
     um imenso arco entalhado na parede de cristal puro que abriga a abertura
@@ -114,13 +121,14 @@
     diretamente no cristal.
   exits:
     east:
-      target_vnum: '2818'
+      target_vnum: 01010282818
     north:
-      target_vnum: '2808'
+      target_vnum: 01010282808
     west:
-      target_vnum: '2823'
+      target_vnum: 01010282823
+  local_id: '2807'
   name: "Em Frente Ã\x80 Grande Catedral de Luz"
-  vnum: '2807'
+  vnum: 01010282807
 - description: |-
     Silenciosamente você caminha, ultrapassando o imenso portal e chegando até
     um longo corredor, que segue reto, em direção ao altar-mor.  Olhando daqui,
@@ -132,11 +140,12 @@
     que mostram cenas do cotidiano dos habitantes deste belo mundo.
   exits:
     north:
-      target_vnum: '2809'
+      target_vnum: 01010282809
     south:
-      target_vnum: '2807'
+      target_vnum: 01010282807
+  local_id: '2808'
   name: Dentro da Catedral de Luz
-  vnum: '2808'
+  vnum: 01010282808
 - description: |-
     O corredor continua seguindo em direção norte, até o altar central.  A
     forte luz solar que é filtrada pela cúpula de cristal azul, transforma o lugar,
@@ -148,11 +157,12 @@
     se fosse um imenso tapete branco-azulado.
   exits:
     north:
-      target_vnum: '2810'
+      target_vnum: 01010282810
     south:
-      target_vnum: '2808'
+      target_vnum: 01010282808
+  local_id: '2809'
   name: O Longo Corredor
-  vnum: '2809'
+  vnum: 01010282809
 - description: |-
     O corredor continua seguindo em direção norte, até o altar central.  A
     forte luz solar que é filtrada pela cúpula de cristal azul, transforma o lugar,
@@ -168,11 +178,12 @@
     para que os que estejam com sede possam se saciar.
   exits:
     north:
-      target_vnum: '2840'
+      target_vnum: 01010282840
     south:
-      target_vnum: '2809'
+      target_vnum: 01010282809
+  local_id: '2810'
   name: O Longo Corredor
-  vnum: '2810'
+  vnum: 01010282810
 - description: |-
     Você está diante do grande Altar-Mor.  Uma peça majestosa, feita de ouro
     maciço, totalmente coberto por delicadíssimos mosaicos e belíssimos filigranas,
@@ -188,17 +199,20 @@
     totalmente límpido e absolutamente azul.   Silêncio profundo envolve o ambiente.
   exits:
     north:
-      target_vnum: '2836'
+      target_vnum: 01010282836
     south:
-      target_vnum: '2816'
+      target_vnum: 01010282816
+    southeast:
+      target_vnum: 01010282845
     up:
-      target_vnum: '2817'
+      target_vnum: 01010282817
     west:
-      target_vnum: '2843'
+      target_vnum: 01010282843
+  local_id: '2811'
   name: Diante do Altar-Mor
-  vnum: '2811'
-- description: "Ã\x89 nÃ­tido que algum tipo de cerimÃ´nia importante estÃ¡ prestes\
-    \ a ocorrer\naqui, jÃ¡ que o altar estÃ¡ arrumado com muita pompa e circunstÃ¢ncia.\
+  vnum: 01010282811
+- description: "Ã\x89 nítido que algum tipo de cerimônia importante está prestes a\
+    \ ocorrer\naqui, já que o altar está arrumado com muita pompa e circunstância.\
     \  Ã\x80 sua\nvolta, pode-se ver infindáveis fileiras de bancos, que foram dispostos\
     \ de\ntal forma, que mesmo se estando nos últimos lugares, pode-se ver\nperfeitamente\
     \ o que esteja ocorrendo lá na frente.  Olhando para o altar,\nvocê observa as\
@@ -207,13 +221,18 @@
     \ uma benção divina."
   exits:
     east:
-      target_vnum: '2814'
+      target_vnum: 01010282814
     north:
-      target_vnum: '2813'
+      target_vnum: 01010282813
+    northwest:
+      target_vnum: 01010282837
+    southeast:
+      target_vnum: 01010282845
+  local_id: '2812'
   name: As Cerimônias Sagradas
-  vnum: '2812'
-- description: "Ã\x89 nÃ­tido que algum tipo de cerimÃ´nia importante estÃ¡ prestes\
-    \ a ocorrer\naqui, jÃ¡ que o altar estÃ¡ arrumado com muita pompa e circunstÃ¢ncia.\
+  vnum: 01010282812
+- description: "Ã\x89 nítido que algum tipo de cerimônia importante está prestes a\
+    \ ocorrer\naqui, já que o altar está arrumado com muita pompa e circunstância.\
     \  Ã\x80\nsua volta, pode-se ver infindáveis fileiras de bancos, que foram\ndispostos\
     \ de tal forma, que mesmo se estando nos últimos lugares, pode-se\nver perfeitamente\
     \ o que esteja ocorrendo lá na frente.  Olhando para o\naltar, você observa as\
@@ -221,14 +240,19 @@
     \ o altar parece ser divina, tamanha sua\nintensidade e força.  Parece até ser\
     \ uma benção divina."
   exits:
+    northwest:
+      target_vnum: 01010282837
     south:
-      target_vnum: '2812'
+      target_vnum: 01010282812
+    southeast:
+      target_vnum: 01010282845
     west:
-      target_vnum: '2815'
+      target_vnum: 01010282815
+  local_id: '2813'
   name: As Cerimônias Sagradas
-  vnum: '2813'
-- description: "Ã\x89 nÃ­tido que algum tipo de cerimÃ´nia importante estÃ¡ prestes\
-    \ a ocorrer\naqui, jÃ¡ que o altar estÃ¡ arrumado com muita pompa e circunstÃ¢ncia.\
+  vnum: 01010282813
+- description: "Ã\x89 nítido que algum tipo de cerimônia importante está prestes a\
+    \ ocorrer\naqui, já que o altar está arrumado com muita pompa e circunstância.\
     \  Ã\x80 sua\nvolta, pode-se ver infindáveis fileiras de bancos, que foram dispostos\
     \ de\ntal forma, que mesmo se estando nos últimos lugares, pode-se ver\nperfeitamente\
     \ o que esteja ocorrendo lá na frente.  Olhando para o altar,\nvocê observa as\
@@ -237,13 +261,18 @@
     \ uma benção divina."
   exits:
     north:
-      target_vnum: '2815'
+      target_vnum: 01010282815
+    northwest:
+      target_vnum: 01010282837
+    southeast:
+      target_vnum: 01010282846
     west:
-      target_vnum: '2812'
+      target_vnum: 01010282812
+  local_id: '2814'
   name: As Cerimônias Sagradas
-  vnum: '2814'
-- description: "Ã\x89 nÃ­tido que algum tipo de cerimÃ´nia importante estÃ¡ prestes\
-    \ a ocorrer\naqui, jÃ¡ que o altar estÃ¡ arrumado com muita pompa e circunstÃ¢ncia.\
+  vnum: 01010282814
+- description: "Ã\x89 nítido que algum tipo de cerimônia importante está prestes a\
+    \ ocorrer\naqui, já que o altar está arrumado com muita pompa e circunstância.\
     \  Ã\x80 sua\nvolta, pode-se ver infindáveis fileiras de bancos, que foram dispostos\
     \ de\ntal forma, que mesmo se estando nos últimos lugares, pode-se ver\nperfeitamente\
     \ o que esteja ocorrendo lá na frente.  Olhando para o altar,\nvocê observa as\
@@ -252,11 +281,16 @@
     \ uma benção divina."
   exits:
     east:
-      target_vnum: '2813'
+      target_vnum: 01010282813
+    northwest:
+      target_vnum: 01010282837
     south:
-      target_vnum: '2814'
+      target_vnum: 01010282814
+    southeast:
+      target_vnum: 01010282847
+  local_id: '2815'
   name: As Cerimônias Sagradas
-  vnum: '2815'
+  vnum: 01010282815
 - description: |-
     Este é um lugar tão especial e sagrado que é bem provável que nenhum
     olhar mortal jamais tenha tido a oportunidade de ver e admirar .  As
@@ -269,13 +303,16 @@
     paira sobre o ar, como se estivesse sendo suspenso por grandes mãos invisíveis.
   exits:
     down:
-      target_vnum: '2817'
+      target_vnum: 01010282817
     north:
-      target_vnum: '2836'
+      target_vnum: 01010282836
     south:
-      target_vnum: '2811'
+      target_vnum: 01010282811
+    southeast:
+      target_vnum: 01010282845
+  local_id: '2816'
   name: A Sala das Divindades
-  vnum: '2816'
+  vnum: 01010282816
 - description: |-
     Parece ser aqui o local onde aquele que irá dar um grande passo em sua vida
     se prepara .  Por estar bem próximo do grande Altar-Mor, pode-se perceber um
@@ -288,16 +325,17 @@
     Altar, esperando pela cerimônia, que parece estar prestes a começar.
   exits:
     down:
-      target_vnum: '2811'
+      target_vnum: 01010282811
     east:
-      target_vnum: '2845'
+      target_vnum: 01010282845
     up:
-      target_vnum: '2816'
+      target_vnum: 01010282816
     west:
-      target_vnum: '2835'
+      target_vnum: 01010282835
+  local_id: '2817'
   name: Os Preparativos do Noivo
-  vnum: '2817'
-- description: "VocÃª estÃ¡ no hall de entrada da escadaria que leva Ã  Torre Leste.\
+  vnum: 01010282817
+- description: "Você está no hall de entrada da escadaria que leva Ã  Torre Leste.\
     \ Ã\x89 uma\nsala de proporções razoáveis, e mesmo sendo apenas um hall, ainda\
     \ sim\npossui grande beleza.   As paredes revestidas pelo estranho metal\nluetn'amir,\
     \ não possuem nenhum outro tipo de decoração, além do imenso\npainel com o @GBrasão\
@@ -306,47 +344,51 @@
     \ de cristal e você precisa subir a imensa\nescada em espiral para admirar a vista."
   exits:
     up:
-      target_vnum: '2819'
+      target_vnum: 01010282819
     west:
-      target_vnum: '2807'
+      target_vnum: 01010282807
+  local_id: '2818'
   name: A Escadaria da Grande Torre Leste
-  vnum: '2818'
-- description: "A escadaria continua seguindo para cima.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282818
+- description: "A escadaria continua seguindo para cima.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter subido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a\nimensidão\
     \ e a beleza fulminante deste lugar, que é ao mesmo tempo mágico e\nmístico."
   exits:
     down:
-      target_vnum: '2818'
+      target_vnum: 01010282818
     up:
-      target_vnum: '2820'
+      target_vnum: 01010282820
+  local_id: '2819'
   name: A Escadaria da Grande Torre Leste
-  vnum: '2819'
-- description: "A escadaria continua seguindo para cima.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282819
+- description: "A escadaria continua seguindo para cima.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter subido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a\nimensidão\
     \ e a beleza fulminante deste lugar, que é ao mesmo tempo mágico e\nmístico."
   exits:
     down:
-      target_vnum: '2819'
+      target_vnum: 01010282819
     up:
-      target_vnum: '2821'
+      target_vnum: 01010282821
+  local_id: '2820'
   name: A Escadaria da Grande Torre Leste
-  vnum: '2820'
-- description: "A escadaria continua seguindo para cima.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282820
+- description: "A escadaria continua seguindo para cima.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter subido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a\nimensidão\
     \ e a beleza fulminante deste lugar, que é ao mesmo tempo mágico e\nmístico."
   exits:
     down:
-      target_vnum: '2820'
+      target_vnum: 01010282820
     up:
-      target_vnum: '2829'
+      target_vnum: 01010282829
+  local_id: '2821'
   name: A Escadaria da Grande Torre Leste
-  vnum: '2821'
+  vnum: 01010282821
 - description: |-
     Finalmente você chegou ao topo da Torre Leste.   O local é muito grande,
     maior do que você poderia supor e está repleto por grandes aberturas em
@@ -362,10 +404,11 @@
     rosto, como delicada carícia, vinda do sul.
   exits:
     down:
-      target_vnum: '2829'
+      target_vnum: 01010282829
+  local_id: '2822'
   name: A Grande Torre Leste da Catedral
-  vnum: '2822'
-- description: "VocÃª estÃ¡ no hall de entrada da escadaria que leva Ã  Torre Oeste.\
+  vnum: 01010282822
+- description: "Você está no hall de entrada da escadaria que leva Ã  Torre Oeste.\
     \ Ã\x89 uma\nsala de proporções razoáveis, e mesmo sendo apenas um hall, ainda\
     \ sim\npossui grande beleza.   As paredes revestidas pelo estranho metal\nluetn'amir,\
     \ não possuem nenhum outro tipo de decoração, além do imenso\npainel com o @GBrasão\
@@ -374,36 +417,39 @@
     \ de cristal e você precisa subir a imensa\nescada em espiral para admirar a vista."
   exits:
     east:
-      target_vnum: '2807'
+      target_vnum: 01010282807
     up:
-      target_vnum: '2824'
+      target_vnum: 01010282824
+  local_id: '2823'
   name: A Escadaria da Grande Torre Oeste
-  vnum: '2823'
-- description: "A escadaria continua seguindo para cima.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282823
+- description: "A escadaria continua seguindo para cima.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter subido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a imensidão\n\
     e a beleza fulminante deste lugar, que é ao mesmo tempo mágico e místico."
   exits:
     down:
-      target_vnum: '2823'
+      target_vnum: 01010282823
     up:
-      target_vnum: '2825'
+      target_vnum: 01010282825
+  local_id: '2824'
   name: A Escadaria da Grande Torre Oeste
-  vnum: '2824'
-- description: "A escadaria continua seguindo para cima.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282824
+- description: "A escadaria continua seguindo para cima.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter subido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a\nimensidão\
     \ e a beleza fulminante deste lugar, que é ao mesmo tempo mágico e\nmístico."
   exits:
     down:
-      target_vnum: '2824'
+      target_vnum: 01010282824
     up:
-      target_vnum: '2826'
+      target_vnum: 01010282826
+  local_id: '2825'
   name: A Escadaria da Grande Torre Oeste
-  vnum: '2825'
-- description: "A escadaria continua seguindo para cima.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282825
+- description: "A escadaria continua seguindo para cima.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter subido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a\nimensidão\
@@ -411,35 +457,38 @@
     \  Uma porta de cristal bloqueia seu caminho para cima."
   exits:
     down:
-      target_vnum: '2825'
+      target_vnum: 01010282825
     up:
-      target_vnum: '2838'
+      target_vnum: 01010282838
+  local_id: '2826'
   name: A Escadaria da Grande Torre Oeste
-  vnum: '2826'
-- description: "A escadaria continua seguindo para baixo.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282826
+- description: "A escadaria continua seguindo para baixo.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter descido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a imensidão\n\
     e a beleza fulminante deste lugar, que é ao mesmo tempo mágico e místico."
   exits:
     down:
-      target_vnum: '2828'
+      target_vnum: 01010282828
     up:
-      target_vnum: '2823'
+      target_vnum: 01010282823
+  local_id: '2827'
   name: A Escadaria da Grande Torre Oeste
-  vnum: '2827'
-- description: "A escadaria continua seguindo para baixo.  Ã\x89 engraÃ§ado perceber\
+  vnum: 01010282827
+- description: "A escadaria continua seguindo para baixo.  Ã\x89 engraçado perceber\
     \ que o\nimenso painel com o @GBrasão de Vitália @ncontinua ao seu lado, mesmo\
     \ depois\nde ter descido tantos lances de escada.   Existem pequenos vãos, como\
     \ se\nfossem janelas dando para fora, tornando possível de se admirar a\nimensidão\
     \ e a beleza fulminante deste lugar, que é ao mesmo tempo mágico e\nmístico."
   exits:
     down:
-      target_vnum: '2829'
+      target_vnum: 01010282829
     up:
-      target_vnum: '2827'
+      target_vnum: 01010282827
+  local_id: '2828'
   name: A Escadaria da Grande Torre Oeste
-  vnum: '2828'
+  vnum: 01010282828
 - description: |-
     Finalmente você chegou à base da grande escadaria.  A luz aqui é um
     pouco mais branda, mais suave e sutil, trazendo ao ambiente um aspecto
@@ -448,11 +497,14 @@
     tentar ultrapassar seus limites.
   exits:
     down:
-      target_vnum: '2821'
+      target_vnum: 01010282821
+    southeast:
+      target_vnum: 01010282830
     up:
-      target_vnum: '2822'
+      target_vnum: 01010282822
+  local_id: '2829'
   name: A Base Leste da Escadaria
-  vnum: '2829'
+  vnum: 01010282829
 - description: |-
     Este longo e largo corredor segue para leste e oeste e para baixo, em
     direção à Grande Catedral.  Aqui as paredes e o teto são todo recoberto
@@ -465,11 +517,16 @@
     fossem tochas acesas.  Você pode seguir para leste ou...
   exits:
     east:
-      target_vnum: '2831'
+      target_vnum: 01010282831
+    northeast:
+      target_vnum: 01010282829
+    southwest:
+      target_vnum: 01010282842
     west:
-      target_vnum: '2838'
+      target_vnum: 01010282838
+  local_id: '2830'
   name: O Longo Corredor de Murais
-  vnum: '2830'
+  vnum: 01010282830
 - description: |-
     Este longo e largo corredor segue para leste e oeste e para baixo, em
     direção à Grande Catedral.  Aqui as paredes e o teto são todo recoberto
@@ -482,11 +539,12 @@
     fossem tochas acesas.  Você pode seguir para leste, ou voltar para oeste.
   exits:
     east:
-      target_vnum: '2832'
+      target_vnum: 01010282832
     west:
-      target_vnum: '2830'
+      target_vnum: 01010282830
+  local_id: '2831'
   name: O Longo Corredor de Murais
-  vnum: '2831'
+  vnum: 01010282831
 - description: |-
     Este longo e largo corredor segue para leste e oeste e para baixo, em
     direção à Grande Catedral.  Aqui as paredes e o teto são todo recoberto
@@ -499,11 +557,12 @@
     fossem tochas acesas.  Você pode seguir para leste, ou voltar para oeste.
   exits:
     east:
-      target_vnum: '2833'
+      target_vnum: 01010282833
     west:
-      target_vnum: '2831'
+      target_vnum: 01010282831
+  local_id: '2832'
   name: O Longo Corredor de Murais
-  vnum: '2832'
+  vnum: 01010282832
 - description: |-
     Este longo e largo corredor segue para leste e oeste e para baixo, em
     direção à Grande Catedral.  Aqui as paredes e o teto são todo recoberto
@@ -516,11 +575,12 @@
     fossem tochas acesas.  Você pode seguir para leste, ou voltar para oeste.
   exits:
     east:
-      target_vnum: '2834'
+      target_vnum: 01010282834
     west:
-      target_vnum: '2832'
+      target_vnum: 01010282832
+  local_id: '2833'
   name: O Longo Corredor de Murais
-  vnum: '2833'
+  vnum: 01010282833
 - description: |-
     Este longo e largo corredor segue para leste e oeste e para baixo, em
     direção à Grande Catedral.  Aqui as paredes e o teto são todo recoberto
@@ -533,11 +593,12 @@
     fossem tochas acesas.  Você pode seguir para leste, ou voltar para oeste.
   exits:
     east:
-      target_vnum: '2835'
+      target_vnum: 01010282835
     west:
-      target_vnum: '2833'
+      target_vnum: 01010282833
+  local_id: '2834'
   name: O Longo Corredor de Murais
-  vnum: '2834'
+  vnum: 01010282834
 - description: |-
     Você chegou no final deste longo e largo corredor.  Uma sólida parede
     de cristal maciço impede que você continue seguindo em direção norte, mas
@@ -549,11 +610,12 @@
     Seria prudente tentar prosseguir?
   exits:
     up:
-      target_vnum: '2836'
+      target_vnum: 01010282836
     west:
-      target_vnum: '2834'
+      target_vnum: 01010282834
+  local_id: '2835'
   name: O Longo Corredor de Murais
-  vnum: '2835'
+  vnum: 01010282835
 - description: |-
     Dizer que este quarto é maravilhoso é dizer pouco.  Não se consegue dizer
     se seu tamanho é grande ou pequeno e isso não deixa de ser intrigante.
@@ -567,11 +629,12 @@
     Sua mente não hesita em indagar quem seria o Senhor desse maravilhoso quarto?
   exits:
     down:
-      target_vnum: '2835'
+      target_vnum: 01010282835
     south:
-      target_vnum: '2811'
+      target_vnum: 01010282811
+  local_id: '2836'
   name: O Quarto Místico
-  vnum: '2836'
+  vnum: 01010282836
 - description: |-
     Seus olhos são atraídos por suave luz, que penetra mansamente no ambiente,
     vinda debaixo.   Você sabe que é chegado o instante de deixar esse lugar
@@ -584,9 +647,10 @@
     as bençãos.
   exits:
     north:
-      target_vnum: '50'
+      target_vnum: 01010280050
+  local_id: '2837'
   name: Deixando a Luz
-  vnum: '2837'
+  vnum: 01010282837
 - description: |-
     Finalmente você chegou à base da grande escadaria.  A luz aqui é um pouco
     mais branda, mais suave e sutil, trazendo ao ambiente um aspecto mais soturno
@@ -595,13 +659,14 @@
     ultrapassar seus limites.
   exits:
     down:
-      target_vnum: '2826'
+      target_vnum: 01010282826
     east:
-      target_vnum: '2830'
+      target_vnum: 01010282830
     up:
-      target_vnum: '2839'
+      target_vnum: 01010282839
+  local_id: '2838'
   name: A Base Oeste da Escadaria
-  vnum: '2838'
+  vnum: 01010282838
 - description: |-
     Finalmente você chegou ao topo da Torre Oeste.   O local é muito grande,
     maior do que você poderia supor e está repleto por grandes aberturas em
@@ -617,9 +682,10 @@
     rosto, como delicada carícia, vinda do norte.
   exits:
     down:
-      target_vnum: '2838'
+      target_vnum: 01010282838
+  local_id: '2839'
   name: A Grande Torre Oeste da Catedral
-  vnum: '2839'
+  vnum: 01010282839
 - description: |-
     O corredor continua seguindo em direção norte, até o altar central.  A
     forte luz solar que é filtrada pela cúpula de cristal azul, transforma o lugar,
@@ -631,11 +697,12 @@
     se fosse um imenso tapete branco-azulado.
   exits:
     north:
-      target_vnum: '2841'
+      target_vnum: 01010282841
     south:
-      target_vnum: '2810'
+      target_vnum: 01010282810
+  local_id: '2840'
   name: O Longo Corredor
-  vnum: '2840'
+  vnum: 01010282840
 - description: |-
     O corredor continua seguindo em direção norte, até o altar central.  A
     forte luz solar que é filtrada pela cúpula de cristal azul, transforma o lugar,
@@ -647,11 +714,12 @@
     se fosse um imenso tapete branco-azulado.
   exits:
     north:
-      target_vnum: '2842'
+      target_vnum: 01010282842
     south:
-      target_vnum: '2840'
+      target_vnum: 01010282840
+  local_id: '2841'
   name: O Longo Corredor
-  vnum: '2841'
+  vnum: 01010282841
 - description: |-
     O corredor continua seguindo em direção norte, até o altar central.  A
     forte luz solar que é filtrada pela cúpula de cristal azul, transforma o lugar,
@@ -665,15 +733,18 @@
     coberto por mosaicos e belíssimos filigranas.
   exits:
     down:
-      target_vnum: '2843'
+      target_vnum: 01010282843
     north:
-      target_vnum: '2812'
+      target_vnum: 01010282812
+    northwest:
+      target_vnum: 01010282830
     south:
-      target_vnum: '2841'
+      target_vnum: 01010282841
     up:
-      target_vnum: '2817'
+      target_vnum: 01010282817
+  local_id: '2842'
   name: O Longo Corredor
-  vnum: '2842'
+  vnum: 01010282842
 - description: |-
     Parece ser aqui o local onde aquela que irá dar um grande passo em sua vida
     se prepara .  Por estar bem próximo do grande Altar-Mor, pode-se perceber um
@@ -686,15 +757,16 @@
     Altar, esperando pela cerimônia, que parece estar prestes a começar.
   exits:
     down:
-      target_vnum: '2845'
+      target_vnum: 01010282845
     east:
-      target_vnum: '2811'
+      target_vnum: 01010282811
     south:
-      target_vnum: '2835'
+      target_vnum: 01010282835
     up:
-      target_vnum: '2816'
+      target_vnum: 01010282816
+  local_id: '2843'
   name: Os Preparativos da Noiva
-  vnum: '2843'
+  vnum: 01010282843
 - description: |-
     Que formosura!  O Paraíso parece que começa aqui.  São tantas as flores,
     tantas as cores e perfumes, que você se sente perdendo o fôlego. Sua vista se
@@ -709,19 +781,22 @@
     gritar umas com as outras.
   exits:
     east:
-      target_vnum: '2846'
+      target_vnum: 01010282846
     north:
-      target_vnum: '2845'
+      target_vnum: 01010282845
+    northwest:
+      target_vnum: 01010282837
     south:
-      target_vnum: '2847'
+      target_vnum: 01010282847
     west:
-      target_vnum: '2848'
+      target_vnum: 01010282848
+  local_id: '2844'
   name: Os Jardins do Grande Salão de Cristal
-  vnum: '2844'
+  vnum: 01010282844
 - description: "São tantas as belezas deste lugar que seus olhos não sabem onde se\
-    \ fixar.\nÃ\x89 um salÃ£o muito grande, e suas paredes resplandecem em luzes,\
-    \ cores e brilhos,\noriundos da capacidade quase mística do cristal de se decompor\
-    \ em diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
+    \ fixar.\nÃ\x89 um salão muito grande, e suas paredes resplandecem em luzes, cores\
+    \ e brilhos,\noriundos da capacidade quase mística do cristal de se decompor em\
+    \ diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
     \ inesperado\ndo teto, pois parece que o próprio firmamento foi ali colocado e\
     \ que todas as\nestrelas do Universo podem ser tocadas em um único gesto.   Imensas\
     \ colunas,\nrevestidas com luetn'amir estão enfeitadas com flores brancas e amarelas,\n\
@@ -730,19 +805,24 @@
     e conversar.   Há um jardim no lado sul do salão que parece ser muito bonito."
   exits:
     north:
-      target_vnum: '2847'
+      target_vnum: 01010282847
+    northeast:
+      target_vnum: 01010282848
+    northwest:
+      target_vnum: 01010282846
     south:
-      target_vnum: '2844'
+      target_vnum: 01010282844
     up:
-      target_vnum: '2843'
+      target_vnum: 01010282843
     west:
-      target_vnum: '2817'
+      target_vnum: 01010282817
+  local_id: '2845'
   name: O Grande Salão de Cristal
-  vnum: '2845'
+  vnum: 01010282845
 - description: "São tantas as belezas deste lugar que seus olhos não sabem onde se\
-    \ fixar.\nÃ\x89 um salÃ£o muito grande, e suas paredes resplandecem em luzes,\
-    \ cores e brilhos,\noriundos da capacidade quase mística do cristal de se decompor\
-    \ em diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
+    \ fixar.\nÃ\x89 um salão muito grande, e suas paredes resplandecem em luzes, cores\
+    \ e brilhos,\noriundos da capacidade quase mística do cristal de se decompor em\
+    \ diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
     \ inesperado\ndo teto, pois parece que o próprio firmamento foi ali colocado e\
     \ que todas as\nestrelas do Universo podem ser tocadas em um único gesto.   Imensas\
     \ colunas,\nrevestidas com luetn'amir estão enfeitadas com flores brancas e amarelas,\n\
@@ -751,15 +831,20 @@
     e conversar.   Há um jardim no lado norte do salão que parece ser muito bonito."
   exits:
     east:
-      target_vnum: '2848'
+      target_vnum: 01010282848
     north:
-      target_vnum: '2844'
+      target_vnum: 01010282844
+    northwest:
+      target_vnum: 01010282847
+    southwest:
+      target_vnum: 01010282845
+  local_id: '2846'
   name: O Grande Salão de Cristal
-  vnum: '2846'
+  vnum: 01010282846
 - description: "São tantas as belezas deste lugar que seus olhos não sabem onde se\
-    \ fixar.\nÃ\x89 um salÃ£o muito grande, e suas paredes resplandecem em luzes,\
-    \ cores e brilhos,\noriundos da capacidade quase mística do cristal de se decompor\
-    \ em diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
+    \ fixar.\nÃ\x89 um salão muito grande, e suas paredes resplandecem em luzes, cores\
+    \ e brilhos,\noriundos da capacidade quase mística do cristal de se decompor em\
+    \ diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
     \ inesperado\ndo teto, pois parece que o próprio firmamento foi ali colocado e\
     \ que todas as\nestrelas do Universo podem ser tocadas em um único gesto.   Imensas\
     \ colunas,\nrevestidas com luetn'amir estão enfeitadas com flores brancas e amarelas,\n\
@@ -768,17 +853,20 @@
     e conversar.   Há um jardim no lado oeste do salão que parece ser muito bonito."
   exits:
     north:
-      target_vnum: '2848'
+      target_vnum: 01010282848
     south:
-      target_vnum: '2845'
+      target_vnum: 01010282845
+    southwest:
+      target_vnum: 01010282846
     west:
-      target_vnum: '2844'
+      target_vnum: 01010282844
+  local_id: '2847'
   name: O Grande Salão de Cristal
-  vnum: '2847'
+  vnum: 01010282847
 - description: "São tantas as belezas deste lugar que seus olhos não sabem onde se\
-    \ fixar.\nÃ\x89 um salÃ£o muito grande, e suas paredes resplandecem em luzes,\
-    \ cores e brilhos,\noriundos da capacidade quase mística do cristal de se decompor\
-    \ em diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
+    \ fixar.\nÃ\x89 um salão muito grande, e suas paredes resplandecem em luzes, cores\
+    \ e brilhos,\noriundos da capacidade quase mística do cristal de se decompor em\
+    \ diversos\nmatizes e tons. Olhando para cima, você se surpreende com o formato\
     \ inesperado\ndo teto, pois parece que o próprio firmamento foi ali colocado e\
     \ que todas as\nestrelas do Universo podem ser tocadas em um único gesto.   Imensas\
     \ colunas,\nrevestidas com luetn'amir estão enfeitadas com flores brancas e amarelas,\n\
@@ -787,10 +875,13 @@
     e conversar.   Há um jardim no lado leste do salão que parece ser muito bonito."
   exits:
     east:
-      target_vnum: '2844'
+      target_vnum: 01010282844
     south:
-      target_vnum: '2847'
+      target_vnum: 01010282847
+    southeast:
+      target_vnum: 01010282845
     west:
-      target_vnum: '2846'
+      target_vnum: 01010282846
+  local_id: '2848'
   name: O Grande Salão de Cristal
-  vnum: '2848'
+  vnum: 01010282848

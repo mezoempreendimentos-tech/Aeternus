@@ -1,43 +1,50 @@
 - description: Ele parece tentar alcançar o outro lado da montanha, assim como você.
   keywords:
   - alpinista
+  long_desc: Um alpinista trilhando o mesmo caminho que você, está aqui.
   name: um alpinista
-  vnum: '17001'
+  vnum: '010217017001'
 - description: Ele parece estar atrás de um almoço..
   keywords:
   - ciclope
+  long_desc: Um faminto cíclope avança em sua direção rosnando!
   name: o cíclope
-  vnum: '17002'
+  vnum: '010217017002'
 - description: Um pouco menor do que um elemental comum. Ele parece ser um rejeitado.
   keywords:
   - elemental
+  long_desc: Um pequeno elemental com um olhar mórbido está aqui.
   name: um pequeno elemental
-  vnum: '17003'
+  vnum: '010217017003'
 - description: |-
     Você não sabe dizer qual rei esse elemental protege, talvez um pouco
     a todos?
   keywords:
   - elemental
   - guardiao
+  long_desc: O elemental gurdião está aqui.
   name: o elemental guardião
-  vnum: '17004'
+  vnum: '010217017004'
 - description: An undefined string.
   keywords:
   - pequeno
   - elemental
+  long_desc: Um pequeno elemental está aqui.
   name: um pequeno elemental
-  vnum: '17005'
+  vnum: '010217017005'
 - description: An undefined string.
   keywords:
   - elemental
+  long_desc: Um elemental está aqui.
   name: um elemental
-  vnum: '17006'
+  vnum: '010217017006'
 - description: An undefined string.
   keywords:
   - elemental
   - grande
+  long_desc: Um grande elemental está aqui, te encarando.
   name: um grande elemental
-  vnum: '17007'
+  vnum: '010217017007'
 - description: |-
     Ele parece tão antigo quanto a terra. Parece conhecer os mais obscuros
     segredos de Vitália. Você não consegue dizer com certeza aonde ele começa
@@ -46,22 +53,25 @@
   - lider
   - elemental
   - terra
+  long_desc: O Grande Líder dos elementais de Terra está aqui.
   name: o líder dos elementais de Terra
-  vnum: '17008'
+  vnum: 010217017008
 - description: Assim que você olha para ele, ele se mistura ao fogo de seu trono.
   keywords:
   - lider
   - elemental
   - fogo
+  long_desc: O Grande Líder dos elementais de Fogo está aqui.
   name: o líder dos elementais de Fogo
-  vnum: '17009'
+  vnum: 010217017009
 - description: Você parece estar olhando para os céus.
   keywords:
   - lider
   - elemental
   - ar
+  long_desc: O Grande Líder dos elementais de Ar está aqui.
   name: o líder dos elementais de Ar
-  vnum: '17010'
+  vnum: '010217017010'
 - description: |-
     Ele possui um sorriso maligno. Assim que você o olha, ele emite um
     forte feixe que lhe cega.
@@ -69,8 +79,9 @@
   - lider
   - elemental
   - trovao
+  long_desc: O Grande Líder dos elementais do Trovão está aqui.
   name: o líder dos elementais do Trovão
-  vnum: '17011'
+  vnum: '010217017011'
 - description: |-
     Ele se transforma em um gigantesco redemoinho de água e avança
     em sua direção.
@@ -78,37 +89,42 @@
   - lider
   - elemental
   - agua
-  name: "o lÃ­der dos elementais de Ã\x81gua"
-  vnum: '17012'
+  long_desc: "O Grande Líder dos elementais de Ã\x81gua está aqui."
+  name: "o líder dos elementais de Ã\x81gua"
+  vnum: '010217017012'
 - description: Ela percorre o chão em sua direção.
   keywords:
   - poca
   - agua
   - elemental
+  long_desc: Uma pequena poça de água viva avança em sua direção.
   name: uma poça
-  vnum: '17014'
+  vnum: '010217017014'
 - description: Ela corre ao seu redor, esperando uma brecha.
   keywords:
   - chama
   - elemental
   - fogo
+  long_desc: Uma pequena chama viva corre histericamente ao seu redor.
   name: uma chama
-  vnum: '17015'
+  vnum: '010217017015'
 - description: Ele parece incapaz de se mover.
   keywords:
   - elemental
   - neve
   - humanoide
   - cristal
+  long_desc: Um pequeno humanóide de cristal está aqui.
   name: um pequeno humanóide de neve
-  vnum: '17016'
+  vnum: '010217017016'
 - description: Ela se mexeu?!
   keywords:
   - elemental
   - rocha
   - humanoide
+  long_desc: Uma estranha rocha está no chão.
   name: um pequeno humanóide de rochas
-  vnum: '17017'
+  vnum: '010217017017'
 - description: |-
     Você quase não consegue acompanhar sua velocidade. Ele pula por
     todos os lados, produzindo barulhentas explosões.
@@ -116,16 +132,18 @@
   - orbe
   - elemental
   - humanoide
+  long_desc: Uma misteriosa orbe elétrica está flutuando aqui.
   name: um humanóide elétrico
-  vnum: '17018'
+  vnum: 010217017018
 - description: O líquido se une dando origem a um pequeno humanóide corrosivo.
   keywords:
   - elemental
   - acido
   - liquido
   - humanoide
+  long_desc: Um estranho líquido escorre de um buraco na parede.
   name: um humanóide ácido
-  vnum: '17019'
+  vnum: 010217017019
 - description: |-
     Uma enorme besta feita de magma borbulhante...  Vamos esperar
     que suas calças sequem rápido.
@@ -133,42 +151,48 @@
   - besta
   - lava
   - elemental
+  long_desc: Uma grande besta de lava surge em sua frente.
   name: uma besta de lava
-  vnum: '17020'
+  vnum: '010217017020'
 - description: O que há de interessante nisso?  Terra, água... garras??
   keywords:
   - lama
   - monstro
   - elemental
+  long_desc: Um grudento monstro de lama se forma em sua frente.
   name: um monstro de lama
-  vnum: '17021'
+  vnum: '010217017021'
 - description: Ele parece um tanto quanto imprevisível.
   keywords:
   - tufao
   - elemental
+  long_desc: Um tufão mágico pára diante de você.
   name: um pequeno tufão
-  vnum: '17022'
+  vnum: '010217017022'
 - description: Uma intrigante manifestação de energia.
   keywords:
   - particula
   - elemental
   - coisa
+  long_desc: Alguma coisa parece lhe observar.
   name: uma partícula subatômica
-  vnum: '17023'
+  vnum: '010217017023'
 - description: Uma estranha mistura de terra e ar.. ela não parece nem te ver.
   keywords:
   - nuvem
   - poeira
   - elemental
+  long_desc: Uma estranha nuvem de poeira te envolve subitamente.
   name: uma nuvem de poeira
-  vnum: '17024'
+  vnum: '010217017024'
 - description: An undefined string.
   keywords:
   - redemoinho
   - tornado
   - elemental
+  long_desc: Uma estranha miniatura de tornado está parada na sua frente.
   name: um pequeno redemoinho
-  vnum: '17025'
+  vnum: '010217017025'
 - description: |-
     Ele possui uma face diabólica. Com seu constante sorriso de escárnio
     e seus bruxuleantes membros, que parecem ser afiados como garras.
@@ -177,38 +201,43 @@
   - elemental
   - azul
   - humanoide
+  long_desc: Você se depara com um traiçoeiro humanóide feito de chamas azuis.
   name: uma chama azul
-  vnum: '17026'
+  vnum: '010217017026'
 - description: Um humanóide que parece ter sido preso em um campo magnético.
   keywords:
   - magneto
   - elemental
   - humanoide
+  long_desc: Um estranho ser magnético está te encarando.
   name: o magneto
-  vnum: '17027'
+  vnum: '010217017027'
 - description: |-
     Ele possui uma força emanando de seu corpo.. Você sente um sopro
     frio subindo por suas costas.
   keywords:
   - neve
   - bandido
+  long_desc: Um misterioso ser feito de neve lhe olha de soslaio.
   name: um humanóide de cristal
-  vnum: '17028'
+  vnum: 010217017028
 - description: |-
     Elas parecem estar formando um tipo de humanóide. E sua expressão não
     é muito agradável.
   keywords:
   - rochas
   - monstro
+  long_desc: Subitamente algumas rochas começam a se empilhar diante de seus olhos.
   name: um monstro de rochas
-  vnum: '17029'
+  vnum: 010217017029
 - description: |-
     Você não parece ter muitas chances contra sua ira.. e nem muito
     tempo até que ela lhe atinja.
   keywords:
   - furacao
+  long_desc: Um furação enfurecido rasgando os céus vem em sua direção.
   name: um furacão
-  vnum: '17030'
+  vnum: '010217017030'
 - description: |-
     Uma estranha voz ecoa em sua mente...
     "Séculos, Mundos, Espíritos...  Violarei cada um, até encontrar
@@ -217,16 +246,18 @@
   - anciao
   - mago
   - elemental
+  long_desc: Um estranho ancião está aqui, procurando algumas rochas.
   name: um mago elemental
-  vnum: '17031'
+  vnum: '010217017031'
 - description: |-
     Quando percebe que você está aqui, ele lhe olha de soslaio calmamente.
     Você sente uma sensação de perigo passar por você como um trovão.
   keywords:
   - guerreiro
   - alvorecer
+  long_desc: O grande guerreiro do alvorecer está aqui, cultuando suas crenças.
   name: o guerreiro do alvorecer
-  vnum: '17032'
+  vnum: '010217017032'
 - description: |-
     Ele possui um olhar misterioso e confiante. Subitamente seus olhos começam
     a embaçar e você se torna incapaz de vê-lo durante alguns segundos.
@@ -235,35 +266,42 @@
   keywords:
   - ilusionista
   - homem
+  long_desc: Um misterioso homem olha profundamente em seus olhos..  procurando sua
+    alma.
   name: um ilusionista
-  vnum: '17033'
+  vnum: '010217017033'
 - description: As ervas que ele carrega parecem ser raras.
   keywords:
   - alquimista
+  long_desc: Um esquisito alquimista anda ao redor com algumas ervas.
   name: um alquimista
-  vnum: '17034'
+  vnum: '010217017034'
 - description: |-
     Ele parece um dragão comum. Se não fosse o fato de poder controlar
     todos os elementos da natureza.
   keywords:
   - bebe
   - dragao
+  long_desc: Um bebê dragão está no chão, brincando com os elementos que cria.
   name: um bebê dragão multicolorido
-  vnum: '17035'
+  vnum: '010217017035'
 - description: Ele se assemelha bastante a um desagradável inseto.
   keywords:
   - escravo
+  long_desc: Um raquítico escravo passa rapidamente por você.
   name: um pequeno escravo
-  vnum: '17036'
+  vnum: '010217017036'
 - description: GIGANTESCO, é preciso mais??
   keywords:
   - gigantesco
   - elemental
+  long_desc: Um gigantesco elemental se põe em sua frente.
   name: um gigantesco elemental
-  vnum: '17037'
+  vnum: '010217017037'
 - description: Ele possui um olhar misterioso.. parece ter muitos segredos em suas
     mangas.
   keywords:
   - vendedor
+  long_desc: O vendedor está aqui, oferecendo um estranho elixir.
   name: o vendedor de elixir
-  vnum: '17038'
+  vnum: 010217017038

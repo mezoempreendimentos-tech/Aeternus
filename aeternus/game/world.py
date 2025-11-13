@@ -1,52 +1,61 @@
 import os
 import yaml
-import glob
 from pathlib import Path
 from aeternus.game.objects.room import Room
+from aeternus.game.objects.item import Item
+from aeternus.game.objects.mob import Mob
+from aeternus.core.config import settings
 
 class World:
-    """
-    O Guardião de Toda a Existência.
-    Mantém o registro de todas as salas, mobs e itens carregados.
-    """
     def __init__(self):
-        self.rooms: dict[str, Room] = {} # Mapa: VNUM -> Objeto Room
+        self.room_blueprints: dict[str, Room] = {}
+        self.item_blueprints: dict[str, Item] = {}
+        self.mob_blueprints: dict[str, Mob] = {}
         
+        self.active_players: list = [] # Lista de Jogadores Online
+
     def load_assets(self):
-        """O Grande Ritual de Carregamento."""
-        print("🌍 [WORLD] Iniciando a materialização do mundo...")
-        self._load_rooms()
-        # Futuro: _load_mobs(), _load_items()
+        print("🌍 [WORLD] Carregando ativos...")
+        self._load_generic("rooms.yaml", Room, self.room_blueprints, "Salas")
+        self._load_generic("items.yaml", Item, self.item_blueprints, "Itens")
+        self._load_generic("mobs.yaml", Mob, self.mob_blueprints, "Criaturas")
 
-    def _load_rooms(self):
-        # Busca recursiva por todos os arquivos 'rooms.yaml' dentro de data/world/zones
-        search_path = Path("data/world/zones")
-        files = list(search_path.rglob("rooms.yaml"))
-        
-        if not files:
-            print("⚠️ [WORLD] Nenhum arquivo de sala encontrado. O universo está vazio?")
-            return
-
+    def _load_generic(self, filename, class_ref, target_dict, label):
+        search_path = settings.ZONES_DIR
+        files = list(search_path.rglob(filename))
+        if not files: return
         count = 0
         for yaml_file in files:
             try:
                 with open(yaml_file, 'r', encoding='utf-8') as f:
                     data = yaml.safe_load(f)
                     if not data: continue
-                    
-                    for room_data in data:
-                        new_room = Room(room_data)
-                        self.rooms[new_room.vnum] = new_room
+                    if isinstance(data, dict): data = [data]
+                    for entry in data:
+                        obj = class_ref(entry)
+                        target_dict[obj.vnum] = obj
                         count += 1
-            except Exception as e:
-                print(f"💀 [ERRO] Falha ao ler {yaml_file}: {e}")
-
-        print(f"🏠 [WORLD] {count} salas foram erguidas da névoa.")
+            except: pass
+        print(f"📦 [WORLD] {count} {label} carregados.")
 
     def get_room(self, vnum: str) -> Room:
-        """Retorna a sala pelo VNUM ou a sala do Limbo se não existir."""
-        return self.rooms.get(str(vnum))
+        return self.room_blueprints.get(str(vnum))
 
-# Instância Global (Singleton)
-# Qualquer lugar do código que importar 'world' terá acesso aos dados.
+    def create_item(self, vnum: str) -> Item:
+        return self.item_blueprints.get(str(vnum))
+
+    def create_mob(self, vnum: str) -> Mob:
+        return self.mob_blueprints.get(str(vnum))
+
+    # --- GESTÃO DE JOGADORES ---
+    def add_player(self, player):
+        if player not in self.active_players:
+            self.active_players.append(player)
+            print(f"➕ [WORLD] {player.name} adicionado à lista global. Total: {len(self.active_players)}")
+
+    def remove_player(self, player):
+        if player in self.active_players:
+            self.active_players.remove(player)
+            print(f"➖ [WORLD] {player.name} removido da lista global.")
+
 world = World()

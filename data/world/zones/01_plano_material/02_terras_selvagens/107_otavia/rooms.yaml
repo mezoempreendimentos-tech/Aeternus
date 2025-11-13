@@ -8,11 +8,12 @@
     magnífico, a sul você vê apenas uma floresta muito escura.
   exits:
     north:
-      target_vnum: '10701'
+      target_vnum: '010210710701'
     south:
-      target_vnum: '19083'
+      target_vnum: 010210719083
+  local_id: '10700'
   name: A Floresta Mística Boreal
-  vnum: '10700'
+  vnum: '010210710700'
 - description: |-
     Você está entre as árvores e galhos da colorida floresta boreal.  Os
     pássaros emitem um canto harmonioso e alguns seres pequeninos se escondem
@@ -21,11 +22,12 @@
     floresta continua cheia de mistérios e fantasias.
   exits:
     north:
-      target_vnum: '10702'
+      target_vnum: '010210710702'
     south:
-      target_vnum: '10700'
+      target_vnum: '010210710700'
+  local_id: '10701'
   name: A Floresta Mística Boreal
-  vnum: '10701'
+  vnum: '010210710701'
 - description: |-
     A Floresta neste ponto parece que atinge seu auge de beleza.  A variedade
     das árvores é enorme, os pássaros cantam de forma harmoniosa como se todos
@@ -38,13 +40,14 @@
     e toda a sua beleza.
   exits:
     east:
-      target_vnum: '10799'
+      target_vnum: 010210710799
     south:
-      target_vnum: '10701'
+      target_vnum: '010210710701'
     west:
-      target_vnum: '10703'
+      target_vnum: '010210710703'
+  local_id: '10702'
   name: A Floresta Mística Boreal
-  vnum: '10702'
+  vnum: '010210710702'
 - description: |-
     Você está por entre os coloridos galhos e árvores da linda floresta
     boreal.  Ao seu redor as árvores formam uma belíssima paisagem, uma paisagem
@@ -53,11 +56,12 @@
     dura.
   exits:
     east:
-      target_vnum: '10702'
+      target_vnum: '010210710702'
     west:
-      target_vnum: '10704'
+      target_vnum: '010210710704'
+  local_id: '10703'
   name: A Floresta Mística Boreal
-  vnum: '10703'
+  vnum: '010210710703'
 - description: |-
     Você está numa planície extremamente seca e sem vida alguma.  O sol
     castiga o solo retorcido e todos aqueles que possuem coragem para seguir
@@ -67,19 +71,25 @@
     expectativa, porém sem muita esperança a planície seca e castigada.
   exits:
     east:
-      target_vnum: '10703'
+      target_vnum: '010210710703'
+    northeast:
+      target_vnum: '010210710705'
+  local_id: '10704'
   name: As Terras Esquecidas de Diomira
-  vnum: '10704'
+  vnum: '010210710704'
 - description: |-
     Você continua andando tediosamente pela planície seca de Diomira.  Ao
     oeste e a sudeste você observa as terras sofridas e desertas de Diomira.
   exits:
     down:
-      target_vnum: '10706'
+      target_vnum: '010210710706'
+    southeast:
+      target_vnum: '010210710704'
     west:
-      target_vnum: '10712'
+      target_vnum: '010210710712'
+  local_id: '10705'
   name: As Terras Esquecidas de Diomira
-  vnum: '10705'
+  vnum: '010210710705'
 - description: |-
     Ooooh ! Você achou Diomira, a cidade do fogo.  Esquecida a mais de mil
     anos.  Você está em um lugar, que deveria ser usado como praça pelos
@@ -94,11 +104,16 @@
     enorme barreira de rochas.
   exits:
     north:
-      target_vnum: '10707'
+      target_vnum: '010210710707'
+    northeast:
+      target_vnum: 010210710709
+    northwest:
+      target_vnum: '010210710710'
     up:
-      target_vnum: '10705'
+      target_vnum: '010210710705'
+  local_id: '10706'
   name: Diomira, a cidade do fogo
-  vnum: '10706'
+  vnum: '010210710706'
 - description: |-
     Você está no templo diomiriano, lugar onde por muito tempo o elemento
     divino para os habitantes deste local foi cultuado, o fogo.  Como todos os
@@ -111,11 +126,12 @@
     cidade.
   exits:
     north:
-      target_vnum: '10708'
+      target_vnum: 010210710708
     south:
-      target_vnum: '10706'
+      target_vnum: '010210710706'
+  local_id: '10707'
   name: O Templo de Diomira
-  vnum: '10707'
+  vnum: '010210710707'
 - description: |-
     Você está no altar do templo da cidade esquecida de Diomira.  Nas paredes
     ao seu redor você observa várias inscrições.  No centro do altar você
@@ -125,17 +141,21 @@
     o templo de Diomira.
   exits:
     south:
-      target_vnum: '10707'
+      target_vnum: '010210710707'
+  local_id: '10708'
   name: O Altar do Templo
-  vnum: '10708'
+  vnum: 010210710708
 - description: |-
     Você está no cemitério da cidade de Diomira.  E nunca esquecerá deste
     lugar, ao seu redor ao invés de tumbas ou jazidas, você observa várias
     piscinas de lava endurecida, que nos áureos tempos de Diomira estariam
     cheias de lava fervente.  Ao sudeste você observa a praça diomiriana.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: '010210710706'
+  local_id: '10709'
   name: O Cemitério Diomiriano
-  vnum: '10709'
+  vnum: 010210710709
 - description: |-
     Você está numa pequeno edifício, que no passado deveria ser utilizado como
     residência por uma família diomiriana.  As paredes negras tão um toque
@@ -144,18 +164,22 @@
     e ao sudoeste você observa a praça diomiriana.
   exits:
     north:
-      target_vnum: '10711'
+      target_vnum: '010210710711'
+    southwest:
+      target_vnum: '010210710706'
+  local_id: '10710'
   name: Uma Pequena Casa
-  vnum: '10710'
+  vnum: '010210710710'
 - description: |-
     Você está num pequeno quarto diomiriano, ao norte você observa uma cama
     feita de pedra, ao oeste você percebe a presença de algumas pinturas feitas
     na parede.  Ao sul você observa uma pequena porta.
   exits:
     south:
-      target_vnum: '10710'
+      target_vnum: '010210710710'
+  local_id: '10711'
   name: Um Pequeno Quarto
-  vnum: '10711'
+  vnum: '010210710711'
 - description: |-
     Você está andando pelas terras esquecidas de uma cidade que já foi
     prospera.  Ao seu redor nada mais do que terra seca.  O sol parece querer
@@ -163,9 +187,12 @@
     seca e ao noroeste você vê a base de uma montanha.
   exits:
     east:
-      target_vnum: '10705'
+      target_vnum: '010210710705'
+    northeast:
+      target_vnum: '010210710713'
+  local_id: '10712'
   name: As Terras Esquecidas de Diomira
-  vnum: '10712'
+  vnum: '010210710712'
 - description: |-
     Você está surpreso com a grandiosidade da montanha, ao mesmo tempo que
     percebe que será impossível escala-la por fora.  Ao seu redor as terras
@@ -173,19 +200,27 @@
     você percebe uma entrada para o interior da montanha e ao sudeste você
     observa a seca terra de Diomira.  Ao olhar para os dois lados você se
     pergunta para onde devo seguir ?
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010210710714'
+    southeast:
+      target_vnum: '010210710712'
+  local_id: '10713'
   name: A Base da Montanha Gêmea
-  vnum: '10713'
+  vnum: '010210710713'
 - description: |-
     Você está dentro da montanha; o ambiente aqui é calmo e muito agradável,
     principalmente para os que passaram pelas terras secas de Diomira.  Para
     cima você observa um caminho aberto no corpo da montanha e ao sudeste você
     observa a saída da montanha e as secas terras de Diomira.
   exits:
+    southeast:
+      target_vnum: '010210710713'
     up:
-      target_vnum: '10715'
+      target_vnum: '010210710715'
+  local_id: '10714'
   name: No Interior da Montanha Gêmea
-  vnum: '10714'
+  vnum: '010210710714'
 - description: |-
     Você está andando por um caminho aberto no corpo da montanha.  O caminho
     parece que foi feito para que apenas uma pessoa passe de cada vez.  Ao
@@ -193,27 +228,36 @@
     para baixo você vê o caminho em direção a base da montanha.
   exits:
     down:
-      target_vnum: '10714'
+      target_vnum: '010210710714'
+    northwest:
+      target_vnum: '010210710716'
+  local_id: '10715'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10715'
+  vnum: '010210710715'
 - description: |-
     Você está caminhando por uma estreita trilha aberta no interior da linda
     montanha.  Para cima a trilha rumo ao coração da montanha continua e ao
     sudoeste você observa o caminho rumo a base da montanha gêmea.
   exits:
+    southwest:
+      target_vnum: '010210710715'
     up:
-      target_vnum: '10717'
+      target_vnum: '010210710717'
+  local_id: '10716'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10716'
+  vnum: '010210710716'
 - description: |-
     Você está se espremendo pela trilha estreita (por que tão estreita ?).
     Ao noroeste você observa a continuação da trilha rumo ao coração da montanha
     e para baixo você vê a trilha em direção a base da montanha.
   exits:
     down:
-      target_vnum: '10716'
+      target_vnum: '010210710716'
+    northeast:
+      target_vnum: 010210710718
+  local_id: '10717'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10717'
+  vnum: '010210710717'
 - description: |-
     Você finalmente chega ao coração da montanha gêmea; e agora você começa
     a entender porque denominam este lugar de o coração da montanha.  De repente
@@ -226,10 +270,13 @@
     tão estreita (ufa!) e para sudeste você observa uma trilha estreita em
     direção a base da montanha.
   exits:
+    southeast:
+      target_vnum: '010210710717'
     up:
-      target_vnum: '10719'
+      target_vnum: 010210710719
+  local_id: '10718'
   name: No Coração da Montanha Gêmea do Oeste
-  vnum: '10718'
+  vnum: 010210710718
 - description: |-
     Você está caminhando por um caminho agradável, em direção ao topo da
     montanha.  Para baixo você observa o coração da montanha e escuta sons
@@ -237,9 +284,12 @@
     ao topo da montanha gêmea.
   exits:
     down:
-      target_vnum: '10718'
+      target_vnum: 010210710718
+    northwest:
+      target_vnum: '010210710720'
+  local_id: '10719'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10719'
+  vnum: 010210710719
 - description: |-
     Você está numa abertura no corpo da montanha, observando uma vista
     maravilhosa.  Para cima você observa o topo da montanha, ao sudoeste você vê
@@ -249,10 +299,15 @@
     magnífica, você começa a pensa ( O que ainda falta eu vê neste maravilhoso
     mundo ?).
   exits:
+    southeast:
+      target_vnum: '010210710727'
+    southwest:
+      target_vnum: 010210710719
     up:
-      target_vnum: '10721'
+      target_vnum: '010210710721'
+  local_id: '10720'
   name: Uma Abertura na Corpo da Montanha
-  vnum: '10720'
+  vnum: '010210710720'
 - description: |-
     Você está no topo da Montanha Gêmea.  A vista daqui e' maravilhosa.  Você
     observa toda a extensão das terras de Diomira e de Armila, observa também a
@@ -261,11 +316,12 @@
     uma abertura no corpo da montanha.
   exits:
     down:
-      target_vnum: '10720'
+      target_vnum: '010210710720'
     up:
-      target_vnum: '10722'
+      target_vnum: '010210710722'
+  local_id: '10721'
   name: O Topo da Montanha Gêmea do Oeste
-  vnum: '10721'
+  vnum: '010210710721'
 - description: |-
     Você está num local mágico, onde a lógica perde a razão.  Acredite sim !
     Você está caminhando sobre um arco-íris.  A visão daqui de cima é magnífica,
@@ -278,22 +334,24 @@
     arco-íris.
   exits:
     down:
-      target_vnum: '10721'
+      target_vnum: '010210710721'
     up:
-      target_vnum: '10723'
-  name: "O Arco-Ã\x8Dris dos GuardiÃµes"
-  vnum: '10722'
+      target_vnum: '010210710723'
+  local_id: '10722'
+  name: "O Arco-Ã\x8Dris dos Guardiões"
+  vnum: '010210710722'
 - description: |-
     Você está caminhando perplexo pelo caminho mágico do arco-íris.  Ao seu
     redor apenas nuvens e pássaros sobrevoam Vitália.  Para cima e para baixo
     você observa o lindo e colorido caminho do arco-íris.
   exits:
     down:
-      target_vnum: '10722'
+      target_vnum: '010210710722'
     east:
-      target_vnum: '10724'
-  name: "O Arco-Ã\x8Dris dos GuardiÃµes"
-  vnum: '10723'
+      target_vnum: '010210710724'
+  local_id: '10723'
+  name: "O Arco-Ã\x8Dris dos Guardiões"
+  vnum: '010210710723'
 - description: |-
     Você continua caminhando sobre o caminho mágico do arco-íris.  A paisagem
     Vitaliana vista daqui é surpreendente.  O arco-íris parece abençoar Otávia e
@@ -301,11 +359,12 @@
     colorido caminho do arco-íris.
   exits:
     down:
-      target_vnum: '10725'
+      target_vnum: '010210710725'
     west:
-      target_vnum: '10723'
-  name: "O Arco-Ã\x8Dris dos GuardiÃµes"
-  vnum: '10724'
+      target_vnum: '010210710723'
+  local_id: '10724'
+  name: "O Arco-Ã\x8Dris dos Guardiões"
+  vnum: '010210710724'
 - description: |-
     Você está caminhando pelo magnífico e surpreendente caminho do arco-íris.
     Ao seu redor apenas nuvens e pássaros sobrevoam Vitália.  A visão das terras
@@ -314,11 +373,12 @@
     observa o caminho mágico do arco-íris.
   exits:
     down:
-      target_vnum: '10726'
+      target_vnum: '010210710726'
     up:
-      target_vnum: '10724'
-  name: "O Arco-Ã\x8Dris dos GuardiÃµes"
-  vnum: '10725'
+      target_vnum: '010210710724'
+  local_id: '10725'
+  name: "O Arco-Ã\x8Dris dos Guardiões"
+  vnum: '010210710725'
 - description: |-
     Você está num local mágico, onde a lógica perde a razão.  Acredite sim !
     Você está caminhando sobre um arco-íris.  A visão daqui de cima é magnífica,
@@ -331,11 +391,12 @@
     arco-íris.
   exits:
     down:
-      target_vnum: '10782'
+      target_vnum: 010210710782
     up:
-      target_vnum: '10725'
-  name: "O Arco-Ã\x8Dris dos GuardiÃµes"
-  vnum: '10726'
+      target_vnum: '010210710725'
+  local_id: '10726'
+  name: "O Arco-Ã\x8Dris dos Guardiões"
+  vnum: '010210710726'
 - description: |-
     Você está na entrada oeste da cidade-teia-de-aranha.  Você observa teias,
     fios e correntes que se prendem a Montanha Gêmea do Oeste e sustentam a
@@ -352,11 +413,14 @@
     Para baixo você percebe uma corda descendo em direção de uma passarela.
   exits:
     down:
-      target_vnum: '10739'
+      target_vnum: 010210710739
     east:
-      target_vnum: '10728'
+      target_vnum: 010210710728
+    northeast:
+      target_vnum: '010210710720'
+  local_id: '10727'
   name: Otávia, a Cidade Delgada
-  vnum: '10727'
+  vnum: '010210710727'
 - description: |-
     Você está sobre uma passarela construída com madeira, fios e teias.  A
     atenção ao caminhar na passarela deve ser redobrada, pois existem intervalos
@@ -366,13 +430,14 @@
     corda que desce na direção de uma casa otaviana.
   exits:
     down:
-      target_vnum: '10740'
+      target_vnum: '010210710740'
     east:
-      target_vnum: '10729'
+      target_vnum: 010210710729
     west:
-      target_vnum: '10727'
+      target_vnum: '010210710727'
+  local_id: '10728'
   name: Uma Passarela de Madeira
-  vnum: '10728'
+  vnum: 010210710728
 - description: |-
     Você está sobre uma passarela construída com madeira, fios e teias.  A
     atenção ao caminhar na passarela deve ser redobrada, pois existem intervalos
@@ -382,13 +447,14 @@
     direção de uma passarela de madeira.
   exits:
     down:
-      target_vnum: '10741'
+      target_vnum: '010210710741'
     east:
-      target_vnum: '10730'
+      target_vnum: '010210710730'
     west:
-      target_vnum: '10728'
+      target_vnum: 010210710728
+  local_id: '10729'
   name: Uma Passarela de Madeira
-  vnum: '10729'
+  vnum: 010210710729
 - description: |-
     Você está em uma tradicional residência otaviana.  Do lado de fora você
     não imaginava que uma casa em forma de um saco fosse tão confortável.  Você
@@ -398,13 +464,14 @@
     baixo você percebe uma corda descendo em direção de uma florida praça.
   exits:
     down:
-      target_vnum: '10742'
+      target_vnum: '010210710742'
     east:
-      target_vnum: '10731'
+      target_vnum: '010210710731'
     west:
-      target_vnum: '10729'
+      target_vnum: 010210710729
+  local_id: '10730'
   name: A Residência de Fireheart
-  vnum: '10730'
+  vnum: '010210710730'
 - description: |-
     Você está sobre uma passarela de madeira.  Ao seu redor você observa
     casas em formas de saco e vários objetos pendurados por barbantes.  Ao leste
@@ -413,13 +480,14 @@
     passarela de madeira.
   exits:
     down:
-      target_vnum: '10743'
+      target_vnum: '010210710743'
     east:
-      target_vnum: '10732'
+      target_vnum: '010210710732'
     west:
-      target_vnum: '10730'
+      target_vnum: '010210710730'
+  local_id: '10731'
   name: Uma Passarela de Madeira
-  vnum: '10731'
+  vnum: '010210710731'
 - description: |-
     Você está no edifício das artes otavianas.  A Pintura, a escultura e a
     arquitetura expressam a vida e os costumes dos cidadãos otavianos.  Ao seu
@@ -429,15 +497,16 @@
     de madeira e para baixo você percebe uma corda em direção a uma passarela.
   exits:
     down:
-      target_vnum: '10744'
+      target_vnum: '010210710744'
     east:
-      target_vnum: '10734'
+      target_vnum: '010210710734'
     north:
-      target_vnum: '10733'
+      target_vnum: '010210710733'
     west:
-      target_vnum: '10731'
+      target_vnum: '010210710731'
+  local_id: '10732'
   name: O Edifício das Artes Otavianas
-  vnum: '10732'
+  vnum: '010210710732'
 - description: |-
     Você está no atelier de pintura do edifício das artes.  Ao seu redor você
     observa artistas otavianos expressando seus sentimentos na arte e seus
@@ -446,9 +515,10 @@
     das artes.
   exits:
     south:
-      target_vnum: '10732'
+      target_vnum: '010210710732'
+  local_id: '10733'
   name: O Atelier de Pintura
-  vnum: '10733'
+  vnum: '010210710733'
 - description: |-
     Você está caminhando sobre uma passarela de madeira.  Ao leste você
     observa uma casa otaviana e ao oeste você observa o edifício das artes
@@ -456,13 +526,14 @@
     passarela de madeira.
   exits:
     down:
-      target_vnum: '10745'
+      target_vnum: '010210710745'
     south:
-      target_vnum: '10735'
+      target_vnum: '010210710735'
     west:
-      target_vnum: '10732'
+      target_vnum: '010210710732'
+  local_id: '10734'
   name: Uma Passarela de Madeira
-  vnum: '10734'
+  vnum: '010210710734'
 - description: |-
     Você está em uma tradicional residência otaviana.  Do lado de fora você
     não imaginava que uma casa em forma de um saco fosse tão confortável.  Você
@@ -472,13 +543,14 @@
     percebe uma corda descendo em direção de uma florida praça.
   exits:
     down:
-      target_vnum: '10746'
+      target_vnum: '010210710746'
     east:
-      target_vnum: '10736'
+      target_vnum: '010210710736'
     west:
-      target_vnum: '10734'
+      target_vnum: '010210710734'
+  local_id: '10735'
   name: A Residência de Waterheart
-  vnum: '10735'
+  vnum: '010210710735'
 - description: |-
     Você está sobre uma passarela construída com madeira, fios e teias.  A
     atenção ao caminhar na passarela deve ser redobrada, pois existem intervalos
@@ -488,13 +560,14 @@
     direção de uma passarela de madeira.
   exits:
     down:
-      target_vnum: '10747'
+      target_vnum: '010210710747'
     east:
-      target_vnum: '10737'
+      target_vnum: '010210710737'
     west:
-      target_vnum: '10735'
+      target_vnum: '010210710735'
+  local_id: '10736'
   name: Uma Passarela de Madeira
-  vnum: '10736'
+  vnum: '010210710736'
 - description: |-
     Você está caminhando sobre uma passarela feita de madeira, fios e teias.
     Ao leste você observa a entrada leste da cidade, ao oeste você observa a
@@ -502,13 +575,14 @@
     descendo em direção de uma casa otaviana.
   exits:
     down:
-      target_vnum: '10748'
+      target_vnum: 010210710748
     east:
-      target_vnum: '10738'
+      target_vnum: 010210710738
     west:
-      target_vnum: '10736'
+      target_vnum: '010210710736'
+  local_id: '10737'
   name: Uma Passarela de Madeira
-  vnum: '10737'
+  vnum: '010210710737'
 - description: |-
     Você está na entrada leste da cidade-teia-de-aranha.  Você observa teias,
     fios e correntes que se prendem a Montanha Gêmea do leste e sustentam a
@@ -525,11 +599,14 @@
     Para baixo você percebe uma corda descendo em direção de uma passarela.
   exits:
     down:
-      target_vnum: '10749'
+      target_vnum: 010210710749
+    northwest:
+      target_vnum: 010210710783
     west:
-      target_vnum: '10737'
+      target_vnum: '010210710737'
+  local_id: '10738'
   name: Otávia, a Cidade Delgada
-  vnum: '10738'
+  vnum: 010210710738
 - description: |-
     Você está caminhando sobre uma passarela de madeira.  Ao leste você
     observa uma casa otaviana.  Para cima você percebe uma corda que sobe em
@@ -537,13 +614,14 @@
     desce em direção de uma casa otaviana.
   exits:
     down:
-      target_vnum: '10750'
+      target_vnum: '010210710750'
     east:
-      target_vnum: '10740'
+      target_vnum: '010210710740'
     up:
-      target_vnum: '10727'
+      target_vnum: '010210710727'
+  local_id: '10739'
   name: Uma Passarela de Madeira
-  vnum: '10739'
+  vnum: 010210710739
 - description: |-
     Você está dentro de uma residência otaviana.  Ao seu redor você observa
     uma cama no canto sul da casa, uma mesa e algumas cadeiras penduradas por
@@ -553,11 +631,12 @@
     corda que sobe em direção de uma passarela.
   exits:
     up:
-      target_vnum: '10728'
+      target_vnum: 010210710728
     west:
-      target_vnum: '10739'
+      target_vnum: 010210710739
+  local_id: '10740'
   name: Uma Residência Otaviana
-  vnum: '10740'
+  vnum: '010210710740'
 - description: |-
     Você está caminhando sobre uma passarela de madeira.  Sua atenção deve
     ser redobrada para não dar um passo no vazio dos intervalos da passarela.
@@ -567,13 +646,14 @@
     Otávia.
   exits:
     down:
-      target_vnum: '10751'
+      target_vnum: '010210710751'
     east:
-      target_vnum: '10742'
+      target_vnum: '010210710742'
     up:
-      target_vnum: '10729'
+      target_vnum: 010210710729
+  local_id: '10741'
   name: Uma Passarela de Madeira
-  vnum: '10741'
+  vnum: '010210710741'
 - description: |-
     Você está numa maravilhosa praça.  Flores de todos os tipos compõem um
     verdadeiro festival de cores e perfumes.  Vários pássaros e borboletas
@@ -586,13 +666,14 @@
     corda que desce em direção de uma passarela de madeira.
   exits:
     down:
-      target_vnum: '10752'
+      target_vnum: '010210710752'
     up:
-      target_vnum: '10730'
+      target_vnum: '010210710730'
     west:
-      target_vnum: '10741'
+      target_vnum: '010210710741'
+  local_id: '10742'
   name: A Florida Praça da Cidade de Otávia
-  vnum: '10742'
+  vnum: '010210710742'
 - description: |-
     Você está caminhando por uma passarela de madeira.  A vista da cidade de
     Otávia da passarela é belíssima e surpreendente.  Ao leste você observa uma
@@ -601,13 +682,14 @@
     direção de um magnífico edifício otaviano.
   exits:
     down:
-      target_vnum: '10753'
+      target_vnum: '010210710753'
     east:
-      target_vnum: '10744'
+      target_vnum: '010210710744'
     up:
-      target_vnum: '10731'
+      target_vnum: '010210710731'
+  local_id: '10743'
   name: Uma Passarela de Madeira
-  vnum: '10743'
+  vnum: '010210710743'
 - description: |-
     Você está caminhando sobre uma passarela construída com madeira, fios e
     teias.  Ao seu redor você observa toda a cidade de Otávia e sua exclusiva
@@ -618,15 +700,16 @@
     madeira.
   exits:
     down:
-      target_vnum: '10754'
+      target_vnum: '010210710754'
     east:
-      target_vnum: '10745'
+      target_vnum: '010210710745'
     up:
-      target_vnum: '10732'
+      target_vnum: '010210710732'
     west:
-      target_vnum: '10743'
+      target_vnum: '010210710743'
+  local_id: '10744'
   name: Uma Passarela de Madeira
-  vnum: '10744'
+  vnum: '010210710744'
 - description: |-
     Você com muita atenção caminha sobre a passarela de madeira.  Ao oeste
     você observa uma passarela de madeira, para cima você percebe uma corda que
@@ -634,13 +717,14 @@
     corda que desce em direção do edifício do Museu otaviano.
   exits:
     down:
-      target_vnum: '10755'
+      target_vnum: '010210710755'
     up:
-      target_vnum: '10734'
+      target_vnum: '010210710734'
     west:
-      target_vnum: '10744'
+      target_vnum: '010210710744'
+  local_id: '10745'
   name: Uma Passarela de Madeira
-  vnum: '10745'
+  vnum: '010210710745'
 - description: |-
     Você está na praça da alegria de Otávia.  Ao seu redor várias crianças
     correm e brincam entre as flores e árvores, no canto norte na praça você
@@ -652,13 +736,14 @@
     de uma passarela de madeira.
   exits:
     down:
-      target_vnum: '10756'
+      target_vnum: '010210710756'
     east:
-      target_vnum: '10747'
+      target_vnum: '010210710747'
     up:
-      target_vnum: '10735'
+      target_vnum: '010210710735'
+  local_id: '10746'
   name: A Praça da Alegria de Otávia
-  vnum: '10746'
+  vnum: '010210710746'
 - description: |-
     Você está caminhando sobre uma passarela de madeira.  Ao oeste você
     observa várias crianças brincando na praça da alegria, para cima você
@@ -666,13 +751,14 @@
     baixo você percebe uma corda que desce em direção do observatório otaviano.
   exits:
     down:
-      target_vnum: '10757'
+      target_vnum: '010210710757'
     up:
-      target_vnum: '10736'
+      target_vnum: '010210710736'
     west:
-      target_vnum: '10746'
+      target_vnum: '010210710746'
+  local_id: '10747'
   name: Uma Passarela de Madeira
-  vnum: '10747'
+  vnum: '010210710747'
 - description: |-
     Você está dentro de uma casa otaviana.  Ao seu redor você observa vários
     objetos pendurados por correntes.  Panelas, mesas, cadeiras, pratos e
@@ -681,11 +767,12 @@
     em direção de uma passarela de madeira.
   exits:
     east:
-      target_vnum: '10749'
+      target_vnum: 010210710749
     up:
-      target_vnum: '10737'
+      target_vnum: '010210710737'
+  local_id: '10748'
   name: Uma Residência Otaviana
-  vnum: '10748'
+  vnum: 010210710748
 - description: |-
     Você está caminhando atentamente sobre uma passarela de madeira.  Ao
     oeste você observa uma residência otaviana, para cima você observa uma corda
@@ -693,13 +780,14 @@
     corda que desce em direção de uma residência otaviana.
   exits:
     down:
-      target_vnum: '10758'
+      target_vnum: 010210710758
     up:
-      target_vnum: '10738'
+      target_vnum: 010210710738
     west:
-      target_vnum: '10748'
+      target_vnum: 010210710748
+  local_id: '10749'
   name: Uma Passarela de Madeira
-  vnum: '10749'
+  vnum: 010210710749
 - description: |-
     Você está dentro de uma casa otaviana.  Ao seu redor você observa vários
     objetos pendurados por correntes.  Panelas, mesas, cadeiras, pratos e
@@ -707,9 +795,10 @@
     percebe uma corda que sobe em direção de uma passarela de madeira.
   exits:
     up:
-      target_vnum: '10739'
+      target_vnum: 010210710739
+  local_id: '10750'
   name: Uma Residência Otaviana
-  vnum: '10750'
+  vnum: '010210710750'
 - description: |-
     Você está no salão sagrado dos otavianos.  Ao seu redor você observa as
     estatuas dos cavaleiros lendários de Otávia que pregavam e semeavam a paz e
@@ -720,11 +809,12 @@
     passarela feita de madeira, fios e teias.
   exits:
     down:
-      target_vnum: '10759'
+      target_vnum: 010210710759
     up:
-      target_vnum: '10741'
+      target_vnum: '010210710741'
+  local_id: '10751'
   name: O Salão dos Cavaleiros Lendários
-  vnum: '10751'
+  vnum: '010210710751'
 - description: |-
     Você está caminhando sobre uma passarela de madeira.  Ao seu redor a
     beleza exclusiva de Otávia e de seus edifícios pendurados por correntes.
@@ -732,11 +822,12 @@
     para baixo você percebe uma corda que desce em direção de uma casa otaviana.
   exits:
     down:
-      target_vnum: '10760'
+      target_vnum: '010210710760'
     up:
-      target_vnum: '10742'
+      target_vnum: '010210710742'
+  local_id: '10752'
   name: Uma Passarela de Madeira
-  vnum: '10752'
+  vnum: '010210710752'
 - description: |-
     Você está caminhando por um grande salão bem iluminado e muito bem
     conservado.  No canto norte do salão você observa três cadeiras e uma mesa,
@@ -749,15 +840,16 @@
     de madeira.
   exits:
     down:
-      target_vnum: '10761'
+      target_vnum: '010210710761'
     east:
-      target_vnum: '10754'
+      target_vnum: '010210710754'
     up:
-      target_vnum: '10743'
+      target_vnum: '010210710743'
     west:
-      target_vnum: '10752'
+      target_vnum: '010210710752'
+  local_id: '10753'
   name: A Tríade da Justiça
-  vnum: '10753'
+  vnum: '010210710753'
 - description: |-
     Você está no coração da cidade.  Aqui estão localizados os principais
     edifícios otavianos.  Daqui partem várias passarelas que percorrem a cidade
@@ -769,15 +861,16 @@
     Otávia.
   exits:
     down:
-      target_vnum: '10762'
+      target_vnum: '010210710762'
     east:
-      target_vnum: '10755'
+      target_vnum: '010210710755'
     up:
-      target_vnum: '10744'
+      target_vnum: '010210710744'
     west:
-      target_vnum: '10753'
+      target_vnum: '010210710753'
+  local_id: '10754'
   name: O Coração da Cidade
-  vnum: '10754'
+  vnum: '010210710754'
 - description: |-
     Magnífico !  Vocês está dentro do museu otaviano, ao seu redor várias
     peças tradicionais do cotidiano otaviano, esculturas e várias pinturas.  No
@@ -788,15 +881,16 @@
     otaviana.
   exits:
     down:
-      target_vnum: '10763'
+      target_vnum: '010210710763'
     east:
-      target_vnum: '10756'
+      target_vnum: '010210710756'
     up:
-      target_vnum: '10745'
+      target_vnum: '010210710745'
     west:
-      target_vnum: '10754'
+      target_vnum: '010210710754'
+  local_id: '10755'
   name: O Museu Otaviano
-  vnum: '10755'
+  vnum: '010210710755'
 - description: |-
     Você está caminhando sobre uma passarela de madeira.  Ao oeste você
     observa o museu da cidade, para cima você observa uma corda que sobe em
@@ -804,13 +898,14 @@
     direção de uma casa otaviana.
   exits:
     down:
-      target_vnum: '10764'
+      target_vnum: '010210710764'
     up:
-      target_vnum: '10746'
+      target_vnum: '010210710746'
     west:
-      target_vnum: '10755'
+      target_vnum: '010210710755'
+  local_id: '10756'
   name: Uma Passarela de Madeira
-  vnum: '10756'
+  vnum: '010210710756'
 - description: |-
     Você está no observatório dos astros da cidade de Otávia.  Ao seu redor
     vários desenhos e mapas de constelações, mesas e várias cadeiras.  No teto
@@ -820,11 +915,12 @@
     percebe uma corda que desce em direção de uma passarela de madeira.
   exits:
     down:
-      target_vnum: '10765'
+      target_vnum: '010210710765'
     up:
-      target_vnum: '10747'
+      target_vnum: '010210710747'
+  local_id: '10757'
   name: O Observatório dos Astros
-  vnum: '10757'
+  vnum: '010210710757'
 - description: |-
     Você está dentro de uma casa otaviana.  Ao seu redor você observa vários
     objetos pendurados por correntes.  Panelas, mesas, cadeiras, pratos e
@@ -832,9 +928,10 @@
     percebe uma corda que sobe em direção de uma passarela de madeira.
   exits:
     up:
-      target_vnum: '10749'
+      target_vnum: 010210710749
+  local_id: '10758'
   name: Uma Residência Otaviana
-  vnum: '10758'
+  vnum: 010210710758
 - description: |-
     Você está caminhando atentamente sobre uma passarela de madeira.  Ao
     leste você observa uma casa otaviana, para cima você observa uma corda que
@@ -843,13 +940,14 @@
     perfumada.
   exits:
     down:
-      target_vnum: '10766'
+      target_vnum: '010210710766'
     east:
-      target_vnum: '10760'
+      target_vnum: '010210710760'
     up:
-      target_vnum: '10751'
+      target_vnum: '010210710751'
+  local_id: '10759'
   name: Uma Passarela de Madeira
-  vnum: '10759'
+  vnum: 010210710759
 - description: |-
     Você está dentro de uma residência otaviana.  Ao seu redor você observa
     uma cama no canto sul da casa, uma mesa e algumas cadeiras penduradas por
@@ -859,11 +957,12 @@
     corda que sobe em direção de uma passarela.
   exits:
     up:
-      target_vnum: '10752'
+      target_vnum: '010210710752'
     west:
-      target_vnum: '10759'
+      target_vnum: 010210710759
+  local_id: '10760'
   name: Uma Residência otaviana
-  vnum: '10760'
+  vnum: '010210710760'
 - description: |-
     Você está sobre uma passarela construída com madeira, fios e teias.  A
     atenção ao caminhar na passarela deve ser redobrada, pois existem intervalos
@@ -872,11 +971,12 @@
     para baixo você observa uma corda que desce na direção da praça dos anciões.
   exits:
     down:
-      target_vnum: '10767'
+      target_vnum: '010210710767'
     up:
-      target_vnum: '10753'
+      target_vnum: '010210710753'
+  local_id: '10761'
   name: Uma Passarela de Madeira
-  vnum: '10761'
+  vnum: '010210710761'
 - description: |-
     Você está no templo de Otávia, local onde o elemento ar é cultuado pelos
     otavianos.  Você sente uma paz incrível dentro do seu coração, seus cabelos
@@ -889,11 +989,12 @@
     corda que desce em direção de uma passarela de madeira.
   exits:
     down:
-      target_vnum: '10768'
+      target_vnum: 010210710768
     up:
-      target_vnum: '10754'
+      target_vnum: '010210710754'
+  local_id: '10762'
   name: O Templo de Otávia
-  vnum: '10762'
+  vnum: '010210710762'
 - description: |-
     Você está na biblioteca da cidade de Otávia.  Ao seu redor várias
     estantes de madeira penduradas cheias de livros.  No canto sul da biblioteca
@@ -903,11 +1004,12 @@
     você observa uma corda que sobe em direção do museu da cidade.
   exits:
     down:
-      target_vnum: '10769'
+      target_vnum: 010210710769
     up:
-      target_vnum: '10755'
+      target_vnum: '010210710755'
+  local_id: '10763'
   name: A Biblioteca da Cidade
-  vnum: '10763'
+  vnum: '010210710763'
 - description: |-
     Você está dentro de uma casa otaviana.  Ao seu redor você observa vários
     objetos pendurados por correntes.  Panelas, mesas, cadeiras, pratos e
@@ -916,11 +1018,12 @@
     você observa uma passarela de madeira.
   exits:
     east:
-      target_vnum: '10765'
+      target_vnum: '010210710765'
     up:
-      target_vnum: '10756'
+      target_vnum: '010210710756'
+  local_id: '10764'
   name: Uma Residência Otaviana
-  vnum: '10764'
+  vnum: '010210710764'
 - description: |-
     Você está sobre uma passarela de madeira.  Ao seu redor você observa
     casas em formas de saco e vários objetos pendurados por barbantes.  Ao oeste
@@ -929,13 +1032,14 @@
     direção do observatório dos astros.
   exits:
     down:
-      target_vnum: '10770'
+      target_vnum: '010210710770'
     up:
-      target_vnum: '10757'
+      target_vnum: '010210710757'
     west:
-      target_vnum: '10764'
+      target_vnum: '010210710764'
+  local_id: '10765'
   name: Uma Passarela de Madeira
-  vnum: '10765'
+  vnum: '010210710765'
 - description: |-
     Você está na casa da profetisa otaviana.  Ao seu redor você observa
     vários objetos pendurados por correntes e vários pergaminhos e livros
@@ -944,9 +1048,10 @@
     em direção de uma passarela de madeira.
   exits:
     up:
-      target_vnum: '10759'
+      target_vnum: 010210710759
+  local_id: '10766'
   name: A Casa da Profetisa
-  vnum: '10766'
+  vnum: '010210710766'
 - description: |-
     Você está na praça dos anciões de Otávia.  Ao seu redor você observa
     várias árvores e flores penduradas por correntes e teias, o perfume das
@@ -955,30 +1060,33 @@
     em direção de uma passarela de madeira.
   exits:
     up:
-      target_vnum: '10761'
+      target_vnum: '010210710761'
+  local_id: '10767'
   name: A Praça dos Anciões de Otávia
-  vnum: '10767'
+  vnum: '010210710767'
 - description: |-
     Você com muita atenção caminha sobre a passarela de madeira.  Para cima
     você percebe uma corda que sobe em direção do templo de Otávia e para baixo
     você percebe uma corda que desce em direção dos jardins do palácio real.
   exits:
     down:
-      target_vnum: '10771'
+      target_vnum: '010210710771'
     up:
-      target_vnum: '10762'
+      target_vnum: '010210710762'
+  local_id: '10768'
   name: Uma Passarela de Madeira
-  vnum: '10768'
-- description: "VocÃª estÃ¡ na praÃ§a da amizade de OtÃ¡via.  Ã\x81rvores penduradas,\
+  vnum: 010210710768
+- description: "Você está na praça da amizade de Otávia.  Ã\x81rvores penduradas,\
     \ bancos de\nmadeira, crianças brincando e várias flores compõem uma das praças\
     \ mais\nbonitas de Otávia.  A Praça da Amizade é o lugar ideal para fazer novos\n\
     amigos ou fortalecer os laços de união e fraternidade.  Para cima você\nobserva\
     \ uma corda que sobe em direção da biblioteca da cidade."
   exits:
     up:
-      target_vnum: '10763'
+      target_vnum: '010210710763'
+  local_id: '10769'
   name: A Praça da Amizade de Otávia
-  vnum: '10769'
+  vnum: 010210710769
 - description: |-
     Você está dentro de uma casa otaviana.  Ao seu redor você observa vários
     objetos pendurados por correntes.  Panelas, mesas, cadeiras, pratos e
@@ -986,9 +1094,10 @@
     percebe uma corda que sobe em direção de uma passarela de madeira.
   exits:
     up:
-      target_vnum: '10765'
+      target_vnum: '010210710765'
+  local_id: '10770'
   name: Uma Residência Otaviana
-  vnum: '10770'
+  vnum: '010210710770'
 - description: |-
     Você caminhando entre flores perfumadas e borboletas coloridas.  O aroma
     suave das flores encantam qualquer visitante.  Ao seu redor vários cidadões
@@ -997,11 +1106,12 @@
     você observa uma corda que desce em direção da entrada do palácio real.
   exits:
     down:
-      target_vnum: '10772'
+      target_vnum: '010210710772'
     up:
-      target_vnum: '10768'
+      target_vnum: 010210710768
+  local_id: '10771'
   name: Os Jardins do Palácio Real
-  vnum: '10771'
+  vnum: '010210710771'
 - description: |-
     Você está na entrada do palácio real otaviano.  A arquitetura do edifício
     é magnífica.  Correntes descem e prendem o palácio, deixando-o suspenso no
@@ -1011,11 +1121,12 @@
     terras esquecidas de Diomira e Armila.  Ao sul você observa um grande salão.
   exits:
     south:
-      target_vnum: '10773'
+      target_vnum: '010210710773'
     up:
-      target_vnum: '10771'
+      target_vnum: '010210710771'
+  local_id: '10772'
   name: A Entrada do Palácio Real
-  vnum: '10772'
+  vnum: '010210710772'
 - description: |-
     Você está caminhando por um grande salão.  Ao seu redor cadeiras, mesas e
     quadros com pinturas otavianas compõem o ambiente.  O Salão é usado pelo
@@ -1023,9 +1134,12 @@
     bela escadaria.
   exits:
     north:
-      target_vnum: '10772'
+      target_vnum: '010210710772'
+    southeast:
+      target_vnum: '010210710774'
+  local_id: '10773'
   name: O Salão Real
-  vnum: '10773'
+  vnum: '010210710773'
 - description: |-
     Você está caminhando sobre uma escadaria magnífica de marfim.  Nas
     paredes você observa várias pinturas otavianas com temas relacionados ao seu
@@ -1033,9 +1147,12 @@
     você observa o salão real.
   exits:
     down:
-      target_vnum: '10775'
+      target_vnum: '010210710775'
+    northeast:
+      target_vnum: '010210710773'
+  local_id: '10774'
   name: Uma Escadaria de Marfim
-  vnum: '10774'
+  vnum: '010210710774'
 - description: |-
     Você está caminhando pelo corredor do palácio real de Otávia.  Ao seu
     redor várias portas de madeira e alguns quadros de artistas da cidade.  Para
@@ -1045,15 +1162,18 @@
     observa a sala da guarda real.
   exits:
     east:
-      target_vnum: '10778'
+      target_vnum: 010210710778
     north:
-      target_vnum: '10776'
+      target_vnum: '010210710776'
+    northwest:
+      target_vnum: '010210710777'
     south:
-      target_vnum: '10779'
+      target_vnum: 010210710779
     up:
-      target_vnum: '10774'
+      target_vnum: '010210710774'
+  local_id: '10775'
   name: Um Corredor do Palácio Real
-  vnum: '10775'
+  vnum: '010210710775'
 - description: |-
     Você está na cozinha do palácio real.  O aroma aqui é maravilhoso, você
     observa ao seu redor vários pratos e talheres.  No canto norte da cozinha
@@ -1061,15 +1181,19 @@
     corredor.
   exits:
     south:
-      target_vnum: '10775'
+      target_vnum: '010210710775'
+  local_id: '10776'
   name: A Cozinha do Palácio
-  vnum: '10776'
+  vnum: '010210710776'
 - description: |-
     Você está na sala da guarda real.  Ao seu redor você observa várias camas
     e estantes de madeira.  Ao sudoeste você observa um corredor.
-  exits: {}
+  exits:
+    southwest:
+      target_vnum: '010210710775'
+  local_id: '10777'
   name: A Sala da Guarda Real
-  vnum: '10777'
+  vnum: '010210710777'
 - description: |-
     Você está caminhando sobre uma escadaria magnífica de marfim.  Nas
     paredes você observa várias pinturas otavianas com temas relacionados ao seu
@@ -1077,20 +1201,22 @@
     oeste você observa um corredor.
   exits:
     down:
-      target_vnum: '10780'
+      target_vnum: 010210710780
     west:
-      target_vnum: '10775'
+      target_vnum: '010210710775'
+  local_id: '10778'
   name: Uma Escadaria de Marfim
-  vnum: '10778'
+  vnum: 010210710778
 - description: |-
     Você está no quarto de hospedes do palácio.  Ao seu redor você observa
     várias camas para os visitantes da cidade.  Pela janela você observa as
     terras esquecidas de Diomira e Armila.  Ao norte você observa um corredor.
   exits:
     north:
-      target_vnum: '10775'
+      target_vnum: '010210710775'
+  local_id: '10779'
   name: O Quarto de Hospedes
-  vnum: '10779'
+  vnum: 010210710779
 - description: |-
     Você está nos aposentos reais do palácio.  Ao seu redor você observa
     vários quadros e objetos pessoais da líder otaviana.  No canto norte dos
@@ -1099,20 +1225,22 @@
     observa uma escadaria de marfim.
   exits:
     east:
-      target_vnum: '10781'
+      target_vnum: 010210710781
     up:
-      target_vnum: '10778'
+      target_vnum: 010210710778
+  local_id: '10780'
   name: Os Aposentos Reais
-  vnum: '10780'
+  vnum: 010210710780
 - description: |-
     Você está na varanda dos aposentos reais.  Desfrutando da bela paisagem
     que é possível ver daqui.  Ao seu redor algumas flores ornamentam o local.
     Ao oeste você observa os aposentos reais.
   exits:
     west:
-      target_vnum: '10780'
+      target_vnum: 010210710780
+  local_id: '10781'
   name: A Varanda dos Aposentos Reais
-  vnum: '10781'
+  vnum: 010210710781
 - description: |-
     Você está no topo da Montanha Gêmea.  A vista daqui e' maravilhosa.  Você
     observa toda a extensão das terras de Diomira e de Armila, observa também a
@@ -1121,11 +1249,12 @@
     uma abertura no corpo da montanha.
   exits:
     down:
-      target_vnum: '10783'
+      target_vnum: 010210710783
     up:
-      target_vnum: '10726'
+      target_vnum: '010210710726'
+  local_id: '10782'
   name: O Topo da Montanha Gêmea do Leste
-  vnum: '10782'
+  vnum: 010210710782
 - description: |-
     Você está numa abertura no corpo da montanha, observando uma vista
     maravilhosa.  Para cima você observa o topo da montanha, ao sudeste você vê
@@ -1135,10 +1264,15 @@
     magnífica, você começa a pensa ( O que ainda falta eu vê neste maravilhoso
     mundo ?).
   exits:
+    southeast:
+      target_vnum: 010210710784
+    southwest:
+      target_vnum: 010210710738
     up:
-      target_vnum: '10782'
+      target_vnum: 010210710782
+  local_id: '10783'
   name: Uma Abertura na Corpo da Montanha
-  vnum: '10783'
+  vnum: 010210710783
 - description: |-
     Você está caminhando por um caminho agradável, em direção ao topo da
     montanha.  Para baixo você observa o coração da montanha e escuta sons
@@ -1146,9 +1280,12 @@
     ao topo da montanha gêmea.
   exits:
     down:
-      target_vnum: '10785'
+      target_vnum: 010210710785
+    northeast:
+      target_vnum: 010210710783
+  local_id: '10784'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10784'
+  vnum: 010210710784
 - description: |-
     Você finalmente chega ao coração da montanha gêmea; e agora você começa
     a entender porque denominam este lugar de o coração da montanha.  De repente
@@ -1161,28 +1298,37 @@
     tão estreita (ufa!) e para sudoeste você observa uma trilha estreita em
     direção a base da montanha.
   exits:
+    southwest:
+      target_vnum: 010210710786
     up:
-      target_vnum: '10784'
+      target_vnum: 010210710784
+  local_id: '10785'
   name: O Coração da Montanha Gêmea do Leste
-  vnum: '10785'
+  vnum: 010210710785
 - description: |-
     Você está se espremendo pela trilha estreita (por que tão estreita ?).
     Ao nordeste você observa a continuação da trilha rumo ao coração da montanha
     e para baixo você vê a trilha em direção a base da montanha.
   exits:
     down:
-      target_vnum: '10785'
+      target_vnum: 010210710785
+    northwest:
+      target_vnum: 010210710785
+  local_id: '10786'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10786'
+  vnum: 010210710786
 - description: |-
     Você está caminhando por uma estreita trilha aberta no interior da linda
     montanha.  Para cima a trilha rumo ao coração da montanha continua e ao
     sudeste você observa o caminho rumo a base da montanha gêmea.
   exits:
+    southeast:
+      target_vnum: 010210710788
     up:
-      target_vnum: '10786'
+      target_vnum: 010210710786
+  local_id: '10787'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10787'
+  vnum: 010210710787
 - description: |-
     Você está andando por um caminho aberto no corpo da montanha.  O caminho
     parece que foi feito para que apenas uma pessoa passe de cada vez.  Ao
@@ -1190,19 +1336,25 @@
     para baixo você vê o caminho em direção a base da montanha.
   exits:
     down:
-      target_vnum: '10789'
+      target_vnum: 010210710789
+    northeast:
+      target_vnum: 010210710787
+  local_id: '10788'
   name: Um Caminho no Corpo da Montanha
-  vnum: '10788'
+  vnum: 010210710788
 - description: |-
     Você está dentro da montanha; o ambiente aqui é calmo e muito agradável,
     principalmente para os que passaram pelas terras secas de Armila.  Para
     cima você observa um caminho aberto no corpo da montanha e ao sudoeste você
     observa a saída da montanha e as secas terras de Armila.
   exits:
+    southwest:
+      target_vnum: 010210710790
     up:
-      target_vnum: '10788'
+      target_vnum: 010210710788
+  local_id: '10789'
   name: No Interior da Montanha Gêmea
-  vnum: '10789'
+  vnum: 010210710789
 - description: |-
     Você está surpreso com a grandiosidade da montanha, ao mesmo tempo que
     percebe que será impossível escala-la por fora.  Ao seu redor as terras
@@ -1210,29 +1362,40 @@
     você percebe uma entrada para o interior da montanha e ao sudeste você
     observa a seca terra de Armila.  Ao olhar para os dois lados você se
     pergunta para onde devo seguir ?
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 010210710789
+    southeast:
+      target_vnum: 010210710791
+  local_id: '10790'
   name: A Base da Montanha Gêmea
-  vnum: '10790'
+  vnum: 010210710790
 - description: |-
     Você está andando pelas terras esquecidas de uma cidade que já foi
     prospera.  Ao seu redor nada mais do que terra seca.  O sol parece querer
     castigar ainda mais estas pobres terras.  Ao oeste você observa uma planície
     seca e ao nordeste você vê a base de uma montanha.
   exits:
+    northwest:
+      target_vnum: 010210710790
     west:
-      target_vnum: '10792'
+      target_vnum: 010210710792
+  local_id: '10791'
   name: As Terras Esquecidas de Armila
-  vnum: '10791'
+  vnum: 010210710791
 - description: |-
     Você continua andando tediosamente pela planície seca de Armila.  Ao
     leste e a sudoeste você observa as terras sofridas e desertas de Armila.
   exits:
     down:
-      target_vnum: '10793'
+      target_vnum: 010210710793
     east:
-      target_vnum: '10791'
+      target_vnum: 010210710791
+    southwest:
+      target_vnum: 010210710798
+  local_id: '10792'
   name: As Terras Esquecidas de Armila
-  vnum: '10792'
+  vnum: 010210710792
 - description: |-
     Ooooh ! Você achou Armila, a cidade da água.  Esquecida a mais de mil
     anos.  Você está exatamente no lugar que deveria está correndo o rio que
@@ -1243,15 +1406,16 @@
     as terras de um deserto.  Para cima você observa o sol de Vitália.
   exits:
     east:
-      target_vnum: '10794'
+      target_vnum: 010210710794
     south:
-      target_vnum: '10796'
+      target_vnum: 010210710796
     up:
-      target_vnum: '10792'
+      target_vnum: 010210710792
     west:
-      target_vnum: '10795'
+      target_vnum: 010210710795
+  local_id: '10793'
   name: "Armila, a Cidade da Ã\x81gua"
-  vnum: '10793'
+  vnum: 010210710793
 - description: |-
     Você está na cidade esquecida de Armila.  Contudo surpreso por não
     encontrar nenhum vestígio da antiga civilização.  Os armilianos viviam
@@ -1261,9 +1425,10 @@
     observa as terras que já foram cobertas por um rio.
   exits:
     west:
-      target_vnum: '10793'
+      target_vnum: 010210710793
+  local_id: '10794'
   name: A Cidade de Armila
-  vnum: '10794'
+  vnum: 010210710794
 - description: |-
     Você está na cidade esquecida de Armila.  Contudo surpreso por não
     encontrar nenhum vestígio da antiga civilização.  Os armilianos viviam
@@ -1273,9 +1438,10 @@
     observa as terras que já foram cobertas por um rio.
   exits:
     east:
-      target_vnum: '10793'
+      target_vnum: 010210710793
+  local_id: '10795'
   name: A Cidade de Armila
-  vnum: '10795'
+  vnum: 010210710795
 - description: |-
     Você está na cidade esquecida de Armila.  Contudo surpreso por não
     encontrar nenhum vestígio da antiga civilização.  Os armilianos viviam
@@ -1286,11 +1452,12 @@
     terra.
   exits:
     east:
-      target_vnum: '10797'
+      target_vnum: 010210710797
     north:
-      target_vnum: '10793'
+      target_vnum: 010210710793
+  local_id: '10796'
   name: A Cidade de Armila
-  vnum: '10796'
+  vnum: 010210710796
 - description: |-
     Você está no que há muito tempo atrás foi o templo de Armila.  O templo
     é de uma arquitetura surpreendente: Através de uma esfera de ar, que foi
@@ -1299,10 +1466,13 @@
     água era um elemento vital para os armilianos.  Ao oeste você observa a
     pobre terra armiliana seca.
   exits:
+    southwest:
+      target_vnum: 010210710798
     west:
-      target_vnum: '10796'
+      target_vnum: 010210710796
+  local_id: '10797'
   name: O Templo de Armila
-  vnum: '10797'
+  vnum: 010210710797
 - description: |-
     Você está numa planície extremamente seca e sem vida alguma.  O sol
     castiga o solo retorcido e todos aqueles que possuem coragem para seguir
@@ -1311,10 +1481,13 @@
     em relação a este solo seco.  Ao nordeste você observa com bastante
     expectativa, porém sem muita esperança a planície seca e castigada.
   exits:
+    northwest:
+      target_vnum: 010210710797
     west:
-      target_vnum: '10799'
+      target_vnum: 010210710799
+  local_id: '10798'
   name: As Terras Esquecidas de Armila
-  vnum: '10798'
+  vnum: 010210710798
 - description: |-
     Você está por entre os coloridos galhos e árvores da linda floresta
     boreal.  Ao seu redor as árvores formam uma belíssima paisagem, uma paisagem
@@ -1323,8 +1496,9 @@
     dura.
   exits:
     east:
-      target_vnum: '10798'
+      target_vnum: 010210710798
     west:
-      target_vnum: '10702'
+      target_vnum: '010210710702'
+  local_id: '10799'
   name: A Floresta Mística Boreal
-  vnum: '10799'
+  vnum: 010210710799

@@ -6,13 +6,14 @@
     enquanto este moinho estava em funcionamento.
   exits:
     east:
-      target_vnum: '15556'
+      target_vnum: '010215515556'
     up:
-      target_vnum: '15501'
+      target_vnum: '010215515501'
     west:
-      target_vnum: '15502'
+      target_vnum: '010215515502'
+  local_id: '15500'
   name: Sala Principal - Moinho de Vento
-  vnum: '15500'
+  vnum: '010215515500'
 - description: |-
     Esta pequena sala, que se parece mais com uma plataforma devido a seu
     tamanho (ou a falta disso) não possui absolutamente nada de interessante.
@@ -20,9 +21,10 @@
     a namorada.
   exits:
     down:
-      target_vnum: '15500'
+      target_vnum: '010215515500'
+  local_id: '15501'
   name: Andar Superior - Moinho de Vento
-  vnum: '15501'
+  vnum: '010215515501'
 - description: |-
     Não há absolutamente nada nesta sala, nada além de sujeira, exceto os
     dois homens bem equipados, que estão esperando por aventureiros inocentes,
@@ -30,11 +32,12 @@
     para baixo, entrando no desconhecido.
   exits:
     down:
-      target_vnum: '15503'
+      target_vnum: '010215515503'
     east:
-      target_vnum: '15500'
+      target_vnum: '010215515500'
+  local_id: '15502'
   name: A Sala de Guarda
-  vnum: '15502'
+  vnum: '010215515502'
 - description: |-
     Este lance de escada segue para baixo, terminando no que parece ser uma
     porta.  Poderia ser outra coisa, entretanto, olhando de onde você está a
@@ -43,22 +46,24 @@
     todas em metal?
   exits:
     down:
-      target_vnum: '15504'
+      target_vnum: '010215515504'
     up:
-      target_vnum: '15502'
+      target_vnum: '010215515502'
+  local_id: '15503'
   name: Uma Escadaria de Metal
-  vnum: '15503'
+  vnum: '010215515503'
 - description: |-
     A escada continua seguindo para baixo, encontrando com uma porta em
     seu fim.  Todas as paredes a sua volta continuam como antes, todas feitas
     de metal.  A porta logo abaixo também parece ter sido feita de metal.
   exits:
     down:
-      target_vnum: '15505'
+      target_vnum: '010215515505'
     up:
-      target_vnum: '15503'
+      target_vnum: '010215515503'
+  local_id: '15504'
   name: Uma Escadaria de Metal
-  vnum: '15504'
+  vnum: '010215515504'
 - description: |-
     A escada termina aqui em uma porta de metal.  Através desta porta pode
     estar aquele que construiu estas estranhas passagens, você pensa.  Você
@@ -66,11 +71,12 @@
     porta a norte.
   exits:
     north:
-      target_vnum: '15506'
+      target_vnum: '010215515506'
     up:
-      target_vnum: '15504'
+      target_vnum: '010215515504'
+  local_id: '15505'
   name: Uma Escadaria de Metal
-  vnum: '15505'
+  vnum: '010215515505'
 - description: |-
     Os soldados que se portam em total atenção, os estandartes de guerra
     presos nas paredes de metal, e os imaculados uniformes usados pelos
@@ -81,11 +87,12 @@
     guardas podem lhe atacar a qualquer momento.
   exits:
     north:
-      target_vnum: '15507'
+      target_vnum: '010215515507'
     south:
-      target_vnum: '15505'
+      target_vnum: '010215515505'
+  local_id: '15506'
   name: Posto de Controle
-  vnum: '15506'
+  vnum: '010215515506'
 - description: |-
     As paredes, todas cobertas de metal, não terminam com o Posto de
     Controle, mas continuam por toda a extensão desta passagem.  De onde você
@@ -93,133 +100,144 @@
     trate de uma grande passagem.
   exits:
     north:
-      target_vnum: '15508'
+      target_vnum: 010215515508
     south:
-      target_vnum: '15506'
+      target_vnum: '010215515506'
+  local_id: '15507'
   name: Uma Passagem Coberta
-  vnum: '15507'
+  vnum: '010215515507'
 - description: |-
     A passagem continua para o norte.  Uma porta encontra-se ao lado leste,
     contendo o símbolo de duas espadas cruzadas, aprontando para baixo.  As
     letras "OmE" estão gravadas logo abaixo o símbolo das espadas.
   exits:
     east:
-      target_vnum: '15522'
+      target_vnum: '010215515522'
     north:
-      target_vnum: '15509'
+      target_vnum: 010215515509
     south:
-      target_vnum: '15507'
+      target_vnum: '010215515507'
+  local_id: '15508'
   name: Uma Passagem Coberta
-  vnum: '15508'
+  vnum: 010215515508
 - description: |-
     A passagem segue para o norte e sul.  Há uma pequena porta na parede
     leste, na qual encontra-se o símbolo de duas espadas cruzadas, apontando
     para baixo, e a inscrição "OmE" gravada logo abaixo.
   exits:
     east:
-      target_vnum: '15523'
+      target_vnum: '010215515523'
     north:
-      target_vnum: '15510'
+      target_vnum: '010215515510'
     south:
-      target_vnum: '15508'
+      target_vnum: 010215515508
+  local_id: '15509'
   name: Uma Passagem Coberta
-  vnum: '15509'
+  vnum: 010215515509
 - description: |-
     A passagem segue para o norte e sul.  Uma porta encontra-se a leste com o
     símbolo das espadas, e a inscrição "OmE".
   exits:
     east:
-      target_vnum: '15524'
+      target_vnum: '010215515524'
     north:
-      target_vnum: '15511'
+      target_vnum: '010215515511'
     south:
-      target_vnum: '15509'
+      target_vnum: 010215515509
+  local_id: '15510'
   name: Uma Passagem Coberta
-  vnum: '15510'
+  vnum: '010215515510'
 - description: |-
     A passagem continua para o norte e sul.  As paredes e o teto deste local
     continuam brilhando intensamente até onde seus olhos podem alcançar.  A
     leste encontra-se uma porta.
   exits:
     east:
-      target_vnum: '15525'
+      target_vnum: '010215515525'
     north:
-      target_vnum: '15512'
+      target_vnum: '010215515512'
     south:
-      target_vnum: '15510'
+      target_vnum: '010215515510'
     west:
-      target_vnum: '15526'
+      target_vnum: '010215515526'
+  local_id: '15511'
   name: Uma Passagem Coberta
-  vnum: '15511'
+  vnum: '010215515511'
 - description: |-
     A passagem segue para o norte e sul.  Há também um pequeno caminho
     seguindo para o leste, coberto e muito brilhante.
   exits:
     east:
-      target_vnum: '15518'
+      target_vnum: 010215515518
     north:
-      target_vnum: '15513'
+      target_vnum: '010215515513'
     south:
-      target_vnum: '15511'
+      target_vnum: '010215515511'
+  local_id: '15512'
   name: Uma Passagem Coberta
-  vnum: '15512'
+  vnum: '010215515512'
 - description: |-
     A passagem ainda continua para o norte e sul, sem curvas por uma boa
     distância.  Há uma porta na parede leste.
   exits:
     north:
-      target_vnum: '15514'
+      target_vnum: '010215515514'
     south:
-      target_vnum: '15512'
+      target_vnum: '010215515512'
     west:
-      target_vnum: '15527'
+      target_vnum: '010215515527'
+  local_id: '15513'
   name: Uma Passagem Coberta
-  vnum: '15513'
+  vnum: '010215515513'
 - description: |-
     A passagem segue para norte e sul.  Você pensa ter visto o fim desta
     passagem logo a norte.
   exits:
     north:
-      target_vnum: '15515'
+      target_vnum: '010215515515'
     south:
-      target_vnum: '15513'
+      target_vnum: '010215515513'
+  local_id: '15514'
   name: Uma Passagem Coberta
-  vnum: '15514'
+  vnum: '010215515514'
 - description: |-
     A passagem segue para norte e sul.  Aqui encontram-se portas em ambos os
     lados de você.  O fim do corredor, na forma de uma porta de metal,
     encontra-se a uma pequena distância a norte.
   exits:
     east:
-      target_vnum: '15529'
+      target_vnum: 010215515529
     north:
-      target_vnum: '15516'
+      target_vnum: '010215515516'
     south:
-      target_vnum: '15514'
+      target_vnum: '010215515514'
     west:
-      target_vnum: '15528'
+      target_vnum: 010215515528
+  local_id: '15515'
   name: Uma Passagem Coberta
-  vnum: '15515'
+  vnum: '010215515515'
 - description: |-
     O fim deste longo corredor encontra-se logo a norte.  Para o sul, o
     corredor segue por uma longa distância.
   exits:
     north:
-      target_vnum: '15517'
+      target_vnum: '010215515517'
     south:
-      target_vnum: '15515'
+      target_vnum: '010215515515'
+  local_id: '15516'
   name: Uma Passagem Coberta
-  vnum: '15516'
+  vnum: '010215515516'
 - description: |-
     Uma porta encontra-se a norte de você, enquanto uma passagem toda em
     metal segue para sul até se perder de seus olhos.
   exits:
     north:
-      target_vnum: '15535'
+      target_vnum: '010215515535'
     south:
-      target_vnum: '15516'
+      target_vnum: '010215515516'
+  local_id: '15517'
   name: O Final Norte da Passagem
-  vnum: '15517'
+  vnum: '010215515517'
 - description: |-
     Esta passagem, menor do que a principal, continua tendo suas paredas
     todas cobertas por metal.  A passagem acaba a leste, por uma distância não
@@ -227,35 +245,38 @@
     passagem principal segue para norte e sul.
   exits:
     east:
-      target_vnum: '15519'
+      target_vnum: 010215515519
     west:
-      target_vnum: '15512'
+      target_vnum: '010215515512'
+  local_id: '15518'
   name: Uma Passagem Coberta
-  vnum: '15518'
+  vnum: 010215515518
 - description: |-
     A passagem continua para leste, através de algumas portas.  Você pode
     voltar a oeste para a passagem principal.
   exits:
     east:
-      target_vnum: '15520'
+      target_vnum: '010215515520'
     west:
-      target_vnum: '15518'
+      target_vnum: 010215515518
+  local_id: '15519'
   name: Uma Passagem Coberta
-  vnum: '15519'
+  vnum: 010215515519
 - description: |-
     A passagem termina logo a leste, em uma porta.  A norte e sul
     encontram-se outras portas, e a passagem segue voltando para o oeste.
   exits:
     east:
-      target_vnum: '15521'
+      target_vnum: '010215515521'
     north:
-      target_vnum: '15530'
+      target_vnum: '010215515530'
     south:
-      target_vnum: '15532'
+      target_vnum: '010215515532'
     west:
-      target_vnum: '15519'
+      target_vnum: 010215515519
+  local_id: '15520'
   name: Uma Passagem Coberta
-  vnum: '15520'
+  vnum: '010215515520'
 - description: |-
     A passagem termina aqui, em um grupo de três portas.  A oeste, a
     passagem volta através da área principal.  Para o norte, sul e leste,
@@ -263,15 +284,16 @@
     letras "OmE".
   exits:
     east:
-      target_vnum: '15534'
+      target_vnum: '010215515534'
     north:
-      target_vnum: '15531'
+      target_vnum: '010215515531'
     south:
-      target_vnum: '15533'
+      target_vnum: '010215515533'
     west:
-      target_vnum: '15520'
+      target_vnum: '010215515520'
+  local_id: '15521'
   name: O Final Leste da Passagem
-  vnum: '15521'
+  vnum: '010215515521'
 - description: |-
     O piso é todo coberto por engradados e caixas, todos com a marca das
     duas espadas cruzadas.  Uma gravura estampada abaixo das caixas,
@@ -281,20 +303,22 @@
     da Espada.  Mas quem seriam eles, e quais seriam os seus objetivos?
   exits:
     west:
-      target_vnum: '15508'
+      target_vnum: 010215515508
+  local_id: '15522'
   name: O Esconderijo das Armas
-  vnum: '15522'
+  vnum: '010215515522'
 - description: |-
     Todo tipo de alimentos encontram-se penduradas por todas as paredes
     deste local.  Você pode seguir pelo norte, ou pela passagem através da
     porta a oeste.
   exits:
     north:
-      target_vnum: '15524'
+      target_vnum: '010215515524'
     west:
-      target_vnum: '15509'
+      target_vnum: 010215515509
+  local_id: '15523'
   name: O Armazém de Alimentos
-  vnum: '15523'
+  vnum: '010215515523'
 - description: |-
     Nesta cozinha extremamente simples, há somente uma lareira, um barril
     cheio de água e uma mesa.  Alguns poucos utensilios encontram-se em cima
@@ -302,13 +326,14 @@
     pode ver aqui, é a sua limpeza imaculada.
   exits:
     north:
-      target_vnum: '15525'
+      target_vnum: '010215515525'
     south:
-      target_vnum: '15523'
+      target_vnum: '010215515523'
     west:
-      target_vnum: '15510'
+      target_vnum: '010215515510'
+  local_id: '15524'
   name: A Cozinha
-  vnum: '15524'
+  vnum: '010215515524'
 - description: |-
     Aqui há uma enorme mesa de metal, que segue por toda a extensão da sala,
     refletindo toda a luz vinda das tochas presas nas paredes.  Você pensa que
@@ -317,20 +342,22 @@
     há uma porta, por onde você pode sair da sala a oeste.
   exits:
     south:
-      target_vnum: '15524'
+      target_vnum: '010215515524'
     west:
-      target_vnum: '15511'
+      target_vnum: '010215515511'
+  local_id: '15525'
   name: A Sala de Refeições
-  vnum: '15525'
+  vnum: '010215515525'
 - description: |-
     Esta sala, apesar de ter sido usada pelos homens da Ordem, está agora
     muito limpa e impecável.  Até mesmo os assentos estão limpos e polidos,
     lhe dando a sensação de serem muito confortaveis.
   exits:
     east:
-      target_vnum: '15511'
+      target_vnum: '010215515511'
+  local_id: '15526'
   name: A Sala Pincipal
-  vnum: '15526'
+  vnum: '010215515526'
 - description: |-
     Todo o piso desta sala está coberto por uma fina camada de grama, a qual
     permite um conforto maior nos treinos de luta.  Alguns alvos estão
@@ -339,45 +366,50 @@
     arma neles.
   exits:
     east:
-      target_vnum: '15513'
+      target_vnum: '010215515513'
+  local_id: '15527'
   name: Sala de Treinamento
-  vnum: '15527'
+  vnum: '010215515527'
 - description: |-
     Você está em uma grande, e vasta sala, onde há várias camas alinhadas
     pelas paredes norte e sul.  Cada cama foi perfeitamente construída,
     possuindo lençóis e cobertores muito limpos.
   exits:
     east:
-      target_vnum: '15515'
+      target_vnum: '010215515515'
+  local_id: '15528'
   name: Casamata
-  vnum: '15528'
+  vnum: 010215515528
 - description: |-
     Você está em uma grande, e vasta sala, onde há várias camas alinhadas
     pelas paredes norte e sul.  Cada cama foi perfeitamente construída,
     possuindo lençóis e cobertores muito limpos.
   exits:
     west:
-      target_vnum: '15515'
+      target_vnum: '010215515515'
+  local_id: '15529'
   name: Casamata
-  vnum: '15529'
+  vnum: 010215515529
 - description: |-
     Nesta espaçada sala encontram-se somente uma pequena mesa e uma cama de
     solteiro, a qual parece ser muito desconfortável.  Parece que a única
     vantagem de possuir uma sala própria neste local é a de ter privacidade.
   exits:
     south:
-      target_vnum: '15520'
+      target_vnum: '010215515520'
+  local_id: '15530'
   name: A Sala do Capitão
-  vnum: '15530'
+  vnum: '010215515530'
 - description: |-
     Nesta sala há somente uma cama e um pequeno armário.  Não há nenhum
     quadro enfeitando as paredes, e claro, não há janelas também.  Como será
     que alguém consegue viver desta maneira?
   exits:
     south:
-      target_vnum: '15521'
+      target_vnum: '010215515521'
+  local_id: '15531'
   name: A Sala do Tenente
-  vnum: '15531'
+  vnum: '010215515531'
 - description: |-
     A única coisa de interesse nesta sala é a imagem que está na parede,
     retratando várias pessoas de uma cidade.  Há também uma plataforma de
@@ -386,9 +418,10 @@
     imagem está escrito: "O dia do acerto de contas chegará".
   exits:
     north:
-      target_vnum: '15520'
+      target_vnum: '010215515520'
+  local_id: '15532'
   name: A Sala do Sargento
-  vnum: '15532'
+  vnum: '010215515532'
 - description: |-
     Esta grande e bem decorada sala, possui uma figura na parede de metal.
     Nela está representado a insígnia das duas espadas, e o símbolo OmE
@@ -397,26 +430,29 @@
     irá vencer, e controlar todas as outras raças".  Muito estranho...
   exits:
     north:
-      target_vnum: '15521'
+      target_vnum: '010215515521'
+  local_id: '15533'
   name: A Sala do General
-  vnum: '15533'
+  vnum: '010215515533'
 - description: |-
     O Grande Cavaleiro parece ser um pouco mais fraco do que seus outros
     irmãos.  Pela sala encontram-se velhas mobílias, e uma imensa cama.  Este
     homem deve ser já muito velho e cansado...
   exits:
     west:
-      target_vnum: '15521'
+      target_vnum: '010215515521'
+  local_id: '15534'
   name: A Sala do Grande Cavaleiro
-  vnum: '15534'
+  vnum: '010215515534'
 - description: |-
     Você está em um quarto.  Não há nada aqui além de sujeira e uma velha e
     desgastada mobília.
   exits:
     south:
-      target_vnum: '15517'
+      target_vnum: '010215515517'
+  local_id: '15535'
   name: Um Quarto Vazio
-  vnum: '15535'
+  vnum: '010215515535'
 - description: |-
     Você está andando por um estreito caminho ladeado em ambos os lados por
     altas e grandiosas árvores.  Ele é bastante curto, sendo possível ver que,
@@ -424,11 +460,12 @@
     O caminho segue leste e oeste.
   exits:
     east:
-      target_vnum: '3501'
+      target_vnum: '01021553501'
     west:
-      target_vnum: '15551'
+      target_vnum: '010215515551'
+  local_id: '15550'
   name: Um Caminho Lateral
-  vnum: '15550'
+  vnum: '010215515550'
 - description: |-
     Você está andando por um estreito caminho ladeado em ambos os lados por
     altas e grandiosas árvores.  Ele é bastante curto, sendo possível ver que,
@@ -436,11 +473,12 @@
     O caminho segue leste e oeste.
   exits:
     east:
-      target_vnum: '15550'
+      target_vnum: '010215515550'
     west:
-      target_vnum: '15552'
+      target_vnum: '010215515552'
+  local_id: '15551'
   name: Um Caminho Lateral
-  vnum: '15551'
+  vnum: '010215515551'
 - description: |-
     Você esta no limiar de um estreito caminho e um vasto campo descoberto.
     No campo cercado com madeira, você vê um alto moinho cujas pás viram de
@@ -448,11 +486,12 @@
     quiser continuar pelo caminho.
   exits:
     east:
-      target_vnum: '15551'
+      target_vnum: '010215515551'
     west:
-      target_vnum: '15553'
+      target_vnum: '010215515553'
+  local_id: '15552'
   name: Um Caminho Lateral
-  vnum: '15552'
+  vnum: '010215515552'
 - description: |-
     Você está na entrada de um campo de gramado muito verde, havendo nele uma
     ou outra planta de folhas escuras e pequenas flores coloridas.  No centro do
@@ -460,33 +499,36 @@
     árvores.
   exits:
     east:
-      target_vnum: '15552'
+      target_vnum: '010215515552'
     west:
-      target_vnum: '15554'
+      target_vnum: '010215515554'
+  local_id: '15553'
   name: O Campo do Moinho
-  vnum: '15553'
+  vnum: '010215515553'
 - description: |-
     Você está em um campo de gramado muito verde, havendo nele uma ou outra
     planta de folhas escuras e pequenas flores coloridas.  No centro do campo, a
     oeste, há um grande moinho.
   exits:
     east:
-      target_vnum: '15553'
+      target_vnum: '010215515553'
     west:
-      target_vnum: '15555'
+      target_vnum: '010215515555'
+  local_id: '15554'
   name: O Campo do Moinho
-  vnum: '15554'
+  vnum: '010215515554'
 - description: |-
     Você está em um campo de gramado muito verde, havendo nele uma ou outra
     planta de folhas escuras e pequenas flores coloridas.  No centro do campo, a
     oeste, há um grande moinho.
   exits:
     east:
-      target_vnum: '15554'
+      target_vnum: '010215515554'
     west:
-      target_vnum: '15556'
+      target_vnum: '010215515556'
+  local_id: '15555'
   name: O Campo do Moinho
-  vnum: '15555'
+  vnum: '010215515555'
 - description: |-
     Você está no centro de um campo, bem em frente a um alto moinho. Ele
     parece ter sido abandonado, sendo que sua pintura branca e azul está agora
@@ -494,8 +536,9 @@
     Uma porta de madeira permite que você entre nele.
   exits:
     east:
-      target_vnum: '15554'
+      target_vnum: '010215515554'
     west:
-      target_vnum: '15500'
+      target_vnum: '010215515500'
+  local_id: '15556'
   name: Em Frente ao Moinho
-  vnum: '15556'
+  vnum: '010215515556'

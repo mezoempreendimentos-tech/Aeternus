@@ -6,9 +6,10 @@
     alçapão que conduz para baixo.
   exits:
     down:
-      target_vnum: '12002'
+      target_vnum: '010212012002'
+  local_id: '12001'
   name: A Saleta do Juiz
-  vnum: '12001'
+  vnum: '010212012001'
 - description: |-
     Este camarote possui a melhor visão de toda a arena!  Você pode ver os
     gladiadores que lutam ou o cochê correndo veloz, sem que nada obstrua a sua
@@ -17,11 +18,12 @@
     escadaria toda de mármore que conduz para baixo.
   exits:
     down:
-      target_vnum: '12003'
+      target_vnum: '010212012003'
     up:
-      target_vnum: '12001'
+      target_vnum: '010212012001'
+  local_id: '12002'
   name: Camarote Privativo de Cesar
-  vnum: '12002'
+  vnum: '010212012002'
 - description: |-
     Este é lado ocidental onde os cidadãos de Roma se sentam.  Há fileiras
     após fileiras de bancos de madeira áspera, presos no chão.  Há lixo espalhado
@@ -30,13 +32,14 @@
     conduz até a arena de jogos e um corredor leva ao sul.
   exits:
     down:
-      target_vnum: '12010'
+      target_vnum: '010212012010'
     south:
-      target_vnum: '12004'
+      target_vnum: '010212012004'
     up:
-      target_vnum: '12002'
+      target_vnum: '010212012002'
+  local_id: '12003'
   name: O Lado Ocidental Das Arquibancadas dos Cidadaos Comuns
-  vnum: '12003'
+  vnum: '010212012003'
 - description: |-
     Esta é a parte sudeste da área de assento dos comuns.  Os bancos daqui
     são feitos de pedra e provavelmente tem séculos de idade.  Alguns arranhões
@@ -44,11 +47,12 @@
     e um túnel começa para o norte.
   exits:
     east:
-      target_vnum: '12011'
+      target_vnum: '010212012011'
     north:
-      target_vnum: '12003'
+      target_vnum: '010212012003'
+  local_id: '12004'
   name: O Lado Sul Das Arquibancadas dos Cidadaos Comuns
-  vnum: '12004'
+  vnum: '010212012004'
 - description: |-
     Este era um portão que ia DE e PARA Roma ocidental.  Há um portão de ferro
     bloqueando seu caminho e, a se julgar pela enorme quantidade de ferrugem e
@@ -58,13 +62,14 @@
     loja pode ser encontrada, indo-se diretamente ao sul.
   exits:
     east:
-      target_vnum: '12012'
+      target_vnum: '010212012012'
     south:
-      target_vnum: '12006'
+      target_vnum: '010212012006'
     west:
-      target_vnum: '50'
+      target_vnum: '01021200050'
+  local_id: '12005'
   name: O Portão Abandonado
-  vnum: '12005'
+  vnum: '010212012005'
 - description: |-
     Bem-vindo à loja de armas de Titus Andronicus!!  Temos alabardas raras,
     chicotes, espadas e outros instrumentos de morte que estão orgulhosamente
@@ -74,11 +79,12 @@
     aparência de ser muito segura.
   exits:
     north:
-      target_vnum: '12005'
+      target_vnum: '010212012005'
     south:
-      target_vnum: '12007'
+      target_vnum: '010212012007'
+  local_id: '12006'
   name: O Rei das Espadas
-  vnum: '12006'
+  vnum: '010212012006'
 - description: |-
     Se você achou que haviam muitas armas na frente da loja, você ainda não
     viu nada!!  O espaço existente ali dentro apenas é suficiente para se
@@ -87,9 +93,10 @@
     norte.
   exits:
     north:
-      target_vnum: '12006'
+      target_vnum: '010212012006'
+  local_id: '12007'
   name: O Quarto dos Fundos
-  vnum: '12007'
+  vnum: '010212012007'
 - description: |-
     Agora você está num lugar tão alto que você começa a se sentir enjoado e
     você sente como se o seu nariz fosse começar a sangrar.  Não há nem mesmo
@@ -98,9 +105,10 @@
     Alguns degraus estão aqui, conduzindo abaixo.
   exits:
     down:
-      target_vnum: '12015'
+      target_vnum: '010212012015'
+  local_id: '12008'
   name: Paraiso do Amendoim
-  vnum: '12008'
+  vnum: 010212012008
 - description: |-
     Há muitos gladiadores, condutores de cochês e seus treinadores aqui,
     fazendo aquecimento em preparação para os jogos.  O pó que sobe da terra
@@ -109,22 +117,24 @@
     armas sendo testadas, podem ser ouvidos vindo do sul.
   exits:
     east:
-      target_vnum: '12016'
+      target_vnum: '010212012016'
     south:
-      target_vnum: '12010'
+      target_vnum: '010212012010'
+  local_id: '12009'
   name: Area para Treino e Aquecimento
-  vnum: '12009'
+  vnum: 010212012009
 - description: |-
     Esta é uma área bem grande, plana e coberta por grama...  CUIDADO!!!!
     Você quase é atingido pela lança de um gladiador enquanto ele faz seu
     arremesso.  Um área para treinamento se encontra ao norte.
   exits:
     north:
-      target_vnum: '12009'
+      target_vnum: 010212012009
     up:
-      target_vnum: '12003'
+      target_vnum: '010212012003'
+  local_id: '12010'
   name: A Arena de Competição
-  vnum: '12010'
+  vnum: '010212012010'
 - description: |-
     Este é o lugar para onde se deve vir no caso da pessoa se sentir mal
     por causa do calor (ou no caso de um leão escapar).  Você vê um jarro cheio
@@ -133,36 +143,39 @@
     estará com você muito breve.
   exits:
     east:
-      target_vnum: '12018'
+      target_vnum: 010212012018
     west:
-      target_vnum: '12004'
+      target_vnum: '010212012004'
+  local_id: '12011'
   name: O Pronto-Socorro
-  vnum: '12011'
+  vnum: '010212012011'
 - description: |-
     Você está em uma estrada de terra poeirenta que vai de leste a oeste. Ao
     sul há uma estrutura.
   exits:
     east:
-      target_vnum: '12019'
+      target_vnum: 010212012019
     south:
-      target_vnum: '12013'
+      target_vnum: '010212012013'
     west:
-      target_vnum: '12005'
+      target_vnum: '010212012005'
+  local_id: '12012'
   name: Uma estrada de terra
-  vnum: '12012'
+  vnum: '010212012012'
 - description: |-
     Você se encontra na sala principal da casa de um cidadão romano comum.
     A mobília é escassa e está abafado aqui.  Um odor pútrido está vindo do
     leste e passagens conduzem norte e sul.
   exits:
     east:
-      target_vnum: '12020'
+      target_vnum: '010212012020'
     north:
-      target_vnum: '12012'
+      target_vnum: '010212012012'
     south:
-      target_vnum: '12014'
+      target_vnum: '010212012014'
+  local_id: '12013'
   name: A Casa do Cidadão
-  vnum: '12013'
+  vnum: '010212012013'
 - description: |-
     Este é o quarto.  Há uma cama com colchão duro e encaroçado num canto
     distante.  Parece que nos últimos dias a esposa deste cidadão tem falhado
@@ -170,9 +183,10 @@
     O único maneira de sair daqui é usar o mesmo caminho que você veio.
   exits:
     north:
-      target_vnum: '12013'
+      target_vnum: '010212012013'
+  local_id: '12014'
   name: O Quarto de Dormir
-  vnum: '12014'
+  vnum: '010212012014'
 - description: |-
     Este é o local onde estão os melhores assentos, usados principalmente
     pela classe alta de Roma.  Há uma área bem grande de lugares ao leste e uma
@@ -180,25 +194,27 @@
     fácil.
   exits:
     east:
-      target_vnum: '12022'
+      target_vnum: '010212012022'
     up:
-      target_vnum: '12008'
+      target_vnum: 010212012008
+  local_id: '12015'
   name: "Ã\x81rea dos Nobres"
-  vnum: '12015'
+  vnum: '010212012015'
 - description: "Esta é uma pista de corrida difícil e trabalhosa, com aproximadamente\n\
     1600 metros de extensão.  Há coices e manchas por todos os lados, e você vê\n\
-    uma nuvem grande de pÃ³ se aproximando.  Ã\x89 melhor vocÃª se mexer rÃ¡pido antes\n\
+    uma nuvem grande de pó se aproximando.  Ã\x89 melhor você se mexer rápido antes\n\
     que seja atropelado.  Um pequeno túnel segue rumo a oeste, e você pode ver\na\
     \ multidão a leste.  Você pode ouvir altos rosnares e rugidos que vêm de\nabaixo."
   exits:
     down:
-      target_vnum: '12017'
+      target_vnum: '010212012017'
     up:
-      target_vnum: '12023'
+      target_vnum: '010212012023'
     west:
-      target_vnum: '12009'
+      target_vnum: 010212012009
+  local_id: '12016'
   name: A Pista de Corrida
-  vnum: '12016'
+  vnum: '010212012016'
 - description: |-
     Assim que chega ao fundo desta cova imunda, você percebe que uma toca
     cheia de leões não é um lugar muito agradável de se estar perto.
@@ -213,11 +229,12 @@
     A curiosidade matou o gato?  Ou algo assim, eu estou seguro...
   exits:
     down:
-      target_vnum: '12016'
+      target_vnum: '010212012016'
     up:
-      target_vnum: '12010'
+      target_vnum: '010212012010'
+  local_id: '12017'
   name: A Cova do Leão
-  vnum: '12017'
+  vnum: '010212012017'
 - description: |-
     Você se encontra junto à entrada sul do Coliseu.  Há cidadãos de Roma
     por todos os lados, que aparentemente estão com uma pressa danada para
@@ -226,25 +243,27 @@
     Ao sul há uma estrada movimentada.
   exits:
     east:
-      target_vnum: '12025'
+      target_vnum: '010212012025'
     south:
-      target_vnum: '12019'
+      target_vnum: 010212012019
     west:
-      target_vnum: '12011'
+      target_vnum: '010212012011'
+  local_id: '12018'
   name: A Entrada Sul do Coliseu
-  vnum: '12018'
+  vnum: 010212012018
 - description: |-
     Esta é uma estrada muito bem construída e com grande movimento, que
     corre de leste a oeste e há uma grande estrutura de pedra ao norte.
   exits:
     east:
-      target_vnum: '12026'
+      target_vnum: '010212012026'
     north:
-      target_vnum: '12018'
+      target_vnum: 010212012018
     west:
-      target_vnum: '12012'
+      target_vnum: '010212012012'
+  local_id: '12019'
   name: A Rodovia Principal
-  vnum: '12019'
+  vnum: 010212012019
 - description: |-
     ECAAAAAAAAAAAAAAAAAA-URGGGGGGGGGGGGGGGGG!!!!!  Rapaz, como fede aqui!!!
     Você sente um gosto amargo de bílis em sua boca e seus olhos começam a
@@ -256,18 +275,20 @@
     quanto antes.
   exits:
     west:
-      target_vnum: '12013'
+      target_vnum: '010212012013'
+  local_id: '12020'
   name: A Casinha
-  vnum: '12020'
+  vnum: '010212012020'
 - description: |-
     Este é o lugar onde os escravos dormem.  Pedaços de tábuas duras são
     usadas como camas e não há muito além disso aqui.  A única saída fica ao
     leste.
   exits:
     east:
-      target_vnum: '12027'
+      target_vnum: '010212012027'
+  local_id: '12021'
   name: Os Aposentos dos Escravos
-  vnum: '12021'
+  vnum: '010212012021'
 - description: |-
     Este é o local onde os cidadãos romanos comuns se sentam durante os
     jogos.  Estes são os lugares mais baratos do Estádio, apesar dos raios de sol
@@ -277,11 +298,12 @@
     muito mais elegantes pode ser vista ao oeste.
   exits:
     south:
-      target_vnum: '12023'
+      target_vnum: '010212012023'
     west:
-      target_vnum: '12015'
+      target_vnum: '010212012015'
+  local_id: '12022'
   name: A Arquibancada Geral
-  vnum: '12022'
+  vnum: '010212012022'
 - description: |-
     Este é o local onde os cidadãos romanos comuns se sentam durante os
     jogos.  Assim como em todos os locais com lugares comuns, este local
@@ -289,11 +311,12 @@
     se estende para o norte e muito barulho pode ser ouvido vindo do sul.
   exits:
     north:
-      target_vnum: '12022'
+      target_vnum: '010212012022'
     south:
-      target_vnum: '12024'
+      target_vnum: '010212012024'
+  local_id: '12023'
   name: A Arquibancada Geral
-  vnum: '12023'
+  vnum: '010212012023'
 - description: |-
     Você se encontra junto à entrada oriental do Coliseu.  Existem pessoas
     por todos os lugares, que aparentemente estão com uma pressa danada para
@@ -302,13 +325,14 @@
     ao sul e ao leste há um portão que se abre para a cidade.
   exits:
     east:
-      target_vnum: '12031'
+      target_vnum: '010212012031'
     north:
-      target_vnum: '12023'
+      target_vnum: '010212012023'
     south:
-      target_vnum: '12025'
+      target_vnum: '010212012025'
+  local_id: '12024'
   name: A Entrada Oriental do Coliseu
-  vnum: '12024'
+  vnum: '010212012024'
 - description: |-
     Longas filas de pessoas paradas estão aqui, enquanto esperam para comprar
     seus ingressos.  Há três vendedores que trabalham furiosamente.  Canhotos de
@@ -317,24 +341,26 @@
     o Coliseu são ao norte e oeste.
   exits:
     north:
-      target_vnum: '12024'
+      target_vnum: '010212012024'
     west:
-      target_vnum: '12018'
+      target_vnum: 010212012018
+  local_id: '12025'
   name: A Bilheteria
-  vnum: '12025'
+  vnum: '010212012025'
 - description: |-
     Você se encontra em uma estrada pavimentada que segue para de leste para
     oeste. Você pode ver uma propriedade muito bem cuidada ao sul e ao noroeste,
     longe do seu alcance, você pode ver uma estrutura de pedra muito grande.
   exits:
     east:
-      target_vnum: '12033'
+      target_vnum: '010212012033'
     south:
-      target_vnum: '12027'
+      target_vnum: '010212012027'
     west:
-      target_vnum: '12019'
+      target_vnum: 010212012019
+  local_id: '12026'
   name: Uma Estrada Pavimentada
-  vnum: '12026'
+  vnum: '010212012026'
 - description: |-
     Você está pisando no chão da propriedade de um nobre, que é centenas de
     vezes maior e muito mais luxuosa do que qualquer coisa que um cidadão comum
@@ -347,15 +373,16 @@
     sul pode-se ver uma casa extravagante.
   exits:
     east:
-      target_vnum: '12034'
+      target_vnum: '010212012034'
     north:
-      target_vnum: '12026'
+      target_vnum: '010212012026'
     south:
-      target_vnum: '12028'
+      target_vnum: 010212012028
     west:
-      target_vnum: '12021'
+      target_vnum: '010212012021'
+  local_id: '12027'
   name: Uma Propriedade Nobre
-  vnum: '12027'
+  vnum: '010212012027'
 - description: |-
     Você se encontra numa casa, cujo tamanho e luxo práticamente desafia sua
     imaginação.  O chão foi todo coberto por um belíssimo mosaico de mármore,
@@ -366,9 +393,10 @@
     norte daqui.
   exits:
     north:
-      target_vnum: '12027'
+      target_vnum: '010212012027'
+  local_id: '12028'
   name: Uma Casa Opulenta
-  vnum: '12028'
+  vnum: 010212012028
 - description: |-
     Este é o portal norte que leva à cidade de Roma.  O portão enorme parece
     estar fechado e trancado para intrusos.  Uma grande estrada lamacenta passa
@@ -376,11 +404,12 @@
     daqui.
   exits:
     north:
-      target_vnum: '12069'
+      target_vnum: 010212012069
     south:
-      target_vnum: '12030'
+      target_vnum: '010212012030'
+  local_id: '12029'
   name: O Grande Portão Norte
-  vnum: '12029'
+  vnum: 010212012029
 - description: |-
     Você está caminhando por uma estrada asfaltada que segue para o sul através
     da cidade de Roma. Indo diretamente ao norte, há um grande portão.
@@ -388,13 +417,14 @@
     quando você passa por eles.
   exits:
     north:
-      target_vnum: '12029'
+      target_vnum: 010212012029
     south:
-      target_vnum: '12031'
+      target_vnum: '010212012031'
     west:
-      target_vnum: '12062'
+      target_vnum: '010212012062'
+  local_id: '12030'
   name: Alameda Nero
-  vnum: '12030'
+  vnum: '010212012030'
 - description: |-
     Você está caminhando sobre uma grande estrada pavimentada que corta a
     cidade de norte a sul.  As pessoas apressadas vão de um lugar para outro,
@@ -403,13 +433,14 @@
     uma grande área aberta, ao sul.
   exits:
     north:
-      target_vnum: '12030'
+      target_vnum: '010212012030'
     south:
-      target_vnum: '12032'
+      target_vnum: '010212012032'
     west:
-      target_vnum: '12024'
+      target_vnum: '010212012024'
+  local_id: '12031'
   name: Alameda Nero
-  vnum: '12031'
+  vnum: '010212012031'
 - description: |-
     Você se encontra bem no centro de uma grande área aberta que é a área
     comunitária de Roma.  Durante o dia, este lugar é animado pelo movimento
@@ -422,13 +453,14 @@
     e para o sul e a Avenida Clay segue para o leste.
   exits:
     east:
-      target_vnum: '12039'
+      target_vnum: 010212012039
     north:
-      target_vnum: '12031'
+      target_vnum: '010212012031'
     south:
-      target_vnum: '12033'
+      target_vnum: '010212012033'
+  local_id: '12032'
   name: A Praça Central
-  vnum: '12032'
+  vnum: '010212012032'
 - description: |-
     Você está caminhando por uma estrada pavimentada, que corta a cidade de
     Roma de norte a sul.  Há muitas pessoas aqui, cortêses como sempre.
@@ -438,15 +470,16 @@
     ao oeste.
   exits:
     east:
-      target_vnum: '12040'
+      target_vnum: '010212012040'
     north:
-      target_vnum: '12032'
+      target_vnum: '010212012032'
     south:
-      target_vnum: '12034'
+      target_vnum: '010212012034'
     west:
-      target_vnum: '12026'
+      target_vnum: '010212012026'
+  local_id: '12033'
   name: A Alameda Nero
-  vnum: '12033'
+  vnum: '010212012033'
 - description: |-
     Esta é uma movimentada estrada pavimentada, que vem do norte e atravessa
     a cidade.  As pessoas de Roma são muito amigáveis e dizem olá quando você
@@ -456,13 +489,14 @@
     protegem o império, lá de cima.
   exits:
     north:
-      target_vnum: '12033'
+      target_vnum: '010212012033'
     south:
-      target_vnum: '12035'
+      target_vnum: '010212012035'
     west:
-      target_vnum: '12027'
+      target_vnum: '010212012027'
+  local_id: '12034'
   name: Alameda Nero
-  vnum: '12034'
+  vnum: '010212012034'
 - description: |-
     Este é o portal sul da cidade de Roma.  O portão de bronze é fechado e
     trancado.  Olhando através das grades, você vê uma estrada muito movimentada
@@ -470,13 +504,14 @@
     norte e para o leste, chega-se até a loja de um feiticeiro.
   exits:
     east:
-      target_vnum: '12042'
+      target_vnum: '010212012042'
     north:
-      target_vnum: '12034'
+      target_vnum: '010212012034'
     south:
-      target_vnum: '50'
+      target_vnum: '01021200050'
+  local_id: '12035'
   name: O Portão Sul
-  vnum: '12035'
+  vnum: '010212012035'
 - description: |-
     Você se encontra dentro dos aposentos particulares do Imperador.  O
     lugar foi ricamente mobiliado com os mais finos e luxuosos objetos, fruto
@@ -490,11 +525,12 @@
     porta francesa que leva à sala de espera e ao sul, uma porta de madeira.
   exits:
     east:
-      target_vnum: '12043'
+      target_vnum: '010212012043'
     south:
-      target_vnum: '12037'
+      target_vnum: '010212012037'
+  local_id: '12036'
   name: Aposentos Particulares do Imperador
-  vnum: '12036'
+  vnum: '010212012036'
 - description: |-
     Esta é a sala de trabalho, onde senadores eleitos de todo o império se
     reunem para auxiliar e aconselhar o Imperador.  O selo oficial do Imperador
@@ -502,13 +538,14 @@
     ao leste e ao sul uma porta dupla.
   exits:
     east:
-      target_vnum: '12044'
+      target_vnum: '010212012044'
     north:
-      target_vnum: '12036'
+      target_vnum: '010212012036'
     south:
-      target_vnum: '12038'
+      target_vnum: 010212012038
+  local_id: '12037'
   name: A Câmara do Senado
-  vnum: '12037'
+  vnum: '010212012037'
 - description: |-
     Este é o local onde se reunem aqueles que não são nobres mas fazem parte
     do corpo de assessoramento do Imperador.  São homens comuns, vindos de de
@@ -517,9 +554,10 @@
     Imperador está pintado numa parede distante.  A única saída é ao norte.
   exits:
     north:
-      target_vnum: '12037'
+      target_vnum: '010212012037'
+  local_id: '12038'
   name: A Casa dos Comuns
-  vnum: '12038'
+  vnum: 010212012038
 - description: |-
     Você se encontra numa larga e movimentada avenida que vai de leste a oeste
     através do coração de Roma.  A oeste uma grande multidão de pessoas andam
@@ -527,13 +565,14 @@
     sul daqui.
   exits:
     east:
-      target_vnum: '12046'
+      target_vnum: '010212012046'
     south:
-      target_vnum: '12041'
+      target_vnum: '010212012041'
     west:
-      target_vnum: '12032'
+      target_vnum: '010212012032'
+  local_id: '12039'
   name: Avenida Clay
-  vnum: '12039'
+  vnum: 010212012039
 - description: |-
     Você está em uma plataforma de onde se pode ver um aqueduto volumoso.
     Há um telescópio montado junto à grade que cerca a área e você pode ouvir os
@@ -542,9 +581,10 @@
     oeste.
   exits:
     west:
-      target_vnum: '12033'
+      target_vnum: '010212012033'
+  local_id: '12040'
   name: A Plataforma de Observação
-  vnum: '12040'
+  vnum: '010212012040'
 - description: |-
     Você está numa estrutura de pedra maciça que foi projetada para servir
     como canal distribuidor da água que abastece a cidade de Roma.  Por causa de
@@ -554,15 +594,16 @@
     arriscada.  Existem saídas ao norte, sul e leste.
   exits:
     east:
-      target_vnum: '12048'
+      target_vnum: 010212012048
     north:
-      target_vnum: '12039'
+      target_vnum: 010212012039
     south:
-      target_vnum: '12041'
+      target_vnum: '010212012041'
     west:
-      target_vnum: '12054'
+      target_vnum: '010212012054'
+  local_id: '12041'
   name: O Aqueduto
-  vnum: '12041'
+  vnum: '010212012041'
 - description: |-
     Você se encontra na loja do Mago. Ungüentos mágicos, talismãs e poções
     estão amontoadas em estantes e atras de um balcão de vidro.  Há uma densa
@@ -579,11 +620,12 @@
     o perigo, da próxima vez.', diz ele.  E então a porta torna a se fechar.
   exits:
     east:
-      target_vnum: '12049'
+      target_vnum: 010212012049
     west:
-      target_vnum: '12035'
+      target_vnum: '010212012035'
+  local_id: '12042'
   name: A Loja do Mago
-  vnum: '12042'
+  vnum: '010212012042'
 - description: |-
     Você se encontra dentro de uma sala muito grande com teto muito alto
     e algumas pessoas estão aguardando para ver o Imperador para tratarem de
@@ -592,13 +634,14 @@
     Ao leste e oeste existem grandes portas e uma saída para o hall de entrada.
   exits:
     east:
-      target_vnum: '12050'
+      target_vnum: '010212012050'
     south:
-      target_vnum: '12044'
+      target_vnum: '010212012044'
     west:
-      target_vnum: '12036'
+      target_vnum: '010212012036'
+  local_id: '12043'
   name: A Sala de Espera
-  vnum: '12043'
+  vnum: '010212012043'
 - description: |-
     Você acaba de entrar no principal prédio do governo do Império Romano
     e se encontra parado dentro de uma sala compacta, cujo teto foi
@@ -608,13 +651,14 @@
     uma escadaria de mármore que conduz as pessoas para fora do edifício.
   exits:
     down:
-      target_vnum: '12045'
+      target_vnum: '010212012045'
     north:
-      target_vnum: '12043'
+      target_vnum: '010212012043'
     west:
-      target_vnum: '12037'
+      target_vnum: '010212012037'
+  local_id: '12044'
   name: O Hall de Entrada
-  vnum: '12044'
+  vnum: '010212012044'
 - description: |-
     Você se encontra sobre degraus de mármore brancos que seguem para cima
     e para dentro do Edifício do Capitólio.  Logo à entrada do edifício, existem
@@ -622,11 +666,12 @@
     edifício fica bem no topo da escada.
   exits:
     down:
-      target_vnum: '12046'
+      target_vnum: '010212012046'
     up:
-      target_vnum: '12044'
+      target_vnum: '010212012044'
+  local_id: '12045'
   name: Fora do Edifício do Capitólio
-  vnum: '12045'
+  vnum: '010212012045'
 - description: |-
     Você se encontra numa larga e movimentada avenida que vai de leste a oeste
     atraves do coração de Roma.  Existem degraus feitos de mármore que seguem
@@ -635,15 +680,16 @@
     geral ao norte.
   exits:
     east:
-      target_vnum: '12051'
+      target_vnum: '010212012051'
     north:
-      target_vnum: '12063'
+      target_vnum: '010212012063'
     up:
-      target_vnum: '12045'
+      target_vnum: '010212012045'
     west:
-      target_vnum: '12039'
+      target_vnum: 010212012039
+  local_id: '12046'
   name: Avenida Clay
-  vnum: '12046'
+  vnum: '010212012046'
 - description: |-
     Você está no topo de uma montanha muito alta e está acima das nuvens.
     Os raios de sol estão brilhando aqui e as nuvens abaixo parecem bolas
@@ -651,9 +697,10 @@
     aroma de lilases se dispersa pelo ar.
   exits:
     down:
-      target_vnum: '12052'
+      target_vnum: '010212012052'
+  local_id: '12047'
   name: O Cume do Monte Dos Deuses
-  vnum: '12047'
+  vnum: '010212012047'
 - description: |-
     Você está numa estrutura de pedra maciça que foi projetada para servir
     como canal distribuidor da água que abastece a cidade de Roma.  Por causa de
@@ -663,15 +710,16 @@
     arriscada.  Existem saídas em todos os quatro pontos cardeais.
   exits:
     east:
-      target_vnum: '12041'
+      target_vnum: '010212012041'
     north:
-      target_vnum: '12057'
+      target_vnum: '010212012057'
     south:
-      target_vnum: '12041'
+      target_vnum: '010212012041'
     west:
-      target_vnum: '12048'
+      target_vnum: 010212012048
+  local_id: '12048'
   name: O Aqueduto
-  vnum: '12048'
+  vnum: 010212012048
 - description: |-
     Você se encontra dentro do laboratório do Grande Froboz, o mais poderoso
     e famoso mago que Roma jamais conheceu.  Bancadas de trabalho se encontram
@@ -696,9 +744,10 @@
     pergunta.
   exits:
     west:
-      target_vnum: '12042'
+      target_vnum: '010212012042'
+  local_id: '12049'
   name: O Laboratório de Froboz
-  vnum: '12049'
+  vnum: 010212012049
 - description: |-
     Você se encontra dentro de uma grande sala de tribunal no qual disputas
     civis comuns e assuntos criminais são decididos.  Há o banco do juiz e uma
@@ -709,13 +758,14 @@
     conduzindo para os aposentos do juiz, e a sala de espera fica a oeste.
   exits:
     east:
-      target_vnum: '12055'
+      target_vnum: '010212012055'
     south:
-      target_vnum: '12060'
+      target_vnum: '010212012060'
     west:
-      target_vnum: '12043'
+      target_vnum: '010212012043'
+  local_id: '12050'
   name: O Tribunal
-  vnum: '12050'
+  vnum: '010212012050'
 - description: |-
     Você se encontra do lado de dentro do portão leste de Roma.  Existem
     duas torres altas construídas junto aos muros da cidade, de cujo interior
@@ -725,22 +775,24 @@
     se dirige para a cidade.
   exits:
     east:
-      target_vnum: '12064'
+      target_vnum: '010212012064'
     west:
-      target_vnum: '12046'
+      target_vnum: '010212012046'
+  local_id: '12051'
   name: O Portão Leste de Roma
-  vnum: '12051'
+  vnum: '010212012051'
 - description: |-
     Você se encontra sobre uma trilha que segue para cima e para baixo.
     Choveu recentemente e existem pequenas poças por todos os lados.  Você está
     logo abaixo das nuvens e a vista ao seu redor é de tirar o fôlego.
   exits:
     down:
-      target_vnum: '12056'
+      target_vnum: '010212012056'
     up:
-      target_vnum: '12047'
+      target_vnum: '010212012047'
+  local_id: '12052'
   name: Um Caminho para a Montanha
-  vnum: '12052'
+  vnum: '010212012052'
 - description: |-
     Você está numa estrutura de pedra maciça que foi projetada para servir
     como canal distribuidor da água que abastece a cidade de Roma.  Por causa de
@@ -750,15 +802,16 @@
     arriscada.  Existem saídas em todos os quatro pontos cardeais.
   exits:
     east:
-      target_vnum: '12054'
+      target_vnum: '010212012054'
     north:
-      target_vnum: '12041'
+      target_vnum: '010212012041'
     south:
-      target_vnum: '12057'
+      target_vnum: '010212012057'
     west:
-      target_vnum: '12048'
+      target_vnum: 010212012048
+  local_id: '12054'
   name: O Aqueduto
-  vnum: '12054'
+  vnum: '010212012054'
 - description: |-
     Você está dentro de um pequeno aposento totalmente cheio com processos
     legais.  Há uma pequena escrivaninha aqui, literalmente coberta por toneladas
@@ -766,9 +819,10 @@
     para a parte norte da cidade.
   exits:
     west:
-      target_vnum: '12050'
+      target_vnum: '010212012050'
+  local_id: '12055'
   name: Os Aposentos do Juíz
-  vnum: '12055'
+  vnum: '010212012055'
 - description: |-
     Você se encontra em uma pequenina trilha que prossegue atraves de extenso
     arvoredo.  Aqui tudo é muito exuberante e verde e parece que choveu
@@ -776,11 +830,12 @@
     você pensa com os seus botões.
   exits:
     down:
-      target_vnum: '12059'
+      target_vnum: 010212012059
     up:
-      target_vnum: '12052'
+      target_vnum: '010212012052'
+  local_id: '12056'
   name: Um Caminho na Montanha
-  vnum: '12056'
+  vnum: '010212012056'
 - description: |-
     Você está numa estrutura de pedra maciça que foi projetada para servir
     como canal distribuidor da água que abastece a cidade de Roma.  Por causa
@@ -791,15 +846,16 @@
     conduzem você ainda mais profundamente para dentro do aqueduto.
   exits:
     east:
-      target_vnum: '12054'
+      target_vnum: '010212012054'
     north:
-      target_vnum: '12054'
+      target_vnum: '010212012054'
     south:
-      target_vnum: '12058'
+      target_vnum: 010212012058
     west:
-      target_vnum: '12041'
+      target_vnum: '010212012041'
+  local_id: '12057'
   name: O Aqueduto
-  vnum: '12057'
+  vnum: '010212012057'
 - description: |-
     Você se encontra num vale tranquilo, exatamente na base de uma grande
     montanha.  Um silencioso riacho, com muitas árvores frutíferas crescendo às
@@ -810,11 +866,12 @@
     que segue atraves das árvores seguindo para cima.
   exits:
     north:
-      target_vnum: '12057'
+      target_vnum: '010212012057'
     up:
-      target_vnum: '12059'
+      target_vnum: 010212012059
+  local_id: '12058'
   name: O Vale dos Deuses
-  vnum: '12058'
+  vnum: 010212012058
 - description: |-
     Você se encontra num caminho que vai subindo na direção de grandes
     árvores.  Tudo é muito verde e bonito, como se ali houvesse a eterna
@@ -822,11 +879,12 @@
     tranquilo vale.
   exits:
     down:
-      target_vnum: '12058'
+      target_vnum: 010212012058
     up:
-      target_vnum: '12056'
+      target_vnum: '010212012056'
+  local_id: '12059'
   name: Um Caminho Montanhoso
-  vnum: '12059'
+  vnum: 010212012059
 - description: |-
     Você se encontra dentro da área de detenção, bem perto do tribunal.
     Aqueles que foram recentemente condenados por crimes graves, são trazidos
@@ -834,11 +892,12 @@
     norte e ao leste existe outra saída.
   exits:
     east:
-      target_vnum: '12061'
+      target_vnum: '010212012061'
     north:
-      target_vnum: '12050'
+      target_vnum: '010212012050'
+  local_id: '12060'
   name: As Celas de Detenção
-  vnum: '12060'
+  vnum: '010212012060'
 - description: |-
     Você se encontra em um aposento muito pequeno, em cujo interior se
     encontram muitos objetos especialmente projetados para provocar dor e
@@ -848,18 +907,20 @@
     como estes.  A única saída fica ao Oeste.
   exits:
     west:
-      target_vnum: '12060'
+      target_vnum: '010212012060'
+  local_id: '12061'
   name: A Câmara de Tortura
-  vnum: '12061'
+  vnum: '010212012061'
 - description: |-
     Você se encontra na padaria de Roma e ao sentir os cheiros deliciosos
     que chegam da cozinha, você sente que sua boca se enche de água.  A única
     saída fica ao leste.
   exits:
     east:
-      target_vnum: '12030'
+      target_vnum: '010212012030'
+  local_id: '12062'
   name: A Padaria de Roma
-  vnum: '12062'
+  vnum: '010212012062'
 - description: |-
     Você se encontra dentro do único armazém de Roma.  As paredes e
     prateleiras estão cobertas com os mais variados tipos de mercadorias
@@ -867,9 +928,10 @@
     segue para o sul.
   exits:
     south:
-      target_vnum: '12046'
+      target_vnum: '010212012046'
+  local_id: '12063'
   name: O Armazém
-  vnum: '12063'
+  vnum: '010212012063'
 - description: |-
     Você viaja numa estrada Leste-Oeste, larga o suficiente para que 30
     homens marchem lado a lado.  O chão está duro, compactado, por causa do uso
@@ -877,11 +939,12 @@
     participar de toda a glória e esplendor de Roma.
   exits:
     east:
-      target_vnum: '12065'
+      target_vnum: '010212012065'
     west:
-      target_vnum: '12051'
+      target_vnum: '010212012051'
+  local_id: '12064'
   name: Antes de Roma
-  vnum: '12064'
+  vnum: '010212012064'
 - description: |-
     Você viaja numa estrada Leste-Oeste, larga o suficiente para que 30
     homens marchem lado a lado. O chão está duro, compactado, por causa do uso
@@ -889,21 +952,23 @@
     cidade.
   exits:
     east:
-      target_vnum: '12066'
+      target_vnum: '010212012066'
     west:
-      target_vnum: '12064'
+      target_vnum: '010212012064'
+  local_id: '12065'
   name: Rua de Terra
-  vnum: '12065'
+  vnum: '010212012065'
 - description: |-
     Você viaja numa estrada Leste-Oeste, larga o suficiente para que 30
     homens marchem lado a lado.
   exits:
     east:
-      target_vnum: '12067'
+      target_vnum: '010212012067'
     west:
-      target_vnum: '12065'
+      target_vnum: '010212012065'
+  local_id: '12066'
   name: Rua de Terra
-  vnum: '12066'
+  vnum: '010212012066'
 - description: |-
     A imponente rua de terra vai diminuindo, mas ainda continua sendo muito
     utilizada pelos viajantes daqui.  Você sente que uma onda de energia
@@ -912,11 +977,12 @@
     inigualável império.
   exits:
     east:
-      target_vnum: '12068'
+      target_vnum: 010212012068
     west:
-      target_vnum: '12066'
+      target_vnum: '010212012066'
+  local_id: '12067'
   name: O Final da Rua de Terra
-  vnum: '12067'
+  vnum: '010212012067'
 - description: |-
     Esta pequena trilha cheia de sujeira parece ser uma esquina entre uma
     grande e imponente estrada de terra que fica perto, a oeste e uma grande
@@ -927,11 +993,12 @@
     campo de visão, e que parece aumentar infinitamente.
   exits:
     east:
-      target_vnum: '5028'
+      target_vnum: 01021205028
     west:
-      target_vnum: '12067'
+      target_vnum: '010212012067'
+  local_id: '12068'
   name: Uma Pequena Trilha Suja
-  vnum: '12068'
+  vnum: 010212012068
 - description: |-
     Você está diante do grande portão norte da cidade de Roma.  Um barulho
     distante faz lembrar as batalhas travadas no Coliseu e o a agitação da
@@ -939,11 +1006,12 @@
     pequena trilha e ao sul o portão o convida para entrar.
   exits:
     north:
-      target_vnum: '12070'
+      target_vnum: '010212012070'
     south:
-      target_vnum: '12029'
+      target_vnum: 010212012029
+  local_id: '12069'
   name: Fora do Grande Portão Norte
-  vnum: '12069'
+  vnum: 010212012069
 - description: |-
     Você segue com facilidade por esta trilha mantendo sempre em sua mente o
     caminho de volta para a cidade de Roma que fica imediatamente para o sul.
@@ -951,8 +1019,9 @@
     certeza de que se trata.
   exits:
     east:
-      target_vnum: '19800'
+      target_vnum: 010212019800
     south:
-      target_vnum: '12069'
+      target_vnum: 010212012069
+  local_id: '12070'
   name: Uma Pequena Trilha
-  vnum: '12070'
+  vnum: '010212012070'

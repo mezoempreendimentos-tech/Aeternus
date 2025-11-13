@@ -10,805 +10,878 @@
     foi avisado. Boa Sorte.
   exits:
     east:
-      target_vnum: '20417'
+      target_vnum: '020120420417'
     north:
-      target_vnum: '20402'
+      target_vnum: '020120420402'
     south:
-      target_vnum: '10353'
+      target_vnum: '020120410353'
+  local_id: '20400'
   name: Dentro do Labirinto
-  vnum: '20400'
+  vnum: '020120420400'
 - description: |-
     As paredes dessa sala são verdes e as pedras desse prédio são grandes,
     algo impede em pula-la, parecendo ser uma força mágica.  As portas estão
     abertas, porém, os dois guardas parados na porta parecem dar segurança.
   exits:
     east:
-      target_vnum: '20473'
+      target_vnum: '020120420473'
     west:
-      target_vnum: '20566'
+      target_vnum: '020120420566'
+  local_id: '20401'
   name: Entrada do Templo
-  vnum: '20401'
+  vnum: '020120420401'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20403'
+      target_vnum: '020120420403'
     south:
-      target_vnum: '20400'
+      target_vnum: '020120420400'
+  local_id: '20402'
   name: O Labirinto
-  vnum: '20402'
+  vnum: '020120420402'
 - description: |-
     As paredes, pintadas de verde, cercam todos o lado.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20428'
+      target_vnum: 020120420428
     north:
-      target_vnum: '20404'
+      target_vnum: '020120420404'
     west:
-      target_vnum: '20402'
+      target_vnum: '020120420402'
+  local_id: '20403'
   name: O Labirinto
-  vnum: '20403'
+  vnum: '020120420403'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20436'
+      target_vnum: '020120420436'
     north:
-      target_vnum: '20405'
+      target_vnum: '020120420405'
     south:
-      target_vnum: '20403'
+      target_vnum: '020120420403'
     west:
-      target_vnum: '20442'
+      target_vnum: '020120420442'
+  local_id: '20404'
   name: O Labirinto
-  vnum: '20404'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    south:
-      target_vnum: '20404'
-    west:
-      target_vnum: '20406'
-  name: O Labirinto
-  vnum: '20405'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20405'
-    north:
-      target_vnum: '20407'
-  name: O Labirinto
-  vnum: '20406'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20408'
-    south:
-      target_vnum: '20406'
-    west:
-      target_vnum: '20466'
-  name: O Labirinto
-  vnum: '20407'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20409'
-    north:
-      target_vnum: '20460'
-    south:
-      target_vnum: '20407'
-  name: O Labirinto
-  vnum: '20408'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20410'
-    west:
-      target_vnum: '20408'
-  name: O Labirinto
-  vnum: '20409'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20565'
-    west:
-      target_vnum: '20409'
-  name: O Labirinto
-  vnum: '20410'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20412'
-    north:
-      target_vnum: '20454'
-    west:
-      target_vnum: '20565'
-  name: O Labirinto
-  vnum: '20411'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20451'
-    south:
-      target_vnum: '20413'
-    west:
-      target_vnum: '20411'
-  name: O Labirinto
-  vnum: '20412'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20412'
-    south:
-      target_vnum: '20414'
-  name: O Labirinto
-  vnum: '20413'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20415'
-    north:
-      target_vnum: '20413'
-  name: O Labirinto
-  vnum: '20414'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20416'
-    west:
-      target_vnum: '20414'
-  name: O Labirinto
-  vnum: '20415'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20566'
-    west:
-      target_vnum: '20415'
-  name: O Labirinto
-  vnum: '20416'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20418'
-    west:
-      target_vnum: '20400'
-  name: O Labirinto
-  vnum: '20417'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20419'
-    west:
-      target_vnum: '20417'
-  name: O Labirinto
-  vnum: '20418'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20420'
-    west:
-      target_vnum: '20418'
-  name: O Labirinto
-  vnum: '20419'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20421'
-    west:
-      target_vnum: '20419'
-  name: O Labirinto
-  vnum: '20420'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20422'
-    south:
-      target_vnum: '20420'
-  name: O Labirinto
-  vnum: '20421'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20423'
-    west:
-      target_vnum: '20421'
-  name: O Labirinto
-  vnum: '20422'
+  vnum: '020120420404'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     south:
-      target_vnum: '20424'
+      target_vnum: '020120420404'
     west:
-      target_vnum: '20422'
+      target_vnum: '020120420406'
+  local_id: '20405'
   name: O Labirinto
-  vnum: '20423'
+  vnum: '020120420405'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420405'
+    north:
+      target_vnum: '020120420407'
+  local_id: '20406'
+  name: O Labirinto
+  vnum: '020120420406'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20423'
+      target_vnum: 020120420408
     south:
-      target_vnum: '20425'
+      target_vnum: '020120420406'
+    west:
+      target_vnum: '020120420466'
+  local_id: '20407'
   name: O Labirinto
-  vnum: '20424'
+  vnum: '020120420407'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: 020120420409
+    north:
+      target_vnum: '020120420460'
+    south:
+      target_vnum: '020120420407'
+  local_id: '20408'
+  name: O Labirinto
+  vnum: 020120420408
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420410'
+    west:
+      target_vnum: 020120420408
+  local_id: '20409'
+  name: O Labirinto
+  vnum: 020120420409
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20424'
-    south:
-      target_vnum: '20426'
+      target_vnum: '020120420565'
+    west:
+      target_vnum: 020120420409
+  local_id: '20410'
   name: O Labirinto
-  vnum: '20425'
+  vnum: '020120420410'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20427'
+      target_vnum: '020120420412'
     north:
-      target_vnum: '20425'
-  name: O Labirinto
-  vnum: '20426'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
+      target_vnum: '020120420454'
     west:
-      target_vnum: '20426'
+      target_vnum: '020120420565'
+  local_id: '20411'
   name: O Labirinto
-  vnum: '20427'
+  vnum: '020120420411'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20429'
+      target_vnum: '020120420451'
+    south:
+      target_vnum: '020120420413'
     west:
-      target_vnum: '20403'
+      target_vnum: '020120420411'
+  local_id: '20412'
   name: O Labirinto
-  vnum: '20428'
+  vnum: '020120420412'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20430'
-    west:
-      target_vnum: '20428'
-  name: O Labirinto
-  vnum: '20429'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20431'
+      target_vnum: '020120420412'
     south:
-      target_vnum: '20429'
+      target_vnum: '020120420414'
+  local_id: '20413'
   name: O Labirinto
-  vnum: '20430'
+  vnum: '020120420413'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20432'
-    west:
-      target_vnum: '20430'
+      target_vnum: '020120420415'
+    north:
+      target_vnum: '020120420413'
+  local_id: '20414'
   name: O Labirinto
-  vnum: '20431'
+  vnum: '020120420414'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20433'
+      target_vnum: '020120420416'
     west:
-      target_vnum: '20431'
+      target_vnum: '020120420414'
+  local_id: '20415'
   name: O Labirinto
-  vnum: '20432'
+  vnum: '020120420415'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20434'
+      target_vnum: '020120420566'
     west:
-      target_vnum: '20432'
+      target_vnum: '020120420415'
+  local_id: '20416'
   name: O Labirinto
-  vnum: '20433'
+  vnum: '020120420416'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: 020120420418
+    west:
+      target_vnum: '020120420400'
+  local_id: '20417'
+  name: O Labirinto
+  vnum: '020120420417'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: 020120420419
+    west:
+      target_vnum: '020120420417'
+  local_id: '20418'
+  name: O Labirinto
+  vnum: 020120420418
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420420'
+    west:
+      target_vnum: 020120420418
+  local_id: '20419'
+  name: O Labirinto
+  vnum: 020120420419
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20435'
+      target_vnum: '020120420421'
     west:
-      target_vnum: '20433'
+      target_vnum: 020120420419
+  local_id: '20420'
   name: O Labirinto
-  vnum: '20434'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    south:
-      target_vnum: '20434'
-  name: O Labirinto
-  vnum: '20435'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20437'
-    west:
-      target_vnum: '20404'
-  name: O Labirinto
-  vnum: '20436'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20438'
-    south:
-      target_vnum: '20436'
-  name: O Labirinto
-  vnum: '20437'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20439'
-    south:
-      target_vnum: '20437'
-  name: O Labirinto
-  vnum: '20438'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20440'
-    south:
-      target_vnum: '20438'
-  name: O Labirinto
-  vnum: '20439'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    south:
-      target_vnum: '20439'
-    west:
-      target_vnum: '20441'
-  name: O Labirinto
-  vnum: '20440'
+  vnum: '020120420420'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20440'
-  name: O Labirinto
-  vnum: '20441'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20404'
-    west:
-      target_vnum: '20443'
-  name: O Labirinto
-  vnum: '20442'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20442'
-    west:
-      target_vnum: '20444'
-  name: O Labirinto
-  vnum: '20443'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20443'
+      target_vnum: '020120420422'
     south:
-      target_vnum: '20445'
+      target_vnum: '020120420420'
+  local_id: '20421'
   name: O Labirinto
-  vnum: '20444'
+  vnum: '020120420421'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420423'
+    west:
+      target_vnum: '020120420421'
+  local_id: '20422'
+  name: O Labirinto
+  vnum: '020120420422'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    south:
+      target_vnum: '020120420424'
+    west:
+      target_vnum: '020120420422'
+  local_id: '20423'
+  name: O Labirinto
+  vnum: '020120420423'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: '020120420423'
+    south:
+      target_vnum: '020120420425'
+  local_id: '20424'
+  name: O Labirinto
+  vnum: '020120420424'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: '020120420424'
+    south:
+      target_vnum: '020120420426'
+  local_id: '20425'
+  name: O Labirinto
+  vnum: '020120420425'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420427'
+    north:
+      target_vnum: '020120420425'
+  local_id: '20426'
+  name: O Labirinto
+  vnum: '020120420426'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    west:
+      target_vnum: '020120420426'
+  local_id: '20427'
+  name: O Labirinto
+  vnum: '020120420427'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: 020120420429
+    west:
+      target_vnum: '020120420403'
+  local_id: '20428'
+  name: O Labirinto
+  vnum: 020120420428
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: '020120420430'
+    west:
+      target_vnum: 020120420428
+  local_id: '20429'
+  name: O Labirinto
+  vnum: 020120420429
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420431'
+    south:
+      target_vnum: 020120420429
+  local_id: '20430'
+  name: O Labirinto
+  vnum: '020120420430'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420432'
+    west:
+      target_vnum: '020120420430'
+  local_id: '20431'
+  name: O Labirinto
+  vnum: '020120420431'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420433'
+    west:
+      target_vnum: '020120420431'
+  local_id: '20432'
+  name: O Labirinto
+  vnum: '020120420432'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420434'
+    west:
+      target_vnum: '020120420432'
+  local_id: '20433'
+  name: O Labirinto
+  vnum: '020120420433'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: '020120420435'
+    west:
+      target_vnum: '020120420433'
+  local_id: '20434'
+  name: O Labirinto
+  vnum: '020120420434'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    south:
+      target_vnum: '020120420434'
+  local_id: '20435'
+  name: O Labirinto
+  vnum: '020120420435'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: '020120420437'
+    west:
+      target_vnum: '020120420404'
+  local_id: '20436'
+  name: O Labirinto
+  vnum: '020120420436'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: 020120420438
+    south:
+      target_vnum: '020120420436'
+  local_id: '20437'
+  name: O Labirinto
+  vnum: '020120420437'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: 020120420439
+    south:
+      target_vnum: '020120420437'
+  local_id: '20438'
+  name: O Labirinto
+  vnum: 020120420438
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    north:
+      target_vnum: '020120420440'
+    south:
+      target_vnum: 020120420438
+  local_id: '20439'
+  name: O Labirinto
+  vnum: 020120420439
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    south:
+      target_vnum: 020120420439
+    west:
+      target_vnum: '020120420441'
+  local_id: '20440'
+  name: O Labirinto
+  vnum: '020120420440'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420440'
+  local_id: '20441'
+  name: O Labirinto
+  vnum: '020120420441'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420404'
+    west:
+      target_vnum: '020120420443'
+  local_id: '20442'
+  name: O Labirinto
+  vnum: '020120420442'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420442'
+    west:
+      target_vnum: '020120420444'
+  local_id: '20443'
+  name: O Labirinto
+  vnum: '020120420443'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420443'
+    south:
+      target_vnum: '020120420445'
+  local_id: '20444'
+  name: O Labirinto
+  vnum: '020120420444'
 - description: |-
     As paredes, pintadas de verde, cerca todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20565'
+      target_vnum: '020120420565'
     north:
-      target_vnum: '20444'
+      target_vnum: '020120420444'
     south:
-      target_vnum: '20446'
+      target_vnum: '020120420446'
+  local_id: '20445'
   name: O Labirinto
-  vnum: '20445'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    north:
-      target_vnum: '20445'
-    south:
-      target_vnum: '20447'
-  name: O Labirinto
-  vnum: '20446'
+  vnum: '020120420445'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20446'
+      target_vnum: '020120420445'
     south:
-      target_vnum: '20448'
+      target_vnum: '020120420447'
+  local_id: '20446'
   name: O Labirinto
-  vnum: '20447'
+  vnum: '020120420446'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20447'
+      target_vnum: '020120420446'
     south:
-      target_vnum: '20449'
+      target_vnum: 020120420448
+  local_id: '20447'
   name: O Labirinto
-  vnum: '20448'
+  vnum: '020120420447'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20448'
+      target_vnum: '020120420447'
     south:
-      target_vnum: '20450'
+      target_vnum: 020120420449
+  local_id: '20448'
   name: O Labirinto
-  vnum: '20449'
+  vnum: 020120420448
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20449'
+      target_vnum: 020120420448
+    south:
+      target_vnum: '020120420450'
+  local_id: '20449'
   name: O Labirinto
-  vnum: '20450'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20452'
-    west:
-      target_vnum: '20412'
-  name: O Labirinto
-  vnum: '20451'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20453'
-    west:
-      target_vnum: '20451'
-  name: O Labirinto
-  vnum: '20452'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    west:
-      target_vnum: '20452'
-  name: O Labirinto
-  vnum: '20453'
+  vnum: 020120420449
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20455'
-    south:
-      target_vnum: '20411'
+      target_vnum: 020120420449
+  local_id: '20450'
   name: O Labirinto
-  vnum: '20454'
+  vnum: '020120420450'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20456'
-    south:
-      target_vnum: '20454'
+      target_vnum: '020120420452'
+    west:
+      target_vnum: '020120420412'
+  local_id: '20451'
   name: O Labirinto
-  vnum: '20455'
+  vnum: '020120420451'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20457'
+      target_vnum: '020120420453'
     west:
-      target_vnum: '20455'
+      target_vnum: '020120420451'
+  local_id: '20452'
   name: O Labirinto
-  vnum: '20456'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20458'
-    west:
-      target_vnum: '20456'
-  name: O Labirinto
-  vnum: '20457'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20459'
-    west:
-      target_vnum: '20457'
-  name: O Labirinto
-  vnum: '20458'
+  vnum: '020120420452'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     west:
-      target_vnum: '20458'
+      target_vnum: '020120420452'
+  local_id: '20453'
   name: O Labirinto
-  vnum: '20459'
+  vnum: '020120420453'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20461'
+      target_vnum: '020120420455'
     south:
-      target_vnum: '20408'
+      target_vnum: '020120420411'
+  local_id: '20454'
   name: O Labirinto
-  vnum: '20460'
+  vnum: '020120420454'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420456'
+    south:
+      target_vnum: '020120420454'
+  local_id: '20455'
+  name: O Labirinto
+  vnum: '020120420455'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420457'
+    west:
+      target_vnum: '020120420455'
+  local_id: '20456'
+  name: O Labirinto
+  vnum: '020120420456'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: 020120420458
+    west:
+      target_vnum: '020120420456'
+  local_id: '20457'
+  name: O Labirinto
+  vnum: '020120420457'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: 020120420459
+    west:
+      target_vnum: '020120420457'
+  local_id: '20458'
+  name: O Labirinto
+  vnum: 020120420458
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    west:
+      target_vnum: 020120420458
+  local_id: '20459'
+  name: O Labirinto
+  vnum: 020120420459
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20462'
+      target_vnum: '020120420461'
     south:
-      target_vnum: '20460'
+      target_vnum: 020120420408
+  local_id: '20460'
   name: O Labirinto
-  vnum: '20461'
+  vnum: '020120420460'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20463'
+      target_vnum: '020120420462'
     south:
-      target_vnum: '20461'
+      target_vnum: '020120420460'
+  local_id: '20461'
   name: O Labirinto
-  vnum: '20462'
+  vnum: '020120420461'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
-    east:
-      target_vnum: '20464'
-    south:
-      target_vnum: '20462'
-  name: O Labirinto
-  vnum: '20463'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20465'
-    west:
-      target_vnum: '20463'
-  name: O Labirinto
-  vnum: '20464'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    west:
-      target_vnum: '20464'
-  name: O Labirinto
-  vnum: '20465'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
-    east:
-      target_vnum: '20407'
     north:
-      target_vnum: '20467'
-  name: O Labirinto
-  vnum: '20466'
-- description: |-
-    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
-    pequeno quarto são as rachaduras nas paredes, largo bastante para que
-    você possa passar.
-  exits:
+      target_vnum: '020120420463'
     south:
-      target_vnum: '20466'
-    west:
-      target_vnum: '20468'
+      target_vnum: '020120420461'
+  local_id: '20462'
   name: O Labirinto
-  vnum: '20467'
+  vnum: '020120420462'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20467'
-    west:
-      target_vnum: '20469'
+      target_vnum: '020120420464'
+    south:
+      target_vnum: '020120420462'
+  local_id: '20463'
   name: O Labirinto
-  vnum: '20468'
+  vnum: '020120420463'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20468'
-    south:
-      target_vnum: '20470'
+      target_vnum: '020120420465'
+    west:
+      target_vnum: '020120420463'
+  local_id: '20464'
   name: O Labirinto
-  vnum: '20469'
+  vnum: '020120420464'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    west:
+      target_vnum: '020120420464'
+  local_id: '20465'
+  name: O Labirinto
+  vnum: '020120420465'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420407'
+    north:
+      target_vnum: '020120420467'
+  local_id: '20466'
+  name: O Labirinto
+  vnum: '020120420466'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    south:
+      target_vnum: '020120420466'
+    west:
+      target_vnum: 020120420468
+  local_id: '20467'
+  name: O Labirinto
+  vnum: '020120420467'
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: '020120420467'
+    west:
+      target_vnum: 020120420469
+  local_id: '20468'
+  name: O Labirinto
+  vnum: 020120420468
+- description: |-
+    As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
+    pequeno quarto são as rachaduras nas paredes, largo bastante para que
+    você possa passar.
+  exits:
+    east:
+      target_vnum: 020120420468
+    south:
+      target_vnum: '020120420470'
+  local_id: '20469'
+  name: O Labirinto
+  vnum: 020120420469
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar..
   exits:
     north:
-      target_vnum: '20469'
+      target_vnum: 020120420469
     south:
-      target_vnum: '20471'
+      target_vnum: '020120420471'
+  local_id: '20470'
   name: O Labirinto
-  vnum: '20470'
+  vnum: '020120420470'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20470'
+      target_vnum: '020120420470'
     south:
-      target_vnum: '20472'
+      target_vnum: '020120420472'
+  local_id: '20471'
   name: O Labirinto
-  vnum: '20471'
+  vnum: '020120420471'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     north:
-      target_vnum: '20471'
+      target_vnum: '020120420471'
+  local_id: '20472'
   name: O Labirinto
-  vnum: '20472'
+  vnum: '020120420472'
 - description: |-
     Este grande corredor vai para leste e oeste, com a entrada principal
     do templo para leste.  Para o norte tem grandes degraus que levam para
@@ -816,15 +889,16 @@
     está.  A saída do templo é ao oeste.
   exits:
     east:
-      target_vnum: '20474'
+      target_vnum: '020120420474'
     south:
-      target_vnum: '20475'
+      target_vnum: '020120420475'
     up:
-      target_vnum: '20492'
+      target_vnum: 020120420492
     west:
-      target_vnum: '20401'
+      target_vnum: '020120420401'
+  local_id: '20473'
   name: Corredor Interno para o Templo dos Ladrões
-  vnum: '20473'
+  vnum: '020120420473'
 - description: |-
     Este grande corredor parece estar cheio de alvoroço, mas um
     alvoroço quieto, calmo.  Mas parece estranho com todas essas pessoas
@@ -836,15 +910,16 @@
     lamentosos clérigos, assassinos pomposos, e fedorentos druidas.
   exits:
     east:
-      target_vnum: '20477'
+      target_vnum: '020120420477'
     north:
-      target_vnum: '20488'
+      target_vnum: 020120420488
     south:
-      target_vnum: '20476'
+      target_vnum: '020120420476'
     west:
-      target_vnum: '20473'
+      target_vnum: '020120420473'
+  local_id: '20474'
   name: Corredor Interno para o Templo dos Ladrões
-  vnum: '20474'
+  vnum: '020120420474'
 - description: |-
     Esta sala serve como uma área de descanso para os ladrões.
     Armaduras, armas, e equipamentos estão no chão perto dos seus
@@ -855,9 +930,10 @@
     A saída dessa sala é para o norte.
   exits:
     north:
-      target_vnum: '20473'
+      target_vnum: '020120420473'
+  local_id: '20475'
   name: Sala de Descanso
-  vnum: '20475'
+  vnum: '020120420475'
 - description: |-
     Sempre aberto, sempre com a melhor cerveja de toda Vitália, este bar - O
     Bar - apenas supre a necessidade de ladras e ladrões.  Nenhuma briga de
@@ -867,11 +943,12 @@
     uma tigela de aperitivo no bar (sem mencionar que eles servem pizza!).
   exits:
     north:
-      target_vnum: '20474'
+      target_vnum: '020120420474'
     up:
-      target_vnum: '20487'
+      target_vnum: 020120420487
+  local_id: '20476'
   name: O Bar
-  vnum: '20476'
+  vnum: '020120420476'
 - description: |-
     Está pequena antecâmara permite que os ladrões fiquem um pouco mais
     apresentável para seu herói.  Uma bacia foi erguida para cima por cabos
@@ -880,15 +957,16 @@
     oeste.  Para norte tem uma pequena sala, e para o sul tem uma porta fechada.
   exits:
     east:
-      target_vnum: '20478'
+      target_vnum: 020120420478
     north:
-      target_vnum: '20485'
+      target_vnum: 020120420485
     south:
-      target_vnum: '20479'
+      target_vnum: 020120420479
     west:
-      target_vnum: '20474'
+      target_vnum: '020120420474'
+  local_id: '20477'
   name: Antecâmara
-  vnum: '20477'
+  vnum: '020120420477'
 - description: |-
     Os murmúrios que você ouvia nos corredores, você não ouve mais, nenhum
     som entra ou sai desse Templo.  Um altar está no fim oriental do Templo
@@ -898,101 +976,111 @@
     que você pode ter.
   exits:
     south:
-      target_vnum: '20480'
+      target_vnum: 020120420480
     west:
-      target_vnum: '20477'
+      target_vnum: '020120420477'
+  local_id: '20478'
   name: O Templo Sagrado a Dimas
-  vnum: '20478'
+  vnum: 020120420478
 - description: |-
     Aqui é o quarto do Grande Clérigo do Altar.  Embora não seja bem um
     clérigo, este homem sempre será um ladrão, ele foi elevado a clérigo e
     reconhecido como 'Ladrão Utópico', um que todos os ladrões deveriam seguir.
   exits:
     north:
-      target_vnum: '20477'
+      target_vnum: '020120420477'
+  local_id: '20479'
   name: O Quarto do Grande Clérigo
-  vnum: '20479'
+  vnum: 020120420479
 - description: |-
     Você entrou no bem cuidado jardim dos ladrões, o qual, não se combina com
     um ladrão, é um lugar extremamente importante.  Este lugar do jardim é usado
     para o cultivo de muitos venenos utilizados pelos ladrões.
   exits:
     east:
-      target_vnum: '20481'
+      target_vnum: 020120420481
     north:
-      target_vnum: '20478'
+      target_vnum: 020120420478
     south:
-      target_vnum: '20482'
+      target_vnum: 020120420482
+  local_id: '20480'
   name: Jardim dos Ladrões
-  vnum: '20480'
+  vnum: 020120420480
 - description: |-
     Este jardim é usado para o crescimento de famosas plantas venenosas
     empregadas pelos ladrões.
   exits:
     south:
-      target_vnum: '20483'
+      target_vnum: 020120420483
     west:
-      target_vnum: '20480'
+      target_vnum: 020120420480
+  local_id: '20481'
   name: Jardim dos Ladrões
-  vnum: '20481'
+  vnum: 020120420481
 - description: |-
     Este jardim é usado para o cultivo de plantas venenosas empregadas pelos
     ladrões.
   exits:
     east:
-      target_vnum: '20483'
+      target_vnum: 020120420483
     north:
-      target_vnum: '20480'
+      target_vnum: 020120420480
     south:
-      target_vnum: '20484'
+      target_vnum: 020120420484
+  local_id: '20482'
   name: Jardim dos Ladrões
-  vnum: '20482'
+  vnum: 020120420482
 - description: |-
     Este jardim é usado para o cultivo de plantas venenosas empregadas pelos
     ladrões.
   exits:
     north:
-      target_vnum: '20481'
+      target_vnum: 020120420481
     west:
-      target_vnum: '20482'
+      target_vnum: 020120420482
+  local_id: '20483'
   name: Jardim dos Ladrões
-  vnum: '20483'
+  vnum: 020120420483
 - description: |-
     Este jardim é usado para o cultivo de plantas venenosas empregadas pelos
     ladrões.
   exits:
     north:
-      target_vnum: '20482'
+      target_vnum: 020120420482
+  local_id: '20484'
   name: Jardim dos Ladrões
-  vnum: '20484'
+  vnum: 020120420484
 - description: |-
     Está é a sala onde fica o quadro de mensagens dos ladrões.  Qualquer tipo
     de comunicação é permitido, até mesmo piadas ladinas, nesse quadro.  Ao sul
     está a Antecâmara do Templo, e para o oeste é o correio.
   exits:
     east:
-      target_vnum: '20486'
+      target_vnum: 020120420486
     south:
-      target_vnum: '20477'
+      target_vnum: '020120420477'
+  local_id: '20485'
   name: Sala do Quadro
-  vnum: '20485'
+  vnum: 020120420485
 - description: |-
     Aqui está o Correio.  Simplesmente escreva MAIL <pessoa> escreva sua
     carta.  As cartas geralmente são entregues.
   exits:
     west:
-      target_vnum: '20485'
+      target_vnum: 020120420485
+  local_id: '20486'
   name: Correio
-  vnum: '20486'
+  vnum: 020120420486
 - description: |-
     Esta pequena sala conduz para todos os quartos, todas as portas
     dos quartos são aqui.  Qualquer ladrão que queira morar aqui quando
     iniciar seu jogo em Vitália pode ficar aqui.
   exits:
     down:
-      target_vnum: '20476'
+      target_vnum: '020120420476'
+  local_id: '20487'
   name: Sala de Descanso dos Ladrões
-  vnum: '20487'
+  vnum: 020120420487
 - description: |-
     Este pequeno pátio conduz para as três lojas que especificamente
     vendem bons itens para os ladrões.  Os preços são um pouco alto, mas
@@ -1000,345 +1088,371 @@
     e para o norte a loja com itens em geral para ladrões.
   exits:
     east:
-      target_vnum: '20489'
+      target_vnum: 020120420489
     north:
-      target_vnum: '20491'
+      target_vnum: 020120420491
     south:
-      target_vnum: '20474'
+      target_vnum: '020120420474'
     west:
-      target_vnum: '20490'
+      target_vnum: 020120420490
+  local_id: '20488'
   name: Pátio dos Ladrões
-  vnum: '20488'
+  vnum: 020120420488
 - description: |-
     Este quarto pequeno possui armas de toda forma e tamanho, todos foram
     feitos para ajudar os ladrões em suas aventurar por Vitália.
   exits:
     west:
-      target_vnum: '20488'
+      target_vnum: 020120420488
+  local_id: '20489'
   name: Loja de Armas
-  vnum: '20489'
+  vnum: 020120420489
 - description: |-
     Esta loja possui todas as armaduras para o uso dos ladrões. Prateleiras
     revestem as paredes, exibindo alguma das melhores armaduras de Vitália.
   exits:
     east:
-      target_vnum: '20488'
+      target_vnum: 020120420488
+  local_id: '20490'
   name: Loja de Armaduras
-  vnum: '20490'
+  vnum: 020120420490
 - description: |-
     Qualquer e todas as mercadorias possíveis está aqui nessa sala, exibidas
     nas estantes. De anéis e pedras para amuletos mágicos, as necessidades de
     um ladrão pode ser encontrada aqui.
   exits:
     south:
-      target_vnum: '20488'
+      target_vnum: 020120420488
+  local_id: '20491'
   name: Loja de Itens em Geral
-  vnum: '20491'
+  vnum: 020120420491
 - description: |-
     Esta enorme escadaria vai em direção aos quartos privados desses ladrões
     que possuem níveis mais altos, e também a própria câmara onde Dimas ficava.
   exits:
     down:
-      target_vnum: '20473'
+      target_vnum: '020120420473'
     up:
-      target_vnum: '20500'
+      target_vnum: '020120420500'
+  local_id: '20492'
   name: Na Escadaria
-  vnum: '20492'
+  vnum: 020120420492
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.  Bem antes de
     você partir, para o norte, tem uma porta com uma placa escrita: Dimas.
   exits:
     down:
-      target_vnum: '20492'
+      target_vnum: 020120420492
     east:
-      target_vnum: '20501'
+      target_vnum: '020120420501'
     north:
-      target_vnum: '20567'
+      target_vnum: '020120420567'
     west:
-      target_vnum: '20511'
+      target_vnum: '020120420511'
+  local_id: '20500'
   name: Corredor
-  vnum: '20500'
+  vnum: '020120420500'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Existem portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20502'
+      target_vnum: '020120420502'
     north:
-      target_vnum: '20521'
+      target_vnum: '020120420521'
     south:
-      target_vnum: '20523'
+      target_vnum: '020120420523'
     west:
-      target_vnum: '20500'
+      target_vnum: '020120420500'
+  local_id: '20501'
   name: Corredor
-  vnum: '20501'
+  vnum: '020120420501'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20503'
+      target_vnum: '020120420503'
     north:
-      target_vnum: '20540'
+      target_vnum: '020120420540'
     south:
-      target_vnum: '20541'
+      target_vnum: '020120420541'
     west:
-      target_vnum: '20501'
+      target_vnum: '020120420501'
+  local_id: '20502'
   name: Corredor
-  vnum: '20502'
+  vnum: '020120420502'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20504'
+      target_vnum: '020120420504'
     north:
-      target_vnum: '20524'
+      target_vnum: '020120420524'
     south:
-      target_vnum: '20525'
+      target_vnum: '020120420525'
     west:
-      target_vnum: '20502'
+      target_vnum: '020120420502'
+  local_id: '20503'
   name: Corredor
-  vnum: '20503'
+  vnum: '020120420503'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20505'
+      target_vnum: '020120420505'
     north:
-      target_vnum: '20539'
+      target_vnum: 020120420539
     south:
-      target_vnum: '20542'
+      target_vnum: '020120420542'
     west:
-      target_vnum: '20503'
+      target_vnum: '020120420503'
+  local_id: '20504'
   name: Corredor
-  vnum: '20504'
+  vnum: '020120420504'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20506'
+      target_vnum: '020120420506'
     north:
-      target_vnum: '20526'
+      target_vnum: '020120420526'
     south:
-      target_vnum: '20527'
+      target_vnum: '020120420527'
     west:
-      target_vnum: '20504'
+      target_vnum: '020120420504'
+  local_id: '20505'
   name: Corredor
-  vnum: '20505'
+  vnum: '020120420505'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20507'
+      target_vnum: '020120420507'
     north:
-      target_vnum: '20538'
+      target_vnum: 020120420538
     south:
-      target_vnum: '20537'
+      target_vnum: '020120420537'
     west:
-      target_vnum: '20505'
+      target_vnum: '020120420505'
+  local_id: '20506'
   name: Corredor
-  vnum: '20506'
+  vnum: '020120420506'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20508'
+      target_vnum: 020120420508
     north:
-      target_vnum: '20528'
+      target_vnum: 020120420528
     south:
-      target_vnum: '20529'
+      target_vnum: 020120420529
     west:
-      target_vnum: '20506'
+      target_vnum: '020120420506'
+  local_id: '20507'
   name: Corredor
-  vnum: '20507'
+  vnum: '020120420507'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20509'
+      target_vnum: 020120420509
     north:
-      target_vnum: '20535'
+      target_vnum: '020120420535'
     south:
-      target_vnum: '20536'
+      target_vnum: '020120420536'
     west:
-      target_vnum: '20507'
+      target_vnum: '020120420507'
+  local_id: '20508'
   name: Corredor
-  vnum: '20508'
+  vnum: 020120420508
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20510'
+      target_vnum: '020120420510'
     north:
-      target_vnum: '20530'
+      target_vnum: '020120420530'
     south:
-      target_vnum: '20531'
+      target_vnum: '020120420531'
     west:
-      target_vnum: '20508'
+      target_vnum: 020120420508
+  local_id: '20509'
   name: Corredor
-  vnum: '20509'
+  vnum: 020120420509
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20532'
+      target_vnum: '020120420532'
     north:
-      target_vnum: '20533'
+      target_vnum: '020120420533'
     south:
-      target_vnum: '20534'
+      target_vnum: '020120420534'
     west:
-      target_vnum: '20509'
+      target_vnum: 020120420509
+  local_id: '20510'
   name: Corredor
-  vnum: '20510'
+  vnum: '020120420510'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20500'
+      target_vnum: '020120420500'
     north:
-      target_vnum: '20543'
+      target_vnum: '020120420543'
     south:
-      target_vnum: '20554'
+      target_vnum: '020120420554'
     west:
-      target_vnum: '20512'
+      target_vnum: '020120420512'
+  local_id: '20511'
   name: Corredor
-  vnum: '20511'
+  vnum: '020120420511'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20511'
+      target_vnum: '020120420511'
     north:
-      target_vnum: '20544'
+      target_vnum: '020120420544'
     south:
-      target_vnum: '20555'
+      target_vnum: '020120420555'
     west:
-      target_vnum: '20513'
+      target_vnum: '020120420513'
+  local_id: '20512'
   name: Corredor
-  vnum: '20512'
+  vnum: '020120420512'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20512'
+      target_vnum: '020120420512'
     north:
-      target_vnum: '20545'
+      target_vnum: '020120420545'
     south:
-      target_vnum: '20556'
+      target_vnum: '020120420556'
     west:
-      target_vnum: '20514'
+      target_vnum: '020120420514'
+  local_id: '20513'
   name: Corredor
-  vnum: '20513'
+  vnum: '020120420513'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20513'
+      target_vnum: '020120420513'
     north:
-      target_vnum: '20546'
+      target_vnum: '020120420546'
     south:
-      target_vnum: '20557'
+      target_vnum: '020120420557'
     west:
-      target_vnum: '20515'
+      target_vnum: '020120420515'
+  local_id: '20514'
   name: Corredor
-  vnum: '20514'
+  vnum: '020120420514'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20514'
+      target_vnum: '020120420514'
     north:
-      target_vnum: '20547'
+      target_vnum: '020120420547'
     south:
-      target_vnum: '20558'
+      target_vnum: 020120420558
     west:
-      target_vnum: '20516'
+      target_vnum: '020120420516'
+  local_id: '20515'
   name: Corredor
-  vnum: '20515'
+  vnum: '020120420515'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20515'
+      target_vnum: '020120420515'
     north:
-      target_vnum: '20548'
+      target_vnum: 020120420548
     south:
-      target_vnum: '20559'
+      target_vnum: 020120420559
     west:
-      target_vnum: '20517'
+      target_vnum: '020120420517'
+  local_id: '20516'
   name: Corredor
-  vnum: '20516'
+  vnum: '020120420516'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20516'
+      target_vnum: '020120420516'
     north:
-      target_vnum: '20549'
+      target_vnum: 020120420549
     south:
-      target_vnum: '20560'
+      target_vnum: '020120420560'
     west:
-      target_vnum: '20518'
+      target_vnum: 020120420518
+  local_id: '20517'
   name: Corredor
-  vnum: '20517'
+  vnum: '020120420517'
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20517'
+      target_vnum: '020120420517'
     north:
-      target_vnum: '20550'
+      target_vnum: '020120420550'
     south:
-      target_vnum: '20561'
+      target_vnum: '020120420561'
     west:
-      target_vnum: '20519'
+      target_vnum: 020120420519
+  local_id: '20518'
   name: Corredor
-  vnum: '20518'
+  vnum: 020120420518
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20518'
+      target_vnum: 020120420518
     north:
-      target_vnum: '20551'
+      target_vnum: '020120420551'
     south:
-      target_vnum: '20562'
+      target_vnum: '020120420562'
     west:
-      target_vnum: '20520'
+      target_vnum: '020120420520'
+  local_id: '20519'
   name: Corredor
-  vnum: '20519'
+  vnum: 020120420519
 - description: |-
     Você entra em um corredor que vai para leste e oeste até aonde seus olhos
     podem ver.  Há portas para sul e norte em todas as direções.
   exits:
     east:
-      target_vnum: '20519'
+      target_vnum: 020120420519
     north:
-      target_vnum: '20552'
+      target_vnum: '020120420552'
     south:
-      target_vnum: '20563'
+      target_vnum: '020120420563'
     west:
-      target_vnum: '20553'
+      target_vnum: '020120420553'
+  local_id: '20520'
   name: Corredor
-  vnum: '20520'
+  vnum: '020120420520'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1346,9 +1460,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20501'
+      target_vnum: '020120420501'
+  local_id: '20521'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20521'
+  vnum: '020120420521'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1356,9 +1471,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20501'
+      target_vnum: '020120420501'
+  local_id: '20522'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20522'
+  vnum: '020120420522'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1366,9 +1482,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20501'
+      target_vnum: '020120420501'
+  local_id: '20523'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20523'
+  vnum: '020120420523'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1376,9 +1493,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20503'
+      target_vnum: '020120420503'
+  local_id: '20524'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20524'
+  vnum: '020120420524'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1386,9 +1504,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20503'
+      target_vnum: '020120420503'
+  local_id: '20525'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20525'
+  vnum: '020120420525'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1396,9 +1515,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20505'
+      target_vnum: '020120420505'
+  local_id: '20526'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20526'
+  vnum: '020120420526'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1406,9 +1526,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20505'
+      target_vnum: '020120420505'
+  local_id: '20527'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20527'
+  vnum: '020120420527'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1416,9 +1537,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20507'
+      target_vnum: '020120420507'
+  local_id: '20528'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20528'
+  vnum: 020120420528
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1426,9 +1548,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20507'
+      target_vnum: '020120420507'
+  local_id: '20529'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20529'
+  vnum: 020120420529
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1436,9 +1559,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20509'
+      target_vnum: 020120420509
+  local_id: '20530'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20530'
+  vnum: '020120420530'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1446,9 +1570,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20509'
+      target_vnum: 020120420509
+  local_id: '20531'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20531'
+  vnum: '020120420531'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1456,9 +1581,10 @@
     preço muito bom.
   exits:
     west:
-      target_vnum: '20510'
+      target_vnum: '020120420510'
+  local_id: '20532'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20532'
+  vnum: '020120420532'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1466,9 +1592,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20510'
+      target_vnum: '020120420510'
+  local_id: '20533'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20533'
+  vnum: '020120420533'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1476,9 +1603,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20510'
+      target_vnum: '020120420510'
+  local_id: '20534'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20534'
+  vnum: '020120420534'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1486,9 +1614,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20508'
+      target_vnum: 020120420508
+  local_id: '20535'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20535'
+  vnum: '020120420535'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1496,9 +1625,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20508'
+      target_vnum: 020120420508
+  local_id: '20536'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20536'
+  vnum: '020120420536'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1506,9 +1636,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20506'
+      target_vnum: '020120420506'
+  local_id: '20537'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20537'
+  vnum: '020120420537'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1516,9 +1647,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20506'
+      target_vnum: '020120420506'
+  local_id: '20538'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20538'
+  vnum: 020120420538
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1526,9 +1658,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20504'
+      target_vnum: '020120420504'
+  local_id: '20539'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20539'
+  vnum: 020120420539
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1536,9 +1669,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20502'
+      target_vnum: '020120420502'
+  local_id: '20540'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20540'
+  vnum: '020120420540'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1546,9 +1680,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20502'
+      target_vnum: '020120420502'
+  local_id: '20541'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20541'
+  vnum: '020120420541'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1556,9 +1691,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20504'
+      target_vnum: '020120420504'
+  local_id: '20542'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20542'
+  vnum: '020120420542'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1566,9 +1702,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20511'
+      target_vnum: '020120420511'
+  local_id: '20543'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20543'
+  vnum: '020120420543'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1576,9 +1713,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20512'
+      target_vnum: '020120420512'
+  local_id: '20544'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20544'
+  vnum: '020120420544'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1586,9 +1724,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20513'
+      target_vnum: '020120420513'
+  local_id: '20545'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20545'
+  vnum: '020120420545'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1596,9 +1735,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20514'
+      target_vnum: '020120420514'
+  local_id: '20546'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20546'
+  vnum: '020120420546'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1606,9 +1746,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20515'
+      target_vnum: '020120420515'
+  local_id: '20547'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20547'
+  vnum: '020120420547'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1616,9 +1757,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20516'
+      target_vnum: '020120420516'
+  local_id: '20548'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20548'
+  vnum: 020120420548
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1626,9 +1768,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20517'
+      target_vnum: '020120420517'
+  local_id: '20549'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20549'
+  vnum: 020120420549
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1636,9 +1779,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20518'
+      target_vnum: 020120420518
+  local_id: '20550'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20550'
+  vnum: '020120420550'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1646,9 +1790,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20519'
+      target_vnum: 020120420519
+  local_id: '20551'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20551'
+  vnum: '020120420551'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1656,9 +1801,10 @@
     preço muito bom.
   exits:
     south:
-      target_vnum: '20520'
+      target_vnum: '020120420520'
+  local_id: '20552'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20552'
+  vnum: '020120420552'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1666,9 +1812,10 @@
     preço muito bom.
   exits:
     east:
-      target_vnum: '20520'
+      target_vnum: '020120420520'
+  local_id: '20553'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20553'
+  vnum: '020120420553'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1676,9 +1823,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20511'
+      target_vnum: '020120420511'
+  local_id: '20554'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20554'
+  vnum: '020120420554'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1686,9 +1834,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20512'
+      target_vnum: '020120420512'
+  local_id: '20555'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20555'
+  vnum: '020120420555'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1696,9 +1845,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20513'
+      target_vnum: '020120420513'
+  local_id: '20556'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20556'
+  vnum: '020120420556'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1706,9 +1856,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20514'
+      target_vnum: '020120420514'
+  local_id: '20557'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20557'
+  vnum: '020120420557'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1716,9 +1867,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20515'
+      target_vnum: '020120420515'
+  local_id: '20558'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20558'
+  vnum: 020120420558
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1726,9 +1878,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20516'
+      target_vnum: '020120420516'
+  local_id: '20559'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20559'
+  vnum: 020120420559
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxa0 meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1736,9 +1889,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20517'
+      target_vnum: '020120420517'
+  local_id: '20560'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20560'
+  vnum: '020120420560'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1746,9 +1900,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20518'
+      target_vnum: 020120420518
+  local_id: '20561'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20561'
+  vnum: '020120420561'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1756,9 +1911,10 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20519'
+      target_vnum: 020120420519
+  local_id: '20562'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20562'
+  vnum: '020120420562'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
@@ -1766,46 +1922,51 @@
     preço muito bom.
   exits:
     north:
-      target_vnum: '20520'
+      target_vnum: '020120420520'
+  local_id: '20563'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20563'
+  vnum: '020120420563'
 - description: |-
     Isto é certo, este pequeno quarto poderia ser muito bom para descansar,
     relaxar, meditar, ou (como diria Dimas) um lugar para festas.  Estes quartos
     são oferecidos para os ladrões que atingiu no mínimo o nível cinqüenta por um
     preço muito bom.
   exits: {}
+  local_id: '20564'
   name: Esta Poderia Ser SUA Casa
-  vnum: '20564'
+  vnum: '020120420564'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20411'
+      target_vnum: '020120420411'
     south:
-      target_vnum: '20410'
+      target_vnum: '020120420410'
     west:
-      target_vnum: '20445'
+      target_vnum: '020120420445'
+  local_id: '20565'
   name: O Labirinto
-  vnum: '20565'
+  vnum: '020120420565'
 - description: |-
     As paredes, pintadas de verde, cercam todos os lados.  As saídas desse
     pequeno quarto são as rachaduras nas paredes, largo bastante para que
     você possa passar.
   exits:
     east:
-      target_vnum: '20401'
+      target_vnum: '020120420401'
     west:
-      target_vnum: '20416'
+      target_vnum: '020120420416'
+  local_id: '20566'
   name: O Labirinto
-  vnum: '20566'
+  vnum: '020120420566'
 - description: |-
     Você está no local onde repousa o corpo do grande Dimas, Patriarca dos
     Ladrões.  Aqui é um local sagrado, não podendo ser visitado.
   exits:
     south:
-      target_vnum: '20500'
+      target_vnum: '020120420500'
+  local_id: '20567'
   name: O Descanso de Dimas
-  vnum: '20567'
+  vnum: '020120420567'

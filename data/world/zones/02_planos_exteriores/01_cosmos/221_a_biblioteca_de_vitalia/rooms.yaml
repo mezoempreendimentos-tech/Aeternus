@@ -20,13 +20,14 @@
     seu livro.
   exits:
     north:
-      target_vnum: '22102'
+      target_vnum: '020122122102'
     south:
-      target_vnum: '3000'
+      target_vnum: '02012213000'
     west:
-      target_vnum: '22101'
+      target_vnum: '020122122101'
+  local_id: '22100'
   name: A Grande Biblioteca de Vitália
-  vnum: '22100'
+  vnum: '020122122100'
 - description: |-
     Esta é a sala de leitura da grandiosa Biblioteca.  Ao entrar, você depara
     com um número infinito de estantes, todas elas absolutamente lotadas por
@@ -44,9 +45,10 @@
     norte.
   exits:
     east:
-      target_vnum: '22100'
+      target_vnum: '020122122100'
+  local_id: '22101'
   name: O Anexo de Leitura da Biblioteca
-  vnum: '22101'
+  vnum: '020122122101'
 - description: |-
     Você agora se encontra na Livraria da Biblioteca, e está todo feliz, pois
     sabe que poderá comprar alguns exemplares de livros para ler com calma.
@@ -58,6 +60,7 @@
     estranha e complexa.
   exits:
     south:
-      target_vnum: '22100'
+      target_vnum: '020122122100'
+  local_id: '22102'
   name: A Livraria dos Aventureiros
-  vnum: '22102'
+  vnum: '020122122102'

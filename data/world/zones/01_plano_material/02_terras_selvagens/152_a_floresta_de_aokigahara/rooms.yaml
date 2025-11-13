@@ -22,9 +22,12 @@
     irresistível.
   exits:
     north:
-      target_vnum: '15201'
+      target_vnum: '010215215201'
+    southwest:
+      target_vnum: '01021524040'
+  local_id: '15200'
   name: A Orla da Floresta Sussurrante
-  vnum: '15200'
+  vnum: '010215215200'
 - description: |-
     Você dá os primeiros passos cautelosos para dentro da floresta, e o ar
     imediatamente se torna mais frio e parado.  O dossel de galhos acima de você
@@ -44,11 +47,12 @@
     sua garganta.
   exits:
     north:
-      target_vnum: '15202'
+      target_vnum: '010215215202'
     south:
-      target_vnum: '15200'
+      target_vnum: '010215215200'
+  local_id: '15201'
   name: "Entre as Primeiras Ã\x81rvores"
-  vnum: '15201'
+  vnum: '010215215201'
 - description: |-
     Você avança e a sensação de estar sendo observado se intensifica.  A
     penumbra aqui é quase total, e as poucas frestas de luz que penetram o dossel
@@ -62,14 +66,15 @@
     loucura, de continuar a ouvir.
   exits:
     north:
-      target_vnum: '15203'
+      target_vnum: '010215215203'
     south:
-      target_vnum: '15201'
+      target_vnum: '010215215201'
+  local_id: '15202'
   name: Onde a Luz Começa a Morrer
-  vnum: '15202'
+  vnum: '010215215202'
 - description: "Este é o ponto sem retorno.  Olhando para cima, através de um emaranhado\n\
     quase sólido de galhos negros, você consegue ver uma única e minúscula nesga\n\
-    de cÃ©u cinzento.  Ã\x89 a Ãºltima prova de que existe um mundo para alÃ©m desta\n\
+    de céu cinzento.  Ã\x89 a última prova de que existe um mundo para além desta\n\
     prisão de madeira e sombras, um vislumbre tão fugaz e distante que mais parece\n\
     uma estrela moribunda do que a luz do dia.  O ar aqui é tão denso e úmido que\n\
     se condensa na sua pele em gotículas frias.  O caminho desapareceu por\ncompleto,\
@@ -80,29 +85,31 @@
     \ da humanidade pela escuridão impenetrável, começa a\ninstalar-se no peito."
   exits:
     north:
-      target_vnum: '15204'
+      target_vnum: '010215215204'
     south:
-      target_vnum: '15202'
-  name: "O Ã\x9Altimo Vislumbre do CÃ©u"
-  vnum: '15203'
+      target_vnum: '010215215202'
+  local_id: '15203'
+  name: "O Ã\x9Altimo Vislumbre do Céu"
+  vnum: '010215215203'
 - description: "A escuridão à sua frente não é impenetrável.  Ela é guardada.  Duas\n\
     árvores ancestrais, mais velhas e mais retorcidas que quaisquer outras que já\n\
     viu, cresceram uma em direção à outra, com seus galhos entrelaçando-se no\ntopo\
     \ para formar um arco natural.  Não é um arco de beleza, mas de posse.\nGalhos\
     \ finos e farpados pendem como uma cortina esfarrapada, e o espaço entre\nos dois\
-    \ troncos forma um portal inconfundível para as profundezas da floresta.\nNÃ£o\
-    \ hÃ¡ som aqui.  Nem mesmo os sussurros.  Ã\x89 um silÃªncio pesado, expectante,\n\
+    \ troncos forma um portal inconfundível para as profundezas da floresta.\nNão\
+    \ há som aqui.  Nem mesmo os sussurros.  Ã\x89 um silêncio pesado, expectante,\n\
     como o momento antes de o carrasco descer seu machado.  O ar tem um sabor\nmetálico,\
     \ como sangue velho.  Atravessar este portão parece um ato final e\nirrevogável,\
     \ uma aceitação do abraço da floresta e de todos os horrores que\nela nutre em\
     \ seu coração apodrecido."
   exits:
     north:
-      target_vnum: '15205'
+      target_vnum: '010215215205'
     south:
-      target_vnum: '15203'
+      target_vnum: '010215215203'
+  local_id: '15204'
   name: O Portão de Galhos
-  vnum: '15204'
+  vnum: '010215215204'
 - description: |-
     Assim que atravessa o arco de galhos, o silêncio opressivo é quebrado.  Os
     sussurros regressam, mais altos e claros do que nunca, e agora parecem deslizar
@@ -118,11 +125,12 @@
     lama escura e fria.
   exits:
     north:
-      target_vnum: '15206'
+      target_vnum: '010215215206'
     south:
-      target_vnum: '15204'
+      target_vnum: '010215215204'
+  local_id: '15205'
   name: Início da Trilha Serpentina
-  vnum: '15205'
+  vnum: '010215215205'
 - description: "A trilha serpentina desemboca numa pequena área circular onde o chão\
     \ é\nsurpreendentemente firme, como se a terra aqui estivesse assustada demais\
     \ para\nse transformar em lama.  Ã\x89 uma encruzilhada, embora os caminhos que\
@@ -137,15 +145,16 @@
     \ não parece gostar de indecisão."
   exits:
     east:
-      target_vnum: '15215'
+      target_vnum: '010215215215'
     north:
-      target_vnum: '15229'
+      target_vnum: 010215215229
     south:
-      target_vnum: '15205'
+      target_vnum: '010215215205'
     west:
-      target_vnum: '15220'
+      target_vnum: '010215215220'
+  local_id: '15206'
   name: Encruzilhada Tênue
-  vnum: '15206'
+  vnum: '010215215206'
 - description: |-
     Afastando-se do pátio do santuário, você embrenha-se por um caminho que
     parece menos percorrido por pés e mais por patas.  A trilha é estreita,
@@ -160,11 +169,12 @@
     caça, e você já não está no topo da cadeia alimentar.
   exits:
     east:
-      target_vnum: '15231'
+      target_vnum: '010215215231'
     west:
-      target_vnum: '15208'
+      target_vnum: 010215215208
+  local_id: '15207'
   name: Trilha Marcada por Garras
-  vnum: '15207'
+  vnum: '010215215207'
 - description: |-
     A trilha leva-o até à margem de um riacho que corta o bosque como uma veia
     negra.  A água que flui aqui não é clara; é escura e oleosa, refletindo a
@@ -180,11 +190,12 @@
     encontram.
   exits:
     east:
-      target_vnum: '15207'
+      target_vnum: '010215215207'
     west:
-      target_vnum: '15209'
+      target_vnum: 010215215209
+  local_id: '15208'
   name: "Riacho de Ã\x81guas Escuras"
-  vnum: '15208'
+  vnum: 010215215208
 - description: |-
     O riacho escuro alarga-se aqui, com sua corrente lenta e oleosa a escavar as
     margens de lama. A única forma de atravessar é uma ponte de corda decrépita,
@@ -200,11 +211,12 @@
     a superfície, a queda seria o menor dos seus problemas.
   exits:
     east:
-      target_vnum: '15208'
+      target_vnum: 010215215208
     north:
-      target_vnum: '15210'
+      target_vnum: '010215215210'
+  local_id: '15209'
   name: Ponte de Corda Apodrecida
-  vnum: '15209'
+  vnum: 010215215209
 - description: |-
     Você pisa em terra firme do outro lado da ponte, entrando numa pequena clareira
     banhada por uma luz pálida e fantasmagórica que se filtra através de uma falha
@@ -220,11 +232,12 @@
     o silêncio mortal do lugar.
   exits:
     east:
-      target_vnum: '15211'
+      target_vnum: '010215215211'
     south:
-      target_vnum: '15209'
+      target_vnum: 010215215209
+  local_id: '15210'
   name: Clareira da Caça
-  vnum: '15210'
+  vnum: '010215215210'
 - description: |-
     Você abandona a clareira da caça e entra numa seção da floresta onde o tempo
     parece ter parado. As árvores aqui são titãs, com troncos tão largos que três
@@ -240,11 +253,12 @@
     antigo, cheirando a terra rica e a séculos de decadência lenta e natural.
   exits:
     east:
-      target_vnum: '15212'
+      target_vnum: '010215215212'
     west:
-      target_vnum: '15210'
+      target_vnum: '010215215210'
+  local_id: '15211'
   name: Coração do Bosque Antigo
-  vnum: '15211'
+  vnum: '010215215211'
 - description: |-
     A serenidade do bosque antigo quebra-se abruptamente. As árvores neste local
     crescem em espirais impossíveis, seus troncos torcendo-se sobre si mesmos como
@@ -261,11 +275,12 @@
     dentes doerem.
   exits:
     north:
-      target_vnum: '15213'
+      target_vnum: '010215215213'
     west:
-      target_vnum: '15211'
+      target_vnum: '010215215211'
+  local_id: '15212'
   name: Bosque Retorcido
-  vnum: '15212'
+  vnum: '010215215212'
 - description: |-
     O bosque retorcido à sua volta torna-se um labirinto de pesadelo. Não há mais
     trilha, apenas espaços estreitos entre troncos que se fundem e se separam como
@@ -284,11 +299,12 @@
     uma rendição da sua própria mente à loucura.
   exits:
     north:
-      target_vnum: '15212'
+      target_vnum: '010215215212'
     south:
-      target_vnum: '15214'
+      target_vnum: '010215215214'
+  local_id: '15213'
   name: Trilha Confusa
-  vnum: '15213'
+  vnum: '010215215213'
 - description: "O caminho força-o a entrar num espaço apertado, um beco claustrofóbico\
     \ onde a\nfloresta parece fechar-se sobre si. Você encontra-se cercado por todos\
     \ os lados\npor uma muralha impenetrável de espinheiros. Os ramos entrelaçam-se\
@@ -297,15 +313,16 @@
     \ a decadência\nvegetal e a desespero silencioso.\n\nA muralha de espinhos a leste\
     \ parece ainda mais densa, uma barreira\nintransponível. No entanto, algo desafia\
     \ a desolação deste lugar. A seus pés,\ncrescendo directamente da base da parede\
-    \ de espinhos mais escura, uma única\nflor branca desabrocha. Ã\x89 uma camÃ©lia\
+    \ de espinhos mais escura, uma única\nflor branca desabrocha. Ã\x89 uma camélia\
     \ de uma brancura imaculada, as suas\npétalas perfeitas e a brilhar com uma luz\
     \ suave e interior. Parece\ncompletamente deslocada, um sussurro de pureza num\
     \ grito de corrupção."
   exits:
     north:
-      target_vnum: '15213'
+      target_vnum: '010215215213'
+  local_id: '15214'
   name: O Beco dos Espinhos
-  vnum: '15214'
+  vnum: '010215215214'
 - description: |-
     Você escolhe o caminho a leste e é imediatamente forçado a curvar-se. O ar
     torna-se espesso com o cheiro acre de veneno e decomposição seca. A trilha é
@@ -323,11 +340,12 @@
     sombras.
   exits:
     east:
-      target_vnum: '15216'
+      target_vnum: '010215215216'
     west:
-      target_vnum: '15206'
+      target_vnum: '010215215206'
+  local_id: '15215'
   name: Trilha Coberta de Teias
-  vnum: '15215'
+  vnum: '010215215215'
 - description: |-
     A trilha termina abruptamente diante de uma abertura escura na base de uma
     pequena colina coberta de musgo. Esta não é uma gruta natural; as teias de
@@ -343,11 +361,12 @@
     vestígios da floresta e mergulhar no coração do ninho.
   exits:
     east:
-      target_vnum: '15217'
+      target_vnum: '010215215217'
     west:
-      target_vnum: '15215'
+      target_vnum: '010215215215'
+  local_id: '15216'
   name: A Boca da Gruta
-  vnum: '15216'
+  vnum: '010215215216'
 - description: |-
     Você mergulha na boca escura da gruta e encontra-se num túnel que mais parece o
     interior de um estômago gigantesco. As paredes, o teto e até mesmo o chão estão
@@ -374,11 +393,12 @@
     quitinosas.
   exits:
     east:
-      target_vnum: '15218'
+      target_vnum: 010215215218
     west:
-      target_vnum: '15216'
+      target_vnum: '010215215216'
+  local_id: '15217'
   name: Túnel de Teias
-  vnum: '15217'
+  vnum: '010215215217'
 - description: |-
     O túnel abre-se numa câmara circular que rouba o fôlego pela sua grotesca
     magnificência. O teto abobadado ergue-se nas sombras acima, sustentado por
@@ -408,11 +428,12 @@
     pesadelos ganham forma.
   exits:
     east:
-      target_vnum: '15219'
+      target_vnum: 010215215219
     west:
-      target_vnum: '15217'
+      target_vnum: '010215215217'
+  local_id: '15218'
   name: Câmara dos Ovos
-  vnum: '15218'
+  vnum: 010215215218
 - description: |-
     Você entra numa catedral de pesadelos, uma câmara vasta e circular que se ergue
     nas trevas como um templo dedicado a deuses aracnídeos. O teto perde-se na
@@ -442,9 +463,10 @@
     para se aproximarem do trono da morte.
   exits:
     west:
-      target_vnum: '15218'
+      target_vnum: 010215215218
+  local_id: '15219'
   name: Covil da Aranha-Rainha
-  vnum: '15219'
+  vnum: 010215215219
 - description: |-
     O caminho para oeste da encruzilhada leva-o numa descida gradual, mas
     inexorável, para um reino onde a terra sólida se rende à água estagnada e à
@@ -470,11 +492,12 @@
     terra firme já não se aplicam.
   exits:
     east:
-      target_vnum: '15206'
+      target_vnum: '010215215206'
     west:
-      target_vnum: '15221'
+      target_vnum: '010215215221'
+  local_id: '15220'
   name: A Trilha Transforma-se em Lama
-  vnum: '15220'
+  vnum: '010215215220'
 - description: |-
     A trilha lamacenta termina abruptamente numa margem irregular, onde a terra
     firme cede lugar a uma extensão vasta e sinistra de águas escuras e estagnadas.
@@ -504,11 +527,12 @@
     eterna.
   exits:
     east:
-      target_vnum: '15220'
+      target_vnum: '010215215220'
     west:
-      target_vnum: '15222'
+      target_vnum: '010215215222'
+  local_id: '15221'
   name: Beira do Pântano
-  vnum: '15221'
+  vnum: '010215215221'
 - description: |-
     Você encontra-se numa área onde o pântano se alarga numa bacia natural, criando
     um lago de águas mortas que se estende em todas as direções até desaparecer na
@@ -538,11 +562,12 @@
     atingiu um estado de equilíbrio perfeito e terrível.
   exits:
     east:
-      target_vnum: '15221'
+      target_vnum: '010215215221'
     north:
-      target_vnum: '15223'
+      target_vnum: '010215215223'
+  local_id: '15222'
   name: "Ã\x81guas Estagnadas"
-  vnum: '15222'
+  vnum: '010215215222'
 - description: |-
     Você pisa com cuidado numa passarela precária, construída com tábuas de madeira
     que já viram dias melhores há muito tempo. A estrutura estende-se sobre as
@@ -573,13 +598,14 @@
     nestas águas malditas.
   exits:
     north:
-      target_vnum: '15224'
+      target_vnum: '010215215224'
     south:
-      target_vnum: '15222'
+      target_vnum: '010215215222'
     west:
-      target_vnum: '15225'
+      target_vnum: '010215215225'
+  local_id: '15223'
   name: Passarela de Madeira Podre
-  vnum: '15223'
+  vnum: '010215215223'
 - description: "Você pisa em terra firme pela primeira vez em muito tempo, embora\
     \ \"firme\" seja\num termo relativo neste lugar amaldiçoado. A ilhota é uma pequena\
     \ elevação de\nterra pantanosa, não maior que uma casa modesta, coberta por uma\
@@ -604,11 +630,12 @@
     \ observados pelas águas\npacientes que os rodeiam."
   exits:
     east:
-      target_vnum: '15226'
+      target_vnum: '010215215226'
     south:
-      target_vnum: '15223'
+      target_vnum: '010215215223'
+  local_id: '15224'
   name: Ilhota Norte
-  vnum: '15224'
+  vnum: '010215215224'
 - description: |-
     Esta pequena ilha é ainda mais sinistra que a sua contraparte norte, como se a
     corrupção aqui tivesse tido mais tempo para amadurecer e aprofundar-se. A
@@ -638,9 +665,10 @@
     água.
   exits:
     east:
-      target_vnum: '15223'
+      target_vnum: '010215215223'
+  local_id: '15225'
   name: Ilhota Sul
-  vnum: '15225'
+  vnum: '010215215225'
 - description: |-
     Numa ilha ligeiramente maior que as outras, ergue-se uma estrutura que desafia
     tanto a lógica arquitetónica quanto a sanidade de quem a contempla. A cabana é
@@ -674,11 +702,12 @@
     encontrou uma nova forma de existência nos reinos da loucura pura.
   exits:
     north:
-      target_vnum: '15227'
+      target_vnum: '010215215227'
     west:
-      target_vnum: '15224'
+      target_vnum: '010215215224'
+  local_id: '15226'
   name: Cabana do Eremita Louco
-  vnum: '15226'
+  vnum: '010215215226'
 - description: "Ao entrar na cabana do eremita, você descobre que o interior é impossível:\
     \ um\nespaço que se estende muito além do que as paredes exteriores poderiam conter.\n\
     Encontra-se num vasto cemitério onde, em vez de lápides, erguem-se árvores\nmortas\
@@ -697,20 +726,21 @@
     \ sobre elas produz sons que se assemelham a\nsussurros e lamentações, como se\
     \ cada folha guardasse a memória da árvore de\nonde veio.\n\nNo centro deste cemitério\
     \ impossível, uma árvore maior que todas as outras\nergue-se como uma catedral\
-    \ de madeira morta, com seus galhos estendendo-se em\ntodas as direÃ§Ãµes e desaparecendo\
-    \ na escuridÃ£o acima. Esta Ã© a Ã\x81rvore-MÃ£e, o\ncoração pulsante deste reino\
+    \ de madeira morta, com seus galhos estendendo-se em\ntodas as direções e desaparecendo\
+    \ na escuridão acima. Esta é a Ã\x81rvore-Mãe, o\ncoração pulsante deste reino\
     \ de morte vegetal, e dela emana uma presença que é\nsimultaneamente antiga, sábia\
     \ e completamente malévola."
   exits:
     down:
-      target_vnum: '15228'
+      target_vnum: 010215215228
     south:
-      target_vnum: '15226'
+      target_vnum: '010215215226'
     up:
-      target_vnum: '15240'
-  name: "CemitÃ©rio de Ã\x81rvores"
-  vnum: '15227'
-- description: "A escadaria em espiral leva-o para as profundezas da Ã\x81rvore-MÃ£e,\
+      target_vnum: '010215215240'
+  local_id: '15227'
+  name: "Cemitério de Ã\x81rvores"
+  vnum: '010215215227'
+- description: "A escadaria em espiral leva-o para as profundezas da Ã\x81rvore-Mãe,\
     \ descendo\natravés de anéis de crescimento que contam histórias de milénios perdidos.\
     \ Cada\ndegrau talhado na madeira viva pulsa sob os seus pés, como se você estivesse\
     \ a\ncaminhar através das artérias de um colosso adormecido.\n\nAs paredes do\
@@ -736,9 +766,10 @@
     pacientemente por alguém corajoso ou louco o suficiente para comungar com elas."
   exits:
     up:
-      target_vnum: '15227'
+      target_vnum: '010215215227'
+  local_id: '15228'
   name: O Coração do Pântano
-  vnum: '15228'
+  vnum: 010215215228
 - description: |-
     Você pisa em algo sólido e, ao olhar para baixo, percebe que a trilha de lama
     deu lugar a um caminho de lajes de pedra. As pedras estão partidas e gastas,
@@ -755,11 +786,12 @@
     levar a algum sítio que já foi sagrado e agora está profanado.
   exits:
     north:
-      target_vnum: '15230'
+      target_vnum: '010215215230'
     south:
-      target_vnum: '15206'
+      target_vnum: '010215215206'
+  local_id: '15229'
   name: Caminho de Pedras Desgastado
-  vnum: '15229'
+  vnum: 010215215229
 - description: |-
     O caminho de pedras termina na base de uma ampla escadaria de pedra que sobe
     para a escuridão. Os degraus estão rachados e irregulares, cobertos por um
@@ -774,11 +806,12 @@
     sagrado. O ar aqui é pesado com o cheiro de pedra umida e decadência secular.
   exits:
     north:
-      target_vnum: '15231'
+      target_vnum: '010215215231'
     south:
-      target_vnum: '15229'
+      target_vnum: 010215215229
+  local_id: '15230'
   name: Escadaria Engolida por Musgo
-  vnum: '15230'
+  vnum: '010215215230'
 - description: "Você emerge no topo da escadaria e o que resta do pátio do santuário\
     \ abre-se à\nsua frente como a caixa torácica de um esqueleto. Colunas de pedra,\
     \ quebradas\ncomo ossos, erguem-se em direção a um céu que não conseguem alcançar,\
@@ -786,25 +819,26 @@
     \ que cresce nas fendas é de um verde\npálido e doentio, como a pele de um afogado.\
     \ No centro, onde outrora uma fonte\ncantava com água pura, jaz agora uma bacia\
     \ seca, cheia de um pó negro de folhas\nmortas que se desfazem ao toque, deixando\
-    \ para trás apenas uma mancha de\nfuligem.\n\nO silÃªncio aqui Ã© profundo, mas\
-    \ nÃ£o Ã© pacÃ­fico. Ã\x89 o silÃªncio de um lugar que\ntestemunhou um horror\
-    \ tão absoluto que perdeu a sua voz para sempre. O ar está\nimóvel, pesado com\
-    \ o cheiro a ozono de pedra partida e a doce melancolia da\ndecadência.\n\nPassagens\
-    \ em ruínas abrem-se para leste e oeste, prometendo mais vislumbres\ndeste esplendor\
+    \ para trás apenas uma mancha de\nfuligem.\n\nO silêncio aqui é profundo, mas\
+    \ não é pacífico. Ã\x89 o silêncio de um lugar que\ntestemunhou um horror tão\
+    \ absoluto que perdeu a sua voz para sempre. O ar está\nimóvel, pesado com o cheiro\
+    \ a ozono de pedra partida e a doce melancolia da\ndecadência.\n\nPassagens em\
+    \ ruínas abrem-se para leste e oeste, prometendo mais vislumbres\ndeste esplendor\
     \ morto, enquanto a norte, um caminho mais selvagem, ladeado por\nárvores cujas\
     \ cascas se assemelham a rostos a gritar, parece afastar-se deste\nlugar sagrado\
     \ para mergulhar novamente no coração profano da floresta."
   exits:
     east:
-      target_vnum: '15232'
+      target_vnum: '010215215232'
     north:
-      target_vnum: '15236'
+      target_vnum: '010215215236'
     south:
-      target_vnum: '15230'
+      target_vnum: '010215215230'
     west:
-      target_vnum: '15207'
+      target_vnum: '010215215207'
+  local_id: '15231'
   name: Pátio do Santuário
-  vnum: '15231'
+  vnum: '010215215231'
 - description: |-
     A passagem leste do pátio leva a uma ala do santuário onde o teto desabou há
     muito tempo, expondo o interior a um céu perpetuamente cinzento. Vigas de
@@ -820,11 +854,12 @@
     poupada da destruição total.
   exits:
     north:
-      target_vnum: '15233'
+      target_vnum: '010215215233'
     west:
-      target_vnum: '15231'
+      target_vnum: '010215215231'
+  local_id: '15232'
   name: Ala Leste em Ruínas
-  vnum: '15232'
+  vnum: '010215215232'
 - description: "A porta de carvalho abre-se com um rangido profundo e queixoso, revelando\
     \ uma\nsala que, milagrosamente, ainda tem um teto. Ã\x89 uma biblioteca, ou o\
     \ fantasma de\numa. O ar é pesado, espesso com o cheiro penetrante de papel a\
@@ -840,29 +875,31 @@
     \ que parece absorver a\npouca luz que entra na sala."
   exits:
     south:
-      target_vnum: '15232'
+      target_vnum: '010215215232'
+  local_id: '15233'
   name: Biblioteca Mofada
-  vnum: '15233'
+  vnum: '010215215233'
 - description: "A ala oeste do santuário está num estado de ruína ainda mais profundo\
-    \ que a\nleste. Aqui, a floresta nÃ£o Ñ\x81Ðµ contentou em cobrir as pedras; ela\
-    \ partiu-as.\nÃ\x81rvores jovens e vigorosas, com cascas pÃ¡lidas e doentias,\
-    \ crescem onde outrora\nhavia um chão de pedra, as suas raízes grossas como cobras\
-    \ a estilhaçar as\nfundações e a derrubar o que restava das paredes. O que antes\
-    \ era um corredor é\nagora um trilho de terra irregular, serpenteando entre escombros\
-    \ e vegetação\nagressiva.\n\nO ar é denso com o cheiro de seiva e pedra partida.\
-    \ O silêncio melancólico do\nresto do santuário é aqui quebrado pelo som subtil\
-    \ do crescimento - o ranger\nlento das raízes a forçar a pedra, o farfalhar das\
-    \ folhas numa brisa que não\nchega a tocar a sua pele. No meio da destruição,\
-    \ uma pequena estrutura de\npedra, talvez uma capela lateral ou um dormitório,\
-    \ parece um pouco mais\nintacta, com uma entrada escura e convidativa, prometendo\
-    \ um refúgio da fúria\nsilenciosa da natureza."
+    \ que a\nleste. Aqui, a floresta não Ñ\x81Ðµ contentou em cobrir as pedras; ela\
+    \ partiu-as.\nÃ\x81rvores jovens e vigorosas, com cascas pálidas e doentias, crescem\
+    \ onde outrora\nhavia um chão de pedra, as suas raízes grossas como cobras a estilhaçar\
+    \ as\nfundações e a derrubar o que restava das paredes. O que antes era um corredor\
+    \ é\nagora um trilho de terra irregular, serpenteando entre escombros e vegetação\n\
+    agressiva.\n\nO ar é denso com o cheiro de seiva e pedra partida. O silêncio melancólico\
+    \ do\nresto do santuário é aqui quebrado pelo som subtil do crescimento - o ranger\n\
+    lento das raízes a forçar a pedra, o farfalhar das folhas numa brisa que não\n\
+    chega a tocar a sua pele. No meio da destruição, uma pequena estrutura de\npedra,\
+    \ talvez uma capela lateral ou um dormitório, parece um pouco mais\nintacta, com\
+    \ uma entrada escura e convidativa, prometendo um refúgio da fúria\nsilenciosa\
+    \ da natureza."
   exits:
     east:
-      target_vnum: '15231'
+      target_vnum: '010215215231'
     north:
-      target_vnum: '15235'
+      target_vnum: '010215215235'
+  local_id: '15234'
   name: Ala Oeste em Ruínas
-  vnum: '15234'
+  vnum: '010215215234'
 - description: |-
     O interior da pequena estrutura revela uma série de cubículos de pedra,
     claramente os alojamentos dos monges que aqui viviam. O ar é frio e parado,
@@ -883,9 +920,10 @@
     estrelas.
   exits:
     south:
-      target_vnum: '15234'
+      target_vnum: '010215215234'
+  local_id: '15235'
   name: Alojamentos dos Monges
-  vnum: '15235'
+  vnum: '010215215235'
 - description: |-
     Atrás das ruínas principais do santuário, você encontra um caminho que leva a
     um arco torii de madeira, agora decaído e coberto de musgo. Uma das suas
@@ -905,14 +943,15 @@
     foi um lugar de luz.
   exits:
     north:
-      target_vnum: '15237'
+      target_vnum: '010215215237'
     south:
-      target_vnum: '15231'
+      target_vnum: '010215215231'
+  local_id: '15236'
   name: Um Arco de Torii Decaído
-  vnum: '15236'
+  vnum: '010215215236'
 - description: "O caminho para além do torii leva ao que deve ter sido o grande salão\
-    \ de\ncerimÃ³nias do santuÃ¡rio. Ã\x89 uma estrutura longa e retangular, agora\
-    \ sem teto,\naberta aos céus cinzentos e indiferentes. Ao longo das paredes interiores,\n\
+    \ de\ncerimónias do santuário. Ã\x89 uma estrutura longa e retangular, agora sem\
+    \ teto,\naberta aos céus cinzentos e indiferentes. Ao longo das paredes interiores,\n\
     dezenas de lanternas de pedra, primorosamente esculpidas com nuvens e lótus,\n\
     estão dispostas em intervalos regulares, como soldados numa vigília eterna.\n\n\
     Estão todas apagadas, cobertas de teias de aranha e do pó do tempo, mas é fácil\n\
@@ -925,11 +964,12 @@
     \ triste, um testemunho do poder do esquecimento."
   exits:
     north:
-      target_vnum: '15238'
+      target_vnum: 010215215238
     south:
-      target_vnum: '15236'
+      target_vnum: '010215215236'
+  local_id: '15237'
   name: Salão das Lanternas Apagadas
-  vnum: '15237'
+  vnum: '010215215237'
 - description: |-
     Você sobe os degraus de mármore e pisa na plataforma elevada, o antigo coração
     do santuário. Os restos de um grande altar de pedra jazem em pedaços à sua
@@ -950,15 +990,16 @@
     lajes de pedra do chão parece solta, revelando uma escuridão umida por baixo.
   exits:
     down:
-      target_vnum: '15241'
+      target_vnum: '010215215241'
     east:
-      target_vnum: '15239'
+      target_vnum: 010215215239
     north:
-      target_vnum: '15245'
+      target_vnum: '010215215245'
     south:
-      target_vnum: '15237'
+      target_vnum: '010215215237'
+  local_id: '15238'
   name: Altar Profanado
-  vnum: '15238'
+  vnum: 010215215238
 - description: |-
     Atrás do altar profanado, uma abertura na parede leva a um jardim murado que
     deveria ser um refúgio de paz. Este não é um jardim de plantas, mas um
@@ -977,11 +1018,12 @@
     soprar.
   exits:
     west:
-      target_vnum: '15238'
+      target_vnum: 010215215238
+  local_id: '15239'
   name: Jardim de Pedras Mortas
-  vnum: '15239'
-- description: "Subindo pelos galhos da Ã\x81rvore-MÃ£e como por uma escadaria natural,\
-    \ vocÃª emerge\nnuma torre impossível que se ergue através do dossel do cemitério\
+  vnum: 010215215239
+- description: "Subindo pelos galhos da Ã\x81rvore-Mãe como por uma escadaria natural,\
+    \ você emerge\nnuma torre impossível que se ergue através do dossel do cemitério\
     \ de árvores. A\nestrutura é uma fusão bizarra de arquitetura humana e crescimento\
     \ orgânico:\nparedes de pedra antiga entrelaçam-se com madeira viva, criando uma\
     \ torre que\npulsa suavemente como se respirasse.\n\nJanelas arqueadas oferecem\
@@ -1005,9 +1047,10 @@
     \ transcendem a compreensão mortal."
   exits:
     down:
-      target_vnum: '15227'
+      target_vnum: '010215215227'
+  local_id: '15240'
   name: Torre do Sino Silencioso
-  vnum: '15240'
+  vnum: '010215215240'
 - description: |-
     Uma passagem secreta, escondida sob um bloco de pedra deslocado do altar,
     revela uma escadaria íngreme que desce para catacumbas escuras e umidas. O ar
@@ -1023,11 +1066,12 @@
     frio e ligeiramente húmido sob os seus pés.
   exits:
     north:
-      target_vnum: '15242'
+      target_vnum: '010215215242'
     up:
-      target_vnum: '15238'
+      target_vnum: 010215215238
+  local_id: '15241'
   name: Catacumbas Subterrâneas
-  vnum: '15241'
+  vnum: '010215215241'
 - description: |-
     No final de um longo corredor, você encontra uma câmara funerária mais
     elaborada, claramente destinada a alguém de grande importância. Um sarcófago de
@@ -1046,11 +1090,12 @@
     salvação, mas sim deu à floresta a semente da sua própria consciência profana.
   exits:
     north:
-      target_vnum: '15243'
+      target_vnum: '010215215243'
     south:
-      target_vnum: '15241'
+      target_vnum: '010215215241'
+  local_id: '15242'
   name: Cripta do Monge Ancião
-  vnum: '15242'
+  vnum: '010215215242'
 - description: |-
     O corredor das catacumbas desce abruptamente e termina numa passagem
     completamente inundada. Uma água escura, gelada e na altura da sua cintura
@@ -1065,11 +1110,12 @@
     o odor a podridão do pântano, que de alguma forma se infiltra neste lugar.
   exits:
     north:
-      target_vnum: '15244'
+      target_vnum: '010215215244'
     south:
-      target_vnum: '15242'
+      target_vnum: '010215215242'
+  local_id: '15243'
   name: Passagem Inundada
-  vnum: '15243'
+  vnum: '010215215243'
 - description: |-
     A passagem inundada emerge numa pequena gruta na base de uma encosta, fora das
     ruínas do santuário. A abertura da gruta, escondida por uma cortina espessa de
@@ -1084,11 +1130,12 @@
     do pântano e provando que todos os caminhos nesta floresta levam à condenação.
   exits:
     south:
-      target_vnum: '15243'
+      target_vnum: '010215215243'
     up:
-      target_vnum: '15228'
+      target_vnum: 010215215228
+  local_id: '15244'
   name: Saída Secreta para o Pântano
-  vnum: '15244'
+  vnum: '010215215244'
 - description: "Este espaço serve como um limiar entre o mundo exterior e um poder\
     \ mais\nprofundo. Ã\x89 uma caverna natural, mas as paredes foram suavizadas e\
     \ esculpidas,\nне por mãos, mas por raízes. Grandes raízes, grossas como pilares,\
@@ -1101,11 +1148,12 @@
     \ amaldiçoados, leva ainda mais para o fundo, para\no epicentro desta força profana."
   exits:
     north:
-      target_vnum: '15246'
+      target_vnum: '010215215246'
     south:
-      target_vnum: '15238'
+      target_vnum: 010215215238
+  local_id: '15245'
   name: Antecâmara do Coração da Floresta
-  vnum: '15245'
+  vnum: '010215215245'
 - description: |-
     A passagem leva a uma vasta caverna circular. No centro, um poço profundo desce
     para uma escuridão que parece não ter fundo. Não há parapeito; as bordas são de
@@ -1120,13 +1168,14 @@
     profundezas. Este é um lugar de conhecimento proibido e loucura eterna.
   exits:
     north:
-      target_vnum: '15247'
+      target_vnum: '010215215247'
     south:
-      target_vnum: '15245'
+      target_vnum: '010215215245'
+  local_id: '15246'
   name: O Poço dos Sussurros
-  vnum: '15246'
+  vnum: '010215215246'
 - description: "Você encontra-se diante da manifestação final e mais terrível da corrupção\
-    \ que\npermeia esta floresta amaldiÃ§oada. A Ã\x81rvore-MÃ£e Moribunda ergue-se\
+    \ que\npermeia esta floresta amaldiçoada. A Ã\x81rvore-Mãe Moribunda ergue-se\
     \ como uma\ncatedral de agonia vegetal, um colosso que outrora deve ter sido magnífico,\
     \ mas\nque agora agoniza numa morte lenta e tortuosa que se estende por milénios.\n\
     \nSeu tronco, largo como uma fortaleza, está coberto por cascas que se descamam\n\
@@ -1152,9 +1201,10 @@
     pior."
   exits:
     south:
-      target_vnum: '15246'
-  name: "A Ã\x81rvore-MÃ£e Moribunda"
-  vnum: '15247'
+      target_vnum: '010215215246'
+  local_id: '15247'
+  name: "A Ã\x81rvore-Mãe Moribunda"
+  vnum: '010215215247'
 - description: |-
     E então, a barreira de espinhos cede. Não se parte nem se rasga, mas afasta-se
     com uma reverência silenciosa, os seus ramos negros a curvarem-se como súbditos
@@ -1186,9 +1236,10 @@
     exército é mais temível que a pureza que reside aqui.
   exits:
     north:
-      target_vnum: '15249'
+      target_vnum: 010215215249
+  local_id: '15248'
   name: O Grande Portão de Shizuka
-  vnum: '15248'
+  vnum: 010215215248
 - description: |-
     Este é um corredor sagrado, um túnel natural formado por colmos de bambu de um
     verde profundo que se arqueiam sobre a sua cabeça. A luz do sol, ao trespassar
@@ -1204,19 +1255,20 @@
     o tempo aqui fluísse de forma diferente.
   exits:
     north:
-      target_vnum: '15250'
+      target_vnum: '010215215250'
     south:
-      target_vnum: '15248'
+      target_vnum: 010215215248
+  local_id: '15249'
   name: O Caminho da Purificação
-  vnum: '15249'
+  vnum: 010215215249
 - description: "Este é o coração de Shizuka, um vasto pátio circular pavimentado com\
     \ seixos de\nrio em espirais perfeitas. A luz aqui é suave, como se filtrada por\
     \ opala. No\ncentro, uma ilha de relva verdejante flutua num lago espelhado, imóvel\
-    \ como\nvidro. E sobre ela, ergue-se a fonte de toda a paz deste santuÃ¡rio: a\
+    \ como\nvidro. E sobre ela, ergue-se a fonte de toda a paz deste santuário: a\
     \ Ã\x81rvore, a\nIrmã da Vida, um testemunho de que a vida sempre encontra um\
-    \ caminho.\n\nÃ\x89 uma Sakura ancestral cujos galhos parecem abraÃ§ar o cÃ©u.\
-    \ As suas flores nÃ£o\nsão apenas rosa; brilham com luz própria, pulsando em mil\
-    \ tons. Pétalas de pura\nenergia desprendem-se numa dança silenciosa, a dissolver-se\
+    \ caminho.\n\nÃ\x89 uma Sakura ancestral cujos galhos parecem abraçar o céu. As\
+    \ suas flores não\nsão apenas rosa; brilham com luz própria, pulsando em mil tons.\
+    \ Pétalas de pura\nenergia desprendem-se numa dança silenciosa, a dissolver-se\
     \ em poeira estelar\nantes de tocar a água, enviando ondulações de magia pura\
     \ pela praça. Este é o\npoder que mantém a escuridão afastada, a beleza como a\
     \ mais impenetrável das\narmaduras.\n\nO único som é o tilintar de um sino de\
@@ -1227,15 +1279,16 @@
     \ de tranquilidade a invadir a sua alma."
   exits:
     east:
-      target_vnum: '15252'
+      target_vnum: '010215215252'
     north:
-      target_vnum: '15251'
+      target_vnum: '010215215251'
     south:
-      target_vnum: '15249'
+      target_vnum: 010215215249
     west:
-      target_vnum: '15253'
+      target_vnum: '010215215253'
+  local_id: '15250'
   name: A Praça do Coração Perene
-  vnum: '15250'
+  vnum: '010215215250'
 - description: |-
     Este caminho parece moldado pela própria gentileza. As lajes de pedra sob os
     seus pés não são frias, mas retêm um calor subtil, e as suas superfícies foram
@@ -1258,11 +1311,12 @@
     fala de uma paciência que transcende a vida de um mortal.
   exits:
     north:
-      target_vnum: '15254'
+      target_vnum: '010215215254'
     south:
-      target_vnum: '15250'
+      target_vnum: '010215215250'
+  local_id: '15251'
   name: Entrada do Distrito dos Artesãos
-  vnum: '15251'
+  vnum: '010215215251'
 - description: |-
     Uma ponte de madeira de alvura leitosa arqueia-se sobre um canal cuja água
     corre sem som, límpida como cristal líquido. Não há pregos ou amarras de metal
@@ -1284,11 +1338,12 @@
     cada passo deve ser deliberado e cada pensamento, pesado com intenção.
   exits:
     east:
-      target_vnum: '15261'
+      target_vnum: '010215215261'
     west:
-      target_vnum: '15250'
+      target_vnum: '010215215250'
+  local_id: '15252'
   name: Ponte da Harmonia
-  vnum: '15252'
+  vnum: '010215215252'
 - description: "Neste lugar, o caminho muda. As lajes de pedra dão lugar a terra batida,\
     \ macia\ne escura, misturada com agulhas de pinheiro que abafam o som dos pés.\
     \ O ar\ntorna-se mais denso, fresco, e o perfume floral da praça é substituído\
@@ -1298,18 +1353,19 @@
     \ por rochas de rio cobertas de musgo, transbordam com uma\nmiríade de plantas\
     \ cujas folhas exibem todos os tons de verde. Pequenos insetos\nluminosos, semelhantes\
     \ a pirilampos, flutuam entre as folhas, o seu brilho\nazulado a pulsar em uníssono\
-    \ com a quietude do lugar.\n\nHÃ¡ uma tranquilidade aqui, diferente da solenidade\
-    \ da praÃ§a. Ã\x89 uma quietude de\ncrescimento, de vida a desdobrar-se em silêncio.\
+    \ com a quietude do lugar.\n\nHá uma tranquilidade aqui, diferente da solenidade\
+    \ da praça. Ã\x89 uma quietude de\ncrescimento, de vida a desdobrar-se em silêncio.\
     \ Cada planta parece vibrar com\numa energia restauradora, e apenas respirar o\
     \ ar deste lugar parece aliviar a\nfadiga da alma. Ã\x89 um lugar que celebra\
-    \ o poder da cura atravÃ©s da natureza."
+    \ o poder da cura através da natureza."
   exits:
     east:
-      target_vnum: '15250'
+      target_vnum: '010215215250'
     south:
-      target_vnum: '15258'
+      target_vnum: 010215215258
+  local_id: '15253'
   name: Entrada da Alameda dos Curandeiros
-  vnum: '15253'
+  vnum: '010215215253'
 - description: "Este é um pátio resguardado, rodeado por edifícios de madeira escura\
     \ e telhados\ncurvos que parecem observar com uma sabedoria silenciosa. Não é\
     \ uma praça de\nmultidões e gritos, mas um local de trocas reverentes. O ar cheira\
@@ -1324,15 +1380,16 @@
     \ na alma que o seu criador lhe incutiu, não no preço que exige."
   exits:
     east:
-      target_vnum: '15256'
+      target_vnum: '010215215256'
     north:
-      target_vnum: '15257'
+      target_vnum: '010215215257'
     south:
-      target_vnum: '15251'
+      target_vnum: '010215215251'
     west:
-      target_vnum: '15255'
+      target_vnum: '010215215255'
+  local_id: '15254'
   name: Praça do Mercado Silencioso
-  vnum: '15254'
+  vnum: '010215215254'
 - description: "O calor aqui não é o de uma fúria devoradora, mas o de um coração\
     \ constante. O\nar é seco e denso com o cheiro a carvão de freixo, a metal que\
     \ conheceu o fogo\ne a uma paz que parece ter sido martelada no próprio silêncio.\
@@ -1346,14 +1403,15 @@
     \ mais finas ferramentas para o\njardim e a cozinha.\n\nAs sombras neste lugar\
     \ não são escuras, mas aveludadas, e parecem absorver o\nsom, tornando o ambiente\
     \ ainda mais íntimo e sagrado. As peças aqui criadas,\nsejam os mais simples pregos\
-    \ ou os mais complexos portões, parecem imbuídas não\nsÃ³ da forÃ§a do fogo, mas\
-    \ tambÃ©m da serenidade da mÃ£o que as guiou. Ã\x89 um lugar\nonde a força e a\
-    \ tranquilidade se tornam uma só."
+    \ ou os mais complexos portões, parecem imbuídas não\nsó da força do fogo, mas\
+    \ também da serenidade da mão que as guiou. Ã\x89 um lugar\nonde a força e a tranquilidade\
+    \ se tornam uma só."
   exits:
     east:
-      target_vnum: '15254'
+      target_vnum: '010215215254'
+  local_id: '15255'
   name: Oficina do Ferreiro Contemplativo
-  vnum: '15255'
+  vnum: '010215215255'
 - description: "A luz nesta sala é dourada e quente como mel, filtrada por painéis\
     \ de papel de\narroz que cobrem as janelas. O ar está impregnado com a fragrância\
     \ de uma\nfloresta antiga e saudável: o cheiro resinoso do pinho, a fragrância\
@@ -1367,15 +1425,16 @@
     \ lento desvendar da\nforma que dorme dentro de cada pedaço de madeira.\n\nPor\
     \ toda a sala, obras em vários estágios de conclusão repousam em pedestais:\n\
     um pássaro a ponto de levantar voo, o rosto sereno de um monge a emergir de um\n\
-    nÃ³ de madeira, a curva delicada de uma flauta. Ã\x89 um lugar que celebra a\n\
+    nó de madeira, a curva delicada de uma flauta. Ã\x89 um lugar que celebra a\n\
     paciência como a maior das virtudes e a beleza como a mais verdadeira das\nlinguagens,\
     \ um testemunho do espírito que pode ser encontrado no coração de\ntodas as coisas\
     \ vivas."
   exits:
     west:
-      target_vnum: '15254'
+      target_vnum: '010215215254'
+  local_id: '15256'
   name: Ateliê do Entalhador de Sonhos
-  vnum: '15256'
+  vnum: '010215215256'
 - description: "O ar aqui dentro é quente e preenchido com o vapor aromático de infusões\
     \ de\nervas: o cheiro picante do gengibre, a fragrância floral do jasmim e o aroma\n\
     limpo e verde do chá de menta. A luz é fraca, proveniente de lanternas de bambu\n\
@@ -1385,7 +1444,7 @@
     \ social de Shizuka, um refúgio dentro do\nrefúgio. Mesas baixas de madeira escura,\
     \ polidas até ao brilho, estão\nespalhadas pela sala, cada uma rodeada por almofadas\
     \ de seda no chão. Não há o\nbarulho de conversas altas, apenas o murmúrio baixo\
-    \ e respeitoso dos poucos\npatronos. Ã\x89 um lugar para descanso, contemplaÃ§Ã£o\
+    \ e respeitoso dos poucos\npatronos. Ã\x89 um lugar para descanso, contemplação\
     \ e para a partilha silenciosa\nde companhia.\n\nNum canto, um pequeno arranjo\
     \ de flores (ikebana), perfeitamente equilibrado,\nparece conter toda a filosofia\
     \ do lugar: simplicidade, harmonia e a beleza\nencontrada no momento presente.\
@@ -1394,9 +1453,10 @@
     \ os sussurros do seu próprio espírito."
   exits:
     south:
-      target_vnum: '15254'
+      target_vnum: '010215215254'
+  local_id: '15257'
   name: Casa de Chá da Folha de Jade
-  vnum: '15257'
+  vnum: '010215215257'
 - description: "Este jardim não é um tumulto de cores, mas uma sinfonia de texturas\
     \ e tons de\nverde. O espaço é uma composição meticulosa de rochas cobertas de\
     \ musgo, areia\nbranca ancinhada em padrões de ondas e arbustos cuidadosamente\
@@ -1407,21 +1467,22 @@
     \ solitário, cujas folhas vermelhas são\num ponto de cor vibrante contra o verde\
     \ dominante. Uma pequena bacia de pedra\n(tsukubai) está cheia de água límpida,\
     \ convidando à purificação. Não há\ncaminhos definidos, pois este não é um lugar\
-    \ para se atravessar, mas para se\nestar.\n\nÃ\x89 um espaÃ§o que fala a uma linguagem\
-    \ sem palavras, de equilÃ­brio, paciÃªncia e\nda beleza da impermanência. As rochas\
+    \ para se atravessar, mas para se\nestar.\n\nÃ\x89 um espaço que fala a uma linguagem\
+    \ sem palavras, de equilíbrio, paciência e\nda beleza da impermanência. As rochas\
     \ parecem tão antigas como o próprio tempo,\nenquanto os padrões na areia sugerem\
     \ que foram feitos há momentos. Estar aqui é\nsentir o ritmo do mundo a abrandar,\
     \ a mente a esvaziar-se de pensamentos\ndesnecessários, e a alma a encontrar o\
     \ seu próprio centro silencioso."
   exits:
     east:
-      target_vnum: '15259'
+      target_vnum: 010215215259
     north:
-      target_vnum: '15253'
+      target_vnum: '010215215253'
     west:
-      target_vnum: '15260'
+      target_vnum: '010215215260'
+  local_id: '15258'
   name: Jardim da Calma Interior
-  vnum: '15258'
+  vnum: 010215215258
 - description: "O interior deste edifício é um casulo de cheiros e sombras. O ar é\
     \ pesado e\ncomplexo, uma mistura do aroma terroso de raízes secas, do perfume\
     \ floral de\npétalas prensadas e do cheiro acentuado de minerais moídos. A luz\
@@ -1434,14 +1495,15 @@
     \ um ritmo lento e deliberado\nque é a única medida do tempo aqui dentro.\n\n\
     Há uma sensação de conhecimento antigo e profundo neste apotecário. Não a magia\n\
     arcana dos feiticeiros, mas a sabedoria da terra, a compreensão de como cada\n\
-    folha, raiz e cristal possui um espÃ­rito e um propÃ³sito. Ã\x89 um lugar onde\
-    \ a cura\né uma arte, uma alquimia paciente que une a generosidade da natureza\
-    \ com a\nsabedoria daqueles que sabem ouvir os seus segredos."
+    folha, raiz e cristal possui um espírito e um propósito. Ã\x89 um lugar onde a\
+    \ cura\né uma arte, uma alquimia paciente que une a generosidade da natureza com\
+    \ a\nsabedoria daqueles que sabem ouvir os seus segredos."
   exits:
     west:
-      target_vnum: '15258'
+      target_vnum: 010215215258
+  local_id: '15259'
   name: Apotecário da Gota de Orvalho
-  vnum: '15259'
+  vnum: 010215215259
 - description: "A entrada da gruta abre-se para uma câmara circular surpreendentemente\n\
     espaçosa, cujas paredes são de rocha viva, lisas e frias ao toque. Não há\ntochas\
     \ ou velas, mas o lugar é banhado por uma luz prateada e suave que emana\nde veios\
@@ -1453,15 +1515,16 @@
     poço cheio de estrelas líquidas. O vapor sobe da sua superfície sem som,\nenchendo\
     \ a sala com uma névoa etérea que se agarra ao chão.\n\nEste é um lugar de cura\
     \ profunda, não apenas para as feridas do corpo, mas para\nas cicatrizes da alma.\
-    \ Não há altares ou ídolos, pois o poder aqui não exige\nadoraÃ§Ã£o. Ã\x89 uma\
-    \ forÃ§a primordial da terra, concentrada e pacificada. Permanecer\naqui por muito\
-    \ tempo é sentir um profundo descanso a instalar-se nos ossos, uma\npaz que desfaz\
-    \ os nós da preocupação e do medo e deixa o espírito renovado."
+    \ Não há altares ou ídolos, pois o poder aqui não exige\nadoração. Ã\x89 uma força\
+    \ primordial da terra, concentrada e pacificada. Permanecer\naqui por muito tempo\
+    \ é sentir um profundo descanso a instalar-se nos ossos, uma\npaz que desfaz os\
+    \ nós da preocupação e do medo e deixa o espírito renovado."
   exits:
     east:
-      target_vnum: '15258'
+      target_vnum: 010215215258
+  local_id: '15260'
   name: Templo do Repouso
-  vnum: '15260'
+  vnum: '010215215260'
 - description: "Esta avenida ampla e solene estende-se com uma retidão perfeita, pavimentada\n\
     com grandes lajes de granito cinzento que brilham suavemente. De ambos os\nlados,\
     \ cerejeiras antigas, mais pequenas que a grande Sakura da praça, formam\numa\
@@ -1474,22 +1537,23 @@
     \ parecendo sentinelas\nsilenciosas que guardam não contra intrusos, mas contra\
     \ a pressa e a distração.\n\nCaminhar aqui é sentir o mundo exterior a afastar-se\
     \ ainda mais, substituído\npor um foco interior. O único som é o ocasional cair\
-    \ de uma pétala de\ncerejeira, que desce em espiral lenta atÃ© pousar na pedra\
-    \ sem ruÃ­do. Ã\x89 um lugar\nque prepara o espírito para a disciplina, o conhecimento\
+    \ de uma pétala de\ncerejeira, que desce em espiral lenta até pousar na pedra\
+    \ sem ruído. Ã\x89 um lugar\nque prepara o espírito para a disciplina, o conhecimento\
     \ e a comunhão com o\nsagrado, um limiar para os mais profundos santuários de\
     \ Shizuka."
   exits:
     east:
-      target_vnum: '15264'
+      target_vnum: '010215215264'
     north:
-      target_vnum: '15262'
+      target_vnum: '010215215262'
     south:
-      target_vnum: '15263'
+      target_vnum: '010215215263'
     west:
-      target_vnum: '15252'
+      target_vnum: '010215215252'
+  local_id: '15261'
   name: Avenida do Sol Nascente
-  vnum: '15261'
-- description: "O ar neste salÃ£o Ã© rarefeito e cheira a tinta de sÃ¢ndalo e a papel\
+  vnum: '010215215261'
+- description: "O ar neste salão é rarefeito e cheira a tinta de sândalo e a papel\
     \ de arroz. Ã\x89\num espaço amplo e aberto, com um chão de madeira de cedro tão\
     \ polido que\nreflete a luz suave que entra por grandes janelas de papel. Não\
     \ há mobília,\nexceto por esteiras de tatami dispostas em ordem perfeita e pequenos\
@@ -1502,16 +1566,17 @@
     \ poemas complexos cujos caracteres\nfluem como um rio.\n\nA atmosfera é de uma\
     \ calma focada. Estar neste salão é sentir um impulso para\naquietar os seus próprios\
     \ pensamentos, para respirar mais devagar, para\nencontrar a clareza que precede\
-    \ o ato de criaÃ§Ã£o. Ã\x89 um testemunho de que a\nmaior força não reside no\
-    \ músculo, mas na mente que pode encontrar a\nimobilidade no meio do movimento\
-    \ e a beleza num único e perfeito traço de\ntinta."
+    \ o ato de criação. Ã\x89 um testemunho de que a\nmaior força não reside no músculo,\
+    \ mas na mente que pode encontrar a\nimobilidade no meio do movimento e a beleza\
+    \ num único e perfeito traço de\ntinta."
   exits:
     north:
-      target_vnum: '15265'
+      target_vnum: '010215215265'
     south:
-      target_vnum: '15261'
+      target_vnum: '010215215261'
+  local_id: '15262'
   name: Salão do Pincel Silencioso
-  vnum: '15262'
+  vnum: '010215215262'
 - description: "Uma quietude reverente e o cheiro a séculos de conhecimento permeiam\
     \ este\nlugar. O ar é fresco e seco, com o aroma de papel de bambu antigo, tinta\
     \ e\ncouro curado. A sala é vasta, com um teto alto suportado por pilares de madeira\n\
@@ -1523,37 +1588,39 @@
     \ de bambu\ncosidas. Não se ouve o virar de páginas, apenas o farfalhar ocasional\
     \ de um\nrolo a ser cuidadosamente aberto ou o deslizar silencioso de uma escada\
     \ de\nmadeira sobre rodas.\n\nHá uma sensação de tempo suspenso aqui, como se\
-    \ cada pergaminho contivesse não\napenas palavras, mas os prÃ³prios momentos em\
+    \ cada pergaminho contivesse não\napenas palavras, mas os próprios momentos em\
     \ que foram escritos. Ã\x89 um lugar de\nestudo solitário e contemplação, onde\
     \ a história da cidade, os segredos da\nnatureza e as filosofias da paz são guardados\
     \ e protegidos. O silêncio não é\numa regra, mas uma consequência natural do respeito\
     \ pelo saber aqui contido."
   exits:
     north:
-      target_vnum: '15261'
+      target_vnum: '010215215261'
+  local_id: '15263'
   name: Biblioteca dos Sussurros de Bambu
-  vnum: '15263'
+  vnum: '010215215263'
 - description: "Este lugar desafia a arquitetura e a razão. Não há paredes, chão ou\
     \ teto no\nsentido convencional, mas um espaço que parece existir no coração de\
     \ uma\nestrela adormecida. Você está sobre uma plataforma de cristal que parece\n\
     flutuar num vazio de luz prateada e suave. Acima, abaixo e ao redor, filamentos\n\
     de energia pura, como as pétalas da grande Sakura, flutuam e dançam numa\ncorrenteza\
-    \ silenciosa e eterna.\nO ar aqui nÃ£o se respira, mas absorve-se. Ã\x89 pura\
-    \ serenidade, uma energia que\nvibra numa frequência tão alta que silencia todos\
-    \ os pensamentos e preenche o\nespírito com uma paz que transcende a compreensão.\
-    \ Não há som, nem cheiro, nem\ntemperatura. Há apenas a sensação de estar na presença\
-    \ de um poder primordial,\na fonte da aura que protege toda a Shizuka.\nNo centro\
-    \ do espaço, a luz condensa-se numa esfera pulsante, que bate\nlentamente como\
-    \ um coração cósmico. Não é um objeto a ser olhado, mas uma\npresença a ser sentida.\
+    \ silenciosa e eterna.\nO ar aqui não se respira, mas absorve-se. Ã\x89 pura serenidade,\
+    \ uma energia que\nvibra numa frequência tão alta que silencia todos os pensamentos\
+    \ e preenche o\nespírito com uma paz que transcende a compreensão. Não há som,\
+    \ nem cheiro, nem\ntemperatura. Há apenas a sensação de estar na presença de um\
+    \ poder primordial,\na fonte da aura que protege toda a Shizuka.\nNo centro do\
+    \ espaço, a luz condensa-se numa esfera pulsante, que bate\nlentamente como um\
+    \ coração cósmico. Não é um objeto a ser olhado, mas uma\npresença a ser sentida.\
     \ Este é o nexo, o ponto de ancoragem onde a paz se\nmanifesta como realidade.\
     \ Estar aqui é ser desfeito e refeito, é tocar no\nespírito guardião da cidade\
     \ e compreender, sem palavras, que a maior força do\nuniverso não é o poder, mas\
     \ a harmonia."
   exits:
     west:
-      target_vnum: '15261'
+      target_vnum: '010215215261'
+  local_id: '15264'
   name: O Coração do Santuário
-  vnum: '15264'
+  vnum: '010215215264'
 - description: "Este pequeno jardim é um refúgio de silêncio absoluto, um segredo\
     \ guardado para\naqueles que procuram a mais profunda concentração. O espaço é\
     \ murado por bambu\nalto e denso, que isola todos os sons do resto da cidade.\
@@ -1565,12 +1632,13 @@
     \ acalma a mente e foca o espírito. Este não é um jardim para ser admirado\npela\
     \ sua beleza, mas para ser usado como uma ferramenta para o esvaziamento da\n\
     mente.\n\nA atmosfera é de uma simplicidade austera e poderosa. O ar é imóvel.\
-    \ Não há\ndistraÃ§Ãµes, nem cores, nem movimentos. Ã\x89 um lugar despojado de\
-    \ tudo o que Ã©\nsupérfluo, deixando apenas o essencial: o eu, e o caminho para\
-    \ o silêncio\ninterior. Sentar-se na borda de madeira que circunda a areia é sentir\
-    \ o mundo a\ndesaparecer, até que apenas a respiração e a presença da rocha permaneçam."
+    \ Não há\ndistrações, nem cores, nem movimentos. Ã\x89 um lugar despojado de tudo\
+    \ o que é\nsupérfluo, deixando apenas o essencial: o eu, e o caminho para o silêncio\n\
+    interior. Sentar-se na borda de madeira que circunda a areia é sentir o mundo\
+    \ a\ndesaparecer, até que apenas a respiração e a presença da rocha permaneçam."
   exits:
     south:
-      target_vnum: '15262'
+      target_vnum: '010215215262'
+  local_id: '15265'
   name: Jardim de Meditação do Pincel
-  vnum: '15265'
+  vnum: '010215215265'

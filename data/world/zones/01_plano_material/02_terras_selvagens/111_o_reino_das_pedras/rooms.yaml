@@ -5,11 +5,12 @@
     baixo você desce a montanha.
   exits:
     down:
-      target_vnum: '3366'
+      target_vnum: '01021113366'
     east:
-      target_vnum: '11101'
+      target_vnum: '010211111101'
+  local_id: '11100'
   name: O Pico da Montanha
-  vnum: '11100'
+  vnum: '010211111100'
 - description: |-
     Um grande precipício nasce a sua frente, uma sensação de temor paira no
     ar.  A sua frente está uma grande montanha rochosa, a única maneira de
@@ -17,41 +18,45 @@
     onde parece ser mais seguro.
   exits:
     east:
-      target_vnum: '11102'
+      target_vnum: '010211111102'
     west:
-      target_vnum: '11100'
+      target_vnum: '010211111100'
+  local_id: '11101'
   name: Na Beira do Precipício
-  vnum: '11101'
+  vnum: '010211111101'
 - description: "Uauuuuuu!!!  Você levanta voo, mas um forte vento vindo do oeste lhe\
     \ joga\nno meio de um enorme rodamoinho, que estranhamente surgiu do nada.  Ã\x89\
     \nimpossível retornar, reze aos Deuses de Vitalia para que seu poder de voo\n\
     não acabe.  A única saída é proseguir a leste."
   exits:
     east:
-      target_vnum: '11103'
+      target_vnum: '010211111103'
+  local_id: '11102'
   name: O Precipício
-  vnum: '11102'
+  vnum: '010211111102'
 - description: |-
     O vento é muito forte, você quase não consegue se controlar.  Ao norte e
     ao sul existem algumas formações rochosas, porém aparentemente seria muito
     perigoso tentar pousar nelas.  Não há outra maneira senão seguir a leste.
   exits:
     east:
-      target_vnum: '11105'
+      target_vnum: '010211111105'
     north:
-      target_vnum: '11104'
+      target_vnum: '010211111104'
     south:
-      target_vnum: '11104'
+      target_vnum: '010211111104'
+  local_id: '11103'
   name: O Precipício
-  vnum: '11103'
+  vnum: '010211111103'
 - description: |-
     AAAaaaaaahhhhhhhhhhhhhh.......!!!  Você bateu violentamente contra uma
     rocha,  o sangue escorre como uma fonte, agonizando em dor, você sente a
     presença da morte.... que os Deuses tenham piedade e coloque sua alma em
     um bom lugar... você está morto.....
   exits: {}
+  local_id: '11104'
   name: O Precipício Fatal
-  vnum: '11104'
+  vnum: '010211111104'
 - description: |-
     Impossível de se controlar, cada vez esse forte vento te arrasta.  Ao
     lado sul e norte há muito perigo, montanhas perigosas parece aumentar
@@ -59,37 +64,40 @@
     montanha, talvez a maior de todas.
   exits:
     east:
-      target_vnum: '11106'
+      target_vnum: '010211111106'
     north:
-      target_vnum: '11104'
+      target_vnum: '010211111104'
     south:
-      target_vnum: '11104'
+      target_vnum: '010211111104'
+  local_id: '11105'
   name: O Precipício
-  vnum: '11105'
+  vnum: '010211111105'
 - description: |-
     Nossaaa !!! uma grande montanha a sua frente, você vai bater
     violentamente contra ela se não conseguir subir... A única maneira de
     escapar vivo talvez seja, subir ainda mais alto.
   exits:
     east:
-      target_vnum: '11104'
+      target_vnum: '010211111104'
     north:
-      target_vnum: '11104'
+      target_vnum: '010211111104'
     south:
-      target_vnum: '11104'
+      target_vnum: '010211111104'
     up:
-      target_vnum: '11107'
+      target_vnum: '010211111107'
+  local_id: '11106'
   name: O Precipício
-  vnum: '11106'
+  vnum: '010211111106'
 - description: |-
     Ufa... essa foi por pouco, mais alguns centímetros e você sentiria como
     é gelado o vale da morte.  Felizmente você pode voar ainda mais alto, mas
     se cair daqui de cima...  O perigo parece ter ficado para trás.
   exits:
     east:
-      target_vnum: '11108'
+      target_vnum: 010211111108
+  local_id: '11107'
   name: O Precipício
-  vnum: '11107'
+  vnum: '010211111107'
 - description: |-
     Aqui no alto o frio e o vento são intensos, mas parece que a montanha a
     sua frente é mais segura.  Esta bela montanha tem muitas florestas e campos.
@@ -97,9 +105,10 @@
     você de retornar.
   exits:
     east:
-      target_vnum: '11109'
+      target_vnum: 010211111109
+  local_id: '11108'
   name: O Precipício
-  vnum: '11108'
+  vnum: 010211111108
 - description: |-
     A montanha a sua frente é magnifica, muito bonita e verdejante.  Com
     certeza os que aqui vivem não tem nada a reclamar da bela paisagem.  Muita
@@ -108,50 +117,55 @@
     tranquilidade, porem estranhamente é impossível de voltar.
   exits:
     down:
-      target_vnum: '11110'
+      target_vnum: '010211111110'
+  local_id: '11109'
   name: O Precipício
-  vnum: '11109'
+  vnum: 010211111109
 - description: "Maravilhados estão seus olhos com tanta beleza, para baixo há um pequeno\n\
-    caminho, essa terra Ã© tÃ£o bonita que vale a pena ser explorada.  Ã\x89 impossÃ­vel\n\
+    caminho, essa terra é tão bonita que vale a pena ser explorada.  Ã\x89 impossível\n\
     levantar voo para retornar..."
   exits:
     down:
-      target_vnum: '11111'
+      target_vnum: '010211111111'
+  local_id: '11110'
   name: A Grande Montanha
-  vnum: '11110'
+  vnum: '010211111110'
 - description: |-
     Este caminho é muito bonito e parece ter sido aberto a poucos dias por
     algum mateiro, talvez tenha outros exploradores por aqui.  Para cima está
     o pico da grande monhanha e para leste o caminho continua.
   exits:
     east:
-      target_vnum: '11112'
+      target_vnum: '010211111112'
     up:
-      target_vnum: '11110'
+      target_vnum: '010211111110'
+  local_id: '11111'
   name: O Caminho das Montanhas
-  vnum: '11111'
+  vnum: '010211111111'
 - description: |-
     A cada passo você o ar puro dessas montanhas, tudo aqui é bonito e calmo.
     Para baixo o caminho se alonga descendo a montanha e para oeste o caminho
     segue rumo ao pico.
   exits:
     down:
-      target_vnum: '11113'
+      target_vnum: '010211111113'
     west:
-      target_vnum: '11111'
+      target_vnum: '010211111111'
+  local_id: '11112'
   name: O Caminho das Montanhas
-  vnum: '11112'
-- description: "Ã\x89 possÃ­vel sentir o cheiro de relva molhada, a sensaÃ§Ã£o de\
-    \ paz Ã©\nmagnífica e seu corpo parece querer nunca mais sair dessa tranquilidade.\n\
+  vnum: '010211111112'
+- description: "Ã\x89 possível sentir o cheiro de relva molhada, a sensação de paz\
+    \ é\nmagnífica e seu corpo parece querer nunca mais sair dessa tranquilidade.\n\
     Para cima está o grande pico da montanha e a oeste parece haver um enorme\nninho\
     \ de passarinho."
   exits:
     up:
-      target_vnum: '11112'
+      target_vnum: '010211111112'
     west:
-      target_vnum: '11114'
+      target_vnum: '010211111114'
+  local_id: '11113'
   name: O Caminho das Montanhas
-  vnum: '11113'
+  vnum: '010211111113'
 - description: |-
     Essa é uma montanha é digna dos Deuses, a paz e a tranquilidade fazem
     você sentir vontade acampar por aqui.  Talvez fosse melhor passar essa
@@ -159,11 +173,12 @@
     montanha e para baixo há um grande ninho.
   exits:
     down:
-      target_vnum: '11115'
+      target_vnum: '010211111115'
     east:
-      target_vnum: '11113'
+      target_vnum: '010211111113'
+  local_id: '11114'
   name: O Caminho das Montanhas
-  vnum: '11114'
+  vnum: '010211111114'
 - description: |-
     Você está no que parece ser um ninho, mas pelo tamanho dele, não é de
     de passarinho... Um lugar tão belo como este abrigaria que animal tão
@@ -172,24 +187,26 @@
     que parecem dar ligação a um caminho para outra montanha.
   exits:
     east:
-      target_vnum: '11116'
+      target_vnum: '010211111116'
     up:
-      target_vnum: '11114'
+      target_vnum: '010211111114'
+  local_id: '11115'
   name: O Ninho do Dragão
-  vnum: '11115'
+  vnum: '010211111115'
 - description: |-
     Uma bela passagem construida pelo tempo, pedras aparentam terem sido
     depositadas aqui cuidadosamente, tudo é muito belo.  A sua frente, a leste
     a passagem continua e para oeste você pode um grande ninho.
   exits:
     east:
-      target_vnum: '11117'
+      target_vnum: '010211111117'
     north:
-      target_vnum: '14500'
+      target_vnum: '010211114500'
     west:
-      target_vnum: '11115'
+      target_vnum: '010211111115'
+  local_id: '11116'
   name: A Passagem das Planícieis
-  vnum: '11116'
+  vnum: '010211111116'
 - description: |-
     Daqui é possivel a vasta imensidão de terras verdejantes, talvez lá
     embaixo fosse o lugar ideal para fincar sua espada e construir um novo
@@ -198,33 +215,36 @@
     para uma terra verdejante.
   exits:
     up:
-      target_vnum: '11118'
+      target_vnum: 010211111118
     west:
-      target_vnum: '11116'
+      target_vnum: '010211111116'
+  local_id: '11117'
   name: A Passagem das Planícieis
-  vnum: '11117'
+  vnum: '010211111117'
 - description: |-
     Esta trilha é bem recente, com certeza alguem passou aqui a poucos dias.
     Abaixo está uma passagem que o levará a outra montanha e acima você inicia
     sua escalada rumo ao topo de uma montanha um tanto sinistra.
   exits:
     down:
-      target_vnum: '11117'
+      target_vnum: '010211111117'
     up:
-      target_vnum: '11119'
+      target_vnum: 010211111119
+  local_id: '11118'
   name: A Trilha da Montanha
-  vnum: '11118'
+  vnum: 010211111118
 - description: |-
     Cada vez que você se aproxima do topo, percebe que a forma dessa montanha
     é um tanto estranha, ela se parece com um crânio... com certeza a natureza
     levou séculos para esculpir isso.  Para baixo e para leste sua trilha avança.
   exits:
     down:
-      target_vnum: '11118'
+      target_vnum: 010211111118
     east:
-      target_vnum: '11120'
+      target_vnum: '010211111120'
+  local_id: '11119'
   name: A Trilha da Montanha
-  vnum: '11119'
+  vnum: 010211111119
 - description: |-
     Ufa !!!  A cada passo você pecebe que para essa paisagem se tornar
     perfeita falta um bom riacho.  Banhar-se seria realmenmte relaxante...
@@ -232,11 +252,12 @@
     o que é isso... oeste sua trilha é longa.
   exits:
     up:
-      target_vnum: '11121'
+      target_vnum: '010211111121'
     west:
-      target_vnum: '11119'
+      target_vnum: 010211111119
+  local_id: '11120'
   name: A Trilha da Montanha
-  vnum: '11120'
+  vnum: '010211111120'
 - description: |-
     Apesar da forma dessa montanha ser assustadora, o resto é muito belo.  O
     pastos são verdejantes, a vegetação é muito linda e com certeza esse lado de
@@ -244,11 +265,12 @@
     a outra montanha e para cima você vê que está cada vez mais próximo do cume.
   exits:
     down:
-      target_vnum: '11120'
+      target_vnum: '010211111120'
     up:
-      target_vnum: '11122'
+      target_vnum: '010211111122'
+  local_id: '11121'
   name: A Trilha da Montanha
-  vnum: '11121'
+  vnum: '010211111121'
 - description: |-
     Ahhh ! Finalmente está quase no ponto mais alto dessa montanha, há dois
     buracos enormes nas rochas que parecem ser os olhos desse grande crânio.  Lá
@@ -256,11 +278,12 @@
     baixo é uma longa caminhada.
   exits:
     down:
-      target_vnum: '11121'
+      target_vnum: '010211111121'
     up:
-      target_vnum: '11123'
+      target_vnum: '010211111123'
+  local_id: '11122'
   name: A Trilha da Montanha
-  vnum: '11122'
+  vnum: '010211111122'
 - description: |-
     Você está no ponto mais alto dessa montanha, é estranho pois aqui em
     cima é totalmente plano, como se esse chão tivesse sido trabalhado.  Há
@@ -268,11 +291,12 @@
     montanha.
   exits:
     down:
-      target_vnum: '11122'
+      target_vnum: '010211111122'
     east:
-      target_vnum: '11124'
+      target_vnum: '010211111124'
+  local_id: '11123'
   name: A Montanha da Caveira
-  vnum: '11123'
+  vnum: '010211111123'
 - description: |-
     Aqui, indiferente do resto desse lugar, é muito verdejante e bonito.
     Você consegue ver o horizonte belo, incrível esse local não estar habitado,
@@ -281,33 +305,36 @@
     terreno plano e verdejante.
   exits:
     east:
-      target_vnum: '11125'
+      target_vnum: '010211111125'
     west:
-      target_vnum: '11123'
+      target_vnum: '010211111123'
+  local_id: '11124'
   name: A Montanha da Caveira
-  vnum: '11124'
+  vnum: '010211111124'
 - description: |-
     A cada passo, uma nova e bonita paisagem.  Parece que lá na frente do
     lado leste o cume dessa montanha chega ao fim.  Para oeste a trilha segue
     verdejante.
   exits:
     east:
-      target_vnum: '11126'
+      target_vnum: '010211111126'
     west:
-      target_vnum: '11124'
+      target_vnum: '010211111124'
+  local_id: '11125'
   name: A Montanha da Caveira
-  vnum: '11125'
+  vnum: '010211111125'
 - description: |-
     Realmente parece que a trilha está acabando, aparentemente você está
     se aproximando de uma ribanceira.  A leste e a oeste sua trilha segue
     muito verdejante.
   exits:
     east:
-      target_vnum: '11127'
+      target_vnum: '010211111127'
     west:
-      target_vnum: '11125'
+      target_vnum: '010211111125'
+  local_id: '11126'
   name: A Montanha da Caveira
-  vnum: '11126'
+  vnum: '010211111126'
 - description: |-
     Olhando para trás você vê a trilha verdejante e bela, mas para baixo...
     uma longa descida lhe aguarda e todo cuidado é pouco.  Este caminho parece
@@ -315,116 +342,125 @@
     alguns galhos lhe atrapalhando.
   exits:
     down:
-      target_vnum: '11128'
+      target_vnum: 010211111128
     west:
-      target_vnum: '11126'
+      target_vnum: '010211111126'
+  local_id: '11127'
   name: A Montanha da Caveira
-  vnum: '11127'
+  vnum: '010211111127'
 - description: |-
     Ooppsss !!! Você escorregou e parece que agora as coisas ficaram ruins
     para você, é impossível de retornar...você não consegue alcançar um lugar
     seguro para poder subir.  Há um lugar para se apoiar a oeste.
   exits:
     east:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     north:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     south:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     west:
-      target_vnum: '11129'
+      target_vnum: 010211111129
+  local_id: '11128'
   name: A Descida da Montanha
-  vnum: '11128'
+  vnum: 010211111128
 - description: |-
     Aqui aparentemente é seguro, mas voltar é impossível e qualquer descuido
     pode ser fatal...há outro apoio para baixo.
   exits:
     down:
-      target_vnum: '11130'
+      target_vnum: '010211111130'
     east:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     north:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     south:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     west:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
+  local_id: '11129'
   name: A Descida da Montanha
-  vnum: '11129'
+  vnum: 010211111129
 - description: |-
     Até agora tudo bem... parece que a sorte está com você.  Há outro apoio
     seguro do lado oeste, tenha fé siga ...
   exits:
     east:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     north:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     south:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     up:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     west:
-      target_vnum: '11131'
+      target_vnum: '010211111131'
+  local_id: '11130'
   name: A Descida da Montanha
-  vnum: '11130'
+  vnum: '010211111130'
 - description: |-
     Está quase chegando ao fim, mais alguns passos e você estara em segurança,
     pelo menos aparentemente.  Para baixo existe um lugar firme, apoiando-se nele
     talvez seja possível chegar ao chão em segurança.
   exits:
     down:
-      target_vnum: '11132'
+      target_vnum: '010211111132'
     east:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     north:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     south:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
     west:
-      target_vnum: '11160'
+      target_vnum: '010211111160'
+  local_id: '11131'
   name: A Descida da Montanha
-  vnum: '11131'
+  vnum: '010211111131'
 - description: |-
     Uaauuuuu !!!! Ufa !!! Outro escorregão, mas finalmente terra firme.  Até
     que enfim é possivel caminhar...  Do lado leste parece haver uma caverna e
     do lado oeste uma trilha por entre as árvores.
   exits:
     east:
-      target_vnum: '11133'
+      target_vnum: '010211111133'
     west:
-      target_vnum: '11135'
+      target_vnum: '010211111135'
+  local_id: '11132'
   name: O Pé da Montanha
-  vnum: '11132'
+  vnum: '010211111132'
 - description: |-
     A leste há uma grande caverna, impossível de ver o que há lá dentro, pois
     a escuridão é intensa.  Do lado oeste está o pé da montanha.
   exits:
     east:
-      target_vnum: '11134'
+      target_vnum: '010211111134'
     west:
-      target_vnum: '11132'
+      target_vnum: '010211111132'
+  local_id: '11133'
   name: O Caminho da Caverna
-  vnum: '11133'
+  vnum: '010211111133'
 - description: |-
     Nossa!  Uma grande caverna repleta de ossos de animais... aparentemente
     algum animal predador vive aqui... seria... um urso ?  Talvez seja melhor
     tentar sair sem ser notado.
   exits:
     west:
-      target_vnum: '11133'
+      target_vnum: '010211111133'
+  local_id: '11134'
   name: A Grande Caverna
-  vnum: '11134'
+  vnum: '010211111134'
 - description: |-
     Essa trilha segue mato adentro, a floresta parece ser sombria, escura e
     fria, totalmente diferente do que você havia visto até agora.  Para leste
     esta o pé da montanha e para o sul a densa floresta.
   exits:
     east:
-      target_vnum: '11132'
+      target_vnum: '010211111132'
     south:
-      target_vnum: '11136'
+      target_vnum: '010211111136'
+  local_id: '11135'
   name: A Trilha da Floresta
-  vnum: '11135'
+  vnum: '010211111135'
 - description: |-
     Estranhamente você sente que está sendo observado, mas para todos os
     lados só há um imensa escuridão, arvores centenárias por todos os lados
@@ -433,24 +469,26 @@
     oeste parece ser uma trilha aberta a poucas horas.
   exits:
     north:
-      target_vnum: '11135'
+      target_vnum: '010211111135'
     south:
-      target_vnum: '11140'
+      target_vnum: '010211111140'
     west:
-      target_vnum: '11137'
+      target_vnum: '010211111137'
+  local_id: '11136'
   name: A Trilha da Floresta
-  vnum: '11136'
+  vnum: '010211111136'
 - description: |-
     Essa trilha realmente é bem mais recente que a outra, o mato cortado
     ainda verdejante, alguem deve ter passado por aqui a pouco tempo.  A leste
     está a trilha principal e oeste essa trilha recente.
   exits:
     east:
-      target_vnum: '11136'
+      target_vnum: '010211111136'
     west:
-      target_vnum: '11138'
+      target_vnum: 010211111138
+  local_id: '11137'
   name: A Trilha da Floresta
-  vnum: '11137'
+  vnum: '010211111137'
 - description: |-
     Esse lugar é muito umido e frio, por todos os lados árvores imensas não
     deixam os raios solares penetrarem.   A sensação de que há alguma coisa te
@@ -458,19 +496,21 @@
     longa e ao sul parece ser o fim da linha...
   exits:
     east:
-      target_vnum: '11137'
+      target_vnum: '010211111137'
     south:
-      target_vnum: '11139'
+      target_vnum: 010211111139
+  local_id: '11138'
   name: A Trilha da Floresta
-  vnum: '11138'
-- description: "Esse Ã© o fim da linha, quem quer que veio atÃ© aqui, depois retornou.\
+  vnum: 010211111138
+- description: "Esse é o fim da linha, quem quer que veio até aqui, depois retornou.\
     \  Ã\x89\nbem possivel que alguem veio até aqui somente para se esconder ou mesmo\n\
     esconder algo.  Ao norte é possível ver a longa trilha que segue mato adentro."
   exits:
     north:
-      target_vnum: '11138'
+      target_vnum: 010211111138
+  local_id: '11139'
   name: O Final da Trilha Oeste
-  vnum: '11139'
+  vnum: 010211111139
 - description: |-
     Epaaa !! Parecia que a trilha era longa...mas parece que as árvores se
     moveram... estranhamente o caminho se abriu.  Aqui é o final da trilha dessa
@@ -478,55 +518,60 @@
     você vai mato adentro.
   exits:
     north:
-      target_vnum: '11136'
+      target_vnum: '010211111136'
     south:
-      target_vnum: '11141'
+      target_vnum: '010211111141'
+  local_id: '11140'
   name: Fim da Trilha da Floresta
-  vnum: '11140'
+  vnum: '010211111140'
 - description: |-
     Totalmente diferente da trilha, essa estrada parece ter sido construida
     à muito tempo.  Toda feita em pedra alias o que mais existe aqui são pedras.
     Para norte está o final da trilha e para oeste a longa estrada de pedra.
   exits:
     north:
-      target_vnum: '11140'
+      target_vnum: '010211111140'
     west:
-      target_vnum: '11142'
+      target_vnum: '010211111142'
+  local_id: '11141'
   name: A Estrada de Pedra
-  vnum: '11141'
+  vnum: '010211111141'
 - description: |-
     Todo aquele verdejante caminho sumiu, tudo ao seu redor é composto de
     pedras, o terreno aqui é muito árido e seco.  Essa estrada segue tanto
     para o lado leste como para o sul.
   exits:
     east:
-      target_vnum: '11141'
+      target_vnum: '010211111141'
     south:
-      target_vnum: '11143'
+      target_vnum: '010211111143'
+  local_id: '11142'
   name: A Estrada de Pedra
-  vnum: '11142'
+  vnum: '010211111142'
 - description: "Pedras e mais pedras... mas a sensação de que está sendo observado\
-    \ ainda\ncontinua.  Ã\x89 impossÃ­vel imaginar como um lugar tÃ£o verdejante como\
+    \ ainda\ncontinua.  Ã\x89 impossível imaginar como um lugar tão verdejante como\
     \ no alto\ndas montanhas, pode ficar tão próximo de uma pedreira assim... A estrada\n\
     segue rumo a norte e a oeste."
   exits:
     north:
-      target_vnum: '11142'
+      target_vnum: '010211111142'
     west:
-      target_vnum: '11144'
+      target_vnum: '010211111144'
+  local_id: '11143'
   name: A Estrada de Pedra
-  vnum: '11143'
+  vnum: '010211111143'
 - description: |-
     Nada muda nesse lugar, a cada passo você se sente perdido, pois tudo é
     muito seco, pedras por todas as partes... Ao leste a estrada é longa, mas
     a oeste há um agrupamento de pedras que parece ser uma entrada.
   exits:
     east:
-      target_vnum: '11143'
+      target_vnum: '010211111143'
     west:
-      target_vnum: '11145'
+      target_vnum: '010211111145'
+  local_id: '11144'
   name: A Estrada de Pedra
-  vnum: '11144'
+  vnum: '010211111144'
 - description: |-
     Esse é um agrupamente de pedras de diversos tamanhos, formando um anel,
     algumas vegetações crescem ao longo desse anel.  Há algumas inscrições
@@ -535,33 +580,36 @@
     pedras.
   exits:
     east:
-      target_vnum: '11144'
+      target_vnum: '010211111144'
     north:
-      target_vnum: '11146'
+      target_vnum: '010211111146'
+  local_id: '11145'
   name: Entrada para o Reino das Pedras
-  vnum: '11145'
+  vnum: '010211111145'
 - description: |-
     A estrada parece que esta fazendo um grande contorno.  Ao sul e ao norte
     ela é aparentemente extensa.  Pedras por todos os lados parecem te
     observar...
   exits:
     north:
-      target_vnum: '11147'
+      target_vnum: '010211111147'
     south:
-      target_vnum: '11145'
+      target_vnum: '010211111145'
+  local_id: '11146'
   name: A Estrada de Pedra
-  vnum: '11146'
+  vnum: '010211111146'
 - description: |-
     Para onde você olha, nada vê alem de pedras e mais pedras, tudo aqui é
     sinistro, e a sensação que está sendo observado é cada vez mais intensa.
     Ao sul está toda a estrada, ao leste a estrada está rodeada de escombros.
   exits:
     east:
-      target_vnum: '11148'
+      target_vnum: 010211111148
     south:
-      target_vnum: '11146'
+      target_vnum: '010211111146'
+  local_id: '11147'
   name: A Estrada de Pedra
-  vnum: '11147'
+  vnum: '010211111147'
 - description: |-
     Você está onde parece ter sido uma longa rua, há destruição por todos os
     lados, esses escombros parece ser o que restou de varias casas... estranho
@@ -569,22 +617,24 @@
     pela vegetação.  A rua segue a leste e a oeste.
   exits:
     east:
-      target_vnum: '11149'
+      target_vnum: 010211111149
     west:
-      target_vnum: '11147'
+      target_vnum: '010211111147'
+  local_id: '11148'
   name: Uma Rua Antiga
-  vnum: '11148'
+  vnum: 010211111148
 - description: |-
     A cada passo a sensação de lembrança desse lugar é mais intensa.  Tudo
     aqui parece de sido devastado, mas algo lhe diz que você já esteve aqui...
     Seu caminho continua a leste e a oeste.
   exits:
     east:
-      target_vnum: '11150'
+      target_vnum: '010211111150'
     west:
-      target_vnum: '11148'
+      target_vnum: 010211111148
+  local_id: '11149'
   name: Uma Rua Antiga
-  vnum: '11149'
+  vnum: 010211111149
 - description: |-
     Uauuu !!! Agora você se lembra este é o antigo centro das residências de
     Midgaard, mas parece que tudo foi devastado a séculos.  A grande fonte que
@@ -592,11 +642,12 @@
     Fogo e do lado leste a Estrada da Vila.
   exits:
     east:
-      target_vnum: '11151'
+      target_vnum: '010211111151'
     west:
-      target_vnum: '11149'
+      target_vnum: 010211111149
+  local_id: '11150'
   name: O Centro da Vila
-  vnum: '11150'
+  vnum: '010211111150'
 - description: |-
     Toda a estrada está coberta pela vegetação rasteira, entulhos e sinais
     de destruição estão por todas as partes.  Grandes e pesadas pedras estão
@@ -604,11 +655,12 @@
     a oeste o destruído centro da vila.
   exits:
     east:
-      target_vnum: '11152'
+      target_vnum: '010211111152'
     west:
-      target_vnum: '11150'
+      target_vnum: '010211111150'
+  local_id: '11151'
   name: A Antiga Estrada da Vila
-  vnum: '11151'
+  vnum: '010211111151'
 - description: |-
     Tudo aqui é destruição, o velho quadro já não existe mais, ratos vagam
     em busca de alimento.  Isso parece ter sido destruído a séculos... Sua
@@ -616,11 +668,12 @@
     a oeste a antiga estrada.
   exits:
     east:
-      target_vnum: '11153'
+      target_vnum: '010211111153'
     west:
-      target_vnum: '11151'
+      target_vnum: '010211111151'
+  local_id: '11152'
   name: A Sala de Leitura
-  vnum: '11152'
+  vnum: '010211111152'
 - description: |-
     Você está a sul do hall do Templo de Midgaard. O templo está totalmente
     destruído. Blocos gigantes de mármore, com aparência eterna, que outrora
@@ -637,17 +690,18 @@
     A Sala de Doações era uma pequena sala para o leste.
   exits:
     down:
-      target_vnum: '11161'
+      target_vnum: '010211111161'
     east:
-      target_vnum: '11154'
+      target_vnum: '010211111154'
     north:
-      target_vnum: '11155'
+      target_vnum: '010211111155'
     south:
-      target_vnum: '11161'
+      target_vnum: '010211111161'
     west:
-      target_vnum: '11152'
+      target_vnum: '010211111152'
+  local_id: '11153'
   name: O Destruído Templo de Midgaard
-  vnum: '11153'
+  vnum: '010211111153'
 - description: |-
     Você está num quarto pequeno e imundo. Há marcas de sangue por todos os
     lados, um par de pequenos bancos de madeira estão jogados no canto. O templo
@@ -655,11 +709,12 @@
     nos fundos da sala.
   exits:
     east:
-      target_vnum: '1'
+      target_vnum: '01021110001'
     west:
-      target_vnum: '11153'
+      target_vnum: '010211111153'
+  local_id: '11154'
   name: A Sala de Doações de Midgaard
-  vnum: '11154'
+  vnum: '010211111154'
 - description: |-
     Você está no que um dia foi o altar do templo, no extremo norte do
     Templo de Midgaard.  Hoje todo o altar está destruído e a grande estátua
@@ -667,22 +722,24 @@
     Ao norte, degraus levam aos fundos do templo, à um grande descampado.
   exits:
     north:
-      target_vnum: '11156'
+      target_vnum: '010211111156'
     south:
-      target_vnum: '11153'
+      target_vnum: '010211111153'
+  local_id: '11155'
   name: O Altar do Templo em Ruinas
-  vnum: '11155'
+  vnum: '010211111155'
 - description: |-
     Você está num caminho sujo que deixa o templo do altar, a sul daqui.
     Ao norte, o caminho continua através de um grande descampado que outrora
     foi um verdejante pasto.
   exits:
     north:
-      target_vnum: '11157'
+      target_vnum: '010211111157'
     south:
-      target_vnum: '11155'
+      target_vnum: '010211111155'
+  local_id: '11156'
   name: Atrás do Altar do Templo
-  vnum: '11156'
+  vnum: '010211111156'
 - description: |-
     Você está andando no amplo caminho de terra através de solo muito seco,
     isso foi o restou do belo Campo de Midgaard. Você pode ver ao norte grandes
@@ -695,36 +752,50 @@
     grande rachadura a noroeste, numa parede rochosa.
   exits:
     north:
-      target_vnum: '1'
+      target_vnum: '01021110001'
+    northeast:
+      target_vnum: 010211111158
     south:
-      target_vnum: '11156'
+      target_vnum: '010211111156'
     west:
-      target_vnum: '1'
+      target_vnum: '01021110001'
+  local_id: '11157'
   name: O Grande Campo de Midgaard
-  vnum: '11157'
+  vnum: '010211111157'
 - description: |-
     Essa grande rachadura, parece ter sido feita por um terremoto.  Ela
     é um tanto grande, o suficiente para que você caminhe dentro dela.  Para
     nordeste você retorna para a entrada e para noroeste você entra cada vez
     mais.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: 010211111159
+    northwest:
+      target_vnum: '010211111157'
+  local_id: '11158'
   name: A Grande Rachadura
-  vnum: '11158'
+  vnum: 010211111158
 - description: |-
     Totalmente escura, é possivel notar que no fundo dela existe muitos
     escombros, que com certeza estão tampando sua passagem... o que será que há do
     outro lado?  Do lado nordeste você pode retornar.
-  exits: {}
+  exits:
+    northeast:
+      target_vnum: '010211111160'
+    northwest:
+      target_vnum: 010211111158
+  local_id: '11159'
   name: A Grande Rachadura
-  vnum: '11159'
+  vnum: 010211111159
 - description: |-
     Você abusou da sorte...não imaginava que o tombo seria tão grande.
     Infelizmente você está sendo chamado para conhecer o desconhecido...
     Que os deuses tenham compaixão de você, pois sua vida na terra
     está encerrada...
   exits: {}
+  local_id: '11160'
   name: O Grande Precipício
-  vnum: '11160'
+  vnum: '010211111160'
 - description: |-
     Você está parado na Praca do Templo. Uma enorme escada de mármore conduz
     para o portão do templo. Para oeste você pode ver uma Associação em ruinas,
@@ -732,15 +803,16 @@
     que se parece muito com a velha praça do mercado, o antigo centro de Midgaard.
   exits:
     east:
-      target_vnum: '11162'
+      target_vnum: '010211111162'
     north:
-      target_vnum: '11153'
+      target_vnum: '010211111153'
     south:
-      target_vnum: '11170'
+      target_vnum: '010211111170'
     west:
-      target_vnum: '11167'
+      target_vnum: '010211111167'
+  local_id: '11161'
   name: A Praça do Templo
-  vnum: '11161'
+  vnum: '010211111161'
 - description: |-
     Você está na entrada da Hospedaria Grunting Boar Inn.  O salão está
     coberto por poeira e feses de ratos a mobília está em pedaços. O cheiro
@@ -749,15 +821,16 @@
     à recepcao e o bar é ao leste.
   exits:
     east:
-      target_vnum: '11163'
+      target_vnum: '010211111163'
     north:
-      target_vnum: '11164'
+      target_vnum: '010211111164'
     up:
-      target_vnum: '11165'
+      target_vnum: '010211111165'
     west:
-      target_vnum: '11161'
+      target_vnum: '010211111161'
+  local_id: '11162'
   name: O Salão de Entrada da Hospedaria Grunting Boar
-  vnum: '11162'
+  vnum: '010211111162'
 - description: |-
     Você está no antigo bar. Escrita antiga, gravações e símbolos cobrem
     toda a parede. Uma lareira repleta de pedras na parede oeste, e através
@@ -766,9 +839,10 @@
     aviso com letras grandes está pendurado ao bar.
   exits:
     west:
-      target_vnum: '11162'
+      target_vnum: '010211111162'
+  local_id: '11163'
   name: O Grunting Boar
-  vnum: '11163'
+  vnum: '010211111163'
 - description: |-
     Você esta no que restou da  central de correios de Midgaard. Pilhas de
     correspondência permanecem nos cantos, alimentando insetos. Vários engradados
@@ -776,39 +850,43 @@
     Há um pequeno aviso na parede.
   exits:
     south:
-      target_vnum: '11162'
+      target_vnum: '010211111162'
+  local_id: '11164'
   name: O Serviço de Correios
-  vnum: '11164'
+  vnum: '010211111164'
 - description: |-
     Você está na recepção. A escadaria desce para o salão de entrada.
     Uma saída ao norte leva ao Centro de Criogenia. Há um pequeno aviso no balcão.
   exits:
     down:
-      target_vnum: '11162'
+      target_vnum: '010211111162'
     north:
-      target_vnum: '11166'
+      target_vnum: '010211111166'
+  local_id: '11165'
   name: A Recepção
-  vnum: '11165'
+  vnum: '010211111165'
 - description: |-
     Você está em um quarto branco, porem todo sujo pela poeira. Caixas
     cilíndricas, do tamanho de um corpo, estão quebradas e arrombadas, o
     que havia dentro delas parece ter sido arrancado. A recepção fica ao sul.
   exits:
     south:
-      target_vnum: '11165'
+      target_vnum: '010211111165'
+  local_id: '11166'
   name: O Centro de Criogenia
-  vnum: '11166'
+  vnum: '010211111166'
 - description: |-
     A entrada para a sala é um pequeno e modesto quarto, completamente
     arrasado pelo tempo. Existe uma saída para o leste que leva para a
     Praça do Templo. O bar está ao norte daqui.
   exits:
     east:
-      target_vnum: '11161'
+      target_vnum: '010211111161'
     north:
-      target_vnum: '11168'
+      target_vnum: 010211111168
+  local_id: '11167'
   name: A Entrada para a Associação dos Clérigos
-  vnum: '11167'
+  vnum: '010211111167'
 - description: |-
     Este bar foi um dos mais finos da terra, hoje está coberto de poeira e
     ratos por todo lado. Finas peças de metais e pedras preciosas que
@@ -816,22 +894,24 @@
     aviso ainda está pendurado na parede.
   exits:
     south:
-      target_vnum: '11167'
+      target_vnum: '010211111167'
     west:
-      target_vnum: '11169'
+      target_vnum: 010211111169
+  local_id: '11168'
   name: O Bar das Divindades
-  vnum: '11168'
+  vnum: 010211111168
 - description: "Este parece ter sido um santuário interno. Uma pintura do poderoso\n\
     Thor está caída ao chão. Um fosso no meio da sala desce para a escuridão,\nporem\
-    \ estÃ¡ bloqueado com uma enome pedra. Ã\x89 impossÃ­vel imaginar como esta\n\
-    grande rocha veio parar aqui. Um odor nojento emana das profundezas."
+    \ está bloqueado com uma enome pedra. Ã\x89 impossível imaginar como esta\ngrande\
+    \ rocha veio parar aqui. Um odor nojento emana das profundezas."
   exits:
     down:
-      target_vnum: '1'
+      target_vnum: '01021110001'
     east:
-      target_vnum: '11168'
+      target_vnum: 010211111168
+  local_id: '11169'
   name: O Santuário Interno dos Clérigos
-  vnum: '11169'
+  vnum: 010211111169
 - description: |-
     Você está diante da antiga Praca do Mercado, a famosa Praça de
     Midgaard.  Hoje tudo a sua volta está destruído, no centro ainda resta
@@ -842,30 +922,32 @@
     sul a Praca Comum, leste e oeste saem na Rua Principal.
   exits:
     east:
-      target_vnum: '11177'
+      target_vnum: '010211111177'
     north:
-      target_vnum: '11161'
+      target_vnum: '010211111161'
     south:
-      target_vnum: '11184'
+      target_vnum: 010211111184
     west:
-      target_vnum: '11171'
+      target_vnum: '010211111171'
+  local_id: '11170'
   name: As Ruinas da Praça do Mercado
-  vnum: '11170'
+  vnum: '010211111170'
 - description: |-
     Você está na rua principal atravessando as ruinas da Cidade de
     Midgaard.  Ao sul daqui ficava a entrada para uma loja, e a velha
     padaria é ao norte.  A leste daqui fica a antiga praça do mercado.
   exits:
     east:
-      target_vnum: '11170'
+      target_vnum: '010211111170'
     north:
-      target_vnum: '11172'
+      target_vnum: '010211111172'
     south:
-      target_vnum: '11173'
+      target_vnum: '010211111173'
     west:
-      target_vnum: '11174'
+      target_vnum: '010211111174'
+  local_id: '11171'
   name: Rua Principal
-  vnum: '11171'
+  vnum: '010211111171'
 - description: |-
     Você esta dentro de uma antiga padaria. O doce perfume dos pães da
     Dinamarca foram embora a muito tempo, somente ratos moram aqui.  Pedras
@@ -874,18 +956,20 @@
     Há um pequeno aviso no balcao.
   exits:
     south:
-      target_vnum: '11171'
+      target_vnum: '010211111171'
+  local_id: '11172'
   name: A Padaria
-  vnum: '11172'
+  vnum: '010211111172'
 - description: |-
     Uma loja que tinha todos os tipos de armaduras sobre as paredes, mas
     tudo foi removido. só restaram os escombros.
     Na parede se vê uma grande mancha em vermelho.
   exits:
     north:
-      target_vnum: '11171'
+      target_vnum: '010211111171'
+  local_id: '11173'
   name: A Loja de Armaduras
-  vnum: '11173'
+  vnum: '010211111173'
 - description: |-
     Você está no fim da rua principal de Midgaard.  Ao sul fica uma antiga
     entrada que está bloqueada por inúmeras pedras. A rua continua ao leste
@@ -893,24 +977,26 @@
     o oeste está um dos portões da cidade.
   exits:
     east:
-      target_vnum: '11171'
+      target_vnum: '010211111171'
     north:
-      target_vnum: '11175'
+      target_vnum: '010211111175'
     south:
-      target_vnum: '1'
+      target_vnum: '01021110001'
     west:
-      target_vnum: '11176'
+      target_vnum: '010211111176'
+  local_id: '11174'
   name: Rua Principal
-  vnum: '11174'
+  vnum: '010211111174'
 - description: |-
     Este era um lugar muito frequentado pelos moradores desta cidade,que
     vinham em busca de poções e pergaminhos muito antigos, para os mais diversos
     fins.  Hoje não passa de um depósito de... pedras.
   exits:
     south:
-      target_vnum: '11174'
+      target_vnum: '010211111174'
+  local_id: '11175'
   name: A Loja de Mágica
-  vnum: '11175'
+  vnum: '010211111175'
 - description: |-
     Você esta entre o que sobrou das duas pequenas torres construídas nos
     muros da cidade, uma ainda está inteira porém a outra parece ter sido
@@ -920,69 +1006,75 @@
     ser vivo aqui além de você.
   exits:
     east:
-      target_vnum: '11174'
+      target_vnum: '010211111174'
     south:
-      target_vnum: '1'
+      target_vnum: '01021110001'
     west:
-      target_vnum: '11198'
+      target_vnum: 010211111198
+  local_id: '11176'
   name: Dentro do Portão Oeste de Midgaard
-  vnum: '11176'
+  vnum: '010211111176'
 - description: |-
     Você está na rua principal, atravessando a cidade. Ao norte há o velho
     armazem, e a rua principal prolonga-se para leste. A oeste você vê a antiga
     praça do mercado, ao sul uma pequena porta leva à velha Loja de Animais.
   exits:
     east:
-      target_vnum: '11180'
+      target_vnum: 010211111180
     north:
-      target_vnum: '11178'
+      target_vnum: 010211111178
     south:
-      target_vnum: '11179'
+      target_vnum: 010211111179
     west:
-      target_vnum: '11170'
+      target_vnum: '010211111170'
+  local_id: '11177'
   name: Rua Principal
-  vnum: '11177'
+  vnum: '010211111177'
 - description: |-
     Você está dentro do antigo armazém desta cidade. Todo tipo de items que
     antigamente eram vendidos aqui, não mais existem.
     Uma pequena nota está pendurada na parede.
   exits:
     south:
-      target_vnum: '11177'
+      target_vnum: '010211111177'
+  local_id: '11178'
   name: O Armazém
-  vnum: '11178'
+  vnum: 010211111178
 - description: |-
     A velha loja de animais parece ter sido abandonada as pressas, cheia de
     gaiolas e fósseis de animais.  Os únicos animais vivos aqui são os ratos.
     Há um aviso na parede.
   exits:
     north:
-      target_vnum: '11177'
+      target_vnum: '010211111177'
+  local_id: '11179'
   name: A Loja de Animais
-  vnum: '11179'
+  vnum: 010211111179
 - description: |-
     A rua principal. Ao norte você tem a loja de armas e ao sul uma
     outra associação com as portas soterradas. A leste você deixa a cidade
     e para oeste a rua leva à praca do mercado.
   exits:
     east:
-      target_vnum: '11182'
+      target_vnum: 010211111182
     north:
-      target_vnum: '11181'
+      target_vnum: 010211111181
     south:
-      target_vnum: '1'
+      target_vnum: '01021110001'
     west:
-      target_vnum: '11174'
+      target_vnum: '010211111174'
+  local_id: '11180'
   name: Rua Principal
-  vnum: '11180'
+  vnum: 010211111180
 - description: |-
     Você esta dentro da loja de armas. Este local tambem não foi
     poupado, todas as armas foram levadas embora, e tudo está destruído.
   exits:
     south:
-      target_vnum: '11180'
+      target_vnum: 010211111180
+  local_id: '11181'
   name: A Loja de Armas
-  vnum: '11181'
+  vnum: 010211111181
 - description: |-
     Você esta entre o que sobrou das duas pequenas torres construídas nos
     muros da cidade e ligadas a uma pequena ponte.  A oeste está a rua
@@ -990,13 +1082,14 @@
     forte guardião.  Aparentemente o único ser vivo aqui além de você.
   exits:
     east:
-      target_vnum: '11199'
+      target_vnum: 010211111199
     south:
-      target_vnum: '11183'
+      target_vnum: 010211111183
     west:
-      target_vnum: '11180'
+      target_vnum: 010211111180
+  local_id: '11182'
   name: Dentro do portão Leste de Midgaard
-  vnum: '11182'
+  vnum: 010211111182
 - description: |-
     Você esta no centro do que restou de uma pequena loja cujas paredes
     eram antigamente cobertas com prateleiras e mais prateleiras de cantaros
@@ -1004,123 +1097,134 @@
     mais estão quebrados ou cheios de pedras.
   exits:
     north:
-      target_vnum: '11182'
+      target_vnum: 010211111182
+  local_id: '11183'
   name: "A Velha Loja de Ã\x81gua"
-  vnum: '11183'
+  vnum: 010211111183
 - description: |-
     A praça comum, aqui por muitas vezes você parou para conversar. A oeste
     o beco miserável parece o mesmo e a leste um beco escuro. Ao norte, esta praça
     está ligada à antiga praça do mercado. Ao sul você nota um cheiro desagradável.
   exits:
     east:
-      target_vnum: '11185'
+      target_vnum: 010211111185
     north:
-      target_vnum: '11170'
+      target_vnum: '010211111170'
     south:
-      target_vnum: '11195'
+      target_vnum: 010211111195
     west:
-      target_vnum: '11192'
+      target_vnum: 010211111192
+  local_id: '11184'
   name: A Praça Comum
-  vnum: '11184'
+  vnum: 010211111184
 - description: |-
     O beco escuro, a oeste fica a praça comum e ao sul outra associação
     tambem com suas portas repletas de entulho tornando impossível de se entrar.
     O beco continua a leste.
   exits:
     east:
-      target_vnum: '11186'
+      target_vnum: 010211111186
     south:
-      target_vnum: '1'
+      target_vnum: '01021110001'
     west:
-      target_vnum: '11184'
+      target_vnum: 010211111184
+  local_id: '11185'
   name: O Beco Escuro
-  vnum: '11185'
+  vnum: 010211111185
 - description: |-
     Você está em um beco que segue para leste e oeste. Ao sul
     daqui você vê o dique.
   exits:
     east:
-      target_vnum: '11188'
+      target_vnum: 010211111188
     south:
-      target_vnum: '11187'
+      target_vnum: 010211111187
     west:
-      target_vnum: '11185'
+      target_vnum: 010211111185
+  local_id: '11186'
   name: O Beco Escuro no Dique
-  vnum: '11186'
+  vnum: 010211111186
 - description: |-
     Você está no dique. Ao sul daqui você vê o rio, antigamente a água
     fluia calmamente, hoje não resta nada alem de terra seca e enormes pedras.
     Umas dessas pedras é tão enorme que é impossível seguir adiante.
   exits:
     north:
-      target_vnum: '11186'
+      target_vnum: 010211111186
+  local_id: '11187'
   name: O Dique
-  vnum: '11187'
+  vnum: 010211111187
 - description: |-
     Você está no final leste do beco, o muro da cidade está a leste
     bloqueando qualquer movimento. Um pequeno depósito está a sul daqui.
     Ao norte, uma pequena e velha loja... o que será que vende alí?
   exits:
     north:
-      target_vnum: '11189'
+      target_vnum: 010211111189
     south:
-      target_vnum: '11190'
+      target_vnum: 010211111190
     west:
-      target_vnum: '11186'
+      target_vnum: 010211111186
+  local_id: '11188'
   name: O Final Leste do Beco
-  vnum: '11188'
+  vnum: 010211111188
 - description: |-
     Você vê pedaços vários mapas espalhados pelo chão.  Parece que todos
     foram destruídos e queimados.  Há muitas cinzas por todos os lados.
   exits:
     south:
-      target_vnum: '11188'
+      target_vnum: 010211111188
+  local_id: '11189'
   name: A Loja de Mapas
-  vnum: '11189'
+  vnum: 010211111189
 - description: |-
     Você está dentro do depósito. O lugar está decorado com várias pedras,
     antigamente aqui existiam varias peças de navios, hoje somente poeira.
   exits:
     north:
-      target_vnum: '11188'
+      target_vnum: 010211111188
+  local_id: '11190'
   name: O Deposito Deserto
-  vnum: '11190'
+  vnum: 010211111190
 - description: |-
     Você está no final leste do beco, o muro da cidade está a leste
     bloqueando qualquer movimento. Um pequeno depósito está a sul daqui.
     Ao norte, uma pequena e velha loja... também destruída.
   exits:
     north:
-      target_vnum: '11189'
+      target_vnum: 010211111189
     south:
-      target_vnum: '11190'
+      target_vnum: 010211111190
     west:
-      target_vnum: '11186'
+      target_vnum: 010211111186
+  local_id: '11191'
   name: O Final Leste do Beco
-  vnum: '11191'
+  vnum: 010211111191
 - description: |-
     Você está no beco miserável. Ao sul fica uma velha e destruída hospedaria
     e a leste você vê a praça comum. O beco continua a oeste.
   exits:
     east:
-      target_vnum: '11184'
+      target_vnum: 010211111184
     south:
-      target_vnum: '11194'
+      target_vnum: 010211111194
     west:
-      target_vnum: '11193'
+      target_vnum: 010211111193
+  local_id: '11192'
   name: O Final Leste do Beco Miserável.
-  vnum: '11192'
+  vnum: 010211111192
 - description: |-
     Você está no Beco Miserável, que continua a leste. Você vê
     o muro da cidade a oeste, mas é impossível de atravessar os
     escombros para pode ir até o muro.
   exits:
     east:
-      target_vnum: '11192'
+      target_vnum: 010211111192
     west:
-      target_vnum: '1'
+      target_vnum: '01021110001'
+  local_id: '11193'
   name: Beco Miserável
-  vnum: '11193'
+  vnum: 010211111193
 - description: |-
     Você está dentro da velha Hospedaria Grubby. Este lugar já não era
     limpo quando habitado, agora então há sujeira por todos os cantos. O
@@ -1128,9 +1232,10 @@
     suas narinas.
   exits:
     north:
-      target_vnum: '11192'
+      target_vnum: 010211111192
+  local_id: '11194'
   name: Hospedaria Grubby
-  vnum: '11194'
+  vnum: 010211111194
 - description: |-
     O depósito de lixo, onde o povo da cidade deixava o seu lixo. Este é o unico
     lugar que parece ter sido conservado, pois o cheiro insuportável continua o mesmo.
@@ -1139,11 +1244,12 @@
     Ao norte você pode ver a praça comum.
   exits:
     down:
-      target_vnum: '1'
+      target_vnum: '01021110001'
     north:
-      target_vnum: '11184'
+      target_vnum: 010211111184
+  local_id: '11195'
   name: O Depósito de Lixo
-  vnum: '11195'
+  vnum: 010211111195
 - description: |-
     Este é o calabouço do Mundo das Pedras.  Aqui é gelado e sombrio, a escuridão é
     intensa, sua única luz é a que você carrega e alguns pequenos buracos nas frestas
@@ -1151,9 +1257,10 @@
     aqui será eterna ...
   exits:
     east:
-      target_vnum: '11176'
+      target_vnum: '010211111176'
+  local_id: '11198'
   name: O Calabouço de Pedra
-  vnum: '11198'
+  vnum: 010211111198
 - description: |-
     Este é o calabouço do Mundo das Pedras.  Aqui é gelado e sombrio, a escuridão é
     intensa, sua única luz é a que você carrega e alguns pequenos buracos nas frestas
@@ -1161,6 +1268,7 @@
     aqui será eterna ...
   exits:
     west:
-      target_vnum: '11182'
+      target_vnum: 010211111182
+  local_id: '11199'
   name: O Calabouço de Pedra
-  vnum: '11199'
+  vnum: 010211111199

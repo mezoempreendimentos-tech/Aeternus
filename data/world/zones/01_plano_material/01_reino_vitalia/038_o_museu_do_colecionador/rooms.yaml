@@ -6,11 +6,12 @@
     chega ao Museu.
   exits:
     north:
-      target_vnum: '3801'
+      target_vnum: 01010383801
     west:
-      target_vnum: '3126'
+      target_vnum: 01010383126
+  local_id: '3800'
   name: A Entrada do Museu do Colecionador
-  vnum: '3800'
+  vnum: 01010383800
 - description: |-
     Na portaria do Museu do Colecionador você já tem a impressão que grandes
     surpresas o aguardarão do lado de dentro.  Ao lado do que parece ser um
@@ -18,11 +19,12 @@
     onde está sentada uma sorridente recepcionista.
   exits:
     north:
-      target_vnum: '3802'
+      target_vnum: 01010383802
     south:
-      target_vnum: '3800'
+      target_vnum: 01010383800
+  local_id: '3801'
   name: A Portaria do Museu
-  vnum: '3801'
+  vnum: 01010383801
 - description: |-
     Você está dentro do salão principal do Museu do Colecionador, criado pelo
     lendário e anônimo Explorador, para funcionar tanto como uma espécie de clube
@@ -33,17 +35,18 @@
     Você também pode ver portas para leste, oeste, norte e sul.
   exits:
     east:
-      target_vnum: '3805'
+      target_vnum: 01010383805
     north:
-      target_vnum: '3803'
+      target_vnum: 01010383803
     south:
-      target_vnum: '3801'
+      target_vnum: 01010383801
     up:
-      target_vnum: '3811'
+      target_vnum: 01010383811
     west:
-      target_vnum: '3806'
+      target_vnum: 01010383806
+  local_id: '3802'
   name: O Salão Principal do Museu
-  vnum: '3802'
+  vnum: 01010383802
 - description: |-
     Dentro desta sala finamente decorada, você pode ver vários MOB´s em
     quadros ou empalhados.  Alguns quadros são mágicos e suas pinturas possuem
@@ -53,11 +56,12 @@
     das Séries MOB´s.
   exits:
     north:
-      target_vnum: '3804'
+      target_vnum: 01010383804
     south:
-      target_vnum: '3802'
+      target_vnum: 01010383802
+  local_id: '3803'
   name: A Sala dos MOB´s
-  vnum: '3803'
+  vnum: 01010383803
 - description: "Ao entrar nesta sala você logo se assusta.  De alguma forma você foi\
     \ parar\nexatamente no meio do pátio de torneios de Camelot.  Quando olha ao redor,\
     \ em\nbusca de um portal, a sala se modifica e você se encontra entre as árvores\
@@ -65,23 +69,32 @@
     \ o\nambiente ao seu redor se transforma no Abismo Profundo.  Você caminha\nmaravilhado\
     \ pela sala, que agora se transforma numa florida rua de Lindrel, e\nfica claro\
     \ que aqui é possível desfrutar de TODAS as áreas de Vitália.  Você\npode ver\
-    \ as listas de CARDÂ´S das SÃ©ries Ã\x81reas aparecerem cada hora num lugar\n\
-    diferente.  Por falar nisso, onde foi parar a porta por onde você entrou?"
+    \ as listas de CARD´S das Séries Ã\x81reas aparecerem cada hora num lugar\ndiferente.\
+    \  Por falar nisso, onde foi parar a porta por onde você entrou?"
   exits:
     down:
-      target_vnum: '3803'
+      target_vnum: 01010383803
     east:
-      target_vnum: '3803'
+      target_vnum: 01010383803
     north:
-      target_vnum: '3803'
+      target_vnum: 01010383803
+    northeast:
+      target_vnum: 01010383803
+    northwest:
+      target_vnum: 01010383803
     south:
-      target_vnum: '3803'
+      target_vnum: 01010383803
+    southeast:
+      target_vnum: 01010383803
+    southwest:
+      target_vnum: 01010383803
     up:
-      target_vnum: '3803'
+      target_vnum: 01010383803
     west:
-      target_vnum: '3803'
+      target_vnum: 01010383803
+  local_id: '3804'
   name: "A Sala das Ã\x81reas"
-  vnum: '3804'
+  vnum: 01010383804
 - description: |-
     Nesta sala você pode ver vários itens espalhados por diversas prateleiras
     e mostruários.  Itens que vão de simples Botijas e Lembas magicamente
@@ -92,9 +105,10 @@
     das Séries Itens.
   exits:
     west:
-      target_vnum: '3802'
+      target_vnum: 01010383802
+  local_id: '3805'
   name: A Sala dos Itens
-  vnum: '3805'
+  vnum: 01010383805
 - description: |-
     Nesta sala decorada com ricas tapeçarias e finas poltronas, podem ser
     vistos quadros com pinturas dos Deuses e dos hérois de Vitália.  Brasões e
@@ -105,11 +119,12 @@
     CARD´S das Séries Personalidades.
   exits:
     down:
-      target_vnum: '3807'
+      target_vnum: 01010383807
     east:
-      target_vnum: '3802'
+      target_vnum: 01010383802
+  local_id: '3806'
   name: A Sala da Fama
-  vnum: '3806'
+  vnum: 01010383806
 - description: |-
     Enquanto caminha por essa estreita passagem, sua mente é inundada por
     antigas recordações.  Uma pequena voz, (a SUA voz?!) parece conversar com
@@ -123,9 +138,10 @@
     se emocionou bastante aquele dia.
   exits:
     west:
-      target_vnum: '3808'
+      target_vnum: 01010383808
+  local_id: '3807'
   name: A Passagem Secreta para Dentro de Si Mesmo
-  vnum: '3807'
+  vnum: 01010383807
 - description: |-
     Enquanto caminha por essa estreita passagem, mais boas lembranças
     preenchem sua mente.  Você passa a reviver os melhores momentos pelos quais
@@ -139,9 +155,10 @@
     guardará para sempre com muito carinho.
   exits:
     west:
-      target_vnum: '3809'
+      target_vnum: 01010383809
+  local_id: '3808'
   name: Dias de Glória
-  vnum: '3808'
+  vnum: 01010383808
 - description: |-
     Neste ponto da passagem você é abençoado com a maior recompensa que suas
     memórias poderiam oferecer.  A lembrança das suas amizades.  Você se recorda
@@ -157,9 +174,10 @@
     seus amigos e dizer pra eles o quanto são importantes para você.
   exits:
     west:
-      target_vnum: '3810'
+      target_vnum: 01010383810
+  local_id: '3809'
   name: O Maior dos Tesouros
-  vnum: '3809'
+  vnum: 01010383809
 - description: |-
     Depois desse passeio por suas memórias, você alcança o final do estreito
     corredor.  Você se sente revigorado após tantas lembranças boas e talvez
@@ -173,15 +191,17 @@
     escadaria, e no topo dela você parece avistar algumas estátuas.
   exits:
     up:
-      target_vnum: '9406'
+      target_vnum: 01010389406
+  local_id: '3810'
   name: O Fim das Recordações
-  vnum: '3810'
+  vnum: 01010383810
 - description: |-
     Neste andar funciona o posto de venda, troca e compra de CARD's.  Nas
     paredes pode-se ver várias cartas de todas as séries.  No fundo da sala,
     atrás de um balcão, pode-se ver o jovem Pilgoras separando algumas cartas.
   exits:
     down:
-      target_vnum: '3802'
+      target_vnum: 01010383802
+  local_id: '3811'
   name: A Sala das Trocas
-  vnum: '3811'
+  vnum: 01010383811

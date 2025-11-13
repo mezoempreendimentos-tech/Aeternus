@@ -4,16 +4,18 @@
     de aparência sombria.
   keywords:
   - sacerdote
+  long_desc: Um sacerdote está aqui, expressando algumas palavras.
   name: um sacerdote
-  vnum: '8101'
+  vnum: 01010818101
 - description: |-
     O cidadão é apenas mais um dos humildes homens que servem fielmente ao
     faraó.
   keywords:
   - cidadao
   - egipcio
+  long_desc: Um cidadão egípcio está em pé aqui.
   name: o cidadão egípcio
-  vnum: '8102'
+  vnum: 01010818102
 - description: |-
     Ela é uma bela jovem que, ao lado das outras esposas do faraó, vive apenas
     em função de seu marido, perdendo assim os melhores anos de sua vida.  Você
@@ -23,8 +25,9 @@
   - farao
   - bela
   - jovem
+  long_desc: Uma bela jovem está aqui tentando agradar a todos.
   name: a esposa do faraó
-  vnum: '8103'
+  vnum: 01010818103
 - description: |-
     O escravo aparenta não se alimentar há muito tempo.  Suas costas nuas,
     curvadas como se carregassem um grande peso, são cheias de cicatrizes e
@@ -32,89 +35,102 @@
     tempo e pelo cansaço.
   keywords:
   - escravo
+  long_desc: Um escravo está aqui trabalhando arduamente.
   name: o escravo
-  vnum: '8104'
+  vnum: 01010818104
 - description: |-
     O camponês é apenas um homem humilde que trabalha arduamente para pagar seus
     impostos.
   keywords:
   - campones
+  long_desc: Um camponês está aqui a procura de trabalho.
   name: o camponês
-  vnum: '8105'
+  vnum: 01010818105
 - description: |-
     Reconhecido facilmente por ser dono de um olhar frio e ar prepotente, este é
     o homem mais importante do império.  O Vizir veste roupas ricamente
     ornamentadas, contrastando em muito com a plebe que o cerca.
   keywords:
   - vizir
+  long_desc: Um Vizir está em pé aqui.
   name: o Vizir
-  vnum: '8106'
+  vnum: 01010818106
 - description: Ele é mais um honrado homem do Império.
   keywords:
   - imakhu
+  long_desc: Um Imakhu está aqui recolhendo impostos.
   name: o Imakhu
-  vnum: '8107'
+  vnum: 01010818107
 - description: Apenas mais um barão...
   keywords:
   - nomarca
+  long_desc: Um Nomarca está aqui tomando conta de seu distrito.
   name: o Nomarca
-  vnum: '8108'
+  vnum: 01010818108
 - description: Vestindo apenas uma tanga, o escriba segue anotando tudo o que vê.
   keywords:
   - escriba
+  long_desc: Um escriba está aqui fazendo anotações.
   name: o escriba
-  vnum: '8109'
+  vnum: 01010818109
 - description: |-
     Esse simples artesão, vestido somente trapos, trabalha humildemente para os
     mais ricos.
   keywords:
   - hemutiu
+  long_desc: Um Hemutiu está em pé aqui.
   name: um Hemutiu
-  vnum: '8110'
+  vnum: 01010818110
 - description: |-
     Ele é um homem magro de sorriso suspeito.  Você acha muito estranho o jeito
     esperançoso com que ele o olha...
   keywords:
   - radumah
+  long_desc: Radumah está aqui observando você.
   name: Radumah
-  vnum: '8111'
+  vnum: 01010818111
 - description: |-
     Sobek, o deus egípcio protetor dos animais, possui cabeça de crocodilo e
     corpo humano.  Ele é, aparentemente, bastante ameaçador.
   keywords:
   - sobek
+  long_desc: Sobek está aqui acariciando um pequeno animal que está em suas mãos.
   name: Sobek
-  vnum: '8112'
+  vnum: 01010818112
 - description: |-
     Thot, o de cabeça de íbis, é o mensageiro dos Deuses.  Ele carrega uma
     caneta e um pergaminho com os quais escreve sobre todas as coisas desse
     mundo.
   keywords:
   - thot
+  long_desc: Thot está em pé aqui denominando algumas coisas.
   name: Thot
-  vnum: '8113'
+  vnum: 01010818113
 - description: |-
     Seth é o deus cuja benevolência se restringe às forças do deserto.  Assim,
     ele protege o Egito dos estrangeiros.
   keywords:
   - seth
+  long_desc: Seth está aqui protegendo as areias do Egito.
   name: Seth
-  vnum: '8114'
+  vnum: 01010818114
 - description: |-
     Você pode notar que, debaixo de suas vestes negras, Sekmet possui um corpo
     escultural. Sua cabeça de leoa, porém, dá-lhe uma aparencia assustadora.
   keywords:
   - sekmet
+  long_desc: Com benevolência, Sekmet fita você.
   name: Sekmet
-  vnum: '8115'
+  vnum: 01010818115
 - description: |-
     Você está diante do Grande Deus Sol.  Seu corpo, coberto por vestes
     douradas, emana uma amarelada luz quente.
   keywords:
   - ra
   - rá
+  long_desc: Rá envolto por seus raios solares, está aqui.
   name: Rá
-  vnum: '8116'
+  vnum: 01010818116
 - description: |-
     Hórus, o deus com cabeça de falcão, é o protótipo sagrado do faraó. Seu
     corpo jovem é robusto e saudável, digno de um grande guerreiro.  Consigo ele
@@ -122,16 +138,18 @@
   keywords:
   - horus
   - hórus
+  long_desc: Hórus está sentado aqui observando a todos.
   name: Hórus
-  vnum: '8117'
+  vnum: 01010818117
 - description: |-
     A Deusa do Céu, Hátor, é uma bela mulher que leva sobre a cabeça o disco
     solar entre um par de chifres de vaca.  Seus costumes são... peculiares.
   keywords:
   - hator
   - hátor
+  long_desc: Hátor parece estar em outra realidade.
   name: Hátor
-  vnum: '8118'
+  vnum: 01010818118
 - description: |-
     Você observa esse homem barbado com o corpo totalmente enrolado em
     bandagens, exatamente como uma múmia.  Sua cabeça está coberta por uma
@@ -139,16 +157,18 @@
     seguram um Ankh e um Djed.
   keywords:
   - ptah
+  long_desc: Ptah está aqui contemplando as areias do Egito.
   name: Ptah
-  vnum: '8119'
-- description: "Ã\x8Dsis Ã© uma bela mulher de meia-idade que, vestida em trajes da\
-    \ mais fina lÃ£\ne linho bordados com ouro e prata, graciosamente ostenta um grande\
+  vnum: 01010818119
+- description: "Ã\x8Dsis é uma bela mulher de meia-idade que, vestida em trajes da\
+    \ mais fina lã\ne linho bordados com ouro e prata, graciosamente ostenta um grande\
     \ número de\njóias."
   keywords:
   - isis
   - ísis
+  long_desc: "Ã\x8Dsis, adornada com suas jóias, está em pé aqui."
   name: "Ã\x8Dsis"
-  vnum: '8120'
+  vnum: 01010818120
 - description: |-
     Barbado, com o aspecto ao mesmo tempo selvagem e cômico de duende, Bes, o
     protetor das mulheres grávidas e das crianças, é sempre mostrado nas imagens
@@ -157,8 +177,9 @@
     tipo de tratamento...
   keywords:
   - bes
+  long_desc: Bes está aqui com uma criança nos braços.
   name: Bes
-  vnum: '8121'
+  vnum: 01010818121
 - description: |-
     Anúbis, o Deus dos mortos, tem corpo de homem e cabeça de chacal.  Seus
     olhos são tão vermelhos quanto assustadores e sua alma tão negra quanto a
@@ -166,8 +187,9 @@
   keywords:
   - Anubis
   - anúbis
+  long_desc: Anúbis está aqui vigiando as tumbas.
   name: anúbis
-  vnum: '8122'
+  vnum: 01010818122
 - description: |-
     Osíris é o deus egípicio da morte e ressurreição.  Vestindo uma mortalha
     branca, sua aparência é de um moribundo: seu corpo exala um cheiro putrefato
@@ -175,8 +197,9 @@
   keywords:
   - osiris
   - osíris
+  long_desc: Osíris está aqui com um olhar não muito agradável.
   name: Osíris
-  vnum: '8123'
+  vnum: 01010818123
 - description: |-
     Ele homem de aparência nobre e ar arrogante.  Seus ricos trajes são os mais
     finos já vistos sobre as areias do Egito.
@@ -184,23 +207,26 @@
   - seth
   - farao
   - faraó
+  long_desc: O faraó está aqui governando a cidade do alto de seu trono.
   name: Seth I
-  vnum: '8124'
+  vnum: 01010818124
 - description: |-
     Você apenas consegue vislumbrar um par de olhos assustadoramente frios por
     detrás da viseira de seu capacete.  Segurando um enorme machado nas mãos, o
     carrasco caminha lentamente em sua direção.
   keywords:
   - carrasco
+  long_desc: O carrasco avança sobre você ameaçadoramente.
   name: o carrasco
-  vnum: '8125'
+  vnum: 01010818125
 - description: "Olhando para o embalsamador você nota sangue e resquícios de tecido\
-    \ humano\nem suas vestes.  Ã\x89 difÃ­cil nÃ£o notar tambÃ©m o fedor putrefato\
-    \ que ele\nexala."
+    \ humano\nem suas vestes.  Ã\x89 difícil não notar também o fedor putrefato que\
+    \ ele\nexala."
   keywords:
   - embalsamador
+  long_desc: Um homem sombrio está aqui embalsamando um corpo.
   name: o embalsamador
-  vnum: '8126'
+  vnum: 01010818126
 - description: |-
     Ele segura em uma de suas mâos um pequeno frasco de natrão e na outra as
     vísceras de algum infeliz.  Sua face revela a loucura e o frieza de seu
@@ -208,8 +234,9 @@
   keywords:
   - ajudante
   - embalsamador
+  long_desc: O ajudante de embalsamador está em pé aqui.
   name: o ajudante de embalsamador
-  vnum: '8127'
+  vnum: 01010818127
 - description: |-
     Nefertiti, a rainha e consorte de Akhenaton, é uma jovem de beleza
     inigualável.  Seus olhos são de profundo negro com longas e espessas
@@ -218,60 +245,70 @@
     descreve ela que é uma das mulheres mais belas e influentes dessa época.
   keywords:
   - nefertiti
+  long_desc: Nefertiti está aqui repousando em seu divã.
   name: Nefertiti
-  vnum: '8128'
+  vnum: 01010818128
 - description: Ele é apenas um garoto sorridente sempre pronto para ajudar.
   keywords:
   - pajem
+  long_desc: Um pajem está em pé aqui.
   name: o pajem
-  vnum: '8129'
+  vnum: 01010818129
 - description: Parece que ele ficaria eternamente em pé aqui. E sem reclamar...
   keywords:
   - eunuco
+  long_desc: Um eunuco está em pé aqui.
   name: o eunuco
-  vnum: '8130'
+  vnum: 01010818130
 - description: |-
     O criado veste roupas simples, o que combina perfeitamente com sua natureza
     humilde.  Ele está um pouco atrapalhado pois tenta servir bem a todos.
   keywords:
   - criado
+  long_desc: Um atarefado criado está aqui.
   name: o criado
-  vnum: '8131'
+  vnum: 01010818131
 - description: Ele não parece muito confiável, porém muito inteligente.
   keywords:
   - banqueiro
+  long_desc: O banqueiro está em pé aqui.
   name: o banqueiro
-  vnum: '8132'
+  vnum: 01010818132
 - description: |-
     Ele não parece ser confiável o bastante para guardar seu dinheiro mas,
     afinal, você não tem escolha.
   keywords:
   - tesoureiro
+  long_desc: O tesoureiro está aqui contando dinheiro.
   name: o tesoureiro
-  vnum: '8133'
+  vnum: 01010818133
 - description: |-
     Ele é uma bela ave de pernas e bico longos.  A maioria de suas penas, muito
     brancas, parecem especialmente destacar as preciosas plumas de cor azul oceano.
   keywords:
   - ibis
+  long_desc: Um íbis está aqui a sobrevoar sua cabeça.
   name: o íbis
-  vnum: '8134'
+  vnum: 01010818134
 - description: Esse gato negro aparenta ser muito esperto e corajoso.
   keywords:
   - gato
+  long_desc: Um gato percorre a sala rapidamente.
   name: o gato
-  vnum: '8135'
+  vnum: 01010818135
 - description: Você fica assustado com a agressividade desse pequeno escaravelho negro...
   keywords:
   - escaravelho
+  long_desc: Um escaravelho está aqui procurando por comida.
   name: o escaravelho
-  vnum: '8136'
+  vnum: 01010818136
 - description: Esse rato nojento está todo coberto com um espessa e fétida camada
     de lama.
   keywords:
   - rato
+  long_desc: Um rato está aqui tentando subir na sua perna.
   name: o rato
-  vnum: '8137'
+  vnum: 01010818137
 - description: |-
     Khons é o deus egípcio da Lua.  Ele lhe conta porque não pode aparecer o mês
     inteiro em toda sua glória: uma vez, jogando senet contra Thot, Khons
@@ -280,8 +317,9 @@
     atingindo seu auge, comece a minguar.
   keywords:
   - khons
+  long_desc: Khons está aqui mirando o firmamento.
   name: Khons
-  vnum: '8138'
+  vnum: 01010818138
 - description: |-
     Você está perante Imothep (ou pelo menos o que restou dele), o
     sumo-sacertode do faraó.  Totalmente envolto em bandagens, exatamente como
@@ -289,29 +327,33 @@
     morte trazendo as 7 pragas do Egito.
   keywords:
   - imothep
+  long_desc: Imothep se aproxima de você lentamente.
   name: Imothep
-  vnum: '8139'
+  vnum: 01010818139
 - description: |-
     Akhenaton, um homem muito alto e magro, é conhecido principalmente por ser o
     faraó que cultuava apenas um deus: Aton, o Sol.  Ao lado de sua mulher, a
     bela Nefertiti, Akhenaton mantêm a paz no Egito.
   keywords:
   - akhenaton
+  long_desc: Akhenaton está em pé aqui.
   name: Akhenaton
-  vnum: '8140'
+  vnum: 01010818140
 - description: Ele aparenta muito sangue-frio e agilidade.
   keywords:
   - ladrao
   - homem
+  long_desc: Um homem vestido todo de preto está rondando esse lugar.
   name: o ladrão
-  vnum: '8141'
+  vnum: 01010818141
 - description: Você mal o vê diante da escuridão.
   keywords:
   - tumbas
   - ladrao
   - ladrão
+  long_desc: Um ladrão de tumbas está aqui buscando um tesouro.
   name: o ladrão de tumbas
-  vnum: '8142'
+  vnum: 01010818142
 - description: |-
     Esse parece ser uma espécie muito rara de cordoniz pois, diferente da
     coloração cinzenta e marrom comum, essa ave possui penas multicoloridas que
@@ -319,16 +361,18 @@
     sua busca por comida.
   keywords:
   - cordoniz
+  long_desc: Um cordoniz está aqui ciscando o chão.
   name: um raro cordoniz
-  vnum: '8143'
+  vnum: 01010818143
 - description: |-
     Vestindo roupas que algum dia foram claras, esse homem parece procurar
     urgentemente, com sua lamparina, por uma saída.
   keywords:
   - explorador
   - homem
+  long_desc: Um homem parece estar perdido por aqui.
   name: o explorador
-  vnum: '8144'
+  vnum: 01010818144
 - description: |-
     Essa enorme cobra passa quase despercebida nas quentes areias do deserto:
     seu couro tem a tonalidade certa para a camuflar.  Tenha muito cuidado para
@@ -337,16 +381,18 @@
   - vibora
   - víbora
   - cobra
+  long_desc: Uma enorme cobra está rastejando pelo chão.
   name: a víbora
-  vnum: '8145'
+  vnum: 01010818145
 - description: |-
     A pobre criança parece ter se perdido de sua mãe: chama-a incessantemente
     enquanto lágrimas desesperadas rolam por sua face corada.
   keywords:
   - crianca
   - egipcia
+  long_desc: Uma criança está aqui procurando por sua mãe.
   name: a criança egípcia
-  vnum: '8146'
+  vnum: 01010818146
 - description: |-
     Você se sente hipnotizado pelos olhos dessa serpente: parecem de fogo, com
     seu brilho se tornando mais fraco ou mais intenso.  De sua boca parece sair
@@ -354,29 +400,33 @@
     repugnância.
   keywords:
   - serpente
+  long_desc: Uma enorme serpente está aqui, encarando você.
   name: a Serpente
-  vnum: '8147'
+  vnum: 01010818147
 - description: |-
     Ele aparenta ser um lojista honesto e confiável mesmo tendo uma enorme arma
     presa em sua cintura.
   keywords:
   - harirf
+  long_desc: Harirf está aqui polindo suas botas.
   name: Harirf
-  vnum: '8148'
+  vnum: 01010818148
 - description: |-
     Ela é uma linda mulher que já chegou na meia-idade.  De porte elegante e
     sorriso sincero, Rafertine oferece a você alguns de seus pães.
   keywords:
   - rafertine
+  long_desc: Uma bela mulher está aqui a vender pães.
   name: Rafertine
-  vnum: '8149'
+  vnum: 01010818149
 - description: |-
     Musedic, com sua aparência asquerosa, é dono de um olhar matreiro que
     desperta admiração.
   keywords:
   - musedic
+  long_desc: Musedic está aqui tramando alguma coisa.
   name: Musedic
-  vnum: '8150'
+  vnum: 01010818150
 - description: |-
     Exalando um insuportável cheiro de mofo e carne pútrida, essa múmia parece
     disposta a fazer-lhe algum mal.  Você não sabe se fica mais assustado com
@@ -384,13 +434,15 @@
     que deve ser sua boca.
   keywords:
   - mumia
+  long_desc: Uma múmia arrasta-se em sua direção.
   name: a múmia
-  vnum: '8151'
+  vnum: 01010818151
 - description: |-
     Esse soldado de feições sérias parece muito concentrado na defesa do
     patrimônio de seu faraó.
   keywords:
   - soldado
   - egipcio
+  long_desc: Um soldado egípcio está de guarda aqui.
   name: um soldado egípcio
-  vnum: '8152'
+  vnum: 01010818152

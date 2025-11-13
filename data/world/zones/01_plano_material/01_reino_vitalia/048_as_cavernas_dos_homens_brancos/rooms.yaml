@@ -8,11 +8,12 @@
     paredes úmidas da caverna.
   exits:
     east:
-      target_vnum: '4801'
+      target_vnum: 01010484801
     west:
-      target_vnum: '6268'
+      target_vnum: 01010486268
+  local_id: '4800'
   name: Entrando na Escuridão
-  vnum: '4800'
+  vnum: 01010484800
 - description: |-
     O ar vai se tornando cada vez mais frio à medida que você vai descendo
     para o leste.   O chão vai se enclinando suavemente a princípio, e a cada
@@ -21,12 +22,13 @@
     manter o equilíbrio ao caminhar.
   exits:
     east:
-      target_vnum: '4802'
+      target_vnum: 01010484802
     west:
-      target_vnum: '4800'
+      target_vnum: 01010484800
+  local_id: '4801'
   name: Descendo Para as Profundezas
-  vnum: '4801'
-- description: "NÃ£o estÃ¡ ficando mais frio.   ESTÃ\x81 gelado.   A temperatura caiu\
+  vnum: 01010484801
+- description: "Não está ficando mais frio.   ESTÃ\x81 gelado.   A temperatura caiu\
     \ tanto\nque o ambiente está quase congelado.  A brisa gelada sopra firme e\n\
     constantemente através da cavernas, dando à tudo um aspecto gélido.  O\nchão continua\
     \ a se inclinar ainda mais para baixo em direção leste e a\nescuridão é tão pesada\
@@ -35,11 +37,12 @@
     \ e apavorante."
   exits:
     east:
-      target_vnum: '4803'
+      target_vnum: 01010484803
     west:
-      target_vnum: '4801'
+      target_vnum: 01010484801
+  local_id: '4802'
   name: O Ar Gelado
-  vnum: '4802'
+  vnum: 01010484802
 - description: |-
     A imensa profundidade desta caverna é suficiente para fazer os ouvidos
     explodirem e os olhos lacrimejarem.  Um fraco e distante ponto de luz pode
@@ -48,22 +51,24 @@
     negras, que refletem a luz como se estivesem molhadas - isso é desanimador.
   exits:
     east:
-      target_vnum: '4804'
+      target_vnum: 01010484804
     west:
-      target_vnum: '4802'
+      target_vnum: 01010484802
+  local_id: '4803'
   name: Fundo e Mais Fundo
-  vnum: '4803'
-- description: "A superfÃ­cie, o ar livre - agora sÃ£o apenas lembranÃ§as.  Ã\x89\
-    \ muito fÃ¡cil\nse perder em lugares como este, totalmente escuros e sem chances\
-    \ de fazer\nqualquer tipo de contato.  Uma goteira pinga frequentemente, quebrando\
-    \ o\nsilêncio deste lugar sombrio, que você está atravessando."
+  vnum: 01010484803
+- description: "A superfície, o ar livre - agora são apenas lembranças.  Ã\x89 muito\
+    \ fácil\nse perder em lugares como este, totalmente escuros e sem chances de fazer\n\
+    qualquer tipo de contato.  Uma goteira pinga frequentemente, quebrando o\nsilêncio\
+    \ deste lugar sombrio, que você está atravessando."
   exits:
     east:
-      target_vnum: '4805'
+      target_vnum: 01010484805
     west:
-      target_vnum: '4803'
+      target_vnum: 01010484803
+  local_id: '4804'
   name: Centenas de pés Abaixo da Superfície
-  vnum: '4804'
+  vnum: 01010484804
 - description: |-
     O túnel faz a curva ao sul, o caminho é tortuoso sendo ora nivelado, ora
     plano.  Para oeste a caverna começa uma subida íngreme que leva à saída e
@@ -71,11 +76,12 @@
     de respiração, pelo menos é o que parece.
   exits:
     south:
-      target_vnum: '4806'
+      target_vnum: 01010484806
     west:
-      target_vnum: '4804'
+      target_vnum: 01010484804
+  local_id: '4805'
   name: O Chão Nivelado
-  vnum: '4805'
+  vnum: 01010484805
 - description: |-
     A parede da caverna é feita do mesmo tipo de rocha, entretanto o chão e
     a parede daqui não parecem naturais, parecem feitos de mármore.  O som da
@@ -83,13 +89,14 @@
     parece o ronco de algum gigante adormecido.
   exits:
     north:
-      target_vnum: '4805'
+      target_vnum: 01010484805
     south:
-      target_vnum: '4809'
+      target_vnum: 01010484809
     west:
-      target_vnum: '4807'
+      target_vnum: 01010484807
+  local_id: '4806'
   name: Uma Passagem Plana
-  vnum: '4806'
+  vnum: 01010484806
 - description: |-
     Esta não é mais uma área com paredes lisas, o relevo na parede causa a
     impressão de que alguma coisa esta escondida dentro dela.  Com certeza o
@@ -97,11 +104,12 @@
     uma aura de terror.
   exits:
     east:
-      target_vnum: '4806'
+      target_vnum: 01010484806
     west:
-      target_vnum: '4808'
+      target_vnum: 01010484808
+  local_id: '4807'
   name: A Câmara Secreta
-  vnum: '4807'
+  vnum: 01010484807
 - description: |-
     Glup! Não é a toa que deram este nome a esta câmara.  A criatura que
     ocupa este pequeno lugar é um Feyr, conhecido como *MEDO*.  Uma criatura
@@ -111,9 +119,10 @@
     poderoso pode destruir ou até mesmo ferir essa criatura.
   exits:
     east:
-      target_vnum: '4807'
+      target_vnum: 01010484807
+  local_id: '4808'
   name: Câmara do Medo
-  vnum: '4808'
+  vnum: 01010484808
 - description: |-
     A parede não é mais tão lisa aqui como é ao norte, entretanto elas
     continuam lisas ao toque.  Certamente não há nenhuma ponta aguda nesta
@@ -121,11 +130,12 @@
     respiração, pelo menos é o que parece.
   exits:
     east:
-      target_vnum: '4810'
+      target_vnum: 01010484810
     north:
-      target_vnum: '4806'
+      target_vnum: 01010484806
+  local_id: '4809'
   name: Uma Curva na Passagem
-  vnum: '4809'
+  vnum: 01010484809
 - description: |-
     Para leste a caverna se expande ficando sempre mais larga e mais aberta.
     A sensação de uma brisa passando parece vir desta direção.  Seguindo para
@@ -134,13 +144,14 @@
     junção é a alcova ao norte que parece esconder algo.
   exits:
     east:
-      target_vnum: '4812'
+      target_vnum: 01010484812
     north:
-      target_vnum: '4811'
+      target_vnum: 01010484811
     west:
-      target_vnum: '4809'
+      target_vnum: 01010484809
+  local_id: '4810'
   name: Perto de uma Alcova
-  vnum: '4810'
+  vnum: 01010484810
 - description: |-
     Algumas palhas velhas estão espalhadas pelo chão, em pilhas gastas e
     fedorentas, abandonadas no meio de um monte de feno.  Parece que a criatura
@@ -149,9 +160,10 @@
     espalhados pelo feno.
   exits:
     south:
-      target_vnum: '4810'
+      target_vnum: 01010484810
+  local_id: '4811'
   name: Uma Alcova
-  vnum: '4811'
+  vnum: 01010484811
 - description: |-
     A passagem é larga, transformando-se ao leste em uma enorme caverna
     subterrânea.  Um som de água correndo vem de algum lugar da caverna,
@@ -159,11 +171,12 @@
     Para oeste a passagem é a mesma pela qual você veio.
   exits:
     east:
-      target_vnum: '4813'
+      target_vnum: 01010484813
     west:
-      target_vnum: '4810'
+      target_vnum: 01010484810
+  local_id: '4812'
   name: A Passagem Larga
-  vnum: '4812'
+  vnum: 01010484812
 - description: |-
     Essa é uma caverna gigante, o teto é tão alto que se perde na escuridão,
     simplesmente desaparece muito alto e longe das paredes.  A parede à sudeste
@@ -172,69 +185,74 @@
     abertura no teto.
   exits:
     east:
-      target_vnum: '4816'
+      target_vnum: 01010484816
     north:
-      target_vnum: '4814'
+      target_vnum: 01010484814
     south:
-      target_vnum: '4817'
+      target_vnum: 01010484817
     west:
-      target_vnum: '4812'
+      target_vnum: 01010484812
+  local_id: '4813'
   name: Uma Caverna Enorme
-  vnum: '4813'
+  vnum: 01010484813
 - description: |-
     A caverna é gigante e brilhante, larga o suficiente para alojar um
     exército inteiro com sua cavalaria.  O teto é tão alto que seu topo não
     pode ser visto por causa da escuridão.
   exits:
     east:
-      target_vnum: '4815'
+      target_vnum: 01010484815
     south:
-      target_vnum: '4813'
+      target_vnum: 01010484813
+  local_id: '4814'
   name: Uma Caverna Enorme
-  vnum: '4814'
+  vnum: 01010484814
 - description: |-
     A caverna é gigante e brilhante, larga o suficiente para alojar um
     exército inteiro com sua cavalaria.  O teto é tão alto que seu topo não
     pode ser visto por causa da escuridão.
   exits:
     east:
-      target_vnum: '4821'
+      target_vnum: 01010484821
     north:
-      target_vnum: '4828'
+      target_vnum: 01010484828
     south:
-      target_vnum: '4816'
+      target_vnum: 01010484816
     west:
-      target_vnum: '4814'
+      target_vnum: 01010484814
+  local_id: '4815'
   name: Uma Caverna Enorme
-  vnum: '4815'
+  vnum: 01010484815
 - description: |-
     A caverna é gigante e brilhante, larga o suficiente para alojar um
     exército inteiro com sua cavalaria.  O teto é tão alto que seu topo não
     pode ser visto por causa da escuridão.
   exits:
     east:
-      target_vnum: '4820'
+      target_vnum: 01010484820
     north:
-      target_vnum: '4815'
+      target_vnum: 01010484815
     south:
-      target_vnum: '4818'
+      target_vnum: 01010484818
     west:
-      target_vnum: '4813'
+      target_vnum: 01010484813
+  local_id: '4816'
   name: Uma Caverna Enorme
-  vnum: '4816'
+  vnum: 01010484816
 - description: |-
     O canto sudoeste desta parte é curvo, na verdade nao faz nenhum ângulo,
     mas não deixa de ser um canto.  Ao sul ha uma pequena fissura na rocha, tem
     tamanho suficiente para um homem passar se expremendo.
   exits:
     east:
-      target_vnum: '4818'
+      target_vnum: 01010484818
     north:
-      target_vnum: '4813'
+      target_vnum: 01010484813
     south:
-      target_vnum: '4825'
+      target_vnum: 01010484825
+  local_id: '4817'
   name: Uma Caverna Enorme
-  vnum: '4817'
+  vnum: 01010484817
 - description: |-
     A parede sul da caverna tem uma camada de bolor e os fungos estão
     tomando conta dela.  Na parede a leste ha uma cascata de água que desliza
@@ -242,13 +260,14 @@
     caverna é bastante larga e as paredes negras refletem uma luz fraca.
   exits:
     east:
-      target_vnum: '4819'
+      target_vnum: 01010484819
     north:
-      target_vnum: '4816'
+      target_vnum: 01010484816
     west:
-      target_vnum: '4817'
+      target_vnum: 01010484817
+  local_id: '4818'
   name: Uma Caverna Enorme
-  vnum: '4818'
+  vnum: 01010484818
 - description: |-
     A cascata de água na parede ao sul, faz parecer que existe um pano de
     vidro movendo-se sobre as rochas da parede.  A água tem aparência
@@ -257,13 +276,14 @@
     consiga passar por ali.
   exits:
     east:
-      target_vnum: '4824'
+      target_vnum: 01010484824
     north:
-      target_vnum: '4820'
+      target_vnum: 01010484820
     west:
-      target_vnum: '4818'
+      target_vnum: 01010484818
+  local_id: '4819'
   name: Uma Caverna Enorme
-  vnum: '4819'
+  vnum: 01010484819
 - description: |-
     Seus passos ecoam infinitamente atrás de você, as paredes negras da caverna
     devolvem todos os sons à você em um coro de estalos e rangidos.  O ar livre
@@ -271,15 +291,16 @@
     escuro da caverna.
   exits:
     east:
-      target_vnum: '4823'
+      target_vnum: 01010484823
     north:
-      target_vnum: '4821'
+      target_vnum: 01010484821
     south:
-      target_vnum: '4819'
+      target_vnum: 01010484819
     west:
-      target_vnum: '4816'
+      target_vnum: 01010484816
+  local_id: '4820'
   name: Uma Caverna Enorme
-  vnum: '4820'
+  vnum: 01010484820
 - description: |-
     Olhando para cima dentro da escuridão, você não pode ver nada exceto o
     farfalhar de asas de morcegos, ou as gotas de água da parede ao sul.  A
@@ -287,28 +308,30 @@
     que tem claustrofobia.
   exits:
     east:
-      target_vnum: '4822'
+      target_vnum: 01010484822
     north:
-      target_vnum: '4827'
+      target_vnum: 01010484827
     south:
-      target_vnum: '4820'
+      target_vnum: 01010484820
     west:
-      target_vnum: '4815'
+      target_vnum: 01010484815
+  local_id: '4821'
   name: Uma Caverna Enorme
-  vnum: '4821'
+  vnum: 01010484821
 - description: |-
     Um corredor estranhamente conduz ao leste, o topo é em forma de abobada.
     A caverna abre-se convidando para oeste sul.  O som da água é muito
     barulhento por aqui.
   exits:
     east:
-      target_vnum: '4870'
+      target_vnum: 01010484870
     south:
-      target_vnum: '4823'
+      target_vnum: 01010484823
     west:
-      target_vnum: '4821'
+      target_vnum: 01010484821
+  local_id: '4822'
   name: Uma Caverna Enorme
-  vnum: '4822'
+  vnum: 01010484822
 - description: |-
     A caverna abre-se larga e misteriosa, o teto está tão alto que não
     poderia ser visto a olho nú por alguém no chão.  Um corredor foge da parede
@@ -316,25 +339,27 @@
     caverna.
   exits:
     north:
-      target_vnum: '4822'
+      target_vnum: 01010484822
     south:
-      target_vnum: '4824'
+      target_vnum: 01010484824
     west:
-      target_vnum: '4820'
+      target_vnum: 01010484820
+  local_id: '4823'
   name: Uma Caverna Enorme
-  vnum: '4823'
+  vnum: 01010484823
 - description: |-
     Você está em frente a cascata, a abertura acima dela conduz à escuridão.
     A caverna abre-se, e fica mais escura ao norte e oeste.
   exits:
     north:
-      target_vnum: '4823'
+      target_vnum: 01010484823
     up:
-      target_vnum: '4852'
+      target_vnum: 01010484852
     west:
-      target_vnum: '4819'
+      target_vnum: 01010484819
+  local_id: '4824'
   name: Uma Caverna Enorme
-  vnum: '4824'
+  vnum: 01010484824
 - description: |-
     Espremer-se por esta fenda apertada foi algo corajoso, a distância entre
     uma parede e outra é de dois palmos, uma passagem difícil.  A fenda faz uma
@@ -343,20 +368,22 @@
     unhas batendo contra algo.
   exits:
     north:
-      target_vnum: '4817'
+      target_vnum: 01010484817
     west:
-      target_vnum: '4826'
+      target_vnum: 01010484826
+  local_id: '4825'
   name: Uma Fenda Estreita na Parede
-  vnum: '4825'
+  vnum: 01010484825
 - description: |-
     O barulho deve ter vindo da horrível criatura que descansa neste lugar.
     O fedor aqui é insuportável, e você pode ver que as paredes estão
     arranhadas e cortadas em vários lugares.  Não é um lugar confortável.
   exits:
     east:
-      target_vnum: '4825'
+      target_vnum: 01010484825
+  local_id: '4826'
   name: Câmara do Horror
-  vnum: '4826'
+  vnum: 01010484826
 - description: |-
     As paredes ao norte e leste da caverna impedem que você continue para
     estas direções.  Seguindo para oeste, você irá encontrar uma abertura na
@@ -364,11 +391,12 @@
     estende-se para o sul.
   exits:
     south:
-      target_vnum: '4821'
+      target_vnum: 01010484821
     west:
-      target_vnum: '4828'
+      target_vnum: 01010484828
+  local_id: '4827'
   name: Uma Caverna Enorme
-  vnum: '4827'
+  vnum: 01010484827
 - description: |-
     Essa parte da caverna parece muito usada, alguém esteve aqui
     recentemente.  O chão está cheio de sujeiras e imundices, existem várias
@@ -376,37 +404,40 @@
     que é um caminho usado com bastante freqüência e que segue para o norte.
   exits:
     east:
-      target_vnum: '4827'
+      target_vnum: 01010484827
     north:
-      target_vnum: '4829'
+      target_vnum: 01010484829
     south:
-      target_vnum: '4815'
+      target_vnum: 01010484815
+  local_id: '4828'
   name: Uma Caverna Enorme
-  vnum: '4828'
+  vnum: 01010484828
 - description: |-
     Uma passagem seguindo para norte parece levar até uma luz, impossível
     saber estando tão longe.  Mais na frente existe um desvio para leste e
     parece que estão vindo vozes de lá - muitas, muitas vozes.
   exits:
     north:
-      target_vnum: '4830'
+      target_vnum: 01010484830
     south:
-      target_vnum: '4828'
+      target_vnum: 01010484828
+  local_id: '4829'
   name: Uma Passagem Larga
-  vnum: '4829'
+  vnum: 01010484829
 - description: |-
     O largo caminho continua a norte e sul, mas existe uma larga abertura ao
     leste.  O som das vozes é extremamente alto aqui, talvez o barulho esteja
     vindo do leste.
   exits:
     east:
-      target_vnum: '4831'
+      target_vnum: 01010484831
     north:
-      target_vnum: '4838'
+      target_vnum: 01010484838
     south:
-      target_vnum: '4829'
+      target_vnum: 01010484829
+  local_id: '4830'
   name: Uma Junção Tripla
-  vnum: '4830'
+  vnum: 01010484830
 - description: |-
     Esta imunda parte da caverna parece o lar de uma grande família de
     corcundas, criaturas pequenas e sujas que lutam em grande número.  Eles
@@ -414,44 +445,48 @@
     cobertos de gorduras e de sujeira, mas isso só Deus sabe.
   exits:
     east:
-      target_vnum: '4832'
+      target_vnum: 01010484832
     west:
-      target_vnum: '4830'
+      target_vnum: 01010484830
+  local_id: '4831'
   name: Tunel Barulhento
-  vnum: '4831'
+  vnum: 01010484831
 - description: |-
     As vozes são suficientes para levar qualquer calmo aventureiro
     diretamente para o inferno.  Isso acompanhado do perturbante fato de estas
     criaturas adorarem carne humana crua.
   exits:
     east:
-      target_vnum: '4833'
+      target_vnum: 01010484833
     west:
-      target_vnum: '4831'
+      target_vnum: 01010484831
+  local_id: '4832'
   name: Milhares de Pequenas Vozes
-  vnum: '4832'
+  vnum: 01010484832
 - description: |-
     O barulho apenas aumenta enquanto você adentra o lar destas desprezíveis
     criaturas.  Com todo este limo e gordura abaixo dos pés, fica difícil de se
     negociar, mas negociar é o único jeito de adentrar em suas casas.
   exits:
     east:
-      target_vnum: '4835'
+      target_vnum: 01010484835
     south:
-      target_vnum: '4834'
+      target_vnum: 01010484834
     west:
-      target_vnum: '4832'
+      target_vnum: 01010484832
+  local_id: '4833'
   name: Um Ruido Enorme
-  vnum: '4833'
+  vnum: 01010484833
 - description: |-
     Esta câmara é tão suja quanto o salão a norte, se isso for possível.  O
     barulho e confusão que os corcundas fazem tornam as condições impossíveis,
     eles estão deixando você a beira da loucura.
   exits:
     north:
-      target_vnum: '4833'
+      target_vnum: 01010484833
+  local_id: '4834'
   name: Uma Câmara Privada
-  vnum: '4834'
+  vnum: 01010484834
 - description: |-
     O barulho agora é ensurdecedor, enlouquecedor.  Imaginar que essas
     criaturas passam toda sua existência convivendo com isso é alucinante.  Os
@@ -459,13 +494,14 @@
     observando elas se torcendo e retorcendo antes de serem atacadas.
   exits:
     east:
-      target_vnum: '4836'
+      target_vnum: 01010484836
     north:
-      target_vnum: '4837'
+      target_vnum: 01010484837
     west:
-      target_vnum: '4833'
+      target_vnum: 01010484833
+  local_id: '4835'
   name: Barulho Infernal
-  vnum: '4835'
+  vnum: 01010484835
 - description: |-
     Essa deve ser a principal moradia dessa tribo de corcundas - o lugar
     onde fazem suas últimas reuniões antes das Invasões Bugbear.  Ossos estão
@@ -473,40 +509,44 @@
     está coberto pela mesma sujeira e subtância pegajosa de toda essa área.
   exits:
     west:
-      target_vnum: '4835'
+      target_vnum: 01010484835
+  local_id: '4836'
   name: Um Largo Quarto
-  vnum: '4836'
+  vnum: 01010484836
 - description: |-
     Esta câmara é tão suja quanto o salão a norte, se isso for possível.  O
     barulho e confusão que os corcundas fazem tornam as condições impossíveis,
     eles estão deixando você a beira da loucura.
   exits:
     south:
-      target_vnum: '4835'
+      target_vnum: 01010484835
+  local_id: '4837'
   name: Uma Câmara Privada
-  vnum: '4837'
+  vnum: 01010484837
 - description: |-
     O barulho começa a diminuir a medida que você se afasta do túnel a
     leste.  Para o norte há uma espécie de habitação - nota-se algum tipo de
     luz.  Não é mais apenas um brilho, é uma luz ao norte.
   exits:
     north:
-      target_vnum: '4839'
+      target_vnum: 01010484839
     south:
-      target_vnum: '4830'
+      target_vnum: 01010484830
+  local_id: '4838'
   name: Uma Passagem Larga
-  vnum: '4838'
+  vnum: 01010484838
 - description: |-
     Logo ao norte existe uma cova onde duas tochas podem ser vistas presas
     uma em cada parede.  Sons podem ser ouvidos, são vozes de alguma espécie de
     criatura.  E também o som do movimento de um bando de pés.
   exits:
     north:
-      target_vnum: '4840'
+      target_vnum: 01010484840
     south:
-      target_vnum: '4838'
+      target_vnum: 01010484838
+  local_id: '4839'
   name: A Passagem Larga
-  vnum: '4839'
+  vnum: 01010484839
 - description: |-
     A luz brilha acima das tendas dos Bugbears, o alojamento se expande até
     ocupar quase toda esta parte da caverna.  Não parece que eles se
@@ -514,11 +554,12 @@
     mostrem bastante corajosos.
   exits:
     east:
-      target_vnum: '4841'
+      target_vnum: 01010484841
     south:
-      target_vnum: '4839'
+      target_vnum: 01010484839
+  local_id: '4840'
   name: Entrando no Alojamento
-  vnum: '4840'
+  vnum: 01010484840
 - description: |-
     Esta é a ponta do território Bugbear nesta caverna.  Pode-se ouvir os
     seus murmurios e ruidos a uma boa distância.  Ruidos causados por gritos ou
@@ -526,81 +567,88 @@
     ou passadas ligeiras e pesadas.
   exits:
     east:
-      target_vnum: '4842'
+      target_vnum: 01010484842
     west:
-      target_vnum: '4840'
+      target_vnum: 01010484840
+  local_id: '4841'
   name: Alojamento dos Bugbears
-  vnum: '4841'
+  vnum: 01010484841
 - description: |-
     O clan Bugbear detesta intrusos.  Eles são muito protetores da área que
     o homem pálido deixou que eles ocupassem e irão lutar até a morte para
     manter o seu domínio.  O largo caldeirão à norte é uma prova deste fato.
   exits:
     north:
-      target_vnum: '4843'
+      target_vnum: 01010484843
     west:
-      target_vnum: '4841'
+      target_vnum: 01010484841
+  local_id: '4842'
   name: Alojamento dos Bugbears
-  vnum: '4842'
+  vnum: 01010484842
 - description: |-
     O clan Bugbear detesta intrusos.  Eles são muito protetores da área que
     o homem pálido deixou que eles ocupassem e irão lutar até a morte para
     manter o seu domínio.  O largo caldeirão a norte é uma prova deste fato.
   exits:
     north:
-      target_vnum: '4844'
+      target_vnum: 01010484844
     south:
-      target_vnum: '4842'
+      target_vnum: 01010484842
+  local_id: '4843'
   name: Alojamento dos Bugbears
-  vnum: '4843'
+  vnum: 01010484843
 - description: |-
     Esta é a sala de encontro social do clan.  Rituais religiosos e
     cerimônias são organizados aqui, assim como festas de natureza horrível.
     Este é um lugar sagrado para os membros do clan - sua vida corre perigo.
   exits:
     east:
-      target_vnum: '4845'
+      target_vnum: 01010484845
     north:
-      target_vnum: '4847'
+      target_vnum: 01010484847
     south:
-      target_vnum: '4843'
+      target_vnum: 01010484843
     west:
-      target_vnum: '4849'
+      target_vnum: 01010484849
+  local_id: '4844'
   name: Sala Principal do Alojamento
-  vnum: '4844'
+  vnum: 01010484844
 - description: |-
     O clan Bugbear detesta intrusos.  Eles são muito protetores da área que
     o homem pálido deixou que eles ocupassem e irão lutar até a morte para
     manter o seu domínio.  O largo caldeirão a oeste é uma prova deste fato.
   exits:
     north:
-      target_vnum: '4846'
+      target_vnum: 01010484846
     west:
-      target_vnum: '4844'
+      target_vnum: 01010484844
+  local_id: '4845'
   name: Alojamento dos Bugbears
-  vnum: '4845'
+  vnum: 01010484845
 - description: |-
     O clan Bugbear detesta intrusos.  Eles são muito protetores da área que
     o homem pálido deixou que eles ocupassem e irão lutar até a morte para
     manter o seu domínio.  Os intrusos serão gravemente punidos.
   exits:
     south:
-      target_vnum: '4845'
+      target_vnum: 01010484845
     west:
-      target_vnum: '4847'
+      target_vnum: 01010484847
+  local_id: '4846'
   name: Alojamento dos Bugbears
-  vnum: '4846'
+  vnum: 01010484846
 - description: |-
     O clan Bugbear detesta intrusos.  Eles são muito protetores da área que
     o homem pálido deixou que eles ocupassem e irão lutar até a morte para
     manter o seu domínio.  O largo caldeirão ao sul é uma prova deste fato.
   exits:
     east:
-      target_vnum: '4846'
+      target_vnum: 01010484846
     south:
-      target_vnum: '4844'
+      target_vnum: 01010484844
+  local_id: '4847'
   name: Alojamento dos Bugbears
-  vnum: '4847'
+  vnum: 01010484847
 - description: |-
     Esse é o lar do Bugbear xamã.  Ele é quem serve de intermediario entre
     os Deuses e os membros do clan, compartilhando com eles as vontades dos
@@ -610,9 +658,10 @@
     carne dos corcundas.
   exits:
     south:
-      target_vnum: '4849'
+      target_vnum: 01010484849
+  local_id: '4848'
   name: Alojamento dos Bugbears
-  vnum: '4848'
+  vnum: 01010484848
 - description: |-
     O clan cuida do alojamento com eficiência, tendo áreas divididas em
     partes diferentes, umas onde ficam as pessoas mais importantes e outra
@@ -620,15 +669,16 @@
     para o norte, sul e oeste.
   exits:
     east:
-      target_vnum: '4844'
+      target_vnum: 01010484844
     north:
-      target_vnum: '4848'
+      target_vnum: 01010484848
     south:
-      target_vnum: '4851'
+      target_vnum: 01010484851
     west:
-      target_vnum: '4850'
+      target_vnum: 01010484850
+  local_id: '4849'
   name: Alojamento dos Bugbears
-  vnum: '4849'
+  vnum: 01010484849
 - description: |-
     Esta é a casa do lider do clan.  Ele é quem ordena as saídas do clan
     para o ataque, sempre fica na frente das tropas na hora da batalha.  Ele é
@@ -638,9 +688,10 @@
     esperto.
   exits:
     east:
-      target_vnum: '4849'
+      target_vnum: 01010484849
+  local_id: '4850'
   name: Alojamento dos Bugbears
-  vnum: '4850'
+  vnum: 01010484850
 - description: |-
     Esta é a tenda particular do chefe Bugbear.  Todas as decisões do clan
     devem ser aprovadas por ele.  Antes de um líder ou xamã tomar alguma
@@ -650,31 +701,34 @@
     jovem robusto e saudável.
   exits:
     north:
-      target_vnum: '4849'
+      target_vnum: 01010484849
+  local_id: '4851'
   name: Alojamento dos Bugbears
-  vnum: '4851'
+  vnum: 01010484851
 - description: |-
     Isso se transformou em uma espécie de chaminé ou caminho que conduz para
     cima através das rochas.  A água não chega aqui e as rochas podem ser
     seguradas facilmente, facilitando a escalada.
   exits:
     down:
-      target_vnum: '4824'
+      target_vnum: 01010484824
     up:
-      target_vnum: '4853'
+      target_vnum: 01010484853
+  local_id: '4852'
   name: Uma Escalada
-  vnum: '4852'
+  vnum: 01010484852
 - description: |-
     A brisa que desce carregada pelo vento tem o mesmo frescor da água lá
     embaixo.  Será que a nascente da cascata vem de algum lugar por aqui?  O
     sentimento de esperança estimula cada vez mais a sua escalada.
   exits:
     down:
-      target_vnum: '4852'
+      target_vnum: 01010484852
     up:
-      target_vnum: '4854'
+      target_vnum: 01010484854
+  local_id: '4853'
   name: Subindo para o Ar Livre
-  vnum: '4853'
+  vnum: 01010484853
 - description: |-
     Este é o topo da chaminé, a escura coluna conduz para a caverna
     principal abaixo.  Este caminho na caverna leva a leste e oeste, seguindo
@@ -685,13 +739,14 @@
     para oeste.
   exits:
     down:
-      target_vnum: '4853'
+      target_vnum: 01010484853
     east:
-      target_vnum: '4855'
+      target_vnum: 01010484855
     west:
-      target_vnum: '4860'
+      target_vnum: 01010484860
+  local_id: '4854'
   name: Pequeno Caminho na Caverna
-  vnum: '4854'
+  vnum: 01010484854
 - description: |-
     O lago é bem calmo, e transborda fazendo riachos por todos os lados.
     Parece que a água que derrama no lago vem do leste, e deve desaguar em
@@ -699,22 +754,24 @@
     penetrando nas profundezas terra.
   exits:
     east:
-      target_vnum: '4856'
+      target_vnum: 01010484856
     west:
-      target_vnum: '4854'
+      target_vnum: 01010484854
+  local_id: '4855'
   name: Ao longo da Borda
-  vnum: '4855'
+  vnum: 01010484855
 - description: |-
     Para a frente, um muro de pedras impede a passagem para leste.  A água
     derrama da parede por uma abertura não muito grande através de um buraco
     menor que sua cintura.
   exits:
     east:
-      target_vnum: '4857'
+      target_vnum: 01010484857
     west:
-      target_vnum: '4855'
+      target_vnum: 01010484855
+  local_id: '4856'
   name: Ao longo da Borda
-  vnum: '4856'
+  vnum: 01010484856
 - description: |-
     A origem da água pode ser desconhecida, pelo menos neste ponto onde a
     água vem de algum lugar da parede que impossibilita a passagem a leste.
@@ -722,44 +779,48 @@
     que leva para longe da borda.
   exits:
     north:
-      target_vnum: '4858'
+      target_vnum: 01010484858
     west:
-      target_vnum: '4856'
+      target_vnum: 01010484856
+  local_id: '4857'
   name: A Queda D'água
-  vnum: '4857'
+  vnum: 01010484857
 - description: |-
     Um estranho silêncio predomina esta área.  Este silêncio é preocupante e
     não parece natural.  A sua intuição lhe diz que neste lugar você não vai
     encontrar nenhum tipo de vida.  Um leve frio percorre sua espinha.
   exits:
     north:
-      target_vnum: '4859'
+      target_vnum: 01010484859
     south:
-      target_vnum: '4857'
+      target_vnum: 01010484857
+  local_id: '4858'
   name: Uma Fenda Estreira
-  vnum: '4858'
+  vnum: 01010484858
 - description: |-
     Este quarto faz um FRIO estranho, o frio aqui não parece vir das pedras
     e sim da coisa desagradável que mora aqui.  A fenda ao sul parece mais
     convidativa do que o sentimento de horror que emana desta sala.
   exits:
     south:
-      target_vnum: '4858'
+      target_vnum: 01010484858
+  local_id: '4859'
   name: O Beijo da Morte
-  vnum: '4859'
+  vnum: 01010484859
 - description: |-
     A passagem segue à oeste do lago.  O peitoril do lago segue a sul dando
     a volta nele e acabando na parede de rocha.  Pequenas ondas dançam na
     superficie do lago - mesmo assim o lago continua calmo.
   exits:
     east:
-      target_vnum: '4854'
+      target_vnum: 01010484854
     south:
-      target_vnum: '4868'
+      target_vnum: 01010484868
     west:
-      target_vnum: '4861'
+      target_vnum: 01010484861
+  local_id: '4860'
   name: A Margem do Lago
-  vnum: '4860'
+  vnum: 01010484860
 - description: |-
     Um estranho bolor cresce pelo chão desta caverna, provavelmente por
     causa da umidade causada pelo lago próximo daqui.  O mofo cresce com uma
@@ -767,22 +828,24 @@
     veio.
   exits:
     east:
-      target_vnum: '4860'
+      target_vnum: 01010484860
     west:
-      target_vnum: '4862'
+      target_vnum: 01010484862
+  local_id: '4861'
   name: Uma Passagem Cheia de Mofo
-  vnum: '4861'
+  vnum: 01010484861
 - description: |-
     O bolor no chão continua sem pausa, causa a impressão de que você está
     andando em um grosso carpete.  E de certa forma você está.  Um quarto
     bastante largo esta coberto por ele.
   exits:
     east:
-      target_vnum: '4861'
+      target_vnum: 01010484861
     south:
-      target_vnum: '4863'
+      target_vnum: 01010484863
+  local_id: '4862'
   name: Uma Passagem Cheia de Mofo
-  vnum: '4862'
+  vnum: 01010484862
 - description: |-
     Esta pequena caverna é uma massa de fungos e bolor, cada polegada das
     paredes, do chão e do teto estão cobertas de mofo.  Todo o som que você
@@ -790,13 +853,14 @@
     você - tudo se foi sobrando apenas o silêncio penetrante.
   exits:
     north:
-      target_vnum: '4862'
+      target_vnum: 01010484862
     south:
-      target_vnum: '4867'
+      target_vnum: 01010484867
     west:
-      target_vnum: '4864'
+      target_vnum: 01010484864
+  local_id: '4863'
   name: A Caverna Cheia de Mofo
-  vnum: '4863'
+  vnum: 01010484863
 - description: |-
     Esta pequena caverna é uma massa de fungos e bolor, cada polegada das
     paredes, do chão e do teto estão cobertas de mofo.  Todo o som que voce
@@ -804,11 +868,12 @@
     você - tudo se foi sobrando apenas o silêncio penetrante.
   exits:
     east:
-      target_vnum: '4863'
+      target_vnum: 01010484863
     south:
-      target_vnum: '4866'
+      target_vnum: 01010484866
+  local_id: '4864'
   name: A Caverna Cheia de Mofo
-  vnum: '4864'
+  vnum: 01010484864
 - description: |-
     Esta câmara é coberta por mofo no chão e nas paredes, aqui faz um
     ligeiro frio que talvez esteja vindo de algum lugar ao leste.  Você começa
@@ -816,9 +881,10 @@
     descobrir o que é esta coisa no chão.
   exits:
     east:
-      target_vnum: '4866'
+      target_vnum: 01010484866
+  local_id: '4865'
   name: Armazém Gelado
-  vnum: '4865'
+  vnum: 01010484865
 - description: |-
     Esta pequena caverna é uma massa de fungos e bolor, cada polegada das
     paredes, do chão e do teto estão cobertas de mofo.  Todo o som que você
@@ -827,13 +893,14 @@
     câmara que parece guardar alguma espécie de massa no chão.
   exits:
     east:
-      target_vnum: '4867'
+      target_vnum: 01010484867
     north:
-      target_vnum: '4864'
+      target_vnum: 01010484864
     west:
-      target_vnum: '4865'
+      target_vnum: 01010484865
+  local_id: '4866'
   name: Uma Caverna Cheia de Mofo
-  vnum: '4866'
+  vnum: 01010484866
 - description: |-
     Esta pequena caverna é uma massa de fungos e bolor, cada polegada das
     paredes, do chão e do teto estão cobertas de mofo.  Todo o som que você
@@ -841,11 +908,12 @@
     você - tudo se foi sobrando apenas o silêncio penetrante.
   exits:
     north:
-      target_vnum: '4863'
+      target_vnum: 01010484863
     west:
-      target_vnum: '4866'
+      target_vnum: 01010484866
+  local_id: '4867'
   name: Uma Caverna Cheia de Mofo
-  vnum: '4867'
+  vnum: 01010484867
 - description: |-
     Voltando você encontra a parede a oeste e o lago ao leste, você pode
     seguir para o norte ou sul acompanhando a borda do lago.  Voce vê alguma
@@ -853,11 +921,12 @@
     terra logo depois.
   exits:
     north:
-      target_vnum: '4860'
+      target_vnum: 01010484860
     south:
-      target_vnum: '4869'
+      target_vnum: 01010484869
+  local_id: '4868'
   name: A Margem do Lago
-  vnum: '4868'
+  vnum: 01010484868
 - description: |-
     Aqui a margem do lago alcança a parede sul da caverna tornando
     impossivel continuar seguindo a margem nesta direção.  Alguma coisa não
@@ -865,11 +934,12 @@
     fedorento.
   exits:
     down:
-      target_vnum: '4899'
+      target_vnum: 01010484899
     north:
-      target_vnum: '4868'
+      target_vnum: 01010484868
+  local_id: '4869'
   name: A Margem do Lago
-  vnum: '4869'
+  vnum: 01010484869
 - description: |-
     A caverna aqui é muito ampla e alta, as rochas negras parecem esculpidas
     por homens - ou algo parecido com homens.  Dá para ver o topo da caverna, o
@@ -878,55 +948,60 @@
     sagrado.
   exits:
     east:
-      target_vnum: '4871'
+      target_vnum: 01010484871
     west:
-      target_vnum: '4822'
+      target_vnum: 01010484822
+  local_id: '4870'
   name: Uma Câmara com Abobada
-  vnum: '4870'
+  vnum: 01010484870
 - description: |-
     A câmara acaba logo ao leste daqui com um imenso buraco no chão.  O teto
     e as paredes não tem mais a forma da entrada, realmente elas só tomam a
     forma de abobada depois do buraco, continuando até a parede a leste.
   exits:
     east:
-      target_vnum: '4872'
+      target_vnum: 01010484872
     west:
-      target_vnum: '4870'
+      target_vnum: 01010484870
+  local_id: '4871'
   name: Uma Câmara com Abobada
-  vnum: '4871'
+  vnum: 01010484871
 - description: |-
     O gigantesco buraco no chão tem a forma redonda e adentra profundamente
     as rochas.  Com certeza foi feito por algum homem, pois é bastante liso e
     foram feitos vários degraus que facilitam a escalada.
   exits:
     down:
-      target_vnum: '4873'
+      target_vnum: 01010484873
     west:
-      target_vnum: '4871'
+      target_vnum: 01010484871
+  local_id: '4872'
   name: O Topo do Buraco
-  vnum: '4872'
+  vnum: 01010484872
 - description: |-
     Você esta na metade do buraco agora.  O teto da caverna pode ser visto
     daqui como no chão da câmara acima.  Qualquer um destes lugares promete uma
     noite de ferro.
   exits:
     down:
-      target_vnum: '4874'
+      target_vnum: 01010484874
     up:
-      target_vnum: '4872'
+      target_vnum: 01010484872
+  local_id: '4873'
   name: Dentro do Buraco
-  vnum: '4873'
+  vnum: 01010484873
 - description: |-
     O buraco cobre você, em um lado da parede do buraco foram feitos degraus
     com rochas negras.  Uma passagem com teto parecido com uma abobada conduz
     ao leste.  Na verdade é em forma de abobada.
   exits:
     east:
-      target_vnum: '4875'
+      target_vnum: 01010484875
     up:
-      target_vnum: '4873'
+      target_vnum: 01010484873
+  local_id: '4874'
   name: O Fundo do Buraco
-  vnum: '4874'
+  vnum: 01010484874
 - description: |-
     Você nota que as sujeiras e porcarias no chão da caverna acima não
     chegam a esta parte da caverna.  O chão está livre de detritos, livre de
@@ -935,11 +1010,12 @@
     abobada segue por toda a passagem.
   exits:
     east:
-      target_vnum: '4876'
+      target_vnum: 01010484876
     west:
-      target_vnum: '4874'
+      target_vnum: 01010484874
+  local_id: '4875'
   name: A Câmara com Abobada
-  vnum: '4875'
+  vnum: 01010484875
 - description: |-
     A abobada do teto parece bem trabalhada em forma de arco.  Este caminho
     ostenta duas estátuas de mesmo tamanho na entrada a norte, as duas baixas,
@@ -950,13 +1026,14 @@
     daqui.  O caminho a leste se torna mais e mais largo a cada passo.
   exits:
     east:
-      target_vnum: '4888'
+      target_vnum: 01010484888
     north:
-      target_vnum: '4877'
+      target_vnum: 01010484877
     west:
-      target_vnum: '4875'
+      target_vnum: 01010484875
+  local_id: '4876'
   name: A Passagem em Forma de Arco
-  vnum: '4876'
+  vnum: 01010484876
 - description: |-
     Por incrível que pareça o chão nesta parte da caverna está coberto por
     um fino e negro tapete, tornando o caminho a norte bastante agradável.
@@ -965,43 +1042,47 @@
     o norte antes de fazer a curva para o leste.
   exits:
     north:
-      target_vnum: '4878'
+      target_vnum: 01010484878
     south:
-      target_vnum: '4876'
+      target_vnum: 01010484876
+  local_id: '4877'
   name: Um Caminho Coberto por Tapete
-  vnum: '4877'
+  vnum: 01010484877
 - description: |-
     O caminho segue para o norte ou sul, o teto continua em forma de abobada
     e as paredes lisas e limpas como um palácio.  O habitante deste lugar deve
     ter orgulho de sua casa.
   exits:
     north:
-      target_vnum: '4879'
+      target_vnum: 01010484879
     south:
-      target_vnum: '4877'
+      target_vnum: 01010484877
+  local_id: '4878'
   name: Um Caminho Coberto por Tapete
-  vnum: '4878'
+  vnum: 01010484878
 - description: |-
     O caminho faz a curva logo ao norte com o tapete acompanhando.  Para o
     sul o caminho leva para a caverna com abobada e para a caverna principal.
   exits:
     north:
-      target_vnum: '4880'
+      target_vnum: 01010484880
     south:
-      target_vnum: '4878'
+      target_vnum: 01010484878
+  local_id: '4879'
   name: Um Caminho Coberto por Tapete
-  vnum: '4879'
+  vnum: 01010484879
 - description: |-
     A vista a leste é surpreendente!  Um largo trono de rocha negra está
     encostado na parede, próximo ao trono em cada canto, está um criado.  O
     tapete negro conduz direto ao trono.
   exits:
     east:
-      target_vnum: '4883'
+      target_vnum: 01010484883
     south:
-      target_vnum: '4879'
+      target_vnum: 01010484879
+  local_id: '4880'
   name: Antes da câmara
-  vnum: '4880'
+  vnum: 01010484880
 - description: |-
     Todos os moradores da caverna esperam neste lugar.  Esperam pelo Homem
     Pálido, que dizem ter o poder da escuridão.  A lenda diz que o Homem Pálido
@@ -1009,9 +1090,10 @@
     ele, o Homem Pálido mata qualquer tolo desleal que pensar em destrui-lo.
   exits:
     south:
-      target_vnum: '4883'
+      target_vnum: 01010484883
+  local_id: '4881'
   name: Câmara de Espera
-  vnum: '4881'
+  vnum: 01010484881
 - description: |-
     Todos os moradores da caverna esperam neste lugar.  Esperam pelo Homem
     Pálido, que dizem ter o poder da escuridão.  A lenda diz que o Homem Pálido
@@ -1019,37 +1101,40 @@
     ele, o Homem Pálido mata qualquer tolo desleal que pensar em destrui-lo.
   exits:
     south:
-      target_vnum: '4884'
+      target_vnum: 01010484884
+  local_id: '4882'
   name: Câmara de Espera
-  vnum: '4882'
+  vnum: 01010484882
 - description: |-
     O salão continua a leste até o trono.  Nos cantos algumas criaturas
     esperam a chance de fazer um pedido ao Homem Pálido.
   exits:
     east:
-      target_vnum: '4884'
+      target_vnum: 01010484884
     north:
-      target_vnum: '4881'
+      target_vnum: 01010484881
     south:
-      target_vnum: '4886'
+      target_vnum: 01010484886
     west:
-      target_vnum: '4880'
+      target_vnum: 01010484880
+  local_id: '4883'
   name: Entrando na Câmara
-  vnum: '4883'
+  vnum: 01010484883
 - description: |-
     O salão continua a leste até o trono.  Nos cantos algumas criaturas
     esperam a chance de fazer um pedido ao Homem Pálido.
   exits:
     east:
-      target_vnum: '4885'
+      target_vnum: 01010484885
     north:
-      target_vnum: '4882'
+      target_vnum: 01010484882
     south:
-      target_vnum: '4887'
+      target_vnum: 01010484887
     west:
-      target_vnum: '4883'
+      target_vnum: 01010484883
+  local_id: '4884'
   name: A Câmara do Homem Pálido
-  vnum: '4884'
+  vnum: 01010484884
 - description: |-
     As paredes foram trabalhadas em gloriosas esculturas, todas semelhantes
     ao Homem Pálido.  Muitos escultores do submundo pagaram suas dívidas ao
@@ -1058,9 +1143,10 @@
     na parede da sala.
   exits:
     west:
-      target_vnum: '4884'
+      target_vnum: 01010484884
+  local_id: '4885'
   name: A Sala do Trono
-  vnum: '4885'
+  vnum: 01010484885
 - description: |-
     Todos os moradores da caverna esperam neste lugar.  Esperam pelo Homem
     Pálido, que dizem ter o poder da escuridão.  A lenda diz que o Homem Pálido
@@ -1068,9 +1154,10 @@
     ele, o Homem Pálido mata qualquer tolo desleal que pensar em destrui-lo.
   exits:
     north:
-      target_vnum: '4883'
+      target_vnum: 01010484883
+  local_id: '4886'
   name: Câmara de Espera
-  vnum: '4886'
+  vnum: 01010484886
 - description: |-
     Todos os moradores da caverna esperam neste lugar.  Esperam pelo Homem
     Pálido, que dizem ter o poder da escuridão.  A lenda diz que o Homem Pálido
@@ -1078,31 +1165,34 @@
     ele, o Homem Pálido mata qualquer tolo desleal que pensar em destrui-lo.
   exits:
     north:
-      target_vnum: '4884'
+      target_vnum: 01010484884
+  local_id: '4887'
   name: Câmara de Espera
-  vnum: '4887'
+  vnum: 01010484887
 - description: |-
     Essa caverna é muito aberta.  E continua se abrinto até se tornar
     circular.  Uma câmara pequena ao sul não parece convidativa, entretanto
     nada impede de dar uma olhada.
   exits:
     east:
-      target_vnum: '4890'
+      target_vnum: 01010484890
     south:
-      target_vnum: '4889'
+      target_vnum: 01010484889
     west:
-      target_vnum: '4876'
+      target_vnum: 01010484876
+  local_id: '4888'
   name: A Caverna Ampla
-  vnum: '4888'
+  vnum: 01010484888
 - description: |-
     Talvez não tenha sido boa idéia dar uma espiada.  A terrível criaturinha
     que mora neste lugar não parece nada hospedeira, e se ela não está aqui
     agora, pode voltar a qualquer instante.
   exits:
     north:
-      target_vnum: '4888'
+      target_vnum: 01010484888
+  local_id: '4889'
   name: A Câmara do Diabinho
-  vnum: '4889'
+  vnum: 01010484889
 - description: |-
     Olhando dentro desta coisa você não parece encontrar o fundo.  Isso não
     significa que não tenha um - não tenha medo.  Jogando uma pedra você
@@ -1110,45 +1200,49 @@
     medo.  Parece que estas rochas no interior do poço são boas para escalar.
   exits:
     down:
-      target_vnum: '4891'
+      target_vnum: 01010484891
     west:
-      target_vnum: '4888'
+      target_vnum: 01010484888
+  local_id: '4890'
   name: O Poço Profundo
-  vnum: '4890'
+  vnum: 01010484890
 - description: |-
     O apoio parece firme, permitindo o acesso ao topo ou ao fundo do poço.
     O fundo do poço pode ser visto agora, totalmente seco.
   exits:
     down:
-      target_vnum: '4892'
+      target_vnum: 01010484892
     up:
-      target_vnum: '4890'
+      target_vnum: 01010484890
+  local_id: '4891'
   name: Dentro do Poço
-  vnum: '4891'
+  vnum: 01010484891
 - description: |-
     O poço acima de você leva até a câmara aberta.  Uma passagem a leste
     parece conduzir para outra câmara aberta.  Aqui embaixo parece muito mais
     quente.
   exits:
     east:
-      target_vnum: '4893'
+      target_vnum: 01010484893
     up:
-      target_vnum: '4891'
+      target_vnum: 01010484891
+  local_id: '4892'
   name: A Base do Poço
-  vnum: '4892'
+  vnum: 01010484892
 - description: |-
     A caverna se divide aqui, uma câmara conduz ao sul, a outra continua a
     leste.  A passagem é mais larga para o leste, entretanto algum sentimento
     lhe diz que lá é o melhor caminho - talvez, um sinal?
   exits:
     east:
-      target_vnum: '4894'
+      target_vnum: 01010484894
     south:
-      target_vnum: '4896'
+      target_vnum: 01010484896
     west:
-      target_vnum: '4892'
+      target_vnum: 01010484892
+  local_id: '4893'
   name: Cruzamento
-  vnum: '4893'
+  vnum: 01010484893
 - description: |-
     Um estranho brilho marrom vem da camara a leste, alguma espécie de morro
     de terra foi deixada no chão da sala a leste.  O brilho treme e ofusca, o
@@ -1156,55 +1250,61 @@
     queimando levemente, e ficando vermelhas.
   exits:
     east:
-      target_vnum: '4895'
+      target_vnum: 01010484895
     west:
-      target_vnum: '4893'
+      target_vnum: 01010484893
+  local_id: '4894'
   name: Próximo ao Brilho
-  vnum: '4894'
+  vnum: 01010484894
 - description: "Ahh, então esse brilho era do tesouro deste dragão gigante - é, era\
     \ só\nisso... O que?  Um DRAGÃ\x83O!  Talvez fosse melhor ter ficado em Jareth\
     \ ou\ntalvez algum bar tomando cerveja..."
   exits:
     west:
-      target_vnum: '4894'
+      target_vnum: 01010484894
+  local_id: '4895'
   name: O Tesouro do Dragão
-  vnum: '4895'
+  vnum: 01010484895
 - description: |-
     Este túnel com certeza é mais estreito que o túnel ao norte.
     Entretanto, isso não irá ajudar em nada.  Alguma coisa ou alguém está
     deitado ao sul, e não é algo bom.
   exits:
     north:
-      target_vnum: '4893'
+      target_vnum: 01010484893
     south:
-      target_vnum: '4897'
+      target_vnum: 01010484897
+  local_id: '4896'
   name: Túnel Lateral
-  vnum: '4896'
+  vnum: 01010484896
 - description: |-
     O túnel faz uma curva, conduzindo à uma pequena câmara repleta de pilhas
     de ouro!  Talvez o mal pressentimento tenha sido a preocupação em como
     carregar todo este ouro para o banco.
   exits:
     east:
-      target_vnum: '4898'
+      target_vnum: 01010484898
     north:
-      target_vnum: '4896'
+      target_vnum: 01010484896
+  local_id: '4897'
   name: Túnel Lateral
-  vnum: '4897'
+  vnum: 01010484897
 - description: |-
     O ouro que você imaginava encontrar, está logo ao lado da criatura das
     profundezas.  Você percebe que em algum lugar, à oeste de Jareth, deve ter
     tomado o caminho errado.
   exits:
     west:
-      target_vnum: '4897'
+      target_vnum: 01010484897
+  local_id: '4898'
   name: Quarto Profundo
-  vnum: '4898'
+  vnum: 01010484898
 - description: |-
     Então é por isso que o Aboleth atacava tanto a beira do lago!  Ela
     estava protegento o bebê.  Isso sem falar no tesouro...
   exits:
     up:
-      target_vnum: '4869'
+      target_vnum: 01010484869
+  local_id: '4899'
   name: O Lar dos Aboleth's
-  vnum: '4899'
+  vnum: 01010484899

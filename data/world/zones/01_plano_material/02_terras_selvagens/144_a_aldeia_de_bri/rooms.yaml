@@ -1,16 +1,17 @@
 - description: "Você está caminhando tranqüilamente sobre a estrada do leste.  Ao\
     \ seu\nredor você observa belas planícies verdes e alguns arbustos que crescem\
-    \ no\nlimite da estrada.  Ã\x80 sua frente vocÃª observa a estreita estrada do\
+    \ no\nlimite da estrada.  Ã\x80 sua frente você observa a estreita estrada do\
     \ leste,\nque segue no sentido leste-oeste.  Você observa ao leste as luzes da\
     \ isolada\naldeia de Bri e ao nordeste a esplêndida floresta de Chet.  A estrada\
     \ do\nleste segue para leste e para oeste."
   exits:
     east:
-      target_vnum: '14401'
+      target_vnum: '010214414401'
     west:
-      target_vnum: '14500'
+      target_vnum: '010214414500'
+  local_id: '14400'
   name: A Estrada do Leste
-  vnum: '14400'
+  vnum: '010214414400'
 - description: |-
     Você está caminhando sobre a extensa estrada do leste que corta as terras
     do norte, desde os Portos Cinzentos até as abençoadas terras de Imladris,
@@ -23,11 +24,12 @@
     sentidos.
   exits:
     east:
-      target_vnum: '14402'
+      target_vnum: '010214414402'
     west:
-      target_vnum: '14400'
+      target_vnum: '010214414400'
+  local_id: '14401'
   name: A Estrada do Leste
-  vnum: '14401'
+  vnum: '010214414401'
 - description: |-
     Você está caminhando sobre a estreita estrada do leste, que corta as
     terras do norte no sentido leste-oeste, desde os Portos Cinzentos até as
@@ -39,13 +41,14 @@
     chão e várias colinas verdes cobertas com inúmeras pedras enraizadas nelas.
   exits:
     east:
-      target_vnum: '14403'
+      target_vnum: '010214414403'
     south:
-      target_vnum: '14405'
+      target_vnum: '010214414405'
     west:
-      target_vnum: '14401'
+      target_vnum: '010214414401'
+  local_id: '14402'
   name: A Estrada do Leste
-  vnum: '14402'
+  vnum: '010214414402'
 - description: |-
     Você está caminhando sobre a estrada do leste.  Ao seu redor você observa
     pequenos arbustos que crescem nos limites da estrada e pequenos pássaros que
@@ -57,11 +60,12 @@
     aldeia de Bri.
   exits:
     east:
-      target_vnum: '14404'
+      target_vnum: '010214414404'
     west:
-      target_vnum: '14402'
+      target_vnum: '010214414402'
+  local_id: '14403'
   name: A Estrada do Leste
-  vnum: '14403'
+  vnum: '010214414403'
 - description: |-
     Você está caminhando tranqüilamente sobre a estrada do leste, que segue
     dos Portos Cinzentos até as abençoadas terras dos elfos de Imladris,
@@ -73,11 +77,12 @@
     seguindo rumo ao Portos Cinzentos.
   exits:
     east:
-      target_vnum: '14430'
+      target_vnum: '010214414430'
     west:
-      target_vnum: '14403'
+      target_vnum: '010214414403'
+  local_id: '14404'
   name: A Estrada do Leste
-  vnum: '14404'
+  vnum: '010214414404'
 - description: |-
     Você está sobre um estranho e misterioso campo verde.  Ao seu redor você
     observa a vegetação maltratada deste perturbador lugar e percebe que os
@@ -87,11 +92,12 @@
     leste e ao sul você observa duas pedras gigantescas fincadas sobre o solo.
   exits:
     north:
-      target_vnum: '14402'
+      target_vnum: '010214414402'
     south:
-      target_vnum: '14406'
+      target_vnum: '010214414406'
+  local_id: '14405'
   name: Um Perturbador Campo verde
-  vnum: '14405'
+  vnum: '010214414405'
 - description: |-
     Você está entre duas gigantescas pedras cinzentas que foram cravadas
     sobre o solo deste assustador campo verde.  Ao seu redor você observa além
@@ -103,11 +109,12 @@
     imenso vale entre várias colinas misteriosas.
   exits:
     north:
-      target_vnum: '14405'
+      target_vnum: '010214414405'
     south:
-      target_vnum: '14407'
+      target_vnum: '010214414407'
+  local_id: '14406'
   name: O Portão das Colinas dos Túmulos
-  vnum: '14406'
+  vnum: '010214414406'
 - description: |-
     Você está caminhando sobre um enorme vale que corta as estranhas Colinas
     dos Túmulos.  Uma misteriosa neblina reina impetuosamente ao longo do vale.
@@ -120,15 +127,16 @@
     observa uma enorme mancha negra na neblina.
   exits:
     east:
-      target_vnum: '14417'
+      target_vnum: '010214414417'
     north:
-      target_vnum: '14406'
+      target_vnum: '010214414406'
     south:
-      target_vnum: '14408'
+      target_vnum: 010214414408
     west:
-      target_vnum: '14412'
+      target_vnum: '010214414412'
+  local_id: '14407'
   name: O Vale das Colinas dos Túmulos
-  vnum: '14407'
+  vnum: '010214414407'
 - description: |-
     Você está caminhando sobre um enorme vale que circunda as perturbadoras
     Colinas dos Túmulos.  Ao seu redor você observa uma misteriosa pedra negra
@@ -141,11 +149,12 @@
     seguir circundando as horripilantes colinas tumulares.
   exits:
     north:
-      target_vnum: '14407'
+      target_vnum: '010214414407'
     south:
-      target_vnum: '14409'
+      target_vnum: 010214414409
+  local_id: '14408'
   name: A Misteriosa Pedra do Vale das Colinas dos Túmulos
-  vnum: '14408'
+  vnum: 010214414408
 - description: |-
     Você está caminhando sobre um enorme vale que corta as estranhas Colinas
     dos Túmulos.  Uma misteriosa neblina reina impetuosamente ao longo do vale.
@@ -157,13 +166,14 @@
     leste e ao oeste você observa perturbadoras colinas.
   exits:
     east:
-      target_vnum: '14421'
+      target_vnum: '010214414421'
     north:
-      target_vnum: '14408'
+      target_vnum: 010214414408
     west:
-      target_vnum: '14427'
+      target_vnum: '010214414427'
+  local_id: '14409'
   name: O Vale das Colinas dos Túmulos
-  vnum: '14409'
+  vnum: 010214414409
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -173,11 +183,12 @@
     observa várias misteriosas pedras fincadas sobre a superfície da colina.
   exits:
     down:
-      target_vnum: '14411'
+      target_vnum: '010214414411'
     south:
-      target_vnum: '14412'
+      target_vnum: '010214414412'
+  local_id: '14410'
   name: As Colinas dos Túmulos
-  vnum: '14410'
+  vnum: '010214414410'
 - description: |-
     Você está dentro de um assustador túmulo escuro.  Ao seu redor você
     observa vários objetos espalhados sobre o chão e algumas pedras que
@@ -196,9 +207,10 @@
     @   sobre o mar morto e sobre a terra negra."
   exits:
     up:
-      target_vnum: '14410'
+      target_vnum: '010214414410'
+  local_id: '14411'
   name: Um Terrível Túmulo
-  vnum: '14411'
+  vnum: '010214414411'
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -210,15 +222,16 @@
     leste você observa um imenso vale coberto pela intensa neblina.
   exits:
     east:
-      target_vnum: '14407'
+      target_vnum: '010214414407'
     north:
-      target_vnum: '14410'
+      target_vnum: '010214414410'
     up:
-      target_vnum: '14414'
+      target_vnum: '010214414414'
     west:
-      target_vnum: '14413'
+      target_vnum: '010214414413'
+  local_id: '14412'
   name: As Colinas dos Túmulos
-  vnum: '14412'
+  vnum: '010214414412'
 - description: |-
     Você está caminhando sobre as assustadoras Colinas dos Túmulos.  Ao seu
     redor você observa inúmeras pedras afiadas como dentes cravados na
@@ -229,9 +242,10 @@
     mente!
   exits:
     east:
-      target_vnum: '14412'
+      target_vnum: '010214414412'
+  local_id: '14413'
   name: As Colinas dos Túmulos
-  vnum: '14413'
+  vnum: '010214414413'
 - description: |-
     Você chegou ao topo da assustadora colina tumular.  Ao seu redor você
     observa uma horrível paisagem coberta por uma intensa neblina, cuja origem
@@ -242,9 +256,10 @@
     da base da colina coberta pela forte neblina.
   exits:
     down:
-      target_vnum: '14412'
+      target_vnum: '010214414412'
+  local_id: '14414'
   name: O Topo da Colina
-  vnum: '14414'
+  vnum: '010214414414'
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -254,11 +269,12 @@
     observa várias misteriosas pedras fincadas sobre a superfície da colina.
   exits:
     down:
-      target_vnum: '14416'
+      target_vnum: '010214414416'
     south:
-      target_vnum: '14417'
+      target_vnum: '010214414417'
+  local_id: '14415'
   name: As Colinas dos Túmulos
-  vnum: '14415'
+  vnum: '010214414415'
 - description: |-
     Você está dentro de um assustador túmulo escuro.  Ao seu redor você
     observa vários objetos espalhados sobre o chão e algumas pedras que
@@ -277,9 +293,10 @@
     @   sobre o mar morto e sobre a terra negra."
   exits:
     up:
-      target_vnum: '14415'
+      target_vnum: '010214414415'
+  local_id: '14416'
   name: Um Terrível Túmulo
-  vnum: '14416'
+  vnum: '010214414416'
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -291,15 +308,16 @@
     oeste você observa um imenso vale coberto pela intensa neblina.
   exits:
     north:
-      target_vnum: '14415'
+      target_vnum: '010214414415'
     south:
-      target_vnum: '14419'
+      target_vnum: 010214414419
     up:
-      target_vnum: '14418'
+      target_vnum: 010214414418
     west:
-      target_vnum: '14407'
+      target_vnum: '010214414407'
+  local_id: '14417'
   name: As Colinas dos Túmulos
-  vnum: '14417'
+  vnum: '010214414417'
 - description: |-
     Você chegou ao topo da assustadora colina tumular.  Ao seu redor você
     observa uma horrível paisagem coberta por uma intensa neblina, cuja origem
@@ -310,9 +328,10 @@
     da base da colina coberta pela forte neblina.
   exits:
     down:
-      target_vnum: '14417'
+      target_vnum: '010214414417'
+  local_id: '14418'
   name: O Topo da Colina
-  vnum: '14418'
+  vnum: 010214414418
 - description: |-
     Você está caminhando sobre as assustadoras Colinas dos Túmulos.  Ao seu
     redor você observa inúmeras pedras afiadas como dentes cravados na
@@ -323,9 +342,10 @@
     mente!
   exits:
     north:
-      target_vnum: '14417'
+      target_vnum: '010214414417'
+  local_id: '14419'
   name: As Colinas dos Túmulos
-  vnum: '14419'
+  vnum: 010214414419
 - description: |-
     Você está caminhando sobre as assustadoras Colinas dos Túmulos.  Ao seu
     redor você observa inúmeras pedras afiadas como dentes cravados na
@@ -336,9 +356,10 @@
     mente!
   exits:
     south:
-      target_vnum: '14421'
+      target_vnum: '010214414421'
+  local_id: '14420'
   name: As Colinas dos Túmulos
-  vnum: '14420'
+  vnum: '010214414420'
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -350,15 +371,16 @@
     oeste você observa um imenso vale coberto pela intensa neblina.
   exits:
     east:
-      target_vnum: '14422'
+      target_vnum: '010214414422'
     north:
-      target_vnum: '14420'
+      target_vnum: '010214414420'
     up:
-      target_vnum: '14423'
+      target_vnum: '010214414423'
     west:
-      target_vnum: '14409'
+      target_vnum: 010214414409
+  local_id: '14421'
   name: As Colinas dos Túmulos
-  vnum: '14421'
+  vnum: '010214414421'
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -368,11 +390,12 @@
     observa várias misteriosas pedras fincadas sobre a superfície da colina.
   exits:
     down:
-      target_vnum: '14424'
+      target_vnum: '010214414424'
     west:
-      target_vnum: '14421'
+      target_vnum: '010214414421'
+  local_id: '14422'
   name: As Colinas dos Túmulos
-  vnum: '14422'
+  vnum: '010214414422'
 - description: |-
     Você chegou ao topo da assustadora colina tumular.  Ao seu redor você
     observa uma horrível paisagem coberta por uma intensa neblina, cuja origem
@@ -383,9 +406,10 @@
     da base da colina coberta pela forte neblina.
   exits:
     down:
-      target_vnum: '14421'
+      target_vnum: '010214414421'
+  local_id: '14423'
   name: O Topo da Colina
-  vnum: '14423'
+  vnum: '010214414423'
 - description: |-
     Você está dentro de um assustador túmulo escuro.  Ao seu redor você
     observa vários objetos espalhados sobre o chão e algumas pedras que
@@ -404,9 +428,10 @@
     @   sobre o mar morto e sobre a terra negra."
   exits:
     up:
-      target_vnum: '14422'
+      target_vnum: '010214414422'
+  local_id: '14424'
   name: Um Terrível Túmulo
-  vnum: '14424'
+  vnum: '010214414424'
 - description: |-
     Você chegou ao topo da assustadora colina tumular.  Ao seu redor você
     observa uma horrível paisagem coberta por uma intensa neblina, cuja origem
@@ -417,9 +442,10 @@
     da base da colina coberta pela forte neblina.
   exits:
     down:
-      target_vnum: '14427'
+      target_vnum: '010214414427'
+  local_id: '14425'
   name: O Topo da Colina
-  vnum: '14425'
+  vnum: '010214414425'
 - description: |-
     Você está caminhando sobre as assustadoras Colinas dos Túmulos.  Ao seu
     redor você observa inúmeras pedras afiadas como dentes cravados na
@@ -430,9 +456,10 @@
     mente!
   exits:
     east:
-      target_vnum: '14427'
+      target_vnum: '010214414427'
+  local_id: '14426'
   name: As Colinas dos Túmulos
-  vnum: '14426'
+  vnum: '010214414426'
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -444,15 +471,16 @@
     leste você observa um imenso vale coberto pela intensa neblina.
   exits:
     east:
-      target_vnum: '14409'
+      target_vnum: 010214414409
     south:
-      target_vnum: '14428'
+      target_vnum: 010214414428
     up:
-      target_vnum: '14425'
+      target_vnum: '010214414425'
     west:
-      target_vnum: '14426'
+      target_vnum: '010214414426'
+  local_id: '14427'
   name: As Colinas dos Túmulos
-  vnum: '14427'
+  vnum: '010214414427'
 - description: |-
     Uma sensação assustadora toma conta da sua mente!  Você está caminhando
     sobre as perturbadoras Colinas dos Túmulos.  Ao seu redor você observa
@@ -462,11 +490,12 @@
     observa várias misteriosas pedras fincadas sobre a superfície da colina.
   exits:
     down:
-      target_vnum: '14429'
+      target_vnum: 010214414429
     north:
-      target_vnum: '14427'
+      target_vnum: '010214414427'
+  local_id: '14428'
   name: As Colinas dos Túmulos
-  vnum: '14428'
+  vnum: 010214414428
 - description: |-
     Você está dentro de um assustador túmulo escuro.  Ao seu redor você
     observa vários objetos espalhados sobre o chão e algumas pedras que
@@ -485,9 +514,10 @@
     @   sobre o mar morto e sobre a terra negra."
   exits:
     up:
-      target_vnum: '14428'
+      target_vnum: 010214414428
+  local_id: '14429'
   name: Um Terrível Túmulo
-  vnum: '14429'
+  vnum: 010214414429
 - description: |-
     Você chegou ao portão oeste da isolada aldeia de Bri.  Ao seu redor você
     observa algumas casas feitas de pedra e outras acima da colina de Bri feitas
@@ -500,13 +530,14 @@
     seguindo na direção do interior de Bri.
   exits:
     east:
-      target_vnum: '14432'
+      target_vnum: '010214414432'
     north:
-      target_vnum: '14431'
+      target_vnum: '010214414431'
     west:
-      target_vnum: '14404'
+      target_vnum: '010214414404'
+  local_id: '14430'
   name: O Portão Oeste da Aldeia de Bri
-  vnum: '14430'
+  vnum: '010214414430'
 - description: |-
     Você está dentro de uma desarrumada casa feita de madeira.  Ao seu redor
     você observa uma cama desarrumada e algumas peças de roupa pelo chão.  No
@@ -518,9 +549,10 @@
     sul você observa através da porta de madeira uma rua sinuosa.
   exits:
     south:
-      target_vnum: '14430'
+      target_vnum: '010214414430'
+  local_id: '14431'
   name: A Casa do Porteiro
-  vnum: '14431'
+  vnum: '010214414431'
 - description: |-
     Você está caminhando numa sinuosa e estreita rua que segue rumo ao
     interior da aldeia de Bri.  Ao seu redor você observa algumas casas feitas
@@ -534,15 +566,16 @@
     portão oeste da aldeia de Bri.
   exits:
     east:
-      target_vnum: '14437'
+      target_vnum: '010214414437'
     north:
-      target_vnum: '14433'
+      target_vnum: '010214414433'
     south:
-      target_vnum: '14434'
+      target_vnum: '010214414434'
     west:
-      target_vnum: '14430'
+      target_vnum: '010214414430'
+  local_id: '14432'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14432'
+  vnum: '010214414432'
 - description: |-
     Você está dentro de uma pequena casa feita de pedras na isolada e alegre
     aldeia de Bri.  Ao seu redor você observa alguns quadros nas paredes que
@@ -555,9 +588,10 @@
     observa através da porta uma sinuosa rua da aldeia de Bri.
   exits:
     south:
-      target_vnum: '14432'
+      target_vnum: '010214414432'
+  local_id: '14433'
   name: Uma Casa de Pedra
-  vnum: '14433'
+  vnum: '010214414433'
 - description: |-
     Você está entre inúmeras e perfumadas flores e arbustos de um bem cuidado
     jardim de uma casa em Bri.  Ao seu redor você observa flores das mais
@@ -567,13 +601,14 @@
     e estreita.
   exits:
     east:
-      target_vnum: '14435'
+      target_vnum: '010214414435'
     north:
-      target_vnum: '14432'
+      target_vnum: '010214414432'
     south:
-      target_vnum: '14436'
+      target_vnum: '010214414436'
+  local_id: '14434'
   name: Um Jardim Colorido em Bri
-  vnum: '14434'
+  vnum: '010214414434'
 - description: |-
     Você está dentro de um pequeno estábulo de dimensões tão pequenas que
     apenas dois simpáticos e disciplinados pôneis caberiam aqui dentro.  Ao seu
@@ -582,9 +617,10 @@
     porteira de madeira.
   exits:
     west:
-      target_vnum: '14434'
+      target_vnum: '010214414434'
+  local_id: '14435'
   name: Um Pequeno Estábulo
-  vnum: '14435'
+  vnum: '010214414435'
 - description: |-
     Você está dentro de uma agradável casa feita de grandes pedras.  Ao seu
     redor você observa alguns móveis, que por suas dimensões não lhe deixam
@@ -597,9 +633,10 @@
     resistente porta de madeira.
   exits:
     north:
-      target_vnum: '14434'
+      target_vnum: '010214414434'
+  local_id: '14436'
   name: Uma Bela Casa de Pedra
-  vnum: '14436'
+  vnum: '010214414436'
 - description: |-
     Você está caminhando numa sinuosa e estreita rua que segue rumo ao
     interior da aldeia de Bri.  Ao seu redor você observa algumas casas feitas
@@ -611,11 +648,14 @@
     sudeste você observa a continuação da rua sinuosa.
   exits:
     north:
-      target_vnum: '14438'
+      target_vnum: 010214414438
+    southeast:
+      target_vnum: 010214414439
     west:
-      target_vnum: '14432'
+      target_vnum: '010214414432'
+  local_id: '14437'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14437'
+  vnum: '010214414437'
 - description: |-
     Você está dentro de uma ampla casa, construída com enormes pedras cinzas
     e bem polidas.  Ao seu redor você observa uma bela lareira e sua majestosa
@@ -627,9 +667,10 @@
     da aldeia de Bri.  Ao sul você observa uma porta de madeira.
   exits:
     south:
-      target_vnum: '14437'
+      target_vnum: '010214414437'
+  local_id: '14438'
   name: Uma Casa de Pedra
-  vnum: '14438'
+  vnum: 010214414438
 - description: |-
     Você está caminhando numa sinuosa e estreita rua que segue rumo ao
     interior da aldeia de Bri.  Ao seu redor você observa algumas casas feitas
@@ -644,11 +685,18 @@
     da colina de Bri.
   exits:
     north:
-      target_vnum: '14440'
+      target_vnum: '010214414440'
+    northeast:
+      target_vnum: '010214414437'
+    northwest:
+      target_vnum: '010214414443'
     south:
-      target_vnum: '14441'
+      target_vnum: '010214414441'
+    southeast:
+      target_vnum: '010214414455'
+  local_id: '14439'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14439'
+  vnum: 010214414439
 - description: |-
     Você está dentro de uma casa construída com enormes pedras.  Ao seu redor
     você observa vários móveis de madeira e uma linda lareira.  Nas paredes você
@@ -658,9 +706,10 @@
     no canto leste um pequeno quarto.  Ao sul você observa uma porta de madeira.
   exits:
     south:
-      target_vnum: '14439'
+      target_vnum: 010214414439
+  local_id: '14440'
   name: Uma Casa de Pedra
-  vnum: '14440'
+  vnum: '010214414440'
 - description: |-
     Você está entre belos e verdes arbustos de um bem cuidado jardim de uma
     casa na aldeia de Bri.  Ao seu redor você observa além dos lindos arbustos,
@@ -669,11 +718,12 @@
     pedra.
   exits:
     north:
-      target_vnum: '14439'
+      target_vnum: 010214414439
     south:
-      target_vnum: '14442'
+      target_vnum: '010214414442'
+  local_id: '14441'
   name: Um Jardim Bem Cuidado em Bri
-  vnum: '14441'
+  vnum: '010214414441'
 - description: |-
     Você está dentro de uma bela casa construída com grandes pedras.  Ao seu
     redor você observa algumas cadeiras e uma grande mesa de madeira, além de
@@ -683,9 +733,10 @@
     norte você observa uma porta de madeira.
   exits:
     north:
-      target_vnum: '14441'
+      target_vnum: '010214414441'
+  local_id: '14442'
   name: Uma Casa de Pedra
-  vnum: '14442'
+  vnum: '010214414442'
 - description: |-
     Você está caminhando numa estreita rua acima da colina de Bri.  Ao seu
     redor você observa várias casas de madeira com curiosas janelas redondas.  A
@@ -696,11 +747,14 @@
     acima da colina de Bri.
   exits:
     north:
-      target_vnum: '14444'
+      target_vnum: '010214414444'
+    southeast:
+      target_vnum: '010214414445'
     west:
-      target_vnum: '14449'
+      target_vnum: 010214414449
+  local_id: '14443'
   name: Uma Rua Acima da Colina de Bri
-  vnum: '14443'
+  vnum: '010214414443'
 - description: |-
     Você está dentro de uma apertada casa de madeira.  Ao seu redor você
     observa pequeninos móveis de madeira e duas pequenas camas de madeira.  Nas
@@ -709,9 +763,10 @@
     observa uma curiosa porta redonda de madeira.
   exits:
     south:
-      target_vnum: '14443'
+      target_vnum: '010214414443'
+  local_id: '14444'
   name: Uma Casa de Madeira
-  vnum: '14444'
+  vnum: '010214414444'
 - description: |-
     Você está caminhando numa estreita rua acima da colina de Bri.  Ao seu
     redor você observa várias casas de madeira com curiosas janelas redondas.  A
@@ -722,9 +777,14 @@
     segue acima da colina de Bri.
   exits:
     north:
-      target_vnum: '14446'
+      target_vnum: '010214414446'
+    northeast:
+      target_vnum: '010214414443'
+    southeast:
+      target_vnum: '010214414447'
+  local_id: '14445'
   name: Uma Rua Acima da Colina de Bri
-  vnum: '14445'
+  vnum: '010214414445'
 - description: |-
     Você está dentro de uma apertada casa de madeira na aldeia de Bri.  Ao
     seu redor você observa uma pequenina lareira e alguns pequeninos móveis de
@@ -734,9 +794,10 @@
     madeira.  Ao sul você observa uma curiosa porta redonda de madeira.
   exits:
     south:
-      target_vnum: '14445'
+      target_vnum: '010214414445'
+  local_id: '14446'
   name: Uma Pequenina Casa de Madeira
-  vnum: '14446'
+  vnum: '010214414446'
 - description: |-
     Você está caminhando numa estreita rua acima da colina de Bri.  Ao seu
     redor você observa várias casas de madeira com curiosas janelas redondas.  A
@@ -747,9 +808,12 @@
     colina de Bri.
   exits:
     north:
-      target_vnum: '14448'
+      target_vnum: 010214414448
+    northeast:
+      target_vnum: '010214414445'
+  local_id: '14447'
   name: Uma Rua Acima da Colina de Bri
-  vnum: '14447'
+  vnum: '010214414447'
 - description: |-
     Você está dentro de uma apertada casa de madeira.  Ao seu redor você
     observa pequeninos móveis de madeira e duas pequenas camas de madeira.  Nas
@@ -758,9 +822,10 @@
     observa uma curiosa porta redonda de madeira.
   exits:
     south:
-      target_vnum: '14447'
+      target_vnum: '010214414447'
+  local_id: '14448'
   name: Uma Casa de Madeira
-  vnum: '14448'
+  vnum: 010214414448
 - description: |-
     Você está caminhando numa estreita rua acima da colina de Bri.  Ao seu
     redor você observa várias casas de madeira com curiosas janelas redondas.  A
@@ -771,13 +836,14 @@
     acima da colina de Bri.
   exits:
     east:
-      target_vnum: '14443'
+      target_vnum: '010214414443'
     north:
-      target_vnum: '14450'
+      target_vnum: '010214414450'
     west:
-      target_vnum: '14451'
+      target_vnum: '010214414451'
+  local_id: '14449'
   name: Uma Rua Acima da Colina de Bri
-  vnum: '14449'
+  vnum: 010214414449
 - description: |-
     Você está dentro de uma apertada casa de madeira na aldeia de Bri.  Ao
     seu redor você observa uma pequenina lareira e alguns pequeninos móveis de
@@ -787,9 +853,10 @@
     madeira.  Ao sul você observa uma curiosa porta redonda de madeira.
   exits:
     south:
-      target_vnum: '14449'
+      target_vnum: 010214414449
+  local_id: '14450'
   name: Uma Pequenina Casa de Madeira
-  vnum: '14450'
+  vnum: '010214414450'
 - description: |-
     Você está caminhando numa estreita rua acima da colina de Bri.  Ao seu
     redor você observa várias casas de madeira com curiosas janelas redondas.  A
@@ -800,13 +867,14 @@
     acima da colina de Bri.
   exits:
     east:
-      target_vnum: '14449'
+      target_vnum: 010214414449
     north:
-      target_vnum: '14453'
+      target_vnum: '010214414453'
     west:
-      target_vnum: '14452'
+      target_vnum: '010214414452'
+  local_id: '14451'
   name: Uma Rua Acima da Colina de Bri
-  vnum: '14451'
+  vnum: '010214414451'
 - description: |-
     Você está caminhando numa estreita rua acima da colina de Bri.  Ao seu
     redor você observa várias casas de madeira com curiosas janelas redondas.  A
@@ -817,11 +885,12 @@
     colina de Bri.
   exits:
     east:
-      target_vnum: '14451'
+      target_vnum: '010214414451'
     north:
-      target_vnum: '14454'
+      target_vnum: '010214414454'
+  local_id: '14452'
   name: Uma Rua Acima da Colina de Bri
-  vnum: '14452'
+  vnum: '010214414452'
 - description: |-
     Você está dentro de uma apertada casa de madeira.  Ao seu redor você
     observa pequeninos móveis de madeira e duas pequenas camas de madeira.  Nas
@@ -830,9 +899,10 @@
     observa uma curiosa porta redonda de madeira.
   exits:
     south:
-      target_vnum: '14451'
+      target_vnum: '010214414451'
+  local_id: '14453'
   name: Uma Casa de Madeira
-  vnum: '14453'
+  vnum: '010214414453'
 - description: |-
     Você está dentro de uma apertada casa de madeira na aldeia de Bri.  Ao
     seu redor você observa uma pequenina lareira e alguns pequeninos móveis de
@@ -842,9 +912,10 @@
     madeira.  Ao sul você observa uma curiosa porta redonda de madeira.
   exits:
     south:
-      target_vnum: '14452'
+      target_vnum: '010214414452'
+  local_id: '14454'
   name: Uma Pequenina Casa de Madeira
-  vnum: '14454'
+  vnum: '010214414454'
 - description: |-
     Você está caminhando numa sinuosa e estreita rua da aldeia de Bri.  Ao
     seu redor você observa algumas casas feitas de pedra e isoladas umas das
@@ -856,11 +927,16 @@
     sudeste você observa a continuação da rua sinuosa.
   exits:
     north:
-      target_vnum: '14456'
+      target_vnum: '010214414456'
+    northeast:
+      target_vnum: 010214414439
     south:
-      target_vnum: '14457'
+      target_vnum: '010214414457'
+    southeast:
+      target_vnum: 010214414458
+  local_id: '14455'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14455'
+  vnum: '010214414455'
 - description: |-
     Você está dentro de uma agradável casa feita de grandes pedras.  Ao seu
     redor você observa alguns móveis, que por suas dimensões não lhe deixam
@@ -873,9 +949,10 @@
     resistente porta de madeira.
   exits:
     south:
-      target_vnum: '14455'
+      target_vnum: '010214414455'
+  local_id: '14456'
   name: Uma Bela Casa de Pedra
-  vnum: '14456'
+  vnum: '010214414456'
 - description: |-
     Você está dentro de uma bagunçada casa de pedra.  Ao seu redor você
     observa vários móveis de madeira espalhados por todos os cantos do recinto,
@@ -885,9 +962,10 @@
     de madeira.
   exits:
     north:
-      target_vnum: '14455'
+      target_vnum: '010214414455'
+  local_id: '14457'
   name: Uma Casa de Pedra
-  vnum: '14457'
+  vnum: '010214414457'
 - description: |-
     Você está caminhando numa sinuosa e estreita rua da aldeia de Bri.  Ao
     seu redor você observa algumas casas feitas de pedra e isoladas umas das
@@ -900,11 +978,16 @@
     continuação da rua sinuosa.
   exits:
     north:
-      target_vnum: '14459'
+      target_vnum: 010214414459
+    northeast:
+      target_vnum: '010214414455'
     south:
-      target_vnum: '14460'
+      target_vnum: '010214414460'
+    southeast:
+      target_vnum: '010214414462'
+  local_id: '14458'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14458'
+  vnum: 010214414458
 - description: |-
     Você está dentro de uma ampla casa, construída com enormes pedras cinzas
     e bem polidas.  Ao seu redor você observa uma bela lareira e sua majestosa
@@ -916,9 +999,10 @@
     da aldeia de Bri.  Ao sul você observa uma porta de madeira.
   exits:
     south:
-      target_vnum: '14458'
+      target_vnum: 010214414458
+  local_id: '14459'
   name: Uma Casa de Pedra
-  vnum: '14459'
+  vnum: 010214414459
 - description: |-
     Você está entre coloridas e perfumadas flores de um bem cuidado jardim na
     aldeia de Bri.  Ao seu redor você observa belíssimas flores e lindos
@@ -927,11 +1011,12 @@
     madeira.  Ao oeste você observa uma bela casa de pedra.
   exits:
     north:
-      target_vnum: '14458'
+      target_vnum: 010214414458
     west:
-      target_vnum: '14461'
+      target_vnum: '010214414461'
+  local_id: '14460'
   name: Um Lindo Jardim em Bri
-  vnum: '14460'
+  vnum: '010214414460'
 - description: |-
     Você está dentro de uma pequena casa feita de pedras na isolada e alegre
     aldeia de Bri.  Ao seu redor você observa alguns quadros nas paredes que
@@ -944,9 +1029,10 @@
     observa uma porta de madeira.
   exits:
     east:
-      target_vnum: '14460'
+      target_vnum: '010214414460'
+  local_id: '14461'
   name: Uma Casa de Pedra
-  vnum: '14461'
+  vnum: '010214414461'
 - description: |-
     Você está caminhando numa sinuosa e estreita rua da aldeia de Bri.  Ao
     seu redor você observa algumas casas feitas de pedra e isoladas umas das
@@ -959,11 +1045,16 @@
     alegre estalagem:  O Pônei Saltitante.
   exits:
     east:
-      target_vnum: '14475'
+      target_vnum: '010214414475'
     north:
-      target_vnum: '14463'
+      target_vnum: '010214414463'
+    northeast:
+      target_vnum: 010214414458
+    southwest:
+      target_vnum: '010214414464'
+  local_id: '14462'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14462'
+  vnum: '010214414462'
 - description: |-
     Você está dentro de uma bela casa construída com grandes pedras.  Ao seu
     redor você observa algumas cadeiras e uma grande mesa de madeira, além de
@@ -973,9 +1064,10 @@
     sul você observa uma porta de madeira.
   exits:
     south:
-      target_vnum: '14462'
+      target_vnum: '010214414462'
+  local_id: '14463'
   name: Uma Casa de Pedra
-  vnum: '14463'
+  vnum: '010214414463'
 - description: |-
     Você está caminhando numa sinuosa e estreita rua da aldeia de Bri.  Ao
     seu redor você observa algumas casas feitas de pedra e isoladas umas das
@@ -986,12 +1078,15 @@
     oeste você observa uma bela casa feita de pedra.  Ao sul e ao nordeste você
     observa a continuação da rua sinuosa.
   exits:
+    northwest:
+      target_vnum: '010214414462'
     south:
-      target_vnum: '14466'
+      target_vnum: '010214414466'
     west:
-      target_vnum: '14465'
+      target_vnum: '010214414465'
+  local_id: '14464'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14464'
+  vnum: '010214414464'
 - description: |-
     Você está dentro de uma agradável casa feita de grandes pedras.  Ao seu
     redor você observa alguns móveis, que por suas dimensões não lhe deixam
@@ -1004,9 +1099,10 @@
     resistente porta de madeira.
   exits:
     east:
-      target_vnum: '14464'
+      target_vnum: '010214414464'
+  local_id: '14465'
   name: Uma Bela Casa de Pedra
-  vnum: '14465'
+  vnum: '010214414465'
 - description: |-
     Você está caminhando numa sinuosa e estreita rua da aldeia de Bri.  Ao
     seu redor você observa algumas casas feitas de pedra e isoladas umas das
@@ -1018,13 +1114,14 @@
     observa a continuação da rua sinuosa.
   exits:
     east:
-      target_vnum: '14469'
+      target_vnum: 010214414469
     north:
-      target_vnum: '14464'
+      target_vnum: '010214414464'
     west:
-      target_vnum: '14467'
+      target_vnum: '010214414467'
+  local_id: '14466'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14466'
+  vnum: '010214414466'
 - description: |-
     Você está entre os mal tratados arbustos e as secas flores de um jardim
     na aldeia de Bri.  Ao seu redor você observa um gramado seco e morto, as
@@ -1033,11 +1130,12 @@
     casa de pedra.
   exits:
     east:
-      target_vnum: '14466'
+      target_vnum: '010214414466'
     south:
-      target_vnum: '14468'
+      target_vnum: 010214414468
+  local_id: '14467'
   name: Um Jardim Bastante Mal Tratado
-  vnum: '14467'
+  vnum: '010214414467'
 - description: |-
     Você está dentro de uma bagunçada casa construída com enormes pedras
     cinzas e bem polidas.  Ao seu redor você observa vários móveis espalhados de
@@ -1048,9 +1146,10 @@
     terrível.  Ao norte você observa uma porta de madeira.
   exits:
     north:
-      target_vnum: '14467'
+      target_vnum: '010214414467'
+  local_id: '14468'
   name: Uma Casa de Pedra
-  vnum: '14468'
+  vnum: 010214414468
 - description: |-
     Você está caminhando numa sinuosa e estreita rua da aldeia de Bri.  Ao
     seu redor você observa algumas casas feitas de pedra e isoladas umas das
@@ -1062,13 +1161,14 @@
     observa a continuação da rua sinuosa.
   exits:
     east:
-      target_vnum: '14470'
+      target_vnum: '010214414470'
     south:
-      target_vnum: '14473'
+      target_vnum: '010214414473'
     west:
-      target_vnum: '14466'
+      target_vnum: '010214414466'
+  local_id: '14469'
   name: Uma Rua Sinuosa Dentro da Aldeia de Bri
-  vnum: '14469'
+  vnum: 010214414469
 - description: |-
     Você está entre belos e verdes arbustos de um belo jardim na aldeia de
     Bri.  Ao seu redor você observa além dos lindos arbustos, perfumadas e
@@ -1076,11 +1176,12 @@
     circunda uma rua estreita e ao leste você observa uma casa de pedra.
   exits:
     east:
-      target_vnum: '14471'
+      target_vnum: '010214414471'
     west:
-      target_vnum: '14469'
+      target_vnum: 010214414469
+  local_id: '14470'
   name: Um Perfumado Jardim em Bri
-  vnum: '14470'
+  vnum: '010214414470'
 - description: |-
     Você está dentro de uma grande casa construída com enormes pedras cinzas
     e maravilhosamente bem polidas.  Ao seu redor você observa lindos móveis e
@@ -1091,11 +1192,12 @@
     observa uma escadaria que segue rumo ao pavimento superior da casa.
   exits:
     up:
-      target_vnum: '14472'
+      target_vnum: '010214414472'
     west:
-      target_vnum: '14470'
+      target_vnum: '010214414470'
+  local_id: '14471'
   name: Uma Maravilhosa Casa de Pedra
-  vnum: '14471'
+  vnum: '010214414471'
 - description: |-
     Você chegou ao andar superior da belíssima casa de pedra.  Ao seu redor
     você observa uma enorme mesa de madeira e algumas cadeiras, além de várias
@@ -1105,9 +1207,10 @@
     escadaria que segue rumo ao pavimento inferior da casa.
   exits:
     down:
-      target_vnum: '14471'
+      target_vnum: '010214414471'
+  local_id: '14472'
   name: O Pavimento Superior da Maravilhosa Casa de Pedra
-  vnum: '14472'
+  vnum: '010214414472'
 - description: |-
     Você chegou ao portão sul da isolada aldeia de Bri.  Ao seu redor você
     observa algumas casas feitas de pedra e outras acima da colina feitas de
@@ -1120,13 +1223,14 @@
     sinuosa rua seguindo na direção do interior de Bri.
   exits:
     east:
-      target_vnum: '14474'
+      target_vnum: '010214414474'
     north:
-      target_vnum: '14469'
+      target_vnum: 010214414469
     south:
-      target_vnum: '14496'
+      target_vnum: 010214414496
+  local_id: '14473'
   name: O Portão Sul da Aldeia de Bri
-  vnum: '14473'
+  vnum: '010214414473'
 - description: |-
     Você está dentro de uma apertada e desconfortável casa feita de madeira.
     Ao seu redor você observa alguns móveis, uma pequena mesa e três cadeiras de
@@ -1136,9 +1240,10 @@
     antiga e desgastada.
   exits:
     west:
-      target_vnum: '14473'
+      target_vnum: '010214414473'
+  local_id: '14474'
   name: A Casa do Porteiro
-  vnum: '14474'
+  vnum: '010214414474'
 - description: |-
     Você está na frente da mais movimentada e alegre estalagem da aldeia de
     Bri.  Ao seu redor você observa alguns homens de Bri saindo e alguns
@@ -1152,13 +1257,14 @@
     Carrapicho.  Ao oeste você observa uma rua estreita e sinuosa.
   exits:
     east:
-      target_vnum: '14477'
+      target_vnum: '010214414477'
     south:
-      target_vnum: '14476'
+      target_vnum: '010214414476'
     west:
-      target_vnum: '14462'
+      target_vnum: '010214414462'
+  local_id: '14475'
   name: 'O Grande Saguão de Entrada da Estalagem:  O Pônei Saltitante'
-  vnum: '14475'
+  vnum: '010214414475'
 - description: |-
     Você está dentro do grande estábulo da estalagem:  O Pônei Saltitante.  Ao
     seu redor você observa vários pequeninos pôneis e alguns cavalos.  O chão
@@ -1169,9 +1275,10 @@
     saguão de entrada da estalagem.
   exits:
     north:
-      target_vnum: '14475'
+      target_vnum: '010214414475'
+  local_id: '14476'
   name: 'O Estábulo da Estalagem:  O Pônei Saltitante'
-  vnum: '14476'
+  vnum: '010214414476'
 - description: |-
     Você está dentro da famosa estalagem:  O Pônei Saltitante.  Ao seu redor
     você observa várias mesas e cadeiras de madeira, algumas lamparinas que
@@ -1185,15 +1292,16 @@
     você observa o grande salão da Pônei Saltitante.
   exits:
     east:
-      target_vnum: '14481'
+      target_vnum: 010214414481
     north:
-      target_vnum: '14479'
+      target_vnum: 010214414479
     south:
-      target_vnum: '14478'
+      target_vnum: 010214414478
     west:
-      target_vnum: '14475'
+      target_vnum: '010214414475'
+  local_id: '14477'
   name: 'O Grande Salão da Estalagem:  O Pônei Saltitante'
-  vnum: '14477'
+  vnum: '010214414477'
 - description: |-
     Você está no movimentado salão da estalagem:  O Pônei Saltitante.  Ao seu
     redor você observa várias mesas e cadeiras de madeira, sentados nas cadeiras
@@ -1205,9 +1313,10 @@
     estar da estalagem:  O Pônei Saltitante.
   exits:
     north:
-      target_vnum: '14477'
+      target_vnum: '010214414477'
+  local_id: '14478'
   name: O Grande Salão de estar da Estalagem
-  vnum: '14478'
+  vnum: 010214414478
 - description: |-
     Você está dentro da mais agitada estalagem da aldeia de Bri.  Ao seu
     redor você observa inúmeras mesas e cadeiras de madeira, sendo utilizadas
@@ -1218,19 +1327,25 @@
     você observa várias pessoas cantando e conversando no grande salão de estar
     da estalagem:  O Pônei Saltitante.
   exits:
+    northwest:
+      target_vnum: 010214414480
     south:
-      target_vnum: '14477'
+      target_vnum: '010214414477'
+  local_id: '14479'
   name: O Grande Salão de Estar da Estalagem
-  vnum: '14479'
+  vnum: 010214414479
 - description: |-
     Você está dentro da bagunçada cozinha da estalagem:  O Pônei Saltitante.
     Ao seu redor você observa imensos barris de cerveja, várias canecas e pratos
     sujos sobre o balcão.  Duas pequeninas lamparinas iluminam o recinto e um
     agradável odor surge vindo de uma bela bandeja sobre uma grande mesa no
     centro da cozinha.  Ao sudoeste você observa uma porta de madeira.
-  exits: {}
+  exits:
+    southwest:
+      target_vnum: 010214414480
+  local_id: '14480'
   name: A Cozinha da Estalagem
-  vnum: '14480'
+  vnum: 010214414480
 - description: |-
     Você está no pátio interno da estalagem:  O Pônei Saltitante.  Ao seu
     redor você observa alguns arbustos e bancos de madeira.  Você percebe que as
@@ -1242,11 +1357,12 @@
     estar da estalagem.
   exits:
     east:
-      target_vnum: '14482'
+      target_vnum: 010214414482
     west:
-      target_vnum: '14477'
+      target_vnum: '010214414477'
+  local_id: '14481'
   name: O Pátio Interno da Estalagem
-  vnum: '14481'
+  vnum: 010214414481
 - description: |-
     Você está no pátio interno da movimentada estalagem:  O Pônei Saltitante
     de Cevado Carrapicho.  Ao seu redor você observa alguns arbustos e pequenos
@@ -1256,11 +1372,12 @@
     você observa um pequeno corredor na estalagem.
   exits:
     east:
-      target_vnum: '14483'
+      target_vnum: 010214414483
     west:
-      target_vnum: '14481'
+      target_vnum: 010214414481
+  local_id: '14482'
   name: O Pátio Interno da Estalagem
-  vnum: '14482'
+  vnum: 010214414482
 - description: |-
     Você está num corredor da estalagem:  O Pônei Saltitante.  Ao seu redor
     você observa alguns quadros fixados nas paredes e algumas pessoas seguindo
@@ -1269,11 +1386,12 @@
     oeste você observa o pátio interno da estalagem.
   exits:
     up:
-      target_vnum: '14484'
+      target_vnum: 010214414484
     west:
-      target_vnum: '14482'
+      target_vnum: 010214414482
+  local_id: '14483'
   name: Um Corredor na Estalagem
-  vnum: '14483'
+  vnum: 010214414483
 - description: |-
     Você está dentro da estalagem mais movimentada da aldeia de Bri:  A
     estalagem "O Pônei Saltitante".  Ao seu redor você observa um longo corredor
@@ -1282,11 +1400,14 @@
     você observa algumas portas de madeira.
   exits:
     north:
-      target_vnum: '14486'
+      target_vnum: 010214414486
+    northeast:
+      target_vnum: 010214414487
     south:
-      target_vnum: '14485'
+      target_vnum: 010214414485
+  local_id: '14484'
   name: O Corredor do Primeiro Andar
-  vnum: '14484'
+  vnum: 010214414484
 - description: |-
     Você está dentro um confortável quarto da estalagem:  O Pônei Saltitante.
     Ao seu redor você observa uma pequena lareira com algumas brasas em chamas,
@@ -1298,9 +1419,10 @@
     madeira.
   exits:
     north:
-      target_vnum: '14484'
+      target_vnum: 010214414484
+  local_id: '14485'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14485'
+  vnum: 010214414485
 - description: |-
     Você está dentro de um quarto de hóspede da agitada estalagem:  O Pônei
     Saltitante.  Ao seu redor você quatro pequenas camas cobertas com lençóis
@@ -1310,9 +1432,10 @@
     porta de madeira.
   exits:
     south:
-      target_vnum: '14484'
+      target_vnum: 010214414484
+  local_id: '14486'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14486'
+  vnum: 010214414486
 - description: |-
     Você está dentro de um confortável quarto de hóspede da estalagem:  O
     Pônei Saltitante.  Ao seu redor você observa uma pequenina lareira com
@@ -1321,9 +1444,12 @@
     que pelas suas dimensões não lhe deixam dúvidas de que este quarto é
     utilizado por pequeninos hobbits.  Ao oeste do quarto, você observa uma
     ampla janela redonda e ao sudeste você observa uma porta de madeira.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 010214414484
+  local_id: '14487'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14487'
+  vnum: 010214414487
 - description: |-
     Você está dentro da estalagem mais movimentada da aldeia de Bri:  A
     estalagem "O Pônei Saltitante".  Ao seu redor você observa um longo corredor
@@ -1332,11 +1458,14 @@
     você observa algumas portas de madeira.
   exits:
     north:
-      target_vnum: '14490'
+      target_vnum: 010214414490
+    northeast:
+      target_vnum: 010214414491
     south:
-      target_vnum: '14489'
+      target_vnum: 010214414489
+  local_id: '14488'
   name: O Corredor do Segundo Andar
-  vnum: '14488'
+  vnum: 010214414488
 - description: |-
     Você está dentro de um agradável quarto de hóspede na estalagem:  O Pônei
     Saltitante.  Ao seu redor você observa cinco pequeninas camas, uma mesa e
@@ -1346,9 +1475,10 @@
     cortina cinza.  Ao norte você observa uma porta de madeira.
   exits:
     north:
-      target_vnum: '14488'
+      target_vnum: 010214414488
+  local_id: '14489'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14489'
+  vnum: 010214414489
 - description: |-
     Você está dentro um confortável quarto da estalagem:  O Pônei Saltitante.
     Ao seu redor você observa uma pequena lareira com algumas brasas em chamas,
@@ -1360,9 +1490,10 @@
     madeira.
   exits:
     south:
-      target_vnum: '14488'
+      target_vnum: 010214414488
+  local_id: '14490'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14490'
+  vnum: 010214414490
 - description: |-
     Você está dentro de um quarto de hóspede da agitada estalagem:  O Pônei
     Saltitante.  Ao seu redor você quatro pequenas camas cobertas com lençóis
@@ -1370,9 +1501,12 @@
     cercada por quatro pequeninas cadeiras.  Na parede oeste, você observa uma
     grande janela coberta por uma grossa cortina cinza.  Ao sudeste você observa
     uma porta de madeira.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 010214414488
+  local_id: '14491'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14491'
+  vnum: 010214414491
 - description: |-
     Você está dentro da estalagem mais movimentada da aldeia de Bri:  A
     estalagem "O Pônei Saltitante".  Ao seu redor você observa um longo corredor
@@ -1381,11 +1515,14 @@
     você observa algumas portas de madeira.
   exits:
     north:
-      target_vnum: '14494'
+      target_vnum: 010214414494
+    northeast:
+      target_vnum: 010214414495
     south:
-      target_vnum: '14493'
+      target_vnum: 010214414493
+  local_id: '14492'
   name: O Corredor do Terceiro Andar
-  vnum: '14492'
+  vnum: 010214414492
 - description: |-
     Você está dentro de um bagunçado quarto da agitada estalagem:  O Pônei
     Saltitante.  Ao seu redor você observa duas grandes camas de madeira e
@@ -1394,9 +1531,10 @@
     por uma grossa cortina cinza.  Ao norte você observa uma porta de madeira.
   exits:
     north:
-      target_vnum: '14492'
+      target_vnum: 010214414492
+  local_id: '14493'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14493'
+  vnum: 010214414493
 - description: |-
     Você está dentro um confortável quarto da estalagem:  O Pônei Saltitante.
     Ao seu redor você observa uma pequena lareira com algumas brasas em chamas,
@@ -1408,9 +1546,10 @@
     madeira.
   exits:
     south:
-      target_vnum: '14492'
+      target_vnum: 010214414492
+  local_id: '14494'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14494'
+  vnum: 010214414494
 - description: |-
     Você está dentro de um quarto de hóspede da agitada estalagem:  O Pônei
     Saltitante.  Ao seu redor você quatro pequenas camas cobertas com lençóis
@@ -1418,9 +1557,12 @@
     cercada por quatro pequeninas cadeiras.  Na parede oeste, você observa uma
     grande janela coberta por uma grossa cortina cinza.  Ao sudeste você observa
     uma porta de madeira.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 010214414492
+  local_id: '14495'
   name: Um Quarto de Hóspede da Estalagem
-  vnum: '14495'
+  vnum: 010214414495
 - description: |-
     Você está caminhando sobre a grande estrada do leste.  Ao seu redor você
     observa alguns arbustos ao longo da estrada e ao sul as distantes colinas do
@@ -1430,11 +1572,12 @@
     Chet.  Ao sul você observa uma pequena curva na grande estrada do leste.
   exits:
     north:
-      target_vnum: '14473'
+      target_vnum: '010214414473'
     south:
-      target_vnum: '14497'
+      target_vnum: 010214414497
+  local_id: '14496'
   name: A Grande Estrada do Leste
-  vnum: '14496'
+  vnum: 010214414496
 - description: |-
     Você está caminhando tranqüilamente sobre a grande estrada do leste.  Ao
     seu redor você observa a paisagem desértica da estrada e alguns arbustos que
@@ -1444,11 +1587,12 @@
     grande estrada do leste.
   exits:
     east:
-      target_vnum: '14498'
+      target_vnum: 010214414498
     north:
-      target_vnum: '14496'
+      target_vnum: 010214414496
+  local_id: '14497'
   name: A Grande Estrada do Leste
-  vnum: '14497'
+  vnum: 010214414497
 - description: |-
     Você está caminhando sobre a grande estrada do leste.  Ao seu redor você
     observa a paisagem desértica da estrada do leste, ao noroeste você observa
@@ -1457,11 +1601,12 @@
     da grande estrada do leste.
   exits:
     east:
-      target_vnum: '14499'
+      target_vnum: 010214414499
     west:
-      target_vnum: '14497'
+      target_vnum: 010214414497
+  local_id: '14498'
   name: A Grande Estrada do Leste
-  vnum: '14498'
+  vnum: 010214414498
 - description: |-
     Você está caminhando tranqüilamente sobre a grande estrada do leste.  Ao
     seu redor você observa a paisagem desértica da estrada e alguns arbustos que
@@ -1470,8 +1615,9 @@
     estrada do leste.
   exits:
     east:
-      target_vnum: '8400'
+      target_vnum: 01021448400
     west:
-      target_vnum: '14498'
+      target_vnum: 010214414498
+  local_id: '14499'
   name: A Grande Estrada do Leste
-  vnum: '14499'
+  vnum: 010214414499

@@ -8,34 +8,37 @@
     Um viajante passa ao seu lado e acena alegremente para você.
   exits:
     east:
-      target_vnum: '15001'
+      target_vnum: '010215015001'
     south:
-      target_vnum: '15061'
+      target_vnum: '010215015061'
     west:
-      target_vnum: '3502'
+      target_vnum: '01021503502'
+  local_id: '15000'
   name: A Estrada do Rei
-  vnum: '15000'
+  vnum: '010215015000'
 - description: |-
     Você está no meio da grande Estrada do Rei. A estrada foi muito bem
     construída e vai em linha reta nas direções leste-oeste.
   exits:
     east:
-      target_vnum: '15002'
+      target_vnum: '010215015002'
     west:
-      target_vnum: '15000'
+      target_vnum: '010215015000'
+  local_id: '15001'
   name: A Estrada do Rei
-  vnum: '15001'
+  vnum: '010215015001'
 - description: |-
     Você encontra-se na Estrada do Rei, que leva leste e oeste.  A perícia de
     seus construtores é latente, pois é impossível avistar qualquer curva ou
     irregularidade em meio ao traçado da estrada.
   exits:
     east:
-      target_vnum: '15003'
+      target_vnum: '010215015003'
     west:
-      target_vnum: '15001'
+      target_vnum: '010215015001'
+  local_id: '15002'
   name: A Estrada do Rei
-  vnum: '15002'
+  vnum: '010215015002'
 - description: |-
     Você está parado na Estrada do Rei.  Diante de você está um grande
     castelo, evidentemente construído não tanto pela força, mas sim pela
@@ -44,22 +47,24 @@
     para que arqueiros possam atirar por elas.
   exits:
     north:
-      target_vnum: '15004'
+      target_vnum: '010215015004'
     west:
-      target_vnum: '15002'
+      target_vnum: '010215015002'
+  local_id: '15003'
   name: Na Estrada do Rei - Parte Externa do Castelo
-  vnum: '15003'
+  vnum: '010215015003'
 - description: |-
     Você chegou numa ponte levadiça que leva para o Castelo.  Diante de você
     encontra-se um imenso portão com duas portas.  Ele parece muito forte.  Você
     vê alguns redemoinhos no fosso.
   exits:
     north:
-      target_vnum: '15007'
+      target_vnum: '010215015007'
     south:
-      target_vnum: '15003'
+      target_vnum: '010215015003'
+  local_id: '15004'
   name: Na Ponte Levadiça
-  vnum: '15004'
+  vnum: '010215015004'
 - description: |-
     Você está na cozinha.  Muitos ajudantes estão apressados, fazendo o que o
     Chefe da Cozinha ordena, e há este cheiro maravilhoso no ar, que faz você se
@@ -68,46 +73,50 @@
     outra para o leste; ambas levam a passagens estreitas.
   exits:
     east:
-      target_vnum: '15006'
+      target_vnum: '010215015006'
     north:
-      target_vnum: '15010'
+      target_vnum: '010215015010'
+  local_id: '15005'
   name: A Cozinha
-  vnum: '15005'
+  vnum: '010215015005'
 - description: |-
     Você está numa pequena passagem, que foi feita preferencialmente para os
     servos do Castelo.  Ela tem luz opaca e é extremamente estreita.  A passagem
     conduz à oeste e para o leste existe uma pequena porta.
   exits:
     east:
-      target_vnum: '15007'
+      target_vnum: '010215015007'
     west:
-      target_vnum: '15005'
+      target_vnum: '010215015005'
+  local_id: '15006'
   name: Uma Pequena Passagem
-  vnum: '15006'
+  vnum: '010215015006'
 - description: |-
     Você está no interior do impressionante Salão de Entrada do Castelo.
     Para o norte você avista uma saída para o Grande Salão.  Existe também outra
     saída para o leste e uma pequena porta para o oeste.
   exits:
     east:
-      target_vnum: '15008'
+      target_vnum: 010215015008
     north:
-      target_vnum: '15012'
+      target_vnum: '010215015012'
     south:
-      target_vnum: '15004'
+      target_vnum: '010215015004'
     west:
-      target_vnum: '15006'
+      target_vnum: '010215015006'
+  local_id: '15007'
   name: O Salão de Entrada
-  vnum: '15007'
+  vnum: '010215015007'
 - description: |-
     Você está em uma pequena sala, obviamente planejada para guardas que
     estão temporariamente fora de serviço.  Existe apenas uma saída, que leva de
     volta para o salão de entrada.
   exits:
     west:
-      target_vnum: '15007'
+      target_vnum: '010215015007'
+  local_id: '15008'
   name: A Sala da Guarda
-  vnum: '15008'
+  vnum: 010215015008
 - description: |-
     Você está abaixo de uma das três imponentes torres do Castelo.  Não
     há guardas por aqui e você nota que esta parte do Castelo não vem sendo
@@ -115,21 +124,23 @@
     também uma saída para o norte.
   exits:
     north:
-      target_vnum: '15014'
+      target_vnum: '010215015014'
     up:
-      target_vnum: '15034'
+      target_vnum: '010215015034'
+  local_id: '15009'
   name: Debaixo da Torre
-  vnum: '15009'
+  vnum: 010215015009
 - description: |-
     Você está numa pequena passagem, que foi feita preferencialmente para os
     servos do Castelo.  A passagem conduz à norte e sul.
   exits:
     north:
-      target_vnum: '15015'
+      target_vnum: '010215015015'
     south:
-      target_vnum: '15005'
+      target_vnum: '010215015005'
+  local_id: '15010'
   name: Uma Pequena Passagem
-  vnum: '15010'
+  vnum: '010215015010'
 - description: |-
     Você encontra-se no canto sudoeste do Grande Salão.  Ele é realmente
     vasto.  O teto acima da sua cabeça é tão alto, que parece estar mais perto
@@ -138,11 +149,12 @@
     pessoas poderiam se sentar, para um banquete.
   exits:
     east:
-      target_vnum: '15012'
+      target_vnum: '010215015012'
     north:
-      target_vnum: '15016'
+      target_vnum: '010215015016'
+  local_id: '15011'
   name: O Grande Salão
-  vnum: '15011'
+  vnum: '010215015011'
 - description: |-
     Você encontra-se no canto sul do Grande Salão.  Ele é realmente vasto.
     O teto acima da sua cabeça é tão alto, que parece estar mais perto das
@@ -152,15 +164,16 @@
     o grande trono do Rei Welmar e para o sul está a Entrada do Castelo.
   exits:
     east:
-      target_vnum: '15013'
+      target_vnum: '010215015013'
     north:
-      target_vnum: '15017'
+      target_vnum: '010215015017'
     south:
-      target_vnum: '15007'
+      target_vnum: '010215015007'
     west:
-      target_vnum: '15011'
+      target_vnum: '010215015011'
+  local_id: '15012'
   name: O Grande Salão
-  vnum: '15012'
+  vnum: '010215015012'
 - description: |-
     Você encontra-se no canto sudeste do Grande Salão.  Ele é realmente vasto.
     O teto acima da sua cabeça é tão alto, que parece estar mais perto das
@@ -169,48 +182,52 @@
     pessoas poderiam se sentar, para um banquete.
   exits:
     north:
-      target_vnum: '15018'
+      target_vnum: 010215015018
     west:
-      target_vnum: '15012'
+      target_vnum: '010215015012'
+  local_id: '15013'
   name: O Grande Salão
-  vnum: '15013'
+  vnum: '010215015013'
 - description: |-
     Você se acha em uma passagem, que leva norte e sul.  Para o sul você irá
     encontrar uma das torres.
   exits:
     north:
-      target_vnum: '15019'
+      target_vnum: 010215015019
     south:
-      target_vnum: '15009'
+      target_vnum: 010215015009
+  local_id: '15014'
   name: Uma Passagem
-  vnum: '15014'
+  vnum: '010215015014'
 - description: |-
     Você está numa passagem, que leva norte e sul.  Para o leste existe uma
     saída para o Grande Salão.
   exits:
     east:
-      target_vnum: '15016'
+      target_vnum: '010215015016'
     north:
-      target_vnum: '15020'
+      target_vnum: '010215015020'
     south:
-      target_vnum: '15010'
+      target_vnum: '010215015010'
+  local_id: '15015'
   name: A Passagem
-  vnum: '15015'
+  vnum: '010215015015'
 - description: "Você encontra-se no canto noroeste do Grande Salão.  Ele é realmente\n\
     vasto.  O teto acima da sua cabeça é tão alto, que parece estar mais perto\ndas\
     \ nuvens lá fora.  O teto foi maravilhosamente pintado por alguém que deve\nter\
     \ sido um gênio.  O salão é muito largo e fácilmente centenas de pessoas\npoderiam\
-    \ se sentar, para um banquete.  Ã\x80 leste, vocÃª vÃª o grande trono do\nRei\
-    \ Welmar, e para o oeste existe uma saída para a passagem."
+    \ se sentar, para um banquete.  Ã\x80 leste, você vê o grande trono do\nRei Welmar,\
+    \ e para o oeste existe uma saída para a passagem."
   exits:
     east:
-      target_vnum: '15017'
+      target_vnum: '010215015017'
     south:
-      target_vnum: '15011'
+      target_vnum: '010215015011'
     west:
-      target_vnum: '15015'
+      target_vnum: '010215015015'
+  local_id: '15016'
   name: O Grande Salão
-  vnum: '15016'
+  vnum: '010215015016'
 - description: |-
     Você econtra-se diante do imenso trono de marfim do Rei.  O trono
     segue a mesma linha do Salão: uma verdadeira obra-prima.  Ele é minuciosa
@@ -220,13 +237,14 @@
     leste, oeste e sul.
   exits:
     east:
-      target_vnum: '15018'
+      target_vnum: 010215015018
     south:
-      target_vnum: '15012'
+      target_vnum: '010215015012'
     west:
-      target_vnum: '15016'
+      target_vnum: '010215015016'
+  local_id: '15017'
   name: Dentro do Grande Salão do Trono
-  vnum: '15017'
+  vnum: '010215015017'
 - description: "Você encontra-se no canto nordeste do Grande Salão.  Ele é realmente\n\
     vasto.  O teto acima da sua cabeça é tão alto, que parece estar mais\nperto das\
     \ nuvens lá fora.  O teto foi maravilhosamente pintado por\nalguém que deve ter\
@@ -235,60 +253,65 @@
     \ e para o leste existe uma saída\npara a pequena passagem."
   exits:
     east:
-      target_vnum: '15019'
+      target_vnum: 010215015019
     south:
-      target_vnum: '15013'
+      target_vnum: '010215015013'
     west:
-      target_vnum: '15017'
+      target_vnum: '010215015017'
+  local_id: '15018'
   name: O Grande Salão
-  vnum: '15018'
+  vnum: 010215015018
 - description: |-
     Você está numa pequena passagem, que leva norte e sul.  Para o oeste
     existe uma saída para o Grande Salão.
   exits:
     north:
-      target_vnum: '15024'
+      target_vnum: '010215015024'
     south:
-      target_vnum: '15014'
+      target_vnum: '010215015014'
     west:
-      target_vnum: '15018'
+      target_vnum: 010215015018
+  local_id: '15019'
   name: A Pequena Passagem
-  vnum: '15019'
+  vnum: 010215015019
 - description: |-
     Você está numa passagem, que leva norte e sul.  Existe uma porta
     para o leste.
   exits:
     east:
-      target_vnum: '15021'
+      target_vnum: '010215015021'
     north:
-      target_vnum: '15025'
+      target_vnum: '010215015025'
     south:
-      target_vnum: '15015'
+      target_vnum: '010215015015'
+  local_id: '15020'
   name: A Passagem
-  vnum: '15020'
+  vnum: '010215015020'
 - description: |-
     Você está num corredor segue adiante para o leste.  Existem portas
     para o norte e oeste.  O corredor é geralmente usado por empregados
     e carece de alguma beleza, se for comparado ao resto do castelo.
   exits:
     east:
-      target_vnum: '15022'
+      target_vnum: '010215015022'
     north:
-      target_vnum: '15026'
+      target_vnum: '010215015026'
     west:
-      target_vnum: '15020'
+      target_vnum: '010215015020'
+  local_id: '15021'
   name: O Corredor dos Empregados
-  vnum: '15021'
+  vnum: '010215015021'
 - description: |-
     O corredor leva somente ao oeste daqui, mas existe uma porta para o
     norte.
   exits:
     north:
-      target_vnum: '15027'
+      target_vnum: '010215015027'
     west:
-      target_vnum: '15021'
+      target_vnum: '010215015021'
+  local_id: '15022'
   name: O Fim do Corredor dos Empregados
-  vnum: '15022'
+  vnum: '010215015022'
 - description: |-
     Esta é a Sala de Treinamento dos homens da guarda do Castelo.  Ela é
     muito larga, com armas enfileiradas em estantes por todas as paredes.  A
@@ -297,24 +320,26 @@
     algumas que poderiam ser úteis em combate.  Existe uma porta para o norte.
   exits:
     east:
-      target_vnum: '15024'
+      target_vnum: '010215015024'
     north:
-      target_vnum: '15028'
+      target_vnum: 010215015028
+  local_id: '15023'
   name: A Sala de Treinamento
-  vnum: '15023'
+  vnum: '010215015023'
 - description: |-
     Você está numa pequena passagem levando norte e sul.  Existe também uma
     saída para o oeste, de onde grunhidos, aplausos e fortes golpes podem ser
     ouvidos.
   exits:
     north:
-      target_vnum: '15029'
+      target_vnum: 010215015029
     south:
-      target_vnum: '15019'
+      target_vnum: 010215015019
     west:
-      target_vnum: '15023'
+      target_vnum: '010215015023'
+  local_id: '15024'
   name: A Pequena Passagem
-  vnum: '15024'
+  vnum: '010215015024'
 - description: |-
     Você se encontra diante da grande escada, que leva para o segundo piso
     do Castelo.  As escadas são feitas de mármore e existem pilares esculpidos
@@ -322,20 +347,22 @@
     baixo do tronco.
   exits:
     south:
-      target_vnum: '15020'
+      target_vnum: '010215015020'
     up:
-      target_vnum: '15049'
+      target_vnum: 010215015049
+  local_id: '15025'
   name: A Sala da Escada
-  vnum: '15025'
+  vnum: '010215015025'
 - description: |-
     Você se encontra num larga sala que parece servir de casa para muitos dos
     empregados.  A sala é cheia de camas confortáveis.  Existe, também, um
     grande baú, provavelmente contendo alguns dos pertences dos empregados.
   exits:
     south:
-      target_vnum: '15021'
+      target_vnum: '010215015021'
+  local_id: '15026'
   name: O Alojamento dos Empregados
-  vnum: '15026'
+  vnum: '010215015026'
 - description: |-
     Você se dá conta de que este deve ser o quarto do mordomo, e por isso
     encontra-se na ala dos empregados. O aposento também é largo e confortável;
@@ -343,17 +370,19 @@
     quarto.  A única saída é via a porta que se encontra a sul.
   exits:
     south:
-      target_vnum: '15022'
+      target_vnum: '010215015022'
+  local_id: '15027'
   name: O Alojamento do Mordomo
-  vnum: '15027'
-- description: "VocÃª estÃ¡ em uma ampla sala com beliches por toda parte.  Ã\x89\
-    \ Ã³bvio que\né aqui que os guardas que estão fora de serviço gastam a maior parte\
-    \ de\nseu tempo, bebendo e jogando ou, provavelmente, dormindo."
+  vnum: '010215015027'
+- description: "Você está em uma ampla sala com beliches por toda parte.  Ã\x89 óbvio\
+    \ que\né aqui que os guardas que estão fora de serviço gastam a maior parte de\n\
+    seu tempo, bebendo e jogando ou, provavelmente, dormindo."
   exits:
     south:
-      target_vnum: '15023'
+      target_vnum: '010215015023'
+  local_id: '15028'
   name: O Quartel dos Guardas
-  vnum: '15028'
+  vnum: 010215015028
 - description: |-
     Você está diante de uma escada que leva para o piso inferior.  No
     momento em que você olha para baixo, você nota que pela primeira vez
@@ -362,83 +391,91 @@
     prisão.
   exits:
     down:
-      target_vnum: '15055'
+      target_vnum: '010215015055'
     south:
-      target_vnum: '15024'
+      target_vnum: '010215015024'
+  local_id: '15029'
   name: A Escada
-  vnum: '15029'
+  vnum: 010215015029
 - description: Você está num lugar onde o corredor faz uma curva do leste para o norte.
   exits:
     east:
-      target_vnum: '15031'
+      target_vnum: '010215015031'
     north:
-      target_vnum: '15035'
+      target_vnum: '010215015035'
+  local_id: '15030'
   name: Numa Curva do Corredor
-  vnum: '15030'
+  vnum: '010215015030'
 - description: |-
     Você se encontra num longo corredor, decorado com tapeçarias
     representando velhos tempos e velhos heróis.  Ele conduz à leste e oeste.
   exits:
     east:
-      target_vnum: '15032'
+      target_vnum: '010215015032'
     west:
-      target_vnum: '15030'
+      target_vnum: '010215015030'
+  local_id: '15031'
   name: O Corredor
-  vnum: '15031'
+  vnum: '010215015031'
 - description: |-
     Você encontra-se num longo corredor, decorado com tapeçarias
     representando velhos tempos e velhos heróis.  Ele conduz à leste e oeste.
   exits:
     east:
-      target_vnum: '15033'
+      target_vnum: '010215015033'
     west:
-      target_vnum: '15031'
+      target_vnum: '010215015031'
+  local_id: '15032'
   name: O Corredor
-  vnum: '15032'
+  vnum: '010215015032'
 - description: |-
     Você encontra-se num longo corredor, decorado com tapeçarias
     representando velhos tempos e velhos heróis.  O corredor continua à oeste, e
     para o norte você enxerga uma luxuosa ala destinada aos hóspedes.
   exits:
     north:
-      target_vnum: '15038'
+      target_vnum: 010215015038
     west:
-      target_vnum: '15032'
+      target_vnum: '010215015032'
+  local_id: '15033'
   name: O Corredor
-  vnum: '15033'
+  vnum: '010215015033'
 - description: |-
     Esta parte da torre não é muito interessante, mas conduz para o piso
     superior...
   exits:
     down:
-      target_vnum: '15009'
+      target_vnum: 010215015009
     up:
-      target_vnum: '15052'
+      target_vnum: '010215015052'
+  local_id: '15034'
   name: Na Torre Sudeste
-  vnum: '15034'
+  vnum: '010215015034'
 - description: |-
     Você encontra-se num longo corredor, decorado com tapeçarias
     representando velhos tempos e velhos heróis.  Ele conduz norte e sul.
     Existe também uma saída para o leste aqui.
   exits:
     east:
-      target_vnum: '15036'
+      target_vnum: '010215015036'
     north:
-      target_vnum: '15040'
+      target_vnum: '010215015040'
     south:
-      target_vnum: '15030'
+      target_vnum: '010215015030'
+  local_id: '15035'
   name: O Corredor
-  vnum: '15035'
+  vnum: '010215015035'
 - description: |-
     Você está diante uma grande porta de ferro.  A porta é muito larga e
     parece muito sólida.  Existe um aviso afixado nele.
   exits:
     east:
-      target_vnum: '15037'
+      target_vnum: '010215015037'
     west:
-      target_vnum: '15035'
+      target_vnum: '010215015035'
+  local_id: '15036'
   name: Na Sala do Tesouro
-  vnum: '15036'
+  vnum: '010215015036'
 - description: |-
     No momento em que você entra nessa sala, você fica atônito com as
     riquezas que foram deixadas aqui; não tanto em ouro, mas em pinturas,
@@ -448,22 +485,24 @@
     como ladrão e condenado à morte instantênea, pelas mãos da Guarda Real.
   exits:
     west:
-      target_vnum: '15036'
+      target_vnum: '010215015036'
+  local_id: '15037'
   name: O Grande Tesouro
-  vnum: '15037'
+  vnum: '010215015037'
 - description: |-
     Você chegou na parte do Castelo onde os hóspedes importantes são
     recebidos.   Para o leste existe uma larga, ornamentada porta e outra um
     pouco menor leva para o norte.
   exits:
     east:
-      target_vnum: '15039'
+      target_vnum: 010215015039
     north:
-      target_vnum: '15043'
+      target_vnum: '010215015043'
     south:
-      target_vnum: '15033'
+      target_vnum: '010215015033'
+  local_id: '15038'
   name: A Ala dos Hóspedes
-  vnum: '15038'
+  vnum: 010215015038
 - description: |-
     Este deve ser o lugar onde somente os hóspedes mais eminentes ficam,
     porque é muito mais luxuoso do que sua imaginação consegue conceber.
@@ -473,42 +512,46 @@
     existe uma saída para o quarto e existe uma porta para o oeste.
   exits:
     north:
-      target_vnum: '15044'
+      target_vnum: '010215015044'
     west:
-      target_vnum: '15038'
+      target_vnum: 010215015038
+  local_id: '15039'
   name: A Suite dos Hóspedes
-  vnum: '15039'
+  vnum: 010215015039
 - description: |-
     Você encontra-se num longo corredor, decorado com tapeçarias
     representando velhos tempos e velhos heróis.  Ele conduz norte e sul.
   exits:
     north:
-      target_vnum: '15045'
+      target_vnum: '010215015045'
     south:
-      target_vnum: '15035'
+      target_vnum: '010215015035'
+  local_id: '15040'
   name: O Corredor
-  vnum: '15040'
+  vnum: '010215015040'
 - description: |-
     Você está no grande Salão de Bailes.  Ele é realmente muito grande e
     em seu canto sudeste há um palco para uma orquestra ficar tocando.
   exits:
     east:
-      target_vnum: '15042'
+      target_vnum: '010215015042'
     north:
-      target_vnum: '15046'
+      target_vnum: '010215015046'
+  local_id: '15041'
   name: O Salão de Bailes
-  vnum: '15041'
+  vnum: '010215015041'
 - description: |-
     Na sua frente está o palco.  Ele é amplo o suficiente para que uns 40
     músicos possam tocar ao mesmo tempo.  O Salão de Bailes continua para
     o oeste e norte.
   exits:
     north:
-      target_vnum: '15047'
+      target_vnum: '010215015047'
     west:
-      target_vnum: '15041'
+      target_vnum: '010215015041'
+  local_id: '15042'
   name: No Palco
-  vnum: '15042'
+  vnum: '010215015042'
 - description: |-
     Você se encontra em um quarto bem grande.  Embora seja bastante
     confortável, você observa que não foi feito para nenhum dos hóspedes mais
@@ -516,92 +559,100 @@
     restante do castelo.
   exits:
     south:
-      target_vnum: '15038'
+      target_vnum: 010215015038
+  local_id: '15043'
   name: O Quarto de Hóspedes
-  vnum: '15043'
+  vnum: '010215015043'
 - description: |-
     Uma imensa cama domina o ambiente deste quarto, que se encontra do
     outro lado da parede do norte.  O quarto é amplo e aconchegante, e a cama
     praticamente se oferece para que você deite nela e durma.
   exits:
     south:
-      target_vnum: '15039'
+      target_vnum: 010215015039
+  local_id: '15044'
   name: O Quarto
-  vnum: '15044'
+  vnum: '010215015044'
 - description: |-
     Você encontra-se num longo corredor, decorado com tapeçarias
     representando velhos tempos e velhos heróis.  Ele conduz norte e sul.
     Existe uma saída para o leste, que leva para uma sala grande.
   exits:
     east:
-      target_vnum: '15046'
+      target_vnum: '010215015046'
     north:
-      target_vnum: '15049'
+      target_vnum: 010215015049
     south:
-      target_vnum: '15040'
+      target_vnum: '010215015040'
+  local_id: '15045'
   name: O Corredor
-  vnum: '15045'
+  vnum: '010215015045'
 - description: |-
     Você está no grande Salão de Bailes.  Ele é realmente muito grande e
     em seu canto sudeste há um palco para uma orquestra ficar tocando.
   exits:
     east:
-      target_vnum: '15047'
+      target_vnum: '010215015047'
     south:
-      target_vnum: '15041'
+      target_vnum: '010215015041'
     west:
-      target_vnum: '15045'
+      target_vnum: '010215015045'
+  local_id: '15046'
   name: O Salão de Bailes
-  vnum: '15046'
+  vnum: '010215015046'
 - description: |-
     Você está no grande Salão de Bailes.  Ele é realmente muito grande e
     em seu canto sudeste há um palco para uma orquestra ficar tocando.
   exits:
     east:
-      target_vnum: '15048'
+      target_vnum: 010215015048
     south:
-      target_vnum: '15042'
+      target_vnum: '010215015042'
     west:
-      target_vnum: '15046'
+      target_vnum: '010215015046'
+  local_id: '15047'
   name: O Salão de Bailes
-  vnum: '15047'
+  vnum: '010215015047'
 - description: |-
     Você está na grande Torre de Guarda Nordeste, uma das três do Castelo.
     Para o oeste você pode entrar no Salão de Bailes e existe uma escada levando
     ao piso superior, dentro da torre.
   exits:
     up:
-      target_vnum: '15054'
+      target_vnum: '010215015054'
     west:
-      target_vnum: '15047'
+      target_vnum: '010215015047'
+  local_id: '15048'
   name: Na Torre
-  vnum: '15048'
+  vnum: 010215015048
 - description: |-
     Você está diante da grande escada, que leva para cima ou para baixo.
     Para o leste, existe uma porta feita de carvalho muito larga, e um corredor
     conduz ao sul.
   exits:
     down:
-      target_vnum: '15025'
+      target_vnum: '010215015025'
     east:
-      target_vnum: '15050'
+      target_vnum: '010215015050'
     south:
-      target_vnum: '15045'
+      target_vnum: '010215015045'
     up:
-      target_vnum: '15053'
+      target_vnum: '010215015053'
+  local_id: '15049'
   name: A Grande Escada
-  vnum: '15049'
+  vnum: 010215015049
 - description: |-
     Você entrou numa grande e aconchegante sala de estar.  Existe uma lareira
     com fogo aceso e algumas cadeiras confortáveis ao redor de uma pequena
     mesa.  Existe uma porta para o oeste, e também uma saída para o leste.
   exits:
     east:
-      target_vnum: '15051'
+      target_vnum: '010215015051'
     west:
-      target_vnum: '15049'
+      target_vnum: 010215015049
+  local_id: '15050'
   name: A Aconchegante Sala
-  vnum: '15050'
+  vnum: '010215015050'
 - description: |-
     Este é um quarto imenso, com uma vista fabulosa.  De um lado do quarto
     fica uma ampla e super ornamentada cama.  Por todo o quarto existem muitas
@@ -611,9 +662,10 @@
     Existe uma saída para o oeste.
   exits:
     west:
-      target_vnum: '15050'
+      target_vnum: '010215015050'
+  local_id: '15051'
   name: O Quarto do Rei Welmar
-  vnum: '15051'
+  vnum: '010215015051'
 - description: |-
     Depois de uma longa subida, você finalmente alcança o topo da torre.
     Esta sala é pequena, e a única fonte de luz é um vela, numa mesa
@@ -621,9 +673,10 @@
     pela escada.
   exits:
     down:
-      target_vnum: '15034'
+      target_vnum: '010215015034'
+  local_id: '15052'
   name: Em Cima da Torre
-  vnum: '15052'
+  vnum: '010215015052'
 - description: |-
     Você chegou no topo da torre.  Esta torre é bastanta simples, sem
     maiores interesses. Parece ter sido feita puramente por razões de defesa
@@ -632,9 +685,10 @@
     A única saída evidente é para baixo, descendo as escadas de novo.
   exits:
     down:
-      target_vnum: '15049'
+      target_vnum: 010215015049
+  local_id: '15053'
   name: O Topo da Torre
-  vnum: '15053'
+  vnum: '010215015053'
 - description: |-
     Esta é a mais alta de todas as torres, e é, obviamente, usada com
     objetivo de observação.  A vista é explêndida em todas as quatro direções.
@@ -645,17 +699,18 @@
     outra vez.
   exits:
     down:
-      target_vnum: '15048'
+      target_vnum: 010215015048
     east:
-      target_vnum: '-1'
+      target_vnum: 0102150-001
     north:
-      target_vnum: '-1'
+      target_vnum: 0102150-001
     south:
-      target_vnum: '-1'
+      target_vnum: 0102150-001
     west:
-      target_vnum: '-1'
+      target_vnum: 0102150-001
+  local_id: '15054'
   name: O Topo da Torre
-  vnum: '15054'
+  vnum: '010215015054'
 - description: |-
     A escada leva para baixo para uma parte úmida do castelo, onde você pode
     ouvir pingos de água, caindo próximos a você.  A área é iluminada por uma
@@ -663,11 +718,12 @@
     e se abre para uma pequena sala ao leste.
   exits:
     east:
-      target_vnum: '15056'
+      target_vnum: '010215015056'
     up:
-      target_vnum: '15029'
+      target_vnum: 010215015029
+  local_id: '15055'
   name: A Base da Escada
-  vnum: '15055'
+  vnum: '010215015055'
 - description: |-
     Você fica indeciso ao procurar explicação do porque uma pessoa iria
     gastar um dia inteiro aqui embaixo.  A única explicação que parece ser
@@ -677,11 +733,12 @@
     foi construída junto a parede oeste e leva para cima.
   exits:
     south:
-      target_vnum: '15057'
+      target_vnum: '010215015057'
     west:
-      target_vnum: '15055'
+      target_vnum: '010215015055'
+  local_id: '15056'
   name: A Sala da Guarda
-  vnum: '15056'
+  vnum: '010215015056'
 - description: |-
     Esta pequena passagem tem cerca de nove metros de extensão e é bem
     iluminada pelas tochas que estão em todas as paredes.  As tochas foram
@@ -696,24 +753,26 @@
     da porta, colocada no batente em forma de arco da estrutura.
   exits:
     east:
-      target_vnum: '15060'
+      target_vnum: '010215015060'
     north:
-      target_vnum: '15056'
+      target_vnum: '010215015056'
     south:
-      target_vnum: '15059'
+      target_vnum: 010215015059
     west:
-      target_vnum: '15058'
+      target_vnum: 010215015058
+  local_id: '15057'
   name: A Prisão
-  vnum: '15057'
+  vnum: '010215015057'
 - description: |-
     A cela está uma bagunça.  Existe um pequeno buraco na parede oeste
     onde alguma coisa quebrou as pedras dentro da cela.  Existe uma porta na
     cela posicionada na parece leste.
   exits:
     east:
-      target_vnum: '15057'
+      target_vnum: '010215015057'
+  local_id: '15058'
   name: A Cela
-  vnum: '15058'
+  vnum: 010215015058
 - description: |-
     Esta cela ampla é como um alojamento, com uma estrutura estreita em um
     canto servindo de cama e uma pequena mesa construída na parede em outro canto.
@@ -722,18 +781,20 @@
     tratado...bem até demais para o assassino de uma cidade inteira...
   exits:
     north:
-      target_vnum: '15057'
+      target_vnum: '010215015057'
+  local_id: '15059'
   name: A Cela de Ergan
-  vnum: '15059'
+  vnum: 010215015059
 - description: |-
     Esta pequena cela é úmida e escura e parece que nada nem ninguém vive por
     aqui há algum tempo.  A pequena porta da cela esta localizada na parede
     oeste.
   exits:
     west:
-      target_vnum: '15057'
+      target_vnum: '010215015057'
+  local_id: '15060'
   name: A Cela
-  vnum: '15060'
+  vnum: '010215015060'
 - description: |-
     Saindo da Estrada do Rei, você se acha numa pequena trilha esquecida
     que parece ser bem pouco usada, já que está quase que completamente tomada
@@ -743,11 +804,12 @@
     A trilha esquecida parece levar para o norte e sul.
   exits:
     north:
-      target_vnum: '15000'
+      target_vnum: '010215015000'
     south:
-      target_vnum: '15062'
+      target_vnum: '010215015062'
+  local_id: '15061'
   name: Uma Grande Trilha
-  vnum: '15061'
+  vnum: '010215015061'
 - description: |-
     Continuando adiante na pesada vegetação rasteira, você encontra-se no
     meio da floresta.  Os sons da floresta podem ser ouvidos por todos os lados
@@ -758,11 +820,12 @@
     A trilha esquecida parece levar para o norte e leste.
   exits:
     east:
-      target_vnum: '15063'
+      target_vnum: '010215015063'
     north:
-      target_vnum: '15061'
+      target_vnum: '010215015061'
+  local_id: '15062'
   name: Uma Grande Trilha
-  vnum: '15062'
+  vnum: '010215015062'
 - description: |-
     Continuando adiante na pesada vegetação rasteira, você encontra-se no
     meio da floresta.  Os sons da floresta podem ser ouvidos por todos os lados
@@ -775,11 +838,12 @@
     sons que você podia ouvir ao norte e leste.
   exits:
     south:
-      target_vnum: '15064'
+      target_vnum: '010215015064'
     west:
-      target_vnum: '15062'
+      target_vnum: '010215015062'
+  local_id: '15063'
   name: Uma Grande Trilha
-  vnum: '15063'
+  vnum: '010215015063'
 - description: |-
     Quando você deixa a floresta para o norte, você se encontra no que parece
     ser o início de uma estrada de areia e de uma pequena vila.  Ao dar a
@@ -791,13 +855,14 @@
     Existe um pequeno sinal aqui ao lado da estrada.
   exits:
     north:
-      target_vnum: '15063'
+      target_vnum: '010215015063'
     south:
-      target_vnum: '15065'
+      target_vnum: '010215015065'
     west:
-      target_vnum: '15068'
+      target_vnum: 010215015068
+  local_id: '15064'
   name: A Estrada de Areia
-  vnum: '15064'
+  vnum: '010215015064'
 - description: |-
     Continuando ao longo da estrada de areia, você está num lugar onde um
     pequeno caminho divide-se da estrada principal e leva para o oeste.  O
@@ -807,15 +872,16 @@
     Existe uma outra casa para o lado leste da estrada.
   exits:
     east:
-      target_vnum: '15069'
+      target_vnum: 010215015069
     north:
-      target_vnum: '15064'
+      target_vnum: '010215015064'
     south:
-      target_vnum: '15066'
+      target_vnum: '010215015066'
     west:
-      target_vnum: '15072'
+      target_vnum: '010215015072'
+  local_id: '15065'
   name: Uma Pequena Interseção
-  vnum: '15065'
+  vnum: '010215015065'
 - description: |-
     Esta parte da estrada de areia é quieta, mas existe um fedor terrível no
     ar.  Ele lembra corpos apodrecidos e água de esgôto.  O bosque continua a
@@ -827,15 +893,16 @@
     A estrada de areia continua para norte e sul.
   exits:
     east:
-      target_vnum: '15071'
+      target_vnum: '010215015071'
     north:
-      target_vnum: '15065'
+      target_vnum: '010215015065'
     south:
-      target_vnum: '15067'
+      target_vnum: '010215015067'
     west:
-      target_vnum: '15070'
+      target_vnum: '010215015070'
+  local_id: '15066'
   name: A Estrada de Areia
-  vnum: '15066'
+  vnum: '010215015066'
 - description: |-
     A estrada de areia termina à beira de um grande poço aqui e então você
     se dá conta de onde parte este cheiro tão ruim.  Este poço aparenta ser
@@ -846,11 +913,12 @@
     A estrada de areia leva para longe da carnificina para o norte.
   exits:
     east:
-      target_vnum: '5900'
+      target_vnum: 01021505900
     north:
-      target_vnum: '15066'
+      target_vnum: '010215015066'
+  local_id: '15067'
   name: Um Grande Poço
-  vnum: '15067'
+  vnum: '010215015067'
 - description: |-
     Esta casa está em ruínas, a mobília foi espalhada por toda o ambiente
     e parece que um ciclone aterrisou bem no meio da sala.  A violência que
@@ -860,9 +928,10 @@
     A estrada de areia pode ser vista para o leste através da porta.
   exits:
     east:
-      target_vnum: '15064'
+      target_vnum: '010215015064'
+  local_id: '15068'
   name: Uma Casa
-  vnum: '15068'
+  vnum: 010215015068
 - description: |-
     Esta sala escurecida é iluminada somente pela luz do dia, mas você poder
     ver que ela lhe dá arrepios.  Existem teias de aranha balançando por tudo,
@@ -874,9 +943,10 @@
     A meia luz da estrada reluz através da porta de entrada para o oeste.
   exits:
     west:
-      target_vnum: '15065'
+      target_vnum: '010215015065'
+  local_id: '15069'
   name: Uma Casa
-  vnum: '15069'
+  vnum: 010215015069
 - description: "Esta cabana parece ter sido deixada exatamente do jeito que ela foi\
     \ há\nalgum tempo.  Ã\x89 como se os residentes tivessem-na deixado num dia e\n\
     nunca mais retornado para casa.  Estranhamente, a mobília está livre de\npoeira\
@@ -885,9 +955,10 @@
     A volta para a estrada é através da porta de entrada para o leste."
   exits:
     east:
-      target_vnum: '15066'
+      target_vnum: '010215015066'
+  local_id: '15070'
   name: Uma Pequena Cabana
-  vnum: '15070'
+  vnum: '010215015070'
 - description: |-
     Ao entrar no pequeno prédio, você nota que as paredes estão escurecidas,
     como se o fogo que as queimou não tivesse sido combatido.   Não sobrou
@@ -898,9 +969,10 @@
     A estrada encontra-se para o oeste através da parede escurecida.
   exits:
     west:
-      target_vnum: '15066'
+      target_vnum: '010215015066'
+  local_id: '15071'
   name: A Loja Incendiada
-  vnum: '15071'
+  vnum: '010215015071'
 - description: |-
     Ao se distanciar do ar livre em direção à escuridão do caminho e
     do sinistro bosque que está ao seu redor, você se sente apavorado e um
@@ -912,11 +984,12 @@
     O caminho continua para o oeste e você pode ver uma luz para o leste.
   exits:
     east:
-      target_vnum: '15065'
+      target_vnum: '010215015065'
     west:
-      target_vnum: '15073'
+      target_vnum: '010215015073'
+  local_id: '15072'
   name: Um Caminho Escuro
-  vnum: '15072'
+  vnum: '010215015072'
 - description: |-
     Este estreito caminho leva atráves de árvores projetadas além da
     escuridão forjada.  Parece que uma multidão de árvores está sobre você,
@@ -925,11 +998,12 @@
     O caminho aparenta continuar para o leste e oeste.
   exits:
     east:
-      target_vnum: '15072'
+      target_vnum: '010215015072'
     west:
-      target_vnum: '15074'
+      target_vnum: '010215015074'
+  local_id: '15073'
   name: Um Caminho Escuro
-  vnum: '15073'
+  vnum: '010215015073'
 - description: |-
     Você está à beira de um círculo de sete largas pedras que lembram
     monolitos.  Cada pedra se ergue para além da sua cabeça e aparenta ter
@@ -944,8 +1018,9 @@
     céu acima esteja completamente escondido.
   exits:
     east:
-      target_vnum: '15073'
+      target_vnum: '010215015073'
     up:
-      target_vnum: '-1'
+      target_vnum: 0102150-001
+  local_id: '15074'
   name: O Círculo de Pedras
-  vnum: '15074'
+  vnum: '010215015074'

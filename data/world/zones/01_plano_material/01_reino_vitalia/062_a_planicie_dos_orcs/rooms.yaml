@@ -6,11 +6,12 @@
     caverna nas montanhas.
   exits:
     east:
-      target_vnum: '6201'
+      target_vnum: '01010626201'
     south:
-      target_vnum: '2431'
+      target_vnum: '01010622431'
+  local_id: '6200'
   name: Na Floresta
-  vnum: '6200'
+  vnum: '01010626200'
 - description: |-
     A oeste as montanhas crescem bem altas, rochosas e sem vida.  A trilha em
     que você caminha leva a oeste para o fim da floresta e volta para o leste.
@@ -18,11 +19,12 @@
     impenetrável.
   exits:
     east:
-      target_vnum: '6202'
+      target_vnum: '01010626202'
     west:
-      target_vnum: '6200'
+      target_vnum: '01010626200'
+  local_id: '6201'
   name: Na Floresta
-  vnum: '6201'
+  vnum: '01010626201'
 - description: |-
     Esta trilha corre paralela à barreira de energia para o norte.
     Aparentemente todos os caminhos levam para cima das montanhas ao oeste, que
@@ -31,11 +33,12 @@
     segundo!  Sua mão, contudo, ainda é como que atraída pelo campo mágico.
   exits:
     east:
-      target_vnum: '6203'
+      target_vnum: '01010626203'
     west:
-      target_vnum: '6201'
+      target_vnum: '01010626201'
+  local_id: '6202'
   name: Na Floresta
-  vnum: '6202'
+  vnum: '01010626202'
 - description: |-
     Os caminhos vindos do norte acabam abruptamente aqui, envolvidos por um
     tipo de barreira de energia incandescente que circula em meio às árvores.
@@ -43,13 +46,14 @@
     adiante da longa barreira mágica.
   exits:
     east:
-      target_vnum: '6204'
+      target_vnum: '01010626204'
     south:
-      target_vnum: '6139'
+      target_vnum: 01010626139
     west:
-      target_vnum: '6202'
+      target_vnum: '01010626202'
+  local_id: '6203'
   name: Na Floresta
-  vnum: '6203'
+  vnum: '01010626203'
 - description: |-
     A barreira de energia segue seu curso em meio às árvores que estão a
     leste-oeste, bem ao norte da trilha que você está.  Um enfraquecido zunido
@@ -58,11 +62,12 @@
     protegendo algo lá dentro, ou mantendo você fora.  Isso o intriga...
   exits:
     east:
-      target_vnum: '6205'
+      target_vnum: '01010626205'
     west:
-      target_vnum: '6203'
+      target_vnum: '01010626203'
+  local_id: '6204'
   name: Na Floresta
-  vnum: '6204'
+  vnum: '01010626204'
 - description: |-
     O campo de energia faz uma repentina curva de noventa graus aqui,
     seguindo para o norte e oeste e perdendo-se em meio à pesada floresta.  A
@@ -71,11 +76,12 @@
     campo e com que propósito?
   exits:
     north:
-      target_vnum: '6206'
+      target_vnum: '01010626206'
     west:
-      target_vnum: '6204'
+      target_vnum: '01010626204'
+  local_id: '6205'
   name: Na Floresta
-  vnum: '6205'
+  vnum: '01010626205'
 - description: |-
     As árvores ficam mais grossas aqui e surpreendentemente você vê uma
     árvore totalmente cortada ao meio pela barreira mágica que segue ao
@@ -83,11 +89,12 @@
     energia que passa através dela.  Estranho...
   exits:
     north:
-      target_vnum: '6207'
+      target_vnum: '01010626207'
     south:
-      target_vnum: '6205'
+      target_vnum: '01010626205'
+  local_id: '6206'
   name: Na Floresta
-  vnum: '6206'
+  vnum: '01010626206'
 - description: |-
     A barreira de energia mágica corre direto para o norte-sul, inalterada
     pela irregularidade do terreno, interpondo-se sobre rochas e árvores.  Vindo
@@ -96,11 +103,12 @@
     da barreira.
   exits:
     north:
-      target_vnum: '6208'
+      target_vnum: 01010626208
     south:
-      target_vnum: '6206'
+      target_vnum: '01010626206'
+  local_id: '6207'
   name: Na Floresta
-  vnum: '6207'
+  vnum: '01010626207'
 - description: |-
     Aqui, o campo muda de cor, tornando-se quase transparente.  Do outro lado
     parece que você consegue ver algumas figuras mas nada parece muito palpável.
@@ -109,13 +117,14 @@
     através das árvores, seguindo a longa barreira de energia.
   exits:
     north:
-      target_vnum: '6209'
+      target_vnum: 01010626209
     south:
-      target_vnum: '6207'
+      target_vnum: '01010626207'
     west:
-      target_vnum: '6210'
+      target_vnum: '01010626210'
+  local_id: '6208'
   name: Na Floresta
-  vnum: '6208'
+  vnum: 01010626208
 - description: |-
     Um rio corta a floresta aqui, com sua água limpa e clara.  A barreira de
     energia corre para o centro do rio e então faz uma outra curva de noventa
@@ -124,11 +133,12 @@
     voltar para o sul.
   exits:
     south:
-      target_vnum: '6208'
+      target_vnum: 01010626208
     west:
-      target_vnum: '17301'
+      target_vnum: '010106217301'
+  local_id: '6209'
   name: A Margem do Rio
-  vnum: '6209'
+  vnum: 01010626209
 - description: |-
     A barreira de energia parece lhe empurrar, sem afetá-lo enquanto você
     força o seu caminho através dela.  Todos os pêlos do seu corpo se arrepiam
@@ -138,11 +148,12 @@
     barreira e atingir o outro lado...
   exits:
     east:
-      target_vnum: '6208'
+      target_vnum: 01010626208
     west:
-      target_vnum: '6211'
+      target_vnum: '01010626211'
+  local_id: '6210'
   name: Apenas Passando Por Acaso...
-  vnum: '6210'
+  vnum: '01010626210'
 - description: |-
     Para o oeste a mágica barreira de energia estala e murmura, parecendo
     quase inofensiva.  Quase...pois todo o chão em volta está coberto por
@@ -151,11 +162,12 @@
     decadência, e o ar é muito rarefeito.  Você se sente desconfortável.
   exits:
     east:
-      target_vnum: '6210'
+      target_vnum: '01010626210'
     west:
-      target_vnum: '6212'
+      target_vnum: '01010626212'
+  local_id: '6211'
   name: Na Barreira
-  vnum: '6211'
+  vnum: '01010626211'
 - description: |-
     Várias trilhas na floresta terminam aqui, nesta pequena clareira.  A
     sujeira parece cobrir o lugar e você vê muitas pegadas no chão.  Próximo,
@@ -167,15 +179,16 @@
     que está sendo observado.
   exits:
     east:
-      target_vnum: '6211'
+      target_vnum: '01010626211'
     north:
-      target_vnum: '6213'
+      target_vnum: '01010626213'
     south:
-      target_vnum: '6217'
+      target_vnum: '01010626217'
     west:
-      target_vnum: '6228'
+      target_vnum: 01010626228
+  local_id: '6212'
   name: Uma Clareira na Floresta
-  vnum: '6212'
+  vnum: '01010626212'
 - description: |-
     A trilha segue rumo norte, abrindo caminho através das árvores da
     floresta e onde parece surgir a margem norte de um rio.  Esta trilha parece
@@ -184,11 +197,12 @@
     observado.
   exits:
     north:
-      target_vnum: '6214'
+      target_vnum: '01010626214'
     south:
-      target_vnum: '6212'
+      target_vnum: '01010626212'
+  local_id: '6213'
   name: Uma Trilha na Floresta
-  vnum: '6213'
+  vnum: '01010626213'
 - description: |-
     Um lindo rio vai fluindo maravilhosamente, apesar da correnteza parecer
     bem perigosa.  Da margem do rio você nota que a barreira de energia vai se
@@ -197,11 +211,12 @@
     Esse caminho leva ao sul para a floresta e a oeste além do centro do rio.
   exits:
     south:
-      target_vnum: '6213'
+      target_vnum: '01010626213'
     west:
-      target_vnum: '6215'
+      target_vnum: '01010626215'
+  local_id: '6214'
   name: Na Margem do Rio
-  vnum: '6214'
+  vnum: '01010626214'
 - description: |-
     O rio flui no seu curso normal, sem ser afetado pela barreira que passa
     pelo seu centro e segue em ambas as direções até tão longe quanto sua vista
@@ -211,11 +226,12 @@
     Pertubador.
   exits:
     east:
-      target_vnum: '6214'
+      target_vnum: '01010626214'
     west:
-      target_vnum: '6216'
+      target_vnum: '01010626216'
+  local_id: '6215'
   name: O Centro do Rio
-  vnum: '6215'
+  vnum: '01010626215'
 - description: |-
     Uma grande quantidade de rochas bloqueia este caminho além do rio ao
     oeste e você não vê nenhum caminho ao redor.  A mata está muito densa ao sul
@@ -224,9 +240,10 @@
     procurado.
   exits:
     east:
-      target_vnum: '6215'
+      target_vnum: '01010626215'
+  local_id: '6216'
   name: No Centro do Rio
-  vnum: '6216'
+  vnum: '01010626216'
 - description: |-
     Esta trilha da floresta é bastante usada e segue para o sul.  Entre as
     pegadas na poeira você nota algumas pegadas de animal, levando você a crer
@@ -235,11 +252,12 @@
     Há uma clareira ao norte, e o caminho segue em direção ao sul.
   exits:
     north:
-      target_vnum: '6212'
+      target_vnum: '01010626212'
     south:
-      target_vnum: '6219'
+      target_vnum: 01010626219
+  local_id: '6217'
   name: Uma Trilha na Floresta
-  vnum: '6217'
+  vnum: '01010626217'
 - description: |-
     Uma trilha leva a norte-sul... obviamente uma trilha enganosa.  A mata,
     mais precisamente as árvores acompanhadas pela folhagem do chão, enchem os
@@ -250,11 +268,12 @@
     Mas de onde?  E o que?
   exits:
     north:
-      target_vnum: '6233'
+      target_vnum: '01010626233'
     south:
-      target_vnum: '6226'
+      target_vnum: '01010626226'
+  local_id: '6218'
   name: Uma Trilha na Floresta
-  vnum: '6218'
+  vnum: 01010626218
 - description: |-
     A trilha muda de direção aqui, curvando-se para o norte e oeste.  Ao sul,
     encravada no tronco de uma grande árvore, há um interessante artefato: uma
@@ -263,11 +282,12 @@
     existir nada muito interessante nesta parte da mata.
   exits:
     north:
-      target_vnum: '6217'
+      target_vnum: '01010626217'
     west:
-      target_vnum: '6220'
+      target_vnum: '01010626220'
+  local_id: '6219'
   name: Uma Trilha na Floresta
-  vnum: '6219'
+  vnum: 01010626219
 - description: |-
     Esta é uma mão dupla que segue leste-oeste através da densa floresta.  A
     grama ao longo do caminho está pouco crescida devido ao intenso movimento
@@ -277,11 +297,12 @@
     falando normalmente.
   exits:
     east:
-      target_vnum: '6219'
+      target_vnum: 01010626219
     west:
-      target_vnum: '6221'
+      target_vnum: '01010626221'
+  local_id: '6220'
   name: Uma Trilha na Floresta
-  vnum: '6220'
+  vnum: '01010626220'
 - description: |-
     Bem no meio desta pequena clareira da floresta, se encontra uma enorme
     rocha que está meio enterrada no chão.  Caminhos saem daqui e seguem para o
@@ -289,13 +310,14 @@
     barreira de energia que está sobre sua cabeça.
   exits:
     east:
-      target_vnum: '6220'
+      target_vnum: '01010626220'
     south:
-      target_vnum: '6222'
+      target_vnum: '01010626222'
     west:
-      target_vnum: '6227'
+      target_vnum: '01010626227'
+  local_id: '6221'
   name: Uma Pequena Clareira
-  vnum: '6221'
+  vnum: '01010626221'
 - description: |-
     Um pequeno caminho ao norte o leva para trilha principal, leste-oeste,
     que o leva, por sua vez, a uma clareira.  O caminho principal segue para o
@@ -304,13 +326,14 @@
     sensação de estar sendo observado.
   exits:
     east:
-      target_vnum: '6223'
+      target_vnum: '01010626223'
     north:
-      target_vnum: '6221'
+      target_vnum: '01010626221'
     west:
-      target_vnum: '6225'
+      target_vnum: '01010626225'
+  local_id: '6222'
   name: Uma Trilha na Floresta
-  vnum: '6222'
+  vnum: '01010626222'
 - description: |-
     A trilha leva ao leste e oeste através da floresta.  Ao leste você nota
     uma área onde um pequeno caminho cruza a trilha principal.  Ao leste parece
@@ -318,11 +341,12 @@
     Há muitas pegadas naquela direção.
   exits:
     east:
-      target_vnum: '6224'
+      target_vnum: '01010626224'
     west:
-      target_vnum: '6222'
+      target_vnum: '01010626222'
+  local_id: '6223'
   name: Uma Trilha na Floresta
-  vnum: '6223'
+  vnum: '01010626223'
 - description: |-
     O chão está livre de vegetação nesta pequena clareira e diversos petiscos
     salgadinhos, feitos por mãos humanas, foram espalhados pelo chão.  Há várias
@@ -332,9 +356,10 @@
     fosse um caçador...
   exits:
     west:
-      target_vnum: '6223'
+      target_vnum: '01010626223'
+  local_id: '6224'
   name: O Beco Sem Saída
-  vnum: '6224'
+  vnum: '01010626224'
 - description: |-
     Esta trilha leva a leste-oeste além da folhagem da floresta, ao redor as
     árvores e cresce indiferentemente para cima e para baixo.  A área está
@@ -342,11 +367,12 @@
     um momento, você se pergunta se ainda está sendo observado...
   exits:
     east:
-      target_vnum: '6222'
+      target_vnum: '01010626222'
     west:
-      target_vnum: '6226'
+      target_vnum: '01010626226'
+  local_id: '6225'
   name: Uma Trilha na Floresta
-  vnum: '6225'
+  vnum: '01010626225'
 - description: |-
     A trilha faz uma curva aqui, seguindo para o norte e o leste.  Ao longe
     você ouve o piar agudo de um grande pássaro, que parece estar a procura de
@@ -356,9 +382,10 @@
     relaxado...
   exits:
     north:
-      target_vnum: '6218'
+      target_vnum: 01010626218
+  local_id: '6226'
   name: Uma Trilha na Floresta
-  vnum: '6226'
+  vnum: '01010626226'
 - description: |-
     Aqui, uma curva na trilha da floresta, permite que você siga para o leste
     e para o norte.  Ao leste você nota uma pequena clareira, enquanto que ao
@@ -368,11 +395,12 @@
     coisa certamente está.
   exits:
     east:
-      target_vnum: '6221'
+      target_vnum: '01010626221'
     north:
-      target_vnum: '6232'
+      target_vnum: '01010626232'
+  local_id: '6227'
   name: Uma Trilha na Floresta
-  vnum: '6227'
+  vnum: '01010626227'
 - description: |-
     Esta trilha vem da clareira principal do oeste e segue até cruzar com um
     o caminho norte-sul, ao leste.  Uma pequena arvorezinha, que está no lado
@@ -381,11 +409,12 @@
     adrenalina sobe ao seu cérebro como um raio.
   exits:
     east:
-      target_vnum: '6212'
+      target_vnum: '01010626212'
     west:
-      target_vnum: '6229'
+      target_vnum: 01010626229
+  local_id: '6228'
   name: Uma Trilha na Floresta
-  vnum: '6228'
+  vnum: 01010626228
 - description: |-
     Uma trilha norte-sul leva através da mata aqui, com uma pequena trilha
     seguindo para o leste.  As árvores fornecem uma excelente proteção contra os
@@ -394,11 +423,12 @@
     um vôo.  Você sente que está sendo pouco a pouco atraído para uma cilada.
   exits:
     east:
-      target_vnum: '6228'
+      target_vnum: 01010626228
     south:
-      target_vnum: '6230'
+      target_vnum: '01010626230'
+  local_id: '6229'
   name: Uma Trilha na Floresta
-  vnum: '6229'
+  vnum: 01010626229
 - description: |-
     Duas trilhas unem-se aqui, um grande caminho vindo do norte segue em
     direção ao leste e oeste.  O caminho oeste parece ser muito frequentado e o
@@ -407,13 +437,14 @@
     parece ser especialmente segura para o leste.
   exits:
     east:
-      target_vnum: '6231'
+      target_vnum: '01010626231'
     north:
-      target_vnum: '6229'
+      target_vnum: 01010626229
     west:
-      target_vnum: '6232'
+      target_vnum: '01010626232'
+  local_id: '6230'
   name: Uma Trilha na Floresta
-  vnum: '6230'
+  vnum: '01010626230'
 - description: |-
     As árvores daqui foram derrubadas e muitos dos troncos foram escavados
     por pedras bem afiadas e revestidos por dentro, com couro tratado, sendo
@@ -422,9 +453,10 @@
     peças de couro animal.  Rústico mas útil.
   exits:
     west:
-      target_vnum: '6230'
+      target_vnum: '01010626230'
+  local_id: '6231'
   name: Uma Clareira
-  vnum: '6231'
+  vnum: '01010626231'
 - description: |-
     A trilha vai fazendo uma curva para o oeste, onde o caminho segue sempre
     para cima, em diração às montanhas que circundam este vale.  Muitas das
@@ -433,13 +465,14 @@
     floresta.  Uma pequenina trilha segue para o sul.
   exits:
     east:
-      target_vnum: '6230'
+      target_vnum: '01010626230'
     south:
-      target_vnum: '6227'
+      target_vnum: '01010626227'
     west:
-      target_vnum: '6233'
+      target_vnum: '01010626233'
+  local_id: '6232'
   name: Uma Trilha na Floresta
-  vnum: '6232'
+  vnum: '01010626232'
 - description: |-
     O chão está ficando mais rochoso aqui.  Aqui, as árvores e outras
     folhagens crescem esparsadas, encontrando muita dificuldade para criar
@@ -448,13 +481,14 @@
     para o sul daqui e a trilha também segue de volta para a floresta do leste.
   exits:
     east:
-      target_vnum: '6232'
+      target_vnum: '01010626232'
     south:
-      target_vnum: '6218'
+      target_vnum: 01010626218
     west:
-      target_vnum: '6234'
+      target_vnum: '01010626234'
+  local_id: '6233'
   name: Uma Trilha na Floresta
-  vnum: '6233'
+  vnum: '01010626233'
 - description: |-
     O chão está ficando muito rochoso aqui, fazendo com que as árvores fiquem
     cada vez mais espalhadas.  Muitos arbustos conseguem se fixar firmemente no
@@ -466,15 +500,16 @@
     uma escura abertura na montanha.
   exits:
     east:
-      target_vnum: '6233'
+      target_vnum: '01010626233'
     north:
-      target_vnum: '6241'
+      target_vnum: '01010626241'
     south:
-      target_vnum: '6268'
+      target_vnum: 01010626268
     west:
-      target_vnum: '6242'
+      target_vnum: '01010626242'
+  local_id: '6234'
   name: Uma Trilha Rochosa
-  vnum: '6234'
+  vnum: '01010626234'
 - description: |-
     A trilha em que você está faz uma curva em volta de um imenso tronco de
     árvore e segue para o norte e oeste.  A fechada vegetação à frente faz com
@@ -482,11 +517,12 @@
     estar sendo observado volta a atormentar você.
   exits:
     south:
-      target_vnum: '6229'
+      target_vnum: 01010626229
     west:
-      target_vnum: '6236'
+      target_vnum: '01010626236'
+  local_id: '6235'
   name: Uma Trilha na Floresta
-  vnum: '6235'
+  vnum: '01010626235'
 - description: |-
     O caminho segue para o leste e oeste, com uma pequena trilha indo em
     direção a uma grande clareira ao sul.  Duas estacas de madeira com caveiras
@@ -495,13 +531,14 @@
     desconfortável.  Estranho...
   exits:
     east:
-      target_vnum: '6235'
+      target_vnum: '01010626235'
     south:
-      target_vnum: '6237'
+      target_vnum: '01010626237'
     west:
-      target_vnum: '6238'
+      target_vnum: 01010626238
+  local_id: '6236'
   name: Uma Trilha na Floresta
-  vnum: '6236'
+  vnum: '01010626236'
 - description: |-
     A terra aqui parece que foi revolvida muitas vezes e muitas vêzes e
     muitas rochas brancas saem do chão em estranhas posições.
@@ -512,9 +549,10 @@
     parar num lugar desses...
   exits:
     north:
-      target_vnum: '6236'
+      target_vnum: '01010626236'
+  local_id: '6237'
   name: Uma Grande Clareira
-  vnum: '6237'
+  vnum: '01010626237'
 - description: |-
     A trilha separa-se aqui, uma bifurcação vai para o norte em direção aos
     ruidosos sons do rio e para o oeste, onde a floresta parece ser mais
@@ -523,13 +561,14 @@
     fica intrigado por achar que está sendo seguido...
   exits:
     east:
-      target_vnum: '6236'
+      target_vnum: '01010626236'
     north:
-      target_vnum: '6239'
+      target_vnum: 01010626239
     west:
-      target_vnum: '6241'
+      target_vnum: '01010626241'
+  local_id: '6238'
   name: Uma Trilha na Floresta
-  vnum: '6238'
+  vnum: 01010626238
 - description: |-
     O rio flui calmamente no seu curso para o norte.  A trilha em que você
     está segue margeando o lado oeste do rio e volta para a floresta ao sul.
@@ -539,11 +578,12 @@
     obviamente porosa para certos materiais.
   exits:
     south:
-      target_vnum: '6238'
+      target_vnum: 01010626238
     west:
-      target_vnum: '6240'
+      target_vnum: '01010626240'
+  local_id: '6239'
   name: No Centro do Rio
-  vnum: '6239'
+  vnum: 01010626239
 - description: |-
     O rio desce, margeando as montanhas do oeste, nascendo de um grande
     buraco, que fica numa das faces de uma das escarpadas protuberâncias
@@ -552,11 +592,12 @@
     corre para o leste e um caminho segue para o lado da floresta ao sul.
   exits:
     east:
-      target_vnum: '6239'
+      target_vnum: 01010626239
     south:
-      target_vnum: '6241'
+      target_vnum: '01010626241'
+  local_id: '6240'
   name: No Centro do Rio
-  vnum: '6240'
+  vnum: '01010626240'
 - description: |-
     A floresta fica bem ao seu oeste, com um lado da trilha indo para as
     profundezas da floresta.  A trilha principal que você está, segue para o
@@ -565,13 +606,14 @@
     aqui..
   exits:
     east:
-      target_vnum: '6238'
+      target_vnum: 01010626238
     north:
-      target_vnum: '6240'
+      target_vnum: '01010626240'
     south:
-      target_vnum: '6234'
+      target_vnum: '01010626234'
+  local_id: '6241'
   name: Uma Trilha Rochosa
-  vnum: '6241'
+  vnum: '01010626241'
 - description: |-
     Você está parcialmente cego pelas diferença entra a iluminação do lado de
     fora, que é muito clara, e da absoluta escuridão da caverna.  Um forte mau
@@ -582,11 +624,12 @@
     túnel oeste.
   exits:
     east:
-      target_vnum: '6234'
+      target_vnum: '01010626234'
     west:
-      target_vnum: '6243'
+      target_vnum: '01010626243'
+  local_id: '6242'
   name: A Entrada da Caverna
-  vnum: '6242'
+  vnum: '01010626242'
 - description: |-
     O túnel bifurca-se aqui, um lado segue para o norte e o outro para oeste.
     Mas você pode também pode ir para fora se for para o leste, algo que parece
@@ -596,13 +639,14 @@
     repara nos sinais de advertência pintados nos túneis ao norte.
   exits:
     east:
-      target_vnum: '6242'
+      target_vnum: '01010626242'
     north:
-      target_vnum: '6255'
+      target_vnum: '01010626255'
     west:
-      target_vnum: '6244'
+      target_vnum: '01010626244'
+  local_id: '6243'
   name: Uma Bifurcação
-  vnum: '6243'
+  vnum: '01010626243'
 - description: |-
     O chão é escorregadio por causa de toda a umidade que escorre por aqui, e
     esta umidade parece carregar consigo aquele terrível odor com ela.
@@ -611,11 +655,12 @@
     o túnel.
   exits:
     east:
-      target_vnum: '6243'
+      target_vnum: '01010626243'
     west:
-      target_vnum: '6245'
+      target_vnum: '01010626245'
+  local_id: '6244'
   name: Um Túnel
-  vnum: '6244'
+  vnum: '01010626244'
 - description: |-
     O túnel leva a um profundo declive aqui e abre-se para uma caverna muito
     grande ao oeste.  Esta caverna parece ter uma iluminação bem fraca em seu
@@ -624,11 +669,12 @@
     conforto...
   exits:
     east:
-      target_vnum: '6244'
+      target_vnum: '01010626244'
     west:
-      target_vnum: '6251'
+      target_vnum: '01010626251'
+  local_id: '6245'
   name: Um Túnel
-  vnum: '6245'
+  vnum: '01010626245'
 - description: |-
     Montanhas de carne estragada, cortadas em tiras e litros de água de
     origem duvidosa estão aqui: o depósito de comida dos orcs.  Você para e se
@@ -638,11 +684,12 @@
     não há a menor chance de você querer levar qualquer coisa daqui...
   exits:
     east:
-      target_vnum: '6247'
+      target_vnum: '01010626247'
     south:
-      target_vnum: '6249'
+      target_vnum: 01010626249
+  local_id: '6246'
   name: Uma Caverna
-  vnum: '6246'
+  vnum: '01010626246'
 - description: |-
     Um único corpo está aqui, bem separado de uma pilha de coisas similares
     do leste.  Há várias estacas e rochas afiadas postas convenientemente.  O
@@ -651,13 +698,14 @@
     corpo todo deformado.  Muito triste.
   exits:
     east:
-      target_vnum: '6248'
+      target_vnum: 01010626248
     south:
-      target_vnum: '6250'
+      target_vnum: '01010626250'
     west:
-      target_vnum: '6246'
+      target_vnum: '01010626246'
+  local_id: '6247'
   name: Uma Caverna
-  vnum: '6247'
+  vnum: '01010626247'
 - description: |-
     Há muitos defuntos aqui...corpos.  Orcs, um número enorme deles, cada um
     deles terrívelmente desfigurados de alguma maneira: de um foram removidos os
@@ -668,11 +716,12 @@
     os corpos de crianças orc, que estão mortas e esperando pelo sepultamento.
   exits:
     south:
-      target_vnum: '6251'
+      target_vnum: '01010626251'
     west:
-      target_vnum: '6247'
+      target_vnum: '01010626247'
+  local_id: '6248'
   name: Uma Caverna
-  vnum: '6248'
+  vnum: 01010626248
 - description: |-
     Umas poucas camas, feitas de palha e de um couro fedorento, estão ao
     redor de uma lareira aqui.  Uma xícara de madeira, feita por ferramentas e
@@ -683,13 +732,14 @@
     crianças!
   exits:
     east:
-      target_vnum: '6250'
+      target_vnum: '01010626250'
     north:
-      target_vnum: '6246'
+      target_vnum: '01010626246'
     south:
-      target_vnum: '6252'
+      target_vnum: '01010626252'
+  local_id: '6249'
   name: Uma Caverna
-  vnum: '6249'
+  vnum: 01010626249
 - description: |-
     Muitas camas feitas com capim estão aqui, todas ao redor dos restos de um
     fogo já quase extinto.  A inclinação do forro da caverna permite que haja
@@ -700,15 +750,16 @@
     tentar jogar fora do seu coração, a compaixão por esses miseráveis.
   exits:
     east:
-      target_vnum: '6251'
+      target_vnum: '01010626251'
     north:
-      target_vnum: '6247'
+      target_vnum: '01010626247'
     south:
-      target_vnum: '6253'
+      target_vnum: '01010626253'
     west:
-      target_vnum: '6249'
+      target_vnum: 01010626249
+  local_id: '6250'
   name: Uma Caverna
-  vnum: '6250'
+  vnum: '01010626250'
 - description: |-
     Você está parado dentro de uma caverna enorme, com milhares de pés de
     diâmetro.  Algumas lanternas usando gordura animal como combustível,
@@ -719,15 +770,16 @@
     duas estalagmites.
   exits:
     east:
-      target_vnum: '6245'
+      target_vnum: '01010626245'
     north:
-      target_vnum: '6248'
+      target_vnum: 01010626248
     south:
-      target_vnum: '6254'
+      target_vnum: '01010626254'
     west:
-      target_vnum: '6250'
+      target_vnum: '01010626250'
+  local_id: '6251'
   name: Uma Caverna
-  vnum: '6251'
+  vnum: '01010626251'
 - description: |-
     Esta dever ser a área do chefe orc.  Há um objeto antigo e valioso aqui--
     uma velha e já bem gasta poltrona, e que deve ter sido roubada dos humanos.
@@ -738,11 +790,12 @@
     não são agressores, eles são vítimas.
   exits:
     east:
-      target_vnum: '6253'
+      target_vnum: '01010626253'
     north:
-      target_vnum: '6249'
+      target_vnum: 01010626249
+  local_id: '6252'
   name: Uma Caverna
-  vnum: '6252'
+  vnum: '01010626252'
 - description: |-
     Muitos colchões estão espalhados próximos às paredes, preenchidos com
     montes de pêlo, proporcionando assim, algum conforto e calor.  Muitos estão
@@ -750,13 +803,14 @@
     único pensamento coerente é, 'Não quero saber...  Não quero saber...'
   exits:
     east:
-      target_vnum: '6254'
+      target_vnum: '01010626254'
     north:
-      target_vnum: '6250'
+      target_vnum: '01010626250'
     west:
-      target_vnum: '6252'
+      target_vnum: '01010626252'
+  local_id: '6253'
   name: Uma Caverna
-  vnum: '6253'
+  vnum: '01010626253'
 - description: |-
     Esta parte da caverna é uma vasta enfermaria orc.  Orcs mutantes e
     desfigurados estão no chão, parecendo quietos, sem vida.  Eles não merecem
@@ -768,11 +822,12 @@
     orcs...  O que está acontecendo aqui?"
   exits:
     north:
-      target_vnum: '6251'
+      target_vnum: '01010626251'
     west:
-      target_vnum: '6253'
+      target_vnum: '01010626253'
+  local_id: '6254'
   name: Uma Caverna
-  vnum: '6254'
+  vnum: '01010626254'
 - description: |-
     Esta bifurcação que sai do túnel principal parece estranha: as paredes
     parecem lisas, como se tivessem sido feitas por forças desconhecidas.  O
@@ -781,11 +836,12 @@
     ser um bom lugar para descansar e recuperar seu fôlego.
   exits:
     south:
-      target_vnum: '6243'
+      target_vnum: '01010626243'
     west:
-      target_vnum: '6256'
+      target_vnum: '01010626256'
+  local_id: '6255'
   name: Um Túnel
-  vnum: '6255'
+  vnum: '01010626255'
 - description: |-
     Essa parte do túnel leva ao norte daqui, portas estão do outro lado.
     Algumas manchas no teto iluminam a área quase como a luz do dia.  Do norte
@@ -793,13 +849,14 @@
     encolher-se e pensar duas vezes antes de tomar essa direção.
   exits:
     east:
-      target_vnum: '6255'
+      target_vnum: '01010626255'
     north:
-      target_vnum: '6258'
+      target_vnum: 01010626258
     west:
-      target_vnum: '6257'
+      target_vnum: '01010626257'
+  local_id: '6256'
   name: Um Túnel
-  vnum: '6256'
+  vnum: '01010626256'
 - description: |-
     Isto é um quarto, feito para alguém de bom gosto.  Há um baú com gavetas,
     feito de casca de árvore.  De fato, a maioria dos móveis aqui tem uma
@@ -807,9 +864,10 @@
     sobre a mesa ao lado.  Bonito lugar.
   exits:
     east:
-      target_vnum: '6256'
+      target_vnum: '01010626256'
+  local_id: '6257'
   name: Um Quarto
-  vnum: '6257'
+  vnum: '01010626257'
 - description: |-
     Este túnel se abre para cima, levando a uma grande sala ao norte e para o
     sul segue na direção de um conjunto de portas.  A luz é forte e brilhante,
@@ -819,11 +877,12 @@
     coisa se lamenta, com uma voz horrível.  Nada bom.
   exits:
     north:
-      target_vnum: '6266'
+      target_vnum: '01010626266'
     south:
-      target_vnum: '6256'
+      target_vnum: '01010626256'
+  local_id: '6258'
   name: Um Túnel
-  vnum: '6258'
+  vnum: 01010626258
 - description: |-
     Uma mesa de cirurgia inteirinha está aqui, equipada com um completo kit
     de material cirúrgico.  Numa prateleira próxima estão guardados equipamentos
@@ -832,33 +891,36 @@
     imagina isso como um centro de operações "voluntárias"...
   exits:
     east:
-      target_vnum: '6260'
+      target_vnum: '01010626260'
     south:
-      target_vnum: '6262'
+      target_vnum: '01010626262'
+  local_id: '6259'
   name: O Laboratório
-  vnum: '6259'
+  vnum: 01010626259
 - description: |-
     Uma outra mesa está cheia com todo o tipo de aparato químico, frascos e
     béqueres, equipamento de destilação, etc.  A estufa parece cara, grande e
     frágil: não é um bom tesouro para carregar com você.
   exits:
     east:
-      target_vnum: '6261'
+      target_vnum: '01010626261'
     south:
-      target_vnum: '6263'
+      target_vnum: '01010626263'
     west:
-      target_vnum: '6259'
+      target_vnum: 01010626259
+  local_id: '6260'
   name: O Laboratório
-  vnum: '6260'
+  vnum: '01010626260'
 - description: |-
     Esta é uma pequena e suja gaiola, com apenas um balde para dejetos, um
     outro para comida e uma toalha suja servindo de cama.  Toda a sala está
     impregnada por um terrível odor.
   exits:
     west:
-      target_vnum: '6260'
+      target_vnum: '01010626260'
+  local_id: '6261'
   name: Uma Gaiola
-  vnum: '6261'
+  vnum: '01010626261'
 - description: |-
     Algumas gaiolas pequenas estão aqui, contendo diferentes tipos de
     roedores.  Abaixando-se para olhar melhor, você fica surpreso ao encontrar
@@ -868,124 +930,135 @@
     muito seguro de suas funcões motoras.  Pobre coisa.
   exits:
     east:
-      target_vnum: '6263'
+      target_vnum: '01010626263'
     north:
-      target_vnum: '6259'
+      target_vnum: 01010626259
     south:
-      target_vnum: '6265'
+      target_vnum: '01010626265'
+  local_id: '6262'
   name: O Laboratório
-  vnum: '6262'
+  vnum: '01010626262'
 - description: |-
     Uma prateleira está próxima às gaiolas que estão na parede ao leste,
     cheia de algemas e grilhões, chicotes de couro e coisas ainda piores.  Elas
     todas parecem estar bem usadas.  Você fica arrepiado e segue seu caminho.
   exits:
     east:
-      target_vnum: '6264'
+      target_vnum: '01010626264'
     north:
-      target_vnum: '6260'
+      target_vnum: '01010626260'
     south:
-      target_vnum: '6266'
+      target_vnum: '01010626266'
     west:
-      target_vnum: '6262'
+      target_vnum: '01010626262'
+  local_id: '6263'
   name: O Laboratório
-  vnum: '6263'
+  vnum: '01010626263'
 - description: |-
     Esta é uma pequena e suja gaiola, com apenas um balde para dejetos, um
     outro para comida, e uma toalha suja servindo de cama.  Toda a sala está
     impregnada por um terrível odor.
   exits:
     west:
-      target_vnum: '6263'
+      target_vnum: '01010626263'
+  local_id: '6264'
   name: Uma Gaiola
-  vnum: '6264'
+  vnum: '01010626264'
 - description: |-
     Este é o canto sudoeste do laboratório.  Não há nenhum equipamento aqui,
     há somente vários pares de algemas de aço na parede ao sul.  Há também
     algumas pequenas manchas de sangue no chão abaixo das algemas.
   exits:
     east:
-      target_vnum: '6266'
+      target_vnum: '01010626266'
     north:
-      target_vnum: '6262'
+      target_vnum: '01010626262'
+  local_id: '6265'
   name: O Laboratório
-  vnum: '6265'
+  vnum: '01010626265'
 - description: |-
     Este é um vasto laboratório que se extende para o norte.  Gaiolas estão
     no lado leste da sala.  Uma mesa de metal está vazia, embora você possa ver
     em meio à sujeira que alguma vez existiram livros aqui.
   exits:
     east:
-      target_vnum: '6267'
+      target_vnum: '01010626267'
     north:
-      target_vnum: '6263'
+      target_vnum: '01010626263'
     south:
-      target_vnum: '6258'
+      target_vnum: 01010626258
     west:
-      target_vnum: '6265'
+      target_vnum: '01010626265'
+  local_id: '6266'
   name: O Laboratório
-  vnum: '6266'
+  vnum: '01010626266'
 - description: |-
     Esta é uma pequena e suja gaiola, com apenas um balde para dejetos, um
     outro para comida, e uma toalha suja serve como cama.  Toda a sala está
     impregnada por um terrível odor.
   exits:
     west:
-      target_vnum: '6266'
+      target_vnum: '01010626266'
+  local_id: '6267'
   name: Uma Gaiola
-  vnum: '6267'
+  vnum: '01010626267'
 - description: |-
     Você está seguindo por uma trilha que ladeia a montanha e entra em uma
     abertura nela.  Tudo ali é muito escuro, frio e silencioso, não sendo muito
     atraente ali entrar.  A trilha continua norte.
   exits:
     north:
-      target_vnum: '6234'
+      target_vnum: '01010626234'
     west:
-      target_vnum: '6269'
+      target_vnum: 01010626269
+  local_id: '6268'
   name: Uma Trilha Rochosa
-  vnum: '6268'
+  vnum: 01010626268
 - description: |-
     Você está numa trilha rochosa que segue dentro da montanha.  Aqui ainda
     não está totalmente escuro, mas você percebe que daqui pra frente sua
     situação só tende a piorar.  A trilha ainda segue leste e oeste.
   exits:
     east:
-      target_vnum: '6268'
+      target_vnum: 01010626268
     west:
-      target_vnum: '6270'
+      target_vnum: '01010626270'
+  local_id: '6269'
   name: Uma Trilha Rochosa
-  vnum: '6269'
+  vnum: 01010626269
 - description: |-
     Você está numa trilha rochosa que segue dentro da montanha.  O chão,
     coberto de limo, não faz som algum conforme você anda, sendo perigoso aqui
     escorregar.  A trilha ainda segue leste e sul.
   exits:
     east:
-      target_vnum: '6269'
+      target_vnum: 01010626269
     south:
-      target_vnum: '6271'
+      target_vnum: '01010626271'
+  local_id: '6270'
   name: Uma Trilha Rochosa
-  vnum: '6270'
+  vnum: '01010626270'
 - description: |-
     Você está numa trilha rochosa que segue dentro da montanha.  O chão,
     coberto de limo, não faz som algum conforme você anda, sendo perigoso aqui
     escorregar.  A trilha ainda segue norte e sul.
   exits:
     north:
-      target_vnum: '6270'
+      target_vnum: '01010626270'
     south:
-      target_vnum: '6272'
+      target_vnum: '01010626272'
+  local_id: '6271'
   name: Uma Trilha Rochosa
-  vnum: '6271'
+  vnum: '01010626271'
 - description: |-
     Você está numa trilha rochosa que segue dentro da montanha.  O chão,
     coberto de limo, não faz som algum conforme você anda, sendo perigoso aqui
     escorregar.  A trilha fica abruptamente escura a leste.
   exits:
     east:
-      target_vnum: '4800'
+      target_vnum: 01010624800
     north:
-      target_vnum: '6271'
+      target_vnum: '01010626271'
+  local_id: '6272'
   name: Uma Trilha Rochosa
-  vnum: '6272'
+  vnum: '01010626272'

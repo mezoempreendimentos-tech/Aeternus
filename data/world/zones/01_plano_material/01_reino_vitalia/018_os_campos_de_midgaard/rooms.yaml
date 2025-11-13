@@ -7,9 +7,12 @@
     campo aberto.
   exits:
     east:
-      target_vnum: '3060'
+      target_vnum: 01010183060
+    northeast:
+      target_vnum: 01010181801
+  local_id: '1800'
   name: Um Caminho Esquecido
-  vnum: '1800'
+  vnum: 01010181800
 - description: |-
     Você está em um campo aberto, com algumas árvores e várias plantas.
     O chão de grama verde está de certa forma, bem cuidada, o que lhe faz pensar
@@ -17,11 +20,14 @@
     oeste, e ao norte você vê uma cabana.
   exits:
     north:
-      target_vnum: '1802'
+      target_vnum: 01010181802
+    southeast:
+      target_vnum: 01010181800
     west:
-      target_vnum: '1804'
+      target_vnum: 01010181804
+  local_id: '1801'
   name: Um Campo Aberto
-  vnum: '1801'
+  vnum: 01010181801
 - description: |-
     Este caminho é bem simples, e foi trilhado sobre a grama.  Não há muito
     para se ver ao redor, exceto a cabana, logo ao oeste.  Há uma luz azul saindo
@@ -29,13 +35,14 @@
     Ao sul você retorna para o campo aberto.
   exits:
     north:
-      target_vnum: '9401'
+      target_vnum: 01010189401
     south:
-      target_vnum: '1801'
+      target_vnum: 01010181801
     west:
-      target_vnum: '1803'
+      target_vnum: 01010181803
+  local_id: '1802'
   name: O Caminho Para a Cabana
-  vnum: '1802'
+  vnum: 01010181802
 - description: |-
     Você está dentro da cabana.  Uma suave luz azul ilumina todo o ambiente,
     lhe proporcionando uma incrível sensação de paz.  Ao chão há vários corpos
@@ -45,9 +52,10 @@
     aqui, até que algum amigo venha tentar os trazer devolta à vida.
   exits:
     east:
-      target_vnum: '1802'
+      target_vnum: 01010181802
+  local_id: '1803'
   name: A Cabana da Ressurreição
-  vnum: '1803'
+  vnum: 01010181803
 - description: |-
     Você está em um caminho construído com grandes pedras redondas.  A uma
     certa distância, ao norte, você pode ver uma cabana.  Há grandes arbustos e
@@ -56,11 +64,12 @@
     aberto.
   exits:
     east:
-      target_vnum: '1801'
+      target_vnum: 01010181801
     west:
-      target_vnum: '1805'
+      target_vnum: 01010181805
+  local_id: '1804'
   name: Um Caminho
-  vnum: '1804'
+  vnum: 01010181804
 - description: |-
     Você está em um caminho construído com grandes pedras redondas.  Aqui o
     campo é mais fechado.  Nas laterais do caminho, há uma mata tão densa que
@@ -70,11 +79,12 @@
     área mais aberta, e uma pequena casa.
   exits:
     east:
-      target_vnum: '1804'
+      target_vnum: 01010181804
     west:
-      target_vnum: '1806'
+      target_vnum: 01010181806
+  local_id: '1805'
   name: Um Caminho
-  vnum: '1805'
+  vnum: 01010181805
 - description: |-
     A área aqui é aberta, na forma de um círculo, e o no centro desse círculo
     há uma pequena casa.  Você pode andar em volta da casa.  Você nota, agora,
@@ -82,23 +92,36 @@
     núvens.  A leste, a mata se abre para o caminho que leva devolta à Midgaard.
   exits:
     east:
-      target_vnum: '1805'
+      target_vnum: 01010181805
+    northeast:
+      target_vnum: 01010181807
+    southwest:
+      target_vnum: 01010181808
     west:
-      target_vnum: '1810'
+      target_vnum: 01010181810
+  local_id: '1806'
   name: Em Frente a uma Pequena Casa
-  vnum: '1806'
+  vnum: 01010181806
 - description: |-
     Você está caminhando em volta da casa.  Há uma janela deste lado da casa.
     Não há mais nada de especial aqui.
-  exits: {}
+  exits:
+    southeast:
+      target_vnum: 01010181806
+    southwest:
+      target_vnum: 01010181809
+  local_id: '1807'
   name: Ao Lado da Pequena Casa
-  vnum: '1807'
+  vnum: 01010181807
 - description: |-
     Você está caminhando em volta da casa.  Há duas janelas deste lado da
     casa.  Não há mais nada de especial aqui.
-  exits: {}
+  exits:
+    northwest:
+      target_vnum: 01010181806
+  local_id: '1808'
   name: Ao Lado da Pequena Casa
-  vnum: '1808'
+  vnum: 01010181808
 - description: |-
     Você está atrás da pequena casa.  Há uma outra porta desse lado da casa
     (provavelmente a porta dos fundos).  Você pode andar em volta da casa.
@@ -108,9 +131,14 @@
     atravessar.
   exits:
     east:
-      target_vnum: '1811'
+      target_vnum: 01010181811
+    northwest:
+      target_vnum: 01010181807
+    southeast:
+      target_vnum: 01010181808
+  local_id: '1809'
   name: Atrás da Pequena Casa
-  vnum: '1809'
+  vnum: 01010181809
 - description: |-
     A casa é um tanto quanto simples, e ao mesmo tempo, moderna.  Você pode
     ver uma lareira, uma mesa, uma poltrona grande e um armário.  Sobre a
@@ -120,42 +148,46 @@
     e portas para norte e sul.
   exits:
     east:
-      target_vnum: '1806'
+      target_vnum: 01010181806
     north:
-      target_vnum: '1812'
+      target_vnum: 01010181812
     south:
-      target_vnum: '1813'
+      target_vnum: 01010181813
     west:
-      target_vnum: '1811'
+      target_vnum: 01010181811
+  local_id: '1810'
   name: A Sala
-  vnum: '1810'
-- description: "Ã\x89 uma pequena cozinha, preciosamente arrumada.  A pia e os armÃ¡rios\
-    \ estÃ£o\ntão limpos que brilham.  Há alguns frutos sobre uma mesa.  Você pode\
+  vnum: 01010181810
+- description: "Ã\x89 uma pequena cozinha, preciosamente arrumada.  A pia e os armários\
+    \ estão\ntão limpos que brilham.  Há alguns frutos sobre uma mesa.  Você pode\
     \ voltar\npara a sala para leste.  Há uma porta para oeste."
   exits:
     east:
-      target_vnum: '1810'
+      target_vnum: 01010181810
     west:
-      target_vnum: '1809'
+      target_vnum: 01010181809
+  local_id: '1811'
   name: A Cozinha
-  vnum: '1811'
+  vnum: 01010181811
 - description: "Esse é o recinto mais particular da casa.  Não está sujo, não muito...\n\
     Comparando com outros, este certamente é um dos banheiros mais limpos que\nexiste.\
     \  Ã\x89 muito luxuoso, possui latrina, pia e um chuveiro."
   exits:
     south:
-      target_vnum: '1810'
+      target_vnum: 01010181810
+  local_id: '1812'
   name: O Banheiro
-  vnum: '1812'
+  vnum: 01010181812
 - description: |-
     Você está no quarto.  O que mais lhe chama a atenção é o tamanho da estante
     de livros que tem aqui.  Tem centenas de livros.  O quarto também possui uma
     cama, uma pequena mesa e uma cadeira.
   exits:
     north:
-      target_vnum: '1810'
+      target_vnum: 01010181810
+  local_id: '1813'
   name: O Quarto
-  vnum: '1813'
+  vnum: 01010181813
 - description: |-
     Você está no início de um longo corredor fechado.  As paredes são bem
     altas e o corredor é largo.  O chão sob você foi feito com uma rocha cinza,
@@ -165,44 +197,48 @@
     sul.
   exits:
     north:
-      target_vnum: '1891'
+      target_vnum: 01010181891
     south:
-      target_vnum: '3'
+      target_vnum: 01010180003
+  local_id: '1890'
   name: A Entrada do Reino da Morte
-  vnum: '1890'
+  vnum: 01010181890
 - description: |-
     Você está no corredor que leva para o Reino da Morte.  O corredor continua
     para o norte e para o sul.  Você nota uma pequena placa fixada na parede.
   exits:
     north:
-      target_vnum: '1892'
+      target_vnum: 01010181892
     south:
-      target_vnum: '1890'
+      target_vnum: 01010181890
+  local_id: '1891'
   name: A Entrada do Reino da Morte
-  vnum: '1891'
+  vnum: 01010181891
 - description: |-
     Você chegou ao final do corredor.  Uma grande plataforma foi montada aqui,
     provavelmente para algum tipo de palestra.  Há algumas faixas presas na
     plataforma.  Há um grande portão ao norte.  O corredor continua para o sul.
   exits:
     north:
-      target_vnum: '1899'
+      target_vnum: 01010181899
     south:
-      target_vnum: '1891'
+      target_vnum: 01010181891
+  local_id: '1892'
   name: A Entrada do Reino da Morte
-  vnum: '1892'
+  vnum: 01010181892
 - description: |-
     Você está em um imenso solo de pedras cinzas, que se extende até aonde
     sua visão alcança, por todas as direções.  Ventos desagradáveis mergulhando
     do céu escuro e sem estrelas, batem selvagemente em seu fragil espírito.
   exits:
     east:
-      target_vnum: '1899'
+      target_vnum: 01010181899
     north:
-      target_vnum: '1899'
+      target_vnum: 01010181899
     south:
-      target_vnum: '1899'
+      target_vnum: 01010181899
     west:
-      target_vnum: '1899'
+      target_vnum: 01010181899
+  local_id: '1899'
   name: O Reino da Morte
-  vnum: '1899'
+  vnum: 01010181899

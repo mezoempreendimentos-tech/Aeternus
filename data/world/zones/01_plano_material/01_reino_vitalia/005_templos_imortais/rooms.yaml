@@ -2,16 +2,17 @@
     \ ser\nvisto e você se sente como se estivesse livre de todo o mal.  De uma maneira\n\
     que você não consegue explicar, você sabe que é hora de fazer uma escolha\nmuito\
     \ importante na sua vida.  Ã\x89 hora de renunciar aos seus bens materiais e\n\
-    adotar uma postura diferente da que vocÃª estÃ¡ acostumado.  Ã\x89 hora de\ndevolver\
-    \ tudo de bom que você recebeu até agora desse mundo maravilhoso.\nVocÃª sente\
-    \ que o mundo deixa de existir PARA vocÃª e que agora VOCÃ\x8A existe\npara fazer\
+    adotar uma postura diferente da que você está acostumado.  Ã\x89 hora de\ndevolver\
+    \ tudo de bom que você recebeu até agora desse mundo maravilhoso.\nVocê sente\
+    \ que o mundo deixa de existir PARA você e que agora VOCÃ\x8A existe\npara fazer\
     \ deste mundo um lugar melhor a cada dia.  Ã\x89 hora de decidir...\nVocê entregaria\
     \ TUDO pelo bem do Mundo de Vitália?"
   exits:
     east:
-      target_vnum: '501'
+      target_vnum: '01010050501'
+  local_id: '500'
   name: Sala da Purificação
-  vnum: '500'
+  vnum: '01010050500'
 - description: |-
     Você está agora trilhando seu caminho rumo a um nível mais elevado...  A
     escolha que você acabou de fazer ainda atormenta sua cabeça e ainda assim
@@ -20,11 +21,12 @@
     defender o bem e para disseminar a paz e a prosperidade no Mundo de Vitália
   exits:
     east:
-      target_vnum: '502'
+      target_vnum: '01010050502'
     west:
-      target_vnum: '500'
+      target_vnum: '01010050500'
+  local_id: '501'
   name: Templo da Sabedoria
-  vnum: '501'
+  vnum: '01010050501'
 - description: |-
     Você chega cheio de sabedoria nesta bela sala e se sente a criatura mais
     poderosa do universo inteiro.  Mas espere...  Este sentimento pode realmente
@@ -34,11 +36,12 @@
     pequeno e sente-se MUITO feliz por contemplar a beleza da HUMILDADE.
   exits:
     east:
-      target_vnum: '503'
+      target_vnum: '01010050503'
     west:
-      target_vnum: '501'
+      target_vnum: '01010050501'
+  local_id: '502'
   name: Templo da Humildade
-  vnum: '502'
+  vnum: '01010050502'
 - description: |-
     Você chega até este Templo com o coração mais aliviado.  A cabeça ainda
     está confusa mas o coração está decidido a ir até o fim.  Chega o momento em
@@ -48,11 +51,12 @@
     e mais cada um fazendo sua parte!  Você está pronto?
   exits:
     east:
-      target_vnum: '504'
+      target_vnum: '01010050504'
     west:
-      target_vnum: '502'
+      target_vnum: '01010050502'
+  local_id: '503'
   name: Templo da Lealdade
-  vnum: '503'
+  vnum: '01010050503'
 - description: |-
     Você escolheu o caminho da purificação e passou por muitas escolhas.
     Nesta sala você percebe que está entre iguais e que faz parte de uma bela
@@ -61,11 +65,12 @@
     que a mentira nunca o levará a lugar algum em Vitália.
   exits:
     south:
-      target_vnum: '505'
+      target_vnum: '01010050505'
     west:
-      target_vnum: '503'
+      target_vnum: '01010050503'
+  local_id: '504'
   name: Templo da Sinceridade
-  vnum: '504'
+  vnum: '01010050504'
 - description: |-
     Você sente seu coração invadido pelo amor divino.  Sua peregrinação está
     quase no fim e você quase pode tocar a bondade que invade esta sala.  Assim
@@ -74,11 +79,12 @@
     caminho em Paz.
   exits:
     north:
-      target_vnum: '504'
+      target_vnum: '01010050504'
     west:
-      target_vnum: '506'
+      target_vnum: '01010050506'
+  local_id: '505'
   name: Templo da Bondade
-  vnum: '505'
+  vnum: '01010050505'
 - description: |-
     Você entra nesta sala confiante de que tudo dará certo afinal.  Uma forte
     luz lhe cega completamente mas, ao contrário do que você imagina, na sua
@@ -86,11 +92,12 @@
     belo ou feio.  Não há rico ou pobre.  Todos são iguais no Templo da Justiça.
   exits:
     east:
-      target_vnum: '505'
+      target_vnum: '01010050505'
     west:
-      target_vnum: '507'
+      target_vnum: '01010050507'
+  local_id: '506'
   name: Templo da Justiça
-  vnum: '506'
+  vnum: '01010050506'
 - description: |-
     Você percorreu o Caminho da Purificação.  Muita coisa foi dita e você se
     sente preparado para decidir o que deve fazer a partir de agora.  Este
@@ -103,6 +110,7 @@
     cargo..  E todas as responsabilidades também.  Boa Sorte!!!
   exits:
     east:
-      target_vnum: '506'
+      target_vnum: '01010050506'
+  local_id: '507'
   name: Templo da Liberdade
-  vnum: '507'
+  vnum: '01010050507'

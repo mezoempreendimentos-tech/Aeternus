@@ -6,11 +6,12 @@
     chamuscando seu cabelo.
   exits:
     north:
-      target_vnum: '3910'
+      target_vnum: 01010393910
     up:
-      target_vnum: '5100'
+      target_vnum: 01010395100
+  local_id: '3900'
   name: Entrada Para o Corredor das Chamas
-  vnum: '3900'
+  vnum: 01010393900
 - description: |-
     Esta pequena construção de pedra é grande o bastante para apenas uma
     pessoa se manter em pé.  Musgo verde cobre as rachaduras entre os blocos e
@@ -19,11 +20,12 @@
     escuridão.
   exits:
     north:
-      target_vnum: '5145'
+      target_vnum: 01010395145
     south:
-      target_vnum: '3914'
+      target_vnum: 01010393914
+  local_id: '3901'
   name: Através dos Portais Flamejantes
-  vnum: '3901'
+  vnum: 01010393901
 - description: |-
     Uma enorme caverna se abre diante de você.  Formações minerais crescem do
     teto até o solo, ocasionalmente ligando um ao outro.  Na escuridão, algo
@@ -32,9 +34,10 @@
     jamais fora desperto.
   exits:
     west:
-      target_vnum: '3905'
+      target_vnum: 01010393905
+  local_id: '3902'
   name: A Toca de Valik
-  vnum: '3902'
+  vnum: 01010393902
 - description: |-
     Ricamente mobiliada, está é a câmara de Kalas.  A tapeçaria, pendurada
     por todas as paredes, mostra famosas cenas de batalha.  Diversos troféus de
@@ -43,17 +46,19 @@
     minuciosamente limpo e organizado.
   exits:
     south:
-      target_vnum: '3931'
+      target_vnum: 01010393931
+  local_id: '3903'
   name: A Câmara de Kalas
-  vnum: '3903'
+  vnum: 01010393903
 - description: |-
     Assim que você mergulha na escuridão, você sente o chão abaixo de seus
     pés sumir.  E você cai...  Cai....cai...  Você tenta gritar mas o som não
     sai de sua boca.  Finalmente, você atinge o solo, e vê claramente sua alma
     se desprender de seu corpo, e voar para o paraíso.
   exits: {}
+  local_id: '3904'
   name: A Queda sem Fim
-  vnum: '3904'
+  vnum: 01010393904
 - description: |-
     Você anda em uma pequena caverna.  As paredes a sua volta estão
     carbonizadas e pulsam com o calor.  A medida que você começa a suar, você se
@@ -61,42 +66,46 @@
     do leste.
   exits:
     east:
-      target_vnum: '3902'
+      target_vnum: 01010393902
     west:
-      target_vnum: '3979'
+      target_vnum: 01010393979
+  local_id: '3905'
   name: A Entrada Para a Toca dos Dragões
-  vnum: '3905'
+  vnum: 01010393905
 - description: |-
     As furiosas águas fazem uma curva ao oeste.  Silenciosas e observadoras
     árvores contornam as bordas do rio.  Elas parecem estar observando-lhe com
     desaprovação a medida que você vaga indefeso pelas frias águas.
   exits:
     north:
-      target_vnum: '3907'
+      target_vnum: 01010393907
     west:
-      target_vnum: '3976'
+      target_vnum: 01010393976
+  local_id: '3906'
   name: Uma Curva no Rio
-  vnum: '3906'
+  vnum: 01010393906
 - description: |-
     A medida que o rio segue para o oeste, ele se ramifica em duas direções.
     A corrente principal segue pelo sul e uma corrente secundária ao leste, de
     onde podem ser ouvidos lânguidos ruídos.
   exits:
     east:
-      target_vnum: '3908'
+      target_vnum: 01010393908
     south:
-      target_vnum: '3906'
+      target_vnum: 01010393906
     west:
-      target_vnum: '3909'
+      target_vnum: 01010393909
+  local_id: '3907'
   name: Uma Bifurcação no Rio
-  vnum: '3907'
+  vnum: 01010393907
 - description: |-
     O barulho das águas é ensurdecedor.  Corpos congelados de aventureiros e
     criaturas flutuam na água, rodando a sua volta, rodando e rodando neste
     redemoinho maldito.
   exits: {}
+  local_id: '3908'
   name: O Redemoinho
-  vnum: '3908'
+  vnum: 01010393908
 - description: |-
     Escuras e observadoras contornam o rio.  Seus galhos tocam a água, como
     se quisessem lhe alcançar e lhe agarrar.  Coisas esbarram em suas pernas a
@@ -104,11 +113,12 @@
     avermelhadas águas.
   exits:
     east:
-      target_vnum: '3907'
+      target_vnum: 01010393907
     north:
-      target_vnum: '3908'
+      target_vnum: 01010393908
+  local_id: '3909'
   name: O Rio Talloren
-  vnum: '3909'
+  vnum: 01010393909
 - description: |-
     As brilhantes paredes de ônix do corredor parecem ser infinitas.  Tudo é
     frio ao toque e mortalmente silencioso.  Olhando adiante abaixo o corredor
@@ -116,11 +126,12 @@
     Portais.
   exits:
     north:
-      target_vnum: '3911'
+      target_vnum: 01010393911
     south:
-      target_vnum: '3900'
+      target_vnum: 01010393900
+  local_id: '3910'
   name: Descendo pelo Abismo Profundo
-  vnum: '3910'
+  vnum: 01010393910
 - description: |-
     As brilhantes paredes de ônix do corredor parecem ser infinitas.  Tudo é
     frio ao toque e mortalmente silencioso.  Olhando adiante abaixo o corredor
@@ -128,11 +139,12 @@
     Portais.
   exits:
     north:
-      target_vnum: '3912'
+      target_vnum: 01010393912
     south:
-      target_vnum: '3910'
+      target_vnum: 01010393910
+  local_id: '3911'
   name: Descendo pelo Abismo Profundo
-  vnum: '3911'
+  vnum: 01010393911
 - description: |-
     Encontrando esta curva do corredor, você percebe uma brilhante
     luminosidade vinda do leste.  A atmosfera se torna duramente quente a medida
@@ -140,22 +152,24 @@
     feitas pela luz de chamas ardentes.
   exits:
     east:
-      target_vnum: '3913'
+      target_vnum: 01010393913
     south:
-      target_vnum: '3911'
+      target_vnum: 01010393911
+  local_id: '3912'
   name: Uma Curva no Corredor
-  vnum: '3912'
+  vnum: 01010393912
 - description: |-
     As paredes do corredor parecem bruxulear no intenso calor emanado do
     leste.  A luz é tão brilhante, que você é forçado a proteger os olhos.  Logo
     você poderá ver a fonte deste calor e luz.
   exits:
     east:
-      target_vnum: '3914'
+      target_vnum: 01010393914
     west:
-      target_vnum: '3912'
+      target_vnum: 01010393912
+  local_id: '3913'
   name: Se Aproximando do Fim do Corredor
-  vnum: '3913'
+  vnum: 01010393913
 - description: |-
     Enormes pilares gêmeos, flamejantes se erguem diante de você.  Um pesado
     portão forjado em ferro magicalmente engolfado em chamas, impede que você
@@ -163,13 +177,14 @@
     pode ser encontrado ao oeste e talvez ao sul...
   exits:
     north:
-      target_vnum: '3901'
+      target_vnum: 01010393901
     south:
-      target_vnum: '3915'
+      target_vnum: 01010393915
     west:
-      target_vnum: '3913'
+      target_vnum: 01010393913
+  local_id: '3914'
   name: O Portal Flamejante
-  vnum: '3914'
+  vnum: 01010393914
 - description: |-
     O caminho fora construído por escultores de um longo tempo atrás.  As
     pedras lisas ainda resistem firmemente, um último tributo à habilidade
@@ -177,11 +192,12 @@
     sinal de vida pode ser vista e o vento é bastante calmo.
   exits:
     east:
-      target_vnum: '3916'
+      target_vnum: 01010393916
     north:
-      target_vnum: '3914'
+      target_vnum: 01010393914
+  local_id: '3915'
   name: Um Chamuscado Caminho de Pedra
-  vnum: '3915'
+  vnum: 01010393915
 - description: |-
     O caminho fora construído por escultores de um longo tempo atrás.  As
     pedras lisas ainda resistem firmemente, um último tributo à habilidade
@@ -189,11 +205,12 @@
     sinal de vida pode ser vista e o vento é bastante calmo.
   exits:
     east:
-      target_vnum: '3917'
+      target_vnum: 01010393917
     west:
-      target_vnum: '3915'
+      target_vnum: 01010393915
+  local_id: '3916'
   name: Um Chamuscado Caminho de Pedra
-  vnum: '3916'
+  vnum: 01010393916
 - description: |-
     Este fora um lindo pátio.  Majestosos pilares e estátuas agora repousam
     quebradas por todo o chão.  A única coisa que ainda resta é a fonte no
@@ -201,13 +218,14 @@
     ruína deste lugar.
   exits:
     east:
-      target_vnum: '3920'
+      target_vnum: 01010393920
     north:
-      target_vnum: '3918'
+      target_vnum: 01010393918
     west:
-      target_vnum: '3916'
+      target_vnum: 01010393916
+  local_id: '3917'
   name: O Pátio do Abismo Profundo
-  vnum: '3917'
+  vnum: 01010393917
 - description: |-
     Este pequeno caminho segue pelo norte.  O que restou dos jardins reais,
     cerca o caminho.  Vegetação rasteira e retorcida agora cresce onde lindas
@@ -215,15 +233,16 @@
     enquanto o pátio fica ao sul.
   exits:
     east:
-      target_vnum: '3960'
+      target_vnum: 01010393960
     north:
-      target_vnum: '3919'
+      target_vnum: 01010393919
     south:
-      target_vnum: '3917'
+      target_vnum: 01010393917
     west:
-      target_vnum: '3959'
+      target_vnum: 01010393959
+  local_id: '3918'
   name: Um Caminho Lateral
-  vnum: '3918'
+  vnum: 01010393918
 - description: |-
     Assim que você adentra a construção, você vê que ela foi a morada de um
     jardineiro.  Ferramentas quebradas estão por toda parte, todas elas
@@ -232,22 +251,24 @@
     há outras saídas óbvias, a não ser pela qual você veio.
   exits:
     south:
-      target_vnum: '3918'
+      target_vnum: 01010393918
+  local_id: '3919'
   name: Uma Pequena Construção de Pedra
-  vnum: '3919'
+  vnum: 01010393919
 - description: |-
     Uma grande ponte levadiça permite a entrada ao Castelo do Abismo.  A
     portícula fora elevada como se alguém fosse esperado.  Olhando para baixo,
     nos limites da ponte, você não ve nada, apenas a mais negra escuridão.
   exits:
     down:
-      target_vnum: '3904'
+      target_vnum: 01010393904
     east:
-      target_vnum: '3921'
+      target_vnum: 01010393921
     west:
-      target_vnum: '3917'
+      target_vnum: 01010393917
+  local_id: '3920'
   name: A Ponte Levadiça
-  vnum: '3920'
+  vnum: 01010393920
 - description: |-
     Desbotados tapetes decoram esta sala.  A tapeçaria mostra cenas dos
     melhores tempos que o Castelo viveu.  Um pedestal suporta um grande e
@@ -255,22 +276,24 @@
     a assina-lo o fez há séculos atrás.
   exits:
     east:
-      target_vnum: '3922'
+      target_vnum: 01010393922
     west:
-      target_vnum: '3920'
+      target_vnum: 01010393920
+  local_id: '3921'
   name: A Entrada
-  vnum: '3921'
+  vnum: 01010393921
 - description: |-
     Um vasto corredor se abre diante de você.  Tochas douradas e cortinas de
     veludo estão penduradas nas vigas.  Macios sofás e almofadas se alinham
     pelos lados do corredor.  Nunca você viu um corredor tão esplendoroso.
   exits:
     east:
-      target_vnum: '3923'
+      target_vnum: 01010393923
     west:
-      target_vnum: '3921'
+      target_vnum: 01010393921
+  local_id: '3922'
   name: O Grande Corredor
-  vnum: '3922'
+  vnum: 01010393922
 - description: |-
     O grande corredor encontra as asas do castelo debaixo desta enorme cúpula
     de cristal.  Há muito tempo atrás, este lugar fora chamado Cúpula do
@@ -279,56 +302,60 @@
     pendurada aqui, mas não há mais.
   exits:
     east:
-      target_vnum: '3924'
+      target_vnum: 01010393924
     north:
-      target_vnum: '3925'
+      target_vnum: 01010393925
     south:
-      target_vnum: '3928'
+      target_vnum: 01010393928
     west:
-      target_vnum: '3922'
+      target_vnum: 01010393922
+  local_id: '3923'
   name: Uma interseção Abobadada
-  vnum: '3923'
+  vnum: 01010393923
 - description: |-
     Um vasto corredor se abre diante de você.  Tochas douradas e cortinas de
     veludo estão penduradas nas vigas.  Macios sofás e almofadas se alinham
     pelos lados do corredor.  Nunca você viu um corredor tão esplendoroso.
   exits:
     east:
-      target_vnum: '3931'
+      target_vnum: 01010393931
     west:
-      target_vnum: '3923'
+      target_vnum: 01010393923
+  local_id: '3924'
   name: O Grande Corredor
-  vnum: '3924'
+  vnum: 01010393924
 - description: |-
     Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
     estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
     dos muitos quartos do castelo.
   exits:
     east:
-      target_vnum: '3946'
+      target_vnum: 01010393946
     north:
-      target_vnum: '3926'
+      target_vnum: 01010393926
     south:
-      target_vnum: '3923'
+      target_vnum: 01010393923
     west:
-      target_vnum: '3943'
+      target_vnum: 01010393943
+  local_id: '3925'
   name: A Asa Norte
-  vnum: '3925'
+  vnum: 01010393925
 - description: |-
     Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
     estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
     dos muitos quartos do castelo.
   exits:
     east:
-      target_vnum: '3945'
+      target_vnum: 01010393945
     north:
-      target_vnum: '3927'
+      target_vnum: 01010393927
     south:
-      target_vnum: '3925'
+      target_vnum: 01010393925
     west:
-      target_vnum: '3944'
+      target_vnum: 01010393944
+  local_id: '3926'
   name: A Asa Norte
-  vnum: '3926'
+  vnum: 01010393926
 - description: |-
     Enormes blocos que resistiram aos testes do tempo, ainda seguram a
     poderosa torre.  Uma escadaria de pedra em espiral leva para cima.  Olhando
@@ -337,43 +364,46 @@
     esboço de um alçapão pode ser visto.
   exits:
     down:
-      target_vnum: '3961'
+      target_vnum: 01010393961
     south:
-      target_vnum: '3926'
+      target_vnum: 01010393926
     up:
-      target_vnum: '3940'
+      target_vnum: 01010393940
+  local_id: '3927'
   name: Na Base da Torre Norte
-  vnum: '3927'
+  vnum: 01010393927
 - description: |-
     Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
     estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
     dos muitos quartos do castelo.
   exits:
     east:
-      target_vnum: '3947'
+      target_vnum: 01010393947
     north:
-      target_vnum: '3923'
+      target_vnum: 01010393923
     south:
-      target_vnum: '3929'
+      target_vnum: 01010393929
     west:
-      target_vnum: '3950'
+      target_vnum: 01010393950
+  local_id: '3928'
   name: A Asa Sul
-  vnum: '3928'
+  vnum: 01010393928
 - description: |-
     Tudo é mortalmente normal através desta asa.  Pegadas e outros sons são
     estranhamente amortecidos aqui.  Portas em cada lado do lugar levam a um,
     dos muitos quartos do castelo.
   exits:
     east:
-      target_vnum: '3948'
+      target_vnum: 01010393948
     north:
-      target_vnum: '3928'
+      target_vnum: 01010393928
     south:
-      target_vnum: '3930'
+      target_vnum: 01010393930
     west:
-      target_vnum: '3949'
+      target_vnum: 01010393949
+  local_id: '3929'
   name: Asa Sul
-  vnum: '3929'
+  vnum: 01010393929
 - description: |-
     Enormes blocos que resistiram aos testes do tempo, ainda seguram a
     poderosa torre.  Uma escadaria de pedra em espiral leva para cima.  Olhando
@@ -382,13 +412,14 @@
     esboço de um alçapão pode ser visto.
   exits:
     down:
-      target_vnum: '3935'
+      target_vnum: 01010393935
     north:
-      target_vnum: '3929'
+      target_vnum: 01010393929
     up:
-      target_vnum: '3932'
+      target_vnum: 01010393932
+  local_id: '3930'
   name: A Base da Torre Sul
-  vnum: '3930'
+  vnum: 01010393930
 - description: |-
     Enormes blocos que resistiram aos testes do tempo, ainda seguram a
     poderosa torre.  Uma escadaria de pedra em espiral leva para cima.  Olhando
@@ -397,35 +428,38 @@
     ferro pode ser vista ao norte.
   exits:
     north:
-      target_vnum: '3903'
+      target_vnum: 01010393903
     up:
-      target_vnum: '3951'
+      target_vnum: 01010393951
     west:
-      target_vnum: '3924'
+      target_vnum: 01010393924
+  local_id: '3931'
   name: A Base da Torre Principal
-  vnum: '3931'
+  vnum: 01010393931
 - description: |-
     A escadaria continua dando voltas e voltas a medida que você sobe pela
     torre.  Ela parece continuar para sempre, sem que seu fim possa ser
     avistado.
   exits:
     down:
-      target_vnum: '3930'
+      target_vnum: 01010393930
     up:
-      target_vnum: '3933'
+      target_vnum: 01010393933
+  local_id: '3932'
   name: A Torre Sul
-  vnum: '3932'
+  vnum: 01010393932
 - description: |-
     A escadaria continua dando voltas e voltas a medida que você sobe pela
     torre.  Ela parece continuar para sempre, sem que seu fim possa ser
     avistado.
   exits:
     down:
-      target_vnum: '3932'
+      target_vnum: 01010393932
     up:
-      target_vnum: '3934'
+      target_vnum: 01010393934
+  local_id: '3933'
   name: A Torre Sul
-  vnum: '3933'
+  vnum: 01010393933
 - description: |-
     Você suspira aliviado por ter finalmente chego ao topo da Torre Sul.
     Você vê que a única coisa que resta mais alta que esta torre, é a Torre
@@ -435,9 +469,10 @@
     desastre e ruína.
   exits:
     down:
-      target_vnum: '3933'
+      target_vnum: 01010393933
+  local_id: '3934'
   name: O Topo da Torre Sul
-  vnum: '3934'
+  vnum: 01010393934
 - description: |-
     O ar começa a esfriar a medida que você caminha pelos degraus.  A parede
     de pedra é coberta por umidade.  Parece que a parede está verdadeiramente
@@ -445,11 +480,12 @@
     tristeza.
   exits:
     down:
-      target_vnum: '3936'
+      target_vnum: 01010393936
     up:
-      target_vnum: '3930'
+      target_vnum: 01010393930
+  local_id: '3935'
   name: Pela Torre Sul
-  vnum: '3935'
+  vnum: 01010393935
 - description: |-
     Você é invadido pelo horror e tragédia que aconteceu nesta sala há tempos
     atrás.  Nos dias finais deste castelo, quando o mal aumentou seu poder,
@@ -460,11 +496,12 @@
     tentaram escapar da morte resultante do fechamento do alçapão acima.
   exits:
     up:
-      target_vnum: '3935'
+      target_vnum: 01010393935
     west:
-      target_vnum: '3937'
+      target_vnum: 01010393937
+  local_id: '3936'
   name: O Poço de Sacrifícios
-  vnum: '3936'
+  vnum: 01010393936
 - description: |-
     Uma sala plana e branca oferece algum alívio da vista do poço de
     sacrifícios.  Tudo aqui é muito branco, é a primeira vez que você vê esta
@@ -473,11 +510,12 @@
     oeste.
   exits:
     east:
-      target_vnum: '3936'
+      target_vnum: 01010393936
     west:
-      target_vnum: '3938'
+      target_vnum: 01010393938
+  local_id: '3937'
   name: A Entrada Para o Santuário
-  vnum: '3937'
+  vnum: 01010393937
 - description: |-
     A medida que você entra nesta grande sala, você é agraciado com o
     sentimento da paz.  Há móveis em boas condições aqui.  Você se sente
@@ -486,13 +524,14 @@
     que fica ao oeste.
   exits:
     east:
-      target_vnum: '3937'
+      target_vnum: 01010393937
     north:
-      target_vnum: '3958'
+      target_vnum: 01010393958
     west:
-      target_vnum: '3939'
+      target_vnum: 01010393939
+  local_id: '3938'
   name: O Santuário
-  vnum: '3938'
+  vnum: 01010393938
 - description: |-
     Um altar coberto de sangue repousa no meio desta sala branca.  Ele parece
     um pouco deslocado de sua posição normal, deixando passar estranha luz
@@ -503,33 +542,36 @@
     pisa no lugar.
   exits:
     down:
-      target_vnum: '11400'
+      target_vnum: 010103911400
     east:
-      target_vnum: '3938'
+      target_vnum: 01010393938
+  local_id: '3939'
   name: No Altar
-  vnum: '3939'
+  vnum: 01010393939
 - description: |-
     A escadaria continua dando voltas e voltas a medida que você sobe pela
     torre.
     Ela parece continuar para sempre, sem que seu fim possa ser avistado.
   exits:
     down:
-      target_vnum: '3927'
+      target_vnum: 01010393927
     up:
-      target_vnum: '3941'
+      target_vnum: 01010393941
+  local_id: '3940'
   name: A Torre Norte
-  vnum: '3940'
+  vnum: 01010393940
 - description: |-
     A escadaria continua dando voltas e voltas a medida que você sobe pela
     torre.  Ela parece continuar para sempre, sem que seu fim possa ser
     avistado.
   exits:
     down:
-      target_vnum: '3940'
+      target_vnum: 01010393940
     up:
-      target_vnum: '3942'
+      target_vnum: 01010393942
+  local_id: '3941'
   name: Torre Norte
-  vnum: '3941'
+  vnum: 01010393941
 - description: |-
     Uma fresca brisa lhe dá as boas vindas a medida que você pisa a abertura
     no topo da Torre Norte.  Olhando abaixo, você percebe que tudo parece sem
@@ -539,9 +581,10 @@
     estrutura que é mais alta que esta torre é a Torre Principal.
   exits:
     down:
-      target_vnum: '3941'
+      target_vnum: 01010393941
+  local_id: '3942'
   name: O Topo da Torre Norte
-  vnum: '3942'
+  vnum: 01010393942
 - description: |-
     Tudo neste quarto tem alguma sombra carmesim, sendo a tonalidade
     vermelho-sangue a que prevalece.  Uma larga cama forrada com veludo vermelho
@@ -550,9 +593,10 @@
     paredes começam a sangrar...
   exits:
     east:
-      target_vnum: '3925'
+      target_vnum: 01010393925
+  local_id: '3943'
   name: O Quarto Carmesim
-  vnum: '3943'
+  vnum: 01010393943
 - description: |-
     O quarto é pouco mobiliado.  Poucas cadeiras e uma mesa ficam no meio da
     sala.  A atmosfera pesada, lhe da um sentimento de muita disciplina.  Há
@@ -560,9 +604,10 @@
     em caso de emergência.
   exits:
     east:
-      target_vnum: '3926'
+      target_vnum: 01010393926
+  local_id: '3944'
   name: O Posto da Guarda
-  vnum: '3944'
+  vnum: 01010393944
 - description: |-
     Este quarto fora designado para o conforto dos nobres, o que não seria
     possível hoje.  O esqueleto dos confortáveis móveis ainda estão de pé, seu
@@ -571,9 +616,10 @@
     destruído.
   exits:
     west:
-      target_vnum: '3926'
+      target_vnum: 01010393926
+  local_id: '3945'
   name: O Quarto dos Nobres
-  vnum: '3945'
+  vnum: 01010393945
 - description: |-
     Há muito tempo, os negócios do castelo eram resolvidos aqui.  Restaram
     pedaços quebrados de madeira onde a audiência costumava se sentar para
@@ -582,9 +628,10 @@
     do juíz.  Ela também está coberta de sangue seco.
   exits:
     west:
-      target_vnum: '3925'
+      target_vnum: 01010393925
+  local_id: '3946'
   name: A Sala da Corte
-  vnum: '3946'
+  vnum: 01010393946
 - description: |-
     Enjoativas, pálidas paredes amarelas lhe da as boas vindas a medida que
     você entra no quarto, que é completamente desprovido de mobília, a não ser
@@ -595,9 +642,10 @@
     suas narinas.
   exits:
     west:
-      target_vnum: '3928'
+      target_vnum: 01010393928
+  local_id: '3947'
   name: O Quarto Amarelo
-  vnum: '3947'
+  vnum: 01010393947
 - description: |-
     O quarto é pouco mobiliado.  Poucas cadeiras e uma mesa ficam no meio da
     sala.  A atmosfera pesada, lhe da um sentimento de muita disciplina.  Há
@@ -605,9 +653,10 @@
     em caso de emergência.
   exits:
     west:
-      target_vnum: '3929'
+      target_vnum: 01010393929
+  local_id: '3948'
   name: O Posto da Guarda
-  vnum: '3948'
+  vnum: 01010393948
 - description: |-
     Uma vez ricamente decorado para uma rainha, este quarto agora parece um
     matadouro.  Espelhos quebrados revestem as paredes junto com cortinas
@@ -616,9 +665,10 @@
     indicando a violência a qual sofreram os últimos habitantes deste quarto.
   exits:
     east:
-      target_vnum: '3929'
+      target_vnum: 01010393929
+  local_id: '3949'
   name: O Quarto de Repouso da Rainha
-  vnum: '3949'
+  vnum: 01010393949
 - description: |-
     Escuridão, escuridão, escuridão é tudo o que você pode ver deste quarto.
     Tudo aqui é negro.  Uma chama negra arde na lareira de obsidiana,
@@ -626,39 +676,43 @@
     rasgadas cortinas que se movem, parecendo ter vida.
   exits:
     east:
-      target_vnum: '3928'
+      target_vnum: 01010393928
+  local_id: '3950'
   name: O Quarto Negro
-  vnum: '3950'
+  vnum: 01010393950
 - description: |-
     A escadaria continua dando voltas e voltas a medida que você sobe pela
     torre.  Ela parece continuar para sempre, sem um fim a vista.
   exits:
     down:
-      target_vnum: '3931'
+      target_vnum: 01010393931
     up:
-      target_vnum: '3952'
+      target_vnum: 01010393952
+  local_id: '3951'
   name: A Torre Principal
-  vnum: '3951'
+  vnum: 01010393951
 - description: |-
     A escadaria continua dando voltas e voltas a medida que você sobe pela
     torre.  Ela parece continuar para sempre, sem um fim a vista.
   exits:
     down:
-      target_vnum: '3951'
+      target_vnum: 01010393951
     up:
-      target_vnum: '3953'
+      target_vnum: 01010393953
+  local_id: '3952'
   name: A Torre Principal
-  vnum: '3952'
+  vnum: 01010393952
 - description: |-
     A escadaria continua dando voltas e voltas a medida que você sobe pela
     torre.  Ela parece continuar para sempre, sem um fim a vista.
   exits:
     down:
-      target_vnum: '3952'
+      target_vnum: 01010393952
     up:
-      target_vnum: '3954'
+      target_vnum: 01010393954
+  local_id: '3953'
   name: A Torre Principal
-  vnum: '3953'
+  vnum: 01010393953
 - description: |-
     Habilmente nomeada de Torre Principal, ela se ergue acima de tudo o que
     você pode avistar.  Você pode ver daqui os campos abandonados, espalhados
@@ -667,11 +721,12 @@
     como se não bastasse, ele flui em direção ao castelo, e então...desaparece.
   exits:
     down:
-      target_vnum: '3953'
+      target_vnum: 01010393953
     south:
-      target_vnum: '3955'
+      target_vnum: 01010393955
+  local_id: '3954'
   name: O Topo da Torre Principal
-  vnum: '3954'
+  vnum: 01010393954
 - description: |-
     Este é um pequeno corredor, ricamente decorado.  Ele parece ser o único
     lugar que parece estar intacto, remanescendo do tempo de glória do castelo.
@@ -681,11 +736,12 @@
     para uma linda porta esculpida em madeira negra ao leste.
   exits:
     east:
-      target_vnum: '3956'
+      target_vnum: 01010393956
     north:
-      target_vnum: '3954'
+      target_vnum: 01010393954
+  local_id: '3955'
   name: O Corredor Dos Reis
-  vnum: '3955'
+  vnum: 01010393955
 - description: |-
     A porta pela qual você veio desaparece atrás de você.  Tudo aqui emite
     uma aura de decadência e morte.  Uma grossa camada de poeira parece cobrir
@@ -695,20 +751,22 @@
     convidar a se sentar.
   exits:
     north:
-      target_vnum: '3957'
+      target_vnum: 01010393957
     west:
-      target_vnum: '3955'
+      target_vnum: 01010393955
+  local_id: '3956'
   name: A Sala do Trono
-  vnum: '3956'
+  vnum: 01010393956
 - description: |-
     O que uma vez fora uma fortaleza, agora está aberta e destruída.  A
     grande porta maciça fora arrebentada e agora está jogada pelo chão.  Se já
     existiu qualquer coisa de valor aqui, foi saqueado há muito tempo atrás.
   exits:
     south:
-      target_vnum: '3956'
+      target_vnum: 01010393956
+  local_id: '3957'
   name: O Tesouro
-  vnum: '3957'
+  vnum: 01010393957
 - description: "Este quarto é o última fortaleza contra o mal que tomou este castelo.\n\
     Tudo aqui é magnificamente branco.  Não há sinal do mal, ou da destruição.\nA\
     \ sólida mobília de mármore, coberta com a mais fina seda lhe convida a\ndescansar.\
@@ -716,9 +774,10 @@
     \ sangue, pode-se ler a palavra \"PrIsÃ\x83o\"."
   exits:
     south:
-      target_vnum: '3938'
+      target_vnum: 01010393938
+  local_id: '3958'
   name: A Sala de Mármore
-  vnum: '3958'
+  vnum: 01010393958
 - description: |-
     Pode-se dizer que estes jardins já foram lindos há tempos atrás.
     Tristemente tudo o que restou foram plantas rasteiras e contorcidas.
@@ -726,9 +785,10 @@
     vida, coberto de cinzas e de morte.
   exits:
     east:
-      target_vnum: '3918'
+      target_vnum: 01010393918
+  local_id: '3959'
   name: Os Jardins Reais
-  vnum: '3959'
+  vnum: 01010393959
 - description: |-
     Pode-se dizer que estes jardins já foram lindos há tempos atrás.
     Tristemente tudo o que restou foram plantas rasteiras e contorcidas.
@@ -736,126 +796,138 @@
     vida, coberto de cinzas e de morte.
   exits:
     west:
-      target_vnum: '3918'
+      target_vnum: 01010393918
+  local_id: '3960'
   name: Os Jardins Reais
-  vnum: '3960'
+  vnum: 01010393960
 - description: |-
     Este é um pequeno quarto usado pelos membros da família real para escapar
     do castelo se este estivesse sob ameaça.  Acima, leva para a base da torre,
     e o caminho abaixo segue para os túneis de fuga.
   exits:
     down:
-      target_vnum: '3962'
+      target_vnum: 01010393962
     up:
-      target_vnum: '3927'
+      target_vnum: 01010393927
+  local_id: '3961'
   name: A Sala Secreta Embaixo da Torre Norte
-  vnum: '3961'
+  vnum: 01010393961
 - description: |-
     Escondidos nas profundezas do castelo, esta sala manteve-se secreta por
     anos.  Sarrafos de madeira e vigas sustentam o teto e as paredes.  Os túneis
     de fuga seguem a leste pela escuridão.
   exits:
     east:
-      target_vnum: '3963'
+      target_vnum: 01010393963
     up:
-      target_vnum: '3961'
+      target_vnum: 01010393961
+  local_id: '3962'
   name: A Entrada Para os Túneis de Fuga
-  vnum: '3962'
+  vnum: 01010393962
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     east:
-      target_vnum: '3964'
+      target_vnum: 01010393964
+  local_id: '3963'
   name: Os Túneis de Fuga
-  vnum: '3963'
+  vnum: 01010393963
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     east:
-      target_vnum: '3965'
+      target_vnum: 01010393965
     west:
-      target_vnum: '3963'
+      target_vnum: 01010393963
+  local_id: '3964'
   name: Os Túneis de Fuga
-  vnum: '3964'
+  vnum: 01010393964
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     north:
-      target_vnum: '3014'
+      target_vnum: 01010393014
     south:
-      target_vnum: '3966'
+      target_vnum: 01010393966
     west:
-      target_vnum: '3964'
+      target_vnum: 01010393964
+  local_id: '3965'
   name: Uma Curva no Túnel de Fuga
-  vnum: '3965'
+  vnum: 01010393965
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     north:
-      target_vnum: '3965'
+      target_vnum: 01010393965
     south:
-      target_vnum: '3967'
+      target_vnum: 01010393967
+  local_id: '3966'
   name: Os Túneis de Fuga
-  vnum: '3966'
+  vnum: 01010393966
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     north:
-      target_vnum: '3966'
+      target_vnum: 01010393966
     west:
-      target_vnum: '3968'
+      target_vnum: 01010393968
+  local_id: '3967'
   name: Uma Curva no Túnel de Fuga
-  vnum: '3967'
+  vnum: 01010393967
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     east:
-      target_vnum: '3967'
+      target_vnum: 01010393967
     north:
-      target_vnum: '3969'
+      target_vnum: 01010393969
     south:
-      target_vnum: '7031'
+      target_vnum: 01010397031
+  local_id: '3968'
   name: Uma Curva no Túnel de Fuga
-  vnum: '3968'
+  vnum: 01010393968
 - description: |-
     Um suave aclive pode ser percebido, e o túnel agora sobe em direção à
     escuridão.  Velhas e apodrecidas cordas se penduram da escuridão.  Se você
     deseja tentar, você pode escalar a rampa, ou pode seguir ao oeste.
   exits:
     south:
-      target_vnum: '3968'
+      target_vnum: 01010393968
     up:
-      target_vnum: '3970'
+      target_vnum: 01010393970
     west:
-      target_vnum: '3900'
+      target_vnum: 01010393900
+  local_id: '3969'
   name: Um Aclive nos Túneis de Fuga
-  vnum: '3969'
+  vnum: 01010393969
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     down:
-      target_vnum: '3969'
+      target_vnum: 01010393969
     south:
-      target_vnum: '3971'
+      target_vnum: 01010393971
+  local_id: '3970'
   name: Os Túneis de Fuga
-  vnum: '3970'
+  vnum: 01010393970
 - description: |-
     Os túneis são grandes o suficiente para que duas pessoas o atravessem ao
     mesmo tempo.
   exits:
     east:
-      target_vnum: '3972'
+      target_vnum: 01010393972
     north:
-      target_vnum: '3970'
+      target_vnum: 01010393970
+  local_id: '3971'
   name: Uma Curva no Túnel de Fuga
-  vnum: '3971'
+  vnum: 01010393971
 - description: |-
     Você sente a brisa em seu rosto, a medida que se aproxima da saída, mas
     você está indeciso por onde seguir, já que a brisa vem de duas direções
@@ -863,11 +935,12 @@
     escolha sabiamente.
   exits:
     east:
-      target_vnum: '3973'
+      target_vnum: 01010393973
     west:
-      target_vnum: '6427'
+      target_vnum: 01010396427
+  local_id: '3972'
   name: A Saída dos Túneis de Fuga
-  vnum: '3972'
+  vnum: 01010393972
 - description: |-
     Se livrando das roseiras bravas da saída do túnel, você se depara com uma
     pequena clareira.  A luz do sol brilha através dos galhos retorcidos e das
@@ -876,22 +949,24 @@
     vista.
   exits:
     east:
-      target_vnum: '3974'
+      target_vnum: 01010393974
     west:
-      target_vnum: '3972'
+      target_vnum: 01010393972
+  local_id: '3973'
   name: Uma Clareira Pelos Bosques
-  vnum: '3973'
+  vnum: 01010393973
 - description: |-
     Este caminho foi criado por algum animal que costumava usar esta trilha
     para chegar ao rio.  Tudo através do caminho é coberto pelo mesmo mofo
     asqueroso que cobria a clareira.
   exits:
     east:
-      target_vnum: '3975'
+      target_vnum: 01010393975
     west:
-      target_vnum: '3973'
+      target_vnum: 01010393973
+  local_id: '3974'
   name: Uma Trilha de Animais
-  vnum: '3974'
+  vnum: 01010393974
 - description: |-
     Este caminho foi criado por algum animal que costumava usar esta trilha
     para chegar ao rio.  Tudo através do caminho é coberto pelo mesmo mofo
@@ -900,11 +975,12 @@
     oeste, você volta à clareira.
   exits:
     east:
-      target_vnum: '3976'
+      target_vnum: 01010393976
     west:
-      target_vnum: '3974'
+      target_vnum: 01010393974
+  local_id: '3975'
   name: A Trilha de Animais Termina na Ribeira do Rio
-  vnum: '3975'
+  vnum: 01010393975
 - description: |-
     Escuras e observadoras contornam o rio.  Seus galhos tocam á água, como
     se quisessem lhe alcançar e lhe agarrar.  Coisas esbarram em suas pernas a
@@ -913,32 +989,35 @@
     oeste, ou apenas soltar o corpo e seguir a corrente.
   exits:
     down:
-      target_vnum: '3977'
+      target_vnum: 01010393977
     east:
-      target_vnum: '3906'
+      target_vnum: 01010393906
+  local_id: '3976'
   name: O Rio Talloren
-  vnum: '3976'
+  vnum: 01010393976
 - description: |-
     Quase sem fôlego, você se encontra afundado em uma piscina, abaixo das
     águas congelantes.  O único som é o da água correndo sobre sua cabeça.
   exits:
     up:
-      target_vnum: '3976'
+      target_vnum: 01010393976
     west:
-      target_vnum: '3978'
+      target_vnum: 01010393978
+  local_id: '3977'
   name: Uma Piscina Subterrânea
-  vnum: '3977'
+  vnum: 01010393977
 - description: |-
     A piscina o leva para uma pequena queda de água.  O suave barulho do cair
     das águas adiante, lhe diz que a queda não é muito grande.  Você pode voltar
     para a piscina ou simplesmente descer pelas águas.
   exits:
     down:
-      target_vnum: '3979'
+      target_vnum: 01010393979
     east:
-      target_vnum: '3977'
+      target_vnum: 01010393977
+  local_id: '3978'
   name: Uma Pequena Queda D´água
-  vnum: '3978'
+  vnum: 01010393978
 - description: |-
     Com um ressoante esguicho SPLASH!  ...  Você chega a uma piscina de água.
     O som de sua queda ecoa por toda a caverna.  A medida que você começa a
@@ -948,11 +1027,12 @@
     escuridão.
   exits:
     east:
-      target_vnum: '3905'
+      target_vnum: 01010393905
     west:
-      target_vnum: '3980'
+      target_vnum: 01010393980
+  local_id: '3979'
   name: A Base da Queda D'água
-  vnum: '3979'
+  vnum: 01010393979
 - description: |-
     Você chegou à costa de um lago congelado.  Você nota que está amargamente
     frio aqui.  Alguns flocos de neve flutuam pelo ar, caindo preguiçosamente
@@ -960,37 +1040,40 @@
     volta ao rio.
   exits:
     east:
-      target_vnum: '3979'
+      target_vnum: 01010393979
     north:
-      target_vnum: '3981'
+      target_vnum: 01010393981
     south:
-      target_vnum: '3982'
+      target_vnum: 01010393982
     west:
-      target_vnum: '3989'
+      target_vnum: 01010393989
+  local_id: '3980'
   name: A Costa do Lago Subterrâneo Congelado
-  vnum: '3980'
+  vnum: 01010393980
 - description: |-
     Grossos pedaços de gelo se amontoam pela costa, dificultando a passagem.
     Também dificulta a viagem, o fato de ser muito escorregadio aqui.  Lutando
     para chegar aqui, você desliza através do frio mortal.
   exits:
     south:
-      target_vnum: '3980'
+      target_vnum: 01010393980
     west:
-      target_vnum: '3983'
+      target_vnum: 01010393983
+  local_id: '3981'
   name: A Costa Norte do Lago Congelado
-  vnum: '3981'
+  vnum: 01010393981
 - description: |-
     Grossos pedaços de gelo se amontoam pela costa, dificultando a passagem.
     Também dificulta a viagem, o fato de ser muito escorregadio aqui.  Lutando
     para chegar aqui, você desliza através do frio mortal.
   exits:
     north:
-      target_vnum: '3980'
+      target_vnum: 01010393980
     west:
-      target_vnum: '3983'
+      target_vnum: 01010393983
+  local_id: '3982'
   name: A Costa Sul do Lago Congelado
-  vnum: '3982'
+  vnum: 01010393982
 - description: |-
     Este campo de gelo parece continuar além e além, seus limites não podem
     ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
@@ -998,15 +1081,16 @@
     abrigo.
   exits:
     east:
-      target_vnum: '3982'
+      target_vnum: 01010393982
     north:
-      target_vnum: '3984'
+      target_vnum: 01010393984
     south:
-      target_vnum: '3985'
+      target_vnum: 01010393985
     west:
-      target_vnum: '3983'
+      target_vnum: 01010393983
+  local_id: '3983'
   name: O Lago Congelado
-  vnum: '3983'
+  vnum: 01010393983
 - description: |-
     Este campo de gelo parece continuar além e além, seus limites não podem
     ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
@@ -1014,9 +1098,10 @@
     abrigo.
   exits:
     south:
-      target_vnum: '3986'
+      target_vnum: 01010393986
+  local_id: '3984'
   name: O Lago Congelado
-  vnum: '3984'
+  vnum: 01010393984
 - description: |-
     Este campo de gelo parece continuar além e além, seus limites não podem
     ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
@@ -1024,9 +1109,10 @@
     abrigo.
   exits:
     north:
-      target_vnum: '3986'
+      target_vnum: 01010393986
+  local_id: '3985'
   name: O Lago Congelado
-  vnum: '3985'
+  vnum: 01010393985
 - description: |-
     Este campo de gelo parece continuar além e além, seus limites não podem
     ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
@@ -1034,11 +1120,12 @@
     abrigo.
   exits:
     east:
-      target_vnum: '3987'
+      target_vnum: 01010393987
     south:
-      target_vnum: '3988'
+      target_vnum: 01010393988
+  local_id: '3986'
   name: O Lago Congelado
-  vnum: '3986'
+  vnum: 01010393986
 - description: |-
     Este campo de gelo parece continuar além e além, seus limites não podem
     ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
@@ -1046,11 +1133,12 @@
     abrigo.
   exits:
     north:
-      target_vnum: '3997'
+      target_vnum: 01010393997
     west:
-      target_vnum: '3986'
+      target_vnum: 01010393986
+  local_id: '3987'
   name: O Lago Congelado
-  vnum: '3987'
+  vnum: 01010393987
 - description: |-
     Este campo de gelo parece continuar além e além, seus limites não podem
     ser avistados.  O vento uiva e lhe chicoteia cruelmente a medida que você
@@ -1058,19 +1146,21 @@
     abrigo.
   exits:
     north:
-      target_vnum: '3986'
+      target_vnum: 01010393986
     south:
-      target_vnum: '3995'
+      target_vnum: 01010393995
+  local_id: '3988'
   name: O Lago Congelado
-  vnum: '3988'
+  vnum: 01010393988
 - description: |-
     Você está em um congelado lago subterrâneo.  O caminho é escorregadio, e
     você quase cai, ao se apressar para sair daqui antes que o gelo se parta.
   exits:
     east:
-      target_vnum: '3980'
+      target_vnum: 01010393980
+  local_id: '3989'
   name: No Congelado Lago Subterrâneo
-  vnum: '3989'
+  vnum: 01010393989
 - description: |-
     A medida que você olha a sua volta, tudo o que você vê é branco, já que
     tudo aqui está congelado.  Você mal acredita que alguma coisa poderia estar
@@ -1079,40 +1169,43 @@
     onde você veio, ou seguir ao norte para a caverna que você avistou.
   exits:
     north:
-      target_vnum: '3999'
+      target_vnum: 01010393999
     west:
-      target_vnum: '3991'
+      target_vnum: 01010393991
+  local_id: '3990'
   name: A Costa Oriental da Ilha Congelada
-  vnum: '3990'
+  vnum: 01010393990
 - description: |-
     Você está debaixo de uma grande e larga árvore congelada, que se estende
     quase até o teto da caverna.  Você percebe que a árvore é quase larga o
     suficiente para quem sabe...  Degraus?
   exits:
     east:
-      target_vnum: '3990'
+      target_vnum: 01010393990
     north:
-      target_vnum: '3997'
+      target_vnum: 01010393997
     south:
-      target_vnum: '3995'
+      target_vnum: 01010393995
     up:
-      target_vnum: '3992'
+      target_vnum: 01010393992
     west:
-      target_vnum: '3996'
+      target_vnum: 01010393996
+  local_id: '3991'
   name: O Centro da Ilha Congelada
-  vnum: '3991'
+  vnum: 01010393991
 - description: |-
     Você está em uma rampa de degraus escorregadios.  Você pode seguir para
     cima ou para baixo daqui.
   exits:
     down:
-      target_vnum: '3994'
+      target_vnum: 01010393994
     south:
-      target_vnum: '3991'
+      target_vnum: 01010393991
     up:
-      target_vnum: '3993'
+      target_vnum: 01010393993
+  local_id: '3992'
   name: "Na Ã\x81rvore de Damorask"
-  vnum: '3992'
+  vnum: 01010393992
 - description: |-
     Você está na câmara de gelo do Gigante Congelado.  Ele senta em um grande
     trono feito de cristal, como sentinela para Damorask.  Do teto, você vê
@@ -1120,18 +1213,20 @@
     que eles são de cor avermelhada.
   exits:
     down:
-      target_vnum: '3992'
+      target_vnum: 01010393992
+  local_id: '3993'
   name: A Câmara do Gigante Congelado
-  vnum: '3993'
+  vnum: 01010393993
 - description: |-
     Você adentrou o santuário de Damorask, um antigo mago que reinou por
     estas terras por séculos.  Ele está atrás de uma mesa, feita de puro gelo,
     preparando novos modos de reger as forças do mal.
   exits:
     up:
-      target_vnum: '3992'
+      target_vnum: 01010393992
+  local_id: '3994'
   name: O Santuário de Damorask
-  vnum: '3994'
+  vnum: 01010393994
 - description: |-
     Você está na costa sul da Ilha Congelada.  Ao norte você pode ver a
     árvore de Damorask, enquanto ao sul, você vê mais do lago congelado.  Parece
@@ -1139,9 +1234,10 @@
     aqui recentemente.
   exits:
     north:
-      target_vnum: '3991'
+      target_vnum: 01010393991
+  local_id: '3995'
   name: A Costa Sul da Ilha Congelada
-  vnum: '3995'
+  vnum: 01010393995
 - description: |-
     Você está na costa oeste da Ilha Congelada.  Ao leste você pode ver a
     árvore de Damorask, enquanto ao oeste, você vê mais do lago congelado.
@@ -1149,9 +1245,10 @@
     estado aqui recentemente.
   exits:
     east:
-      target_vnum: '3991'
+      target_vnum: 01010393991
+  local_id: '3996'
   name: A Costa Ocidental da Ilha Congelada
-  vnum: '3996'
+  vnum: 01010393996
 - description: |-
     Você está na costa norte da Ilha Congelada.  Ao sul você pode ver a
     árvore de Damorask, enquanto ao norte, você vê mais do lago congelado.
@@ -1159,23 +1256,26 @@
     cavado aqui recentemente.
   exits:
     down:
-      target_vnum: '3998'
+      target_vnum: 01010393998
     south:
-      target_vnum: '3991'
+      target_vnum: 01010393991
+  local_id: '3997'
   name: A Costa Norte da Ilha Congelada
-  vnum: '3997'
+  vnum: 01010393997
 - description: Você encontrou a antiga sala de tesouros do Gigante Congelado!
   exits:
     up:
-      target_vnum: '3997'
+      target_vnum: 01010393997
+  local_id: '3998'
   name: Uma Sala Secreta!
-  vnum: '3998'
+  vnum: 01010393998
 - description: |-
     Você adentrou a caverna da Besta da Neve.  A sua volta, você vê os ossos
     dos outros visitantes desta ilha que não foram fortes o suficiente para
     passar por este monstro.
   exits:
     south:
-      target_vnum: '3990'
+      target_vnum: 01010393990
+  local_id: '3999'
   name: A Caverna da Besta da Neve
-  vnum: '3999'
+  vnum: 01010393999

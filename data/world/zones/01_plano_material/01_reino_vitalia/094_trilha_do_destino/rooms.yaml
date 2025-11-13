@@ -5,11 +5,12 @@
     vê uma trilha e ao sul há um caminho para uma cabana.
   exits:
     north:
-      target_vnum: '9402'
+      target_vnum: 01010949402
     south:
-      target_vnum: '1802'
+      target_vnum: 01010941802
+  local_id: '9401'
   name: Trilha do Destino
-  vnum: '9401'
+  vnum: 01010949401
 - description: |-
     Você está numa grande trilha, quanto mais você se aproxima do final da
     trilha, mais seus olhos ficam perturbados.  Um sentimento que você nunca
@@ -17,11 +18,12 @@
     norte você adentra ainda mais.
   exits:
     north:
-      target_vnum: '9403'
+      target_vnum: 01010949403
     south:
-      target_vnum: '9401'
+      target_vnum: 01010949401
+  local_id: '9402'
   name: Trilha do Destino
-  vnum: '9402'
+  vnum: 01010949402
 - description: |-
     Você está numa grande trilha.  Ao fundo, é posssível ouvir barulhos
     estranhos, como se almas vagassem por aqui.  Você está perplexo, tendo
@@ -30,13 +32,14 @@
     outra trilha começando ao oeste.
   exits:
     north:
-      target_vnum: '9404'
+      target_vnum: 01010949404
     south:
-      target_vnum: '9402'
+      target_vnum: 01010949402
     west:
-      target_vnum: '22200'
+      target_vnum: 010109422200
+  local_id: '9403'
   name: Trilha do Destino
-  vnum: '9403'
+  vnum: 01010949403
 - description: |-
     Você está no Final da Trilha do Destino.   Daqui você pode ver a oeste
     um grande portal que reluz como ouro, totalmente rodeado por flores
@@ -45,15 +48,16 @@
     a extensa trilha.
   exits:
     east:
-      target_vnum: '9410'
+      target_vnum: 01010949410
     north:
-      target_vnum: '2100'
+      target_vnum: 01010942100
     south:
-      target_vnum: '9403'
+      target_vnum: 01010949403
     west:
-      target_vnum: '9405'
+      target_vnum: 01010949405
+  local_id: '9404'
   name: Final da Trilha do Destino
-  vnum: '9404'
+  vnum: 01010949404
 - description: |-
     Você está diante do grande Santuário dos Deuses Supremos e Criadores
     do mundo de Vitália.  Uma grande luz emana de dentro do Santuário e você
@@ -62,11 +66,12 @@
     você vê o grande santuário e a leste o final de uma trilha.
   exits:
     east:
-      target_vnum: '9404'
+      target_vnum: 01010949404
     west:
-      target_vnum: '9406'
+      target_vnum: 01010949406
+  local_id: '9405'
   name: O Portal do Santuário
-  vnum: '9405'
+  vnum: 01010949405
 - description: |-
     Você está dentro do Santuário.  Ao norte e ao sul você vê as grandes
     estátuas dos Deuses Criadores. No fundo do corredor você tem sua vista
@@ -74,39 +79,43 @@
     você pode ver o grande portal.
   exits:
     east:
-      target_vnum: '9405'
+      target_vnum: 01010949405
     north:
-      target_vnum: '9409'
+      target_vnum: 01010949409
     south:
-      target_vnum: '9408'
+      target_vnum: 01010949408
     west:
-      target_vnum: '9407'
+      target_vnum: 01010949407
+  local_id: '9406'
   name: O Santuário
-  vnum: '9406'
+  vnum: 01010949406
 - description: "Você esta diante da estátua dos grandes Deuses Supremos. Feitas\n\
-    totalmente em ouro e marfim. Ã\x89 incompreensÃ­vel como tanta beleza pode\nficar\
+    totalmente em ouro e marfim. Ã\x89 incompreensível como tanta beleza pode\nficar\
     \ intacta milenios após sua construção.  A leste fica o centro da\nsala."
   exits:
     east:
-      target_vnum: '9406'
+      target_vnum: 01010949406
+  local_id: '9407'
   name: O Santuário
-  vnum: '9407'
+  vnum: 01010949407
 - description: "Você esta diante da estátua dos grandes Deuses Criadores, feita\n\
-    totalmente em ouro e marfim. Ã\x89 incompreensÃ­vel como tanta beleza pode\nficar\
+    totalmente em ouro e marfim. Ã\x89 incompreensível como tanta beleza pode\nficar\
     \ intacta milênios após sua construção.  Ao norte você pode ver\no centro da sala."
   exits:
     north:
-      target_vnum: '9406'
+      target_vnum: 01010949406
+  local_id: '9408'
   name: O Santuário
-  vnum: '9408'
+  vnum: 01010949408
 - description: "Você esta diante da estátua dos grandes Deuses Criadores. Feitas\n\
-    totalmente em ouro e marfim. Ã\x89 incompreensÃ­vel como tanta beleza pode\nficar\
+    totalmente em ouro e marfim. Ã\x89 incompreensível como tanta beleza pode\nficar\
     \ intacta milenios após sua construção.  Ao sul você pode ver o\ncentro da sala."
   exits:
     south:
-      target_vnum: '9406'
+      target_vnum: 01010949406
+  local_id: '9409'
   name: O Santuário
-  vnum: '9409'
+  vnum: 01010949409
 - description: |-
     Você esta diante de um portal nebuloso, coberto por nuvens escuras.
     Gemidos vindos de dentro ecoam por todos os lados, um sentimento de
@@ -115,11 +124,12 @@
     importantes.  A leste você uma grande sala e oeste o final de uma trilha.
   exits:
     east:
-      target_vnum: '9411'
+      target_vnum: 01010949411
     west:
-      target_vnum: '9404'
+      target_vnum: 01010949404
+  local_id: '9410'
   name: Portal da Desolação
-  vnum: '9410'
+  vnum: 01010949410
 - description: |-
     Você está dentro de uma grande sala, duas pequenas tochas iluminam esse
     lugar sombrio. Ao norte e ao sul você pode ver enormes blocos de gelo.
@@ -128,15 +138,16 @@
     há uma fonte jorrando um líquido estranho, de cor avermelhada.
   exits:
     east:
-      target_vnum: '9414'
+      target_vnum: 01010949414
     north:
-      target_vnum: '9413'
+      target_vnum: 01010949413
     south:
-      target_vnum: '9412'
+      target_vnum: 01010949412
     west:
-      target_vnum: '9410'
+      target_vnum: 01010949410
+  local_id: '9411'
   name: Sala da Desolação
-  vnum: '9411'
+  vnum: 01010949411
 - description: |-
     Você está diante de grandes blocos de gelo, dentro deles você pode ver o
     corpos apodrecidos mas que ainda parecem estar vivos em algum lugar, onde
@@ -144,9 +155,10 @@
     o centro da sala.
   exits:
     north:
-      target_vnum: '9411'
+      target_vnum: 01010949411
+  local_id: '9412'
   name: Sala da Desolação
-  vnum: '9412'
+  vnum: 01010949412
 - description: |-
     Você está diante de grandes blocos de gelo, dentro deles você pode ver os
     corpos apodrecidos mas que ainda parecem estar vivos em algum lugar, onde
@@ -154,9 +166,10 @@
     o centro da sala.
   exits:
     south:
-      target_vnum: '9411'
+      target_vnum: 01010949411
+  local_id: '9413'
   name: Sala da Desolação
-  vnum: '9413'
+  vnum: 01010949413
 - description: |-
     Você está no início de um grande corredor.  Este lugar é gélido e
     sombrio, só de olhar você já sente arrepios.  Morcegos dormem dependurados
@@ -164,11 +177,12 @@
     grande sala.
   exits:
     east:
-      target_vnum: '9415'
+      target_vnum: 01010949415
     west:
-      target_vnum: '9411'
+      target_vnum: 01010949411
+  local_id: '9414'
   name: Inicio do Corredor
-  vnum: '9414'
+  vnum: 01010949414
 - description: |-
     A cada passo que você dá parece que a iluminação fica cada vez mais
     fraca.  Um vento frio quase apaga as tochas penduradas nas paredes feitas de
@@ -176,22 +190,24 @@
     sul você vê muito pouco por causa da falta de iluminação.
   exits:
     south:
-      target_vnum: '9416'
+      target_vnum: 01010949416
     west:
-      target_vnum: '9414'
+      target_vnum: 01010949414
+  local_id: '9415'
   name: Corredor Sombrio
-  vnum: '9415'
+  vnum: 01010949415
 - description: |-
     Nosssaaaaaa !!!! Um morcego enorme atirou-se por cima de você!!!
     Cuidado!!   Com certeza ele estava mais com medo de você do que você dele.
     O longo corredor continua a norte e a leste.
   exits:
     east:
-      target_vnum: '9417'
+      target_vnum: 01010949417
     north:
-      target_vnum: '9415'
+      target_vnum: 01010949415
+  local_id: '9416'
   name: Corredor Sombrio
-  vnum: '9416'
+  vnum: 01010949416
 - description: |-
     Tudo está muito escuro aqui.  Nem queira imaginar o que aconteceria se
     você estivesse sem sua luz.   Esta parte do corredor está totalmente escura,
@@ -199,11 +215,12 @@
     vê que o corredor continua a oeste e ao sul.
   exits:
     south:
-      target_vnum: '9418'
+      target_vnum: 01010949418
     west:
-      target_vnum: '9416'
+      target_vnum: 01010949416
+  local_id: '9417'
   name: Corredor Sombrio
-  vnum: '9417'
+  vnum: 01010949417
 - description: |-
     Você tropeça em algo... Ahhhhhhhhhhhhh !!! Uma caveira apodrecida pelo
     tempo.  Pobre coitado, pelo jeito esse não teve tempo de conhecer o resto
@@ -212,11 +229,12 @@
     que ele se alonga cada vez mais.
   exits:
     east:
-      target_vnum: '9419'
+      target_vnum: 01010949419
     north:
-      target_vnum: '9417'
+      target_vnum: 01010949417
+  local_id: '9418'
   name: Corredor Sombrio
-  vnum: '9418'
+  vnum: 01010949418
 - description: |-
     Você vê um alçapão no chão, muito antigo e muito pesado.  Uma escada
     velha e apodrecida leva até o subterrâneo.  Será que seria uma boa idéia
@@ -224,33 +242,36 @@
     grande corredor.
   exits:
     down:
-      target_vnum: '9420'
+      target_vnum: 01010949420
     west:
-      target_vnum: '9418'
+      target_vnum: 01010949418
+  local_id: '9419'
   name: Fim do Corredor
-  vnum: '9419'
+  vnum: 01010949419
 - description: |-
     Parece que você não tem muita escolha, tanto para cima quanto para baixo
     é quase impossivel de se ver.  Esse alçapão é estreito e muito sujo, parece
     que não passa alguem aqui há anos.
   exits:
     down:
-      target_vnum: '9421'
+      target_vnum: 01010949421
     up:
-      target_vnum: '9419'
+      target_vnum: 01010949419
+  local_id: '9420'
   name: A Escada
-  vnum: '9420'
+  vnum: 01010949420
 - description: |-
     A escada é mais longa do que você imaginava.  E parece que não muito
     resistente também.  Você escuta gritos vindos lá de baixo.  Para cima a luz
     é tão fraca que você não pode ver quase nada.
   exits:
     down:
-      target_vnum: '9422'
+      target_vnum: 01010949422
     up:
-      target_vnum: '9420'
+      target_vnum: 01010949420
+  local_id: '9421'
   name: A Escada
-  vnum: '9421'
+  vnum: 01010949421
 - description: |-
     Você está no final da escada e, graças a quatro tochas enormes, a
     iluminação nesta sala é razoável.  Você vê a oeste uma porta enorme
@@ -260,8 +281,9 @@
     parede.
   exits:
     up:
-      target_vnum: '9421'
+      target_vnum: 01010949421
     west:
-      target_vnum: '600'
+      target_vnum: 01010940600
+  local_id: '9422'
   name: O Fim da Escada
-  vnum: '9422'
+  vnum: 01010949422

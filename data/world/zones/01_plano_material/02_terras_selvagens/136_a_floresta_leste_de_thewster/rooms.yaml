@@ -3,554 +3,599 @@
     Thewster, ao oeste seu caminho é bloqueado por um alto precipício.
   exits:
     east:
-      target_vnum: '13601'
+      target_vnum: '010213613601'
     south:
-      target_vnum: '13610'
+      target_vnum: '010213613610'
+  local_id: '13600'
   name: A Floresta
-  vnum: '13600'
+  vnum: '010213613600'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster,  pequenas  gotas  de luz alcançam você. Ao oeste você pode ver um
     alto precipício.
   exits:
     east:
-      target_vnum: '13602'
+      target_vnum: '010213613602'
     west:
-      target_vnum: '13600'
+      target_vnum: '010213613600'
+  local_id: '13601'
   name: A Floresta
-  vnum: '13601'
+  vnum: '010213613601'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster,  pequenas  gotas  de luz alcançam você. Ao oeste você pode ver um
     alto precipício.
   exits:
     east:
-      target_vnum: '13603'
+      target_vnum: '010213613603'
     west:
-      target_vnum: '13601'
+      target_vnum: '010213613601'
+  local_id: '13602'
   name: A Floresta
-  vnum: '13602'
+  vnum: '010213613602'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você.
   exits:
     east:
-      target_vnum: '13604'
+      target_vnum: '010213613604'
     west:
-      target_vnum: '13602'
+      target_vnum: '010213613602'
+  local_id: '13603'
   name: A Floresta
-  vnum: '13603'
+  vnum: '010213613603'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você.
   exits:
     east:
-      target_vnum: '13605'
+      target_vnum: '010213613605'
     west:
-      target_vnum: '13603'
+      target_vnum: '010213613603'
+  local_id: '13604'
   name: A Floresta
-  vnum: '13604'
+  vnum: '010213613604'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você.
   exits:
     east:
-      target_vnum: '13606'
+      target_vnum: '010213613606'
     south:
-      target_vnum: '13615'
+      target_vnum: '010213613615'
     west:
-      target_vnum: '13604'
+      target_vnum: '010213613604'
+  local_id: '13605'
   name: A Floresta
-  vnum: '13605'
+  vnum: '010213613605'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você.
   exits:
     east:
-      target_vnum: '13607'
+      target_vnum: '010213613607'
     west:
-      target_vnum: '13605'
+      target_vnum: '010213613605'
+  local_id: '13606'
   name: A Floresta
-  vnum: '13606'
+  vnum: '010213613606'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster,  pequenas  gotas  de  luz  alcançam você. Você quase pode ver uma
     clareira ao leste.
   exits:
     east:
-      target_vnum: '13608'
+      target_vnum: 010213613608
     west:
-      target_vnum: '13606'
+      target_vnum: '010213613606'
+  local_id: '13607'
   name: A Floresta
-  vnum: '13607'
+  vnum: '010213613607'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster,  pequenas  gotas  de  luz  alcançam você. Você quase pode ver uma
     clareira ao leste.
   exits:
     east:
-      target_vnum: '13609'
+      target_vnum: 010213613609
     south:
-      target_vnum: '13618'
+      target_vnum: 010213613618
     west:
-      target_vnum: '13607'
+      target_vnum: '010213613607'
+  local_id: '13608'
   name: A Floresta
-  vnum: '13608'
+  vnum: 010213613608
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster,  pequenas  gotas  de  luz  alcançam você. Você quase pode ver uma
     clareira ao leste.
   exits:
     east:
-      target_vnum: '13558'
+      target_vnum: 010213613558
     west:
-      target_vnum: '13608'
+      target_vnum: 010213613608
+  local_id: '13609'
   name: A Floresta
-  vnum: '13609'
+  vnum: 010213613609
 - description: |-
     As  folhas  e galhos se partem e estalam debaixo de seus pés. Ao oeste um
     precipício impede sua passagem.
   exits:
     east:
-      target_vnum: '13611'
+      target_vnum: '010213613611'
     north:
-      target_vnum: '13600'
+      target_vnum: '010213613600'
     south:
-      target_vnum: '13619'
+      target_vnum: 010213613619
+  local_id: '13610'
   name: A Floresta
-  vnum: '13610'
+  vnum: '010213613610'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     east:
-      target_vnum: '13612'
+      target_vnum: '010213613612'
     south:
-      target_vnum: '13620'
+      target_vnum: '010213613620'
     west:
-      target_vnum: '13610'
+      target_vnum: '010213613610'
+  local_id: '13611'
   name: A Floresta
-  vnum: '13611'
+  vnum: '010213613611'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     south:
-      target_vnum: '13621'
+      target_vnum: '010213613621'
     west:
-      target_vnum: '13611'
+      target_vnum: '010213613611'
+  local_id: '13612'
   name: A Floresta
-  vnum: '13612'
+  vnum: '010213613612'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     east:
-      target_vnum: '13614'
+      target_vnum: '010213613614'
     south:
-      target_vnum: '13622'
+      target_vnum: '010213613622'
+  local_id: '13613'
   name: A Floresta
-  vnum: '13613'
+  vnum: '010213613613'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     east:
-      target_vnum: '13615'
+      target_vnum: '010213613615'
     south:
-      target_vnum: '13623'
+      target_vnum: '010213613623'
     west:
-      target_vnum: '13613'
+      target_vnum: '010213613613'
+  local_id: '13614'
   name: A Floresta
-  vnum: '13614'
+  vnum: '010213613614'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     east:
-      target_vnum: '13616'
+      target_vnum: '010213613616'
     north:
-      target_vnum: '13605'
+      target_vnum: '010213613605'
     south:
-      target_vnum: '13624'
+      target_vnum: '010213613624'
     west:
-      target_vnum: '13614'
+      target_vnum: '010213613614'
+  local_id: '13615'
   name: A Floresta
-  vnum: '13615'
+  vnum: '010213613615'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     east:
-      target_vnum: '13617'
+      target_vnum: '010213613617'
     south:
-      target_vnum: '13625'
+      target_vnum: '010213613625'
     west:
-      target_vnum: '13615'
+      target_vnum: '010213613615'
+  local_id: '13616'
   name: A Floresta
-  vnum: '13616'
+  vnum: '010213613616'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     east:
-      target_vnum: '13618'
+      target_vnum: 010213613618
     south:
-      target_vnum: '13626'
+      target_vnum: '010213613626'
     west:
-      target_vnum: '13616'
+      target_vnum: '010213613616'
+  local_id: '13617'
   name: A Floresta
-  vnum: '13617'
+  vnum: '010213613617'
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, pequenas gotas de luz alcançam você. Você pode ver uma estrada ao
     sul.
   exits:
     north:
-      target_vnum: '13608'
+      target_vnum: 010213613608
     south:
-      target_vnum: '13627'
+      target_vnum: '010213613627'
     west:
-      target_vnum: '13617'
+      target_vnum: '010213613617'
+  local_id: '13618'
   name: A Floresta
-  vnum: '13618'
+  vnum: 010213613618
 - description: |-
     Você  está  caminhando  através  das  barulhentas  folhas  da Floresta de
     Thewster, um precipício impede sua passagem ao oeste.
   exits:
     east:
-      target_vnum: '13620'
+      target_vnum: '010213613620'
     north:
-      target_vnum: '13610'
+      target_vnum: '010213613610'
     south:
-      target_vnum: '13629'
+      target_vnum: 010213613629
+  local_id: '13619'
   name: A Floresta
-  vnum: '13619'
+  vnum: 010213613619
 - description: |-
     A  estrada  começa  a  ficar  barrenta  aqui,  ao  oeste você pode ver um
     precipício por entre as árvores. A estrada segue a leste e ao sul.
   exits:
     east:
-      target_vnum: '13621'
+      target_vnum: '010213613621'
     north:
-      target_vnum: '13611'
+      target_vnum: '010213613611'
     south:
-      target_vnum: '13630'
+      target_vnum: '010213613630'
     west:
-      target_vnum: '13619'
+      target_vnum: 010213613619
+  local_id: '13620'
   name: A Estrada
-  vnum: '13620'
+  vnum: '010213613620'
 - description: |-
     Você caminha ao longo de uma longa, longa estrada, aparentemente sem fim.
     A floresta limita a estrada por todos os lados, deixando apenas finos raios
     de sol chegarem até você. A estrada segue a leste e a oeste.
   exits:
     east:
-      target_vnum: '13622'
+      target_vnum: '010213613622'
     north:
-      target_vnum: '13612'
+      target_vnum: '010213613612'
     south:
-      target_vnum: '13631'
+      target_vnum: '010213613631'
     west:
-      target_vnum: '13620'
+      target_vnum: '010213613620'
+  local_id: '13621'
   name: A Estrada
-  vnum: '13621'
+  vnum: '010213613621'
 - description: |-
     Você caminha ao longo de uma longa, longa estrada, aparentemente sem fim.
     A floresta limita a estrada por todos os lados, deixando apenas finos raios
     de sol chegarem até você. A estrada segue a leste e a oeste.
   exits:
     east:
-      target_vnum: '13623'
+      target_vnum: '010213613623'
     north:
-      target_vnum: '13613'
+      target_vnum: '010213613613'
     south:
-      target_vnum: '13632'
+      target_vnum: '010213613632'
     west:
-      target_vnum: '13621'
+      target_vnum: '010213613621'
+  local_id: '13622'
   name: A Estrada
-  vnum: '13622'
+  vnum: '010213613622'
 - description: |-
     Você caminha ao longo de uma longa, longa estrada, aparentemente sem fim.
     A floresta limita a estrada por todos os lados, deixando apenas finos raios
     de sol chegarem até você. A estrada segue a leste e a oeste.
   exits:
     east:
-      target_vnum: '13624'
+      target_vnum: '010213613624'
     north:
-      target_vnum: '13614'
+      target_vnum: '010213613614'
     south:
-      target_vnum: '13633'
+      target_vnum: '010213613633'
     west:
-      target_vnum: '13622'
+      target_vnum: '010213613622'
+  local_id: '13623'
   name: A Estrada
-  vnum: '13623'
+  vnum: '010213613623'
 - description: |-
     Você caminha ao longo de uma longa, longa estrada, aparentemente sem fim.
     A floresta limita a estrada por todos os lados, deixando apenas finos raios
     de sol chegarem até você. A estrada segue a leste e a oeste.
   exits:
     east:
-      target_vnum: '13625'
+      target_vnum: '010213613625'
     north:
-      target_vnum: '13615'
+      target_vnum: '010213613615'
     south:
-      target_vnum: '13634'
+      target_vnum: '010213613634'
     west:
-      target_vnum: '13623'
+      target_vnum: '010213613623'
+  local_id: '13624'
   name: A Estrada
-  vnum: '13624'
+  vnum: '010213613624'
 - description: |-
     Uma  árvore  foi  derrubada  pelo  vento aqui, dificultando a passagem. A
     floresta  limita  a estrada por todos os lados, deixando apenas finos raios
     de sol chegarem até você. A estrada segue a leste e a oeste.
   exits:
     east:
-      target_vnum: '13626'
+      target_vnum: '010213613626'
     north:
-      target_vnum: '13616'
+      target_vnum: '010213613616'
     west:
-      target_vnum: '13624'
+      target_vnum: '010213613624'
+  local_id: '13625'
   name: A Estrada
-  vnum: '13625'
+  vnum: '010213613625'
 - description: |-
     Você  caminha  ao  longo da estrada pelo tempo que parece ser infinito. A
     estrada segue a leste e ao oeste.
   exits:
     east:
-      target_vnum: '13627'
+      target_vnum: '010213613627'
     north:
-      target_vnum: '13617'
+      target_vnum: '010213613617'
     west:
-      target_vnum: '13625'
+      target_vnum: '010213613625'
+  local_id: '13626'
   name: A Estrada
-  vnum: '13626'
+  vnum: '010213613626'
 - description: |-
     Você  caminha  ao  longo da estrada pelo tempo que parece ser infinito. A
     estrada segue a leste e ao oeste.
   exits:
     east:
-      target_vnum: '13628'
+      target_vnum: 010213613628
     north:
-      target_vnum: '13618'
+      target_vnum: 010213613618
     west:
-      target_vnum: '13626'
+      target_vnum: '010213613626'
+  local_id: '13627'
   name: A Estrada
-  vnum: '13627'
+  vnum: '010213613627'
 - description: |-
     Você  caminha  ao  longo da estrada pelo tempo que parece ser infinito. A
     estrada segue a leste e ao oeste.
   exits:
     east:
-      target_vnum: '13570'
+      target_vnum: '010213613570'
     south:
-      target_vnum: '13638'
+      target_vnum: 010213613638
     west:
-      target_vnum: '13627'
+      target_vnum: '010213613627'
+  local_id: '13628'
   name: A Estrada
-  vnum: '13628'
+  vnum: 010213613628
 - description: |-
     Um  grande  precipício de granito impede a estrada de continuar ao oeste,
     assim, a estrada faz uma curva aqui, seguindo para o leste e para o sul.
   exits:
     east:
-      target_vnum: '13630'
+      target_vnum: '010213613630'
     north:
-      target_vnum: '13619'
+      target_vnum: 010213613619
     south:
-      target_vnum: '13639'
+      target_vnum: 010213613639
+  local_id: '13629'
   name: A Estrada
-  vnum: '13629'
+  vnum: 010213613629
 - description: |-
     Você  caminha  ao  longo da estrada pelo tempo que parece ser infinito. A
     estrada segue a norte e oeste.
   exits:
     east:
-      target_vnum: '13631'
+      target_vnum: '010213613631'
     north:
-      target_vnum: '13620'
+      target_vnum: '010213613620'
     south:
-      target_vnum: '13640'
+      target_vnum: '010213613640'
     west:
-      target_vnum: '13629'
+      target_vnum: 010213613629
+  local_id: '13630'
   name: A Estrada
-  vnum: '13630'
+  vnum: '010213613630'
 - description: A floresta se estreita aqui, você pode ver a estrada ao norte e ao
     oeste.
   exits:
     east:
-      target_vnum: '13632'
+      target_vnum: '010213613632'
     north:
-      target_vnum: '13621'
+      target_vnum: '010213613621'
     south:
-      target_vnum: '13641'
+      target_vnum: '010213613641'
     west:
-      target_vnum: '13630'
+      target_vnum: '010213613630'
+  local_id: '13631'
   name: A Floresta
-  vnum: '13631'
+  vnum: '010213613631'
 - description: |-
     Você caminha através de uma densa floresta. Não há sinais de civilização.
     Você pode ver a estrada ao norte.
   exits:
     east:
-      target_vnum: '13633'
+      target_vnum: '010213613633'
     north:
-      target_vnum: '13622'
+      target_vnum: '010213613622'
     south:
-      target_vnum: '13642'
+      target_vnum: '010213613642'
     west:
-      target_vnum: '13631'
+      target_vnum: '010213613631'
+  local_id: '13632'
   name: A Floresta
-  vnum: '13632'
+  vnum: '010213613632'
 - description: |-
     Você caminha através de uma densa floresta. Não há sinais de civilização.
     Você pode ver a estrada ao norte.
   exits:
     east:
-      target_vnum: '13634'
+      target_vnum: '010213613634'
     north:
-      target_vnum: '13623'
+      target_vnum: '010213613623'
     west:
-      target_vnum: '13632'
+      target_vnum: '010213613632'
+  local_id: '13633'
   name: A Floresta
-  vnum: '13633'
+  vnum: '010213613633'
 - description: |-
     Você caminha através de uma densa floresta.  Cuidado, há um grande buraco
     no chão à sua frente.  Não há sinais de civilização.  Você pode ver a
     estrada ao norte.
   exits:
     down:
-      target_vnum: '13451'
+      target_vnum: '010213613451'
     east:
-      target_vnum: '13635'
+      target_vnum: '010213613635'
     north:
-      target_vnum: '13624'
+      target_vnum: '010213613624'
     west:
-      target_vnum: '13633'
+      target_vnum: '010213613633'
+  local_id: '13634'
   name: A Floresta
-  vnum: '13634'
+  vnum: '010213613634'
 - description: |-
     Você caminha através de uma densa floresta. Não há sinais de civilização.
     A  floresta se torna realmente densa aqui, e as únicas saídas são a leste e
     a oeste.
   exits:
     east:
-      target_vnum: '13636'
+      target_vnum: '010213613636'
     west:
-      target_vnum: '13634'
+      target_vnum: '010213613634'
+  local_id: '13635'
   name: A Floresta
-  vnum: '13635'
+  vnum: '010213613635'
 - description: |-
     Você caminha através de uma densa floresta. Não há sinais de civilização.
     A  floresta se torna realmente densa aqui, e as únicas saídas são a leste e
     a oeste.
   exits:
     east:
-      target_vnum: '13637'
+      target_vnum: '010213613637'
     west:
-      target_vnum: '13635'
+      target_vnum: '010213613635'
+  local_id: '13636'
   name: A Floresta
-  vnum: '13636'
+  vnum: '010213613636'
 - description: |-
     Você caminha através de uma densa floresta. Não há sinais de civilização.
     A  floresta se torna realmente densa aqui, e as únicas saídas são a leste e
     a oeste.
   exits:
     east:
-      target_vnum: '13638'
+      target_vnum: 010213613638
     west:
-      target_vnum: '13636'
+      target_vnum: '010213613636'
+  local_id: '13637'
   name: A Floresta
-  vnum: '13637'
+  vnum: '010213613637'
 - description: |-
     Todas as árvores daqui vieram ao chão por algum misterioso motivo, a única
     saída é a estrada ao norte e a floresta que continua ao oeste.
   exits:
     north:
-      target_vnum: '13628'
+      target_vnum: 010213613628
     west:
-      target_vnum: '13637'
+      target_vnum: '010213613637'
+  local_id: '13638'
   name: A Floresta
-  vnum: '13638'
+  vnum: 010213613638
 - description: |-
     A estrada termina em um precipício de granito aqui, sem nenhuma chance de
     continuar adiante. A única coisa que resta é uma trilha lamacenta que segue
     ao sul.
   exits:
     east:
-      target_vnum: '13640'
+      target_vnum: '010213613640'
     north:
-      target_vnum: '13629'
+      target_vnum: 010213613629
     south:
-      target_vnum: '3207'
+      target_vnum: '01021363207'
+  local_id: '13639'
   name: A Estrada
-  vnum: '13639'
+  vnum: 010213613639
 - description: |-
     A  floresta  se  estreita  aqui  e forma uma pequena clareira. A clareira
     continua ao leste, e ao norte e oeste, você pode ver a estrada.
   exits:
     east:
-      target_vnum: '13641'
+      target_vnum: '010213613641'
     north:
-      target_vnum: '13630'
+      target_vnum: '010213613630'
     west:
-      target_vnum: '13639'
+      target_vnum: 010213613639
+  local_id: '13640'
   name: A Floresta
-  vnum: '13640'
+  vnum: '010213613640'
 - description: |-
     A  floresta  se estreita aqui e forma uma pequena clareira. Parece um bom
     lugar para descansar.
   exits:
     east:
-      target_vnum: '13642'
+      target_vnum: '010213613642'
     north:
-      target_vnum: '13631'
+      target_vnum: '010213613631'
     west:
-      target_vnum: '13640'
+      target_vnum: '010213613640'
+  local_id: '13641'
   name: A Clareira
-  vnum: '13641'
+  vnum: '010213613641'
 - description: |-
     A  floresta  se estreita aqui e forma uma pequena clareira. Parece um bom
     lugar para descansar.
   exits:
     east:
-      target_vnum: '13664'
+      target_vnum: '010213613664'
     north:
-      target_vnum: '13632'
+      target_vnum: '010213613632'
     west:
-      target_vnum: '13641'
+      target_vnum: '010213613641'
+  local_id: '13642'
   name: A Clareira
-  vnum: '13642'
+  vnum: '010213613642'
 - description: Saia já daqui!
   exits:
     east:
-      target_vnum: '13630'
+      target_vnum: '010213613630'
     north:
-      target_vnum: '13600'
+      target_vnum: '010213613600'
     south:
-      target_vnum: '13624'
+      target_vnum: '010213613624'
     west:
-      target_vnum: '13612'
+      target_vnum: '010213613612'
+  local_id: '13643'
   name: Uma Sala Muito Estranha
-  vnum: '13643'
+  vnum: '010213613643'
 - description: |-
     O caminho segue ao sul para as árvores, parece um lugar fresco e arejado,
     e  mesmo  daqui,  você  pode sentir a emanação de paz e bondade. Não restam
     dúvidas de que adiante repousa a glória e a magia.
   exits:
     south:
-      target_vnum: '13645'
+      target_vnum: '010213613645'
     west:
-      target_vnum: '13664'
+      target_vnum: '010213613664'
+  local_id: '13644'
   name: Um Agradável Caminho
-  vnum: '13644'
+  vnum: '010213613644'
 - description: |-
     Você  está  caminhando  entre  os  antigos  álamos e carvalhos do caminho
     sagrado.  Você  sente uma estranha sensação de contemplação e alívio em sua
@@ -558,13 +603,14 @@
     agradáveis caminhos seguem a leste e ao sul.
   exits:
     east:
-      target_vnum: '13646'
+      target_vnum: '010213613646'
     north:
-      target_vnum: '13644'
+      target_vnum: '010213613644'
     south:
-      target_vnum: '13648'
+      target_vnum: 010213613648
+  local_id: '13645'
   name: Um Caminho Sagrado
-  vnum: '13645'
+  vnum: '010213613645'
 - description: |-
     Você  está  caminhando  entre  os  antigos  álamos e carvalhos do caminho
     sagrado.  Você  sente uma estranha sensação de contemplação e alívio em sua
@@ -572,24 +618,26 @@
     agradáveis caminhos seguem a leste, oeste e ao sul.
   exits:
     east:
-      target_vnum: '13647'
+      target_vnum: '010213613647'
     south:
-      target_vnum: '13649'
+      target_vnum: 010213613649
     west:
-      target_vnum: '13645'
+      target_vnum: '010213613645'
+  local_id: '13646'
   name: Um Caminho Sagrado
-  vnum: '13646'
+  vnum: '010213613646'
 - description: |-
     Você está em uma clareira dos bosques claros. De alguma forma, este lugar
     parece poderosamente DIFERENTE do resto da floresta. Como se algo estivesse
     alterando a realidade aqui. Há uma pequena tábua em uma das árvores.
   exits:
     south:
-      target_vnum: '13650'
+      target_vnum: '010213613650'
     west:
-      target_vnum: '13646'
+      target_vnum: '010213613646'
+  local_id: '13647'
   name: Uma Clareira no Bosque
-  vnum: '13647'
+  vnum: '010213613647'
 - description: |-
     Você  está  caminhando  entre  os  antigos  álamos e carvalhos do caminho
     sagrado. Você se sente calmo e relaxado aqui, como se grandes fardos fossem
@@ -597,13 +645,14 @@
     sul.
   exits:
     east:
-      target_vnum: '13649'
+      target_vnum: 010213613649
     north:
-      target_vnum: '13645'
+      target_vnum: '010213613645'
     south:
-      target_vnum: '13651'
+      target_vnum: '010213613651'
+  local_id: '13648'
   name: O Caminho Sagrado
-  vnum: '13648'
+  vnum: 010213613648
 - description: |-
     Você  está  em  meio a uma sagrada clareira, onde os cidadãos de Midgaard
     celebram  a  primavera,  onde  os  fazendeiros agradecem pelas colheitas no
@@ -614,15 +663,16 @@
     ensolarado leva a um brilhante lago.
   exits:
     east:
-      target_vnum: '13650'
+      target_vnum: '010213613650'
     north:
-      target_vnum: '13646'
+      target_vnum: '010213613646'
     south:
-      target_vnum: '13652'
+      target_vnum: '010213613652'
     west:
-      target_vnum: '13648'
+      target_vnum: 010213613648
+  local_id: '13649'
   name: Uma Clareira Sagrada
-  vnum: '13649'
+  vnum: 010213613649
 - description: |-
     Você  está  caminhando  entre  os  antigos  álamos e carvalhos do caminho
     sagrado. Você se sente calmo e relaxado aqui, como se grandes fardos fossem
@@ -630,13 +680,14 @@
     árvores, enquanto caminhos seguem a norte e a oeste.
   exits:
     north:
-      target_vnum: '13647'
+      target_vnum: '010213613647'
     south:
-      target_vnum: '13653'
+      target_vnum: '010213613653'
     west:
-      target_vnum: '13649'
+      target_vnum: 010213613649
+  local_id: '13650'
   name: O Caminho Sagrado
-  vnum: '13650'
+  vnum: '010213613650'
 - description: |-
     Você  está  caminhando  entre  os  antigos  álamos e carvalhos do caminho
     sagrado. Você se sente calmo e relaxado aqui, como se grandes fardos fossem
@@ -645,11 +696,12 @@
     mais.
   exits:
     east:
-      target_vnum: '13652'
+      target_vnum: '010213613652'
     north:
-      target_vnum: '13648'
+      target_vnum: 010213613648
+  local_id: '13651'
   name: O Caminho Sagrado
-  vnum: '13651'
+  vnum: '010213613651'
 - description: |-
     Você  está  no  meio  de  um grande, ensolarado campo. Há a fragrância da
     primavera  no ar, um som de verão e o sentimento de eterna tarde de sábado.
@@ -660,15 +712,16 @@
     deslizam pelo céu.
   exits:
     east:
-      target_vnum: '13663'
+      target_vnum: '010213613663'
     north:
-      target_vnum: '13649'
+      target_vnum: 010213613649
     south:
-      target_vnum: '2120'
+      target_vnum: '01021362120'
     west:
-      target_vnum: '13651'
+      target_vnum: '010213613651'
+  local_id: '13652'
   name: O Campo Ensolarado
-  vnum: '13652'
+  vnum: '010213613652'
 - description: |-
     Você  esta em um imaculadamente e meticulosamente bem cuidado gramado, do
     tipo  que levaria séculos para se conseguir este magnífico resultado. Há um
@@ -677,11 +730,12 @@
     frescas e ensolaradas tardes de verão.
   exits:
     north:
-      target_vnum: '13650'
+      target_vnum: '010213613650'
     south:
-      target_vnum: '13654'
+      target_vnum: '010213613654'
+  local_id: '13653'
   name: Um Lindo Gramado
-  vnum: '13653'
+  vnum: '010213613653'
 - description: |-
     Você está no foyer da Mansão do Dragão. A larga porta dupla que leva para
     o  jardim  fica  ao  norte,  flanqueada por grandes janelas. As pareces são
@@ -689,11 +743,12 @@
     porta na parede sul.
   exits:
     north:
-      target_vnum: '13653'
+      target_vnum: '010213613653'
     south:
-      target_vnum: '13655'
+      target_vnum: '010213613655'
+  local_id: '13654'
   name: O Foyer
-  vnum: '13654'
+  vnum: '010213613654'
 - description: |-
     Você  está no limite norte de um corredor conectivo, decorado com extremo
     bom  gosto  com  painéis  de  carvalho  e  casacos de vários nobres famosos
@@ -701,13 +756,14 @@
     parede leste.
   exits:
     east:
-      target_vnum: '13656'
+      target_vnum: '010213613656'
     north:
-      target_vnum: '13654'
+      target_vnum: '010213613654'
     south:
-      target_vnum: '13657'
+      target_vnum: '010213613657'
+  local_id: '13655'
   name: O Corredor
-  vnum: '13655'
+  vnum: '010213613655'
 - description: |-
     Você está no quarto azul, um dos quartos de hóspedes da Mansão do Dragão.
     As  paredes  são (surpresa!) azuis. E o resto do quarto é decorado em cores
@@ -716,23 +772,25 @@
     ao leste você pode ver os limites do caminho sagrado.
   exits:
     west:
-      target_vnum: '13655'
+      target_vnum: '010213613655'
+  local_id: '13656'
   name: O Quarto Azul
-  vnum: '13656'
+  vnum: '010213613656'
 - description: |-
     Você está no limite sul do corredor. Há portas pelas elegantes paredes de
     carvalho ao sul, leste e oeste.
   exits:
     east:
-      target_vnum: '13658'
+      target_vnum: 010213613658
     north:
-      target_vnum: '13655'
+      target_vnum: '010213613655'
     south:
-      target_vnum: '13659'
+      target_vnum: 010213613659
     west:
-      target_vnum: '13660'
+      target_vnum: '010213613660'
+  local_id: '13657'
   name: O Corredor
-  vnum: '13657'
+  vnum: '010213613657'
 - description: |-
     Você  está  no  quarto  vermelho, um dos quartos de hóspedes da Mansão do
     Dragão.  As  paredes  são revestidas com papel de parede vermelho-sangue, e
@@ -742,9 +800,10 @@
     caminho sagrado.
   exits:
     west:
-      target_vnum: '13657'
+      target_vnum: '010213613657'
+  local_id: '13658'
   name: O Quarto Vermelho
-  vnum: '13658'
+  vnum: 010213613658
 - description: |-
     Você está no meio da Cozinha do Dragão. Contrariando a crença popular, Ele
     *Não* come virgens, o que é amplamente demonstrado pela grande variedade de
@@ -755,11 +814,12 @@
     e cuidadoso com sua casa... Há portas ao norte e ao oeste.
   exits:
     north:
-      target_vnum: '13657'
+      target_vnum: '010213613657'
     west:
-      target_vnum: '13662'
+      target_vnum: '010213613662'
+  local_id: '13659'
   name: A Cozinha
-  vnum: '13659'
+  vnum: 010213613659
 - description: |-
     Você  está  no  meio  de  um  vasto salão abobadado. Aqui é onde o Dragão
     entrete  um  grande  número  de  convidados,  mas as confortáveis poltronas
@@ -768,13 +828,14 @@
     um pequeno corredor.
   exits:
     east:
-      target_vnum: '13657'
+      target_vnum: '010213613657'
     south:
-      target_vnum: '13662'
+      target_vnum: '010213613662'
     west:
-      target_vnum: '13661'
+      target_vnum: '010213613661'
+  local_id: '13660'
   name: O Salão em Abóbada
-  vnum: '13660'
+  vnum: '010213613660'
 - description: |-
     Esta  é a estufa do Dragão. Filtros de luz verde foram colocados entre as
     plantas,  dando ao lugar um clima subtropical. Não é quente aqui, embora, a
@@ -784,11 +845,12 @@
     sul, há uma grande porta dupla, levando para um ensolarado terraço.
   exits:
     east:
-      target_vnum: '13660'
+      target_vnum: '010213613660'
     south:
-      target_vnum: '13663'
+      target_vnum: '010213613663'
+  local_id: '13661'
   name: A Estufa
-  vnum: '13661'
+  vnum: '010213613661'
 - description: |-
     Esta é a sala de jantar do Dragão. Há uma larga e sólida mesa de carvalho,
     com  pelo  menos  vinte e quatro pesados assentos de madeira. Os painéis de
@@ -796,13 +858,14 @@
     leste, e ao oeste há uma grande porta para o ensolarado terraço.
   exits:
     east:
-      target_vnum: '13659'
+      target_vnum: 010213613659
     north:
-      target_vnum: '13660'
+      target_vnum: '010213613660'
     west:
-      target_vnum: '13663'
+      target_vnum: '010213613663'
+  local_id: '13662'
   name: A Sala de Jantar
-  vnum: '13662'
+  vnum: '010213613662'
 - description: "Você  está  em  um  terraço  ensolarado na frente da Mansão do Dragão.\
     \ Ao\noeste,  há a esplêndida vista dos campos que cercam o lago. Ao norte está\
     \ a\nestufa,  cujas largas janelas brilham em estranhas e lindas cores, enquanto\n\
@@ -810,13 +873,14 @@
     \ e\ncalmo aqui. Há uma mesa pintada de branco cercada por algumas cadeiras."
   exits:
     east:
-      target_vnum: '13662'
+      target_vnum: '010213613662'
     north:
-      target_vnum: '13661'
+      target_vnum: '010213613661'
     west:
-      target_vnum: '13652'
+      target_vnum: '010213613652'
+  local_id: '13663'
   name: O Terraço
-  vnum: '13663'
+  vnum: '010213613663'
 - description: |-
     O  caminho  que você adentrou se aprofunda na floresta, embora as árvores
     que o cercam permitam passagem por todos os lados. Na verdade, elas parecem
@@ -824,15 +888,17 @@
     para ter certeza de que esta área permaneça luxuosa, virgem e desbravada.
   exits:
     east:
-      target_vnum: '13644'
+      target_vnum: '010213613644'
     west:
-      target_vnum: '13642'
+      target_vnum: '010213613642'
+  local_id: '13664'
   name: Um Agradável Caminho
-  vnum: '13664'
+  vnum: '010213613664'
 - description: |-
     Você  está entre uma névoa acinzentada, caindo, gritando de dor assim que
     percebe  que  esta  sendo  tragado  para  o nada, átomo por átomo, caindo e
     caindo e caindo...
   exits: {}
+  local_id: '13699'
   name: A Névoa
-  vnum: '13699'
+  vnum: 010213613699
