@@ -3,7 +3,7 @@ from aeternus.game.world import world
 from aeternus.core.config import settings
 from aeternus.game import interpreter
 from aeternus.game.objects.player import Player
-from aeternus.core.database.storage import storage # <--- Importar o Escriba
+from aeternus.core.database.storage import storage
 
 class Connection:
     
@@ -21,17 +21,21 @@ class Connection:
             self.writer.write(msg.encode('utf-8'))
             await self.writer.drain()
         except Exception as e:
-            print(f"💀 Erro enviando para {self.address}: {e}")
+            # print(f"💀 Erro de socket: {e}")
             self.state = "DISCONNECT"
 
     async def read_loop(self):
         await self.send_banner()
+        
         try:
             while self.state != "DISCONNECT":
                 try:
                     data = await self.reader.readuntil(b'\n')
                 except asyncio.LimitOverrunError:
                     data = await self.reader.read(1024) 
+                except:
+                    break # Conexão caiu
+                
                 line = data.decode('utf-8', errors='ignore').strip()
                 if not line: continue 
 
@@ -39,22 +43,26 @@ class Connection:
                     await self.handle_login_name(line)
                 elif self.state == "PLAYING":
                     await self.handle_game_command(line)
-        except (asyncio.IncompleteReadError, ConnectionResetError):
-            pass
-        except Exception as e:
-            print(f"💥 [ERRO] Erro crítico: {e}")
+                    
         finally:
-            # SALVAR AO DESCONECTAR
+            # --- ROTINA DE DESCONEXÃO ---
             if self.player:
-                storage.save_player(self.player) # <--- Salva o progresso!
+                print(f"🔌 [LOGOUT] Salvando {self.player.name}...")
+                
+                # 1. Salva no disco (incluindo sala atual)
+                storage.save_player(self.player)
+                
+                # 2. Remove da lista global (WHO)
+                world.remove_player(self.player)
+                
+                # 3. Remove da sala física
                 if self.player.room and self.player in self.player.room.people:
                     self.player.room.people.remove(self.player)
             
             try:
                 self.writer.close()
                 await self.writer.wait_closed()
-            except:
-                pass
+            except: pass
 
     async def send_banner(self):
         banner = r"""
@@ -62,7 +70,7 @@ class Connection:
           (_________)
           | \     / |
           |  \   /  |   AETERNUS MUD
-          |   \ /   |   (Persistence Active)
+          |   \ /   |   (Alpha Build)
           |    V    |
           |   / \   |
           |  /   \  |
@@ -73,68 +81,70 @@ class Connection:
         await self.send("\nQual é o nome da sua alma?")
 
     async def handle_login_name(self, name):
-        clean_name = ''.join(e for e in name if e.isalnum())
+        clean_name = ''.join(e for e in name if e.isalnum()).capitalize()
         if len(clean_name) < 3:
-            await self.send("Nome muito curto.")
+            await self.send("Nome inválido.")
             return
 
-        clean_name = clean_name.capitalize()
-        
-        # --- VERIFICAÇÃO DE EXISTÊNCIA ---
+        # 1. Carregar ou Criar
         if storage.player_exists(clean_name):
-            await self.send(f"Bem-vindo de volta, {clean_name}. Ressuscitando suas memórias...")
+            await self.send(f"Bem-vindo de volta, {clean_name}.")
             self.player = storage.load_player(clean_name)
-            # O load_from_dict já preencheu stats e inventário
-            # Precisamos descobrir em que sala ele salvou
-            saved_room_vnum = self.player.load_from_dict(self.player.to_dict()) # Hack rápido para pegar o vnum
-            # Na verdade, o ideal é load_player retornar tudo, vamos simplificar:
-            # O load_player já retornou o objeto. Vamos ver onde ele estava no JSON lendo direto?
-            # Não, vamos confiar que o player.to_dict() tem o 'room_vnum'.
-            # Vamos forçar uma lógica simples:
-            # O to_dict/load_from_dict não guarda a sala no objeto 'self.room' (porque room é objeto complexo)
-            # Ele guarda numa variavel temporaria ou teremos que ler do json de novo.
-            # Simplificação: Vamos assumir Praça por enquanto se a logica de load nao setou self.room
-            target_room_id = "3001" # Fallback
-            
-            # Melhor: Vamos ler o JSON de novo rapidinho aqui, ou melhorar o Storage.
-            # Vamos melhorar o Character no futuro. Por agora, vai nascer na praça ou onde o load definiu.
-            
         else:
-            await self.send(f"Uma nova alma nasce. Bem-vindo, {clean_name}.")
+            await self.send(f"Bem-vindo, novo herói {clean_name}.")
             self.player = Player(clean_name)
-            target_room_id = settings.START_ROOM_VNUM
 
+        # 2. Vincular
         self.player.connection = self
         
-        # Tenta carregar a sala alvo
-        # (Nota: precisamos implementar no Player um campo 'saved_room_vnum' para isso funcionar 100%)
-        # Por enquanto, todo mundo nasce na praça ou onde o config manda, 
-        # mas o inventário será restaurado!
+        # 3. Registrar no Mundo (CRÍTICO PARA O WHO)
+        world.add_player(self.player)
+
+        # 4. Determinar Spawn (Lógica de Recuperação)
+        target_vnum = None
         
-        start_room = world.get_room(target_room_id) or world.get_room("3001") or world.get_room("0")
+        # A) Tenta a sala salva no JSON
+        if self.player.saved_room_vnum:
+            target_vnum = self.player.saved_room_vnum
+            
+            # Verifica se essa sala AINDA existe no mundo (pode ter sido deletada)
+            if not world.get_room(target_vnum):
+                await self.send(f"\033[1;31mAviso: Sua sala antiga ({target_vnum}) colapsou. Realocando...\033[0m")
+                target_vnum = None # Força fallback
+
+        # B) Fallback para a Sala Inicial do Config (.env)
+        if not target_vnum:
+            target_vnum = settings.START_ROOM_VNUM
+
+        # C) Tenta carregar a sala final
+        start_room = world.get_room(target_vnum)
         
+        # D) Fallback Supremo (Limbo 0 ou Praça Antiga 3001) se o Config estiver errado
+        if not start_room:
+            print(f"⚠️ [ALERTA] Falha crítica de spawn em {target_vnum}. Tentando emergência...")
+            start_room = world.get_room("0") or world.get_room("3001")
+
+        # 5. Materializar
         if start_room:
             self.player.room = start_room 
-            start_room.people.append(self.player) 
+            start_room.people.append(self.player)
             
-            # HACK: Se for char novo, dá item. Se for velho, já tem inventário carregado.
-            if not storage.player_exists(clean_name):
-                item = world.create_item("3001")
-                if item: self.player.inventory.append(item)
+            # Hack de item inicial para chars novos
+            if not storage.player_exists(clean_name) and not self.player.inventory:
+                 item = world.create_item("3001") or world.create_item("1")
+                 if item: self.player.inventory.append(item)
 
             await self.send("\n" + "="*60)
             await self.send(start_room.get_display())
-            await self.send("="*60 + "\n")
             self.state = "PLAYING"
         else:
-            await self.send("Erro fatal: Mundo não carregado.")
+            await self.send("Erro fatal: O universo não possui salas. Contate o Admin.")
             self.state = "DISCONNECT"
 
     async def handle_game_command(self, cmd):
-        # Atalho para salvar manualmente
+        # Atalho rápido para salvar
         if cmd.lower() == 'save':
             storage.save_player(self.player)
-            await self.send("Sua alma foi gravada nos registros eternos.")
+            await self.send("Estado salvo.")
             return
-            
         await interpreter.handle_command(self, cmd)
