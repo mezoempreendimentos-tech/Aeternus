@@ -1,23 +1,26 @@
-- description: |-
-    O vasto deserto se estende por milhas, as areias mudando constantemente a
-    sua volta.  Ao norte, se erguendo da areia, você vê uma poderosa pirâmide.
+- description: 'O vasto deserto se estende por milhas, as areias mudando constantemente
+    a
+
+    sua volta.  Ao norte, se erguendo da areia, você vê uma poderosa pirâmide.'
   exits:
     east:
-      target_vnum: '01010535040'
+      target_vnum: '01010505040'
     north:
       target_vnum: '01010535301'
     south:
-      target_vnum: '01010535050'
+      target_vnum: '01010505050'
     west:
-      target_vnum: '01010535035'
+      target_vnum: '01010505035'
   local_id: '5300'
   name: O Grande Deserto Oriental
   vnum: '01010535300'
-- description: |-
-    A volumosa pirâmide se eleva a sua frente das areias quentes do deserto,
+- description: 'A volumosa pirâmide se eleva a sua frente das areias quentes do deserto,
+
     feita de enormes blocos de pedra cobertos com uma grossa camada de gêsso
+
     arenoso, ou algo assim.  A face da pirâmide é íngreme mas você acha que
-    consegue escalar isso.
+
+    consegue escalar isso.'
   exits:
     south:
       target_vnum: '01010535300'
@@ -26,10 +29,12 @@
   local_id: '5301'
   name: Na Base da Pirâmide
   vnum: '01010535301'
-- description: |-
-    Ar quente sopra dos lados da pirâmide e o vento atinge você com a fúria
+- description: 'Ar quente sopra dos lados da pirâmide e o vento atinge você com a
+    fúria
+
     de uma tempestade de areia e poeira.  A esta altura você já cumpriu metade
-    do caminho.  As paredes da pirâmide são bastante íngremes.
+
+    do caminho.  As paredes da pirâmide são bastante íngremes.'
   exits:
     down:
       target_vnum: '01010535301'
@@ -42,11 +47,14 @@
   local_id: '5302'
   name: Escalando a Grande Pirâmide
   vnum: '01010535302'
-- description: |-
-    Ar quente sopra dos lados da pirâmide e o vento atinge você com a fúria
+- description: 'Ar quente sopra dos lados da pirâmide e o vento atinge você com a
+    fúria
+
     de uma tempestade de areia e poeira.  A esta altura você já cumpriu metade
+
     do caminho.  As paredes da pirâmide são bastante íngremes e você está tendo
-    dificuldades para não escorregar para as areias abaixo.
+
+    dificuldades para não escorregar para as areias abaixo.'
   exits:
     down:
       target_vnum: '01010535307'
@@ -59,11 +67,14 @@
   local_id: '5303'
   name: Escalando a Grande Pirâmide
   vnum: '01010535303'
-- description: |-
-    Ar quente sopra dos lados da pirâmide e o vento atinge você com a fúria
+- description: 'Ar quente sopra dos lados da pirâmide e o vento atinge você com a
+    fúria
+
     de uma tempestade de areia e poeira.  A esta altura você já cumpriu metade
+
     do caminho.  As paredes da pirâmide são bastante íngremes e você está tendo
-    dificuldade em não escorregar para as areias abaixo.
+
+    dificuldade em não escorregar para as areias abaixo.'
   exits:
     down:
       target_vnum: '01010535307'
@@ -76,10 +87,11 @@
   local_id: '5304'
   name: Escalando a Grande Pirâmide
   vnum: '01010535304'
-- description: |-
-    Aqui o lado leste da pirâmide é mais protegido do calor e do vento.  Este
+- description: 'Aqui o lado leste da pirâmide é mais protegido do calor e do vento.  Este
+
     lado de pedra não é tão escorregadio e liso.  E você acha que poderia
-    alcançar o topo.
+
+    alcançar o topo.'
   exits:
     down:
       target_vnum: '01010535307'
@@ -92,10 +104,11 @@
   local_id: '5305'
   name: Escalando a Grande Pirâmide
   vnum: '01010535305'
-- description: |-
-    Banhado em suor, você conseguiu alcançar o ápice da grande pirâmide.  Os
+- description: 'Banhado em suor, você conseguiu alcançar o ápice da grande pirâmide.  Os
+
     quatro lados da pirâmide se inclinam nítidamente para as quentes areias, em
-    todas as direções cardinais.
+
+    todas as direções cardinais.'
   exits:
     down:
       target_vnum: 01010535308
@@ -110,26 +123,33 @@
   local_id: '5306'
   name: "O Ã\x81pice da Grande Pirâmide"
   vnum: '01010535306'
-- description: |-
-    Aqui as pedras foram esculpidas para fora dos lados da pirâmide.  Você
+- description: 'Aqui as pedras foram esculpidas para fora dos lados da pirâmide.  Você
+
     não está tão certo de sua segurança agora...
 
+
     Subitamente o vento apanha você, e você perde o equilíbrio!
+
     Você tomba para baixo, e cai para a morte!
+
 
 
     SPLAT.
 
-    Aiiiiiiiiiiiiiiiiiiiiiiiiiiii...
+
+    Aiiiiiiiiiiiiiiiiiiiiiiiiiiii...'
   exits: {}
   local_id: '5307'
   name: As Pedras Perigosas
   vnum: '01010535307'
-- description: |-
-    Você está escalando uma antiga escada que leva você até as profundezas da
+- description: 'Você está escalando uma antiga escada que leva você até as profundezas
+    da
+
     pirâmide.  O ar ao seu redor é grosso, com camadas de pó e um estranho
+
     cheiro de mofo.  Acima de sua cabeça, você vê finos raios de luz que
-    atravessam as pedras do teto.
+
+    atravessam as pedras do teto.'
   exits:
     down:
       target_vnum: 01010535309
@@ -138,11 +158,13 @@
   local_id: '5308'
   name: A Escada
   vnum: 01010535308
-- description: |-
-    Você está em uma úmida e mofada câmara no interior da pirâmide.  Pegadas
+- description: 'Você está em uma úmida e mofada câmara no interior da pirâmide.  Pegadas
+
     e outras estranhas marcas estão fixas no chão empoeirado.  Parece que alguns
+
     dos moradores deste monumento ainda estão vivos.  Saídas levam a todas as
-    direções.  A porta ao oeste está coberta com inscrições.
+
+    direções.  A porta ao oeste está coberta com inscrições.'
   exits:
     east:
       target_vnum: 01010535339
@@ -157,10 +179,12 @@
   local_id: '5309'
   name: Uma Câmara Mofada
   vnum: 01010535309
-- description: |-
-    Este lugar é dominado por uma volumosa piscina que é preenchida, não com
+- description: 'Este lugar é dominado por uma volumosa piscina que é preenchida, não
+    com
+
     água, mas com chamas de intenso calor.  As chamas multicoloridas lambem
-    você, procurando queima-lo.  A piscina segue ao leste em uma pequena câmara.
+
+    você, procurando queima-lo.  A piscina segue ao leste em uma pequena câmara.'
   exits:
     east:
       target_vnum: 01010535309
@@ -169,20 +193,23 @@
   local_id: '5310'
   name: A Piscina de Fogo
   vnum: '01010535310'
-- description: |-
-    Você atravessa a piscina de fogo até uma pequena câmara de pedra.  Aqui
+- description: 'Você atravessa a piscina de fogo até uma pequena câmara de pedra.  Aqui
+
     as chamas estão tão altas quanto você, chamuscando sua face e evaporando seu
-    suor instantaneamente.
+
+    suor instantaneamente.'
   exits:
     east:
       target_vnum: '01010535310'
   local_id: '5311'
   name: A Câmara de Efreeti
   vnum: '01010535311'
-- description: |-
-    Você tem de se abaixar sobre suas mãos e joelhos para caber neste espaço
+- description: 'Você tem de se abaixar sobre suas mãos e joelhos para caber neste
+    espaço
+
     apertado.  O caminho é cheio de areia e poeira e de marcas da passagem de
-    outras criaturas.
+
+    outras criaturas.'
   exits:
     north:
       target_vnum: '01010535313'
@@ -193,10 +220,12 @@
   local_id: '5312'
   name: Um Caminho Apertado
   vnum: '01010535312'
-- description: |-
-    Você tem de se abaixar sobre suas mãos e joelhos para caber neste espaço
+- description: 'Você tem de se abaixar sobre suas mãos e joelhos para caber neste
+    espaço
+
     apertado.  O caminho é cheio de areia e poeira e de marcas da passagem de
-    outras criaturas.
+
+    outras criaturas.'
   exits:
     south:
       target_vnum: '01010535312'
@@ -205,10 +234,12 @@
   local_id: '5313'
   name: Um Caminho Apertado
   vnum: '01010535313'
-- description: |-
-    Você tem de se abaixar sobre suas mãos e joelhos para caber neste espaço
+- description: 'Você tem de se abaixar sobre suas mãos e joelhos para caber neste
+    espaço
+
     apertado.  O caminho é cheio de areia e poeira e de marcas da passagem de
-    outras criaturas.
+
+    outras criaturas.'
   exits:
     east:
       target_vnum: '01010535313'
@@ -217,10 +248,11 @@
   local_id: '5314'
   name: Um Caminho Apertado
   vnum: '01010535314'
-- description: |-
-    Aqui você é forçado a deslizar sobre sua barriga através desse
+- description: 'Aqui você é forçado a deslizar sobre sua barriga através desse
+
     estreitamento no caminho, quando as pedras da pirâmide se fecham sobre você.
-    Abaixo de você, há um escorregadio buraco que mergulha na escuridão.
+
+    Abaixo de você, há um escorregadio buraco que mergulha na escuridão.'
   exits:
     down:
       target_vnum: '01010535317'
@@ -231,26 +263,33 @@
   local_id: '5315'
   name: Um Estreitamento no Caminho
   vnum: '01010535315'
-- description: |-
-    O caminho vai se estreitando de tal forma, que entre as pedras da
+- description: 'O caminho vai se estreitando de tal forma, que entre as pedras da
+
     pirâmide somente poderia caber uma cobra.  Mal há espaço suficiente para
-    você se virar e voltar pelo caminho ao norte.
+
+    você se virar e voltar pelo caminho ao norte.'
   exits:
     north:
       target_vnum: '01010535315'
   local_id: '5316'
   name: O Fim do Caminho
   vnum: '01010535316'
-- description: |-
-    Os lados deste buraco são lisos e escorregadios.  Você se abaixa e tenta
+- description: 'Os lados deste buraco são lisos e escorregadios.  Você se abaixa e
+    tenta
+
     se mover para baixo...  Quando subitamente você perde sua força!  Você
+
     parece cair por uma eternidade, e se esmaga nas pedras abaixo.
 
 
+
     Debaixo do Buraco
+
     Você está em uma câmara pequena debaixo do buraco escorregadio, debaixo
+
     da pirâmide agora.  O chão está repleto de ossos.  Ao sul há uma pequena
-    fenda rochosa.
+
+    fenda rochosa.'
   exits:
     south:
       target_vnum: 01010535319
@@ -259,10 +298,11 @@
   local_id: '5317'
   name: O Buraco Escorregadio
   vnum: '01010535317'
-- description: |-
-    Você está em uma câmara pequena debaixo do buraco escorregadio, debaixo
+- description: 'Você está em uma câmara pequena debaixo do buraco escorregadio, debaixo
+
     da pirâmide agora.  O chão está repleto de ossos.  Ao sul há uma pequena
-    fenda rochosa.
+
+    fenda rochosa.'
   exits:
     south:
       target_vnum: 01010535319
@@ -271,10 +311,11 @@
   local_id: '5318'
   name: Debaixo do Buraco
   vnum: 01010535318
-- description: |-
-    Você está agora explorando dentro de uma estranha fenda rochosa que
+- description: 'Você está agora explorando dentro de uma estranha fenda rochosa que
+
     mergulha para a pedra sobre a qual a pirâmide foi construída.  Ao sul você
-    vê a luz bruxuleante de um fogo e a fenda segue abaixo.
+
+    vê a luz bruxuleante de um fogo e a fenda segue abaixo.'
   exits:
     down:
       target_vnum: '01010535321'
@@ -285,20 +326,23 @@
   local_id: '5319'
   name: "Uma Fenda Ã\x81spera"
   vnum: 01010535319
-- description: |-
-    Aqui uma pequena fogueira queima em um canto das pedras, dando algum
+- description: 'Aqui uma pequena fogueira queima em um canto das pedras, dando algum
+
     aquecimento e conforto ao frio, escuro e seco ar.  Um estranho homem bem
-    velho está aqui e ele o encara, perdido em seus pensamentos.
+
+    velho está aqui e ele o encara, perdido em seus pensamentos.'
   exits:
     north:
       target_vnum: 01010535319
   local_id: '5320'
   name: Uma Pequena Fogueira
   vnum: '01010535320'
-- description: |-
-    A fenda prossegue para baixo, nas escuras profundezas da terra.  O ar a
+- description: 'A fenda prossegue para baixo, nas escuras profundezas da terra.  O
+    ar a
+
     sua volta agora é frio e bastante seco e sua fonte luminosa dança em uma
-    fria brisa que vêm de baixo.
+
+    fria brisa que vêm de baixo.'
   exits:
     down:
       target_vnum: '01010535322'
@@ -307,10 +351,12 @@
   local_id: '5321'
   name: Abaixo na Fenda
   vnum: '01010535321'
-- description: |-
-    Aqui a fenda abruptamente acaba.  O que vento uiva em seu rosto, vem de
+- description: 'Aqui a fenda abruptamente acaba.  O que vento uiva em seu rosto, vem
+    de
+
     uma estranha forma ao sul mas sua luz é escassa demais para saber exatamente
-    do que se trata.
+
+    do que se trata.'
   exits:
     south:
       target_vnum: '01010535323'
@@ -319,22 +365,26 @@
   local_id: '5322'
   name: No Final da Fenda
   vnum: '01010535322'
-- description: |-
-    As mandíbulas do enorme tigre de pedra revelam uma grande abóbada.  Um
+- description: 'As mandíbulas do enorme tigre de pedra revelam uma grande abóbada.  Um
+
     teto curvado está a metros de sua cabeça...  Em toda parte ouve-se um
+
     estrondoso barulho gutural e um vento frio soprando.  Gigantescos montes de
+
     antigos tesouros, moedas de ouro e outros valores, cercam você em todas as
-    direções.
+
+    direções.'
   exits:
     north:
       target_vnum: '01010535322'
   local_id: '5323'
   name: A Abóbada de uma Lâmpada
   vnum: '01010535323'
-- description: |-
-    Você se aperta na estreita rachadura na parede.  A poeira cobre seus
+- description: 'Você se aperta na estreita rachadura na parede.  A poeira cobre seus
+
     olhos, perturbando-os e pedaços de pedras misturadas com areia caem sobre
-    você, assim que você consegue, com muita dificuldade, seguir o seu caminho.
+
+    você, assim que você consegue, com muita dificuldade, seguir o seu caminho.'
   exits:
     north:
       target_vnum: 01010535309
@@ -343,10 +393,11 @@
   local_id: '5324'
   name: Uma Rachadura na Parede
   vnum: '01010535324'
-- description: |-
-    No chão desta pequena tumba estão empilhados as tampas dos sarcófagos
+- description: 'No chão desta pequena tumba estão empilhados as tampas dos sarcófagos
+
     profanados, alguns tesouros foram esquecidos por ladrões e corpos arrancados
-    de seu local de repouso.
+
+    de seu local de repouso.'
   exits:
     east:
       target_vnum: '01010535333'
@@ -357,10 +408,11 @@
   local_id: '5325'
   name: Uma Tumba Cheia
   vnum: '01010535325'
-- description: |-
-    Esta tumba foi totalmente destruída pelos ladrões à procura dos tesouros
+- description: 'Esta tumba foi totalmente destruída pelos ladrões à procura dos tesouros
+
     do faraós.  Não há nada que interesse neste quarto, a não ser um grande
-    caixão de pedra apoiado contra a parede ocidental.
+
+    caixão de pedra apoiado contra a parede ocidental.'
   exits:
     east:
       target_vnum: '01010535325'
@@ -369,10 +421,12 @@
   local_id: '5326'
   name: Uma Tumba Demolida
   vnum: '01010535326'
-- description: |-
-    Você está agora no topo de uma escada que segue na escuridão.  Os degraus
+- description: 'Você está agora no topo de uma escada que segue na escuridão.  Os
+    degraus
+
     e paredes são escorregadios blocos de pedra arenosa, coberto com uma grossa
-    camada de poeira.  Algumas inscrições foram esculpidas nas paredes daqui.
+
+    camada de poeira.  Algumas inscrições foram esculpidas nas paredes daqui.'
   exits:
     down:
       target_vnum: 01010535328
@@ -381,10 +435,11 @@
   local_id: '5327'
   name: Uma Escada
   vnum: '01010535327'
-- description: |-
-    Você está em uma escada que desaparece na escuridão em ambas as direções.
+- description: 'Você está em uma escada que desaparece na escuridão em ambas as direções.
+
     Os escorregadios degraus desiguais da escada parecem que não foram pisados
-    por séculos.
+
+    por séculos.'
   exits:
     down:
       target_vnum: 01010535329
@@ -393,9 +448,9 @@
   local_id: '5328'
   name: Uma Escada
   vnum: 01010535328
-- description: |-
-    Você está agora na base de uma escada de degraus desiguais.  As paredes,
-    o chão e teto desta pequena escada estão cobertos com estranhos hieróglifos.
+- description: 'Você está agora na base de uma escada de degraus desiguais.  As paredes,
+
+    o chão e teto desta pequena escada estão cobertos com estranhos hieróglifos.'
   exits:
     south:
       target_vnum: '01010535330'
@@ -404,12 +459,15 @@
   local_id: '5329'
   name: Uma Escada
   vnum: 01010535329
-- description: |-
-    Aqui o ar ainda é respirável.  O pó obscurece densamente sua visão.
+- description: 'Aqui o ar ainda é respirável.  O pó obscurece densamente sua visão.
+
     Várias estátuas de pedra revestem as paredes do corredor, descrevendo os
+
     deuses de uma sociedade antiga.  Hieróglifos estranhos cobrem as paredes,
+
     nesta forma pictórica e peculiar de idioma escrito, que você não entende.
-    Alguns passos conduzem a um elevado altar para o sul.
+
+    Alguns passos conduzem a um elevado altar para o sul.'
   exits:
     north:
       target_vnum: 01010535329
@@ -418,10 +476,11 @@
   local_id: '5330'
   name: O Corredor Antigo
   vnum: '01010535330'
-- description: |-
-    Você está no final do antigo corredor sul.  A escuridão e a poeira
+- description: 'Você está no final do antigo corredor sul.  A escuridão e a poeira
+
     absorvem toda sua luz, de modo que você não vê nada além do altar.  Um baixo
-    pedestal repousa aqui.  Você vê algo escrito em sua face.
+
+    pedestal repousa aqui.  Você vê algo escrito em sua face.'
   exits:
     down:
       target_vnum: '01010535332'
@@ -430,18 +489,19 @@
   local_id: '5331'
   name: O Altar Elevado
   vnum: '01010535331'
-- description: |-
-    Você está em uma tumba vazia, um cubículo de não mais que dez pés de
-    comprimento.
+- description: 'Você está em uma tumba vazia, um cubículo de não mais que dez pés
+    de
+
+    comprimento.'
   exits:
     up:
       target_vnum: '01010535331'
   local_id: '5332'
   name: A Tumba de Ramsés
   vnum: '01010535332'
-- description: |-
-    Esta tumba foi completamente saqueada e destruída pelos atos dos ladrões
-    de pirâmides.  O chão está coberto de lixo.
+- description: 'Esta tumba foi completamente saqueada e destruída pelos atos dos ladrões
+
+    de pirâmides.  O chão está coberto de lixo.'
   exits:
     east:
       target_vnum: '01010535334'
@@ -459,9 +519,10 @@
   local_id: '5334'
   name: Um Túnel
   vnum: '01010535334'
-- description: |-
-    Aqui o túnel cruza um buraco na parede sul, continuando ao leste e ao
-    oeste.
+- description: 'Aqui o túnel cruza um buraco na parede sul, continuando ao leste e
+    ao
+
+    oeste.'
   exits:
     down:
       target_vnum: '01010535346'
@@ -472,9 +533,9 @@
   local_id: '5335'
   name: Um Cruzamento no Túnel
   vnum: '01010535335'
-- description: |-
-    O túnel baixo, faz uma curva ao oeste e termina ao norte, em uma
-    empoeirada câmara.
+- description: 'O túnel baixo, faz uma curva ao oeste e termina ao norte, em uma
+
+    empoeirada câmara.'
   exits:
     north:
       target_vnum: '01010535342'
@@ -483,10 +544,12 @@
   local_id: '5336'
   name: Uma Bifurcação
   vnum: '01010535336'
-- description: |-
-    Esta câmara tem um úmido e mofado.  Pequenas pegadas na poeira delatam a
+- description: 'Esta câmara tem um úmido e mofado.  Pequenas pegadas na poeira delatam
+    a
+
     passagem recente de algum tipo de criatura.  Há um buraco no chão ao oeste e
-    a escada fica ao leste.
+
+    a escada fica ao leste.'
   exits:
     east:
       target_vnum: 01010535338
@@ -495,9 +558,9 @@
   local_id: '5337'
   name: "Uma Câmara Ã\x9Amida"
   vnum: '01010535337'
-- description: |-
-    Alguns empoeirados e quebrados degraus espiralam lentamente para baixo
-    levando até um corredor empoeirado.
+- description: 'Alguns empoeirados e quebrados degraus espiralam lentamente para baixo
+
+    levando até um corredor empoeirado.'
   exits:
     down:
       target_vnum: '01010535341'
@@ -506,10 +569,12 @@
   local_id: '5338'
   name: A Escada Espiral
   vnum: 01010535338
-- description: |-
-    Este corredor está coberto com poeira acumulada pelos séculos que a
+- description: 'Este corredor está coberto com poeira acumulada pelos séculos que
+    a
+
     pirâmide atravessou.  Pequenas marcas e pegadas na poeira indicam a recente
-    passagem de outros -- seriam ladrões?
+
+    passagem de outros -- seriam ladrões?'
   exits:
     east:
       target_vnum: '01010535340'
@@ -518,9 +583,9 @@
   local_id: '5339'
   name: Uma Câmara Coberta de Poeira
   vnum: 01010535339
-- description: |-
-    Esta câmara tem um cheiro pútrido, o cheiro de natrão e de outros
-    ingredientes usados para preservar os corpos daqueles que morreram há anos.
+- description: 'Esta câmara tem um cheiro pútrido, o cheiro de natrão e de outros
+
+    ingredientes usados para preservar os corpos daqueles que morreram há anos.'
   exits:
     east:
       target_vnum: '01010535341'
@@ -529,10 +594,12 @@
   local_id: '5340'
   name: Uma Câmara Mal Cheirosa
   vnum: '01010535340'
-- description: |-
-    Este corredor está coberto com uma grossa e sufocante camada de pó, que
+- description: 'Este corredor está coberto com uma grossa e sufocante camada de pó,
+    que
+
     acaba por obscurecer sua luz.  Pequenas marcas e pegadas indicam a recente
-    passagem de alguém ou alguma coisa...
+
+    passagem de alguém ou alguma coisa...'
   exits:
     east:
       target_vnum: '01010535342'
@@ -543,10 +610,12 @@
   local_id: '5341'
   name: Um Corredor Coberto de Poeira
   vnum: '01010535341'
-- description: |-
-    Você está em uma acentuada curva no corredor coberto de poeira, que acaba
+- description: 'Você está em uma acentuada curva no corredor coberto de poeira, que
+    acaba
+
     ao norte e segue para oeste.  Ao sul as pedras da pirâmide foram rachadas
-    por ladrões.
+
+    por ladrões.'
   exits:
     north:
       target_vnum: '01010535343'
@@ -557,9 +626,10 @@
   local_id: '5342'
   name: Uma Curva no Corredor
   vnum: '01010535342'
-- description: |-
-    O corredor coberto de poeira termina abruptamente em uma parede de pedra
-    lisa.  Aqui e acolá percebem-se as marcas da passagem de alguma coisa.
+- description: 'O corredor coberto de poeira termina abruptamente em uma parede de
+    pedra
+
+    lisa.  Aqui e acolá percebem-se as marcas da passagem de alguma coisa.'
   exits:
     down:
       target_vnum: '01010535344'
@@ -568,11 +638,13 @@
   local_id: '5343'
   name: Uma Sala sem Saída
   vnum: '01010535343'
-- description: |-
-    Você está em uma pequena câmara escura, que não é perturbada há muitos
+- description: 'Você está em uma pequena câmara escura, que não é perturbada há muitos
+
     anos.  Ao norte, você nota uma volumosa tumba de pedra, que está coberta por
+
     hieróglifos e esculpida em ouro, o que representa o lugar de descanso final
-    dos poderosos faraós desta terra.
+
+    dos poderosos faraós desta terra.'
   exits:
     north:
       target_vnum: '01010535345'
@@ -581,22 +653,27 @@
   local_id: '5344'
   name: A Entrada da Tumba
   vnum: '01010535344'
-- description: |-
-    Grandes sarcófagos dourados revestem as paredes da tumba.  Os sarcófagos
+- description: 'Grandes sarcófagos dourados revestem as paredes da tumba.  Os sarcófagos
+
     conseguiram passar intactos pelas mãos do tempo e intocados pelos ladroes.
-    Os tesouros levados pelos faraós em suas tumbas ainda repousam pelo chão.
+
+    Os tesouros levados pelos faraós em suas tumbas ainda repousam pelo chão.'
   exits:
     south:
       target_vnum: '01010535344'
   local_id: '5345'
   name: A Tumba dos Faraós
   vnum: '01010535345'
-- description: |-
-    Este corredor antigamente possuia um arco no teto, que cedeu por causa do
+- description: 'Este corredor antigamente possuia um arco no teto, que cedeu por causa
+    do
+
     peso das imensas pedras usadas na pirâmide, tendo se transformado apenas em
+
     um enorme monte de entulho, com muitos pedregulhos e pedras.  Agora esta
+
     montanha de entulho chega quase a tomar uma parte do corredor norte.  Ao
-    sul, em meio às pedras e pedregulhos, você vê uma cripta de arenito.
+
+    sul, em meio às pedras e pedregulhos, você vê uma cripta de arenito.'
   exits:
     south:
       target_vnum: '01010535347'
@@ -605,10 +682,12 @@
   local_id: '5346'
   name: Um Corredor Cheio de Pedregulhos
   vnum: '01010535346'
-- description: |-
-    Uma pequena cripta é iluminada por um buraco na parede ao sul, através do
+- description: 'Uma pequena cripta é iluminada por um buraco na parede ao sul, através
+    do
+
     qual a areia do deserto entra.  Um quente vento sopra do deserto, secando
-    sua pele constantemente.  Ao leste e ao norte o corredor continua.
+
+    sua pele constantemente.  Ao leste e ao norte o corredor continua.'
   exits:
     east:
       target_vnum: 01010535348
@@ -619,11 +698,13 @@
   local_id: '5347'
   name: Um Cripta de Arenito
   vnum: '01010535347'
-- description: |-
-    Este corredor possui um belo arco, esculpido nas pedras arenosas da
+- description: 'Este corredor possui um belo arco, esculpido nas pedras arenosas da
+
     pirâmide.  A poeira, que cobre a maior parte do interior da pirâmide, não se
+
     faz presente aqui, espanada pelo sopro das areias do deserto que uiva em
-    seus ouvidos.
+
+    seus ouvidos.'
   exits:
     east:
       target_vnum: 01010535349
@@ -632,10 +713,11 @@
   local_id: '5348'
   name: Um Corredor Curvado
   vnum: 01010535348
-- description: |-
-    Este corredor possui um belo arco, esculpido nas pedras arenosas da
+- description: 'Este corredor possui um belo arco, esculpido nas pedras arenosas da
+
     pirâmide.  Ao leste, há uma pequena cripta dourada e a sala segue ao sul e
-    ao norte.
+
+    ao norte.'
   exits:
     east:
       target_vnum: '01010535350'
@@ -646,22 +728,26 @@
   local_id: '5349'
   name: Um Corredor Curvado
   vnum: 01010535349
-- description: |-
-    Você se encontra em uma pequena cripta com paredes e teto feitos de
+- description: 'Você se encontra em uma pequena cripta com paredes e teto feitos de
+
     tijolos dourados, que ofuscam as largas pedras arenosas da pirâmide.
+
     Pequenos tapetes estão espalhados pelo chão e eles parecem ter sido
-    recentemente usados.
+
+    recentemente usados.'
   exits:
     west:
       target_vnum: 01010535349
   local_id: '5350'
   name: Uma Cripta Dourada
   vnum: '01010535350'
-- description: |-
-    Este corredor possui um belo arco, esculpido nas pedras arenosas da
+- description: 'Este corredor possui um belo arco, esculpido nas pedras arenosas da
+
     pirâmide.  A poeira, que cobre a maior parte do interior da pirâmide, não se
+
     faz presente aqui, espanada pelo sopro das areias do deserto que uiva em
-    seus ouvidos.  O corredor segue ao norte e termina ao sul, em uma abóbada.
+
+    seus ouvidos.  O corredor segue ao norte e termina ao sul, em uma abóbada.'
   exits:
     north:
       target_vnum: 01010535349
@@ -670,22 +756,27 @@
   local_id: '5351'
   name: Um Corredor Curvado
   vnum: '01010535351'
-- description: |-
-    As pedras da pirâmide aqui assumem uma estranha qualidade, quase
+- description: 'As pedras da pirâmide aqui assumem uma estranha qualidade, quase
+
     parecendo ter luz própria.  Assim que você se aproxima, você vê pequenas
+
     partículas de vidro dentro das pedras, que refletem tão perfeitamente a sua
-    fonte de luz, que elas parecem brilhar por si só.
+
+    fonte de luz, que elas parecem brilhar por si só.'
   exits:
     north:
       target_vnum: '01010535351'
   local_id: '5352'
   name: Uma Abóbada Iluminada
   vnum: '01010535352'
-- description: |-
-    Você está em uma grande duna de areia no lado sul da pirâmide.  Aos pés
+- description: 'Você está em uma grande duna de areia no lado sul da pirâmide.  Aos
+    pés
+
     da duna de areia, você vê um pequeno buraco, onde as pedras da pirâmide se
+
     romperam.  Não muito longe, ao sul, se aproxima uma tempestade de areia: o
-    vento da tempestade uiva em seu rosto.
+
+    vento da tempestade uiva em seu rosto.'
   exits:
     north:
       target_vnum: '01010535347'
@@ -694,10 +785,12 @@
   local_id: '5353'
   name: Uma Grande Duna de Areia
   vnum: '01010535353'
-- description: |-
-    Você foi envolto por uma grande tempestade de areia.  Ventos uivantes o
+- description: 'Você foi envolto por uma grande tempestade de areia.  Ventos uivantes
+    o
+
     açoitam por todos os lados e a areia rasga sua pele, cegando você.  Você
-    perde seu senso de direção.
+
+    perde seu senso de direção.'
   exits:
     east:
       target_vnum: '01010535354'
@@ -710,10 +803,12 @@
   local_id: '5354'
   name: Uma Conturbada Tempestade de Areia
   vnum: '01010535354'
-- description: |-
-    Você foi envolto por uma grande tempestade de areia.  Ventos uivantes o
+- description: 'Você foi envolto por uma grande tempestade de areia.  Ventos uivantes
+    o
+
     açoitam por todos os lados e a areia rasga sua pele, cegando você.  Você
-    perde seu senso de direção.
+
+    perde seu senso de direção.'
   exits:
     east:
       target_vnum: '01010535355'
@@ -726,10 +821,12 @@
   local_id: '5355'
   name: Uma Conturbada Tempestade de Areia
   vnum: '01010535355'
-- description: |-
-    Você foi envolto por uma grande tempestade de areia.  Ventos uivantes o
+- description: 'Você foi envolto por uma grande tempestade de areia.  Ventos uivantes
+    o
+
     açoitam por todos os lados e a areia rasga sua pele, cegando você.  Você
-    perde seu senso de direção.
+
+    perde seu senso de direção.'
   exits:
     east:
       target_vnum: '01010535356'
@@ -742,10 +839,12 @@
   local_id: '5356'
   name: Uma Conturbada Tempestade de Areia
   vnum: '01010535356'
-- description: |-
-    Você foi envolto por uma grande tempestade de areia.  Ventos uivantes o
+- description: 'Você foi envolto por uma grande tempestade de areia.  Ventos uivantes
+    o
+
     açoitam por todos os lados e a areia rasga sua pele, cegando você.  Você
-    perde seu senso de direção.
+
+    perde seu senso de direção.'
   exits:
     east:
       target_vnum: '01010535357'
@@ -758,11 +857,13 @@
   local_id: '5357'
   name: Uma Conturbada Tempestade de Areia
   vnum: '01010535357'
-- description: |-
-    De alguma forma, você conseguiu atravessar os ventos uivantes da
+- description: 'De alguma forma, você conseguiu atravessar os ventos uivantes da
+
     tempestade de areia e subir pela duna de areia.  Você pode ver a tempestade
+
     ao norte e, supostamente, a pirâmide está em algum lugar além dela.  Nada
-    além de dunas planas em todas as direções.
+
+    além de dunas planas em todas as direções.'
   exits:
     north:
       target_vnum: '01010535357'
@@ -771,10 +872,11 @@
   local_id: '5358'
   name: Uma Volumosa Duna de Areia
   vnum: 01010535358
-- description: |-
-    Você se espreme através do pequeno buraco de areia e alcança uma câmara
+- description: 'Você se espreme através do pequeno buraco de areia e alcança uma câmara
+
     branca.  Sobre você, há um pequeno buraco, alcançável apenas pela rampa de
-    areia pela qual você desceu.
+
+    areia pela qual você desceu.'
   exits:
     up:
       target_vnum: 01010535358

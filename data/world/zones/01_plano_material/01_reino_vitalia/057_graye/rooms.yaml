@@ -5,14 +5,15 @@
     north:
       target_vnum: '01010575701'
     south:
-      target_vnum: '01010571105'
+      target_vnum: '01010111105'
   local_id: '5700'
   name: O Caminho até o Campo
   vnum: '01010575700'
-- description: |-
-    Você está no fim da trilha entreita, sendo possível agora ver o extenso
+- description: 'Você está no fim da trilha entreita, sendo possível agora ver o extenso
+
     campo que se segue até onde sua vista alcança.  Pelo sul você volta a
-    caminhar pela trilha.
+
+    caminhar pela trilha.'
   exits:
     north:
       target_vnum: '01010575702'
@@ -21,11 +22,13 @@
   local_id: '5701'
   name: O Caminho até o Campo
   vnum: '01010575701'
-- description: |-
-    Você está parado em um grande campo com relva alta.  O cheiro da terra
+- description: 'Você está parado em um grande campo com relva alta.  O cheiro da terra
+
     fresca e a luz do sol o envolve.  O ambiente é preenchido pelo gorjeio dos
+
     pássaros, que alegremente estão construindo seus ninhos de emaranhados de
-    grama.  Um campo aberto segue na direção leste-sul.
+
+    grama.  Um campo aberto segue na direção leste-sul.'
   exits:
     south:
       target_vnum: '01010575701'
@@ -34,30 +37,39 @@
   local_id: '5702'
   name: O Grande Campo
   vnum: '01010575702'
-- description: |-
-    A relva brota fina e rasteira aqui e finalmente se une a uma fila de
+- description: 'A relva brota fina e rasteira aqui e finalmente se une a uma fila
+    de
+
     árvores.  Ao longe, para norte, uma nuvem carregada flutua no céu em sinal
+
     de mau presságio mas curiosamente aqui continua bastante agradável ainda.
+
     Grilos cricrilam alegremente, e os raios de sol aquecem sua pele.  O grande
+
     campo segue para ala leste de volta à relva e desaparece para o flanco
-    oeste, para dentro da floresta.
+
+    oeste, para dentro da floresta.'
   exits:
     east:
       target_vnum: '01010575702'
     north:
-      target_vnum: '01010572050'
+      target_vnum: '01010202050'
     west:
       target_vnum: '01010575704'
   local_id: '5703'
   name: O Limiar da Floresta
   vnum: '01010575703'
-- description: |-
-    O caminho torna-se sombrio aqui e a temperatura subitamente cai.  Enormes
+- description: 'O caminho torna-se sombrio aqui e a temperatura subitamente cai.  Enormes
+
     folhas amplas de árvore unem-se para amenizar a luz do sol deixando o chão
+
     da floresta rajado de finos raios de sol que atravessam as folhas.  O grande
+
     campo torna-se mais amplo aqui mostrando vestígios de largo uso recente.  O
+
     Grande campo segue para leste e oeste e você ainda pode se aventurar
-    adentrando a floresta no sentido norte-sul.
+
+    adentrando a floresta no sentido norte-sul.'
   exits:
     east:
       target_vnum: '01010575703'
@@ -70,9 +82,10 @@
   local_id: '5704'
   name: Entrada para a Floresta de Graye
   vnum: '01010575704'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.'
   exits:
     south:
       target_vnum: '01010575706'
@@ -81,9 +94,10 @@
   local_id: '5705'
   name: A Floresta de Graye
   vnum: '01010575705'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.'
   exits:
     north:
       target_vnum: '01010575705'
@@ -94,9 +108,10 @@
   local_id: '5706'
   name: A Floresta de Graye
   vnum: '01010575706'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.'
   exits:
     north:
       target_vnum: '01010575704'
@@ -107,9 +122,10 @@
   local_id: '5707'
   name: A Floresta de Graye
   vnum: '01010575707'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.'
   exits:
     north:
       target_vnum: '01010575707'
@@ -118,11 +134,14 @@
   local_id: '5708'
   name: A Floresta de Graye
   vnum: 01010575708
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
     ruidosos seres que aqui habitam.  Há um abrupto penhasco voltado para oeste
+
     subindo pela floresta.  Uma tabuleta perfeitamente pregada na encosta do
-    penhasco.
+
+    penhasco.'
   exits:
     east:
       target_vnum: '01010575705'
@@ -131,10 +150,12 @@
   local_id: '5709'
   name: A Floresta de Graye
   vnum: 01010575709
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
     ruidosos seres que aqui habitam.  Há um abrupto penhasco voltado para oeste,
-    erguendo-se sobre a floresta.
+
+    erguendo-se sobre a floresta.'
   exits:
     east:
       target_vnum: '01010575706'
@@ -145,9 +166,10 @@
   local_id: '5710'
   name: A Floresta de Graye
   vnum: '01010575710'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.  O grande campo termina de repente aqui.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.  O grande campo termina de repente aqui.'
   exits:
     east:
       target_vnum: '01010575704'
@@ -160,9 +182,10 @@
   local_id: '5711'
   name: A Floresta de Graye
   vnum: '01010575711'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.'
   exits:
     east:
       target_vnum: '01010575707'
@@ -175,9 +198,10 @@
   local_id: '5712'
   name: A Floresta de Graye
   vnum: '01010575712'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.'
   exits:
     east:
       target_vnum: 01010575708
@@ -186,10 +210,12 @@
   local_id: '5713'
   name: A Floresta de Graye
   vnum: '01010575713'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
     ruidosos seres que aqui habitam.  Há um abrupto penhasco voltado para norte,
-    erguendo-se sobre a floresta.
+
+    erguendo-se sobre a floresta.'
   exits:
     east:
       target_vnum: '01010575711'
@@ -200,9 +226,10 @@
   local_id: '5714'
   name: A Floresta de Graye
   vnum: '01010575714'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
-    ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
+    ruidosos seres que aqui habitam.'
   exits:
     east:
       target_vnum: '01010575712'
@@ -215,9 +242,9 @@
   local_id: '5715'
   name: A Floresta de Graye
   vnum: '01010575715'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por
-    entre os ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por
+
+    entre os ruidosos seres que aqui habitam.'
   exits:
     east:
       target_vnum: '01010575713'
@@ -228,25 +255,27 @@
   local_id: '5716'
   name: A Floresta de Graye
   vnum: '01010575716'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por entre os
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por entre
+    os
+
     ruidosos seres que aqui habitam.  Há um penhasco voltado para o norte e
-    outro para sudoeste.
+
+    outro para sudoeste.'
   exits:
     east:
       target_vnum: '01010575714'
     south:
       target_vnum: 01010575718
     southwest:
-      target_vnum: 01010570800
+      target_vnum: 01010080800
     up:
       target_vnum: '01010575720'
   local_id: '5717'
   name: A Floresta de Graye
   vnum: '01010575717'
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por
-    entre os ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por
+
+    entre os ruidosos seres que aqui habitam.'
   exits:
     east:
       target_vnum: '01010575715'
@@ -257,9 +286,9 @@
   local_id: '5718'
   name: A Floresta de Graye
   vnum: 01010575718
-- description: |-
-    Você está em uma floresta de madeiras de lei, caminhando por
-    entre os ruidosos seres que aqui habitam.
+- description: 'Você está em uma floresta de madeiras de lei, caminhando por
+
+    entre os ruidosos seres que aqui habitam.'
   exits:
     east:
       target_vnum: '01010575716'
@@ -268,11 +297,13 @@
   local_id: '5719'
   name: A Floresta de Graye
   vnum: 01010575719
-- description: |-
-    Você traça seu caminho para cima, mão após mão, procurando um melhor
+- description: 'Você traça seu caminho para cima, mão após mão, procurando um melhor
+
     apoio para os pés.  O suor cai em seus olhos e sua respiração vai ficando
+
     ofegante.  Você ainda pode se jogar a salvo no chão da floresta, ou
-    continuar subindo loucamente.
+
+    continuar subindo loucamente.'
   exits:
     down:
       target_vnum: '01010575717'
@@ -281,11 +312,14 @@
   local_id: '5720'
   name: A Encosta do Penhasco
   vnum: '01010575720'
-- description: |-
-    Sua subida é interrompida pelo que parece ser uma saliência.  Poderia ser
+- description: 'Sua subida é interrompida pelo que parece ser uma saliência.  Poderia
+    ser
+
     um excelente lugar para um descanso..  Se você não estivesse exatamente
+
     embaixo dele.  Você observa as coisas ao seu redor procurando por um caminho
-    alternativo.
+
+    alternativo.'
   exits:
     down:
       target_vnum: '01010575720'
@@ -294,38 +328,45 @@
   local_id: '5721'
   name: A Saliência
   vnum: '01010575721'
-- description: |-
-    Assim que você alcança a próxima saliência, a pedra se desprende e começa
+- description: 'Assim que você alcança a próxima saliência, a pedra se desprende e
+    começa
+
     a cair, cair e cair até o chão.  Você mal consegue salvar-se, pendurando-se
+
     desesperadamente na pedra que apoiava sua outra mão.  Voltar para oeste está
+
     fora de cogitação mas você pode tomar impulso para subir em uma frágil pedra
-    posta na posição horizontal.
+
+    posta na posição horizontal.'
   exits:
     up:
       target_vnum: '01010575723'
   local_id: '5722'
   name: Estando Por um Fio
   vnum: '01010575722'
-- description: |-
-    Você está parado em uma pedra muito frágil, larga o suficiente para seus
-    pés de lado.  A pedra se extende para leste e oeste.
+- description: 'Você está parado em uma pedra muito frágil, larga o suficiente para
+    seus
+
+    pés de lado.  A pedra se extende para leste e oeste.'
   exits:
     down:
       target_vnum: '01010575725'
     east:
       target_vnum: '01010575725'
     up:
-      target_vnum: '01010572060'
+      target_vnum: '01010202060'
     west:
       target_vnum: '01010575724'
   local_id: '5723'
   name: A Frágil Pedra
   vnum: '01010575723'
-- description: |-
-    Você se encontra em uma pedra plana muito larga.  Você poderia deitar-se
+- description: 'Você se encontra em uma pedra plana muito larga.  Você poderia deitar-se
+
     aqui e tirar uma bela soneca também se quisesse.  Ao sul você tem uma vista
+
     espetacular de toda a floresta.  Há também um outro calço para os pés seguro
-    até o topo do penhasco, tudo para uma fácil escalada.
+
+    até o topo do penhasco, tudo para uma fácil escalada.'
   exits:
     east:
       target_vnum: '01010575723'
@@ -334,25 +375,33 @@
   local_id: '5724'
   name: A Pedra
   vnum: '01010575724'
-- description: |-
-    "AAAAAHHHH!", você grita enquanto despenca em direção a terra.  O chão se
+- description: '"AAAAAHHHH!", você grita enquanto despenca em direção a terra.  O
+    chão se
+
     aproxima e você se prepara para o impacto.  De repente, num piscar de olhos,
+
     você se sente flutuando em meio a uma luz branca.  Você percebe que há um
+
     brilho no olho dos deuses.
 
-    "Sua hora ainda não chegou.." - eles profetizam.
+
+    "Sua hora ainda não chegou.." - eles profetizam.'
   exits:
     down:
-      target_vnum: '01010570050'
+      target_vnum: '01010000050'
   local_id: '5725'
   name: OPA!!
   vnum: '01010575725'
-- description: |-
-    Você alcança o topo do penhasco e luta para manter-se de pé.  Por alguns
+- description: 'Você alcança o topo do penhasco e luta para manter-se de pé.  Por
+    alguns
+
     instantes você consegue vislumbrar tudo, sem perder absolutamente nada de
+
     vista.  Para o sul e leste você vê a floresta vindo em direção à encosta do
+
     penhasco e ao norte você percebe uma clareira nas vizinhanças de uma pequena
-    cidade.
+
+    cidade.'
   exits:
     down:
       target_vnum: '01010575724'
@@ -361,9 +410,9 @@
   local_id: '5726'
   name: No Topo do Penhasco
   vnum: '01010575726'
-- description: |-
-    Você está em uma ampla clareira entre os muros da cidade e da floresta.
-    Você nota alguns homens no alto do muro, gesticulando e apontando para você.
+- description: 'Você está em uma ampla clareira entre os muros da cidade e da floresta.
+
+    Você nota alguns homens no alto do muro, gesticulando e apontando para você.'
   exits:
     east:
       target_vnum: 01010575728
@@ -374,9 +423,9 @@
   local_id: '5727'
   name: A Clareira
   vnum: '01010575727'
-- description: |-
-    Você está em uma ampla clareira entre os muros da cidade e a floresta.
-    Você nota alguns homens no alto do muro, gesticulando e apontando para você.
+- description: 'Você está em uma ampla clareira entre os muros da cidade e a floresta.
+
+    Você nota alguns homens no alto do muro, gesticulando e apontando para você.'
   exits:
     east:
       target_vnum: 01010575729
@@ -389,9 +438,9 @@
   local_id: '5728'
   name: A Clareira
   vnum: 01010575728
-- description: |-
-    Você está em uma ampla clareira entre os muros da cidade e a floresta.
-    Você nota alguns homens no alto do muro, gesticulando e apontando para você.
+- description: 'Você está em uma ampla clareira entre os muros da cidade e a floresta.
+
+    Você nota alguns homens no alto do muro, gesticulando e apontando para você.'
   exits:
     east:
       target_vnum: '01010575736'
@@ -402,9 +451,9 @@
   local_id: '5729'
   name: A Clareira
   vnum: 01010575729
-- description: |-
-    Você está em uma ampla clareira entre os muros da cidade e a floresta.
-    Você nota alguns homens no alto do muro, gesticulando e apontando para você.
+- description: 'Você está em uma ampla clareira entre os muros da cidade e a floresta.
+
+    Você nota alguns homens no alto do muro, gesticulando e apontando para você.'
   exits:
     south:
       target_vnum: '01010575727'
@@ -413,19 +462,20 @@
   local_id: '5730'
   name: A Clareira
   vnum: '01010575730'
-- description: |-
-    Você está parado em frente ao grande portão da cidade de Graye.  Soldados
+- description: 'Você está parado em frente ao grande portão da cidade de Graye.  Soldados
+
     ornados com plumas vermelhas levantam a porta de grades levadiça e apressam
-    você a entrar rapidamente.
+
+    você a entrar rapidamente.'
   exits:
     north:
       target_vnum: '01010575737'
   local_id: '5731'
   name: Entrada para a Cidade de Graye
   vnum: '01010575731'
-- description: |-
-    Você está em uma ampla clareira entre os muros da cidade e a floresta.
-    Você nota alguns homens no alto do muro, gesticulando e apontando para você.
+- description: 'Você está em uma ampla clareira entre os muros da cidade e a floresta.
+
+    Você nota alguns homens no alto do muro, gesticulando e apontando para você.'
   exits:
     east:
       target_vnum: '01010575735'
@@ -434,10 +484,11 @@
   local_id: '5732'
   name: A Clareira
   vnum: '01010575732'
-- description: |-
-    Você se encontra em meio a um emaranhado de espinhos retorcidos de
+- description: 'Você se encontra em meio a um emaranhado de espinhos retorcidos de
+
     árvores gigantescas.  O orvalho cobre o chão da floresta e tudo está
-    completamente tranquilo.
+
+    completamente tranquilo.'
   exits:
     east:
       target_vnum: '01010575727'
@@ -446,10 +497,11 @@
   local_id: '5733'
   name: O Bosque do Demônio
   vnum: '01010575733'
-- description: |-
-    Você se encontra em meio a um emaranhado de espinhos retorcidos de
+- description: 'Você se encontra em meio a um emaranhado de espinhos retorcidos de
+
     árvores gigantescas.  O orvalho cobre o chão da floresta e tudo está
-    completamente tranquilo.
+
+    completamente tranquilo.'
   exits:
     east:
       target_vnum: '01010575730'
@@ -458,10 +510,11 @@
   local_id: '5734'
   name: O Bosque do Demônio
   vnum: '01010575734'
-- description: |-
-    Você se encontra em meio a um emaranhado de espinhos retorcidos de
+- description: 'Você se encontra em meio a um emaranhado de espinhos retorcidos de
+
     árvores gigantescas.  O orvalho cobre o chão da floresta e tudo está
-    completamente tranquilo.
+
+    completamente tranquilo.'
   exits:
     south:
       target_vnum: '01010575736'
@@ -470,10 +523,11 @@
   local_id: '5735'
   name: O Bosque do Demônio
   vnum: '01010575735'
-- description: |-
-    Você se encontra em meio a um emaranhado de espinhos retorcidos de
+- description: 'Você se encontra em meio a um emaranhado de espinhos retorcidos de
+
     árvores gigantescas.  O orvalho cobre o chão da floresta e tudo está
-    completamente tranquilo.
+
+    completamente tranquilo.'
   exits:
     north:
       target_vnum: '01010575735'
@@ -482,10 +536,12 @@
   local_id: '5736'
   name: O Bosque do Demônio
   vnum: '01010575736'
-- description: |-
-    Casas simples, postas lado a lado dos dois lados da rua e sentinelas em
+- description: 'Casas simples, postas lado a lado dos dois lados da rua e sentinelas
+    em
+
     cada esquina.  Há um castelo e mais ruas para o leste e oeste.  Um grande
-    cartaz foi afixado no muro aqui.
+
+    cartaz foi afixado no muro aqui.'
   exits:
     east:
       target_vnum: 01010575739
@@ -496,37 +552,38 @@
   local_id: '5737'
   name: A Rua da Cidade
   vnum: '01010575737'
-- description: |-
-    Pequenas casas alinhadas lado a lado dos dois lados da rua e e sentinelas
+- description: 'Pequenas casas alinhadas lado a lado dos dois lados da rua e e sentinelas
+
     armados foram deixados de guarda a cada esquina.  Você vê um pequeno papel
-    colado na parede.
+
+    colado na parede.'
   exits:
     east:
       target_vnum: '01010575737'
   local_id: '5738'
   name: A Rua da Cidade
   vnum: 01010575738
-- description: |-
-    Pequenas casas alinhadas lado a lado dos dois lados da rua e sentinelas
-    armados foram deixados de guarda a cada esquina.
+- description: 'Pequenas casas alinhadas lado a lado dos dois lados da rua e sentinelas
+
+    armados foram deixados de guarda a cada esquina.'
   exits:
     west:
       target_vnum: '01010575737'
   local_id: '5739'
   name: A Rua da Cidade
   vnum: 01010575739
-- description: |-
-    Tudo aqui está uma bagunça.  Mobílias foram reviradas, pinturas rasgadas,
-    cada ornamento de ouro extraído e levado.
+- description: 'Tudo aqui está uma bagunça.  Mobílias foram reviradas, pinturas rasgadas,
+
+    cada ornamento de ouro extraído e levado.'
   exits:
     east:
       target_vnum: '01010575741'
   local_id: '5740'
   name: Dentro do Castelo
   vnum: '01010575740'
-- description: |-
-    Você se depara com o portão entreaberto do castelo.  Você nota o completo
-    silêncio de dentro.  A vida na cidade continua animada a sua volta.
+- description: 'Você se depara com o portão entreaberto do castelo.  Você nota o completo
+
+    silêncio de dentro.  A vida na cidade continua animada a sua volta.'
   exits:
     east:
       target_vnum: '01010575742'
@@ -539,18 +596,19 @@
   local_id: '5741'
   name: Entrada para o Castelo de Relnar
   vnum: '01010575741'
-- description: |-
-    Tudo aqui está uma bagunça.  Mobílias foram reviradas, pinturas rasgadas,
-    cada ornamento de ouro extraido e levado.
+- description: 'Tudo aqui está uma bagunça.  Mobílias foram reviradas, pinturas rasgadas,
+
+    cada ornamento de ouro extraido e levado.'
   exits:
     west:
       target_vnum: '01010575741'
   local_id: '5742'
   name: Dentro do Castelo
   vnum: '01010575742'
-- description: |-
-    Assim que você adentra este aposento você pode sentí-lo vivo.  Uma aura
-    mágica de bondade preenche ente quarto e tudo está em perfeita ordem.
+- description: 'Assim que você adentra este aposento você pode sentí-lo vivo.  Uma
+    aura
+
+    mágica de bondade preenche ente quarto e tudo está em perfeita ordem.'
   exits:
     down:
       target_vnum: 01010575759
@@ -559,9 +617,10 @@
   local_id: '5743'
   name: Escritório de Relnar
   vnum: '01010575743'
-- description: |-
-    O trono do Rei Relnar está aqui, vazio.  Você nota aposentos para o leste
-    e oeste.
+- description: 'O trono do Rei Relnar está aqui, vazio.  Você nota aposentos para
+    o leste
+
+    e oeste.'
   exits:
     down:
       target_vnum: '01010575746'
@@ -574,19 +633,21 @@
   local_id: '5744'
   name: A sala do Trono
   vnum: '01010575744'
-- description: |-
-    Você se encontra em um pequeno quarto simples.  Há uma cama, uma
-    escrivaninha e, finalmente, uma banheira bem trabalhada.
+- description: 'Você se encontra em um pequeno quarto simples.  Há uma cama, uma
+
+    escrivaninha e, finalmente, uma banheira bem trabalhada.'
   exits:
     west:
       target_vnum: '01010575744'
   local_id: '5745'
   name: Quarto de Rymat
   vnum: '01010575745'
-- description: |-
-    O chão do túnel está um pouco empoeirado e as paredes são de pedra e
+- description: 'O chão do túnel está um pouco empoeirado e as paredes são de pedra
+    e
+
     parecem sólidas.  Tochas mágicas estão postas em cada lado das paredes do
-    muro, iluminando o ambiente.
+
+    muro, iluminando o ambiente.'
   exits:
     north:
       target_vnum: '01010575747'
@@ -604,9 +665,10 @@
   local_id: '5747'
   name: O Túnel
   vnum: '01010575747'
-- description: |-
-    Você chega ao fim do túnel.  Logo acima de você, a luz do sol atravessa a
-    ponta do alçapão.
+- description: 'Você chega ao fim do túnel.  Logo acima de você, a luz do sol atravessa
+    a
+
+    ponta do alçapão.'
   exits:
     south:
       target_vnum: '01010575747'
@@ -615,11 +677,14 @@
   local_id: '5748'
   name: O Fim do Túnel
   vnum: 01010575748
-- description: |-
-    Você sai do túnel e olha em volta.  Bem ao longe, ao sul, você mal vê uma
+- description: 'Você sai do túnel e olha em volta.  Bem ao longe, ao sul, você mal
+    vê uma
+
     das torres do castelo entre as árvores.  Para o norte, a terra vai descendo
+
     em forma de ladeira e muitas árvores retorcidas impedem o avanço na direção
-    leste-oeste.
+
+    leste-oeste.'
   exits:
     down:
       target_vnum: 01010575548
@@ -628,12 +693,15 @@
   local_id: '5749'
   name: O Vale dos Demônios
   vnum: 01010575749
-- description: |-
-    Você avança mais e mais profundamente para dentro do vale.  Os muros
+- description: 'Você avança mais e mais profundamente para dentro do vale.  Os muros
+
     inclinam-se na mesma direção que você segue, tornando-se quase verticais.
+
     Seu caminho é atrasado pela vegetação densa agarrando em seus pés.  O
+
     caminho de volta ao sul desaparece na escuridão e sua trilha segue,
-    conduzindo você para o norte.
+
+    conduzindo você para o norte.'
   exits:
     north:
       target_vnum: '01010575751'
@@ -642,10 +710,12 @@
   local_id: '5750'
   name: O Vale dos Demônios
   vnum: '01010575750'
-- description: |-
-    Você chegou na parte mais baixa do vale.  As colinas inclinam-se para o
+- description: 'Você chegou na parte mais baixa do vale.  As colinas inclinam-se para
+    o
+
     leste e oeste.  Um repentino sopro de vento, traz um cheiro de enxofre,
-    vindo do norte.
+
+    vindo do norte.'
   exits:
     north:
       target_vnum: '01010575752'
@@ -654,10 +724,11 @@
   local_id: '5751'
   name: O Fundo do Vale
   vnum: '01010575751'
-- description: |-
-    Um grande gruta corta a superfície da terra aqui.  Sinais de fumaça
+- description: 'Um grande gruta corta a superfície da terra aqui.  Sinais de fumaça
+
     seguem seu caminho para cima, atingindo seu nariz de forma aguda!  Você
-    sente que algo muito mal está por perto.
+
+    sente que algo muito mal está por perto.'
   exits:
     down:
       target_vnum: '01010575753'
@@ -666,9 +737,10 @@
   local_id: '5752'
   name: A Gruta
   vnum: '01010575752'
-- description: |-
-    Há uma ponte de pedra aqui e um túnel que conduz diretamente para dentro
-    da terra.  Por baixo, você sente a lava borbulhando.
+- description: 'Há uma ponte de pedra aqui e um túnel que conduz diretamente para
+    dentro
+
+    da terra.  Por baixo, você sente a lava borbulhando.'
   exits:
     north:
       target_vnum: '01010575754'
@@ -677,10 +749,11 @@
   local_id: '5753'
   name: Dentro da Gruta
   vnum: '01010575753'
-- description: |-
-    O túnel segue nas direções norte e sul e para os lados você vê grandes
+- description: 'O túnel segue nas direções norte e sul e para os lados você vê grandes
+
     celas.  Espiando por uma pequena janela, você vê prisioneiros humanos,
-    muitos deles vestindo o uniforme da guarda Graye.
+
+    muitos deles vestindo o uniforme da guarda Graye.'
   exits:
     north:
       target_vnum: '01010575755'
@@ -689,11 +762,14 @@
   local_id: '5754'
   name: O Túnel
   vnum: '01010575754'
-- description: |-
-    Você se encontra em uma pequena sala de guarda.  Quartos para o leste e
+- description: 'Você se encontra em uma pequena sala de guarda.  Quartos para o leste
+    e
+
     oeste guardam prisioneiros e uma porta de ébano bloqueia o caminho para o
+
     norte.  Pendurados na parede, você vê instrumentos de tortura e há sangue
-    por toda parte.
+
+    por toda parte.'
   exits:
     north:
       target_vnum: '01010575756'
@@ -702,10 +778,11 @@
   local_id: '5755'
   name: A Sala da Guarda de Irgon
   vnum: '01010575755'
-- description: |-
-    Este quarto está COBERTO de sangue.  O aprendiz do Arque-Demônio,
+- description: 'Este quarto está COBERTO de sangue.  O aprendiz do Arque-Demônio,
+
     Scrytin, fez deste lugar horrível sua morada.  Há uma porta de mármore para
-    leste.
+
+    leste.'
   exits:
     east:
       target_vnum: '01010575762'
@@ -714,23 +791,30 @@
   local_id: '5756'
   name: O Quarto de execução de Scrytin
   vnum: '01010575756'
-- description: |-
-    @Você escorrega...
+- description: '@Você escorrega...
+
     ...
+
     ...
+
     quente
+
     Quente
+
     @RQUENTE!!@n
 
-    Desculpe, você está morto... +_+  R.I.P.
+
+    Desculpe, você está morto... +_+  R.I.P.'
   exits: {}
   local_id: '5758'
   name: A Lava
   vnum: 01010575758
-- description: |-
-    Você pisa nesta passagem e espera seus olhos ficarem acostumados à luz.
+- description: 'Você pisa nesta passagem e espera seus olhos ficarem acostumados à
+    luz.
+
     Muros de pedra impedem a progressão para todas as direções, exceto para o
-    norte.
+
+    norte.'
   exits:
     north:
       target_vnum: '01010575760'
@@ -739,11 +823,14 @@
   local_id: '5759'
   name: O Caminho Secreto
   vnum: 01010575759
-- description: |-
-    Você caminha por esta passagem e avista que os restos mortais dos antigos
+- description: 'Você caminha por esta passagem e avista que os restos mortais dos
+    antigos
+
     reis de Graye estão por toda parte.  Você pode ver pelo quarto mas não com
+
     muita perfeição, por causa da luz escassa.  A passagem continua no sentido
-    norte-sul.
+
+    norte-sul.'
   exits:
     north:
       target_vnum: '01010575761'
@@ -752,20 +839,23 @@
   local_id: '5760'
   name: As Catacumbas
   vnum: '01010575760'
-- description: |-
-    Você entra em um enorme aposento em forma circular.  Um sarcófago de ouro
+- description: 'Você entra em um enorme aposento em forma circular.  Um sarcófago
+    de ouro
+
     está colocado no centro, em cima de uma mesa de pedra.  O tesouro está
+
     amontoado até o alto das paredes.  Você encontrou a última morada do
-    Cavaleiro Paladino Graye.
+
+    Cavaleiro Paladino Graye.'
   exits:
     south:
       target_vnum: '01010575760'
   local_id: '5761'
   name: A Tumba de Graye
   vnum: '01010575761'
-- description: |-
-    Você se depara com uma pequenina cela iluminada apenas por uma única
-    vela.
+- description: 'Você se depara com uma pequenina cela iluminada apenas por uma única
+
+    vela.'
   exits:
     east:
       target_vnum: '01010575743'

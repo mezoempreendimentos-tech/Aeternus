@@ -1,10 +1,15 @@
-- description: |-
-    Você se  choca ao perceber o tamanho dessa praça e a altitude em que ela
+- description: 'Você se  choca ao perceber o tamanho dessa praça e a altitude em que
+    ela
+
     está,  normal  considerando  que  ela  está  empoleirada no alto de uma das
+
     gigantescas  árvores  Nirin  da floresta de Thewster.  Toda a cidade ao seu
+
     redor está viva, com a população vivendo suas vidas.  Acima, o caminho guia
+
     para  as  diversas  lojas  de  Thewster,  ao sul fica a Taverna da Baía das
-    Folhas.  Para leste fica o caminho devolta à floresta.
+
+    Folhas.  Para leste fica o caminho devolta à floresta.'
   exits:
     east:
       target_vnum: '010213413402'
@@ -19,11 +24,14 @@
   local_id: '13400'
   name: A Praça Central de Thewster
   vnum: '010213413400'
-- description: |-
-    O  caminho  foi cravado em um gigantesco galho, que passa através de duas
+- description: 'O  caminho  foi cravado em um gigantesco galho, que passa através
+    de duas
+
     árvores.  Várias  lamparinas dependuram-se de pequenos galhos, iluminando o
+
     caminho.  A sul fica a praça central de Thewster e ao norte fica a praça do
-    mercado.
+
+    mercado.'
   exits:
     down:
       target_vnum: '010213413400'
@@ -34,13 +42,15 @@
   local_id: '13401'
   name: O Caminho no Galho
   vnum: '010213413401'
-- description: |-
-    Você  está  em um enorme galho da árvore. Olhando para cima e para baixo,
+- description: 'Você  está  em um enorme galho da árvore. Olhando para cima e para
+    baixo,
+
     você  nota  que  os galhos crescem bem próximo uns dos outros, formando uma
-    escadaria que conduz à superfície e para o topo da escadaria.
+
+    escadaria que conduz à superfície e para o topo da escadaria.'
   exits:
     down:
-      target_vnum: '010213413571'
+      target_vnum: '01010353571'
     up:
       target_vnum: 010213413429
     west:
@@ -48,10 +58,12 @@
   local_id: '13402'
   name: A Escadaria
   vnum: '010213413402'
-- description: |-
-    Grandes  vasos de plantas e árvores preenchem as paredes. No meio da sala
+- description: 'Grandes  vasos de plantas e árvores preenchem as paredes. No meio
+    da sala
+
     há  uma  grande mesa com uma placa de bronze. A leste você vê a recepção, a
-    oeste você vê o Restaurante Baía das Folhas e a norte fica a praça.
+
+    oeste você vê o Restaurante Baía das Folhas e a norte fica a praça.'
   exits:
     east:
       target_vnum: '010213413422'
@@ -62,9 +74,10 @@
   local_id: '13403'
   name: A Taverna da Baía das Folhas
   vnum: '010213413403'
-- description: |-
-    Essa  avenida  foi  cravada  em uma grande baía de folhas. A leste fica a
-    praça central de Thewster, próximo daqui o caminho se torna uma interseção.
+- description: 'Essa  avenida  foi  cravada  em uma grande baía de folhas. A leste
+    fica a
+
+    praça central de Thewster, próximo daqui o caminho se torna uma interseção.'
   exits:
     east:
       target_vnum: '010213413400'
@@ -73,10 +86,12 @@
   local_id: '13404'
   name: Avenida Baía das Folhas
   vnum: '010213413404'
-- description: |-
-    Essa  sala  foi  cravada em um tipo de nó sobre o caminho. As paredes são
+- description: 'Essa  sala  foi  cravada em um tipo de nó sobre o caminho. As paredes
+    são
+
     preenchidas  com  pequenas  árvores  de figo. A leste você nota uma entrada
-    para um tipo de cofre.
+
+    para um tipo de cofre.'
   exits:
     down:
       target_vnum: '010213413401'
@@ -100,11 +115,14 @@
   local_id: '13406'
   name: Interseção da Praça do Mercado
   vnum: '010213413406'
-- description: |-
-    Vendedores  de  rua  andam  por  todos  os  lados,  tentando  vender suas
+- description: 'Vendedores  de  rua  andam  por  todos  os  lados,  tentando  vender
+    suas
+
     mercadorias.  Os  cidadãos  de  Thewster  andam  normalmente,  fazendo suas
+
     tarefas diárias. A praça conduz a outros caminhos em ambos os lados leste e
-    oeste.
+
+    oeste.'
   exits:
     east:
       target_vnum: '010213413406'
@@ -113,11 +131,14 @@
   local_id: '13407'
   name: A Praça do Mercado
   vnum: '010213413407'
-- description: |-
-    O caminho de cordas e madeira da rua Lemba encontra o gigantesco galho. A
+- description: 'O caminho de cordas e madeira da rua Lemba encontra o gigantesco galho.
+    A
+
     pequena escada ao lado do caminho conduz acima, e pelo som, há um bar.  Para
+
     leste  o caminho conduz para a praça do mercado.  A oeste você vê a entrada
-    para as Guildas, que está atualmente fechada para detetização.
+
+    para as Guildas, que está atualmente fechada para detetização.'
   exits:
     down:
       target_vnum: '010213413407'
@@ -130,11 +151,14 @@
   local_id: '13408'
   name: A Lemba e Intersecção da Praça do Mercado
   vnum: 010213413408
-- description: |-
-    A  escada de cordas balança suavemente com o vento fazendo você sentir um
+- description: 'A  escada de cordas balança suavemente com o vento fazendo você sentir
+    um
+
     pouco  de  enjôo.  Você dá uma amedrontada olhada para baixo, esperando ver
+
     alguns  elfos  espatifados  no chão da floresta, lá embaixo, mas felizmente
-    você não vê nenhum.
+
+    você não vê nenhum.'
   exits:
     north:
       target_vnum: 010213413408
@@ -143,12 +167,16 @@
   local_id: '13409'
   name: Rua Lemba
   vnum: 010213413409
-- description: |-
-    Os gigantescos galhos se encontram formando uma interseção. Para norte uma
+- description: 'Os gigantescos galhos se encontram formando uma interseção. Para norte
+    uma
+
     pequena  placa  presa  por  cordas  balança  sobre o caminho que leva a uma
+
     escada  de  cordas,  abaixo  está  a  Av. Baía de Folhas. Você vê a Loja de
+
     Mágica de Balston ao sul e uma pequena escada de cordas que conduzem abaixo
-    até o armazém de equipamentos.
+
+    até o armazém de equipamentos.'
   exits:
     down:
       target_vnum: '010213413404'
@@ -163,61 +191,73 @@
   local_id: '13410'
   name: Intersecção da Av. Baía de Folhas e Rua Lemba
   vnum: '010213413410'
-- description: |-
-    Essa ferraria possui todos os tipos de armaduras em suas paredes. Você vê
+- description: 'Essa ferraria possui todos os tipos de armaduras em suas paredes.
+    Você vê
+
     capacetes,  escudos  e  grandes  armaduras por todos os lados. A sul está a
-    praça do mercado.
+
+    praça do mercado.'
   exits:
     south:
       target_vnum: '010213413406'
   local_id: '13411'
   name: A Ferraria de Thewster
   vnum: '010213413411'
-- description: |-
-    As mais finas armas élficas está espalhadas pelas paredes desse lugar. As
+- description: 'As mais finas armas élficas está espalhadas pelas paredes desse lugar.
+    As
+
     lâminas  de aço temperado das grandes espadas brilham por todos os lados. A
-    oeste, através da porta, você vê a interseção.
+
+    oeste, através da porta, você vê a interseção.'
   exits:
     west:
       target_vnum: '010213413406'
   local_id: '13412'
   name: O Depósito de Armas do Dios
   vnum: '010213413412'
-- description: |-
-    Diversos  arcos  com  manchas  negras  de  fumaça sobre diversas mesas de
+- description: 'Diversos  arcos  com  manchas  negras  de  fumaça sobre diversas mesas
+    de
+
     carvalho  enegrecido, totalmente preenchidos com estranhos tubos e frascos.
+
     O  chão  é  coberto  por  desenhos  gastos de pentagramas e outros símbolos
+
     estranhos, e há um quadro-negro em um canto que foi parcialmente limpo, com
-    algumas letras que são pouco visíveis.
+
+    algumas letras que são pouco visíveis.'
   exits:
     north:
       target_vnum: '010213413410'
   local_id: '13413'
   name: A Loja de Mágica de Balston
   vnum: '010213413413'
-- description: |-
-    Você está dentro do depósito de equipamentos, todas as espécies de coisas
-    preenchem as organizadas estantes. Abaixo fica a interseção.
+- description: 'Você está dentro do depósito de equipamentos, todas as espécies de
+    coisas
+
+    preenchem as organizadas estantes. Abaixo fica a interseção.'
   exits:
     down:
       target_vnum: '010213413410'
   local_id: '13414'
   name: O Depósito de Equipamentos
   vnum: '010213413414'
-- description: |-
-    Esse é o bar mais estranho dessas terras. Imagens místicas flutuam no ar.
+- description: 'Esse é o bar mais estranho dessas terras. Imagens místicas flutuam
+    no ar.
+
     Ilusões  de  finas  mobílias  aparecem por todo lugar, talvez seja apenas a
-    bebida..
+
+    bebida..'
   exits:
     down:
       target_vnum: 010213413408
   local_id: '13415'
   name: O Bar do Leeve
   vnum: '010213413415'
-- description: |-
-    O  hall de entrada é um pequeno e modesto quarto, refletindo a verdadeira
+- description: 'O  hall de entrada é um pequeno e modesto quarto, refletindo a verdadeira
+
     natureza  das  guildas.  A  sala  central  continua  para oeste enquanto as
-    guildas ficam para norte e sul.
+
+    guildas ficam para norte e sul.'
   exits:
     east:
       target_vnum: 010213413408
@@ -230,10 +270,11 @@
   local_id: '13416'
   name: A Entrada Para as Guildas
   vnum: '010213413416'
-- description: |-
-    O  hall de entrada é um pequeno e modesto quarto, refletindo a verdadeira
+- description: 'O  hall de entrada é um pequeno e modesto quarto, refletindo a verdadeira
+
     natureza  das  guildas.  A  sala  central  continua  para oeste enquanto as
-    guildas ficam para norte e sul.
+
+    guildas ficam para norte e sul.'
   exits:
     east:
       target_vnum: '010213413416'
@@ -246,58 +287,68 @@
   local_id: '13417'
   name: A Entrada Para as Guildas
   vnum: '010213413417'
-- description: |-
-    As  sombras nesse lugar parecem se mover, talvez sejam os novatos? Apesar
+- description: 'As  sombras nesse lugar parecem se mover, talvez sejam os novatos?
+    Apesar
+
     do teto ser bem alto, você pode ver alguns objetos pendurados nele. A única
-    saída esta a sul.
+
+    saída esta a sul.'
   exits:
     south:
       target_vnum: '010213413416'
   local_id: '13418'
   name: A Guilda dos Ladinos
   vnum: 010213413418
-- description: |-
-    Você  está  em  uma pequena sala. Sombras cobrem totalmente as paredes. O
-    chão é feito de rochas negras. A única saída está ao norte.
+- description: 'Você  está  em  uma pequena sala. Sombras cobrem totalmente as paredes.
+    O
+
+    chão é feito de rochas negras. A única saída está ao norte.'
   exits:
     north:
       target_vnum: '010213413416'
   local_id: '13419'
   name: A Guilda dos Magos
   vnum: 010213413419
-- description: |-
-    Essa  sala  emana  uma sensação de paz, parece uma igreja em miniatura. A
-    única saída fica ao norte.
+- description: 'Essa  sala  emana  uma sensação de paz, parece uma igreja em miniatura.
+    A
+
+    única saída fica ao norte.'
   exits:
     north:
       target_vnum: '010213413417'
   local_id: '13420'
   name: A Guilda dos Clérigos
   vnum: '010213413420'
-- description: |-
-    A  entrada  para  a  Guilda  dos  Guerreiros. Um lugar onde se deve tomar
-    cuidado para não dizer nada errado (ou certo). A única saída fica ao sul.
+- description: 'A  entrada  para  a  Guilda  dos  Guerreiros. Um lugar onde se deve
+    tomar
+
+    cuidado para não dizer nada errado (ou certo). A única saída fica ao sul.'
   exits:
     south:
       target_vnum: '010213413417'
   local_id: '13421'
   name: A Guilda dos Guerreiros
   vnum: '010213413421'
-- description: |-
-    A recepção é uma pequena sala ao lado da taverna. Atrás de uma grande mesa
+- description: 'A recepção é uma pequena sala ao lado da taverna. Atrás de uma grande
+    mesa
+
     no  centro  da  sala  você vê uma longa sala com diversas portas. A porta a
-    oeste conduz à entrada da taverna.
+
+    oeste conduz à entrada da taverna.'
   exits:
     west:
       target_vnum: '010213413403'
   local_id: '13422'
   name: A Recepção
   vnum: '010213413422'
-- description: |-
-    O  restaurante  é uma confortável taverna. Cheira a boa comida e o som de
+- description: 'O  restaurante  é uma confortável taverna. Cheira a boa comida e o
+    som de
+
     alegria  inunda  seus sentidos. Uma enorme lareira domina uma das paredes e
+
     um caloroso brilho emana de suas chamas. Pequenas mesas preenchem a sala. A
-    porta a leste conduz à taverna.
+
+    porta a leste conduz à taverna.'
   exits:
     east:
       target_vnum: '010213413403'
@@ -306,30 +357,35 @@
   local_id: '13423'
   name: Restaurante Baía das Folhas
   vnum: '010213413423'
-- description: |-
-    Você está em uma bem iluminada sala com um chão marmóreo impecável. Armas
+- description: 'Você está em uma bem iluminada sala com um chão marmóreo impecável.
+    Armas
+
     de  guerra  estão  penduradas  por todas as paredes, aguardando para que um
-    novato treine com elas.
+
+    novato treine com elas.'
   exits:
     south:
       target_vnum: '010213413426'
   local_id: '13424'
   name: A Guilda dos Paladinos
   vnum: '010213413424'
-- description: |-
-    Este lugar parece como uma floresta em miniatura, com árvores enfileiradas
+- description: 'Este lugar parece como uma floresta em miniatura, com árvores enfileiradas
+
     em  um  semicírculo,  abrindo  uma  clareira  no centro, onde os estudantes
-    praticam suas habilidades.
+
+    praticam suas habilidades.'
   exits:
     east:
       target_vnum: '010213413426'
   local_id: '13425'
   name: A Guilda dos Monges
   vnum: '010213413425'
-- description: |-
-    O hall de entrada é uma pequena e modesta sala, refletindo a real natureza
+- description: 'O hall de entrada é uma pequena e modesta sala, refletindo a real
+    natureza
+
     de todas as guildas. A sala principal é ao leste, enquanto as guildas ficam
-    ao norte, sul e oeste.
+
+    ao norte, sul e oeste.'
   exits:
     east:
       target_vnum: '010213413417'
@@ -342,30 +398,36 @@
   local_id: '13426'
   name: As Guildas
   vnum: '010213413426'
-- description: |-
-    Esta  sala parece uma enorme trilha através da floresta, mas é apenas uma
+- description: 'Esta  sala parece uma enorme trilha através da floresta, mas é apenas
+    uma
+
     boa  ilusão  feita  estratégicamente pelas árvores. Seus colegas estudantes
+
     praticam  em  busca  de  comida, e rastreando os outros. A única saída é ao
-    norte.
+
+    norte.'
   exits:
     north:
       target_vnum: '010213413426'
   local_id: '13427'
   name: A Guilda dos Guardas Florestais
   vnum: '010213413427'
-- description: |-
-    Potes  e  panelas  penduradas na parede. A cozinha é barulhenta e quente.
-    Garçons correm de um lado para o outro carregando comida.
+- description: 'Potes  e  panelas  penduradas na parede. A cozinha é barulhenta e
+    quente.
+
+    Garçons correm de um lado para o outro carregando comida.'
   exits:
     east:
       target_vnum: '010213413423'
   local_id: '13428'
   name: A Cozinha do Restaurante Baía das Folhas
   vnum: 010213413428
-- description: |-
-    Você  está  acima  da floresta, no topo das escadas. Ao oeste você vê uma
+- description: 'Você  está  acima  da floresta, no topo das escadas. Ao oeste você
+    vê uma
+
     trilha. Olhando para baixo, você nota que os galhos formam degraus, de modo
-    que você seria capaz de descer.
+
+    que você seria capaz de descer.'
   exits:
     down:
       target_vnum: '010213413402'
@@ -374,10 +436,12 @@
   local_id: '13429'
   name: No Topo das Escadas
   vnum: 010213413429
-- description: |-
-    Você caminha através de uma trilha acima do chão da floresta. O caminho é
+- description: 'Você caminha através de uma trilha acima do chão da floresta. O caminho
+    é
+
     cercado  de  modestas  casas  e  ao  norte, você vê a entrada da Estação da
-    Guarda de Thewster.
+
+    Guarda de Thewster.'
   exits:
     east:
       target_vnum: 010213413429
@@ -390,10 +454,12 @@
   local_id: '13430'
   name: "O Caminho Pela Ã\x80rvore"
   vnum: '010213413430'
-- description: |-
-    Você  está  em  um pequeno quarto cravado no tronco de uma árvore, não há
+- description: 'Você  está  em  um pequeno quarto cravado no tronco de uma árvore,
+    não há
+
     janelas  em  parte  alguma.  A  única  fonte  de luz é uma pequena lanterna
-    pendurada na parede. A porta fica ao sul, e alguns degraus levam para cima.
+
+    pendurada na parede. A porta fica ao sul, e alguns degraus levam para cima.'
   exits:
     south:
       target_vnum: '010213413430'
@@ -402,32 +468,39 @@
   local_id: '13431'
   name: A Estação da Guarda de Thewster
   vnum: '010213413431'
-- description: |-
-    Velhas   e   empoeiradas  mesas  alinham-se  pelas  paredes,  cheias  de
+- description: 'Velhas   e   empoeiradas  mesas  alinham-se  pelas  paredes,  cheias  de
+
     equipamentos  e  armas.  Olhando  mais de perto, você nota que estas coisas
+
     estão em melhor condição do que você pensava, porém é melhor ter certeza de
-    que elas ainda funcionam.
+
+    que elas ainda funcionam.'
   exits:
     south:
       target_vnum: '010213413434'
   local_id: '13432'
   name: A Loja de Velharias
   vnum: '010213413432'
-- description: |-
-    Este  é  outra  pequena sala, embora este tenha uma pequena janela que dá
+- description: 'Este  é  outra  pequena sala, embora este tenha uma pequena janela
+    que dá
+
     visão  de  Thewster. Há uma larga mesa no meio da sala, cheia de papéis. Há
-    degraus levando para baixo.
+
+    degraus levando para baixo.'
   exits:
     down:
       target_vnum: '010213413431'
   local_id: '13433'
   name: O Escritório do Capitão
   vnum: '010213413433'
-- description: |-
-    Esta  estrada segue acima da floresta e é bastante útil para os elfos, já
+- description: 'Esta  estrada segue acima da floresta e é bastante útil para os elfos,
+    já
+
     que  eles  moram  por  aqui.  Os  galhos  que formam o caminho começam a se
+
     encontrar  aqui,  formando  uma interseção ao oeste. O caminho segue para o
-    leste e ao norte você pode ver uma pequena loja. Há uma velha casa ao sul.
+
+    leste e ao norte você pode ver uma pequena loja. Há uma velha casa ao sul.'
   exits:
     east:
       target_vnum: '010213413430'
@@ -440,20 +513,24 @@
   local_id: '13434'
   name: "O Caminho Pela Ã\x81rvore"
   vnum: '010213413434'
-- description: |-
-    Você está em uma velha casa empoleirada acima de Thewster. Há buracos nas
+- description: 'Você está em uma velha casa empoleirada acima de Thewster. Há buracos
+    nas
+
     paredes  e  o  chão  não parece ser muito firme. Esta casa lhe da o péssimo
-    sentimento de que você irá cair a qualquer momento.
+
+    sentimento de que você irá cair a qualquer momento.'
   exits:
     north:
       target_vnum: '010213413434'
   local_id: '13435'
   name: Uma Casa Velha
   vnum: '010213413435'
-- description: |-
-    Este  pequeno  restaurante acomodado entre dois galhos possui em seu lado
+- description: 'Este  pequeno  restaurante acomodado entre dois galhos possui em seu
+    lado
+
     sul,  uma enorme janela, de onde se pode ver a floresta enquanto se come. A
-    porta fica ao norte.
+
+    porta fica ao norte.'
   exits:
     north:
       target_vnum: '010213413430'
@@ -469,10 +546,12 @@
   local_id: '13440'
   name: Uma Interseção Subterrânea
   vnum: '010213413440'
-- description: |-
-    Você  pode ouvir a água pingando das pedras enquanto você caminha através
+- description: 'Você  pode ouvir a água pingando das pedras enquanto você caminha
+    através
+
     da  caverna  escura.  Há  uma pequena entrada ao leste, que parece bastante
-    estreita.
+
+    estreita.'
   exits:
     east:
       target_vnum: '010213413442'
@@ -481,9 +560,10 @@
   local_id: '13441'
   name: Uma Caverna Escura
   vnum: '010213413441'
-- description: |-
-    Você precisou se ajoelhar para conseguir passar através desta passagem, se
-    espremendo entre as pedras.
+- description: 'Você precisou se ajoelhar para conseguir passar através desta passagem,
+    se
+
+    espremendo entre as pedras.'
   exits:
     east:
       target_vnum: '010213413443'
@@ -492,20 +572,22 @@
   local_id: '13442'
   name: Uma Passagem Estreira
   vnum: '010213413442'
-- description: |-
-    Mesmo com sua luz, você mal pode ver através do negrume que toma a entrada
-    da caverna.
+- description: 'Mesmo com sua luz, você mal pode ver através do negrume que toma a
+    entrada
+
+    da caverna.'
   exits:
     up:
-      target_vnum: '010213413552'
+      target_vnum: '01010353552'
     west:
       target_vnum: '010213413442'
   local_id: '13443'
   name: A Entrada da Caverna
   vnum: '010213413443'
-- description: |-
-    A  caverna  se  alarga,  tornando mais fácil a passagem, embora ainda lhe
-    cause claustrofobia. Você sente um cheiro horrível vindo do sul.
+- description: 'A  caverna  se  alarga,  tornando mais fácil a passagem, embora ainda
+    lhe
+
+    cause claustrofobia. Você sente um cheiro horrível vindo do sul.'
   exits:
     north:
       target_vnum: '010213413440'
@@ -514,9 +596,10 @@
   local_id: '13444'
   name: A Caverna Escura
   vnum: '010213413444'
-- description: |-
-    A  caverna  faz uma pequena interseção aqui, saídas ficam ao norte, sul e
-    leste. E o horrível cheiro, continua a vir do sul.
+- description: 'A  caverna  faz uma pequena interseção aqui, saídas ficam ao norte,
+    sul e
+
+    leste. E o horrível cheiro, continua a vir do sul.'
   exits:
     east:
       target_vnum: '010213413446'
@@ -547,9 +630,10 @@
   local_id: '13447'
   name: A Caverna Escura
   vnum: '010213413447'
-- description: |-
-    A  caverna  faz  uma curva aqui, e agora segue a sul e a oeste. Você pode
-    sentir o cheiro de algo horrível ao sul.
+- description: 'A  caverna  faz  uma curva aqui, e agora segue a sul e a oeste. Você
+    pode
+
+    sentir o cheiro de algo horrível ao sul.'
   exits:
     south:
       target_vnum: '010213413450'
@@ -558,9 +642,10 @@
   local_id: '13448'
   name: A Caverna Escura
   vnum: 010213413448
-- description: |-
-    A água pinga das paredes, formando pequenas poças. Você pode sentir outros
-    passos pisando nas poças... O fedor está ficando pior.
+- description: 'A água pinga das paredes, formando pequenas poças. Você pode sentir
+    outros
+
+    passos pisando nas poças... O fedor está ficando pior.'
   exits:
     north:
       target_vnum: '010213413445'
@@ -569,9 +654,10 @@
   local_id: '13449'
   name: A Caverna Escura
   vnum: 010213413449
-- description: |-
-    A  caverna continua a norte e a sul. Este detestável cheiro parece vir do
-    sul.
+- description: 'A  caverna continua a norte e a sul. Este detestável cheiro parece
+    vir do
+
+    sul.'
   exits:
     north:
       target_vnum: 010213413448
@@ -587,13 +673,14 @@
     south:
       target_vnum: '010213413454'
     up:
-      target_vnum: '010213413634'
+      target_vnum: '01010363634'
   local_id: '13451'
   name: Um Buraco
   vnum: '010213413451'
-- description: |-
-    A caverna faz uma abrupta parada aqui. As poças formaram um pequeno fluxo
-    subterrâneo que passa através de um pequeno buraco na parede oeste.
+- description: 'A caverna faz uma abrupta parada aqui. As poças formaram um pequeno
+    fluxo
+
+    subterrâneo que passa através de um pequeno buraco na parede oeste.'
   exits:
     north:
       target_vnum: 010213413449
@@ -602,9 +689,10 @@
   local_id: '13452'
   name: Uma Caverna Escura
   vnum: '010213413452'
-- description: |-
-    A  caverna continua a norte e a sul. Este detestável cheiro parece vir do
-    sul.
+- description: 'A  caverna continua a norte e a sul. Este detestável cheiro parece
+    vir do
+
+    sul.'
   exits:
     north:
       target_vnum: '010213413450'
@@ -613,10 +701,12 @@
   local_id: '13453'
   name: Uma Caverna Escura
   vnum: '010213413453'
-- description: |-
-    O  caminho chega a um abrupto fim, a única coisa que resta é este pequeno
+- description: 'O  caminho chega a um abrupto fim, a única coisa que resta é este
+    pequeno
+
     fluxo  vindo de um buraco na parede da caverna. Você pode ver algum tipo de
-    assobio vindo do leste, o cheiro detestável continua a vir do sul.
+
+    assobio vindo do leste, o cheiro detestável continua a vir do sul.'
   exits:
     east:
       target_vnum: '010213413455'
@@ -627,19 +717,22 @@
   local_id: '13454'
   name: Uma Caverna Escura
   vnum: '010213413454'
-- description: |-
-    A caverna forma uma pequena toca. Corpos de animais e ossos cobrem o chão
+- description: 'A caverna forma uma pequena toca. Corpos de animais e ossos cobrem
+    o chão
+
     fazendo  barulhos  de  esmagamento  enquanto  você pisa. A única saída é ao
-    oeste.
+
+    oeste.'
   exits:
     west:
       target_vnum: '010213413454'
   local_id: '13455'
   name: O Covil da Cobra
   vnum: '010213413455'
-- description: |-
-    A caverna faz uma curva aqui, ela agora segue ao sul e ao leste. Você pode
-    sentir o cheiro de algo horrível ao sul.
+- description: 'A caverna faz uma curva aqui, ela agora segue ao sul e ao leste. Você
+    pode
+
+    sentir o cheiro de algo horrível ao sul.'
   exits:
     east:
       target_vnum: '010213413457'
@@ -648,9 +741,10 @@
   local_id: '13456'
   name: A Caverna Escura
   vnum: '010213413456'
-- description: |-
-    A  caverna  faz uma curva aqui, ela agora segue ao norte e ao oeste. Você
-    pode sentir o cheiro de algo horrível ao sul.
+- description: 'A  caverna  faz uma curva aqui, ela agora segue ao norte e ao oeste.
+    Você
+
+    pode sentir o cheiro de algo horrível ao sul.'
   exits:
     north:
       target_vnum: '010213413453'
@@ -659,11 +753,13 @@
   local_id: '13457'
   name: A Caverna Escura
   vnum: '010213413457'
-- description: |-
-    Os  túneis  formam  uma  interseção aqui. O túnel sul foi particularmente
+- description: 'Os  túneis  formam  uma  interseção aqui. O túnel sul foi particularmente
+
     preenchido  com  pedras  como  se alguém quisesse impedir sua passagem, mas
+
     parece  que  você  ainda  consegue  se espremer e passar. O cheiro continua
-    vindo do sul.
+
+    vindo do sul.'
   exits:
     east:
       target_vnum: 010213413459
@@ -694,9 +790,10 @@
   local_id: '13460'
   name: A Caverna Escura
   vnum: '010213413460'
-- description: |-
-    A  caverna  faz uma curva aqui, ela agora segue ao norte e ao oeste. Você
-    pode sentir o cheiro de algo horrível ao sul.
+- description: 'A  caverna  faz uma curva aqui, ela agora segue ao norte e ao oeste.
+    Você
+
+    pode sentir o cheiro de algo horrível ao sul.'
   exits:
     north:
       target_vnum: '010213413456'
@@ -722,9 +819,10 @@
   local_id: '13462'
   name: Uma Sala Muito Estranha
   vnum: '010213413462'
-- description: |-
-    Há algumas estranhas marcas por toda a parede deste túnel. A única saoda é
-    ao norte, se aprofundando pelos túneis.
+- description: 'Há algumas estranhas marcas por toda a parede deste túnel. A única
+    saoda é
+
+    ao norte, se aprofundando pelos túneis.'
   exits:
     down:
       target_vnum: '010213413464'
@@ -733,9 +831,10 @@
   local_id: '13463'
   name: A Caverna Escura
   vnum: '010213413463'
-- description: |-
-    O  ar  começa a ter um cheiro velho e almiscarado, um cheiro horrível que
-    parece vir do sul. A únicas saídas ficam ao norte e ao sul.
+- description: 'O  ar  começa a ter um cheiro velho e almiscarado, um cheiro horrível
+    que
+
+    parece vir do sul. A únicas saídas ficam ao norte e ao sul.'
   exits:
     south:
       target_vnum: '010213413465'
@@ -753,11 +852,14 @@
   local_id: '13465'
   name: Se Aprofundando Pela Caverna
   vnum: '010213413465'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao leste, oeste e ao sul.
+
+    saídas ficam ao leste, oeste e ao sul.'
   exits:
     east:
       target_vnum: '010213413467'
@@ -768,11 +870,14 @@
   local_id: '13466'
   name: No Fundo Da Caverna
   vnum: '010213413466'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao leste e ao oeste.
+
+    saídas ficam ao leste e ao oeste.'
   exits:
     east:
       target_vnum: 010213413468
@@ -781,11 +886,14 @@
   local_id: '13467'
   name: No Fundo Da Caverna
   vnum: '010213413467'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao oeste e ao sul.
+
+    saídas ficam ao oeste e ao sul.'
   exits:
     south:
       target_vnum: '010213413471'
@@ -794,11 +902,14 @@
   local_id: '13468'
   name: No Fundo Da Caverna
   vnum: 010213413468
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao leste, norte e ao sul.
+
+    saídas ficam ao leste, norte e ao sul.'
   exits:
     east:
       target_vnum: '010213413470'
@@ -809,11 +920,14 @@
   local_id: '13469'
   name: No Fundo Da Caverna
   vnum: 010213413469
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao leste e ao oeste.
+
+    saídas ficam ao leste e ao oeste.'
   exits:
     east:
       target_vnum: '010213413471'
@@ -822,11 +936,14 @@
   local_id: '13470'
   name: No Fundo Da Caverna
   vnum: '010213413470'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao norte, ao oeste e ao sul.
+
+    saídas ficam ao norte, ao oeste e ao sul.'
   exits:
     north:
       target_vnum: 010213413468
@@ -837,11 +954,14 @@
   local_id: '13471'
   name: No Fundo Da Caverna
   vnum: '010213413471'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao leste, norte e ao sul.
+
+    saídas ficam ao leste, norte e ao sul.'
   exits:
     east:
       target_vnum: '010213413473'
@@ -852,12 +972,16 @@
   local_id: '13472'
   name: No Fundo Da Caverna
   vnum: '010213413472'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam   até   se  encontrarem,  formando  uma  espécie  de  barreira.  As
+
     estalagmites  aqui  formam  um  semicírculo  quase perfeito com uma pequena
-    passagem em seu centro.
+
+    passagem em seu centro.'
   exits:
     down:
       target_vnum: 010213413478
@@ -866,11 +990,14 @@
   local_id: '13473'
   name: No Fundo Da Caverna
   vnum: '010213413473'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao norte e ao sul.
+
+    saídas ficam ao norte e ao sul.'
   exits:
     north:
       target_vnum: '010213413471'
@@ -879,11 +1006,14 @@
   local_id: '13474'
   name: No Fundo Da Caverna
   vnum: '010213413474'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao norte e a leste.
+
+    saídas ficam ao norte e a leste.'
   exits:
     east:
       target_vnum: '010213413476'
@@ -892,11 +1022,14 @@
   local_id: '13475'
   name: No Fundo Da Caverna
   vnum: '010213413475'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao leste e ao oeste.
+
+    saídas ficam ao leste e ao oeste.'
   exits:
     east:
       target_vnum: '010213413477'
@@ -905,11 +1038,14 @@
   local_id: '13476'
   name: No Fundo Da Caverna
   vnum: '010213413476'
-- description: |-
-    A  caverna  se  alarga, formando um corredor que se estende até onde seus
+- description: 'A  caverna  se  alarga, formando um corredor que se estende até onde
+    seus
+
     olhos  podem  ver.  Centenas  e  centenas de estalagmites e estalactites se
+
     esticam  até  se  encontrarem,  formando uma espécie de barreira. As únicas
-    saídas ficam ao norte e ao oeste.
+
+    saídas ficam ao norte e ao oeste.'
   exits:
     north:
       target_vnum: '010213413474'
@@ -918,10 +1054,12 @@
   local_id: '13477'
   name: No Fundo Da Caverna
   vnum: '010213413477'
-- description: |-
-    O  ar aqui é praticamente irrespirável devido ao terrível odor que parece
+- description: 'O  ar aqui é praticamente irrespirável devido ao terrível odor que
+    parece
+
     estar  em  todo  lugar. O chão da caverna tem algumas margas de pegadas, as
-    quais seguem para o leste.
+
+    quais seguem para o leste.'
   exits:
     east:
       target_vnum: 010213413479
@@ -930,10 +1068,12 @@
   local_id: '13478'
   name: No Fundo Da Caverna
   vnum: 010213413478
-- description: |-
-    As estalagmites formam uma pequena sala que cujas saídas seguem para leste
+- description: 'As estalagmites formam uma pequena sala que cujas saídas seguem para
+    leste
+
     e  sul.  A saída a sul é bloqueada por uma porta, a qual parece ser a fonte
-    deste horrendo fedor.
+
+    deste horrendo fedor.'
   exits:
     east:
       target_vnum: 010213413480
@@ -944,32 +1084,40 @@
   local_id: '13479'
   name: No Fundo da Caverna
   vnum: 010213413479
-- description: |-
-    Esta  sala é apenas um buraco na parede de estalagmites. A água pinga por
-    todo o lugar, tornando-o ainda mais frio.
+- description: 'Esta  sala é apenas um buraco na parede de estalagmites. A água pinga
+    por
+
+    todo o lugar, tornando-o ainda mais frio.'
   exits:
     west:
       target_vnum: 010213413479
   local_id: '13480'
   name: No Fundo da Caverna
   vnum: 010213413480
-- description: |-
-    Você  está em o que parece ser uma Sala do Trono. No centro há uma grande
+- description: 'Você  está em o que parece ser uma Sala do Trono. No centro há uma
+    grande
+
     pedra e penduradas junto às paredes, há peles de animais de diversos tipos.
+
     O  "carpete"  é  feito de corpos em decomposição e provavelmente a fonte do
-    cheiro pútrido. A única saída é ao norte.
+
+    cheiro pútrido. A única saída é ao norte.'
   exits:
     north:
       target_vnum: 010213413479
   local_id: '13481'
   name: No Fundo da Caverna
   vnum: 010213413481
-- description: |-
-    Você se encontra em uma área elevada da cidade élfica de Thewster, onde
+- description: 'Você se encontra em uma área elevada da cidade élfica de Thewster,
+    onde
+
     as casas mais elegantes estão construídas entre os galhos superiores das
+
     árvores gigantes. A arquitetura élfica aqui é mais refinada, com detalhes
+
     entalhados que brilham suavemente com magia élfica. Pontes de madeira
-    conectam as diferentes habitações.
+
+    conectam as diferentes habitações.'
   exits:
     north:
       target_vnum: 010213413483
@@ -978,11 +1126,14 @@
   local_id: '13482'
   name: "O Distrito Ã\x89lfico Superior"
   vnum: 010213413482
-- description: |-
-    Esta área exclusiva abriga as famílias élficas mais influentes de Thewster.
+- description: 'Esta área exclusiva abriga as famílias élficas mais influentes de
+    Thewster.
+
     Cada casa é uma obra de arte arquitetônica, integrada harmoniosamente com
+
     as árvores vivas. Jardins suspensos florescem entre as habitações, e o ar
-    está perfumado com flores mágicas que só crescem nestes galhos altos.
+
+    está perfumado com flores mágicas que só crescem nestes galhos altos.'
   exits:
     east:
       target_vnum: 010213413484
@@ -991,12 +1142,15 @@
   local_id: '13483'
   name: "Residências Ã\x89lficas Nobres"
   vnum: 010213413483
-- description: |-
-    Uma impressionante biblioteca construída no tronco oco de uma árvore
+- description: 'Uma impressionante biblioteca construída no tronco oco de uma árvore
+
     ancestral. Prateleiras espiraladas sobem pelas paredes curvas, carregadas
+
     com tomos antigos e pergaminhos élficos. A luz suave filtra através de
+
     aberturas naturais, iluminando mesas de estudo onde estudiosos élficos
-    pesquisam conhecimentos arcanos.
+
+    pesquisam conhecimentos arcanos.'
   exits:
     east:
       target_vnum: 010213413485
@@ -1005,22 +1159,28 @@
   local_id: '13484'
   name: "A Grande Biblioteca Ã\x89lfica"
   vnum: 010213413484
-- description: |-
-    Uma câmara silenciosa onde os pergaminhos mais antigos e preciosos são
+- description: 'Uma câmara silenciosa onde os pergaminhos mais antigos e preciosos
+    são
+
     preservados por magia élfica. O ar está seco e perfumado com ervas
+
     preservativas. Apenas os bibliotecários mais qualificados têm acesso a
-    esta seção, onde registros da história élfica são mantidos seguros.
+
+    esta seção, onde registros da história élfica são mantidos seguros.'
   exits:
     west:
       target_vnum: 010213413484
   local_id: '13485'
   name: Arquivo de Pergaminhos Antigos
   vnum: 010213413485
-- description: |-
-    Um mercado único construído em plataformas conectadas entre várias árvores.
+- description: 'Um mercado único construído em plataformas conectadas entre várias
+    árvores.
+
     Comerciantes élficos vendem produtos exclusivos da floresta: frutas mágicas,
+
     madeiras especiais, e artesanatos élficos. O mercado flutua literalmente no
-    ar, suspenso por magia élfica e engenharia natural.
+
+    ar, suspenso por magia élfica e engenharia natural.'
   exits:
     north:
       target_vnum: 010213413487
@@ -1029,11 +1189,14 @@
   local_id: '13486'
   name: "O Mercado das Ã\x81rvores"
   vnum: 010213413486
-- description: |-
-    Uma oficina especializada onde mestres artesãos élficos criam itens únicos
+- description: 'Uma oficina especializada onde mestres artesãos élficos criam itens
+    únicos
+
     combinando habilidade tradicional com magia natural. Ferramentas élficas
+
     estão organizadas com precisão, e peças semi-acabadas demonstram a qualidade
-    excepcional do trabalho élfico.
+
+    excepcional do trabalho élfico.'
   exits:
     east:
       target_vnum: 010213413488
@@ -1042,33 +1205,42 @@
   local_id: '13487'
   name: "Oficina do Artesão Ã\x89lfico"
   vnum: 010213413487
-- description: |-
-    Nesta câmara mística, magos élficos especializados encantam itens com
+- description: 'Nesta câmara mística, magos élficos especializados encantam itens
+    com
+
     propriedades mágicas. Círculos rúnicos estão gravados no chão de madeira,
+
     e cristais mágicos projetam luz colorida pelas paredes. O ar vibra com
-    energia arcana concentrada.
+
+    energia arcana concentrada.'
   exits:
     west:
       target_vnum: 010213413487
   local_id: '13488'
   name: Ateliê de Encantamento
   vnum: 010213413488
-- description: |-
-    Um local sagrado onde os elfos vêm para meditar e se conectar com as
+- description: 'Um local sagrado onde os elfos vêm para meditar e se conectar com
+    as
+
     forças naturais da floresta. Flores silvestres crescem em padrões mágicos,
+
     e uma pequena fonte cristalina murmura suavemente. A paz e harmonia deste
-    lugar restauram tanto o corpo quanto o espírito.
+
+    lugar restauram tanto o corpo quanto o espírito.'
   exits:
     north:
       target_vnum: 010213413490
   local_id: '13489'
   name: O Santuário da Natureza
   vnum: 010213413489
-- description: |-
-    Um jardim cuidadosamente cultivado onde crescem plantas medicinais raras
+- description: 'Um jardim cuidadosamente cultivado onde crescem plantas medicinais
+    raras
+
     e mágicas. Cada erva é plantada de acordo com antigas tradições élficas,
+
     e algumas plantas brilham suavemente com propriedades curativas naturais.
-    Curandeiros élficos colhem ingredientes aqui para suas poções.
+
+    Curandeiros élficos colhem ingredientes aqui para suas poções.'
   exits:
     south:
       target_vnum: 010213413489

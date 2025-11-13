@@ -8,7 +8,7 @@
     down:
       target_vnum: '010212112102'
     south:
-      target_vnum: 010212110279
+      target_vnum: '010212110279'
   local_id: '12101'
   name: Entrada Para o Labirinto
   vnum: '010212112101'
@@ -47,7 +47,7 @@
     north:
       target_vnum: '010212112107'
     south:
-      target_vnum: 010212112108
+      target_vnum: '010212112108'
     west:
       target_vnum: '010212112105'
   local_id: '12104'
@@ -71,7 +71,7 @@
     east:
       target_vnum: '010212112105'
     north:
-      target_vnum: 010212112109
+      target_vnum: '010212112109'
   local_id: '12106'
   name: Um Pouco de Ar Fresco
   vnum: '010212112106'
@@ -93,7 +93,7 @@
       target_vnum: '010212112104'
   local_id: '12108'
   name: Um Recanto
-  vnum: 010212112108
+  vnum: '010212112108'
 - description: |-
     A caverna continua para norte, escura e sombria como antes.  Pelo
     menos ela não fede.
@@ -104,7 +104,7 @@
       target_vnum: '010212112106'
   local_id: '12109'
   name: Sala do Lotus
-  vnum: 010212112109
+  vnum: '010212112109'
 - description: |-
     O túnel segue de norte a sul daqui, ainda bruto e inacabado, quase
     pré-histórico.  Parece que homens não vem aqui à muito tempo.  Se por
@@ -113,7 +113,7 @@
     north:
       target_vnum: '010212112111'
     south:
-      target_vnum: 010212112109
+      target_vnum: '010212112109'
   local_id: '12110'
   name: Um Túnel
   vnum: '010212112110'
@@ -200,7 +200,7 @@
     de metal estão espalhadas pela sala.
   exits:
     east:
-      target_vnum: 010212112118
+      target_vnum: '010212112118'
     south:
       target_vnum: '010212112116'
   local_id: '12117'
@@ -211,12 +211,12 @@
     totalmente desconhecidos.
   exits:
     east:
-      target_vnum: 010212112119
+      target_vnum: '010212112119'
     west:
       target_vnum: '010212112117'
   local_id: '12118'
   name: A Caverna
-  vnum: 010212112118
+  vnum: '010212112118'
 - description: |-
     De maneira estranha, as paredes e o piso dessa parte do Labirinto
     parecem ter sido escovadas e muito limpas, surpreendentemente
@@ -225,10 +225,10 @@
     east:
       target_vnum: '010212112120'
     west:
-      target_vnum: 010212112118
+      target_vnum: '010212112118'
   local_id: '12119'
   name: Túnel Muito Limpo
-  vnum: 010212112119
+  vnum: '010212112119'
 - description: |-
     Agora você entende porque essas salas estão tão limpas.  Nenhuma criatura
     desejaria permanecer tão próximo a estas salas.
@@ -236,7 +236,7 @@
     east:
       target_vnum: '010212112121'
     west:
-      target_vnum: 010212112119
+      target_vnum: '010212112119'
   local_id: '12120'
   name: Uma Caverna Muito Limpa
   vnum: '010212112120'
@@ -315,7 +315,7 @@
     por um delicioso e suculento jantar: VOCÃ\x8A!"
   exits:
     east:
-      target_vnum: 010212112128
+      target_vnum: '010212112128'
     west:
       target_vnum: '010212112126'
   local_id: '12127'
@@ -327,12 +327,12 @@
     repugnantes e hostis, que devem ser as coisas mais nojentas de toda Vitália.
   exits:
     east:
-      target_vnum: 010212112129
+      target_vnum: '010212112129'
     west:
       target_vnum: '010212112127'
   local_id: '12128'
   name: Os Jors
-  vnum: 010212112128
+  vnum: '010212112128'
 - description: |-
     Algo lhe diz que esses Jors lhe darão trabalho.  Você se encontra rodeado
     por eles. Não há opção: é lutar ou morrer!
@@ -340,10 +340,10 @@
     east:
       target_vnum: '010212112130'
     west:
-      target_vnum: 010212112128
+      target_vnum: '010212112128'
   local_id: '12129'
   name: Os Jors
-  vnum: 010212112129
+  vnum: '010212112129'
 - description: |-
     O caminho agora segue para o sul, em direção a um lugar ainda mais escuro,
     nas profundezas do covil do demônio.
@@ -351,7 +351,7 @@
     south:
       target_vnum: '010212112131'
     west:
-      target_vnum: 010212112129
+      target_vnum: '010212112129'
   local_id: '12130'
   name: Uma Curva no Caminho
   vnum: '010212112130'
@@ -433,7 +433,7 @@
     north:
       target_vnum: '010212112136'
     south:
-      target_vnum: 010212112138
+      target_vnum: '010212112138'
   local_id: '12137'
   name: Um Piso Sujo
   vnum: '010212112137'
@@ -444,29 +444,29 @@
     north:
       target_vnum: '010212112137'
     west:
-      target_vnum: 010212112139
+      target_vnum: '010212112139'
   local_id: '12138'
   name: Um Piso Lamacento
-  vnum: 010212112138
+  vnum: '010212112138'
 - description: |-
     Esta grande sala parece ser a morada permanente de alguém que provou ser
     capaz de manter tanta firmeza no poço do inferno.  Muito limpa e muito
     arrumada.
   exits:
     east:
-      target_vnum: 010212112138
+      target_vnum: '010212112138'
     west:
       target_vnum: '010212112140'
   local_id: '12139'
   name: De Volta às Pedras
-  vnum: 010212112139
+  vnum: '010212112139'
 - description: |-
     Basilisco.  A terrível reputação desta criatura traz medo ao seu coração.
     Você somente havia ouvido falar desta assustadora criatura nas histórias de
     criança e se espanta ao perceber que elas de fato existem.
   exits:
     east:
-      target_vnum: 010212112139
+      target_vnum: '010212112139'
     west:
       target_vnum: '010212112141'
   local_id: '12140'
@@ -559,7 +559,7 @@
     south:
       target_vnum: '010212112146'
     west:
-      target_vnum: 010212112148
+      target_vnum: '010212112148'
   local_id: '12147'
   name: Sala de Tortura
   vnum: '010212112147'
@@ -573,10 +573,10 @@
     east:
       target_vnum: '010212112147'
     west:
-      target_vnum: 010212112149
+      target_vnum: '010212112149'
   local_id: '12148'
   name: Sala de Tortura
-  vnum: 010212112148
+  vnum: '010212112148'
 - description: |-
     Estas são as câmaras particulares do Minotauro.  Ele poderia estar em
     qualquer uma dessas salas, portanto permanecer em guarda é provavelmente uma
@@ -584,12 +584,12 @@
     Um som que diz: "Este idiota está aqui para tentar pegar a MINHA cabeça?!?"
   exits:
     east:
-      target_vnum: 010212112148
+      target_vnum: '010212112148'
     north:
       target_vnum: '010212112150'
   local_id: '12149'
   name: A Câmara do Minotauro
-  vnum: 010212112149
+  vnum: '010212112149'
 - description: |-
     Parece que a sua risada é eterna: um som interminável, que não ecoa somente
     de sala em sala, parede em parede mas dentro do seu corpo, torturando-o.  Esta
@@ -599,7 +599,7 @@
     north:
       target_vnum: '010212112151'
     south:
-      target_vnum: 010212112149
+      target_vnum: '010212112149'
   local_id: '12150'
   name: A Câmara do Mintauro
   vnum: '010212112150'

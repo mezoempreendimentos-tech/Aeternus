@@ -8,7 +8,7 @@
     north:
       target_vnum: '01010444400'
     south:
-      target_vnum: 01010444468
+      target_vnum: '01010444468'
   local_id: '4400'
   name: A Costa do Rio Negro
   vnum: '01010444400'
@@ -23,7 +23,7 @@
     northeast:
       target_vnum: '010104413534'
     south:
-      target_vnum: 01010444469
+      target_vnum: '01010444469'
     west:
       target_vnum: '01010444400'
   local_id: '4401'
@@ -110,7 +110,7 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: 01010444408
+      target_vnum: '01010444408'
     south:
       target_vnum: '01010444416'
     west:
@@ -125,14 +125,14 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: 01010444409
+      target_vnum: '01010444409'
     south:
       target_vnum: '01010444417'
     west:
       target_vnum: '01010444407'
   local_id: '4408'
   name: A Floresta
-  vnum: 01010444408
+  vnum: '01010444408'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -142,10 +142,10 @@
     east:
       target_vnum: '01010444410'
     west:
-      target_vnum: 01010444408
+      target_vnum: '01010444408'
   local_id: '4409'
   name: A Floresta
-  vnum: 01010444409
+  vnum: '01010444409'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -153,9 +153,9 @@
     galhos emaranhados até chegar ao solo.
   exits:
     south:
-      target_vnum: 01010444419
+      target_vnum: '01010444419'
     west:
-      target_vnum: 01010444409
+      target_vnum: '01010444409'
   local_id: '4410'
   name: A Floresta
   vnum: '01010444410'
@@ -258,9 +258,9 @@
     ao oeste.
   exits:
     east:
-      target_vnum: 01010444418
+      target_vnum: '01010444418'
     north:
-      target_vnum: 01010444408
+      target_vnum: '01010444408'
     south:
       target_vnum: '01010444424'
     west:
@@ -275,14 +275,14 @@
     ao oeste.
   exits:
     east:
-      target_vnum: 01010444419
+      target_vnum: '01010444419'
     south:
       target_vnum: '01010444425'
     west:
       target_vnum: '01010444417'
   local_id: '4418'
   name: O Caminho de Nirin
-  vnum: 01010444418
+  vnum: '01010444418'
 - description: |-
     O caminho é feito de largas pedras no meio de uma trincheira.  A floresta
     que o cerca se fecha até onde seus olhos podem ver, formando um túnel.  Os sons
@@ -295,10 +295,10 @@
     south:
       target_vnum: '01010444426'
     west:
-      target_vnum: 01010444418
+      target_vnum: '01010444418'
   local_id: '4419'
   name: O Caminho de Nirin
-  vnum: 01010444419
+  vnum: '01010444419'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -310,7 +310,7 @@
     south:
       target_vnum: '01010444427'
     west:
-      target_vnum: 01010444419
+      target_vnum: '01010444419'
   local_id: '4420'
   name: A Floresta
   vnum: '01010444420'
@@ -321,7 +321,7 @@
     galhos emaranhados até chegar ao solo.
   exits:
     south:
-      target_vnum: 01010444428
+      target_vnum: '01010444428'
     west:
       target_vnum: '01010444420'
   local_id: '4421'
@@ -338,7 +338,7 @@
     north:
       target_vnum: '01010444415'
     south:
-      target_vnum: 01010444429
+      target_vnum: '01010444429'
   local_id: '4422'
   name: A Floresta
   vnum: '01010444422'
@@ -385,7 +385,7 @@
     east:
       target_vnum: '01010444426'
     north:
-      target_vnum: 01010444418
+      target_vnum: '01010444418'
     south:
       target_vnum: '01010444432'
     west:
@@ -402,7 +402,7 @@
     east:
       target_vnum: '01010444427'
     north:
-      target_vnum: 01010444419
+      target_vnum: '01010444419'
     south:
       target_vnum: '01010444433'
     west:
@@ -417,7 +417,7 @@
     galhos emaranhados até chegar ao solo.
   exits:
     east:
-      target_vnum: 01010444428
+      target_vnum: '01010444428'
     north:
       target_vnum: '01010444420'
     south:
@@ -441,7 +441,7 @@
       target_vnum: '01010444427'
   local_id: '4428'
   name: A Floresta
-  vnum: 01010444428
+  vnum: '01010444428'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -454,7 +454,7 @@
       target_vnum: '01010444422'
   local_id: '4429'
   name: A Floresta
-  vnum: 01010444429
+  vnum: '01010444429'
 - description: |-
     Assim que seus olhos se acostumam à obscuridade, você pode ver um pequeno
     caminho verde.  Ocasionalmente um fino raio de sol tem a sorte de deslizar
@@ -466,7 +466,7 @@
     north:
       target_vnum: '01010444423'
     west:
-      target_vnum: 01010444429
+      target_vnum: '01010444429'
   local_id: '4430'
   name: A Floresta
   vnum: '01010444430'
@@ -539,7 +539,7 @@
     east:
       target_vnum: '01010444436'
     north:
-      target_vnum: 01010444428
+      target_vnum: '01010444428'
     west:
       target_vnum: '01010444434'
   local_id: '4435'
@@ -563,7 +563,7 @@
     postes, procurando alimentos.
   exits:
     east:
-      target_vnum: 01010444438
+      target_vnum: '01010444438'
     north:
       target_vnum: '01010444477'
     south:
@@ -577,16 +577,16 @@
     de onde sua visão alcança.
   exits:
     east:
-      target_vnum: 01010444439
+      target_vnum: '01010444439'
     north:
-      target_vnum: 01010444478
+      target_vnum: '01010444478'
     south:
       target_vnum: '01010444447'
     west:
       target_vnum: '01010444437'
   local_id: '4438'
   name: A Lagoa
-  vnum: 01010444438
+  vnum: '01010444438'
 - description: |-
     A doca é feita de grandes pranchas de madeira Nirin amarradas fortemente
     nos extremos e ajustadas ao fundo da lagoa.  O cheiro de sal é pesado no ar,
@@ -596,14 +596,14 @@
     east:
       target_vnum: '01010444440'
     north:
-      target_vnum: 01010444479
+      target_vnum: '01010444479'
     south:
-      target_vnum: 01010444448
+      target_vnum: '01010444448'
     west:
-      target_vnum: 01010444438
+      target_vnum: '01010444438'
   local_id: '4439'
   name: Uma Doca de Madeira
-  vnum: 01010444439
+  vnum: '01010444439'
 - description: |-
     Pequenas ondas causam um ruído ao baterem de encontro à doca espirando um
     pouco de água para os lados.  Ao norte a lagoa estende-se ao horizonte, além
@@ -612,11 +612,11 @@
     east:
       target_vnum: '01010444441'
     north:
-      target_vnum: 01010444480
+      target_vnum: '01010444480'
     south:
-      target_vnum: 01010444449
+      target_vnum: '01010444449'
     west:
-      target_vnum: 01010444439
+      target_vnum: '01010444439'
   local_id: '4440'
   name: A Lagoa
   vnum: '01010444440'
@@ -629,7 +629,7 @@
     east:
       target_vnum: '01010444442'
     north:
-      target_vnum: 01010444481
+      target_vnum: '01010444481'
     south:
       target_vnum: '01010444450'
     west:
@@ -645,7 +645,7 @@
     east:
       target_vnum: '01010444443'
     north:
-      target_vnum: 01010444482
+      target_vnum: '01010444482'
     west:
       target_vnum: '01010444441'
   local_id: '4442'
@@ -659,7 +659,7 @@
     east:
       target_vnum: '01010444444'
     north:
-      target_vnum: 01010444483
+      target_vnum: '01010444483'
     west:
       target_vnum: '01010444442'
   local_id: '4443'
@@ -673,7 +673,7 @@
     east:
       target_vnum: '01010444445'
     north:
-      target_vnum: 01010444484
+      target_vnum: '01010444484'
     west:
       target_vnum: '01010444443'
   local_id: '4444'
@@ -711,9 +711,9 @@
     Um grande lago estende-se ao norte e a doca continua ao leste e ao oeste.
   exits:
     east:
-      target_vnum: 01010444448
+      target_vnum: '01010444448'
     north:
-      target_vnum: 01010444438
+      target_vnum: '01010444438'
     south:
       target_vnum: '01010444452'
     west:
@@ -727,16 +727,16 @@
     horizonte até onde você consegue enxergar.
   exits:
     east:
-      target_vnum: 01010444449
+      target_vnum: '01010444449'
     north:
-      target_vnum: 01010444439
+      target_vnum: '01010444439'
     south:
       target_vnum: '01010444453'
     west:
       target_vnum: '01010444447'
   local_id: '4448'
   name: Uma Doca de Madeira
-  vnum: 01010444448
+  vnum: '01010444448'
 - description: |-
     As tábuas de madeira da doca fazem ligeiros ruídos, tremem e rangem com o
     seu peso.  Ao norte uma vasta quantidade de água estende-se por todo o
@@ -749,10 +749,10 @@
     south:
       target_vnum: '01010444454'
     west:
-      target_vnum: 01010444448
+      target_vnum: '01010444448'
   local_id: '4449'
   name: Uma Doca de Madeira
-  vnum: 01010444449
+  vnum: '01010444449'
 - description: |-
     A doca é feita de grandes pranchas de madeira Nirin amarradas fortemente
     nos extremos e ajustadas ao fundo da lagoa.  O cheiro de sal é pesado no ar,
@@ -764,7 +764,7 @@
     south:
       target_vnum: '01010444455'
     west:
-      target_vnum: 01010444449
+      target_vnum: '01010444449'
   local_id: '4450'
   name: Uma Doca de Madeira
   vnum: '01010444450'
@@ -805,7 +805,7 @@
     insinuando que podem estar vivas.
   exits:
     north:
-      target_vnum: 01010444448
+      target_vnum: '01010444448'
     south:
       target_vnum: '01010444461'
     west:
@@ -822,7 +822,7 @@
     east:
       target_vnum: '01010444455'
     north:
-      target_vnum: 01010444449
+      target_vnum: '01010444449'
   local_id: '4454'
   name: Uma Trilha Através da Aldeia
   vnum: '01010444454'
@@ -866,7 +866,7 @@
     descarta está sensação pensando estar ficando paranóico.
   exits:
     east:
-      target_vnum: 01010444458
+      target_vnum: '01010444458'
     west:
       target_vnum: '01010444456'
   local_id: '4457'
@@ -879,12 +879,12 @@
     salgado, estará perto do oceano?
   exits:
     east:
-      target_vnum: 01010444459
+      target_vnum: '01010444459'
     west:
       target_vnum: '01010444457'
   local_id: '4458'
   name: Uma Trilha Através da Floresta
-  vnum: 01010444458
+  vnum: '01010444458'
 - description: |-
     O caminho o leva através da floresta.  Parece que você pode ouvir uma voz
     sussurrando algo saindo da própria floresta que está em todas direções.  Mas
@@ -892,12 +892,12 @@
     salgado, estará perto do oceano?
   exits:
     east:
-      target_vnum: 01010444468
+      target_vnum: '01010444468'
     west:
-      target_vnum: 01010444458
+      target_vnum: '01010444458'
   local_id: '4459'
   name: Uma Trilha Através da Floresta
-  vnum: 01010444459
+  vnum: '01010444459'
 - description: |-
     Você está em uma grande cabana redonda com o telhado cônico.  As laterais
     da cabana são protegidas e pequenas porcas de mármore também são produzidas.
@@ -998,14 +998,14 @@
     em constante uso.
   exits:
     east:
-      target_vnum: 01010444469
+      target_vnum: '01010444469'
     north:
       target_vnum: '01010444400'
     west:
-      target_vnum: 01010444459
+      target_vnum: '01010444459'
   local_id: '4468'
   name: Uma Trilha Através da Floresta
-  vnum: 01010444468
+  vnum: '01010444468'
 - description: |-
     Você desce por um estreito caminho que o leva através da floresta, ele está
     desgastado e regular, nenhuma planta cresce na passagem.  Isto sugere que está
@@ -1014,10 +1014,10 @@
     north:
       target_vnum: '01010444401'
     west:
-      target_vnum: 01010444468
+      target_vnum: '01010444468'
   local_id: '4469'
   name: Uma Trilha Através da Floresta
-  vnum: 01010444469
+  vnum: '01010444469'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1027,11 +1027,11 @@
     east:
       target_vnum: '01010444476'
     north:
-      target_vnum: 01010444485
+      target_vnum: '01010444485'
     south:
       target_vnum: '01010444445'
     west:
-      target_vnum: 01010444484
+      target_vnum: '01010444484'
   local_id: '4476'
   name: A Lagoa
   vnum: '01010444476'
@@ -1042,9 +1042,9 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444478
+      target_vnum: '01010444478'
     north:
-      target_vnum: 01010444493
+      target_vnum: '01010444493'
     south:
       target_vnum: '01010444437'
   local_id: '4477'
@@ -1056,48 +1056,48 @@
     Templo da Ã\x81gua?"
   exits:
     east:
-      target_vnum: 01010444479
+      target_vnum: '01010444479'
     north:
-      target_vnum: 01010444492
+      target_vnum: '01010444492'
     south:
-      target_vnum: 01010444438
+      target_vnum: '01010444438'
     west:
       target_vnum: '01010444477'
   local_id: '4478'
   name: A Lagoa
-  vnum: 01010444478
+  vnum: '01010444478'
 - description: "As águas da lagoa estendem-se completamente ao redor, sem fim.  Você\
     \ não\nconsegue avistar nenhum sinal de terra firme.  Entretanto abaixo você vê\
     \ uma\nenorme construção de mármore bem lá no fundo da lagoa.  Será este o famoso\n\
     Templo da Ã\x81gua?"
   exits:
     east:
-      target_vnum: 01010444480
+      target_vnum: '01010444480'
     north:
-      target_vnum: 01010444491
+      target_vnum: '01010444491'
     south:
-      target_vnum: 01010444439
+      target_vnum: '01010444439'
     west:
-      target_vnum: 01010444478
+      target_vnum: '01010444478'
   local_id: '4479'
   name: A Lagoa
-  vnum: 01010444479
+  vnum: '01010444479'
 - description: "As águas da lagoa estendem-se completamente ao redor, sem fim.  Você\
     \ não\nconsegue avistar nenhum sinal de terra firme.  Entretanto abaixo você vê\
     \ uma\nenorme construção de mármore bem lá no fundo da lagoa.  Será este o famoso\n\
     Templo da Ã\x81gua?"
   exits:
     east:
-      target_vnum: 01010444481
+      target_vnum: '01010444481'
     north:
-      target_vnum: 01010444490
+      target_vnum: '01010444490'
     south:
       target_vnum: '01010444440'
     west:
-      target_vnum: 01010444479
+      target_vnum: '01010444479'
   local_id: '4480'
   name: A Lagoa
-  vnum: 01010444480
+  vnum: '01010444480'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1105,16 +1105,16 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444482
+      target_vnum: '01010444482'
     north:
-      target_vnum: 01010444489
+      target_vnum: '01010444489'
     south:
       target_vnum: '01010444441'
     west:
-      target_vnum: 01010444480
+      target_vnum: '01010444480'
   local_id: '4481'
   name: A Lagoa
-  vnum: 01010444481
+  vnum: '01010444481'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1122,16 +1122,16 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444483
+      target_vnum: '01010444483'
     north:
-      target_vnum: 01010444488
+      target_vnum: '01010444488'
     south:
       target_vnum: '01010444442'
     west:
-      target_vnum: 01010444481
+      target_vnum: '01010444481'
   local_id: '4482'
   name: A Lagoa
-  vnum: 01010444482
+  vnum: '01010444482'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1139,16 +1139,16 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444484
+      target_vnum: '01010444484'
     north:
-      target_vnum: 01010444487
+      target_vnum: '01010444487'
     south:
       target_vnum: '01010444443'
     west:
-      target_vnum: 01010444482
+      target_vnum: '01010444482'
   local_id: '4483'
   name: A Lagoa
-  vnum: 01010444483
+  vnum: '01010444483'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1158,14 +1158,14 @@
     east:
       target_vnum: '01010444476'
     north:
-      target_vnum: 01010444486
+      target_vnum: '01010444486'
     south:
       target_vnum: '01010444444'
     west:
-      target_vnum: 01010444483
+      target_vnum: '01010444483'
   local_id: '4484'
   name: A Lagoa
-  vnum: 01010444484
+  vnum: '01010444484'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1173,14 +1173,14 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444485
+      target_vnum: '01010444485'
     south:
       target_vnum: '01010444476'
     west:
-      target_vnum: 01010444486
+      target_vnum: '01010444486'
   local_id: '4485'
   name: A Lagoa
-  vnum: 01010444485
+  vnum: '01010444485'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1188,14 +1188,14 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444485
+      target_vnum: '01010444485'
     south:
-      target_vnum: 01010444484
+      target_vnum: '01010444484'
     west:
-      target_vnum: 01010444487
+      target_vnum: '01010444487'
   local_id: '4486'
   name: A Lagoa
-  vnum: 01010444486
+  vnum: '01010444486'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções até
     onde sua visão pode alcançar.  Olhando para baixo você avista um fundo arenoso,
@@ -1203,14 +1203,14 @@
     e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444486
+      target_vnum: '01010444486'
     south:
-      target_vnum: 01010444483
+      target_vnum: '01010444483'
     west:
-      target_vnum: 01010444488
+      target_vnum: '01010444488'
   local_id: '4487'
   name: A Lagoa
-  vnum: 01010444487
+  vnum: '01010444487'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1218,16 +1218,16 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444487
+      target_vnum: '01010444487'
     north:
-      target_vnum: 01010444499
+      target_vnum: '01010444499'
     south:
-      target_vnum: 01010444482
+      target_vnum: '01010444482'
     west:
-      target_vnum: 01010444489
+      target_vnum: '01010444489'
   local_id: '4488'
   name: A Lagoa
-  vnum: 01010444488
+  vnum: '01010444488'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1235,64 +1235,64 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444488
+      target_vnum: '01010444488'
     north:
-      target_vnum: 01010444498
+      target_vnum: '01010444498'
     south:
-      target_vnum: 01010444481
+      target_vnum: '01010444481'
     west:
-      target_vnum: 01010444490
+      target_vnum: '01010444490'
   local_id: '4489'
   name: A Lagoa
-  vnum: 01010444489
+  vnum: '01010444489'
 - description: "As águas da lagoa estendem-se completamente ao redor, sem fim.  Você\
     \ não\nconsegue avistar nenhum sinal de terra firme.  Entretanto abaixo você vê\
     \ uma\nenorme construção de mármore bem lá no fundo da lagoa.  Será este o famoso\n\
     Templo da Ã\x81gua?"
   exits:
     east:
-      target_vnum: 01010444489
+      target_vnum: '01010444489'
     north:
-      target_vnum: 01010444497
+      target_vnum: '01010444497'
     south:
-      target_vnum: 01010444480
+      target_vnum: '01010444480'
     west:
-      target_vnum: 01010444491
+      target_vnum: '01010444491'
   local_id: '4490'
   name: A Lagoa
-  vnum: 01010444490
+  vnum: '01010444490'
 - description: "As águas da lagoa estendem-se completamente ao redor, sem fim.  Você\
     \ não\nconsegue avistar nenhum sinal de terra firme.  Entretanto abaixo você vê\
     \ uma\nenorme construção de mármore bem lá no fundo da lagoa.  Será este o famoso\n\
     Templo da Ã\x81gua?"
   exits:
     east:
-      target_vnum: 01010444490
+      target_vnum: '01010444490'
     north:
-      target_vnum: 01010444496
+      target_vnum: '01010444496'
     south:
-      target_vnum: 01010444479
+      target_vnum: '01010444479'
     west:
-      target_vnum: 01010444492
+      target_vnum: '01010444492'
   local_id: '4491'
   name: A Lagoa
-  vnum: 01010444491
+  vnum: '01010444491'
 - description: "As águas da lagoa estendem-se completamente ao redor, sem fim.  Você\
     \ não\nconsegue avistar nenhum sinal de terra firme.  Entretanto abaixo você vê\
     \ uma\nenorme construção de mármore bem lá no fundo da lagoa.  Será este o famoso\n\
     Templo da Ã\x81gua?"
   exits:
     east:
-      target_vnum: 01010444491
+      target_vnum: '01010444491'
     north:
-      target_vnum: 01010444495
+      target_vnum: '01010444495'
     south:
-      target_vnum: 01010444478
+      target_vnum: '01010444478'
     west:
-      target_vnum: 01010444493
+      target_vnum: '01010444493'
   local_id: '4492'
   name: A Lagoa
-  vnum: 01010444492
+  vnum: '01010444492'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1300,14 +1300,14 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444492
+      target_vnum: '01010444492'
     north:
-      target_vnum: 01010444494
+      target_vnum: '01010444494'
     south:
       target_vnum: '01010444477'
   local_id: '4493'
   name: A Lagoa
-  vnum: 01010444493
+  vnum: '01010444493'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1315,12 +1315,12 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444495
+      target_vnum: '01010444495'
     south:
-      target_vnum: 01010444493
+      target_vnum: '01010444493'
   local_id: '4494'
   name: A Lagoa
-  vnum: 01010444494
+  vnum: '01010444494'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1328,14 +1328,14 @@
     redor e voltam a tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444496
+      target_vnum: '01010444496'
     south:
-      target_vnum: 01010444492
+      target_vnum: '01010444492'
     west:
-      target_vnum: 01010444494
+      target_vnum: '01010444494'
   local_id: '4495'
   name: A Lagoa
-  vnum: 01010444495
+  vnum: '01010444495'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções até
     onde sua visão pode alcançar.  Olhando para baixo você avista um fundo arenoso,
@@ -1343,14 +1343,14 @@
     voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444497
+      target_vnum: '01010444497'
     south:
-      target_vnum: 01010444491
+      target_vnum: '01010444491'
     west:
-      target_vnum: 01010444495
+      target_vnum: '01010444495'
   local_id: '4496'
   name: A Lagoa
-  vnum: 01010444496
+  vnum: '01010444496'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1358,14 +1358,14 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444498
+      target_vnum: '01010444498'
     south:
-      target_vnum: 01010444490
+      target_vnum: '01010444490'
     west:
-      target_vnum: 01010444496
+      target_vnum: '01010444496'
   local_id: '4497'
   name: A Lagoa
-  vnum: 01010444497
+  vnum: '01010444497'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1373,14 +1373,14 @@
     redor e voltam à tona com o suave movimento das ondas.
   exits:
     east:
-      target_vnum: 01010444499
+      target_vnum: '01010444499'
     south:
-      target_vnum: 01010444489
+      target_vnum: '01010444489'
     west:
-      target_vnum: 01010444497
+      target_vnum: '01010444497'
   local_id: '4498'
   name: A Lagoa
-  vnum: 01010444498
+  vnum: '01010444498'
 - description: |-
     A água cristalina da lagoa que o cerca estende-se para todas as direções
     até onde sua visão pode alcançar.  Olhando para baixo você avista um fundo
@@ -1388,9 +1388,9 @@
     ao redor e voltam à tona com o suave movimento das ondas.
   exits:
     south:
-      target_vnum: 01010444488
+      target_vnum: '01010444488'
     west:
-      target_vnum: 01010444498
+      target_vnum: '01010444498'
   local_id: '4499'
   name: A Lagoa
-  vnum: 01010444499
+  vnum: '01010444499'

@@ -1,12 +1,19 @@
-- description: |-
-    Olá Aventureiro!  Seja bem-vindo ao Mundo de @YVitália@n.  Este é o ponto de
+- description: 'Olá Aventureiro!  Seja bem-vindo ao Mundo de @YVitália@n.  Este é
+    o ponto de
+
     partida para um imenso mundo, repleto de aventuras e emoções.  Se você não
+
     conhece absolutamente nada daqui, não se preocupe, pois ao deixar estas
+
     salas, você estará apto a enfrentar todos os desafios.  Se você já for
+
     experiente, basta digitar @WRECALL@n e iniciar seu jogo, normalmente.  Leia
+
     cuidadosamente todas as informações dos painéis, livros e avisos, que
+
     estarão espalhados nas próximas salas, adiante.  Agora boa jornada!  Digite
-    @WW@n e siga para @WOESTE@n (w) e que bons ventos guiem seus passos!
+
+    @WW@n e siga para @WOESTE@n (w) e que bons ventos guiem seus passos!'
   exits:
     west:
       target_vnum: 010218118102
@@ -27,10 +34,11 @@
   local_id: '18102'
   name: Sala da Rosa-dos-Ventos
   vnum: 010218118102
-- description: |-
-    Você sobe por uma rampa suspensa sobre um lindo jardim.  Esta rampa
+- description: 'Você sobe por uma rampa suspensa sobre um lindo jardim.  Esta rampa
+
     atravessa este jardim e segue em direção ao Norte.  Há um clima de paz
-    reinando neste ambiente.
+
+    reinando neste ambiente.'
   exits:
     down:
       target_vnum: 010218118102
@@ -39,10 +47,11 @@
   local_id: '18103'
   name: Alcançando a Sabedoria
   vnum: 010218118103
-- description: |-
-    Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+- description: 'Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+
     cobrem todas as paredes, transmitindo a você uma sensação de infinito.  Há
-    quatro portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?
+
+    quatro portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?'
   exits:
     down:
       target_vnum: 010218118108
@@ -57,45 +66,55 @@
   local_id: '18104'
   name: Casa dos Espelhos
   vnum: 010218118104
-- description: |-
-    Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal cobrem
+- description: 'Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+    cobrem
+
     todas as paredes, transmitindo a você uma sensação de infinito.  Há quatro
-    portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?
+
+    portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?'
   exits:
     south:
       target_vnum: 010218118104
   local_id: '18105'
   name: Casa dos Espelhos
   vnum: 010218118105
-- description: |-
-    Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+- description: 'Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+
     cobrem todas as paredes, transmitindo a você uma sensação de infinito.  Há
-    quatro portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?
+
+    quatro portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?'
   exits:
     west:
       target_vnum: 010218118104
   local_id: '18106'
   name: Casa dos Espelhos
   vnum: 010218118106
-- description: |-
-    Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+- description: 'Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+
     cobrem todas as paredes, transmitindo a você uma sensação de infinito.  Há
+
     quatro portas neste lugar e de uma delas pode-se notar uma suave
+
     luminosidade.  Você se sente atraído por esta luz.  Que tal se você voltasse
+
     para o norte e depois seguisse para baixo, para descobrir de onde vem esta
-    luz?
+
+    luz?'
   exits:
     north:
       target_vnum: 010218118104
   local_id: '18107'
   name: Casa dos Espelhos
   vnum: 010218118107
-- description: |-
-    Você desce por uma rampa suspensa sobre um lindo jardim.  Esta rampa
+- description: 'Você desce por uma rampa suspensa sobre um lindo jardim.  Esta rampa
+
     atravessa o jardim descendo em direção ao Oeste.  Há um clima de paz
+
     reinando neste ambiente.  Você percebe que seu estômago começou a roncar e
+
     pensa que um belo naco de carne seria maravilhoso.  Continue a sua
-    caminhada, quem sabe você não encontra algo que possa saciar a sua fome.
+
+    caminhada, quem sabe você não encontra algo que possa saciar a sua fome.'
   exits:
     down:
       target_vnum: 010218118109
@@ -115,71 +134,100 @@
   local_id: '18109'
   name: Sala das Provisões
   vnum: 010218118109
-- description: |-
-    Que lugar mais refrescante, não acha?  Perceba que as paredes de pedra
+- description: 'Que lugar mais refrescante, não acha?  Perceba que as paredes de pedra
+
     desta gruta estão úmidas e que dos seus nichos, surgem as mais variadas
+
     espécies de samambaias, aproveitando-se deste ambiente tão tranquilo e
+
     repousante.  Feche os seus olhos e ouça o barulho suave e quase hipnótico
+
     das águas que jorram incessantemente desta imensa fonte natural.  Um pequeno
+
     objeto foi esquecido aqui.  Que tal pegá-lo e enchê-lo?  Assim você não
+
     corre o risco de passar sede no futuro.  Para obtê-lo digite @WGET PORUNGA@n e
-    leia o @Waviso@n que algum viajante mais experiente parece ter escrito.
+
+    leia o @Waviso@n que algum viajante mais experiente parece ter escrito.'
   exits:
     west:
       target_vnum: 010218118111
   local_id: '18110'
   name: Gruta da Fonte
   vnum: 010218118110
-- description: |-
-    Vitália é um mundo cheio de mistérios e de grandes perigos.  Você terá
+- description: 'Vitália é um mundo cheio de mistérios e de grandes perigos.  Você
+    terá
+
     que lutar muitas vezes pela própria vida.  Observe a sala em que você está
+
     agora.  Veja a quantidade de armas que foram guardadas aqui.  Algumas destas
+
     armas parecem ser tão antigas quanto as @Winscrições@n que foram feitas na
+
     parede.  Talvez seja bom você ler o que está escrito.  E quem sabe não seja
+
     interessante pegar uma destas armas e aprender a usá-la corretamente.
-    Afinal, nunca se sabe o dia de amanhã...
+
+    Afinal, nunca se sabe o dia de amanhã...'
   exits:
     west:
       target_vnum: 010218118112
   local_id: '18111'
   name: Sala das Armas
   vnum: 010218118111
-- description: |-
-    Vitália é um mundo cheio de mistérios e de grandes perigos.  Você muitas
+- description: 'Vitália é um mundo cheio de mistérios e de grandes perigos.  Você
+    muitas
+
     vezes terá que lutar pela própria vida.  Observe a sala em que você está
+
     agora.  Veja a quantidade de armaduras que foram deixadas aqui.  Algumas
+
     destas armaduras parecem ser tão antigas quanto as @Winscrições@n que foram
+
     feitas na parede.  Talvez seja bom você ler o que está escrito.  E quem sabe
+
     não seja interessante pegar uma destas armaduras e vesti-la da forma
-    correta.  Afinal, nunca se sabe o dia de amanhã...
+
+    correta.  Afinal, nunca se sabe o dia de amanhã...'
   exits:
     west:
       target_vnum: 010218118113
   local_id: '18112'
   name: Sala das Armaduras
   vnum: 010218118112
-- description: |-
-    Você entra num ambiente extremamente claro e iluminado.  Bem no centro da
+- description: 'Você entra num ambiente extremamente claro e iluminado.  Bem no centro
+    da
+
     sala, um imenso globo, feito de um material parecido com cristal, emite uma
+
     poderosa luz, que quase lhe cega as vistas.  Espalhados pela sala estão
+
     inúmeros objetos brilhantes que emitem luzes.  Num imenso @Wpainel@n, feito com
+
     algo parecido com espelho, foram escritas diversas palavras.  Você percebe
+
     que as letras parecem fogo crepitando e sente necessidade de se aproximar
-    para tentar ler aquilo que foi escrito.
+
+    para tentar ler aquilo que foi escrito.'
   exits:
     west:
       target_vnum: 010218118114
   local_id: '18113'
   name: Sala da Luminosidade
   vnum: 010218118113
-- description: |-
-    Você entra num ambiente totalmente diferente.  Esta sala parece possuir
+- description: 'Você entra num ambiente totalmente diferente.  Esta sala parece possuir
+
     uma atmosfera mágica a envolvê-la.  Nas paredes existem imensos murais, onde
+
     cenas de batalhas sangrentas foram representadas.  Há todo um clima de
+
     respeito e mistério envolvendo estas grossas paredes de pedras.  Com
+
     certeza, por aqui passaram todos aqueles que resolveram seguir um caminho
+
     reto e digno.  Bem no centro da sala há um @Wpergaminho@n onde várias anotações
-    foram feitas.  Pegue-o e torne-se mais sábio.
+
+    foram feitas.  Pegue-o e torne-se mais sábio.'
   exits:
     west:
       target_vnum: 010218118115
@@ -199,18 +247,28 @@
   local_id: '18115'
   name: Sala do Aprendizado
   vnum: 010218118115
-- description: |-
-    Que sala mais estranha...  São dezenas, talvez centenas de cabeças de
+- description: 'Que sala mais estranha...  São dezenas, talvez centenas de cabeças
+    de
+
     animais empalhados.  Alguns estão expostos como se fossem troféus.  Outros
+
     parecem estar ali apenas para lembrar às criaturas dos grandes perigos que
+
     as aguardam.  Você observa que há uma pequenina @Wfrase@n escrita na parede.  O
+
     local, embora grande, lhe causa um certo mal estar e uma sensação um tanto
+
     claustrofóbica parece querer tomar conta de você.  Estranho, mas você sente
+
     como se mil olhos estivessem observando seus movimentos.  Uma sombra surge
+
     do nada e parece estar chegando bem perto.  São movimentos rasteiros,
+
     sinuosos e você pressente que alguma coisa está se erguendo à sua frente,
+
     pronta para atacá-lo.  Lembre-se de tudo aquilo que aprendeu até agora e
-    coloque em prática sem medo.  Os Deuses estarão ao seu lado.
+
+    coloque em prática sem medo.  Os Deuses estarão ao seu lado.'
   exits:
     west:
       target_vnum: 010218118117
@@ -228,14 +286,15 @@
     \ fundo, concentre-se e Boa Jornada."
   exits:
     west:
-      target_vnum: 01021810050
+      target_vnum: '01010000050'
   local_id: '18117'
   name: Sala da Esperança
   vnum: 010218118117
-- description: |-
-    Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+- description: 'Você entra numa sala maravilhosamente iluminada.  Espelhos de cristal
+
     cobrem todas as paredes, transmitindo a você uma sensação de infinito.  Há
-    quatro portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?
+
+    quatro portas neste lugar.  Que tal se você descobrisse aonde elas vão dar?'
   exits:
     east:
       target_vnum: 010218118104

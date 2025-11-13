@@ -9,19 +9,25 @@
     east:
       target_vnum: '01010040401'
     west:
-      target_vnum: '01010043054'
+      target_vnum: '01010303054'
   local_id: '400'
   name: Uma Estrada Lateral
   vnum: '01010040400'
-- description: |-
-    Os arbustos que cercavam a estrada parecem se abrir para alargar a
+- description: 'Os arbustos que cercavam a estrada parecem se abrir para alargar a
+
     estrada, e circundam a grande Torre à sua frente.  Entre os pilares de
+
     mármore branco, em estilo clássico greco-romano, você se encontra sob uma
+
     enorme laje de pedra, com detalhes em mármore cinza.  A soleira que
+
     antecede a porta de entrada da Embaixada dos Clãs de Vitália está há alguns
+
     metros de você, e parece convidá-lo para dentro da Grande Torre.  A oeste,
+
     o caminho de pedras o espera, levando-o de volta para a cidade de Midgaard
-    e o para leste, você tem o portão de entrada para a Embaixada.
+
+    e o para leste, você tem o portão de entrada para a Embaixada.'
   exits:
     east:
       target_vnum: '01010040402'
@@ -30,16 +36,23 @@
   local_id: '401'
   name: Sob a Grande Laje da Entrada da Embaixada
   vnum: '01010040401'
-- description: |-
-    Finalmente você chega à entrada da Embaixada dos Clãs de Vitália.  Dois
+- description: 'Finalmente você chega à entrada da Embaixada dos Clãs de Vitália.  Dois
+
     imensos portões, feitos em madeira de lei maciça, com belíssimos entalhes,
+
     parecem estar à sua espera, há poucos passos de onde você está.  Com mais
+
     de dois metros de altura,  estão presos às paredes, por enormes dobradiças
+
     feitas de um metal azulado fosco, muito resistente.  As paredes são feitas
+
     de grandes blocos de calcário, montados uns sobre os outros de forma tão
+
     compacta que não existe nenhum perigo de qualquer tipo de infiltração.  A
+
     oeste, pode-se ir abaixo da soleira de entrada e para leste, entra-se na
-    grande Torre.
+
+    grande Torre.'
   exits:
     east:
       target_vnum: '01010040403'
@@ -48,14 +61,19 @@
   local_id: '402'
   name: Os Grandes Portões da Entrada da Embaixada
   vnum: '01010040402'
-- description: |-
-    Um bonito salão se ergue ao seu redor, envolto por uma atmosfera suave
+- description: 'Um bonito salão se ergue ao seu redor, envolto por uma atmosfera suave
+
     e tranquila.  Sob seus pés, grandes lajotas de marfim foram dispostas
+
     transversalmente.  De cada lado do saguão, quatro grandes e belos arcos
+
     de um prateado fosco emergem e cruzam-se no alto do teto formando uma
+
     belíssima estrela de oito pontas.  Suas bases são pequenos gárgulas
+
     arqueados com seus braços erguidos, segurando os arcos.  Logo a sua
-    frente há uma grande escada que leva para cima.
+
+    frente há uma grande escada que leva para cima.'
   exits:
     up:
       target_vnum: '01010040404'
@@ -64,18 +82,27 @@
   local_id: '403'
   name: O Saguão Principal do Andar Térreo
   vnum: '01010040403'
-- description: |-
-    Um bonito salão se ergue ao seu redor, envolto por uma atmosfera
+- description: 'Um bonito salão se ergue ao seu redor, envolto por uma atmosfera
+
     dourada.  Sob seus pés, grandes lajotas de ouro foram dispostas
+
     transversalmente.  Há quatro sólidas portas, entre as quais quatro grandes
+
     arcos de um prateado fosco emergem e cruzam-se no alto do teto formando uma
+
     belíssima estrela de oito pontas.  Suas bases são pequenos gárgulas
+
     arqueados com um dos braços erguido, segurando o arco e o outro esticado,
+
     prendendo um dos lados do galhardete com o nome do Clã a quem pertence a
+
     respectiva porta.  Aqui se encontram representados os quatro mais antigos
+
     Clãs de Vitália: ao norte, A Ordem dos Discípulos da Luz; ao leste, Os
+
     Guardiões do Legado de Atlântida; ao sul, Os Olhos de Mitra e ao oeste, Os
-    Cavaleiros da Virtude.
+
+    Cavaleiros da Virtude.'
   exits:
     down:
       target_vnum: '01010040403'
@@ -92,32 +119,47 @@
   local_id: '404'
   name: O Saguão do Primeiro Andar da Embaixada
   vnum: '01010040404'
-- description: |-
-    Você entra em uma enorme sala!  Ela é toda feita com enormes blocos de
+- description: 'Você entra em uma enorme sala!  Ela é toda feita com enormes blocos
+    de
+
     uma pedra branca como a neve, vários quadros estão decorando as paredes,
+
     em especial quatro estatuas, uma em cada canto da sala, servem de
+
     sustentação para o teto.  Existe um grande desenho na parede de frente com
+
     a entrada, olhando com maior atenção você percebe se tratar de Anluzir, o
+
     corcel alado que protege os Discípulos da Luz.  Agora que você está dentro
+
     dessa sala, uma sensação de Força e Honra o envolve.  Aqui somos mais do
+
     que companheiros, somos irmãos, dispostos a tudo para se ajudar!  Esse clã,
+
     tem várias estórias para contar.  Foram o primeiro clã a ser fundando, a
+
     primeira família a tomar forma, e mesmo depois de tanto tempo continua com
+
     a mesma força e honra do passado.  Um enorme pergaminho com o Velho Código,
+
     está preso em uma parede.  Baseado nesses preceitos os Discípulos vivem...
+
     Sim, essa sala, assim como o clã, tem a Força e Honra que esses preceitos
-    inspiram.
+
+    inspiram.'
   exits:
     south:
       target_vnum: '01010040404'
   local_id: '405'
   name: Sala do Clã Discípulos da Luz
   vnum: '01010040405'
-- description: |-
-    Ao entrar você se depara com um ambiente que lhe inspira um certo
+- description: 'Ao entrar você se depara com um ambiente que lhe inspira um certo
+
     temor.  Austera como a cela de um monge, eis a Sala dos Atlantes, a sua
+
     frente, uma imponente estátua de Eletra, feita do mais puro jade e a seus
-    pés está um livro, no qual estão gravados, a fogo, os preceitos deste Clã.
+
+    pés está um livro, no qual estão gravados, a fogo, os preceitos deste Clã.'
   exits:
     west:
       target_vnum: '01010040404'
@@ -164,18 +206,27 @@
   local_id: '408'
   name: Os Cavaleiros da Virtude
   vnum: 01010040408
-- description: |-
-    Um bonito salão se ergue ao seu redor, mergulhada em um ar azulado
+- description: 'Um bonito salão se ergue ao seu redor, mergulhada em um ar azulado
+
     brilhante.  Embaixo de seus pés há lajotas de safira dispostas
+
     transversalmente.  Há quatro sólidas portas, entre as quais quatro grandes
+
     arcos de um prateado fosco emergem e cruzam-se no alto do teto formando uma
+
     belíssima estrela de oito pontas.  Suas bases são pequenos gárgulas
+
     arqueados com um dos braços erguido, segurando o arco, e o outro esticado,
+
     prendendo um dos lados do galhardete com o nome do clã a quem pertence a
+
     respectiva porta.  Aqui se encontram representados mais três dos antigos
+
     Clãs de Vitália: ao norte, os Remanescentes Cavaleiros de Númenor; ao
+
     leste, A Tribo Seguidora do Sol; e ao oeste, Os Guardiões do Segredo dos
-    JVKB.
+
+    JVKB.'
   exits:
     down:
       target_vnum: '01010040404'
@@ -190,51 +241,75 @@
   local_id: '409'
   name: O Saguão do Segundo Andar da Embaixada
   vnum: 01010040409
-- description: |-
-    Estranhamente tudo ao seu redor pareceu mudar quando você passou pela
+- description: 'Estranhamente tudo ao seu redor pareceu mudar quando você passou pela
+
     porta.  A beleza e perfeição que estrutura a base da Torre desapareceu,
+
     dando lugar a um conjunto bizarro de raízes e lascas de tronco, que parecem
+
     dar vida a esta sala de Númenor.  Uma Númenor destruída, consumida pela ira
+
     dos Deuses de sua época de glória, penalizada por sua ganância e ostentação
+
     vã e fútil de seu poderio militar.  Uma Númenor diferente daquela imaginada
+
     nos devaneios literários; uma Númenor que aprendeu uma importante lição,
+
     sob duras penas.  Esta Númenor, onde você se encontra agora, foi
+
     reconstruída pelos Remanescentes de seu antigo Império, liderados pelos
+
     Quatro Irmãos, herdeiros de Tar-Míriel, filha de Tar-Palantir, o último rei
+
     de direito de Númenor, em busca da sobriedade e simplicidade de espírito
+
     que se fazem, hoje, presentes na alma e no coração de cada um dos membros
+
     que formam este clã.  Todos desejosos de igualdade entre os iguais, justiça
+
     e paz, em um mundo onde nenhum outro povo precise sofrer tanto quanto
-    Númenor sofreu.
+
+    Númenor sofreu.'
   exits:
     south:
       target_vnum: 01010040409
   local_id: '410'
   name: Os Remanescentes Cavaleiros de Númenor
   vnum: '01010040410'
-- description: |-
-    Você acaba de entrar em uma sala não muito grande, porém magnifica.  A
+- description: 'Você acaba de entrar em uma sala não muito grande, porém magnifica.  A
+
     sala é inteira branca, feita de algo que você desconhece, e neste puro
+
     branco brilhante das paredes você pode ver, talhado com a maior habilidade,
+
     formas de pessoas; os antigos fundadores do clã Solis.  Ao centro,
+
     imponente, uma estátua se encontra, iluminada por uma estranha luz vinda do
+
     nada. Conforme você se aproxima dela, uma sensação de pureza invade seu
-    corpo, juntamente com um calor confortável.
+
+    corpo, juntamente com um calor confortável.'
   exits:
     west:
       target_vnum: 01010040409
   local_id: '411'
   name: A Tribo Seguidora do Sol
   vnum: '01010040411'
-- description: |-
-    Abruptamente as caprichosas paredes da construção se fecham em uma
+- description: 'Abruptamente as caprichosas paredes da construção se fecham em uma
+
     imensa caverna.  O secular altar central e todo o gigantesco salão é
+
     iluminado por uma bela luz, um misto dos poderosos raios do Sol com o
+
     brilho misterioso da Lua.  A leve morbidez do lugar some ao pensar nas
+
     honras dessa Família, sua glorias, conquistas e da profunda amizade entre
+
     seus membros, características dignas apenas das Casas mais nobres de
+
     Vitália.  Runas indecifráveis cercam as quatro saliências no topo do altar
-    de pedra: JVKB, será essa a chave para um mundo perdido?
+
+    de pedra: JVKB, será essa a chave para um mundo perdido?'
   exits:
     east:
       target_vnum: 01010040409
@@ -255,14 +330,19 @@
   local_id: '413'
   name: O Aposento dos Livros
   vnum: '01010040413'
-- description: |-
-    Um bonito salão se ergue ao seu redor.  Embaixo de seus pés há lajotas
+- description: 'Um bonito salão se ergue ao seu redor.  Embaixo de seus pés há lajotas
+
     marfim dispostas transversalmente.  Três grandes arcos de um prateado fosco
+
     cruzam-se no alto do teto formando uma belíssima estrela de seis pontas.
+
     Suas bases são pequenos gárgulas arqueados com seus braços erguidos,
+
     segurando os arcos.  Ao sul há uma pequenina porta; e ao norte pode-se
+
     ver uma grande escada seguindo para cima, em direção ao piso superior, e
-    para baixo, voltando ao piso inferior.
+
+    para baixo, voltando ao piso inferior.'
   exits:
     down:
       target_vnum: 01010040409
@@ -295,24 +375,30 @@
   local_id: '415'
   name: O Terceiro Andar da Embaixada
   vnum: '01010040415'
-- description: |-
-    Você adentra em uma sala totalmente fechada, construída com gigantescos
+- description: 'Você adentra em uma sala totalmente fechada, construída com gigantescos
+
     monólitos de arenito, onde o ar é muito seco e o ambiente é muito mal
+
     iluminado.  Nas paredes, há desenhos representando a sangrenta batalha
+
     entre Muwattali e Akhenaton.  No fim da sala um pequeno altar, repleto de
-    oferendas a frente de uma magnífica estátua, que parece ser de Seth.
+
+    oferendas a frente de uma magnífica estátua, que parece ser de Seth.'
   exits:
     south:
       target_vnum: '01010040415'
   local_id: '416'
   name: Os Filhos de Seth
   vnum: '01010040416'
-- description: |-
-    Você adentra em um grande salão circular em arquitetura Gótica,
+- description: 'Você adentra em um grande salão circular em arquitetura Gótica,
+
     pode-se sentir a presença gelada da Morte aqui.  Pelas paredes percebe-se
+
     vários quadros e textos sobre as aventuras dos Suicidas de Vitália.  No
+
     centro do salão está uma Estátua De Cristal e ao fundo a atendente dos
-    Suicidas está fazendo algumas anotações.
+
+    Suicidas está fazendo algumas anotações.'
   exits:
     west:
       target_vnum: '01010040415'
@@ -334,18 +420,28 @@
   local_id: '418'
   name: "Os Vingadores de Ã\x8Dris"
   vnum: 01010040418
-- description: |-
-    Um bonito salão se ergue ao seu redor, densamente preenchida por um vapor
+- description: 'Um bonito salão se ergue ao seu redor, densamente preenchida por um
+    vapor
+
     vermelho vivo.  Embaixo de seus pés há lajotas de rubi dispostas
+
     transversalmente.  Há quatro sólidas portas, entre as quais quatro grandes
+
     arcos de um prateado fosco emergem e cruzam-se no alto do teto formando uma
+
     belíssima estrela de oito pontas.  Suas bases são pequenos gárgulas
+
     arqueados com um dos braços erguido, segurando o arco, e o outro esticado,
+
     prendendo um dos lados do galhardete com o nome do clã a quem pertence a
+
     respectiva porta.  Aqui se encontram representados outros quatro dos clãs
+
     recentes em Vitália: ao norte, Os Senhores da Tempestade; ao leste, os
+
     Seguidores da Dinastia Breyldon; ao sul, Os Guardiões da Prisão de Kildner
-    e ao oeste A Eterna Sociedade da Luz.
+
+    e ao oeste A Eterna Sociedade da Luz.'
   exits:
     down:
       target_vnum: '01010040415'
@@ -362,35 +458,54 @@
   local_id: '419'
   name: O Quarto Andar da Embaixada
   vnum: 01010040419
-- description: |-
-    Ao adentrar a sala, você nota algo muito estranho: Não há nada aqui além
+- description: 'Ao adentrar a sala, você nota algo muito estranho: Não há nada aqui
+    além
+
     das paredes de rocha com algumas gravuras.  Repentinamente uma energia
+
     incrivelmente forte e pura começa a invadir sua alma, tomando seus olhos e
+
     mostrando-lhe a presença de uma misteriosa, provavelmente divina, luz branca.
+
     Dessa maravilhosa luz surge uma rouca voz que diz:
+
     "Você está na sala da Eterna Sociedade da Luz.  Como agora esta me vendo
+
     e ouvindo, sentiu a força que exala dos corações da sociedade.  Este piso que
+
     está sob seus pés é sagrado, portanto purifique seu coração, alma e mente,
-    siga em paz e leve em seu coração a frase: 'Meus problemas não são maiores que
+
+    siga em paz e leve em seu coração a frase: ''Meus problemas não são maiores que
+
     meus deuses e não irão me impedir de caminhar.  Se diante de mim não se abrir
-    o mar, caminharei por sobre as águas."
+
+    o mar, caminharei por sobre as águas."'
   exits:
     east:
       target_vnum: 01010040419
   local_id: '420'
   name: A Eterna Sociedade da Luz
   vnum: '01010040420'
-- description: |-
-    Um bonito salão se ergue ao seu redor, densamente preenchida por um vapor
+- description: 'Um bonito salão se ergue ao seu redor, densamente preenchida por um
+    vapor
+
     vermelho vivo.  Embaixo de seus pés há lajotas de rubi dispostas
+
     transversalmente.  Há quatro sólidas portas, entre as quais quatro grandes
+
     arcos de um prateado fosco emergem e cruzam-se no alto do teto formando uma
+
     belíssima estrela de oito pontas.  Suas bases são pequenos gárgulas arqueados
+
     com um dos braços erguido, segurando o arco, e o outro esticado, prendendo um
+
     dos lados do galhardete com o nome do clã a quem pertence a respectiva porta.
+
     Aqui se encontram representados outros três dos clãs recentes de Vitália:
+
     ao norte, Os Protetores da Família Mclaud; ao leste, Os Seguidores da
-    Disciplina das Trevas; ao sul, Os Cavaleiros da família Dragoon.
+
+    Disciplina das Trevas; ao sul, Os Cavaleiros da família Dragoon.'
   exits:
     down:
       target_vnum: 01010040419
@@ -405,12 +520,15 @@
   local_id: '421'
   name: O Quinto Andar da Embaixada
   vnum: '01010040421'
-- description: |-
-    Uma bela sala que lhe lembra muito as aldeias do sul da Escócia, você
+- description: 'Uma bela sala que lhe lembra muito as aldeias do sul da Escócia, você
+
     observa vários adornos nas paredes e pinturas das várias gerações que já
+
     fizeram parte deste clan.  Dentre elas você observa um belo quadro rústico
+
     escocês que o chama atenção.
-    Há uma bela estátua de O'Connel Mclaud aqui.
+
+    Há uma bela estátua de O''Connel Mclaud aqui.'
   exits:
     south:
       target_vnum: '01010040421'
@@ -443,11 +561,14 @@
   local_id: '423'
   name: A Sagrada Sala de Reuniões
   vnum: '01010040423'
-- description: |-
-    Ao adentrar no salão, você sente como se o mundo la fora deixasse de
+- description: 'Ao adentrar no salão, você sente como se o mundo la fora deixasse
+    de
+
     existir, onde o mal nunca conseguiria aguentar os fluídos aqui presente.  As
+
     paredes são rodeadas de todos os lados por grandes blocos de granito, nos
-    cantos da sala você percebe alguns querubins esculpidos em mármore.
+
+    cantos da sala você percebe alguns querubins esculpidos em mármore.'
   exits:
     south:
       target_vnum: 01010040419
@@ -467,49 +588,64 @@
   local_id: '425'
   name: Seguidores da Dinastia Breyldon
   vnum: '01010040425'
-- description: |-
-    Ao entrar nessa sala você vê suas feridas e cicatrizes desaparecerem.
+- description: 'Ao entrar nessa sala você vê suas feridas e cicatrizes desaparecerem.
+
     Esse é um santuário muito lindo e enfeitado, o cheiro daqui é muito bom e
+
     daqui se ouve um relaxante som de água corrente.  Você vê um altar com uma
-    estátua sobre ele.
+
+    estátua sobre ele.'
   exits:
     north:
       target_vnum: 01010040419
   local_id: '426'
   name: Os Guardiões da Prisão de Kildner
   vnum: '01010040426'
-- description: |-
-    Este é o altar do templo de Tenebra.  Muitos devotos fazem orações a
+- description: 'Este é o altar do templo de Tenebra.  Muitos devotos fazem orações
+    a
+
     Deusa das Trevas.  No topo do altar se encontra a estátua de Tenebra, uma
+
     bela jovem de cabelos longos e lisos com os pés descalços usando um vestido
+
     longo e justo aberto nas laterais.  A beleza de seu rosto é indescritivel e
-    seus olhos encantam a todos.
+
+    seus olhos encantam a todos.'
   exits:
     west:
       target_vnum: '01010040421'
   local_id: '427'
   name: Os Seguidores da Disciplina das Trevas
   vnum: '01010040427'
-- description: |-
-    Você repara que as paredes da proximidade estão cheias de desenhos
+- description: 'Você repara que as paredes da proximidade estão cheias de desenhos
+
     enigmáticos, esculpidos com muito cuidado e precisão, que parecem
+
     respresentar uma grande batalha que acontecera há muito tempo atrás.  Você
+
     ouve os mais variados sons, que em seu todo parecem formar uma belíssima
+
     canção homenageando todos os bravos que protegem Vitália com suas próprias
-    vidas.
+
+    vidas.'
   exits:
     north:
       target_vnum: '01010040421'
   local_id: '428'
   name: Os Cavaleiros da Família Dragoon
   vnum: 01010040428
-- description: |-
-    Esta é uma sala diferente de todas que já viu.  Daqui é possível sentir a
+- description: 'Esta é uma sala diferente de todas que já viu.  Daqui é possível sentir
+    a
+
     essência divina à sua volta.  Este lugar se assemelha muito aos Espaços
+
     Vazios, pois além da porta e um humilde quadro de carvalho pairando no ar,
+
     não há paredes, nem teto, nem chão, nem nada.  Ao olhar à sua volta, você
+
     começa a ter a sensação de que está flutuando.  Tudo à sua volta é muito
-    branco e não se consegue ver de onde vem a luz que ilumina este quarto.
+
+    branco e não se consegue ver de onde vem a luz que ilumina este quarto.'
   exits:
     down:
       target_vnum: '01010040423'

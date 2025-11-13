@@ -1,18 +1,19 @@
-- description: |-
-    Você está na entrada para uma pequena cidade subterrânea.  Um grande
+- description: 'Você está na entrada para uma pequena cidade subterrânea.  Um grande
+
     portão de adamantite encontra-se aberto para o oeste, dando entrada para o
-    interior da cidade. Um brilho suspeito sai do chão, quase abaixo de você.
+
+    interior da cidade. Um brilho suspeito sai do chão, quase abaixo de você.'
   exits:
     down:
-      target_vnum: 01010513900
+      target_vnum: 01010393900
     west:
       target_vnum: '01010515101'
   local_id: '5100'
   name: A Entrada da Cidade
   vnum: '01010515100'
-- description: |-
-    Você anda ao longo de uma grande rua florida indo norte-sul.  Um grande
-    portão encontra-se para o leste enquanto um prédio permanece para o oeste.
+- description: 'Você anda ao longo de uma grande rua florida indo norte-sul.  Um grande
+
+    portão encontra-se para o leste enquanto um prédio permanece para o oeste.'
   exits:
     east:
       target_vnum: '01010515100'
@@ -34,9 +35,9 @@
   local_id: '5102'
   name: Uma Rua da Cidade
   vnum: '01010515102'
-- description: |-
-    Você anda ao longo de uma grande rua florida indo leste-oeste.  Uma
-    grande casa encontra-se para o sul.
+- description: 'Você anda ao longo de uma grande rua florida indo leste-oeste.  Uma
+
+    grande casa encontra-se para o sul.'
   exits:
     east:
       target_vnum: '01010515102'
@@ -47,10 +48,11 @@
   local_id: '5103'
   name: Uma Rua da Cidade
   vnum: '01010515103'
-- description: |-
-    Você encontra-se dentro da terceira casa da cidade; ela é razoavelmente
+- description: 'Você encontra-se dentro da terceira casa da cidade; ela é razoavelmente
+
     bem decorada pelo padrão drow, tendo algumas estátuas, murais e etc.  Um
-    porta leva ao sul.
+
+    porta leva ao sul.'
   exits:
     north:
       target_vnum: '01010515103'
@@ -59,18 +61,19 @@
   local_id: '5104'
   name: A Terceira Casa
   vnum: '01010515104'
-- description: |-
-    A sala do trono da terceira casa é decorada como o quintal de entrada,
-    exceto pelo sangue que cobre o altar no centro da sala.
+- description: 'A sala do trono da terceira casa é decorada como o quintal de entrada,
+
+    exceto pelo sangue que cobre o altar no centro da sala.'
   exits:
     north:
       target_vnum: '01010515104'
   local_id: '5105'
   name: A Sala do Trono
   vnum: '01010515105'
-- description: |-
-    Você anda ao longo de uma grande rua florida indo leste-oeste.  Para o
-    norte está um grande prédio.
+- description: 'Você anda ao longo de uma grande rua florida indo leste-oeste.  Para
+    o
+
+    norte está um grande prédio.'
   exits:
     east:
       target_vnum: '01010515103'
@@ -81,9 +84,10 @@
   local_id: '5106'
   name: Uma Rua da Cidade
   vnum: '01010515106'
-- description: |-
-    Você anda ao longo de uma grande rua florida indo norte e leste.  Para o
-    sul está uma casa extremamente grande.
+- description: 'Você anda ao longo de uma grande rua florida indo norte e leste.  Para
+    o
+
+    sul está uma casa extremamente grande.'
   exits:
     east:
       target_vnum: '01010515106'
@@ -94,9 +98,10 @@
   local_id: '5107'
   name: Uma Rua da Cidade
   vnum: '01010515107'
-- description: |-
-    Você encontra-se dentro da segunda casa da cidade.  A sala é decorada com
-    estátuas de aranhas e murais por todos os lados.
+- description: 'Você encontra-se dentro da segunda casa da cidade.  A sala é decorada
+    com
+
+    estátuas de aranhas e murais por todos os lados.'
   exits:
     north:
       target_vnum: '01010515107'
@@ -105,19 +110,21 @@
   local_id: '5108'
   name: A Segunda Casa
   vnum: 01010515108
-- description: |-
-    A sala do trono da segunda casa é somente um pouco mais decorada do que o
-    quintal de entrada, tendo um altar no centro da sala.
+- description: 'A sala do trono da segunda casa é somente um pouco mais decorada do
+    que o
+
+    quintal de entrada, tendo um altar no centro da sala.'
   exits:
     east:
       target_vnum: 01010515108
   local_id: '5109'
   name: A Sala do Trono
   vnum: 01010515109
-- description: |-
-    Você está na entrada para a primeira casa da cidade.  Um grande portão,
+- description: 'Você está na entrada para a primeira casa da cidade.  Um grande portão,
+
     quase tão grande e elegante como aquele da entrada para a cidade,
-    encontra-se aqui.
+
+    encontra-se aqui.'
   exits:
     north:
       target_vnum: '01010515114'
@@ -128,10 +135,11 @@
   local_id: '5110'
   name: O Portão Principal
   vnum: '01010515110'
-- description: |-
-    Você acha-se no quintal de entrada da primeira e maior casa da cidade.  A
+- description: 'Você acha-se no quintal de entrada da primeira e maior casa da cidade.  A
+
     sala é extremamente grande e decorada.  Murais e pinturas estão pendurados
-    nas paredes representando algumas batalhas e uma aranha rainha.
+
+    nas paredes representando algumas batalhas e uma aranha rainha.'
   exits:
     east:
       target_vnum: '01010515110'
@@ -150,9 +158,9 @@
   local_id: '5112'
   name: A Sala do Trono
   vnum: '01010515112'
-- description: |-
-    Esta é a câmara do conselho para a Matriarca.  Uma enorme mesa e as
-    cadeiras que a cercam repousam no centro da sala.
+- description: 'Esta é a câmara do conselho para a Matriarca.  Uma enorme mesa e as
+
+    cadeiras que a cercam repousam no centro da sala.'
   exits:
     south:
       target_vnum: '01010515112'
@@ -170,9 +178,9 @@
   local_id: '5114'
   name: Uma Rua da Cidade
   vnum: '01010515114'
-- description: |-
-    Você anda ao longo de uma grande rua florida rumando sul.  Um prédio
-    encontra-se para o oeste.
+- description: 'Você anda ao longo de uma grande rua florida rumando sul.  Um prédio
+
+    encontra-se para o oeste.'
   exits:
     south:
       target_vnum: '01010515114'
@@ -181,18 +189,19 @@
   local_id: '5115'
   name: Uma Rua da Cidade
   vnum: '01010515115'
-- description: |-
-    Esta é a mais generosa das academias, sendo assim, ela é para os
-    sacerdotes.
+- description: 'Esta é a mais generosa das academias, sendo assim, ela é para os
+
+    sacerdotes.'
   exits:
     east:
       target_vnum: '01010515115'
   local_id: '5116'
   name: A Academia dos Sacerdotes
   vnum: '01010515116'
-- description: |-
-    Você anda ao longo de uma grande rua florida indo leste-oeste.  Para o
-    norte avista-se um grande templo.
+- description: 'Você anda ao longo de uma grande rua florida indo leste-oeste.  Para
+    o
+
+    norte avista-se um grande templo.'
   exits:
     east:
       target_vnum: '01010515121'
@@ -210,10 +219,12 @@
   local_id: '5118'
   name: A Academia dos Guerreiros
   vnum: 01010515118
-- description: |-
-    O Templo é o maior prédio da cidade.  Até mesmo suas portas estão além da
+- description: 'O Templo é o maior prédio da cidade.  Até mesmo suas portas estão
+    além da
+
     imaginação.  Dentro da entrada do templo, as paredes são feitas de ouro e
-    adamantite.
+
+    adamantite.'
   exits:
     down:
       target_vnum: '01010515126'
@@ -222,18 +233,19 @@
   local_id: '5119'
   name: A Entrada para o Templo de Lloth
   vnum: 01010515119
-- description: |-
-    A Academia dos Magos é razoavelmente bem decorada e você pode ver que os
-    Drows preferem a mágica em detrimento do poder físico.
+- description: 'A Academia dos Magos é razoavelmente bem decorada e você pode ver
+    que os
+
+    Drows preferem a mágica em detrimento do poder físico.'
   exits:
     south:
       target_vnum: '01010515121'
   local_id: '5120'
   name: A Academia dos Magos
   vnum: '01010515120'
-- description: |-
-    Você anda ao longo de uma grande rua florida rumando na direção do
-    leste.  Ao norte você avista um prédio.
+- description: 'Você anda ao longo de uma grande rua florida rumando na direção do
+
+    leste.  Ao norte você avista um prédio.'
   exits:
     east:
       target_vnum: '01010515123'
@@ -244,19 +256,21 @@
   local_id: '5121'
   name: Uma Rua da Cidade
   vnum: '01010515121'
-- description: |-
-    A sala está uma bagunça.  Palhas estão espalhadas por toda a sala,
+- description: 'A sala está uma bagunça.  Palhas estão espalhadas por toda a sala,
+
     servindo de cama para as infelizes criaturas, que se transformaram em
-    vítimas do imperialismo dos Drows.
+
+    vítimas do imperialismo dos Drows.'
   exits:
     east:
       target_vnum: '01010515101'
   local_id: '5122'
   name: A Câmara dos Escravos
   vnum: '01010515122'
-- description: |-
-    Você anda ao longo de uma grande rua florida indo oeste e sul.  Ao norte
-    encontra-se uma casa relativamente pequena.
+- description: 'Você anda ao longo de uma grande rua florida indo oeste e sul.  Ao
+    norte
+
+    encontra-se uma casa relativamente pequena.'
   exits:
     north:
       target_vnum: '01010515124'
@@ -267,9 +281,10 @@
   local_id: '5123'
   name: Uma Rua da Cidade
   vnum: '01010515123'
-- description: |-
-    Você se encontra dentro da quarta casa da cidade.  Seu quintal de entrada
-    é muito desleixado para o padrão Drow e um tanto pequeno também.
+- description: 'Você se encontra dentro da quarta casa da cidade.  Seu quintal de
+    entrada
+
+    é muito desleixado para o padrão Drow e um tanto pequeno também.'
   exits:
     east:
       target_vnum: '01010515125'
@@ -278,19 +293,22 @@
   local_id: '5124'
   name: A Quarta Casa
   vnum: '01010515124'
-- description: |-
-    A sala do trono é, basicamente, similar ao quintal de entrada no que diz
-    respeito à decoração.  Existe um pequeno trono atrás do altar.
+- description: 'A sala do trono é, basicamente, similar ao quintal de entrada no que
+    diz
+
+    respeito à decoração.  Existe um pequeno trono atrás do altar.'
   exits:
     west:
       target_vnum: '01010515124'
   local_id: '5125'
   name: A Sala do Trono
   vnum: '01010515125'
-- description: |-
-    Você se acha no caminho de entrada para o templo, que continua para o
+- description: 'Você se acha no caminho de entrada para o templo, que continua para
+    o
+
     norte em uma grande sala, indo leste e oeste.  Pequenas estátuas de aranhas
-    se alinham nas paredes do caminho de entrada.
+
+    se alinham nas paredes do caminho de entrada.'
   exits:
     north:
       target_vnum: '01010515127'
@@ -299,12 +317,15 @@
   local_id: '5126'
   name: O Salão de Entrada
   vnum: '01010515126'
-- description: |-
-    Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+- description: 'Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+
     esculpidas pinturas de elfos e aranhas.  A sala continua leste e oeste.  No
+
     momento que você olha para o fundo da sala, você avista um ou dois vultos
+
     movendo-se para longe de você.
-    Para o norte encontra-se uma escada obsidiana.
+
+    Para o norte encontra-se uma escada obsidiana.'
   exits:
     east:
       target_vnum: 01010515128
@@ -317,11 +338,13 @@
   local_id: '5127'
   name: Uma Sala Longa
   vnum: '01010515127'
-- description: |-
-    Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+- description: 'Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+
     esculpidas pinturas de elfos e aranhas.  A sala continua leste e oeste.  No
+
     momento que você olha para o fundo da sala, você avista um ou dois vultos
-    movendo-se para longe de você.
+
+    movendo-se para longe de você.'
   exits:
     east:
       target_vnum: 01010515129
@@ -330,12 +353,15 @@
   local_id: '5128'
   name: Uma Sala Longa
   vnum: 01010515128
-- description: |-
-    Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+- description: 'Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+
     esculpidas pinturas de elfos e aranhas.  A sala continua leste e oeste.  No
+
     momento que você olha para o fundo da sala, você avista um ou dois vultos
+
     movendo-se para longe de você.
-    Para o norte você avista uma porta.
+
+    Para o norte você avista uma porta.'
   exits:
     east:
       target_vnum: '01010515130'
@@ -346,11 +372,13 @@
   local_id: '5129'
   name: Uma Sala Longa
   vnum: 01010515129
-- description: |-
-    Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+- description: 'Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+
     esculpidas pinturas de elfos e aranhas.  A sala continua leste e oeste.  No
+
     momento que você olha para o fundo da sala, você avista um ou dois vultos
-    movendo-se para longe de você.
+
+    movendo-se para longe de você.'
   exits:
     east:
       target_vnum: '01010515134'
@@ -359,11 +387,13 @@
   local_id: '5130'
   name: Uma Sala Longa
   vnum: '01010515130'
-- description: |-
-    Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+- description: 'Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+
     esculpidas pinturas de elfos e aranhas.  A sala continua leste e oeste.  No
+
     momento que você olha para o fundo da sala, você avista um ou dois vultos
-    movendo-se para longe de você.
+
+    movendo-se para longe de você.'
   exits:
     east:
       target_vnum: '01010515127'
@@ -372,12 +402,15 @@
   local_id: '5131'
   name: Uma Sala Longa
   vnum: '01010515131'
-- description: |-
-    Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+- description: 'Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+
     esculpidas pinturas de elfos e aranhas.  A sala continua leste e oeste.  No
+
     momento que você olha para o fundo da sala, você avista um ou dois vultos
+
     movendo-se para longe de você.
-    Para o sul você avista uma porta.
+
+    Para o sul você avista uma porta.'
   exits:
     east:
       target_vnum: '01010515131'
@@ -388,21 +421,24 @@
   local_id: '5132'
   name: Uma Sala Longa
   vnum: '01010515132'
-- description: |-
-    A sala está uma completa desordem.  Nenhuma das camas está arrumada,
+- description: 'A sala está uma completa desordem.  Nenhuma das camas está arrumada,
+
     roupas e outros itens foram deixados por tada a sala.  Bem, os guerreiros
-    drow nunca foram conhecidos por sua organização.
+
+    drow nunca foram conhecidos por sua organização.'
   exits:
     north:
       target_vnum: '01010515131'
   local_id: '5133'
   name: O Quartel dos Guerreiros
   vnum: '01010515133'
-- description: |-
-    Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+- description: 'Você está numa sala longa ladeada com adamantite.  Nas paredes estão
+
     esculpidas pinturas de elfos e aranhas.  A sala continua leste e oeste.  No
+
     momento que você olha para o fundo da sala, você avista um ou dois vultos
-    movendo-se para longe de você.
+
+    movendo-se para longe de você.'
   exits:
     east:
       target_vnum: '01010515132'
@@ -411,9 +447,9 @@
   local_id: '5134'
   name: Uma Sala Longa
   vnum: '01010515134'
-- description: |-
-    Você econtra-se na base de uma enorme escada obsidiana feita de
-    adamantite.  As extremidades estão enfeitadas com ouro.
+- description: 'Você econtra-se na base de uma enorme escada obsidiana feita de
+
+    adamantite.  As extremidades estão enfeitadas com ouro.'
   exits:
     south:
       target_vnum: '01010515127'
@@ -422,9 +458,9 @@
   local_id: '5135'
   name: A Escada Principal
   vnum: '01010515135'
-- description: |-
-    Voce encontra-se no meio do salão principal.  As paredes são enfeitadas
-    com a mais pura adamantite com ouro.  Mosaicos alinham-se nas paredes.
+- description: 'Voce encontra-se no meio do salão principal.  As paredes são enfeitadas
+
+    com a mais pura adamantite com ouro.  Mosaicos alinham-se nas paredes.'
   exits:
     down:
       target_vnum: '01010515135'
@@ -435,20 +471,23 @@
   local_id: '5136'
   name: O Salão Principal
   vnum: '01010515136'
-- description: |-
-    O quartel dos magos é mais limpo, com a exceção de uns poucos recipientes
+- description: 'O quartel dos magos é mais limpo, com a exceção de uns poucos recipientes
+
     com componentes usados.  E é melhor decorado também.  Camas alinham-se no
-    chão para os magos repousarem nelas.  A única porta está para o oeste.
+
+    chão para os magos repousarem nelas.  A única porta está para o oeste.'
   exits:
     west:
       target_vnum: '01010515136'
   local_id: '5137'
   name: O Quartel dos Magos
   vnum: '01010515137'
-- description: |-
-    Você está andando pelo salão principal, decorado com adamantite e ouro.
+- description: 'Você está andando pelo salão principal, decorado com adamantite e
+    ouro.
+
     Para o norte, o salão continua para baixo, passando por um lance de escada,
-    enquanto existe uma porta para o oeste.
+
+    enquanto existe uma porta para o oeste.'
   exits:
     down:
       target_vnum: '01010515140'
@@ -459,19 +498,20 @@
   local_id: '5138'
   name: O Salão Principal
   vnum: 01010515138
-- description: |-
-    A câmara é inteligentemente decorada com estátuas em formato de aranhas,
+- description: 'A câmara é inteligentemente decorada com estátuas em formato de aranhas,
+
     murais e similares.  Grandes camas alinham-se no chão fazendo desta sala um
-    lugar confortável de viver.
+
+    lugar confortável de viver.'
   exits:
     east:
       target_vnum: 01010515138
   local_id: '5139'
   name: O Quartel dos Sacerdotes
   vnum: 01010515139
-- description: |-
-    Você está subindo um lance de escadas rodeada com paredes de adamantite.
-    Para o norte você vê uma enorme porta dourada.
+- description: 'Você está subindo um lance de escadas rodeada com paredes de adamantite.
+
+    Para o norte você vê uma enorme porta dourada.'
   exits:
     north:
       target_vnum: '01010515141'
@@ -480,10 +520,11 @@
   local_id: '5140'
   name: A Escada Principal
   vnum: '01010515140'
-- description: |-
-    Este é o lado sul de um amplo auditório usado para serviços dos clérigos
+- description: 'Este é o lado sul de um amplo auditório usado para serviços dos clérigos
+
     drows.  No centro existe um enorme foço de sacrifícios e atrás dele
-    avista-se um altar.
+
+    avista-se um altar.'
   exits:
     east:
       target_vnum: '01010515142'
@@ -494,9 +535,9 @@
   local_id: '5141'
   name: A Câmara Principal
   vnum: '01010515141'
-- description: |-
-    Você está no lado leste da câmara contemplando o foço.  Para o leste
-    existe uma porta enquanto que ao norte está o altar.
+- description: 'Você está no lado leste da câmara contemplando o foço.  Para o leste
+
+    existe uma porta enquanto que ao norte está o altar.'
   exits:
     east:
       target_vnum: '01010515146'
@@ -507,18 +548,19 @@
   local_id: '5142'
   name: O Lado Leste da Câmara Principal
   vnum: '01010515142'
-- description: |-
-    Enquanto você desce dentro do foço, milhares de aranhas cobrem você,
+- description: 'Enquanto você desce dentro do foço, milhares de aranhas cobrem você,
+
     rasgando seu corpo frágil em fragmentos.
 
-    Lloth agradece à voce pelo seu sacrifício.
+
+    Lloth agradece à voce pelo seu sacrifício.'
   exits: {}
   local_id: '5143'
   name: O Foço de Sacrifício
   vnum: '01010515143'
-- description: |-
-    Você está no lado oeste da câmara principal observando o foço de
-    sacrifícios.  Para o norte encontra-se um altar.
+- description: 'Você está no lado oeste da câmara principal observando o foço de
+
+    sacrifícios.  Para o norte encontra-se um altar.'
   exits:
     north:
       target_vnum: '01010515145'
@@ -527,11 +569,13 @@
   local_id: '5144'
   name: O Lado Oeste da Câmara Principal
   vnum: '01010515144'
-- description: |-
-    Você se depara com um altar coberto com manchas de sangue recentes.
+- description: 'Você se depara com um altar coberto com manchas de sangue recentes.
+
     Entalhado no topo do altar está uma aranha gigante com uma cabeça humana.
+
     Olhando para baixo do altar, você avista um grande foço de sacrifícios
-    infestado com milhares de aranhas procurando pela próxima refeição!
+
+    infestado com milhares de aranhas procurando pela próxima refeição!'
   exits:
     down:
       target_vnum: '01010515143'
@@ -544,9 +588,9 @@
   local_id: '5145'
   name: O Altar
   vnum: '01010515145'
-- description: |-
-    Este é a sala principal que dá acesso às celas dos escravos que serão
-    sacrificados.  Você nota que não há guardas por perto.
+- description: 'Este é a sala principal que dá acesso às celas dos escravos que serão
+
+    sacrificados.  Você nota que não há guardas por perto.'
   exits:
     north:
       target_vnum: '01010515147'
@@ -555,21 +599,25 @@
   local_id: '5146'
   name: As Celas dos Escravos
   vnum: '01010515146'
-- description: |-
-    Carnes e pães apodrecidos encontram-se no chão enquanto algemas estão
+- description: 'Carnes e pães apodrecidos encontram-se no chão enquanto algemas estão
+
     penduradas nas paredes.  A sala cheira à morte.  Você fica nauseado e decide
+
     deixar a sala até mesmo porque você está, obviamente, atrasado para salvar o
-    escravo.
+
+    escravo.'
   exits:
     south:
       target_vnum: '01010515146'
   local_id: '5147'
   name: O Curral dos Escravos
   vnum: '01010515147'
-- description: |-
-    Você está dentro da sacristia atrás do altar.  Acima de você existe uma
+- description: 'Você está dentro da sacristia atrás do altar.  Acima de você existe
+    uma
+
     enorme ilustração de uma fêmea drow transformando-se em uma enorme aranha e
-    voltando ao normal de novo.  Existe uma porta para o oeste.
+
+    voltando ao normal de novo.  Existe uma porta para o oeste.'
   exits:
     south:
       target_vnum: '01010515145'
@@ -578,18 +626,19 @@
   local_id: '5148'
   name: A Sacristia
   vnum: 01010515148
-- description: |-
-    Este é, obviamente, um local de armazenagem temporário para os tesouros
-    coletados, estando eles um tanto quanto desprotegidos.
+- description: 'Este é, obviamente, um local de armazenagem temporário para os tesouros
+
+    coletados, estando eles um tanto quanto desprotegidos.'
   exits:
     east:
       target_vnum: 01010515148
   local_id: '5149'
   name: O Tesouro
   vnum: 01010515149
-- description: |-
-    Está é um cômodo de uma só pessoa muito elegante.  O dono deve ser muito
-    respeitado para receber este tipo de tratamento.
+- description: 'Está é um cômodo de uma só pessoa muito elegante.  O dono deve ser
+    muito
+
+    respeitado para receber este tipo de tratamento.'
   exits:
     south:
       target_vnum: 01010515129

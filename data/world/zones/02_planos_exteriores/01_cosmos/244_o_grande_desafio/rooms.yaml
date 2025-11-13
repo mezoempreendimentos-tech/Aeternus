@@ -1,12 +1,18 @@
-- description: |-
-    A paisagem a seu redor repentinamente muda e você de repente se encontra
+- description: 'A paisagem a seu redor repentinamente muda e você de repente se encontra
+
     em uma sala clara e aconchegante.  Você foi convocado pelos deuses para o
+
     @RGrande Desafio de Vitália@n.  A ocasião é realmente especial e você se
+
     sente honrado em participar desta aventura.  Outros aventureiros também
+
     foram trazidos para esta sala e você deverá eliminá-los um a um usando
+
     @Wpergaminhos especiais de retorno@n que foram cuidadosamente espalhados
+
     pelos deuses.  Espere o sinal dos deuses, escolha uma direção e @YBoa
-    Sorte@n.
+
+    Sorte@n.'
   exits:
     east:
       target_vnum: '020124424402'
@@ -19,24 +25,30 @@
   local_id: '24400'
   name: O Início do Desafio
   vnum: '020124424400'
-- description: |-
-    Você fez sua escolha e aqui inicia a sua longa jornada rumo ao
+- description: 'Você fez sua escolha e aqui inicia a sua longa jornada rumo ao
+
     desconhecido.  Este lugar é realmente mágico e você nota um grande poder
+
     emanando de todos os lados.  Um caminho estreito se estende para o leste e
+
     você parece ouvir um estranho som vindo desta direção.  Você verifica seus
+
     mantimentos, prepara seu coração para grandes emoções e, antes de seguir,
-    faz suas últimas orações.
+
+    faz suas últimas orações.'
   exits:
     east:
       target_vnum: '020124424402'
   local_id: '24401'
   name: O Desafio de Vitália
   vnum: '020124424401'
-- description: |-
-    Você se encontra em um ambiente amplo e quase indescritível.  Um suave
+- description: 'Você se encontra em um ambiente amplo e quase indescritível.  Um suave
+
     cheiro doce (de frutas talvez?) invade o ar provavelmente vindo dos arbustos
+
     que parecem estar sempre em um movimento suspeito.  O caminho segue para
-    leste, oeste e norte.
+
+    leste, oeste e norte.'
   exits:
     east:
       target_vnum: '020124424403'
@@ -47,12 +59,16 @@
   local_id: '24402'
   name: O Desafio de Vitália
   vnum: '020124424402'
-- description: |-
-    O caminho segue amplo e arejado.  As marcas de seus pés misturam-se às
+- description: 'O caminho segue amplo e arejado.  As marcas de seus pés misturam-se
+    às
+
     inúmeras pegadas que já se encontravam antes aqui.  Muitas pessoas devem
+
     passar por este caminho e você dobra sua atenção pois a qualquer momento
+
     alguém pode recitar sobre você um pergaminho especial a acabar com sua
-    jornada por este caminho.  Você se apressa e verifica as possibilidades:
+
+    jornada por este caminho.  Você se apressa e verifica as possibilidades:'
   exits:
     east:
       target_vnum: '020124424404'
@@ -61,10 +77,12 @@
   local_id: '24403'
   name: O Desafio de Vitália
   vnum: '020124424403'
-- description: |-
-    Abruptamente o caminho se fecha para o norte e para o leste.  Tudo leva a
+- description: 'Abruptamente o caminho se fecha para o norte e para o leste.  Tudo
+    leva a
+
     crer que você somente pode seguir para oeste ou sul, entretanto olhando mais
-    de perto você percebe duas pequenas portas nas direções norte e leste.
+
+    de perto você percebe duas pequenas portas nas direções norte e leste.'
   exits:
     east:
       target_vnum: 020124424496
@@ -77,11 +95,13 @@
   local_id: '24404'
   name: O Desafio de Vitália
   vnum: '020124424404'
-- description: |-
-    O Caminho continua amplo e fresco.  A terra sob seus pés já não parece
+- description: 'O Caminho continua amplo e fresco.  A terra sob seus pés já não parece
+
     tão macia, o que dificulta a visão das pegadas.  Para leste o oeste há
+
     vários arbustos que impedem uma visão além.  O caminho segue amplo para o
-    norte e para o sul.
+
+    norte e para o sul.'
   exits:
     north:
       target_vnum: '020124424404'
@@ -90,12 +110,15 @@
   local_id: '24405'
   name: O Desafio de Vitália
   vnum: '020124424405'
-- description: |-
-    Um vento suave toca seu rosto e você sente uma sensação agradável.  Você
+- description: 'Um vento suave toca seu rosto e você sente uma sensação agradável.  Você
+
     olha ao redor e analisando as opções.  Longe ao leste, um grande castelo
+
     dourado parece ter o portão destrancado.  Para o norte o caminho segue
+
     desobstruído e um emaranhado de ervas daninhas impede a visão, assim como o
-    avanço, em qualquer outra direção.
+
+    avanço, em qualquer outra direção.'
   exits:
     east:
       target_vnum: '020124424407'
@@ -104,12 +127,15 @@
   local_id: '24406'
   name: O Desafio de Vitália
   vnum: '020124424406'
-- description: |-
-    Você se aproxima do castelo o suficiente para perceber quer provavelmente
+- description: 'Você se aproxima do castelo o suficiente para perceber quer provavelmente
+
     seus oponentes estão dentro dele.  Há duas entradas visíveis para o castelo:
+
     O grande portão logo a leste e um alçapão enferrujado que você provavelmente
+
     conseguirá mover com algum esforço.  Para o sul uma trilha estreita se abre
-    e você pode ver um pequeno bosque.
+
+    e você pode ver um pequeno bosque.'
   exits:
     down:
       target_vnum: 020124424419
@@ -122,12 +148,16 @@
   local_id: '24407'
   name: O Desafio de Vitália
   vnum: '020124424407'
-- description: |-
-    Você entra no grande castelo dourado e sente que daqui por diante tudo é
+- description: 'Você entra no grande castelo dourado e sente que daqui por diante
+    tudo é
+
     imprevisível.  Talvez alguns oponentes estejam espreitando você logo na sala
+
     ao lado e portanto é necessária muita calma para prosseguir.  Você pode
+
     seguir a parede do castelo para o norte ou para o sul.  Um longo corredor
-    segue para o leste.
+
+    segue para o leste.'
   exits:
     east:
       target_vnum: '020124424456'
@@ -140,9 +170,10 @@
   local_id: '24408'
   name: O Desafio de Vitália
   vnum: 020124424408
-- description: |-
-    A parede segue interminavelmente para o norte e um longo corredor se abre
-    ao leste.
+- description: 'A parede segue interminavelmente para o norte e um longo corredor
+    se abre
+
+    ao leste.'
   exits:
     east:
       target_vnum: '020124424410'
@@ -153,12 +184,15 @@
   local_id: '24409'
   name: O Desafio de Vitália
   vnum: 020124424409
-- description: |-
-    Você se encontra no início de um grande corredor.  A largura do corredor
+- description: 'Você se encontra no início de um grande corredor.  A largura do corredor
+
     é confortável e possivelmente um grupo de cinco ou seis pessoas não teriam
+
     problemas em passar lado a lado por ele.  O teto é dourado e parece ficar
+
     cada vez mais baixo.  O corredor é muito longo e você não consegue ver seu
-    fim.  Logo a leste uma parede marca seu início.
+
+    fim.  Logo a leste uma parede marca seu início.'
   exits:
     east:
       target_vnum: '020124424411'
@@ -167,10 +201,11 @@
   local_id: '24410'
   name: O Desafio de Vitália
   vnum: '020124424410'
-- description: |-
-    O Corredor segue no sentido leste-oeste.  O teto está cada vez mais
+- description: 'O Corredor segue no sentido leste-oeste.  O teto está cada vez mais
+
     próximo de sua cabeça, embora a distância pareça ser de aproximadamente uns
-    vinte pés.
+
+    vinte pés.'
   exits:
     east:
       target_vnum: '020124424412'
@@ -179,10 +214,11 @@
   local_id: '24411'
   name: O Desafio de Vitália
   vnum: '020124424411'
-- description: |-
-    O Corredor segue no sentido leste-oeste.  O teto está cada vez mais
+- description: 'O Corredor segue no sentido leste-oeste.  O teto está cada vez mais
+
     próximo de sua cabeça, embora a distância pareça ser de aproximadamente uns
-    quinze pés.
+
+    quinze pés.'
   exits:
     east:
       target_vnum: '020124424413'
@@ -191,10 +227,11 @@
   local_id: '24412'
   name: O Desafio de Vitália
   vnum: '020124424412'
-- description: |-
-    O Corredor segue no sentido leste-oeste.  O teto está cada vez mais
+- description: 'O Corredor segue no sentido leste-oeste.  O teto está cada vez mais
+
     próximo de sua cabeça, embora a distância pareça ser de aproximadamente uns
-    dez pés.
+
+    dez pés.'
   exits:
     east:
       target_vnum: '020124424414'
@@ -203,10 +240,11 @@
   local_id: '24413'
   name: O Desafio de Vitália
   vnum: '020124424413'
-- description: |-
-    O Longo corredor enfim termina e você se vê diante de uma enorme escada
+- description: 'O Longo corredor enfim termina e você se vê diante de uma enorme escada
+
     em forma de espiral para o andar de cima.  Para o norte uma entrada o conduz
-    a uma sala que parece estar fechada.
+
+    a uma sala que parece estar fechada.'
   exits:
     east:
       target_vnum: '020124424431'
@@ -217,9 +255,10 @@
   local_id: '24414'
   name: O Desafio de Vitália
   vnum: '020124424414'
-- description: |-
-    Uma porta vermelha para o norte impede a visão da sala.  Você hesita um
-    instante e pensa se é seguro entrar nesta sala.
+- description: 'Uma porta vermelha para o norte impede a visão da sala.  Você hesita
+    um
+
+    instante e pensa se é seguro entrar nesta sala.'
   exits:
     north:
       target_vnum: '020124424416'
@@ -228,14 +267,19 @@
   local_id: '24415'
   name: O Desafio de Vitália
   vnum: '020124424415'
-- description: |-
-    Você entra em uma enorme sala com vários artefatos jogados no chão.
+- description: 'Você entra em uma enorme sala com vários artefatos jogados no chão.
+
     Parece que há muito ninguém visita este lugar e a poeira já toma conta do
+
     piso.  Olhando com mais cuidado você pode ver algumas pegadas recentes mais
+
     a norte mas não é possível precisar quanto a quanto tempo elas foram
+
     deixadas aqui.  Pelo tamanho algum aventureiro MUITO forte andou passeando
+
     por esta parte do castelo.  Nas paredes leste e oeste há portas vermelha e
-    dourada, respectivamente.
+
+    dourada, respectivamente.'
   exits:
     east:
       target_vnum: 020124424418
@@ -264,12 +308,15 @@
   local_id: '24418'
   name: O Desafio de Vitália
   vnum: 020124424418
-- description: |-
-    Você se encontra parado no início de um corredor com água até a sua
+- description: 'Você se encontra parado no início de um corredor com água até a sua
+
     cintura.  A dificuldade de locomoção é imensa mas você não parece precisar
+
     usar seu bote ainda.  Um longo corredor semi-inundado segue para o leste e
+
     você pode, num esforço sobre humano alcançar o alçapão que está logo acima
-    da sua cabeça.
+
+    da sua cabeça.'
   exits:
     east:
       target_vnum: '020124424420'
@@ -278,12 +325,15 @@
   local_id: '24419'
   name: O Desafio de Vitália
   vnum: 020124424419
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    leste e oeste.
+
+    leste e oeste.'
   exits:
     east:
       target_vnum: '020124424421'
@@ -292,11 +342,14 @@
   local_id: '24420'
   name: O Desafio de Vitália
   vnum: '020124424420'
-- description: |-
-    Você chega a um cruzamento de corredores.  A água limpa bate agora na
+- description: 'Você chega a um cruzamento de corredores.  A água limpa bate agora
+    na
+
     altura de sua cintura e você se move com muita dificuldade.  Os corredores
+
     seguem para norte, sul, leste e oeste.  Bem acima de sua cabeça você pode
-    ver uma entrada que você poderia alcançar com algum esforço.
+
+    ver uma entrada que você poderia alcançar com algum esforço.'
   exits:
     east:
       target_vnum: '020124424422'
@@ -311,12 +364,15 @@
   local_id: '24421'
   name: O Desafio de Vitália
   vnum: '020124424421'
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    leste e oeste.
+
+    leste e oeste.'
   exits:
     east:
       target_vnum: '020124424423'
@@ -325,12 +381,15 @@
   local_id: '24422'
   name: O Desafio de Vitália
   vnum: '020124424422'
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    leste e oeste.
+
+    leste e oeste.'
   exits:
     east:
       target_vnum: '020124424424'
@@ -339,12 +398,15 @@
   local_id: '24423'
   name: O Desafio de Vitália
   vnum: '020124424423'
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    leste e oeste.
+
+    leste e oeste.'
   exits:
     east:
       target_vnum: '020124424421'
@@ -353,12 +415,15 @@
   local_id: '24424'
   name: O Desafio de Vitália
   vnum: '020124424424'
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    norte e sul.
+
+    norte e sul.'
   exits:
     north:
       target_vnum: '020124424421'
@@ -367,12 +432,15 @@
   local_id: '24425'
   name: O Desafio de Vitália
   vnum: '020124424425'
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    norte e sul.
+
+    norte e sul.'
   exits:
     north:
       target_vnum: '020124424425'
@@ -381,12 +449,15 @@
   local_id: '24426'
   name: O Desafio de Vitália
   vnum: '020124424426'
-- description: |-
-    Você se encontra parado no início de um corredor com água até a sua
+- description: 'Você se encontra parado no início de um corredor com água até a sua
+
     cintura.  A dificuldade de locomoção é imensa mas você não parece precisar
+
     usar seu bote ainda.  Um longo corredor semi-inundado segue para o norte e
+
     você pode, num esforço sobre humano alcançar o alçapão que está logo acima
-    da sua cabeça.
+
+    da sua cabeça.'
   exits:
     north:
       target_vnum: '020124424426'
@@ -395,12 +466,15 @@
   local_id: '24427'
   name: O Desafio de Vitália
   vnum: '020124424427'
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    norte e sul.
+
+    norte e sul.'
   exits:
     north:
       target_vnum: 020124424429
@@ -409,12 +483,15 @@
   local_id: '24428'
   name: O Desafio de Vitália
   vnum: 020124424428
-- description: |-
-    A água deste corredor é limpa, embora não seja nada agradável a
+- description: 'A água deste corredor é limpa, embora não seja nada agradável a
+
     necessidade do esforço para locomoção.  A água bate agora na altura de sua
+
     cintura e você começa a ficar um pouco cansado.  Seu pensamento é totalmente
+
     voltado para arranjar um lugar seco e seguro.  O corredor continua para
-    norte e sul.
+
+    norte e sul.'
   exits:
     north:
       target_vnum: '020124424430'
@@ -423,12 +500,15 @@
   local_id: '24429'
   name: O Desafio de Vitália
   vnum: 020124424429
-- description: |-
-    Você se encontra parado no início de um corredor com água até a sua
+- description: 'Você se encontra parado no início de um corredor com água até a sua
+
     cintura.  A dificuldade de locomoção é imensa mas você não parece precisar
+
     usar seu bote ainda.  Um longo corredor semi-inundado segue para o sul e
+
     você pode, num esforço sobre humano alcançar o alçapão que está logo acima
-    da sua cabeça.
+
+    da sua cabeça.'
   exits:
     south:
       target_vnum: 020124424429
@@ -437,9 +517,10 @@
   local_id: '24430'
   name: O Desafio de Vitália
   vnum: '020124424430'
-- description: |-
-    A escada segue subindo para o leste.  Logo ao este você consegue ver um
-    corredor muito longo.
+- description: 'A escada segue subindo para o leste.  Logo ao este você consegue ver
+    um
+
+    corredor muito longo.'
   exits:
     east:
       target_vnum: '020124424432'
@@ -448,9 +529,9 @@
   local_id: '24431'
   name: O Desafio de Vitália
   vnum: '020124424431'
-- description: |-
-    A escada continua subindo no sentido oeste leste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido oeste leste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: '020124424433'
@@ -459,9 +540,9 @@
   local_id: '24432'
   name: O Desafio de Vitália
   vnum: '020124424432'
-- description: |-
-    A escada continua subindo no sentido oeste leste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido oeste leste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: '020124424434'
@@ -470,9 +551,9 @@
   local_id: '24433'
   name: O Desafio de Vitália
   vnum: '020124424433'
-- description: |-
-    A escada continua subindo no sentido oeste leste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido oeste leste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: '020124424435'
@@ -481,9 +562,9 @@
   local_id: '24434'
   name: O Desafio de Vitália
   vnum: '020124424434'
-- description: |-
-    Neste ponto a escada se dobra subindo para o sul.  Olhando para oeste
-    você pode ver o quanto você subiu!  O corredor mal pode ser visto daqui.
+- description: 'Neste ponto a escada se dobra subindo para o sul.  Olhando para oeste
+
+    você pode ver o quanto você subiu!  O corredor mal pode ser visto daqui.'
   exits:
     south:
       target_vnum: '020124424436'
@@ -492,9 +573,10 @@
   local_id: '24435'
   name: O Desafio de Vitália
   vnum: '020124424435'
-- description: |-
-    A escada continua subindo no sentido norte sul.  Um tapete vermelho cobre
-    os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido norte sul.  Um tapete vermelho
+    cobre
+
+    os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     north:
       target_vnum: '020124424435'
@@ -503,9 +585,10 @@
   local_id: '24436'
   name: O Desafio de Vitália
   vnum: '020124424436'
-- description: |-
-    A escada continua subindo no sentido norte sul.  Um tapete vermelho cobre
-    os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido norte sul.  Um tapete vermelho
+    cobre
+
+    os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     north:
       target_vnum: '020124424436'
@@ -514,9 +597,10 @@
   local_id: '24437'
   name: O Desafio de Vitália
   vnum: '020124424437'
-- description: |-
-    A escada continua subindo no sentido norte sul.  Um tapete vermelho cobre
-    os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido norte sul.  Um tapete vermelho
+    cobre
+
+    os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     north:
       target_vnum: '020124424437'
@@ -525,10 +609,12 @@
   local_id: '24438'
   name: O Desafio de Vitália
   vnum: 020124424438
-- description: |-
-    Neste ponto a escada se dobra subindo para oeste.  Olhando para o norte
+- description: 'Neste ponto a escada se dobra subindo para oeste.  Olhando para o
+    norte
+
     você pode ver o quanto você subiu!  A curva da escada mal pode ser vista
-    daqui.
+
+    daqui.'
   exits:
     north:
       target_vnum: 020124424438
@@ -537,9 +623,9 @@
   local_id: '24439'
   name: O Desafio de Vitália
   vnum: 020124424439
-- description: |-
-    A escada continua subindo no sentido leste oeste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido leste oeste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: 020124424439
@@ -548,9 +634,9 @@
   local_id: '24440'
   name: O Desafio de Vitália
   vnum: '020124424440'
-- description: |-
-    A escada continua subindo no sentido leste oeste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido leste oeste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: '020124424440'
@@ -559,9 +645,9 @@
   local_id: '24441'
   name: O Desafio de Vitália
   vnum: '020124424441'
-- description: |-
-    A escada continua subindo no sentido leste oeste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido leste oeste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: '020124424441'
@@ -570,10 +656,12 @@
   local_id: '24442'
   name: O Desafio de Vitália
   vnum: '020124424442'
-- description: |-
-    Neste ponto a escada se dobra subindo para o norte.  Olhando para oeste
+- description: 'Neste ponto a escada se dobra subindo para o norte.  Olhando para
+    oeste
+
     você pode ver o quanto você subiu!  A curva da escada mal pode ser vista
-    daqui.
+
+    daqui.'
   exits:
     east:
       target_vnum: '020124424442'
@@ -582,9 +670,10 @@
   local_id: '24443'
   name: O Desafio de Vitália
   vnum: '020124424443'
-- description: |-
-    A escada continua subindo no sentido sul norte.  Um tapete vermelho cobre
-    os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido sul norte.  Um tapete vermelho
+    cobre
+
+    os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     north:
       target_vnum: '020124424445'
@@ -593,9 +682,10 @@
   local_id: '24444'
   name: O Desafio de Vitália
   vnum: '020124424444'
-- description: |-
-    A escada continua subindo no sentido sul norte.  Um tapete vermelho cobre
-    os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido sul norte.  Um tapete vermelho
+    cobre
+
+    os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     north:
       target_vnum: '020124424446'
@@ -604,10 +694,12 @@
   local_id: '24445'
   name: O Desafio de Vitália
   vnum: '020124424445'
-- description: |-
-    Neste ponto a escada se dobra subindo para o leste.  Olhando para o sul
+- description: 'Neste ponto a escada se dobra subindo para o leste.  Olhando para
+    o sul
+
     você pode ver o quanto você subiu!  A curva da escada mal pode ser vista
-    daqui.
+
+    daqui.'
   exits:
     east:
       target_vnum: '020124424447'
@@ -616,9 +708,9 @@
   local_id: '24446'
   name: O Desafio de Vitália
   vnum: '020124424446'
-- description: |-
-    A escada continua subindo no sentido oeste leste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido oeste leste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: 020124424448
@@ -627,9 +719,9 @@
   local_id: '24447'
   name: O Desafio de Vitália
   vnum: '020124424447'
-- description: |-
-    A escada continua subindo no sentido oeste leste.  Um tapete vermelho
-    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido oeste leste.  Um tapete vermelho
+
+    cobre os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: 020124424449
@@ -638,10 +730,11 @@
   local_id: '24448'
   name: O Desafio de Vitália
   vnum: 020124424448
-- description: |-
-    Neste ponto a escada se dobra subindo para sul.  Olhando para o oeste
+- description: 'Neste ponto a escada se dobra subindo para sul.  Olhando para o oeste
+
     você pode ver o quanto você subiu!  A curva da escada mal pode ser vista
-    daqui.
+
+    daqui.'
   exits:
     south:
       target_vnum: '020124424450'
@@ -650,9 +743,10 @@
   local_id: '24449'
   name: O Desafio de Vitália
   vnum: 020124424449
-- description: |-
-    A escada continua subindo no sentido norte sul.  Um tapete vermelho cobre
-    os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido norte sul.  Um tapete vermelho
+    cobre
+
+    os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     north:
       target_vnum: 020124424449
@@ -661,10 +755,12 @@
   local_id: '24450'
   name: O Desafio de Vitália
   vnum: '020124424450'
-- description: |-
-    Neste ponto a escada se dobra subindo para oeste.  Olhando para o norte
+- description: 'Neste ponto a escada se dobra subindo para oeste.  Olhando para o
+    norte
+
     você pode ver o quanto você subiu!  A curva da escada mal pode ser vista
-    daqui.
+
+    daqui.'
   exits:
     north:
       target_vnum: '020124424450'
@@ -673,9 +769,10 @@
   local_id: '24451'
   name: O Desafio de Vitália
   vnum: '020124424451'
-- description: |-
-    A escada continua subindo no sentido leste oeste.  Um tapete vermelho cobre
-    os degraus e um friso dourado brilha tanto que ilumina seu caminho.
+- description: 'A escada continua subindo no sentido leste oeste.  Um tapete vermelho
+    cobre
+
+    os degraus e um friso dourado brilha tanto que ilumina seu caminho.'
   exits:
     east:
       target_vnum: '020124424451'
@@ -684,10 +781,12 @@
   local_id: '24452'
   name: O Desafio de Vitália
   vnum: '020124424452'
-- description: |-
-    Neste ponto a escada se dobra subindo para o norte.  Olhando para oeste
+- description: 'Neste ponto a escada se dobra subindo para o norte.  Olhando para
+    oeste
+
     você pode ver o quanto você subiu!  A curva da escada mal pode ser vista
-    daqui.
+
+    daqui.'
   exits:
     east:
       target_vnum: '020124424452'
@@ -696,10 +795,12 @@
   local_id: '24453'
   name: O Desafio de Vitália
   vnum: '020124424453'
-- description: |-
-    Neste ponto a escada se dobra subindo para o leste.  Olhando para o sul
+- description: 'Neste ponto a escada se dobra subindo para o leste.  Olhando para
+    o sul
+
     você pode ver o quanto você subiu!  A curva da escada mal pode ser vista
-    daqui.
+
+    daqui.'
   exits:
     east:
       target_vnum: '020124424455'
@@ -708,11 +809,14 @@
   local_id: '24454'
   name: O Desafio de Vitália
   vnum: '020124424454'
-- description: |-
-    Você chega ao topo da escada em espiral.  Para o leste você pode ver o
+- description: 'Você chega ao topo da escada em espiral.  Para o leste você pode ver
+    o
+
     segundo andar do castelo.  Você não consegue muito bem saber o quanto você
+
     subiu, mas pelo tamanho da escada e pelo cansaço você pode supor que o
-    castelo é realmente muito maior do que parecia inicialmente.
+
+    castelo é realmente muito maior do que parecia inicialmente.'
   exits:
     east:
       target_vnum: '020124424500'
@@ -723,11 +827,13 @@
   local_id: '24455'
   name: O Desafio de Vitália
   vnum: '020124424455'
-- description: |-
-    Você está no início de um corredor muito longo.  Várias tochas foram
+- description: 'Você está no início de um corredor muito longo.  Várias tochas foram
+
     colocadas nas paredes deixando o caminho bastante iluminado.  Um tapete
+
     vermelho cobre o chão e as paredes são muito limpas.  Olhando para oeste
-    você pode ver ainda a entrada do castelo.  O corredor segue para o leste.
+
+    você pode ver ainda a entrada do castelo.  O corredor segue para o leste.'
   exits:
     east:
       target_vnum: '020124424457'
@@ -736,13 +842,18 @@
   local_id: '24456'
   name: O Desafio de Vitália
   vnum: '020124424456'
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.
+
+    grande vencedor do desafio.'
   exits:
     east:
       target_vnum: 020124424458
@@ -751,13 +862,18 @@
   local_id: '24457'
   name: O Desafio de Vitália
   vnum: '020124424457'
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.
+
+    grande vencedor do desafio.'
   exits:
     east:
       target_vnum: 020124424459
@@ -766,13 +882,18 @@
   local_id: '24458'
   name: O Desafio de Vitália
   vnum: 020124424458
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.
+
+    grande vencedor do desafio.'
   exits:
     east:
       target_vnum: '020124424460'
@@ -781,13 +902,18 @@
   local_id: '24459'
   name: O Desafio de Vitália
   vnum: 020124424459
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.
+
+    grande vencedor do desafio.'
   exits:
     east:
       target_vnum: '020124424461'
@@ -796,13 +922,18 @@
   local_id: '24460'
   name: O Desafio de Vitália
   vnum: '020124424460'
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.
+
+    grande vencedor do desafio.'
   exits:
     east:
       target_vnum: '020124424462'
@@ -811,13 +942,18 @@
   local_id: '24461'
   name: O Desafio de Vitália
   vnum: '020124424461'
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.
+
+    grande vencedor do desafio.'
   exits:
     east:
       target_vnum: '020124424463'
@@ -826,13 +962,18 @@
   local_id: '24462'
   name: O Desafio de Vitália
   vnum: '020124424462'
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.
+
+    grande vencedor do desafio.'
   exits:
     east:
       target_vnum: '020124424464'
@@ -841,13 +982,18 @@
   local_id: '24463'
   name: O Desafio de Vitália
   vnum: '020124424463'
-- description: |-
-    O longo corredor continua no sentido leste oeste.  A luminosidade é
+- description: 'O longo corredor continua no sentido leste oeste.  A luminosidade
+    é
+
     intensa vinda das tochas das paredes e você caminha com razoável facilidade.
+
     O teto está muito acima de sua cabeça, uns quarenta pés, você calcula.  A
+
     tensão aumenta a cada instante já que nunca se sabe quando aparecerá um
+
     oponente tentando enviar você para longe e acabar com seu sonho de ser o
-    grande vencedor do desafio.  Uma passagem se abre para o sul.
+
+    grande vencedor do desafio.  Uma passagem se abre para o sul.'
   exits:
     east:
       target_vnum: '020124424457'
@@ -858,11 +1004,13 @@
   local_id: '24464'
   name: O Desafio de Vitália
   vnum: '020124424464'
-- description: |-
-    A passagem não é tão iluminada quanto o corredor ao mnorte, entretanto
+- description: 'A passagem não é tão iluminada quanto o corredor ao mnorte, entretanto
+
     não chega a ser totalmente escuro, embora você não deixe de achar o caminho
+
     um pouco assustador.  Ao norte você vê a luminosidade de um corredor e a
-    passagem continua para o sul.
+
+    passagem continua para o sul.'
   exits:
     north:
       target_vnum: '020124424464'
@@ -871,9 +1019,9 @@
   local_id: '24465'
   name: O Desafio de Vitália
   vnum: '020124424465'
-- description: |-
-    A passagem continua para o sul e uma pequena abertura na parede leste
-    pode ser notada embora esteja um tanto camuflada.
+- description: 'A passagem continua para o sul e uma pequena abertura na parede leste
+
+    pode ser notada embora esteja um tanto camuflada.'
   exits:
     east:
       target_vnum: '020124424467'
@@ -884,11 +1032,14 @@
   local_id: '24466'
   name: O Desafio de Vitália
   vnum: '020124424466'
-- description: |-
-    Você entra em uma antecâmara mal iluminada.  A parede oeste mal revela a
+- description: 'Você entra em uma antecâmara mal iluminada.  A parede oeste mal revela
+    a
+
     passagem camuflada pela sombra que paira no ar.  A leste você pode ver um
+
     arco dourado que revela um lindo salão de tamanho considerável.  A
-    luminosidade do salão mal pode ser notada nesta sala.
+
+    luminosidade do salão mal pode ser notada nesta sala.'
   exits:
     east:
       target_vnum: 020124424468
@@ -897,9 +1048,9 @@
   local_id: '24467'
   name: O Desafio de Vitália
   vnum: '020124424467'
-- description: |-
-    Você se encontra diante de um grande salão bastante iluminado pelas
-    milhares de velas que flutuam magicamente bastante acima de sua cabeça.
+- description: 'Você se encontra diante de um grande salão bastante iluminado pelas
+
+    milhares de velas que flutuam magicamente bastante acima de sua cabeça.'
   exits:
     east:
       target_vnum: '020124424471'
@@ -912,10 +1063,11 @@
   local_id: '24468'
   name: O Desafio de Vitália
   vnum: 020124424468
-- description: |-
-    Este canto do salão parece vazio e as paredes norte e oeste estão
+- description: 'Este canto do salão parece vazio e as paredes norte e oeste estão
+
     revestidas por grossas cortinas vermelhas bordadas em dourado.  Você pode ir
-    para o sul ou para o leste.
+
+    para o sul ou para o leste.'
   exits:
     east:
       target_vnum: '020124424470'
@@ -926,11 +1078,13 @@
   local_id: '24469'
   name: O Desafio de Vitália
   vnum: 020124424469
-- description: |-
-    Este canto do salão parece vazio e as paredes norte e leste estão
+- description: 'Este canto do salão parece vazio e as paredes norte e leste estão
+
     revestidas por grossas cortinas vermelhas bordadas em dourado.  Olhando para
+
     o sul você percebe um grande trono dourado e você ainda pode seguir para
-    oeste.
+
+    oeste.'
   exits:
     south:
       target_vnum: '020124424471'
@@ -939,11 +1093,14 @@
   local_id: '24470'
   name: O Desafio de Vitália
   vnum: '020124424470'
-- description: |-
-    Você se encontra diante de um lindo trono dourado.  Diversas jóias foram
+- description: 'Você se encontra diante de um lindo trono dourado.  Diversas jóias
+    foram
+
     usadas na construção deste trono que parece tão pesado que provavelmente dez
+
     homens não conseguiriam levanta-lo.  Olhando atrás do trono você percebe uma
-    pequena grade que você poderia mover.
+
+    pequena grade que você poderia mover.'
   exits:
     down:
       target_vnum: '020124424427'
@@ -956,11 +1113,13 @@
   local_id: '24471'
   name: O Desafio de Vitália
   vnum: '020124424471'
-- description: |-
-    Este canto do salão parece vazio e as paredes sul e leste estão
+- description: 'Este canto do salão parece vazio e as paredes sul e leste estão
+
     revestidas por grossas cortinas vermelhas bordadas em dourado.  Olhando para
+
     o norte você percebe um grande trono dourado e você ainda pode seguir para
-    oeste.
+
+    oeste.'
   exits:
     north:
       target_vnum: '020124424471'
@@ -969,10 +1128,11 @@
   local_id: '24472'
   name: O Desafio de Vitália
   vnum: '020124424472'
-- description: |-
-    Este canto do salão parece vazio e as paredes sul e oeste estão
+- description: 'Este canto do salão parece vazio e as paredes sul e oeste estão
+
     revestidas por grossas cortinas vermelhas bordadas em dourado.  Você pode ir
-    para o norte ou para o leste.
+
+    para o norte ou para o leste.'
   exits:
     east:
       target_vnum: '020124424472'
@@ -988,13 +1148,17 @@
   local_id: '24474'
   name: O Desafio de Vitália
   vnum: '020124424474'
-- description: |-
-    Você fez sua escolha e aqui inicia a sua longa jornada rumo ao
+- description: 'Você fez sua escolha e aqui inicia a sua longa jornada rumo ao
+
     desconhecido.  Este lugar é realmente mágico e você nota um grande poder
+
     emanando de todos os lados.  Um caminho estreito se estende para o sul e
+
     você parece ouvir um estranho som vindo desta direção.  Você verifica seus
+
     mantimentos, prepara seu coração para grandes emoções e, antes de seguir,
-    faz suas últimas orações.
+
+    faz suas últimas orações.'
   exits:
     east:
       target_vnum: 020124424499
@@ -1003,13 +1167,17 @@
   local_id: '24475'
   name: O Desafio de Vitália
   vnum: '020124424475'
-- description: |-
-    Você segue pelo caminho estreito que continua para o sul.  Muitas
+- description: 'Você segue pelo caminho estreito que continua para o sul.  Muitas
+
     sensações invadem sua mente e você não consegue prever ao certo o que
+
     acontecerá daqui por diante.  Algumas árvores cobrem um pouco da luz mas o
+
     caminho ainda sim é iluminado o bastante.  A terra fofa mostra algumas
+
     pegadas suas e de outros aventureiros.  Você se movimenta com cuidado pois
-    qualquer passo em falso pode ser fatal.
+
+    qualquer passo em falso pode ser fatal.'
   exits:
     north:
       target_vnum: '020124424401'
@@ -1018,13 +1186,17 @@
   local_id: '24476'
   name: O Desafio de Vitália
   vnum: '020124424476'
-- description: |-
-    Você segue pelo caminho estreito que continua para o sul.  Muitas
+- description: 'Você segue pelo caminho estreito que continua para o sul.  Muitas
+
     sensações invadem sua mente e você não consegue prever ao certo o que
+
     acontecerá daqui por diante.  Algumas árvores cobrem um pouco da luz mas o
+
     caminho ainda sim é iluminado o bastante.  A terra fofa mostra algumas
+
     pegadas suas e de outros aventureiros.  Você se movimenta com cuidado pois
-    qualquer passo em falso pode ser fatal.
+
+    qualquer passo em falso pode ser fatal.'
   exits:
     north:
       target_vnum: '020124424476'
@@ -1033,13 +1205,17 @@
   local_id: '24477'
   name: O Desafio de Vitália
   vnum: '020124424477'
-- description: |-
-    Você segue pelo caminho estreito que continua para o leste.  Muitas
+- description: 'Você segue pelo caminho estreito que continua para o leste.  Muitas
+
     sensações invadem sua mente e você não consegue prever ao certo o que
+
     acontecerá daqui por diante.  Algumas árvores cobrem um pouco da luz mas o
+
     caminho ainda sim é iluminado o bastante.  A terra fofa mostra algumas
+
     pegadas suas e de outros aventureiros.  Você se movimenta com cuidado pois
-    qualquer passo em falso pode ser fatal.
+
+    qualquer passo em falso pode ser fatal.'
   exits:
     east:
       target_vnum: 020124424479
@@ -1048,13 +1224,17 @@
   local_id: '24478'
   name: O Desafio de Vitália
   vnum: 020124424478
-- description: |-
-    Você segue pelo caminho estreito que continua para o leste.  Muitas
+- description: 'Você segue pelo caminho estreito que continua para o leste.  Muitas
+
     sensações invadem sua mente e você não consegue prever ao certo o que
+
     acontecerá daqui por diante.  Algumas árvores cobrem um pouco da luz mas o
+
     caminho ainda sim é iluminado o bastante.  A terra fofa mostra algumas
+
     pegadas suas e de outros aventureiros.  Você se movimenta com cuidado pois
-    qualquer passo em falso pode ser fatal.
+
+    qualquer passo em falso pode ser fatal.'
   exits:
     east:
       target_vnum: 020124424480
@@ -1063,10 +1243,12 @@
   local_id: '24479'
   name: O Desafio de Vitália
   vnum: 020124424479
-- description: |-
-    Conforme você vai andando o caminho vai ficando cada vez mais claro e um
+- description: 'Conforme você vai andando o caminho vai ficando cada vez mais claro
+    e um
+
     cheiro úmido anuncia uma espécie de pântano mais à frente.  O caminho
-    continua para leste e oeste.
+
+    continua para leste e oeste.'
   exits:
     east:
       target_vnum: 020124424481
@@ -1075,10 +1257,12 @@
   local_id: '24480'
   name: O Desafio de Vitália
   vnum: 020124424480
-- description: |-
-    Você continua caminhando com muito cuidado.  A água lodosa do pântano mal
+- description: 'Você continua caminhando com muito cuidado.  A água lodosa do pântano
+    mal
+
     chega a seu joelho e você caminha com certa dificuldade.  A luminosidade é
-    razoável e a sensação constante de estar sendo observado incomoda um pouco.
+
+    razoável e a sensação constante de estar sendo observado incomoda um pouco.'
   exits:
     east:
       target_vnum: 020124424482
@@ -1087,10 +1271,12 @@
   local_id: '24481'
   name: O Desafio de Vitália
   vnum: 020124424481
-- description: |-
-    Subitamente o caminho sobre o pântano se fecha nas direções leste e sul.
+- description: 'Subitamente o caminho sobre o pântano se fecha nas direções leste
+    e sul.
+
     Uma trilha para o norte (um tanto mais seca poderíamos dizer) parece levar a
-    um castelo que você não consegue ver com detalhes deste ponto.
+
+    um castelo que você não consegue ver com detalhes deste ponto.'
   exits:
     north:
       target_vnum: 020124424483
@@ -1099,12 +1285,15 @@
   local_id: '24482'
   name: O Desafio de Vitália
   vnum: 020124424482
-- description: |-
-    O Castelo ao norte se torna mais visível neste ponto e você pode
+- description: 'O Castelo ao norte se torna mais visível neste ponto e você pode
+
     contemplar toda sua beleza.  As árvores balançam e uma brisa fresca toca seu
+
     rosto fazendo você se sentir muito bem.  Seu propósitos nestas terras
+
     longínquas, entretanto não permite muito descanso e você se prepara para o
-    desafio.  O castelo está logo ao norte.
+
+    desafio.  O castelo está logo ao norte.'
   exits:
     north:
       target_vnum: 020124424484
@@ -1113,10 +1302,12 @@
   local_id: '24483'
   name: O Desafio de Vitália
   vnum: 020124424483
-- description: |-
-    O caminho para a entrada do castelo está desobstruído e você pode ver sua
+- description: 'O caminho para a entrada do castelo está desobstruído e você pode
+    ver sua
+
     entrada daqui.  Você precisa contornar a parede que segue para o norte para
-    chegar até ela.
+
+    chegar até ela.'
   exits:
     north:
       target_vnum: '020124424407'
@@ -1125,24 +1316,30 @@
   local_id: '24484'
   name: O Desafio de Vitália
   vnum: 020124424484
-- description: |-
-    Você fez sua escolha e aqui inicia a sua longa jornada rumo ao
+- description: 'Você fez sua escolha e aqui inicia a sua longa jornada rumo ao
+
     desconhecido.  Este lugar é realmente mágico e você nota um grande poder
+
     emanando de todos os lados.  Um caminho estreito subindo a encosta da colina
+
     logo ao se abre para o norte e você parece ouvir um estranho som vindo
+
     desta direção.  Você verifica seus mantimentos, prepara seu coração para
-    grandes emoções e, antes de seguir, faz suas últimas orações.
+
+    grandes emoções e, antes de seguir, faz suas últimas orações.'
   exits:
     north:
       target_vnum: 020124424486
   local_id: '24485'
   name: O Desafio de Vitália
   vnum: 020124424485
-- description: |-
-    Você inicia sua jornada pela encosta de uma colina íngreme.  O caminho
+- description: 'Você inicia sua jornada pela encosta de uma colina íngreme.  O caminho
+
     estreito segue para o norte e você pode ver que sua subida logo ficará mais
+
     difícil e cansativa.  O chão é pedregoso e você nota algumas pegadas que
-    misturam-se com as suas.
+
+    misturam-se com as suas.'
   exits:
     north:
       target_vnum: 020124424487
@@ -1151,10 +1348,11 @@
   local_id: '24486'
   name: O Desafio de Vitália
   vnum: 020124424486
-- description: |-
-    A subida parece realmente difícil para o norte mas você não desanima.
+- description: 'A subida parece realmente difícil para o norte mas você não desanima.
+
     Todo cuidado é pouco e você olha ao seu redor procurando um possível
-    oponente.
+
+    oponente.'
   exits:
     north:
       target_vnum: 020124424488
@@ -1163,12 +1361,15 @@
   local_id: '24487'
   name: O Desafio de Vitália
   vnum: 020124424487
-- description: |-
-    O caminho subitamente muda de direção indo agora para o leste em uma
+- description: 'O caminho subitamente muda de direção indo agora para o leste em uma
+
     subida cada vez mais difícil.  Você hesita um pouco antes de continuar mas
+
     seus objetivos estão muito claros em sua cabeça e você se sente encorajado a
+
     seguir nesta direção.  Você ainda poderia voltar e recomeçar sua jornada
-    indo para o sul.
+
+    indo para o sul.'
   exits:
     east:
       target_vnum: 020124424489
@@ -1177,12 +1378,16 @@
   local_id: '24488'
   name: O Desafio de Vitália
   vnum: 020124424488
-- description: |-
-    Finalmente você chega ao cume desta enorme colina e a partir de agora sua
+- description: 'Finalmente você chega ao cume desta enorme colina e a partir de agora
+    sua
+
     movimentação é menos pesarosa.  O chão remexido mostra que muitos já
+
     passaram por aqui e você se sente um pouco..  Atrasado.  Redobrando a
+
     atenção você verifica se não há aventureiro a sua espreita e toma um bom
-    fôlego para continuar sua jornada.
+
+    fôlego para continuar sua jornada.'
   exits:
     east:
       target_vnum: 020124424490
@@ -1191,10 +1396,12 @@
   local_id: '24489'
   name: O Desafio de Vitália
   vnum: 020124424489
-- description: |-
-    A descida é íngreme e você caminha com cuidado, já que qualquer erro pode
+- description: 'A descida é íngreme e você caminha com cuidado, já que qualquer erro
+    pode
+
     ser fatal.  O caminho segue para o leste.  Neste ponto alguma vegetação pode
-    ser vista e um cheiro de mato invade suas narinas.
+
+    ser vista e um cheiro de mato invade suas narinas.'
   exits:
     east:
       target_vnum: 020124424491
@@ -1203,10 +1410,12 @@
   local_id: '24490'
   name: O Desafio de Vitália
   vnum: 020124424490
-- description: |-
-    Uma curva fechada para o sul faz você balançar e quase cair.  Antes de
+- description: 'Uma curva fechada para o sul faz você balançar e quase cair.  Antes
+    de
+
     prosseguir você agradece aos deuses e olha atentamente para todas as
-    direções para ver se encontra algo (ou alguém talvez?)
+
+    direções para ver se encontra algo (ou alguém talvez?)'
   exits:
     south:
       target_vnum: 020124424492
@@ -1215,10 +1424,11 @@
   local_id: '24491'
   name: O Desafio de Vitália
   vnum: 020124424491
-- description: |-
-    A descida segue suave para o sul e logo ao norte uma curva muito perigosa
+- description: 'A descida segue suave para o sul e logo ao norte uma curva muito perigosa
+
     ainda pode ser vista.  Você por um momento pensa aonde este caminho irá
-    chegar mas isto é algo que infelizmente não é possível prever.
+
+    chegar mas isto é algo que infelizmente não é possível prever.'
   exits:
     north:
       target_vnum: 020124424491
@@ -1227,11 +1437,13 @@
   local_id: '24492'
   name: O Desafio de Vitália
   vnum: 020124424492
-- description: |-
-    Uma curva para oeste e você se vê em chão plano novamente.  Uma estranha
+- description: 'Uma curva para oeste e você se vê em chão plano novamente.  Uma estranha
+
     sensação de tontura toma conta de sua mente.  Provavelmente devido a grande
+
     mudança de altitude em tão pouco tempo.  Para o norte você vê uma subida
-    íngreme.
+
+    íngreme.'
   exits:
     north:
       target_vnum: 020124424492
@@ -1240,10 +1452,11 @@
   local_id: '24493'
   name: O Desafio de Vitália
   vnum: 020124424493
-- description: |-
-    Você se vê em um grande campo aberto e plano.  O ar é fresco e agradável
+- description: 'Você se vê em um grande campo aberto e plano.  O ar é fresco e agradável
+
     um pequeno buraco no chão parece sua única saída alem da volta ao topo da
-    colina pelo caminho a leste.
+
+    colina pelo caminho a leste.'
   exits:
     down:
       target_vnum: '020124424421'
@@ -1252,29 +1465,34 @@
   local_id: '24494'
   name: O Desafio de Vitália
   vnum: 020124424494
-- description: |-
-    Você entra em uma espécie de labirinto.  Tudo parece ser igual.  A porta
+- description: 'Você entra em uma espécie de labirinto.  Tudo parece ser igual.  A
+    porta
+
     ao sul desaparece magicamente e você se sente angustiado com a falta de
-    senso de direção.  Você ainda pode seguir para o leste.
+
+    senso de direção.  Você ainda pode seguir para o leste.'
   exits:
     east:
       target_vnum: 020124424497
   local_id: '24495'
   name: O Desafio de Vitália
   vnum: 020124424495
-- description: |-
-    Você entra em uma espécie de labirinto.  Tudo parece ser igual.  A porta
+- description: 'Você entra em uma espécie de labirinto.  Tudo parece ser igual.  A
+    porta
+
     a oeste desaparece magicamente e você se sente angustiado com a falta de
-    senso de direção.  Você ainda pode seguir para o leste.
+
+    senso de direção.  Você ainda pode seguir para o leste.'
   exits:
     east:
       target_vnum: 020124424497
   local_id: '24496'
   name: O Desafio de Vitália
   vnum: 020124424496
-- description: |-
-    O Labirinto parece não mostrar nenhuma direção certa.  Você pode ir para
-    norte, sul, leste ou oeste.
+- description: 'O Labirinto parece não mostrar nenhuma direção certa.  Você pode ir
+    para
+
+    norte, sul, leste ou oeste.'
   exits:
     east:
       target_vnum: 020124424498
@@ -1287,9 +1505,10 @@
   local_id: '24497'
   name: O Desafio de Vitália
   vnum: 020124424497
-- description: |-
-    O Labirinto parece não mostrar nenhuma direção certa.  Você pode ir para
-    norte, sul, leste ou oeste.
+- description: 'O Labirinto parece não mostrar nenhuma direção certa.  Você pode ir
+    para
+
+    norte, sul, leste ou oeste.'
   exits:
     east:
       target_vnum: 020124424498
@@ -1302,9 +1521,10 @@
   local_id: '24498'
   name: O Desafio de Vitália
   vnum: 020124424498
-- description: |-
-    O Labirinto parece não mostrar nenhuma direção certa.  Você pode ir para
-    norte, sul, leste ou oeste.
+- description: 'O Labirinto parece não mostrar nenhuma direção certa.  Você pode ir
+    para
+
+    norte, sul, leste ou oeste.'
   exits:
     east:
       target_vnum: 020124424497
@@ -1317,11 +1537,13 @@
   local_id: '24499'
   name: O Desafio de Vitália
   vnum: 020124424499
-- description: |-
-    Você se vê diante de um enorme corredor com diversas portas.  Um tapete
+- description: 'Você se vê diante de um enorme corredor com diversas portas.  Um tapete
+
     vermelho com detalhes em dourado dão um tom nobre a este ambiente.  Algumas
+
     tochas acesas iluminam todo o corredor que segue para o leste.  A oeste você
-    ainda pode ver o fim da escada.
+
+    ainda pode ver o fim da escada.'
   exits:
     east:
       target_vnum: '020124424503'
@@ -1330,11 +1552,13 @@
   local_id: '24500'
   name: O Desafio de Vitália
   vnum: '020124424500'
-- description: |-
-    Você entra em um grande quarto digno do mais nobre de todos os homens.
+- description: 'Você entra em um grande quarto digno do mais nobre de todos os homens.
+
     Tudo é bastante limpo e arrumado.  No canto do chão você pode ver uma
+
     passagem provavelmente usada em fugas ou em ocasiões que merecem algum
-    sigilo.  Para leste você vê uma passagem desobstruída.
+
+    sigilo.  Para leste você vê uma passagem desobstruída.'
   exits:
     down:
       target_vnum: 020124424469
@@ -1343,14 +1567,20 @@
   local_id: '24501'
   name: O Desafio de Vitália
   vnum: '020124424501'
-- description: |-
-    Você se vê diante de uma pequena sala úmida e quente.  A iluminação é
+- description: 'Você se vê diante de uma pequena sala úmida e quente.  A iluminação
+    é
+
     parca e você se sente um pouco enjoado neste lugar.  Aqui provavelmente é a
+
     entrada para as masmorras, visto que não combina em nada com o resto do
+
     castelo.  Tudo é cinzento e fúnebre.  Um bom lugar para se esconder, você
+
     diria...
+
     A única abertura é para o sul e há um pequeno buraco no chão por onde
-    você pode ver a escadaria do castelo.
+
+    você pode ver a escadaria do castelo.'
   exits:
     down:
       target_vnum: '020124424455'
@@ -1359,11 +1589,13 @@
   local_id: '24502'
   name: O Desafio de Vitália
   vnum: '020124424502'
-- description: |-
-    O longo corredor segue no sentido leste oeste e você pode ver com
+- description: 'O longo corredor segue no sentido leste oeste e você pode ver com
+
     detalhes cada canto desta sala.  Você se sente vigiado o tempo todo e sabe
+
     que a qualquer momento pode aparecer alguém para estragar seus planos.  Você
-    percebe uma porta ao sul.
+
+    percebe uma porta ao sul.'
   exits:
     east:
       target_vnum: '020124424504'
@@ -1374,11 +1606,13 @@
   local_id: '24503'
   name: O Desafio de Vitália
   vnum: '020124424503'
-- description: |-
-    O longo corredor segue no sentido leste oeste e você pode ver com
+- description: 'O longo corredor segue no sentido leste oeste e você pode ver com
+
     detalhes cada canto desta sala.  Você se sente vigiado o tempo todo e sabe
+
     que a qualquer momento pode aparecer alguém para estragar seus planos.  Você
-    percebe uma porta ao norte.
+
+    percebe uma porta ao norte.'
   exits:
     east:
       target_vnum: '020124424506'
@@ -1389,23 +1623,29 @@
   local_id: '24504'
   name: O Desafio de Vitália
   vnum: '020124424504'
-- description: |-
-    Você entra em um pequeno quarto limpo e claro.  Provavelmente quando este
+- description: 'Você entra em um pequeno quarto limpo e claro.  Provavelmente quando
+    este
+
     castelo estava ativado este aposento era usado como quarto de hóspedes e
+
     deve ter hospedado muitos visitantes ilustres.  Hoje ele serve de refúgio e
+
     de esconderijo para aventureiros como você que vêm até aqui em busca da
-    glória de vencer o grande desafio.  A porta está na parede sul.
+
+    glória de vencer o grande desafio.  A porta está na parede sul.'
   exits:
     south:
       target_vnum: '020124424504'
   local_id: '24505'
   name: O Desafio de Vitália
   vnum: '020124424505'
-- description: |-
-    O longo corredor segue no sentido leste oeste e você pode ver com
+- description: 'O longo corredor segue no sentido leste oeste e você pode ver com
+
     detalhes cada canto desta sala.  Você se sente vigiado o tempo todo e sabe
+
     que a qualquer momento pode aparecer alguém para estragar seus planos.  Você
-    percebe uma porta ao sul.
+
+    percebe uma porta ao sul.'
   exits:
     east:
       target_vnum: 020124424508
@@ -1416,23 +1656,29 @@
   local_id: '24506'
   name: O Desafio de Vitália
   vnum: '020124424506'
-- description: |-
-    Você entra em um pequeno quarto limpo e claro.  Provavelmente quando este
+- description: 'Você entra em um pequeno quarto limpo e claro.  Provavelmente quando
+    este
+
     castelo estava ativado este aposento era usado como quarto de hóspedes e
+
     deve ter hospedado muitos visitantes ilustres.  Hoje ele serve de refúgio e
+
     de esconderijo para aventureiros como você que vêm até aqui em busca da
-    glória de vencer o grande desafio.  A porta está na parede Norte.
+
+    glória de vencer o grande desafio.  A porta está na parede Norte.'
   exits:
     north:
       target_vnum: '020124424506'
   local_id: '24507'
   name: O Desafio de Vitália
   vnum: '020124424507'
-- description: |-
-    O longo corredor segue no sentido leste oeste e você pode ver com
+- description: 'O longo corredor segue no sentido leste oeste e você pode ver com
+
     detalhes cada canto desta sala.  Você se sente vigiado o tempo todo e sabe
+
     que a qualquer momento pode aparecer alguém para estragar seus planos.  Você
-    percebe uma porta ao norte.
+
+    percebe uma porta ao norte.'
   exits:
     east:
       target_vnum: '020124424510'
@@ -1443,23 +1689,29 @@
   local_id: '24508'
   name: O Desafio de Vitália
   vnum: 020124424508
-- description: |-
-    Você entra em um pequeno quarto limpo e claro.  Provavelmente quando este
+- description: 'Você entra em um pequeno quarto limpo e claro.  Provavelmente quando
+    este
+
     castelo estava ativado este aposento era usado como quarto de hóspedes e
+
     deve ter hospedado muitos visitantes ilustres.  Hoje ele serve de refúgio e
+
     de esconderijo para aventureiros como você que vêm até aqui em busca da
-    glória de vencer o grande desafio.  A porta está na parede sul.
+
+    glória de vencer o grande desafio.  A porta está na parede sul.'
   exits:
     south:
       target_vnum: 020124424508
   local_id: '24509'
   name: O Desafio de Vitália
   vnum: 020124424509
-- description: |-
-    O longo corredor segue no sentido leste oeste e você pode ver com
+- description: 'O longo corredor segue no sentido leste oeste e você pode ver com
+
     detalhes cada canto desta sala.  Você se sente vigiado o tempo todo e sabe
+
     que a qualquer momento pode aparecer alguém para estragar seus planos.  Você
-    percebe uma porta ao sul e uma outra ao norte.
+
+    percebe uma porta ao sul e uma outra ao norte.'
   exits:
     east:
       target_vnum: '020124424504'
@@ -1472,9 +1724,9 @@
   local_id: '24510'
   name: O Desafio de Vitália
   vnum: '020124424510'
-- description: |-
-    Você entra em uma pequeno hall de passagem.  Uma bela porta na parede
-    norte está fechada e uma passagem desobstruída segue para o sul.
+- description: 'Você entra em uma pequeno hall de passagem.  Uma bela porta na parede
+
+    norte está fechada e uma passagem desobstruída segue para o sul.'
   exits:
     north:
       target_vnum: '020124424510'
@@ -1483,11 +1735,13 @@
   local_id: '24511'
   name: O Desafio de Vitália
   vnum: '020124424511'
-- description: |-
-    Um pequeno corredor pouco iluminado segue no sentido norte sul.  Na
+- description: 'Um pequeno corredor pouco iluminado segue no sentido norte sul.  Na
+
     parede leste você pode ver uma porta.  O piso de madeira faz um estranho
+
     barulho e você tenta andar mais suavemente para não despertar a atenção dos
-    outros aventureiros que devem estar por perto a sua espreita.
+
+    outros aventureiros que devem estar por perto a sua espreita.'
   exits:
     east:
       target_vnum: '020124424514'
@@ -1498,11 +1752,13 @@
   local_id: '24512'
   name: O Desafio de Vitália
   vnum: '020124424512'
-- description: |-
-    Um pequeno corredor pouco iluminado segue no sentido norte sul.  Nas
+- description: 'Um pequeno corredor pouco iluminado segue no sentido norte sul.  Nas
+
     paredes leste e oeste você pode ver portas.  O piso de madeira faz um
+
     estranho barulho e você tenta andar mais suavemente para não despertar a
-    atenção dos outros aventureiros que devem estar por perto a sua espreita.
+
+    atenção dos outros aventureiros que devem estar por perto a sua espreita.'
   exits:
     east:
       target_vnum: '020124424534'
@@ -1515,22 +1771,27 @@
   local_id: '24513'
   name: O Desafio de Vitália
   vnum: '020124424513'
-- description: |-
-    Você entra em um pequeno quarto limpo e claro.  Provavelmente quando este
+- description: 'Você entra em um pequeno quarto limpo e claro.  Provavelmente quando
+    este
+
     castelo estava ativado este aposento era usado como quarto de hóspedes e
+
     deve ter hospedado muitos visitantes ilustres.  Hoje ele serve de refúgio e
+
     de esconderijo para aventureiros como você que vêm até aqui em busca da
-    glória de vencer o grande desafio.  A porta está na parede oeste.
+
+    glória de vencer o grande desafio.  A porta está na parede oeste.'
   exits:
     west:
       target_vnum: '020124424512'
   local_id: '24514'
   name: O Desafio de Vitália
   vnum: '020124424514'
-- description: |-
-    Um pequeno corredor segue no sentido leste oeste com iluminação razoável
+- description: 'Um pequeno corredor segue no sentido leste oeste com iluminação razoável
+
     vinda das tochas que queimam bem acima de sua cabeça.  Você nota ainda uma
-    porta na parede leste.
+
+    porta na parede leste.'
   exits:
     east:
       target_vnum: '020124424513'
@@ -1539,11 +1800,13 @@
   local_id: '24515'
   name: O Desafio de Vitália
   vnum: '020124424515'
-- description: |-
-    Um pequeno corredor pouco iluminado segue no sentido norte sul.  Nas
+- description: 'Um pequeno corredor pouco iluminado segue no sentido norte sul.  Nas
+
     paredes você não pode ver portas.  O piso de madeira faz um estranho barulho
+
     e você tenta andar mais suavemente para não despertar a atenção dos outros
-    aventureiros que devem estar por perto a sua espreita.
+
+    aventureiros que devem estar por perto a sua espreita.'
   exits:
     north:
       target_vnum: '020124424513'
@@ -1552,11 +1815,13 @@
   local_id: '24516'
   name: O Desafio de Vitália
   vnum: '020124424516'
-- description: |-
-    Um pequeno corredor pouco iluminado segue no sentido norte sul.  Nas
+- description: 'Um pequeno corredor pouco iluminado segue no sentido norte sul.  Nas
+
     paredes você não pode ver portas.  O piso de madeira faz um estranho barulho
+
     e você tenta andar mais suavemente para não despertar a atenção dos outros
-    aventureiros que devem estar por perto a sua espreita.
+
+    aventureiros que devem estar por perto a sua espreita.'
   exits:
     north:
       target_vnum: '020124424516'
@@ -1565,12 +1830,16 @@
   local_id: '24517'
   name: O Desafio de Vitália
   vnum: '020124424517'
-- description: |-
-    Você entra em um pequeno quarto de preparação.  provavelmente aqui o
+- description: 'Você entra em um pequeno quarto de preparação.  provavelmente aqui
+    o
+
     senhor deste enorme castelo vestia-se para as ocasiões especiais.  Na parede
+
     norte você vê um enorme espelho.  Você examina a pequena porta ao sul e a
+
     outra porta ao leste.  Pelo espelho você nota um movimento estranho e isso
-    faz você se lembrar de seus propósitos neste castelo.
+
+    faz você se lembrar de seus propósitos neste castelo.'
   exits:
     east:
       target_vnum: '020124424520'
@@ -1581,21 +1850,24 @@
   local_id: '24518'
   name: O Desafio de Vitália
   vnum: 020124424518
-- description: |-
-    Você entra em uma pequena sala de banho.  Uma banheira prateada foi
+- description: 'Você entra em uma pequena sala de banho.  Uma banheira prateada foi
+
     colocada bem no centro da sala alguns espelhos foram espalhados pelas
+
     paredes sul e leste.  Tudo a sua volta é bastante limpo e a sala é bastante
-    iluminada.  A única saída é para o norte, por onde você entrou.
+
+    iluminada.  A única saída é para o norte, por onde você entrou.'
   exits:
     north:
       target_vnum: 020124424518
   local_id: '24519'
   name: O Desafio de Vitália
   vnum: 020124424519
-- description: |-
-    Um pequeno corredor segue no sentido leste oeste com iluminação razoável
+- description: 'Um pequeno corredor segue no sentido leste oeste com iluminação razoável
+
     vinda das tochas que queimam bem acima de sua cabeça.  Você nota ainda uma
-    porta na parede oeste.
+
+    porta na parede oeste.'
   exits:
     east:
       target_vnum: '020124424521'
@@ -1604,9 +1876,9 @@
   local_id: '24520'
   name: O Desafio de Vitália
   vnum: '020124424520'
-- description: |-
-    Um pequeno corredor segue no sentido leste oeste com iluminação razoável
-    vinda das tochas que queimam bem acima de sua cabeça
+- description: 'Um pequeno corredor segue no sentido leste oeste com iluminação razoável
+
+    vinda das tochas que queimam bem acima de sua cabeça'
   exits:
     east:
       target_vnum: '020124424515'
@@ -1615,10 +1887,12 @@
   local_id: '24521'
   name: O Desafio de Vitália
   vnum: '020124424521'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido norte sul.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido norte sul.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     north:
       target_vnum: '020124424502'
@@ -1627,10 +1901,12 @@
   local_id: '24522'
   name: O Desafio de Vitália
   vnum: '020124424522'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido norte sul.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido norte sul.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.  Você nota uma cela na parede oeste.
+
+    como a morte.  Você nota uma cela na parede oeste.'
   exits:
     north:
       target_vnum: '020124424522'
@@ -1641,10 +1917,12 @@
   local_id: '24523'
   name: O Desafio de Vitália
   vnum: '020124424523'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido norte sul.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido norte sul.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.  Na parede leste você pode ver uma cela fechada.
+
+    como a morte.  Na parede leste você pode ver uma cela fechada.'
   exits:
     east:
       target_vnum: '020124424536'
@@ -1655,10 +1933,12 @@
   local_id: '24524'
   name: O Desafio de Vitália
   vnum: '020124424524'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido norte sul.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido norte sul.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     north:
       target_vnum: '020124424524'
@@ -1667,11 +1947,14 @@
   local_id: '24525'
   name: O Desafio de Vitália
   vnum: '020124424525'
-- description: |-
-    O longo corredor mal iluminado vira para o oeste e ainda segue para o
+- description: 'O longo corredor mal iluminado vira para o oeste e ainda segue para
+    o
+
     norte.  O ar é úmido e não muito agradável.  As paredes de pedras disformes
+
     são geladas como a morte.  Nas paredes leste e sul você pode ver celas
-    fechadas.
+
+    fechadas.'
   exits:
     east:
       target_vnum: 020124424538
@@ -1684,10 +1967,12 @@
   local_id: '24526'
   name: O Desafio de Vitália
   vnum: '020124424526'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     east:
       target_vnum: '020124424526'
@@ -1696,10 +1981,12 @@
   local_id: '24527'
   name: O Desafio de Vitália
   vnum: '020124424527'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.  Na parede sul você pode ver uma cela fechada.
+
+    como a morte.  Na parede sul você pode ver uma cela fechada.'
   exits:
     east:
       target_vnum: '020124424527'
@@ -1721,10 +2008,12 @@
   local_id: '24529'
   name: O Desafio de Vitália
   vnum: 020124424529
-- description: |-
-    Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     east:
       target_vnum: 020124424529
@@ -1733,10 +2022,12 @@
   local_id: '24530'
   name: O Desafio de Vitália
   vnum: '020124424530'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     east:
       target_vnum: '020124424530'
@@ -1745,10 +2036,12 @@
   local_id: '24531'
   name: O Desafio de Vitália
   vnum: '020124424531'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido leste-oeste.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     east:
       target_vnum: '020124424531'
@@ -1757,10 +2050,12 @@
   local_id: '24532'
   name: O Desafio de Vitália
   vnum: '020124424532'
-- description: |-
-    Uma pequena rampa que desce para o oeste.  Para o leste você pode ver o
+- description: 'Uma pequena rampa que desce para o oeste.  Para o leste você pode
+    ver o
+
     grande corredor e algumas celas.  Aqui o ar não é tão úmido mas você pode
-    sentir um cheiro diferente no ar.
+
+    sentir um cheiro diferente no ar.'
   exits:
     east:
       target_vnum: '020124424532'
@@ -1769,11 +2064,14 @@
   local_id: '24533'
   name: O Desafio de Vitália
   vnum: '020124424533'
-- description: |-
-    Você se encontra no início de uma rampa que sobe para o leste.  A rampa é
+- description: 'Você se encontra no início de uma rampa que sobe para o leste.  A
+    rampa é
+
     bastante limpa mas olhando para o leste você não consegue ver muito alem.  A
+
     inclinação é suave e não parece ser necessário muito esforço para subi-la.
-    A oeste você vê uma porta.
+
+    A oeste você vê uma porta.'
   exits:
     east:
       target_vnum: '020124424533'
@@ -1782,60 +2080,67 @@
   local_id: '24534'
   name: O Desafio de Vitália
   vnum: '020124424534'
-- description: |-
-    A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+- description: 'A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+
     norte e você nota algumas correntes presas nas paredes.  Pela porta da cela,
-    logo a leste, você mal pode ver o corredor.
+
+    logo a leste, você mal pode ver o corredor.'
   exits:
     east:
       target_vnum: '020124424523'
   local_id: '24535'
   name: O Desafio de Vitália
   vnum: '020124424535'
-- description: |-
-    A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+- description: 'A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+
     norte e você nota algumas correntes presas nas paredes.  Pela porta da cela,
-    logo a oeste, você mal pode ver o corredor.
+
+    logo a oeste, você mal pode ver o corredor.'
   exits:
     west:
       target_vnum: '020124424524'
   local_id: '24536'
   name: O Desafio de Vitália
   vnum: '020124424536'
-- description: |-
-    A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+- description: 'A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+
     norte e você nota algumas correntes presas nas paredes.  Pela porta da cela,
-    logo o norte, você mal pode ver o corredor.
+
+    logo o norte, você mal pode ver o corredor.'
   exits:
     north:
       target_vnum: '020124424526'
   local_id: '24537'
   name: O Desafio de Vitália
   vnum: '020124424537'
-- description: |-
-    A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+- description: 'A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+
     norte e você nota algumas correntes presas nas paredes.  Pela porta da cela,
-    logo a oeste, você mal pode ver o corredor.
+
+    logo a oeste, você mal pode ver o corredor.'
   exits:
     west:
       target_vnum: '020124424526'
   local_id: '24538'
   name: O Desafio de Vitália
   vnum: 020124424538
-- description: |-
-    A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+- description: 'A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+
     norte e você nota algumas correntes presas nas paredes.  Pela porta da cela,
-    logo ao norte, você mal pode ver o corredor.
+
+    logo ao norte, você mal pode ver o corredor.'
   exits:
     north:
       target_vnum: 020124424528
   local_id: '24539'
   name: O Desafio de Vitália
   vnum: 020124424539
-- description: |-
-    Um longo corredor mal iluminado segue no sentido norte sul.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido norte sul.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     north:
       target_vnum: '020124424541'
@@ -1844,10 +2149,12 @@
   local_id: '24540'
   name: O Desafio de Vitália
   vnum: '020124424540'
-- description: |-
-    Um longo corredor mal iluminado segue no sentido norte sul.  O ar é
+- description: 'Um longo corredor mal iluminado segue no sentido norte sul.  O ar
+    é
+
     úmido e não muito agradável e as paredes de pedras disformes são geladas
-    como a morte.
+
+    como a morte.'
   exits:
     north:
       target_vnum: '020124424542'
@@ -1856,10 +2163,12 @@
   local_id: '24541'
   name: O Desafio de Vitália
   vnum: '020124424541'
-- description: |-
-    O longo corredor mal iluminado vira para o oeste e ainda segue para o sul.
+- description: 'O longo corredor mal iluminado vira para o oeste e ainda segue para
+    o sul.
+
     O ar é úmido e não muito agradável.  As paredes de pedras disformes são
-    geladas como a morte.  Na parede norte você vê uma pequena cela.
+
+    geladas como a morte.  Na parede norte você vê uma pequena cela.'
   exits:
     north:
       target_vnum: '020124424543'
@@ -1870,22 +2179,26 @@
   local_id: '24542'
   name: O Desafio de Vitália
   vnum: '020124424542'
-- description: |-
-    A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+- description: 'A pequena cela está vazia a não ser pelo pequeno banco junto à parede
+
     norte e você nota algumas correntes presas nas paredes.  Pela porta da cela,
-    logo ao sul, você mal pode ver o corredor.
+
+    logo ao sul, você mal pode ver o corredor.'
   exits:
     south:
       target_vnum: '020124424542'
   local_id: '24543'
   name: O Desafio de Vitália
   vnum: '020124424543'
-- description: |-
-    O corredor segue no sentido leste-oeste.  Tudo é muito sujo e mal
+- description: 'O corredor segue no sentido leste-oeste.  Tudo é muito sujo e mal
+
     iluminado nesta parte do castelo.  A carga negativa vinda da dor dos
+
     prisioneiros e acumulada ao longo dos anos deu a esta atmosfera um tom
+
     intragável e uma sede de liberdade (ou seria de ar fresco?) toma conta de
-    seus sentidos.
+
+    seus sentidos.'
   exits:
     east:
       target_vnum: '020124424542'
@@ -1894,12 +2207,15 @@
   local_id: '24544'
   name: O Desafio de Vitália
   vnum: '020124424544'
-- description: |-
-    O corredor segue no sentido leste-oeste.  Tudo é muito sujo e mal
+- description: 'O corredor segue no sentido leste-oeste.  Tudo é muito sujo e mal
+
     iluminado nesta parte do castelo.  A carga negativa vinda da dor dos
+
     prisioneiros e acumulada ao longo dos anos deu a esta atmosfera um tom
+
     intragável e uma sede de liberdade (ou seria de ar fresco?) toma conta de
-    seus sentidos.
+
+    seus sentidos.'
   exits:
     east:
       target_vnum: '020124424544'
@@ -1908,10 +2224,12 @@
   local_id: '24545'
   name: O Desafio de Vitália
   vnum: '020124424545'
-- description: |-
-    O corredor mal iluminado segue para o leste e uma pequena sala pode ser
+- description: 'O corredor mal iluminado segue para o leste e uma pequena sala pode
+    ser
+
     vista ao norte.  Um forte cheiro de morte exala das paredes que parecem não
-    ser lavadas há muito tempo.
+
+    ser lavadas há muito tempo.'
   exits:
     east:
       target_vnum: '020124424545'
@@ -1920,11 +2238,14 @@
   local_id: '24547'
   name: O Desafio de Vitália
   vnum: '020124424547'
-- description: |-
-    Você entra em uma pequena sala bem iluminada com uma pequena mesa e
+- description: 'Você entra em uma pequena sala bem iluminada com uma pequena mesa
+    e
+
     cadeira colocadas na parede leste.  Um grande arco se abre ao sul mostrando
+
     um corredor sombrio.  O ar é pesado nesta parte do castelo e a respiração é
-    bastante difícil.  O início de uma escada pode ser vista para o norte.
+
+    bastante difícil.  O início de uma escada pode ser vista para o norte.'
   exits:
     north:
       target_vnum: 020124424549
@@ -1933,10 +2254,11 @@
   local_id: '24548'
   name: O Desafio de Vitália
   vnum: 020124424548
-- description: |-
-    Você se vê diante de uma escada que desce para oeste.  O ar é muito
+- description: 'Você se vê diante de uma escada que desce para oeste.  O ar é muito
+
     úmido o que dificulta a respiração.  Alguns archotes iluminam o caminho que
-    segue para o sul.
+
+    segue para o sul.'
   exits:
     south:
       target_vnum: 020124424548
@@ -1945,10 +2267,11 @@
   local_id: '24549'
   name: O Desafio de Vitália
   vnum: 020124424549
-- description: |-
-    A escada segue subindo no sentido oeste-leste.  A iluminação é suficiente
+- description: 'A escada segue subindo no sentido oeste-leste.  A iluminação é suficiente
+
     e o cheiro não é dos melhores.  Muita poeira no chão revela algumas pegadas
-    que se confundem com as suas.
+
+    que se confundem com as suas.'
   exits:
     east:
       target_vnum: 020124424549
@@ -1957,11 +2280,13 @@
   local_id: '24550'
   name: O Desafio de Vitália
   vnum: '020124424550'
-- description: |-
-    A escada faz uma curva para leste e sul aqui.  A subida não é muito
+- description: 'A escada faz uma curva para leste e sul aqui.  A subida não é muito
+
     cansativa, embora descer seja muito mais fácil.  A iluminação é suficiente
+
     para mostrar todos os detalhes e você não nota muito zelo nesta parte do
-    castelo.
+
+    castelo.'
   exits:
     east:
       target_vnum: '020124424550'
@@ -1982,26 +2307,33 @@
   local_id: '24552'
   name: O Desafio de Vitália
   vnum: '020124424552'
-- description: |-
-    Você entra em um pequeno quarto limpo e claro.  Provavelmente quando este
+- description: 'Você entra em um pequeno quarto limpo e claro.  Provavelmente quando
+    este
+
     castelo estava ativado este aposento era usado como quarto de hóspedes e
+
     deve ter hospedado muitos visitantes ilustres.  Hoje ele serve de refúgio e
+
     de esconderijo para aventureiros como você que vêm até aqui em busca da
-    glória de vencer o grande desafio.  A porta está na parede Norte.
+
+    glória de vencer o grande desafio.  A porta está na parede Norte.'
   exits:
     north:
       target_vnum: '020124424503'
   local_id: '24553'
   name: O Desafio de Vitália
   vnum: '020124424553'
-- description: |-
-    Você sente tudo a sua volta mudar. Um enorme vazio preenche seu corpo e
+- description: 'Você sente tudo a sua volta mudar. Um enorme vazio preenche seu corpo
+    e
+
     quando você menos espera o castelo e tudo o mais desaparece. Você foi
+
     @Rretornado@n. Sua aventura termina por aqui. A única saída é para baixo,
-    de onde parece vir bastante barulho.
+
+    de onde parece vir bastante barulho.'
   exits:
     down:
-      target_vnum: '02012443001'
+      target_vnum: '01010303001'
   local_id: '24599'
   name: O Desafio de Vitália
   vnum: 020124424599

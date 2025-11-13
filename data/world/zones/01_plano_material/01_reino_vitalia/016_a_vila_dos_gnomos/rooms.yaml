@@ -1,18 +1,21 @@
-- description: |-
-    Você se encontra em um caminho empoeirado que leva para o norte e para o
+- description: 'Você se encontra em um caminho empoeirado que leva para o norte e
+    para o
+
     leste.  Vindo do leste você ouve os sons vindos de uma pequena vila.  Há uma
-    placa de aviso aqui.
+
+    placa de aviso aqui.'
   exits:
     east:
       target_vnum: '01010161602'
     north:
-      target_vnum: '01010163503'
+      target_vnum: '01010353503'
   local_id: '1601'
   name: Entrada da Vila dos Gnomos
   vnum: '01010161601'
-- description: |-
-    Este é o caminho que conduz até o vilarejo. Ele segue, indo para leste e
-    oeste, e seguindo para o norte, encontra-se uma pequena casa.
+- description: 'Este é o caminho que conduz até o vilarejo. Ele segue, indo para leste
+    e
+
+    oeste, e seguindo para o norte, encontra-se uma pequena casa.'
   exits:
     east:
       target_vnum: '01010161603'
@@ -23,9 +26,9 @@
   local_id: '1602'
   name: Um Caminho Empoeirado
   vnum: '01010161602'
-- description: |-
-    Esta estrada segue indo de norte a sul e passando pelo centro da vila.
-    Algumas pessoas estao por ali, mas não muitas.
+- description: 'Esta estrada segue indo de norte a sul e passando pelo centro da vila.
+
+    Algumas pessoas estao por ali, mas não muitas.'
   exits:
     east:
       target_vnum: '01010161604'
@@ -38,10 +41,11 @@
   local_id: '1603'
   name: Uma estrada na Vila
   vnum: '01010161603'
-- description: |-
-    Você se encontra em um caminho empoeirado num lado distante da Vila.
+- description: 'Você se encontra em um caminho empoeirado num lado distante da Vila.
+
     Casas podem ser vistas ao norte e sul, enquanto o caminho continua a leste.
-    Um aviso pode ser visto aqui.
+
+    Um aviso pode ser visto aqui.'
   exits:
     east:
       target_vnum: 01010161659
@@ -54,9 +58,9 @@
   local_id: '1604'
   name: Um caminho empoeirado
   vnum: '01010161604'
-- description: |-
-    Esta estrada segue indo de norte a sul e passando pelo centro da vila.
-    Algumas pessoas estão por ali, mas não muitas.
+- description: 'Esta estrada segue indo de norte a sul e passando pelo centro da vila.
+
+    Algumas pessoas estão por ali, mas não muitas.'
   exits:
     east:
       target_vnum: '01010161611'
@@ -69,9 +73,9 @@
   local_id: '1605'
   name: Uma estrada para a Vila
   vnum: '01010161605'
-- description: |-
-    Esta estrada segue indo de norte a sul e passando pelo centro da vila.
-    Algumas pessoas estão por ali, mas não muitas.
+- description: 'Esta estrada segue indo de norte a sul e passando pelo centro da vila.
+
+    Algumas pessoas estão por ali, mas não muitas.'
   exits:
     north:
       target_vnum: '01010161626'
@@ -80,9 +84,9 @@
   local_id: '1606'
   name: Uma estrada para a Vila
   vnum: '01010161606'
-- description: |-
-    Esta estrada segue indo de norte a sul e passando pelo centro da vila.
-    Algumas pessoas estão por ali, mas não muitas.
+- description: 'Esta estrada segue indo de norte a sul e passando pelo centro da vila.
+
+    Algumas pessoas estão por ali, mas não muitas.'
   exits:
     north:
       target_vnum: '01010161603'
@@ -93,9 +97,9 @@
   local_id: '1607'
   name: Uma estrada para a Vila
   vnum: '01010161607'
-- description: |-
-    Esta estrada segue indo de norte a sul e passando pelo centro da vila.
-    Algumas pessoas estão por ali, mas não muitas.
+- description: 'Esta estrada segue indo de norte a sul e passando pelo centro da vila.
+
+    Algumas pessoas estão por ali, mas não muitas.'
   exits:
     east:
       target_vnum: '01010161616'
@@ -108,90 +112,99 @@
   local_id: '1608'
   name: Uma estrada para a Vila
   vnum: 01010161608
-- description: |-
-    Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+- description: 'Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+
     Você pode ver o exímio trabalho artesanal desta obra, que necessitou de muita
-    criatividade.
+
+    criatividade.'
   exits:
     south:
       target_vnum: '01010161602'
   local_id: '1609'
   name: Uma pequena casa de Gnomo
   vnum: 01010161609
-- description: |-
-    Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+- description: 'Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+
     Você pode ver o exímio trabalho artesanal desta obra, que necessitou de muita
-    criatividade.
+
+    criatividade.'
   exits:
     east:
       target_vnum: '01010161605'
   local_id: '1610'
   name: Uma pequena casa de Gnomo
   vnum: '01010161610'
-- description: |-
-    Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+- description: 'Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+
     Você pode ver o exímio trabalho artesanal desta obra, que necessitou de muita
-    criatividade.
+
+    criatividade.'
   exits:
     west:
       target_vnum: '01010161605'
   local_id: '1611'
   name: Uma pequena casa de Gnomo
   vnum: '01010161611'
-- description: |-
-    Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+- description: 'Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+
     Você pode ver o exímio trabalho artesanal desta obra, que necessitou de muita
-    criatividade.
+
+    criatividade.'
   exits:
     south:
       target_vnum: '01010161604'
   local_id: '1612'
   name: Uma pequena casa de Gnomo
   vnum: '01010161612'
-- description: |-
-    Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+- description: 'Esta é uma pequena casa de subúrbio, feita com madeira da melhor qualidade.
+
     Você pode ver o exímio trabalho artesanal desta obra, que necessitou de muita
-    criatividade.
+
+    criatividade.'
   exits:
     north:
       target_vnum: '01010161604'
   local_id: '1613'
   name: Uma pequena casa de Gnomo
   vnum: '01010161613'
-- description: |-
-    Você se encontra em uma das muitas lojas desta agradável cidade.
+- description: 'Você se encontra em uma das muitas lojas desta agradável cidade.
+
     Os produtos tem boa aparência, mas infelizmente os gnomos não fazem negócio
-    com forasteiros.
+
+    com forasteiros.'
   exits:
     east:
       target_vnum: '01010161607'
   local_id: '1614'
   name: Uma loja dos Gnomos
   vnum: '01010161614'
-- description: |-
-    Você se encontra em uma das muitas lojas desta agradável cidade.
+- description: 'Você se encontra em uma das muitas lojas desta agradável cidade.
+
     Os produtos tem boa aparência, mas infelizmente os gnomos não fazem negócio
-    com forasteiros.
+
+    com forasteiros.'
   exits:
     east:
       target_vnum: 01010161608
   local_id: '1615'
   name: Uma loja dos Gnomos
   vnum: '01010161615'
-- description: |-
-    Você se encontra em uma das muitas lojas desta agradável cidade.
+- description: 'Você se encontra em uma das muitas lojas desta agradável cidade.
+
     Os produtos tem boa aparência, mas infelizmente os gnomos não fazem negócio
-    com forasteiros.
+
+    com forasteiros.'
   exits:
     west:
       target_vnum: 01010161608
   local_id: '1616'
   name: Uma loja dos Gnomos
   vnum: '01010161616'
-- description: |-
-    Você se encontra num pequeno caminho que segue para o norte e oeste.
+- description: 'Você se encontra num pequeno caminho que segue para o norte e oeste.
+
     Este caminho é rodeado dos dois lados por um pequeno córrego. A água parece
-    terrivelmente fria.
+
+    terrivelmente fria.'
   exits:
     north:
       target_vnum: 01010161608
@@ -202,10 +215,11 @@
   local_id: '1617'
   name: Caminho do Córrego
   vnum: '01010161617'
-- description: |-
-    Você se encontra num caminho que segue rumo leste-oeste. O caminho
+- description: 'Você se encontra num caminho que segue rumo leste-oeste. O caminho
+
     apresenta grama nova, como se tivessem parado de usa-lo há pouco tempo.
-    Ao sul existe um rio e ao oeste existe uma pequena cabana.
+
+    Ao sul existe um rio e ao oeste existe uma pequena cabana.'
   exits:
     east:
       target_vnum: '01010161617'
@@ -216,20 +230,23 @@
   local_id: '1618'
   name: Caminho do Córrego
   vnum: 01010161618
-- description: |-
-    A cabana está uma bagunça! Sangue manchou as paredes tingindo-as com um
+- description: 'A cabana está uma bagunça! Sangue manchou as paredes tingindo-as com
+    um
+
     tom carmesin bem forte. Roupas tecidas a mão e lixo esparramam-se por toda
-    parte, e parece que você percebe um esqueleto ali no canto.
+
+    parte, e parece que você percebe um esqueleto ali no canto.'
   exits:
     east:
       target_vnum: 01010161618
   local_id: '1619'
   name: Uma pequena Cabana
   vnum: 01010161619
-- description: |-
-    O córrego é gelado e rígido, e no entando, suporta abundância de vida
+- description: 'O córrego é gelado e rígido, e no entando, suporta abundância de vida
+
     abaixo de sua superfície. A correnteza segue lentamente para oeste e existe
-    um caminho para o sul.
+
+    um caminho para o sul.'
   exits:
     north:
       target_vnum: '01010161617'
@@ -240,9 +257,9 @@
   local_id: '1620'
   name: No Córrego
   vnum: '01010161620'
-- description: |-
-    A correnteza vem do oeste, mas uma imensa tora bloqueando o caminho,
-    impede você de seguir seu caminho seguindo em frente.
+- description: 'A correnteza vem do oeste, mas uma imensa tora bloqueando o caminho,
+
+    impede você de seguir seu caminho seguindo em frente.'
   exits:
     east:
       target_vnum: '01010161620'
@@ -251,10 +268,11 @@
   local_id: '1621'
   name: No Córrego
   vnum: '01010161621'
-- description: |-
-    Este é um campo bem grande e a grama que cresce nele chega até a sua
+- description: 'Este é um campo bem grande e a grama que cresce nele chega até a sua
+
     cintura. Você sente que alguma coisa correu por sobre os seus pés.
-    A leste existe uma gruta.
+
+    A leste existe uma gruta.'
   exits:
     east:
       target_vnum: '01010161623'
@@ -263,10 +281,11 @@
   local_id: '1622'
   name: O Campo dos Ratos Sonhadores
   vnum: '01010161622'
-- description: |-
-    A gruta brilha conforme a luz de sua lanterna bate em suas paredes.
+- description: 'A gruta brilha conforme a luz de sua lanterna bate em suas paredes.
+
     Conforme você aperta seus olhos e tenta enxergar um pouco mais a frente,
-    você tem a impressão que vê algo se mexendo.
+
+    você tem a impressão que vê algo se mexendo.'
   exits:
     north:
       target_vnum: '01010161624'
@@ -275,19 +294,21 @@
   local_id: '1623'
   name: A Gruta Escura
   vnum: '01010161623'
-- description: |-
-    A gruta vai ficando cada vez mais escura e você sente que o terror dentro
+- description: 'A gruta vai ficando cada vez mais escura e você sente que o terror
+    dentro
+
     de você também cresce e se torna mais forte. Você teme por sua vida ao
-    perceber que alguma coisa começa a emergir das sombras.
+
+    perceber que alguma coisa começa a emergir das sombras.'
   exits:
     south:
       target_vnum: '01010161623'
   local_id: '1624'
   name: A Gruta Mais Escura
   vnum: '01010161624'
-- description: |-
-    Você se encontra num caminho bem usado que segue em muitas direções.
-    Ao norte existe uma grande casa, e a oeste há uma fortaleza.
+- description: 'Você se encontra num caminho bem usado que segue em muitas direções.
+
+    Ao norte existe uma grande casa, e a oeste há uma fortaleza.'
   exits:
     north:
       target_vnum: 01010161658
@@ -298,9 +319,10 @@
   local_id: '1626'
   name: Um Caminho Empoeirado
   vnum: '01010161626'
-- description: |-
-    Você pára diante da entrada da fortaleza dos gnomos. O lugar parece que
-    está bem fortificado.
+- description: 'Você pára diante da entrada da fortaleza dos gnomos. O lugar parece
+    que
+
+    está bem fortificado.'
   exits:
     east:
       target_vnum: '01010161626'
@@ -309,11 +331,14 @@
   local_id: '1627'
   name: O Portão de Ferro
   vnum: '01010161627'
-- description: |-
-    Você se encontra agora dentro da fortaleza; você deve ter muita sorte pois
+- description: 'Você se encontra agora dentro da fortaleza; você deve ter muita sorte
+    pois
+
     até agora não foi morto pelos guardas. A medida que você explora o lugar,
+
     você percebe que as paredes e o chão estão impecavelmente limpos. As barracas
-    estão ao norte e o depósito fica ao sul.
+
+    estão ao norte e o depósito fica ao sul.'
   exits:
     east:
       target_vnum: '01010161627'
@@ -326,11 +351,14 @@
   local_id: '1628'
   name: Um Longo Corredor
   vnum: 01010161628
-- description: |-
-    Você se encontra agora dentro da fortaleza; você deve ter muita sorte pois
+- description: 'Você se encontra agora dentro da fortaleza; você deve ter muita sorte
+    pois
+
     até agora não foi morto pelos guardas. A medida que você explora o lugar,
+
     você percebe que as paredes e o chão estão impecavelmente limpos. Ao sul há
-    um salão bagunçado.
+
+    um salão bagunçado.'
   exits:
     east:
       target_vnum: 01010161628
@@ -341,10 +369,12 @@
   local_id: '1629'
   name: Um Longo Corredor
   vnum: 01010161629
-- description: |-
-    Você se encontra agora dentro dos aposentos de dormir dos guardas gnomos.
+- description: 'Você se encontra agora dentro dos aposentos de dormir dos guardas
+    gnomos.
+
     Todas as camas foram perfeitamente arrumadas e não existe uma única peça de
-    roupa no chão. A leste, existe um pequeno depósito.
+
+    roupa no chão. A leste, existe um pequeno depósito.'
   exits:
     east:
       target_vnum: '01010161631'
@@ -371,28 +401,30 @@
   local_id: '1632'
   name: Um Pequeno Depósito
   vnum: '01010161632'
-- description: |-
-    Este é mais um depósito para guardar coisas dos gnomos. Mapas e planos
-    de batalhas estão arrumados em pequenas pilhas sobre as prateleiras.
+- description: 'Este é mais um depósito para guardar coisas dos gnomos. Mapas e planos
+
+    de batalhas estão arrumados em pequenas pilhas sobre as prateleiras.'
   exits:
     west:
       target_vnum: '01010161632'
   local_id: '1633'
   name: Um Pequeno Depósito
   vnum: '01010161633'
-- description: |-
-    Você se encontra agora num ambiente onde os guardas chegam para fazer
+- description: 'Você se encontra agora num ambiente onde os guardas chegam para fazer
+
     suas refeições. Os bancos e mesas estão perfeitamente arrumados e limpos,
-    e a louça bonita e muito limpa aguarda para ser usada.
+
+    e a louça bonita e muito limpa aguarda para ser usada.'
   exits:
     north:
       target_vnum: 01010161629
   local_id: '1634'
   name: O Salão Bagunçado
   vnum: '01010161634'
-- description: |-
-    Este é um quarto pequeno e simples. Seu único ponto interessante é uma
-    escada que leva para baixo.
+- description: 'Este é um quarto pequeno e simples. Seu único ponto interessante é
+    uma
+
+    escada que leva para baixo.'
   exits:
     down:
       target_vnum: '01010161636'
@@ -401,11 +433,13 @@
   local_id: '1635'
   name: Um Pequeno Quarto
   vnum: '01010161635'
-- description: |-
-    Você está dentro de um pequeno quarto que se encontra num local pouco
+- description: 'Você está dentro de um pequeno quarto que se encontra num local pouco
+
     utilizado da fortaleza. Todo o quarto se encontra coberto por poeira e
+
     teias-de-aranha. A escada leva de volta para cima, e a leste se encontra
-    uma porta enferrujada.
+
+    uma porta enferrujada.'
   exits:
     east:
       target_vnum: '01010161637'
@@ -414,10 +448,12 @@
   local_id: '1636'
   name: Um Pequeno Quarto sem Uso
   vnum: '01010161636'
-- description: |-
-    Você se encontra num local muito velho da fortaleza. Você deve ser a
+- description: 'Você se encontra num local muito velho da fortaleza. Você deve ser
+    a
+
     primeira pessoa a entrar aqui, depois de muitos anos. O corredor continua
-    ao sul e uma porta se abre para o oeste.
+
+    ao sul e uma porta se abre para o oeste.'
   exits:
     east:
       target_vnum: 01010161638
@@ -428,19 +464,21 @@
   local_id: '1637'
   name: Corredor Escuro
   vnum: '01010161637'
-- description: |-
-    Este é o lugar onde antes era usado para se arrancar as confissões falsas
+- description: 'Este é o lugar onde antes era usado para se arrancar as confissões
+    falsas
+
     de vítimas indefesas. As máquinas não parecem estar sendo usadas, mas
-    poderiam trabalhar ainda.
+
+    poderiam trabalhar ainda.'
   exits:
     west:
       target_vnum: '01010161637'
   local_id: '1638'
   name: Câmara de Tortura
   vnum: 01010161638
-- description: |-
-    O corredor continua seguindo na direção norte-sul. O chão está coberto
-    com algum tipo de lodo escorregadio. Portas seguem a oeste e leste.
+- description: 'O corredor continua seguindo na direção norte-sul. O chão está coberto
+
+    com algum tipo de lodo escorregadio. Portas seguem a oeste e leste.'
   exits:
     east:
       target_vnum: '01010161642'
@@ -453,9 +491,9 @@
   local_id: '1639'
   name: Corredor Escuro
   vnum: 01010161639
-- description: |-
-    O corredor continua seguindo na direção norte-sul. O chão está coberto
-    com algum tipo de lodo escorregadio. Portas seguem a oeste e leste.
+- description: 'O corredor continua seguindo na direção norte-sul. O chão está coberto
+
+    com algum tipo de lodo escorregadio. Portas seguem a oeste e leste.'
   exits:
     east:
       target_vnum: '01010161644'
@@ -468,45 +506,46 @@
   local_id: '1640'
   name: Corredor Escuro
   vnum: '01010161640'
-- description: |-
-    Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
-    trazendo ao lugar um odor insuportável.
+- description: 'Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
+
+    trazendo ao lugar um odor insuportável.'
   exits:
     east:
       target_vnum: 01010161639
   local_id: '1641'
   name: Cela da Prisão
   vnum: '01010161641'
-- description: |-
-    Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
-    trazendo ao lugar um odor insuportável.
+- description: 'Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
+
+    trazendo ao lugar um odor insuportável.'
   exits:
     west:
       target_vnum: 01010161639
   local_id: '1642'
   name: Cela da Prisão
   vnum: '01010161642'
-- description: |-
-    Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
-    trazendo ao lugar um odor insuportável.
+- description: 'Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
+
+    trazendo ao lugar um odor insuportável.'
   exits:
     north:
       target_vnum: '01010161640'
   local_id: '1643'
   name: Cela da Prisão
   vnum: '01010161643'
-- description: |-
-    Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
-    trazendo ao lugar um odor insuportável.
+- description: 'Você se encontra numa cela escura e imunda. Corpos jazem sobre o chão
+
+    trazendo ao lugar um odor insuportável.'
   exits:
     west:
       target_vnum: '01010161640'
   local_id: '1644'
   name: Cela da Prisão
   vnum: '01010161644'
-- description: |-
-    Você acaba de encontrar o final do corredor escuro e talvez o final de
-    sua própria vida. Alguma coisa move-se desordenadamente dentro das trevas.
+- description: 'Você acaba de encontrar o final do corredor escuro e talvez o final
+    de
+
+    sua própria vida. Alguma coisa move-se desordenadamente dentro das trevas.'
   exits:
     east:
       target_vnum: '01010161640'
@@ -524,9 +563,9 @@
   local_id: '1646'
   name: Uma Escada
   vnum: '01010161646'
-- description: |-
-    Você acaba de entrar em um novo covil da fortaleza. Qualquer coisa
-    poderia estar ali a espreita, aguardando aquele que irá virar a esquina.
+- description: 'Você acaba de entrar em um novo covil da fortaleza. Qualquer coisa
+
+    poderia estar ali a espreita, aguardando aquele que irá virar a esquina.'
   exits:
     south:
       target_vnum: 01010161648
@@ -535,9 +574,9 @@
   local_id: '1647'
   name: Covil
   vnum: '01010161647'
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     east:
       target_vnum: 01010161649
@@ -548,9 +587,9 @@
   local_id: '1648'
   name: "Um Corredor Ã\x9Amido"
   vnum: 01010161648
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     south:
       target_vnum: '01010161650'
@@ -559,9 +598,9 @@
   local_id: '1649'
   name: "Um Corredor Ã\x9Amido"
   vnum: 01010161649
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     north:
       target_vnum: 01010161649
@@ -570,9 +609,9 @@
   local_id: '1650'
   name: "Um Corredor Ã\x9Amido"
   vnum: '01010161650'
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     east:
       target_vnum: 01010161648
@@ -581,9 +620,9 @@
   local_id: '1651'
   name: "Um Corredor Ã\x9Amido"
   vnum: '01010161651'
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     north:
       target_vnum: '01010161651'
@@ -592,9 +631,9 @@
   local_id: '1652'
   name: "Um Corredor Ã\x9Amido"
   vnum: '01010161652'
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     east:
       target_vnum: '01010161654'
@@ -603,9 +642,9 @@
   local_id: '1653'
   name: "Um Corredor Ã\x9Amido"
   vnum: '01010161653'
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     east:
       target_vnum: '01010161655'
@@ -616,9 +655,9 @@
   local_id: '1654'
   name: "Um Corredor Ã\x9Amido"
   vnum: '01010161654'
-- description: |-
-    Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
-    parece ser maior aqui, assim como também o seu medo.
+- description: 'Você está vagando por um corredor escuro, úmido e sinuoso. A temperatura
+
+    parece ser maior aqui, assim como também o seu medo.'
   exits:
     north:
       target_vnum: '01010161650'
@@ -627,10 +666,12 @@
   local_id: '1655'
   name: "Um Corredor Ã\x9Amido"
   vnum: '01010161655'
-- description: |-
-    Você finalmente consegue sair do corredor, apenas para descobrir que se
+- description: 'Você finalmente consegue sair do corredor, apenas para descobrir que
+    se
+
     encontra metido num perigo ainda maior. Atras de você se encontra a fonte
-    de grande calor.
+
+    de grande calor.'
   exits:
     east:
       target_vnum: '01010161657'
@@ -639,29 +680,32 @@
   local_id: '1656'
   name: O Final do Corredor
   vnum: '01010161656'
-- description: |-
-    Você consegue finalmente encontrar o final deste labirinto. Aqui se
+- description: 'Você consegue finalmente encontrar o final deste labirinto. Aqui se
+
     encontra um grande altar com o formato de morcego. Há uma passagem que
-    segue na direção oeste.
+
+    segue na direção oeste.'
   exits:
     west:
       target_vnum: '01010161656'
   local_id: '1657'
   name: O Altar
   vnum: '01010161657'
-- description: |-
-    Você está entrando dentro de uma casa grande e luxuosa. O chão está
+- description: 'Você está entrando dentro de uma casa grande e luxuosa. O chão está
+
     coberto por finos tapetes e as paredes cobertas por tinta. Você se sente
-    privilegiado simplesmente por ter pisado aqui dentro.
+
+    privilegiado simplesmente por ter pisado aqui dentro.'
   exits:
     south:
       target_vnum: '01010161626'
   local_id: '1658'
   name: A Casa do Chefe
   vnum: 01010161658
-- description: |-
-    Você está agora num caminho raramente usado que segue rumo ao oeste da
-    Vila. Você se pergunta para onde este caminho levaria.
+- description: 'Você está agora num caminho raramente usado que segue rumo ao oeste
+    da
+
+    Vila. Você se pergunta para onde este caminho levaria.'
   exits:
     east:
       target_vnum: '01010161660'
@@ -670,9 +714,9 @@
   local_id: '1659'
   name: Um Caminho Pouco Usado
   vnum: 01010161659
-- description: |-
-    Enquanto o caminho segue, a grama vai crescendo cada vez mais alta.
-    Você não consegue imaginar aonde exatamente este caminho levaria.
+- description: 'Enquanto o caminho segue, a grama vai crescendo cada vez mais alta.
+
+    Você não consegue imaginar aonde exatamente este caminho levaria.'
   exits:
     east:
       target_vnum: '01010161661'
@@ -681,10 +725,11 @@
   local_id: '1660'
   name: O Caminho Crescido
   vnum: '01010161660'
-- description: |-
-    Seu progresso é interrompido, inesperadamente, por montanhas de todos
+- description: 'Seu progresso é interrompido, inesperadamente, por montanhas de todos
+
     os tamanhos. O caminho segue, atrás para oeste e indo para o norte, parece
-    que existe o poço de uma velha mina.
+
+    que existe o poço de uma velha mina.'
   exits:
     north:
       target_vnum: '01010161662'
@@ -693,10 +738,12 @@
   local_id: '1661'
   name: A Clareira
   vnum: '01010161661'
-- description: |-
-    Assim que você entra no poço da mina, você sente um medo repentino de
+- description: 'Assim que você entra no poço da mina, você sente um medo repentino
+    de
+
     que as paredes se fechem sobre você. Você fica surpreso ao perceber que
-    não precisa de luz.
+
+    não precisa de luz.'
   exits:
     east:
       target_vnum: '01010161663'
@@ -705,10 +752,11 @@
   local_id: '1662'
   name: Entrada para o Poço da Mina
   vnum: '01010161662'
-- description: |-
-    O poço desta mina parece ser estável, pelo menos neste local. Os suportes
+- description: 'O poço desta mina parece ser estável, pelo menos neste local. Os suportes
+
     de madeira são grossos e fortes. Tochas se enfileiram sobre as paredes da
-    mina. Saídas levam a todas as direções.
+
+    mina. Saídas levam a todas as direções.'
   exits:
     east:
       target_vnum: '01010161664'
@@ -721,10 +769,11 @@
   local_id: '1663'
   name: Poço da Mina
   vnum: '01010161663'
-- description: |-
-    O poço desta mina parece ser estável, pelo menos neste local. Os suportes
+- description: 'O poço desta mina parece ser estável, pelo menos neste local. Os suportes
+
     de madeira são grossos e fortes. Tochas se enfileiras sobre as paredes da
-    mina. Saídas levam a todas as direções.
+
+    mina. Saídas levam a todas as direções.'
   exits:
     east:
       target_vnum: '01010161665'
@@ -737,10 +786,11 @@
   local_id: '1664'
   name: Poço da Mina
   vnum: '01010161664'
-- description: |-
-    O poço desta mina parece ser estável, pelo menos neste local. Os suportes
+- description: 'O poço desta mina parece ser estável, pelo menos neste local. Os suportes
+
     de madeira são grossos e fortes. Tochas se enfileiras sobre as paredes da
-    mina. Saídas levam a todas as direções, exceto ao norte.
+
+    mina. Saídas levam a todas as direções, exceto ao norte.'
   exits:
     east:
       target_vnum: '01010161666'
@@ -751,11 +801,14 @@
   local_id: '1665'
   name: Poço da Mina
   vnum: '01010161665'
-- description: |-
-    Você está sobre um caminho muito bem construído, exatamente no meio da
+- description: 'Você está sobre um caminho muito bem construído, exatamente no meio
+    da
+
     montanha. Você pressente que existe alguma coisa muito importante a frente,
+
     apenas levando em consideração todo o trabalho pesado que tiveram para criar
-    esta passagem.
+
+    esta passagem.'
   exits:
     south:
       target_vnum: '01010161667'
@@ -764,11 +817,14 @@
   local_id: '1666'
   name: Passagem
   vnum: '01010161666'
-- description: |-
-    Você está sobre um caminho muito bem construído, exatamente no meio da
+- description: 'Você está sobre um caminho muito bem construído, exatamente no meio
+    da
+
     montanha. Você pressente que existe alguma coisa muito importante a frente,
+
     apenas levando em consideração todo o trabalho pesado que tiveram para criar
-    esta passagem.
+
+    esta passagem.'
   exits:
     north:
       target_vnum: '01010161666'
@@ -777,11 +833,13 @@
   local_id: '1667'
   name: Passagem
   vnum: '01010161667'
-- description: |-
-    Você acaba de penetrar dentro do Grande Saguão do reino dos Hobgoblin;
+- description: 'Você acaba de penetrar dentro do Grande Saguão do reino dos Hobgoblin;
+
     sua sorte deve estar bem pequena agora. Grandes pilares dourados se
+
     enfileiram formando um corredor e você nota que um tapete vermelho se
-    estende sob os seus pés.
+
+    estende sob os seus pés.'
   exits:
     north:
       target_vnum: '01010161667'
@@ -790,27 +848,30 @@
   local_id: '1668'
   name: O Grande Saguão
   vnum: 01010161668
-- description: |-
-    Este é um ambiente grande e claro cheio de Hobgoblins.  Ao sul existe um
-    grande trono dourado bem junto da parede.
+- description: 'Este é um ambiente grande e claro cheio de Hobgoblins.  Ao sul existe
+    um
+
+    grande trono dourado bem junto da parede.'
   exits:
     north:
       target_vnum: 01010161668
   local_id: '1669'
   name: A Sala do Trono
   vnum: 01010161669
-- description: |-
-    Você está dentro da sala do tesouro dos Hobgoblin. Seus olhos quase ficam
-    cegos pelo brilho intenso das moedas de ouro, prata e cobre.
+- description: 'Você está dentro da sala do tesouro dos Hobgoblin. Seus olhos quase
+    ficam
+
+    cegos pelo brilho intenso das moedas de ouro, prata e cobre.'
   exits:
     north:
       target_vnum: '01010161671'
   local_id: '1670'
   name: O Tesouro
   vnum: '01010161670'
-- description: |-
-    Você está dentro de um quarto muito bem guardado. O lugar consegue ser
-    ainda melhor construído do que os poços da mina e está iluminado por lanternas.
+- description: 'Você está dentro de um quarto muito bem guardado. O lugar consegue
+    ser
+
+    ainda melhor construído do que os poços da mina e está iluminado por lanternas.'
   exits:
     north:
       target_vnum: '01010161672'
@@ -819,9 +880,10 @@
   local_id: '1671'
   name: Quarto Protegido
   vnum: '01010161671'
-- description: |-
-    Você está dentro de um quarto muito bem guardado. O lugar consegue ser
-    ainda melhor construído do que os poços da mina e está iluminado por lanternas.
+- description: 'Você está dentro de um quarto muito bem guardado. O lugar consegue
+    ser
+
+    ainda melhor construído do que os poços da mina e está iluminado por lanternas.'
   exits:
     north:
       target_vnum: '01010161665'
@@ -830,21 +892,25 @@
   local_id: '1672'
   name: Quarto Protegido
   vnum: '01010161672'
-- description: |-
-    Os guardas estocam suas armas sobressalentes e suas armaduras aqui.
+- description: 'Os guardas estocam suas armas sobressalentes e suas armaduras aqui.
+
     Existem algumas espadas enferrujadas deixadas sobre prateleiras empoeiradas,
-    e armaduras penduradas em cabides ou simplesmente deixadas sobre o chão.
+
+    e armaduras penduradas em cabides ou simplesmente deixadas sobre o chão.'
   exits:
     north:
       target_vnum: '01010161664'
   local_id: '1673'
   name: Arsenal Hobgoblin
   vnum: '01010161673'
-- description: |-
-    Você entrou numa parte do poço da mina onde a claridade das tochas estão
+- description: 'Você entrou numa parte do poço da mina onde a claridade das tochas
+    estão
+
     diminuindo lentamente e estão práticamente se apagando. Daquilo que você
+
     consegue ver, existe uma quantidade imensa de teias-de-aranha recobrindo
-    as paredes e muitos ratos aos seus pés.
+
+    as paredes e muitos ratos aos seus pés.'
   exits:
     north:
       target_vnum: '01010161663'
@@ -853,10 +919,12 @@
   local_id: '1674'
   name: Poço da Mina
   vnum: '01010161674'
-- description: |-
-    A medida que você caminha dentro deste quarto escuro e imundo, seus pés
+- description: 'A medida que você caminha dentro deste quarto escuro e imundo, seus
+    pés
+
     vão grudando no chão. Sua pele se arrepia quando você fita a sujeira das
-    paredes e as vê se mexendo. A maioria das saídas conduzem até celas gradeadas.
+
+    paredes e as vê se mexendo. A maioria das saídas conduzem até celas gradeadas.'
   exits:
     east:
       target_vnum: '01010161677'
@@ -869,10 +937,11 @@
   local_id: '1675'
   name: Entrada para o Calabouço
   vnum: '01010161675'
-- description: |-
-    Você está no ponto mais escuro e profundo da mina. A luz oriunda das
+- description: 'Você está no ponto mais escuro e profundo da mina. A luz oriunda das
+
     tochas mal conseguem alcançar o ponto onde você se encontra. A maioria dos
-    caminhos a partir daqui levam a celas gradeadas.
+
+    caminhos a partir daqui levam a celas gradeadas.'
   exits:
     east:
       target_vnum: 01010161678
@@ -885,59 +954,65 @@
   local_id: '1676'
   name: O Calabouço
   vnum: '01010161676'
-- description: |-
-    Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+- description: 'Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+
     Palha úmida e suja cobre todo o chão. As paredes estão cobertas por um bolor
-    fétido. Você vê que alguma coisa se mexe no meio da palha.
+
+    fétido. Você vê que alguma coisa se mexe no meio da palha.'
   exits:
     west:
       target_vnum: '01010161675'
   local_id: '1677'
   name: Uma Cela Gradeada
   vnum: '01010161677'
-- description: |-
-    Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+- description: 'Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+
     Palha úmida e suja cobre todo o chão. As paredes estão cobertas por um bolor
-    fétido. Você vê que alguma coisa se mexe no meio da palha.
+
+    fétido. Você vê que alguma coisa se mexe no meio da palha.'
   exits:
     west:
       target_vnum: '01010161676'
   local_id: '1678'
   name: Uma Cela Gradeada
   vnum: 01010161678
-- description: |-
-    Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+- description: 'Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+
     Palha úmida e suja cobre todo o chão. As paredes estão cobertas por um bolor
-    fétido. Você vê que alguma coisa se mexe no meio da palha.
+
+    fétido. Você vê que alguma coisa se mexe no meio da palha.'
   exits:
     north:
       target_vnum: '01010161676'
   local_id: '1679'
   name: Uma Cela Gradeada
   vnum: 01010161679
-- description: |-
-    Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+- description: 'Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+
     Palha úmida e suja cobre todo o chão. As paredes estão cobertas por um bolor
-    fétido. Você vê que alguma coisa se mexe no meio da palha.
+
+    fétido. Você vê que alguma coisa se mexe no meio da palha.'
   exits:
     east:
       target_vnum: '01010161676'
   local_id: '1680'
   name: Uma Cela Gradeada
   vnum: 01010161680
-- description: |-
-    Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+- description: 'Você se encontra dentro de uma cela cheia de mofo e com grossas grades.
+
     Palha úmida e suja cobre todo o chão. As paredes estão cobertas por um bolor
-    fétido. Você vê que alguma coisa se mexe no meio da palha.
+
+    fétido. Você vê que alguma coisa se mexe no meio da palha.'
   exits:
     east:
       target_vnum: '01010161675'
   local_id: '1681'
   name: Uma Cela Gradeada
   vnum: 01010161681
-- description: |-
-    Você está numa pequena extensão do poço da mina. A poeira do chão está
-    intacta, sem nenhuma, absolutamente nenhuma pegada.
+- description: 'Você está numa pequena extensão do poço da mina. A poeira do chão
+    está
+
+    intacta, sem nenhuma, absolutamente nenhuma pegada.'
   exits:
     north:
       target_vnum: 01010161688
@@ -946,10 +1021,12 @@
   local_id: '1682'
   name: Pequeno Poço da Mina
   vnum: 01010161682
-- description: |-
-    Você se vê cercado, de repente, por um pequeno grupo de soldados da guarda
+- description: 'Você se vê cercado, de repente, por um pequeno grupo de soldados da
+    guarda
+
     dos Hobgoblins. O quarto, por si só, está uma bagunça, com roupas e armaduras
-    por todos os lados. As camas não foram arrumadas e estão sujas.
+
+    por todos os lados. As camas não foram arrumadas e estão sujas.'
   exits:
     east:
       target_vnum: 01010161685
@@ -960,20 +1037,24 @@
   local_id: '1683'
   name: Barracas dos Hobgoblins
   vnum: 01010161683
-- description: |-
-    Sim! A medida que você segue em frente, o cheiro vai ficando cada vez pior.
-    O que você está FAZENDO aqui?
+- description: 'Sim! A medida que você segue em frente, o cheiro vai ficando cada
+    vez pior.
+
+    O que você está FAZENDO aqui?'
   exits:
     south:
       target_vnum: 01010161683
   local_id: '1684'
   name: Barracas dos Hobgoblins
   vnum: 01010161684
-- description: |-
-    Você se encontra dentro da área de refeições dos hobgoblin. Existem umas
+- description: 'Você se encontra dentro da área de refeições dos hobgoblin. Existem
+    umas
+
     poucas mesas rotativas e muitos pratos quebrados e sujos largados pelo salão.
+
     Você escorrega e quase cai, ao pisar num pedaço de carne estragada que está
-    jogada no chão, mas consegue se equilibrar em tempo.
+
+    jogada no chão, mas consegue se equilibrar em tempo.'
   exits:
     east:
       target_vnum: 01010161687
@@ -984,29 +1065,32 @@
   local_id: '1685'
   name: Salão Bagunçado
   vnum: 01010161685
-- description: |-
-    Você se encontra dentro de um pequeno quarto cheio de farinha, grãos,
-    frutas e morcegos pendurados.
+- description: 'Você se encontra dentro de um pequeno quarto cheio de farinha, grãos,
+
+    frutas e morcegos pendurados.'
   exits:
     south:
       target_vnum: 01010161685
   local_id: '1686'
   name: A Dispensa
   vnum: 01010161686
-- description: |-
-    Esta cozinha não é limpa desde a criação dos seres humanos. O lixo e a
+- description: 'Esta cozinha não é limpa desde a criação dos seres humanos. O lixo
+    e a
+
     comida estragada se espalham por sobre o chão e chegam a bater em seus
+
     joelhos. Sobre o fogão, uma panela fervendo. Uma mão humana está ali dentro,
-    sendo cozida.
+
+    sendo cozida.'
   exits:
     west:
       target_vnum: 01010161685
   local_id: '1687'
   name: A Cozinha
   vnum: 01010161687
-- description: |-
-    Você chega a um lugar do poço da mina onde um tunel segue para baixo.
-    A passagem pequena continua seguindo rumo norte e sul.
+- description: 'Você chega a um lugar do poço da mina onde um tunel segue para baixo.
+
+    A passagem pequena continua seguindo rumo norte e sul.'
   exits:
     down:
       target_vnum: 01010161690
@@ -1017,11 +1101,14 @@
   local_id: '1688'
   name: Um pequeno Poço da Mina
   vnum: 01010161688
-- description: |-
-    Você se encontra dentro de uma pequena área da mina onde as paredes ruíram
+- description: 'Você se encontra dentro de uma pequena área da mina onde as paredes
+    ruíram
+
     revelando uma pequenina toca de um único compartimento. A área está fracamente
+
     iluminada, mas você consegue perceber o movimento de alguma coisa que está se
-    dirigindo diretamente na sua direção.
+
+    dirigindo diretamente na sua direção.'
   exits:
     south:
       target_vnum: 01010161688

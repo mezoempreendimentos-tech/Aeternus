@@ -1,8 +1,10 @@
-- description: |-
-    Você está em um quarto da hospedaria do Demônio Dançante.  Escadas
+- description: 'Você está em um quarto da hospedaria do Demônio Dançante.  Escadas
+
     chapeadas em cromo espiralam até a recepção.  Para o sul você ouve os sons
+
     de pessoas bebendo e se divertindo e do oeste você ouve o alvoroço das
-    atividades de Nova Thalos.
+
+    atividades de Nova Thalos.'
   exits:
     south:
       target_vnum: '01010545402'
@@ -13,25 +15,33 @@
   local_id: '5400'
   name: A Entrada da Taverna do Demônio Dançante
   vnum: '01010545400'
-- description: |-
-    Você está agora na recepção de Nova Thalos.  Uma enorme escrivaninha está
+- description: 'Você está agora na recepção de Nova Thalos.  Uma enorme escrivaninha
+    está
+
     aqui junto com dois sofás e um mesa de centro coberta com revistas.  O
+
     tapete de pelúcia debaixo de seus pés é uma mudança agradável dos caminhos
+
     ásperos pelos quais você estava vindo.  Uma escada cromada espirala escada
+
     abaixo para a taverna da Hospedaria do Demônio Dançante, e para futuras
-    aventuras em Nova Thalos.
+
+    aventuras em Nova Thalos.'
   exits:
     down:
       target_vnum: '01010545400'
   local_id: '5401'
   name: "A Ã\x81rea de Recepção"
   vnum: '01010545401'
-- description: |-
-    Um velho mago reclina-se contra o espelho atrás do balcão do bar atraindo
+- description: 'Um velho mago reclina-se contra o espelho atrás do balcão do bar atraindo
+
     refinadamente varias bebidas com sua telecinese.  Os Lokettes, uma banda
+
     local, estão tocando suas músicas usuais.  Aos grandes quiosques estão cheio
+
     de pessoas bebendo e se divertindo muito.  Você sente como se estivesse em
-    festa.  A sul fica um corredor pouco iluminado.
+
+    festa.  A sul fica um corredor pouco iluminado.'
   exits:
     north:
       target_vnum: '01010545400'
@@ -40,10 +50,11 @@
   local_id: '5402'
   name: A Hospedaria do Demônio Dançante
   vnum: '01010545402'
-- description: |-
-    Você está em a Medina, nas grandes áreas abertas de Nova Thalos.  Pessoas
+- description: 'Você está em a Medina, nas grandes áreas abertas de Nova Thalos.  Pessoas
+
     caminham enquanto cuidam de seus problemas do dia a dia.  A Praça Comum fica
-    ao sul e a Medina continua ao Norte.
+
+    ao sul e a Medina continua ao Norte.'
   exits:
     north:
       target_vnum: '01010545404'
@@ -52,11 +63,14 @@
   local_id: '5403'
   name: A Medina
   vnum: '01010545403'
-- description: |-
-    Você está andando através de um grande expansão da estrada ligando a
+- description: 'Você está andando através de um grande expansão da estrada ligando
+    a
+
     Praça do Mercado à Praça Comum.  Mendigos, crentes, e outros tipos
+
     perambulam buscando pelos poucos de bom coração.  A Medina continua ao sul e
-    a Praça do Mercado segue ao norte.  A oeste você vê uma agência postal.
+
+    a Praça do Mercado segue ao norte.  A oeste você vê uma agência postal.'
   exits:
     north:
       target_vnum: '01010545405'
@@ -67,12 +81,16 @@
   local_id: '5404'
   name: A Medina
   vnum: '01010545404'
-- description: |-
-    O grande quadro de mercados enche seus olhos.  Estranhas visões e sons,
+- description: 'O grande quadro de mercados enche seus olhos.  Estranhas visões e
+    sons,
+
     conhecidos apenas do Mercado de Nova Thalos, entopem seus sentidos.  A única
+
     esperança de descobrir o que está acontecendo aqui é Explorando ao redor.  A
+
     Praça do Mercado continua ao norte, oeste, e leste, com a Medina ficando ao
-    sul.
+
+    sul.'
   exits:
     east:
       target_vnum: '01010545407'
@@ -85,10 +103,11 @@
   local_id: '5405'
   name: A Praça Sul do Mercado
   vnum: '01010545405'
-- description: |-
-    Você está no Centro da Praça do Mercado, a famosa praça de Nova Thalos.
+- description: 'Você está no Centro da Praça do Mercado, a famosa praça de Nova Thalos.
+
     Há uma grande e peculiar estátua no centro da praça.  A praça segue em
-    muitas direções.
+
+    muitas direções.'
   exits:
     east:
       target_vnum: '01010545417'
@@ -117,11 +136,14 @@
   local_id: '5407'
   name: A Praça Sudeste do Mercado
   vnum: '01010545407'
-- description: |-
-    Esta área do mercado parece relativamente quieta, se não fossem as altas
+- description: 'Esta área do mercado parece relativamente quieta, se não fossem as
+    altas
+
     brincadeiras que os lojistas fazem para atrair as atenções para suas lojas.
+
     Ao sul, você sente o cheiro dos pães de Nova Thalos e ao oeste é a entrada de
-    um armazém.  O mercado continua ao leste e ao norte daqui.
+
+    um armazém.  O mercado continua ao leste e ao norte daqui.'
   exits:
     east:
       target_vnum: '01010545405'
@@ -134,12 +156,15 @@
   local_id: '5408'
   name: A Praça Sudoeste do Mercado
   vnum: 01010545408
-- description: |-
-    Esta área da praça parece um pouco mais abandonada que o resto.  Você
+- description: 'Esta área da praça parece um pouco mais abandonada que o resto.  Você
+
     nota que a maioria dos aventureiros de fora vagam ao redor do sul do
+
     mercado, enquanto os nativos daqui, buscam negócios ao norte.  A rua
+
     ocidental principal começa aqui e segue para os portões, as expansões do
-    mercado seguem nas outras direções.
+
+    mercado seguem nas outras direções.'
   exits:
     east:
       target_vnum: '01010545406'
@@ -152,12 +177,15 @@
   local_id: '5409'
   name: A Praça Ocidental do Mercado
   vnum: 01010545409
-- description: |-
-    Pessoas passam por você falando umas com as outras, ou descansam seus
+- description: 'Pessoas passam por você falando umas com as outras, ou descansam seus
+
     ossos cansados neste campo gramíneo.  Você pode ouvir os lânguidos sons do
+
     rio ao sul, fluindo através da cidade.  O passeio de Ishtar segue à leste e
+
     oeste daqui e a Medina é ao norte.  Ao sul fica a Ponte do Rio Ishtar e o
-    portão sulista.
+
+    portão sulista.'
   exits:
     east:
       target_vnum: '01010545437'
@@ -170,24 +198,26 @@
   local_id: '5410'
   name: A Praça Comum
   vnum: '01010545410'
-- description: |-
-    Você diante de si um extenso Deserto Oriental.  Você deve ter ouvido
+- description: 'Você diante de si um extenso Deserto Oriental.  Você deve ter ouvido
+
     muitos contos sobre a Enorme Pirâmide, a cidade perdida de Velha Thalos e o
+
     amigável Dragão de bronze que repousa debaixo do deserto.  Ao sul, fica o
-    deserto, e a cidade de Nova Thalos é ao norte.
+
+    deserto, e a cidade de Nova Thalos é ao norte.'
   exits:
     north:
       target_vnum: '01010545413'
     south:
-      target_vnum: 01010545039
+      target_vnum: 01010505039
     southeast:
-      target_vnum: 01010546918
+      target_vnum: 01010696918
   local_id: '5411'
   name: Do Lado de Fora do Portão Sul de Nova Thalos
   vnum: '01010545411'
-- description: |-
-    Andando através da ponte você vê as apressadas águas do Rio Ishtar.  Ao
-    sul, você vê o Portão Sul de Nova Thalos e a Praça Comum fica logo ao norte.
+- description: 'Andando através da ponte você vê as apressadas águas do Rio Ishtar.  Ao
+
+    sul, você vê o Portão Sul de Nova Thalos e a Praça Comum fica logo ao norte.'
   exits:
     down:
       target_vnum: 01010545485
@@ -198,12 +228,15 @@
   local_id: '5412'
   name: A Ponte Sul
   vnum: '01010545412'
-- description: |-
-    Duas largas torres de pedra dão as boas vindas a você com o volumoso
+- description: 'Duas largas torres de pedra dão as boas vindas a você com o volumoso
+
     portão de ferro movem-se em suas ornamentadas dobradiças brasonadas com o
+
     símbolo de Nova Thalos.  Os governantes da cidade não pouparam nenhuma
+
     despesa em construir a defesa de suas casas.  A Ponte do Rio Ishtar fica ao
-    norte e o deserto ao sul.
+
+    norte e o deserto ao sul.'
   exits:
     north:
       target_vnum: '01010545412'
@@ -212,11 +245,14 @@
   local_id: '5413'
   name: Dentro do Portão Sul de Nova Thalos
   vnum: '01010545413'
-- description: |-
-    Esta esquina do mercado abrange alguns dos mais civilizados povos de Nova
+- description: 'Esta esquina do mercado abrange alguns dos mais civilizados povos
+    de Nova
+
     Thalos.  Ao norte há a humilde loja do comerciante Ankeem, cujas tecelajens
+
     são conhecidas como as melhores da cidade.  A oeste daqui, é a entrada do
-    Primeiro Banco Real de Nova Thalos.
+
+    Primeiro Banco Real de Nova Thalos.'
   exits:
     east:
       target_vnum: '01010545415'
@@ -229,10 +265,12 @@
   local_id: '5414'
   name: A Praça Noroeste do Mercado
   vnum: '01010545414'
-- description: |-
-    Você está em uma das mais habitadas partes da cidade.  Ao norte fica o
+- description: 'Você está em uma das mais habitadas partes da cidade.  Ao norte fica
+    o
+
     Palácio de Nova Thalos e o Casbah, a leste, oeste e sul daqui o agitados
-    mercadores continuam dando vida ao mercado.
+
+    mercadores continuam dando vida ao mercado.'
   exits:
     east:
       target_vnum: '01010545416'
@@ -245,12 +283,16 @@
   local_id: '5415'
   name: A Praça Norte do Mercado
   vnum: '01010545415'
-- description: |-
-    Pandemônio.  Caos.  Loucura.  Algumas outras poucas palavras lhe vem a
+- description: 'Pandemônio.  Caos.  Loucura.  Algumas outras poucas palavras lhe vem
+    a
+
     mente quando você observa esta esquina do mercado.  A loja de vegetais
+
     permanece quieta o suficiente para você perceber que o barulho vem do
+
     Açougue.  Você deve pensar um pouco antes de ter coragem o suficiente de
-    entrar nesta loja.  O Mercado continua ao sul e ao oeste.
+
+    entrar nesta loja.  O Mercado continua ao sul e ao oeste.'
   exits:
     east:
       target_vnum: '01010545522'
@@ -263,11 +305,13 @@
   local_id: '5416'
   name: A Praça Nordeste do Mercado
   vnum: '01010545416'
-- description: |-
-    Você está no Mercado de Nova Thalos, a pedra preciosa do deserto.  O
+- description: 'Você está no Mercado de Nova Thalos, a pedra preciosa do deserto.  O
+
     mercado é o núcleo da cidade, todas as cargas e comercio de qualquer gênero
+
     é levado para cá.  O mercado segue em todas as direções, menos ao leste,
-    onde fica o Portão Leste.
+
+    onde fica o Portão Leste.'
   exits:
     east:
       target_vnum: '01010545427'
@@ -280,11 +324,13 @@
   local_id: '5417'
   name: A Praça Oriental do Mercado
   vnum: '01010545417'
-- description: |-
-    Esta estrada de paralelepípedo o ajuda em sua viajem pela cidade.
+- description: 'Esta estrada de paralelepípedo o ajuda em sua viajem pela cidade.
+
     Seguindo ao norte, você passará pelo Palácio e a Taverna do Demônio Dançante,
+
     e o sul o levará para a Praça do Mercado. Uma pequena travessa a leste
-    leva a uma estranha estrutura.
+
+    leva a uma estranha estrutura.'
   exits:
     east:
       target_vnum: 01010545497
@@ -295,12 +341,16 @@
   local_id: '5418'
   name: O Passeio do Sultão
   vnum: 01010545418
-- description: |-
-    Esta parte da estrada segue entre uma das robustas paredes do Palácio e
+- description: 'Esta parte da estrada segue entre uma das robustas paredes do Palácio
+    e
+
     do Demônio Dançante.  Ao leste você perscruta através de uma das janelas no
+
     Demônio, vendo muitas pessoas dançando e bebendo.  Após você cuidar de suas
+
     outras tarefas, você planeja visitar o a Taverna do Demônio Dançante.  O
-    passeio continua a norte e sul daqui.
+
+    passeio continua a norte e sul daqui.'
   exits:
     north:
       target_vnum: '01010545420'
@@ -309,12 +359,15 @@
   local_id: '5419'
   name: O Passeio do Sultão
   vnum: 01010545419
-- description: |-
-    A estrada aqui, entre o Palácio e A Taverna do Demônio Dançante parece
+- description: 'A estrada aqui, entre o Palácio e A Taverna do Demônio Dançante parece
+
     bem usada pelos cavalos, charretes e botas de couro.  Do oeste você ouve o
+
     lânguido som de trombetas anunciando a chegada de algum Duque ou Duquesa no
+
     Palácio.  Um porto seguro o aguarda ao leste nas paredes do Demônio, e o
-    Passeio do Sultão continua ao norte e ao sul.
+
+    Passeio do Sultão continua ao norte e ao sul.'
   exits:
     east:
       target_vnum: '01010545400'
@@ -327,11 +380,13 @@
   local_id: '5420'
   name: O Passeio do Sultão
   vnum: '01010545420'
-- description: |-
-    A estrada principal norte da praça continua aqui, rodeado pelas paredes
+- description: 'A estrada principal norte da praça continua aqui, rodeado pelas paredes
+
     do Palácio e do Demônio.  Ao norte você vê o bem guardado portão e pode
+
     distinguir lânguidos sons do comércio ao sul.  Há também, a leste, uma
-    estreita rua que parece levar a uma enorme árvore.
+
+    estreita rua que parece levar a uma enorme árvore.'
   exits:
     east:
       target_vnum: 01010545496
@@ -342,16 +397,20 @@
   local_id: '5421'
   name: O Passeio do Sultão
   vnum: '01010545421'
-- description: |-
-    Duas largas torres de pedra dão as boas vindas a você com o volumoso
+- description: 'Duas largas torres de pedra dão as boas vindas a você com o volumoso
+
     portão de ferro movem-se em suas ornamentadas dobradiças brasonadas com o
+
     símbolo de Nova Thalos.  Os governantes da cidade não pouparam nenhuma
+
     despesa em construir a defesa de suas casas.  O Passeio do Sultão continua
+
     ao sul e o Casbah ao leste e oeste.  Ao norte fica a selva.  Um portal abaixo
-    o leva até a vila residencial de Nova Thalos.
+
+    o leva até a vila residencial de Nova Thalos.'
   exits:
     down:
-      target_vnum: '01010546600'
+      target_vnum: '01010666600'
     east:
       target_vnum: 01010545449
     north:
@@ -363,13 +422,17 @@
   local_id: '5422'
   name: Dentro do Portão Norte de Nova Thalos
   vnum: '01010545422'
-- description: |-
-    Duas largas torres de pedra dão as boas vindas a você com o volumoso
+- description: 'Duas largas torres de pedra dão as boas vindas a você com o volumoso
+
     portão de ferro movem-se em suas ornamentadas dobradiças brasonadas com o
+
     símbolo de Nova Thalos.  Os governantes da cidade não pouparam nenhuma
+
     despesa para construir a defesa de suas casas.
+
     A rua principal leva ao mercado ao leste e a selva acena do oeste.  Ao
-    sul fica a entrada da Guilda dos Guerreiros.
+
+    sul fica a entrada da Guilda dos Guerreiros.'
   exits:
     east:
       target_vnum: '01010545424'
@@ -380,10 +443,11 @@
   local_id: '5423'
   name: Dentro do Portão Oeste de Nova Thalos
   vnum: '01010545423'
-- description: |-
-    Esta é a rua principal que atravessa a cidade.  Ao sul você ouve as
+- description: 'Esta é a rua principal que atravessa a cidade.  Ao sul você ouve as
+
     marteladas da loja de reparos e ao norte há o campo gramíneo conhecido como
-    a Praça do Templo.  A rua principal continua ao leste e oeste.
+
+    a Praça do Templo.  A rua principal continua ao leste e oeste.'
   exits:
     east:
       target_vnum: '01010545425'
@@ -396,10 +460,12 @@
   local_id: '5424'
   name: A Rua Oeste Principal
   vnum: '01010545424'
-- description: |-
-    Um capataz esta aqui tomando conta de dois construtores consertando um
+- description: 'Um capataz esta aqui tomando conta de dois construtores consertando
+    um
+
     buraco.  A estrada aqui se ramifica ao norte e ao sul em duas ruelas atrás
-    das lojas do mercado.  A rua principal continua a leste e a oeste daqui.
+
+    das lojas do mercado.  A rua principal continua a leste e a oeste daqui.'
   exits:
     east:
       target_vnum: '01010545426'
@@ -412,10 +478,12 @@
   local_id: '5425'
   name: A Rua Oeste Principal
   vnum: '01010545425'
-- description: |-
-    Você está passeando na rua entre o banco e a mercearia.  Ao oeste você
+- description: 'Você está passeando na rua entre o banco e a mercearia.  Ao oeste
+    você
+
     ouve os trabalhadores e ao leste, os sons de comércio tomam lugar.  O ar é
-    tomado pelo cheiro de ouro e riquezas.  Na parede da loja há um cartaz.
+
+    tomado pelo cheiro de ouro e riquezas.  Na parede da loja há um cartaz.'
   exits:
     east:
       target_vnum: 01010545409
@@ -424,10 +492,12 @@
   local_id: '5426'
   name: A Rua Ocidental Principal
   vnum: '01010545426'
-- description: |-
-    Aqui na rua ocidental, você sente o cheiro de carne fresca, e ouve o
+- description: 'Aqui na rua ocidental, você sente o cheiro de carne fresca, e ouve
+    o
+
     martelar de metais que vem da armoriaria.  A Praça é ao oeste e sua
-    continuação ao leste.
+
+    continuação ao leste.'
   exits:
     east:
       target_vnum: 01010545428
@@ -436,10 +506,12 @@
   local_id: '5427'
   name: A Principal Rua Ocidental
   vnum: '01010545427'
-- description: |-
-    Você está na Principal Rua Ocidental.  Ao norte é o começo do caminho das
+- description: 'Você está na Principal Rua Ocidental.  Ao norte é o começo do caminho
+    das
+
     Guildas.  Ao sul é uma escura ruela.  A estrada também continua ao leste.
-    Há um pequeno aviso pendurado por arame sob sua cabeça.
+
+    Há um pequeno aviso pendurado por arame sob sua cabeça.'
   exits:
     east:
       target_vnum: 01010545429
@@ -452,12 +524,15 @@
   local_id: '5428'
   name: A Principal Rua Ocidental
   vnum: 01010545428
-- description: |-
-    Andando pela Guilda dos Mercenários um frio calafrio lhe causa arrepios
+- description: 'Andando pela Guilda dos Mercenários um frio calafrio lhe causa arrepios
+
     incontroláveis.  Você vê algumas figuras sombrias espreitando pela entrada
+
     desta casa de pessoas de "boas intenções".  Talvez a curiosidade o invada e
+
     você queira ver o que acontece lá dentro.  Ao norte você as portas abertas
-    de uma loja, onde pode comprar artefatos mágicos.
+
+    de uma loja, onde pode comprar artefatos mágicos.'
   exits:
     east:
       target_vnum: '01010545430'
@@ -470,11 +545,14 @@
   local_id: '5429'
   name: A Principal Rua Ocidental
   vnum: 01010545429
-- description: |-
-    A Principal Rua Ocidental que atravessa a parte ocidental de Nova Thalos
+- description: 'A Principal Rua Ocidental que atravessa a parte ocidental de Nova
+    Thalos
+
     começa aqui e segue ao leste para a feira.  Um dos portões principais pode
+
     ser visto ao leste e a Loja de Magica de Braheem o aguarda para negócios ao
-    norte.
+
+    norte.'
   exits:
     east:
       target_vnum: '01010545431'
@@ -485,13 +563,17 @@
   local_id: '5430'
   name: A Principal Rua Ocidental
   vnum: '01010545430'
-- description: |-
-    Duas largas torres de pedra dão as boas vindas a você com o volumoso
+- description: 'Duas largas torres de pedra dão as boas vindas a você com o volumoso
+
     portão de ferro movem-se em suas ornamentadas dobradiças brasonadas com o
+
     símbolo de Nova Thalos.  Os governantes da cidade não pouparam nenhuma
+
     despesa para construir a defesa de suas casas.  A rua principal segue na
+
     direção do mercado ao leste e a selva acena do lesta.  Ao norte fica a
-    entrada da Guilda dos Magos.
+
+    entrada da Guilda dos Magos.'
   exits:
     east:
       target_vnum: 01010545568
@@ -504,21 +586,26 @@
   local_id: '5431'
   name: Dentro do Portão Oriental de Nova Thalos
   vnum: '01010545431'
-- description: |-
-    Nada em sua vida o preparou para o odor que enche seus pulmões.  Para não
+- description: 'Nada em sua vida o preparou para o odor que enche seus pulmões.  Para
+    não
+
     ofender a linda vendedora você segura sua língua e silenciosamente observa
-    sua seleção.
+
+    sua seleção.'
   exits:
     south:
       target_vnum: '01010545441'
   local_id: '5432'
   name: A Caça do Dia de Cassandra
   vnum: '01010545432'
-- description: |-
-    Este é o distinto armazém de Nova Thalos.  Fortes homens caminham das
+- description: 'Este é o distinto armazém de Nova Thalos.  Fortes homens caminham
+    das
+
     docas até o armazém carregando grandes caixotes e descarregando os barcos
+
     que navegam pelo rio.  Ao norte é uma das entradas do armazém e Ishtar segue
-    ao leste.
+
+    ao leste.'
   exits:
     east:
       target_vnum: '01010545434'
@@ -527,11 +614,13 @@
   local_id: '5433'
   name: O Caminho Ocidental de Ishtar
   vnum: '01010545433'
-- description: |-
-    Poucos homens andam quase lhe empurrando para fora de seus caminhos
+- description: 'Poucos homens andam quase lhe empurrando para fora de seus caminhos
+
     enquanto eles cuidam de carregar e descarregar os barcos.  Uma entrada para
+
     uma dos enormes armazéns de Nova Thalos é ao norte e o Rio Ishtar
-    silenciosamente flui pelo sul.  O caminho de Ishtar segue ao leste e oeste.
+
+    silenciosamente flui pelo sul.  O caminho de Ishtar segue ao leste e oeste.'
   exits:
     east:
       target_vnum: '01010545435'
@@ -542,12 +631,16 @@
   local_id: '5434'
   name: O Caminho Ocidental de Ishtar
   vnum: '01010545434'
-- description: |-
-    A estrada de paralelepípedo está úmida aqui, o rastro de água leva à
+- description: 'A estrada de paralelepípedo está úmida aqui, o rastro de água leva
+    à
+
     rampa dos barcos.  Tentando manter o equilíbrio, enquanto você começa a
+
     deslizar sob o chão, você se agarra em um corrimão que alguém
+
     convenientemente colocou aqui.  Ao norte ficam os navios e o caminho de
-    Ishtar continua ao leste e oeste.
+
+    Ishtar continua ao leste e oeste.'
   exits:
     east:
       target_vnum: '01010545436'
@@ -560,10 +653,11 @@
   local_id: '5435'
   name: O Caminho Ocidental de Ishtar
   vnum: '01010545435'
-- description: |-
-    O rio sopra uma fria brisa que esfria o suor que escorre de sua pele.
+- description: 'O rio sopra uma fria brisa que esfria o suor que escorre de sua pele.
+
     Ordens e ás vezes maldições podem ser ouvidas do oeste, na direção dos
-    armazéns.  A Praça Comum se abre ao leste, e o caminho de Ishtar ao oeste.
+
+    armazéns.  A Praça Comum se abre ao leste, e o caminho de Ishtar ao oeste.'
   exits:
     east:
       target_vnum: '01010545410'
@@ -572,12 +666,15 @@
   local_id: '5436'
   name: O Caminho Ocidental de Ishtar
   vnum: '01010545436'
-- description: |-
-    Altas marteladas e o som do ferro quente e vermelho esfriando na água
+- description: 'Altas marteladas e o som do ferro quente e vermelho esfriando na água
+
     alcança seus ouvidos assim que você fica em frente à forja.  Um pequeno
+
     garoto corre até você com seus grandes olhos e, quando você retribui seu
+
     olhar, corre pela estrada.  A Praça Comum pode ser vista ao oeste e o
-    Caminho de Ishtar continua ao leste.
+
+    Caminho de Ishtar continua ao leste.'
   exits:
     east:
       target_vnum: 01010545439
@@ -588,9 +685,9 @@
   local_id: '5437'
   name: O Caminho Oriental de Ishtar
   vnum: '01010545437'
-- description: |-
-    A larga estrada que cerca o sul da cidade continua ao oeste oriental
-    daqui, cercada apenas pelo feno ao norte e pelo caminho de Ishtar ao sul.
+- description: 'A larga estrada que cerca o sul da cidade continua ao oeste oriental
+
+    daqui, cercada apenas pelo feno ao norte e pelo caminho de Ishtar ao sul.'
   exits:
     east:
       target_vnum: '01010545440'
@@ -599,11 +696,13 @@
   local_id: '5438'
   name: O Caminho Oriental de Ishtar
   vnum: 01010545438
-- description: |-
-    Pequenos malotes de feno estão pelo chão, lhe alertando que realmente
+- description: 'Pequenos malotes de feno estão pelo chão, lhe alertando que realmente
+
     você chegou nos estábulos.  Garanhões árabes como outras finas raças de
+
     cavalos podem ser negociadas por um preço razoável.  O caminho de Ishtar
-    continua ao leste e oeste.
+
+    continua ao leste e oeste.'
   exits:
     east:
       target_vnum: 01010545438
@@ -614,11 +713,14 @@
   local_id: '5439'
   name: O Caminho Oriental de Ishtar
   vnum: 01010545439
-- description: |-
-    Mesmo á luz do dia, você mal pode ver dentro das ruelas que começam por
+- description: 'Mesmo á luz do dia, você mal pode ver dentro das ruelas que começam
+    por
+
     aqui e seguem ao norte.  Sons de bêbados barulhentos e ocasionais gritos de
+
     gatos emanam desta direção.  Por sorte, você tem a escolha de ir ao leste e
-    oeste seguindo o caminho.
+
+    oeste seguindo o caminho.'
   exits:
     east:
       target_vnum: '01010545441'
@@ -629,12 +731,15 @@
   local_id: '5440'
   name: O Caminho Oriental de Ishtar
   vnum: '01010545440'
-- description: |-
-    Seu sentido olfativo aguçado sente lhe indicam que você alcançou a
+- description: 'Seu sentido olfativo aguçado sente lhe indicam que você alcançou a
+
     entrada do mercado de peixe.  Embora renomado por suas frescas carnes e
+
     grande seleção de delicadezas aquáticas, você imagina por quanto tempo você
+
     pode suportar este cheiro!  O Rio Ishtar flui ao sul com o caminho seguindo
-    pelo leste e oeste.
+
+    pelo leste e oeste.'
   exits:
     east:
       target_vnum: '01010545442'
@@ -645,11 +750,14 @@
   local_id: '5441'
   name: O Caminho Oriental de Ishtar
   vnum: '01010545441'
-- description: |-
-    O som de gaivotas gritando e o cheiro de peixe apodrecendo lhe dá uma
+- description: 'O som de gaivotas gritando e o cheiro de peixe apodrecendo lhe dá
+    uma
+
     dica de sua localização.  O Rio Ishtar segue ao sul de você, mas parece
+
     claro e puro, então ele não pode ser a fonte deste cheiro pútrido.  Olhando
-    ao norte você nota um pequeno aviso pendurado sob o depósito de lixo.
+
+    ao norte você nota um pequeno aviso pendurado sob o depósito de lixo.'
   exits:
     north:
       target_vnum: '01010545547'
@@ -658,11 +766,13 @@
   local_id: '5442'
   name: O Caminho Oriental de Ishtar
   vnum: '01010545442'
-- description: |-
-    Esta inclinação de pedra permite passagem fácil para o Rio Ishtar.
+- description: 'Esta inclinação de pedra permite passagem fácil para o Rio Ishtar.
+
     Barcos são atracados às docas aqui, esperando por seus capitães voltarem dos
+
     armazéns e dos bares.  As águas do Rio Ishtar bate em seus pés ao sul e o
-    caminho de Ishtar é ao norte.
+
+    caminho de Ishtar é ao norte.'
   exits:
     north:
       target_vnum: '01010545435'
@@ -671,11 +781,14 @@
   local_id: '5443'
   name: A Rampa dos Barcos
   vnum: '01010545443'
-- description: |-
-    O ar assume um modo sombrio assim que você chega à Prisão de Nova Thalos.
+- description: 'O ar assume um modo sombrio assim que você chega à Prisão de Nova
+    Thalos.
+
     Felizmente você não terá que ver a estrutura pelo lado de dentro.  Na torre
+
     noroeste, há uma escada que leva parra cima.  A Avenida termina aqui, saindo
-    apenas pelo leste.
+
+    apenas pelo leste.'
   exits:
     east:
       target_vnum: '01010545445'
@@ -686,12 +799,15 @@
   local_id: '5444'
   name: O Casbah Ocidental
   vnum: '01010545444'
-- description: |-
-    Você quase chega ao fim da avenida nesta direção, o número de guardas
+- description: 'Você quase chega ao fim da avenida nesta direção, o número de guardas
+
     nessa parte da cidade é dobrado.  Ao norte a conhecida parede da cidade o
+
     protege da selva.  Olhando ao sul, escadarias de mármore sobem pela entrada
+
     da prefeitura cercada de grandes pilares brancos.  A Avenida continua a
-    leste e oeste daqui.
+
+    leste e oeste daqui.'
   exits:
     east:
       target_vnum: '01010545446'
@@ -702,10 +818,12 @@
   local_id: '5445'
   name: O Casbah Ocidental
   vnum: '01010545445'
-- description: |-
-    A parede do Palácio segue a sul daqui, uma escura ruela segue por essa
+- description: 'A parede do Palácio segue a sul daqui, uma escura ruela segue por
+    essa
+
     direção.  A oeste daqui você vê os degraus da Prefeitura e percebe o aumento
-    no número de guardas.
+
+    no número de guardas.'
   exits:
     east:
       target_vnum: '01010545447'
@@ -716,10 +834,12 @@
   local_id: '5446'
   name: O Casbah
   vnum: '01010545446'
-- description: |-
-    Assim que você segue pelo caminho em direção à Prefeitura você vê os
+- description: 'Assim que você segue pelo caminho em direção à Prefeitura você vê
+    os
+
     guardas tomando conta da mesma.  Ao sul de você fica as grandes paredes do
-    Palácio e a Avenida segue ao leste e oeste.
+
+    Palácio e a Avenida segue ao leste e oeste.'
   exits:
     east:
       target_vnum: 01010545448
@@ -728,9 +848,10 @@
   local_id: '5447'
   name: O Casbah
   vnum: '01010545447'
-- description: |-
-    O piso de paralelepípedo segue ao longo da parede norte daqui.  A sul de
-    você ficam as grandes paredes do Palácio e a Avenida segue ao leste e oeste.
+- description: 'O piso de paralelepípedo segue ao longo da parede norte daqui.  A
+    sul de
+
+    você ficam as grandes paredes do Palácio e a Avenida segue ao leste e oeste.'
   exits:
     east:
       target_vnum: '01010545422'
@@ -739,11 +860,14 @@
   local_id: '5448'
   name: O Casbah
   vnum: 01010545448
-- description: |-
-    A atividade aqui é ligeiramente caótica.  Jovens garotos correm para lá e
+- description: 'A atividade aqui é ligeiramente caótica.  Jovens garotos correm para
+    lá e
+
     para cá com intenções suspeitas, e cavalheiros mais velhos se vangloriam
+
     descendo a rua em direção à Biblioteca.  Ao oeste você pode ver as altas
-    torres do portão norte, e a avenida segue ao leste.
+
+    torres do portão norte, e a avenida segue ao leste.'
   exits:
     east:
       target_vnum: '01010545450'
@@ -752,12 +876,15 @@
   local_id: '5449'
   name: O Casbah
   vnum: 01010545449
-- description: |-
-    Andando pelo caminho de paralelepípedos você se sente seguro com as
+- description: 'Andando pelo caminho de paralelepípedos você se sente seguro com as
+
     paredes da cidade cercando você.  Você pode ouvir algum metal raspando em
+
     pedra e olhando para cima você vê um grande e forte guarda tomando conta ao
+
     norte.  Para o leste segue uma interseção no Caminho das Guildas e o portão
-    norte fica bem perto ao oeste.
+
+    norte fica bem perto ao oeste.'
   exits:
     east:
       target_vnum: '01010545451'
@@ -766,11 +893,14 @@
   local_id: '5450'
   name: O Casbah
   vnum: '01010545450'
-- description: |-
-    O barulho das Guildas surpreende seus sentidos assim que você chega nesta
+- description: 'O barulho das Guildas surpreende seus sentidos assim que você chega
+    nesta
+
     interseção, os sons me marteladas, o cheiro de couro queimado, e a fumaça
+
     vinda da ferraria vem lhe cumprimentar.  A Avenida continua ao leste e oeste
-    daqui, e o Caminho segue ao sul.
+
+    daqui, e o Caminho segue ao sul.'
   exits:
     east:
       target_vnum: '01010545452'
@@ -781,10 +911,12 @@
   local_id: '5451'
   name: O Casbah
   vnum: '01010545451'
-- description: |-
-    Você anda entre as solidas paredes de pedra da cidade e da Guilda dos
+- description: 'Você anda entre as solidas paredes de pedra da cidade e da Guilda
+    dos
+
     pedreiros.  Jovens crianças andam com suas babas se divertindo em segurança.
-    A Avenida continua a leste e oeste daqui.
+
+    A Avenida continua a leste e oeste daqui.'
   exits:
     east:
       target_vnum: '01010545453'
@@ -793,12 +925,15 @@
   local_id: '5452'
   name: O Casbah
   vnum: '01010545452'
-- description: |-
-    Você quase chega ao fim da avenida por esta direção.  Andando em direção
+- description: 'Você quase chega ao fim da avenida por esta direção.  Andando em direção
+
     ao nordeste da cidade você percebe que a densidade demográfica aqui é muito
+
     menor do que no resto da cidade.  Alguns homens velhos se apoiam em bengalas
+
     e jovens homens a caminho do estudo são os únicos viajante do caminho para a
-    biblioteca.  A Avenida segue a leste e oeste.
+
+    biblioteca.  A Avenida segue a leste e oeste.'
   exits:
     east:
       target_vnum: '01010545454'
@@ -807,10 +942,11 @@
   local_id: '5453'
   name: O Casbah
   vnum: '01010545453'
-- description: |-
-    A Avenida termina aqui, virando ao sul, começa o caminho de Kali.  Indo
+- description: 'A Avenida termina aqui, virando ao sul, começa o caminho de Kali.  Indo
+
     por essa direção, você chegará na biblioteca e no grande salão de dança da
-    cidade.   A torre nordeste dá acesso para cima por uma escada em espiral.
+
+    cidade.   A torre nordeste dá acesso para cima por uma escada em espiral.'
   exits:
     south:
       target_vnum: '01010545455'
@@ -821,11 +957,13 @@
   local_id: '5454'
   name: O Casbah
   vnum: '01010545454'
-- description: |-
-    Este é um pequeno caminho, recentemente adicionado a esta seção da
+- description: 'Este é um pequeno caminho, recentemente adicionado a esta seção da
+
     cidade.  A biblioteca da cidade pode ser adentrada pela porta ao oeste e O
+
     Casbah começa seu curso um pouco mais ao norte.  O Caminho e a entrada do
-    salão de dança é ao sul.
+
+    salão de dança é ao sul.'
   exits:
     north:
       target_vnum: '01010545454'
@@ -836,10 +974,11 @@
   local_id: '5455'
   name: O Caminho de Kali
   vnum: '01010545455'
-- description: |-
-    O curto caminho termina abruptamente aqui na entrada da do salão de
+- description: 'O curto caminho termina abruptamente aqui na entrada da do salão de
+
     danças de Nova Thalos.  A entrada para o salão é ao oeste e o Caminho segue
-    pelo norte.
+
+    pelo norte.'
   exits:
     north:
       target_vnum: '01010545455'
@@ -857,9 +996,9 @@
   local_id: '5457'
   name: O Subterrâneo
   vnum: '01010545457'
-- description: |-
-    Esta é uma escura ruela entre o Palácio e a Prefeitura.  Não há nada
-    aqui, além de aranhas e ratos.
+- description: 'Esta é uma escura ruela entre o Palácio e a Prefeitura.  Não há nada
+
+    aqui, além de aranhas e ratos.'
   exits:
     north:
       target_vnum: '01010545446'
@@ -877,12 +1016,16 @@
   local_id: '5459'
   name: Uma Ruela
   vnum: 01010545459
-- description: |-
-    Este caminho é o centro das atividades, seguido apenas pela Praça do
+- description: 'Este caminho é o centro das atividades, seguido apenas pela Praça
+    do
+
     Mercado.  Seguindo este caminho, estão todas as Guildas das classes
+
     trabalhadoras dos cidadãos de Nova Thalos.   Aqui faz-se todos os itens
+
     vendidos na feira.  Ao longo desta extensão particular do caminho, fica a
-    guilda dos Caçadores-Arqueiros a oeste e ao leste está a Guilda dos pedreiros.
+
+    guilda dos Caçadores-Arqueiros a oeste e ao leste está a Guilda dos pedreiros.'
   exits:
     east:
       target_vnum: '01010545556'
@@ -895,10 +1038,12 @@
   local_id: '5460'
   name: O Caminho das Guildas
   vnum: '01010545460'
-- description: |-
-    As Guildas continuam por aqui, ao oeste há a Guilda dos Tecelões e ao
+- description: 'As Guildas continuam por aqui, ao oeste há a Guilda dos Tecelões e
+    ao
+
     leste a dos Joalheiros.  O caminho das Guildas continua ao norte e sul
-    daqui.
+
+    daqui.'
   exits:
     east:
       target_vnum: '01010545507'
@@ -913,11 +1058,14 @@
   local_id: '5461'
   name: O Caminho das Guildas
   vnum: '01010545461'
-- description: |-
-    Apenas uma das Guildas oferece sua porta a esta extensão do Caminho, a
+- description: 'Apenas uma das Guildas oferece sua porta a esta extensão do Caminho,
+    a
+
     dos Curtidores, ao oeste.  Ao leste há uma linda porta esculpida em mármore,
+
     permitindo passagem para a entrada do Museu dos Deuses Maiores.  O caminho
-    das Guildas segue ao norte e ao sul.
+
+    das Guildas segue ao norte e ao sul.'
   exits:
     east:
       target_vnum: '01010545511'
@@ -930,11 +1078,13 @@
   local_id: '5462'
   name: O Caminho das Guildas
   vnum: '01010545462'
-- description: |-
-    Após as Guildas serem construídas o povo da cidade usou alguns dos
+- description: 'Após as Guildas serem construídas o povo da cidade usou alguns dos
+
     espaços extras para erguer um santuário para seus Deuses Protetores.  O
+
     resultado deste labor se tornou o Museu dos Deuses Maiores; Você pode entrar
-    para o caminho sagrado ao leste.
+
+    para o caminho sagrado ao leste.'
   exits:
     east:
       target_vnum: '01010545516'
@@ -945,10 +1095,11 @@
   local_id: '5463'
   name: O Caminho das Guildas
   vnum: '01010545463'
-- description: |-
-    Esta pequena estrada é usada por aprendizes para seguirem para suas
+- description: 'Esta pequena estrada é usada por aprendizes para seguirem para suas
+
     Guildas, e levar mercadorias para o mercado e para as lojas.  A rua
-    principal é ao sul.
+
+    principal é ao sul.'
   exits:
     north:
       target_vnum: '01010545463'
@@ -957,9 +1108,9 @@
   local_id: '5464'
   name: O Caminho das Guildas
   vnum: '01010545464'
-- description: |-
-    Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
-    que envolve esta ruela.
+- description: 'Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
+
+    que envolve esta ruela.'
   exits:
     north:
       target_vnum: 01010545428
@@ -968,9 +1119,9 @@
   local_id: '5465'
   name: Uma Ruela
   vnum: '01010545465'
-- description: |-
-    Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
-    que envolve esta ruela.
+- description: 'Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
+
+    que envolve esta ruela.'
   exits:
     east:
       target_vnum: '01010545467'
@@ -981,9 +1132,9 @@
   local_id: '5466'
   name: Uma Ruela
   vnum: '01010545466'
-- description: |-
-    Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
-    que envolve esta ruela.
+- description: 'Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
+
+    que envolve esta ruela.'
   exits:
     east:
       target_vnum: 01010545538
@@ -994,9 +1145,9 @@
   local_id: '5467'
   name: Uma Ruela
   vnum: '01010545467'
-- description: |-
-    Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
-    que envolve esta ruela.
+- description: 'Mesmo com sua luz você não consegue penetrar este muro mágico de escuridão
+
+    que envolve esta ruela.'
   exits:
     north:
       target_vnum: '01010545467'
@@ -1005,9 +1156,10 @@
   local_id: '5468'
   name: Uma Ruela
   vnum: 01010545468
-- description: |-
-    Este é um pequeno canto da ruela. As paredes do templo ficam a norte e oeste.
-    Você nota uma boa quantia de pegadas ao leste.
+- description: 'Este é um pequeno canto da ruela. As paredes do templo ficam a norte
+    e oeste.
+
+    Você nota uma boa quantia de pegadas ao leste.'
   exits:
     east:
       target_vnum: '01010545470'
@@ -1025,10 +1177,11 @@
   local_id: '5470'
   name: Uma Ruela
   vnum: '01010545470'
-- description: |-
-    Você está em uma estreita ruela entre o templo e o banco.  Você ouve
+- description: 'Você está em uma estreita ruela entre o templo e o banco.  Você ouve
+
     alguns gritos e barulhos vindos do sul.  O chão é áspero e precisa de
-    reparos.  Na estrada há um pequeno buraco.
+
+    reparos.  Na estrada há um pequeno buraco.'
   exits:
     north:
       target_vnum: 01010545469
@@ -1037,9 +1190,9 @@
   local_id: '5471'
   name: Uma Ruela
   vnum: '01010545471'
-- description: |-
-    Você está em uma pequena ruela entre a loja de reparos e o armazém.  Não
-    há nada aqui além de pequenos roedores e poeira.
+- description: 'Você está em uma pequena ruela entre a loja de reparos e o armazém.  Não
+
+    há nada aqui além de pequenos roedores e poeira.'
   exits:
     north:
       target_vnum: '01010545425'
@@ -1048,9 +1201,10 @@
   local_id: '5472'
   name: Uma Ruela
   vnum: '01010545472'
-- description: |-
-    Este é um pequeno canto na ruela atrás das dos armazéns e da Guilda dos
-    guerreiros.  Você nota alguns fragmentos ao oeste.
+- description: 'Este é um pequeno canto na ruela atrás das dos armazéns e da Guilda
+    dos
+
+    guerreiros.  Você nota alguns fragmentos ao oeste.'
   exits:
     east:
       target_vnum: '01010545474'
@@ -1068,9 +1222,10 @@
   local_id: '5474'
   name: Uma Ruela
   vnum: '01010545474'
-- description: |-
-    Você está em uma pequena passagem subterrânea embaixo da cidade.  Você vê
-    um pequeno brilho de luz vindo de cima e as passagens continuam ao sul.
+- description: 'Você está em uma pequena passagem subterrânea embaixo da cidade.  Você
+    vê
+
+    um pequeno brilho de luz vindo de cima e as passagens continuam ao sul.'
   exits:
     south:
       target_vnum: '01010545476'
@@ -1099,9 +1254,10 @@
   local_id: '5477'
   name: O Subterrâneo
   vnum: '01010545477'
-- description: |-
-    A passagem leva ao sul e ao oeste.  Você percebe um pequeno brilho de luz
-    vindo de cima.
+- description: 'A passagem leva ao sul e ao oeste.  Você percebe um pequeno brilho
+    de luz
+
+    vindo de cima.'
   exits:
     south:
       target_vnum: '01010545457'
@@ -1112,10 +1268,11 @@
   local_id: '5478'
   name: O Subterrâneo
   vnum: 01010545478
-- description: |-
-    A passagem termina aqui e você ouve alguma canção vinda do oeste.  Você
+- description: 'A passagem termina aqui e você ouve alguma canção vinda do oeste.  Você
+
     também nota uma clareira em meio a poeira no chão, mas não parece ver
-    nenhuma porta nesta direção.
+
+    nenhuma porta nesta direção.'
   exits:
     east:
       target_vnum: '01010545477'
@@ -1131,9 +1288,10 @@
   local_id: '5480'
   name: O Subterrâneo
   vnum: 01010545480
-- description: |-
-    A pequena passagem leva a norte e a leste daqui.  Você ouve os sons da
-    cidade acima de você.
+- description: 'A pequena passagem leva a norte e a leste daqui.  Você ouve os sons
+    da
+
+    cidade acima de você.'
   exits:
     east:
       target_vnum: 01010545482
@@ -1144,9 +1302,10 @@
   local_id: '5481'
   name: O Subterrâneo
   vnum: 01010545481
-- description: |-
-    O túnel continua a oeste e a leste.  Felizmente você tem um bom senso de
-    direção.
+- description: 'O túnel continua a oeste e a leste.  Felizmente você tem um bom senso
+    de
+
+    direção.'
   exits:
     east:
       target_vnum: 01010545492
@@ -1155,11 +1314,14 @@
   local_id: '5482'
   name: O Subterrâneo
   vnum: 01010545482
-- description: |-
-    No alto, acima de você, no topo da parede da cidade, guardas olham para
+- description: 'No alto, acima de você, no topo da parede da cidade, guardas olham
+    para
+
     baixo para ver se você quer sair da cidade pela água.  Para isso você deve
+
     abrir o portão de ferro acima de você.  O horrível cheiro do lixo chega a
-    você vindo da costa.
+
+    você vindo da costa.'
   exits:
     east:
       target_vnum: '01010545624'
@@ -1168,10 +1330,12 @@
   local_id: '5483'
   name: O Rio Ishtar
   vnum: 01010545483
-- description: |-
-    O suave fluir do rio o leva para o leste, ao longo do cominho você vê
+- description: 'O suave fluir do rio o leva para o leste, ao longo do cominho você
+    vê
+
     casais passeando.  Ao oeste você vê a ponte sul e ao leste você vê o portão
-    de ferro protegendo a cidade de visitas indesejáveis.
+
+    de ferro protegendo a cidade de visitas indesejáveis.'
   exits:
     east:
       target_vnum: 01010545483
@@ -1180,11 +1344,14 @@
   local_id: '5484'
   name: O Rio Ishtar
   vnum: 01010545484
-- description: |-
-    Você pode sua voz ecoar enquanto flutua abaixo da ponte.  Recentemente os
+- description: 'Você pode sua voz ecoar enquanto flutua abaixo da ponte.  Recentemente
+    os
+
     trabalhadores terminaram o pequeno corrimão, dando fácil acesso para as
+
     pessoas, levando ao rio.  Ao oeste e leste você vê o rio fluindo pela
-    cidade.
+
+    cidade.'
   exits:
     east:
       target_vnum: 01010545484
@@ -1195,10 +1362,12 @@
   local_id: '5485'
   name: O Rio Ishtar
   vnum: 01010545485
-- description: |-
-    Esta parte do rio parece cheia de atividades.  Barcos atracados ás docas
+- description: 'Esta parte do rio parece cheia de atividades.  Barcos atracados ás
+    docas
+
     perto da rampa norte daqui fazem da navegação um pouco difícil.  Enquanto o
-    rio flui ao leste você pode ver a ponte sul nesta direção.
+
+    rio flui ao leste você pode ver a ponte sul nesta direção.'
   exits:
     east:
       target_vnum: 01010545485
@@ -1209,10 +1378,11 @@
   local_id: '5486'
   name: O Rio Ishtar
   vnum: 01010545486
-- description: |-
-    O rio flui através de um grande portão de ferro para a selva.  Fortes
+- description: 'O rio flui através de um grande portão de ferro para a selva.  Fortes
+
     guardas esperam uma ordem para abrir o portão, no caso de algum cidadão
-    queira entrar ou sair.
+
+    queira entrar ou sair.'
   exits:
     east:
       target_vnum: 01010545486
@@ -1221,20 +1391,24 @@
   local_id: '5487'
   name: O Rio Ishtar
   vnum: 01010545487
-- description: |-
-    Você parece ter tropeçado em uma pequena passagem.  A parede ao oeste não
+- description: 'Você parece ter tropeçado em uma pequena passagem.  A parede ao oeste
+    não
+
     parece muito firme, mas procurando bem, ela não revela nenhuma porta
-    secreta.  A única saída é ao leste.
+
+    secreta.  A única saída é ao leste.'
   exits:
     east:
       target_vnum: 01010545489
   local_id: '5488'
   name: Uma Passagem Escura
   vnum: 01010545488
-- description: |-
-    A pequena passagem continua a leste e a oeste daqui.  Novamente você nota
+- description: 'A pequena passagem continua a leste e a oeste daqui.  Novamente você
+    nota
+
     algo de peculiar na parede, desta vez ao norte, mas você falha em encontrar
-    alguma passagem secreta.  Vozes podem ser languidamente ouvidas do norte.
+
+    alguma passagem secreta.  Vozes podem ser languidamente ouvidas do norte.'
   exits:
     east:
       target_vnum: 01010545490
@@ -1252,11 +1426,13 @@
   local_id: '5490'
   name: Uma Passagem Escura
   vnum: 01010545490
-- description: |-
-    A pequena passagem termina aqui sem razão aparente.  Olhando em volta
+- description: 'A pequena passagem termina aqui sem razão aparente.  Olhando em volta
+
     você vê uma pequena escada mal construída em meio a sujeira.  Subindo pela
+
     escada você encontra uma porta secreta no teto.  A passagem continua a oeste
-    daqui.
+
+    daqui.'
   exits:
     up:
       target_vnum: '01010545570'
@@ -1283,11 +1459,14 @@
   local_id: '5493'
   name: O Subterrâneo
   vnum: 01010545493
-- description: |-
-    Você está caminhando por uma estrada que liga o portão sul ao centro de
+- description: 'Você está caminhando por uma estrada que liga o portão sul ao centro
+    de
+
     Nova Thalos.  Aqui já é difícil ouvir os sonos do mercado, o que deixa o
+
     ambiente muito tranqüilo.  A praça comum fica ao norte, e a estrada continua
-    para o sul.
+
+    para o sul.'
   exits:
     north:
       target_vnum: '01010545410'
@@ -1296,43 +1475,52 @@
   local_id: '5494'
   name: A Estrada Sul
   vnum: 01010545494
-- description: |-
-    Você está caminhando por uma estrada que liga o portão sul ao centro de
+- description: 'Você está caminhando por uma estrada que liga o portão sul ao centro
+    de
+
     Nova Thalos.  Não há muitas pessoas caminhando por aqui, e o ambiente é
+
     muito tranqüilo, longe do barulho e o caos do mercado de Nova Thalos.  A
+
     estrada continua para o norte, e você pode ver uma ponte para o sul.  Para o
+
     leste e o oeste você vê fileiras de casas.  Provavelmente você está na parte
-    residencial da cidade.
+
+    residencial da cidade.'
   exits:
     down:
-      target_vnum: '010105412400'
+      target_vnum: '01010242400'
     east:
-      target_vnum: '010105412411'
+      target_vnum: '01010242411'
     north:
       target_vnum: 01010545494
     south:
       target_vnum: '01010545412'
     west:
-      target_vnum: '010105412410'
+      target_vnum: '01010242410'
   local_id: '5495'
   name: A Estrada Sul
   vnum: 01010545495
-- description: |-
-    Você está em uma estreita rua na cidade de Nova Thalos.  O caminho leva
+- description: 'Você está em uma estreita rua na cidade de Nova Thalos.  O caminho
+    leva
+
     tanto à estrada principal que segue pelo norte da praça central, a oeste,
-    quanto a uma enorme árvore de aparência muito suspeita, a leste.
+
+    quanto a uma enorme árvore de aparência muito suspeita, a leste.'
   exits:
     east:
-      target_vnum: 01010544978
+      target_vnum: 01010494978
     west:
       target_vnum: '01010545421'
   local_id: '5496'
   name: Uma Estreita Rua
   vnum: 01010545496
-- description: |-
-    Você entá em uma rua de parelelepípedos aparentemente pouco usada.  Há a
+- description: 'Você entá em uma rua de parelelepípedos aparentemente pouco usada.  Há
+    a
+
     leste daqui uma estranha estrutura, enquanto a oeste fica o Passeio do
-    Sultão.
+
+    Sultão.'
   exits:
     east:
       target_vnum: 010105418600
@@ -1341,21 +1529,24 @@
   local_id: '5497'
   name: Uma Travessa do Passeio do Sultão
   vnum: 01010545497
-- description: |-
-    Você está em uma sala pequena onde pilhas de correspondências e
+- description: 'Você está em uma sala pequena onde pilhas de correspondências e
+
     encomendas são encontradas cobrindo as paredes.  Há muita desordem e sujeira
+
     por todos os lados.  Atrás do balcão há um velho senhor, esperando para
-    atendê-lo.  Há uma discreta placa sobre o balcão.
+
+    atendê-lo.  Há uma discreta placa sobre o balcão.'
   exits:
     east:
       target_vnum: '01010545404'
   local_id: '5498'
   name: O Correio de Nova Thalos
   vnum: 01010545498
-- description: |-
-    Você está em um corredor parcamente iluminado.  O barulho do Demônio
+- description: 'Você está em um corredor parcamente iluminado.  O barulho do Demônio
+
     Dançante parece não chegar aqui, já que não é possível ouvir nada, nem vindo
-    do norte, nem do sul. Uma placa chama sua atenção.
+
+    do norte, nem do sul. Uma placa chama sua atenção.'
   exits:
     north:
       target_vnum: '01010545402'
@@ -1391,11 +1582,13 @@
   local_id: '5502'
   name: O Subterrâneo
   vnum: '01010545502'
-- description: |-
-    Você desce a escadaria no silencioso santuário interno.  Aqui se situa
+- description: 'Você desce a escadaria no silencioso santuário interno.  Aqui se situa
+
     seu Mestre pronto para o ajudar quando o tempo é certo.  A câmara
+
     está completamente silenciosa.  A única saída óbvia é de volta para
-    a escadaria, no Néctar.
+
+    a escadaria, no Néctar.'
   exits:
     east:
       target_vnum: 01010545479
@@ -1404,12 +1597,15 @@
   local_id: '5503'
   name: O Santuário dos Clérigos
   vnum: '01010545503'
-- description: |-
-    Você entrou na câmara do homem mais santificado em Nova Thalos.  O
+- description: 'Você entrou na câmara do homem mais santificado em Nova Thalos.  O
+
     Alto Sacerdote aconselha o Sultão em todos os assuntos no mundo sacro.
+
     Do que você ouviu porém, este homem sagrado homem possui algum temperamento,
+
     e ele não parece muito feliz por você ter perturbado suas orações.
-    A saída mais obvia é para sul.
+
+    A saída mais obvia é para sul.'
   exits:
     south:
       target_vnum: 01010545508
@@ -1426,21 +1622,24 @@
   local_id: '5505'
   name: No Altar
   vnum: '01010545505'
-- description: |-
-    Filas e filas de tecidos repousam aqui, aguardando para serem
+- description: 'Filas e filas de tecidos repousam aqui, aguardando para serem
+
     Costuradas e proverem roupas.  Elas são trazidas do campo, tornadas
+
     roupas e tingidas em cores diferentes.  Um jovem garoto caminha
-    até uma delas, a pega e sai.
+
+    até uma delas, a pega e sai.'
   exits:
     east:
       target_vnum: '01010545461'
   local_id: '5506'
   name: A Guilda dos Tecelães
   vnum: '01010545506'
-- description: |-
-    Você entrou em uma ocupada oficina cheia de pessoas correndo
+- description: 'Você entrou em uma ocupada oficina cheia de pessoas correndo
+
     com várias ferramentas e materiais.  O ar está tenso com a pressa de
-    completar os vários projetos e criações.
+
+    completar os vários projetos e criações.'
   exits:
     west:
       target_vnum: '01010545461'
@@ -1461,12 +1660,16 @@
   local_id: '5508'
   name: Dentro do Templo
   vnum: 01010545508
-- description: |-
-    Enormes pilares marmóreos ascendem por todos os seus lados, segurando o
+- description: 'Enormes pilares marmóreos ascendem por todos os seus lados, segurando
+    o
+
     teto.  Entre cada um desses há cenas épicas da história religiosa de Nova
+
     Thalos.  Uma fila de esculturas estão voltadas para o púlpito, dedicando
+
     toda sua atenção.  O fundo carpete vermelho sob seus pés parece não ter uma
-    marca de uso ou sujeira.
+
+    marca de uso ou sujeira.'
   exits:
     east:
       target_vnum: '01010545510'
@@ -1479,23 +1682,29 @@
   local_id: '5509'
   name: Dentro do Templo
   vnum: 01010545509
-- description: |-
-    Essa sala é nova no Templo, ela foi criada durante tempos difíceis que
+- description: 'Essa sala é nova no Templo, ela foi criada durante tempos difíceis
+    que
+
     golpearam a cidade em décadas recentes.  Afortunadamente o Sultão armazenou
+
     um pouco das necessidades básicas para tal ocasião.  Estes dias a Sala de
+
     Doações depende da generosidade de ricos aventureiros, e uma maldição para
-    aquele que entrar para roubar.
+
+    aquele que entrar para roubar.'
   exits:
     west:
       target_vnum: 01010545509
   local_id: '5510'
   name: A Sala de Doações
   vnum: '01010545510'
-- description: |-
-    Quatro grandes estátuas de pedra habitam o museu.  Elas foram construídas
+- description: 'Quatro grandes estátuas de pedra habitam o museu.  Elas foram construídas
+
     pelo povo de Nova Thalos em ação de graça para os santos que eles acreditam
+
     terem salvado suas vidas.
-    O museu continua para o sul.
+
+    O museu continua para o sul.'
   exits:
     south:
       target_vnum: '01010545516'
@@ -1504,11 +1713,13 @@
   local_id: '5511'
   name: O Museu dos Grandes Deuses
   vnum: '01010545511'
-- description: |-
-    Este corredor empalidece com corredor principal, mas é belo de sua
+- description: 'Este corredor empalidece com corredor principal, mas é belo de sua
+
     própria forma.  Homens carecas com roupões marrons podem ser vistos moendo e
+
     conversando silenciosamente uns entre os outros.  A norte está o caminho de
-    volta para o próprio Templo, e a sul fica a entrada para o bar dos clérigos.
+
+    volta para o próprio Templo, e a sul fica a entrada para o bar dos clérigos.'
   exits:
     north:
       target_vnum: 01010545508
@@ -1517,11 +1728,13 @@
   local_id: '5512'
   name: A Entrada Para a Guilda dos Clérigos
   vnum: '01010545512'
-- description: |-
-    Você está antes do caminho de entrada para o Templo de Nova Thalos.  Dois
+- description: 'Você está antes do caminho de entrada para o Templo de Nova Thalos.  Dois
+
     grandes portões de ferro forjado ascendem abertos próximos a você.  Embora
+
     eles possam nem sempre serem usados pelos sacerdotes do Templo, estão
-    prontos para defende-los, caso a cidade venha a estar novamente sob perigo.
+
+    prontos para defende-los, caso a cidade venha a estar novamente sob perigo.'
   exits:
     down:
       target_vnum: '01010545520'
@@ -1532,33 +1745,39 @@
   local_id: '5513'
   name: Os Portões do Templo
   vnum: '01010545513'
-- description: |-
-    Você está em uma loja em que o chão está coberto por uma fumaça
+- description: 'Você está em uma loja em que o chão está coberto por uma fumaça
+
     sutilmente rotativa.  Ahkeem parece ter um fascínio por coisas que não são
-    desse mundo...  Pertences muito estranhos, de fato.
+
+    desse mundo...  Pertences muito estranhos, de fato.'
   exits:
     south:
       target_vnum: '01010545414'
   local_id: '5514'
   name: Os Pertences de Ahkeem
   vnum: '01010545514'
-- description: |-
-    Este é um lugar ocupado.  Os clientes andam ao redor, enquanto barganham
+- description: 'Este é um lugar ocupado.  Os clientes andam ao redor, enquanto barganham
+
     os preços da larga seleção de legumes.  Você ainda pode ouvir sua mãe
-    dizendo: 'Coma suas verduras'.  Isso é provavelmente por que você está
+
+    dizendo: ''Coma suas verduras''.  Isso é provavelmente por que você está
+
     desperdiçando tempo na cidade de Nova Thalos e não com ela.
-    Mas espere...  Vera parece com a sua mãe!
+
+    Mas espere...  Vera parece com a sua mãe!'
   exits:
     south:
       target_vnum: '01010545416'
   local_id: '5515'
   name: As Verduras de Vera
   vnum: '01010545515'
-- description: |-
-    Quatro grandes estátuas de pedra habitam o museu.  Elas foram construídas
+- description: 'Quatro grandes estátuas de pedra habitam o museu.  Elas foram construídas
+
     pelo povo de Nova Thalos em ação de graça para os santos que eles acreditam
+
     terem salvado suas vidas.
-    O museu continua para norte.
+
+    O museu continua para norte.'
   exits:
     north:
       target_vnum: '01010545511'
@@ -1567,11 +1786,13 @@
   local_id: '5516'
   name: O Museu dos Grandes Deuses
   vnum: '01010545516'
-- description: |-
-    Você entra em uma sala fria cuja única característica é uma velha
+- description: 'Você entra em uma sala fria cuja única característica é uma velha
+
     escadaria de madeira espiralada que leva ao nível acima.  Você ouviu que
+
     acima daqueles degraus aguarda o velho mago capaz de ajudar você em seus
-    estudos.
+
+    estudos.'
   exits:
     east:
       target_vnum: 01010545518
@@ -1582,11 +1803,13 @@
   local_id: '5517'
   name: A Base da Torre
   vnum: '01010545517'
-- description: |-
-    Você entra em um pátio ladrilhado com uma pequena fonte no meio.  Ao
+- description: 'Você entra em um pátio ladrilhado com uma pequena fonte no meio.  Ao
+
     redor do pátio há quatro bancos de ferro trabalhado, com almofadas, onde os
+
     magos dessas terras sentam e trocam idéias.  Para oeste situa-se a torre das
-    duas-histórias, onde o líder da Guilda dos magos executa seus experimentos.
+
+    duas-histórias, onde o líder da Guilda dos magos executa seus experimentos.'
   exits:
     south:
       target_vnum: '01010545525'
@@ -1595,12 +1818,16 @@
   local_id: '5518'
   name: O Pátio dos Magos
   vnum: 01010545518
-- description: |-
-    Você se assusta pela generosidade deste lugar.  Do que você conhece dos
+- description: 'Você se assusta pela generosidade deste lugar.  Do que você conhece
+    dos
+
     clérigos, eles são supostamente pessoas humildes, dando todos os seus bens
+
     materiais por sua causa.  Talvez porque só os clérigos são permitidos a
+
     entrar neste bar, eles toleram isso da forma mais confortável possível.  No
-    canto há uma escadaria que conduz abaixo, até a câmara de meditação.
+
+    canto há uma escadaria que conduz abaixo, até a câmara de meditação.'
   exits:
     down:
       target_vnum: '01010545503'
@@ -1609,11 +1836,13 @@
   local_id: '5519'
   name: Néctar dos Deuses
   vnum: 01010545519
-- description: |-
-    Você está na reunião daqueles com sacras intenções.  Monges, bardos,
+- description: 'Você está na reunião daqueles com sacras intenções.  Monges, bardos,
+
     paladinos e clérigos conversam, orando ou ouvindo as orações de seus
+
     companheiros.  Enormes degraus marmóreos conduzem até os portões do Templo e
-    a Rua Principal fica para o sul.
+
+    a Rua Principal fica para o sul.'
   exits:
     north:
       target_vnum: '01010545513'
@@ -1624,53 +1853,64 @@
   local_id: '5520'
   name: A Praça do Templo
   vnum: '01010545520'
-- description: |-
-    Você está em um grande edifício decorado com mármore negro e cetim
+- description: 'Você está em um grande edifício decorado com mármore negro e cetim
+
     vermelho.  Enormes pilares apoiam o alto teto curvado sobre sua cabeça.
+
     Enquanto mais você observa, mais você duvida da habilidade dos anões para os
-    detalhes.  Fios prateados separam os blocos polidos que fazem o chão.
+
+    detalhes.  Fios prateados separam os blocos polidos que fazem o chão.'
   exits:
     east:
       target_vnum: '01010545414'
   local_id: '5521'
   name: O Banco
   vnum: '01010545521'
-- description: |-
-    Esta loja tem o aroma de frescas bestas massacradas.  Você se sente em
-    casa.   Você vê uma organização satisfatória.  Os corpos...err...selecionados e
+- description: 'Esta loja tem o aroma de frescas bestas massacradas.  Você se sente
+    em
+
+    casa.   Você vê uma organização satisfatória.  Os corpos...err...selecionados
+    e
+
     pendurados em ganchos, sangram em panelas que escorrem direto para um único
-    barril subterrâneo.   Para onde será que isso conduz...
+
+    barril subterrâneo.   Para onde será que isso conduz...'
   exits:
     west:
       target_vnum: '01010545416'
   local_id: '5522'
   name: O Açougue
   vnum: '01010545522'
-- description: |-
-    A primeira coisa você nota conforme você entra nesta espaçosa loja, são
+- description: 'A primeira coisa você nota conforme você entra nesta espaçosa loja,
+    são
+
     as centenas de velas que revestem as estantes.  A névoa girando em torno de
+
     seus pés faz parecer que você entrou em um portal para outro plano.  Há uma
-    mesa desorganizada próxima à parede oposta à entrada.
+
+    mesa desorganizada próxima à parede oposta à entrada.'
   exits:
     south:
       target_vnum: 01010545429
   local_id: '5523'
   name: As Poções Da Bruxa
   vnum: '01010545523'
-- description: |-
-    Você entra em uma loja com estantes aglomeradas e pergaminhos amontoados.
+- description: 'Você entra em uma loja com estantes aglomeradas e pergaminhos amontoados.
+
     O dono parece trabalhar duro em sua mais recente criação mágica.
-    Você vê uma pequena placa na parede.
+
+    Você vê uma pequena placa na parede.'
   exits:
     south:
       target_vnum: '01010545430'
   local_id: '5524'
   name: A Loja de Mágicas de Braheem
   vnum: '01010545524'
-- description: |-
-    O corredor de entrada é um pequeno quarto pobremente iluminado.
+- description: 'O corredor de entrada é um pequeno quarto pobremente iluminado.
+
     Parece que seu único propósito é abrigar o poderoso feiticeiro
-    que está vigiando a entrada.
+
+    que está vigiando a entrada.'
   exits:
     north:
       target_vnum: 01010545518
@@ -1679,9 +1919,10 @@
   local_id: '5525'
   name: A Entrada Para a Torre Dos Magos
   vnum: '01010545525'
-- description: |-
-    Esta pequena sala é somente um obstáculo para manter seres indesejados do
-    lado de fora.
+- description: 'Esta pequena sala é somente um obstáculo para manter seres indesejados
+    do
+
+    lado de fora.'
   exits:
     north:
       target_vnum: '01010545423'
@@ -1701,34 +1942,43 @@
   local_id: '5527'
   name: A Loja de Reparos
   vnum: '01010545527'
-- description: |-
-    A nova riqueza encontrada dessa bela cidade são os exóticos itens à venda
-    aqui.  Você pensa no que será que irá acontecer se você digitar...  LIST...
+- description: 'A nova riqueza encontrada dessa bela cidade são os exóticos itens
+    à venda
+
+    aqui.  Você pensa no que será que irá acontecer se você digitar...  LIST...'
   exits:
     east:
       target_vnum: 01010545408
   local_id: '5528'
   name: O Armazém
   vnum: 01010545528
-- description: |-
-    O som de metal sendo martelado cresce conforme você entra na armaria.
+- description: 'O som de metal sendo martelado cresce conforme você entra na armaria.
+
     Garotos correm e carregam baldes de água e carvão por todos os lados.
+
     Alguns anões trabalham em setores da ferraria, atrás da loja, seus martelos
+
     trabalham rápida e continuamente.  As paredes são adornadas por todas as
+
     criações premiadas de Abdul.  Aqui comprar armaduras significa impedir
+
     monstros de te cortar em pequenos pedaços.   Uma nota na parede chama sua
-    atenção.
+
+    atenção.'
   exits:
     west:
       target_vnum: '01010545407'
   local_id: '5529'
   name: A Armoriaria de Abdul
   vnum: 01010545529
-- description: |-
-    Esta Guilda é reprovada pela maior parte da população de Nova Thalos, mas
+- description: 'Esta Guilda é reprovada pela maior parte da população de Nova Thalos,
+    mas
+
     as leis de provisão e demanda são inquestionáveis.  Pessoas vêm aqui quando
+
     se sentem incapaz ou estão pouco dispostas lutar suas próprias batalhas.
-    Por uma pequena taxa, você pode contratar um assassino.
+
+    Por uma pequena taxa, você pode contratar um assassino.'
   exits:
     east:
       target_vnum: '01010545532'
@@ -1742,10 +1992,11 @@
   local_id: '5531'
   name: A Guilda dos Mercenários
   vnum: '01010545531'
-- description: |-
-    Este pequeno e escuro quarto tem uma única tocha presa na parede como
+- description: 'Este pequeno e escuro quarto tem uma única tocha presa na parede como
+
     iluminação.  Há um pequeno banco de madeira e um livro sobre ele.  O
-    assassino que vigia a entrada de 'estranhos' aparece conforme você caminha.
+
+    assassino que vigia a entrada de ''estranhos'' aparece conforme você caminha.'
   exits:
     south:
       target_vnum: 01010545539
@@ -1754,12 +2005,15 @@
   local_id: '5532'
   name: A Entrada Para a Guilda dos Ladrões
   vnum: '01010545532'
-- description: |-
-    Grandes homens com enormes espadas bebem cerveja de canecas muito
+- description: 'Grandes homens com enormes espadas bebem cerveja de canecas muito
+
     grandes.  Tudo nesta sala é GRANDE.  As largas mesas redondas estão
+
     desgastadas e possuem marcas das numerosas rixas de bar que ocorreram.  Pode
+
     ser uma boa idéia manter a boca fechada enquanto está por aqui.   Há uma saída
-    a leste onde o mestre espadachim aguarda para treinar os alunos.
+
+    a leste onde o mestre espadachim aguarda para treinar os alunos.'
   exits:
     east:
       target_vnum: '01010545534'
@@ -1768,11 +2022,13 @@
   local_id: '5533'
   name: O Afia Pedra
   vnum: '01010545533'
-- description: |-
-    Esta é um largo espaço gramado cheio de indivíduos, alguns esmurrando
+- description: 'Esta é um largo espaço gramado cheio de indivíduos, alguns esmurrando
+
     sacos e outros treinando com espadas.  A norte você vê um homem vestido em
+
     roupões pretos, ao contrário de seus camaradas, quem você assume ser seu
-    mestre.
+
+    mestre.'
   exits:
     east:
       target_vnum: '01010545473'
@@ -1781,54 +2037,65 @@
   local_id: '5534'
   name: Pátio de Prática e Torneio
   vnum: '01010545534'
-- description: |-
-    Um pequeno posto foi fixo aqui, mostrando a humilde seleção do lojista.
-    Você nota que ele acrescentou alguns coisas à sua lista.
+- description: 'Um pequeno posto foi fixo aqui, mostrando a humilde seleção do lojista.
+
+    Você nota que ele acrescentou alguns coisas à sua lista.'
   exits:
     north:
       target_vnum: 01010545408
   local_id: '5535'
   name: O Posto de Pão
   vnum: '01010545535'
-- description: |-
-    Você não consegue parar de tremer conforme observa a assustadora coleção
+- description: 'Você não consegue parar de tremer conforme observa a assustadora coleção
+
     de armas.  Enormes espadas e maldosos machados presos em estacas por toda a
+
     loja.  Um anão se senta em um banco no fundo da loja e martela sua mais nova
+
     criação.  Aqui você pode comprar raros e exóticos itens não encontrados em
-    nenhuma outra parte do mundo.  Uma nota prende seu olhar.
+
+    nenhuma outra parte do mundo.  Uma nota prende seu olhar.'
   exits:
     north:
       target_vnum: '01010545407'
   local_id: '5536'
   name: Instrumentos de Destruição de Igor
   vnum: '01010545536'
-- description: |-
-    Você está sobre um grosso tapete oriental cercado por todos os lados por
+- description: 'Você está sobre um grosso tapete oriental cercado por todos os lados
+    por
+
     prateleiras com numerosos bens de couro.  Há algumas mulheres sentadas em
-    almofadas de couro trabalhando detalhes em jaquetas.
+
+    almofadas de couro trabalhando detalhes em jaquetas.'
   exits:
     east:
       target_vnum: '01010545466'
   local_id: '5537'
   name: A Velha Loja de Couro
   vnum: '01010545537'
-- description: |-
-    Você está dentro de uma hospedaria imunda, que aparentemente foi limpada
+- description: 'Você está dentro de uma hospedaria imunda, que aparentemente foi limpada
+
     a décadas.  Mesas de pôquer revestem as paredes e todos o encaram assim que
+
     você entra, você não sente muito bem vindo.  O bar possui inúmeros buracos
-    de faca e o garçom parece esperar as suas ordens.
+
+    de faca e o garçom parece esperar as suas ordens.'
   exits:
     west:
       target_vnum: '01010545467'
   local_id: '5538'
   name: Hospedaria do Contrabandista
   vnum: 01010545538
-- description: |-
-    Um sopro esfria seus ossos assim que você entra, entretanto você não vê
+- description: 'Um sopro esfria seus ossos assim que você entra, entretanto você não
+    vê
+
     nenhuma janela ou porta aberta.  Figuras cobertas espreitam nas sombras por
+
     todos os lados, e sussurram.  Um flash de aço o faz saber da quantidade de
+
     lâminas que há nessa multidão.  Assim que você rapidamente confere sua
-    carteira, você nota uma pequena escadaria que conduz a baixo.
+
+    carteira, você nota uma pequena escadaria que conduz a baixo.'
   exits:
     down:
       target_vnum: '01010545546'
@@ -1837,10 +2104,12 @@
   local_id: '5539'
   name: O Unicórnio Imundo
   vnum: 01010545539
-- description: |-
-    Você está em uma grande sala usada para guardar mercadorias feitas na
+- description: 'Você está em uma grande sala usada para guardar mercadorias feitas
+    na
+
     cidade antes de serem exportadas.  Todos os itens aqui são feitos em Nova
-    Thalos e exportados para todas as partes do mundo.
+
+    Thalos e exportados para todas as partes do mundo.'
   exits:
     east:
       target_vnum: '01010545541'
@@ -1849,11 +2118,14 @@
   local_id: '5540'
   name: O Armazém
   vnum: '01010545540'
-- description: |-
-    Homens caminham e carregam engradados por todos os lados e escrevem seus
+- description: 'Homens caminham e carregam engradados por todos os lados e escrevem
+    seus
+
     achados.  Essa área do armazém é usada para armazenagem de materiais crus
+
     comprados em áreas fora da cidade.  Esses bens são, então, entregues para as
-    várias associações.  A área de exportação do armazém fica a sul.
+
+    várias associações.  A área de exportação do armazém fica a sul.'
   exits:
     south:
       target_vnum: '01010545434'
@@ -1862,11 +2134,13 @@
   local_id: '5541'
   name: O Armazém
   vnum: '01010545541'
-- description: |-
-    A madeira abaixo de seus pés range pelos anos banhadas em águas salgadas.
+- description: 'A madeira abaixo de seus pés range pelos anos banhadas em águas salgadas.
+
     Um velho homem com uma ondulada barba cinza está atrás do pequeno balcão
+
     esperando suas ordens.  Atrás dele há vários modelos de veleiros e enormes
-    peixes.
+
+    peixes.'
   exits:
     east:
       target_vnum: '01010545543'
@@ -1875,31 +2149,36 @@
   local_id: '5542'
   name: O Porto
   vnum: '01010545542'
-- description: |-
-    As paredes são cobertas com esboços de cascos.  Essa sala é usada pelo
-    porto para as criações em esboços antes da construção em madeira.
+- description: 'As paredes são cobertas com esboços de cascos.  Essa sala é usada
+    pelo
+
+    porto para as criações em esboços antes da construção em madeira.'
   exits:
     west:
       target_vnum: '01010545542'
   local_id: '5543'
   name: A Sala de Desenhos
   vnum: '01010545543'
-- description: |-
-    Como muitos armeiros, esse homem negocia na modelagem de metais.  Parece
+- description: 'Como muitos armeiros, esse homem negocia na modelagem de metais.  Parece
+
     que a maioria de suas criações lidam com cavalos.  Nas paredes você vê
+
     muitas ferraduras feiras de ferro.  A sala é quente, tão quente quanto o
-    deserto a sul daqui, e você se pergunta como alguém pode ficar aqui.
+
+    deserto a sul daqui, e você se pergunta como alguém pode ficar aqui.'
   exits:
     south:
       target_vnum: '01010545437'
   local_id: '5544'
   name: A Forja
   vnum: '01010545544'
-- description: |-
-    Aqui não há nada que você não esperaria.  Várias baias seguram os
+- description: 'Aqui não há nada que você não esperaria.  Várias baias seguram os
+
     Garanhões árabes escolhidos do Sultão, e cada uma possui seu próprio cocho
+
     para beber.  Um pequeno garoto vaga com uma pá para remover o subproduto
-    ofensivo das bestas.
+
+    ofensivo das bestas.'
   exits:
     east:
       target_vnum: 01010545549
@@ -1908,11 +2187,13 @@
   local_id: '5545'
   name: Os Estábulos Reais
   vnum: '01010545545'
-- description: |-
-    Esse é um pátio oculto conhecido apenas por algumas pessoas em Nova
+- description: 'Esse é um pátio oculto conhecido apenas por algumas pessoas em Nova
+
     Thalos.  Aqui você pode treinar as artes de roubar, arrombar fechaduras e se
+
     tornar quase invisível.  Uma pequena escadaria conduz abaixo, para o
-    Unicórnio.
+
+    Unicórnio.'
   exits:
     south:
       target_vnum: 01010545489
@@ -1921,45 +2202,57 @@
   local_id: '5546'
   name: O Pátio Secreto
   vnum: '01010545546'
-- description: |-
-    Esse é o lugar onde as pessoas da cidade amontoam seu lixo.  Devido aos
+- description: 'Esse é o lugar onde as pessoas da cidade amontoam seu lixo.  Devido
+    aos
+
     constantes ventos vindos das montanhas, o cheiro é geralmente carregado para
-    fora dos muros e para o deserto.
+
+    fora dos muros e para o deserto.'
   exits:
     south:
       target_vnum: '01010545442'
   local_id: '5547'
   name: O Depósito de Lixo
   vnum: '01010545547'
-- description: |-
-    Você está no topo de uma velha torre de rochas.  Ao longo das paredes
+- description: 'Você está no topo de uma velha torre de rochas.  Ao longo das paredes
+
     centenas de poções, pergaminhos, e varinhas repousam em pura desordem.  Você
+
     vê um homem sentado, curvado sobre uma pequena mesa de madeira com duas
+
     provetas de líquidos borbulhantes à sua frente.  Ele olha para você assim
-    que você entra e sorri amplamente.
+
+    que você entra e sorri amplamente.'
   exits:
     down:
       target_vnum: '01010545517'
   local_id: '5548'
   name: O Laborátório dos Magos
   vnum: 01010545548
-- description: |-
-    Não tão grande quanto os que você viu nas fazendas no campo, esse sótão
+- description: 'Não tão grande quanto os que você viu nas fazendas no campo, esse
+    sótão
+
     de feno serve como área de armazenamento para os cavalos no estábulo.  O
-    jovem garoto que você viu com a pá parece ter feito residência por aqui.
+
+    jovem garoto que você viu com a pá parece ter feito residência por aqui.'
   exits:
     west:
       target_vnum: '01010545545'
   local_id: '5549'
   name: O Sótão de Feno
   vnum: 01010545549
-- description: |-
-    Em nenhuma parte você viu uma demonstração tão obscena de riquezas como
+- description: 'Em nenhuma parte você viu uma demonstração tão obscena de riquezas
+    como
+
     nesse corredor.  O Carpete felpudo sob seus pés faz você pensar que está
+
     andando em uma nuvem.  Candelabros de platina pendurados delicadamente do
+
     teto iluminam as tapeçarias que adornam as paredes.  A caimbra no seu pescoço
+
     diz a você que é hora de parar de olhar.  Para oeste ficam os numerosos
-    corredores do palácio e o portão situa-se a leste.
+
+    corredores do palácio e o portão situa-se a leste.'
   exits:
     east:
       target_vnum: 01010545558
@@ -1972,88 +2265,107 @@
   local_id: '5550'
   name: A Grande Entrada
   vnum: '01010545550'
-- description: |-
-    Essas construções abrange uma vasta coleção de livros e documentos que
+- description: 'Essas construções abrange uma vasta coleção de livros e documentos
+    que
+
     foram comprados aqui pelo comitê responsável em recuperar o conhecimento
+
     perdido de Thalos.  Filas de estantes com livros em todas as condições
-    preenchem as paredes.  O ar tem o aroma de pergaminho velho e cola.
+
+    preenchem as paredes.  O ar tem o aroma de pergaminho velho e cola.'
   exits:
     east:
       target_vnum: '01010545455'
   local_id: '5551'
   name: A Biblioteca
   vnum: '01010545551'
-- description: |-
-    Você vê que perdeu uma enorme festa.  Os zeladores estão aqui limpando os
+- description: 'Você vê que perdeu uma enorme festa.  Os zeladores estão aqui limpando
+    os
+
     confetes e pedaços de comida.  Centenas de canecas de cerveja vazias nas
+
     mesas que rodeiam a pista de danças sugerem que os cidadãos adoram sua
-    bebida.   Há ainda uma grande faixa na parede.
+
+    bebida.   Há ainda uma grande faixa na parede.'
   exits:
     east:
       target_vnum: '01010545456'
   local_id: '5552'
   name: O Salão de Danças
   vnum: '01010545552'
-- description: |-
-    Você está na cadeia.  Por alguma razão, alguém sente que você se
-    comportou muito mal e que deve ser colocado a salvo por um tempo.
+- description: 'Você está na cadeia.  Por alguma razão, alguém sente que você se
+
+    comportou muito mal e que deve ser colocado a salvo por um tempo.'
   exits:
     north:
       target_vnum: '01010545444'
   local_id: '5553'
   name: A Prisão
   vnum: '01010545553'
-- description: |-
-    Você está dentro da cabeça administrativa da cidade.  Aqui as decisões
+- description: 'Você está dentro da cabeça administrativa da cidade.  Aqui as decisões
+
     relacionadas à política da cidade são feitas.  Embora a palavra do Sultão
-    seja lei, ele normalmente gasta seu tempo em negócios fora da cidade.
+
+    seja lei, ele normalmente gasta seu tempo em negócios fora da cidade.'
   exits:
     north:
       target_vnum: '01010545445'
   local_id: '5554'
   name: A Prefeitura
   vnum: '01010545554'
-- description: |-
-    As paredes nessa sala são cobertas com cavilhas que seguram vários tipo
+- description: 'As paredes nessa sala são cobertas com cavilhas que seguram vários
+    tipo
+
     de arcos.  Há poucas pessoas trabalhando aqui, levando em consideração que
+
     habilidades vêem raramente de uma população geral.  Alguns garotos estão
+
     ocupados no canto preparando penas para os finos cabos que serão usados para
+
     fazer flechas.  Alguns artesãos elfos estão cuidadosamente inspecionando
-    cada arco conforme são terminados.
+
+    cada arco conforme são terminados.'
   exits:
     east:
       target_vnum: '01010545460'
   local_id: '5555'
   name: A Guilda dos Caçadores e Arqueiros
   vnum: '01010545555'
-- description: |-
-    Não há dúvida que os Anões aqui sabem o que estão fazendo.  Eles foram
+- description: 'Não há dúvida que os Anões aqui sabem o que estão fazendo.  Eles foram
+
     inestimáveis na construção dessa bela cidade.  Aqui eles são a mão-de-obra,
+
     fazendo o que eles fazem melhor.  Os martelos voam conforme esses talentosos
+
     artesãos transformam a rocha em blocos ornamentados, pilares, decorações e
-    muitas outras coisas.
+
+    muitas outras coisas.'
   exits:
     west:
       target_vnum: '01010545460'
   local_id: '5556'
   name: A Guilda dos Pedreiros
   vnum: '01010545556'
-- description: |-
-    Você está dentro da parte sul dos dois postos principais de guarda.  O
+- description: 'Você está dentro da parte sul dos dois postos principais de guarda.  O
+
     interior de pedra possui um ar espartano, só o necessário.  Umas poucas
-    armas estão colocadas nas paredes em caso de serem necessárias.
+
+    armas estão colocadas nas paredes em caso de serem necessárias.'
   exits:
     north:
       target_vnum: '01010545550'
   local_id: '5557'
   name: A Sala de Guarda
   vnum: '01010545557'
-- description: |-
-    Você está um pouco antes dos magníficos portões feitos em ouro sólido.
+- description: 'Você está um pouco antes dos magníficos portões feitos em ouro sólido.
+
     Você se assombra com o esplendor das torres espiraladas além do portão.  A
+
     regra de todas as terras do leste reside neste fino palácio, e ele não é nem
+
     um pouco pobre.  A grande entrada fica além do portão, e o Passeio do Sultão
-    fica para leste.
+
+    fica para leste.'
   exits:
     east:
       target_vnum: '01010545420'
@@ -2062,33 +2374,42 @@
   local_id: '5558'
   name: Os Portões do Palácio
   vnum: 01010545558
-- description: |-
-    Você está em uma das quatro torres que guardam a cidade.  A vista daqui é
+- description: 'Você está em uma das quatro torres que guardam a cidade.  A vista
+    daqui é
+
     maravilhosa!  Para oeste você vê as altas montanhas que dividem Nova Thalos
-    de Midgaard.  O Rio Ishtar fui lentamente daquela direção.
+
+    de Midgaard.  O Rio Ishtar fui lentamente daquela direção.'
   exits:
     down:
       target_vnum: '01010545444'
   local_id: '5559'
   name: A Torre Noroeste
   vnum: 01010545559
-- description: |-
-    Você está na parte norte dos dois postos de guarda.  Fortes guardas estão
+- description: 'Você está na parte norte dos dois postos de guarda.  Fortes guardas
+    estão
+
     sentados aqui, jogando cartas.  O Interior rochoso é limpo mas as paredes
-    são rodeadas de armas e armaduras.   A única saída é a sul.
+
+    são rodeadas de armas e armaduras.   A única saída é a sul.'
   exits:
     south:
       target_vnum: '01010545550'
   local_id: '5560'
   name: A Sala da Guarda
   vnum: '01010545560'
-- description: |-
-    Seus passos ecoam o ladrilho da cozinha.  Na parede sul você vê o enorme
+- description: 'Seus passos ecoam o ladrilho da cozinha.  Na parede sul você vê o
+    enorme
+
     fogão e uma enorme panela de cobre com água fervente.  O Chefe da cozinha
+
     está ocupado cortando vagem e outros vegetais na mesa de madeira para a
+
     janta.  Criados correm com utensílios para preparar lebres frescas.   Uma
+
     pequena porta conduz ao corredor a norte e a entrada para o saguão de jantar é
-    para oeste.
+
+    para oeste.'
   exits:
     north:
       target_vnum: '01010545563'
@@ -2097,19 +2418,21 @@
   local_id: '5561'
   name: A Cozinha
   vnum: '01010545561'
-- description: |-
-    Você está em uma das quatro torres que guardam a cidade.  Para norte você
+- description: 'Você está em uma das quatro torres que guardam a cidade.  Para norte
+    você
+
     vê as amplas plantações e então o forte.  A sul daqui você vê a cidade e
-    além o Grande Deserto Oriental.
+
+    além o Grande Deserto Oriental.'
   exits:
     down:
       target_vnum: '01010545454'
   local_id: '5562'
   name: A Torre Nordeste
   vnum: '01010545562'
-- description: |-
-    Você está no fim leste do corredor do sul.  Uma pequena entrada de
-    criados dá acesso à cozinha e o corredor continua a oeste.
+- description: 'Você está no fim leste do corredor do sul.  Uma pequena entrada de
+
+    criados dá acesso à cozinha e o corredor continua a oeste.'
   exits:
     south:
       target_vnum: '01010545561'
@@ -2118,21 +2441,26 @@
   local_id: '5563'
   name: Um Corredor
   vnum: '01010545563'
-- description: |-
-    A primeira coisa que você nota assim que entra nesse lugar estranho é o
+- description: 'A primeira coisa que você nota assim que entra nesse lugar estranho
+    é o
+
     cheiro de bens de couro tostados.  A próxima coisa que chama sua atenção são
+
     as várias cores que essas pessoas transformarão as belas peles.  As pessoas
+
     estão transformando o couro e cortando nas formas que necessitam.
-    Você nota uma pequena mensagem na parede.
+
+    Você nota uma pequena mensagem na parede.'
   exits:
     east:
       target_vnum: '01010545462'
   local_id: '5564'
   name: A Guilda dos Curtidores
   vnum: '01010545564'
-- description: |-
-    Você está no final leste do corredor norte.  A única saída é oeste exceto
-    pela simples porta de madeira a norte.   Há uma placa dourada sobre a porta.
+- description: 'Você está no final leste do corredor norte.  A única saída é oeste
+    exceto
+
+    pela simples porta de madeira a norte.   Há uma placa dourada sobre a porta.'
   exits:
     north:
       target_vnum: '01010545566'
@@ -2141,19 +2469,21 @@
   local_id: '5565'
   name: Um Corredor
   vnum: '01010545565'
-- description: |-
-    Assim que você pisa nessa sala você sente que deixa o plano material.
+- description: 'Assim que você pisa nessa sala você sente que deixa o plano material.
+
     As paredes aqui são decoradas com lindos, azuleijos multi-coloridos.
-    Há uma presença silenciosa no ar.  Você sente a presença do Todo-Poderoso.
+
+    Há uma presença silenciosa no ar.  Você sente a presença do Todo-Poderoso.'
   exits:
     south:
       target_vnum: '01010545565'
   local_id: '5566'
   name: O Santuário de Alá
   vnum: '01010545566'
-- description: |-
-    Você está do lado de fora do portão de Nova Thalos.  A cidade fica a sul,
-    e uma selva fica a norte.
+- description: 'Você está do lado de fora do portão de Nova Thalos.  A cidade fica
+    a sul,
+
+    e uma selva fica a norte.'
   exits:
     north:
       target_vnum: 01010545681
@@ -2162,9 +2492,9 @@
   local_id: '5567'
   name: Do Lado De Fora Do Portão Norte de Nova Thalos
   vnum: '01010545567'
-- description: |-
-    Você está do lado de fora dos muros protetores da cidade.  O maciço
-    portão fica a oeste daqui, e o desconhecido te aguarda a leste.
+- description: 'Você está do lado de fora dos muros protetores da cidade.  O maciço
+
+    portão fica a oeste daqui, e o desconhecido te aguarda a leste.'
   exits:
     east:
       target_vnum: 01010545690
@@ -2175,9 +2505,10 @@
   local_id: '5568'
   name: Do Lado de Fora do Portão Leste de Nova Thalos
   vnum: 01010545568
-- description: |-
-    Você está do lado de fora dos muros da cidade, o portão de ferro fica a
-    leste.  A cidade fica nesta direção e a estrada para Midgaard fica a oeste.
+- description: 'Você está do lado de fora dos muros da cidade, o portão de ferro fica
+    a
+
+    leste.  A cidade fica nesta direção e a estrada para Midgaard fica a oeste.'
   exits:
     east:
       target_vnum: '01010545423'
@@ -2186,22 +2517,27 @@
   local_id: '5569'
   name: Do Lado de Fora do Portão Oeste de Nova Thalos
   vnum: 01010545569
-- description: |-
-    Você está em um pequeno caminho do lado de fora do muro leste da cidade.
+- description: 'Você está em um pequeno caminho do lado de fora do muro leste da cidade.
+
     O chão parece bem pisado, e você não pode ver nenhuma saída aparente além da
-    que há a norte.
+
+    que há a norte.'
   exits:
     north:
       target_vnum: 01010545568
   local_id: '5570'
   name: Do Lado de Fora do Muro
   vnum: '01010545570'
-- description: |-
-    Uma grande mesa de carvalho, coberta por talheres de prata, pratos, uma
+- description: 'Uma grande mesa de carvalho, coberta por talheres de prata, pratos,
+    uma
+
     toalha de mesa ornamentada com ouro, dominam o saguão.  Embora não haja
+
     ninguém ainda, os criados correm por todos os lados, arrumando a mesa e
+
     preenchendo-a com temperos.   A entrada da cozinha fica para leste, e duas
-    grandes portas duplas conduzem ao corredor a norte.
+
+    grandes portas duplas conduzem ao corredor a norte.'
   exits:
     east:
       target_vnum: '01010545561'
@@ -2210,9 +2546,9 @@
   local_id: '5571'
   name: O Grande Saguão de Jantar
   vnum: '01010545571'
-- description: |-
-    Você está em um cruzamento de longos corredores.  Há duas largas portas
-    duplas a sul.
+- description: 'Você está em um cruzamento de longos corredores.  Há duas largas portas
+
+    duplas a sul.'
   exits:
     east:
       target_vnum: '01010545563'
@@ -2225,10 +2561,11 @@
   local_id: '5572'
   name: Um Corredor
   vnum: '01010545572'
-- description: |-
-    Você está em uma interseção dos corredores.  Corredores de madeira
+- description: 'Você está em uma interseção dos corredores.  Corredores de madeira
+
     conduzem para todas as direções, exceto para oeste, o jardim do palácio pode
-    ser ali.
+
+    ser ali.'
   exits:
     east:
       target_vnum: '01010545605'
@@ -2241,9 +2578,9 @@
   local_id: '5573'
   name: Um Corredor
   vnum: '01010545573'
-- description: |-
-    Você chegou a um cruzamento T dos corredores.  Os corredores de madeira
-    continuam a leste, oeste e sul.  Há uma pesada porta de ferro a norte.
+- description: 'Você chegou a um cruzamento T dos corredores.  Os corredores de madeira
+
+    continuam a leste, oeste e sul.  Há uma pesada porta de ferro a norte.'
   exits:
     east:
       target_vnum: '01010545565'
@@ -2256,11 +2593,13 @@
   local_id: '5574'
   name: Um Corredor
   vnum: '01010545574'
-- description: |-
-    Você entrou em uma sala úmida com paredes de rochas asperamente cortadas.
+- description: 'Você entrou em uma sala úmida com paredes de rochas asperamente cortadas.
+
     Essa sala parece realmente fora de lugar, comparada a todo o esplendor do
+
     resto do palácio.   Uma grande grade de aço conduz a escuridão, e uma porta de
-    ferro leva de volta para o corredor.
+
+    ferro leva de volta para o corredor.'
   exits:
     down:
       target_vnum: 01010545591
@@ -2269,22 +2608,27 @@
   local_id: '5575'
   name: A Entrada para o Calabouço
   vnum: '01010545575'
-- description: |-
-    Esse é um quarto simples usado por visitantes convidados.  Um pequeno
+- description: 'Esse é um quarto simples usado por visitantes convidados.  Um pequeno
+
     guarda roupa repousa próximo a parece leste com um espelho preso sobre ele.
+
     Uma grande cama com lençóis de cetim foi colocada no meio do quarto, contra
+
     a parede sul, abaixo de uma janela.  A única saída óbvia é de volta a norte,
-    para o corredor.
+
+    para o corredor.'
   exits:
     north:
       target_vnum: '01010545577'
   local_id: '5576'
   name: O Quarto dos Convidados
   vnum: '01010545576'
-- description: |-
-    O longo corredor continua aqui com uma porta de madeira na parede sul.
+- description: 'O longo corredor continua aqui com uma porta de madeira na parede
+    sul.
+
     Na parede norte está a foto de alguns nobres esquecidos que já governaram
-    essas terras.
+
+    essas terras.'
   exits:
     east:
       target_vnum: '01010545572'
@@ -2295,13 +2639,17 @@
   local_id: '5577'
   name: Um Corredor
   vnum: '01010545577'
-- description: |-
-    Você entrou nos jardins privados do Sultão.  Uma doce gota de orvalho
+- description: 'Você entrou nos jardins privados do Sultão.  Uma doce gota de orvalho
+
     atinge sua face, devido a umidade daqui.  Ao redor você vê milhares de
+
     plantas exóticas e flores.  O doce cheiro de jasmim e mel lembram seus
+
     felizes dias em casa.  Ao norte, através de várias árvores, você vê um
+
     delicado gazebo.   Um caminho conduz de volta ao corredor e a oeste está o
-    gazebo.  A sua direita está uma placa dourada.
+
+    gazebo.  A sua direita está uma placa dourada.'
   exits:
     east:
       target_vnum: '01010545573'
@@ -2310,11 +2658,13 @@
   local_id: '5578'
   name: O Jardim do Sultão
   vnum: 01010545578
-- description: |-
-    A longa extensão do corredor continua a leste e oeste daqui.  O pequeno
+- description: 'A longa extensão do corredor continua a leste e oeste daqui.  O pequeno
+
     carpete vermelho que cobre a linha central está sempre abaixo de seus pés e
+
     um ocasional banco ou vaso de planta delineia as paredes.   Há uma porta para
-    norte com uma placa nela.
+
+    norte com uma placa nela.'
   exits:
     east:
       target_vnum: '01010545574'
@@ -2325,32 +2675,39 @@
   local_id: '5579'
   name: Um Corredor
   vnum: 01010545579
-- description: |-
-    Você está no tributo às virtudes do Sultão.  Grandes pinturas pendem de
+- description: 'Você está no tributo às virtudes do Sultão.  Grandes pinturas pendem
+    de
+
     todas as paredes mostrando cenas da natureza, nudez, e gloriosas batalhas.
+
     Estranhas esculturas repousam em pedestais em cada canto da sala e espelhos
+
     estão colocados em locais estratégicos para que o observador possa ver uma
+
     escultura por inteiro logo a primeira vista.  Seus olhos, porém, são
-    atraídos para uma pintura que domina a parede distante.
+
+    atraídos para uma pintura que domina a parede distante.'
   exits:
     south:
       target_vnum: 01010545579
   local_id: '5580'
   name: A Exposição de Arte
   vnum: 01010545580
-- description: |-
-    Esse é outro quarto para convidados.  Há um guarda-roupas contra a parede
+- description: 'Esse é outro quarto para convidados.  Há um guarda-roupas contra a
+    parede
+
     leste com um espelho e uma enorme cama com lençóis de cetim, contra a parede
-    sul.
+
+    sul.'
   exits:
     north:
       target_vnum: 01010545582
   local_id: '5581'
   name: Um Quarto de Hospedes
   vnum: 01010545581
-- description: |-
-    Você alcançou o fim oeste do corredor sul.  A única saída fica a leste,
-    exceto pelas portas nas paredes sul e oeste.
+- description: 'Você alcançou o fim oeste do corredor sul.  A única saída fica a leste,
+
+    exceto pelas portas nas paredes sul e oeste.'
   exits:
     east:
       target_vnum: '01010545577'
@@ -2361,19 +2718,22 @@
   local_id: '5582'
   name: Um Corredor
   vnum: 01010545582
-- description: |-
-    Caminhando através dos jardins você chega a uma pequena estrutura branca.
+- description: 'Caminhando através dos jardins você chega a uma pequena estrutura
+    branca.
+
     O canto dos pássaros, o perfume das flores, ahhh...  Paraíso.    Você acredita
-    que nunca esteve em um lugar mais calmo..
+
+    que nunca esteve em um lugar mais calmo..'
   exits:
     east:
       target_vnum: 01010545578
   local_id: '5583'
   name: O Jardim Gazebo
   vnum: 01010545583
-- description: |-
-    Esse é o final oeste do corredor norte.  Duas portas foram colocadas nas
-    paredes aqui, uma a norte, outra a oeste.
+- description: 'Esse é o final oeste do corredor norte.  Duas portas foram colocadas
+    nas
+
+    paredes aqui, uma a norte, outra a oeste.'
   exits:
     east:
       target_vnum: 01010545579
@@ -2384,32 +2744,37 @@
   local_id: '5584'
   name: Um Corredor
   vnum: 01010545584
-- description: |-
-    Você está em uma câmara estéril enfileirada com nada menos que camas.  Os
+- description: 'Você está em uma câmara estéril enfileirada com nada menos que camas.  Os
+
     guardas vêm aqui para dormir, para que eles possam deixar o chão do palácio
-    com permissão especial.    A única saída fica para sul.
+
+    com permissão especial.    A única saída fica para sul.'
   exits:
     south:
       target_vnum: 01010545584
   local_id: '5585'
   name: A Sala da Guarda
   vnum: 01010545585
-- description: |-
-    Esse é um dos quartos de hospedagem para os guardas do palácio.  Estéril,
+- description: 'Esse é um dos quartos de hospedagem para os guardas do palácio.  Estéril,
+
     comparado ao resto do palácio, você vê apenas camas aqui.  Nas paredes você
-    vê fotos de cavaleiros conhecidos que honraram a Guarda do Sultão.
+
+    vê fotos de cavaleiros conhecidos que honraram a Guarda do Sultão.'
   exits:
     north:
       target_vnum: 01010545587
   local_id: '5586'
   name: A Sala da Guarda
   vnum: 01010545586
-- description: |-
-    Essa é a sala onde o Sultão mantém as belas mulheres de seu palácio.  Há
+- description: 'Essa é a sala onde o Sultão mantém as belas mulheres de seu palácio.  Há
+
     dez garotas aqui, vestidas apenas com seda, você quase pode ver através..
+
     Na parece oeste está um grande amontoado de travesseiros e uma jovem donzela
+
     sentada sobre eles.   Infelizmente para você apenas o Sultão é permitido entrar
-    aqui.
+
+    aqui.'
   exits:
     east:
       target_vnum: 01010545582
@@ -2420,9 +2785,10 @@
   local_id: '5587'
   name: O Harém
   vnum: 01010545587
-- description: |-
-    Essa é uma câmara secreta permitindo o acesso direto do Sultão ao seu
-    Harém, quando assim ele desejar.
+- description: 'Essa é uma câmara secreta permitindo o acesso direto do Sultão ao
+    seu
+
+    Harém, quando assim ele desejar.'
   exits:
     north:
       target_vnum: 01010545589
@@ -2431,11 +2797,13 @@
   local_id: '5588'
   name: Uma Pequena Sala
   vnum: 01010545588
-- description: |-
-    Você está na sala do trono do poderoso Sultão de Nova Thalos.  Guardas
+- description: 'Você está na sala do trono do poderoso Sultão de Nova Thalos.  Guardas
+
     atentos de seus lados, prontos para fazer o último sacrifício por seu amado
+
     líder.  O trono revestido de ouro com jóias espalhadas está aqui.  O Sultão
-    não é um homem de ninharias.
+
+    não é um homem de ninharias.'
   exits:
     east:
       target_vnum: 01010545584
@@ -2446,21 +2814,26 @@
   local_id: '5589'
   name: A Sala do Trono
   vnum: 01010545589
-- description: |-
-    Você, de alguma forma conseguiu o acesso à abóbada de tesouros do Sultão.
+- description: 'Você, de alguma forma conseguiu o acesso à abóbada de tesouros do
+    Sultão.
+
     O Alarme soando lhe diz que você deve ter acionado algum tipo de sistema de
-    alarme.
+
+    alarme.'
   exits:
     south:
       target_vnum: 01010545589
   local_id: '5590'
   name: A Sala Do Tesouro
   vnum: 01010545590
-- description: |-
-    Descendo a escada de madeira você chega a uma pequena caverna que parece
+- description: 'Descendo a escada de madeira você chega a uma pequena caverna que
+    parece
+
     um quarto.  Há um pequeno banco com algumas revistas e candelabro queimando
+
     de um lado.  Uma porta foi posta entre as pedras na parede norte, e uma
-    grade de aço conduz acima.
+
+    grade de aço conduz acima.'
   exits:
     east:
       target_vnum: 01010545592
@@ -2469,9 +2842,9 @@
   local_id: '5591'
   name: O Quarto do Carcereiro
   vnum: 01010545591
-- description: |-
-    Você está em um túnel de rochas asperamente cortadas, com celas para
-    norte e sul.   O túnel continua a leste.
+- description: 'Você está em um túnel de rochas asperamente cortadas, com celas para
+
+    norte e sul.   O túnel continua a leste.'
   exits:
     east:
       target_vnum: 01010545593
@@ -2484,9 +2857,9 @@
   local_id: '5592'
   name: Um Túnel no Calabouço
   vnum: 01010545592
-- description: |-
-    Você está em um túnel de rochas asperamente cortadas, com celas para
-    norte e sul.   O túnel continua a leste e oeste.
+- description: 'Você está em um túnel de rochas asperamente cortadas, com celas para
+
+    norte e sul.   O túnel continua a leste e oeste.'
   exits:
     east:
       target_vnum: 01010545594
@@ -2499,9 +2872,9 @@
   local_id: '5593'
   name: Um Túnel no Calabouço
   vnum: 01010545593
-- description: |-
-    Você está em um túnel de rochas asperamente cortadas, com celas para
-    norte e sul.   O túnel continua a leste e oeste.
+- description: 'Você está em um túnel de rochas asperamente cortadas, com celas para
+
+    norte e sul.   O túnel continua a leste e oeste.'
   exits:
     east:
       target_vnum: 01010545595
@@ -2514,10 +2887,11 @@
   local_id: '5594'
   name: Um Túnel no Calabouço
   vnum: 01010545594
-- description: |-
-    Você está em um túnel de rochas, asperamente cortadas, com celas para
+- description: 'Você está em um túnel de rochas, asperamente cortadas, com celas para
+
     norte e sul.  O túnel continua a oeste e você nota uma pequena fenda na
-    rocha a leste.
+
+    rocha a leste.'
   exits:
     east:
       target_vnum: 01010545596
@@ -2530,12 +2904,16 @@
   local_id: '5595'
   name: Um Túnel no Calabouço
   vnum: 01010545595
-- description: |-
-    Essa sala parece mais com um ninho do que com uma cela.  Pequenos pedaços
+- description: 'Essa sala parece mais com um ninho do que com uma cela.  Pequenos
+    pedaços
+
     de feno espalhados sobre o chão cobrindo ossos de origem desconhecida.
+
     Sangue espirrado e tufos de cabelo cinza se amontoam em um canto.  Assim que
+
     você se vira para sair, você percebe dois olhos vermelhos perscrutando da
-    escuridão.
+
+    escuridão.'
   exits:
     west:
       target_vnum: 01010545595
@@ -2598,10 +2976,11 @@
   local_id: '5604'
   name: A Cela
   vnum: '01010545604'
-- description: |-
-    Você está em um grande corredor de madeira, conduzindo a leste e oeste.
+- description: 'Você está em um grande corredor de madeira, conduzindo a leste e oeste.
+
     No chão está um magro e estreito tapete roxo.  O Corredor conduz a oeste,
-    dentro do Palácio e a leste para a Grande Entrada.
+
+    dentro do Palácio e a leste para a Grande Entrada.'
   exits:
     east:
       target_vnum: '01010545550'
@@ -2619,9 +2998,9 @@
   local_id: '5606'
   name: Um Caminho Através das Montanhas
   vnum: '01010545606'
-- description: |-
-    A viagem se torna dura e lenta conforme você tem que escalar as enormes
-    rochas espalhadas pelo caminho.
+- description: 'A viagem se torna dura e lenta conforme você tem que escalar as enormes
+
+    rochas espalhadas pelo caminho.'
   exits:
     east:
       target_vnum: 01010545608
@@ -2630,10 +3009,12 @@
   local_id: '5607'
   name: Um Caminho Através das Montanhas
   vnum: '01010545607'
-- description: |-
-    O chão acaba, dando origem a um profundo rio selvagem.  A pequena ponte
+- description: 'O chão acaba, dando origem a um profundo rio selvagem.  A pequena
+    ponte
+
     de cordas que dá acesso ao outro lado balança perigosamente com a força do
-    vento.
+
+    vento.'
   exits:
     east:
       target_vnum: 01010545609
@@ -2642,9 +3023,10 @@
   local_id: '5608'
   name: O Limite do Desfiladeiro
   vnum: 01010545608
-- description: |-
-    A pequena ponte de cordas treme com o seu peso conforme você atravessa o
-    desfiladeiro.
+- description: 'A pequena ponte de cordas treme com o seu peso conforme você atravessa
+    o
+
+    desfiladeiro.'
   exits:
     east:
       target_vnum: '01010545627'
@@ -2653,20 +3035,23 @@
   local_id: '5609'
   name: Na Ponte de Cordas
   vnum: 01010545609
-- description: |-
-    Você está caminhando negligentemente na borda do fundo desfiladeiro entre
+- description: 'Você está caminhando negligentemente na borda do fundo desfiladeiro
+    entre
+
     as montanhas orientais.  A borda continua a norte seguindo a forma do vale e
-    um rastro íngreme continua a leste.
+
+    um rastro íngreme continua a leste.'
   exits:
     east:
       target_vnum: '01010545611'
   local_id: '5610'
   name: A Borda ao Redor do Vale
   vnum: '01010545610'
-- description: |-
-    Você está caminhando através de um caminho de rochas espalhadas dentro
+- description: 'Você está caminhando através de um caminho de rochas espalhadas dentro
+
     das montanhas a leste de Midgaard.  O andamento é extremamente áspero e você
-    torne o pé constantemente nas pequenas pedras no chão.
+
+    torne o pé constantemente nas pequenas pedras no chão.'
   exits:
     east:
       target_vnum: '01010545606'
@@ -2675,9 +3060,10 @@
   local_id: '5611'
   name: Um Caminho através das Montanhas
   vnum: '01010545611'
-- description: |-
-    Você está no limite leste das montanhas orientais.  O alto cume fica a
-    oeste e as colinas rolantes e planícies ficam para leste.
+- description: 'Você está no limite leste das montanhas orientais.  O alto cume fica
+    a
+
+    oeste e as colinas rolantes e planícies ficam para leste.'
   exits:
     east:
       target_vnum: '01010542140'
@@ -2688,9 +3074,10 @@
   local_id: '5612'
   name: No Limite Oriental das Montanhas
   vnum: '01010545612'
-- description: |-
-    O Caminho se curva abaixo da face das montanhas, permitindo você subir ou
-    descer a face desse massivo pedaço de pedra.
+- description: 'O Caminho se curva abaixo da face das montanhas, permitindo você subir
+    ou
+
+    descer a face desse massivo pedaço de pedra.'
   exits:
     east:
       target_vnum: '01010545614'
@@ -2699,11 +3086,13 @@
   local_id: '5613'
   name: Nos Contrafortes
   vnum: '01010545613'
-- description: |-
-    O caminho se curva para baixo da face das montanhas, permitindo você
+- description: 'O caminho se curva para baixo da face das montanhas, permitindo você
+
     subir ou descer, conforme você desejar.  Você pode também seguir norte por
+
     uma estrada que fica praticamente escondida de qualquer um que olhe para a
-    região estando em um lugar mais baixo.
+
+    região estando em um lugar mais baixo.'
   exits:
     north:
       target_vnum: '010105410200'
@@ -2714,10 +3103,12 @@
   local_id: '5614'
   name: Nos Contrafortes
   vnum: '01010545614'
-- description: |-
-    O lânguido som de um riu fluindo alcança seus ouvidos, vindo do sul e
+- description: 'O lânguido som de um riu fluindo alcança seus ouvidos, vindo do sul
+    e
+
     através das árvores você consegue ver água.  O caminho que você está
-    continua para norte e leste daqui.
+
+    continua para norte e leste daqui.'
   exits:
     east:
       target_vnum: '01010545630'
@@ -2749,11 +3140,13 @@
   local_id: '5617'
   name: Numa Estrada
   vnum: '01010545617'
-- description: |-
-    Você está em uma bem conservada estrada que conduz a leste para Nova
+- description: 'Você está em uma bem conservada estrada que conduz a leste para Nova
+
     Thalos e a oeste para as Montanhas Orientais.  Para o norte você pode ver
+
     amplas planícies se estendendo além do que os seus olhos podem alcançar.  A
-    sul daqui começa uma escura floresta verde.
+
+    sul daqui começa uma escura floresta verde.'
   exits:
     east:
       target_vnum: 01010545569
@@ -2762,23 +3155,27 @@
   local_id: '5618'
   name: Numa Estrada
   vnum: 01010545618
-- description: |-
-    Você está no limite do que é normalmente chamado o mais negro dos rios,
+- description: 'Você está no limite do que é normalmente chamado o mais negro dos
+    rios,
+
     temido em todas as terras.  Olhando a água pantanosa que se concentra nesse
+
     vale rochoso, você pode ver porque a água jusante é tão escura.  As paredes
+
     rochosas o alcançam, bloqueando todas as saídas, exceto a norte, que leva à
-    ribeira, e a sul onde o rio fui.
+
+    ribeira, e a sul onde o rio fui.'
   exits:
     north:
-      target_vnum: '01010541500'
+      target_vnum: '01010151500'
     south:
       target_vnum: '01010545634'
   local_id: '5619'
   name: A Nascente do Rio das Almas Perdidas
   vnum: 01010545619
-- description: |-
-    O calmo rio um pouco depois de trilhar o interior da montanha.  Embora
-    ainda profundas as rochas, você pode ver languidos traços de verde a leste.
+- description: 'O calmo rio um pouco depois de trilhar o interior da montanha.  Embora
+
+    ainda profundas as rochas, você pode ver languidos traços de verde a leste.'
   exits:
     east:
       target_vnum: '01010545621'
@@ -2796,9 +3193,10 @@
   local_id: '5621'
   name: O Rio Ishtar
   vnum: '01010545621'
-- description: |-
-    O rio começa sua decida para fora das montanhas agora e continua a fluir
-    a leste.
+- description: 'O rio começa sua decida para fora das montanhas agora e continua a
+    fluir
+
+    a leste.'
   exits:
     east:
       target_vnum: '01010545644'
@@ -2807,9 +3205,9 @@
   local_id: '5622'
   name: O Rio Ishtar
   vnum: '01010545622'
-- description: |-
-    O rio flui abaixo dos da cidade para leste e se estende para as
-    longínquas e altas montanhas cobertas de neve a oeste.
+- description: 'O rio flui abaixo dos da cidade para leste e se estende para as
+
+    longínquas e altas montanhas cobertas de neve a oeste.'
   exits:
     east:
       target_vnum: 01010545487
@@ -2818,12 +3216,15 @@
   local_id: '5623'
   name: O Rio Ishtar
   vnum: '01010545623'
-- description: |-
-    O rio flui da cidade em um longo e sinuoso rego para o Oceano Dos
+- description: 'O rio flui da cidade em um longo e sinuoso rego para o Oceano Dos
+
     Dragões.  A sul de você fica o Grande Deserto Oriental e a norte um amplo e
+
     expansivo gramado.  Você pode apenas se limitar a estrada que parece viajar
+
     acompanhando o rio, mas a ribeira está íngreme demais para que você possa
-    ver muito longe.
+
+    ver muito longe.'
   exits:
     east:
       target_vnum: '01010545625'
@@ -2832,9 +3233,9 @@
   local_id: '5624'
   name: O Rio Ishtar
   vnum: '01010545624'
-- description: |-
-    O Rio continua sua decida para as terras baixas, sempre fluindo
-    gentilmente para sul.
+- description: 'O Rio continua sua decida para as terras baixas, sempre fluindo
+
+    gentilmente para sul.'
   exits:
     east:
       target_vnum: '01010545626'
@@ -2843,10 +3244,11 @@
   local_id: '5625'
   name: O Rio Ishtar
   vnum: '01010545625'
-- description: |-
-    Pequenos animais e rebanhos de animais podem ser ouvidos a distancia,
+- description: 'Pequenos animais e rebanhos de animais podem ser ouvidos a distancia,
+
     entretanto você não vê nada próximo ao rio.  Talvez os declives íngremes os
-    previnam de usar o rio.
+
+    previnam de usar o rio.'
   exits:
     east:
       target_vnum: 01010545684
@@ -2855,11 +3257,14 @@
   local_id: '5626'
   name: O Rio Ishtar
   vnum: '01010545626'
-- description: |-
-    Você está no limite de uma realmente longa queda.  Uma pequena ponte de
+- description: 'Você está no limite de uma realmente longa queda.  Uma pequena ponte
+    de
+
     cordas foi convenientemente colocada aqui permitindo que você chegue ao
+
     outro lado da ponte.  Infelizmente o vento parece estar ligeiramente
-    chutando a ponte.  O caminho conduz através das montanhas a leste.
+
+    chutando a ponte.  O caminho conduz através das montanhas a leste.'
   exits:
     east:
       target_vnum: 01010545628
@@ -2868,23 +3273,26 @@
   local_id: '5627'
   name: O Limite do Desfiladeiro
   vnum: '01010545627'
-- description: |-
-    Um estreito caminho faz seu caminho através das montanhas a leste e
+- description: 'Um estreito caminho faz seu caminho através das montanhas a leste
+    e
+
     oeste.  Você ouve o grasnar de um grande pássaro sobre sua cabeça,
-    provavelmente um urubu esperando que você caia.
+
+    provavelmente um urubu esperando que você caia.'
   exits:
     east:
       target_vnum: 01010545629
     south:
-      target_vnum: 01010544049
+      target_vnum: 01010404049
     west:
       target_vnum: '01010545627'
   local_id: '5628'
   name: Um Caminho Através das Montanhas
   vnum: 01010545628
-- description: |-
-    Um enorme pedregulho de repente decide que quer ocupar o mesmo espaço que
-    você.
+- description: 'Um enorme pedregulho de repente decide que quer ocupar o mesmo espaço
+    que
+
+    você.'
   exits:
     east:
       target_vnum: '01010545612'
@@ -2920,9 +3328,9 @@
   local_id: '5632'
   name: Em uma Estrada
   vnum: '01010545632'
-- description: |-
-    A Estrada se dobra aqui para a ribeira do rio, dando acesso ao Rio
-    Ishtar.  A Estrada continua a norte e oeste da ribeira do rio.
+- description: 'A Estrada se dobra aqui para a ribeira do rio, dando acesso ao Rio
+
+    Ishtar.  A Estrada continua a norte e oeste da ribeira do rio.'
   exits:
     north:
       target_vnum: '01010545616'
@@ -2933,9 +3341,9 @@
   local_id: '5633'
   name: Em uma Estrada
   vnum: '01010545633'
-- description: |-
-    O rio flui a sul através do vale nas montanhas.  Você pode ver uma
-    pequena vila a oeste.
+- description: 'O rio flui a sul através do vale nas montanhas.  Você pode ver uma
+
+    pequena vila a oeste.'
   exits:
     north:
       target_vnum: 01010545619
@@ -2944,9 +3352,10 @@
   local_id: '5634'
   name: O Rio das Almas Perdidas
   vnum: '01010545634'
-- description: |-
-    O rio flui a sul no final sul deste amplo vale.  Os muros do vale ficam a
-    sul.
+- description: 'O rio flui a sul no final sul deste amplo vale.  Os muros do vale
+    ficam a
+
+    sul.'
   exits:
     north:
       target_vnum: '01010545634'
@@ -2955,10 +3364,11 @@
   local_id: '5635'
   name: O Rio das Almas Perdidas
   vnum: '01010545635'
-- description: |-
-    O rio começa a se acelerar conforme suas cascatas descem a fenda da
+- description: 'O rio começa a se acelerar conforme suas cascatas descem a fenda da
+
     montanha.  No alto, sobre você uma pequena ponte de cordas balança com o
-    vento.
+
+    vento.'
   exits:
     north:
       target_vnum: '01010545635'
@@ -2967,9 +3377,9 @@
   local_id: '5636'
   name: O Rio das Almas Perdidas
   vnum: '01010545636'
-- description: |-
-    O Rio rapidamente flui em sua fenda do lado da montanha para o sul.
-    Certamente você irá ouvir qualquer aproximação de correnteza.
+- description: 'O Rio rapidamente flui em sua fenda do lado da montanha para o sul.
+
+    Certamente você irá ouvir qualquer aproximação de correnteza.'
   exits:
     north:
       target_vnum: '01010545636'
@@ -2978,10 +3388,12 @@
   local_id: '5637'
   name: O Rio das Almas Perdidas
   vnum: '01010545637'
-- description: |-
-    O rio parece se acalmar um pouco conforme a fenda se alarga e diminui o
+- description: 'O rio parece se acalmar um pouco conforme a fenda se alarga e diminui
+    o
+
     estrangulamento das águas.  O rio continua a norte através de uma fenda e
-    flui para o sul.
+
+    flui para o sul.'
   exits:
     north:
       target_vnum: '01010545637'
@@ -2990,12 +3402,16 @@
   local_id: '5638'
   name: O Rio das Almas Perdidas
   vnum: 01010545638
-- description: |-
-    As águas do rio se chocam com uma rocha e se dividem em dois corpos de
+- description: 'As águas do rio se chocam com uma rocha e se dividem em dois corpos
+    de
+
     água.  O rio que você está continua seu curso sul e o novo rio encabeça para
+
     leste.  Para oeste você nota que as rochas se dividem e se partem, como se
+
     fossem rasgadas por alguma força massiva.  Parece impossível atravessar.  O
-    Rio das Almas Perdidas também continua a norte.
+
+    Rio das Almas Perdidas também continua a norte.'
   exits:
     east:
       target_vnum: '01010545620'
@@ -3036,21 +3452,24 @@
   local_id: '5642'
   name: O Rio das Almas Perdidas
   vnum: '01010545642'
-- description: |-
-    O rio faz uma curva afiada aqui e se vira ao sul em uma grande montanha e
+- description: 'O rio faz uma curva afiada aqui e se vira ao sul em uma grande montanha
+    e
+
     a norte através do vale.  Na borda próxima a você, e a oeste, você pode ver
-    movimentos.
+
+    movimentos.'
   exits:
     north:
       target_vnum: '01010545642'
     south:
-      target_vnum: '01010545004'
+      target_vnum: '01010505004'
   local_id: '5643'
   name: O Rio das Almas Perdidas
   vnum: '01010545643'
-- description: |-
-    O rio alarga-se aqui, não a muito tempo saltado da rocha, e flui a leste
-    para uma planície.
+- description: 'O rio alarga-se aqui, não a muito tempo saltado da rocha, e flui a
+    leste
+
+    para uma planície.'
   exits:
     east:
       target_vnum: '01010545645'
@@ -3059,9 +3478,9 @@
   local_id: '5644'
   name: O Rio Ishtar
   vnum: '01010545644'
-- description: |-
-    O rio continua aqui a leste e oeste.  Há uma área de atracagem a norte,
-    onde você ganha acesso à costa.
+- description: 'O rio continua aqui a leste e oeste.  Há uma área de atracagem a norte,
+
+    onde você ganha acesso à costa.'
   exits:
     east:
       target_vnum: '01010545646'
@@ -3072,9 +3491,10 @@
   local_id: '5645'
   name: O Rio Ishtar
   vnum: '01010545645'
-- description: |-
-    O rio vaga através dos contrafortes das montanhas orientais.  O ar é mais
-    seco desse lado continental e parece um pouco mais tépido.
+- description: 'O rio vaga através dos contrafortes das montanhas orientais.  O ar
+    é mais
+
+    seco desse lado continental e parece um pouco mais tépido.'
   exits:
     east:
       target_vnum: '01010545647'
@@ -3083,10 +3503,11 @@
   local_id: '5646'
   name: O Rio Ishtar
   vnum: '01010545646'
-- description: |-
-    O rio continua sua jornada para leste seguindo através das planícies.
+- description: 'O rio continua sua jornada para leste seguindo através das planícies.
+
     Para oeste você vê os grandes cumes cobertos de neve das montanhas e a leste
-    você vê o contorno de uma grande cidade.
+
+    você vê o contorno de uma grande cidade.'
   exits:
     east:
       target_vnum: 01010545648
@@ -3104,9 +3525,9 @@
   local_id: '5648'
   name: O Rio Ishtar
   vnum: 01010545648
-- description: |-
-    O rio se acalma conforme se alarga e vaga através das terras baixas.  Uma
-    pequena doca da acesso à costa norte.
+- description: 'O rio se acalma conforme se alarga e vaga através das terras baixas.  Uma
+
+    pequena doca da acesso à costa norte.'
   exits:
     east:
       target_vnum: '01010545623'
@@ -3117,14 +3538,20 @@
   local_id: '5649'
   name: O Rio Ishtar
   vnum: 01010545649
-- description: |-
-    Você está em uma grande taverna de decoração clara.  Tudo aqui dentro é
+- description: 'Você está em uma grande taverna de decoração clara.  Tudo aqui dentro
+    é
+
     suave e elegante, parecendo evocar as etéreas visões dos bons sonhos.
+
     Música é o que não falta, havendo no lugar uma atmosfera própria de sons e
+
     ruídos agradáveis.  O cheiro de comida se mistura ao das flores nos vasos, e
+
     as cores se refletem em espelhos e molduras de quadros.  Você fica
+
     maravilhado com as belas vozes que conversam animadamente aqui enquanto
-    hábeis mãos fazem poesia com as notas musicais.
+
+    hábeis mãos fazem poesia com as notas musicais.'
   exits:
     north:
       target_vnum: 01010545499
@@ -3253,7 +3680,7 @@
     north:
       target_vnum: '01010545652'
     northeast:
-      target_vnum: '01010544500'
+      target_vnum: '01010454500'
     south:
       target_vnum: '01010545654'
     west:
@@ -3261,11 +3688,14 @@
   local_id: '5659'
   name: Nas Montanhas
   vnum: 01010545659
-- description: |-
-    Uma grande fonte natural brota do coração da montanha e flui montanha abaixo.
+- description: 'Uma grande fonte natural brota do coração da montanha e flui montanha
+    abaixo.
+
     Parece que houve um terrível terremoto aqui, há não muito tempo atrás, e o
+
     caminho que leva a leste através das montanhas é coberto de pedras,
-    dificultando a passagem.
+
+    dificultando a passagem.'
   exits:
     east:
       target_vnum: '01010545654'
@@ -3274,9 +3704,10 @@
   local_id: '5660'
   name: A Nascente do Rio Negro
   vnum: '01010545660'
-- description: |-
-    O rui flui montanha abaixo através de uma cratera ao oeste e segue pelas
-    montanhas ao leste.
+- description: 'O rui flui montanha abaixo através de uma cratera ao oeste e segue
+    pelas
+
+    montanhas ao leste.'
   exits:
     east:
       target_vnum: '01010545660'
@@ -3285,9 +3716,10 @@
   local_id: '5661'
   name: No Rio Negro
   vnum: '01010545661'
-- description: |-
-    As paredes deste vale se sobressaem enquanto o rio segue ao leste e a
-    oeste daqui.
+- description: 'As paredes deste vale se sobressaem enquanto o rio segue ao leste
+    e a
+
+    oeste daqui.'
   exits:
     east:
       target_vnum: '01010545661'
@@ -3296,9 +3728,10 @@
   local_id: '5662'
   name: No Rio Negro
   vnum: '01010545662'
-- description: |-
-    As paredes rochosas a seu redor vão ficando mais baixas enquanto o rio
-    flui para foras das montanhas em direção às planícies.
+- description: 'As paredes rochosas a seu redor vão ficando mais baixas enquanto o
+    rio
+
+    flui para foras das montanhas em direção às planícies.'
   exits:
     east:
       target_vnum: '01010545662'
@@ -3316,9 +3749,9 @@
   local_id: '5664'
   name: No Rio Negro
   vnum: '01010545664'
-- description: |-
-    O rio, seguindo um lento caminho em sua margem de fendas e torções.
-    Altas montanhas podem ser vistas ao sul e ao leste.
+- description: 'O rio, seguindo um lento caminho em sua margem de fendas e torções.
+
+    Altas montanhas podem ser vistas ao sul e ao leste.'
   exits:
     north:
       target_vnum: '01010545664'
@@ -3336,9 +3769,9 @@
   local_id: '5666'
   name: No Rio Negro
   vnum: '01010545666'
-- description: |-
-    O rio flui ao oeste daqui em direção ao coração da montanha e a leste
-    através das rochas mais uma vez.
+- description: 'O rio flui ao oeste daqui em direção ao coração da montanha e a leste
+
+    através das rochas mais uma vez.'
   exits:
     east:
       target_vnum: '01010545666'
@@ -3347,9 +3780,10 @@
   local_id: '5667'
   name: No Rio Negro
   vnum: '01010545667'
-- description: |-
-    Você mal pode compreender o que há em frente de você enquanto o rui flui
-    silenciosamente através desta passagem.
+- description: 'Você mal pode compreender o que há em frente de você enquanto o rui
+    flui
+
+    silenciosamente através desta passagem.'
   exits:
     east:
       target_vnum: '01010545667'
@@ -3358,10 +3792,11 @@
   local_id: '5668'
   name: No Rio Negro
   vnum: 01010545668
-- description: |-
-    O rio flui suavemente ao oeste através do coração da montanha.  Há
+- description: 'O rio flui suavemente ao oeste através do coração da montanha.  Há
+
     pequenas fendas nas paredes da passagem ao norte, onde você deverá ser capaz
-    de sair da água.
+
+    de sair da água.'
   exits:
     east:
       target_vnum: 01010545668
@@ -3374,9 +3809,9 @@
   local_id: '5669'
   name: No Rio Negro
   vnum: 01010545669
-- description: |-
-    O rio continua a leste e oeste daqui, fluindo ao sul para uma escura
-    borda do rio.
+- description: 'O rio continua a leste e oeste daqui, fluindo ao sul para uma escura
+
+    borda do rio.'
   exits:
     east:
       target_vnum: 01010545669
@@ -3385,33 +3820,38 @@
   local_id: '5670'
   name: No Rio Negro
   vnum: '01010545670'
-- description: |-
-    O rio segue ao sul através de uma estreita parte de uma passagem que
-    segue pelas entranhas da montanha.
+- description: 'O rio segue ao sul através de uma estreita parte de uma passagem que
+
+    segue pelas entranhas da montanha.'
   exits:
     east:
       target_vnum: '01010545670'
     south:
-      target_vnum: '01010545005'
+      target_vnum: '01010505005'
   local_id: '5671'
   name: No Rio Negro
   vnum: '01010545671'
-- description: |-
-    Você sai da água nesta estreita borda para ver se ela o leva para dentro
+- description: 'Você sai da água nesta estreita borda para ver se ela o leva para
+    dentro
+
     das montanhas.  Infelizmente, a borda é grande o suficiente para apenas você
+
     descansar um pouco e não parece haver nenhuma saída a não ser de volta para
-    o rio.
+
+    o rio.'
   exits:
     south:
       target_vnum: 01010545669
   local_id: '5672'
   name: Em uma Pequena Borda
   vnum: '01010545672'
-- description: |-
-    A entrada para a guilda se parece mais com a entrada de uma caverna
+- description: 'A entrada para a guilda se parece mais com a entrada de uma caverna
+
     subterrânea.  As paredes de pedra são recobertas por runas, indicando que o
+
     lugar inteiro está protegido por forte magia.  Grandes tochas iluminam as
-    câmaras mais profundas.  Ao norte você volta para as ruas de Nova Thalos.
+
+    câmaras mais profundas.  Ao norte você volta para as ruas de Nova Thalos.'
   exits:
     down:
       target_vnum: '01010545674'
@@ -3420,12 +3860,15 @@
   local_id: '5673'
   name: A Entrada para a Guilda dos Druidas
   vnum: '01010545673'
-- description: |-
-    Você está dentro da caverna que é usada como guilda dos druidas.  Várias
+- description: 'Você está dentro da caverna que é usada como guilda dos druidas.  Várias
+
     tochas presas às paredes da caverna dão uma agradável iluminação ao local.
+
     Você percebe veios de pedras preciosas na rocha das paredes, mas acha melhor
+
     não olhar demais (cuidado com a ganância!)...  A caverna continua para o
-    leste, e você vê a saida da caverna para o norte.
+
+    leste, e você vê a saida da caverna para o norte.'
   exits:
     east:
       target_vnum: '01010545675'
@@ -3434,11 +3877,13 @@
   local_id: '5674'
   name: O Interior da Caverna
   vnum: '01010545674'
-- description: |-
-    Você está na sala onde os druidas se reúnem e trocam idéias.  Toda
+- description: 'Você está na sala onde os druidas se reúnem e trocam idéias.  Toda
+
     mobília foi entalhada em uma espécie de cristal, sendo muito bonito o efeito
+
     que a luz das tochas produz quando incide sobre algumas das peças.  A leste
-    você percebe um aposento mergulhado no mais profundo breu.
+
+    você percebe um aposento mergulhado no mais profundo breu.'
   exits:
     east:
       target_vnum: '01010545676'
@@ -3449,36 +3894,46 @@
   local_id: '5675'
   name: Um Grande Salão
   vnum: '01010545675'
-- description: |-
-    Você está no imenso salão onde os druidas aprendem sobre suas tradições,
+- description: 'Você está no imenso salão onde os druidas aprendem sobre suas tradições,
+
     leis e poderes.  Megalitos foram, como que por mágica, dispostos em um
+
     grande círculo, tendo como centro um altar feito de rocha azulada.  Sobre um
+
     pedestal de ouro, junto ao altar, duas grandes esferas de fogo violeta
-    iluminam o Círculo com seu estranho brilho.
+
+    iluminam o Círculo com seu estranho brilho.'
   exits:
     west:
       target_vnum: '01010545675'
   local_id: '5676'
   name: O Círculo Druídico
   vnum: '01010545676'
-- description: |-
-    Mesmo sem qualquer música ser tocada, você sente que ela é parte desse
+- description: 'Mesmo sem qualquer música ser tocada, você sente que ela é parte desse
+
     lugar.  Aqui, os mais aclamados mestres da arte estiveram tanto como pupilos
+
     quanto como professores.  Deixaram os sons de suas obras aqui, impregnados
+
     em suas paredes repletas de retratos, nos instrumentos espalhados sobre as
+
     mesas, no cheiro doce de flores misturado com a comida e bebida lá debaixo.
+
     E você, só de entrar no recinto, começou a deixar sua própria música no ar,
-    numa suave melodia que conta a sua vida.
+
+    numa suave melodia que conta a sua vida.'
   exits:
     down:
       target_vnum: '01010545650'
   local_id: '5677'
   name: A Sala de Estudos
   vnum: '01010545677'
-- description: |-
-    Você está em uma grande extensão gramínea.  Ao sul daqui ficam os portões
+- description: 'Você está em uma grande extensão gramínea.  Ao sul daqui ficam os
+    portões
+
     Norte de Nova Thalos.  A leste e oeste os campos gramíneos seguem-se e ao
-    norte, há alguma distância você vê algumas árvores.
+
+    norte, há alguma distância você vê algumas árvores.'
   exits:
     east:
       target_vnum: 01010545681
@@ -3491,10 +3946,12 @@
   local_id: '5681'
   name: Nas Planícies
   vnum: 01010545681
-- description: |-
-    Você está em um gramado aberto.  A floresta ao norte parece próxima, mas
+- description: 'Você está em um gramado aberto.  A floresta ao norte parece próxima,
+    mas
+
     ainda sim é um pouco longe.  Ao sul um pequeno caminho sujo foi aberto,
-    levando a Nova Thalos.
+
+    levando a Nova Thalos.'
   exits:
     east:
       target_vnum: 01010545682
@@ -3507,15 +3964,17 @@
   local_id: '5682'
   name: Nas Planícies
   vnum: 01010545682
-- description: |-
-    Você esta no limite de uma grande floresta.  As árvores continuam até
+- description: 'Você esta no limite de uma grande floresta.  As árvores continuam
+    até
+
     onde seus olhos alcançam ao leste e oeste.  Um grande campo gramíneo pode
-    ser visto ao sul.
+
+    ser visto ao sul.'
   exits:
     east:
       target_vnum: 01010545683
     north:
-      target_vnum: '010105414000'
+      target_vnum: '01010404000'
     south:
       target_vnum: 01010545682
     west:
@@ -3523,11 +3982,13 @@
   local_id: '5683'
   name: O Limite da Floresta
   vnum: 01010545683
-- description: |-
-    O rio se alarga ainda mais aqui, e suas águas se tornam escuras.  O
+- description: 'O rio se alarga ainda mais aqui, e suas águas se tornam escuras.  O
+
     cheiro de água salgada chega do leste.  O Mar do Dragão não deve estar
+
     longe.  Ao leste você pode ver o esboço lânguidos de uma cidade e ao norte
-    você vê um grande campo gramíneo.
+
+    você vê um grande campo gramíneo.'
   exits:
     east:
       target_vnum: 01010545685
@@ -3536,12 +3997,15 @@
   local_id: '5684'
   name: O Rio Ishtar
   vnum: 01010545684
-- description: |-
-    Aqui é onde o rio desemboca no Mar do Dragão.  O encontro das águas
+- description: 'Aqui é onde o rio desemboca no Mar do Dragão.  O encontro das águas
+
     revolveu muita areia onde o Rio termina e começa o mar azul.  Olhando ao
+
     oeste, tudo o que você pode ver é água em todo o horizonte.  Ao norte há uma
+
     pequena doca e você pensa que consegue chegar lá sem muito esforço.  O rio
-    segue ao oeste, em direção de Nova Thalos.
+
+    segue ao oeste, em direção de Nova Thalos.'
   exits:
     east:
       target_vnum: 01010545686
@@ -3550,10 +4014,12 @@
   local_id: '5685'
   name: O Delta do Rio
   vnum: 01010545685
-- description: |-
-    Você está no límpido mar azul, o Mar dos Dragões.  A água se estende em
+- description: 'Você está no límpido mar azul, o Mar dos Dragões.  A água se estende
+    em
+
     todas as direções até onde seu olho alcança.  Ao longe você pode ver uma
-    pequena doca ao norte.
+
+    pequena doca ao norte.'
   exits:
     east:
       target_vnum: 01010545686
@@ -3568,9 +4034,10 @@
   local_id: '5686'
   name: O Mar do Dragão
   vnum: 01010545686
-- description: |-
-    O Mar do Dragão segue para cima da costa aqui.  As profundas águas azuis
-    avançam para cima da praia.  Ao norte você vê uma pequena doca.
+- description: 'O Mar do Dragão segue para cima da costa aqui.  As profundas águas
+    azuis
+
+    avançam para cima da praia.  Ao norte você vê uma pequena doca.'
   exits:
     east:
       target_vnum: 01010545696
@@ -3581,10 +4048,11 @@
   local_id: '5687'
   name: O Mar do Dragão
   vnum: 01010545687
-- description: |-
-    Você está nas claras águas azuis do Mar do Dragão.  As águas se estendem
+- description: 'Você está nas claras águas azuis do Mar do Dragão.  As águas se estendem
+
     em todas as direções até onde seu olho alcança.  Você pode ver uma pequena
-    doca ao oeste.
+
+    doca ao oeste.'
   exits:
     east:
       target_vnum: 01010545697
@@ -3595,10 +4063,11 @@
   local_id: '5688'
   name: O Mar do Dragão
   vnum: 01010545688
-- description: |-
-    Você está nas claras águas azuis do Mar do Dragão.  As águas se estendem
+- description: 'Você está nas claras águas azuis do Mar do Dragão.  As águas se estendem
+
     em todas as direções até onde seu olho alcança.  Você pode ver uma pequena
-    doca ao oeste.
+
+    doca ao oeste.'
   exits:
     down:
       target_vnum: 01010545698
@@ -3613,12 +4082,16 @@
   local_id: '5689'
   name: O Mar do Dragão
   vnum: 01010545689
-- description: |-
-    As pessoas de Nova Thalos se orgulham dos muitos serviços que sua cidade
+- description: 'As pessoas de Nova Thalos se orgulham dos muitos serviços que sua
+    cidade
+
     oferece.  Um destes serviços é o reparo das estradas, mantendo-as em ordem.
+
     Embora os impostos de Nova Thalos sejam mais altos do que nas outras
+
     cidades, a verdade é que a maioria do dinheiro é usado para o bem dos
-    habitantes.
+
+    habitantes.'
   exits:
     east:
       target_vnum: 01010545691
@@ -3627,11 +4100,13 @@
   local_id: '5690'
   name: Em uma Estrada
   vnum: 01010545690
-- description: |-
-    Você atravessa uma estrada bastante usada, que tem uma bela paisagem.  Ao
+- description: 'Você atravessa uma estrada bastante usada, que tem uma bela paisagem.  Ao
+
     norte altos pinheiros formam uma parede que segue por milhas.  Entre a
+
     estrada e as árvores há um belo campo gramíneo.  Ao sul daqui, atrás do rio,
-    fica o Grande Deserto Oriental.  A estrada continua a leste e oeste.
+
+    fica o Grande Deserto Oriental.  A estrada continua a leste e oeste.'
   exits:
     east:
       target_vnum: 01010545692
@@ -3640,10 +4115,11 @@
   local_id: '5691'
   name: Em uma Estrada
   vnum: 01010545691
-- description: |-
-    O Rio do Dragão pode ser visto ao leste agora seguindo para terras
+- description: 'O Rio do Dragão pode ser visto ao leste agora seguindo para terras
+
     desconhecidas.  A estrada continua ao leste e oeste.  Ao sul você ouve os
-    sons de barcos navegando pelo Rio Isthar entregando mercadorias.
+
+    sons de barcos navegando pelo Rio Isthar entregando mercadorias.'
   exits:
     east:
       target_vnum: 01010545693
@@ -3652,10 +4128,11 @@
   local_id: '5692'
   name: Em uma Estrada
   vnum: 01010545692
-- description: |-
-    Esta é uma estrada de terra.  Mercadores podem trazer suas mercadorias
+- description: 'Esta é uma estrada de terra.  Mercadores podem trazer suas mercadorias
+
     através das balsas e dos barcos de exportação.  Indo a pé pelo leste, você
-    irá para Nova Thalos e para baixo para Midgaard.
+
+    irá para Nova Thalos e para baixo para Midgaard.'
   exits:
     east:
       target_vnum: 01010545694
@@ -3664,24 +4141,28 @@
   local_id: '5693'
   name: Em uma Estrada
   vnum: 01010545693
-- description: |-
-    A estrada termina aqui se tornando um pequeno e sujo pátio, que leva para
+- description: 'A estrada termina aqui se tornando um pequeno e sujo pátio, que leva
+    para
+
     a praia e para a doca.  Ao norte e sul, você vê a costa.  Ao oeste as terras
-    mais baixas seguem para as montanhas cobertas de neve.
+
+    mais baixas seguem para as montanhas cobertas de neve.'
   exits:
     east:
       target_vnum: 01010545695
     north:
-      target_vnum: 01010544289
+      target_vnum: 01010424289
     west:
       target_vnum: 01010545693
   local_id: '5694'
   name: Perto da Costa
   vnum: 01010545694
-- description: |-
-    Você está em uma simples doca que serve de extensão da estrada ao oeste.
+- description: 'Você está em uma simples doca que serve de extensão da estrada ao
+    oeste.
+
     A doca parece que foi construída há muito tempo.  Uma pequena escada foi
-    construída ao leste para dar fácil acesso aos navios.
+
+    construída ao leste para dar fácil acesso aos navios.'
   exits:
     east:
       target_vnum: 01010545689
@@ -3694,10 +4175,11 @@
   local_id: '5695'
   name: Em uma Doca
   vnum: 01010545695
-- description: |-
-    Você está nas claras águas azuis do Mar do Dragão.  As águas se estendem
+- description: 'Você está nas claras águas azuis do Mar do Dragão.  As águas se estendem
+
     em todas as direções até onde seu olho alcança.  Você pode ver uma pequena
-    doca ao oeste.
+
+    doca ao oeste.'
   exits:
     east:
       target_vnum: 01010545696
@@ -3708,9 +4190,10 @@
   local_id: '5696'
   name: O Mar do Dragão
   vnum: 01010545696
-- description: |-
-    O oceano segue suavemente em todas as direções.  Você vê uma ilha, a uma
-    certa distância, no horizonte.  Ao oeste você vê o continente.
+- description: 'O oceano segue suavemente em todas as direções.  Você vê uma ilha,
+    a uma
+
+    certa distância, no horizonte.  Ao oeste você vê o continente.'
   exits:
     east:
       target_vnum: 01010545697
@@ -3723,14 +4206,17 @@
   local_id: '5697'
   name: O Mar do Dragão
   vnum: 01010545697
-- description: |-
-    Você está nadando embaixo de uma doca.  Você pode ver quatro pilares de
+- description: 'Você está nadando embaixo de uma doca.  Você pode ver quatro pilares
+    de
+
     madeira servindo de base para a estrutura.  As escuras águas turvam sua
+
     visão quando você olha ao oeste, mas você acha que pode haver um portão de
-    ferro nesta direção.
+
+    ferro nesta direção.'
   exits:
     down:
-      target_vnum: 01010540339
+      target_vnum: 01010030339
     up:
       target_vnum: 01010545697
     west:
@@ -3738,9 +4224,10 @@
   local_id: '5698'
   name: Embaixo da Doca
   vnum: 01010545698
-- description: |-
-    Sangue escorre pela água enquanto o Ixitaxachitl devora sua última presa.
-    Feixes de luz tomam a sala e seguem em sua direção!
+- description: 'Sangue escorre pela água enquanto o Ixitaxachitl devora sua última
+    presa.
+
+    Feixes de luz tomam a sala e seguem em sua direção!'
   exits:
     east:
       target_vnum: 01010545698

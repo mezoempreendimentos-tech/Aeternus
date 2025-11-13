@@ -1,39 +1,52 @@
-- description: |-
-    Esta é a entrada principal para o excitante Parque Safári no Covil dos
+- description: 'Esta é a entrada principal para o excitante Parque Safári no Covil
+    dos
+
     Lagartos.  Ao seu redor, estão em pé muitos outros aventureiros que esperam
+
     sua chance para tentar a sorte na busca.  E você também.  Esta busca
+
     consiste na recuperação do tesouro Dourado nas profundezas da toca do homem
+
     lagarto.  Se você desejar testar sua sorte, você pode seguir o caminho pela
+
     saída ao sul... Caso contrário, você pode deixar o Parque do Safári
+
     seguindo norte... ou leste...
-    Há um grande aviso aqui.
+
+    Há um grande aviso aqui.'
   exits:
     east:
       target_vnum: '01010222217'
     north:
-      target_vnum: '01010221100'
+      target_vnum: '01010111100'
     south:
       target_vnum: '01010222201'
   local_id: '2200'
   name: A Entrada Para o Safári no Covil Dos Lagartos
   vnum: '01010222200'
-- description: |-
-    Nesta sala existem vários itens de preparação para o início da busca.
+- description: 'Nesta sala existem vários itens de preparação para o início da busca.
+
     Um guia explica a você qual é o objetivo:  Recuperar o ouro.
+
     Olhando ao seu redor, você vê uma saída a norte, que desaparece e você acaba
+
     se sentindo muito só e agora a única saída é para baixo... na água.
+
     Você está pronto para começar a busca, o guia lhe dá uma poção e lhe diz
+
     para beber isto. Você faz isso e sente que seus movimentos estão mais
-    fáceis e muito mais leves. O guia desaparece de repente e você começa a busca.
+
+    fáceis e muito mais leves. O guia desaparece de repente e você começa a busca.'
   exits:
     down:
       target_vnum: '01010222202'
   local_id: '2201'
   name: A Sala Preparatória Para A Busca
   vnum: '01010222201'
-- description: |-
-    Este túnel está repleto de água e a luz vai enfraquecendo, chegando a perder a
-    luminosidade. Existem duas saídas.  Uma está a leste e outra sobre você.
+- description: 'Este túnel está repleto de água e a luz vai enfraquecendo, chegando
+    a perder a
+
+    luminosidade. Existem duas saídas.  Uma está a leste e outra sobre você.'
   exits:
     east:
       target_vnum: '01010222203'
@@ -44,10 +57,12 @@
   local_id: '2202'
   name: Um Túnel
   vnum: '01010222202'
-- description: |-
-    Este túnel está repleto de água.  Existem duas saídas para o leste e para
+- description: 'Este túnel está repleto de água.  Existem duas saídas para o leste
+    e para
+
     o oeste.
-    O túnel continua em ambas as direções.
+
+    O túnel continua em ambas as direções.'
   exits:
     east:
       target_vnum: '01010222204'
@@ -56,10 +71,11 @@
   local_id: '2203'
   name: Um Túnel
   vnum: '01010222203'
-- description: |-
-    A medida que o túnel termina, dá para ver uma parede de pedra, exatamente
+- description: 'A medida que o túnel termina, dá para ver uma parede de pedra, exatamente
+
     à sua frente.  Felizmente, existem duas saídas, uma para o oeste e outra por
-    um buraco no chão.
+
+    um buraco no chão.'
   exits:
     down:
       target_vnum: '01010222205'
@@ -78,11 +94,13 @@
   local_id: '2205'
   name: Fim do Túnel
   vnum: '01010222205'
-- description: |-
-    Esta grande sala está dominada pelo redemoinho.  Existem duas saídas.  Para
+- description: 'Esta grande sala está dominada pelo redemoinho.  Existem duas saídas.  Para
+
     o leste, você consegue ver uma porta e para o oeste você vê um corredor
+
     repleto com água. O redemoinho está ameaçando puxá-lo e você tem absoluta
-    certeza que se afogaria.
+
+    certeza que se afogaria.'
   exits:
     down:
       target_vnum: '01010222207'
@@ -95,25 +113,28 @@
   local_id: '2206'
   name: A Câmara De Magias
   vnum: '01010222206'
-- description: |-
-    Não foi uma boa idéia ter vindo aqui.
+- description: 'Não foi uma boa idéia ter vindo aqui.
+
 
     Você acabou morrendo afogado.
+
 
     Você está morto.
 
 
 
-    R . I . P .
+
+    R . I . P .'
   exits:
     up:
       target_vnum: '01010222206'
   local_id: '2207'
   name: "O Redemoinho de Ã\x81gua"
   vnum: '01010222207'
-- description: |-
-    O corredor naturalmente se curva de um modo que parece ir para leste e
-    abaixo, mas não parecendo se curvar em qualquer direção.
+- description: 'O corredor naturalmente se curva de um modo que parece ir para leste
+    e
+
+    abaixo, mas não parecendo se curvar em qualquer direção.'
   exits:
     down:
       target_vnum: 01010222209
@@ -131,17 +152,19 @@
   local_id: '2209'
   name: Um Corredor
   vnum: 01010222209
-- description: |-
-    Esta sala foi feita para confundir os que se acham espertos.   E se você está aqui parado,
-    lendo o que foi escrito nestas paredes...sorria: Você não é nada esperto!
+- description: 'Esta sala foi feita para confundir os que se acham espertos.   E se
+    você está aqui parado,
+
+    lendo o que foi escrito nestas paredes...sorria: Você não é nada esperto!'
   exits: {}
   local_id: '2210'
   name: Uma Sala Completamente Inútil
   vnum: '01010222210'
-- description: |-
-    Esta é a entrada para a sala do Trono sendo que segue para o leste.   Um
+- description: 'Esta é a entrada para a sala do Trono sendo que segue para o leste.   Um
+
     saguão inicia a oeste.  A sala é bastante luxuosa e decorada mas não há
-    muito o que se observar.
+
+    muito o que se observar.'
   exits:
     east:
       target_vnum: '01010222212'
@@ -150,11 +173,13 @@
   local_id: '2211'
   name: A Sala Do Trono Anexo
   vnum: '01010222211'
-- description: |-
-    Esta grande sala é bastante extensa.  Um trono está situado na parede
+- description: 'Esta grande sala é bastante extensa.  Um trono está situado na parede
+
     leste, debaixo de um buraco no teto.  O trono quase preenche toda a sala.
+
     Ninguém está sentado nele.  A parede está decorada e alguns pilares cercam a
-    sala.  O anexo está a oeste você ainda não tem certeza do que se trata.
+
+    sala.  O anexo está a oeste você ainda não tem certeza do que se trata.'
   exits:
     up:
       target_vnum: '01010222213'
@@ -163,11 +188,13 @@
   local_id: '2212'
   name: Sala do Trono
   vnum: '01010222212'
-- description: |-
-    Este é o templo do maléfico deus Homem Lagarto, Morgash. Ele é bastante
+- description: 'Este é o templo do maléfico deus Homem Lagarto, Morgash. Ele é bastante
+
     feio. Pelo menos é o que você acha... você tem certeza que o homem lagarto
+
     entretanto gosta disto. Existem duas saídas.  Abaixo e também pela grande
-    porta a leste.
+
+    porta a leste.'
   exits:
     down:
       target_vnum: '01010222212'
@@ -194,9 +221,10 @@
   local_id: '2215'
   name: A Sala Preparatória Da Busca
   vnum: '01010222215'
-- description: |-
-    Esta sala está vazia.  Existe um SORTUDO bloqueando seu caminho a sul.
-    Existe um sinal na parede.
+- description: 'Esta sala está vazia.  Existe um SORTUDO bloqueando seu caminho a
+    sul.
+
+    Existe um sinal na parede.'
   exits:
     south:
       target_vnum: '01010222202'
@@ -208,16 +236,17 @@
     Existe uma enorme porta de metal ao sul."
   exits:
     south:
-      target_vnum: '01010223700'
+      target_vnum: '01010373700'
     west:
       target_vnum: '01010222200'
   local_id: '2217'
   name: O Mundo Real Termina Aqui
   vnum: '01010222217'
-- description: |-
-    Esta é uma amigável loja de conveniências do bairro e também um
+- description: 'Esta é uma amigável loja de conveniências do bairro e também um
+
     restaurante.
-    Existem muitas coisas interessantes que você pode comprar aqui.
+
+    Existem muitas coisas interessantes que você pode comprar aqui.'
   exits:
     south:
       target_vnum: '01010222206'

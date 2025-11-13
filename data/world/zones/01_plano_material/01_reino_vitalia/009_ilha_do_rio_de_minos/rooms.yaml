@@ -1,7 +1,8 @@
-- description: |-
-    Assim que o rio sai da cidade de Midgaard, ele pega velocidade e leva
+- description: 'Assim que o rio sai da cidade de Midgaard, ele pega velocidade e leva
+
     você através das margens cercadas pelas árvores de Haon-Dor. Enquanto a
-    cidade desaparece a leste, você se aproxima de uma obscura floresta a oeste.
+
+    cidade desaparece a leste, você se aproxima de uma obscura floresta a oeste.'
   exits:
     east:
       target_vnum: 01010093200
@@ -10,24 +11,26 @@
   local_id: '900'
   name: Na Correnteza do Rio
   vnum: 01010090900
-- description: |-
-    O rio é fundo, e corre rapidamente na direção leste-oeste. Para norte
+- description: 'O rio é fundo, e corre rapidamente na direção leste-oeste. Para norte
+
     o rio termina e entra uma clareira onde um barranco leva até um escuro e
-    fechado bosque. Isto não parece muito convidativo de qualquer modo.
+
+    fechado bosque. Isto não parece muito convidativo de qualquer modo.'
   exits:
     east:
       target_vnum: 01010090900
     north:
-      target_vnum: 01010096120
+      target_vnum: '01010616120'
     west:
       target_vnum: 01010090902
   local_id: '901'
   name: A Margem do Rio
   vnum: 01010090901
-- description: |-
-    O rio serpenteia e quase joga você pra fora de seu barco. A agua é
+- description: 'O rio serpenteia e quase joga você pra fora de seu barco. A agua é
+
     escura, gelada, com um brilho reptiliano. Ele parece quase vivo. O rio corre
-    para o leste e para o sul.
+
+    para o leste e para o sul.'
   exits:
     east:
       target_vnum: 01010090901
@@ -36,10 +39,11 @@
   local_id: '902'
   name: A Parte Sinuosa do Rio
   vnum: 01010090902
-- description: |-
-    A obscura floresta de Haon-Dor desaparece atrás de você a nordeste.
+- description: 'A obscura floresta de Haon-Dor desaparece atrás de você a nordeste.
+
     O rio continua na direção oeste através do delta do rio, onde você avista
-    uma grande ilha.
+
+    uma grande ilha.'
   exits:
     east:
       target_vnum: 01010090902
@@ -48,10 +52,11 @@
   local_id: '903'
   name: A Paisagem Pitoresca
   vnum: 01010090903
-- description: |-
-    Você está na borda do delta do rio, onde o rio termina o seu caminho
+- description: 'Você está na borda do delta do rio, onde o rio termina o seu caminho
+
     para o mar. A agua aqui á Negra. Funda. Escura. Mortal. As ondas da maré
-    movem você para cima e para baixo.
+
+    movem você para cima e para baixo.'
   exits:
     east:
       target_vnum: 01010090903
@@ -64,10 +69,11 @@
   local_id: '904'
   name: A Correnteza no Delta do Rio
   vnum: 01010090904
-- description: |-
-    Você sacode-se para cima e para baixo nas ondas que vem perigosamente
+- description: 'Você sacode-se para cima e para baixo nas ondas que vem perigosamente
+
     perto de algumas rochas grandes, pontudas na costa leste de uma ilha incomum.
-    Não há nenhuma maneira de você ancorar lá sem ser morto.
+
+    Não há nenhuma maneira de você ancorar lá sem ser morto.'
   exits:
     east:
       target_vnum: 01010090904
@@ -76,11 +82,14 @@
   local_id: '905'
   name: Perto das Rochas
   vnum: 01010090905
-- description: |-
-    Você está fazendo seu caminho ao longo de um canal no delta do rio entre
+- description: 'Você está fazendo seu caminho ao longo de um canal no delta do rio
+    entre
+
     a ilha ao oeste e á costa ao sul e leste. Ao sul um envelhecido e quebrado
+
     cáis sai para fora da terra e para o oeste o canal vai para perto da ilha
-    enquanto se move em torno de sua ponta do sul.
+
+    enquanto se move em torno de sua ponta do sul.'
   exits:
     east:
       target_vnum: 01010090904
@@ -93,10 +102,11 @@
   local_id: '906'
   name: O Delta Sul do Rio
   vnum: 01010090906
-- description: |-
-    Você flutua ao lado de um cáis se desintegrando e por muito tempo
+- description: 'Você flutua ao lado de um cáis se desintegrando e por muito tempo
+
     esquecido. Ao oeste a água começa a parar e há muitas ervas daninhas e
-    algumas algas que flutuam próximas.
+
+    algumas algas que flutuam próximas.'
   exits:
     north:
       target_vnum: 01010090906
@@ -105,10 +115,12 @@
   local_id: '907'
   name: O Pier
   vnum: 01010090907
-- description: |-
-    O caminho por aqui é difícil. A maré luta com o fluxo normal do rio e
+- description: 'O caminho por aqui é difícil. A maré luta com o fluxo normal do rio
+    e
+
     aqui perto da borda do mar há uma grande quantidade de algas. Ao oeste o
-    canal passa a ponta do sul da ilha e vai para águas abertas.
+
+    canal passa a ponta do sul da ilha e vai para águas abertas.'
   exits:
     east:
       target_vnum: 01010090907
@@ -119,11 +131,14 @@
   local_id: '908'
   name: Passagem Pelas Algas
   vnum: 01010090908
-- description: |-
-    O delta encontra com o mar aqui. Ao oeste você não vê nada mais do que o
+- description: 'O delta encontra com o mar aqui. Ao oeste você não vê nada mais do
+    que o
+
     oceano no horizonte. Os pássaros do mar gritam ruidosamente em sua aproximação
+
     e voam para uma praia próxima na ilha. Isto parace como se este poderia ser a
-    última parada para aqueles indo para o mar.
+
+    última parada para aqueles indo para o mar.'
   exits:
     east:
       target_vnum: 01010090908
@@ -132,23 +147,25 @@
   local_id: '909'
   name: "A Ã\x9Altima Parada"
   vnum: 01010090909
-- description: |-
-    Esta parece uma praia deserta na ponta do sul da ilha.  Seguindo sudoeste
+- description: 'Esta parece uma praia deserta na ponta do sul da ilha.  Seguindo sudoeste
+
     você entra em mar aberto.  Não há muito a ver aqui e não há nenhuma maneira
-    cruzar os penhascos rochosos e íngremes que cercam este lugar.
+
+    cruzar os penhascos rochosos e íngremes que cercam este lugar.'
   exits:
     south:
       target_vnum: 01010090909
     southwest:
-      target_vnum: 010100910800
+      target_vnum: 01010080800
     west:
-      target_vnum: 01010092010
+      target_vnum: '01010202010'
   local_id: '910'
   name: A Praia
   vnum: 01010090910
-- description: |-
-    O rio se divide e corre de encontro a ilha e a um canal navegável que se
-    divide para o norte e para o oeste.
+- description: 'O rio se divide e corre de encontro a ilha e a um canal navegável
+    que se
+
+    divide para o norte e para o oeste.'
   exits:
     north:
       target_vnum: 01010090912
@@ -159,9 +176,10 @@
   local_id: '911'
   name: O Canal Norte
   vnum: 01010090911
-- description: |-
-    O rio carrega-o rapidamente para o oeste enquanto o canal começa a se
-    estreitar enquanto se espreme através na extremidade norte da ilha.
+- description: 'O rio carrega-o rapidamente para o oeste enquanto o canal começa a
+    se
+
+    estreitar enquanto se espreme através na extremidade norte da ilha.'
   exits:
     east:
       target_vnum: 01010090911
@@ -172,9 +190,10 @@
   local_id: '912'
   name: O Canal Norte
   vnum: 01010090912
-- description: |-
-    Você está fora de uma aterragem pequena na ilha que não parece ser nada
-    mais do que um trajeto curto que conduz ao lado de uma colina.
+- description: 'Você está fora de uma aterragem pequena na ilha que não parece ser
+    nada
+
+    mais do que um trajeto curto que conduz ao lado de uma colina.'
   exits:
     east:
       target_vnum: 01010090912
@@ -183,11 +202,13 @@
   local_id: '913'
   name: Perto da Ilha
   vnum: 01010090913
-- description: |-
-    Corpos encontram-se por toda parte. Campones, mendigos, duques, duquesas.
+- description: 'Corpos encontram-se por toda parte. Campones, mendigos, duques, duquesas.
+
     Os deuses não ouvirão seu chamado aqui. Daqui não lhe responderão. Ao sul
+
     o trajeto termina na entrada de uma escura caverna. Um letreiro foi afixado
-    ao lado da entrada.
+
+    ao lado da entrada.'
   exits:
     north:
       target_vnum: 01010090913
@@ -196,31 +217,37 @@
   local_id: '914'
   name: O Caminho dos Que Ficaram
   vnum: 01010090914
-- description: |-
-    Ah... você encontra-se no campo de batalha de Minos. Minos ama torturar
+- description: 'Ah... você encontra-se no campo de batalha de Minos. Minos ama torturar
+
     seu povo através destes lugares. Ele coleta monstros do mundo todo e os poem
-    aqui.
+
+    aqui.'
   exits:
     east:
       target_vnum: 01010090916
   local_id: '915'
   name: O Primeiro Desafio de Minos
   vnum: 01010090915
-- description: |-
-    A voz de Minos reverbera nas quatro paredes desta sala: 'Descanse um pouco
+- description: 'A voz de Minos reverbera nas quatro paredes desta sala: ''Descanse
+    um pouco
+
     e certifique-se de que você está curado. Você precisará para o próximo
-    monstro em meu desafio. Ou você é forte o bastante? '
-    Ao sul é a entrada para o próximo desafio na fortaleza de Minos.
+
+    monstro em meu desafio. Ou você é forte o bastante? ''
+
+    Ao sul é a entrada para o próximo desafio na fortaleza de Minos.'
   exits:
     south:
       target_vnum: 01010090917
   local_id: '916'
   name: O Segundo Desafio de Minos
   vnum: 01010090916
-- description: |-
-    Você entra em um quarto vermelho. Muito vermelho. Como se o rei Minos o
+- description: 'Você entra em um quarto vermelho. Muito vermelho. Como se o rei Minos
+    o
+
     usou para estripar seus convidados. O trajeto continua a leste. Você vê
-    luzes azuis nesse sentido.
+
+    luzes azuis nesse sentido.'
   exits:
     east:
       target_vnum: 01010090918
@@ -235,22 +262,26 @@
   local_id: '918'
   name: O Quarto Desafio de Minos
   vnum: 01010090918
-- description: |-
-    Isto é o quartel do General Woundwort. Cadáveres de coelhos encontram-se
+- description: 'Isto é o quartel do General Woundwort. Cadáveres de coelhos encontram-se
+
     dispersados sobre este pequeno inferno. O General não é uma pessoa muito boa
-    como você pode pensar.
+
+    como você pode pensar.'
   exits:
     east:
       target_vnum: 01010090920
   local_id: '919'
   name: O Quinto Desafio de Minos
   vnum: 01010090919
-- description: |-
-    Quisera nós sabermos quantas mais salas Minos tem. Os trajetos parecem
+- description: 'Quisera nós sabermos quantas mais salas Minos tem. Os trajetos parecem
+
     ser infinitos. Você escuta os sons de gritos de morte do leste. Uma voz alta
-    grita um outro aviso: 'Sai agora ou enfrente minha ira!' Há uma escada que
+
+    grita um outro aviso: ''Sai agora ou enfrente minha ira!'' Há uma escada que
+
     conduz para cima na extremidade do quarto e há uma brisa fresca que vem de
-    lá.
+
+    lá.'
   exits:
     south:
       target_vnum: 01010090921
@@ -259,31 +290,36 @@
   local_id: '920'
   name: O Sexto Desafio de Minos
   vnum: 01010090920
-- description: |-
-    Este é a sala de Minos. O que você esperava? A sala é decorada
+- description: 'Este é a sala de Minos. O que você esperava? A sala é decorada
+
     prodigamente para este rei bovino. Tudo é tão opulento que faz seus olhos
+
     doerem. Sobreviva e leve a fortuna dele!
-    A única saída é uma porta grande de carvalho na parede do leste.
+
+    A única saída é uma porta grande de carvalho na parede do leste.'
   exits:
     east:
       target_vnum: 01010090922
   local_id: '921'
   name: "O Ã\x9Altimo Desafio de Minos"
   vnum: 01010090921
-- description: |-
-    A sala do tesouro de Minos é escura, exceto por sua lanterna.
+- description: 'A sala do tesouro de Minos é escura, exceto por sua lanterna.
+
     Esperançosamente ainda não foi descoberta pelos muitos ladrões legendários
-    de Midgaard. Uma passagem secreta conduz para cima daqui.
+
+    de Midgaard. Uma passagem secreta conduz para cima daqui.'
   exits:
     up:
       target_vnum: 01010090910
   local_id: '922'
   name: A Sala Real
   vnum: 01010090922
-- description: |-
-    Você senta-se entre as rochas em uma pequena praia na extremidade sul da
+- description: 'Você senta-se entre as rochas em uma pequena praia na extremidade
+    sul da
+
     ilha. Você poderia descer facilmente, mas subir de novo seria uma outra
-    história.
+
+    história.'
   exits:
     down:
       target_vnum: 01010090910

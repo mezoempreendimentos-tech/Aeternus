@@ -1,18 +1,19 @@
-- description: |-
-    Quanto mais fundo você vai, mais fica denso e escuro, é praticamente
+- description: 'Quanto mais fundo você vai, mais fica denso e escuro, é praticamente
+
     impossível de se ver qualquer coisa a sua frente.  Para cima e para baixo
-    nada há além da escuridão.
+
+    nada há além da escuridão.'
   exits:
     down:
       target_vnum: 01010979701
     up:
-      target_vnum: 01010971110
+      target_vnum: '01010111110'
   local_id: '9700'
   name: Dentro da Lagoa Escura
   vnum: 01010979700
-- description: |-
-    Esse lugar é tão escuro que provavelmente nem peixes vivem aqui.  Para
-    cima e para baixo só existe uma imensidão de água turva.
+- description: 'Esse lugar é tão escuro que provavelmente nem peixes vivem aqui.  Para
+
+    cima e para baixo só existe uma imensidão de água turva.'
   exits:
     down:
       target_vnum: 01010979702
@@ -21,9 +22,9 @@
   local_id: '9701'
   name: Dentro da Lagoa Escura
   vnum: 01010979701
-- description: |-
-    Cada vez mais fundo...  e mais fundo...  o que poderia existir numa
-    escuridão como essa?  Somente um louco poderia nadar tão fundo.
+- description: 'Cada vez mais fundo...  e mais fundo...  o que poderia existir numa
+
+    escuridão como essa?  Somente um louco poderia nadar tão fundo.'
   exits:
     down:
       target_vnum: 01010979703
@@ -32,9 +33,10 @@
   local_id: '9702'
   name: Dentro da Lagoa Escura
   vnum: 01010979702
-- description: |-
-    Nada há para se ver, escuridão intensa e um frio insuportável.  Além de
-    escura essa lagoa está se tornando cada vez mais fria....
+- description: 'Nada há para se ver, escuridão intensa e um frio insuportável.  Além
+    de
+
+    escura essa lagoa está se tornando cada vez mais fria....'
   exits:
     down:
       target_vnum: 01010979704
@@ -43,9 +45,10 @@
   local_id: '9703'
   name: Dentro da Lagoa Escura
   vnum: 01010979703
-- description: |-
-    A melhor idéia seria subir para a superfície, o frio se torna cada vez
-    mais terrível.  Nada se pode ver tanto para cima como para baixo.
+- description: 'A melhor idéia seria subir para a superfície, o frio se torna cada
+    vez
+
+    mais terrível.  Nada se pode ver tanto para cima como para baixo.'
   exits:
     down:
       target_vnum: 01010979705
@@ -54,10 +57,11 @@
   local_id: '9704'
   name: Dentro da Lagoa Escura
   vnum: 01010979704
-- description: |-
-    Seu fôlego está acabando, triste fim para um aventureiro tão corajoso...
+- description: 'Seu fôlego está acabando, triste fim para um aventureiro tão corajoso...
+
     Morrer nessa profunda lagoa, solitário e sem desvendar os mistérios nela
-    contidos...  Talvez ainda haja tempo de voltar...
+
+    contidos...  Talvez ainda haja tempo de voltar...'
   exits:
     down:
       target_vnum: 01010979706
@@ -66,9 +70,10 @@
   local_id: '9705'
   name: Dentro da Lagoa Escura
   vnum: 01010979705
-- description: |-
-    A melhor idéia seria subir para a superfície, o frio se torna cada vez
-    mais terrível.  Nada se pode ver tanto para cima como para baixo.
+- description: 'A melhor idéia seria subir para a superfície, o frio se torna cada
+    vez
+
+    mais terrível.  Nada se pode ver tanto para cima como para baixo.'
   exits:
     down:
       target_vnum: 01010979707
@@ -77,10 +82,12 @@
   local_id: '9706'
   name: Dentro da Lagoa Escura
   vnum: 01010979706
-- description: |-
-    Finalmente você sente que tocou o fundo dessa horripilante e fria lagoa.
+- description: 'Finalmente você sente que tocou o fundo dessa horripilante e fria
+    lagoa.
+
     Não é possivel ver nada, mas aparentemente há um buraco no lado leste da
-    lagoa, talvez seria melhor voltar a superficie.
+
+    lagoa, talvez seria melhor voltar a superficie.'
   exits:
     east:
       target_vnum: 01010979708
@@ -89,9 +96,9 @@
   local_id: '9707'
   name: O Fundo da Lagoa Escura
   vnum: 01010979707
-- description: |-
-    Este buraco parece levá-lo para cima, estranhamente parece ser uma
-    superfície...  O frio ainda é intenso mas a escuridão parece terminar.
+- description: 'Este buraco parece levá-lo para cima, estranhamente parece ser uma
+
+    superfície...  O frio ainda é intenso mas a escuridão parece terminar.'
   exits:
     up:
       target_vnum: 01010979709
@@ -100,12 +107,15 @@
   local_id: '9708'
   name: Um Buraco no Fundo da Lagoa
   vnum: 01010979708
-- description: |-
-    Incrível!!!  Seus olhos estão maravilhados, um imenso local subterrâneo
+- description: 'Incrível!!!  Seus olhos estão maravilhados, um imenso local subterrâneo
+
     embaixo dessa lagoa.  Aqui o ambiente é mais quente e não é tão escuro, é
+
     possivel ver algumas labaredas de fogo, talvez aqui seja uma espécie de
+
     vulcão.  Para baixo você vê o buraco do fundo da lagoa, para leste esta área
-    se alonga e ao norte você vê a entrada de uma grande caverna,
+
+    se alonga e ao norte você vê a entrada de uma grande caverna,'
   exits:
     down:
       target_vnum: 01010979708
@@ -140,11 +150,13 @@
   local_id: '9711'
   name: Caverna da Serpente
   vnum: 01010979711
-- description: |-
-    Você está perto de encontrar algo horrível, é possível imaginar pela
+- description: 'Você está perto de encontrar algo horrível, é possível imaginar pela
+
     quantia de larva gosmenta e pelos barulhos estranhos que estão vindo do
+
     fundo da caverna. Ao leste parece ser o fundo da caverna e o oeste a
-    caverna continua.
+
+    caverna continua.'
   exits:
     east:
       target_vnum: 01010979713
@@ -164,10 +176,11 @@
   local_id: '9713'
   name: O Ninho da Serpente
   vnum: 01010979713
-- description: |-
-    Você está caminhando pelo subterrâneo, aqui tudo é magnífico.  A natureza
+- description: 'Você está caminhando pelo subterrâneo, aqui tudo é magnífico.  A natureza
+
     com certeza levou milênios pra esculpir tudo isso.  No lado leste e oeste
-    você a grande extensão desse subterrâneo.
+
+    você a grande extensão desse subterrâneo.'
   exits:
     east:
       target_vnum: 01010979715
@@ -176,11 +189,14 @@
   local_id: '9714'
   name: O Subterrâneo
   vnum: 01010979714
-- description: |-
-    O subterrâeo é muito curioso e assustador, aqui você nota a força da
+- description: 'O subterrâeo é muito curioso e assustador, aqui você nota a força
+    da
+
     natureza, mas ao mesmo tempo fica assombrado com o ar assustador e a
+
     escuridão.  A oeste o suberrâneo tem continuidade e ao sul você pode
-    ver uma pequena passagem e a leste uma sala um tanto quente.
+
+    ver uma pequena passagem e a leste uma sala um tanto quente.'
   exits:
     east:
       target_vnum: 01010979716
@@ -191,18 +207,22 @@
   local_id: '9715'
   name: O Subterrâneo
   vnum: 01010979715
-- description: |-
-    Você caiu numa enorme labareda de fogo.  AAAHHhhhhh...... o calor é
+- description: 'Você caiu numa enorme labareda de fogo.  AAAHHhhhhh...... o calor
+    é
+
     extremo seus equipamentos se derretem e sua pele arde em chamas.....
-    Você está completamente queimado pelo fogo eterno.....!!!
+
+    Você está completamente queimado pelo fogo eterno.....!!!'
   exits: {}
   local_id: '9716'
   name: O Fogo Eterno
   vnum: 01010979716
-- description: |-
-    Uma pequena e muito estreita passagem, com certeza se você fosse um pouco
+- description: 'Uma pequena e muito estreita passagem, com certeza se você fosse um
+    pouco
+
     mais gordo jamais passaria por aqui.  Ao norte você segue pelo subterrâneo,
-    para baixo você entra ainda mais nessa passagem estreita.
+
+    para baixo você entra ainda mais nessa passagem estreita.'
   exits:
     down:
       target_vnum: 01010979718
@@ -211,10 +231,11 @@
   local_id: '9717'
   name: Uma Passagem pelas Pedras
   vnum: 01010979717
-- description: |-
-    Cada vez fica mais apertada essa passagem.  Nas paredes há muita umidade
+- description: 'Cada vez fica mais apertada essa passagem.  Nas paredes há muita umidade
+
     e muitas rochas cortantes.  Para cima parece um pouco mais fácil de passar e
-    para leste ela se aprofunda.
+
+    para leste ela se aprofunda.'
   exits:
     east:
       target_vnum: 01010979719
@@ -223,10 +244,12 @@
   local_id: '9718'
   name: Uma Passagem pelas Pedras
   vnum: 01010979718
-- description: |-
-    Com certeza ninguem nunca passou por aqui, e você respirar um pouco mais
+- description: 'Com certeza ninguem nunca passou por aqui, e você respirar um pouco
+    mais
+
     forte é capaz de ficar preso.  Para oeste a passagem se alonga e para leste
-    parece que há uma sala maior.
+
+    parece que há uma sala maior.'
   exits:
     east:
       target_vnum: 01010979720
@@ -235,10 +258,12 @@
   local_id: '9719'
   name: Uma Passagem pelas Pedras
   vnum: 01010979719
-- description: |-
-    Um enorme vão no chão, você imagina que sua caminhada será um pouco mais
+- description: 'Um enorme vão no chão, você imagina que sua caminhada será um pouco
+    mais
+
     confortável daqui para frente.  Para baixo um enorme vão e para oeste a
-    passagem estreita por entre as pedras.
+
+    passagem estreita por entre as pedras.'
   exits:
     down:
       target_vnum: 01010979721
@@ -247,29 +272,31 @@
   local_id: '9720'
   name: Uma Passagem pelas Pedras
   vnum: 01010979720
-- description: |-
-    Você se escorrega pelas pedras, é muito alto para poder voltar.  Sua
-    única alternativa é continuar descendo.  Você só vê a saída para baixo.
+- description: 'Você se escorrega pelas pedras, é muito alto para poder voltar.  Sua
+
+    única alternativa é continuar descendo.  Você só vê a saída para baixo.'
   exits:
     down:
       target_vnum: 01010979722
   local_id: '9721'
   name: Uma Passagem pelas Pedras
   vnum: 01010979721
-- description: |-
-    Você está na margem de um rio subterrâneo, as aguas são turvas e muito
+- description: 'Você está na margem de um rio subterrâneo, as aguas são turvas e muito
+
     quentes, com certeza qualquer um que caisse nelas seria cozido.  Para o sul
-    você vê o rio de águas muitos sujas.
+
+    você vê o rio de águas muitos sujas.'
   exits:
     south:
       target_vnum: 01010979723
   local_id: '9722'
   name: A Margem do Rio das Almas
   vnum: 01010979722
-- description: |-
-    Um rio de águas calmas, porém tudo aqui é assustador, das águas sobem
-    borbulhas e algo parece se mexer debaixo d'agua.  Ao norte você vê a margem
-    e a leste o rio continua.
+- description: 'Um rio de águas calmas, porém tudo aqui é assustador, das águas sobem
+
+    borbulhas e algo parece se mexer debaixo d''agua.  Ao norte você vê a margem
+
+    e a leste o rio continua.'
   exits:
     east:
       target_vnum: 01010979724
@@ -278,64 +305,75 @@
   local_id: '9723'
   name: O Rio das Almas
   vnum: 01010979723
-- description: |-
-    O rio continua calmo, mas você tem a impressão de estar sendo
+- description: 'O rio continua calmo, mas você tem a impressão de estar sendo
+
     observado.  Não existe correnteza, mas você percebe que é impossível voltar,
+
     como se algo arrastasse você cada vez mais para frente.  Sua única saída é
-    continuar seguindo pelo lado sul.
+
+    continuar seguindo pelo lado sul.'
   exits:
     south:
       target_vnum: 01010979725
   local_id: '9724'
   name: O Rio das Almas
   vnum: 01010979724
-- description: |-
-    Algo estranho está acontecendo... as águas claras se movimentam
+- description: 'Algo estranho está acontecendo... as águas claras se movimentam
+
     extremamente, no meio do rio um rodamoinho se forma, é impossível de
-    voltar... você está sendo puxado.  Sua única saída é a curva ao leste.
+
+    voltar... você está sendo puxado.  Sua única saída é a curva ao leste.'
   exits:
     east:
       target_vnum: 01010979726
   local_id: '9725'
   name: O Rio das Almas
   vnum: 01010979725
-- description: |-
-    Uuaahhhhuuuu!!!  Muita água cai dentro do seu barco, faz ele ficar muito
+- description: 'Uuaahhhhuuuu!!!  Muita água cai dentro do seu barco, faz ele ficar
+    muito
+
     pesado.  Esse é um caminho sem volta.  Ao norte você vê a única saída
-    possível.
+
+    possível.'
   exits:
     north:
       target_vnum: 01010979727
   local_id: '9726'
   name: O Centro do Rodamoinho
   vnum: 01010979726
-- description: |-
-    Finalmente fora daquele rodamoinho e livre de qualquer perigo, mas
+- description: 'Finalmente fora daquele rodamoinho e livre de qualquer perigo, mas
+
     infelizmente não há como voltar.  Por todos os lados somente escuridão.
-    Você vê outra curva ao leste.
+
+    Você vê outra curva ao leste.'
   exits:
     east:
       target_vnum: 01010979728
   local_id: '9727'
   name: O Rio das Almas
   vnum: 01010979727
-- description: |-
-    Essa parte da caverna começa a ficar muito estreita, se você estivesse
+- description: 'Essa parte da caverna começa a ficar muito estreita, se você estivesse
+
     com um barco muito grande, com certeza não conseguiria seguir viagem.  Há
+
     muitos morcegos por aqui e o cheiro de suas fezes é insuportável.  A única
-    passagem é do lado norte, onde há uma curva.
+
+    passagem é do lado norte, onde há uma curva.'
   exits:
     north:
       target_vnum: 01010979729
   local_id: '9728'
   name: O Rio das Almas
   vnum: 01010979728
-- description: |-
-    Finalmente a caverna voltou a ficar mais ampla, suas paredes estão
+- description: 'Finalmente a caverna voltou a ficar mais ampla, suas paredes estão
+
     repletas de morcegos mas o ar aqui é bem melhor.  No teto da caverna há
+
     sinais estranhos talvez alguma civilização tenha vivido aqui, mas é
+
     impossivel de se ler dessa distância.  Você pode ver um passagem estreita a
-    leste, saindo do rio.  E ao sul parece que o rio continua.
+
+    leste, saindo do rio.  E ao sul parece que o rio continua.'
   exits:
     east:
       target_vnum: 01010979730
@@ -357,10 +395,12 @@
   local_id: '9730'
   name: Uma Margem do lado leste do Rio
   vnum: 01010979730
-- description: |-
-    Você está num caminho estreito por entre as pedras, nas paredes é sinal
+- description: 'Você está num caminho estreito por entre as pedras, nas paredes é
+    sinal
+
     de ranhuras, algo estranho passou por aqui.  Ao leste a trilha parece ser
-    profunda e a oeste você a margem do rio.
+
+    profunda e a oeste você a margem do rio.'
   exits:
     east:
       target_vnum: 01010979732
@@ -369,9 +409,9 @@
   local_id: '9731'
   name: Uma Trilha na Caverna
   vnum: 01010979731
-- description: |-
-    O cheiro de fezes de morcego aqui é horrível, você sente sua narinas
-    arderem.  Arrrghhhhh...  A oeste e ao sul a trilha continua.
+- description: 'O cheiro de fezes de morcego aqui é horrível, você sente sua narinas
+
+    arderem.  Arrrghhhhh...  A oeste e ao sul a trilha continua.'
   exits:
     south:
       target_vnum: 01010979733
@@ -380,9 +420,10 @@
   local_id: '9732'
   name: A Trilha
   vnum: 01010979732
-- description: |-
-    Essa trilha é muito difícil de ser percorrida, as pedras estão cada vez
-    mais escorregadias.  A trilha continua ao sul e ao norte.
+- description: 'Essa trilha é muito difícil de ser percorrida, as pedras estão cada
+    vez
+
+    mais escorregadias.  A trilha continua ao sul e ao norte.'
   exits:
     north:
       target_vnum: 01010979732
@@ -391,11 +432,13 @@
   local_id: '9733'
   name: A Trilha
   vnum: 01010979733
-- description: |-
-    Uma trilha estreita e cheia de pedras por todos os lados, como a natureza
+- description: 'Uma trilha estreita e cheia de pedras por todos os lados, como a natureza
+
     foi te castigar tanto, com certeza após sair daqui seus pés estarão moídos!
+
     Ao norte você pode ver a trilha se aprofundar e ao leste parece ser uma
-    clareira.
+
+    clareira.'
   exits:
     east:
       target_vnum: 01010979735
@@ -404,10 +447,11 @@
   local_id: '9734'
   name: A Trilha
   vnum: 01010979734
-- description: |-
-    Aqui é uma entrada no meio da rocha, para o que parece ser um trilha.  Um
+- description: 'Aqui é uma entrada no meio da rocha, para o que parece ser um trilha.  Um
+
     cheiro horrível emana de dentro dela, com certeza deve estar infestada de
-    morcegos.  Ao sul está a margem do rio e a oeste o começo da trilha.
+
+    morcegos.  Ao sul está a margem do rio e a oeste o começo da trilha.'
   exits:
     south:
       target_vnum: 01010979736
@@ -416,10 +460,12 @@
   local_id: '9735'
   name: Uma Trilha na Caverna
   vnum: 01010979735
-- description: |-
-    Essa margem do rio é bem calma, porém parece que ao leste o rio acaba bem
+- description: 'Essa margem do rio é bem calma, porém parece que ao leste o rio acaba
+    bem
+
     no meio das rochas, será que há uma passagem no meio das rochas?  A oeste o
-    rio aparentemente é bem longo e ao norte há uma trilha.
+
+    rio aparentemente é bem longo e ao norte há uma trilha.'
   exits:
     east:
       target_vnum: 01010979737
@@ -430,11 +476,13 @@
   local_id: '9736'
   name: Uma Margem do lado sudeste do Rio
   vnum: 01010979736
-- description: |-
-    Uma sensação estranha...  parece que o rio está chegando ao final.  A
+- description: 'Uma sensação estranha...  parece que o rio está chegando ao final.  A
+
     oeste você pode ver uma grande extensão de água, mas olhando para dentro da
+
     agua você vê o que parece ser uma caverna submersa, e algo está se mexendo
-    lá dentro.
+
+    lá dentro.'
   exits:
     down:
       target_vnum: 01010979738
@@ -443,18 +491,20 @@
   local_id: '9737'
   name: O Rio das Almas
   vnum: 01010979737
-- description: |-
-    Ohhhh nããããoo esta horrível caverna não tem saída, parece que você
+- description: 'Ohhhh nããããoo esta horrível caverna não tem saída, parece que você
+
     passará o resto de seu dias aqui juntamente com essas horríveis....
-    caveeeiiiirasss.  Seu destino parece estar traçado!!!
+
+    caveeeiiiirasss.  Seu destino parece estar traçado!!!'
   exits: {}
   local_id: '9738'
   name: A Caverna Submersa
   vnum: 01010979738
-- description: |-
-    Esse rio é muito estranho, em determinados trechos sua água é limpa
+- description: 'Esse rio é muito estranho, em determinados trechos sua água é limpa
+
     e cristalina, outros trechos como esse aqui a água é extremamente
-    turva.  A leste você vê uma margem do rio e a oeste ele segue seu rumo.
+
+    turva.  A leste você vê uma margem do rio e a oeste ele segue seu rumo.'
   exits:
     east:
       target_vnum: 01010979736
@@ -463,9 +513,9 @@
   local_id: '9739'
   name: O Rio das Almas
   vnum: 01010979739
-- description: |-
-    O rio está calmo porem suas águas são muito escuras, a oeste e a leste
-    você vê que ele é longo.
+- description: 'O rio está calmo porem suas águas são muito escuras, a oeste e a leste
+
+    você vê que ele é longo.'
   exits:
     east:
       target_vnum: 01010979739
@@ -474,9 +524,9 @@
   local_id: '9740'
   name: O Rio das Almas
   vnum: 01010979740
-- description: |-
-    Esse rio é muito extenso, uma pessoa sem seu preparo físico com certeza
-    não conseguiria proseguir.  A leste e oeste o rio avança.
+- description: 'Esse rio é muito extenso, uma pessoa sem seu preparo físico com certeza
+
+    não conseguiria proseguir.  A leste e oeste o rio avança.'
   exits:
     east:
       target_vnum: 01010979740
@@ -485,9 +535,10 @@
   local_id: '9741'
   name: O Rio das Almas
   vnum: 01010979741
-- description: |-
-    Você está bem perto da margem do rio.  A norte e a leste ele continua com
-    suas águas escuras.
+- description: 'Você está bem perto da margem do rio.  A norte e a leste ele continua
+    com
+
+    suas águas escuras.'
   exits:
     east:
       target_vnum: 01010979741
@@ -496,9 +547,10 @@
   local_id: '9742'
   name: O Rio das Almas
   vnum: 01010979742
-- description: |-
-    Você navega incansávelmente por essas águas.  A norte você a vista uma
-    parte próxima da margem, ao sul o rio continua num trecho muito estreito.
+- description: 'Você navega incansávelmente por essas águas.  A norte você a vista
+    uma
+
+    parte próxima da margem, ao sul o rio continua num trecho muito estreito.'
   exits:
     north:
       target_vnum: 01010979711
@@ -507,10 +559,11 @@
   local_id: '9743'
   name: O Rio das Almas
   vnum: 01010979743
-- description: |-
-    O rio é cada ve mais confuso, a impressão que se tem é que nunca acaba.
+- description: 'O rio é cada ve mais confuso, a impressão que se tem é que nunca acaba.
+
     Do lado sul ele segue longamente, ao norte parece haver uma pequena curva e
-    ao oeste existe um pequeno canal.
+
+    ao oeste existe um pequeno canal.'
   exits:
     north:
       target_vnum: 01010979729
@@ -521,9 +574,10 @@
   local_id: '9744'
   name: O Rio das Almas
   vnum: 01010979744
-- description: |-
-    Você está num pequeno e estreito canal, a leste você avista o rio extenso
-    e ao oeste parece ser o final desse pequeno canal.
+- description: 'Você está num pequeno e estreito canal, a leste você avista o rio
+    extenso
+
+    e ao oeste parece ser o final desse pequeno canal.'
   exits:
     east:
       target_vnum: 01010979744
@@ -532,10 +586,11 @@
   local_id: '9745'
   name: Um Pequeno Canal
   vnum: 01010979745
-- description: |-
-    Parece ser o fim desse pequeno canal, aqui a agua é cristalina...  que
+- description: 'Parece ser o fim desse pequeno canal, aqui a agua é cristalina...  que
+
     estranho!  Você pode ver uma margem aparentemente segura do lado sul, do
-    lado leste o canal tem continuidade.
+
+    lado leste o canal tem continuidade.'
   exits:
     east:
       target_vnum: 01010979745
@@ -544,10 +599,11 @@
   local_id: '9746'
   name: Um Pequeno Canal
   vnum: 01010979746
-- description: |-
-    Você está numa margem muito boa para desembarcar, aqui o solo é repleto
+- description: 'Você está numa margem muito boa para desembarcar, aqui o solo é repleto
+
     de areia.  Ao norte você vê um pequeno canal, ao sul há uma entrada bem
-    pequena nas rochas e a oeste há um caminho arenoso.
+
+    pequena nas rochas e a oeste há um caminho arenoso.'
   exits:
     north:
       target_vnum: 01010979746
@@ -558,11 +614,13 @@
   local_id: '9747'
   name: A Margem Sudoeste do Rio
   vnum: 01010979747
-- description: |-
-    Você está num caminho muito arenoso, o chão está repleto de uma material
+- description: 'Você está num caminho muito arenoso, o chão está repleto de uma material
+
     estranho, como se fosse lava vulcânica, porém muito menos quente.  A leste
+
     está a margem de um canal do rio e ao sul você pode ver o camiho arenoso
-    seguir por entre a escuridão e as pedras.
+
+    seguir por entre a escuridão e as pedras.'
   exits:
     east:
       target_vnum: 01010979747
@@ -571,10 +629,12 @@
   local_id: '9748'
   name: Um Caminho
   vnum: 01010979748
-- description: |-
-    Seus pés sentem o calor que emana do centro da terra.  Ao norte você vê
+- description: 'Seus pés sentem o calor que emana do centro da terra.  Ao norte você
+    vê
+
     toda a extensão do caminho e ao oeste você pode ver uma enorme formação
-    rochosa, distribuida de forma que parece um oráculo feito em pedras.
+
+    rochosa, distribuida de forma que parece um oráculo feito em pedras.'
   exits:
     north:
       target_vnum: 01010979748
@@ -583,11 +643,14 @@
   local_id: '9749'
   name: Um Caminho
   vnum: 01010979749
-- description: |-
-    Você está diante de uma grande portal, um enorme portão de madeira separa
+- description: 'Você está diante de uma grande portal, um enorme portão de madeira
+    separa
+
     você do mundo desconhecido.  Desenhos e inscrições muito antigas cincundam
+
     todo o batente desse enorme portão.  A oeste você entra pelo portal do
-    desconhecido e a leste você retorna ao seu caminho.
+
+    desconhecido e a leste você retorna ao seu caminho.'
   exits:
     east:
       target_vnum: 01010979749
@@ -596,12 +659,15 @@
   local_id: '9750'
   name: O Portal da Caverna do Dragão
   vnum: 01010979750
-- description: |-
-    Você está num grande salão dessa caverna.  Aqui as rochas estão
+- description: 'Você está num grande salão dessa caverna.  Aqui as rochas estão
+
     distribuidas formando um grande circulo e acima de sua cabeça se forma um
+
     grande anel rochoso.  Há uma grande pedra com inscrições muito antigas e
+
     aparentemente importantes.  A oeste você cruza o oráculo seguindo um caminho
-    escuro e a leste você retorna ao portal.
+
+    escuro e a leste você retorna ao portal.'
   exits:
     east:
       target_vnum: 01010979764
@@ -610,22 +676,27 @@
   local_id: '9751'
   name: O Oráculo da Sabedoria
   vnum: 01010979751
-- description: |-
-    Cuidado!!!  Uma grande pedra rola e tampa sua passagem de retorno, pelo
+- description: 'Cuidado!!!  Uma grande pedra rola e tampa sua passagem de retorno,
+    pelo
+
     visto você agora não tem mais escolha.  Você está dentro de uma grande
+
     caverna sua única saida é seguir a oeste e adentrar cada vez mais dentro
-    dessa caverna.
+
+    dessa caverna.'
   exits:
     west:
       target_vnum: 01010979753
   local_id: '9752'
   name: A Grande Caverna
   vnum: 01010979752
-- description: |-
-    Como ao longo de todo o seu caminho, aqui não é diferente, muitos
+- description: 'Como ao longo de todo o seu caminho, aqui não é diferente, muitos
+
     morcegos voam e derrubam fezes em sua cabeça, arrghhh... que horrivel!
+
     A leste você retorna ao começo da caverna e acima você vê uma pequena
-    passagem.
+
+    passagem.'
   exits:
     east:
       target_vnum: 01010979752
@@ -634,10 +705,11 @@
   local_id: '9753'
   name: A Grande Caverna
   vnum: 01010979753
-- description: |-
-    Esta pequena passagem é muito estreita e escoprregadia, se você cair
+- description: 'Esta pequena passagem é muito estreita e escoprregadia, se você cair
+
     daqui com certeza não será muito agradável.  Para cima a passagem fica cada
-    vez mais lisa e perigosa e para baixo está a grande caverna.
+
+    vez mais lisa e perigosa e para baixo está a grande caverna.'
   exits:
     down:
       target_vnum: 01010979753
@@ -646,10 +718,12 @@
   local_id: '9754'
   name: Uma Pequena Passagem
   vnum: 01010979754
-- description: |-
-    Finalmente você está chegando ao fim dessa pequena passagem.  Para baixo
+- description: 'Finalmente você está chegando ao fim dessa pequena passagem.  Para
+    baixo
+
     a passagem se estende e pra cima você percebe que tem acesso a uma outra
-    grande câmara.
+
+    grande câmara.'
   exits:
     down:
       target_vnum: 01010979754
@@ -658,10 +732,12 @@
   local_id: '9755'
   name: Fim da Pequena Passagem
   vnum: 01010979755
-- description: |-
-    Você está numa grande câmara, há morcegos por todo lado.  Você tem a
+- description: 'Você está numa grande câmara, há morcegos por todo lado.  Você tem
+    a
+
     sensação que está observado, como se essas pedras tivesse vida própria.  A
-    leste a grande câmara continua e para baixo há uma pequena passagem.
+
+    leste a grande câmara continua e para baixo há uma pequena passagem.'
   exits:
     down:
       target_vnum: 01010979755
@@ -670,10 +746,11 @@
   local_id: '9756'
   name: A Grande Câmara
   vnum: 01010979756
-- description: |-
-    Aqui é tudo estranho, a impressão que você tem é que as pedras se
+- description: 'Aqui é tudo estranho, a impressão que você tem é que as pedras se
+
     mexem...  Você parece ter visto essa pedra lá na entrada!!!  Para oeste e
-    para norte a grande câmara continua... repleta de pedras estranhas!
+
+    para norte a grande câmara continua... repleta de pedras estranhas!'
   exits:
     north:
       target_vnum: 01010979758
@@ -682,10 +759,12 @@
   local_id: '9757'
   name: A Grande Câmara
   vnum: 01010979757
-- description: |-
-    Há pedras por todos os lados, cada uma mais estranha que a outra, você
+- description: 'Há pedras por todos os lados, cada uma mais estranha que a outra,
+    você
+
     agora pode notar elas parecem... ser guerreiros petrificados!!!  Ao sul e
-    ao norte a grande câmara se alonga.
+
+    ao norte a grande câmara se alonga.'
   exits:
     north:
       target_vnum: 01010979759
@@ -705,10 +784,11 @@
   local_id: '9759'
   name: A Grande Câmara
   vnum: 01010979759
-- description: |-
-    Uma grande entrada está a sua frente.  Há uma enorme porta aparentemente
+- description: 'Uma grande entrada está a sua frente.  Há uma enorme porta aparentemente
+
     feita de pedra, com inscrições muito antigas nela.  A leste você vê a grande
-    câmara e norte a grande porta de pedra.
+
+    câmara e norte a grande porta de pedra.'
   exits:
     east:
       target_vnum: 01010979759
@@ -717,12 +797,16 @@
   local_id: '9760'
   name: A Grande Câmara
   vnum: 01010979760
-- description: |-
-    Arrgghhhh...!  Que horrível!  Você está numa sala repleta de ossos, há
+- description: 'Arrgghhhh...!  Que horrível!  Você está numa sala repleta de ossos,
+    há
+
     crânios e esqueletos por todos os lados.  Aparentemente foram mortos em
+
     batalha pois há muitas armas jogadas por todos os lados.  Ao sul a grande
+
     porta de pedra está aparentemente trancada e a norte a sala continua repleta
-    de ossos.
+
+    de ossos.'
   exits:
     north:
       target_vnum: 01010979762
@@ -731,10 +815,12 @@
   local_id: '9761'
   name: Sala dos Ossos
   vnum: 01010979761
-- description: |-
-    Cada vez mais a sensação de perigo está no ar, talvez fosse melhor orar
+- description: 'Cada vez mais a sensação de perigo está no ar, talvez fosse melhor
+    orar
+
     pra seu deus...  Ao sul você retorna e a oeste você uma pequena entrada para
-    uma outra sala.  Aparentemente uma luz emana dessa sala.
+
+    uma outra sala.  Aparentemente uma luz emana dessa sala.'
   exits:
     south:
       target_vnum: 01010979761
@@ -752,20 +838,23 @@
     \ olhar para ele."
   exits:
     west:
-      target_vnum: 01010979800
+      target_vnum: 01010989800
   local_id: '9763'
   name: Sala dos Sacrifícios
   vnum: 01010979763
-- description: |-
-    Você está diante de uma grande portal, um enorme portão de madeira separa
+- description: 'Você está diante de uma grande portal, um enorme portão de madeira
+    separa
+
     você do mundo desconhecido.  Desenhos e inscrições muito antigas cincundam
+
     todo o batente desse enorme portão.  A oeste você entra pelo portal do
-    desconhecido e a leste você retorna ao seu caminho.
+
+    desconhecido e a leste você retorna ao seu caminho.'
   exits:
     east:
       target_vnum: 01010979749
     west:
-      target_vnum: 01010979854
+      target_vnum: 01010989854
   local_id: '9764'
   name: O Portal da Caverna do Dragão
   vnum: 01010979764

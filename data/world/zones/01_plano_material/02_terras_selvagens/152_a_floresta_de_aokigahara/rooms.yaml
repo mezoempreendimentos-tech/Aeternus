@@ -1,50 +1,79 @@
-- description: |-
-    Você emerge de uma passagem estreita e úmida, deixando para trás a rocha
+- description: 'Você emerge de uma passagem estreita e úmida, deixando para trás a
+    rocha
+
     fria da montanha e entrando num lugar onde a própria natureza parece doente.
+
     As árvores aqui erguem-se como sentinelas esqueléticas, com seus galhos
+
     retorcidos e escuros formando um dossel impenetrável que mergulha o chão da
+
     floresta numa penumbra perpétua.
 
+
     O ar é pesado e gelado, carregado com o cheiro de terra úmida, folhas em
+
     decomposição e um perfume estranhamente doce, quase enjoativo, de flores
+
     invisíveis que desabrocham na escuridão.
 
+
     Um silêncio profundo domina o local, um silêncio tão absoluto que parece
+
     pressionar seus tímpanos, quebrado apenas pelo farfalhar fantasmagórico das
+
     folhas no alto.  O som assemelha-se a sussurros abafados, como se a própria
+
     floresta partilhasse segredos terríveis que nenhum mortal deveria ouvir.
 
+
     Um caminho estreito, uma ferida mal cicatrizada na terra, serpenteia para
+
     o norte, desaparecendo na escuridão opressiva sob as árvores.
 
+
     A sudoeste, a abertura da gruta de onde você veio é um portal para um mundo
+
     mais seguro, mas o chamado da floresta à sua frente é um convite sombrio e
-    irresistível.
+
+    irresistível.'
   exits:
     north:
       target_vnum: '010215215201'
     southwest:
-      target_vnum: '01021524040'
+      target_vnum: '01010404040'
   local_id: '15200'
   name: A Orla da Floresta Sussurrante
   vnum: '010215215200'
-- description: |-
-    Você dá os primeiros passos cautelosos para dentro da floresta, e o ar
+- description: 'Você dá os primeiros passos cautelosos para dentro da floresta, e
+    o ar
+
     imediatamente se torna mais frio e parado.  O dossel de galhos acima de você
+
     já é espesso o suficiente para transformar a luz do dia numa penumbra cinzenta
+
     e difusa, salpicada por raras e fantasmagóricas frestas de luz que dançam
+
     sobre o chão.
 
+
     O som dos seus próprios passos parece abafado, engolido pelo tapete de folhas
+
     úmidas e musgo pálido que cobre tudo.  O caminho aqui é menos uma trilha e
+
     mais uma sugestão, marcada pelo espaço entre troncos particularmente grossos e
+
     retorcidos.
 
+
     Os sussurros que ouvia na orla estão mais próximos agora, parecendo vir de
+
     todas as direções e de nenhuma ao mesmo tempo, como o roçar de seda sobre
+
     madeira seca.  O cheiro de terra apodrecida intensifica-se, misturado a uma
+
     fragrância adocicada e perturbadora que parece prender-se na parte de trás da
-    sua garganta.
+
+    sua garganta.'
   exits:
     north:
       target_vnum: '010215215202'
@@ -53,17 +82,25 @@
   local_id: '15201'
   name: "Entre as Primeiras Ã\x81rvores"
   vnum: '010215215201'
-- description: |-
-    Você avança e a sensação de estar sendo observado se intensifica.  A
+- description: 'Você avança e a sensação de estar sendo observado se intensifica.  A
+
     penumbra aqui é quase total, e as poucas frestas de luz que penetram o dossel
+
     são tão fracas e pálidas que parecem apenas acentuar a escuridão, em vez de
+
     diminuí-la.  As árvores crescem mais juntas neste local, com seus troncos
+
     cobertos por um musgo escuro que parece absorver o som e a luz.  O ar está
+
     viciado e pesado em seus pulmões.  O caminho à sua frente mal se distingue do
+
     resto do chão da floresta; é uma massa indistinta de raízes e lama.  Os
+
     sussurros tornaram-se mais nítidos, quase articulados, pairando bem no limite
+
     da sua audição.  Parecem prometer segredos a quem tiver a coragem, ou a
-    loucura, de continuar a ouvir.
+
+    loucura, de continuar a ouvir.'
   exits:
     north:
       target_vnum: '010215215203'
@@ -110,19 +147,29 @@
   local_id: '15204'
   name: O Portão de Galhos
   vnum: '010215215204'
-- description: |-
-    Assim que atravessa o arco de galhos, o silêncio opressivo é quebrado.  Os
+- description: 'Assim que atravessa o arco de galhos, o silêncio opressivo é quebrado.  Os
+
     sussurros regressam, mais altos e claros do que nunca, e agora parecem deslizar
+
     diretamente para a sua mente, contornando seus ouvidos.  Uma trilha estreita
+
     reaparece à sua frente, mas não oferece qualquer conforto.  Ela se torce e
+
     vira de forma antinatural, contornando árvores negras como se fossem
+
     obstáculos num percurso demente.  O chão aqui inclina-se ligeiramente para
+
     baixo, e a cada passo, a sensação de descida é tanto física quanto
+
     espiritual.  O ar está mais rarefeito, mas denso com o cheiro de ozônio e
+
     terra molhada, como se uma tempestade estivesse prestes a rebentar por baixo da
+
     terra.  Raízes que se assemelham a serpentes petrificadas cruzam a trilha em
+
     vários pontos, ameaçando a cada passo fazê-lo tropeçar e cair de cara na
-    lama escura e fria.
+
+    lama escura e fria.'
   exits:
     north:
       target_vnum: '010215215206'
@@ -155,18 +202,28 @@
   local_id: '15206'
   name: Encruzilhada Tênue
   vnum: '010215215206'
-- description: |-
-    Afastando-se do pátio do santuário, você embrenha-se por um caminho que
+- description: 'Afastando-se do pátio do santuário, você embrenha-se por um caminho
+    que
+
     parece menos percorrido por pés e mais por patas.  A trilha é estreita,
+
     ladeada por fetos luxuriantes e de um verde anormalmente vibrante.  Os troncos
+
     das árvores aqui são mais grossos, suas cascas profundamente marcadas por
+
     longos e selvagens arranhões de garras, como se bestas enormes afiassem suas
+
     unhas na madeira.  O silêncio do santuário é deixado para trás, substituído
+
     por um coro de sons sutis e inquietantes: o estalar de galhos à distância, o
+
     farfalhar de folhas onde nada se move, e um rosnar baixo e gutural que parece
+
     vibrar através das solas das suas botas.  O cheiro de pelo molhado e sangue
+
     fresco paira no ar estagnado, um aviso claro de que este é um território de
-    caça, e você já não está no topo da cadeia alimentar.
+
+    caça, e você já não está no topo da cadeia alimentar.'
   exits:
     east:
       target_vnum: '010215215231'
@@ -175,19 +232,30 @@
   local_id: '15207'
   name: Trilha Marcada por Garras
   vnum: '010215215207'
-- description: |-
-    A trilha leva-o até à margem de um riacho que corta o bosque como uma veia
+- description: 'A trilha leva-o até à margem de um riacho que corta o bosque como
+    uma veia
+
     negra.  A água que flui aqui não é clara; é escura e oleosa, refletindo a
+
     copa das árvores de uma forma distorcida e doentia.  Não há som de água a
+
     correr, apenas um gorgolejar lento e espesso, como se o riacho estivesse a
+
     sufocar em lama.  As margens são uma mistura de terra escura e pedras lisas e
+
     escorregadias.  Pegadas de vários tamanhos marcam a lama nas margens,
+
     sobrepondo-se umas às outras.  A maioria é claramente de animais, mas algumas
+
     são perturbadoramente grandes, com marcas de garras profundas cravadas na
+
     terra.  O rosnar baixo que ouvia antes está mais próximo aqui, ecoando de
+
     forma estranha sobre a superfície da água.  Este é um bebedouro para as
+
     criaturas da floresta, um lugar de tréguas tensas onde predador e presa se
-    encontram.
+
+    encontram.'
   exits:
     east:
       target_vnum: '010215215207'
@@ -196,19 +264,29 @@
   local_id: '15208'
   name: "Riacho de Ã\x81guas Escuras"
   vnum: 010215215208
-- description: |-
-    O riacho escuro alarga-se aqui, com sua corrente lenta e oleosa a escavar as
+- description: 'O riacho escuro alarga-se aqui, com sua corrente lenta e oleosa a
+    escavar as
+
     margens de lama. A única forma de atravessar é uma ponte de corda decrépita,
+
     que se estende de forma precária até ao outro lado. As cordas principais estão
+
     gastas e a desfazer-se, cobertas por um limo esverdeado e escorregadio. Muitas
+
     das tábuas de madeira que formam o passadiço desapareceram, deixando vãos
+
     perigosos que revelam a água negra a gorgolejar por baixo.
 
+
     A ponte balança e range com a mais leve brisa, produzindo um som lúgubre que se
+
     assemelha ao gemido de um homem moribundo. Atravessá-la será um teste de
+
     equilíbrio e coragem. Um único passo em falso pode resultar numa queda nas
+
     águas poluídas, e a julgar pelas formas indistintas que se movem lentamente sob
-    a superfície, a queda seria o menor dos seus problemas.
+
+    a superfície, a queda seria o menor dos seus problemas.'
   exits:
     east:
       target_vnum: 010215215208
@@ -217,19 +295,29 @@
   local_id: '15209'
   name: Ponte de Corda Apodrecida
   vnum: 010215215209
-- description: |-
-    Você pisa em terra firme do outro lado da ponte, entrando numa pequena clareira
+- description: 'Você pisa em terra firme do outro lado da ponte, entrando numa pequena
+    clareira
+
     banhada por uma luz pálida e fantasmagórica que se filtra através de uma falha
+
     no dossel. O alívio é momentâneo. O chão está coberto de ossos partidos e
+
     restos de carcaças em vários estágios de decomposição. Manchas escuras de
+
     sangue, umas secas, outras alarmantemente frescas, mancham a relva rala.
 
+
     No centro da clareira, uma grande rocha achatada, coberta de musgo escuro,
+
     serve como uma espécie de mesa de carnificina. O cheiro de morte é avassalador,
+
     uma mistura enjoativa de carne podre e medo coagulado. Este é claramente o
+
     lugar onde as criaturas dominantes deste bosque trazem as suas presas para as
+
     devorar. O som de ossos a estalar sob as suas botas é o único ruído que quebra
-    o silêncio mortal do lugar.
+
+    o silêncio mortal do lugar.'
   exits:
     east:
       target_vnum: '010215215211'
@@ -238,19 +326,29 @@
   local_id: '15210'
   name: Clareira da Caça
   vnum: '010215215210'
-- description: |-
-    Você abandona a clareira da caça e entra numa seção da floresta onde o tempo
+- description: 'Você abandona a clareira da caça e entra numa seção da floresta onde
+    o tempo
+
     parece ter parado. As árvores aqui são titãs, com troncos tão largos que três
+
     homens de braços abertos mal conseguiriam circundá-los. Suas copas estão tão
+
     altas que se perdem na escuridão, e seus galhos mais baixos são grossos como o
+
     corpo de um homem.
 
+
     O chão é um tapete macio e silencioso de musgo de um verde profundo, que
+
     amortece completamente o som dos seus passos. A luz é quase inexistente,
+
     criando uma escuridão aveludada que parece abraçá-lo. Você se sente como um
+
     intruso num lugar sagrado, um santuário para deuses primordiais e esquecidos
+
     que ainda dormem sob as raízes destas árvores colossais. O ar é puro, mas
-    antigo, cheirando a terra rica e a séculos de decadência lenta e natural.
+
+    antigo, cheirando a terra rica e a séculos de decadência lenta e natural.'
   exits:
     east:
       target_vnum: '010215215212'
@@ -259,20 +357,31 @@
   local_id: '15211'
   name: Coração do Bosque Antigo
   vnum: '010215215211'
-- description: |-
-    A serenidade do bosque antigo quebra-se abruptamente. As árvores neste local
+- description: 'A serenidade do bosque antigo quebra-se abruptamente. As árvores neste
+    local
+
     crescem em espirais impossíveis, seus troncos torcendo-se sobre si mesmos como
+
     se estivessem em agonia. Os galhos não se estendem para cima em busca de luz,
+
     mas para os lados e para baixo, criando uma gaiola labiríntica de madeira
+
     escura. A própria gravidade parece incerta aqui, e você sente uma leve vertigem
+
     ao tentar orientar-se.
 
+
     O chão de musgo dá lugar a uma terra nua e compactada, mas está coberto por
+
     padrões estranhos - círculos concêntricos e linhas que se cruzam em ângulos
+
     agudos, como se algo tivesse dançado aqui em tempos. O silêncio ainda reina,
+
     mas agora é um silêncio expectante, tenso. Há uma sensação palpável de poder
+
     neste lugar, uma energia crua e selvagem que faz a sua pele formigar e os seus
-    dentes doerem.
+
+    dentes doerem.'
   exits:
     north:
       target_vnum: '010215215213'
@@ -281,22 +390,34 @@
   local_id: '15212'
   name: Bosque Retorcido
   vnum: '010215215212'
-- description: |-
-    O bosque retorcido à sua volta torna-se um labirinto de pesadelo. Não há mais
+- description: 'O bosque retorcido à sua volta torna-se um labirinto de pesadelo.
+    Não há mais
+
     trilha, apenas espaços estreitos entre troncos que se fundem e se separam como
+
     cera a derreter. Tentar seguir uma linha reta é impossível; o caminho dobra-se
+
     sobre si mesmo, e após alguns passos, você já não tem certeza se está a avançar
+
     ou a recuar.
 
+
     A vertigem intensifica-se, e a floresta parece balançar suavemente, como se
+
     você estivesse no convés de um navio fantasma. Os padrões no chão tornam-se
+
     mais complexos, e por breves instantes, você julga ver rostos contorcidos na
+
     madeira lisa das árvores.
 
+
     O silêncio é tão profundo que começa a criar seus próprios sons: o pulsar do
+
     sangue nos seus ouvidos, o fantasma de uma melodia esquecida, o eco de passos
+
     que não são os seus. Perder-se aqui não seria apenas um erro de navegação, mas
-    uma rendição da sua própria mente à loucura.
+
+    uma rendição da sua própria mente à loucura.'
   exits:
     north:
       target_vnum: '010215215212'
@@ -323,21 +444,33 @@
   local_id: '15214'
   name: O Beco dos Espinhos
   vnum: '010215215214'
-- description: |-
-    Você escolhe o caminho a leste e é imediatamente forçado a curvar-se. O ar
+- description: 'Você escolhe o caminho a leste e é imediatamente forçado a curvar-se.
+    O ar
+
     torna-se espesso com o cheiro acre de veneno e decomposição seca. A trilha é
+
     quase invisível sob um dossel de teias de aranha, grossas e pegajosas como
+
     algodão embebido em óleo. Elas pendem das árvores em mortalhas fantasmagóricas,
+
     obstruindo a visão e roçando no seu rosto e cabelo a cada passo. Rasgá-las
+
     exige esforço, e os fios deixam um resíduo oleoso e irritante na pele.
 
+
     A luz aqui é quase inexistente, filtrada não apenas pelas folhas, mas também
+
     pelas camadas translúcidas de seda. O chão está coalhado de pequenos casulos
+
     brancos, alguns do tamanho de um punho, outros do tamanho da cabeça de um
+
     homem. A maioria está rasgada e vazia, mas ocasionalmente, você vê um movimento
+
     fraco dentro de um deles. Os sussurros da floresta desapareceram, substituídos
+
     pelo som suave e arrepiante de inúmeras pernas pequenas a moverem-se nas
-    sombras.
+
+    sombras.'
   exits:
     east:
       target_vnum: '010215215216'
@@ -346,19 +479,29 @@
   local_id: '15215'
   name: Trilha Coberta de Teias
   vnum: '010215215215'
-- description: |-
-    A trilha termina abruptamente diante de uma abertura escura na base de uma
+- description: 'A trilha termina abruptamente diante de uma abertura escura na base
+    de uma
+
     pequena colina coberta de musgo. Esta não é uma gruta natural; as teias de
+
     aranha são tão densas aqui que se tornaram a própria estrutura da entrada,
+
     esticadas entre duas árvores e a colina como uma pele doentia e pálida. Fios
+
     grossos como cordas pulsam com um movimento lento e rítmico, como se a própria
+
     caverna estivesse a respirar.
 
+
     Um cheiro nauseante de ozono, veneno e carne em decomposição emana da
+
     escuridão, tão forte que faz os seus olhos lacrimejar. O som de centenas de
+
     pernas quitinosas a arrastarem-se e a estalarem ecoa do interior, uma promessa
+
     de horrores que se escondem da luz. Entrar aqui é deixar para trás os últimos
-    vestígios da floresta e mergulhar no coração do ninho.
+
+    vestígios da floresta e mergulhar no coração do ninho.'
   exits:
     east:
       target_vnum: '010215215217'
@@ -367,30 +510,49 @@
   local_id: '15216'
   name: A Boca da Gruta
   vnum: '010215215216'
-- description: |-
-    Você mergulha na boca escura da gruta e encontra-se num túnel que mais parece o
+- description: 'Você mergulha na boca escura da gruta e encontra-se num túnel que
+    mais parece o
+
     interior de um estômago gigantesco. As paredes, o teto e até mesmo o chão estão
+
     completamente revestidos por camadas espessas de teias sedosas, criando uma
+
     superfície ondulante e orgânica que pulsa suavemente com uma luz fosforescente
+
     doentia. O túnel estende-se para a frente numa curva gradual, desaparecendo na
+
     escuridão como a garganta de uma besta primordial.
 
+
     O ar aqui é denso e viciado, carregado com o cheiro doce e enjoativo de carne
+
     em decomposição, misturado com o aroma químico e acre do veneno de aranha. Cada
+
     passo que dá produz um som abafado e pegajoso, como se estivesse a caminhar
+
     sobre carne crua. As teias cedem ligeiramente sob o seu peso, criando uma
+
     sensação nauseante de instabilidade, como se o chão pudesse ceder a qualquer
+
     momento e engoli-lo nas profundezas viscosas.
 
+
     Pequenos movimentos nas paredes chamam a sua atenção: formas do tamanho de
+
     gatos deslizam silenciosamente através das camadas de seda, com as suas
+
     silhuetas apenas vagamente visíveis através do material translúcido. Os seus
+
     olhos múltiplos brilham como pequenas estrelas malévolas na penumbra,
+
     observando cada movimento seu com uma inteligência fria e calculista.
 
+
     O túnel ressoa com um zumbido baixo e constante, como o ronronar de uma máquina
+
     orgânica gigantesca, pontuado ocasionalmente pelo estalar seco de mandíbulas
-    quitinosas.
+
+    quitinosas.'
   exits:
     east:
       target_vnum: 010215215218
@@ -399,33 +561,54 @@
   local_id: '15217'
   name: Túnel de Teias
   vnum: '010215215217'
-- description: |-
-    O túnel abre-se numa câmara circular que rouba o fôlego pela sua grotesca
+- description: 'O túnel abre-se numa câmara circular que rouba o fôlego pela sua grotesca
+
     magnificência. O teto abobadado ergue-se nas sombras acima, sustentado por
+
     pilares orgânicos de teias endurecidas que se assemelham a ossos gigantescos.
+
     Mas é o que cobre as paredes que verdadeiramente aterroriza: milhares e
+
     milhares de ovos translúcidos, cada um do tamanho de uma cabeça humana,
+
     suspensos em casulos de seda que pendem como frutos macabros de uma árvore
+
     infernal.
 
+
     Os ovos pulsam com uma luz interna amarelada e doentia, revelando as silhuetas
+
     escuras das criaturas que se desenvolvem no seu interior. Algumas estão quase
+
     prontas para eclodir - você pode ver as formas aracnídeas completamente
+
     formadas, com pernas longas e finas pressionadas contra as paredes translúcidas
+
     dos seus berços. Outras ainda são apenas massas informes e pulsantes,
+
     prometendo horrores ainda por nascer.
 
+
     O som é o pior de tudo: um coro sussurrante de movimentos fetais, arranhões
+
     delicados contra as paredes dos ovos, e o gotejamento constante de fluidos
+
     nutritivos que escorrem para o chão em poças viscosas.
 
+
     O ar é quente e úmido, carregado com o cheiro doce e nauseante de vida em
+
     gestação, misturado com o fedor metálico de sangue antigo. Cada respiração é um
+
     esforço, como se o próprio ar estivesse grávido de esporos e larvas invisíveis.
+
     No centro da câmara, uma depressão circular no chão está cheia de um líquido
+
     espesso e leitoso que borbulha suavemente, libertando vapores que fazem os
+
     olhos lacrimejarem e a garganta arder. Este é o berçário da morte, onde os
-    pesadelos ganham forma.
+
+    pesadelos ganham forma.'
   exits:
     east:
       target_vnum: 010215215219
@@ -434,62 +617,106 @@
   local_id: '15218'
   name: Câmara dos Ovos
   vnum: 010215215218
-- description: |-
-    Você entra numa catedral de pesadelos, uma câmara vasta e circular que se ergue
+- description: 'Você entra numa catedral de pesadelos, uma câmara vasta e circular
+    que se ergue
+
     nas trevas como um templo dedicado a deuses aracnídeos. O teto perde-se na
+
     escuridão absoluta, sustentado por colunas colossais de teias cristalizadas que
+
     brilham com uma fosforescência doentia. Mas é no centro desta abominação
+
     arquitetónica que o verdadeiro horror reside: um trono gigantesco tecido
+
     inteiramente de ossos humanos e seda negra, sobre o qual repousa a
+
     Aranha-Rainha.
 
+
     Uma blasfémia contra a natureza, a criatura tem o tamanho de um cavalo de
+
     guerra, com abdómen inchado e pulsante a brilhar com veias venenosas. As suas
-    oito pernas, longas como lanças e com garras afiadas, arranham constantemente o
+
+    oito pernas, longas como lanças e com garras afiadas, arranham constantemente
+    o
+
     chão de pedra, produzindo um som metálico arrepiante. Mas são os seus olhos que
+
     realmente aterrorizam: oito orbes negros do tamanho de pratos, refletindo uma
+
     inteligência antiga e malévola, uma consciência que transcende o instinto e
+
     toca a malícia pura.
 
+
     O ar aqui é espesso como mel venenoso, carregado com feromonas que fazem a
-    cabeça rodar e os pensamentos tornarem-se confusos. A Rainha não se move, mas a
+
+    cabeça rodar e os pensamentos tornarem-se confusos. A Rainha não se move, mas
+    a
+
     sua presença é esmagadora, como se o próprio espaço se curvasse à sua volta.
 
+
     Teias douradas estendem-se dela em todas as direções, desaparecendo nas sombras
+
     - uma rede de comunicação que se estende por toda a floresta, permitindo-lhe
+
     sentir cada vibração, cada movimento de qualquer criatura que ouse entrar no
+
     seu domínio. Sussurros em línguas esquecidas ecoam nas paredes, promessas de
+
     poder e conhecimento proibido para aqueles corajosos ou loucos o suficiente
-    para se aproximarem do trono da morte.
+
+    para se aproximarem do trono da morte.'
   exits:
     west:
       target_vnum: 010215215218
   local_id: '15219'
   name: Covil da Aranha-Rainha
   vnum: 010215215219
-- description: |-
-    O caminho para oeste da encruzilhada leva-o numa descida gradual, mas
+- description: 'O caminho para oeste da encruzilhada leva-o numa descida gradual,
+    mas
+
     inexorável, para um reino onde a terra sólida se rende à água estagnada e à
+
     decomposição. A trilha, que até agora era apenas úmida e traiçoeira,
-    transforma-se numa pasta espessa e negra que suga as suas botas a cada passo. O
+
+    transforma-se numa pasta espessa e negra que suga as suas botas a cada passo.
+    O
+
     cheiro muda também: o aroma terroso da floresta dá lugar ao fedor doce e
+
     nauseante de matéria orgânica em putrefação, misturado com o cheiro metálico de
+
     água ferruginosa.
 
+
     As árvores aqui são diferentes, mais espaçadas e doentias, com troncos inchados
+
     na base e raízes expostas que se estendem como tentáculos desesperados em busca
+
     de terra firme. A sua casca é escura e úmida, coberta por um limo esverdeado
+
     que brilha fracamente na penumbra. Muitas estão mortas, erguendo-se como
+
     esqueletos negros contra o céu cinzento, com seus galhos nus a gotejar uma
+
     substância viscosa que cai na lama com um som suave e perturbador.
 
+
     O ar torna-se progressivamente mais denso e úmido, carregado com vapores que
+
     fazem os pulmões arderem e a visão turvar-se ligeiramente. Sons estranhos ecoam
+
     à distância: o gorgolejar de água em movimento, o estalar de galhos que se
+
     partem sob um peso invisível, e ocasionalmente, algo que soa perigosamente
+
     próximo de um gemido humano. A trilha continua a afundar-se, e você percebe com
+
     crescente alarme que cada passo o leva mais fundo num mundo onde as leis da
-    terra firme já não se aplicam.
+
+    terra firme já não se aplicam.'
   exits:
     east:
       target_vnum: '010215215206'
@@ -498,33 +725,55 @@
   local_id: '15220'
   name: A Trilha Transforma-se em Lama
   vnum: '010215215220'
-- description: |-
-    A trilha lamacenta termina abruptamente numa margem irregular, onde a terra
+- description: 'A trilha lamacenta termina abruptamente numa margem irregular, onde
+    a terra
+
     firme cede lugar a uma extensão vasta e sinistra de águas escuras e estagnadas.
+
     O pântano estende-se diante de você como um mar de pesadelos, com sua
+
     superfície negra como obsidiana refletindo um céu que parece perpetuamente
+
     nublado e opressivo. Ilhas pequenas e irregulares de terra emergem aqui e ali,
+
     cobertas por vegetação doentia e conectadas por passarelas precárias de madeira
+
     apodrecida que desaparecem na bruma.
 
+
     O cheiro aqui é avassalador: uma mistura tóxica de decomposição, gases
+
     sulfurosos e algo doce e enjoativo que faz o estômago revirar-se. A água não
+
     está verdadeiramente parada; move-se com uma lentidão viscosa, criando
+
     ondulações oleosas que capturam e distorcem a pouca luz disponível. Bolhas
+
     sobem constantemente à superfície, rebentando com sons úmidos e libertando
+
     vapores que fazem os olhos lacrimejarem e a garganta arder.
 
+
     A vida aqui assumiu formas grotescas e não naturais. Plantas aquáticas com
+
     folhas que se assemelham a mãos humanas acenam suavemente na corrente
+
     inexistente, enquanto flores carnudas e de cores vivas exalam perfumes que
+
     prometem prazer, mas entregam apenas náusea e desorientação.
 
+
     Sons perturbadores ecoam através da bruma: o chapinhar de algo grande
+
     movendo-se sob a superfície, o grito agudo de aves que nunca se veem, e
+
     ocasionalmente, vozes humanas chamando por ajuda de direções que mudam
+
     constantemente. Este é um lugar onde a natureza foi corrompida além de qualquer
+
     redenção, um reino onde a vida e a morte se misturam numa dança macabra e
-    eterna.
+
+    eterna.'
   exits:
     east:
       target_vnum: '010215215220'
@@ -533,33 +782,56 @@
   local_id: '15221'
   name: Beira do Pântano
   vnum: '010215215221'
-- description: |-
-    Você encontra-se numa área onde o pântano se alarga numa bacia natural, criando
+- description: 'Você encontra-se numa área onde o pântano se alarga numa bacia natural,
+    criando
+
     um lago de águas mortas que se estende em todas as direções até desaparecer na
+
     bruma perpétua. A superfície é de um negro absoluto, tão lisa e imóvel que
-    parece vidro líquido, refletindo perfeitamente o céu cinzento acima e criando a
+
+    parece vidro líquido, refletindo perfeitamente o céu cinzento acima e criando
+    a
+
     ilusão perturbadora de estar suspenso entre dois abismos. Não há ondas, não há
+
     correntes, apenas uma quietude sobrenatural que faz cada som parecer
+
     amplificado e estranho.
 
+
     O silêncio aqui é diferente do silêncio da floresta: é um silêncio pesado e
+
     expectante, como se as próprias águas estivessem a escutar e a esperar.
+
     Ocasionalmente, essa quietude é quebrada por sons que fazem o sangue gelar: o
+
     estalar súbito de algo grande quebrando a superfície em algum lugar distante,
+
     seguido imediatamente pelo retorno do silêncio absoluto. Círculos concêntricos
+
     espalham-se lentamente através da água, a única evidência de que algo se move
+
     nas profundezas invisíveis.
 
+
     O ar acima das águas estagnadas é denso e viciado, carregado com vapores que
+
     fazem a cabeça rodar e os pensamentos tornarem-se confusos. Luzes estranhas
+
     dançam ocasionalmente sob a superfície - não reflexos, mas algo que brilha com
+
     luz própria nas profundezas, movendo-se em padrões que sugerem inteligência,
+
     mas desafiam a compreensão.
 
+
     Plantas aquáticas mortas flutuam aqui e ali, com suas formas retorcidas criando
+
     sombras grotescas que parecem mover-se independentemente dos seus corpos
+
     físicos. Este é um lugar onde o tempo parece ter parado, onde a decomposição
-    atingiu um estado de equilíbrio perfeito e terrível.
+
+    atingiu um estado de equilíbrio perfeito e terrível.'
   exits:
     east:
       target_vnum: '010215215221'
@@ -568,34 +840,57 @@
   local_id: '15222'
   name: "Ã\x81guas Estagnadas"
   vnum: '010215215222'
-- description: |-
-    Você pisa com cuidado numa passarela precária, construída com tábuas de madeira
+- description: 'Você pisa com cuidado numa passarela precária, construída com tábuas
+    de madeira
+
     que já viram dias melhores há muito tempo. A estrutura estende-se sobre as
+
     águas negras do pântano como uma cicatriz pálida, servindo de ponte entre as
+
     pequenas ilhas de terra firme que pontilham a vastidão aquática.
 
+
     As tábuas estão inchadas pela humidade constante, cobertas por um limo
+
     escorregadio que torna cada passo uma aventura perigosa. Muitas das pranchas
+
     estão partidas ou em falta, criando lacunas traiçoeiras que revelam as águas
+
     sinistras por baixo.
 
+
     A passarela range e balança a cada movimento, produzindo gemidos lamentosos que
+
     ecoam através da bruma como os suspiros de almas perdidas. Os postes de apoio,
+
     feitos de madeira escura e nodosa, estão cobertos por fungos luminescentes que
+
     pulsam com uma luz verde doentia, fornecendo a única iluminação neste reino de
+
     sombras perpétuas. Cordas apodrecidas pendem dos corrimões em frangalhos,
+
     balançando suavemente numa brisa que não se sente, criando sombras dançantes
+
     brincando com a percepção.
 
+
     O ar aqui é espesso com o cheiro de madeira podre e vegetação em decomposição,
+
     misturado com algo mais sinistro: um odor doce e enjoativo que sugere carne em
+
     putrefação. Sons perturbadores ecoam de baixo da passarela: chapinhões suaves,
+
     como se algo grande se movesse lentamente através da água, e ocasionalmente, um
+
     som que se assemelha perigosamente a sussurros humanos.
 
-    A bruma que se ergue das águas cria formas fantasmagóricas que parecem acenar e
+
+    A bruma que se ergue das águas cria formas fantasmagóricas que parecem acenar
+    e
+
     gesticular, convidando os incautos a juntarem-se às almas que já se perderam
-    nestas águas malditas.
+
+    nestas águas malditas.'
   exits:
     north:
       target_vnum: '010215215224'
@@ -636,70 +931,116 @@
   local_id: '15224'
   name: Ilhota Norte
   vnum: '010215215224'
-- description: |-
-    Esta pequena ilha é ainda mais sinistra que a sua contraparte norte, como se a
+- description: 'Esta pequena ilha é ainda mais sinistra que a sua contraparte norte,
+    como se a
+
     corrupção aqui tivesse tido mais tempo para amadurecer e aprofundar-se. A
+
     vegetação é mais densa, mas igualmente doentia, com plantas carnudas e de
+
     aparência quase animal que se contorcem lentamente quando pensam que não estão
+
     a ser observadas. Vinhas espessas e cobertas de espinhos entrelaçam-se entre
+
     árvores mortas, criando uma tapeçaria orgânica que pulsa com vida própria e
+
     perturbadora.
 
+
     O solo aqui não é apenas úmido, é viscoso, coberto por uma camada de limo que
+
     brilha com uma fosforescência doentia. Cada passo deixa pegadas que se enchem
+
     rapidamente com um líquido escuro e oleoso que borbulha suavemente, como se a
+
     própria terra estivesse a digerir as marcas da sua passagem. Cogumelos
+
     gigantescos, alguns do tamanho de pratos, crescem em círculos perfeitos, com
+
     suas superfícies cobertas por padrões que se assemelham a rostos humanos em
+
     agonia.
 
+
     No centro da ilhota, uma depressão circular no solo está cheia de água
+
     estagnada que reflete não o céu acima, mas algo mais: imagens que mudam
+
     constantemente, mostrando lugares que não existem e eventos que nunca
+
     aconteceram. Ocasionalmente, formas movem-se sob a superfície desta poça
+
     visionária, e quem olha por muito tempo começa a ouvir vozes sussurrando
+
     segredos que a mente humana não foi feita para compreender.
 
+
     Esta ilhota é um lugar de revelações perigosas, onde a realidade se torna
+
     maleável e os limites entre o possível e o impossível se dissolvem como sal na
-    água.
+
+    água.'
   exits:
     east:
       target_vnum: '010215215223'
   local_id: '15225'
   name: Ilhota Sul
   vnum: '010215215225'
-- description: |-
-    Numa ilha ligeiramente maior que as outras, ergue-se uma estrutura que desafia
+- description: 'Numa ilha ligeiramente maior que as outras, ergue-se uma estrutura
+    que desafia
+
     tanto a lógica arquitetónica quanto a sanidade de quem a contempla. A cabana é
+
     uma construção bizarra e assimétrica, feita de materiais que não deveriam
+
     funcionar juntos: madeira apodrecida, ossos gigantescos, pedras que brilham com
+
     luz própria, e algo que se assemelha perigosamente a pele curtida.
 
+
     As paredes inclinam-se em ângulos impossíveis, e o telhado parece ter sido
+
     construído por alguém que nunca tinha visto um telhado antes, com telhas feitas
+
     de escamas iridescentes que mudam de cor conforme a luz incide sobre elas.
 
+
     A porta da cabana está entreaberta, rangendo suavemente numa brisa que não se
+
     sente, revelando vislumbres de um interior que parece ser maior por dentro do
+
     que por fora. Luz fraca e piscante filtra-se através de janelas feitas de algo
+
     que não é bem vidro - talvez cristais crescidos naturalmente, ou membranas
+
     translúcidas de origem animal.
 
+
     Sons estranhos emanam do interior: o arranhar de penas sobre pergaminho,
+
     murmúrios incoerentes numa língua que muda constantemente, e ocasionalmente,
+
     uma gargalhada aguda que faz os cabelos da nuca se eriçarem.
 
+
     O jardim ao redor da cabana é uma coleção grotesca de plantas que claramente
+
     não são nativas deste mundo. Flores que se assemelham a olhos humanos seguem os
+
     movimentos dos visitantes, enquanto árvores frutíferas produzem frutos que
+
     pulsam como corações e gotejam um líquido vermelho espesso.
 
+
     Estacas de madeira espetadas no solo sustentam crânios de criaturas que não
+
     podem ser identificadas, e cordas pendem dos galhos carregadas com amuletos
+
     feitos de ossos, dentes e coisas que é melhor não examinar muito de perto. Este
+
     é o lar de alguém que há muito ultrapassou os limites da sanidade humana e
-    encontrou uma nova forma de existência nos reinos da loucura pura.
+
+    encontrou uma nova forma de existência nos reinos da loucura pura.'
   exits:
     north:
       target_vnum: '010215215227'
@@ -770,20 +1111,31 @@
   local_id: '15228'
   name: O Coração do Pântano
   vnum: 010215215228
-- description: |-
-    Você pisa em algo sólido e, ao olhar para baixo, percebe que a trilha de lama
+- description: 'Você pisa em algo sólido e, ao olhar para baixo, percebe que a trilha
+    de lama
+
     deu lugar a um caminho de lajes de pedra. As pedras estão partidas e gastas,
+
     afundadas na terra e cobertas por uma fina camada de lodo verde e escorregadio.
+
     A maioria está desalinhada, erguendo-se em ângulos estranhos, tornando a
+
     caminhada traiçoeira. A vegetação rasteira luta para crescer nas fendas entre
+
     elas, mas parece fraca e doentia.
 
+
     O caminho sobe suavemente, e as árvores aqui parecem diferentes; são mais finas
+
     e altas, quase como se estivessem a esticar-se para longe do solo amaldiçoado.
+
     O ar fica mais leve, mas não menos opressivo. Um silêncio reverente substitui
+
     os sussurros, o tipo de silêncio que se encontra num cemitério antigo. Há uma
+
     sensação de propósito esquecido neste lugar, como se o caminho estivesse a
-    levar a algum sítio que já foi sagrado e agora está profanado.
+
+    levar a algum sítio que já foi sagrado e agora está profanado.'
   exits:
     north:
       target_vnum: '010215215230'
@@ -792,18 +1144,27 @@
   local_id: '15229'
   name: Caminho de Pedras Desgastado
   vnum: 010215215229
-- description: |-
-    O caminho de pedras termina na base de uma ampla escadaria de pedra que sobe
+- description: 'O caminho de pedras termina na base de uma ampla escadaria de pedra
+    que sobe
+
     para a escuridão. Os degraus estão rachados e irregulares, cobertos por um
+
     tapete espesso de musgo escuro e aveludado que amortece qualquer som. Videiras
+
     grossas agarram-se às pedras, e as raízes das árvores forçaram a sua passagem
+
     através de fendas, deslocando os blocos de forma caótica.
 
+
     A escadaria sobe em direção a uma plataforma mal iluminada, onde o contorno de
+
     uma estrutura em ruínas se desenha contra a penumbra. Subir parece uma
+
     peregrinação a um lugar há muito abandonado por seus deuses, um ato de entrar
+
     num local onde o tempo e a natureza conspiraram para apagar a memória do
-    sagrado. O ar aqui é pesado com o cheiro de pedra umida e decadência secular.
+
+    sagrado. O ar aqui é pesado com o cheiro de pedra umida e decadência secular.'
   exits:
     north:
       target_vnum: '010215215231'
@@ -839,19 +1200,29 @@
   local_id: '15231'
   name: Pátio do Santuário
   vnum: '010215215231'
-- description: |-
-    A passagem leste do pátio leva a uma ala do santuário onde o teto desabou há
+- description: 'A passagem leste do pátio leva a uma ala do santuário onde o teto
+    desabou há
+
     muito tempo, expondo o interior a um céu perpetuamente cinzento. Vigas de
+
     madeira, agora podres e negras, projetam-se das paredes como as costelas de uma
+
     carcaça. O chão está juncado de escombros, telhas partidas e madeira desfeita,
+
     tornando cada passo um estalar ruidoso que ecoa no silêncio sepulcral.
 
+
     Paredes que ainda se mantêm de pé dividem o espaço, delineando o que outrora
+
     foram celas de meditação ou quartos de estudo. Heras grossas como braços de
+
     homem sobem por elas, as suas folhas de um verde escuro a contrastar com a
+
     pedra pálida. Numa das paredes mais intactas, uma porta de madeira escura,
+
     inchada pela umidade, mas estranhamente sólida, parece levar a uma sala que foi
-    poupada da destruição total.
+
+    poupada da destruição total.'
   exits:
     north:
       target_vnum: '010215215233'
@@ -900,47 +1271,73 @@
   local_id: '15234'
   name: Ala Oeste em Ruínas
   vnum: '010215215234'
-- description: |-
-    O interior da pequena estrutura revela uma série de cubículos de pedra,
+- description: 'O interior da pequena estrutura revela uma série de cubículos de pedra,
+
     claramente os alojamentos dos monges que aqui viviam. O ar é frio e parado,
+
     cheirando a pedra fria e ao pó de séculos.
 
+
     Camas de pedra, agora cobertas por uma fina camada de musgo pálido, alinham-se
+
     contra as paredes, cada uma um testamento a uma vida de simplicidade e
+
     disciplina. Pequenos nichos, esculpidos na rocha, continham outrora os poucos
+
     pertences pessoais dos monges - tigelas de oração, textos sagrados - agora há
+
     muito desaparecidos.
 
+
     A única decoração é um afresco desbotado que cobre a parede oeste. Apesar da
+
     passagem do tempo e da umidade, as suas cores ainda retêm um brilho
+
     fantasmagórico. Retrata figuras encapuzadas, sem rosto, a olhar para um céu
+
     noturno cheio de constelações desconhecidas e luas impossíveis. A cena emana
+
     uma sensação de paz profunda, mas também de uma solidão cósmica. Este não era
+
     apenas um lugar para dormir; era um lugar para contemplar o vazio entre as
-    estrelas.
+
+    estrelas.'
   exits:
     south:
       target_vnum: '010215215234'
   local_id: '15235'
   name: Alojamentos dos Monges
   vnum: '010215215235'
-- description: |-
-    Atrás das ruínas principais do santuário, você encontra um caminho que leva a
+- description: 'Atrás das ruínas principais do santuário, você encontra um caminho
+    que leva a
+
     um arco torii de madeira, agora decaído e coberto de musgo. Uma das suas
+
     colunas de sustentação partiu-se perto da base, fazendo com que toda a
+
     estrutura se incline perigosamente para o lado, como um gigante ferido a
+
     ajoelhar-se em derrota.
 
+
     A madeira, outrora pintada de um vermelhão vibrante, está agora desbotada para
+
     a cor de sangue seco, e em muitos locais a casca de musgo e fungos pálidos
+
     esconde-a por completo.
 
+
     Este portão marcava a transição para a parte mais sagrada do santuário, o
+
     caminho para o salão principal. Passar por baixo dele agora parece um ato de
+
     profanação e reverência ao mesmo tempo; é caminhar sob um símbolo de fé que foi
+
     quebrado, mas que teimosamente se recusa a cair. O caminho continua para além
+
     do arco, subindo uma pequena colina em direção ao coração profanado do que já
-    foi um lugar de luz.
+
+    foi um lugar de luz.'
   exits:
     north:
       target_vnum: '010215215237'
@@ -970,24 +1367,38 @@
   local_id: '15237'
   name: Salão das Lanternas Apagadas
   vnum: '010215215237'
-- description: |-
-    Você sobe os degraus de mármore e pisa na plataforma elevada, o antigo coração
+- description: 'Você sobe os degraus de mármore e pisa na plataforma elevada, o antigo
+    coração
+
     do santuário. Os restos de um grande altar de pedra jazem em pedaços à sua
+
     frente, um testemunho de uma fúria blasfema. Foi claramente destruído com uma
+
     violência ritualística; fragmentos do tamanho de um punho estão espalhados como
+
     dentes partidos, e o bloco central foi partido ao meio por uma força que a
+
     pedra não deveria conhecer.
 
+
     Símbolos sagrados, outrora gravados com reverência, foram selvaticamente
+
     riscados e cobertos por glifos obscenos, pintados com uma substância escura e
+
     pegajosa que, mesmo após séculos, se recusa a secar completamente. Ossos de
+
     pequenos animais e, perturbadoramente, alguns que parecem humanoides, estão
+
     dispostos em padrões geométricos em volta da base do altar, sugerindo que
+
     rituais sombrios tomaram o lugar das cerimónias de luz.
 
+
     Uma sensação de profunda tristeza e maldade palpável paira sobre este lugar, um
+
     frio que não vem da umidade, mas do próprio mal que aqui se aninhou. Uma das
-    lajes de pedra do chão parece solta, revelando uma escuridão umida por baixo.
+
+    lajes de pedra do chão parece solta, revelando uma escuridão umida por baixo.'
   exits:
     down:
       target_vnum: '010215215241'
@@ -1000,22 +1411,35 @@
   local_id: '15238'
   name: Altar Profanado
   vnum: 010215215238
-- description: |-
-    Atrás do altar profanado, uma abertura na parede leva a um jardim murado que
+- description: 'Atrás do altar profanado, uma abertura na parede leva a um jardim
+    murado que
+
     deveria ser um refúgio de paz. Este não é um jardim de plantas, mas um
+
     karensansui, um jardim zen de areia e pedras, desenhado para a contemplação. No
+
     entanto, a paz foi assassinada aqui. A areia branca, que outrora era
+
     cuidadosamente ancinhada em padrões de ondas, está agora cinzenta, misturada
+
     com terra e folhas podres, as suas linhas há muito apagadas pela indiferença do
+
     tempo.
 
+
     Grandes rochas, escolhidas pela sua beleza e forma, estão dispostas pelo
+
     jardim, mas agora estão cobertas por um limo negro e escorregadio, parecendo
+
     mais lápides num cemitério esquecido do que ilhas de serenidade. No centro do
+
     jardim, onde a composição deveria atingir o seu clímax, ergue-se uma única
+
     árvore morta, os seus galhos retorcidos e negros a arranhar o céu como os dedos
+
     de um esqueleto. O silêncio aqui é absoluto, um vácuo onde nem o vento ousa
-    soprar.
+
+    soprar.'
   exits:
     west:
       target_vnum: 010215215238
@@ -1051,19 +1475,29 @@
   local_id: '15240'
   name: Torre do Sino Silencioso
   vnum: '010215215240'
-- description: |-
-    Uma passagem secreta, escondida sob um bloco de pedra deslocado do altar,
+- description: 'Uma passagem secreta, escondida sob um bloco de pedra deslocado do
+    altar,
+
     revela uma escadaria íngreme que desce para catacumbas escuras e umidas. O ar
+
     aqui é gelado, pesado com o cheiro de terra antiga e a poeira de ossos.
+
     Corredores estreitos, esculpidos na própria rocha e terra, estendem-se para a
+
     escuridão, ladeados por nichos funerários escavados nas paredes.
 
+
     A maioria dos nichos está vazia, as suas aberturas escuras a bocejar como bocas
+
     silenciosas. Os seus ocupantes há muito que se transformaram em pó ou, talvez,
+
     em algo pior. O silêncio é absoluto, quebrado apenas pelo som ocasional de água
+
     a gotejar de uma fissura no teto, cada gota a ecoar no corredor como o bater de
+
     um relógio a marcar uma eternidade de abandono. O chão de terra batida está
-    frio e ligeiramente húmido sob os seus pés.
+
+    frio e ligeiramente húmido sob os seus pés.'
   exits:
     north:
       target_vnum: '010215215242'
@@ -1072,22 +1506,36 @@
   local_id: '15241'
   name: Catacumbas Subterrâneas
   vnum: '010215215241'
-- description: |-
-    No final de um longo corredor, você encontra uma câmara funerária mais
+- description: 'No final de um longo corredor, você encontra uma câmara funerária
+    mais
+
     elaborada, claramente destinada a alguém de grande importância. Um sarcófago de
+
     pedra, esculpido com a efígie de um monge sereno, repousa no centro da sala. A
-    sua tampa, no entanto, foi deslocada, partida num dos cantos e empurrada para o
-    lado, deixando uma abertura escura e convidativa que exala um frio sepulcral. O
+
+    sua tampa, no entanto, foi deslocada, partida num dos cantos e empurrada para
+    o
+
+    lado, deixando uma abertura escura e convidativa que exala um frio sepulcral.
+    O
+
     interior está vazio, exceto por uma camada de pó negro e sedoso.
 
+
     As paredes da cripta estão cobertas de inscrições, contando a história de um
+
     monge ancião que, numa tentativa desesperada de proteger o santuário de uma
+
     corrupção crescente, procurou fundir-se com o espírito da floresta.
 
+
     O texto termina abruptamente, com as últimas palavras a transformarem-se em
+
     riscos frenéticos e sem sentido, como se a mão que as escrevia tivesse sido
+
     consumida pela loucura. O sacrifício do monge, ao que parece, não trouxe
-    salvação, mas sim deu à floresta a semente da sua própria consciência profana.
+
+    salvação, mas sim deu à floresta a semente da sua própria consciência profana.'
   exits:
     north:
       target_vnum: '010215215243'
@@ -1096,18 +1544,26 @@
   local_id: '15242'
   name: Cripta do Monge Ancião
   vnum: '010215215242'
-- description: |-
-    O corredor das catacumbas desce abruptamente e termina numa passagem
+- description: 'O corredor das catacumbas desce abruptamente e termina numa passagem
+
     completamente inundada. Uma água escura, gelada e na altura da sua cintura
+
     enche o túnel à sua frente, tornando o progresso lento e difícil. O teto de
+
     rocha é baixo, forçando-o a curvar-se enquanto avança, com o seu rosto
+
     perigosamente perto da superfície imóvel da água.
 
+
     Não é possível ver o que se esconde sob a água negra, e cada passo é um ato de
+
     fé cega, nunca sabendo se o próximo pé assentará em terra firme ou num buraco
+
     profundo. O som dos seus movimentos na água ecoa de forma opressiva no túnel
+
     apertado. O ar é viciado, com um cheiro a mofo e a minerais que se mistura com
-    o odor a podridão do pântano, que de alguma forma se infiltra neste lugar.
+
+    o odor a podridão do pântano, que de alguma forma se infiltra neste lugar.'
   exits:
     north:
       target_vnum: '010215215244'
@@ -1116,18 +1572,27 @@
   local_id: '15243'
   name: Passagem Inundada
   vnum: '010215215243'
-- description: |-
-    A passagem inundada emerge numa pequena gruta na base de uma encosta, fora das
+- description: 'A passagem inundada emerge numa pequena gruta na base de uma encosta,
+    fora das
+
     ruínas do santuário. A abertura da gruta, escondida por uma cortina espessa de
+
     hera e videiras, funciona como uma saída secreta que o cospe de volta para o
+
     mundo exterior. Mas este не é um exterior de alívio. Daqui, você tem uma visão
+
     direta da vastidão do Pântano dos Lamentos, um ambiente ainda mais opressivo e
+
     perigoso do que a floresta que acabou de atravessar.
 
+
     O ar é espesso com a bruma do pântano, e o chão à saída da gruta é uma confusão
+
     de lama e raízes escorregadias. O caminho do santuário não o levou à salvação,
+
     mas a um novo nível de pesadelo, oferecendo uma rota alternativa para o coração
-    do pântano e provando que todos os caminhos nesta floresta levam à condenação.
+
+    do pântano e provando que todos os caminhos nesta floresta levam à condenação.'
   exits:
     south:
       target_vnum: '010215215243'
@@ -1154,18 +1619,27 @@
   local_id: '15245'
   name: Antecâmara do Coração da Floresta
   vnum: '010215215245'
-- description: |-
-    A passagem leva a uma vasta caverna circular. No centro, um poço profundo desce
+- description: 'A passagem leva a uma vasta caverna circular. No centro, um poço profundo
+    desce
+
     para uma escuridão que parece não ter fundo. Não há parapeito; as bordas são de
+
     terra e raízes que se agarram à beira do abismo. Um fluxo constante de
+
     sussurros sobe do poço, as vozes de milhares de almas perdidas, presas entre os
+
     mundos, um som que arranha a sua sanidade.
 
+
     Olhar para o abismo por muito tempo faz com que a vertigem se instale, e os
+
     sussurros começam a fazer sentido, prometendo segredos do universo em troca da
+
     sua alma. O ar à volta do poço é visivelmente distorcido, como o calor a subir
+
     do asfalto, uma manifestação da energia psíquica pura que emana das
-    profundezas. Este é um lugar de conhecimento proibido e loucura eterna.
+
+    profundezas. Este é um lugar de conhecimento proibido e loucura eterna.'
   exits:
     north:
       target_vnum: '010215215247'
@@ -1205,54 +1679,87 @@
   local_id: '15247'
   name: "A Ã\x81rvore-Mãe Moribunda"
   vnum: '010215215247'
-- description: |-
-    E então, a barreira de espinhos cede. Não se parte nem se rasga, mas afasta-se
+- description: 'E então, a barreira de espinhos cede. Não se parte nem se rasga, mas
+    afasta-se
+
     com uma reverência silenciosa, os seus ramos negros a curvarem-se como súbditos
+
     perante um rei. Você atravessa o limiar e a floresta morre atrás de si.
 
+
     O silêncio opressor é aniquilado, não por um som, mas por uma ressonância
+
     harmoniosa que vibra nos seus ossos, uma nota cantada desde a fundação do
+
     mundo. A escuridão retira-se perante uma luz suave e prateada que não vem de
+
     sol nem de lanterna, mas que emana das próprias pedras e do ar.
 
+
     Diante de si está o Grande Portão. Não é uma obra de alvenaria, mas de fé
+
     manifesta. Duas colunas de madeira petrificada, brancas como os ossos de um
+
     santo, erguem-se e encontram-se num arco perfeito, sem emendas ou juntas.
 
+
     Não há portas, nem barras, nem defesas visíveis, pois o portão em si é o
+
     símbolo de uma verdade absoluta: o mal não é barrado aqui; ele simplesmente não
+
     pode existir. O ar é puro e cheira a flor de cerejeira e a pedra lavada pela
+
     chuva, e cada respiração limpa a mácula da floresta da sua alma.
 
+
     Você está a ser observado. Não pelos olhos de sentinelas mortais, pois não há
+
     nenhuma, mas por algo mais. Uma presença vasta, antiga e serena envolve este
+
     lugar, um poder tão imenso que a própria violência se torna uma
+
     impossibilidade, um conceito estranho que a sua mente luta para recordar. Para
+
     aqueles de coração puro, a presença é um bálsamo. Para aqueles cujas almas
-    abrigam a escuridão, é um fogo invisível, uma agonia silenciosa que os exorta a
+
+    abrigam a escuridão, é um fogo invisível, uma agonia silenciosa que os exorta
+    a
+
     recuar.
 
+
     Não há guardas porque nenhuma muralha é mais forte que esta paz. Nenhum
-    exército é mais temível que a pureza que reside aqui.
+
+    exército é mais temível que a pureza que reside aqui.'
   exits:
     north:
       target_vnum: 010215215249
   local_id: '15248'
   name: O Grande Portão de Shizuka
   vnum: 010215215248
-- description: |-
-    Este é um corredor sagrado, um túnel natural formado por colmos de bambu de um
+- description: 'Este é um corredor sagrado, um túnel natural formado por colmos de
+    bambu de um
+
     verde profundo que se arqueiam sobre a sua cabeça. A luz do sol, ao trespassar
+
     a densa folhagem, salpica o chão de lajes de pedra branca com manchas douradas
+
     que parecem mover-se em câmara lenta. O ar aqui dentro é imaculadamente puro,
+
     com o aroma de bambu e terra úmida, uma fragrância que limpa a alma.
 
+
     O silêncio neste caminho é uma presença física. O vento, ao passar pelos
+
     colmos, não sussurra, mas canta uma melodia baixa e calmante que parece
+
     absorver todos os outros sons. A tensão do mundo exterior dissolve-se a cada
+
     momento que se passa aqui. Lanternas de pedra, de uma simplicidade elegante,
+
     ladeiam o caminho, e as suas chamas ardem sem tremer, fixas e eternas, como se
-    o tempo aqui fluísse de forma diferente.
+
+    o tempo aqui fluísse de forma diferente.'
   exits:
     north:
       target_vnum: '010215215250'
@@ -1289,26 +1796,42 @@
   local_id: '15250'
   name: A Praça do Coração Perene
   vnum: '010215215250'
-- description: |-
-    Este caminho parece moldado pela própria gentileza. As lajes de pedra sob os
+- description: 'Este caminho parece moldado pela própria gentileza. As lajes de pedra
+    sob os
+
     seus pés não são frias, mas retêm um calor subtil, e as suas superfícies foram
+
     tão polidas pelo tempo e por pés reverentes que refletem o céu como um espelho
+
     escuro. O ar aqui tem o aroma limpo de madeira de cedro recém-cortada e o odor
+
     mineral de pedra molhada, uma mudança notável em relação à fragrância floral de
+
     outros locais da cidade.
 
+
     Aqui, a paz de Shizuka encontra o seu propósito. O silêncio é pontuado por um
+
     som distante, quase subliminar: o toque rítmico e abafado de um martelo, a
+
     melodia de um artesão a dar forma à matéria. Não é um som de trabalho
+
     labirioso, mas de criação focada, uma batida de coração para a cidade.
+
     Lanternas de papel de arroz, suspensas em armações de bambu, brilham com uma
+
     luz suave que parece respirar.
 
+
     Este lugar é uma promessa. A promessa de que a beleza neste santuário não surge
+
     apenas da magia da natureza, mas também das mãos daqueles que dedicam a sua
+
     vida a transformar o simples em sublime. Cada detalhe, desde o musgo que cresce
+
     perfeitamente entre as pedras até à forma como as sombras das lanternas dançam,
-    fala de uma paciência que transcende a vida de um mortal.
+
+    fala de uma paciência que transcende a vida de um mortal.'
   exits:
     north:
       target_vnum: '010215215254'
@@ -1317,25 +1840,40 @@
   local_id: '15251'
   name: Entrada do Distrito dos Artesãos
   vnum: '010215215251'
-- description: |-
-    Uma ponte de madeira de alvura leitosa arqueia-se sobre um canal cuja água
+- description: 'Uma ponte de madeira de alvura leitosa arqueia-se sobre um canal cuja
+    água
+
     corre sem som, límpida como cristal líquido. Não há pregos ou amarras de metal
+
     na sua construção; cada viga, cada tábua, encaixa-se na seguinte com uma
+
     precisão que desafia a arte dos mortais, como se a ponte tivesse crescido de
+
     uma única semente plantada há milénios. O seu arco não é uma obra de
+
     engenharia, mas um suspiro de madeira sobre a água.
 
+
     Estar sobre a sua extensão é estar suspenso entre a vida pública de Shizuka e
+
     os seus recantos mais contemplativos. O ar aqui é mais rarefeito, mais frio, e
+
     transporta o cheiro a incenso antigo e a pergaminho que emana do leste. A paz
+
     aqui é tão profunda que convida a parar e a observar a luz que dança na água,
+
     um momento de pausa entre os reinos da cidade.
 
+
     Sob a ponte, a água não reflete apenas o céu; parece conter a sua própria luz,
+
     um brilho prateado que sobe e banha a madeira branca. Não há corrimão, pois
+
     tropeçar aqui é impensável. O caminho é seguro não pela sua largura, mas pela
+
     certeza de que se está a atravessar um limiar para um lugar mais sagrado, onde
-    cada passo deve ser deliberado e cada pensamento, pesado com intenção.
+
+    cada passo deve ser deliberado e cada pensamento, pesado com intenção.'
   exits:
     east:
       target_vnum: '010215215261'

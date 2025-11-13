@@ -1,18 +1,19 @@
-- description: |-
-    Você está em frente a entrada da caverna.  Abaixo daqui está muito
+- description: 'Você está em frente a entrada da caverna.  Abaixo daqui está muito
+
     escuro.  Há uma inscrição na parede.  Há uma saída ao norte.  Uma escada
-    conduz para cima.
+
+    conduz para cima.'
   exits:
     north:
       target_vnum: '01010737301'
     up:
-      target_vnum: '01010737102'
+      target_vnum: '01010717102'
   local_id: '7300'
   name: A Entrada da Caverna
   vnum: '01010737300'
-- description: |-
-    Você está andando num túnel.  Está muito frio.  Você pode sentir a
-    presença de um ser vivo...  Em algum lugar.
+- description: 'Você está andando num túnel.  Está muito frio.  Você pode sentir a
+
+    presença de um ser vivo...  Em algum lugar.'
   exits:
     north:
       target_vnum: '01010737302'
@@ -21,9 +22,9 @@
   local_id: '7301'
   name: Túnel da Caverna
   vnum: '01010737301'
-- description: |-
-    Você está numa sala.  Está ainda mais frio aqui.  As paredes estão
-    brilhando.
+- description: 'Você está numa sala.  Está ainda mais frio aqui.  As paredes estão
+
+    brilhando.'
   exits:
     east:
       target_vnum: '01010737303'
@@ -34,9 +35,9 @@
   local_id: '7302'
   name: Sala da Caverna
   vnum: '01010737302'
-- description: |-
-    Você está em pé numa substância lamaçenta.  O cheiro é terrível, parece
-    com o cheiro de algo estragado.  Ao oeste você pode ver uma luz.
+- description: 'Você está em pé numa substância lamaçenta.  O cheiro é terrível, parece
+
+    com o cheiro de algo estragado.  Ao oeste você pode ver uma luz.'
   exits:
     east:
       target_vnum: '01010737304'
@@ -47,10 +48,12 @@
   local_id: '7303'
   name: O Cruzamento em T da Caverna
   vnum: '01010737303'
-- description: |-
-    A lama está ficando mais funda.  Você se pergunta. 'Seria uma boa idéia
-    sair daqui antes de desaparecer?'.  Ao sul você nota uma pedra lisa circular
-    bloqueando o caminho.  Ao oeste você pode ver mais lama.
+- description: 'A lama está ficando mais funda.  Você se pergunta. ''Seria uma boa
+    idéia
+
+    sair daqui antes de desaparecer?''.  Ao sul você nota uma pedra lisa circular
+
+    bloqueando o caminho.  Ao oeste você pode ver mais lama.'
   exits:
     south:
       target_vnum: '01010737305'
@@ -59,10 +62,11 @@
   local_id: '7304'
   name: O Ponto de Retorno da Caverna
   vnum: '01010737304'
-- description: |-
-    Há poeira por todos os lados.  Parece que ningém vem aqui há décadas.  No
+- description: 'Há poeira por todos os lados.  Parece que ningém vem aqui há décadas.  No
+
     centro da sala você vê um pedestal com uma bola de cristal.  A bola brilha
-    com uma luz pulsante.
+
+    com uma luz pulsante.'
   exits:
     north:
       target_vnum: '01010737304'
@@ -71,9 +75,9 @@
   local_id: '7305'
   name: A Sala Secreta
   vnum: '01010737305'
-- description: |-
-    Você está em meio a muita lama.  A lama chega até o seu peito.  Você
-    sente a presença de alguma coisa na lama.  A única saída fica a oeste.
+- description: 'Você está em meio a muita lama.  A lama chega até o seu peito.  Você
+
+    sente a presença de alguma coisa na lama.  A única saída fica a oeste.'
   exits:
     north:
       target_vnum: '01010737305'
@@ -82,9 +86,9 @@
   local_id: '7306'
   name: O Bueiro
   vnum: '01010737306'
-- description: |-
-    A lama está nos seus joelhos.  Fora isso, o túnel parece ser bastante
-    normal.
+- description: 'A lama está nos seus joelhos.  Fora isso, o túnel parece ser bastante
+
+    normal.'
   exits:
     east:
       target_vnum: '01010737306'
@@ -95,9 +99,9 @@
   local_id: '7307'
   name: Um Túnel
   vnum: '01010737307'
-- description: |-
-    Aqui quase não há mais lama.  Ao seu lado está um aviso que diz @R'PERIGO!
-    Os vermes são perigosos!'@n
+- description: 'Aqui quase não há mais lama.  Ao seu lado está um aviso que diz @R''PERIGO!
+
+    Os vermes são perigosos!''@n'
   exits:
     north:
       target_vnum: '01010737303'
@@ -106,10 +110,11 @@
   local_id: '7308'
   name: O Túnel Longo
   vnum: 01010737308
-- description: |-
-    Você está muito surpreso, como esta sala está quente ao invés de estar
+- description: 'Você está muito surpreso, como esta sala está quente ao invés de estar
+
     fria.  Ao norte há uma descida para mais lama.  Há também uma saída para o
-    oeste.
+
+    oeste.'
   exits:
     north:
       target_vnum: '01010737307'
@@ -118,9 +123,10 @@
   local_id: '7309'
   name: A Sala Quente
   vnum: 01010737309
-- description: |-
-    Olhando ao redor você nota uma pequena estátua.  Há saídas ao oeste e ao
-    leste.
+- description: 'Olhando ao redor você nota uma pequena estátua.  Há saídas ao oeste
+    e ao
+
+    leste.'
   exits:
     east:
       target_vnum: 01010737309
@@ -141,9 +147,10 @@
   local_id: '7311'
   name: A Caverna da Estalagmite
   vnum: '01010737311'
-- description: |-
-    Você entrou num pequeno túnel.  Aqui é bastante seco.  Talvez fosse uma
-    boa idéia descansar aqui.
+- description: 'Você entrou num pequeno túnel.  Aqui é bastante seco.  Talvez fosse
+    uma
+
+    boa idéia descansar aqui.'
   exits:
     north:
       target_vnum: '01010737311'
@@ -152,9 +159,10 @@
   local_id: '7312'
   name: O Túnel da Estalagmite
   vnum: '01010737312'
-- description: |-
-    Você definitivamente não gosta dessa área.  Ela é muito úmida e a maior
-    parte da sala está molhada.
+- description: 'Você definitivamente não gosta dessa área.  Ela é muito úmida e a
+    maior
+
+    parte da sala está molhada.'
   exits:
     east:
       target_vnum: '01010737312'
@@ -163,9 +171,9 @@
   local_id: '7313'
   name: A Sala Esponjosa
   vnum: '01010737313'
-- description: |-
-    Você está num cruzamento.  Ao norte você pode ver uma luz.  De qualquer
-    forma está escuro.
+- description: 'Você está num cruzamento.  Ao norte você pode ver uma luz.  De qualquer
+
+    forma está escuro.'
   exits:
     east:
       target_vnum: '01010737315'
@@ -176,9 +184,9 @@
   local_id: '7314'
   name: Um Cruzamento em T da Estalagmite
   vnum: '01010737314'
-- description: |-
-    Esta sala é obviamente um esconderijo.  Ao norte você vê uma pintura
-    primitiva.
+- description: 'Esta sala é obviamente um esconderijo.  Ao norte você vê uma pintura
+
+    primitiva.'
   exits:
     north:
       target_vnum: '01010737316'
@@ -187,19 +195,21 @@
   local_id: '7315'
   name: O Esconderijo
   vnum: '01010737315'
-- description: |-
-    Esta sala é ricamente ornamentada.  As paredes foram esculpidas com uma
+- description: 'Esta sala é ricamente ornamentada.  As paredes foram esculpidas com
+    uma
+
     figura de pessoas dançando ao redor de uma lua que está no chão.  Ela parece
-    muito velha e muito empoeirada.  Ao sul você vê uma porta secreta.
+
+    muito velha e muito empoeirada.  Ao sul você vê uma porta secreta.'
   exits:
     south:
       target_vnum: '01010737315'
   local_id: '7316'
   name: A Sala do Tesouro
   vnum: '01010737316'
-- description: |-
-    Você está na parte sudeste da toca.  Você pode ver um esqueleto deitado
-    no chão.
+- description: 'Você está na parte sudeste da toca.  Você pode ver um esqueleto deitado
+
+    no chão.'
   exits:
     north:
       target_vnum: 01010737318
@@ -221,9 +231,10 @@
   local_id: '7318'
   name: A Toca Quadrada
   vnum: 01010737318
-- description: |-
-    Você está na parte sudoeste da toca.  Aqui há outro aviso.  Há uma saída
-    da toca ao norte.
+- description: 'Você está na parte sudoeste da toca.  Aqui há outro aviso.  Há uma
+    saída
+
+    da toca ao norte.'
   exits:
     east:
       target_vnum: 01010737318
@@ -234,9 +245,9 @@
   local_id: '7319'
   name: A Toca Quadrada
   vnum: 01010737319
-- description: |-
-    Você pode ver uma mesa à sua frente.  Ela está coberta por poeira.
-    Cinco esqueletos estão sentados à mesa.  Saídas a norte e leste.
+- description: 'Você pode ver uma mesa à sua frente.  Ela está coberta por poeira.
+
+    Cinco esqueletos estão sentados à mesa.  Saídas a norte e leste.'
   exits:
     east:
       target_vnum: '01010737317'
@@ -245,9 +256,9 @@
   local_id: '7320'
   name: O Final da Toca
   vnum: '01010737320'
-- description: |-
-    Você está num túnel escuro, as saídas ficam a leste e oeste.  Ao oeste
-    você vê uma porta de madeira.
+- description: 'Você está num túnel escuro, as saídas ficam a leste e oeste.  Ao oeste
+
+    você vê uma porta de madeira.'
   exits:
     east:
       target_vnum: '01010737302'
@@ -267,9 +278,9 @@
   local_id: '7322'
   name: O Túnel Norte
   vnum: '01010737322'
-- description: |-
-    Você está na escuridão total.  Ao sul há uma pequena saída.  Ao leste
-    você pode ver um buraco entreaberto.
+- description: 'Você está na escuridão total.  Ao sul há uma pequena saída.  Ao leste
+
+    você pode ver um buraco entreaberto.'
   exits:
     east:
       target_vnum: '01010737324'
@@ -278,9 +289,9 @@
   local_id: '7323'
   name: A Sala em L
   vnum: '01010737323'
-- description: |-
-    Você está num salão circular.  Ao norte, leste e sul você pode ver
-    cabeças petrificadas penduradas na parede.
+- description: 'Você está num salão circular.  Ao norte, leste e sul você pode ver
+
+    cabeças petrificadas penduradas na parede.'
   exits:
     east:
       target_vnum: '01010737325'
@@ -293,10 +304,11 @@
   local_id: '7324'
   name: O Salão Circular
   vnum: '01010737324'
-- description: |-
-    Você está em meio a poeira.  Este lugar não foi tocado há muito tempo,
+- description: 'Você está em meio a poeira.  Este lugar não foi tocado há muito tempo,
+
     Entretanto é muito monótono aqui, parece ser um bom lugar para descansar!
-    Ao oeste você vê os contornos de uma porta.  Um túnel leva ao leste.
+
+    Ao oeste você vê os contornos de uma porta.  Um túnel leva ao leste.'
   exits:
     east:
       target_vnum: '01010737326'
@@ -305,10 +317,12 @@
   local_id: '7325'
   name: O Túnel Empoeirado
   vnum: '01010737325'
-- description: |-
-    Você está num cruzamento de corredores.  Você pode deixar este lugar por
+- description: 'Você está num cruzamento de corredores.  Você pode deixar este lugar
+    por
+
     todas as direções, exceto por cima ou por baixo.  Em meio a poeira você nota
-    estranhas pegadas.
+
+    estranhas pegadas.'
   exits:
     east:
       target_vnum: '01010737330'
@@ -321,9 +335,9 @@
   local_id: '7326'
   name: O Cruzamento
   vnum: '01010737326'
-- description: |-
-    Você está numa sala em L.  Você pode ouvir barulhos vindos do longo
-    túnel ao leste.  Você está com muito medo.  Um aviso está pendurado na parede.
+- description: 'Você está numa sala em L.  Você pode ouvir barulhos vindos do longo
+
+    túnel ao leste.  Você está com muito medo.  Um aviso está pendurado na parede.'
   exits:
     east:
       target_vnum: 01010737328
@@ -332,11 +346,14 @@
   local_id: '7327'
   name: A Sala em L
   vnum: '01010737327'
-- description: |-
-    Você pode ver paredes queimadas, as pedras que compõem o chão sao de um
+- description: 'Você pode ver paredes queimadas, as pedras que compõem o chão sao
+    de um
+
     vermelho fogoso.  Todos os tipos de ossos estão espalhados pelo chão.  Nas
+
     paredes você pode ver alguns corpos queimados.  Você cheira a carne queimada.
-    Duas criaturas estão parcialmente derretidas no chão.
+
+    Duas criaturas estão parcialmente derretidas no chão.'
   exits:
     north:
       target_vnum: 01010737329
@@ -345,9 +362,9 @@
   local_id: '7328'
   name: A Toca do Dragão
   vnum: 01010737328
-- description: |-
-    Você está numa sala que possui as paredes queimadas.  Há uma inscrição
-    na parede.
+- description: 'Você está numa sala que possui as paredes queimadas.  Há uma inscrição
+
+    na parede.'
   exits:
     south:
       target_vnum: 01010737328
@@ -365,9 +382,9 @@
   local_id: '7330'
   name: O Túnel Ventilado
   vnum: '01010737330'
-- description: |-
-    Esta sala é muito brilhante.  Nas paredes você pode ver prata.  Saídas
-    a: oeste, leste e sul.
+- description: 'Esta sala é muito brilhante.  Nas paredes você pode ver prata.  Saídas
+
+    a: oeste, leste e sul.'
   exits:
     east:
       target_vnum: '01010737332'
@@ -385,10 +402,12 @@
   local_id: '7332'
   name: A Passagem Secreta
   vnum: '01010737332'
-- description: |-
-    Você está no fim do longo túnel.  A sua frente, você pode ver uma massa
+- description: 'Você está no fim do longo túnel.  A sua frente, você pode ver uma
+    massa
+
     cinzenta.   Ao leste você pode ver um túnel extremamente longo, mas você
-    sabe disso, você acabou de sair de lá.
+
+    sabe disso, você acabou de sair de lá.'
   exits:
     east:
       target_vnum: '01010737331'
@@ -397,18 +416,20 @@
   local_id: '7333'
   name: O Fim do Longo Túnel
   vnum: '01010737333'
-- description: |-
-    Você está numa pequena sala.  Desenhos de rostos sofrendo estão nas paredes.
-    Você pode sentir que a escuridão domina o lugar.  Só há uma saída: sul.
+- description: 'Você está numa pequena sala.  Desenhos de rostos sofrendo estão nas
+    paredes.
+
+    Você pode sentir que a escuridão domina o lugar.  Só há uma saída: sul.'
   exits:
     south:
       target_vnum: '01010737335'
   local_id: '7334'
   name: A Sala da Escada
   vnum: '01010737334'
-- description: |-
-    Você está num túnel escuro.  Ele continua ao norte e ao sul.  Ossos estão
-    espalhados pelo chão.
+- description: 'Você está num túnel escuro.  Ele continua ao norte e ao sul.  Ossos
+    estão
+
+    espalhados pelo chão.'
   exits:
     north:
       target_vnum: '01010737334'
@@ -417,9 +438,10 @@
   local_id: '7335'
   name: Um Túnel Escuro
   vnum: '01010737335'
-- description: |-
-    O cheiro é terrível.  Ao sul você pode ver uma fumaça.  Um túnel leva ao
-    norte e ao leste.
+- description: 'O cheiro é terrível.  Ao sul você pode ver uma fumaça.  Um túnel leva
+    ao
+
+    norte e ao leste.'
   exits:
     east:
       target_vnum: '01010737322'
@@ -442,9 +464,9 @@
   local_id: '7337'
   name: A Parte Nordeste da Caverna do Basilisco
   vnum: '01010737337'
-- description: |-
-    Há um pequeno buraco na parede de onde sai a fumaça.  Continua muito
-    escuro.  Saídas ao norte e oeste.
+- description: 'Há um pequeno buraco na parede de onde sai a fumaça.  Continua muito
+
+    escuro.  Saídas ao norte e oeste.'
   exits:
     north:
       target_vnum: '01010737337'
@@ -453,10 +475,12 @@
   local_id: '7338'
   name: A Parte Sudeste da Caverna do Basilisco
   vnum: 01010737338
-- description: |-
-    Você pode ver folhagem espalhada pelo chão.  O cheiro aqui tão terrível que
+- description: 'Você pode ver folhagem espalhada pelo chão.  O cheiro aqui tão terrível
+    que
+
     faz você sentir-se mal.  Este é o lugar onde dorme o Basilisco.
-    Cuidado... talvez ele não esteja longe daqui...
+
+    Cuidado... talvez ele não esteja longe daqui...'
   exits:
     east:
       target_vnum: '01010737337'
@@ -476,9 +500,9 @@
   local_id: '7340'
   name: A Parte Sudoeste da Caverna do Basilisco
   vnum: '01010737340'
-- description: |-
-    Você está numa pequena caverna.  Você pode ver uma luz no final.  Saídas
-    ao norte e sul.
+- description: 'Você está numa pequena caverna.  Você pode ver uma luz no final.  Saídas
+
+    ao norte e sul.'
   exits:
     north:
       target_vnum: '01010737340'
@@ -487,9 +511,9 @@
   local_id: '7341'
   name: A Pequena Caverna
   vnum: '01010737341'
-- description: |-
-    Você está com os pés úmidos, você está na água.  A água parece calma.
-    Você pode ver que é um grande lago.  Luz penetra na água.
+- description: 'Você está com os pés úmidos, você está na água.  A água parece calma.
+
+    Você pode ver que é um grande lago.  Luz penetra na água.'
   exits:
     east:
       target_vnum: '01010737343'
@@ -500,9 +524,9 @@
   local_id: '7342'
   name: O Fim Norte da Lagoa
   vnum: '01010737342'
-- description: |-
-    Você está nadando na água.  Está muito fundo aqui.  Está muito escuro
-    no final.
+- description: 'Você está nadando na água.  Está muito fundo aqui.  Está muito escuro
+
+    no final.'
   exits:
     south:
       target_vnum: '01010737345'

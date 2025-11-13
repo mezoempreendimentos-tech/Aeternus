@@ -1,22 +1,27 @@
-- description: |-
-    Você está em frente ao grande Museu do Colecionador.  Um longo caminho
+- description: 'Você está em frente ao grande Museu do Colecionador.  Um longo caminho
+
     entre palmeiras segue para a portaria principal, passando por um grande
+
     chafariz de mármore que desperta sua atenção.  O gramado é muito bem cuidado,
+
     com lindos jardins de flores e arbustos muito bem podados.  Para norte você
-    chega ao Museu.
+
+    chega ao Museu.'
   exits:
     north:
       target_vnum: 01010383801
     west:
-      target_vnum: 01010383126
+      target_vnum: '01010313126'
   local_id: '3800'
   name: A Entrada do Museu do Colecionador
   vnum: 01010383800
-- description: |-
-    Na portaria do Museu do Colecionador você já tem a impressão que grandes
+- description: 'Na portaria do Museu do Colecionador você já tem a impressão que grandes
+
     surpresas o aguardarão do lado de dentro.  Ao lado do que parece ser um
+
     quadro de avisos, cheio de papéis colados, encontra-se um pequeno gabinete
-    onde está sentada uma sorridente recepcionista.
+
+    onde está sentada uma sorridente recepcionista.'
   exits:
     north:
       target_vnum: 01010383802
@@ -25,14 +30,20 @@
   local_id: '3801'
   name: A Portaria do Museu
   vnum: 01010383801
-- description: |-
-    Você está dentro do salão principal do Museu do Colecionador, criado pelo
+- description: 'Você está dentro do salão principal do Museu do Colecionador, criado
+    pelo
+
     lendário e anônimo Explorador, para funcionar tanto como uma espécie de clube
+
     para os colecionadores, como também um local para se exibir todas as maravilhas
+
     de Vitália, que ele teve oportunidade de conhecer em suas viagens.  Existem
+
     vários quadros pelas paredes e estátuas espalhadas por aqui.  Há duas grandes
+
     escadarias que se encontram num belo balcão que leva para o segundo andar.
-    Você também pode ver portas para leste, oeste, norte e sul.
+
+    Você também pode ver portas para leste, oeste, norte e sul.'
   exits:
     east:
       target_vnum: 01010383805
@@ -47,13 +58,17 @@
   local_id: '3802'
   name: O Salão Principal do Museu
   vnum: 01010383802
-- description: |-
-    Dentro desta sala finamente decorada, você pode ver vários MOB´s em
+- description: 'Dentro desta sala finamente decorada, você pode ver vários MOB´s em
+
     quadros ou empalhados.  Alguns quadros são mágicos e suas pinturas possuem
+
     movimento, parecendo estar vivas.  Um ENORME dragão verde empalhado, de
+
     asas abertas e garras afiadas, está preso no alto do teto, olhando
+
     diretamente para você.  Ao lado da porta você pode ver as listas de CARD´s
-    das Séries MOB´s.
+
+    das Séries MOB´s.'
   exits:
     north:
       target_vnum: 01010383804
@@ -95,28 +110,39 @@
   local_id: '3804'
   name: "A Sala das Ã\x81reas"
   vnum: 01010383804
-- description: |-
-    Nesta sala você pode ver vários itens espalhados por diversas prateleiras
+- description: 'Nesta sala você pode ver vários itens espalhados por diversas prateleiras
+
     e mostruários.  Itens que vão de simples Botijas e Lembas magicamente
+
     conservadas, até as lendárias armas dos Deuses.  Alguns dizem que estes
+
     itens são apenas cópias, enquanto outros afirmam que seriam itens verdadeiros,
+
     doados pelos próprios Deuses de Vitália.  No centro, uma grande cúpula de
+
     cristal chama sua atenção.  Ao lado da porta pode-se ver as listas de CARD´S
-    das Séries Itens.
+
+    das Séries Itens.'
   exits:
     west:
       target_vnum: 01010383802
   local_id: '3805'
   name: A Sala dos Itens
   vnum: 01010383805
-- description: |-
-    Nesta sala decorada com ricas tapeçarias e finas poltronas, podem ser
+- description: 'Nesta sala decorada com ricas tapeçarias e finas poltronas, podem
+    ser
+
     vistos quadros com pinturas dos Deuses e dos hérois de Vitália.  Brasões e
+
     bandeiras dos clãs estão espalhados pelas paredes.  No centro da sala
+
     encontram-se belas estátuas dos principais deuses de Vitália.  Em meio a
+
     tantas personalidades famosas, parece haver uma estranha estátua sem rosto
+
     de um Ilustre Desconhecido.  Ao lado da porta pode-se ver as listas de
-    CARD´S das Séries Personalidades.
+
+    CARD´S das Séries Personalidades.'
   exits:
     down:
       target_vnum: 01010383807
@@ -125,80 +151,117 @@
   local_id: '3806'
   name: A Sala da Fama
   vnum: 01010383806
-- description: |-
-    Enquanto caminha por essa estreita passagem, sua mente é inundada por
+- description: 'Enquanto caminha por essa estreita passagem, sua mente é inundada
+    por
+
     antigas recordações.  Uma pequena voz, (a SUA voz?!) parece conversar com
+
     você e inúmeras boas memórias enchem seu coração de alegria.  Você passa a
+
     reviver os melhores momentos pelos quais passou em Vitália.  Você se lembra
+
     daquela besteira que fez em seus primeiros momentos de iniciante e tantas
+
     rizadas trouxeram.  Lembra aquele combate que o encheu de ansiedade, que fez
+
     seu coração disparar? Como foi emocionante a vitória naquele dia! E como foi
+
     duro conseguir aquele item pela segunda vez, depois da DT! Mas valeu a pena,
+
     você se esforçou tanto por ele... E quando você achou aquela área nova? Você
-    se emocionou bastante aquele dia.
+
+    se emocionou bastante aquele dia.'
   exits:
     west:
       target_vnum: 01010383808
   local_id: '3807'
   name: A Passagem Secreta para Dentro de Si Mesmo
   vnum: 01010383807
-- description: |-
-    Enquanto caminha por essa estreita passagem, mais boas lembranças
+- description: 'Enquanto caminha por essa estreita passagem, mais boas lembranças
+
     preenchem sua mente.  Você passa a reviver os melhores momentos pelos quais
+
     passou em Vitália e percebe que eles estão guardados em seu coração, como
+
     se ele fosse um museu desses momentos tão preciosos.  Você se recorda de suas
+
     maiores glórias e também das glórias de seus amigos.  Lembra-se dos maiores
+
     combates travados, sozinho ou em grupo.  Das mesnadas e cruzadas, e das quests
+
     mais emocionantes.  Mas os melhores momentos de todos talvez sejam aqueles nos
+
     quais você ajudou um amigo, sem esperar nada em troca e nem pensar duas vezes.
+
     Ou então quando foram seus amigos que ajudaram você.  Esses momentos você
-    guardará para sempre com muito carinho.
+
+    guardará para sempre com muito carinho.'
   exits:
     west:
       target_vnum: 01010383809
   local_id: '3808'
   name: Dias de Glória
   vnum: 01010383808
-- description: |-
-    Neste ponto da passagem você é abençoado com a maior recompensa que suas
+- description: 'Neste ponto da passagem você é abençoado com a maior recompensa que
+    suas
+
     memórias poderiam oferecer.  A lembrança das suas amizades.  Você se recorda
+
     das palavras gravadas na estátua que lhe trouxe até aqui e compreende
+
     completamente o significado delas.  Vitália não seria tão emocionante, não
+
     teria tanto brilho, se não fossem pelas amizades que você conquistou aqui.
+
     Vários nomes de pessoas queridas vêem à mente e você realmente se emociona
+
     ao lembrar de seus amigos, e dos momentos que compartilhou com eles.  Momentos
+
     em que riu, e outros nos quais chorou, mas todos igualmente preciosos.
+
     Momentos que marcaram sua vida e também marcaram as vidas de outras pessoas,
+
     tão legais, tão preciosas.  E é justamente pensando em momentos como estes,
+
     que você decide apertar seu passos e sair logo daqui, para poder reencontrar
-    seus amigos e dizer pra eles o quanto são importantes para você.
+
+    seus amigos e dizer pra eles o quanto são importantes para você.'
   exits:
     west:
       target_vnum: 01010383810
   local_id: '3809'
   name: O Maior dos Tesouros
   vnum: 01010383809
-- description: |-
-    Depois desse passeio por suas memórias, você alcança o final do estreito
+- description: 'Depois desse passeio por suas memórias, você alcança o final do estreito
+
     corredor.  Você se sente revigorado após tantas lembranças boas e talvez
+
     queira agora compartilhá-las.  Nesse momento, você pensa nos Deuses de
+
     Vitália, que tanto fizeram para que você pudesse desfrutar de suas maravilhas
+
     e naqueles que ajudaram a fazer dela o mundo maravilhoso que ele é hoje.
+
     Você pensa em agradecê-los, e então lhe vem à cabeça que a melhor forma de
+
     fazer isso seria aproveitar tudo o que Vitália tem a oferecer de forma justa
+
     e nobre, dando o melhor de si para também ajudar a fazer dela um lugar melhor.
+
     Para você e para todos.  Com isso em mente, você se depara com uma bela
-    escadaria, e no topo dela você parece avistar algumas estátuas.
+
+    escadaria, e no topo dela você parece avistar algumas estátuas.'
   exits:
     up:
-      target_vnum: 01010389406
+      target_vnum: 01010949406
   local_id: '3810'
   name: O Fim das Recordações
   vnum: 01010383810
-- description: |-
-    Neste andar funciona o posto de venda, troca e compra de CARD's.  Nas
+- description: 'Neste andar funciona o posto de venda, troca e compra de CARD''s.  Nas
+
     paredes pode-se ver várias cartas de todas as séries.  No fundo da sala,
-    atrás de um balcão, pode-se ver o jovem Pilgoras separando algumas cartas.
+
+    atrás de um balcão, pode-se ver o jovem Pilgoras separando algumas cartas.'
   exits:
     down:
       target_vnum: 01010383802

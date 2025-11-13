@@ -1,17 +1,19 @@
-- description: |-
-    Você está flutuando. Olhando para baixo, é possível avistar o chão a
-    uns 50 metros, e você gostaria que seus pés estivessem plantados sobre ele.
+- description: 'Você está flutuando. Olhando para baixo, é possível avistar o chão
+    a
+
+    uns 50 metros, e você gostaria que seus pés estivessem plantados sobre ele.'
   exits:
     down:
-      target_vnum: '01021514040'
+      target_vnum: '01010404040'
     up:
       target_vnum: '010215115101'
   local_id: '15100'
   name: Flutuando no Ar
   vnum: '010215115100'
-- description: |-
-    Você voa bem acima do chão.  Parece ser possível avistar sua casa na
-    extrema esquerda!  Algo muito grande está bem acima e ao sul de sua posição.
+- description: 'Você voa bem acima do chão.  Parece ser possível avistar sua casa
+    na
+
+    extrema esquerda!  Algo muito grande está bem acima e ao sul de sua posição.'
   exits:
     down:
       target_vnum: '010215115100'
@@ -20,10 +22,11 @@
   local_id: '15101'
   name: Voando no Ar
   vnum: '010215115101'
-- description: |-
-    Você está sobre uma nuvem macia, e se vê diante de uma grande estrutura.
+- description: 'Você está sobre uma nuvem macia, e se vê diante de uma grande estrutura.
+
     Pode-se notar que tal estrutura está coberta por ouro e que inscrições
-    misteriosas ornam o exterior das grandes portas.
+
+    misteriosas ornam o exterior das grandes portas.'
   exits:
     down:
       target_vnum: '010215115101'
@@ -32,11 +35,13 @@
   local_id: '15102'
   name: Uma Nuvem Macia
   vnum: '010215115102'
-- description: |-
-    Você se vê às portas do Grande Templo dos Samurais.  Este templo
+- description: 'Você se vê às portas do Grande Templo dos Samurais.  Este templo
+
     resplandece em tons dourados e é um tributo a todos os grandes guerreiros
+
     do passado.  Você sente que está entrando em um local onde mortais nunca
-    deveriam colocar os pés.
+
+    deveriam colocar os pés.'
   exits:
     north:
       target_vnum: '010215115102'
@@ -45,10 +50,12 @@
   local_id: '15103'
   name: Entrada do Templo
   vnum: '010215115103'
-- description: |-
-    Você está em uma sala muito iluminada.  Tudo ao seu redor são flores e
+- description: 'Você está em uma sala muito iluminada.  Tudo ao seu redor são flores
+    e
+
     ervas selvagens.  Uma mensagem rabiscada na parede o informa de que aqui os
-    guerreiros preparavam medicamentos para seus companheiros feridos.
+
+    guerreiros preparavam medicamentos para seus companheiros feridos.'
   exits:
     east:
       target_vnum: '010215115105'
@@ -57,10 +64,12 @@
   local_id: '15104'
   name: Jardins Cerimoniais
   vnum: '010215115104'
-- description: |-
-    Você está em uma sala cheia de camas vazias.  Elixires e ervas enchem as
+- description: 'Você está em uma sala cheia de camas vazias.  Elixires e ervas enchem
+    as
+
     paredes.  Livros recobrem as estantes.  A sala possui um cheiro anti-séptico
-    e faz com que você realmente se sinta num hospital.
+
+    e faz com que você realmente se sinta num hospital.'
   exits:
     north:
       target_vnum: '010215115106'
@@ -69,11 +78,13 @@
   local_id: '15105'
   name: Hospital
   vnum: '010215115105'
-- description: |-
-    Você está em uma morada pacífica.  Diante de você está o Shogum Jin.
+- description: 'Você está em uma morada pacífica.  Diante de você está o Shogum Jin.
+
     Muito embora você não saiba exatamente o que Jin signifique, você
+
     sente que este homem pode te ensinar muito sobre as pessoas.  Escadas
-    podem levá-lo acima, ao próximo nível.
+
+    podem levá-lo acima, ao próximo nível.'
   exits:
     south:
       target_vnum: '010215115105'
@@ -82,10 +93,11 @@
   local_id: '15106'
   name: Shogum Jin
   vnum: '010215115106'
-- description: |-
-    Você se vê em um corredor que parece ser parte de uma casa.  Tal corredor
+- description: 'Você se vê em um corredor que parece ser parte de uma casa.  Tal corredor
+
     o lembra de sua infância, e traz de volta imagens de seus pais, te ensinando
-    o certo e o errado.
+
+    o certo e o errado.'
   exits:
     down:
       target_vnum: '010215115106'
@@ -96,18 +108,18 @@
   local_id: '15107'
   name: O Corredor
   vnum: '010215115107'
-- description: |-
-    Você está em uma outra sala, similar à anterior.  Aliás, você não
-    consegue ver nenhuma diferença.
+- description: 'Você está em uma outra sala, similar à anterior.  Aliás, você não
+
+    consegue ver nenhuma diferença.'
   exits:
     east:
       target_vnum: '010215115107'
   local_id: '15108'
   name: Outra Sala
   vnum: 010215115108
-- description: |-
-    Você está em uma outra sala.  Sua mente vacila ao descobrir que
-    esta sala é idêntica às anteriores!
+- description: 'Você está em uma outra sala.  Sua mente vacila ao descobrir que
+
+    esta sala é idêntica às anteriores!'
   exits:
     east:
       target_vnum: '010215115110'
@@ -116,10 +128,11 @@
   local_id: '15109'
   name: Mais Uma Sala
   vnum: 010215115109
-- description: |-
-    Finalmente, uma sala diferente!  Você vê o Shogum Gi à sua frente,
+- description: 'Finalmente, uma sala diferente!  Você vê o Shogum Gi à sua frente,
+
     apontando o dedo e te dando uma lição de moral, por você ter matado seus
-    amigos Shoguns.  Agora você aprenderá sua lição!
+
+    amigos Shoguns.  Agora você aprenderá sua lição!'
   exits:
     east:
       target_vnum: 010215115109
@@ -128,20 +141,24 @@
   local_id: '15110'
   name: Shogum Gi
   vnum: '010215115110'
-- description: |-
-    Você se vê pousando no terceiro andar do templo.  Suas pernas doem por
-    Causa da escalada e você fica imaginando quantos andares este lugar deve ter.
+- description: 'Você se vê pousando no terceiro andar do templo.  Suas pernas doem
+    por
+
+    Causa da escalada e você fica imaginando quantos andares este lugar deve ter.'
   exits:
     east:
       target_vnum: '010215115112'
   local_id: '15111'
   name: Pouso no Terceiro Andar
   vnum: '010215115111'
-- description: |-
-    Você está numa sala cheia de escravos.  Os escravos, contudo, não estão
+- description: 'Você está numa sala cheia de escravos.  Os escravos, contudo, não
+    estão
+
     acorrentados, algemados ou presos por qualquer forma.  Estas pessoas são
+
     escravas voluntariamente(!).  Seu mestre é o Shogum Chu.  Eles não se sentem
-    dignos de serem qualquer outra coisa.  E você?
+
+    dignos de serem qualquer outra coisa.  E você?'
   exits:
     north:
       target_vnum: '010215115113'
@@ -150,11 +167,14 @@
   local_id: '15112'
   name: Câmara dos Escravos
   vnum: '010215115112'
-- description: |-
-    Você está em uma loja que vende artigos metálicos.  Os aprendizes aqui
+- description: 'Você está em uma loja que vende artigos metálicos.  Os aprendizes
+    aqui
+
     golpeiam suas espadas e outras armas contra instrumentos de defesa muito
-    afiados.  Você os observa curioso, e pensa consigo mesmo, 'Hmm... será que
-    eles poderiam temperar minha espada?'.
+
+    afiados.  Você os observa curioso, e pensa consigo mesmo, ''Hmm... será que
+
+    eles poderiam temperar minha espada?''.'
   exits:
     south:
       target_vnum: '010215115112'
@@ -173,10 +193,11 @@
   local_id: '15114'
   name: Shogum Chu
   vnum: '010215115114'
-- description: |-
-    Você está no quarto andar do Templo.  Mesmo tendo andado muito e ido
+- description: 'Você está no quarto andar do Templo.  Mesmo tendo andado muito e ido
+
     muito longe, você sente que é necessário seguir adiante.  Algo neste andar
-    demanda respeito.
+
+    demanda respeito.'
   exits:
     down:
       target_vnum: '010215115114'
@@ -185,10 +206,12 @@
   local_id: '15115'
   name: Pouso no Quarto Andar
   vnum: '010215115115'
-- description: |-
-    Você está em um banho público.  Samurais andam por aqui em toalhas e
+- description: 'Você está em um banho público.  Samurais andam por aqui em toalhas
+    e
+
     parecem furiosos com sua intromissão.  Você tem a leve impressão de que
-    ninguém deve interromper um samurai enquanto ele está se banhando...
+
+    ninguém deve interromper um samurai enquanto ele está se banhando...'
   exits:
     east:
       target_vnum: '010215115117'
@@ -197,10 +220,12 @@
   local_id: '15116'
   name: O Banho
   vnum: '010215115116'
-- description: |-
-    Você se encontra na antecâmara do Shogum Ko.  A sala é muito colorida, e
+- description: 'Você se encontra na antecâmara do Shogum Ko.  A sala é muito colorida,
+    e
+
     as paredes estão cheias de inscrições honrando pais e mães de samurais que
-    vivem aqui.
+
+    vivem aqui.'
   exits:
     north:
       target_vnum: 010215115118
@@ -209,11 +234,14 @@
   local_id: '15117'
   name: A Antecâmara de Ko
   vnum: '010215115117'
-- description: |-
-    Você está na câmara do Shogum Ko.  Este shogum se parece exatamente com
+- description: 'Você está na câmara do Shogum Ko.  Este shogum se parece exatamente
+    com
+
     o seu pai.  Na verdade, ele se parece com o pai de qualquer um.  Você espera
+
     que ele retire o cinto e te dê umas cintadas a qualquer momento...  mas aí
-    você repara na arma que ele usa.
+
+    você repara na arma que ele usa.'
   exits:
     south:
       target_vnum: '010215115117'
@@ -222,10 +250,12 @@
   local_id: '15118'
   name: Shogum Ko
   vnum: 010215115118
-- description: |-
-    Você está no quinto andar deste templo gigantesco.  Contudo, você sente
+- description: 'Você está no quinto andar deste templo gigantesco.  Contudo, você
+    sente
+
     que ainda há muito caminho pela frente.  Você nota desenhos nas paredes,
-    contando um pouco mais dos respeitosos guerreiros de outrora.
+
+    contando um pouco mais dos respeitosos guerreiros de outrora.'
   exits:
     south:
       target_vnum: '010215115120'
@@ -234,20 +264,23 @@
   local_id: '15119'
   name: Pouso no Quinto Andar
   vnum: 010215115119
-- description: |-
-    Você entrou na sala das armas, e pode ver guerreiros afiando suas
+- description: 'Você entrou na sala das armas, e pode ver guerreiros afiando suas
+
     espadas.  Muito embora eles usem equipamentos primitivos, conseguem
-    ótimos resultados, e suas armas parecem mortais.
+
+    ótimos resultados, e suas armas parecem mortais.'
   exits:
     north:
       target_vnum: 010215115119
   local_id: '15120'
   name: Sala das Armas
   vnum: '010215115120'
-- description: |-
-    Você está numa antecâmara dos Shoguns.  Esta sala é cheia de pinturas de
+- description: 'Você está numa antecâmara dos Shoguns.  Esta sala é cheia de pinturas
+    de
+
     guerreiros, declarações escritas de respeito pelos Samurais, e o que parece
-    ser uma lista de compras.
+
+    ser uma lista de compras.'
   exits:
     east:
       target_vnum: 010215115119
@@ -256,10 +289,12 @@
   local_id: '15121'
   name: A Antecâmara
   vnum: '010215115121'
-- description: |-
-    Você está na câmara do Shogum Rei.  Este Shogum sabe bem do valor de
+- description: 'Você está na câmara do Shogum Rei.  Este Shogum sabe bem do valor
+    de
+
     outras pessoas.  De fato, ele respeita até mesmo sua insignificante presença.
-    Hmm... que estranho... ninguém mais faz isso.
+
+    Hmm... que estranho... ninguém mais faz isso.'
   exits:
     north:
       target_vnum: '010215115121'
@@ -268,10 +303,12 @@
   local_id: '15122'
   name: Shogum Rei
   vnum: '010215115122'
-- description: |-
-    Você acaba de chegar ao sexto andar.  Todos seus músculos doem, você está
+- description: 'Você acaba de chegar ao sexto andar.  Todos seus músculos doem, você
+    está
+
     sedento, não come há algum tempo e agora seria uma boa hora para descansar
-    um pouco.
+
+    um pouco.'
   exits:
     down:
       target_vnum: '010215115122'
@@ -282,20 +319,23 @@
   local_id: '15123'
   name: Pouso no Sexto Andar
   vnum: '010215115123'
-- description: |-
-    Você está numa grande sala, cheia de escrituras.  Nesta sala, os
+- description: 'Você está numa grande sala, cheia de escrituras.  Nesta sala, os
+
     samurais devem aprender as suas tão aclamadas habilidades com processamento
-    de textos.  Legal, né?
+
+    de textos.  Legal, né?'
   exits:
     south:
       target_vnum: '010215115123'
   local_id: '15124'
   name: Sala das Escritas
   vnum: '010215115124'
-- description: |-
-    Você está na antecâmara de um outro Shogum.  Você se lembra vagamente de
+- description: 'Você está na antecâmara de um outro Shogum.  Você se lembra vagamente
+    de
+
     ter ouvido em algum lugar que existem oito princípios básicos dos samurais.
-    Agora, faltam só mais três.
+
+    Agora, faltam só mais três.'
   exits:
     east:
       target_vnum: '010215115123'
@@ -304,11 +344,14 @@
   local_id: '15125'
   name: A Antecâmara
   vnum: '010215115125'
-- description: |-
-    Você se encontra perante o Shogum Chi.  A aura que envolve o corpo dele
+- description: 'Você se encontra perante o Shogum Chi.  A aura que envolve o corpo
+    dele
+
     te diz que não só ele é extremamente bodoso, mas também MUITO inteligente.
+
     Você pensa que este sábio indivíduo poderia te ensinar muitas coisas sobre
-    a vida.
+
+    a vida.'
   exits:
     south:
       target_vnum: '010215115125'
@@ -317,21 +360,25 @@
   local_id: '15126'
   name: Shogum Chi
   vnum: '010215115126'
-- description: |-
-    Você chegou ao sétimo andar do Templo.  As paredes são muito limpas, e
+- description: 'Você chegou ao sétimo andar do Templo.  As paredes são muito limpas,
+    e
+
     nelas são contadas histórias de cruzadas pela Verdade.  Você se impacienta
-    com o grande número de salas deste Templo.
+
+    com o grande número de salas deste Templo.'
   exits:
     south:
       target_vnum: 010215115128
   local_id: '15127'
   name: Pouso no Sétimo Andar
   vnum: '010215115127'
-- description: |-
-    Você olha para os escribas, que parecem desavisados de sua presença.
+- description: 'Você olha para os escribas, que parecem desavisados de sua presença.
+
     Mas, olhando com mais atenção, você vê que de fato não há nenhum escriba
+
     nesta sala!  Você nota que a verdade nem sempre pode ser contemplada pelos
-    olhos.  Bela lição, não?
+
+    olhos.  Bela lição, não?'
   exits:
     east:
       target_vnum: 010215115129
@@ -340,10 +387,12 @@
   local_id: '15128'
   name: Salão da Verdade
   vnum: 010215115128
-- description: |-
-    Você está no pátio do sétimo andar, e aqui parece ocorrer algum tipo de
+- description: 'Você está no pátio do sétimo andar, e aqui parece ocorrer algum tipo
+    de
+
     competição.  Guerreiros brigam entre si, enquanto jovens aprendizes os
-    observam com medo.
+
+    observam com medo.'
   exits:
     north:
       target_vnum: '010215115130'
@@ -352,11 +401,14 @@
   local_id: '15129'
   name: Pátio
   vnum: 010215115129
-- description: |-
-    Você se encontra na câmara dedicada ao Shogum Shin.  As roupas dele são
+- description: 'Você se encontra na câmara dedicada ao Shogum Shin.  As roupas dele
+    são
+
     brilhantes e poderosas.  Seu olhar é penetrante.  Ele olha furiosamente para
+
     você, franze as sobrancelhas, e desembainha a espada.  Ele sabe por que você
-    está aqui.
+
+    está aqui.'
   exits:
     south:
       target_vnum: 010215115129
@@ -365,11 +417,13 @@
   local_id: '15130'
   name: Shogum Shin
   vnum: '010215115130'
-- description: |-
-    Finalmente você chega ao oitavo andar, o último andar neste mundo
+- description: 'Finalmente você chega ao oitavo andar, o último andar neste mundo
+
     deformado e bizarro, que espelha-se no Japão antigo.  Mas... espere um
+
     minuto... você espia por uma janela e descobre que ainda não está no topo!
-    Você suspira, e continua adiante.
+
+    Você suspira, e continua adiante.'
   exits:
     south:
       target_vnum: '010215115132'
@@ -389,9 +443,10 @@
   local_id: '15132'
   name: Shogum Tei
   vnum: '010215115132'
-- description: |-
-    Você está em uma sala vazia.  Não há nada na sala.  Não há mobília, não
-    há luz (todavia, as paredes BRILHAM).  Muito estranho.
+- description: 'Você está em uma sala vazia.  Não há nada na sala.  Não há mobília,
+    não
+
+    há luz (todavia, as paredes BRILHAM).  Muito estranho.'
   exits:
     east:
       target_vnum: '010215115131'
@@ -400,11 +455,13 @@
   local_id: '15133'
   name: Uma Sala Vazia
   vnum: '010215115133'
-- description: |-
-    Você está em uma sala cheia de mofo.  Alguns samurais velhos e
+- description: 'Você está em uma sala cheia de mofo.  Alguns samurais velhos e
+
     experientes estão aqui, formando um semi-círculo ao redor de uma marca
+
     no chão.  Eles olham de relance para você e bradam ferozmente.  Você
-    invadiu a 'festa particular' deles...
+
+    invadiu a ''festa particular'' deles...'
   exits:
     north:
       target_vnum: '010215115133'

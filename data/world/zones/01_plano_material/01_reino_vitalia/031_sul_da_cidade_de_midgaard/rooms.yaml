@@ -1,21 +1,24 @@
-- description: |-
-    Você está na confluência, o muro da cidade está a oeste.  Um pequeno
+- description: 'Você está na confluência, o muro da cidade está a oeste.  Um pequeno
+
     passeio vai a leste, e a ponte está bem a norte daqui.  A confluência
-    prolonga-se ao sul junto ao muro da cidade.
+
+    prolonga-se ao sul junto ao muro da cidade.'
   exits:
     east:
       target_vnum: '01010313101'
     north:
-      target_vnum: '01010313051'
+      target_vnum: '01010303051'
     south:
       target_vnum: '01010313127'
   local_id: '3100'
   name: O Final Noroeste da Confluência
   vnum: '01010313100'
-- description: |-
-    O rio flui calmamente para oeste, a norte daqui.  O passeio continua a
+- description: 'O rio flui calmamente para oeste, a norte daqui.  O passeio continua
+    a
+
     leste e a oeste voce pode ver o muro da cidade.  A Estrada do Parque leva a
-    sul daqui.
+
+    sul daqui.'
   exits:
     east:
       target_vnum: '01010313102'
@@ -26,10 +29,12 @@
   local_id: '3101'
   name: O Passeio
   vnum: '01010313101'
-- description: |-
-    O rio flui calmamente para oeste, a norte daqui.  O passeio continua a
+- description: 'O rio flui calmamente para oeste, a norte daqui.  O passeio continua
+    a
+
     leste e oeste.  Ao sul você vê a entrada para o parque, e uma pequena
-    construção parece estar bem a oeste da entrada.
+
+    construção parece estar bem a oeste da entrada.'
   exits:
     east:
       target_vnum: '01010313103'
@@ -40,10 +45,12 @@
   local_id: '3102'
   name: O Passeio
   vnum: '01010313102'
-- description: |-
-    O rio flui calmamente para oeste, a norte daqui.  O passeio continua a
+- description: 'O rio flui calmamente para oeste, a norte daqui.  O passeio continua
+    a
+
     leste e oeste.  Um pequeno caminho leva para o sul.  Olhando além do rio
-    você vê o dique.
+
+    você vê o dique.'
   exits:
     east:
       target_vnum: '01010313104'
@@ -54,11 +61,13 @@
   local_id: '3103'
   name: O Passeio
   vnum: '01010313103'
-- description: |-
-    Você está na Confluência.  O muro da cidade está a leste e um pequeno
+- description: 'Você está na Confluência.  O muro da cidade está a leste e um pequeno
+
     passeio vai para oeste.  Olhando além do rio você vê uma construção que
+
     lembra um depósito.  A Confluência continua ao sul ao longo do muro da
-    cidade.
+
+    cidade.'
   exits:
     south:
       target_vnum: '01010313130'
@@ -67,10 +76,11 @@
   local_id: '3104'
   name: O Final Nordeste da Confluência
   vnum: '01010313104'
-- description: |-
-    Você está dentro do pequeno parque de Midgaard.  Ao norte fica o passeio
+- description: 'Você está dentro do pequeno parque de Midgaard.  Ao norte fica o passeio
+
     e um pequeno caminho leva ao sul dentro do parque.  A leste fica o famoso
-    Café do Parque.
+
+    Café do Parque.'
   exits:
     east:
       target_vnum: '01010313106'
@@ -81,19 +91,20 @@
   local_id: '3105'
   name: A Entrada do Parque
   vnum: '01010313105'
-- description: |-
-    Você está dentro do Café do Parque, um lugar muito agradável com muitas
+- description: 'Você está dentro do Café do Parque, um lugar muito agradável com muitas
+
     mesas onde voce pode relaxar e aproveitar a paisagem.  A oeste você pode ver
-    a entrada do parque.
+
+    a entrada do parque.'
   exits:
     west:
       target_vnum: '01010313105'
   local_id: '3106'
   name: Café do Parque
   vnum: '01010313106'
-- description: |-
-    Você está andando por um pequeno caminho através do parque.  O caminho
-    continua a sul e leste.
+- description: 'Você está andando por um pequeno caminho através do parque.  O caminho
+
+    continua a sul e leste.'
   exits:
     east:
       target_vnum: 01010313108
@@ -102,10 +113,11 @@
   local_id: '3107'
   name: Um Pequeno Caminho no Parque
   vnum: '01010313107'
-- description: |-
-    Você está em um pequeno caminho dentro do parque.  A entrada do parque
+- description: 'Você está em um pequeno caminho dentro do parque.  A entrada do parque
+
     fica a norte daqui, e o Café do Parque é a leste da entrada.  O caminho leva
-    além, a leste e oeste.
+
+    além, a leste e oeste.'
   exits:
     east:
       target_vnum: 01010313109
@@ -116,9 +128,9 @@
   local_id: '3108'
   name: Um Pequeno Caminho no Parque
   vnum: 01010313108
-- description: |-
-    Você está em um pequeno caminho que corre através do parque.  O caminho
-    continua a oeste e sul, ao norte você vê a parede sul do Café do Parque.
+- description: 'Você está em um pequeno caminho que corre através do parque.  O caminho
+
+    continua a oeste e sul, ao norte você vê a parede sul do Café do Parque.'
   exits:
     south:
       target_vnum: '01010313115'
@@ -134,9 +146,10 @@
   local_id: '3110'
   name: Quartel da Guarda
   vnum: '01010313110'
-- description: |-
-    A estrada continua a norte e sul.  Há uma construção a oeste daqui, você
-    vê um aviso na porta.  A entrada do parque fica a leste.
+- description: 'A estrada continua a norte e sul.  Há uma construção a oeste daqui,
+    você
+
+    vê um aviso na porta.  A entrada do parque fica a leste.'
   exits:
     east:
       target_vnum: '01010313112'
@@ -149,10 +162,11 @@
   local_id: '3111'
   name: Estrada do Parque
   vnum: '01010313111'
-- description: |-
-    Você está no extremo oeste do parque.  Um pequeno caminho leva a leste
+- description: 'Você está no extremo oeste do parque.  Um pequeno caminho leva a leste
+
     dentro do parque e a oeste, através da entrada, você chega à Estrada do
-    Parque.
+
+    Parque.'
   exits:
     east:
       target_vnum: '01010313113'
@@ -161,9 +175,10 @@
   local_id: '3112'
   name: A Entrada Oeste do Parque
   vnum: '01010313112'
-- description: |-
-    Você está no parque.  O caminho leva a norte e oeste.  A oeste fica a
-    entrada do parque e a leste você vê um pequeno tanque.
+- description: 'Você está no parque.  O caminho leva a norte e oeste.  A oeste fica
+    a
+
+    entrada do parque e a leste você vê um pequeno tanque.'
   exits:
     east:
       target_vnum: '01010313114'
@@ -174,9 +189,10 @@
   local_id: '3113'
   name: Um Caminho no Parque
   vnum: '01010313113'
-- description: |-
-    Você está nadando pelo tanque, parecendo um idiota.  Você pode voltar ao
-    caminho pelo extremo leste e oeste do tanque.
+- description: 'Você está nadando pelo tanque, parecendo um idiota.  Você pode voltar
+    ao
+
+    caminho pelo extremo leste e oeste do tanque.'
   exits:
     east:
       target_vnum: '01010313115'
@@ -185,9 +201,10 @@
   local_id: '3114'
   name: O Tanque
   vnum: '01010313114'
-- description: |-
-    Você está no parque.  O caminho leva a norte e leste.  A leste fica a
-    entrada do parque e a oeste você vê um pequeno tanque.
+- description: 'Você está no parque.  O caminho leva a norte e leste.  A leste fica
+    a
+
+    entrada do parque e a oeste você vê um pequeno tanque.'
   exits:
     east:
       target_vnum: '01010313116'
@@ -198,10 +215,11 @@
   local_id: '3115'
   name: Um Caminho no Parque
   vnum: '01010313115'
-- description: |-
-    Você está no extremo leste do parque.  Um pequeno caminho leva a oeste
+- description: 'Você está no extremo leste do parque.  Um pequeno caminho leva a oeste
+
     dentro do parque.  Seguindo a leste, através da entrada, você chegará à
-    Avenida Esmeralda.
+
+    Avenida Esmeralda.'
   exits:
     east:
       target_vnum: '01010313117'
@@ -210,10 +228,12 @@
   local_id: '3116'
   name: A Entrada Leste do Parque
   vnum: '01010313116'
-- description: |-
-    Você está no extremo norte da Avenida Esmeralda.  Ao sul fica o passeio e
+- description: 'Você está no extremo norte da Avenida Esmeralda.  Ao sul fica o passeio
+    e
+
     a oeste a entrada do parque.  A leste fica a não muito grande Prefeitura de
-    Midgaard.
+
+    Midgaard.'
   exits:
     east:
       target_vnum: '01010313137'
@@ -235,9 +255,10 @@
   local_id: '3118'
   name: Estrada do Parque
   vnum: 01010313118
-- description: |-
-    Você está numa curva da Avenida Esmeralda.  A estrada leva a norte e
-    oeste.
+- description: 'Você está numa curva da Avenida Esmeralda.  A estrada leva a norte
+    e
+
+    oeste.'
   exits:
     north:
       target_vnum: '01010313117'
@@ -246,12 +267,15 @@
   local_id: '3119'
   name: Avenida Esmeralda
   vnum: 01010313119
-- description: |-
-    Você está no meio de uma encruzilhada.  A estrada leva a todas as
+- description: 'Você está no meio de uma encruzilhada.  A estrada leva a todas as
+
     direções.  Uma enorme corrente de ferro negro, grossa como uma arvore está
+
     presa no chão no centro da encruzilhada.  A outra extremidade sobe
+
     diretamente ao céu.
-    Há um placa de estrada aqui.
+
+    Há um placa de estrada aqui.'
   exits:
     east:
       target_vnum: '01010313136'
@@ -260,15 +284,16 @@
     south:
       target_vnum: '01010313134'
     up:
-      target_vnum: 01010317914
+      target_vnum: 01010797914
     west:
       target_vnum: '01010313135'
   local_id: '3120'
   name: A Encruzilhada
   vnum: '01010313120'
-- description: |-
-    Você está em uma curva da Avenida Esmeralda.  A estrada leva ao sul e
-    leste.
+- description: 'Você está em uma curva da Avenida Esmeralda.  A estrada leva ao sul
+    e
+
+    leste.'
   exits:
     east:
       target_vnum: '01010313134'
@@ -277,9 +302,10 @@
   local_id: '3121'
   name: Avenida Esmeralda
   vnum: '01010313121'
-- description: |-
-    Você está na Estrada do Parque, que leva ao norte e sul.  A Rua Olmo fica
-    a leste daqui.
+- description: 'Você está na Estrada do Parque, que leva ao norte e sul.  A Rua Olmo
+    fica
+
+    a leste daqui.'
   exits:
     east:
       target_vnum: '01010313123'
@@ -290,9 +316,9 @@
   local_id: '3122'
   name: Estrada do Parque
   vnum: '01010313122'
-- description: |-
-    Você está na Rua Olmo.  A Estrada do Parque fica a oeste e a Rua Olmo
-    continua na direção leste.
+- description: 'Você está na Rua Olmo.  A Estrada do Parque fica a oeste e a Rua Olmo
+
+    continua na direção leste.'
   exits:
     east:
       target_vnum: '01010313124'
@@ -310,9 +336,9 @@
   local_id: '3124'
   name: O Final da Rua Olmo
   vnum: '01010313124'
-- description: |-
-    Você está na Avenida Esmeralda, que continua ao norte.  A Confluência
-    fica ao sul daqui. Uma grande construção fica a leste.
+- description: 'Você está na Avenida Esmeralda, que continua ao norte.  A Confluência
+
+    fica ao sul daqui. Uma grande construção fica a leste.'
   exits:
     east:
       target_vnum: '010103120100'
@@ -323,12 +349,12 @@
   local_id: '3125'
   name: Avenida Esmeralda
   vnum: '01010313125'
-- description: |-
-    Você está na Estrada do Parque, que continua ao norte.  A Confluência
-    fica ao sul daqui.
+- description: 'Você está na Estrada do Parque, que continua ao norte.  A Confluência
+
+    fica ao sul daqui.'
   exits:
     east:
-      target_vnum: 01010313800
+      target_vnum: 01010383800
     north:
       target_vnum: '01010313122'
     south:
@@ -336,22 +362,24 @@
   local_id: '3126'
   name: Estrada do Parque
   vnum: '01010313126'
-- description: |-
-    Você está no canto sudoeste do muro da cidade.  A Confluência leva a
-    norte e leste.
+- description: 'Você está no canto sudoeste do muro da cidade.  A Confluência leva
+    a
+
+    norte e leste.'
   exits:
     east:
       target_vnum: 01010313128
     north:
       target_vnum: '01010313100'
     west:
-      target_vnum: '01010313504'
+      target_vnum: '01010353504'
   local_id: '3127'
   name: Na Confluência
   vnum: '01010313127'
-- description: |-
-    A Confluência continua para leste e oeste.  A Avenida Esmeralda fica a
-    norte daqui.
+- description: 'A Confluência continua para leste e oeste.  A Avenida Esmeralda fica
+    a
+
+    norte daqui.'
   exits:
     east:
       target_vnum: 01010313129
@@ -362,9 +390,10 @@
   local_id: '3128'
   name: Na Confluência
   vnum: 01010313128
-- description: |-
-    A Confluência continua para leste e oeste.  A Estrada do Parque fica a
-    norte daqui e uma grade de ferro leva ao sul para o cemiterio.
+- description: 'A Confluência continua para leste e oeste.  A Estrada do Parque fica
+    a
+
+    norte daqui e uma grade de ferro leva ao sul para o cemiterio.'
   exits:
     east:
       target_vnum: '01010313130'
@@ -377,14 +406,15 @@
   local_id: '3129'
   name: Na Confluência
   vnum: 01010313129
-- description: |-
-    Você está no canto sudeste do muro da cidade.  A Confluência leva a norte
-    e oeste. Você ainda repara em uma estranhíssima (e enorme) árvore a noroeste.
+- description: 'Você está no canto sudeste do muro da cidade.  A Confluência leva
+    a norte
+
+    e oeste. Você ainda repara em uma estranhíssima (e enorme) árvore a noroeste.'
   exits:
     north:
       target_vnum: '01010313104'
     northeast:
-      target_vnum: 01010314978
+      target_vnum: 01010494978
     west:
       target_vnum: 01010313129
   local_id: '3130'
@@ -399,9 +429,9 @@
   local_id: '3131'
   name: Estrada do Parque
   vnum: '01010313131'
-- description: |-
-    Você está na Avenida Esmeralda, que continua para norte e sul.  A
-    Travessa Vintém leva a leste daqui.
+- description: 'Você está na Avenida Esmeralda, que continua para norte e sul.  A
+
+    Travessa Vintém leva a leste daqui.'
   exits:
     east:
       target_vnum: 01010313139
@@ -412,9 +442,9 @@
   local_id: '3132'
   name: Avenida Esmeralda
   vnum: '01010313132'
-- description: |-
-    Você está em uma curva da Avenida Esmeralda.  A leste a estrada continua
-    e para o sul fica a Encruzilhada.
+- description: 'Você está em uma curva da Avenida Esmeralda.  A leste a estrada continua
+
+    e para o sul fica a Encruzilhada.'
   exits:
     east:
       target_vnum: 01010313119
@@ -423,9 +453,9 @@
   local_id: '3133'
   name: Avenida Esmeralda
   vnum: '01010313133'
-- description: |-
-    Você está em uma curva da Avenida Esmeralda.  A oeste a estrada continua
-    e para o norte fica a Encruzilhada.
+- description: 'Você está em uma curva da Avenida Esmeralda.  A oeste a estrada continua
+
+    e para o norte fica a Encruzilhada.'
   exits:
     north:
       target_vnum: '01010313120'
@@ -434,9 +464,10 @@
   local_id: '3134'
   name: Avenida Esmeralda
   vnum: '01010313134'
-- description: |-
-    Você está numa curva da Estrada do Parque.  Ao norte a estrada continua e
-    a leste fica a Encruzilhada.
+- description: 'Você está numa curva da Estrada do Parque.  Ao norte a estrada continua
+    e
+
+    a leste fica a Encruzilhada.'
   exits:
     east:
       target_vnum: '01010313120'
@@ -445,9 +476,10 @@
   local_id: '3135'
   name: Estrada do Parque
   vnum: '01010313135'
-- description: |-
-    Você está numa curva da Estrada do Parque.  Ao sul a estrada continua e a
-    oeste fica a Encruzilhada.
+- description: 'Você está numa curva da Estrada do Parque.  Ao sul a estrada continua
+    e a
+
+    oeste fica a Encruzilhada.'
   exits:
     south:
       target_vnum: '01010313122'
@@ -456,10 +488,11 @@
   local_id: '3136'
   name: Estrada do Parque
   vnum: '01010313136'
-- description: |-
-    Você está na sala de espera da prefeitura.  Cadeiras de madeira estão
+- description: 'Você está na sala de espera da prefeitura.  Cadeiras de madeira estão
+
     colocadas ao longo das paredes e uma grande mesa com uma máquina de escrever
-    foi colocada no meio da sala.
+
+    foi colocada no meio da sala.'
   exits:
     east:
       target_vnum: 01010313138
@@ -468,20 +501,23 @@
   local_id: '3137'
   name: A Sala da Espera
   vnum: '01010313137'
-- description: |-
-    Você está no não muito grande escritório do Prefeito de Midgaard.  Uma
+- description: 'Você está no não muito grande escritório do Prefeito de Midgaard.  Uma
+
     mesa polida mas completamente vazia fica à frente de uma poltrona que parece
+
     tão confortavel que quase parece com uma cama com a cabeceira ligeiramente
-    levantada.
+
+    levantada.'
   exits:
     west:
       target_vnum: '01010313137'
   local_id: '3138'
   name: O Escritório do Prefeito
   vnum: 01010313138
-- description: |-
-    Você está na Travessa Vintém.  A Avenida Esmeralda fica a oeste e a
-    Travessa Vintém continua na direção leste.
+- description: 'Você está na Travessa Vintém.  A Avenida Esmeralda fica a oeste e
+    a
+
+    Travessa Vintém continua na direção leste.'
   exits:
     east:
       target_vnum: '01010313140'
@@ -490,9 +526,10 @@
   local_id: '3139'
   name: Travessa Vintém
   vnum: 01010313139
-- description: |-
-    Você está na Travessa Vintém.  A estrada estreita continua para norte e
-    oeste.
+- description: 'Você está na Travessa Vintém.  A estrada estreita continua para norte
+    e
+
+    oeste.'
   exits:
     north:
       target_vnum: '01010313141'
@@ -501,19 +538,22 @@
   local_id: '3140'
   name: Travessa Vintém
   vnum: '01010313140'
-- description: |-
-    Você está no final da Travessa Vintém.  Aparentemente a única saída fica
-    ao sul.
+- description: 'Você está no final da Travessa Vintém.  Aparentemente a única saída
+    fica
+
+    ao sul.'
   exits:
     south:
       target_vnum: '01010313140'
   local_id: '3141'
   name: O Final da Travessa Vintém
   vnum: '01010313141'
-- description: |-
-    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+- description: 'Você está em uma estrada de cascalho muito bem cuidada, que leva a
+    norte
+
     e sul através do cemiterio.  Em ambos os lados da estrada erguem-se escuras
-    sempre-verdes.  Ao norte há uma grade de ferro.
+
+    sempre-verdes.  Ao norte há uma grade de ferro.'
   exits:
     north:
       target_vnum: 01010313129
@@ -522,10 +562,12 @@
   local_id: '3150'
   name: Uma Estrada de Cascalho no Cemitério
   vnum: '01010313150'
-- description: |-
-    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+- description: 'Você está em uma estrada de cascalho muito bem cuidada, que leva a
+    norte
+
     e sul através do cemitério.  Em ambos os lados da estrada erguem-se escuras
-    sempre-verdes.
+
+    sempre-verdes.'
   exits:
     north:
       target_vnum: '01010313150'
@@ -534,10 +576,12 @@
   local_id: '3151'
   name: Uma Estrada de Cascalho no Cemiterio
   vnum: '01010313151'
-- description: |-
-    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+- description: 'Você está em uma estrada de cascalho muito bem cuidada, que leva a
+    norte
+
     e sul através do cemitério.  Em ambos os lados da estrada erguem-se escuras
-    sempre-verdes.
+
+    sempre-verdes.'
   exits:
     north:
       target_vnum: '01010313151'
@@ -546,10 +590,12 @@
   local_id: '3152'
   name: Uma Estrada de Cascalho no Cemiterio
   vnum: '01010313152'
-- description: |-
-    Você está em uma estrada de cascalho muito bem cuidada, que leva a norte
+- description: 'Você está em uma estrada de cascalho muito bem cuidada, que leva a
+    norte
+
     e sul através do cemitério.  Em ambos os lados da estrada erguem-se escuras
-    sempre-verdes.
+
+    sempre-verdes.'
   exits:
     north:
       target_vnum: '01010313152'
@@ -558,10 +604,12 @@
   local_id: '3153'
   name: Uma Estrada de Cascalho no Cemiterio
   vnum: '01010313153'
-- description: |-
-    Você está num espaço aberto na frente de uma pequena capela.  Uma estrada
+- description: 'Você está num espaço aberto na frente de uma pequena capela.  Uma
+    estrada
+
     de cascalho leva ao norte através do cemitério e a entrada da capela fica ao
-    sul.
+
+    sul.'
   exits:
     north:
       target_vnum: '01010313153'
@@ -570,31 +618,34 @@
   local_id: '3154'
   name: Na Frente da Capela
   vnum: '01010313154'
-- description: |-
-    Você está em uma pequena e escura capela.  O vidro marrom escuro nas
+- description: 'Você está em uma pequena e escura capela.  O vidro marrom escuro nas
+
     janelas estreitas não deixam entrar muita luz.  Há umas poucas fileiras de
-    gastos bancos de madeira e um antigo altar foi colocado no meio da sala.
+
+    gastos bancos de madeira e um antigo altar foi colocado no meio da sala.'
   exits:
     north:
       target_vnum: '01010313154'
   local_id: '3155'
   name: Dentro da Capela
   vnum: '01010313155'
-- description: |-
-    O arco sob a ponte é coberto com algas até meio metro sobre a superfície
+- description: 'O arco sob a ponte é coberto com algas até meio metro sobre a superfície
+
     do rio.  A água flui através de uma abertura na parte mais baixa do muro da
-    cidade.
+
+    cidade.'
   exits:
     east:
       target_vnum: '01010313201'
     west:
-      target_vnum: 01010310900
+      target_vnum: 01010090900
   local_id: '3200'
   name: Sob a Ponte
   vnum: '01010313200'
-- description: |-
-    Ao norte daqui você vê os prédios decadentes do Beco Miserável.  O rio
-    flui para oeste, sob a ponte.  A ribanceira é muito íngreme para subir.
+- description: 'Ao norte daqui você vê os prédios decadentes do Beco Miserável.  O
+    rio
+
+    flui para oeste, sob a ponte.  A ribanceira é muito íngreme para subir.'
   exits:
     east:
       target_vnum: '01010313202'
@@ -603,9 +654,9 @@
   local_id: '3201'
   name: No Rio
   vnum: '01010313201'
-- description: |-
-    Ao norte daqui você vê o depósito de lixo.  O rio flui para oeste.  A
-    ribanceira é muito íngreme para subir.
+- description: 'Ao norte daqui você vê o depósito de lixo.  O rio flui para oeste.  A
+
+    ribanceira é muito íngreme para subir.'
   exits:
     east:
       target_vnum: '01010313203'
@@ -614,22 +665,23 @@
   local_id: '3202'
   name: No Rio
   vnum: '01010313202'
-- description: |-
-    O dique fica diretamente a norte daqui.  O rio flui na direção
-    leste-oeste.
+- description: 'O dique fica diretamente a norte daqui.  O rio flui na direção
+
+    leste-oeste.'
   exits:
     east:
       target_vnum: '01010313204'
     north:
-      target_vnum: 01010313049
+      target_vnum: 01010303049
     west:
       target_vnum: '01010313202'
   local_id: '3203'
   name: No Rio
   vnum: '01010313203'
-- description: |-
-    Você vê o depósito na margem norte do rio.  A leste daqui você vê o muro
-    da cidade.  O rio flui para oeste além do dique.
+- description: 'Você vê o depósito na margem norte do rio.  A leste daqui você vê
+    o muro
+
+    da cidade.  O rio flui para oeste além do dique.'
   exits:
     east:
       target_vnum: '01010313205'
@@ -638,13 +690,14 @@
   local_id: '3204'
   name: No Rio
   vnum: '01010313204'
-- description: |-
-    O rio entra por um buraco no muro leste da cidade.  O buraco foi
+- description: 'O rio entra por um buraco no muro leste da cidade.  O buraco foi
+
     bloqueado por várias barras de ferro colocadas verticalmente no muro.
-    O rio faz uma pequena curva para o sul.
+
+    O rio faz uma pequena curva para o sul.'
   exits:
     east:
-      target_vnum: '01010315001'
+      target_vnum: '01010505001'
     south:
       target_vnum: '01010313206'
     west:
@@ -667,21 +720,24 @@
     \ devido a escuridão causada pelas sombras das enormes\nÃ\x81rvores Nirin."
   exits:
     east:
-      target_vnum: 010103113583
+      target_vnum: 01010353583
     north:
       target_vnum: '01010313206'
     south:
-      target_vnum: '010103113502'
+      target_vnum: '01010353502'
     west:
-      target_vnum: 010103113639
+      target_vnum: 01010363639
   local_id: '3207'
   name: Um Lago
   vnum: '01010313207'
-- description: |-
-    Você sente tudo a sua volta mudar. Um enorme vazio preenche seu corpo e
+- description: 'Você sente tudo a sua volta mudar. Um enorme vazio preenche seu corpo
+    e
+
     quando você menos espera, um grande silêncio toma conta de tudo e nem um único
+
     som chega até você. Você foi @Rsilenciado@n por um oponente. Sua aventura
-    termina por aqui. A única saída é esperar o final de mais esta aventura.
+
+    termina por aqui. A única saída é esperar o final de mais esta aventura.'
   exits: {}
   local_id: '3208'
   name: O Grande Silêncio de Vitália

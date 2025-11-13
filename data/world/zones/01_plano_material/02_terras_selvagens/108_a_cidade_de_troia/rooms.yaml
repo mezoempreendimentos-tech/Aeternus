@@ -1,24 +1,33 @@
-- description: |-
-    Você está no misterioso mar Egeu.  Uma lenda diz: Que quando Teseu matou
+- description: 'Você está no misterioso mar Egeu.  Uma lenda diz: Que quando Teseu
+    matou
+
     o minotauro, em Creta, retornou para junto do seu pai, em Atenas, mas por um
+
     descuido o seu barco trazia velas pretas que indicavam luto e a morte de
+
     Teseu.  Seu pai desesperado, se jogou no mar, dando assim seu nome para este
+
     magnífico mar.  Suas águas são tão azuis quanto o céu e a visão que seus
+
     visitantes possuem uma vez navegando por ele, é de que antes dos homens e da
+
     terra, os Deuses criaram o mar Egeu.  Ao leste você observa a magnitude
-    deste divino mar, e a norte você vê uma praia.
+
+    deste divino mar, e a norte você vê uma praia.'
   exits:
     north:
       target_vnum: 010210810801
     northwest:
-      target_vnum: 01021080910
+      target_vnum: 01010090910
   local_id: '10800'
   name: O Mar Egeu
   vnum: 010210810800
-- description: |-
-    Você está navegando as águas azuladas do mar Egeu.  Após horas no mar,
+- description: 'Você está navegando as águas azuladas do mar Egeu.  Após horas no
+    mar,
+
     você começa a confundir o mar com o céu.  Ao sul você observa o mar Egeu e
-    toda sua extensão e imponência e ao leste você observa uma pequena ilha.
+
+    toda sua extensão e imponência e ao leste você observa uma pequena ilha.'
   exits:
     east:
       target_vnum: 010210810806
@@ -31,9 +40,9 @@
   local_id: '10801'
   name: O Mar Egeu
   vnum: 010210810801
-- description: |-
-    Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
-    brancos.  Será real ?
+- description: 'Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
+
+    brancos.  Será real ?'
   exits:
     down:
       target_vnum: 010210810801
@@ -42,10 +51,11 @@
   local_id: '10802'
   name: As Misteriosas Nuvens do Mar Egeu
   vnum: 010210810802
-- description: |-
-    Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+- description: 'Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+
     a presença de vários peixes curiosos seguindo seu barco.  Ao leste você vê
-    toda a imponência das águas do mar Egeu.
+
+    toda a imponência das águas do mar Egeu.'
   exits:
     north:
       target_vnum: 010210810801
@@ -54,10 +64,12 @@
   local_id: '10803'
   name: O Mar Egeu
   vnum: 010210810803
-- description: |-
-    Você está navegando as águas azuladas do mar Egeu.  Após horas no mar,
+- description: 'Você está navegando as águas azuladas do mar Egeu.  Após horas no
+    mar,
+
     você começa a confundir o mar com o céu.  Ao leste você observa o mar Egeu e
-    toda sua extensão e imponência.
+
+    toda sua extensão e imponência.'
   exits:
     east:
       target_vnum: 010210810809
@@ -66,9 +78,9 @@
   local_id: '10804'
   name: O Mar Egeu
   vnum: 010210810804
-- description: |-
-    Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
-    brancos.  Será real ?
+- description: 'Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
+
+    brancos.  Será real ?'
   exits:
     down:
       target_vnum: 010210810806
@@ -81,10 +93,12 @@
   local_id: '10805'
   name: As Misteriosas Nuvens do Mar Egeu
   vnum: 010210810805
-- description: |-
-    Você finalmente chega em terra firme.  Você está na ilha de Lemnos, uma
+- description: 'Você finalmente chega em terra firme.  Você está na ilha de Lemnos,
+    uma
+
     pequena ilha do mar Egeu.  Ao seu redor campos floridos e uma boa sensação
-    de segurança.  Ao oeste e sudeste você observa o mar Egeu.
+
+    de segurança.  Ao oeste e sudeste você observa o mar Egeu.'
   exits:
     southeast:
       target_vnum: 010210810812
@@ -95,9 +109,9 @@
   local_id: '10806'
   name: A Ilha de Lemnos
   vnum: 010210810806
-- description: |-
-    Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
-    brancos.  Será real ?
+- description: 'Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
+
+    brancos.  Será real ?'
   exits:
     down:
       target_vnum: 010210810804
@@ -106,21 +120,26 @@
   local_id: '10807'
   name: As Misteriosas Nuvens do Mar Egeu
   vnum: 010210810807
-- description: |-
-    As nuvens são reais ?  Ou Alguma magia do mal ?  Você com essa
+- description: 'As nuvens são reais ?  Ou Alguma magia do mal ?  Você com essa
+
     desconfiança dá um passo a frente e ...
+
     ... cai em uma profunda agonia, por caminhos diferentes você terá o mesmo
+
     fim de Egeu, contudo teu nome não será dado a nenhum mar !  Quem não crê nas
-    forças do bem e nem na proteção dos deuses cairá sempre no mar da angústia.
+
+    forças do bem e nem na proteção dos deuses cairá sempre no mar da angústia.'
   exits: {}
   local_id: '10808'
   name: A Angústia
   vnum: 010210810808
-- description: |-
-    Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+- description: 'Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+
     a presença de vários peixes curiosos seguindo seu barco.  Ao oeste e
+
     nordeste você vê toda a imponência das águas do mar Egeu.  Ao sul você
-    observa uma pequena ilha.
+
+    observa uma pequena ilha.'
   exits:
     northwest:
       target_vnum: 010210810812
@@ -131,21 +150,25 @@
   local_id: '10809'
   name: O Mar Egeu
   vnum: 010210810809
-- description: |-
-    Você finalmente chega em terra firme.  Você está na ilha de Lesbos, uma
+- description: 'Você finalmente chega em terra firme.  Você está na ilha de Lesbos,
+    uma
+
     pequena ilha do mar Egeu.  Ao seu redor você observa várias planícies.  A
+
     ilha de Lesbos é utilizada pelos grandes navegadores do mar Egeu como ponto
+
     de parada para consertos e descanso para os seus tripulantes.  Ao norte você
-    observa várias ondas e ao fundo o mar Egeu.
+
+    observa várias ondas e ao fundo o mar Egeu.'
   exits:
     north:
       target_vnum: 010210810809
   local_id: '10810'
   name: A Ilha de Lesbos
   vnum: 010210810810
-- description: |-
-    Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
-    brancos.  Será real ?
+- description: 'Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
+
+    brancos.  Será real ?'
   exits:
     down:
       target_vnum: 010210810812
@@ -156,11 +179,14 @@
   local_id: '10811'
   name: As Misteriosas Nuvens do Mar Egeu
   vnum: 010210810811
-- description: |-
-    Você está navegando as águas azuladas do mar Egeu.  Após horas no mar,
+- description: 'Você está navegando as águas azuladas do mar Egeu.  Após horas no
+    mar,
+
     você começa a confundir o mar com o céu.  Ao leste e sudoeste você observa o
+
     mar Egeu e toda sua extensão e imponência.  Ao noroeste você observa uma
-    pequena ilha.
+
+    pequena ilha.'
   exits:
     down:
       target_vnum: 010210810932
@@ -175,11 +201,13 @@
   local_id: '10812'
   name: O Mar Egeu
   vnum: 010210810812
-- description: |-
-    Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+- description: 'Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+
     a presença de vários peixes curiosos seguindo seu barco.  Ao oeste e
+
     nordeste você vê toda a imponência das águas do mar Egeu.  Ao leste, ao
-    sudoeste e ao noroeste você observa várias pequenas ilhas.
+
+    sudoeste e ao noroeste você observa várias pequenas ilhas.'
   exits:
     east:
       target_vnum: 010210810817
@@ -190,12 +218,16 @@
   local_id: '10813'
   name: O Mar Egeu
   vnum: 010210810813
-- description: |-
-    Você está na pequena ilha de Samotrácia.  Ao seu redor você observa uma
+- description: 'Você está na pequena ilha de Samotrácia.  Ao seu redor você observa
+    uma
+
     planície florida e no interior da ilha você observa uma floresta de
+
     vegetação fechada.  As pequenas ilhas do mar Egeu são verdadeiros portos
+
     naturais frequentemente utilizadas por grandes embarcações.  Ao oeste e
-    sudeste você observa a imponência e magnitude do mar Egeu.
+
+    sudeste você observa a imponência e magnitude do mar Egeu.'
   exits:
     southeast:
       target_vnum: 010210810813
@@ -204,21 +236,25 @@
   local_id: '10814'
   name: A Ilha de Samotrácia
   vnum: 010210810814
-- description: |-
-    Você está na pequena ilha de Tasos.  Ao seu redor você observa vários
+- description: 'Você está na pequena ilha de Tasos.  Ao seu redor você observa vários
+
     campos florido.  Borboletas e pássaros sobrevoam a ilha compondo um belo
+
     balé de cores.  Ao sul você observa a espuma das ondas se quebrando na praia
-    de Tasos.
+
+    de Tasos.'
   exits:
     south:
       target_vnum: 010210810816
   local_id: '10815'
   name: A Ilha de Tasos
   vnum: 010210810815
-- description: |-
-    Você está navegando as águas azuladas do mar Egeu.  Após horas no mar,
+- description: 'Você está navegando as águas azuladas do mar Egeu.  Após horas no
+    mar,
+
     você começa a confundir o mar com o céu.  Ao norte e ao leste você observa
-    duas ilhas do mar Egeu.
+
+    duas ilhas do mar Egeu.'
   exits:
     east:
       target_vnum: 010210810814
@@ -227,17 +263,26 @@
   local_id: '10816'
   name: O Mar Egeu
   vnum: 010210810816
-- description: |-
-    Você está na pequena ilha de Egina.  Há muito tempo atrás Hera, a esposa
+- description: 'Você está na pequena ilha de Egina.  Há muito tempo atrás Hera, a
+    esposa
+
     de Zeus, enviou uma praga que destruiu todos os habitantes da ilha.  Conta a
+
     lenda que o que despertou a ira de Hera foi Egina, virgem que cujo nome foi
+
     dado a ilha, que fora amante de Zeus.  Após vários anos, o rei de Egina,
+
     Eaco em desespero orou para Zeus.  Eaco olhou para um grupo de formigas e
+
     pediu a Zeus que elas fossem transformadas em um número suficiente de
+
     pessoas para povoar sua ilha vazia.  Zeus respondeu à oração de Eaco desta
+
     maneira.  E por Egina ter sido repovoada de um formigueiro, seus habitantes
+
     ficaram conhecidos como Mirmidões.  Ao seu redor você observa um campo
-    florido.  Ao oeste e ao sudeste você observa as águas azuladas do mar Egeu.
+
+    florido.  Ao oeste e ao sudeste você observa as águas azuladas do mar Egeu.'
   exits:
     southeast:
       target_vnum: 010210810820
@@ -246,9 +291,9 @@
   local_id: '10817'
   name: A Ilha de Egina
   vnum: 010210810817
-- description: |-
-    Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
-    brancos.  Será real ?
+- description: 'Incrível ! Você está sobre várias nuvens, que mas parecem nobres tecidos
+
+    brancos.  Será real ?'
   exits:
     east:
       target_vnum: 010210810811
@@ -257,11 +302,13 @@
   local_id: '10818'
   name: As Misteriosas Nuvens do Mar Egeu
   vnum: 010210810818
-- description: |-
-    Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+- description: 'Você está navegando as águas azuladas do divino mar Egeu.  Você observa
+
     a presença de vários peixes curiosos seguindo seu barco.  Ao norte e ao
+
     oeste você observa as águas azuladas do mar Egeu.  Ao leste você observa o
-    delta do rio Escamandro.  Ao sudeste você observa um porto natural.
+
+    delta do rio Escamandro.  Ao sudeste você observa um porto natural.'
   exits:
     east:
       target_vnum: 010210810824
@@ -274,12 +321,16 @@
   local_id: '10819'
   name: O Mar Egeu
   vnum: 010210810819
-- description: |-
-    Você está navegando as águas azuladas do mar Egeu.  Após horas no mar,
+- description: 'Você está navegando as águas azuladas do mar Egeu.  Após horas no
+    mar,
+
     você começa a confundir o mar com o céu.  Ao norte e ao sul você observa
+
     as águas azuladas do mar Egeu.  Ao noroeste você observa uma pequena ilha
+
     e ao nordeste você observa um afunilamento no mar, provocado por dois
-    grandes blocos de terra.
+
+    grandes blocos de terra.'
   exits:
     north:
       target_vnum: 010210810979
@@ -292,26 +343,35 @@
   local_id: '10820'
   name: O Mar Egeu
   vnum: 010210810820
-- description: |-
-    Você está dentro de uma tenda de nobres gregos.  Ao seu redor vários
+- description: 'Você está dentro de uma tenda de nobres gregos.  Ao seu redor vários
+
     vasos cerâmicos guardam os suprimentos para os soldados gregos.  No canto
+
     sul da tenda você observa uma mesa e várias cadeiras, constantemente
+
     utilizados para traçar os planos de guerra das tropas gregas.  Ao norte você
-    observa o acampamento grego.
+
+    observa o acampamento grego.'
   exits:
     north:
       target_vnum: 010210810822
   local_id: '10821'
   name: Uma Tenda Nobre Grega
   vnum: 010210810821
-- description: |-
-    Você está num acampamento grego.  Ao seu redor você observa várias tendas
+- description: 'Você está num acampamento grego.  Ao seu redor você observa várias
+    tendas
+
     e soldados de guarda, que expressam claramente a angústia em seus rostos.
+
     No centro do acampamento alguns soldados gregos reparam suas armas para a
+
     próxima batalha contra os troianos.  Ao sul você observa uma tenda nobre.
+
     Ao nordeste você observa um campo aberto com vegetação rasteira.  Ao
+
     noroeste você observa um porto natural e ao sudeste você observa algumas
-    tendas e alguns soldados se recuperando da última batalha.
+
+    tendas e alguns soldados se recuperando da última batalha.'
   exits:
     northeast:
       target_vnum: 010210810823
@@ -324,11 +384,14 @@
   local_id: '10822'
   name: O Acampamento do Rei Menelau
   vnum: 010210810822
-- description: |-
-    Você está num dos vários portos naturais que existem banhados pelo mar
+- description: 'Você está num dos vários portos naturais que existem banhados pelo
+    mar
+
     Egeu.  Ao seu redor você observa vários barcos gregos vazios e a bandeira
+
     tremulando com o brasão das tropas gregas.  Ao noroeste você observa o mar
-    Egeu e ao sudeste você observa um acampamento grego.
+
+    Egeu e ao sudeste você observa um acampamento grego.'
   exits:
     northeast:
       target_vnum: 010210810819
@@ -337,13 +400,18 @@
   local_id: '10823'
   name: Um Porto Natural
   vnum: 010210810823
-- description: |-
-    Você está navegando no delta do rio Escamandro.  Muitos gregos dizem que
+- description: 'Você está navegando no delta do rio Escamandro.  Muitos gregos dizem
+    que
+
     este rio surgiu de um canal artificial feito pelos troianos.  O rio
+
     Escamandro é conhecido como: Espuma de mão humana.  Suas águas são calmas e
+
     cristalinas.  Em direção da margem norte, você observa uma colina.  Ao leste
+
     você observa a extensão do rio seguindo para o interior da terra.  Ao oeste
-    você observa o encontro das águas do mar Egeu e do rio Escamandro.
+
+    você observa o encontro das águas do mar Egeu e do rio Escamandro.'
   exits:
     east:
       target_vnum: 010210810825
@@ -354,12 +422,15 @@
   local_id: '10824'
   name: O Delta do Rio Escamandro
   vnum: 010210810824
-- description: |-
-    Você está navegando nas águas do rio Escamandro.  Suas águas calmas
+- description: 'Você está navegando nas águas do rio Escamandro.  Suas águas calmas
+
     facilitam a movimentação de seus visitantes. Ao norte você observa uma
+
     extensa colina no sentido oeste-leste.  Ao oeste você observa o delta do rio
+
     Escamandro e o encontro das águas do mar Egeu com as águas cristalinas do
-    rio.  Ao leste você observa as águas clamas do rio Escamandro.
+
+    rio.  Ao leste você observa as águas clamas do rio Escamandro.'
   exits:
     east:
       target_vnum: 010210810826
@@ -368,10 +439,11 @@
   local_id: '10825'
   name: O Rio Escamandro
   vnum: 010210810825
-- description: |-
-    Você está navegando as águas calmas do rio Escamandro.  Ao norte você
+- description: 'Você está navegando as águas calmas do rio Escamandro.  Ao norte você
+
     observa uma colina no sentido oeste-leste.  Ao oeste e ao leste você observa
-    as águas do rio Escamandro.
+
+    as águas do rio Escamandro.'
   exits:
     east:
       target_vnum: 010210810827
@@ -380,11 +452,13 @@
   local_id: '10826'
   name: O Rio Escamandro
   vnum: 010210810826
-- description: |-
-    Você está navegando nas águas do rio Escamandro.  Suas águas calmas
+- description: 'Você está navegando nas águas do rio Escamandro.  Suas águas calmas
+
     facilitam a movimentação de seus visitantes. Ao norte você observa uma
+
     extensa colina no sentido oeste-leste.  Ao oeste e ao leste você observa as
-    águas calmas e cristalinas do rio Escamandro.
+
+    águas calmas e cristalinas do rio Escamandro.'
   exits:
     east:
       target_vnum: 010210810828
@@ -393,11 +467,13 @@
   local_id: '10827'
   name: O Rio Escamandro
   vnum: 010210810827
-- description: |-
-    Você está navegando as águas calmas do rio Escamandro.  Ao norte você
+- description: 'Você está navegando as águas calmas do rio Escamandro.  Ao norte você
+
     observa uma colina no sentido oeste-leste.  Ao oeste e ao leste você observa
+
     as águas do rio Escamandro.  Ao sul você observa um campo de guerra com
-    vários corpos no chão.
+
+    vários corpos no chão.'
   exits:
     east:
       target_vnum: 010210810827
@@ -408,11 +484,13 @@
   local_id: '10828'
   name: O Rio Escamandro
   vnum: 010210810828
-- description: |-
-    Você está navegando nas águas do rio Escamandro.  Suas águas calmas
+- description: 'Você está navegando nas águas do rio Escamandro.  Suas águas calmas
+
     facilitam a movimentação de seus visitantes. Ao norte você observa que a
+
     extensa colina no sentido oeste-leste já está bem distante.  Ao oeste e
-    ao leste você observa as águas calmas e cristalinas do rio Escamandro.
+
+    ao leste você observa as águas calmas e cristalinas do rio Escamandro.'
   exits:
     east:
       target_vnum: 010210810830
@@ -421,11 +499,13 @@
   local_id: '10829'
   name: O Rio Escamandro
   vnum: 010210810829
-- description: |-
-    Você está navegando nas águas tranquilas do rio Escamandro.  Ao norte
+- description: 'Você está navegando nas águas tranquilas do rio Escamandro.  Ao norte
+
     você observa um acampamento com uma bandeira tremulando ilustrada com o
+
     brasão troiano.  Ao oeste e ao leste você observa as águas calmas e
-    cristalinas do rio Escamandro.
+
+    cristalinas do rio Escamandro.'
   exits:
     east:
       target_vnum: 010210810831
@@ -436,9 +516,10 @@
   local_id: '10830'
   name: O Rio Escamandro
   vnum: 010210810830
-- description: |-
-    Você está navegando as águas calmas do rio Escamandro.  Ao leste e oeste
-    você observa as águas cristalinas do rio Escamandro.
+- description: 'Você está navegando as águas calmas do rio Escamandro.  Ao leste e
+    oeste
+
+    você observa as águas cristalinas do rio Escamandro.'
   exits:
     east:
       target_vnum: 010210810983
@@ -447,28 +528,36 @@
   local_id: '10831'
   name: O Rio Escamandro
   vnum: 010210810831
-- description: |-
-    Você está numa colina rochosa completamente sem vegetação.  Ao olhar na
+- description: 'Você está numa colina rochosa completamente sem vegetação.  Ao olhar
+    na
+
     direção nordeste você observa muito distante da colina um acampamento, porém
+
     você não consegue identificar o brasão que tremula nela.  Para baixo você
+
     observa as águas calmas e cristalinas do rio Escamandro.  Ao leste você vê a
+
     colina seguindo no sentido oeste-leste, enquanto a norte você vê uma outra,
-    diferente da de Quiron..
+
+    diferente da de Quiron..'
   exits:
     down:
       target_vnum: 010210810833
     north:
-      target_vnum: 01021080700
+      target_vnum: '01010070700'
     south:
       target_vnum: 010210810824
   local_id: '10832'
   name: A Colina de Quiron
   vnum: 010210810832
-- description: |-
-    Você está andando com dificuldade na rochosa colina de Quiron.  Uma brisa
+- description: 'Você está andando com dificuldade na rochosa colina de Quiron.  Uma
+    brisa
+
     vinda do norte com um forte odor marinho, lhe indica que possivelmente nesta
+
     direção você encontrará um oceano.  Ao leste e ao oeste você vê a colina de
-    Quiron, que divide a terra nas partes norte e sul.
+
+    Quiron, que divide a terra nas partes norte e sul.'
   exits:
     east:
       target_vnum: 010210810834
@@ -477,12 +566,15 @@
   local_id: '10833'
   name: A Colina de Quiron
   vnum: 010210810833
-- description: |-
-    Você está na colina rochosa de Quiron.  Ao seu redor você possui uma
+- description: 'Você está na colina rochosa de Quiron.  Ao seu redor você possui uma
+
     visão privilegiada de toda a área.  Para baixo você observa um acampamento
+
     com uma bandeira tremulando com o brasão das tropas gregas.  Ao leste e ao
+
     oeste você observa a colina de Quiron, que divide a terra em duas partes: a
-    norte e a sul.
+
+    norte e a sul.'
   exits:
     down:
       target_vnum: 010210810844
@@ -493,11 +585,14 @@
   local_id: '10834'
   name: A Colina de Quiron
   vnum: 010210810834
-- description: |-
-    Você está caminhando com dificuldade entre as rochas da colina de Quiron.
+- description: 'Você está caminhando com dificuldade entre as rochas da colina de
+    Quiron.
+
     Uma brisa vinda do norte trás consigo um odor marinho.  Ao leste e ao oeste
+
     você observa a continuação da colina de Quiron.  Ao sudeste você percebe a
-    entrada de uma gruta.
+
+    entrada de uma gruta.'
   exits:
     east:
       target_vnum: 010210810837
@@ -508,22 +603,28 @@
   local_id: '10835'
   name: A Colina de Quiron
   vnum: 010210810835
-- description: |-
-    Você está dentro de uma grande gruta, bastante úmida e escura.  Ao seu
+- description: 'Você está dentro de uma grande gruta, bastante úmida e escura.  Ao
+    seu
+
     redor você observa uma fogueira recentemente acessa e restos da última
+
     refeição dos moradores deste local.  Nas paredes da gruta você observa
+
     símbolos estranhos e escrituras nunca vistas antes por você.  Ao noroeste
-    você observa a saída da gruta.
+
+    você observa a saída da gruta.'
   exits:
     northeast:
       target_vnum: 010210810835
   local_id: '10836'
   name: A Gruta de Quiron
   vnum: 010210810836
-- description: |-
-    Você está caminhando sobre a colina rochosa de Quiron.  Ao leste e ao
+- description: 'Você está caminhando sobre a colina rochosa de Quiron.  Ao leste e
+    ao
+
     oeste você observa uma trilha rochosa no sentido oeste-leste seguindo toda a
-    colina.  Você sente uma brisa vinda do norte trazendo um aroma marinho.
+
+    colina.  Você sente uma brisa vinda do norte trazendo um aroma marinho.'
   exits:
     east:
       target_vnum: 010210810838
@@ -532,10 +633,12 @@
   local_id: '10837'
   name: A Colina de Quiron
   vnum: 010210810837
-- description: |-
-    Você está caminhando sobre a colina rochosa de Quiron.  Ao leste e ao
+- description: 'Você está caminhando sobre a colina rochosa de Quiron.  Ao leste e
+    ao
+
     oeste você observa uma trilha rochosa no sentido oeste-leste seguindo toda a
-    colina.  Você sente uma brisa vinda do norte trazendo um aroma marinho.
+
+    colina.  Você sente uma brisa vinda do norte trazendo um aroma marinho.'
   exits:
     east:
       target_vnum: 010210810839
@@ -544,11 +647,14 @@
   local_id: '10838'
   name: A Colina de Quiron
   vnum: 010210810838
-- description: |-
-    Você está caminhando com muita dificuldade sobre a colina rochosa de
+- description: 'Você está caminhando com muita dificuldade sobre a colina rochosa
+    de
+
     Quiron.  A visão da área daqui é bastante privilegiada.  Para baixo você
+
     observa uma praia.  Ao oeste você observa um caminho rochoso sobre a colina
-    de Quiron.
+
+    de Quiron.'
   exits:
     down:
       target_vnum: 010210810849
@@ -557,15 +663,21 @@
   local_id: '10839'
   name: A Colina de Quiron
   vnum: 010210810839
-- description: |-
-    Você está no monte Ida, local onde vários pastores criam suas ovelhas.  O
-    clima aqui e' muito agradável, o perfume das flores e a dança dos pássaros e
+- description: 'Você está no monte Ida, local onde vários pastores criam suas ovelhas.  O
+
+    clima aqui e'' muito agradável, o perfume das flores e a dança dos pássaros e
+
     das borboletas transformam o monte num verdadeiro oásis.  O Monte Ida foi o
+
     local escolhido para a disputa do Pomo da Discórdia, entre as deusas
+
     Afrodite, deusa do amor, Atena, deusa da sabedoria, e Hera, mulher de Zeus.
+
     Para baixo você observa um acampamento troiano com uma bandeira tremulando o
+
     imponente brasão das tropas troianas e ao oeste você observa alguns pastores
-    cuidando de suas ovelhas.
+
+    cuidando de suas ovelhas.'
   exits:
     down:
       target_vnum: 010210810841
@@ -574,15 +686,21 @@
   local_id: '10840'
   name: O Monte Ida
   vnum: 010210810840
-- description: |-
-    Você está num típico acampamento troiano.  A bandeira com o brasão
+- description: 'Você está num típico acampamento troiano.  A bandeira com o brasão
+
     troiano tremula na haste de ferro, demonstrando resistência e força.  Você
+
     observa vários soldados troianos se preparando para defender seus
+
     territórios pagando com sua própria vida.  Ao seu redor você percebe várias
+
     tendas, contudo ao leste você observa uma tenda que deve pertencer ao líder
+
     da tropa troiana deste acampamento.  Para cima você observa o Monte Ida, ao
+
     sul você observa as águas cristalinas e calmas do rio Escamandro e ao
-    nordeste você observa alguns soldados troianos.
+
+    nordeste você observa alguns soldados troianos.'
   exits:
     east:
       target_vnum: 010210810842
@@ -595,42 +713,57 @@
   local_id: '10841'
   name: O Acampamento do Rei Reso
   vnum: 010210810841
-- description: |-
-    Você está dentro de uma tenda real troiana.  Você observa alguns
+- description: 'Você está dentro de uma tenda real troiana.  Você observa alguns
+
     pergaminhos e anotações sobre uma mesa.  No canto sul da tenda você percebe
+
     a presença de várias armas de guerra e armaduras troianas.  No canto norte
+
     da tenda você observa o suprimento de toda a tropa troiana.  Ao oeste você
-    observa alguns soldados por entre a entrada da tenda.
+
+    observa alguns soldados por entre a entrada da tenda.'
   exits:
     west:
       target_vnum: 010210810841
   local_id: '10842'
   name: Uma Tenda Nobre Troiana
   vnum: 010210810842
-- description: |-
-    Você está dentro de uma tenda real grega.  Ao seu redor você observa
+- description: 'Você está dentro de uma tenda real grega.  Ao seu redor você observa
+
     várias porções médicas e armas de guerra.  No centro da tenda você percebe
+
     a presença de uma mesa e algumas cadeiras.  Alguns soldados gregos
+
     constantemente chegam até a entrada da tenda para examinarem o que você está
+
     fazendo aqui.  Ao nordeste você observa por entre a entrada da tenda alguns
-    soldados gregos.
+
+    soldados gregos.'
   exits:
     northwest:
       target_vnum: 010210810844
   local_id: '10843'
   name: Uma Tenda Nobre Grega
   vnum: 010210810843
-- description: |-
-    Você está num acampamento grego, a bandeira com o brasão das tropas
+- description: 'Você está num acampamento grego, a bandeira com o brasão das tropas
+
     gregas tremula com toda a imponência.  Ao seu redor você observa várias
+
     tendas e vários soldados arrumando os equipamentos e as armas, como se
+
     fossem partir para casa.  Será ?  O semblante dos rostos dos gregos é de
+
     extrema alegria, mesmo sem terem conseguido seus objetivos.  O que será que
+
     eles planejam ?  Ao norte você observa vários soldados construindo uma
+
     estranha peça gigante de madeira.  Ao sudoeste você observa uma tenda nobre
+
     grega.  Ao nordeste você observa a praia de Dardanelos, ao sudeste você
+
     observa várias tendas e soldados gregos prontos para partirem para o mar e
-    para cima você observa uma colina rochosa.
+
+    para cima você observa uma colina rochosa.'
   exits:
     north:
       target_vnum: 010210810845
@@ -645,25 +778,32 @@
   local_id: '10844'
   name: O Acampamento do Rei Ulisses
   vnum: 010210810844
-- description: |-
-    Você está num acampamento grego.  Ao seu redor você observa vários
+- description: 'Você está num acampamento grego.  Ao seu redor você observa vários
+
     soldados gregos construindo uma enorme peça de xadrez de madeira, mas
+
     precisamente um cavalo.  Ao sul você observa o acampamento e vários soldados
+
     gregos recolhendo os equipamentos, indicando que claramente que irão
-    abandonar a batalha.
+
+    abandonar a batalha.'
   exits:
     south:
       target_vnum: 010210810844
   local_id: '10845'
   name: A Gigante Peça de Xadrez
   vnum: 010210810845
-- description: |-
-    Você está na belíssima praia de Dardanelos.  Esta região é bastante
+- description: 'Você está na belíssima praia de Dardanelos.  Esta região é bastante
+
     disputada belos gregos e troianos por terem grandes portos naturais e pela
+
     proteção que o estreito de Dardanelos trás para as navegações do mar Negro.
+
     Ao norte você observa algumas embarcações navegando em direção do estreito
+
     de Dardanelos.  Ao leste você observa a belíssima visão da praia de
-    Dardanelos.  Ao sudoeste você observa um acampamento grego.
+
+    Dardanelos.  Ao sudoeste você observa um acampamento grego.'
   exits:
     east:
       target_vnum: 010210810847
@@ -672,12 +812,16 @@
   local_id: '10846'
   name: A Praia de Dardanelos
   vnum: 010210810846
-- description: |-
-    Você está caminhando pela bela praia de Dardanelos.  Uma brisa vindo do
+- description: 'Você está caminhando pela bela praia de Dardanelos.  Uma brisa vindo
+    do
+
     norte deixa o clima mais agradável.  Ao norte você observa as ondas se
+
     quebrando na beira da praia e ao sul você observa uma extensa colina no
+
     sentido oeste-leste.  Ao oeste você observa a praia e ao leste você percebe
-    várias embarcações com o brasão dos comerciantes troianos.
+
+    várias embarcações com o brasão dos comerciantes troianos.'
   exits:
     east:
       target_vnum: 010210810848
@@ -686,13 +830,17 @@
   local_id: '10847'
   name: A Praia de Dardanelos
   vnum: 010210810847
-- description: |-
-    Você observa o maior porto natural de toda costa desde o mar Egeu,
+- description: 'Você observa o maior porto natural de toda costa desde o mar Egeu,
+
     passando pelo estreito de Dardanelos até o mar Negro.  A sua frente você
+
     observa uma grande haste de ferro com a bandeira ilustrada com o brasão
+
     troiano tremulando.  Você observa vários barcos troianos sendo carregados
+
     com vários baús.  Ao leste e ao oeste você observa a bela praia de
-    Dardanelos.  Ao norte você observa as misteriosas águas do mar Negro.
+
+    Dardanelos.  Ao norte você observa as misteriosas águas do mar Negro.'
   exits:
     east:
       target_vnum: 010210810849
@@ -703,12 +851,16 @@
   local_id: '10848'
   name: Um Porto natural
   vnum: 010210810848
-- description: |-
-    Você está caminhando pela belíssima praia de Dardanelos.  Um brisa vinda
+- description: 'Você está caminhando pela belíssima praia de Dardanelos.  Um brisa
+    vinda
+
     do norte torna o local muito agradável.  Ao norte você observa o Mar Negro.
+
     Ao leste você observa a extensa praia de Dardanelos.  Ao oeste você vê um
+
     porto natural de domínio Troiano e para cima você observa a colina rochosa
-    de Quiron.
+
+    de Quiron.'
   exits:
     east:
       target_vnum: 010210810978
@@ -721,11 +873,14 @@
   local_id: '10849'
   name: A Praia de Dardanelos
   vnum: 010210810849
-- description: |-
-    Você está navegando as águas do formoso estreito de Dardanelos.  Onde as
+- description: 'Você está navegando as águas do formoso estreito de Dardanelos.  Onde
+    as
+
     águas azuladas do mar Egeu se encontram com as águas misteriosas do mar
+
     negro.  Ao leste você observa a extensão do estreito de Dardanelos e ao
-    sudoeste você observa o mar Egeu.
+
+    sudoeste você observa o mar Egeu.'
   exits:
     east:
       target_vnum: 010210810851
@@ -734,10 +889,11 @@
   local_id: '10850'
   name: O Estreito de Dardanelos
   vnum: 010210810850
-- description: |-
-    Você está navegando o formoso estreito de Dardanelos.  Ao leste você
+- description: 'Você está navegando o formoso estreito de Dardanelos.  Ao leste você
+
     observa as águas misteriosas do mar Negro e ao oeste você observa as águas
-    do mar Egeu se encontrando com as do mar Negro.
+
+    do mar Egeu se encontrando com as do mar Negro.'
   exits:
     east:
       target_vnum: 010210810852
@@ -746,13 +902,18 @@
   local_id: '10851'
   name: O Estreito de Dardanelos
   vnum: 010210810851
-- description: |-
-    Você está navegando as águas misteriosas do mar Negro.  Ao seu lado você
+- description: 'Você está navegando as águas misteriosas do mar Negro.  Ao seu lado
+    você
+
     observa várias embarcações troianas.  Uma grande embarcação militar se
+
     aproxima da sua embarcação para observar seus objetivos nesta região de
+
     domínio troiano.  Ao leste você observa as águas do mar Negro, ao oeste você
+
     observa o estreito de Dardanelos e ao sul você observa um grande porto
-    natural de domínio troiano.
+
+    natural de domínio troiano.'
   exits:
     east:
       target_vnum: 010210810853
@@ -763,11 +924,14 @@
   local_id: '10852'
   name: O Mar Negro
   vnum: 010210810852
-- description: |-
-    Você está navegando pelas águas do mar Negro.  O mar está bastante calmo.
+- description: 'Você está navegando pelas águas do mar Negro.  O mar está bastante
+    calmo.
+
     Você observa várias embarcações seguindo em direção oeste rumo ao estreito
+
     de Dardanelos.  Ao leste e oeste você observa as águas do mar Negro, e ao
-    sul você observa a praia de Dardanelos.
+
+    sul você observa a praia de Dardanelos.'
   exits:
     east:
       target_vnum: 010210810854
@@ -778,10 +942,12 @@
   local_id: '10853'
   name: O Mar Negro
   vnum: 010210810853
-- description: |-
-    Você está navegando as águas do mar Negro.  Ao leste você observa várias
+- description: 'Você está navegando as águas do mar Negro.  Ao leste você observa
+    várias
+
     embarcações seguindo em direção do estreito de Dardanelos e ao oeste você
-    observa as águas do Mar Negro.
+
+    observa as águas do Mar Negro.'
   exits:
     east:
       target_vnum: 010210810977
@@ -790,13 +956,17 @@
   local_id: '10854'
   name: O Mar Negro
   vnum: 010210810854
-- description: |-
-    Você está no centro de um campo de batalha.  O cheiro de sangue toma
+- description: 'Você está no centro de um campo de batalha.  O cheiro de sangue toma
+
     conta de todo o ar.  Ao seu redor várias pessoas feridas e violentamente
+
     mortas.  A batalha é bastante cruel e não cessará até que o brasão de algum
+
     dos lados esteja sujo de sangue e no chão.  Ao norte você observa o rio
+
     Escamandro, ao sudeste, sudoeste e oeste você observa campos abertos de
-    vegetação rasteira e ao leste você observa um tranquilo campo florido.
+
+    vegetação rasteira e ao leste você observa um tranquilo campo florido.'
   exits:
     east:
       target_vnum: 010210810984
@@ -811,15 +981,21 @@
   local_id: '10855'
   name: Sanguinolência, a Batalha da Destruição
   vnum: 010210810855
-- description: |-
-    Você está caminhando por um campo florido.  A sensação aqui é de paz,
+- description: 'Você está caminhando por um campo florido.  A sensação aqui é de paz,
+
     bastante contrária ao dos campos de batalha dos gregos e troianos.  O ar
+
     possui um aroma maravilhoso produzido da mistura de todos os aromas das
+
     flores existentes aqui.  Alguns pássaros se aproximam de você curiosamente.
+
     Ao leste e ao sul você observa valas enormes cercando uma fortaleza, que
+
     sustenta imponentemente as bandeiras ilustradas com o brasão de Tróia.  Será
+
     a cidade de Tróia ?  Ao nordeste você observa uma batalha sangrenta, ao
-    sudoeste e ao noroeste você observa um campo aberto de vegetação rasteira.
+
+    sudoeste e ao noroeste você observa um campo aberto de vegetação rasteira.'
   exits:
     east:
       target_vnum: 010210810874
@@ -834,14 +1010,19 @@
   local_id: '10856'
   name: Um Campo Florido
   vnum: 010210810856
-- description: |-
-    Você está caminhando por um campo florido.  A sensação aqui é de paz,
+- description: 'Você está caminhando por um campo florido.  A sensação aqui é de paz,
+
     bastante contrária ao dos campos de batalha dos gregos e troianos.  O ar
+
     possui um aroma maravilhoso produzido da mistura de todos os aromas das
+
     flores existentes aqui.  Alguns pássaros se aproximam de você curiosamente.
+
     Ao nordeste, sudeste, norte e sul você observa um campo florido.  Ao
+
     sudoeste você observa um acampamento com uma bandeira ilustrada com o
-    imponente brasão grego.
+
+    imponente brasão grego.'
   exits:
     north:
       target_vnum: 010210810985
@@ -856,14 +1037,20 @@
   local_id: '10857'
   name: Um Campo Florido
   vnum: 010210810857
-- description: |-
-    Você está por entre flores e borboletas de todas as cores.  O perfume das
+- description: 'Você está por entre flores e borboletas de todas as cores.  O perfume
+    das
+
     várias fragrâncias de flores misturadas formam um odor celestial.  Contudo
+
     nem tudo são flores.  Ao noroeste e ao sudeste você observa uma violenta
+
     batalha entre gregos e troianos.  Ao sul e ao oeste você observa várias
+
     valas profundas circundando uma enorme fortaleza que ostenta a bandeira com
+
     a ilustração do brasão imponente dos troianos.  Ao nordeste você observa um
-    campo florido.
+
+    campo florido.'
   exits:
     northeast:
       target_vnum: 010210810855
@@ -878,13 +1065,17 @@
   local_id: '10858'
   name: Um Campo Florido
   vnum: 010210810858
-- description: |-
-    Você está entre soldados gregos e troianos, que travam uma impetuosa
+- description: 'Você está entre soldados gregos e troianos, que travam uma impetuosa
+
     batalha.  Você observa ao seu redor a bravura dos soldados lutando pela
+
     honra de seus brasões e de suas terras.  As tropas troianas resistem
+
     incansavelmente há dez anos.  Enquanto as tropas gregas não descansam
+
     lutando pelo seus objetivos.  Ao noroeste, sudoeste, norte e ao sul
-    você observa um calmo campo florido.
+
+    você observa um calmo campo florido.'
   exits:
     north:
       target_vnum: 010210810984
@@ -897,12 +1088,15 @@
   local_id: '10859'
   name: Bravura, a Batalha da Honra
   vnum: 010210810859
-- description: |-
-    Você está caminhando por um calmo e perfumado campo florido.  Borboletas
+- description: 'Você está caminhando por um calmo e perfumado campo florido.  Borboletas
+
     pousam em você e pássaros curiosos aproximam-se.  A sensação de paz só é
+
     quebrada pelos gritos de dor e morte vindos do nordeste e do sudoeste. Ao
+
     norte e ao oeste você observa várias valas circundando uma imponente
-    fortaleza troiana e ao sudeste você observa um campo florido.
+
+    fortaleza troiana e ao sudeste você observa um campo florido.'
   exits:
     north:
       target_vnum: 010210810877
@@ -917,12 +1111,16 @@
   local_id: '10860'
   name: Um Campo Florido
   vnum: 010210810860
-- description: |-
-    Pavor, temor, calafrios.  O campo de batalha cheira a morte, no campo de
+- description: 'Pavor, temor, calafrios.  O campo de batalha cheira a morte, no campo
+    de
+
     batalha a morte é mais forte.  Você observa ao noroeste crianças com
+
     lágrimas nos olhos, tristeza na face e o peito apertado.  Pois sabem que
+
     alguém vencerá, alguém morrerá enfim.  Ao nordeste, leste e oeste você
-    observa um campo florido e ao sudeste você observa uma estrada de pedras.
+
+    observa um campo florido e ao sudeste você observa uma estrada de pedras.'
   exits:
     east:
       target_vnum: 010210810988
@@ -937,14 +1135,20 @@
   local_id: '10861'
   name: Terror, a Batalha do Medo
   vnum: 010210810861
-- description: |-
-    Você está caminhando por entre as flores coloridas e as borboletas que
+- description: 'Você está caminhando por entre as flores coloridas e as borboletas
+    que
+
     sobrevoam as flores, pousando em suas pétalas.  Ao norte e ao leste você
+
     observa várias valas que circundam uma enorme fortaleza ostentando uma
+
     imponente bandeira com o brasão troiano.  Ao noroeste e sudoeste você
+
     observa um campo florido, ao sudeste você observa uma violenta batalha
+
     entre soldados gregos e troianos.  Ao sul você observa uma estrada de
-    pedras.
+
+    pedras.'
   exits:
     east:
       target_vnum: 010210810879
@@ -961,11 +1165,14 @@
   local_id: '10862'
   name: Um Campo Florido
   vnum: 010210810862
-- description: |-
-    Você está caminhando por uma estrada de pedras, que há muito tempo não
+- description: 'Você está caminhando por uma estrada de pedras, que há muito tempo
+    não
+
     deve ser usada.  Você observa o caminho da estrada de pedras seguindo em
+
     direção sudeste.  Ao noroeste você observa uma batalha violenta entre
-    soldados gregos e troianos.
+
+    soldados gregos e troianos.'
   exits:
     northeast:
       target_vnum: 010210810861
@@ -974,10 +1181,12 @@
   local_id: '10863'
   name: A Estrada Abandonada
   vnum: 010210810863
-- description: |-
-    Você está caminhando por uma estrada de pedras, que há muito tempo não
+- description: 'Você está caminhando por uma estrada de pedras, que há muito tempo
+    não
+
     deve ser usada.  Você observa o caminho da estrada de pedras seguindo em
-    direção sudeste e noroeste.
+
+    direção sudeste e noroeste.'
   exits:
     northeast:
       target_vnum: 010210810863
@@ -986,10 +1195,12 @@
   local_id: '10864'
   name: A Estrada Abandonada
   vnum: 010210810864
-- description: |-
-    Você está caminhando por uma estrada de pedras, que há muito tempo não
+- description: 'Você está caminhando por uma estrada de pedras, que há muito tempo
+    não
+
     deve ser usada.  Você observa o caminho da estrada de pedras seguindo em
-    direção noroeste e ao leste uma fortaleza em ruínas.
+
+    direção noroeste e ao leste uma fortaleza em ruínas.'
   exits:
     northeast:
       target_vnum: 010210810864
@@ -998,22 +1209,26 @@
   local_id: '10865'
   name: A Estrada Abandonada
   vnum: 010210810865
-- description: |-
-    Você está entre as ruínas do que deveria ser uma fortaleza troiana.  Você
+- description: 'Você está entre as ruínas do que deveria ser uma fortaleza troiana.  Você
+
     observa por todos os lados a destruição da guerra.  Paredes inteiras de
+
     rochas maciças foram derrubadas.  Ao oeste você observa uma estrada de
-    pedras.
+
+    pedras.'
   exits:
     east:
       target_vnum: 010210810865
   local_id: '10866'
   name: As Ruínas de uma Fortaleza
   vnum: 010210810866
-- description: |-
-    Você está caminhando por uma estrada de pedras.  Ao seu redor você
+- description: 'Você está caminhando por uma estrada de pedras.  Ao seu redor você
+
     observa vários campos floridos, a paisagem é realmente maravilhosa.  Ao
+
     norte você um campo florido e ao sul você observa a continuação da estrada
-    de pedras.
+
+    de pedras.'
   exits:
     north:
       target_vnum: 010210810862
@@ -1022,10 +1237,11 @@
   local_id: '10867'
   name: A Estrada de Pedras
   vnum: 010210810867
-- description: |-
-    Você está caminhando por uma estrada de pedras.  Ao seu redor você
+- description: 'Você está caminhando por uma estrada de pedras.  Ao seu redor você
+
     observa vários campos floridos, a paisagem é realmente maravilhosa.  Ao
-    norte e ao sul você observa a continuação da estrada de pedras.
+
+    norte e ao sul você observa a continuação da estrada de pedras.'
   exits:
     north:
       target_vnum: 010210810867
@@ -1034,11 +1250,13 @@
   local_id: '10868'
   name: A Estrada de Pedras
   vnum: 010210810868
-- description: |-
-    Você está caminhando por uma estrada de pedras.  Ao seu redor você
+- description: 'Você está caminhando por uma estrada de pedras.  Ao seu redor você
+
     observa vários campos floridos, a paisagem é realmente maravilhosa.  Ao
+
     norte e ao leste você observa a continuação da estrada de pedras.  Ao
-    sudoeste você observa uma fortaleza abandonada.
+
+    sudoeste você observa uma fortaleza abandonada.'
   exits:
     east:
       target_vnum: 010210810871
@@ -1049,21 +1267,25 @@
   local_id: '10869'
   name: A Estrada de Pedras
   vnum: 010210810869
-- description: |-
-    Você está dentro de uma fortaleza troiana abandonada.  Ao seu redor você
+- description: 'Você está dentro de uma fortaleza troiana abandonada.  Ao seu redor
+    você
+
     observa objetos que foram abandonados em uma possível fuga do local.  A
+
     fortaleza está intacta e teria capacidade de abrigar milhares de soldados.
-    Ao nordeste você observa uma estrada de pedra.
+
+    Ao nordeste você observa uma estrada de pedra.'
   exits:
     northwest:
       target_vnum: 010210810869
   local_id: '10870'
   name: Uma Fortaleza Abandonada
   vnum: 010210810870
-- description: |-
-    Você está caminhando por uma estrada de pedras.  Ao seu redor você
+- description: 'Você está caminhando por uma estrada de pedras.  Ao seu redor você
+
     observa vários campos floridos, a paisagem é realmente maravilhosa.  Ao
-    oeste e ao leste você observa a continuação da estrada de pedras.
+
+    oeste e ao leste você observa a continuação da estrada de pedras.'
   exits:
     east:
       target_vnum: 010210810872
@@ -1072,11 +1294,13 @@
   local_id: '10871'
   name: A Estrada de Pedras
   vnum: 010210810871
-- description: |-
-    Você está caminhando por uma estrada de pedras.  Ao seu redor você
+- description: 'Você está caminhando por uma estrada de pedras.  Ao seu redor você
+
     observa vários campos floridos, a paisagem é realmente maravilhosa.  Ao
+
     oeste você observa a continuação da estrada de pedras e ao sudeste você
-    percebe uma fortaleza troiana abandonada.
+
+    percebe uma fortaleza troiana abandonada.'
   exits:
     southeast:
       target_vnum: 010210810873
@@ -1085,24 +1309,30 @@
   local_id: '10872'
   name: A Estrada de Pedras
   vnum: 010210810872
-- description: |-
-    Você está dentro de uma grande fortaleza troiana.  Ao seu redor nenhum
+- description: 'Você está dentro de uma grande fortaleza troiana.  Ao seu redor nenhum
+
     sinal de pessoas, nem vestígios da estadia de soldados aqui.  Sua forma é
+
     uma das mais magníficas obras arquitetônicas de toda Vitália.  Basicamente
+
     a fortaleza é formada por duas torres e tem como base uma estrela.  Ao
-    noroeste você observa uma estrada de pedras.
+
+    noroeste você observa uma estrada de pedras.'
   exits:
     northeast:
       target_vnum: 010210810872
   local_id: '10873'
   name: Uma Fortaleza Abandonada
   vnum: 010210810873
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao leste e sudoeste você observa o
-    caminho feito pela vala.  Ao oeste você observa um campo florido.
+
+    caminho feito pela vala.  Ao oeste você observa um campo florido.'
   exits:
     east:
       target_vnum: 010210810875
@@ -1113,12 +1343,15 @@
   local_id: '10874'
   name: Os Anéis de Tróia
   vnum: 010210810874
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao oeste e sudeste você observa o
-    caminho feito pela vala.  Ao leste você observa um campo florido.
+
+    caminho feito pela vala.  Ao leste você observa um campo florido.'
   exits:
     east:
       target_vnum: 010210810858
@@ -1129,12 +1362,15 @@
   local_id: '10875'
   name: Os Anéis de Tróia
   vnum: 010210810875
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao sul e noroeste você observa o
-    caminho feito pela vala.  Ao norte você observa um campo florido.
+
+    caminho feito pela vala.  Ao norte você observa um campo florido.'
   exits:
     north:
       target_vnum: 010210810858
@@ -1145,12 +1381,15 @@
   local_id: '10876'
   name: Os Anéis de Tróia
   vnum: 010210810876
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao norte e sudoeste você observa o
-    caminho feito pela vala.  Ao sul você observa um campo florido.
+
+    caminho feito pela vala.  Ao sul você observa um campo florido.'
   exits:
     north:
       target_vnum: 010210810876
@@ -1161,12 +1400,15 @@
   local_id: '10877'
   name: Os Anéis de Tróia
   vnum: 010210810877
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao oeste e nordeste você observa o
-    caminho feito pela vala.  Ao leste você observa um campo florido.
+
+    caminho feito pela vala.  Ao leste você observa um campo florido.'
   exits:
     east:
       target_vnum: 010210810860
@@ -1177,12 +1419,15 @@
   local_id: '10878'
   name: Os Anéis de Tróia
   vnum: 010210810878
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao leste e noroeste você observa o
-    caminho feito pela vala.  Ao oeste você observa um campo florido.
+
+    caminho feito pela vala.  Ao oeste você observa um campo florido.'
   exits:
     east:
       target_vnum: 010210810878
@@ -1193,13 +1438,17 @@
   local_id: '10879'
   name: Os Anéis de Tróia
   vnum: 010210810879
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao norte, ao leste e ao sudeste você
+
     observa os caminhos feitos pelas valas.  Ao sul você observa um campo
-    florido.
+
+    florido.'
   exits:
     east:
       target_vnum: 010210810888
@@ -1212,12 +1461,15 @@
   local_id: '10880'
   name: Os Anéis de Tróia
   vnum: 010210810880
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao sul e ao nordeste você observa os
-    caminhos feitos pelas valas.  Ao norte você observa um campo florido.
+
+    caminhos feitos pelas valas.  Ao norte você observa um campo florido.'
   exits:
     north:
       target_vnum: 010210810856
@@ -1228,12 +1480,15 @@
   local_id: '10881'
   name: Os Anéis de Tróia
   vnum: 010210810881
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao leste e ao sudoeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     south:
       target_vnum: 010210810883
@@ -1242,12 +1497,15 @@
   local_id: '10882'
   name: Os Anéis de Tróia
   vnum: 010210810882
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao oeste e ao sudeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     southeast:
       target_vnum: 010210810884
@@ -1256,12 +1514,15 @@
   local_id: '10883'
   name: Os Anéis de Tróia
   vnum: 010210810883
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao sul e ao noroeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     northeast:
       target_vnum: 010210810883
@@ -1270,12 +1531,15 @@
   local_id: '10884'
   name: Os Anéis de Tróia
   vnum: 010210810884
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao norte, oeste e ao sudoeste você
-    observa os caminhos feitos pelas valas.
+
+    observa os caminhos feitos pelas valas.'
   exits:
     north:
       target_vnum: 010210810884
@@ -1286,12 +1550,15 @@
   local_id: '10885'
   name: Os Anéis de Tróia
   vnum: 010210810885
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao oeste e ao nordeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     northwest:
       target_vnum: 010210810885
@@ -1300,12 +1567,15 @@
   local_id: '10886'
   name: Os Anéis de Tróia
   vnum: 010210810886
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao leste e ao noroeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     east:
       target_vnum: 010210810886
@@ -1314,12 +1584,15 @@
   local_id: '10887'
   name: Os Anéis de Tróia
   vnum: 010210810887
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao norte, ao oeste e ao sudeste você
-    observa os caminhos feitos pelas valas.
+
+    observa os caminhos feitos pelas valas.'
   exits:
     north:
       target_vnum: 010210810889
@@ -1330,12 +1603,15 @@
   local_id: '10888'
   name: Os Anéis de Tróia
   vnum: 010210810888
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao sul e ao nordeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     northwest:
       target_vnum: 010210810882
@@ -1344,12 +1620,15 @@
   local_id: '10889'
   name: Os Anéis de Tróia
   vnum: 010210810889
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao leste e ao sudoeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     east:
       target_vnum: 010210810891
@@ -1358,12 +1637,15 @@
   local_id: '10890'
   name: Os Anéis de Tróia
   vnum: 010210810890
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao oeste e ao sudeste você observa os
-    caminhos feitos pelas valas.  Ao sudoeste você observa uma planície.
+
+    caminhos feitos pelas valas.  Ao sudoeste você observa uma planície.'
   exits:
     down:
       target_vnum: 010210810976
@@ -1376,12 +1658,15 @@
   local_id: '10891'
   name: Os Anéis de Tróia
   vnum: 010210810891
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao sul e ao noroeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     northeast:
       target_vnum: 010210810891
@@ -1390,12 +1675,15 @@
   local_id: '10892'
   name: Os Anéis de Tróia
   vnum: 010210810892
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao norte, ao leste e ao sudoeste você
-    observa os caminhos feitos pelas valas.
+
+    observa os caminhos feitos pelas valas.'
   exits:
     east:
       target_vnum: 010210810885
@@ -1406,12 +1694,15 @@
   local_id: '10893'
   name: Os Anéis de Tróia
   vnum: 010210810893
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao oeste e ao nordeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     northwest:
       target_vnum: 010210810893
@@ -1420,12 +1711,15 @@
   local_id: '10894'
   name: Os Anéis de Tróia
   vnum: 010210810894
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao leste e ao noroeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     east:
       target_vnum: 010210810894
@@ -1434,12 +1728,15 @@
   local_id: '10895'
   name: Os Anéis de Tróia
   vnum: 010210810895
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao norte e ao sudeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     north:
       target_vnum: 010210810897
@@ -1448,12 +1745,15 @@
   local_id: '10896'
   name: Os Anéis de Tróia
   vnum: 010210810896
-- description: |-
-    Você está navegando por uma das valas que circundam a cidade de Tróia.
+- description: 'Você está navegando por uma das valas que circundam a cidade de Tróia.
+
     As valas possuem formas de anéis, que protegem a cidade de Tróia da invasão
+
     direta de seus inimigos.  Foram feitas artificialmente por trabalhadores
+
     troianos e são realmente profundas.  Ao sul e ao nordeste você observa os
-    caminhos feitos pelas valas.
+
+    caminhos feitos pelas valas.'
   exits:
     northwest:
       target_vnum: 010210810890
@@ -1462,12 +1762,16 @@
   local_id: '10897'
   name: Os Anéis de Tróia
   vnum: 010210810897
-- description: |-
-    Você está numa planície coberta de vegetação rasteira.  Ao seu redor você
+- description: 'Você está numa planície coberta de vegetação rasteira.  Ao seu redor
+    você
+
     observa os três anéis de valas que você percorreu para chegar até aqui.  Ao
+
     sul você observa uma enorme porta de madeira e as muralhas da fortaleza que
+
     protege a cidade de Tróia.  Ao sudeste e sudoeste você observa a extensão da
-    planície e ao nordeste você observa as águas escuras de uma vala profunda.
+
+    planície e ao nordeste você observa as águas escuras de uma vala profunda.'
   exits:
     northwest:
       target_vnum: 010210810897
@@ -1480,12 +1784,16 @@
   local_id: '10898'
   name: Uma Planície no Coração de Tróia
   vnum: 010210810898
-- description: |-
-    Você está numa planície coberta de vegetação rasteira.  Ao seu redor você
+- description: 'Você está numa planície coberta de vegetação rasteira.  Ao seu redor
+    você
+
     observa os três anéis de valas que você percorreu para chegar até aqui.  Ao
+
     sul você observa uma enorme porta de madeira e as muralhas da fortaleza que
+
     protege a cidade de Tróia.  Ao noroeste e sudoeste você observa a extensão
-    da planície.
+
+    da planície.'
   exits:
     northeast:
       target_vnum: 010210810898
@@ -1494,12 +1802,16 @@
   local_id: '10899'
   name: Uma Planície no Coração de Tróia
   vnum: 010210810899
-- description: |-
-    Você está numa planície coberta de vegetação rasteira.  Ao seu redor você
+- description: 'Você está numa planície coberta de vegetação rasteira.  Ao seu redor
+    você
+
     observa os três anéis de valas que você percorreu para chegar até aqui.  Ao
+
     sul você observa uma enorme porta de madeira e as muralhas da fortaleza que
+
     protege a cidade de Tróia.  Ao noroeste e nordeste você observa a extensão
-    da planície.
+
+    da planície.'
   exits:
     northeast:
       target_vnum: 010210810901
@@ -1508,12 +1820,16 @@
   local_id: '10900'
   name: Uma Planície no Coração de Tróia
   vnum: 010210810900
-- description: |-
-    Você está numa planície coberta de vegetação rasteira.  Ao seu redor você
+- description: 'Você está numa planície coberta de vegetação rasteira.  Ao seu redor
+    você
+
     observa os três anéis de valas que você percorreu para chegar até aqui.  Ao
+
     sul você observa uma enorme porta de madeira e as muralhas da fortaleza que
+
     protege a cidade de Tróia.  Ao nordeste e ao sudeste você observa a extensão
-    da planície.
+
+    da planície.'
   exits:
     northwest:
       target_vnum: 010210810898
@@ -1522,18 +1838,28 @@
   local_id: '10901'
   name: Uma Planície no Coração de Tróia
   vnum: 010210810901
-- description: |-
-    Você está na lendária cidade de Tróia.  Lugar que há quase dez anos os
+- description: 'Você está na lendária cidade de Tróia.  Lugar que há quase dez anos
+    os
+
     gregos tentam invadir e não conseguem.  A cidade é bastante organizada se
+
     constituindo numa verdadeira potência marítima.  Você observa as construções
+
     ao seu redor e percebe a superioridade delas em relação as edificações
+
     gregas.  A cultura, a língua e a origem do povo troiano são motivos de sobra
+
     para tanta rivalidade entre gregos e troianos.  Os troianos são originários
+
     da Anatólia, enquanto os gregos são aqueus.  Você observa no ponto mais alto
+
     da cidade uma bandeira ilustrada com o brasão troiano tremulando de forma
+
     gloriosa, ostentando a honra e dignidade de Tróia.  Ao norte você observa
+
     uma enorme porta de madeira.  Ao leste e ao oeste você observa dois postos
-    de guarda e ao sul você observa a movimentada praça da cidade.
+
+    de guarda e ao sul você observa a movimentada praça da cidade.'
   exits:
     east:
       target_vnum: 010210810904
@@ -1546,67 +1872,91 @@
   local_id: '10902'
   name: A Cidade de Tróia
   vnum: 010210810902
-- description: |-
-    Você está num posto da guarda troiana.  A sua frente você observa a visão
+- description: 'Você está num posto da guarda troiana.  A sua frente você observa
+    a visão
+
     privilegiada que os soldados troianos possuem da planície além dos três
+
     anéis de valas.  Qualquer ser que se mova em direção da cidade pode ser
+
     visto daqui e se torna alvo fácil dos arqueiros troianos.  No canto oeste do
+
     posto você observa uma mesa e duas cadeiras de madeira.  Ao leste você
-    observa a entrada da cidade.
+
+    observa a entrada da cidade.'
   exits:
     east:
       target_vnum: 010210810902
   local_id: '10903'
   name: Um Posto de Guarda Troiana
   vnum: 010210810903
-- description: |-
-    Você está num posto da guarda troiana.  A sua frente você observa a visão
+- description: 'Você está num posto da guarda troiana.  A sua frente você observa
+    a visão
+
     privilegiada que os soldados troianos possuem da planície além dos três
+
     anéis de valas.  Qualquer ser que se mova em direção da cidade pode ser
+
     visto daqui e se torna alvo fácil dos arqueiros troianos.  No canto oeste do
+
     posto você observa uma mesa e duas cadeiras de madeira.  Ao oeste você
-    observa a entrada da cidade.
+
+    observa a entrada da cidade.'
   exits:
     west:
       target_vnum: 010210810902
   local_id: '10904'
   name: Um Posto de Guarda Troiana
   vnum: 010210810904
-- description: |-
-    Você está dentro de um bela casa troiana feita de rochas maciças e
+- description: 'Você está dentro de um bela casa troiana feita de rochas maciças e
+
     mármore branco.  No canto norte da casa você observa pela janela várias
+
     crianças troianas brincando.  Ao seu redor você percebe algumas cadeiras e
+
     um armário de madeira.  Você percebe também que não existe portas e sim
+
     cortinas, que separam o interior do exterior.  Numa das paredes você observa
+
     uma pintura dos portos naturais de Tróia.  Ao sudoeste você observa alguns
-    troianos caminhando pela rua.
+
+    troianos caminhando pela rua.'
   exits:
     southwest:
       target_vnum: 010210810908
   local_id: '10905'
   name: Uma Casa Troiana
   vnum: 010210810905
-- description: |-
-    Você está dentro de um bela casa troiana feita de rochas maciças e
+- description: 'Você está dentro de um bela casa troiana feita de rochas maciças e
+
     mármore branco.  Ao seu redor você percebe uma cama e um armário de madeira.
+
     Você percebe também que não existe portas e sim cortinas, que separam o
+
     interior do exterior.  Numa das paredes você observa uma pintura do Deus dos
+
     Mares, Poseidon.  Ao sudoeste você observa alguns troianos caminhando pela
-    rua.
+
+    rua.'
   exits:
     southwest:
       target_vnum: 010210810909
   local_id: '10906'
   name: Uma Casa Troiana
   vnum: 010210810906
-- description: |-
-    Você está na praça da cidade de Tróia em meio a agitação de seus
+- description: 'Você está na praça da cidade de Tróia em meio a agitação de seus
+
     habitantes.  Ao seu redor você observa vários troianos conversando e
+
     caminhando pela praça.  Ao norte você observa a entrada da cidade, ao leste
+
     você vê algumas crianças correndo em direção de uma rua, ao sudoeste você
+
     observa o templo de Tróia, ao sul você observa algumas pessoas fazendo
+
     comércio, ao oeste você observa um belo jardim e bem ao sul você observa ao
-    fundo um grande pálacio.
+
+    fundo um grande pálacio.'
   exits:
     east:
       target_vnum: 010210810908
@@ -1621,13 +1971,17 @@
   local_id: '10907'
   name: A Praça de Tróia
   vnum: 010210810907
-- description: |-
-    Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+- description: 'Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+
     que se tem ao caminhar pelas ruas de Tróia é de que as ruas foram feitas
+
     para dificultar qualquer tentativa de invasão por parte de algum inimigo.
+
     Ao leste você observa o caminho a seguir pela rua, ao nordeste você percebe
+
     uma casa troiana e ao oeste você observa a praça de Tróia e a agitação de
-    seus habitantes.
+
+    seus habitantes.'
   exits:
     east:
       target_vnum: 010210810909
@@ -1638,12 +1992,15 @@
   local_id: '10908'
   name: Uma Rua Troiana
   vnum: 010210810908
-- description: |-
-    Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+- description: 'Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+
     que se tem ao caminhar pelas ruas de Tróia é de que as ruas foram feitas
+
     para dificultar qualquer tentativa de invasão por parte de algum inimigo.
+
     Ao leste, ao sul e ao nordeste você observa casas troianas.  Ao oeste você
-    observa uma estreita rua da cidade de Tróia.
+
+    observa uma estreita rua da cidade de Tróia.'
   exits:
     east:
       target_vnum: 010210810910
@@ -1656,40 +2013,53 @@
   local_id: '10909'
   name: Uma Rua Troiana
   vnum: 010210810909
-- description: |-
-    Você está dentro de um bela casa troiana feita de rochas maciças e
+- description: 'Você está dentro de um bela casa troiana feita de rochas maciças e
+
     mármore branco.  Ao seu redor você percebe uma cama e um armário de madeira.
+
     Você percebe também que não existe portas e sim cortinas, que separam o
+
     interior do exterior.  Numa das paredes você observa uma pintura do Deus dos
-    Mares, Poseidon.  Ao oeste você observa alguns troianos caminhando pela rua.
+
+    Mares, Poseidon.  Ao oeste você observa alguns troianos caminhando pela rua.'
   exits:
     southwest:
       target_vnum: 010210810909
   local_id: '10910'
   name: Uma Casa Troiana
   vnum: 010210810910
-- description: |-
-    Você está no templo de Tróia.  O templo é uma verdadeira obra de arte
+- description: 'Você está no templo de Tróia.  O templo é uma verdadeira obra de arte
+
     feito com blocos de pedra maciça e resistente a todas as intempéries.  A luz
+
     vinda da cúpula de cristal no teto torna o ambiente ainda mais celestial.
+
     Você percebe as estatuas dos deuses Poseidon, deus dos mares, e da deusa
+
     da sabedoria e protetora de Tróia, Atena.  Os habitantes da lendária cidade
+
     de Tróia costumam adorar estes deuses e glorificar seus nomes pela proteção
+
     e sustento vindos do mar.  Ao nordeste você observa a agitada praça da
-    cidade.
+
+    cidade.'
   exits:
     northwest:
       target_vnum: 010210810907
   local_id: '10911'
   name: O Templo de Tróia
   vnum: 010210810911
-- description: |-
-    Você está na praça da cidade de Tróia em meio a agitação de seus
+- description: 'Você está na praça da cidade de Tróia em meio a agitação de seus
+
     habitantes.  Ao seu redor você observa vários troianos conversando e
+
     caminhando pela praça.  Ao leste você vê algumas crianças correndo em
+
     direção de uma rua, ao norte e ao sul você observa algumas pessoas
+
     conversando e fazendo comércio e bem ao sul você observa ao fundo um grande
-    pálacio.
+
+    pálacio.'
   exits:
     east:
       target_vnum: 010210810913
@@ -1700,13 +2070,17 @@
   local_id: '10912'
   name: A Praça de Tróia
   vnum: 010210810912
-- description: |-
-    Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+- description: 'Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+
     que se tem ao caminhar pelas ruas de Tróia é de que as ruas foram feitas
+
     para dificultar qualquer tentativa de invasão por parte de algum inimigo.
+
     Ao sudeste você observa o caminho a seguir pela rua, ao sul você percebe uma
+
     casa troiana e ao oeste você observa a praça de Tróia e a agitação de
-    seus habitantes.
+
+    seus habitantes.'
   exits:
     south:
       target_vnum: 010210810917
@@ -1717,25 +2091,33 @@
   local_id: '10913'
   name: Uma Rua Troiana
   vnum: 010210810913
-- description: |-
-    Você está dentro de um bela casa troiana feita de rochas maciças e
+- description: 'Você está dentro de um bela casa troiana feita de rochas maciças e
+
     mármore branco.  Ao seu redor você percebe uma cama e um armário de madeira.
+
     Você percebe também que não existe portas e sim cortinas, que separam o
+
     interior do exterior.  Numa das paredes você observa uma pintura da
+
     magnífica cidade de Tróia.  Ao norte você observa alguns troianos caminhando
-    pela rua.
+
+    pela rua.'
   exits:
     north:
       target_vnum: 010210810909
   local_id: '10914'
   name: Uma Casa Troiana
   vnum: 010210810914
-- description: |-
-    Você está num grande pátio em frente a entrada do palácio real de Tróia.
+- description: 'Você está num grande pátio em frente a entrada do palácio real de
+    Tróia.
+
     Ao seu redor você observa alguns habitantes de Tróia sentados nos degraus da
+
     bela escadaria que dar acesso a entrada do pálacio.  Ao leste você observa
+
     a agitada praça da cidade e ao sul você observa o maravilhoso pálacio real
-    de Tróia.
+
+    de Tróia.'
   exits:
     east:
       target_vnum: 010210810916
@@ -1744,16 +2126,24 @@
   local_id: '10915'
   name: A Entrada do Palácio
   vnum: 010210810915
-- description: |-
-    Você está entre os vários comerciantes troianos que tentam vender suas
+- description: 'Você está entre os vários comerciantes troianos que tentam vender
+    suas
+
     mercadorias aos habitantes da cidade.  Tapetes, vasos e papiros egípcios,
+
     jóias e pedras preciosas são apenas alguns dos produtos que você observa a
+
     venda na agitação da praça.  Os produtos chegam a Tróia pelo estreito de
+
     Dardanelos, que atualmente é dominado pelos troianos, o que deixa ainda mais
+
     os gregos enfurecidos.  Ao norte você observa algumas pessoas caminhando
+
     pela praça da cidade, ao oeste você observa as escadarias que dão acesso ao
+
     pálacio real, ao sul você observa uma loja de suprimentos e ao sudeste você
-    vê uma loja de armas e armaduras troianas.
+
+    vê uma loja de armas e armaduras troianas.'
   exits:
     north:
       target_vnum: 010210810912
@@ -1766,25 +2156,32 @@
   local_id: '10916'
   name: A Praça de Tróia
   vnum: 010210810916
-- description: |-
-    Você está dentro de um bela casa troiana feita de rochas maciças e
+- description: 'Você está dentro de um bela casa troiana feita de rochas maciças e
+
     mármore branco.  Ao seu redor você percebe uma cama e um armário de madeira.
+
     Você percebe também que não existe portas e sim cortinas, que separam o
+
     interior do exterior.  Numa das paredes você observa uma pintura das grandes
+
     embarcações de Tróia.  Ao norte você observa alguns troianos caminhando pela
-    rua.
+
+    rua.'
   exits:
     north:
       target_vnum: 010210810913
   local_id: '10917'
   name: Uma Casa Troiana
   vnum: 010210810917
-- description: |-
-    Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+- description: 'Você está caminhando por uma rua estreita da cidade de Tróia.  A sensação
+
     que se tem ao caminhar pelas ruas de Tróia é de que as ruas foram feitas
+
     para dificultar qualquer tentativa de invasão por parte de algum inimigo.
+
     Ao leste e ao sul você observa tradicionais casas troianas e ao noroeste
-    você observa a continuação da rua.
+
+    você observa a continuação da rua.'
   exits:
     east:
       target_vnum: 010210810919
@@ -1795,26 +2192,35 @@
   local_id: '10918'
   name: Uma Rua Troiana
   vnum: 010210810918
-- description: |-
-    Você está dentro de um bela casa troiana feita de rochas maciças e
+- description: 'Você está dentro de um bela casa troiana feita de rochas maciças e
+
     mármore branco.  Ao seu redor você percebe uma cama e um armário de madeira.
+
     Você percebe também que não existe portas e sim cortinas, que separam o
+
     interior do exterior.  Numa das paredes você observa uma pintura dos grandes
+
     guerreiros de Tróia.  Ao oeste você observa alguns troianos caminhando pela
-    rua.
+
+    rua.'
   exits:
     west:
       target_vnum: 010210810918
   local_id: '10919'
   name: Uma Casa Troiana
   vnum: 010210810919
-- description: |-
-    Você observa o magnífico jardim do pálacio real de Tróia.  Ao seu redor
+- description: 'Você observa o magnífico jardim do pálacio real de Tróia.  Ao seu
+    redor
+
     você observa flores de todos os tipos e cores.  O perfume das flores deixa
+
     todos os visitantes sonolentos e calmos.  Você percebe algumas pessoas
+
     sentadas conversando entre as flores.  Ao sul você observa um grande salão,
+
     ao sudoeste você vê um grande pátio e ao norte você observa a entrada do
-    pálacio real.
+
+    pálacio real.'
   exits:
     north:
       target_vnum: 010210810915
@@ -1825,48 +2231,62 @@
   local_id: '10920'
   name: Os Jardins do Palácio
   vnum: 010210810920
-- description: |-
-    Você está dentro de umas das lojas dos mercadores de Tróia.  Ao seu redor
+- description: 'Você está dentro de umas das lojas dos mercadores de Tróia.  Ao seu
+    redor
+
     você observa pães, carne de ovelha e coelho, vinho e água potável, e várias
+
     pessoas entrando e saindo da loja.  Na parede você observa um aviso.  Ao
+
     norte você observa a praça e vários comerciantes troianos vendendo seus
-    produtos.
+
+    produtos.'
   exits:
     north:
       target_vnum: 010210810916
   local_id: '10921'
   name: A Loja de Suprimentos
   vnum: 010210810921
-- description: |-
-    Se você quer armas e armaduras você veio ao lugar certo.  Ao seu redor
+- description: 'Se você quer armas e armaduras você veio ao lugar certo.  Ao seu redor
+
     várias espadas e arcos troianos.  Na parede você observa um aviso.  No canto
+
     sul do recinto você observa algumas armaduras e no canto norte você observa
+
     um grande forno com brasas em chamas.  Ao noroeste você observa a praça da
-    cidade.
+
+    cidade.'
   exits:
     northeast:
       target_vnum: 010210810916
   local_id: '10922'
   name: A Loja de Armas e Armaduras
   vnum: 010210810922
-- description: |-
-    Você está dentro de um bela casa troiana feita de rochas maciças e
+- description: 'Você está dentro de um bela casa troiana feita de rochas maciças e
+
     mármore branco.  Ao seu redor você percebe uma cama e um armário de madeira.
+
     Você percebe também que não existe portas e sim cortinas, que separam o
+
     interior do exterior.  Numa das paredes você observa uma pintura do Deus dos
-    Mares, Poseidon.  Ao norte você observa alguns troianos caminhando pela rua.
+
+    Mares, Poseidon.  Ao norte você observa alguns troianos caminhando pela rua.'
   exits:
     north:
       target_vnum: 010210810918
   local_id: '10923'
   name: Uma Casa Troiana
   vnum: 010210810923
-- description: |-
-    Você está nas arquibancadas do grande pátio de jogos da cidade de Tróia.
+- description: 'Você está nas arquibancadas do grande pátio de jogos da cidade de
+    Tróia.
+
     Os jogos troianos são realizados especialmente em datas festivas e
+
     principalmente nas comemorações de vitórias em batalhas contra os gregos.
+
     Ao nordeste você observa o grande jardim de Tróia, ao sudeste você observa
-    um grande salão e ao oeste você observa uma grande pira.
+
+    um grande salão e ao oeste você observa uma grande pira.'
   exits:
     northwest:
       target_vnum: 010210810920
@@ -1877,13 +2297,17 @@
   local_id: '10924'
   name: O Pátio de Jogos
   vnum: 010210810924
-- description: |-
-    Você está no maior salão do pálacio.  Ao seu redor você observa vários
+- description: 'Você está no maior salão do pálacio.  Ao seu redor você observa vários
+
     troianos conversando, nas paredes você observa várias pinturas ilustrando a
+
     cidade e suas potências.  No canto leste do salão você observa algumas
+
     cadeiras e mesas de madeira.  Ao norte você observa o maravilhoso jardim do
+
     pálacio, sul você observa um belo lago, ao noroeste você observa um grande
-    pátio e ao sudeste você observa uma bela porta dourada.
+
+    pátio e ao sudeste você observa uma bela porta dourada.'
   exits:
     north:
       target_vnum: 010210810920
@@ -1896,23 +2320,29 @@
   local_id: '10925'
   name: O Grande Salão do Palácio
   vnum: 010210810925
-- description: |-
-    Você está num belo aposento real troiano.  Ao seu redor você observa uma
+- description: 'Você está num belo aposento real troiano.  Ao seu redor você observa
+    uma
+
     bela cama, alguns armários e algumas cadeiras.  O aposento com certeza deve
+
     pertencer a algum troiano pertencente a realeza.  Ao sul você observa o
-    grande salão real.
+
+    grande salão real.'
   exits:
     south:
       target_vnum: 010210810928
   local_id: '10926'
   name: Um Aposento Real
   vnum: 010210810926
-- description: |-
-    Você está nadando nas águas escuras do pequeno e belo lago do pálacio
+- description: 'Você está nadando nas águas escuras do pequeno e belo lago do pálacio
+
     troiano.  A água parece lhe transmitir uma sensação de paz e tranquilidade.
+
     Você daria tudo para não sair das águas rejuvenescentes do pequeno lago, mas
+
     suas aventuras o impedem de ficar.  Ao norte você observa o grande salão do
-    pálacio real.
+
+    pálacio real.'
   exits:
     down:
       target_vnum: 010210810943
@@ -1921,14 +2351,19 @@
   local_id: '10927'
   name: Um Pequeno Lago
   vnum: 010210810927
-- description: |-
-    Você está no salão real do pálacio de Tróia.  Ao seu redor muita riqueza
+- description: 'Você está no salão real do pálacio de Tróia.  Ao seu redor muita riqueza
+
     e beleza.  Vários objetos e mobílias em ouro e prata.  Nas paredes pinturas
+
     dos maiores orgulhos de Tróia:  Seus portos naturais e a supremacia no mar
+
     Negro e Egeu.  O salão real é o local onde o rei recebe seus visitantes mais
+
     nobres.  Ao norte e ao sul você observa aposentos reais, ao leste você
+
     observa o grande salão real e ao noroeste você observa uma bela porta
-    dourada.
+
+    dourada.'
   exits:
     east:
       target_vnum: 010210810929
@@ -1941,12 +2376,15 @@
   local_id: '10928'
   name: O Salão Real
   vnum: 010210810928
-- description: |-
-    Você está no salão real do pálacio de Tróia.  Ao seu redor muita riqueza
+- description: 'Você está no salão real do pálacio de Tróia.  Ao seu redor muita riqueza
+
     e beleza.  Vários objetos e mobílias em ouro e prata.  Nas paredes pinturas
+
     do deus Poseidon e da deusa Atena.  O salão real é o local onde o rei recebe
+
     seus visitantes mais nobres.  Ao leste você observa um aposento real.  Ao
-    norte, oeste e ao sul você observa a beleza do salão real.
+
+    norte, oeste e ao sul você observa a beleza do salão real.'
   exits:
     east:
       target_vnum: 010210810930
@@ -1959,15 +2397,22 @@
   local_id: '10929'
   name: O Salão Real
   vnum: 010210810929
-- description: |-
-    Você está num belo aposento real troiano.  Ao seu redor você observa uma
+- description: 'Você está num belo aposento real troiano.  Ao seu redor você observa
+    uma
+
     bela cama, alguns armários e algumas cadeiras.  O aposento com certeza deve
+
     pertencer a algum troiano pertencente a realeza.  Nas paredes pinturas
+
     ilustrando Príamos, rei de Tróia e Hécuba, rainha de Tróia.  Ao oeste você
+
     observa o magnífico salão real e para cima você observa uma escada que dar
+
     acesso as passarelas do muro do pálacio, local preferido pela realeza para
+
     observar as batalhas e as belíssimas terras troianas.  Ao norte você
-    percebe uma bela porta de madeira.
+
+    percebe uma bela porta de madeira.'
   exits:
     north:
       target_vnum: 010210810998
@@ -1978,24 +2423,32 @@
   local_id: '10930'
   name: Um Aposento Real
   vnum: 010210810930
-- description: |-
-    Você está num belo aposento real troiano.  Ao seu redor você observa uma
+- description: 'Você está num belo aposento real troiano.  Ao seu redor você observa
+    uma
+
     bela cama, alguns armários e algumas cadeiras.  O aposento com certeza deve
+
     pertencer a algum troiano pertencente a realeza.  Ao norte você observa o
-    grande salão real.
+
+    grande salão real.'
   exits:
     north:
       target_vnum: 010210810928
   local_id: '10931'
   name: Um Aposento Real
   vnum: 010210810931
-- description: |-
-    Como é fantástico o mundo sob as águas do Mar Egeu.  Você observa ao
+- description: 'Como é fantástico o mundo sob as águas do Mar Egeu.  Você observa
+    ao
+
     seu redor imensos cardumes de peixes coloridos, algas marinhas de todas as
+
     formas e conchas de todos os tamanhos.  Ao olhar para cima você percebe a
+
     superfície das águas do mar num elegante balé ao soprar do vento formando
+
     um espelho distorcido do fundo do mar.  Ao leste, oeste e sul você observa
-    curioso os misteriosos corais do reino dos mares.
+
+    curioso os misteriosos corais do reino dos mares.'
   exits:
     east:
       target_vnum: 010210810933
@@ -2008,10 +2461,11 @@
   local_id: '10932'
   name: O Fundo do Mar Egeu
   vnum: 010210810932
-- description: |-
-    Você está nadando por entre algas e corais, nas misteriosas e
+- description: 'Você está nadando por entre algas e corais, nas misteriosas e
+
     inesquecíveis águas do mar Egeu.  Ao leste você observa uma enorme concha
-    branca e ao oeste você um cardume de peixes entre os corais.
+
+    branca e ao oeste você um cardume de peixes entre os corais.'
   exits:
     east:
       target_vnum: 010210810934
@@ -2020,21 +2474,24 @@
   local_id: '10933'
   name: O Reino dos Mares
   vnum: 010210810933
-- description: |-
-    Incrível !  Você está nadando nas profundezas do mar Egeu e está admirado
+- description: 'Incrível !  Você está nadando nas profundezas do mar Egeu e está admirado
+
     com a visão que acaba de ter.  Você observa uma enorme concha branca com
+
     algumas esculturas em suas paredes e com alguns diamantes e algas azuis lhe
-    tornando mais bela.  Ao oeste você observa o reino dos mares.
+
+    tornando mais bela.  Ao oeste você observa o reino dos mares.'
   exits:
     west:
       target_vnum: 010210810933
   local_id: '10934'
   name: Anfitrite, A Concha Monumental
   vnum: 010210810934
-- description: |-
-    Você está nadando por entre algas e corais, nas misteriosas e
+- description: 'Você está nadando por entre algas e corais, nas misteriosas e
+
     inesquecíveis águas do mar Egeu.  Ao leste e ao sul você um cardume de
-    peixes entre os corais.
+
+    peixes entre os corais.'
   exits:
     east:
       target_vnum: 010210810932
@@ -2043,10 +2500,11 @@
   local_id: '10935'
   name: O Reino dos Mares
   vnum: 010210810935
-- description: |-
-    Você está nadando por entre algas e corais, nas misteriosas e
+- description: 'Você está nadando por entre algas e corais, nas misteriosas e
+
     inesquecíveis águas do mar Egeu.  Ao norte você um cardume de peixes entre
-    os corais.
+
+    os corais.'
   exits:
     north:
       target_vnum: 010210810932
@@ -2055,12 +2513,15 @@
   local_id: '10936'
   name: O Reino dos Mares
   vnum: 010210810936
-- description: |-
-    Você está nadando pelas incríveis águas brilhantes do pálacio de
+- description: 'Você está nadando pelas incríveis águas brilhantes do pálacio de
+
     Poseidon, o Deus do Mar.  Ao seu redor você observa alguns tritões e sereias
+
     nadando de um lado para o outro, vários peixes e lindos golfinhos, que
+
     curiosos aproximam-se de você.  Você sente uma forte energia vinda deste
-    lugar.  Ao norte você observa o reino dos mares.
+
+    lugar.  Ao norte você observa o reino dos mares.'
   exits:
     north:
       target_vnum: 010210810936
@@ -2069,12 +2530,16 @@
   local_id: '10937'
   name: "As Ã\x81guas Divinas de Poseidon"
   vnum: 010210810937
-- description: |-
-    Você está na entrada da bela e misteriosa caverna de corais.  Você sente
+- description: 'Você está na entrada da bela e misteriosa caverna de corais.  Você
+    sente
+
     um mal presságio ao olhar para o interior escuro da caverna.  Ao seu redor
+
     você observa algumas algas e curiosos golfinhos que se afastam de você a
+
     medida que você nada em direção do interior da sombria caverna.  Ao sudeste
-    você observa o interior da caverna.
+
+    você observa o interior da caverna.'
   exits:
     north:
       target_vnum: 010210810937
@@ -2083,12 +2548,15 @@
   local_id: '10938'
   name: A Entrada da Caverna de Corais
   vnum: 010210810938
-- description: |-
-    Você está nadando no interior da escura caverna de corais.  O mal
+- description: 'Você está nadando no interior da escura caverna de corais.  O mal
+
     presságio que você estava sentido volta a lhe atormentar.  Ao noroeste você
+
     observa a entrada da caverna e o fim desse sentimento estranho e ao sudeste
+
     você não consegue observar nada, apenas sente grandes ondulações nas águas
-    vindas desta direção.
+
+    vindas desta direção.'
   exits:
     northeast:
       target_vnum: 010210810938
@@ -2097,42 +2565,54 @@
   local_id: '10939'
   name: A Caverna de Corais
   vnum: 010210810939
-- description: |-
-    Escuridão total.  Você não consegue observar nada.  O mal presságio que
+- description: 'Escuridão total.  Você não consegue observar nada.  O mal presságio
+    que
+
     você sentia sumiu de forma misteriosa e repentinamente.  Você sente algo
-    estranho se movimentando...
+
+    estranho se movimentando...'
   exits: {}
   local_id: '10940'
   name: Mal Presságio, A Agonia da Morte
   vnum: 010210810940
-- description: |-
-    Você está onde muitos tentaram chegar e nunca encontraram: Os Estábulos
+- description: 'Você está onde muitos tentaram chegar e nunca encontraram: Os Estábulos
+
     do Olimpo.  A sensação deste lugar é de paz sublime e tranquilidade.  Você
+
     observa os estábulos e sua arquitetura bela, seus pilares dóricos e sua
+
     cúpula.  Ao olhar o interior dos estábulos você percebe várias repartições
+
     com espaço para cada animal divino que vive aqui.  Ao redor dos estábulos
+
     você observa um lindo e perfumado campo verde.  Com certeza você não irá
-    esquecer deste local.
+
+    esquecer deste local.'
   exits: {}
   local_id: '10941'
   name: Os Estábulos do Olimpo
   vnum: 010210810941
-- description: |-
-    Você está nadando nas águas profundas do mar Egeu.  Ao seu redor o mundo
+- description: 'Você está nadando nas águas profundas do mar Egeu.  Ao seu redor o
+    mundo
+
     mágico e misterioso do fundo do mar.  Ao sul você observa algumas algas
+
     azuis tremulando por trás de um grande coral e ao norte você observa o
-    misterioso reino do fundo do mar.
+
+    misterioso reino do fundo do mar.'
   exits:
     north:
       target_vnum: 010210810935
   local_id: '10942'
   name: O Lar das Nereidas
   vnum: 010210810942
-- description: |-
-    Você está nadando nas escuras águas do pequeno e tranquilo lago do
+- description: 'Você está nadando nas escuras águas do pequeno e tranquilo lago do
+
     pálacio real troiano.  Ao seu redor você observa alguns pequeninos peixes,
+
     para cima você percebe os feixes de luz vindo do pálacio e para baixo você
-    observa uma entrada de forma circular.
+
+    observa uma entrada de forma circular.'
   exits:
     down:
       target_vnum: 010210810944
@@ -2141,11 +2621,14 @@
   local_id: '10943'
   name: O Fundo do Lago
   vnum: 010210810943
-- description: |-
-    Após passar nadando pela entrada circular no fundo do pequeno lago, você
+- description: 'Após passar nadando pela entrada circular no fundo do pequeno lago,
+    você
+
     percebe que está num túnel.  O túnel é bastante escuro e suas paredes cheias
+
     de algas.  Para cima você observa a superfície do lago pela entrada do túnel
-    e para baixo você observa a continuação do túnel.
+
+    e para baixo você observa a continuação do túnel.'
   exits:
     down:
       target_vnum: 010210810945
@@ -2154,10 +2637,12 @@
   local_id: '10944'
   name: O Túnel Secreto
   vnum: 010210810944
-- description: |-
-    Você está nadando dentro do túnel escuro.  A sensação aterrorizante de
+- description: 'Você está nadando dentro do túnel escuro.  A sensação aterrorizante
+    de
+
     claustrofobia é terrível aqui.  Ao leste e para cima você observa a
-    continuação do túnel, esperançoso de encontrar uma luz para o fim do túnel.
+
+    continuação do túnel, esperançoso de encontrar uma luz para o fim do túnel.'
   exits:
     east:
       target_vnum: 010210810946
@@ -2166,11 +2651,14 @@
   local_id: '10945'
   name: O Túnel Secreto
   vnum: 010210810945
-- description: |-
-    Você está dentro de um estreito e escuro túnel.  Ao longo do túnel o
+- description: 'Você está dentro de um estreito e escuro túnel.  Ao longo do túnel
+    o
+
     caminho é comprimido pelas paredes viscosas do túnel, dificultando ainda
+
     mais a sua saída.  Para cima e para oeste você observa a continuação do
-    estreito e escuro túnel.
+
+    estreito e escuro túnel.'
   exits:
     up:
       target_vnum: 010210810947
@@ -2179,11 +2667,13 @@
   local_id: '10946'
   name: O Túnel Secreto
   vnum: 010210810946
-- description: |-
-    Você está nadando pelos estreitos túneis de Tróia.  Os túneis só permitem
+- description: 'Você está nadando pelos estreitos túneis de Tróia.  Os túneis só permitem
+
     a passagem de uma pessoa, suas paredes são totalmente cobertas por algas e
+
     as águas que reinam nos túneis são extremamente escuras.  Ao norte e para
-    baixo você observa a continuação dos túneis secretos de Tróia.
+
+    baixo você observa a continuação dos túneis secretos de Tróia.'
   exits:
     down:
       target_vnum: 010210810946
@@ -2192,12 +2682,15 @@
   local_id: '10947'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810947
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte e ao sul você observa a continuação dos túneis
-    secretos de Tróia.
+
+    secretos de Tróia.'
   exits:
     north:
       target_vnum: 010210810949
@@ -2206,12 +2699,15 @@
   local_id: '10948'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810948
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste, sudeste e ao sul você observa a continuação
-    dos túneis secretos de Tróia.
+
+    dos túneis secretos de Tróia.'
   exits:
     northwest:
       target_vnum: 010210810950
@@ -2222,12 +2718,15 @@
   local_id: '10949'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810949
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao sudeste e ao sudoeste você observa a continuação dos
-    túneis secretos de Tróia.
+
+    túneis secretos de Tróia.'
   exits:
     southeast:
       target_vnum: 010210810951
@@ -2236,12 +2735,15 @@
   local_id: '10950'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810950
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao noroeste, sudoeste e ao sul você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     northeast:
       target_vnum: 010210810950
@@ -2252,12 +2754,15 @@
   local_id: '10951'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810951
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste, noroeste, leste e ao sul você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     east:
       target_vnum: 010210810953
@@ -2270,12 +2775,15 @@
   local_id: '10952'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810952
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte, oeste, sul e ao sudeste você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     north:
       target_vnum: 010210810951
@@ -2288,12 +2796,15 @@
   local_id: '10953'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810953
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte e ao sudeste você observa a continuação dos
-    túneis secretos de Tróia.
+
+    túneis secretos de Tróia.'
   exits:
     north:
       target_vnum: 010210810952
@@ -2302,12 +2813,15 @@
   local_id: '10954'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810954
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao leste e ao sul você observa a continuação dos túneis
-    secretos de Tróia.
+
+    secretos de Tróia.'
   exits:
     east:
       target_vnum: 010210810956
@@ -2316,12 +2830,15 @@
   local_id: '10955'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810955
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte, noroeste e oeste você observa a continuação
-    dos túneis secretos de Tróia.
+
+    dos túneis secretos de Tróia.'
   exits:
     north:
       target_vnum: 010210810953
@@ -2332,12 +2849,15 @@
   local_id: '10956'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810956
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao noroeste e ao sul você observa a continuação dos
-    túneis secretos de Tróia.
+
+    túneis secretos de Tróia.'
   exits:
     northeast:
       target_vnum: 010210810953
@@ -2346,12 +2866,15 @@
   local_id: '10957'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810957
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte, leste e ao sudoeste você observa a continuação
-    dos túneis secretos de Tróia.
+
+    dos túneis secretos de Tróia.'
   exits:
     east:
       target_vnum: 010210810959
@@ -2362,12 +2885,15 @@
   local_id: '10958'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810958
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte, oeste e ao sudoeste você observa a continuação
-    dos túneis secretos de Tróia.
+
+    dos túneis secretos de Tróia.'
   exits:
     north:
       target_vnum: 010210810957
@@ -2378,24 +2904,30 @@
   local_id: '10959'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810959
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao sudoeste você observa a continuação dos túneis
-    secretos de Tróia.
+
+    secretos de Tróia.'
   exits:
     southwest:
       target_vnum: 010210810973
   local_id: '10960'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810960
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao sudeste e ao sudoeste você observa a continuação dos
-    túneis secretos de Tróia.
+
+    túneis secretos de Tróia.'
   exits:
     southeast:
       target_vnum: 010210810963
@@ -2404,12 +2936,15 @@
   local_id: '10961'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810961
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste e ao sul você observa a continuação dos
-    túneis secretos de Tróia.
+
+    túneis secretos de Tróia.'
   exits:
     northwest:
       target_vnum: 010210810961
@@ -2418,12 +2953,15 @@
   local_id: '10962'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810962
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste, noroeste, leste e ao sul você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     east:
       target_vnum: 010210810974
@@ -2436,12 +2974,15 @@
   local_id: '10963'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810963
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte e ao sudeste você observa a continuação dos
-    túneis secretos de Tróia.
+
+    túneis secretos de Tróia.'
   exits:
     north:
       target_vnum: 010210810962
@@ -2450,12 +2991,15 @@
   local_id: '10964'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810964
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste e noroeste você observa a continuação dos
-    túneis secretos de Tróia.
+
+    túneis secretos de Tróia.'
   exits:
     northeast:
       target_vnum: 010210810964
@@ -2464,12 +3008,15 @@
   local_id: '10965'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810965
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste você observa a continuação dos túneis
-    secretos de Tróia.
+
+    secretos de Tróia.'
   exits:
     east:
       target_vnum: 010210810976
@@ -2480,48 +3027,60 @@
   local_id: '10966'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810966
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste você observa a continuação dos túneis
-    secretos de Tróia.
+
+    secretos de Tróia.'
   exits:
     northwest:
       target_vnum: 010210810975
   local_id: '10967'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810967
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao noroeste você observa a continuação dos túneis
-    secretos de Tróia.
+
+    secretos de Tróia.'
   exits:
     northeast:
       target_vnum: 010210810975
   local_id: '10968'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810968
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte você observa a continuação dos túneis secretos
-    de Tróia.
+
+    de Tróia.'
   exits:
     north:
       target_vnum: 010210810970
   local_id: '10969'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810969
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste, noroeste, oeste e ao sul você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     northeast:
       target_vnum: 010210810972
@@ -2534,24 +3093,30 @@
   local_id: '10970'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810970
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao sudoeste você observa a continuação dos túneis
-    secretos de Tróia.
+
+    secretos de Tróia.'
   exits:
     southwest:
       target_vnum: 010210810970
   local_id: '10971'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810971
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte, nordeste, noroeste, oeste e ao sudeste você
-    observa a continuação dos túneis secretos de Tróia.
+
+    observa a continuação dos túneis secretos de Tróia.'
   exits:
     north:
       target_vnum: 010210810973
@@ -2566,12 +3131,15 @@
   local_id: '10972'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810972
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao nordeste, sudoeste e ao sul você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     northwest:
       target_vnum: 010210810960
@@ -2582,12 +3150,15 @@
   local_id: '10973'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810973
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao oeste, nordeste, sudoeste e ao sudeste você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     northwest:
       target_vnum: 010210810973
@@ -2600,12 +3171,15 @@
   local_id: '10974'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810974
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao norte, leste, sudoeste e ao sudeste você observa a
-    continuação dos túneis secretos de Tróia.
+
+    continuação dos túneis secretos de Tróia.'
   exits:
     east:
       target_vnum: 010210810970
@@ -2618,13 +3192,17 @@
   local_id: '10975'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810975
-- description: |-
-    Você está nadando por um túnel bastante estreito e escuro, que transmite
+- description: 'Você está nadando por um túnel bastante estreito e escuro, que transmite
+
     uma sensação de claustrofobia até para os cavaleiros e amazonas mais
+
     experientes.  A cada curva ou a cada bifurcação você ansiosamente reza para
+
     encontrar a saída.  Ao leste, oeste, sul e ao nordeste você observa a
+
     continuação dos túneis secretos de Tróia.  Para cima você observa vários
-    feixes na superfície da água.
+
+    feixes na superfície da água.'
   exits:
     east:
       target_vnum: 010210810972
@@ -2639,22 +3217,28 @@
   local_id: '10976'
   name: Os Túneis Secretos de Tróia
   vnum: 010210810976
-- description: |-
-    Você está navegando entre várias embarcações monumentais.  Ao olhar para
+- description: 'Você está navegando entre várias embarcações monumentais.  Ao olhar
+    para
+
     os mastros mais elevados das embarcações, você observa várias bandeiras
+
     tremulando, ostentando o brasão das Amazonas de Pentesiléia.  Você começa a
+
     imaginar o que elas vieram fazer aqui, navegando em direção do Estreito de
-    Dardanelos.  Ao oeste você observa as águas do Mar Negro.
+
+    Dardanelos.  Ao oeste você observa as águas do Mar Negro.'
   exits:
     west:
       target_vnum: 010210810854
   local_id: '10977'
   name: O Mar Negro
   vnum: 010210810977
-- description: |-
-    Você está caminhando pela belíssima praia de Dardanelos.  Um brisa vinda
+- description: 'Você está caminhando pela belíssima praia de Dardanelos.  Um brisa
+    vinda
+
     do norte torna o local muito agradável.  Ao norte você observa o magnífico
-    Mar Negro e ao oeste você observa a bela praia de Dardanelos.
+
+    Mar Negro e ao oeste você observa a bela praia de Dardanelos.'
   exits:
     north:
       target_vnum: 010210810853
@@ -2663,54 +3247,66 @@
   local_id: '10978'
   name: A Praia de Dardanelos
   vnum: 010210810978
-- description: |-
-    Você está navegando as águas azuladas do mar Egeu.  Após horas no mar,
+- description: 'Você está navegando as águas azuladas do mar Egeu.  Após horas no
+    mar,
+
     você começa a confundir o mar com o céu.  Ao sul você observa o mar Egeu e
-    toda sua extensão e imponência.
+
+    toda sua extensão e imponência.'
   exits:
     south:
       target_vnum: 010210810820
   local_id: '10979'
   name: O Mar Egeu
   vnum: 010210810979
-- description: |-
-    Você está entre vários soldados gregos, que correm de um lado para o
+- description: 'Você está entre vários soldados gregos, que correm de um lado para
+    o
+
     outro organizando os preparativos finais para baterem em retirada do
+
     acampamento.  Quase todas as tendas já foram desarmadas e todo o armamento
+
     já foi guardado em grandes baús.  Será que os gregos vão fugir ?  Você
-    começa a se perguntar.  Ao noroeste você observa o centro do acampamento.
+
+    começa a se perguntar.  Ao noroeste você observa o centro do acampamento.'
   exits:
     northeast:
       target_vnum: 010210810844
   local_id: '10980'
   name: O Acampamento do Rei Ulisses
   vnum: 010210810980
-- description: |-
-    Você está no Monte Ida, local tranquilo e pacífico.  Onde os pastores das
+- description: 'Você está no Monte Ida, local tranquilo e pacífico.  Onde os pastores
+    das
+
     proximidades trazem suas ovelhas para dá-lhes alimento.  Ao norte você
+
     observa bem ao fundo a colina de Quíron e ao leste você observa a beleza e
-    tranquilidade do Monte Ida.
+
+    tranquilidade do Monte Ida.'
   exits:
     west:
       target_vnum: 010210810840
   local_id: '10981'
   name: O Monte Ida
   vnum: 010210810981
-- description: |-
-    Você está entre vários soldados troianos, que olham curiosamente para
+- description: 'Você está entre vários soldados troianos, que olham curiosamente para
+
     você.  Ao seu redor várias tendas e soldados se recuperando da última
+
     batalha contra os gregos.  Ao sudoeste você observa o centro do acampamento
-    troiano.
+
+    troiano.'
   exits:
     southwest:
       target_vnum: 010210810841
   local_id: '10982'
   name: O Acampamento do Rei Reso
   vnum: 010210810982
-- description: |-
-    Você está navegando nas águas tranquilas do rio Escamandro.  Ao oeste
+- description: 'Você está navegando nas águas tranquilas do rio Escamandro.  Ao oeste
+
     você observa as águas do rio Escamandro e ao sudoeste você observa um campo
-    florido.
+
+    florido.'
   exits:
     southwest:
       target_vnum: 010210810984
@@ -2719,12 +3315,16 @@
   local_id: '10983'
   name: O Rio Escamandro
   vnum: 010210810983
-- description: |-
-    Você está entre flores e borboletas coloridas, sentindo o perfume mais
+- description: 'Você está entre flores e borboletas coloridas, sentindo o perfume
+    mais
+
     nobre de toda as terras troianas.  Ao oeste e ao sul você observa brutais
+
     batalhas entre gregos e troianos.  Ao nordeste você observa as margens do
+
     rio Escamandro e ao sudoeste você observa a tranquilidade de um campo florido
-    sem batalhas e nem sangue.
+
+    sem batalhas e nem sangue.'
   exits:
     northwest:
       target_vnum: 010210810983
@@ -2737,11 +3337,14 @@
   local_id: '10984'
   name: Um Lindo Campo Florido
   vnum: 010210810984
-- description: |-
-    Você está entre flores e borboletas coloridas, sentindo o perfume mais
+- description: 'Você está entre flores e borboletas coloridas, sentindo o perfume
+    mais
+
     nobre de toda as terras troianas.  Ao leste você observa uma brutal batalha
+
     entre gregos e troianos.  Ao sul e sudeste você observa um lindo campo
-    florido.
+
+    florido.'
   exits:
     east:
       target_vnum: 010210810855
@@ -2752,23 +3355,29 @@
   local_id: '10985'
   name: Um Lindo Campo Florido
   vnum: 010210810985
-- description: |-
-    Você está caminhando entre alguns soldados gregos e tendas no acampamento
+- description: 'Você está caminhando entre alguns soldados gregos e tendas no acampamento
+
     do rei Menelau.  Ao seu redor vários soldados recebendo cuidados médicos e
+
     reparando suas armas.  Os soldados expressam em suas faces a angústia e o
+
     cansaço de nove anos de guerra.  Ao noroeste você observa o centro do
-    acampamento grego.
+
+    acampamento grego.'
   exits:
     southeast:
       target_vnum: 010210810822
   local_id: '10986'
   name: O Acampamento do Rei Menelau
   vnum: 010210810986
-- description: |-
-    Você está caminhando por entre as flores coloridas e as borboletas que
+- description: 'Você está caminhando por entre as flores coloridas e as borboletas
+    que
+
     sobrevoam as flores, pousando em suas pétalas.  Ao norte e nordeste você
+
     observa um campo florido e ao leste você observa uma violenta batalha entre
-    soldados gregos e troianos.
+
+    soldados gregos e troianos.'
   exits:
     east:
       target_vnum: 010210810861
@@ -2779,11 +3388,13 @@
   local_id: '10987'
   name: Um Campo Florido
   vnum: 010210810987
-- description: |-
-    Você está caminhando por um calmo e perfumado campo florido.  Borboletas
+- description: 'Você está caminhando por um calmo e perfumado campo florido.  Borboletas
+
     pousam em você e pássaros curiosos aproximam-se.  A sensação de paz só é
+
     quebrada pelos gritos de dor e morte vindos do norte e oeste. Ao noroeste
-    você observa um campo florido.
+
+    você observa um campo florido.'
   exits:
     north:
       target_vnum: 010210810859
@@ -2794,11 +3405,14 @@
   local_id: '10988'
   name: Um Campo Florido
   vnum: 010210810988
-- description: |-
-    Você está caminhando por entre os arbustos e flores do belo jardim da
+- description: 'Você está caminhando por entre os arbustos e flores do belo jardim
+    da
+
     cidade de Tróia.  Algumas pessoas cansadas da agitação da praça da cidade
+
     visitam o jardim e descansam nas sombras das árvores.  Ao leste você observa
-    a praça de Tróia e ao oeste você observa alguns arbustos.
+
+    a praça de Tróia e ao oeste você observa alguns arbustos.'
   exits:
     east:
       target_vnum: 010210810907
@@ -2807,39 +3421,52 @@
   local_id: '10989'
   name: O Jardim de Tróia
   vnum: 010210810989
-- description: |-
-    Você está no jardim da cidade.  Ao seu redor vários arbustos cercam o
+- description: 'Você está no jardim da cidade.  Ao seu redor vários arbustos cercam
+    o
+
     local.  Ao leste você observa por entre as folhas e galhos algumas pessoas
-    caminhando pela praça da cidade.
+
+    caminhando pela praça da cidade.'
   exits:
     east:
       target_vnum: 010210810989
   local_id: '10990'
   name: Atrás dos Arbustos do Jardim de Tróia
   vnum: 010210810990
-- description: |-
-    Você está no santuário dos guerreiros mortos.  Ao seu redor você observa
+- description: 'Você está no santuário dos guerreiros mortos.  Ao seu redor você observa
+
     várias urnas de ouro, que contém as cinzas dos nobres guerreiros troianos
+
     mortos nas batalhas contra os gregos.  No centro do santuário, você percebe
+
     uma grande pira, cercada de jarros de mel e óleo, 4 cavalos, dois cachorros
+
     e o corpo de cinco prisioneiros gregos.  Ao leste você observa o pátio de
-    jogos.
+
+    jogos.'
   exits:
     east:
       target_vnum: 010210810924
   local_id: '10991'
   name: O Santuário dos Guerreiros
   vnum: 010210810991
-- description: |-
-    Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+- description: 'Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+
     brisas vindas do oeste, oriundas do mar Egeu se chocam com as vindas do
+
     norte, que trazem o cheiro da praia de Dardanelos, somando-se a isso as
+
     belas paisagens que só podem ser vistas daqui, tornam este um dos lugares
+
     mais procurados pela realeza.  Você observa o horizonte e vê grandes canais
+
     de água, os chamados anéis de Tróia, que protegem a cidade.  Mas ao fundo
+
     você observa uma violenta batalha entre gregos e troianos.  Ao norte e ao
+
     oeste você observa a continuação da passarela.  Para baixo você observa os
-    aposentos reais.
+
+    aposentos reais.'
   exits:
     down:
       target_vnum: 010210810930
@@ -2850,16 +3477,23 @@
   local_id: '10992'
   name: A Passarela dos Muros do Palácio
   vnum: 010210810992
-- description: |-
-    Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+- description: 'Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+
     brisas vindas do oeste, oriundas do mar Egeu se chocam com as vindas do
+
     norte, que trazem o cheiro da praia de Dardanelos, somando-se a isso as
+
     belas paisagens que só podem ser vistas daqui, tornam este um dos lugares
+
     mais procurados pela realeza.  Você observa o horizonte e vê grandes canais
+
     de água, os chamados anéis de Tróia, que protegem a cidade.  Mas ao fundo
+
     você observa uma violenta batalha entre gregos e troianos, tendo como pano
+
     de fundo o rio Escamandro.  Ao oeste e ao sul você observa a continuação da
-    passarela dos muros do pálacio de Tróia.
+
+    passarela dos muros do pálacio de Tróia.'
   exits:
     south:
       target_vnum: 010210810992
@@ -2868,16 +3502,23 @@
   local_id: '10993'
   name: A Passarela dos Muros do Palácio
   vnum: 010210810993
-- description: |-
-    Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+- description: 'Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+
     brisas vindas do oeste, oriundas do mar Egeu se chocam com as vindas do
+
     norte, que trazem o cheiro da praia de Dardanelos, somando-se a isso as
+
     belas paisagens que só podem ser vistas daqui, tornam este um dos lugares
+
     mais procurados pela realeza.  Você observa o horizonte e percebe os
+
     magníficos anéis de Tróia, mas ao fundo você observa um acampamento com uma
+
     bandeira ostentando o brasão grego tremulando, tendo como pano de fundo o
+
     mar Egeu.  Ao norte e ao leste você observa a continuação da passarela dos
-    muros do pálacio de Tróia.
+
+    muros do pálacio de Tróia.'
   exits:
     east:
       target_vnum: 010210810992
@@ -2886,16 +3527,23 @@
   local_id: '10994'
   name: A Passarela dos Muros do Palácio
   vnum: 010210810994
-- description: |-
-    Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+- description: 'Você está caminhando na passarela dos muros do pálacio de Tróia.  As
+
     brisas vindas do oeste, oriundas do mar Egeu se chocam com as vindas do
+
     norte, que trazem o cheiro da praia de Dardanelos, somando-se a isso as
+
     belas paisagens que só podem ser vistas daqui, tornam este um dos lugares
+
     mais procurados pela realeza.  Você observa o horizonte e vê grandes canais
+
     de água, os chamados anéis de Tróia, que protegem a cidade.  Mas ao fundo
+
     você observa uma violenta batalha entre gregos e troianos, tendo como pano
+
     de fundo o rio Escamandro.  Ao leste e ao sul você observa a continuação da
-    passarela dos muros do pálacio de Tróia.
+
+    passarela dos muros do pálacio de Tróia.'
   exits:
     east:
       target_vnum: 010210810993
@@ -2904,35 +3552,44 @@
   local_id: '10995'
   name: A Passarela dos Muros do Palácio
   vnum: 010210810995
-- description: |-
-    Você está no magnífico salão real do palácio de Tróia.  A riqueza da
+- description: 'Você está no magnífico salão real do palácio de Tróia.  A riqueza
+    da
+
     cidade e de sua realeza fazem-se presentes neste salão.  O ouro e a prata
+
     fazem o salão brilhar como a constelação de Andrômeda, várias estátuas dos
+
     deuses e reis troianos embelezam ainda mais o salão.  Ao sul você observa
-    o majestoso salão real do palácio de Tróia.
+
+    o majestoso salão real do palácio de Tróia.'
   exits:
     south:
       target_vnum: 010210810929
   local_id: '10996'
   name: O Salão Real
   vnum: 010210810996
-- description: |-
-    Você está no nobre salão real do palácio de Tróia.  Ao seu redor você
+- description: 'Você está no nobre salão real do palácio de Tróia.  Ao seu redor você
+
     observa várias pinturas dos artistas mais nobres e encantadores de todas as
+
     terras de Tróia, retratando as belíssimas constelações de Cisne, Andrômena e
-    Aquário.  Ao norte você observa a continuação do salão real.
+
+    Aquário.  Ao norte você observa a continuação do salão real.'
   exits:
     north:
       target_vnum: 010210810929
   local_id: '10997'
   name: O Salão Real
   vnum: 010210810997
-- description: |-
-    Você está num aposento da realeza troiana.  Ao seu redor você observa
+- description: 'Você está num aposento da realeza troiana.  Ao seu redor você observa
+
     algumas camas e armários, pinturas ilustrando os filhos do rei Príamos e
+
     da rainha Hécuba.  Tudo aqui foi feito para um rei, como no salão real, ouro
+
     e prata compõem o ambiente.  Ao sul você observa o salão real e nordeste
-    você percebe uma porta dourada.
+
+    você percebe uma porta dourada.'
   exits:
     northwest:
       target_vnum: 010210810999
@@ -2941,12 +3598,15 @@
   local_id: '10998'
   name: Um Aposento Real
   vnum: 010210810998
-- description: |-
-    Você está entre ouro, prata e pedras preciosas, que foram acumuladas
+- description: 'Você está entre ouro, prata e pedras preciosas, que foram acumuladas
+
     pelo domínio dos troianos no Estreito de Dardanelos, uma das principais
+
     rotas de comércio.  Ao seu redor você observa tesouros de vários lugares.
+
     Marfim, ouro, prata, cobre, pedras preciosas e vários tecidos e especiarias.
-    Ao sudoeste você observa um aposento real.
+
+    Ao sudoeste você observa um aposento real.'
   exits:
     southwest:
       target_vnum: 010210810998

@@ -1,18 +1,20 @@
-- description: |-
-    Esta trilha sobe, sobe, sobe para o interior da montanha.  Você espera
+- description: 'Esta trilha sobe, sobe, sobe para o interior da montanha.  Você espera
+
     não cair, pois isso irá machucar muito, muito, mas muito mesmo!  A trilha
-    continua a leste e, você pode descer para o pequeno vale secreto a oeste.
+
+    continua a leste e, você pode descer para o pequeno vale secreto a oeste.'
   exits:
     east:
       target_vnum: '01010646401'
     west:
-      target_vnum: 01010644078
+      target_vnum: 01010404078
   local_id: '6400'
   name: A Trilha da Montanha
   vnum: '01010646400'
-- description: |-
-    Você está realmente alto agora.  Você pode continuar avançando ainda mais
-    alto nas montanhas, a leste, ou desistir e descer a oeste.
+- description: 'Você está realmente alto agora.  Você pode continuar avançando ainda
+    mais
+
+    alto nas montanhas, a leste, ou desistir e descer a oeste.'
   exits:
     east:
       target_vnum: '01010646402'
@@ -21,11 +23,14 @@
   local_id: '6401'
   name: A Trilha da Montanha
   vnum: '01010646401'
-- description: |-
-    Leves nuvens começam a circundar você, e suas orelhas dóem devido à
+- description: 'Leves nuvens começam a circundar você, e suas orelhas dóem devido
+    à
+
     altitude.  A leste, você vê o cume da montanha e, à medida que se aproxima,
+
     as montanhas vão se organizando através dela.  Você acredita que está no
-    caminho certo para o grande vale.  Você também pode descer a oeste.
+
+    caminho certo para o grande vale.  Você também pode descer a oeste.'
   exits:
     east:
       target_vnum: '01010646403'
@@ -34,13 +39,18 @@
   local_id: '6402'
   name: A Trilha da Montanha
   vnum: '01010646402'
-- description: |-
-    O pico desta montanha está a outra centena de metros acima de você, mas é
+- description: 'O pico desta montanha está a outra centena de metros acima de você,
+    mas é
+
     onde a trilha desce adentrando o vale...  Que vale excêntrico!
+
     O vale parece ter sido enchido por centenas de metros de lava a muitos
+
     anos atrás.  Isso dá ao vale uma peculiaridade, parece um chão liso e
+
     escurecido.  O caminho adentra ao vale pelo leste e, a oeste, volta à
-    civilização.
+
+    civilização.'
   exits:
     east:
       target_vnum: '01010646404'
@@ -49,11 +59,14 @@
   local_id: '6403'
   name: Próximo do Pico da Montanha
   vnum: '01010646403'
-- description: |-
-    A trilha desce ao vale onde, por julgar pela altura das árvores, a lava
+- description: 'A trilha desce ao vale onde, por julgar pela altura das árvores, a
+    lava
+
     congelou dezenas de décadas passadas.  Abaixo, você vê o caminho entrando na
+
     pequena floresta do vale e desaparecendo longe dos olhos.  A leste entra-se
-    no vale e ao oeste volta-se à civilização.
+
+    no vale e ao oeste volta-se à civilização.'
   exits:
     east:
       target_vnum: '01010646405'
@@ -62,14 +75,19 @@
   local_id: '6404'
   name: A Trilha para o Vale
   vnum: '01010646404'
-- description: |-
-    O chão foi tomado de lama em sua superfície, mas este vale é de longe
+- description: 'O chão foi tomado de lama em sua superfície, mas este vale é de longe
+
     muito liso e duro para ocultar a catástrofe que houve aqui a muito tempo
+
     atrás.  Olhando para as montanhas que circundam esta área você observa que
-    muitas montanhas aparentam ter 'explodido', o que é estranho,
+
+    muitas montanhas aparentam ter ''explodido'', o que é estranho,
+
     considerando-se que estas não são vulcões.
+
     O caminho a leste entra na floresta, enquanto a oeste retorna-se à
-    montanha.
+
+    montanha.'
   exits:
     east:
       target_vnum: '01010646406'
@@ -78,14 +96,19 @@
   local_id: '6405'
   name: No Vale
   vnum: '01010646405'
-- description: |-
-    Você chega em uma pequena clareira agora, após caminhar por muitos
+- description: 'Você chega em uma pequena clareira agora, após caminhar por muitos
+
     minutos através das árvores silenciosas.  Estranhos blocos surgem aqui e ali
+
     no chão...  Espera um momento.  Estas pedras parecem regulares, e pela
+
     formação e tamanho do círculo você quase pode assegurar que elas são...  Uma
+
     engrenagem?  Poderia algum tipo de construção ter sido enterrada aqui pela
+
     lava?  Um anel enferrujado surge do centro da terra...  Seria um alçapão?
-    Isso seria muito bom para ser verdade!
+
+    Isso seria muito bom para ser verdade!'
   exits:
     down:
       target_vnum: '01010646407'
@@ -94,12 +117,15 @@
   local_id: '6406'
   name: Na clareira
   vnum: '01010646406'
-- description: |-
-    Esta pequena sala é o topo da escadaria que desce às profundezas da
+- description: 'Esta pequena sala é o topo da escadaria que desce às profundezas da
+
     torre.  Um pequeno alçapão acima da sua cabeça permite que a luz do dia
+
     entre por suas bordas.  Para o sul existe uma porta de madeira, preservada
+
     através dos anos por métodos desconhecidos.  Para o oeste há um pequeno
-    saguão.
+
+    saguão.'
   exits:
     down:
       target_vnum: '01010646413'
@@ -112,21 +138,26 @@
   local_id: '6407'
   name: A Escadaria
   vnum: '01010646407'
-- description: |-
-    Esta pequena sala guarda muitas espécies de tecidos nas prateleiras ao
+- description: 'Esta pequena sala guarda muitas espécies de tecidos nas prateleiras
+    ao
+
     longo das paredes.  Eles estão com certeza preservados por uma mágica contra
+
     os penosos anos que se passaram, pois eles parecem ter sido lavados
+
     recentemente e dobrados.  Você gostaria de saber que tipo de mago poderia
-    lançar tanto poder para desperdiçar com pequenas coisas como essa.
+
+    lançar tanto poder para desperdiçar com pequenas coisas como essa.'
   exits:
     north:
       target_vnum: '01010646407'
   local_id: '6408'
   name: O Gabinete de Tecidos
   vnum: 01010646408
-- description: |-
-    Este é apenas um corredor vazio, que leva de volta à escadaria a leste, e
-    tem portas nas direções norte e sul, que levam a outras salas.
+- description: 'Este é apenas um corredor vazio, que leva de volta à escadaria a leste,
+    e
+
+    tem portas nas direções norte e sul, que levam a outras salas.'
   exits:
     east:
       target_vnum: '01010646407'
@@ -137,31 +168,37 @@
   local_id: '6409'
   name: Um Corredor
   vnum: 01010646409
-- description: |-
-    Isto aqui é algum tipo de banheiro, como você nunca viu antes...  Com
+- description: 'Isto aqui é algum tipo de banheiro, como você nunca viu antes...  Com
+
     jatos quentes e frios de água em todas as direções e, sendo drenados para...
-    Onde???  Que estranho!!!
+
+    Onde???  Que estranho!!!'
   exits:
     north:
       target_vnum: 01010646409
   local_id: '6410'
   name: Um Banheiro
   vnum: '01010646410'
-- description: |-
-    Esta é uma peça imponente, luxuosa, decorado com sedas e ouro.  Tem uma
+- description: 'Esta é uma peça imponente, luxuosa, decorado com sedas e ouro.  Tem
+    uma
+
     escrivaninha de ébano contra a parede, na superfície da qual há lava
+
     endurecida.  Um belo e espaçoso vestiário está repleto de roupas recém
-    lavadas e passadas.
+
+    lavadas e passadas.'
   exits:
     south:
       target_vnum: 01010646409
   local_id: '6411'
   name: O Quarto Principal
   vnum: '01010646411'
-- description: |-
-    Neste andar da torre há uma gloriosa biblioteca mágica.  Você sente que
+- description: 'Neste andar da torre há uma gloriosa biblioteca mágica.  Você sente
+    que
+
     poderia aprender qualquer coisa que desejasse se você olhar e ler pelo tempo
-    necessário.  Uma porta se abre de volta às escadarias a leste.
+
+    necessário.  Uma porta se abre de volta às escadarias a leste.'
   exits:
     east:
       target_vnum: '01010646413'
@@ -170,9 +207,10 @@
   local_id: '6412'
   name: A Biblioteca
   vnum: '01010646412'
-- description: |-
-    Esta escadaria continua para cima e para baixo.  Há também uma porta para
-    o oeste.
+- description: 'Esta escadaria continua para cima e para baixo.  Há também uma porta
+    para
+
+    o oeste.'
   exits:
     down:
       target_vnum: '01010646415'
@@ -183,9 +221,9 @@
   local_id: '6413'
   name: A Escadaria
   vnum: '01010646413'
-- description: |-
-    Neste pequeno saguão escondido há uma entrada secreta para a biblioteca
-    no final norte da parede oeste e, um alçapão, no final sul.
+- description: 'Neste pequeno saguão escondido há uma entrada secreta para a biblioteca
+
+    no final norte da parede oeste e, um alçapão, no final sul.'
   exits:
     down:
       target_vnum: '01010646416'
@@ -194,9 +232,10 @@
   local_id: '6414'
   name: Um Saguão Escondido
   vnum: '01010646414'
-- description: |-
-    Esta escadaria continua para cima e para baixo.  Há também uma porta se
-    abrindo a oeste neste andar.
+- description: 'Esta escadaria continua para cima e para baixo.  Há também uma porta
+    se
+
+    abrindo a oeste neste andar.'
   exits:
     down:
       target_vnum: '01010646422'
@@ -207,18 +246,18 @@
   local_id: '6415'
   name: A Escadaria
   vnum: '01010646415'
-- description: |-
-    BINGO!!!  Uma pequena sala "recheada" com tesouros!  Vai logo!
-    Sirva-se!!!
+- description: 'BINGO!!!  Uma pequena sala "recheada" com tesouros!  Vai logo!
+
+    Sirva-se!!!'
   exits:
     up:
       target_vnum: '01010646414'
   local_id: '6416'
   name: A Sala Escondida do Tesouro
   vnum: '01010646416'
-- description: |-
-    Este saguão leva direto à torre.  Há mais saguão para o oeste e, portas
-    ao seu sul e norte.  Uma porta à leste leva de volta às escadarias.
+- description: 'Este saguão leva direto à torre.  Há mais saguão para o oeste e, portas
+
+    ao seu sul e norte.  Uma porta à leste leva de volta às escadarias.'
   exits:
     east:
       target_vnum: '01010646415'
@@ -231,29 +270,34 @@
   local_id: '6417'
   name: Um Saguão
   vnum: '01010646417'
-- description: |-
-    Este parece ser um pequeno quarto dos criados, espartanamente decorado e
+- description: 'Este parece ser um pequeno quarto dos criados, espartanamente decorado
+    e
+
     equipado com uma cama, escrivaninha, cadeira e mesa, etc.  Nada realmente
-    importante aqui.
+
+    importante aqui.'
   exits:
     north:
       target_vnum: '01010646417'
   local_id: '6418'
   name: A Sala dos Criados
   vnum: 01010646418
-- description: |-
-    Este parece ser um pequeno quarto dos criados, espartanamente decorado e
+- description: 'Este parece ser um pequeno quarto dos criados, espartanamente decorado
+    e
+
     equipado com uma cama, escrivaninha, cadeira e mesa, etc.  Nada realmente
-    importante aqui.
+
+    importante aqui.'
   exits:
     south:
       target_vnum: '01010646417'
   local_id: '6419'
   name: A Sala dos Criados
   vnum: 01010646419
-- description: |-
-    Este saguão continua a leste e, tem uma porta ao norte.  Você pode jurar
-    este andar leva ao...  Não, não pode ser...
+- description: 'Este saguão continua a leste e, tem uma porta ao norte.  Você pode
+    jurar
+
+    este andar leva ao...  Não, não pode ser...'
   exits:
     east:
       target_vnum: '01010646417'
@@ -262,18 +306,20 @@
   local_id: '6420'
   name: Um Saguão
   vnum: '01010646420'
-- description: |-
-    Este parece ser um pequeno quarto dos criados, espartanamente decorado e
-    equipado com uma cama, cadeira e mesa, etc.  Nada realmente importante aqui.
+- description: 'Este parece ser um pequeno quarto dos criados, espartanamente decorado
+    e
+
+    equipado com uma cama, cadeira e mesa, etc.  Nada realmente importante aqui.'
   exits:
     south:
       target_vnum: '01010646420'
   local_id: '6421'
   name: A Sala dos Criados
   vnum: '01010646421'
-- description: |-
-    Esta escadaria leva para cima e para baixo e, há, uma grande sala aberta
-    ao seu lado oeste.
+- description: 'Esta escadaria leva para cima e para baixo e, há, uma grande sala
+    aberta
+
+    ao seu lado oeste.'
   exits:
     down:
       target_vnum: '01010646425'
@@ -284,13 +330,18 @@
   local_id: '6422'
   name: A Escadaria
   vnum: '01010646422'
-- description: |-
-    Esta é uma imensa sala de jantar, com uma grande mesa que se extende por
+- description: 'Esta é uma imensa sala de jantar, com uma grande mesa que se extende
+    por
+
     toda a sala.  Há cadeiras ao longo dos dois lados da mesa, que podem
+
     acomodar aproximadamente 10 pessoas.  Há também pinturas e tapeçarias nas
+
     paredes, colorindo o local.  A lava endurecida derramada nas janelas faz o
+
     lugar parecer assustador de alguma maneira.  Há uma porta para o norte e, a
-    escadaria é a leste.
+
+    escadaria é a leste.'
   exits:
     east:
       target_vnum: '01010646422'
@@ -299,19 +350,21 @@
   local_id: '6423'
   name: A Sala de Jantar
   vnum: '01010646423'
-- description: |-
-    Esta é uma cozinha bem suprida, as despensas continuam frescas e cheias
+- description: 'Esta é uma cozinha bem suprida, as despensas continuam frescas e cheias
+
     como se fosse por mágica.  Talvez este seja um bom lugar para dar uma
-    parada.
+
+    parada.'
   exits:
     south:
       target_vnum: '01010646423'
   local_id: '6424'
   name: A Cozinha
   vnum: '01010646424'
-- description: |-
-    A escadaria sobe ou desce deste ponto ou, há um saguão no qual você pode
-    entrar a oeste.
+- description: 'A escadaria sobe ou desce deste ponto ou, há um saguão no qual você
+    pode
+
+    entrar a oeste.'
   exits:
     down:
       target_vnum: 01010646429
@@ -322,10 +375,12 @@
   local_id: '6425'
   name: A Escadaria
   vnum: '01010646425'
-- description: |-
-    Esta área da torre parece úmida e opressiva, você realmente se sente mal
+- description: 'Esta área da torre parece úmida e opressiva, você realmente se sente
+    mal
+
     aqui.  O saguão tem direção norte- sul, e há uma cela vazia ao seu oeste.  A
-    escadaria é ao seu leste.
+
+    escadaria é ao seu leste.'
   exits:
     east:
       target_vnum: '01010646425'
@@ -336,29 +391,32 @@
   local_id: '6426'
   name: Um Saguão
   vnum: '01010646426'
-- description: |-
-    Este é o final norte do saguão.  Há celas à sua direita e também à
+- description: 'Este é o final norte do saguão.  Há celas à sua direita e também à
+
     esquerda, vazias e aguardando ocupantes...  Quem sabe não pode estar
-    esperando por você???
+
+    esperando por você???'
   exits:
     south:
       target_vnum: '01010646426'
   local_id: '6427'
   name: Um Saguão
   vnum: '01010646427'
-- description: |-
-    Este é o final sul do saguão.  Há celas à sua direita e também à
+- description: 'Este é o final sul do saguão.  Há celas à sua direita e também à
+
     esquerda, vazias e aguardando ocupantes...  Quem sabe não está esperando por
-    você???
+
+    você???'
   exits:
     north:
       target_vnum: '01010646426'
   local_id: '6428'
   name: Um Saguão
   vnum: 01010646428
-- description: |-
-    A escadaria continua para cima e para baixo deste ponto.  Uma grande sala
-    se abre a oeste.
+- description: 'A escadaria continua para cima e para baixo deste ponto.  Uma grande
+    sala
+
+    se abre a oeste.'
   exits:
     down:
       target_vnum: '01010646431'
@@ -369,10 +427,11 @@
   local_id: '6429'
   name: Uma Escadaria
   vnum: 01010646429
-- description: |-
-    Uma pequena escrivaninha está bagunçada com papéis e documentos
+- description: 'Uma pequena escrivaninha está bagunçada com papéis e documentos
+
     magicamente preservados.  Nada que parece ter valor, exceto talvez para um
-    historiador.  Este lugar não parece lhe despertar um real interesse...
+
+    historiador.  Este lugar não parece lhe despertar um real interesse...'
   exits:
     east:
       target_vnum: 01010646429
@@ -390,21 +449,25 @@
   local_id: '6431'
   name: A Escadaria
   vnum: '01010646431'
-- description: |-
-    Esta é uma simples sala de descanso, com cadeiras por todos os lados.
+- description: 'Esta é uma simples sala de descanso, com cadeiras por todos os lados.
+
     Uma lareira foi colocada em uma parede secreta, a chaminé, sem dúvida,
+
     direcionada pela mágica...
+
     Este vai ser um ótimo local para descansar um pouco, quentinho e
-    aconchegante...
+
+    aconchegante...'
   exits:
     east:
       target_vnum: '01010646431'
   local_id: '6432'
   name: Uma Sala de Descanso
   vnum: '01010646432'
-- description: |-
-    Este é o local onde a escadaria realmente termina.  Há um saguão para o
-    seu oeste.
+- description: 'Este é o local onde a escadaria realmente termina.  Há um saguão para
+    o
+
+    seu oeste.'
   exits:
     up:
       target_vnum: '01010646431'
@@ -413,11 +476,13 @@
   local_id: '6433'
   name: A Escadaria
   vnum: '01010646433'
-- description: |-
-    Este pequeno saguão, originalmente térreo, correu no sentido norte-sul.
+- description: 'Este pequeno saguão, originalmente térreo, correu no sentido norte-sul.
+
     A leste está a escadaria que sobe ao irreal recôndito da torre.  A Oeste
+
     está o caminho de entrada para a torre.  Para o norte está completamente
-    bloqueado pela lava e, o caminho ao sul continua limpo.
+
+    bloqueado pela lava e, o caminho ao sul continua limpo.'
   exits:
     east:
       target_vnum: '01010646433'
@@ -428,12 +493,16 @@
   local_id: '6434'
   name: Um Saguão
   vnum: '01010646434'
-- description: |-
-    Esta é uma grande câmara com uma porta dupla gigantesca a oeste.  A leste
+- description: 'Esta é uma grande câmara com uma porta dupla gigantesca a oeste.  A
+    leste
+
     está o andar principal da torre.  Esta sala está decorada de forma muito
+
     atrativa e impressionante, com esculturas e tapeçarias por toda a parte.  As
+
     portas parecem impenetráveis...  Você acha que não conseguiria passar por
-    elas se realmente precisasse...
+
+    elas se realmente precisasse...'
   exits:
     east:
       target_vnum: '01010646434'
@@ -442,20 +511,22 @@
   local_id: '6435'
   name: A Entrada
   vnum: '01010646435'
-- description: |-
-    Esta era a entrada para a torre.  Agora a lava bloqueou-a completamente.
+- description: 'Esta era a entrada para a torre.  Agora a lava bloqueou-a completamente.
+
     Entretanto, parece que quando a lava desabou havia um homem do lado de fora.
+
     Ele foi estraçalhado contra a porta e morreu instanta- neamente, mas seu
-    esqueleto continua segurando um cajado em perfeitas condições...
+
+    esqueleto continua segurando um cajado em perfeitas condições...'
   exits:
     east:
       target_vnum: '01010646435'
   local_id: '6436'
   name: A Passagem
   vnum: '01010646436'
-- description: |-
-    Esta é a parte sul do saguão.  Há uma porta a oeste, marcada por
-    brilhantes faixas de raios de luz.  Ao norte continua o saguão.
+- description: 'Esta é a parte sul do saguão.  Há uma porta a oeste, marcada por
+
+    brilhantes faixas de raios de luz.  Ao norte continua o saguão.'
   exits:
     north:
       target_vnum: '01010646434'
@@ -464,9 +535,9 @@
   local_id: '6437'
   name: O Saguão
   vnum: '01010646437'
-- description: |-
-    As escadas levam para baixo, à base da torre, ou você pode ir a leste
-    para o andar principal da torre.
+- description: 'As escadas levam para baixo, à base da torre, ou você pode ir a leste
+
+    para o andar principal da torre.'
   exits:
     down:
       target_vnum: 01010646439
@@ -475,9 +546,10 @@
   local_id: '6438'
   name: As Escadas
   vnum: 01010646438
-- description: |-
-    As escadas levam para cima, ao andar principal, ou você pode ir a leste
-    para a base da torre.
+- description: 'As escadas levam para cima, ao andar principal, ou você pode ir a
+    leste
+
+    para a base da torre.'
   exits:
     east:
       target_vnum: '01010646440'
@@ -486,9 +558,9 @@
   local_id: '6439'
   name: As Escadas
   vnum: 01010646439
-- description: |-
-    Esta alcova leva a uma extraordinária sala ao seu norte, e as escadas
-    seguem para baixo a leste ou para cima a oeste.
+- description: 'Esta alcova leva a uma extraordinária sala ao seu norte, e as escadas
+
+    seguem para baixo a leste ou para cima a oeste.'
   exits:
     east:
       target_vnum: '01010646442'
@@ -499,20 +571,23 @@
   local_id: '6440'
   name: Uma Alcova
   vnum: '01010646440'
-- description: |-
-    Este laboratório está abarrotado de coisas.  Bequers, frascos,
+- description: 'Este laboratório está abarrotado de coisas.  Bequers, frascos,
+
     fogareiros, pinças, pilões, jarras cheias de coisas normais, jarras cheias
+
     de coisas anormais, jarras cheias de coisas que você nem faz idéia...
-    Uma busca pode revelar muita coisa neste local!!!
+
+    Uma busca pode revelar muita coisa neste local!!!'
   exits:
     south:
       target_vnum: '01010646440'
   local_id: '6441'
   name: O Laboratório
   vnum: '01010646441'
-- description: |-
-    As escadas levam para baixo, ao segundo andar, ou de volta à alcova a
-    oeste.
+- description: 'As escadas levam para baixo, ao segundo andar, ou de volta à alcova
+    a
+
+    oeste.'
   exits:
     down:
       target_vnum: '01010646443'
@@ -521,9 +596,9 @@
   local_id: '6442'
   name: As Escadas
   vnum: '01010646442'
-- description: |-
-    As escadas levam para cima, ao primeiro andar, ou você pode ir a outra
-    grande sala à leste.
+- description: 'As escadas levam para cima, ao primeiro andar, ou você pode ir a outra
+
+    grande sala à leste.'
   exits:
     east:
       target_vnum: '01010646444'

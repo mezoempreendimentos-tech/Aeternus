@@ -1,17 +1,25 @@
-- vnum: "0"
-  name: "O Nexus do Vazio"
-  description: |
-    Você flutua em uma extensão interminável de névoa prateada, onde o chão e o céu são indistinguíveis.
-    Não há horizonte, apenas um brilho difuso que parece emanar da própria realidade. O silêncio aqui tem
-    peso, uma quietude densa que antecede o trovão. Fragmentos de memórias de vidas passadas — ou futuras —
+- description: 'Você flutua em uma extensão interminável de névoa prateada, onde o
+    chão e o céu são indistinguíveis.
+
+    Não há horizonte, apenas um brilho difuso que parece emanar da própria realidade.
+    O silêncio aqui tem
+
+    peso, uma quietude densa que antecede o trovão. Fragmentos de memórias de vidas
+    passadas — ou futuras —
+
     dançam na periferia da sua visão como vagalumes embriagados.
+
     Este é o ponto zero. O lugar entre os mundos.
-  sector: "ethereal"
-  flags:
-    - "safe"
-    - "indoors"
-    - "lawless"
+
+    '
   exits:
     north:
-      target_vnum: "1"  # Levará ao Mercado (futuramente)
-      desc: "Uma fenda na realidade revela o cheiro de especiarias e pedra molhada."
+      desc: Uma fenda na realidade revela o cheiro de especiarias e pedra molhada.
+      target_vnum: '01010000001'
+  flags:
+  - safe
+  - indoors
+  - lawless
+  name: O Nexus do Vazio
+  sector: ethereal
+  vnum: '0'

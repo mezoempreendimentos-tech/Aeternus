@@ -1,28 +1,34 @@
-- description: |-
-    Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas a
+- description: 'Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas
+    a
+
     grande maioria da flora local são vários tipos de vitória-régia.  Este
+
     jardim do Templo parece ser bem cuidado e todas as plantas estão
-    florescendo.
+
+    florescendo.'
   exits:
     south:
       target_vnum: 01010696903
   local_id: '6900'
   name: O Jardim
   vnum: 01010696900
-- description: |-
-    Você se encontra fora dos muros do primeiro Templo de Anura.  O muro é
+- description: 'Você se encontra fora dos muros do primeiro Templo de Anura.  O muro
+    é
+
     feito de pedra marrom e é muito alto para manter alguma coisa dentro ou
-    fora.
+
+    fora.'
   exits:
     south:
       target_vnum: 01010696906
   local_id: '6901'
   name: Fora dos Muros do Templo
   vnum: 01010696901
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696903
@@ -31,10 +37,11 @@
   local_id: '6902'
   name: Dentro do Templo
   vnum: 01010696902
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696904
@@ -47,10 +54,11 @@
   local_id: '6903'
   name: Dentro do Templo
   vnum: 01010696903
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     south:
       target_vnum: 01010696909
@@ -59,25 +67,30 @@
   local_id: '6904'
   name: Dentro do Templo
   vnum: 01010696904
-- description: |-
-    Você se encontra fora de um grande Templo no final da trilha estreita.  Uma
+- description: 'Você se encontra fora de um grande Templo no final da trilha estreita.  Uma
+
     subida íngreme leva para o Templo ao leste, e a trilha é para oeste.  Esse
+
     Templo contém importantes informações de onde se encontra os outros Templos
+
     de Anura, uma peça de quebra-cabeça que quando resolvido levará você para o
-    grande Templo de Anura, onde a riqueza está fora da sua imaginação.
+
+    grande Templo de Anura, onde a riqueza está fora da sua imaginação.'
   exits:
     east:
       target_vnum: 01010696906
     west:
-      target_vnum: 01010693301
+      target_vnum: '01010333301'
   local_id: '6905'
   name: Fora do Primeiro Templo
   vnum: 01010696905
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696907
@@ -90,9 +103,9 @@
   local_id: '6906'
   name: As Dependências do Templo
   vnum: 01010696906
-- description: |-
-    Você se encontra em um longo corredor sombrio.  Você pode ver algumas
-    fracas sombras, mas você acaba não vendo um palmo na sua frente.
+- description: 'Você se encontra em um longo corredor sombrio.  Você pode ver algumas
+
+    fracas sombras, mas você acaba não vendo um palmo na sua frente.'
   exits:
     east:
       target_vnum: 01010696908
@@ -105,9 +118,9 @@
   local_id: '6907'
   name: Corredor Sombrio
   vnum: 01010696907
-- description: |-
-    Você se encontra em um longo corredor sombrio.  Você pode ver algumas
-    fracas sombras, mas você acaba não vendo um palmo na sua frente.
+- description: 'Você se encontra em um longo corredor sombrio.  Você pode ver algumas
+
+    fracas sombras, mas você acaba não vendo um palmo na sua frente.'
   exits:
     east:
       target_vnum: 01010696909
@@ -120,9 +133,9 @@
   local_id: '6908'
   name: Corredor Sombrio
   vnum: 01010696908
-- description: |-
-    Você está em uma piscina de água antes do altar onde vê várias criaturas
-    nadando, parecendo pertubadas com sua presença.
+- description: 'Você está em uma piscina de água antes do altar onde vê várias criaturas
+
+    nadando, parecendo pertubadas com sua presença.'
   exits:
     east:
       target_vnum: 01010696910
@@ -135,9 +148,9 @@
   local_id: '6909'
   name: "Piscina de Ã\x81gua"
   vnum: 01010696909
-- description: |-
-    Você vê um grande altar dourado com uma estátua de um sapo gigante.  Você
-    vê outra sala para leste.
+- description: 'Você vê um grande altar dourado com uma estátua de um sapo gigante.  Você
+
+    vê outra sala para leste.'
   exits:
     down:
       target_vnum: 01010696917
@@ -148,32 +161,38 @@
   local_id: '6910'
   name: Um Altar para Anura
   vnum: 01010696910
-- description: |-
-    Você está em uma pequena sala atrás do altar.  Ela é escura mas parece
+- description: 'Você está em uma pequena sala atrás do altar.  Ela é escura mas parece
+
     haver escrituras na parede e há uma grande rocha no meio da sala.  As
+
     escrituras dizem a você que você pode usar as quatro tabuletas juntas para
+
     achar as chaves para o grande Templo de Anura.  Elas ainda falam sobre outro
-    Templo ao sudeste de Nova Thalos.
+
+    Templo ao sudeste de Nova Thalos.'
   exits:
     west:
       target_vnum: 01010696910
   local_id: '6911'
   name: Atrás do Altar
   vnum: 01010696911
-- description: |-
-    Você se encontra fora dos muros do primeiro Templo de Anura.  O muro é
+- description: 'Você se encontra fora dos muros do primeiro Templo de Anura.  O muro
+    é
+
     feito de pedra marrom e é muito alto para manter alguma coisa dentro ou
-    fora.
+
+    fora.'
   exits:
     north:
       target_vnum: 01010696906
   local_id: '6912'
   name: Fora dos Muros do Templo
   vnum: 01010696912
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696914
@@ -182,10 +201,11 @@
   local_id: '6913'
   name: Dentro do Templo
   vnum: 01010696913
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696915
@@ -198,10 +218,11 @@
   local_id: '6914'
   name: Dentro do Templo
   vnum: 01010696914
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     north:
       target_vnum: 01010696909
@@ -210,54 +231,64 @@
   local_id: '6915'
   name: Dentro do Templo
   vnum: 01010696915
-- description: |-
-    Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas a
+- description: 'Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas
+    a
+
     grande maioria da flora local são vários tipos de vitória-régia.  Este
+
     jardim do Templo parece ser bem cuidado e todas as plantas estão
-    florescendo.
+
+    florescendo.'
   exits:
     north:
       target_vnum: 01010696914
   local_id: '6916'
   name: O Jardim
   vnum: 01010696916
-- description: |-
-    Você se encontra em uma pequena sala sob o altar.  O chão é coberto de
-    areia, mas se você procurar bem saberá que pode encontrar alguma coisa ali.
+- description: 'Você se encontra em uma pequena sala sob o altar.  O chão é coberto
+    de
+
+    areia, mas se você procurar bem saberá que pode encontrar alguma coisa ali.'
   exits:
     up:
       target_vnum: 01010696910
   local_id: '6917'
   name: Sob o Altar
   vnum: 01010696917
-- description: |-
-    Você se encontra fora de um Templo retangular construído para Anura.
+- description: 'Você se encontra fora de um Templo retangular construído para Anura.
+
     Para o sul está as dependências do Templo, e para norte se encontra a cidade
-    de Nova Thalos.
+
+    de Nova Thalos.'
   exits:
     northeast:
-      target_vnum: 01010695411
+      target_vnum: '01010545411'
     south:
       target_vnum: 01010696920
   local_id: '6918'
   name: Fora do Segundo Templo
   vnum: 01010696918
-- description: |-
-    Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas a
+- description: 'Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas
+    a
+
     grande maioria da flora local são vários tipos de vitória-régia.  Este
+
     jardim do Templo parece ser bem cuidado e todas as plantas estão
-    florescendo.
+
+    florescendo.'
   exits:
     east:
       target_vnum: 01010696920
   local_id: '6919'
   name: O Jardim
   vnum: 01010696919
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696921
@@ -270,11 +301,14 @@
   local_id: '6920'
   name: As Dependências do Templo
   vnum: 01010696920
-- description: |-
-    Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas a
+- description: 'Você está agora em um pequeno jardim.  Há muitas plantas aqui, mas
+    a
+
     grande maioria da flora local são vários tipos de vitória-régia.  Este
+
     jardim do Templo parece ser bem cuidado e todas as plantas estão
-    florescendo.
+
+    florescendo.'
   exits:
     down:
       target_vnum: 01010696934
@@ -283,10 +317,11 @@
   local_id: '6921'
   name: O Jardim
   vnum: 01010696921
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696923
@@ -295,10 +330,11 @@
   local_id: '6922'
   name: Dentro do Templo
   vnum: 01010696922
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696924
@@ -311,10 +347,11 @@
   local_id: '6923'
   name: Dentro do Templo
   vnum: 01010696923
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     south:
       target_vnum: 01010696927
@@ -323,10 +360,11 @@
   local_id: '6924'
   name: Dentro do Templo
   vnum: 01010696924
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696926
@@ -351,10 +389,11 @@
   local_id: '6926'
   name: O Altar Norte
   vnum: 01010696926
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     north:
       target_vnum: 01010696924
@@ -377,10 +416,11 @@
   local_id: '6928'
   name: O Altar Oeste
   vnum: 01010696928
-- description: |-
-    Você se encontra no altar central de um dos Templos construídos para
+- description: 'Você se encontra no altar central de um dos Templos construídos para
+
     Anura.  Algumas inscrições dizem a você que existe outro Templo aos
-    arredores.
+
+    arredores.'
   exits:
     east:
       target_vnum: 01010696930
@@ -405,10 +445,11 @@
   local_id: '6930'
   name: O Altar Leste
   vnum: 01010696930
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696932
@@ -428,10 +469,11 @@
   local_id: '6932'
   name: O Altar Sul
   vnum: 01010696932
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     north:
       target_vnum: 01010696930
@@ -440,18 +482,19 @@
   local_id: '6933'
   name: Dentro do Templo
   vnum: 01010696933
-- description: |-
-    Você se encontra em um buraco no chão.  Areia solta cobre o fundo do
-    buraco.
+- description: 'Você se encontra em um buraco no chão.  Areia solta cobre o fundo
+    do
+
+    buraco.'
   exits:
     up:
       target_vnum: 01010696921
   local_id: '6934'
   name: Sob o Jardim
   vnum: 01010696934
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     east:
       target_vnum: 01010696936
@@ -460,9 +503,9 @@
   local_id: '6935'
   name: O Lago
   vnum: 01010696935
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     east:
       target_vnum: 01010696937
@@ -471,9 +514,9 @@
   local_id: '6936'
   name: O Lago
   vnum: 01010696936
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     east:
       target_vnum: 01010696938
@@ -482,9 +525,9 @@
   local_id: '6937'
   name: O Lago
   vnum: 01010696937
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     east:
       target_vnum: 01010696939
@@ -493,9 +536,9 @@
   local_id: '6938'
   name: O Lago
   vnum: 01010696938
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     south:
       target_vnum: 01010696944
@@ -504,9 +547,9 @@
   local_id: '6939'
   name: O Lago
   vnum: 01010696939
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     north:
       target_vnum: 01010696935
@@ -515,11 +558,13 @@
   local_id: '6940'
   name: O Lago
   vnum: 01010696940
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696942
@@ -528,11 +573,13 @@
   local_id: '6941'
   name: As Dependências do Templo
   vnum: 01010696941
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696943
@@ -543,11 +590,13 @@
   local_id: '6942'
   name: As Dependências do Templo
   vnum: 01010696942
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     south:
       target_vnum: 01010696949
@@ -556,9 +605,9 @@
   local_id: '6943'
   name: As Dependências do Templo
   vnum: 01010696943
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     north:
       target_vnum: 01010696939
@@ -574,9 +623,9 @@
   local_id: '6945'
   name: Sob o Lago
   vnum: 01010696945
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     north:
       target_vnum: 01010696940
@@ -585,11 +634,13 @@
   local_id: '6946'
   name: O Lago
   vnum: 01010696946
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696948
@@ -600,10 +651,11 @@
   local_id: '6947'
   name: As Dependências do Templo
   vnum: 01010696947
-- description: |-
-    Você se encontra no altar do terceiro Templo de Anura.  Algumas
+- description: 'Você se encontra no altar do terceiro Templo de Anura.  Algumas
+
     inscrições no altar dizem a você que há outro Templo nos túneis a norte de
-    Nova Thalos.
+
+    Nova Thalos.'
   exits:
     east:
       target_vnum: 01010696949
@@ -616,11 +668,13 @@
   local_id: '6948'
   name: O Grande Altar
   vnum: 01010696948
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696950
@@ -633,9 +687,9 @@
   local_id: '6949'
   name: As Dependências do Templo
   vnum: 01010696949
-- description: |-
-    Você se encontra em uma ponte sobre um pequeno lago fora do terceiro
-    Templo de Anura.  O Templo está a oeste e o lago corre para norte e sul.
+- description: 'Você se encontra em uma ponte sobre um pequeno lago fora do terceiro
+
+    Templo de Anura.  O Templo está a oeste e o lago corre para norte e sul.'
   exits:
     east:
       target_vnum: 01010696951
@@ -648,21 +702,22 @@
   local_id: '6950'
   name: Na Ponte
   vnum: 01010696950
-- description: |-
-    Você se encontra fora de um Templo em forma piramidal que foi construído
+- description: 'Você se encontra fora de um Templo em forma piramidal que foi construído
+
     para Anura.  A oeste está uma ponte atravessando o lago que circunda o
-    Templo.
+
+    Templo.'
   exits:
     east:
-      target_vnum: 01010695023
+      target_vnum: '01010505023'
     west:
       target_vnum: 01010696950
   local_id: '6951'
   name: Fora do Terceiro Templo
   vnum: 01010696951
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     north:
       target_vnum: 01010696946
@@ -671,11 +726,13 @@
   local_id: '6952'
   name: O Lago
   vnum: 01010696952
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696954
@@ -684,11 +741,13 @@
   local_id: '6953'
   name: As Dependências do Templo
   vnum: 01010696953
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696955
@@ -699,11 +758,13 @@
   local_id: '6954'
   name: As Dependências do Templo
   vnum: 01010696954
-- description: |-
-    Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+- description: 'Você se encontra em um lugar íngreme das dependências do Templo.  Elas
+
     são feitas de uma espécie de rocha marrom que foi bem cuidada e é bem macia.
+
     Você vê algumas plantas florescendo nas fendas das dependências e indo em
-    direção ao sol.
+
+    direção ao sol.'
   exits:
     east:
       target_vnum: 01010696949
@@ -712,9 +773,9 @@
   local_id: '6955'
   name: As Dependências do Templo
   vnum: 01010696955
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     north:
       target_vnum: 01010696950
@@ -723,9 +784,9 @@
   local_id: '6956'
   name: O Lago
   vnum: 01010696956
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     down:
       target_vnum: 01010696945
@@ -736,10 +797,11 @@
   local_id: '6957'
   name: O Lago
   vnum: 01010696957
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
     está tranqüilo e sem ondas e existe uma fina camada de limo sobre
-    a água.
+
+    a água.'
   exits:
     east:
       target_vnum: 01010696959
@@ -748,9 +810,9 @@
   local_id: '6958'
   name: O Lago
   vnum: 01010696958
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     east:
       target_vnum: 01010696960
@@ -759,10 +821,11 @@
   local_id: '6959'
   name: O Lago
   vnum: 01010696959
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.
+
     Ele está tranqüilo e sem ondas e existe uma fina camada de limo sobre
-    a água.
+
+    a água.'
   exits:
     east:
       target_vnum: 01010696961
@@ -771,9 +834,9 @@
   local_id: '6960'
   name: O Lago
   vnum: 01010696960
-- description: |-
-    Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
-    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.
+- description: 'Você está em um pequeno lago que rodeia o terceiro Templo de Anura.  Ele
+
+    está tranqüilo e sem ondas e existe uma fina camada de limo sobre a água.'
   exits:
     north:
       target_vnum: 01010696956
@@ -782,20 +845,22 @@
   local_id: '6961'
   name: O Lago
   vnum: 01010696961
-- description: |-
-    Você se encontra agora no altar do quarto Templo de Anura.  Algumas
+- description: 'Você se encontra agora no altar do quarto Templo de Anura.  Algumas
+
     inscrições no altar dizem a você que você deve reunir as quatro tabuletas
-    para encontrar as chaves para o quinto Templo.
+
+    para encontrar as chaves para o quinto Templo.'
   exits:
     south:
       target_vnum: 01010696964
   local_id: '6962'
   name: O Altar
   vnum: 01010696962
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696964
@@ -804,10 +869,12 @@
   local_id: '6963'
   name: Dentro do Templo
   vnum: 01010696963
-- description: |-
-    Você está em frente à um grande poço no chão da onde pulam labaredas de
+- description: 'Você está em frente à um grande poço no chão da onde pulam labaredas
+    de
+
     fogo.  Ele é muito quente e será melhor andar nas bordas do poço se
-    possível.
+
+    possível.'
   exits:
     down:
       target_vnum: 01010696970
@@ -822,10 +889,11 @@
   local_id: '6964'
   name: Poço de Fogo
   vnum: 01010696964
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     south:
       target_vnum: 01010696968
@@ -834,10 +902,11 @@
   local_id: '6965'
   name: Dentro do Templo
   vnum: 01010696965
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696967
@@ -846,10 +915,11 @@
   local_id: '6966'
   name: Dentro do Templo
   vnum: 01010696966
-- description: |-
-    Você se encontra dentro de um pequeno Templo construído de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construído de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     east:
       target_vnum: 01010696968
@@ -862,10 +932,11 @@
   local_id: '6967'
   name: Dentro do Templo
   vnum: 01010696967
-- description: |-
-    Você se encontra dentro de um pequeno Templo construido de pedras.  A
+- description: 'Você se encontra dentro de um pequeno Templo construido de pedras.  A
+
     sala é iluminada por tochas que estão presas nas paredes, mas elas não
-    produzem muita luz, e as chamas estão começando a desaparecer.
+
+    produzem muita luz, e as chamas estão começando a desaparecer.'
   exits:
     north:
       target_vnum: 01010696965
@@ -874,14 +945,14 @@
   local_id: '6968'
   name: Dentro do Templo
   vnum: 01010696968
-- description: |-
-    Você se encontra antes de um pequeno Templo construído para Anura.  A
-    entrada do Templo está a norte, enquanto um labirinto de túneis está a sul.
+- description: 'Você se encontra antes de um pequeno Templo construído para Anura.  A
+
+    entrada do Templo está a norte, enquanto um labirinto de túneis está a sul.'
   exits:
     north:
       target_vnum: 01010696967
     south:
-      target_vnum: 01010694013
+      target_vnum: '01010404013'
   local_id: '6969'
   name: Fora do Quarto Templo
   vnum: 01010696969
@@ -892,56 +963,62 @@
   local_id: '6970'
   name: No Fogo
   vnum: 01010696970
-- description: |-
-    Você está em uma escura caverna que contém uma porta de madeira no seu
-    chão.
+- description: 'Você está em uma escura caverna que contém uma porta de madeira no
+    seu
+
+    chão.'
   exits:
     down:
       target_vnum: 01010696972
     west:
-      target_vnum: 01010697201
+      target_vnum: '01010727201'
   local_id: '6971'
   name: Uma Caverna Escura
   vnum: 01010696971
-- description: |-
-    Você está caindo em um poço sombrio, mas uma porta de madeira parou a sua
-    queda temporariamente.
+- description: 'Você está caindo em um poço sombrio, mas uma porta de madeira parou
+    a sua
+
+    queda temporariamente.'
   exits:
     down:
       target_vnum: 01010696973
   local_id: '6972'
   name: Um Poço Sombrio
   vnum: 01010696972
-- description: |-
-    Você está caindo em um poço sombrio, mas uma porta de madeira parou a sua
-    queda temporariamente.
+- description: 'Você está caindo em um poço sombrio, mas uma porta de madeira parou
+    a sua
+
+    queda temporariamente.'
   exits:
     down:
       target_vnum: 01010696974
   local_id: '6973'
   name: Um Poço Sombrio
   vnum: 01010696973
-- description: |-
-    Você está caindo em um poço sombrio, mas uma porta de madeira parou a sua
-    queda temporariamente.
+- description: 'Você está caindo em um poço sombrio, mas uma porta de madeira parou
+    a sua
+
+    queda temporariamente.'
   exits:
     down:
       target_vnum: 01010696975
   local_id: '6974'
   name: Um Poço Sombrio
   vnum: 01010696974
-- description: |-
-    Você está caindo em um poço sombrio, mas uma porta de madeira parou a sua
-    queda temporariamente.
+- description: 'Você está caindo em um poço sombrio, mas uma porta de madeira parou
+    a sua
+
+    queda temporariamente.'
   exits:
     down:
       target_vnum: 01010696982
   local_id: '6975'
   name: Um Poço Sombrio
   vnum: 01010696975
-- description: |-
-    Você se encontra no altar principal do grande Templo de Anura que você
-    encontrou com sucesso.
+- description: 'Você se encontra no altar principal do grande Templo de Anura que
+    você
+
+    encontrou com sucesso.'
   exits:
     down:
       target_vnum: 01010696987
@@ -950,9 +1027,10 @@
   local_id: '6976'
   name: Altar Principal
   vnum: 01010696976
-- description: |-
-    Você se encontra antes do altar principal.  O altar se encontra a norte
-    atrás de uma porta de madeira.
+- description: 'Você se encontra antes do altar principal.  O altar se encontra a
+    norte
+
+    atrás de uma porta de madeira.'
   exits:
     north:
       target_vnum: 01010696976
@@ -961,11 +1039,14 @@
   local_id: '6977'
   name: Antes do Altar Principal
   vnum: 01010696977
-- description: |-
-    Você está flutuando no ar sobre um poço sem fundo no Templo graças a uma
+- description: 'Você está flutuando no ar sobre um poço sem fundo no Templo graças
+    a uma
+
     intensa coluna de ar que o impele para o alto.  Você provavelmente não está
+
     seguro ficando aqui, sendo melhor você pisar em um solo firme antes que o
-    vento que o mantém resolva desaparecer.
+
+    vento que o mantém resolva desaparecer.'
   exits:
     down:
       target_vnum: 01010696988
@@ -989,11 +1070,14 @@
   local_id: '6979'
   name: O Altar Norte
   vnum: 01010696979
-- description: |-
-    Você está flutuando no ar sobre um poço sem fundo no Templo graças a uma
+- description: 'Você está flutuando no ar sobre um poço sem fundo no Templo graças
+    a uma
+
     intensa coluna de ar que o impele para o alto.  Você provavelmente não está
+
     seguro ficando aqui, sendo melhor você pisar em um solo firme antes que o
-    vento que o mantém resolva desaparecer.
+
+    vento que o mantém resolva desaparecer.'
   exits:
     down:
       target_vnum: 01010696988
@@ -1015,9 +1099,10 @@
   local_id: '6981'
   name: O Altar Oeste
   vnum: 01010696981
-- description: |-
-    Você chegou no fundo do poço.  Há altares para todas as direções, e
-    existe muita areia no chão aqui.
+- description: 'Você chegou no fundo do poço.  Há altares para todas as direções,
+    e
+
+    existe muita areia no chão aqui.'
   exits:
     east:
       target_vnum: 01010696983
@@ -1041,11 +1126,14 @@
   local_id: '6983'
   name: O Altar Leste
   vnum: 01010696983
-- description: |-
-    Você está flutuando no ar sobre um poço sem fundo no Templo graças a uma
+- description: 'Você está flutuando no ar sobre um poço sem fundo no Templo graças
+    a uma
+
     intensa coluna de ar que o impele para o alto.  Você provavelmente não está
+
     seguro ficando aqui, sendo melhor você pisar em um solo firme antes que o
-    vento que o mantém resolva desaparecer.
+
+    vento que o mantém resolva desaparecer.'
   exits:
     down:
       target_vnum: 01010696988
@@ -1067,11 +1155,14 @@
   local_id: '6985'
   name: O Altar Sul
   vnum: 01010696985
-- description: |-
-    Você está flutuando no ar sobre um poço sem fundo no Templo graças a uma
+- description: 'Você está flutuando no ar sobre um poço sem fundo no Templo graças
+    a uma
+
     intensa coluna de ar que o impele para o alto.  Você provavelmente não está
+
     seguro ficando aqui, sendo melhor você pisar em um solo firme antes que o
-    vento que o mantém resolva desaparecer.
+
+    vento que o mantém resolva desaparecer.'
   exits:
     down:
       target_vnum: 01010696988
@@ -1083,106 +1174,117 @@
 - description: Você está sob o altar principal de Anura.
   exits:
     down:
-      target_vnum: 01010690050
+      target_vnum: '01010000050'
     up:
       target_vnum: 01010696976
   local_id: '6987'
   name: Sob o Altar Principal
   vnum: 01010696987
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696989
   local_id: '6988'
   name: Um Poço Quase Sem Fim
   vnum: 01010696988
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696990
   local_id: '6989'
   name: Um Poço Quase Sem Fim
   vnum: 01010696989
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696991
   local_id: '6990'
   name: Um Poço Quase Sem Fim
   vnum: 01010696990
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696992
   local_id: '6991'
   name: Um Poço Quase Sem Fim
   vnum: 01010696991
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696993
   local_id: '6992'
   name: Um Poço Quase Sem Fim
   vnum: 01010696992
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696994
   local_id: '6993'
   name: Um Poço Quase Sem Fim
   vnum: 01010696993
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696995
   local_id: '6994'
   name: Um Poço Quase Sem Fim
   vnum: 01010696994
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696996
   local_id: '6995'
   name: Um Poço Quase Sem Fim
   vnum: 01010696995
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696997
   local_id: '6996'
   name: Um Poço Quase Sem Fim
   vnum: 01010696996
-- description: |-
-    Você começa a cair, cair, cair e cair quando a coluna de ar pare de o
-    sustentar no ar.  Parece que você está em um poço sem fim.
+- description: 'Você começa a cair, cair, cair e cair quando a coluna de ar pare de
+    o
+
+    sustentar no ar.  Parece que você está em um poço sem fim.'
   exits:
     down:
       target_vnum: 01010696998
   local_id: '6997'
   name: Um Poço Quase Sem Fim
   vnum: 01010696997
-- description: |-
-    Você caiu bem no fim do poço. Aqui é muito escuro, frio e úmido,
+- description: 'Você caiu bem no fim do poço. Aqui é muito escuro, frio e úmido,
+
     sendo que estranhas coisas peludas passam a todo instante por sobre
-    você. Não há saída aparente.
+
+    você. Não há saída aparente.'
   exits: {}
   local_id: '6998'
   name: O Fim do Poço

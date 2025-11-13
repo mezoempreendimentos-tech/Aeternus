@@ -1,6 +1,6 @@
-- description: |-
-    Ao entrar neste tunel, você encontra a correnteza deste rio que
-    corta as montanhas.  Há uma ramificação para o norte.
+- description: 'Ao entrar neste tunel, você encontra a correnteza deste rio que
+
+    corta as montanhas.  Há uma ramificação para o norte.'
   exits:
     east:
       target_vnum: '01010505002'
@@ -46,11 +46,13 @@
   local_id: '5004'
   name: Um Túnel Longo
   vnum: '01010505004'
-- description: |-
-    Você está flutuando em um negro lago subterrâneo, alimentado pelo
+- description: 'Você está flutuando em um negro lago subterrâneo, alimentado pelo
+
     gotejar da água e do limbo que vem de cima. O túnel continua ao leste
+
     e a correnteza do rio a oeste. Conduzindo acima ao noroeste há um
-    corredor.
+
+    corredor.'
   exits:
     east:
       target_vnum: '01010505006'
@@ -74,9 +76,9 @@
   local_id: '5006'
   name: Um Longo Túnel Estreito
   vnum: '01010505006'
-- description: |-
-    O túnel segue para leste e oeste. Para o leste, o túnel mergulha
-    na direção de uma clara luz. Uma passagem pequena se abre ao norte.
+- description: 'O túnel segue para leste e oeste. Para o leste, o túnel mergulha
+
+    na direção de uma clara luz. Uma passagem pequena se abre ao norte.'
   exits:
     east:
       target_vnum: '01010505026'
@@ -85,9 +87,9 @@
   local_id: '5007'
   name: Um Túnel Largo
   vnum: '01010505007'
-- description: |-
-    Você se encontra bem no limite de um grande monte de pedregulhos,
-    fruto do último deslizamento.
+- description: 'Você se encontra bem no limite de um grande monte de pedregulhos,
+
+    fruto do último deslizamento.'
   exits:
     down:
       target_vnum: 01010505009
@@ -96,9 +98,9 @@
   local_id: '5008'
   name: A Entrada da Caverna
   vnum: 01010505008
-- description: |-
-    Você está bem ao fundo de uma grande pilha de pedregulho. Um túnel
-    se ramifica  para o norte e leste.
+- description: 'Você está bem ao fundo de uma grande pilha de pedregulho. Um túnel
+
+    se ramifica  para o norte e leste.'
   exits:
     east:
       target_vnum: '01010505012'
@@ -109,9 +111,9 @@
   local_id: '5009'
   name: Ao Pé dos Pedregulhos
   vnum: 01010505009
-- description: |-
-    Você se encontra no meio de uma caverna grande e bonita. Um caminho
-    conduz para a mais profunda escuridão.
+- description: 'Você se encontra no meio de uma caverna grande e bonita. Um caminho
+
+    conduz para a mais profunda escuridão.'
   exits:
     down:
       target_vnum: '01010505011'
@@ -120,13 +122,14 @@
   local_id: '5010'
   name: Uma Entrada de Caverna
   vnum: '01010505010'
-- description: |-
-    Esta caverna o subjuga. As paredes e o teto parecem estar há
+- description: 'Esta caverna o subjuga. As paredes e o teto parecem estar há
+
     milhas de distância de você. Ossos de desafortunados aventureiros estão
-    espalhados pelo chão de toda a caverna.
+
+    espalhados pelo chão de toda a caverna.'
   exits:
     down:
-      target_vnum: '01010505100'
+      target_vnum: '01010515100'
     up:
       target_vnum: '01010505010'
   local_id: '5011'
@@ -141,9 +144,9 @@
   local_id: '5012'
   name: Uma Curva Estreita
   vnum: '01010505012'
-- description: |-
-    Você se encontra dentro de uma caverna muito grande.  Muitas peles
-    estão jogadas pelo chão.
+- description: 'Você se encontra dentro de uma caverna muito grande.  Muitas peles
+
+    estão jogadas pelo chão.'
   exits:
     east:
       target_vnum: '01010505014'
@@ -170,9 +173,9 @@
   local_id: '5015'
   name: Uma Piscina Subterrânea
   vnum: '01010505015'
-- description: |-
-    As paredes do túnel são extremamente úmidas aqui. Você ouve a doce
-    melodia provocada pelo constante movimento da água corrente ao sul
+- description: 'As paredes do túnel são extremamente úmidas aqui. Você ouve a doce
+
+    melodia provocada pelo constante movimento da água corrente ao sul'
   exits:
     north:
       target_vnum: '01010505015'
@@ -181,9 +184,9 @@
   local_id: '5016'
   name: "Um Corredor Ã\x9Amido"
   vnum: '01010505016'
-- description: |-
-    Este canal é grande o bastante para que um homem adulto rasteje ou
-    para que outro tipo de forma de vida caminhe livremente.
+- description: 'Este canal é grande o bastante para que um homem adulto rasteje ou
+
+    para que outro tipo de forma de vida caminhe livremente.'
   exits:
     east:
       target_vnum: 01010505018
@@ -194,9 +197,9 @@
   local_id: '5017'
   name: Um Canal Estreito
   vnum: '01010505017'
-- description: |-
-    Você entrou dentro de uma caverna muito grande. As formações
-    rochosas causariam espanto em práticamente todos os anões.
+- description: 'Você entrou dentro de uma caverna muito grande. As formações
+
+    rochosas causariam espanto em práticamente todos os anões.'
   exits:
     north:
       target_vnum: '01010505004'
@@ -205,9 +208,9 @@
   local_id: '5018'
   name: Uma Caverna Grande
   vnum: 01010505018
-- description: |-
-    Enquanto você anda através do caminho de fungos, você se vê
-    envolvido por milhões e milhões de esporos. Você mal consegue respirar.
+- description: 'Enquanto você anda através do caminho de fungos, você se vê
+
+    envolvido por milhões e milhões de esporos. Você mal consegue respirar.'
   exits:
     east:
       target_vnum: '01010505020'
@@ -216,9 +219,9 @@
   local_id: '5019'
   name: Um Caminho de Fungo
   vnum: 01010505019
-- description: |-
-    A medida em que você anda através do caminho, milhões de esporos
-    são arremessados em sua direção. Isso lhe dificulta a respiração.
+- description: 'A medida em que você anda através do caminho, milhões de esporos
+
+    são arremessados em sua direção. Isso lhe dificulta a respiração.'
   exits:
     south:
       target_vnum: '01010505021'
@@ -227,9 +230,9 @@
   local_id: '5020'
   name: O Caminho de Fungo
   vnum: '01010505020'
-- description: |-
-    Você se encontra dentro de um gigantesco cogumelo. Seu interior
-    está todo enfeitado como um templo.
+- description: 'Você se encontra dentro de um gigantesco cogumelo. Seu interior
+
+    está todo enfeitado como um templo.'
   exits:
     east:
       target_vnum: '01010505022'
@@ -238,9 +241,9 @@
   local_id: '5021'
   name: O Templo de Fungos
   vnum: '01010505021'
-- description: |-
-    Você segue por um caminho que se inclina por baixo do templo de
-    fungos.
+- description: 'Você segue por um caminho que se inclina por baixo do templo de
+
+    fungos.'
   exits:
     down:
       target_vnum: '01010505023'
@@ -256,15 +259,17 @@
     up:
       target_vnum: '01010505022'
     west:
-      target_vnum: 01010506951
+      target_vnum: 01010696951
   local_id: '5023'
   name: Uma Passagem Inclinada
   vnum: '01010505023'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+
     encontra uma gigantesca montanha com seu cume embranquecido por neves
-    eternas.
+
+    eternas.'
   exits:
     east:
       target_vnum: '01010505034'
@@ -275,11 +280,13 @@
   local_id: '5024'
   name: O Grande Deserto Oriental
   vnum: '01010505024'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+
     encontra uma gigantesca montanha com seu cume embranquecido por neves
-    eternas.
+
+    eternas.'
   exits:
     east:
       target_vnum: '01010505031'
@@ -290,12 +297,15 @@
   local_id: '5025'
   name: O Grande Deserto Oriental
   vnum: '01010505025'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+
     encontra uma gigantesca montanha com seu cume embranquecido por neves
+
     eternas. O buraco por onde você saiu é muito alto para que possa ser
-    alcançado.
+
+    alcançado.'
   exits:
     east:
       target_vnum: '01010505036'
@@ -306,11 +316,13 @@
   local_id: '5026'
   name: O Grande Deserto Oriental
   vnum: '01010505026'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+
     encontra uma gigantesca montanha com seu cume embranquecido por neves
-    eternas.
+
+    eternas.'
   exits:
     east:
       target_vnum: '01010505033'
@@ -321,12 +333,15 @@
   local_id: '5027'
   name: O Grande Deserto Oriental
   vnum: '01010505027'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. Ao leste há uma pirâmide e ao oeste se
+
     encontra uma gigantesca montanha com seu cume embranquecido por neves
+
     eternas. Você espia através de uma estreita trilha de terra que conduz
-    para o oeste, por entre o pé das montanhas.
+
+    para o oeste, por entre o pé das montanhas.'
   exits:
     east:
       target_vnum: '01010505033'
@@ -335,15 +350,17 @@
     south:
       target_vnum: 01010505029
     west:
-      target_vnum: 010105012068
+      target_vnum: 01010202068
   local_id: '5028'
   name: O Grande Deserto Oriental
   vnum: 01010505028
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. A nordeste há uma pirâmide e ao oeste se
+
     encontra uma gigantesca montanha com seu cume embranquecido por neves
-    eternas.
+
+    eternas.'
   exits:
     east:
       target_vnum: '01010505037'
@@ -354,10 +371,11 @@
   local_id: '5029'
   name: O Grande Deserto Oriental
   vnum: 01010505029
-- description: |-
-    Você se vê ao lado de uma pequenina piscina de águas cristalinas,
+- description: 'Você se vê ao lado de uma pequenina piscina de águas cristalinas,
+
     envolvivas pelas sombras de algumas raras palmeiras. Ao norte, você
-    vê um pequeno acampamento, descansando.
+
+    vê um pequeno acampamento, descansando.'
   exits:
     east:
       target_vnum: '01010505036'
@@ -366,15 +384,15 @@
     south:
       target_vnum: '01010505032'
     up:
-      target_vnum: '01010502000'
+      target_vnum: '01010202000'
     west:
       target_vnum: '01010505025'
   local_id: '5030'
   name: Um Pequeno Oásis
   vnum: '01010505030'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao leste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao leste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505031'
@@ -387,9 +405,9 @@
   local_id: '5031'
   name: O Grande Deserto Oriental
   vnum: '01010505031'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao leste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao leste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505036'
@@ -402,9 +420,9 @@
   local_id: '5032'
   name: O Grande Deserto Oriental
   vnum: '01010505032'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A nordeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A nordeste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505037'
@@ -417,9 +435,9 @@
   local_id: '5033'
   name: O Grande Deserto Oriental
   vnum: '01010505033'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A sudeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A sudeste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505035'
@@ -432,13 +450,14 @@
   local_id: '5034'
   name: O Grande Deserto Oriental
   vnum: '01010505034'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. A leste há uma pirâmide que parece ser
-    enorme, mesmo a esta distância.
+
+    enorme, mesmo a esta distância.'
   exits:
     east:
-      target_vnum: '01010505300'
+      target_vnum: '01010535300'
     north:
       target_vnum: 01010505039
     south:
@@ -448,9 +467,9 @@
   local_id: '5035'
   name: O Grande Deserto Oriental
   vnum: '01010505035'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A nordeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A nordeste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505041'
@@ -463,12 +482,12 @@
   local_id: '5036'
   name: O Grande Deserto Oriental
   vnum: '01010505036'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A nordeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A nordeste há uma pirâmide.'
   exits:
     east:
-      target_vnum: 01010508101
+      target_vnum: 01010818101
     north:
       target_vnum: 01010505048
     south:
@@ -478,9 +497,9 @@
   local_id: '5037'
   name: O Grande Deserto Oriental
   vnum: '01010505037'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao sul há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao sul há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505045'
@@ -493,9 +512,9 @@
   local_id: '5038'
   name: O Grande Deserto Oriental
   vnum: 01010505038
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao sul há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao sul há uma pirâmide.'
   exits:
     east:
       target_vnum: 01010505039
@@ -508,11 +527,13 @@
   local_id: '5039'
   name: O Grande Deserto Oriental
   vnum: 01010505039
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. Você está próximo a uma pirâmide
+
     gigantesca localizada a uns cem metros a oeste de você.  Daqui você
-    consegue sentiro grande mal que se encontra dentro da estrutura volumosa.
+
+    consegue sentiro grande mal que se encontra dentro da estrutura volumosa.'
   exits:
     east:
       target_vnum: 01010505049
@@ -521,13 +542,13 @@
     south:
       target_vnum: '01010505041'
     west:
-      target_vnum: '01010505300'
+      target_vnum: '01010535300'
   local_id: '5040'
   name: O Grande Deserto Oriental
   vnum: '01010505040'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
-    passa por constantes mudanças.  Ao norte há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+
+    passa por constantes mudanças.  Ao norte há uma pirâmide.'
   exits:
     east:
       target_vnum: 01010505048
@@ -540,9 +561,9 @@
   local_id: '5041'
   name: O Grande Deserto Oriental
   vnum: '01010505041'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao norte há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao norte há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505055'
@@ -555,9 +576,9 @@
   local_id: '5042'
   name: O Grande Deserto Oriental
   vnum: '01010505042'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao norte há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao norte há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505055'
@@ -570,10 +591,11 @@
   local_id: '5043'
   name: O Grande Deserto Oriental
   vnum: '01010505043'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+
     passa por constantes mudanças.  Ao norte há uma pirâmide e há uma cidade
-    arruinada a oeste.
+
+    arruinada a oeste.'
   exits:
     east:
       target_vnum: '01010505055'
@@ -582,13 +604,13 @@
     south:
       target_vnum: 01010505029
     west:
-      target_vnum: '01010505200'
+      target_vnum: '01010525200'
   local_id: '5044'
   name: O Grande Deserto Oriental
   vnum: '01010505044'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao sul há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao sul há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505052'
@@ -601,9 +623,9 @@
   local_id: '5045'
   name: O Grande Deserto Oriental
   vnum: '01010505045'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. Ao sudoeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. Ao sudoeste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505047'
@@ -616,9 +638,9 @@
   local_id: '5046'
   name: O Grande Deserto Oriental
   vnum: '01010505046'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A oeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A oeste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505051'
@@ -631,9 +653,9 @@
   local_id: '5047'
   name: O Grande Deserto Oriental
   vnum: '01010505047'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A oeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A oeste há uma pirâmide.'
   exits:
     east:
       target_vnum: 01010505048
@@ -646,9 +668,9 @@
   local_id: '5048'
   name: O Grande Deserto Oriental
   vnum: 01010505048
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A noroeste há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A noroeste há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505054'
@@ -661,14 +683,14 @@
   local_id: '5049'
   name: O Grande Deserto Oriental
   vnum: 01010505049
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
-    passa por constantes mudanças. A norte há uma pirâmide.
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
+    passa por constantes mudanças. A norte há uma pirâmide.'
   exits:
     east:
       target_vnum: '01010505054'
     north:
-      target_vnum: '01010505300'
+      target_vnum: '01010535300'
     south:
       target_vnum: '01010505044'
     west:
@@ -676,10 +698,11 @@
   local_id: '5050'
   name: O Grande Deserto Oriental
   vnum: '01010505050'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. Ao sudoeste há uma pirâmide e ao leste se
-    encontra um canion muito profundo.
+
+    encontra um canion muito profundo.'
   exits:
     north:
       target_vnum: '01010505051'
@@ -690,11 +713,13 @@
   local_id: '5051'
   name: O Grande Deserto Oriental
   vnum: '01010505051'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. A sudoeste há uma pirâmide e um canion
+
     muito profundo se encontra ao leste. Um pouco abaixo, você pode perceber
-    uma pequena borda.
+
+    uma pequena borda.'
   exits:
     down:
       target_vnum: '01010505063'
@@ -707,10 +732,11 @@
   local_id: '5052'
   name: O Grande Deserto Oriental
   vnum: '01010505052'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas.  A areia ao seu redor
+
     passa por constantes mudanças.  A oeste há uma pirâmide e um canion muito
-    profundo se encontra ao leste.
+
+    profundo se encontra ao leste.'
   exits:
     east:
       target_vnum: '01010505062'
@@ -723,10 +749,11 @@
   local_id: '5053'
   name: O Grande Deserto Oriental
   vnum: '01010505053'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. A oeste há uma pirâmide e um canion
-    muito profundo se encontra ao leste.
+
+    muito profundo se encontra ao leste.'
   exits:
     north:
       target_vnum: '01010505053'
@@ -737,10 +764,11 @@
   local_id: '5054'
   name: O Grande Deserto Oriental
   vnum: '01010505054'
-- description: |-
-    Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+- description: 'Um vasto deserto se estende por milhas e milhas. A areia ao seu redor
+
     passa por constantes mudanças. A noroeste há uma pirâmide e um canion
-    muito profundo se encontra ao leste.
+
+    muito profundo se encontra ao leste.'
   exits:
     north:
       target_vnum: '01010505054'
@@ -751,11 +779,13 @@
   local_id: '5055'
   name: O Grande Deserto Oriental
   vnum: '01010505055'
-- description: |-
-    Este pequeno grupo de nômades do deserto, parou durante o dia para
+- description: 'Este pequeno grupo de nômades do deserto, parou durante o dia para
+
     descansar e se refrescar neste oásis maravilhoso.  Três tendas e
+
     alguns camelos fazem parte do cenário.  De dentro de duas das tendas,
-    você ouve vozes abafadas, obviamente surpresas com a sua visita.
+
+    você ouve vozes abafadas, obviamente surpresas com a sua visita.'
   exits:
     east:
       target_vnum: '01010505057'
@@ -768,20 +798,22 @@
   local_id: '5056'
   name: Um Acampamento de Nômades
   vnum: '01010505056'
-- description: |-
-    Esta é uma pequena e simples tenda, em cujo interior poucas posses
+- description: 'Esta é uma pequena e simples tenda, em cujo interior poucas posses
+
     foram guardadas. Homens e mulheres jazem deitados por todos os lados,
-    possivelmente são os escravos do líder deste bando.
+
+    possivelmente são os escravos do líder deste bando.'
   exits:
     west:
       target_vnum: '01010505056'
   local_id: '5057'
   name: Dentro de Uma Pequena Tenda
   vnum: '01010505057'
-- description: |-
-    Aqui estão aproximadamente dez camelos, todos amarrados a algumas
+- description: 'Aqui estão aproximadamente dez camelos, todos amarrados a algumas
+
     estacas cravadas no chão. Ao leste você vê uma pequena tenda e ao norte
-    você vê uma tenda bem maior e muito mais luxuosa.
+
+    você vê uma tenda bem maior e muito mais luxuosa.'
   exits:
     east:
       target_vnum: 01010505059
@@ -794,20 +826,23 @@
   local_id: '5058'
   name: Ao lado dos Camelos
   vnum: 01010505058
-- description: |-
-    Esta tenda possui pouco mobiliário mas guarda, principalmente, os que
+- description: 'Esta tenda possui pouco mobiliário mas guarda, principalmente, os
+    que
+
     são os protetores do bando. Quando você entra, sente que todos lhe fixam
-    friamente.
+
+    friamente.'
   exits:
     west:
       target_vnum: 01010505058
   local_id: '5059'
   name: A Tenda dos Guerreiros
   vnum: 01010505059
-- description: |-
-    Esta tenda é tão bem decorada em seu interior quanto no seu exterior.
+- description: 'Esta tenda é tão bem decorada em seu interior quanto no seu exterior.
+
     Um tapete foi cuidadosamente estendido sobre a areia e numerosas cestas
-    enfileiram-se nas paredes.
+
+    enfileiram-se nas paredes.'
   exits:
     east:
       target_vnum: '01010505061'
@@ -816,33 +851,41 @@
   local_id: '5060'
   name: A Tenda Principal
   vnum: '01010505060'
-- description: |-
-    Este é o local onde o líder deste grupo de nômades reside. Você
+- description: 'Este é o local onde o líder deste grupo de nômades reside. Você
+
     examina cuidadosamente as belas tapeçarias, cestas e alguns pinturas
+
     que ali estão enfeitando o ambiente e conclui que, definitvamente,
-    o dono desta tenda é muito rico.
+
+    o dono desta tenda é muito rico.'
   exits:
     west:
       target_vnum: '01010505060'
   local_id: '5061'
   name: A Tenda Principal
   vnum: '01010505061'
-- description: |-
-    Você cuidadosamente começa a caminhar para o outro lado da ponte mas,
+- description: 'Você cuidadosamente começa a caminhar para o outro lado da ponte mas,
+
     de repente, a corda se rompe e você cai.......
+
     ...e cai
+
     ...e cai
+
     ...e cai
-    ...e você encontra a morte nas pedras abaixo.
+
+    ...e você encontra a morte nas pedras abaixo.'
   exits: {}
   local_id: '5062'
   name: A Ponte de Corda Esgarçada
   vnum: '01010505062'
-- description: |-
-    Sendo muito cuidadoso para não perder o equilíbrio, você dá uma olhada
+- description: 'Sendo muito cuidadoso para não perder o equilíbrio, você dá uma olhada
+
     e acha que este canion deve ter mais ou menos 1/2 quilômetro de
+
     profundidade. Para o oeste há uma caverna escura que segue por debaixo
-    das areias do deserto e sobre a sua cabeça há uma ponte de corda.
+
+    das areias do deserto e sobre a sua cabeça há uma ponte de corda.'
   exits:
     up:
       target_vnum: '01010505052'
@@ -851,10 +894,11 @@
   local_id: '5063'
   name: A Borda de Vento
   vnum: '01010505063'
-- description: |-
-    O ar daqui é MUITO mais fresco que o de fora. Vindos do oeste, você
+- description: 'O ar daqui é MUITO mais fresco que o de fora. Vindos do oeste, você
+
     ouve sons estranhos, mas não consegue ver nada.  A caverna se aprofunda
-    na escuridão.
+
+    na escuridão.'
   exits:
     east:
       target_vnum: '01010505063'
@@ -863,11 +907,13 @@
   local_id: '5064'
   name: A Entrada da Caverna
   vnum: '01010505064'
-- description: |-
-    Você acabou de tropeçar na casa de alguém.  Pelos tesouros largados
+- description: 'Você acabou de tropeçar na casa de alguém.  Pelos tesouros largados
+
     displicentemente e as inúmeras carcaças apodrecendo, você diria que esta
+
     é a toca de um dragão. Dizer que tipo de dragão é este, você não poderia
-    dizer com certeza. A caverna estreita fora em um túnel para o oeste.
+
+    dizer com certeza. A caverna estreita fora em um túnel para o oeste.'
   exits:
     east:
       target_vnum: '01010505064'
@@ -876,9 +922,9 @@
   local_id: '5065'
   name: Uma Toca Misteriosa
   vnum: '01010505065'
-- description: |-
-    Este túnel parece entrar infinitamente atraves da escuridão. Você
-    cuidadosamente vai apalpando as paredes para sentir por onde anda.
+- description: 'Este túnel parece entrar infinitamente atraves da escuridão. Você
+
+    cuidadosamente vai apalpando as paredes para sentir por onde anda.'
   exits:
     east:
       target_vnum: '01010505065'
@@ -887,9 +933,9 @@
   local_id: '5066'
   name: Um Túnel Largo
   vnum: '01010505066'
-- description: |-
-    O túnel vai ficando muito estreito e você tem que se espremer para
-    conseguir passar. O chão parece que se nivelou um pouco.
+- description: 'O túnel vai ficando muito estreito e você tem que se espremer para
+
+    conseguir passar. O chão parece que se nivelou um pouco.'
   exits:
     east:
       target_vnum: '01010505066'
@@ -898,9 +944,10 @@
   local_id: '5067'
   name: Um Túnel Mais Estreito
   vnum: '01010505067'
-- description: |-
-    Esta é a parte do túnel onde fica mais difícil de se mover, porque as
-    paredes parecem que estão vindo ao seu encontro.
+- description: 'Esta é a parte do túnel onde fica mais difícil de se mover, porque
+    as
+
+    paredes parecem que estão vindo ao seu encontro.'
   exits:
     north:
       target_vnum: '01010505067'
@@ -919,9 +966,10 @@
   local_id: '5069'
   name: Uma Pequena Caverna
   vnum: 01010505069
-- description: |-
-    Atraves deste pequeno feixe de luz você pode ver um buraco estreito no
-    teto grande o bastante para uma pessoa passar. Ao leste está a caverna.
+- description: 'Atraves deste pequeno feixe de luz você pode ver um buraco estreito
+    no
+
+    teto grande o bastante para uma pessoa passar. Ao leste está a caverna.'
   exits:
     east:
       target_vnum: 01010505069

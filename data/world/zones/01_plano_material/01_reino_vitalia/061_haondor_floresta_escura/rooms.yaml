@@ -1,21 +1,24 @@
-- description: |-
-    Você está em um estreito caminho que faz seu caminho através dos enormes
+- description: 'Você está em um estreito caminho que faz seu caminho através dos enormes
+
     troncos cinzas.  As copas das árvores são muito densas, deixando a floresta
-    na escuridão.  O caminho segue ao leste e ao oeste.
+
+    na escuridão.  O caminho segue ao leste e ao oeste.'
   exits:
     east:
-      target_vnum: '01010616004'
+      target_vnum: '01010606004'
     north:
-      target_vnum: '01010616064'
+      target_vnum: '01010606064'
     west:
       target_vnum: '01010616101'
   local_id: '6100'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616100'
-- description: |-
-    Você está em um empoeirado caminho que segue para o leste e oeste, entre
+- description: 'Você está em um empoeirado caminho que segue para o leste e oeste,
+    entre
+
     enormes árvores antigas, cujos troncos lembram antigos pilares de um
-    corredor deserto.  Ao sul, um frágil caminho o conduz além.
+
+    corredor deserto.  Ao sul, um frágil caminho o conduz além.'
   exits:
     east:
       target_vnum: '01010616100'
@@ -26,10 +29,11 @@
   local_id: '6101'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616101'
-- description: |-
-    Você está em um empoeirado caminho que segue pelo leste e oeste entre
+- description: 'Você está em um empoeirado caminho que segue pelo leste e oeste entre
+
     enormes árvores antigas que o cerca de todos os lados.  Nenhum som pode ser
-    ouvido - tudo está em completo silêncio.
+
+    ouvido - tudo está em completo silêncio.'
   exits:
     east:
       target_vnum: '01010616101'
@@ -38,11 +42,13 @@
   local_id: '6102'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616102'
-- description: |-
-    Você está onde o caminho faz uma curva, como que para evitar se chocar
+- description: 'Você está onde o caminho faz uma curva, como que para evitar se chocar
+
     com um tronco colossal ao oeste.  Nenhum som pode ser ouvido - tudo está em
+
     completo silêncio.  O caminho segue ao leste e ao sul, e um pequeno caminho
-    leva para longe da trilha ao norte.
+
+    leva para longe da trilha ao norte.'
   exits:
     east:
       target_vnum: '01010616102'
@@ -51,14 +57,15 @@
     south:
       target_vnum: 01010616108
     southwest:
-      target_vnum: '01010612040'
+      target_vnum: '01010202040'
   local_id: '6103'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616103'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Você se sente como se as antigas árvores observassem você em
-    profundo silencio.  O caminho continua ao norte e ao sul.
+
+    profundo silencio.  O caminho continua ao norte e ao sul.'
   exits:
     north:
       target_vnum: '01010616101'
@@ -67,10 +74,11 @@
   local_id: '6104'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: '01010616104'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua ao
-    norte e ao oeste.
+
+    norte e ao oeste.'
   exits:
     north:
       target_vnum: '01010616104'
@@ -79,10 +87,12 @@
   local_id: '6105'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: '01010616105'
-- description: |-
-    Você está em uma junção onde três caminhos se encontram.  Antigas árvores
+- description: 'Você está em uma junção onde três caminhos se encontram.  Antigas
+    árvores
+
     acinzentadas o cercam de todos os lados.  Os caminhos seguem para o leste,
-    sul e oeste.
+
+    sul e oeste.'
   exits:
     east:
       target_vnum: '01010616105'
@@ -93,10 +103,11 @@
   local_id: '6106'
   name: Uma Junção na Escura Floresta Profunda
   vnum: '01010616106'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua ao
-    norte e ao leste.
+
+    norte e ao leste.'
   exits:
     east:
       target_vnum: '01010616106'
@@ -105,11 +116,13 @@
   local_id: '6107'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: '01010616107'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua
+
     para o norte e oeste e ao sul, um frágil caminho o leva para longe do
-    caminho.
+
+    caminho.'
   exits:
     north:
       target_vnum: '01010616103'
@@ -120,10 +133,11 @@
   local_id: '6108'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: 01010616108
-- description: |-
-    Você está em um empoeirado caminho que segue pelo leste e oeste entre
+- description: 'Você está em um empoeirado caminho que segue pelo leste e oeste entre
+
     enormes árvores antigas que o cerca de todos os lados.  Nenhum som pode ser
-    ouvido - tudo está em completo silêncio.
+
+    ouvido - tudo está em completo silêncio.'
   exits:
     east:
       target_vnum: 01010616108
@@ -132,10 +146,12 @@
   local_id: '6109'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: 01010616109
-- description: |-
-    Antigas árvores acinzentadas o cercam de todos os lados.  O caminho segue
+- description: 'Antigas árvores acinzentadas o cercam de todos os lados.  O caminho
+    segue
+
     ao leste e ao sul.  Ao oeste, um pequeno caminho o leva para longe da
-    trilha.
+
+    trilha.'
   exits:
     east:
       target_vnum: 01010616109
@@ -146,9 +162,10 @@
   local_id: '6110'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616110'
-- description: |-
-    Você está em um caminho empoeirado que segue ao norte e sul entre as
-    enormes árvores antigas que lhe observam silenciosamente.
+- description: 'Você está em um caminho empoeirado que segue ao norte e sul entre
+    as
+
+    enormes árvores antigas que lhe observam silenciosamente.'
   exits:
     north:
       target_vnum: '01010616110'
@@ -157,10 +174,11 @@
   local_id: '6111'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616111'
-- description: |-
-    Você está em um caminho empoeirado que segue entre as enormes árvores
+- description: 'Você está em um caminho empoeirado que segue entre as enormes árvores
+
     antigas que o cercam de todos os lados.  O caminho segue ao norte e oeste e
-    ao leste, um frágil caminho o leva para longe do caminho.
+
+    ao leste, um frágil caminho o leva para longe do caminho.'
   exits:
     east:
       target_vnum: '01010616113'
@@ -171,10 +189,11 @@
   local_id: '6112'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616112'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua ao
-    sul e ao oeste.
+
+    sul e ao oeste.'
   exits:
     south:
       target_vnum: '01010616114'
@@ -183,10 +202,12 @@
   local_id: '6113'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: '01010616113'
-- description: |-
-    Você está em uma junção onde três caminhos se encontram.  Antigas árvores
+- description: 'Você está em uma junção onde três caminhos se encontram.  Antigas
+    árvores
+
     acinzentadas o cercam de todos os lados.  Os caminhos seguem para leste e
-    oeste.
+
+    oeste.'
   exits:
     east:
       target_vnum: '01010616115'
@@ -197,10 +218,11 @@
   local_id: '6114'
   name: Uma Junção na Escura Floresta Profunda
   vnum: '01010616114'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua ao
-    norte e ao oeste.
+
+    norte e ao oeste.'
   exits:
     north:
       target_vnum: '01010616116'
@@ -209,10 +231,11 @@
   local_id: '6115'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: '01010616115'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua á
-    leste e sul.
+
+    leste e sul.'
   exits:
     east:
       target_vnum: '01010616117'
@@ -221,10 +244,12 @@
   local_id: '6116'
   name: Uma Junção na Escura Floresta Profunda
   vnum: '01010616116'
-- description: |-
-    Você está em uma junção onde três caminhos se encontram.  Antigas árvores
+- description: 'Você está em uma junção onde três caminhos se encontram.  Antigas
+    árvores
+
     acinzentadas o cercam de todos os lados.  Os caminhos seguem para leste,
-    oeste e norte.
+
+    oeste e norte.'
   exits:
     east:
       target_vnum: 01010616118
@@ -235,10 +260,11 @@
   local_id: '6117'
   name: Uma Junção na Escura Floresta Profunda
   vnum: '01010616117'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua ao
-    sul e ao oeste.
+
+    sul e ao oeste.'
   exits:
     south:
       target_vnum: 01010616119
@@ -247,9 +273,9 @@
   local_id: '6118'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: 01010616118
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
-    profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua.
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
+    profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua.'
   exits:
     north:
       target_vnum: 01010616118
@@ -258,35 +284,39 @@
   local_id: '6119'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: 01010616119
-- description: |-
-    Você está em um estreito caminho que segue na escura floresta profunda.
+- description: 'Você está em um estreito caminho que segue na escura floresta profunda.
+
     Ao sul, um rápido rio flui ao oeste pela floresta.  Antigas árvores antigas
-    acinzentadas repousam pela ribeira.  O caminho continua ao norte e ao oeste.
+
+    acinzentadas repousam pela ribeira.  O caminho continua ao norte e ao oeste.'
   exits:
     north:
       target_vnum: 01010616119
     south:
-      target_vnum: 01010610901
+      target_vnum: 01010090901
     west:
       target_vnum: '01010616121'
   local_id: '6120'
   name: Na Ribeira de um Rio na Escura Floresta Profunda
   vnum: '01010616120'
-- description: |-
-    Você está em um estreito caminho através da escura floresta profunda.  As
+- description: 'Você está em um estreito caminho através da escura floresta profunda.  As
+
     antigas árvores estão tão próximas uma das outras, que o caminho desaparece
+
     entre elas.  Ao sul um escuro rio flui ao leste e ao oeste.  A única saída
-    parece ser ao leste.
+
+    parece ser ao leste.'
   exits:
     east:
       target_vnum: '01010616120'
   local_id: '6121'
   name: Um Caminho Sem Saída na Escura Floresta Profunda
   vnum: '01010616121'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua ao
-    leste e ao sul.
+
+    leste e ao sul.'
   exits:
     east:
       target_vnum: '01010616114'
@@ -295,11 +325,13 @@
   local_id: '6122'
   name: Um Pequeno Caminho na Escura Floresta Profunda
   vnum: '01010616122'
-- description: |-
-    Você está em uma junção, onde três caminhos se encontram.  Antigas
+- description: 'Você está em uma junção, onde três caminhos se encontram.  Antigas
+
     árvores acinzentadas parecem observar você silenciosamente por todos os
+
     lados.  Ao sul, um rio escuro flui do leste ao oeste através da floresta.
-    Caminhos levam ao norte, leste e oeste.
+
+    Caminhos levam ao norte, leste e oeste.'
   exits:
     east:
       target_vnum: '01010616124'
@@ -310,20 +342,22 @@
   local_id: '6123'
   name: Uma Junção na Ribanceira do Rio na Escura Floresta Profunda
   vnum: '01010616123'
-- description: |-
-    Você está em um estreito caminho através da escura floresta profunda.  As
+- description: 'Você está em um estreito caminho através da escura floresta profunda.  As
+
     antigas árvores estáo tão próximas umas das outras, que o caminho desaparece
-    entre elas.  A única saída parece ser ao oeste.
+
+    entre elas.  A única saída parece ser ao oeste.'
   exits:
     west:
       target_vnum: '01010616123'
   local_id: '6124'
   name: Um Caminho Sem Saída na Escura Floresta Profunda
   vnum: '01010616124'
-- description: |-
-    Você está em um estreito caminho através da escura floresta profunda.
+- description: 'Você está em um estreito caminho através da escura floresta profunda.
+
     Antigas árvores acinzentadas estão por toda parte.  O caminho continua ao
-    norte e ao leste.
+
+    norte e ao leste.'
   exits:
     east:
       target_vnum: '01010616123'
@@ -332,10 +366,11 @@
   local_id: '6125'
   name: Um Estreito Caminho pela Ribeira na Escura Floresta Profunda
   vnum: '01010616125'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
     profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua ao
-    norte e ao oeste, ao sul um frágil caminho o leva para do caminho.
+
+    norte e ao oeste, ao sul um frágil caminho o leva para do caminho.'
   exits:
     north:
       target_vnum: '01010616127'
@@ -346,9 +381,9 @@
   local_id: '6126'
   name: Um Estreito Caminho na Escura Floresta Profunda
   vnum: '01010616126'
-- description: |-
-    Você está em um estreito caminho que atravessa a escura floresta
-    profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua.
+- description: 'Você está em um estreito caminho que atravessa a escura floresta
+
+    profunda.  Antigas árvores acinzentadas cercam você.  O caminho continua.'
   exits:
     east:
       target_vnum: '01010616112'
@@ -357,10 +392,11 @@
   local_id: '6127'
   name: Um Estreito Caminho na Escura Floresta Profunda
   vnum: '01010616127'
-- description: |-
-    Você está em um empoeirado caminho que segue pelo leste e oeste entre
+- description: 'Você está em um empoeirado caminho que segue pelo leste e oeste entre
+
     enormes árvores antigas que o cerca de todos os lados.  Nenhum som pode ser
-    ouvido - tudo está no mais absoluto e completo silêncio.
+
+    ouvido - tudo está no mais absoluto e completo silêncio.'
   exits:
     east:
       target_vnum: '01010616126'
@@ -369,10 +405,11 @@
   local_id: '6128'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: 01010616128
-- description: |-
-    Você está em um empoeirado caminho que segue pelo leste e oeste entre
+- description: 'Você está em um empoeirado caminho que segue pelo leste e oeste entre
+
     enormes árvores antigas, que o cercam de todos os lados.  Nenhum som pode
-    ser ouvido - tudo está no mais absoluto e completo silêncio.
+
+    ser ouvido - tudo está no mais absoluto e completo silêncio.'
   exits:
     east:
       target_vnum: 01010616128
@@ -381,11 +418,13 @@
   local_id: '6129'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: 01010616129
-- description: |-
-    Você está em um empoeirado caminho que segue pelo leste e oeste entre
+- description: 'Você está em um empoeirado caminho que segue pelo leste e oeste entre
+
     enormes árvores antigas, que o cerca de todos os lados.  Os troncos das
+
     árvores parecem estar cobertos com alguma substância pegajosa, que parece
-    ficar mais pegajosa ao oeste!  Cuidado!
+
+    ficar mais pegajosa ao oeste!  Cuidado!'
   exits:
     east:
       target_vnum: '01010616110'
@@ -396,19 +435,26 @@
   local_id: '6130'
   name: Um Estreito Caminho Através da Escura Floresta Profunda
   vnum: '01010616130'
-- description: |-
-    Você está andando pelo estreito caminho, desviando dos cordões pegajosos
+- description: 'Você está andando pelo estreito caminho, desviando dos cordões pegajosos
+
     enquanto avança..
 
+
     Uma aranha enorme, venenosa cai acima de você!
+
     Uma aranha enorme, venenosa cai acima de você!
+
     Uma aranha enorme, venenosa cai acima de você!
+
 
     A aranha enorme, venenosa o pica!  Você resiste ao veneno!
-    A aranha enorme, venenosa o pica!  Você está envenenado!
+
     A aranha enorme, venenosa o pica!  Você está envenenado!
 
-    Você está morto!
+    A aranha enorme, venenosa o pica!  Você está envenenado!
+
+
+    Você está morto!'
   exits:
     east:
       target_vnum: '01010616130'
@@ -419,26 +465,30 @@
   local_id: '6131'
   name: A Teia de Aranha Mortífera
   vnum: '01010616131'
-- description: |-
-    Você está pendurado pelo lado de fora de um enorme tronco de árvore,
+- description: 'Você está pendurado pelo lado de fora de um enorme tronco de árvore,
+
     coberto com por substância pegajosa.  Exatamente a oeste, há uma imensa teia
+
     de aranha presa entre várias árvores gigantescas, inclusive na que você
-    está.  Ao norte, há o que parece ser uma entrada.
+
+    está.  Ao norte, há o que parece ser uma entrada.'
   exits:
     down:
       target_vnum: '01010616130'
     north:
-      target_vnum: '01010616301'
+      target_vnum: '01010636301'
     west:
       target_vnum: '01010616133'
   local_id: '6132'
   name: "Em Cima, na Ã\x81rvore"
   vnum: '01010616132'
-- description: |-
-    Você está se equilibrando cuidadosamente nos grandes cordões que seguram
+- description: 'Você está se equilibrando cuidadosamente nos grandes cordões que seguram
+
     a teia.  Ao leste, há um gigantesco tronco de árvore e ao oeste há o que
+
     parece ser a entrada de uma caverna.  Sua estrutura é formada por muitas
-    camadas de teia.
+
+    camadas de teia.'
   exits:
     east:
       target_vnum: '01010616132'
@@ -447,21 +497,25 @@
   local_id: '6133'
   name: Na Teia de Aranha
   vnum: '01010616133'
-- description: |-
-    Você está dentro de uma caverna que parece ser feita inteiramente de
+- description: 'Você está dentro de uma caverna que parece ser feita inteiramente
+    de
+
     cordões de teia.  A temperatura e umidade são bastante altas, tornando
+
     difícil de se respirar o ar sujo que circula aqui.  As paredes estão
-    cobertas de casulos abertos.
+
+    cobertas de casulos abertos.'
   exits:
     east:
       target_vnum: '01010616133'
   local_id: '6134'
   name: O Ninho da Rainha Aranha
   vnum: '01010616134'
-- description: |-
-    Você está em um empoeirado caminho através da escura floresta profunda.
+- description: 'Você está em um empoeirado caminho através da escura floresta profunda.
+
     Antigas árvores cinzentas o cercam de todos os lados.  O caminho continua ao
-    norte e ao leste.
+
+    norte e ao leste.'
   exits:
     east:
       target_vnum: 01010616129
@@ -470,11 +524,13 @@
   local_id: '6135'
   name: Um Caminho Empoeirado na Escura Floresta Profunda
   vnum: '01010616135'
-- description: |-
-    Você está em um empoeirado caminho através da escura floresta profunda.
+- description: 'Você está em um empoeirado caminho através da escura floresta profunda.
+
     Antigas árvores cinzentas o cercam de todos os lados.  O caminho continua a
+
     sul e a oeste.  Uma larga trilha irregular segue ao leste para longe do
-    caminho.
+
+    caminho.'
   exits:
     east:
       target_vnum: '01010616142'
@@ -485,10 +541,11 @@
   local_id: '6136'
   name: Um Caminho Empoeirado na Escura Floresta Profunda
   vnum: '01010616136'
-- description: |-
-    Você está em um caminho através da escura floresta profunda.  Antigas
+- description: 'Você está em um caminho através da escura floresta profunda.  Antigas
+
     árvores cinzentas o cercam de todos os lados.  Um estreito caminho segue ao
-    norte e a única saída é ao leste, através do caminho principal.
+
+    norte e a única saída é ao leste, através do caminho principal.'
   exits:
     east:
       target_vnum: '01010616136'
@@ -497,11 +554,13 @@
   local_id: '6137'
   name: No Fim do Caminho, Através da Escura Floresta Profunda
   vnum: '01010616137'
-- description: |-
-    O caminho continua ao norte e ao sul, seguindo através dos densos
+- description: 'O caminho continua ao norte e ao sul, seguindo através dos densos
+
     arbustos desta parte da floresta de Haon-Dor.  Antigas árvores cinzentas o
+
     cercam de todos os lados.  Os arbustos fecham o caminho, tornando-o estreito
-    para sua passagem.  O caminho parece clarear ao sul.
+
+    para sua passagem.  O caminho parece clarear ao sul.'
   exits:
     north:
       target_vnum: 01010616139
@@ -510,28 +569,33 @@
   local_id: '6138'
   name: No Caminho Estreito
   vnum: 01010616138
-- description: |-
-    O caminho continua ao norte e ao sul, seguindo através dos densos
+- description: 'O caminho continua ao norte e ao sul, seguindo através dos densos
+
     arbustos desta parte da floresta de Haon-Dor.  Antigas árvores cinzentas o
+
     cercam de todos os lados.  Os arbustos fecham o caminho, tornando-o estreito
-    para sua passagem.
+
+    para sua passagem.'
   exits:
     north:
-      target_vnum: '01010616203'
+      target_vnum: '01010626203'
     south:
       target_vnum: 01010616138
   local_id: '6139'
   name: No Caminho Estreito
   vnum: 01010616139
-- description: |-
-    Você está no fim de um grande e irregular caminho.  A leste a um local
+- description: 'Você está no fim de um grande e irregular caminho.  A leste a um local
+
     completamente diferente, um campo aberto que parece isolado por magia.  Ao
+
     norte, há uma o que parece ser a entrada de uma caverna.  As árvores aqui
+
     possuem marcas como se alguma coisa enorme as tivesse rasgado com suas
-    garras, com raiva.
+
+    garras, com raiva.'
   exits:
     east:
-      target_vnum: '010106115701'
+      target_vnum: '01010575701'
     north:
       target_vnum: '01010616143'
     west:
@@ -539,24 +603,29 @@
   local_id: '6142'
   name: Do Lado de Fora de uma Caverna, na Escura Floresta Profunda
   vnum: '01010616142'
-- description: |-
-    Você está em uma grande caverna natural.  O chão está coberto de ossos de
+- description: 'Você está em uma grande caverna natural.  O chão está coberto de ossos
+    de
+
     todos os tipos e o fedor tão volumoso que você poderia cortá-lo com uma
-    faca.  A única saída é ao sul.
+
+    faca.  A única saída é ao sul.'
   exits:
     south:
       target_vnum: '01010616142'
   local_id: '6143'
   name: A Caverna do Dragão Verde
   vnum: '01010616143'
-- description: |-
-    Este caminho parece mais assustador do que qualquer outro que você viu.
+- description: 'Este caminho parece mais assustador do que qualquer outro que você
+    viu.
+
     As habituais marcas de garras de animais e mordidas nas árvores diminuem e
+
     se tornam distantes.  O mato parece se mover para o leste.  O caminho
-    continua ao norte.
+
+    continua ao norte.'
   exits:
     east:
-      target_vnum: 010106119700
+      target_vnum: 01010979700
     north:
       target_vnum: '01010616151'
     south:
@@ -564,10 +633,11 @@
   local_id: '6150'
   name: O Caminho Estreito
   vnum: '01010616150'
-- description: |-
-    Esta parte do caminho é também bastante peculiar.  Você não vê nenhum
+- description: 'Esta parte do caminho é também bastante peculiar.  Você não vê nenhum
+
     sinal de vida animal, nem nada parecido.  A estrutura formada pelas árvores,
-    força o caminho a uma acentuada curva ao leste.
+
+    força o caminho a uma acentuada curva ao leste.'
   exits:
     east:
       target_vnum: '01010616152'
@@ -587,9 +657,9 @@
   local_id: '6152'
   name: "O Círculo de Ã\x81rvores"
   vnum: '01010616152'
-- description: |-
-    Você entrou dentro da árvore.  A partir daqui, degraus conduzem para
-    baixo, na escuridão, ou você pode sair da árvore, seguindo para o oeste.
+- description: 'Você entrou dentro da árvore.  A partir daqui, degraus conduzem para
+
+    baixo, na escuridão, ou você pode sair da árvore, seguindo para o oeste.'
   exits:
     down:
       target_vnum: '01010616154'
@@ -598,9 +668,10 @@
   local_id: '6153'
   name: "Dentro da Grande Ã\x81rvore"
   vnum: '01010616153'
-- description: |-
-    Este corredor é aparentemente uma das raízes da árvore.  Ele segue ao
-    sul, de onde você pode ouvir estranhos barulhos.
+- description: 'Este corredor é aparentemente uma das raízes da árvore.  Ele segue
+    ao
+
+    sul, de onde você pode ouvir estranhos barulhos.'
   exits:
     south:
       target_vnum: '01010616155'
@@ -609,11 +680,13 @@
   local_id: '6154'
   name: O Corredor Subterrâneo
   vnum: '01010616154'
-- description: |-
-    Este templo, construído para um Deus o qual você não adora, é um bom
+- description: 'Este templo, construído para um Deus o qual você não adora, é um bom
+
     lugar para visitar mas você se sente desconfortável ao pensar em gastar seu
+
     tempo aqui.  O altar esculpido na madeira parece quase brilhar quando você
-    entra na sala.  A única saída é pela qual você entrou.
+
+    entra na sala.  A única saída é pela qual você entrou.'
   exits:
     north:
       target_vnum: '01010616154'

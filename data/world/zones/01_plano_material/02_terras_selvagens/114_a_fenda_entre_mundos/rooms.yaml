@@ -1,11 +1,17 @@
-- description: |-
-    Você seguiu por aquilo que parecia um túnel de luz e chegou em um lugar
+- description: 'Você seguiu por aquilo que parecia um túnel de luz e chegou em um
+    lugar
+
     completamente escuro e frio.  A sensação de vazio total é angustiante, e
+
     fica maior quando você percebe que qualquer som que faça se perde, sem ao
+
     menos dar indício de que encontrou alguma barreira para poder voltar.  A
+
     passagem que o trouxe até aqui parece ter sumido como que por mágica e,
+
     surgindo aparentemente do nada, um estranho vórtice de energia aparenta ser
-    a única coisa que de fato existe por aqui.
+
+    a única coisa que de fato existe por aqui.'
   exits: {}
   local_id: '11400'
   name: Além da Luz
@@ -295,12 +301,15 @@
   local_id: '11415'
   name: A Fenda Entre Mundos
   vnum: '010211411415'
-- description: |-
-    Você está caminhando a muito tempo pela fenda entre mundos e, preocupado,
+- description: 'Você está caminhando a muito tempo pela fenda entre mundos e, preocupado,
+
     desconfia que não será fácil sair daqui.  Não há nuvens no céu e o sol
+
     parece não ter se movido nesse tempo todo, dando a sensação que você está
+
     vivendo um eterno fim de tarde.  A névoa continua densa, mas você caminha
-    com mais segurança agora que se acostumou à sua presença.
+
+    com mais segurança agora que se acostumou à sua presença.'
   exits:
     east:
       target_vnum: '010211411417'
@@ -313,15 +322,21 @@
   local_id: '11416'
   name: A Fenda Entre Mundos
   vnum: '010211411416'
-- description: |-
-    Você esteve caminhando por muito tempo pela fenda entre mundos quando
+- description: 'Você esteve caminhando por muito tempo pela fenda entre mundos quando
+
     percebe que a névoa a seu redor não avança mais, parecendo contida por uma
+
     barreira.  Sem saber se isso é bom ou ruim, dá o passo que o levará para
+
     fora da neblina e quase cai em um enorme desfiladeiro.
+
     Superado o susto, você tenta enxergar o outro lado do desfiladeiro, mas é
+
     em vão: não há nada além de uma estranha escuridão que se encontra com os
+
     céus na linha do horizonte.  Também não parece haver um nada abaixo do
-    desfiladeiro, além de escuridão.
+
+    desfiladeiro, além de escuridão.'
   exits:
     east:
       target_vnum: 010211411418
@@ -349,12 +364,16 @@
   local_id: '11418'
   name: O Caminho dos Submundos
   vnum: 010211411418
-- description: |-
-    Você está descendo, por uma escada que não se vê, em direção a um lugar
+- description: 'Você está descendo, por uma escada que não se vê, em direção a um
+    lugar
+
     que você nunca havia ouvido falar antes.  A escuridão aqui é tão intensa
+
     quanto o lugar completamente vazio que você a pouco "visitara", mas não há
+
     silêncio, já que a cada degrau que você desce, uma estrondosa lufada de
-    vento frio tenta o derrubar. Ainda há tempo para voltar.
+
+    vento frio tenta o derrubar. Ainda há tempo para voltar.'
   exits:
     east:
       target_vnum: '010211411420'
@@ -384,12 +403,15 @@
   local_id: '11420'
   name: O Tribunal de Yama
   vnum: '010211411420'
-- description: |-
-    Você desce mais um lance de escadas e fica frente à frente a uma enorme
+- description: 'Você desce mais um lance de escadas e fica frente à frente a uma enorme
+
     porta de pedra bloqueando o caminho a leste.  Ao lado dessa porta, uma
+
     gigantesca lista escreve, em quase todas as línguas possíveis (pelo menos é
+
     o que você deduz) o nome do lugar: Sutala.  Você percebe que há ainda muitos
-    degraus a serem descidos.
+
+    degraus a serem descidos.'
   exits:
     down:
       target_vnum: '010211411423'
@@ -400,20 +422,25 @@
   local_id: '11421'
   name: A Entrada de Sutala
   vnum: '010211411421'
-- description: |-
-    Você não está em Sutala...  Você simplesmente foi enganado por "alguém"
+- description: 'Você não está em Sutala...  Você simplesmente foi enganado por "alguém"
+
     muito brincalhão e foi trazido a um lugar realmente esquisito: parece ser o
-    estômago de um gigante de pedra.  Boa sorte na próxima vez...
+
+    estômago de um gigante de pedra.  Boa sorte na próxima vez...'
   exits: {}
   local_id: '11422'
   name: Sutala?
   vnum: '010211411422'
-- description: |-
-    Você desce ainda mais pela escada e para em frente a uma minúscula porta
+- description: 'Você desce ainda mais pela escada e para em frente a uma minúscula
+    porta
+
     de madeira.  Ao lado da pequena porta, uma imensa lousa de pedra é mantida
+
     em pé por alguma força invisível, sendo possível ler sobre sua superfície um
+
     infindável número de palavras que devem significar a mesma coisa em diversas
-    línguas: Vitalaloka.  Ainda é possível descer e subir degraus.
+
+    línguas: Vitalaloka.  Ainda é possível descer e subir degraus.'
   exits:
     down:
       target_vnum: '010211411425'
@@ -424,20 +451,26 @@
   local_id: '11423'
   name: A Entrada de Vitalaloka
   vnum: '010211411423'
-- description: |-
-    Você não está em Vitalaloka...  Na verdade, foi novamente enganado e veio
+- description: 'Você não está em Vitalaloka...  Na verdade, foi novamente enganado
+    e veio
+
     parar no punho cerrado de um demônio de sombra.  Talvez não lhe aconteça
-    nada dessa vez...
+
+    nada dessa vez...'
   exits: {}
   local_id: '11424'
   name: Vitalaloka?
   vnum: '010211411424'
-- description: |-
-    Ao descer mais um lance da escada, você para bem em frente a um escuro e
+- description: 'Ao descer mais um lance da escada, você para bem em frente a um escuro
+    e
+
     enorme buraco em uma parede.  Um forte vento sai do buraco, impedindo que
+
     você se aproxime muito.  No chão de pedra, ainda que um pouco escondidas
+
     pela poeira, você repara em uma profusão de nomes em várias línguas, estando
-    escrito Talatala nas que você conhece.  A escada continua a descer.
+
+    escrito Talatala nas que você conhece.  A escada continua a descer.'
   exits:
     down:
       target_vnum: '010211411427'
@@ -448,19 +481,24 @@
   local_id: '11425'
   name: A Entrada de Talatala
   vnum: '010211411425'
-- description: |-
-    Não, não é Talatala...  Você foi, na verdade, trazido para o olho de um
+- description: 'Não, não é Talatala...  Você foi, na verdade, trazido para o olho
+    de um
+
     demônio de furacão, que parece estar muito incomodado com sua presença.  A
-    culpa é só sua...
+
+    culpa é só sua...'
   exits: {}
   local_id: '11426'
   name: Talatala?
   vnum: '010211411426'
-- description: |-
-    Assim que desce mais alguns degraus, você se depara uma estreita e alta
+- description: 'Assim que desce mais alguns degraus, você se depara uma estreita e
+    alta
+
     porta prateada.  Um longo pergaminho repleto de palavras em diversas línguas
+
     foi afixado nela, sendo a escrita na sua o nome Mahatala.  Fora isso, há
-    apenas a escada que continua descendo.
+
+    apenas a escada que continua descendo.'
   exits:
     down:
       target_vnum: 010211411429
@@ -471,20 +509,25 @@
   local_id: '11427'
   name: A Entrada de Mahatala
   vnum: '010211411427'
-- description: |-
-    Você, ao contrário do que pensava, não está em Mahatala.  Simplesmente
+- description: 'Você, ao contrário do que pensava, não está em Mahatala.  Simplesmente
+
     foi preso a um espelho, tendo de viver agora vendo tudo que acontece do lado
-    de fora desse mundo.  Que pena...
+
+    de fora desse mundo.  Que pena...'
   exits: {}
   local_id: '11428'
   name: Mahatala?
   vnum: 010211411428
-- description: |-
-    Você desce ainda mais os degraus da escada e pára quando encontra uma
+- description: 'Você desce ainda mais os degraus da escada e pára quando encontra
+    uma
+
     larga e baixa porta dourada.  Há, ao lado da porta, uma enorme placa repleta
+
     de, que surpresa..., palavras em línguas diversas.  A que está na sua diz:
+
     Raratala.  Os degraus da escada permitem que você continue a descer ou
-    subir.
+
+    subir.'
   exits:
     down:
       target_vnum: '010211411431'
@@ -495,20 +538,26 @@
   local_id: '11429'
   name: A Entrada de Raratala
   vnum: 010211411429
-- description: |-
-    Você pensa que conseguiu chegar a Raratala, mas foi mandando direto para
+- description: 'Você pensa que conseguiu chegar a Raratala, mas foi mandando direto
+    para
+
     o ninho de um demônio de bronze.  Você estará seguro apenas enquanto ele não
-    volta.
+
+    volta.'
   exits: {}
   local_id: '11430'
   name: Raratala?
   vnum: '010211411430'
-- description: |-
-    Você desce um lance da escada e se encontra em frente a uma parede em que
+- description: 'Você desce um lance da escada e se encontra em frente a uma parede
+    em que
+
     uma grande retângulo foi pintado com tinta branca.  Dentro do retângulo,
+
     você vê, em tinta vermelha, a representação de palavras das mais diversas
+
     línguas, sendo que a que está na sua diz: Atalaloka.  Fora isso, você vê
-    apenas a escada que segue para cima e para baixo.
+
+    apenas a escada que segue para cima e para baixo.'
   exits:
     down:
       target_vnum: '010211411433'
@@ -519,21 +568,28 @@
   local_id: '11431'
   name: A Entrada de Atalaloka
   vnum: '010211411431'
-- description: |-
-    Você pensou entrar em Atalaloka mas, por brincadeira de "alguém", foi
-    parar na pintura de uma das paredes de um demônio de neve.  Nada bom...
+- description: 'Você pensou entrar em Atalaloka mas, por brincadeira de "alguém",
+    foi
+
+    parar na pintura de uma das paredes de um demônio de neve.  Nada bom...'
   exits: {}
   local_id: '11432'
   name: Atalaloka?
   vnum: '010211411432'
-- description: |-
-    Você desceu o que parece ser o último lance de degraus do caminho que
+- description: 'Você desceu o que parece ser o último lance de degraus do caminho
+    que
+
     leva para os desconhecidos mundos abaixo do céu e da terra.  Há, à sua
+
     frente, uma imensa porta de pedra esverdeada, muito bem polida, bloqueando
+
     sua passagem.  Milhares de pedras arredondadas, parecendo pequenos seixos de
+
     vidro verde-musgo, cobrem o chão, tilintando à medida que você pisa sobre
+
     elas.  Você pode subir pela escada ou, caso consiga abrir a porta, seguir a
-    leste, para o Sétimo Submundo.
+
+    leste, para o Sétimo Submundo.'
   exits:
     east:
       target_vnum: '010211411434'
@@ -542,17 +598,26 @@
   local_id: '11433'
   name: A Entrada de Patala
   vnum: '010211411433'
-- description: |-
-    Você está do outro lado da sétima porta para os submundos.  Desse lado
+- description: 'Você está do outro lado da sétima porta para os submundos.  Desse
+    lado
+
     você vê que a grande peça de jade parece uma incrustação numa montanha
+
     extremamente alta cujo forma lembra a de uma coroa.  Os céus aqui parecem
+
     diferentes do que você conhece: as nuvens aparentam mais solidez, as cores
+
     são mais ricas, o azul é mais violáceo que o normal.  Rodeado por um mar de
+
     rochas, você procura um caminho a ser seguido.  Vê cadeias de montanhas por
+
     todos os lados, parecendo encontrar os céus na linha do horizonte,
+
     majestosas com seus picos salpicados de neve, mas nenhuma tão alta como a
+
     "coroa".  Há o que parece ser uma trilha entre as rochas, seguindo leste
-    até encontrar-se com uma muralha tão extensa quanto as cordilheiras.
+
+    até encontrar-se com uma muralha tão extensa quanto as cordilheiras.'
   exits:
     east:
       target_vnum: '010211411435'
@@ -561,14 +626,20 @@
   local_id: '11434'
   name: O Sétimo Submundo
   vnum: '010211411434'
-- description: |-
-    Você segue por uma trilha plana que corta as duras rochas que cobrem a
+- description: 'Você segue por uma trilha plana que corta as duras rochas que cobrem
+    a
+
     região da entrada do Sétimo Submundo.  Admirando a paisagem, você se
+
     pergunta se há algo embaixo das enorme pedras, que parecem ter sido
+
     espalhadas sobre o solo por mãos de gigantes.  A trilha parece ter sido
+
     feita pelas mesmas pessoas que cobriram o chão com as pedras, pois, também
+
     de pedra, é impecavelmente encaixada entre elas, não havendo nenhuma
-    irregularidade em sua superfície.  Você pode seguir leste e oeste.
+
+    irregularidade em sua superfície.  Você pode seguir leste e oeste.'
   exits:
     east:
       target_vnum: '010211411436'
@@ -577,13 +648,18 @@
   local_id: '11435'
   name: A Trilha Entre as Rochas
   vnum: '010211411435'
-- description: |-
-    Você caminha por uma trilha plana que segue entre as enormes rochas que
+- description: 'Você caminha por uma trilha plana que segue entre as enormes rochas
+    que
+
     cobrem a região da entrada do Sétimo Submundo.  Daqui você vê com mais
+
     clareza a porta que separa esse mundo dos outros, parecendo que ela é uma
+
     grande gema incrustrada em uma coroa negra...  Esse pensamento parece o
+
     perseguir, dando-lhe a impressão de que você não está totalmente errado.  A
-    trilha continua a leste e oreste.
+
+    trilha continua a leste e oreste.'
   exits:
     east:
       target_vnum: '010211411437'
@@ -592,11 +668,14 @@
   local_id: '11436'
   name: A Trilha Entre as Rochas
   vnum: '010211411436'
-- description: |-
-    Você caminha por uma trilha plana entre as enormes rochas que cobrem a
+- description: 'Você caminha por uma trilha plana entre as enormes rochas que cobrem
+    a
+
     região da entrada do Sétimo Submundo.  A porta de entrada (ou saída) desse
+
     mundo fica a alguma distância, a oeste, enquanto a trilha parece seguir até
-    a muralha, um pouco mais a frente, a nordeste.
+
+    a muralha, um pouco mais a frente, a nordeste.'
   exits:
     east:
       target_vnum: 010211411438
@@ -605,11 +684,14 @@
   local_id: '11437'
   name: A Trilha Entre as Rochas
   vnum: '010211411437'
-- description: |-
-    Você caminha por uma trilha plana entre as enormes rochas que cobrem a
+- description: 'Você caminha por uma trilha plana entre as enormes rochas que cobrem
+    a
+
     região da entrada do Sétimo Submundo.  A porta de entrada (ou saída) desse
+
     mundo fica a alguma distância, a oeste, enquanto a trilha parece seguir até
-    a muralha, um pouco mais a frente, a norte.
+
+    a muralha, um pouco mais a frente, a norte.'
   exits:
     north:
       target_vnum: 010211411439
@@ -627,7 +709,7 @@
     \ montam guarda.  Mas a visão do que está a norte é que o\nfascina mais..."
   exits:
     north:
-      target_vnum: '010211411500'
+      target_vnum: '01010151500'
     west:
       target_vnum: 010211411438
   local_id: '11439'

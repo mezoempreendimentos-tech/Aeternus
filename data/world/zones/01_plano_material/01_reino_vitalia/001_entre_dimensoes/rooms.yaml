@@ -1,11 +1,16 @@
-- description: |-
-    Ao tentar atravessar o portal, você percebe que alguma coisa estranha
+- description: 'Ao tentar atravessar o portal, você percebe que alguma coisa estranha
+
     aconteceu...  Ao dar seu primeiro passo dentro do portal, a saída começou a
+
     ficar distante, e você não pôde mais alcançá-la.  Ao olhar para trás, você
+
     percebe que a entrada do portal desapareceu.
+
     Você agora está flutuando nas névoas do portal, e você pode as ver por
+
     todos os lados.  Agora a única coisa que você pode fazer é procurar a saída.
-    Corra, e encontre-a antes que ela se feche!
+
+    Corra, e encontre-a antes que ela se feche!'
   exits:
     down:
       target_vnum: '01010010117'
@@ -227,59 +232,70 @@
   local_id: '189'
   name: A Sala da Sabedoria
   vnum: 01010010189
-- description: |-
-    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+- description: 'Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+
     Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+
     em nenhum lugar você vê a sombra do seu corpo.  Você percebe um espécie de
-    portal sobre você.
+
+    portal sobre você.'
   exits:
     up:
-      target_vnum: '01010010050'
+      target_vnum: '01010000050'
   local_id: '190'
   name: O Vazio
   vnum: 01010010190
-- description: |-
-    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+- description: 'Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+
     Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+
     em nenhum lugar você vê a sombra do seu corpo.  Você percebe um espécie de
-    portal sobre você.
+
+    portal sobre você.'
   exits:
     up:
-      target_vnum: '01010010050'
+      target_vnum: '01010000050'
   local_id: '191'
   name: O Vazio
   vnum: 01010010191
-- description: |-
-    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+- description: 'Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+
     Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+
     em nenhum lugar você vê a sombra do seu corpo.  Você não consegue imaginar
-    forma alguma de sair daqui.
+
+    forma alguma de sair daqui.'
   exits: {}
   local_id: '192'
   name: O Vazio
   vnum: 01010010192
-- description: |-
-    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+- description: 'Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+
     Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+
     em nenhum lugar você vê a sombra do seu corpo.  Você não consegue imaginar
-    forma alguma de sair daqui.
+
+    forma alguma de sair daqui.'
   exits: {}
   local_id: '193'
   name: O Vazio
   vnum: 01010010193
-- description: |-
-    Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+- description: 'Você não faz idéia de onde esteja.  Não há paredes, teto, chão, nada.
+
     Você está flutuando no ar.  Há uma fonte de luz ao alto, e você percebe que
+
     em nenhum lugar você vê a sombra do seu corpo.  Você não consegue imaginar
-    forma alguma de sair daqui.
+
+    forma alguma de sair daqui.'
   exits: {}
   local_id: '194'
   name: O Vazio
   vnum: 01010010194
-- description: |-
-    Você está sobre um solo de cor escura.  Olhando ao redor, você percebe
+- description: 'Você está sobre um solo de cor escura.  Olhando ao redor, você percebe
+
     que o solo some no infinito, por todos os lados, e você não consegue ver seu
-    fim.  O céu brilha com uma cor azul, totalmente sem nuvens.
+
+    fim.  O céu brilha com uma cor azul, totalmente sem nuvens.'
   exits:
     east:
       target_vnum: 01010010195

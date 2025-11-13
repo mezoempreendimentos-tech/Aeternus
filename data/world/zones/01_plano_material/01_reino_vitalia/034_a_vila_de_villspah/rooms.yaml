@@ -1,22 +1,28 @@
-- description: |-
-    Sendo mais um posto de vigia do que uma tenda de pedágio, é neste local onde
+- description: 'Sendo mais um posto de vigia do que uma tenda de pedágio, é neste
+    local onde
+
     os transgressores são detidos, e proibidos de entrarem na pequena vila de
+
     Villspah.  O Barão é um homem generoso e um mago competente mas sua
+
     generosidade somente se extende para aqueles que ele convida para entrar
-    em suas terras.
+
+    em suas terras.'
   exits:
     east:
       target_vnum: '01010343401'
     west:
-      target_vnum: '01010344000'
+      target_vnum: '01010404000'
   local_id: '3400'
   name: A Entrada
   vnum: '01010343400'
-- description: |-
-    Brutas tábuas de madeira foram cortadas e colocadas sobre o chão de
+- description: 'Brutas tábuas de madeira foram cortadas e colocadas sobre o chão de
+
     lama, tornando o progresso extremamente fácil.  A estrada se curva para o
+
     leste por uma distância extremamente longa, terminando em um grande castelo
-    que mal pode ser visto daqui.
+
+    que mal pode ser visto daqui.'
   exits:
     east:
       target_vnum: '01010343402'
@@ -25,11 +31,13 @@
   local_id: '3401'
   name: Estrada de Tábuas
   vnum: '01010343401'
-- description: |-
-    Brutas tábuas de madeira foram cortadas e colocadas sobre o chão de
+- description: 'Brutas tábuas de madeira foram cortadas e colocadas sobre o chão de
+
     lama, tornando o progresso extremamente fácil.  A estrada se curva para o
+
     leste por uma distância extremamente longa, terminando em um grande castelo
-    que mal pode ser visto daqui.
+
+    que mal pode ser visto daqui.'
   exits:
     east:
       target_vnum: '01010343403'
@@ -38,11 +46,13 @@
   local_id: '3402'
   name: Estrada de Tábuas
   vnum: '01010343402'
-- description: |-
-    Você está no início de uma cidade que foi constrída e que é controlada
+- description: 'Você está no início de uma cidade que foi constrída e que é controlada
+
     pelo Barão.  Duas construções de madeira encontram-se a leste daqui, uma em
+
     cada lado da estrada.  Por seu aspecto e o cheiro que exalam parecem ser
-    estábulos.  Uma pequena cidade encontra-se logo após elas.
+
+    estábulos.  Uma pequena cidade encontra-se logo após elas.'
   exits:
     east:
       target_vnum: '01010343404'
@@ -51,11 +61,14 @@
   local_id: '3403'
   name: Na Fronteira de Villspah
   vnum: '01010343403'
-- description: |-
-    Há construções de madeira em ambos os lados da estrada. Uma delas é um
+- description: 'Há construções de madeira em ambos os lados da estrada. Uma delas
+    é um
+
     estábulo e a outra é a loja do cavaleiro.  Há agrupamentos de lojas
+
     seguindo pelo lado das estradas.  Esta comunidade parece estar crescendo
-    muito bem, em todas as formas.
+
+    muito bem, em todas as formas.'
   exits:
     east:
       target_vnum: '01010343405'
@@ -68,11 +81,13 @@
   local_id: '3404'
   name: Entrando em Villspah
   vnum: '01010343404'
-- description: |-
-    Esta estrada central principal é onde a maioria das pessoas desta
+- description: 'Esta estrada central principal é onde a maioria das pessoas desta
+
     pequena vila passeia - alguns indo ou vindo do castelo.  O castelo se
+
     encontra em uma pequena distância a leste, dominando a visão naquela
-    direção.  Outra estrada cruza esta, indo na direção norte e sul.
+
+    direção.  Outra estrada cruza esta, indo na direção norte e sul.'
   exits:
     east:
       target_vnum: '01010343406'
@@ -85,10 +100,11 @@
   local_id: '3405'
   name: Estrada Princial
   vnum: '01010343405'
-- description: |-
-    Passagens seguem em direção as lojas para norte e sul desta estrada.
+- description: 'Passagens seguem em direção as lojas para norte e sul desta estrada.
+
     Há sinais em cada uma das lojas indicando ao norte uma taverna, e ao sul
-    um vendedor de alimentos não perecíveis.
+
+    um vendedor de alimentos não perecíveis.'
   exits:
     east:
       target_vnum: '01010343407'
@@ -101,11 +117,14 @@
   local_id: '3406'
   name: Estrada Principal
   vnum: '01010343406'
-- description: |-
-    O entabuamento de madeira está um pouco mais gasto aqui, bem no meio da
+- description: 'O entabuamento de madeira está um pouco mais gasto aqui, bem no meio
+    da
+
     cidade, onde o tráfego de pessoas é mais intenso, mas ainda em bom estado.
+
     Há uma hospedaria de dois andares ao lado norte, conectada a taverna, logo
-    a noroeste daqui, e um armazém na direção sul.
+
+    a noroeste daqui, e um armazém na direção sul.'
   exits:
     east:
       target_vnum: 01010343408
@@ -118,10 +137,11 @@
   local_id: '3407'
   name: Estrada Principal
   vnum: '01010343407'
-- description: |-
-    A estrada principal é cruzada novamente por uma estrada, que segue
+- description: 'A estrada principal é cruzada novamente por uma estrada, que segue
+
     exatamente nas direções opostas à estrada principal.  O castelo encontra-se
-    diretamente a oeste, a ponte levadiça está presentemente aberta.
+
+    diretamente a oeste, a ponte levadiça está presentemente aberta.'
   exits:
     east:
       target_vnum: 01010343409
@@ -134,10 +154,11 @@
   local_id: '3408'
   name: Estrada Principal
   vnum: 01010343408
-- description: |-
-    O entabuamento de madeira termina aqui, e logo a leste começa a passagem
+- description: 'O entabuamento de madeira termina aqui, e logo a leste começa a passagem
+
     pavimentada em direção a casa do Barão.  O castelo possui a clara visão  de
-    ser um local com uma cordial recepção.
+
+    ser um local com uma cordial recepção.'
   exits:
     east:
       target_vnum: '01010343410'
@@ -146,11 +167,13 @@
   local_id: '3409'
   name: Estrada Principal, Próximo ao Castelo
   vnum: 01010343409
-- description: |-
-    Guardas estão  posicionados logo a leste daqui, parados ao lado da
+- description: 'Guardas estão  posicionados logo a leste daqui, parados ao lado da
+
     estrada com uma rigorosa atenção.  Eles estão vestindo o tradicional
+
     magenta da família do Barão, longas e vistosas vestimentas de feiticeiro, e
-    por cima uma excelente armadura de couro.
+
+    por cima uma excelente armadura de couro.'
   exits:
     east:
       target_vnum: '01010343446'
@@ -159,12 +182,16 @@
   local_id: '3410'
   name: Estrada Principal, Oeste da Ponte Levadiça
   vnum: '01010343410'
-- description: |-
-    A estrada faz um tipo de laçada agora, curvando para norte e depois para
+- description: 'A estrada faz um tipo de laçada agora, curvando para norte e depois
+    para
+
     o sul, se encontrando de novo, como uma ferradura invertida.  Uma pequena
+
     envergadura de tasneiras encontra-se a leste da estrada, escoando para o
+
     fosso que circula o castelo.  Para o lado oeste, há a parede leste da
-    hospedaria.
+
+    hospedaria.'
   exits:
     north:
       target_vnum: '01010343413'
@@ -173,13 +200,17 @@
   local_id: '3411'
   name: Laço Norte de Villspah, Lado Leste
   vnum: '01010343411'
-- description: |-
-    A estrada toma forma de uma pequena ferradura, deixando a estrada
+- description: 'A estrada toma forma de uma pequena ferradura, deixando a estrada
+
     principal e curvando ao redor pelo sul, girando até se encontrar de novo a
+
     oeste.  Um pequeno, mas bontito templo encontra-se na direção sul, com
+
     suas paredes brancas e levemente descascadas pela intensa luz do sol que a
+
     atinge.  A parede leste de uma loja comum encontra-se na direção oeste, e
-    há um painel com lamparinas, rolos de corda e sacos retradado na mesma.
+
+    há um painel com lamparinas, rolos de corda e sacos retradado na mesma.'
   exits:
     north:
       target_vnum: 01010343408
@@ -188,12 +219,15 @@
   local_id: '3412'
   name: Laço Sul de Villspah, Lado Leste
   vnum: '01010343412'
-- description: |-
-    A estrada, construída com madeira sólida, acoplada junto ao chão,
+- description: 'A estrada, construída com madeira sólida, acoplada junto ao chão,
+
     procede em uma laçada ao redor do norte da vila.  Ao sul há a estrada
+
     principal, que pode levá-lo diretamente para os domínios do Barão, ou para
+
     fora deles.  Uma pequena loja encontra-se a oeste da estrada, e sua entrada
-    principal é ao seu lado norte.
+
+    principal é ao seu lado norte.'
   exits:
     north:
       target_vnum: '01010343414'
@@ -202,12 +236,15 @@
   local_id: '3413'
   name: Laço Norte de Villspah, Lado Leste
   vnum: '01010343413'
-- description: |-
-    A estrada faz uma laçada para o sul e oeste daqui, dirigindo-se através
+- description: 'A estrada faz uma laçada para o sul e oeste daqui, dirigindo-se através
+
     de pequenas lojas e casas.  Um pequeno córrego passa por um pequeno celeiro
+
     com uma roda de pás ao norte - presumivelmente o local de trabalho de
+
     alguém.  Logo após um pequeno grupo de tasneiras a leste, encontra-se o
-    castelo do Barão de Villspah, um mago poderoso e muito gentil.
+
+    castelo do Barão de Villspah, um mago poderoso e muito gentil.'
   exits:
     north:
       target_vnum: '01010343435'
@@ -218,10 +255,12 @@
   local_id: '3414'
   name: Laço Norte de Villspah, Lado Nordeste
   vnum: '01010343414'
-- description: |-
-    Uma pequena loja encontra-se ao sul da estrada, emitindo um suave odor
+- description: 'Uma pequena loja encontra-se ao sul da estrada, emitindo um suave
+    odor
+
     de enxofre através de sua porta.  A estrada segue para leste e oeste
-    passando por várias lojas e casas de Villspah.
+
+    passando por várias lojas e casas de Villspah.'
   exits:
     east:
       target_vnum: '01010343414'
@@ -232,12 +271,15 @@
   local_id: '3415'
   name: Laço Norte de Villspah, Lado Norte
   vnum: '01010343415'
-- description: |-
-    Há lojas ao norte e ao sul, e com grandes diferenças entre elas.  Ao
+- description: 'Há lojas ao norte e ao sul, e com grandes diferenças entre elas.  Ao
+
     norte, a porta da loja está fechada, e cortinas cobrem as janelas em seu
+
     interior.  Ao sul há uma estrutura parecida com um celeiro, de onde pode
+
     ser ouvido estalos de metal.  A estrada se curva para leste e oeste pela
-    vila de Villspah.
+
+    vila de Villspah.'
   exits:
     east:
       target_vnum: '01010343415'
@@ -250,10 +292,12 @@
   local_id: '3416'
   name: Laço Norte de Villspah, Lado Norte
   vnum: '01010343416'
-- description: |-
-    Uma pequena loja encontra-se a norte da estrada, entre duas filas de
+- description: 'Uma pequena loja encontra-se a norte da estrada, entre duas filas
+    de
+
     plantação de milho.  A estrada segue para leste, passando por mais lojas e
-    para sul, rumo a estrada principal de Villspah.
+
+    para sul, rumo a estrada principal de Villspah.'
   exits:
     east:
       target_vnum: '01010343416'
@@ -264,12 +308,15 @@
   local_id: '3417'
   name: Laço Norte de Villspah, Lado Noroeste
   vnum: '01010343417'
-- description: |-
-    A estreita estrada, revestida com madeira, segue passando por uma
+- description: 'A estreita estrada, revestida com madeira, segue passando por uma
+
     pequena loja, parecida com um celeiro, e com sua entrada voltada para o
+
     outro lado desta construção.  A estrada faz uma curva fechada para leste
+
     logo a norte daqui, e a estrada principal segue em uma pequena distância
-    logo a sul.
+
+    logo a sul.'
   exits:
     north:
       target_vnum: '01010343417'
@@ -278,13 +325,18 @@
   local_id: '3418'
   name: Laço Norte de Villspah, Lado Oeste
   vnum: 01010343418
-- description: |-
-    Uma pequena ramificação da estrada principal faz uma pequena laçada para
+- description: 'Uma pequena ramificação da estrada principal faz uma pequena laçada
+    para
+
     o nordeste, ao redor de um vasto agrupamento de casas e lojas.  Esta
+
     pequena estrada é toda revestida por madeira, assim como na estrada
+
     principal, mas um pouco mais estreito.  A parede oeste da estalagem
+
     encontra-se a leste da estrada, e há um campo de plantação de milho
-    a oeste.
+
+    a oeste.'
   exits:
     north:
       target_vnum: 01010343418
@@ -293,12 +345,16 @@
   local_id: '3419'
   name: Laço Norte de Villspah, Lado Oeste
   vnum: 01010343419
-- description: |-
-    Uma pequena ramificação da estrada principal faz uma leve laçada ao sul,
+- description: 'Uma pequena ramificação da estrada principal faz uma leve laçada ao
+    sul,
+
     em torno de um grupo de casas e lojas.  Para o lado leste da estrada
+
     encontra-se a parede ocidental de uma loja, e para o oeste há fileiras e
+
     mais fileiras de plantação de milho.  A estrada principal segue diretamente
-    para o norte.
+
+    para o norte.'
   exits:
     north:
       target_vnum: '01010343405'
@@ -307,10 +363,11 @@
   local_id: '3420'
   name: Laço Sul de Villspah, Lado Oeste
   vnum: '01010343420'
-- description: |-
-    A estrada passa por uma pequena loja cercada de tábuas, com um movimento
+- description: 'A estrada passa por uma pequena loja cercada de tábuas, com um movimento
+
     de comodidade através da vila.  Cercante aos subúrbios desta pequena
-    comunidade há uma vasta plantação de milho atingindo seis pés altura.
+
+    comunidade há uma vasta plantação de milho atingindo seis pés altura.'
   exits:
     north:
       target_vnum: '01010343420'
@@ -319,11 +376,14 @@
   local_id: '3421'
   name: Laço Sul de Villspah, Lado Oeste
   vnum: '01010343421'
-- description: |-
-    Uma curva na estrada permite ir a norte e leste, cortando os campos de
+- description: 'Uma curva na estrada permite ir a norte e leste, cortando os campos
+    de
+
     milho que cercam a vila, com suas linhas nítidas e perfeitas.  Por uma
+
     pequena distância ao norte segue a estrada principal, e a laçada da estrada
-    segue ao leste.
+
+    segue ao leste.'
   exits:
     east:
       target_vnum: '01010343423'
@@ -332,11 +392,13 @@
   local_id: '3422'
   name: Laço Sul de Villspah, Lado Sudoeste
   vnum: '01010343422'
-- description: |-
-    Pequenas lojas se encontram com a estrada ao norte e sul, com suas
+- description: 'Pequenas lojas se encontram com a estrada ao norte e sul, com suas
+
     portas abertas o convidando para entrar.  A loja ao norte ostenta a gravura
+
     de uma deslumbrante jóia logo acima da porta, certamente a indicação de um
-    dono de joalheria.  A estrada continua para leste e oeste.
+
+    dono de joalheria.  A estrada continua para leste e oeste.'
   exits:
     east:
       target_vnum: '01010343424'
@@ -349,11 +411,14 @@
   local_id: '3423'
   name: Laço Sul de Villspah, Lado Sul
   vnum: '01010343423'
-- description: |-
-    A estrada segue na direção leste e oeste.  Há uma loja muito pequena -
+- description: 'A estrada segue na direção leste e oeste.  Há uma loja muito pequena
+    -
+
     parecendo mais uma barraca - instalada ao lado norte da estrada.  Logo a
+
     leste daqui, a estrada faz uma curva para o norte, continuando o laço sul
-    de Villspah.
+
+    de Villspah.'
   exits:
     east:
       target_vnum: '01010343425'
@@ -364,12 +429,15 @@
   local_id: '3424'
   name: Laço Sul de Villspah, Lado Sul
   vnum: '01010343424'
-- description: |-
-    Aqui a estrada faz uma curva, dirigindo-se no sentido norte e oeste.
+- description: 'Aqui a estrada faz uma curva, dirigindo-se no sentido norte e oeste.
+
     Para o lado leste da estrada há um pequeno caminho entrando em um calmo e
+
     colorido jardim, onde as flores silvestres crescem, cuidadas pelos
+
     habitantes locais da vila.  Ao sul, através de um pequeno portão de ferro,
-    encontra-se o cemitério, onde há pouquíssimas lápides.
+
+    encontra-se o cemitério, onde há pouquíssimas lápides.'
   exits:
     east:
       target_vnum: '01010343443'
@@ -382,11 +450,14 @@
   local_id: '3425'
   name: Laço Sul de Villspah, Lado Sudeste
   vnum: '01010343425'
-- description: |-
-    A estrada continua sinuosa para as direções norte e sul, ao longo do
+- description: 'A estrada continua sinuosa para as direções norte e sul, ao longo
+    do
+
     laço sul.  Há um pequeno templo, mas bem arrumado, no lado leste da
+
     estrada.  Não muito distante daqui encontra-se a estrada prindipal, ao
-    norte.
+
+    norte.'
   exits:
     east:
       target_vnum: '01010343440'
@@ -397,35 +468,46 @@
   local_id: '3426'
   name: Laço Sul de Villspah, Lado Leste
   vnum: '01010343426'
-- description: |-
-    Vários equipamentos para equitação estão pendurados pelas paredes deste
+- description: 'Vários equipamentos para equitação estão pendurados pelas paredes
+    deste
+
     local pequeno e térrero.  Há um pequeno balcão fixado por quase toda a
+
     parede norte, e uma cadeira com aspecto velho, mas muito aconchegante.  Um
+
     conjunto de portas corrediças foi construído na parede norte desta loja,
-    sendo o único acesso aos cavalos que estão à venda.
+
+    sendo o único acesso aos cavalos que estão à venda.'
   exits:
     south:
       target_vnum: '01010343404'
   local_id: '3427'
   name: A Ferraria
   vnum: '01010343427'
-- description: |-
-    Este pequeno espaço gramado é onde o comerciante de cavalos da vila
-    mantém sues animais até que estes sejam  vendidos.
+- description: 'Este pequeno espaço gramado é onde o comerciante de cavalos da vila
+
+    mantém sues animais até que estes sejam  vendidos.'
   exits: {}
   local_id: '3428'
   name: Pastagem dos Cavalos
   vnum: 01010343428
-- description: |-
-    Simples como qualquer outra taverna pode ser, esta taverna de tamanho
+- description: 'Simples como qualquer outra taverna pode ser, esta taverna de tamanho
+
     médio serve como ponto de encontro dos habitantes da vila, assim como todos
+
     os outros locais para se comer desta cidade também servem.  Um pequeno
+
     palco encontra-se perto da parede norte, a esquerda de uma enorme lareira
+
     de pedra.  Um grande bar segue pela parede oeste do local, e por detrás
+
     pode-se ver os criados apressados enchendo espumantes canecas de cerveja
+
     ou preparando comida para os fregueses.  Uma porta giratória encontra-se
+
     fixada na parede leste, dirigindo um caminho para a hospedaria onde os
-    viajantes podem repousar.
+
+    viajantes podem repousar.'
   exits:
     east:
       target_vnum: '01010343430'
@@ -434,12 +516,15 @@
   local_id: '3429'
   name: A Taverna da Cidade
   vnum: 01010343429
-- description: |-
-    Esta sala muito baixa oferece um pequeno número de velhas mesas e
+- description: 'Esta sala muito baixa oferece um pequeno número de velhas mesas e
+
     cadeiras onde se pode sentar e descansar.  Uma pequena escada no lado
+
     leste, ao fim da sala, segue para cima onde há quartos para serem locados.
+
     O fogo queima calmamente na lareira da parede norte, exalando para toda a
-    sala um ar quente e aconchegante.
+
+    sala um ar quente e aconchegante.'
   exits:
     south:
       target_vnum: '01010343407'
@@ -448,146 +533,179 @@
   local_id: '3430'
   name: A Hospedaria de Villspah
   vnum: '01010343430'
-- description: |-
-    Muitos alimentos guardados em contêiners não perecíveis estão aqui
+- description: 'Muitos alimentos guardados em contêiners não perecíveis estão aqui
+
     empilhados em uma estante limpa e conservada.  Um pequeno balcão
+
     encontra-se encostado à parede sul desta loja, no qual você pode comprar
-    o que desejar.
+
+    o que desejar.'
   exits:
     north:
       target_vnum: '01010343406'
   local_id: '3431'
   name: Loja de Alimentos
   vnum: '01010343431'
-- description: |-
-    Inúmeras prateleiras encontram-se por toda a extensão das paredes,
+- description: 'Inúmeras prateleiras encontram-se por toda a extensão das paredes,
+
     exceto a norte onde o balcão principal está localizado.  Tudo, do útil ao
-    fútil, está à venda nesta loja, é só comprar no balcão.
+
+    fútil, está à venda nesta loja, é só comprar no balcão.'
   exits:
     north:
       target_vnum: '01010343407'
   local_id: '3432'
   name: A Loja Comum de Villspah
   vnum: '01010343432'
-- description: |-
-    Esta loja serve tanto como uma loja de armas, tanto como ferraria para a
+- description: 'Esta loja serve tanto como uma loja de armas, tanto como ferraria
+    para a
+
     cidade.  A maioria dos habitantes locais precisam mais do trabalho da
+
     ferraria do que de alguma arma, entretanto o verdadeiro encanto do
-    proprietário é pelas armas.
+
+    proprietário é pelas armas.'
   exits:
     north:
       target_vnum: '01010343416'
   local_id: '3433'
   name: A Loja de Armas
   vnum: '01010343433'
-- description: |-
-    A área para os clientes desta loja é muito pequena.  Somente uma pequena
+- description: 'A área para os clientes desta loja é muito pequena.  Somente uma pequena
+
     área, sem lugar para se sentar, é reservada para aqueles que desejam
+
     comprar algo aqui - o resto da loja é bloqueado por uma estranha parede.
+
     Você pode sentir estranhos odores vindos da parte sul desta construção,
-    alguns deles bons, outros nem tanto.
+
+    alguns deles bons, outros nem tanto.'
   exits:
     north:
       target_vnum: '01010343415'
   local_id: '3434'
   name: A Farmácia
   vnum: '01010343434'
-- description: |-
-    Toda a água que vai para a população de Villspah passa através de um
+- description: 'Toda a água que vai para a população de Villspah passa através de
+    um
+
     sistema de funil criado pelo próprio Barão.  Villspah possui as águas mais
-    límpidas de toda Vitália, uma ostentação que não é para muitos.
+
+    límpidas de toda Vitália, uma ostentação que não é para muitos.'
   exits:
     south:
       target_vnum: '01010343414'
   local_id: '3435'
   name: O Moinho de Villspah
   vnum: '01010343435'
-- description: |-
-    Este lugar, pequeno mas muito confortável, é um total contraste com os
+- description: 'Este lugar, pequeno mas muito confortável, é um total contraste com
+    os
+
     barulhos do lado de fora, onde o trabalho do ferreiro pode ser ouvido alto
+
     e claro, ressonante por toda a cidade.  Pequenas mesas estão fixas pela sala
+
     com confortáveis cadeiras em sua volta.  Há dois pequenos sofás logo
+
     adiante, arredondados e com mesas, onde as pessoas podem relaxar enquanto
-    apreciam uma xícara de café.
+
+    apreciam uma xícara de café.'
   exits:
     south:
       target_vnum: '01010343416'
   local_id: '3436'
   name: O Café de Villspah
   vnum: '01010343436'
-- description: |-
-    O forte aroma de plantas secas penetram por seu nariz no exato momento
+- description: 'O forte aroma de plantas secas penetram por seu nariz no exato momento
+
     em que você entra nesta sala.  Atrás do balcão você pode observar vários
+
     ramos de plantas, dos quais a maioria você desconhece, todos secos.  Talvez
+
     por isso eles devem ser usados em pequenas quantidades, ou como
-    medicamentos.
+
+    medicamentos.'
   exits:
     south:
       target_vnum: '01010343417'
   local_id: '3437'
   name: A Loja da Herborista
   vnum: '01010343437'
-- description: |-
-    Normalmente em pequenas cidades como esta, joalherias não tem o grande
+- description: 'Normalmente em pequenas cidades como esta, joalherias não tem o grande
+
     interesse da população, entretanto por o Barão ser um mago - e um mago
+
     muito poderoso - a joalheria traz uma vida elegante e vistosa para ele.  Os
-    habitantes locais, é claro, também fazem algumas pequenas compras aqui.
+
+    habitantes locais, é claro, também fazem algumas pequenas compras aqui.'
   exits:
     south:
       target_vnum: '01010343423'
   local_id: '3438'
   name: A Joalheria
   vnum: 01010343438
-- description: |-
-    O cartógrafo é provavelmente quem mais guarda segredos das terras
+- description: 'O cartógrafo é provavelmente quem mais guarda segredos das terras
+
     exteriores.  O povo de Villspah possui uma enorme vontade de viajar, e
+
     assim vem encarregando o cartógrafo a fazer vários mapas das mais exóticas
+
     regiões de Vitália.  Com sua renda fixa, o cartógrafo vende qualquer tipo
-    de mapa que o Barão venha a pedir.
+
+    de mapa que o Barão venha a pedir.'
   exits:
     south:
       target_vnum: '01010343424'
   local_id: '3439'
   name: A Cartografia
   vnum: 01010343439
-- description: |-
-    Pequena mas sinceras cerimônias são realizadas neste pequeno templo
+- description: 'Pequena mas sinceras cerimônias são realizadas neste pequeno templo
+
     todo domingo.  Um altar encontra-se a leste, no final do templo, e há um
-    tapete estendido saindo da porta em direção ao altar.
+
+    tapete estendido saindo da porta em direção ao altar.'
   exits:
     west:
       target_vnum: '01010343426'
   local_id: '3440'
   name: O Pequeno Templo de Villspah
   vnum: '01010343440'
-- description: |-
-    Este lugar, onde os corpos desta pequena cidade são enterrados, é muito
+- description: 'Este lugar, onde os corpos desta pequena cidade são enterrados, é
+    muito
+
     pequeno e sombreado, com árvores que se projetam por quase toda a área,
+
     dando uma sensação de calma e tranquilidade no local.  O que lhe chama a
+
     atenção é o pequeno número de covas - não que deveria ter muitos mortos,
+
     mas a cidade não parece ser nova e muitos ja devem ter passado seus últimos
-    anos aqui em Villspah.
+
+    anos aqui em Villspah.'
   exits:
     north:
       target_vnum: '01010343425'
   local_id: '3441'
   name: O Cemitério de Villspah
   vnum: '01010343441'
-- description: |-
-    Pequenas e grandes gaiolas estão penduradas no teto por todo o interior
+- description: 'Pequenas e grandes gaiolas estão penduradas no teto por todo o interior
+
     deste local.  O cheiro não é nada agradável, entretanto os animais que
+
     estão nas jaulas são mais do que aprazíveis - são formidáveis companheiros
-    para se ter por um pequeno custo.
+
+    para se ter por um pequeno custo.'
   exits:
     north:
       target_vnum: '01010343423'
   local_id: '3442'
   name: O Viveiro de Aves
   vnum: '01010343442'
-- description: |-
-    Tudo pelo caminho é bonito e florido, possuindo as mais diversas cores
+- description: 'Tudo pelo caminho é bonito e florido, possuindo as mais diversas cores
+
     imagináveis.  Uma pequena área aberta encontra-se ao sul com  alguns bancos
-    de madeira uma fonte ao meio.
+
+    de madeira uma fonte ao meio.'
   exits:
     south:
       target_vnum: '01010343444'
@@ -596,24 +714,30 @@
   local_id: '3443'
   name: O Jardim de Villspah
   vnum: '01010343443'
-- description: |-
-    Uma pequena fonte, escoaando calmamente uma água muito límpida, está
+- description: 'Uma pequena fonte, escoaando calmamente uma água muito límpida, está
+
     aqui, rodeada por quatro bancos de madeira.  Muitas árvores crescem ao
+
     redor do contorno do parque, dando a sensação de conforto e paz que só pode
+
     ser encontrado ao ar livre.  Um belo jardim encontra-se a norte, e um
-    portão de ferro separa este parque de um cemitério ao lado leste.
+
+    portão de ferro separa este parque de um cemitério ao lado leste.'
   exits:
     north:
       target_vnum: '01010343443'
   local_id: '3444'
   name: Um Parque ao Ar Livre
   vnum: '01010343444'
-- description: |-
-    A população de Villspah gosta, de fato, da paz e da beleza de sua
+- description: 'A população de Villspah gosta, de fato, da paz e da beleza de sua
+
     pequena vila, e estão sempre tentando mantê-la da maneira mais limpa
+
     possível.  Você está encorajado a estabular seu animal por todo o tempo
+
     necessário, readquirindo-o quando for embora, para manter a paz e a
-    limpeza desta vila.
+
+    limpeza desta vila.'
   exits:
     north:
       target_vnum: '01010343404'
@@ -633,12 +757,16 @@
   local_id: '3446'
   name: A Ponte Levadiça de Villspah
   vnum: '01010343446'
-- description: |-
-    Uma cobertura encontra-se com uma sala logo a leste.  A cada lado de
+- description: 'Uma cobertura encontra-se com uma sala logo a leste.  A cada lado
+    de
+
     você, ao norte e ao sul, encontram-se as portas para as torres dos
+
     guardas, onde há vigias durante todo o tempo.  Pequenas fendas nas portas
+
     de madeira das torres, permitem que flechas sejam lançadas caso um intruso
-    passe pelos guardas da ponte.
+
+    passe pelos guardas da ponte.'
   exits:
     east:
       target_vnum: '01010343452'
@@ -651,10 +779,11 @@
   local_id: '3447'
   name: O Hall de Entrada
   vnum: '01010343447'
-- description: |-
-    Uma escadaria de pedra segue junto à parede em direção a sala dos
+- description: 'Uma escadaria de pedra segue junto à parede em direção a sala dos
+
     guardas acima.  Há ma pequena mesa e um banquinho encostados no canto da
-    sala.  A porta encontra-se a sul.
+
+    sala.  A porta encontra-se a sul.'
   exits:
     south:
       target_vnum: '01010343447'
@@ -663,22 +792,27 @@
   local_id: '3448'
   name: Torre de Guarda Norte
   vnum: 01010343448
-- description: |-
-    Uma escadaria dirige-se para baixo deste pequeno e simples posto, onde
+- description: 'Uma escadaria dirige-se para baixo deste pequeno e simples posto,
+    onde
+
     há sempre um guarda, vigiando as fronteiras norte à procura por sinais de
+
     invasões.  Com tamanha tranquilidade da cidade, e a afeição dos
+
     habitantes locais, parece até estranho a necessidade do Barão de ter
-    postos de guarda funcionando a todo momento.
+
+    postos de guarda funcionando a todo momento.'
   exits:
     down:
       target_vnum: 01010343448
   local_id: '3449'
   name: O Posto de Guarda
   vnum: 01010343449
-- description: |-
-    Uma escadaria de pedra segue junto à parede em direção a sala dos
+- description: 'Uma escadaria de pedra segue junto à parede em direção a sala dos
+
     guardas acima.  Há ma pequena mesa e um banquinho encostados no canto da
-    sala.  A porta encontra-se a norte.
+
+    sala.  A porta encontra-se a norte.'
   exits:
     north:
       target_vnum: '01010343447'
@@ -687,23 +821,29 @@
   local_id: '3450'
   name: Torre de Guarda Sul
   vnum: '01010343450'
-- description: |-
-    Uma escadaria dirige-se para baixo deste pequeno e simples posto, onde
+- description: 'Uma escadaria dirige-se para baixo deste pequeno e simples posto,
+    onde
+
     há sempre um guarda, vigiando as fronteiras norte à procura por sinais de
+
     invasões.  Com tamanha tranquilidade da cidade, e a afeição dos
+
     habitantes locais, parece até estranho a necessidade do Barão de ter
-    postos de guarda funcionando a todo momento.
+
+    postos de guarda funcionando a todo momento.'
   exits:
     down:
       target_vnum: '01010343450'
   local_id: '3451'
   name: O Posto de Guarda
   vnum: '01010343451'
-- description: |-
-    Todos os visitantes que desejam ver o Barão, por qualquer razão que
+- description: 'Todos os visitantes que desejam ver o Barão, por qualquer razão que
+
     seja, precisam antes falar com seu consultor e informar o motivo de sua
+
     visita.  Se você deseja ver o Barão, você deve, antes, ter a permissão do
-    consultor.  Ou...  Talvez tentar alguma outra coisa?
+
+    consultor.  Ou...  Talvez tentar alguma outra coisa?'
   exits:
     east:
       target_vnum: '01010343453'
@@ -716,11 +856,13 @@
   local_id: '3452'
   name: A Recepção
   vnum: '01010343452'
-- description: |-
-    O Barão é um homem ocupado, e não deve ser perturbado por assuntos
+- description: 'O Barão é um homem ocupado, e não deve ser perturbado por assuntos
+
     fúteis.  Todo o seu tempo é destinado a relações com as necessidades dos
+
     habitantes e aos mensageiros estrangeiros.  Seja paciente e você será
-    logo atendido e poderá entrar na Câmara de Estado.
+
+    logo atendido e poderá entrar na Câmara de Estado.'
   exits:
     east:
       target_vnum: '01010343454'
@@ -729,12 +871,15 @@
   local_id: '3453'
   name: Sala de Espera
   vnum: '01010343453'
-- description: |-
-    Uma grande e ampla mesa ocupa a maior parte do espaço que esta sala
+- description: 'Uma grande e ampla mesa ocupa a maior parte do espaço que esta sala
+
     tem a oferecer.  Uma grande e vistosa cadeira, presumivelmente do Barão,
+
     encontra-se na ponta leste da mesa.  Há também, menores, mas confortáveis
+
     cadeiras alinhadas pelos lados da mesa.  Uma tapeçaria magente cobre o
-    canto leste da sala, logo atrás da cadeira do Barão.
+
+    canto leste da sala, logo atrás da cadeira do Barão.'
   exits:
     up:
       target_vnum: 01010343469
@@ -743,11 +888,13 @@
   local_id: '3454'
   name: A Câmara de Estado
   vnum: '01010343454'
-- description: |-
-    Para aqueles que não puderam ver o Barão, sempre há o abundante salão
+- description: 'Para aqueles que não puderam ver o Barão, sempre há o abundante salão
+
     de festas, onde se pode visitar.  Não há cadeiras nesta sala, somente uma
+
     enorme mesa carregada com todos os tipos de alimentos - prontos para serem
-    degustados.
+
+    degustados.'
   exits:
     east:
       target_vnum: '01010343456'
@@ -756,23 +903,29 @@
   local_id: '3455'
   name: O Salão de Festas
   vnum: '01010343455'
-- description: |-
-    A alta temperatura o atinge na medida em que você adentra neste local.
+- description: 'A alta temperatura o atinge na medida em que você adentra neste local.
+
     O grande forno que o cozinheiro usa libera um instenso calor a todo
+
     momento, seja dia ou noite.  O salão de festas é muito mais confortável -
-    que tal ir lá para preparar uma refeição?
+
+    que tal ir lá para preparar uma refeição?'
   exits:
     west:
       target_vnum: '01010343455'
   local_id: '3456'
   name: A Cozinha
   vnum: '01010343456'
-- description: |-
-    Os seus passos ecoam por este corredor, totalmente vazio por toda sua
+- description: 'Os seus passos ecoam por este corredor, totalmente vazio por toda
+    sua
+
     extensão.  Duas portas encontram-se ao lado sul, aproximadamente seis pés
+
     de distância uma da outra - uma delas logo a sul de você.  Na distânte
+
     parede leste há outra porta, com aparência mais robusta do que as da
-    parede sul.
+
+    parede sul.'
   exits:
     east:
       target_vnum: 01010343458
@@ -783,9 +936,9 @@
   local_id: '3457'
   name: Um Corredor Vazio
   vnum: '01010343457'
-- description: |-
-    Uma porta robusta encontra-se a leste daqui, parecendo ser muito sólida
-    e difícil de ser aberta.  Outra porta encontra-se a sul.
+- description: 'Uma porta robusta encontra-se a leste daqui, parecendo ser muito sólida
+
+    e difícil de ser aberta.  Outra porta encontra-se a sul.'
   exits:
     down:
       target_vnum: '01010343461'
@@ -796,10 +949,12 @@
   local_id: '3458'
   name: Um Corredor Vazio
   vnum: 01010343458
-- description: |-
-    Uma milícia armada?  Em um local onde o próprio Barão é conhecido por
+- description: 'Uma milícia armada?  Em um local onde o próprio Barão é conhecido
+    por
+
     ser pacífico e tranquilo?  O que será que todos estes homens armados estão
-    fazendo aqui?
+
+    fazendo aqui?'
   exits:
     east:
       target_vnum: '01010343460'
@@ -808,10 +963,12 @@
   local_id: '3459'
   name: A Sala de Guarda
   vnum: 01010343459
-- description: |-
-    Uma milícia armada?  Em um local onde o próprio Barão é conhecido por
+- description: 'Uma milícia armada?  Em um local onde o próprio Barão é conhecido
+    por
+
     ser pacífico e tranquilo?  O que será que todos estes homens armados estão
-    fazendo aqui?
+
+    fazendo aqui?'
   exits:
     north:
       target_vnum: 01010343458
@@ -820,12 +977,16 @@
   local_id: '3460'
   name: A Sala de Guarda
   vnum: '01010343460'
-- description: |-
-    Engradados e caixas das próprias coisas do Barão encontram-se aqui, nas
+- description: 'Engradados e caixas das próprias coisas do Barão encontram-se aqui,
+    nas
+
     prateleiras em um canto da sala.  As paredes construídas em pedra estão
+
     marcadas por uma insignificante infiltração.  Uma pequena passagem na pedra
+
     segue para norte em direção a uma outra pequena sala, e uma bela porta
-    econtra-se no lado oeste.
+
+    econtra-se no lado oeste.'
   exits:
     north:
       target_vnum: '01010343462'
@@ -836,20 +997,22 @@
   local_id: '3461'
   name: "Uma Despensa Ã\x9Amida"
   vnum: '01010343461'
-- description: |-
-    Todos tipos de alimentos não perecíveis são guardados nesta sala.  De
+- description: 'Todos tipos de alimentos não perecíveis são guardados nesta sala.  De
+
     algum modo, esta sala foi vedada de qualquer infiltração, mantendo todos
-    os alimentos que aqui estão protegidos.
+
+    os alimentos que aqui estão protegidos.'
   exits:
     south:
       target_vnum: '01010343461'
   local_id: '3462'
   name: Anexo da Despensa
   vnum: '01010343462'
-- description: |-
-    Uma ampla sala, e com o piso todo recoberto em pedra segue pela parte
+- description: 'Uma ampla sala, e com o piso todo recoberto em pedra segue pela parte
+
     sul de três conjuntos de celas.  Parece que o Barão não é tão tranquilo e
-    pacífico como todos pensam que ele é.
+
+    pacífico como todos pensam que ele é.'
   exits:
     east:
       target_vnum: '01010343461'
@@ -860,10 +1023,11 @@
   local_id: '3463'
   name: Entrada do Calabouço
   vnum: '01010343463'
-- description: |-
-    Grandes celas encontram-se no fim desta sala, ao lado norte, com
+- description: 'Grandes celas encontram-se no fim desta sala, ao lado norte, com
+
     grossas barras de ferro as cercando.  Há uma espessa porta de madeira no
-    final da sala, a leste - sendo a única saída deste calabouço.
+
+    final da sala, a leste - sendo a única saída deste calabouço.'
   exits:
     east:
       target_vnum: '01010343463'
@@ -874,10 +1038,11 @@
   local_id: '3464'
   name: O Calabouço
   vnum: '01010343464'
-- description: |-
-    Grandes celas encontram-se no fim desta sala, ao lado norte, com
+- description: 'Grandes celas encontram-se no fim desta sala, ao lado norte, com
+
     grossas barras de ferro as cercando.  Há uma espessa porta de madeira no
-    final da sala, a leste - sendo a única saída deste calabouço.
+
+    final da sala, a leste - sendo a única saída deste calabouço.'
   exits:
     east:
       target_vnum: '01010343464'
@@ -886,39 +1051,42 @@
   local_id: '3465'
   name: O Calabouço
   vnum: '01010343465'
-- description: |-
-    Não há muitas coisas nesta cela além de um pote mau cheiroso e alguns
+- description: 'Não há muitas coisas nesta cela além de um pote mau cheiroso e alguns
+
     ratos.  Aqueles que são aprisionados aqui devem ser pessoas muito más, para
-    serem tratados de tal forma pelo Barão.
+
+    serem tratados de tal forma pelo Barão.'
   exits:
     south:
       target_vnum: '01010343465'
   local_id: '3466'
   name: Uma Cela
   vnum: '01010343466'
-- description: |-
-    Não há muitas coisas nesta cela além de um pote mau cheiroso e alguns
+- description: 'Não há muitas coisas nesta cela além de um pote mau cheiroso e alguns
+
     ratos.  Aqueles que são aprisionados aqui devem ser pessoas muito más, para
-    serem tratados de tal forma pelo Barão.
+
+    serem tratados de tal forma pelo Barão.'
   exits:
     south:
       target_vnum: '01010343464'
   local_id: '3467'
   name: Uma Cela
   vnum: '01010343467'
-- description: |-
-    Não há muitas coisas nesta cela além de um pote mau cheiroso e alguns
+- description: 'Não há muitas coisas nesta cela além de um pote mau cheiroso e alguns
+
     ratos.  Aqueles que são aprisionados aqui devem ser pessoas muito más, para
-    serem tratados de tal forma pelo Barão.
+
+    serem tratados de tal forma pelo Barão.'
   exits:
     south:
       target_vnum: '01010343463'
   local_id: '3468'
   name: Uma Cela
   vnum: 01010343468
-- description: |-
-    Guardas estão aqui, a todo instante, protegendo a entrada para os
-    aposentos do Barão.  Esta pequena câmara tem só esta finalidade.
+- description: 'Guardas estão aqui, a todo instante, protegendo a entrada para os
+
+    aposentos do Barão.  Esta pequena câmara tem só esta finalidade.'
   exits:
     down:
       target_vnum: '01010343454'
@@ -927,12 +1095,15 @@
   local_id: '3469'
   name: Parte Superior da Sala de Guarda
   vnum: 01010343469
-- description: |-
-    Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+- description: 'Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+
     esposa, ele não tem a necessidade de ter aposentos para uma família, e nem
+
     para muita mobília, possuindo só simples móveis.  Uma lareira encontra-se
+
     fixa à parede noroeste, e um grande tapete cobre a maior parte do piso na
-    parte sudeste da sala.  A cama do Barão encontra-se a sul.
+
+    parte sudeste da sala.  A cama do Barão encontra-se a sul.'
   exits:
     east:
       target_vnum: 01010343469
@@ -943,14 +1114,19 @@
   local_id: '3470'
   name: Os Aposentos do Barão
   vnum: '01010343470'
-- description: |-
-    Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+- description: 'Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+
     esposa, ele não tem a necessidade de ter aposentos para uma família, e nem
+
     para muita mobília, possuindo só simples móveis.  Uma lareira encontra-se
+
     fixa à parede oeste, e um grande tapete cobre a maior parte do piso na
+
     parte sudeste da sala.  A cama do Barão encontra-se a sudeste.  Há uma
+
     janela parecida com um vitral na parede sul, possuindo um estranha
-    mistura de cores e um misterioso movimento.
+
+    mistura de cores e um misterioso movimento.'
   exits:
     east:
       target_vnum: '01010343470'
@@ -959,13 +1135,17 @@
   local_id: '3471'
   name: Os Aposentos do Barão
   vnum: '01010343471'
-- description: |-
-    Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+- description: 'Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+
     esposa, ele não tem a necessidade de ter aposentos para uma família, e nem
+
     para muita mobília, possuindo só simples móveis.  Uma lareira encontra-se
+
     fixa à parede noroeste, e um grande tapete cobre a maior parte do piso na
+
     parte sudoeste da sala.  A cama do Barão está aqui, encostada na parede a
-    sudeste.
+
+    sudeste.'
   exits:
     north:
       target_vnum: '01010343470'
@@ -974,12 +1154,15 @@
   local_id: '3472'
   name: Os Aposentos do Barão
   vnum: '01010343472'
-- description: |-
-    Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+- description: 'Estas grandes salas são os aposentos pessoais do Barão.  Sem nenhuma
+
     esposa, ele não tem a necessidade de ter aposentos para uma família, e nem
+
     para muita mobília, possuindo só simples móveis.  Uma lareira encontra-se
+
     fixa à parede noroeste, e um grande tapete cobre a maior parte do piso
-    deste local.  A cama do Barão encontra-se a leste.
+
+    deste local.  A cama do Barão encontra-se a leste.'
   exits:
     east:
       target_vnum: '01010343472'

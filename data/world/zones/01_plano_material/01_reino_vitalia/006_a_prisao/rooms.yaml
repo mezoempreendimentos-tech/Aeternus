@@ -4,17 +4,20 @@
     \ o grande portão da prisão."
   exits:
     east:
-      target_vnum: 01010069422
+      target_vnum: 01010949422
     west:
       target_vnum: '01010060601'
   local_id: '600'
   name: A Entrada Para a Prisão
   vnum: '01010060600'
-- description: |-
-    Você está no interior das grandes muralhas da prisão.  Não há nada em
+- description: 'Você está no interior das grandes muralhas da prisão.  Não há nada
+    em
+
     volta, apenas areia e grandes rochas espalhadas.  Curiosamente há uma abertura
+
     ao chão, com uma escada.  Será que a prisão mesmo está alí embaixo?  A leste
-    está o portão da prisão.
+
+    está o portão da prisão.'
   exits:
     down:
       target_vnum: '01010060602'
@@ -23,13 +26,18 @@
   local_id: '601'
   name: Dentro da Prisão
   vnum: '01010060601'
-- description: |-
-    Você está à base da escada do subterrâneo da prisão.  Aqui é tudo muito
+- description: 'Você está à base da escada do subterrâneo da prisão.  Aqui é tudo
+    muito
+
     escuro, com uma fraca iluminação pelas tochas que estão afixadas ao longo das
+
     paredes.  A construção subterrânea é extremamente sólida e bem construída.
+
     Você vê um longo corredor à oeste.  Há sentinelas, cozinheiras e serviçais
+
     caminhando pelo corredor.  Acima de você, a escada leva para a parte aberta da
-    prisão.
+
+    prisão.'
   exits:
     up:
       target_vnum: '01010060601'
@@ -38,13 +46,18 @@
   local_id: '602'
   name: Na Entrada do Subterrâneo
   vnum: '01010060602'
-- description: |-
-    Você está caminhando pelos corredores da prisão.  Há saídas para as quatro
+- description: 'Você está caminhando pelos corredores da prisão.  Há saídas para as
+    quatro
+
     direções.  Sentinelas, cozinheiras e serviçais caminham pelos corredores.  Ao
+
     norte você pode ver algo que se parece com uma cozinha.  Ao sul há um corredor
+
     mais sombrio.  A leste você vê uma pequena claridade, que deve indicar a saída
+
     para a parte aberta da prisão, e a oeste o corredor continua em direção aos
-    calabouços.
+
+    calabouços.'
   exits:
     east:
       target_vnum: '01010060602'
@@ -57,11 +70,13 @@
   local_id: '603'
   name: Um Cruzamento de Corredores
   vnum: '01010060603'
-- description: |-
-    Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+- description: 'Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
+
     pouca para que você possa ver tudo com perfeição.  Ao norte e ao sul você pode
-    ver calabouços.  O corredor continua a leste e oeste.
+
+    ver calabouços.  O corredor continua a leste e oeste.'
   exits:
     east:
       target_vnum: '01010060603'
@@ -74,11 +89,13 @@
   local_id: '604'
   name: O Corredor dos Calabouços
   vnum: '01010060604'
-- description: |-
-    Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+- description: 'Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
+
     pouca para que você possa ver tudo com perfeição.  Ao norte e ao sul você pode
-    ver calabouços.  O corredor continua a leste e oeste.
+
+    ver calabouços.  O corredor continua a leste e oeste.'
   exits:
     east:
       target_vnum: '01010060604'
@@ -91,11 +108,13 @@
   local_id: '605'
   name: O Corredor dos Calabouços
   vnum: '01010060605'
-- description: |-
-    Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+- description: 'Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
+
     pouca para que você possa ver tudo com perfeição.  Ao norte e ao sul você pode
-    ver calabouços.  O corredor continua a leste e oeste.
+
+    ver calabouços.  O corredor continua a leste e oeste.'
   exits:
     east:
       target_vnum: '01010060605'
@@ -108,11 +127,13 @@
   local_id: '606'
   name: O Corredor dos Calabouços
   vnum: '01010060606'
-- description: |-
-    Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+- description: 'Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
+
     pouca para que você possa ver tudo com perfeição.  Ao norte e ao sul você pode
-    ver calabouços.  O corredor continua a leste e oeste.
+
+    ver calabouços.  O corredor continua a leste e oeste.'
   exits:
     east:
       target_vnum: '01010060606'
@@ -125,11 +146,13 @@
   local_id: '607'
   name: O Corredor dos Calabouços
   vnum: '01010060607'
-- description: |-
-    Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+- description: 'Você está caminhando pelos corredores dos calabouços.  Há pouco movimento
+
     por aqui.  A pouca iluminação proveniente das toxas afixadas às paredes é
+
     pouca para que você possa ver tudo com perfeição.  Ao norte, sul e oeste você
-    pode ver calabouços.  O corredor continua a leste.
+
+    pode ver calabouços.  O corredor continua a leste.'
   exits:
     east:
       target_vnum: '01010060607'
@@ -142,22 +165,27 @@
   local_id: '608'
   name: O Corredor dos Calabouços
   vnum: 01010060608
-- description: |-
-    Você está na cozinha desta prisão.  O odor na sala é típico de uma fossa,
+- description: 'Você está na cozinha desta prisão.  O odor na sala é típico de uma
+    fossa,
+
     nojento...  Por uma pequena abertura na parede escorre água, que cai em um
+
     jarro de barro.  No centro da sala há um enorme caldeirão.  A única saída é
-    para o sul.
+
+    para o sul.'
   exits:
     south:
       target_vnum: '01010060603'
   local_id: '616'
   name: A Cozinha
   vnum: '01010060616'
-- description: |-
-    Esta é uma sala menos movimentada da prisão.  Aqui os sentinelas guardam
+- description: 'Esta é uma sala menos movimentada da prisão.  Aqui os sentinelas guardam
+
     espadas, atiradeiras, arcos e flechas, e até as grandes bolas-de-ferro que são
+
     presas nos pés dos condenados.  Ao norte você retorna para o corredor, e ao
-    oeste você vê uma outra sala.
+
+    oeste você vê uma outra sala.'
   exits:
     north:
       target_vnum: '01010060603'
@@ -166,12 +194,15 @@
   local_id: '617'
   name: A Sala de Armamentos
   vnum: '01010060617'
-- description: |-
-    Você está em uma sala não muito interessante...  Você vê alguns artefatos
+- description: 'Você está em uma sala não muito interessante...  Você vê alguns artefatos
+
     diferentes por todos os lados, você reconhece uma guilhotina em um dos cantos
+
     da sala, e uma corda pindurada no teto, com um nó na ponta, suficiente para
+
     que sua cabeça entre nele...  Glup!  No chão há um buraco grande e fundo,
-    e você sente um calafrio ao pensar o que deve haver lá embaixo.
+
+    e você sente um calafrio ao pensar o que deve haver lá embaixo.'
   exits:
     down:
       target_vnum: 01010060619
@@ -180,11 +211,14 @@
   local_id: '618'
   name: A Sala de Condenação
   vnum: 01010060618
-- description: |-
-    Você cai no fosso de crocodilos...  Eles são muitos, e vem em sua direção,
+- description: 'Você cai no fosso de crocodilos...  Eles são muitos, e vem em sua
+    direção,
+
     famintos...  Você entra em pânico e tenta escapar daqui de qualquer forma, mas
+
     não consegue escalar as paredes.  Os crocodilos avançam rapidamente em sua
-    direção, e sem chances de escapar, você acaba virando almoço de crocodilo...
+
+    direção, e sem chances de escapar, você acaba virando almoço de crocodilo...'
   exits:
     up:
       target_vnum: 01010060618
