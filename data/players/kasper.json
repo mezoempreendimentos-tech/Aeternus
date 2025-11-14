@@ -3,8 +3,16 @@
   "password": "",
   "title": "o Novato",
   "level": 1,
-  "hp": 100,
+  "hp": 78,
   "max_hp": 100,
-  "room_vnum": "010315215204",
-  "inventory": []
+  "mana": 10,
+  "max_mana": 100,
+  "stamina": 100,
+  "max_stamina": 100,
+  "room_vnum": "010103003012",
+  "inventory": [],
+  "spells_known": [
+    "cure light",
+    "magic missile"
+  ]
 }

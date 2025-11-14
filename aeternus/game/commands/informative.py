@@ -9,6 +9,8 @@ async def do_who(connection, args):
     await connection.send(header)
     
     for p in players:
+        # Formato: [Novato] Conan o Bárbaro
+        # Usa getattr para evitar erro se title não existir ainda
         title = getattr(p, 'title', 'o Viajante')
         line = f"[{title}] {p.name}"
         await connection.send(line)
@@ -28,9 +30,10 @@ async def do_score(connection, args):
     
     # Tenta pegar o nome bonito da classe
     class_name = "Desconhecida"
-    cls_obj = world.get_class(p.class_vnum)
-    if cls_obj:
-        class_name = cls_obj.name
+    if hasattr(world, 'get_class'):
+        cls_obj = world.get_class(p.class_vnum)
+        if cls_obj:
+            class_name = cls_obj.name
 
     # Formatação da Ficha
     buffer = [
@@ -47,3 +50,23 @@ async def do_score(connection, args):
     ]
     
     await connection.send("\n".join(buffer))
+
+async def do_time(connection, args):
+    """Mostra a hora, data e estação do ano."""
+    # Verifica se o sistema de tempo já nasceu
+    if not hasattr(world, 'hour'):
+        await connection.send("O tempo ainda não foi criado neste mundo.")
+        return
+
+    season = world.current_season
+    
+    # Ex: "São 14 horas do dia 5 do Mês 3 (Aestas)."
+    msg = [
+        f"\n\033[1;33m=== CRONOS AETERNUS ===\033[0m",
+        f"Hora:   {world.hour}:00",
+        f"Data:   Dia {world.day}, Mês {world.month}, Ano {world.year}",
+        f"Ciclo:  \033[1;36m{season['name']}\033[0m - {season['title']}",
+        f"Clima:  {season['desc']}",
+        f"\033[1;33m=======================\033[0m\n"
+    ]
+    await connection.send("\n".join(msg))

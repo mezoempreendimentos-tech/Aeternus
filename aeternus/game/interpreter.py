@@ -3,7 +3,11 @@ from aeternus.game.commands.interaction import do_get, do_drop, do_inventory
 from aeternus.game.commands.communication import (
     do_say, do_gossip, do_shout, do_tell, do_emote, do_broadcast, do_echo
 )
-from aeternus.game.commands.informative import do_who, do_look, do_score # <--- Import do_score
+from aeternus.game.commands.informative import do_who, do_look, do_score, do_time
+from aeternus.game.commands.offensive import do_kill
+from aeternus.game.commands.position import do_sleep, do_rest, do_meditate, do_stand, do_wake
+from aeternus.game.commands.admin import do_goto
+from aeternus.game.commands.magic import do_cast # <--- NOVO
 
 COMMANDS = {
     # Movimento
@@ -36,22 +40,38 @@ COMMANDS = {
 
     # Informação
     'who': lambda c, a: do_who(c, a),
-    'quem': lambda c, a: do_who(c, a),
     'l': lambda c, a: do_look(c, a),
     'look': lambda c, a: do_look(c, a),
-    'score': lambda c, a: do_score(c, a), # <--- Comando Score
-    'f': lambda c, a: do_score(c, a),     # Atalho (Ficha)
-    'ficha': lambda c, a: do_score(c, a),
+    'score': lambda c, a: do_score(c, a),
+    'f': lambda c, a: do_score(c, a),
+    'time': lambda c, a: do_time(c, a),
+    'tempo': lambda c, a: do_time(c, a),
 
     # Comunicação
     'say': lambda c, a: do_say(c, a),
     'gossip': lambda c, a: do_gossip(c, a),
-    'chat': lambda c, a: do_gossip(c, a),
     'shout': lambda c, a: do_shout(c, a),
     'tell': lambda c, a: do_tell(c, a),
     'emote': lambda c, a: do_emote(c, a),
+    
+    # Combate & Magia
+    'kill': lambda c, a: do_kill(c, a),
+    'matar': lambda c, a: do_kill(c, a),
+    'k': lambda c, a: do_kill(c, a),
+    'cast': lambda c, a: do_cast(c, a), # <--- NOVO
+    'conjurar': lambda c, a: do_cast(c, a),
+
+    # Posições
+    'sleep': lambda c, a: do_sleep(c, a),
+    'rest': lambda c, a: do_rest(c, a),
+    'meditate': lambda c, a: do_meditate(c, a),
+    'stand': lambda c, a: do_stand(c, a),
+    'wake': lambda c, a: do_wake(c, a),
+
+    # Admin
     'broadcast': lambda c, a: do_broadcast(c, a),
     'echo': lambda c, a: do_echo(c, a),
+    'goto': lambda c, a: do_goto(c, a),
     
     'quit': None 
 }
@@ -66,7 +86,6 @@ def find_command(user_input):
 async def handle_command(connection, line):
     if not line: return
     
-    # Atalhos
     if line[0] == "'": line = "say " + line[1:]
     elif line[0] == ":": line = "emote " + line[1:]
     elif line[0] == ".": line = "gossip " + line[1:] 
@@ -80,6 +99,12 @@ async def handle_command(connection, line):
     if not cmd_name:
         await connection.send("Não entendo.")
         return
+
+    if connection.player.position in ["sleeping", "meditating"]:
+        allowed = ["stand", "levantar", "wake", "acordar", "score", "f", "ficha", "quit", "l", "look", "time", "tempo", "who"]
+        if cmd_name not in allowed:
+            await connection.send("Você não pode fazer isso nesse estado.")
+            return
 
     if cmd_name == 'quit':
         await connection.send("Adeus.")
