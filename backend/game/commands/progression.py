@@ -83,12 +83,32 @@ async def cmd_remort(ctx) -> str:
     # (Futuramente: adicionar skills iniciais da nova classe aqui)
     player.skills = player.inherited_skills.copy()
     
-    # Registra no Diário Vital
+    # Registra no Diário Vital (Stats Pessoais)
     player.log_event(
         "REMORT_COMPLETE", 
         f"Atingiu a perfeição como {old_class.capitalize()} e renasceu como {target_class_key.capitalize()}, preservando {skill_to_keep}.", 
         10
     )
+    
+    # NOVO: Registra Remort no Grimório (Memória do Mundo)
+    if hasattr(ctx.world, 'grimoire') and ctx.world.grimoire:
+        # Pega o nome da sala de forma segura
+        loc_name = "Desconhecido"
+        current_room = ctx.world.get_room(player.location_vnum)
+        if current_room:
+            loc_name = current_room.title
+
+        await ctx.world.grimoire.witness_event("remort", {
+            "player_name": player.name,
+            "player_level": 100,  # O nível que ele tinha antes do reset
+            "old_class": old_class,
+            "new_class": target_class_key,
+            "remort_count": player.remort_count,
+            "skill_kept": skill_to_keep,
+            "location_vnum": player.location_vnum,
+            "location_name": loc_name,
+            "year": 1000 # Pegar do TimeEngine se disponível no futuro
+        })
     
     # Mensagem de Retorno
     return (

@@ -15,13 +15,19 @@ DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DEFAULT_DB_PATH}")
 HOST = os.getenv("HOST", "0.0.0.0")
 PORT = int(os.getenv("PORT", 8000))
 
-# 4. Configurações TELNET (NOVO)
+# 4. Configurações TELNET
 TELNET_HOST = "0.0.0.0"
 TELNET_PORT = 4000
 
-# 5. Configurações de Logging
+# 5. Configurações OLLAMA (IA) - [CRÍTICO PARA O GRIMÓRIO]
+# Se você precisou mudar a porta no docker-compose, mude aqui também (ex: 11435)
+OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "tinyllama")
+OLLAMA_TIMEOUT = 300.0 # Segundos para esperar a criatividade da IA
+
+# 6. Configurações de Logging
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 LOG_FILE = os.path.join(BASE_DIR, "aeternus.log")
 
-# 6. Debug
+# 7. Debug
 DEBUG_MODE = os.getenv("DEBUG", "True").lower() == "true"

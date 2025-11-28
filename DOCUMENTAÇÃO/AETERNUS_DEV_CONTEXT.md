@@ -1,164 +1,128 @@
-Aqui está o **Grimório do Desenvolvedor: Aeternus**.  
-Este documento contém o resumo técnico, as decisões de design e a estrutura de código de tudo o que construímos até agora. Salve este arquivo como AETERNUS\_DEV\_CONTEXT.md.  
-Quando reiniciarmos em outra sessão, basta me enviar este arquivo (ou colar o conteúdo) e dizer: *"Aqui está o contexto do Aeternus"*, e eu saberei exatamente onde paramos.  
----
+Salve, Escriba do Destino.
 
-# **AETERNUS MUD \- Grimório do Desenvolvedor (v0.5)**
+Você tem toda a razão. O conhecimento que não é registrado está fadado a se perder nas areias do tempo. O Grimório está vivo, os bardos cantam, e a Inteligência Artificial sonha dentro do seu servidor. Isso marca o fim de uma Era e o início de outra.
 
-Status do Projeto: Core Engine Funcional (Simulação de Combate e Loop de Servidor Ativos).  
-Tech Stack: Python 3.11+, FastAPI, Asyncio.
+Aqui está o **AETERNUS\_DEV\_CONTEXT.md** atualizado para a versão **v0.70**. Ele documenta a infraestrutura do Grimório, a integração com Ollama/Docker e os novos comandos.
 
-## **1\. Arquitetura de Pastas e Módulos**
+Salve este arquivo para que, no futuro, saibamos como a magia foi tecida.
 
-O projeto segue uma arquitetura modular estrita definida no guia-organizacao.md.
+````markdown
+# **AETERNUS MUD - Grimório do Desenvolvedor (v0.70)**
 
-backend/  
-├── api/               \# Endpoints FastAPI (HTTP/WebSocket)  
-├── config/            \# Configurações globais  
-├── handlers/          \# Interpretadores de comandos (CommandContext)  
-├── game/  
-│   ├── commands/      \# Lógica dos verbos (core.py, progression.py)  
-│   ├── world/         \# Gestão de Estado (world\_manager.py, factory.py)  
-│   ├── utils/         \# Utilitários (vnum.py)  
-│   └── engines/       \# Motores de Lógica Autônoma  
-│       ├── ai/        \# (ecosystem.py, nemesis.py)  
-│       ├── combat/    \# (manager.py, formulas.py, flavor.py)  
-│       ├── leveling/  \# (leveling.py)  
-│       └── time/      \# (manager.py, calendar.py, climate.py)  
-└── models/            \# Dataclasses (character.py, npc.py, item.py, room.py)
-
-## **2\. Conceitos Fundamentais**
-
-### **Sistema VNUM (Virtual Number)**
-
-* **Arquivo:** backend/game/utils/vnum.py  
-* **Lógica:** Identificador único para Templates (Blueprints).  
-* **Padrão:** ZZZXXXXX (Zona \[3 dígitos\] \+ ID Local \[5 dígitos\]). Ex: 100001\.  
-* **Legado:** Suporta IDs antigos \<= 99999\.
-
-### **Padrão Template vs. Instance**
-
-Todos os objetos tangíveis seguem este padrão para escalabilidade:
-
-* **Template (Blueprint):** Dados estáticos carregados de JSON (ex: NPCTemplate). Usa VNUM.  
-* **Instance (Objeto Vivo):** Dados dinâmicos na memória (ex: NPCInstance). Usa UUID.  
-  * *Ex:* Um ItemTemplate (Espada) não tem durabilidade gasta. Um ItemInstance tem.
+**Status do Projeto:** Persistência Sólida, Inventário Real, Acesso Híbrido, Sistema de Lore (Grimório) e IA Generativa Funcional.
+**Tech Stack:** Python 3.11+, FastAPI, SQLAlchemy (SQLite), Asyncio, Docker (Ollama/TinyLlama).
 
 ---
 
-## **3\. Motores de Jogo (Engines)**
+## **1. Arquitetura de Pastas e Módulos**
 
-### **A. Motor de Tempo (engines/time)**
+O projeto segue a arquitetura modular estrita definida no `guia-organizacao.md`.
 
-* **Calendário:** 13 Meses de 28 Dias. Ano de 364 dias.  
-* **Ritmo:** 1 Dia de Jogo \= 48 minutos reais (Multiplicador x30).  
-* **Persistência:** Salva o estado em data/gamestate.json ao desligar o servidor para que o tempo não resete.  
-* **Clima:** 7 Estações Globais cruzadas com Tipos de Zona (Ártico, Deserto, etc).
+```text
+raiz/
+├── aeternus.db        # O Sarcófago (Banco de Dados SQLite)
+├── client.py          # Portal de Acesso (Cliente HTTP)
+├── init_db.py         # Ritual de Gênesis (Cria tabelas)
+├── delete_player.py   # Ritual de Banimento
+├── simulate_lore.py   # Simulação de Lendas e IA (Novo)
+├── simulate_battle.py # Simulação de Combate Headless
+├── docker-compose.yml # Orquestração da IA
+├── backend/
+│   ├── api/           # (routes.py, telnet.py)
+│   ├── config/        # (server_config.py - Configs de IA incluídas)
+│   ├── ai/            # (ollama_service.py - Cliente HTTP para IA)
+│   ├── db/            # (base.py, models.py, queries.py)
+│   ├── handlers/      # (command_handler.py)
+│   ├── game/
+│   │   ├── commands/  # (core.py, progression.py, lore.py)
+│   │   ├── world/     # (world_manager.py - Gerencia Grimoire)
+│   │   ├── engines/   # Motores de Lógica
+│   │   │   ├── ai/    # (nemesis.py, ecosystem.py)
+│   │   │   ├── combat/# (manager.py - Hooks para Fatalities)
+│   │   │   ├── lore/  # (grimoire.py - O Cérebro das Lendas)
+│   │   │   └── time/  # (manager.py - Propagação de Fofoca)
+│   └── models/        # (Player, ItemInstance, NPCInstance)
+````
 
-### **B. Motor de Combate (engines/combat)**
+-----
 
-* **Tick:** Processado a cada 2 segundos.  
-* **Juiz (manager.py):** Gerencia sessões de combate por sala.  
-* **Fórmulas (formulas.py):**  
-  * **Hit Chance:** Destreza/Sorte Atacante vs Destreza/Percepção Defensor.  
-  * **Anatomia:** Seleciona parte do corpo baseada em pesos (Hit Weights).  
-  * **Mitigação:** Considera Flags Materiais (MAT\_STONE resiste a slash).  
-* **Flavor (flavor.py):** Narrador que gera textos descritivos.  
-* **Eventos Especiais:**  
-  * **Crítico (5%):** Dano x1.5.  
-  * **Falha Crítica (5%):** Texto de vergonha (possível perda de turno futuro).  
-  * **Fatality:** Se (Crítico E \[HP \< 10% OU Dano \> 80% Max\]), ocorre Morte Instantânea (Hit Kill) com descrição épica.  
-  * **Severing (Decepar):** Dano massivo em membro SEVERABLE com arma SHARP corta o membro.
+## **2. O Grimório Vivo (Sistema de Lore & IA)**
 
-### **C. Motor de Nêmesis e Ecossistema (engines/ai)**
+Uma camada de narrativa emergente que transforma eventos de gameplay em mitologia.
 
-* **Nêmesis (nemesis.py):** NPCs ganham XP e Títulos ("o Matador de Noobs") ao matar jogadores. Podem evoluir de nível e virar Elites.  
-* **Ecossistema (ecosystem.py):** Roda a cada 10s (Tick Global). Simula caça, fome e disputas territoriais entre NPCs quando jogadores não estão olhando. Define o **Alpha da Zona**.
+### **Fluxo da Lenda**
 
-### **D. Motor de Progressão (engines/leveling)**
+1.  **Evento:** Algo épico acontece (ex: Fatality, Boss Kill, Remort).
+2.  **Testemunha:** O `GrimoireEngine` captura os dados brutos.
+3.  **Poesia (IA):** O `OllamaService` envia os dados para o modelo **TinyLlama** (via Docker), que retorna uma descrição dramática.
+4.  **Cristalização:** Uma `Legend` é criada e salva em `data/grimoire.json`.
+5.  **Propagação:** O `TimeEngine` periodicamente faz NPCs na mesma sala "conversarem", transferindo lendas para suas memórias (`NPCMemory`).
+6.  **Interação:** Jogadores podem ouvir essas lendas dos NPCs.
 
-* **Curva:** Geométrica suave (+8.0% XP req/nível).  
-* **Meta:** \~54 Milhões de XP no Nível 100\.  
-* **Ganhos:** XP por Dano, Tank, Cura e Kill (Baseado na Classe).  
-* **Remort (Samsara):**  
-  * Ao atingir Nível 100, jogador pode usar /renascer.  
-  * Reseta para Nível 1, nova Classe.  
-  * **Herança:** Escolhe 1 skill da vida anterior para manter permanentemente.  
-  * **Custo:** \+10% de XP necessário por nível a cada Remort.
+### **Comandos de Lore**
 
----
+  * `lendas`: Lista as histórias mais famosas do mundo ou de uma zona.
+  * `ouvir <npc>`: Pede para um NPC contar uma história (usa IA se disponível).
+  * `reputacao <player>`: Mostra o nível de fama e feitos de um jogador.
+  * `mitos`: Estatísticas globais do servidor.
 
-## **4\. Estrutura de Dados (JSONs)**
+-----
 
-### **Anatomia (data/anatomy.json)**
+## **3. Infraestrutura de Inteligência Artificial**
 
-Define corpos modulares.
+Para o Grimório funcionar com poesia, o **Ollama** deve estar rodando via Docker.
 
-JSON
+**Setup Rápido (Windows/PowerShell):**
 
-"rodent": {  
-  "parts": \[  
-    {"id": "head", "name": "a Cabeça", "hit\_weight": 20, "hp\_factor": 0.2, "flags": \["VITAL"\]}  
-  \]  
-}
+1.  **Subir Serviço:** `docker compose up -d ollama`
+2.  **Baixar Cérebro:** `docker compose exec ollama ollama pull tinyllama`
+      * *Nota:* Usamos `tinyllama` por ser rápido e leve para testes. `llama2` é melhor mas mais lento.
+3.  **Configuração:** Ajustar `OLLAMA_MODEL` em `backend/config/server_config.py`.
 
-### **NPCs (data/npcs.json)**
+-----
 
-Suporta ataques naturais se não tiver arma.
+## **4. Camada de Persistência**
 
-JSON
+  * **DB:** SQLite (`aeternus.db`) com SQLAlchemy.
+  * **Identidade:** UUIDs para jogadores.
+  * **Inventário:** Itens são serializados em JSON no banco e hidratados em Objetos na memória ao logar.
+  * **Autenticação:** Senha simples exigida no Registro e Login (Telnet e API).
 
-"natural\_attacks": \[  
-  {"name": "Dentes", "damage\_type": "pierce", "verb": "morde", "damage\_mult": 1.0}  
-\]
+-----
 
-### **Salas (data/rooms.json)**
+## **5. Conectividade Híbrida**
 
-Suporta descrição sensorial e flags ambientais.
+  * **API REST (8000):** Para painéis e clientes web.
+  * **Telnet (4000):** Para MUD Clients clássicos (MUSHClient, Mudlet). O servidor Telnet roda em uma Task Asyncio paralela ao FastAPI.
 
-JSON
+-----
 
-"sensory": { "visual": "Névoa baixa.", "olfactory": "Cheiro de enxofre." },  
-"flags": \["INDOOR", "DARK"\]
+## **6. Como Rodar (Workflow v0.70)**
 
----
+1.  **Gênesis (1ª vez):** `python init_db.py`
+2.  **IA (Opcional mas recomendado):** Garantir que o Docker do Ollama esteja rodando.
+3.  **Servidor:** `python -m backend.main`
+      * *Aguarde:* "AETERNUS ONLINE", "PORTAL TELNET ABERTO" e "Grimório Vivo ativado".
+4.  **Jogar:** Conectar via Telnet (`localhost:4000`) ou usar `python client.py`.
 
-## **5\. Comandos Implementados**
+-----
 
-O CommandHandler suporta:
+## **7. Próximos Passos (Roadmap)**
 
-* **Informação:** olhar (l), inventario (i), equipamento (eq).  
-* **Movimento:** Rosa dos ventos completa (N, S, L, O, NE, NO, SE, SO, Cima, Baixo).  
-* **Combate:** matar \<alvo\> (k).  
-* **Progressão:** renascer \<classe\> \<skill\> (Apenas em Altar de Criação).
+1.  **Sistema de Skills Ativas:**
+      * Implementar `/cast`, custos de mana, cooldowns e efeitos (dano direto, cura, buffs).
+      * Criar arquitetura de `Spell` e `Skill` nas engines.
+2.  **Loot de Mobs:**
+      * Criar container "Corpo" ao morrer.
+      * Gerar loot tables básicas.
+3.  **Refinamento de Combate:**
+      * Adicionar skills ao loop de combate automático.
 
----
+<!-- end list -->
 
-## **6\. Como Rodar**
+```
 
-### **Modo Servidor (API \+ Game Loop)**
+Com este documento salvo, qualquer engenheiro (ou eu mesmo, no futuro) saberá exatamente como operar a torre de Aeternus.
 
-Bash
-
-python \-m backend.main
-
-* Endpoints:  
-  * POST /api/command: Enviar comandos como jogador.  
-  * GET /status: Ver estado do mundo/tempo.
-
-### **Modo Simulação (Headless Battle Test)**
-
-Bash
-
-python simulate\_battle.py
-
-* Cria dados temporários, spawna Heroi vs Rato e roda o combate round-a-round no console para testar fórmulas e leveling.
-
----
-
-## **7\. Próximos Passos (Roadmap)**
-
-1. **Persistência de Jogador:** Salvar/Carregar personagens do Banco de Dados (PostgreSQL/SQLite) em vez de criar na memória.  
-2. **Sistema de Skills:** Implementar o uso ativo de skills (usar curar) além do ataque básico.  
-3. **Inventário Real:** Comandos pegar, dropar, equipar.  
-4. **Loot:** Fazer NPCs droparem itens no chão ao morrer (já previsto no código, falta implementar o spawn).
+**O trabalho de hoje está concluído? Devo me retirar para as sombras?**
+```

@@ -132,8 +132,24 @@ class CombatManager:
             body_part.is_severed = True
             severed_msg = f" DECEPANDO {part_name.upper()}!"
 
-        # 8. Narrative Log
+        # 8. Narrative Log & Grimório
         if is_fatality:
+            # NOVO: Captura evento para o Grimório
+            if hasattr(self.world, 'grimoire') and self.world.grimoire:
+                import asyncio
+                asyncio.create_task(self.world.grimoire.witness_event("fatality", {
+                    "player_name": attacker.name if isinstance(attacker, Character) else "NPC",
+                    "player_level": getattr(attacker, 'level', 1),
+                    "enemy_name": defender.name,
+                    "enemy_level": getattr(defender, 'level', 1),
+                    "damage": final_damage,
+                    "location_vnum": session.room_vnum,
+                    "location_name": self.world.get_room(session.room_vnum).title if self.world.get_room(session.room_vnum) else "Desconhecido",
+                    "zone_id": session.room_vnum // 100000,
+                    "weapon_type": weapon_tmpl.type if weapon_tmpl else "unarmed",
+                    "year": 1000  # Pegar do TimeEngine se disponível
+                }))
+
             flavor = CombatNarrator.get_fatality(attacker.name, defender.name, dmg_info['type'])
             log_entry = f"🩸 FATALITY! {flavor} ({final_damage} dano!){severed_msg}"
         else:

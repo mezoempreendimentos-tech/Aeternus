@@ -10,6 +10,9 @@ from backend.models.npc import NPCInstance
 from backend.models.item import ItemInstance
 from backend.game.utils.vnum import VNum
 
+# NOVO: Importação do Motor de Lore
+from backend.game.engines.lore.grimoire import GrimoireEngine
+
 logger = logging.getLogger(__name__)
 
 class WorldManager:
@@ -34,6 +37,9 @@ class WorldManager:
 
         # Estado Global
         self.is_daytime: bool = True
+        
+        # NOVO: O Grimório Vivo
+        self.grimoire: Optional[GrimoireEngine] = None
 
     async def start_up(self):
         """Inicializa o mundo, carrega dados e popula o estado inicial."""
@@ -48,9 +54,24 @@ class WorldManager:
         # 3. Inicializa Estados de Zona
         self._init_zones()
         
+        # NOVO: Inicializa Grimório (após carregar factory)
+        # Importação tardia para evitar ciclos
+        try:
+            from backend.ai.ollama_service import OllamaService
+            ollama = OllamaService()
+        except ImportError:
+            logger.warning("OllamaService não encontrado. Grimório rodará sem IA.")
+            ollama = None
+        except Exception as e:
+            logger.warning(f"IA Ollama indisponível: {e}. O Grimório operará em modo passivo.")
+            ollama = None
+        
+        self.grimoire = GrimoireEngine(self, ollama)
+        self.grimoire.load_grimoire()
+        
+        logger.info("📜 Grimório Vivo ativado.")
+        
         # --- DEBUG: POPULAR SALA DE TESTE ---
-        # Spawna a 'Espada de Debug' (VNUM 100001) na Sala Inicial (100001)
-        # para testar o sistema de inventário.
         start_room_vnum = 100001
         debug_item_vnum = 100001
         
@@ -275,7 +296,7 @@ class WorldManager:
         return True
 
     # =========================================================================
-    # ECOSSISTEMA E ZONAS (Stubs por enquanto)
+    # ECOSSISTEMA E ZONAS
     # =========================================================================
 
     def get_zone_alpha(self, zone_id: int) -> Optional[NPCInstance]:

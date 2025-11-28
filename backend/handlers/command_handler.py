@@ -6,6 +6,16 @@ from backend.models.character import Character
 from backend.game.world.world_manager import WorldManager
 from backend.game.engines.combat.manager import CombatManager
 
+# NOVO: Comandos de Lore (Importação no Topo conforme solicitado)
+try:
+    from backend.game.commands.lore import (
+        cmd_lendas, cmd_ouvir, cmd_reputacao, cmd_mitos
+    )
+except ImportError:
+    # Fallback silencioso para não quebrar o servidor se o arquivo lore.py ainda não existir
+    cmd_lendas = cmd_ouvir = cmd_reputacao = cmd_mitos = None
+    pass
+
 logger = logging.getLogger(__name__)
 
 class CommandContext:
@@ -25,31 +35,39 @@ class CommandHandler:
         self._register_defaults()
 
     def register(self, keyword: str, func: Callable, aliases: List[str] = None):
+        """Registra um comando e seus sinônimos."""
+        if not func: return # Proteção contra funções nulas
+        
         self.commands[keyword.lower()] = func
         if aliases:
             for alias in aliases:
                 self.aliases[alias.lower()] = keyword.lower()
 
     def _register_defaults(self):
-        # Importação tardia
+        # Importação tardia dos comandos Core para evitar ciclo
         from backend.game.commands.core import (
             cmd_look, cmd_move, cmd_inventory, cmd_equipment, cmd_kill,
-            cmd_get, cmd_drop # <--- NOVOS IMPORTS
+            cmd_get, cmd_drop
         )
+        # Importação tardia de Progressão
+        from backend.game.commands.progression import cmd_remort
         
-        # Básicos
+        # --- BÁSICOS ---
         self.register("olhar", cmd_look, ["l", "look", "ver"])
         self.register("inventario", cmd_inventory, ["i", "inv", "mochila"])
         self.register("equipamento", cmd_equipment, ["eq", "equip"])
         
-        # Itens (NOVOS)
+        # --- ITENS ---
         self.register("pegar", cmd_get, ["get", "take", "coletar"])
         self.register("largar", cmd_drop, ["drop", "soltar"])
 
-        # Combate
+        # --- COMBATE ---
         self.register("matar", cmd_kill, ["k", "kill", "atacar"])
 
-        # Movimento
+        # --- PROGRESSÃO ---
+        self.register("renascer", cmd_remort, ["remort", "ascender"])
+
+        # --- MOVIMENTO ---
         dirs = {
             "norte": "north", "sul": "south", "leste": "east", "oeste": "west",
             "nordeste": "northeast", "noroeste": "northwest",
@@ -58,6 +76,13 @@ class CommandHandler:
         }
         for pt, en in dirs.items():
             self.register(pt, lambda ctx, d=en: cmd_move(ctx, d), [pt[0], en, en[0]])
+
+        # --- LORE (NOVO) ---
+        if cmd_lendas: # Só registra se o import funcionou
+            self.register("lendas", cmd_lendas, ["legends", "histórias"])
+            self.register("ouvir", cmd_ouvir, ["listen", "escutar"])
+            self.register("reputacao", cmd_reputacao, ["rep", "fama"])
+            self.register("mitos", cmd_mitos, ["myths", "grimorio"])
 
     async def process(self, player_id: str, command_text: str) -> str:
         player = self.world.get_player(player_id)
@@ -81,4 +106,4 @@ class CommandHandler:
                 return func(ctx)
         except Exception as e:
             logger.error(f"Erro cmd '{command_text}': {e}", exc_info=True)
-            return "Algo deu errado."
+            return "Algo deu errado no tecido da realidade."

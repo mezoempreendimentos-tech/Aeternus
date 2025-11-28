@@ -4,7 +4,7 @@ import logging
 import time
 import json
 from pathlib import Path
-from typing import Callable, List
+from typing import Callable, List, Optional
 from .calendar import GameDate, GAME_SECONDS_PER_DAY, MONTHS_PER_YEAR, DAYS_PER_MONTH, TIME_MULTIPLIER
 
 logger = logging.getLogger(__name__)
@@ -16,7 +16,7 @@ class TimeEngine:
     O Relógio do Mundo.
     Agora com persistência: o tempo avança mesmo com o servidor offline.
     """
-    def __init__(self):
+    def __init__(self, world_manager=None):
         # Momento exato que ESTA sessão do servidor iniciou
         self.session_start_real_time = time.time()
         
@@ -29,6 +29,13 @@ class TimeEngine:
         self.combat_subscribers: List[Callable] = []
         self.global_subscribers: List[Callable] = []
         self._running = False
+        
+        # Referência ao Mundo (Para eventos de Grimório)
+        self.world = world_manager
+
+    def set_world_manager(self, world_manager):
+        """Permite injetar o WorldManager tardiamente se necessário."""
+        self.world = world_manager
 
     def load_state(self):
         """
@@ -116,10 +123,9 @@ class TimeEngine:
 
     async def start_loop(self):
         """Inicia os loops."""
-        self.load_state() # <--- Carrega antes de iniciar
+        self.load_state() 
         self._running = True
         
-        # Salva o estado periodicamente (auto-save a cada 5 min) para evitar perda em crash
         asyncio.create_task(self._auto_save_loop())
         asyncio.create_task(self._combat_tick_loop())
         asyncio.create_task(self._global_tick_loop())
@@ -129,14 +135,11 @@ class TimeEngine:
             await asyncio.sleep(300) # 5 minutos
             self.save_state()
 
-    # ... (Mantenha _combat_tick_loop e _global_tick_loop iguais ao anterior) ...
-    
     async def _combat_tick_loop(self):
         while self._running:
             start_time = time.time()
             for callback in self.combat_subscribers:
                 try:
-                    # Verifica se é corrotina antes de await
                     if asyncio.iscoroutinefunction(callback):
                         await callback()
                     else:
@@ -148,12 +151,15 @@ class TimeEngine:
             await asyncio.sleep(max(0, 2.0 - elapsed))
 
     async def _global_tick_loop(self):
+        """O batimento cardíaco lento do mundo (10s)."""
+        # Contador para eventos menos frequentes (ex: lendas a cada 3 ticks = 30s)
+        tick_count = 0
+        
         while self._running:
             start_time = time.time()
             current_date = self.get_current_date()
             
-            # self._check_special_events(current_date)
-            
+            # Callbacks padrão
             for callback in self.global_subscribers:
                 try:
                     if asyncio.iscoroutinefunction(callback):
@@ -163,6 +169,14 @@ class TimeEngine:
                 except Exception as e:
                     logger.error(f"Erro Global Tick: {e}")
             
+            # NOVO: Propagação de Lendas (A cada 3 ticks / ~30s)
+            tick_count += 1
+            if tick_count >= 3:
+                tick_count = 0
+                if self.world and hasattr(self.world, 'grimoire') and self.world.grimoire:
+                    # Executa em background para não travar o loop
+                    asyncio.create_task(self.world.grimoire.spread_legend_naturally())
+
             elapsed = time.time() - start_time
             await asyncio.sleep(max(0, 10.0 - elapsed))
             
