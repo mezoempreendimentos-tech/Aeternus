@@ -1,0 +1,19 @@
+{
+  "survival_forage": {
+    "vnum": 1001,
+    "name": "Coleta",
+    "description": "Encontra comida e água em ambientes naturais. [TUTORIAL: Use para recuperar Stamina.]",
+    "type": "survival",
+    "cooldown": 10.0,
+    "stamina_cost": 15
+  },
+  "basic_camp": {
+    "vnum": 1002,
+    "name": "Acampamento",
+    "description": "Cria uma fogueira segura. [TUTORIAL: Sente-se perto dela para regenerar HP/Mana rápido.]",
+    "type": "survival",
+    "cooldown": 300.0,
+    "stamina_cost": 50,
+    "requirements": { "item_in_inventory": "wood_logs" }
+  }
+}
