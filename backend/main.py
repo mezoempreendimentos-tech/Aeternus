@@ -2,192 +2,126 @@
 import asyncio
 import logging
 from contextlib import asynccontextmanager
-from typing import Optional
-
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
+from sqlalchemy.orm import Session
 
-# --- CONFIG & UTILS ---
-from backend.config.server_config import HOST, PORT, LOG_LEVEL
+from backend.config.server_config import HOST, PORT
 from backend.utils.logger import logger
-
-# --- MOTORES DO JOGO ---
+from backend.db.base import get_db
+from backend.db.queries import get_player_by_id, save_player_state
 from backend.game.world.world_manager import WorldManager
 from backend.game.engines.time.manager import TimeEngine
-from backend.game.engines.ai.nemesis import NemesisEngine
-from backend.game.engines.ai.ecosystem import EcosystemEngine
 from backend.game.engines.combat.manager import CombatManager
 from backend.handlers.command_handler import CommandHandler
-
-# --- MODELOS ---
-from backend.models.character import Character
-
-# ============================================================================
-# CICLO DE VIDA (LIFESPAN)
-# ============================================================================
+from backend.models.player import Player 
+from backend.models.item import ItemInstance # Importante!
+from backend.api.telnet import TelnetServer
+from backend.api.routes import router as api_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """
-    O 'Big Bang' do Universo Aeternus.
-    Inicializa todos os sistemas na ordem correta de dependência.
-    """
-    logger.info("⚡ INICIANDO O SERVIDOR AETERNUS MUD ⚡")
+    logger.info(">>> INICIANDO AETERNUS MUD (v0.8 - Inventário Real) <<<")
     
-    # 1. WORLD MANAGER (O Palco)
-    # Carrega VNUMs, Templates e cria as Salas estáticas
     world_manager = WorldManager()
-    await world_manager.start_up()
-    
-    # 2. AI ENGINES (A Vida de Fundo)
-    # Nemesis controla evolução individual, Ecosystem controla a cadeia alimentar
-    nemesis_engine = NemesisEngine()
-    ecosystem_engine = EcosystemEngine(world_manager, nemesis_engine)
-    
-    # 3. COMBAT ENGINE (O Juiz da Dor)
-    # Gerencia turnos, dano e sessões de luta
-    combat_manager = CombatManager(world_manager)
-    
-    # 4. TIME ENGINE (O Relógio)
-    # Controla dias, meses, estações e persistência (save/load)
     time_engine = TimeEngine()
-    
-    # 5. COMMAND HANDLER (A Interação)
-    # Traduz texto ("norte", "matar") em funções do jogo
-    # Injetamos o combat_manager para permitir o comando 'matar'
+    combat_manager = CombatManager(world_manager)
     command_handler = CommandHandler(world_manager, combat_manager)
     
-    # 6. WIRING (Conexões Neurais)
-    # Conecta o 'Heartbeat' do tempo aos motores que precisam rodar periodicamente
+    await world_manager.start_up()
     
-    # A cada 10s (Tick Global): O Ecossistema roda
-    time_engine.register_global_subscriber(ecosystem_engine.run_simulation_cycle)
-    
-    # A cada 2s (Tick Combate): Resolve os rounds de batalha
     time_engine.register_combat_subscriber(combat_manager.process_round)
-    
-    # Log periódico do tempo de jogo (debug visual)
-    async def log_game_status(date):
-        combat_count = len(combat_manager.sessions)
-        if combat_count > 0:
-            logger.info(f"⏳ Tempo: {date} | Combates: {combat_count} 🔥")
-        # else:
-            # logger.debug(f"⏳ Tempo: {date}")
-            
-    time_engine.register_global_subscriber(log_game_status)
-    
-    # 7. INÍCIO DO LOOP
-    # O time_engine carrega o save (gamestate.json) automaticamente aqui
     await time_engine.start_loop()
     
-    # 8. EXPORTA PARA O ESTADO DA APP (Para rotas acessarem)
     app.state.world = world_manager
-    app.state.time = time_engine
     app.state.combat = combat_manager
+    app.state.time = time_engine
     app.state.command_handler = command_handler
     
-    # --- CRIAÇÃO DE PERSONAGEM DE TESTE (ADMIN) ---
-    if world_manager.rooms:
-        # Pega a primeira sala disponível
-        start_vnum = list(world_manager.rooms.keys())[0]
-        
-        # Cria char Admin apenas se não houver persistência de player (futuro)
-        admin_char = Character(
-            id=1,
-            player_id=1,
-            name="Criador",
-            race_id="human_imperium",
-            class_id="iron_vanguard",
-            location_vnum=start_vnum
-        )
-        # Equipamentos de teste (opcional)
-        # admin_char.equipment['main_hand'] = "some_uuid"
-        
-        world_manager.add_player(admin_char)
-        logger.info(f"🧙 CHAR DE TESTE CRIADO: 'Criador' (ID 1) na Sala {start_vnum}")
-    else:
-        logger.warning("⚠️ Nenhuma sala carregada! Verifique data/rooms.json.")
-
-    logger.info("✅ AETERNUS ONLINE. O mundo respira.")
+    telnet_server = TelnetServer(world_manager, command_handler)
+    asyncio.create_task(telnet_server.start())
     
-    yield # O servidor roda aqui...
+    # Tarefa de Auto-Save de Players
+    async def auto_save_players():
+        while True:
+            await asyncio.sleep(60) # A cada 1 minuto
+            logger.info("Salvando jogadores...")
+            db = next(get_db())
+            try:
+                for pid, char in world_manager.players.items():
+                    # 1. Serializar Inventário
+                    inv_data = []
+                    for item_uid in char.inventory:
+                        item = world_manager.get_item(item_uid)
+                        if item:
+                            inv_data.append(item.__dict__) # Serializa dataclass
+                    
+                    # 2. Salvar no Banco
+                    save_player_state(
+                        db, pid, char.location_vnum, 
+                        char.get_stats_dict(), char.level, char.experience,
+                        inv_data
+                    )
+            except Exception as e:
+                logger.error(f"Erro auto-save: {e}")
+            finally:
+                db.close()
+                
+    asyncio.create_task(auto_save_players())
     
-    # --- SHUTDOWN ---
-    logger.info("🛑 DESLIGANDO SERVIDOR...")
-    
-    # Salva o estado do tempo
+    logger.info("[OK] SISTEMAS ONLINE.")
+    yield
+    logger.info("[STOP] DESLIGANDO...")
     time_engine.save_state()
-    logger.info("💾 Tempo salvo.")
 
-# ============================================================================
-# APP FASTAPI
-# ============================================================================
-
-app = FastAPI(
-    title="AETERNUS MUD",
-    description="Engine de MUD com Ecossistema Vivo, Combate Tático e Tempo Persistente.",
-    version="0.5.0",
-    lifespan=lifespan
-)
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# ============================================================================
-# ENDPOINTS
-# ============================================================================
+app = FastAPI(title="AETERNUS MUD", version="0.8.0", lifespan=lifespan)
+app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.include_router(api_router, prefix="/api")
 
 class CommandRequest(BaseModel):
-    player_id: int
+    player_id: str  
     command: str
 
 @app.post("/api/command")
-async def execute_command(req: CommandRequest):
-    """
-    Endpoint principal de jogo.
-    Envia comandos textuais e recebe a resposta processada.
-    """
-    if not hasattr(app.state, "command_handler"):
-        raise HTTPException(status_code=503, detail="Game loading")
-        
-    handler: CommandHandler = app.state.command_handler
+async def execute_command(req: CommandRequest, db: Session = Depends(get_db)):
+    handler = app.state.command_handler
+    world = app.state.world
     
-    # Processa o comando
-    response_text = await handler.process(req.player_id, req.command)
+    player = world.get_player(req.player_id)
     
-    return {"response": response_text}
+    # LAZY LOADING (Hidratação)
+    if not player:
+        db_player = get_player_by_id(db, req.player_id)
+        if db_player:
+            # 1. Carrega Player Básico
+            player_instance = Player.from_orm(db_player)
+            
+            # 2. Hidrata Itens do Inventário
+            # O Banco tem uma lista de dicionários. O Mundo precisa de Objetos ItemInstance.
+            real_inventory_uids = []
+            if db_player.inventory:
+                for item_dict in db_player.inventory:
+                    # Recria o objeto ItemInstance
+                    # Filtrar chaves que não existem no __init__ se necessário, mas dataclass é flexível
+                    try:
+                        item = ItemInstance(**item_dict)
+                        # Registra no Mundo
+                        world.active_items[item.uid] = item
+                        real_inventory_uids.append(item.uid)
+                    except Exception as e:
+                        logger.error(f"Falha ao hidratar item: {e}")
+            
+            # 3. Corrige a lista do player para ter apenas UIDs
+            player_instance.inventory = real_inventory_uids
+            
+            world.add_player(player_instance)
+        else:
+            raise HTTPException(status_code=404, detail="Personagem nao encontrado.")
 
-@app.get("/status")
-async def game_status():
-    """Painel de Controle."""
-    if not hasattr(app.state, "time"):
-        return {"status": "loading"}
-    
-    world: WorldManager = app.state.world
-    combat: CombatManager = app.state.combat
-    current_date = app.state.time.get_current_date()
-    
-    return {
-        "status": "online",
-        "game_time": str(current_date),
-        "season": current_date.season_name,
-        "metrics": {
-            "rooms_loaded": len(world.rooms),
-            "players_online": len(world.players),
-            "active_npcs": len(world.active_npcs),
-            "active_items": len(world.active_items),
-            "active_combats": len(combat.sessions),
-            "zones_active": len(world.zone_states)
-        }
-    }
+    response_text = await handler.process(req.player_id, req.command)
+    return {"response": response_text}
 
 if __name__ == "__main__":
     import uvicorn
-    # Roda o servidor
     uvicorn.run("backend.main:app", host=HOST, port=PORT, reload=True)

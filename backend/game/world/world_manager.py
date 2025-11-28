@@ -8,7 +8,6 @@ from backend.models.room import Room
 from backend.models.character import Character
 from backend.models.npc import NPCInstance
 from backend.models.item import ItemInstance
-from backend.models.area import Area, AreaEcology # Se criamos o arquivo area.py, importamos aqui. Se não, usamos dict simples.
 from backend.game.utils.vnum import VNum
 
 logger = logging.getLogger(__name__)
@@ -26,12 +25,11 @@ class WorldManager:
         self.rooms: Dict[int, Room] = {}          # VNUM -> Room Object
         
         # Entidades Ativas (Na memória RAM)
-        self.players: Dict[int, Character] = {}   # PlayerID -> Character Object
+        self.players: Dict[str, Character] = {}   # PlayerID (str) -> Character Object
         self.active_npcs: Dict[str, NPCInstance] = {}    # UUID -> NPC Object
         self.active_items: Dict[str, ItemInstance] = {}  # UUID -> Item Object
         
         # Estado das Zonas (Ecossistema)
-        # ZoneID (int) -> Dict com dados do Alpha, nível de ameaça, etc.
         self.zone_states: Dict[int, Dict[str, Any]] = {}
 
         # Estado Global
@@ -49,6 +47,25 @@ class WorldManager:
         
         # 3. Inicializa Estados de Zona
         self._init_zones()
+        
+        # --- DEBUG: POPULAR SALA DE TESTE ---
+        # Spawna a 'Espada de Debug' (VNUM 100001) na Sala Inicial (100001)
+        # para testar o sistema de inventário.
+        start_room_vnum = 100001
+        debug_item_vnum = 100001
+        
+        if start_room_vnum in self.rooms:
+            # Spawna Item
+            item = self.spawn_item(debug_item_vnum, start_room_vnum)
+            if item:
+                logger.info(f"⚔️ DEBUG: {item.custom_name or 'Item'} spawnado na sala {start_room_vnum}.")
+            
+            # Spawna NPC (Rato) para garantir que há vida
+            mob = self.spawn_npc(100001, start_room_vnum)
+            if mob:
+                logger.info(f"🐀 DEBUG: {mob.name} spawnado na sala {start_room_vnum}.")
+        else:
+            logger.warning("⚠️ Sala de Teste 100001 não encontrada! Verifique rooms.json.")
         
         logger.info("WorldManager: Mundo online.")
 
@@ -69,13 +86,16 @@ class WorldManager:
     # =========================================================================
 
     def get_room(self, vnum: int) -> Optional[Room]:
-        return self.rooms.get(vnum)
+        return self.rooms.get(int(vnum))
 
-    def get_player(self, player_id: int) -> Optional[Character]:
-        return self.players.get(player_id)
+    def get_player(self, player_id: str) -> Optional[Character]:
+        return self.players.get(str(player_id))
 
     def get_npc(self, uid: str) -> Optional[NPCInstance]:
         return self.active_npcs.get(uid)
+        
+    def get_item(self, uid: str) -> Optional[ItemInstance]:
+        return self.active_items.get(uid)
 
     def add_player(self, character: Character):
         """Loga o jogador no mundo."""
@@ -88,11 +108,10 @@ class WorldManager:
                 room.players_here.append(character.id)
         else:
             logger.error(f"Jogador {character.name} logou em sala inexistente: {character.location_vnum}")
-            # Fallback para sala inicial segura (ex: 100001 ou 3001 legacy)
-            character.location_vnum = 1 # Exemplo
-            # Lógica de fallback real necessária aqui
+            # Fallback para sala inicial segura
+            character.location_vnum = 100001 
 
-    def remove_player(self, player_id: int):
+    def remove_player(self, player_id: str):
         """Desloga o jogador (apenas da memória do mundo)."""
         char = self.players.get(player_id)
         if char:
@@ -141,14 +160,7 @@ class WorldManager:
         if room and uid in room.npcs_here:
             room.npcs_here.remove(uid)
         
-        # Se era o Alpha, a zona fica órfã
-        zone_id, _ = VNum.parse(npc.room_vnum)
-        zone = self.zone_states.get(zone_id)
-        if zone and zone["current_alpha_uid"] == uid:
-            zone["current_alpha_uid"] = None
-            zone["alpha_title"] = None
-            # Broadcast para a zona inteira poderia ocorrer aqui: "O Tirano caiu!"
-
+        # Se era o Alpha, a zona fica órfã (Lógica simplificada)
         del self.active_npcs[uid]
 
     def spawn_item(self, template_vnum: int, room_vnum: int) -> Optional[ItemInstance]:
@@ -169,7 +181,7 @@ class WorldManager:
     # MOVIMENTAÇÃO
     # =========================================================================
 
-    def move_character(self, player_id: int, target_vnum: int) -> bool:
+    def move_character(self, player_id: str, target_vnum: int) -> bool:
         """
         Move um jogador de uma sala para outra.
         Retorna True se sucesso.
@@ -211,7 +223,59 @@ class WorldManager:
         return True
 
     # =========================================================================
-    # ECOSSISTEMA E ZONAS
+    # SISTEMA DE INVENTÁRIO
+    # =========================================================================
+    
+    def pick_up_item(self, player_id: str, item_uid: str) -> bool:
+        """Transfere item do CHÃO para o INVENTÁRIO."""
+        player = self.get_player(player_id)
+        item = self.get_item(item_uid)
+        room = self.get_room(player.location_vnum)
+
+        if not player or not item or not room:
+            return False
+            
+        # Validação: Item está mesmo na sala?
+        if item_uid not in room.items_here:
+            return False
+
+        # 1. Remove da Sala
+        room.items_here.remove(item_uid)
+        item.room_vnum = None
+        
+        # 2. Adiciona ao Player
+        player.inventory.append(item_uid)
+        item.owner_character_id = player_id
+        item.container_uid = "inventory"
+        
+        return True
+
+    def drop_item(self, player_id: str, item_uid: str) -> bool:
+        """Transfere item do INVENTÁRIO para o CHÃO."""
+        player = self.get_player(player_id)
+        item = self.get_item(item_uid)
+        room = self.get_room(player.location_vnum)
+
+        if not player or not item or not room:
+            return False
+
+        # Validação: Item está com o player?
+        if item_uid not in player.inventory:
+            return False
+
+        # 1. Remove do Player
+        player.inventory.remove(item_uid)
+        item.owner_character_id = None
+        item.container_uid = None
+        
+        # 2. Adiciona à Sala
+        room.items_here.append(item_uid)
+        item.room_vnum = room.vnum
+        
+        return True
+
+    # =========================================================================
+    # ECOSSISTEMA E ZONAS (Stubs por enquanto)
     # =========================================================================
 
     def get_zone_alpha(self, zone_id: int) -> Optional[NPCInstance]:
@@ -226,5 +290,4 @@ class WorldManager:
         if zone_id in self.zone_states:
             self.zone_states[zone_id]["current_alpha_uid"] = npc.uid
             self.zone_states[zone_id]["alpha_title"] = npc.full_name
-            # Aqui poderíamos aumentar o threat_level da zona
             self.zone_states[zone_id]["threat_level"] += 1
