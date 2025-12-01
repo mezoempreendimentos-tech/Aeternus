@@ -1,34 +1,23 @@
 # backend/handlers/command_handler.py
 import logging
 import inspect
-from typing import List, Dict, Callable
+from typing import List, Dict, Callable, Optional
 from backend.models.character import Character
 from backend.game.world.world_manager import WorldManager
 from backend.game.engines.combat.manager import CombatManager
-from backend.game.commands.core import cmd_look, cmd_move, cmd_inventory, cmd_equipment, cmd_kill
 
-# --- IMPORTAÇÕES DE MÓDULOS OPCIONAIS ---
-# Lore
-try:
-    from backend.game.commands.lore import (
-        cmd_lendas, cmd_ouvir, cmd_reputacao, cmd_mitos
-    )
-except ImportError:
-    cmd_lendas = cmd_ouvir = cmd_reputacao = cmd_mitos = None
-
-# [NOVO] Ecologia
-try:
-    from backend.game.commands.ecology import (
-        register_ecology_commands
-    )
-    ECOLOGY_AVAILABLE = True
-except ImportError:
-    ECOLOGY_AVAILABLE = False
-# ----------------------------------------
+# Imports dos Comandos
+from backend.game.commands.core import (
+    cmd_look, cmd_move, cmd_inventory, cmd_equipment, cmd_kill
+)
+from backend.game.commands.progression import cmd_remort
+from backend.game.commands.magic_commands import register_magic_commands
+from backend.game.commands.catalyst_commands import register_catalyst_commands
 
 logger = logging.getLogger(__name__)
 
 class CommandContext:
+    """O envelope de execução, contendo Mundo, Combate e Player."""
     def __init__(self, manager: WorldManager, combat: CombatManager, player: Character, args: List[str], raw: str):
         self.world = manager
         self.combat = combat
@@ -51,39 +40,50 @@ class CommandHandler:
                 self.aliases[alias.lower()] = keyword.lower()
 
     def _register_defaults(self):
-        # Comandos Básicos
+        # --- COMANDOS BÁSICOS ---
         self.register("olhar", cmd_look, ["l", "look", "ver"])
         self.register("inventario", cmd_inventory, ["i", "inv", "mochila"])
         self.register("equipamento", cmd_equipment, ["eq", "equip"])
+        
+        # --- COMBATE ---
         self.register("matar", cmd_kill, ["k", "kill", "atacar"])
 
-        # Movimento
-        dirs = {
-            "norte": "north", "sul": "south", "leste": "east", "oeste": "west",
-            "nordeste": "northeast", "noroeste": "northwest", "sudeste": "southeast", "sudoeste": "southwest",
-            "subir": "up", "descer": "down"
-        }
-        for pt, en in dirs.items():
-            self.register(pt, lambda ctx, d=en: cmd_move(ctx, d), [pt[0], en, en[0]])
+        # --- PROGRESSÃO ---
+        self.register("renascer", cmd_remort, ["remort", "evoluir", "ascender"])
 
-        # --- LORE ---
-        if cmd_lendas:
-            self.register("lendas", cmd_lendas, ["legends", "histórias"])
-            self.register("ouvir", cmd_ouvir, ["listen", "escutar"])
-            self.register("reputacao", cmd_reputacao, ["rep", "fama"])
-            self.register("mitos", cmd_mitos, ["myths", "grimorio"])
+        # --- MOVIMENTAÇÃO ---
+        self.register("norte", lambda ctx: cmd_move(ctx, "north"), ["n", "north"])
+        self.register("sul", lambda ctx: cmd_move(ctx, "south"), ["s", "south"])
+        self.register("leste", lambda ctx: cmd_move(ctx, "east"), ["e", "east", "l"])
+        self.register("oeste", lambda ctx: cmd_move(ctx, "west"), ["w", "west", "o"])
+        self.register("nordeste", lambda ctx: cmd_move(ctx, "northeast"), ["ne"])
+        self.register("noroeste", lambda ctx: cmd_move(ctx, "northwest"), ["nw", "no"])
+        self.register("sudeste", lambda ctx: cmd_move(ctx, "southeast"), ["se"])
+        self.register("sudoeste", lambda ctx: cmd_move(ctx, "southwest"), ["sw", "so"])
+        self.register("subir", lambda ctx: cmd_move(ctx, "up"), ["u", "up"])
+        self.register("descer", lambda ctx: cmd_move(ctx, "down"), ["d", "down"])
 
-        # --- [NOVO] ECOLOGIA ---
-        if ECOLOGY_AVAILABLE:
-            register_ecology_commands(self)
-            logger.info("🌿 Comandos Ecológicos: REGISTRADOS")
-        else:
-            logger.warning("⚠️ Módulo de Comandos Ecológicos não encontrado.")
+        # --- MAGIA E ALQUIMIA ---
+        register_magic_commands(self)
+        register_catalyst_commands(self)
 
-    async def process(self, player_id: str, command_text: str) -> str:
-        player = self.world.get_player(player_id)
+    async def process(self, player_id: int, command_text: str) -> str:
+        # Nota: player_id vem como int do endpoint, mas no sistema interno usamos str para UUID
+        # Se seu sistema usa int, converta aqui. Se usa str, ok.
+        # Assumindo conversão segura para str para compatibilidade com o novo sistema
+        str_player_id = str(player_id)
+        
+        player = self.world.get_player(str_player_id)
         if not player: return "Erro: Player não encontrado."
         if not command_text.strip(): return ""
+
+        # --- INTERCEPTAÇÃO DE PESQUISA (NOVO) ---
+        # Se o jogador está no meio de uma pesquisa, o input vai para o CatalystSystem
+        # e ignora todos os outros comandos.
+        magic_session = self.world.magic_manager.get_player_research_session(str_player_id)
+        if magic_session:
+            return self.world.magic_manager.catalyst_system.handle_input(player, command_text)
+        # ----------------------------------------
 
         parts = command_text.split()
         keyword = parts[0].lower()

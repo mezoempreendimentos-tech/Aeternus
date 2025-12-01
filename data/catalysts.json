@@ -1,0 +1,32 @@
+{
+  "salamander_tail": {
+    "name": "Cauda de Salamandra",
+    "description": "Quente ao toque.",
+    "type": "organ",
+    "rarity": "uncommon",
+    "affinities": ["fire"],
+    "stability_bonus": 0.1,
+    "enhances": {"damage_bonus": 10},
+    "is_consumed": true
+  },
+  "water_sphere": {
+    "name": "Esfera de Água",
+    "description": "Pura e fria.",
+    "type": "essence",
+    "rarity": "rare",
+    "affinities": ["water"],
+    "stability_bonus": 0.3,
+    "enhances": {"duration": 5},
+    "is_consumed": true
+  },
+  "void_dust": {
+    "name": "Poeira do Vazio",
+    "description": "Instável.",
+    "type": "reagent",
+    "rarity": "epic",
+    "affinities": ["shadow", "void"],
+    "stability_bonus": -0.5,
+    "enhances": {"damage_bonus": 50},
+    "is_consumed": true
+  }
+}
