@@ -20,83 +20,77 @@ from backend.models.item import ItemInstance
 from backend.api.telnet import TelnetServer
 from backend.api.routes import router as api_router
 
+# [NOVO] Importações de IA e Ecologia
+from backend.ai.ollama_service import OllamaService
+from backend.game.engines.ecology.ecology_engine import EcologyEngine
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    logger.info(">>> INICIANDO AETERNUS MUD (v0.9 - Grimório & Lendas) <<<")
+    logger.info(">>> INICIANDO AETERNUS MUD (v1.0 - Grimório & Ecologia Viva) <<<")
     
-    # 1. Instancia Motores
+    # 1. Instancia Motores Básicos
     world_manager = WorldManager()
     time_engine = TimeEngine()
     
-    # WIRING: Conecta o Mundo ao Tempo (Crucial para propagação de lendas)
-    # Isso permite que o TimeEngine chame world.grimoire.spread_legend_naturally()
+    # 2. IA Service (Ollama) - Tentativa de conexão
+    try:
+        ollama_service = OllamaService()
+        logger.info("🧠 IA Neural (Ollama): ONLINE")
+    except Exception as e:
+        logger.warning(f"🧠 IA Neural (Ollama): OFFLINE ({e}) - Usando fallback lógico.")
+        ollama_service = None
+
+    # 3. WIRING: Conecta o Mundo ao Tempo
     time_engine.set_world_manager(world_manager)
     
+    # 4. [NOVO] Instancia Motor Ecológico e Injeta no Mundo
+    # O Grimoire reside dentro do world_manager nas versões recentes, passamos ele se existir
+    grimoire_ref = getattr(world_manager, 'grimoire', None)
+    
+    ecology_engine = EcologyEngine(
+        world_manager=world_manager,
+        time_engine=time_engine,
+        grimoire_engine=grimoire_ref,
+        ollama_service=ollama_service
+    )
+    # Torna a ecologia acessível globalmente via world_manager
+    world_manager.ecology = ecology_engine
+    
+    # Registra o "Tick Ecológico" no relógio do tempo
+    time_engine.register_global_subscriber(ecology_engine.run_ecology_tick)
+    logger.info("🌿 Ecossistema: SINCRONIZADO")
+
+    # 5. Motores de Jogo
     combat_manager = CombatManager(world_manager)
     command_handler = CommandHandler(world_manager, combat_manager)
     
-    # 2. Carrega Dados
+    # 6. Salva referências no estado da App
+    app.state.world = world_manager
+    app.state.time = time_engine
+    app.state.combat = combat_manager
+    app.state.command_handler = command_handler
+    app.state.ecology = ecology_engine # Opcional, para acesso via API se precisar
+    
+    # 7. Inicialização do Mundo (Carrega JSONs)
     await world_manager.start_up()
     
-    # 3. Loops
-    time_engine.register_combat_subscriber(combat_manager.process_round)
-    await time_engine.start_loop()
+    # 8. Loop de Tempo
+    asyncio.create_task(time_engine.start_loop())
     
-    # 4. State Injection
-    app.state.world = world_manager
-    app.state.combat = combat_manager
-    app.state.time = time_engine
-    app.state.command_handler = command_handler
-    
-    # 5. Telnet
-    telnet_server = TelnetServer(world_manager, command_handler)
+    # 9. Servidor Telnet
+    telnet_server = TelnetServer(host="0.0.0.0", port=4000, command_handler=command_handler)
     asyncio.create_task(telnet_server.start())
+    logger.info("🚪 PORTAL TELNET ABERTO na porta 4000")
     
-    # 6. Auto-Save Players
-    async def auto_save_players():
-        while True:
-            await asyncio.sleep(60)
-            db = next(get_db())
-            try:
-                for pid, char in world_manager.players.items():
-                    inv_data = []
-                    for item_uid in char.inventory:
-                        item = world_manager.get_item(item_uid)
-                        if item: inv_data.append(item.__dict__)
-                    
-                    save_player_state(
-                        db, pid, char.location_vnum, 
-                        char.get_stats_dict(), char.level, char.experience,
-                        inv_data
-                    )
-            except Exception as e:
-                logger.error(f"Erro auto-save: {e}")
-            finally:
-                db.close()
-                
-    asyncio.create_task(auto_save_players())
-    
-    logger.info("[OK] AETERNUS ONLINE.")
-    
-    # --- O SERVIDOR RODA AQUI ---
     yield
-    # --- DESLIGAMENTO ---
     
-    # NOVO: Salva grimório antes de desligar
-    logger.info("[STOP] Salvando Grimório...")
-    if hasattr(world_manager, 'grimoire') and world_manager.grimoire:
-        try:
-            # Nota: Certifique-se que implementou save_grimoire() no GrimoireEngine
-            world_manager.grimoire.save_grimoire()
-        except AttributeError:
-            logger.warning("GrimoireEngine: Método save_grimoire não encontrado (ainda não implementado?).")
-        except Exception as e:
-            logger.error(f"Erro ao salvar Grimório: {e}")
-    
-    logger.info("[STOP] DESLIGANDO...")
-    time_engine.save_state()
+    # SHUTDOWN
+    logger.info("🛑 DESLIGANDO AETERNUS...")
+    # Aqui poderia ter time_engine.stop() ou similar
 
-app = FastAPI(title="AETERNUS MUD", version="0.9.0", lifespan=lifespan)
+app = FastAPI(lifespan=lifespan)
+
+# CORS
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 app.include_router(api_router, prefix="/api")
 
@@ -136,4 +130,4 @@ async def execute_command(req: CommandRequest, db: Session = Depends(get_db)):
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("backend.main:app", host=HOST, port=PORT, reload=True)
+    uvicorn.run(app, host=HOST, port=PORT)

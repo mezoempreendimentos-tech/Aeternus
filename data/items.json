@@ -1,1 +1,66 @@
-{"100001": {"vnum": 100001, "name": "Espada de Debug", "description": "Corta bugs.", "type": "weapon", "rarity": "common", "slot": "main_hand", "attack_verb": "fatia", "damage": {"min_dmg": 5, "max_dmg": 10, "damage_type": "slash"}, "flags": ["SHARP"]}}
+{
+  "100001": {
+    "vnum": 100001,
+    "name": "Espada de Debug",
+    "description": "Corta bugs e monstros com igual eficiência.",
+    "type": "weapon",
+    "rarity": "common",
+    "slot": "main_hand",
+    "damage": { "min_dmg": 5, "max_dmg": 10, "damage_type": "slash" }
+  },
+  "200001": {
+    "vnum": 200001,
+    "name": "Pele de Coelho",
+    "description": "Pelagem macia. Pode ser curtida.",
+    "type": "crafting",
+    "weight": 0.5,
+    "value": 5,
+    "flags": ["STACKABLE"],
+    "crafting_material": true
+  },
+  "200002": {
+    "vnum": 200002,
+    "name": "Carne Crua Pequena",
+    "description": "Carne fresca de animal pequeno.",
+    "type": "consumable",
+    "weight": 1.0,
+    "value": 8,
+    "flags": ["STACKABLE", "PERISHABLE"]
+  },
+  "200003": {
+    "vnum": 200003,
+    "name": "Carne Crua Grande",
+    "description": "Um pedaço suculento de carne.",
+    "type": "consumable",
+    "weight": 2.0,
+    "value": 15,
+    "flags": ["STACKABLE", "PERISHABLE"]
+  },
+  "200010": {
+    "vnum": 200010,
+    "name": "Rabo de Rato",
+    "description": "Um rabo escamoso e nojento.",
+    "type": "quest",
+    "weight": 0.1,
+    "value": 2,
+    "flags": ["STACKABLE"]
+  },
+  "200020": {
+    "vnum": 200020,
+    "name": "Pele de Lobo",
+    "description": "Pelagem densa e resistente ao frio.",
+    "type": "crafting",
+    "weight": 3.5,
+    "value": 50,
+    "flags": ["STACKABLE"]
+  },
+  "200030": {
+    "vnum": 200030,
+    "name": "Galhada de Cervo",
+    "description": "Ótima para cabos de faca.",
+    "type": "crafting",
+    "weight": 1.5,
+    "value": 30,
+    "flags": ["STACKABLE"]
+  }
+}

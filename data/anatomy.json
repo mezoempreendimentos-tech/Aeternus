@@ -1,1 +1,41 @@
-{"rodent": {"description": "Rato", "parts": [{"id": "body", "name": "o Corpo", "hit_weight": 80, "hp_factor": 0.8, "flags": ["VITAL"]}, {"id": "head", "name": "a Cabe\u00e7a", "hit_weight": 20, "hp_factor": 0.2, "flags": ["VITAL"]}]}, "humanoid": {"description": "Humanoide Padr\u00e3o", "parts": [{"id": "head", "name": "a Cabe\u00e7a", "hit_weight": 5, "hp_factor": 0.15, "flags": ["VITAL"]}, {"id": "torso", "name": "o Torso", "hit_weight": 45, "hp_factor": 1.0, "flags": ["VITAL"]}, {"id": "right_arm", "name": "o Bra\u00e7o Direito", "hit_weight": 10, "hp_factor": 0.3, "flags": ["SEVERABLE"]}, {"id": "left_arm", "name": "o Bra\u00e7o Esquerdo", "hit_weight": 10, "hp_factor": 0.3, "flags": ["SEVERABLE"]}, {"id": "legs", "name": "as Pernas", "hit_weight": 30, "hp_factor": 0.4, "flags": ["MOVEMENT"]}]}}
+{
+  "humanoid": {
+    "description": "Humanoide Padrão",
+    "parts": [
+      { "id": "head", "name": "a Cabeça", "hit_weight": 5, "hp_factor": 0.15, "flags": ["VITAL", "VULNERABLE"] },
+      { "id": "torso", "name": "o Torso", "hit_weight": 45, "hp_factor": 1.0, "flags": ["VITAL"] },
+      { "id": "right_arm", "name": "o Braço Direito", "hit_weight": 10, "hp_factor": 0.25, "flags": ["SEVERABLE", "MANIPULATION"] },
+      { "id": "left_arm", "name": "o Braço Esquerdo", "hit_weight": 10, "hp_factor": 0.25, "flags": ["SEVERABLE", "MANIPULATION"] },
+      { "id": "right_leg", "name": "a Perna Direita", "hit_weight": 15, "hp_factor": 0.3, "flags": ["SEVERABLE", "MOVEMENT"] },
+      { "id": "left_leg", "name": "a Perna Esquerda", "hit_weight": 15, "hp_factor": 0.3, "flags": ["SEVERABLE", "MOVEMENT"] }
+    ]
+  },
+  "rodent": {
+    "description": "Roedores (Ratos, Coelhos)",
+    "parts": [
+      { "id": "body", "name": "o Corpo", "hit_weight": 70, "hp_factor": 0.7, "flags": ["VITAL"] },
+      { "id": "head", "name": "a Cabeça", "hit_weight": 20, "hp_factor": 0.2, "flags": ["VITAL", "VULNERABLE"] },
+      { "id": "tail", "name": "a Cauda", "hit_weight": 10, "hp_factor": 0.1, "flags": ["SEVERABLE"] }
+    ]
+  },
+  "quadruped": {
+    "description": "Quadrúpedes (Lobos, Cervos, Javalis)",
+    "parts": [
+      { "id": "head", "name": "a Cabeça", "hit_weight": 10, "hp_factor": 0.2, "flags": ["VITAL", "VULNERABLE"] },
+      { "id": "body", "name": "o Tronco", "hit_weight": 50, "hp_factor": 0.8, "flags": ["VITAL"] },
+      { "id": "front_left_leg", "name": "a Pata Dianteira Esquerda", "hit_weight": 10, "hp_factor": 0.2, "flags": ["SEVERABLE", "MOVEMENT"] },
+      { "id": "front_right_leg", "name": "a Pata Dianteira Direita", "hit_weight": 10, "hp_factor": 0.2, "flags": ["SEVERABLE", "MOVEMENT"] },
+      { "id": "back_left_leg", "name": "a Pata Traseira Esquerda", "hit_weight": 10, "hp_factor": 0.2, "flags": ["SEVERABLE", "MOVEMENT"] },
+      { "id": "back_right_leg", "name": "a Pata Traseira Direita", "hit_weight": 10, "hp_factor": 0.2, "flags": ["SEVERABLE", "MOVEMENT"] }
+    ]
+  },
+  "avian": {
+    "description": "Aves (Faisões, Águias)",
+    "parts": [
+      { "id": "head", "name": "a Cabeça", "hit_weight": 15, "hp_factor": 0.2, "flags": ["VITAL"] },
+      { "id": "body", "name": "o Corpo", "hit_weight": 45, "hp_factor": 0.6, "flags": ["VITAL"] },
+      { "id": "left_wing", "name": "a Asa Esquerda", "hit_weight": 20, "hp_factor": 0.3, "flags": ["SEVERABLE", "FLIGHT"] },
+      { "id": "right_wing", "name": "a Asa Direita", "hit_weight": 20, "hp_factor": 0.3, "flags": ["SEVERABLE", "FLIGHT"] }
+    ]
+  }
+}

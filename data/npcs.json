@@ -1,1 +1,59 @@
-{"100001": {"vnum": 100001, "name": "Rato Gigante de Teste", "description": "Um rato sacrificial.", "level": 1, "base_hp": 30, "body_type": "rodent", "sensory_visual": "Feio.", "flags": ["AGGRESSIVE"], "loot_table": {}, "natural_attacks": [{"name": "Dentes Afiados", "damage_type": "pierce", "verb": "morde", "damage_mult": 1.0}, {"name": "Garras Sujas", "damage_type": "slash", "verb": "arranha", "damage_mult": 0.8}]}}
+{
+  "100001": {
+    "vnum": 100001,
+    "name": "Rato Gigante",
+    "description": "Um rato do tamanho de um cão.",
+    "level": 1,
+    "base_hp": 30,
+    "body_type": "rodent",
+    "flags": ["AGGRESSIVE", "RESOURCE"],
+    "loot_table": { "200010": 1.0 },
+    "natural_attacks": [
+      { "name": "Mordida", "damage_type": "pierce", "damage_mult": 1.0 }
+    ],
+    "resource_config": { "is_resource": true, "species_id": "rat" }
+  },
+  "100010": {
+    "vnum": 100010,
+    "name": "Coelho Selvagem",
+    "description": "Um coelho marrom de orelhas atentas.",
+    "level": 1,
+    "base_hp": 15,
+    "body_type": "rodent",
+    "flags": ["TIMID", "RESOURCE"],
+    "loot_table": { "200001": 0.8, "200002": 1.0 },
+    "natural_attacks": [
+      { "name": "Mordida", "damage_type": "pierce", "damage_mult": 0.2 }
+    ],
+    "resource_config": { "is_resource": true, "species_id": "rabbit" }
+  },
+  "100003": {
+    "vnum": 100003,
+    "name": "Cervo",
+    "description": "Um animal majestoso com galhadas.",
+    "level": 3,
+    "base_hp": 80,
+    "body_type": "quadruped",
+    "flags": ["TIMID", "RESOURCE"],
+    "loot_table": { "200003": 1.0, "200030": 0.5 },
+    "natural_attacks": [
+      { "name": "Chifrada", "damage_type": "blunt", "damage_mult": 0.8 }
+    ],
+    "resource_config": { "is_resource": true, "species_id": "deer" }
+  },
+  "100002": {
+    "vnum": 100002,
+    "name": "Lobo Cinzento",
+    "description": "Um predador de olhos amarelos.",
+    "level": 5,
+    "base_hp": 150,
+    "body_type": "quadruped",
+    "flags": ["AGGRESSIVE", "PREDATOR"],
+    "loot_table": { "200020": 0.6, "200003": 0.8 },
+    "natural_attacks": [
+      { "name": "Mordida", "damage_type": "pierce", "damage_mult": 1.2 },
+      { "name": "Garras", "damage_type": "slash", "damage_mult": 1.0 }
+    ],
+    "resource_config": { "is_resource": false }
+  }
+}
